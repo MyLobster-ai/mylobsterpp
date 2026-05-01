@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts] applies ACP-style overrides while preserving chunk/coalescer bounds",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts:9] applies ACP-style overrides while preserving chunk/coalescer bounds",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-streaming.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts] reuses caller-provided chunking for shared main/subagent/ACP config resolution",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts:27] reuses caller-provided chunking for shared main/subagent/ACP config resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-streaming.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts] honors newline chunkMode for plugin channels even before the plugin registry is loaded",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts:47] honors newline chunkMode for plugin channels even before the plugin registry is loaded",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-streaming.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts] allows ACP maxChunkChars overrides above base defaults up to provider text limits",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-streaming.test.ts:75] allows ACP maxChunkChars overrides above base defaults up to provider text limits",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-streaming.test.ts:75",
                "upstream it() block #3",

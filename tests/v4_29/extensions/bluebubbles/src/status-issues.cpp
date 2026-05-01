@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/status-issues.test.ts] reports unconfigured enabled accounts",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/status-issues.test.ts:5] reports unconfigured enabled accounts",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/status-issues.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/status-issues.test.ts] reports probe failure and runtime error for configured running accounts",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/status-issues.test.ts:23] reports probe failure and runtime error for configured running accounts",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/status-issues.test.ts:23",
                "upstream it() block #1",

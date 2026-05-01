@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/bundled-package-channel-metadata.test.ts] reads doctor capabilities from the resolved bundled plugin dir",
+TEST_CASE("v4.29 [src/plugins/bundled-package-channel-metadata.test.ts:21] reads doctor capabilities from the resolved bundled plugin dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-package-channel-metadata.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-package-channel-metadata.test.ts] reflects package channel metadata edits on the next read",
+TEST_CASE("v4.29 [src/plugins/bundled-package-channel-metadata.test.ts:52] reflects package channel metadata edits on the next read",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-package-channel-metadata.test.ts:52",
                "upstream it() block #1",

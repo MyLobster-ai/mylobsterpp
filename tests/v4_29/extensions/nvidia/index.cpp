@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] registers the nvidia provider with correct metadata",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:24] registers the nvidia provider with correct metadata",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] registers API-key auth choice metadata",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:33] registers API-key auth choice metadata",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] keeps nvidia auth setup metadata aligned",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:55] keeps nvidia auth setup metadata aligned",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] keeps nvidia wizard setup metadata aligned",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:81] keeps nvidia wizard setup metadata aligned",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] keeps nvidia model picker metadata aligned",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:94] keeps nvidia model picker metadata aligned",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] does not override replay policy for standard openai-compatible transport",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:104] does not override replay policy for standard openai-compatible transport",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] does not override stream wrapper for standard models",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:111] does not override stream wrapper for standard models",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:111",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] surfaces the bundled NVIDIA models via augmentModelCatalog",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:118] surfaces the bundled NVIDIA models via augmentModelCatalog",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:118",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] opts into literal provider-prefix preservation",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:135] opts into literal provider-prefix preservation",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:135",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nvidia/index.test.ts] registers nvidia provider through the plugin api",
+TEST_CASE("v4.29 [extensions/nvidia/index.test.ts:146] registers nvidia provider through the plugin api",
           "[v4_29][parity_gap][nvidia]") {
     PARITY_GAP("extensions/nvidia/index.test.ts:146",
                "upstream it() block #9",

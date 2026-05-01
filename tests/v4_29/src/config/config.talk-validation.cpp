@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.talk-validation.test.ts] rejects talk.provider when it does not match talk.providers during config load",
+TEST_CASE("v4.29 [src/config/config.talk-validation.test.ts:46] rejects talk.provider when it does not match talk.providers during config load",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.talk-validation.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.talk-validation.test.ts] rejects multi-provider talk config without talk.provider during config load",
+TEST_CASE("v4.29 [src/config/config.talk-validation.test.ts:63] rejects multi-provider talk config without talk.provider during config load",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.talk-validation.test.ts:63",
                "upstream it() block #1",

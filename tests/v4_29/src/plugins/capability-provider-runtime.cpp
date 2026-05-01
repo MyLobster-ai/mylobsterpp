@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] uses the active registry when capability providers are already loaded",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:210] uses the active registry when capability providers are already loaded",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:210",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] uses active non-speech capability providers even when cfg has explicit plugin entries",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:237] uses active non-speech capability providers even when cfg has explicit plugin entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:237",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] keeps active speech providers when cfg requests an active provider alias",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:267] keeps active speech providers when cfg requests an active provider alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:267",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] keeps active capability providers when cfg has no explicit plugin config",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:301] keeps active capability providers when cfg has no explicit plugin config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:301",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] merges active and allowlisted bundled capability providers when cfg is passed",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:343] merges active and allowlisted bundled capability providers when cfg is passed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:343",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] does not merge unrelated bundled capability providers when cfg requests one provider",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:414] does not merge unrelated bundled capability providers when cfg requests one provider",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:414",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] reads manifest-derived capability plugin ids for each config snapshot",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:518] reads manifest-derived capability plugin ids for each config snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:518",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] resolves manifest-derived capability plugin ids for equivalent config snapshots independently",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:539] resolves manifest-derived capability plugin ids for equivalent config snapshots independently",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:539",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] reuses a compatible active registry even when the capability list is empty",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:571] reuses a compatible active registry even when the capability list is empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:571",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] loads bundled capability providers even without an explicit cfg",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:588] loads bundled capability providers even without an explicit cfg",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:588",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] honors explicit bundled runtime dependency install opt-out for fallback snapshots",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:632] honors explicit bundled runtime dependency install opt-out for fallback snapshots",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:632",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] does not load bundled capability providers when plugins are globally disabled",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:660] does not load bundled capability providers when plugins are globally disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:660",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] scopes media capability snapshot loads to manifest-derived bundled owners",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:711] scopes media capability snapshot loads to manifest-derived bundled owners",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:711",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] does not unscoped-load media generation capabilities without bundled owners",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:752] does not unscoped-load media generation capabilities without bundled owners",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:752",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] loads only the bundled owner plugin for a targeted provider lookup",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:782] loads only the bundled owner plugin for a targeted provider lookup",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:782",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts] does not load targeted bundled capability providers when plugins are globally disabled",
+TEST_CASE("v4.29 [src/plugins/capability-provider-runtime.test.ts:848] does not load targeted bundled capability providers when plugins are globally disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/capability-provider-runtime.test.ts:848",
                "upstream it() block #15",

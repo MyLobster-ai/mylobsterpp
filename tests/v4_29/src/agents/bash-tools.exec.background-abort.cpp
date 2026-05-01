@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] background exec is not killed when tool signal aborts",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:206] background exec is not killed when tool signal aborts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:206",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] pty background exec is not killed when tool signal aborts",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:214] pty background exec is not killed when tool signal aborts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:214",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] background exec still times out after tool signal abort",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:222] background exec still times out after tool signal abort",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:222",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] background exec without explicit timeout applies default timeout",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:236] background exec without explicit timeout applies default timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:236",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] background exec with timeout zero bypasses default timeout",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:249] background exec with timeout zero bypasses default timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] yielded background exec still times out",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:269] yielded background exec still times out",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:269",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts] yieldMs exec without explicit timeout applies default timeout",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.background-abort.test.ts:282] yieldMs exec without explicit timeout applies default timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.background-abort.test.ts:282",
                "upstream it() block #6",

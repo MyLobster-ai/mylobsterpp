@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] short-circuits when a current registry file already exists",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:85] short-circuits when a current registry file already exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] migrates when an existing registry file is not current",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:108] migrates when an existing registry file is not current",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] persists migration-relevant plugin records without dropping explicit disabled state",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:136] persists migration-relevant plugin records without dropping explicit disabled state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:136",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] keeps enabled-by-default bundled provider plugins discoverable for setup",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:187] keeps enabled-by-default bundled provider plugins discoverable for setup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:187",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] supports dry-run preflight without reading config or writing the registry",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:215] supports dry-run preflight without reading config or writing the registry",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:215",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] builds missing registry state from discovered plugin manifests",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:237] builds missing registry state from discovered plugin manifests",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:237",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] seeds first-run install records from shipped plugins.installs config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:270] seeds first-run install records from shipped plugins.installs config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:270",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] preserves shipped install records when the plugin manifest cannot be discovered",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:333] preserves shipped install records when the plugin manifest cannot be discovered",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:333",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] marks force migration env as deprecated break-glass",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:385] marks force migration env as deprecated break-glass",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:385",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts] treats falsey env flag strings as unset",
+TEST_CASE("v4.29 [src/commands/doctor/shared/plugin-registry-migration.test.ts:402] treats falsey env flag strings as unset",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/plugin-registry-migration.test.ts:402",
                "upstream it() block #9",

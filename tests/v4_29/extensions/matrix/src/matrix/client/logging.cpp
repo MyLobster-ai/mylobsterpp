@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/logging.test.ts] restores the Matrix JS SDK global logger level after quiet mode",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/logging.test.ts:14] restores the Matrix JS SDK global logger level after quiet mode",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/logging.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/logging.test.ts] quiets the Matrix JS SDK global logger for JSON-safe CLI commands",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/logging.test.ts:36] quiets the Matrix JS SDK global logger for JSON-safe CLI commands",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/logging.test.ts:36",
                "upstream it() block #1",

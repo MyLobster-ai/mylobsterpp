@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] uses 120s timeout by default for direct announce agent call",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:281] uses 120s timeout by default for direct announce agent call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:281",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] honors configured announce timeout for direct announce agent call",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:290] honors configured announce timeout for direct announce agent call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:290",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] honors configured announce timeout for completion direct agent call",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:300] honors configured announce timeout for completion direct agent call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:300",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] retries gateway timeout for externally delivered completion announces before giving up",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:316] retries gateway timeout for externally delivered completion announces before giving up",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:316",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] regression, skips parent announce while descendants are still pending",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:344] regression, skips parent announce while descendants are still pending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:344",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] regression, supports cron announceType without declaration order errors",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:359] regression, supports cron announceType without declaration order errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:359",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] regression, keeps child announce internal when requester is a cron run session",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:375] regression, keeps child announce internal when requester is a cron run session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:375",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] regression, routes child announce to parent session instead of grandparent when parent session still exists",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:392] regression, routes child announce to parent session instead of grandparent when parent session still exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:392",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] regression, falls back to grandparent only when parent subagent session is missing",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:408] regression, falls back to grandparent only when parent subagent session is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:408",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] uses partial progress on timeout when the child only made tool calls",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:426] uses partial progress on timeout when the child only made tool calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:426",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] does not announce cached reply text when the child run terminally failed",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:456] does not announce cached reply text when the child run terminally failed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:456",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] preserves NO_REPLY when timeout history ends with silence after earlier progress",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:482] preserves NO_REPLY when timeout history ends with silence after earlier progress",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:482",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] prefers visible assistant progress over a later raw tool result",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:509] prefers visible assistant progress over a later raw tool result",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:509",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] preserves NO_REPLY when timeout partial-progress history mixes prior text and later silence",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:533] preserves NO_REPLY when timeout partial-progress history mixes prior text and later silence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:533",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts] prefers later visible assistant progress over an earlier NO_REPLY marker",
+TEST_CASE("v4.29 [src/agents/subagent-announce.timeout.test.ts:552] prefers later visible assistant progress over an earlier NO_REPLY marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.timeout.test.ts:552",
                "upstream it() block #14",

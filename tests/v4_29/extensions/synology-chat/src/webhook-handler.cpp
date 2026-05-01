@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] rejects non-POST methods with 405",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:181] rejects non-POST methods with 405",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:181",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 400 for missing required fields",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:195] returns 400 for missing required fields",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:195",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 408 when request body times out",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:209] returns 408 when request body times out",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:209",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] rejects excess concurrent pre-auth body reads from the same remote IP",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:225] rejects excess concurrent pre-auth body reads from the same remote IP",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:225",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 401 for invalid token",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:252] returns 401 for invalid token",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:252",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] rate limits repeated invalid token guesses before the correct token can succeed",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:272] rate limits repeated invalid token guesses before the correct token can succeed",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:272",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] keeps pre-auth throttling scoped to the remote IP",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:335] keeps pre-auth throttling scoped to the remote IP",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:335",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] does not spend invalid-token budget on successful requests",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:369] does not spend invalid-token budget on successful requests",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:369",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] accepts application/json with alias fields",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:391] accepts application/json with alias fields",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:391",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] accepts token from query when body token is absent",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:423] accepts token from query when body token is absent",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:423",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] accepts token from authorization header when body token is absent",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:433] accepts token from authorization header when body token is absent",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:433",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 403 for unauthorized user with allowlist policy",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:445] returns 403 for unauthorized user with allowlist policy",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:445",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 403 when allowlist policy is set with empty allowedUserIds",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:455] returns 403 when allowlist policy is set with empty allowedUserIds",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:455",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 403 when DMs are disabled",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:467] returns 403 when DMs are disabled",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:467",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] returns 429 when rate limited",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:474] returns 429 when rate limited",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:474",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] strips trigger word from message",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:498] strips trigger word from message",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:498",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] responds 204 immediately and delivers async",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:523] responds 204 immediately and delivers async",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:523",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] keeps replies bound to payload.user_id by default",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:538] keeps replies bound to payload.user_id by default",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:538",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] only resolves reply recipient by username when break-glass mode is enabled",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:550] only resolves reply recipient by username when break-glass mode is enabled",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:550",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] falls back to payload.user_id when break-glass resolution does not find a match",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:564] falls back to payload.user_id when break-glass resolution does not find a match",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:564",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts] sanitizes input before delivery",
+TEST_CASE("v4.29 [extensions/synology-chat/src/webhook-handler.test.ts:580] sanitizes input before delivery",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/webhook-handler.test.ts:580",
                "upstream it() block #20",

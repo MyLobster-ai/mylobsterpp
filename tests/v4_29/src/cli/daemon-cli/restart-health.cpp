@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] treats a gateway listener child pid as healthy ownership",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:135] treats a gateway listener child pid as healthy ownership",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:135",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] marks non-owned gateway listener pids as stale while runtime is running",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:150] marks non-owned gateway listener pids as stale while runtime is running",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:150",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] treats unknown listeners as stale on Windows when enabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:165] treats unknown listeners as stale on Windows when enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:165",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] does not treat unknown listeners as stale when fallback is disabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:174] does not treat unknown listeners as stale when fallback is disabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:174",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] does not apply unknown-listener fallback while runtime is running",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:183] does not apply unknown-listener fallback while runtime is running",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] does not treat known non-gateway listeners as stale in fallback mode",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:192] does not treat known non-gateway listeners as stale in fallback mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:192",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] uses a local gateway probe when ownership is ambiguous",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:210] uses a local gateway probe when ownership is ambiguous",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] treats a busy port as healthy when runtime status lags but the probe succeeds",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:222] treats a busy port as healthy when runtime status lags but the probe succeeds",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:222",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] requires the expected gateway version when provided",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:299] requires the expected gateway version when provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:299",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] accepts the restarted gateway when the expected version matches",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:328] accepts the restarted gateway when the expected version matches",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:328",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] accepts matching-version restart liveness when the probe lacks operator scope",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:354] accepts matching-version restart liveness when the probe lacks operator scope",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:354",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] stops waiting once the restarted gateway reports the wrong version",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:383] stops waiting once the restarted gateway reports the wrong version",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:383",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] marks matching-version restarts unhealthy when activated plugins failed to load",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:415] marks matching-version restarts unhealthy when activated plugins failed to load",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:415",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] stops waiting once the expected-version gateway reports activated plugin errors",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:474] stops waiting once the expected-version gateway reports activated plugin errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:474",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] stops waiting once the expected-version gateway reports channel probe errors",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:516] stops waiting once the expected-version gateway reports channel probe errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:516",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] treats busy ports with unavailable listener details as healthy when runtime is running",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:554] treats busy ports with unavailable listener details as healthy when runtime is running",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:554",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] annotates stopped-free early exits with the actual elapsed time",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:576] annotates stopped-free early exits with the actual elapsed time",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:576",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] waits longer before stopped-free early exit on Windows",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:589] waits longer before stopped-free early exit on Windows",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:589",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] keeps waiting when the expected gateway version is not available yet",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:604] keeps waiting when the expected gateway version is not available yet",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:604",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts] annotates timeout waits when the health loop exhausts all attempts",
+TEST_CASE("v4.29 [src/cli/daemon-cli/restart-health.test.ts:645] annotates timeout waits when the health loop exhausts all attempts",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/restart-health.test.ts:645",
                "upstream it() block #19",

@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] adds reactions when reactionLevel is minimal",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:134] adds reactions when reactionLevel is minimal",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] surfaces non-fatal reaction warnings",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:138] surfaces non-fatal reaction warnings",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:138",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] adds reactions when reactionLevel is extensive",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:158] adds reactions when reactionLevel is extensive",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:158",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] accepts snake_case message_id for reactions",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:162] accepts snake_case message_id for reactions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:162",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] soft-fails when messageId is missing",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:180] soft-fails when messageId is missing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:180",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] removes reactions on empty emoji",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:199] removes reactions on empty emoji",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] rejects sticker actions when disabled by default",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:217] rejects sticker actions when disabled by default",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:217",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] sends stickers when enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:232] sends stickers when enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:232",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] accepts shared sticker action aliases",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:251] accepts shared sticker action aliases",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:251",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] removes reactions when remove flag set",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:276] removes reactions when remove flag set",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:276",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] soft-fails when reactions are disabled via actions.reactions",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:315] soft-fails when reactions are disabled via actions.reactions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:315",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] sends a text message",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:340] sends a text message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:340",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] accepts shared send action aliases",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:360] accepts shared send action aliases",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:360",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] sends a poll",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:380] sends a poll",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:380",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] accepts shared poll action aliases",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:417] accepts shared poll action aliases",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:417",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] parses string booleans for poll flags",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:452] parses string booleans for poll flags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:452",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] forwards trusted mediaLocalRoots into sendMessageTelegram",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:479] forwards trusted mediaLocalRoots into sendMessageTelegram",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:479",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] requires content when no mediaUrl is provided",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:635] requires content when no mediaUrl is provided",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:635",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] renders presentation text when message content is omitted",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:647] renders presentation text when message content is omitted",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:647",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] uses presentation fallback text for button-only sends",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:670] uses presentation fallback text for button-only sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:670",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] pins action sends when delivery pin is requested",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:696] pins action sends when delivery pin is requested",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:696",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] passes delivery pin notify requests for action sends",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:714] passes delivery pin notify requests for action sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:714",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] fails required action-send pins when pinning fails",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:732] fails required action-send pins when pinning fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:732",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] respects sendMessage gating",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:748] respects sendMessage gating",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:748",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] respects poll gating",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:766] respects poll gating",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:766",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] deletes a message",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:785] deletes a message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:785",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] respects deleteMessage gating",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:804] respects deleteMessage gating",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:804",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] throws on missing bot token for sendMessage",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:822] throws on missing bot token for sendMessage",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:822",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] allows inline buttons by default (allowlist)",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:837] allows inline buttons by default (allowlist)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:837",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] allows inline buttons in DMs with tg: prefixed targets",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:884] allows inline buttons in DMs with tg: prefixed targets",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:884",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] allows inline buttons in groups with topic targets",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:893] allows inline buttons in groups with topic targets",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:893",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] sends messages with inline keyboard buttons when enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:902] sends messages with inline keyboard buttons when enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:902",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] forwards optional button style",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:917] forwards optional button style",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:917",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] allows sticker when account config enables it",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:981] allows sticker when account config enables it",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:981",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] blocks sticker when account omits it",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:990] blocks sticker when account omits it",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:990",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] uses account-merged config, not top-level config",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:1009] uses account-merged config, not top-level config",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:1009",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] inherits top-level reaction gate when account overrides sticker only",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:1020] inherits top-level reaction gate when account overrides sticker only",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:1020",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts] allows account to explicitly re-enable top-level disabled reaction gate",
+TEST_CASE("v4.29 [extensions/telegram/src/action-runtime.test.ts:1044] allows account to explicitly re-enable top-level disabled reaction gate",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/action-runtime.test.ts:1044",
                "upstream it() block #37",

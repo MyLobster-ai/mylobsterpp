@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] persists the selected embedded harness id on the session",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:147] persists the selected embedded harness id on the session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:147",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] uses the runtime context budget from agent metadata instead of cold fallback",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:188] uses the runtime context budget from agent metadata instead of cold fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:188",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] clears the embedded harness pin after a CLI run",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:229] clears the embedded harness pin after a CLI run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:229",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] persists claude-cli session bindings when the backend is configured",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:281] persists claude-cli session bindings when the backend is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:281",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] preserves ACP metadata when caller has a stale session snapshot",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:345] preserves ACP metadata when caller has a stale session snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:345",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] persists latest systemPromptReport for downstream warning dedupe",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:391] persists latest systemPromptReport for downstream warning dedupe",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:391",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] stores and reloads the runtime model for explicit session-id-only runs",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:453] stores and reloads the runtime model for explicit session-id-only runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:453",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] preserves previous totalTokens when provider returns no usage data (#67667)",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:520] preserves previous totalTokens when provider returns no usage data (#67667)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:520",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] does not treat CLI cumulative usage as a fresh context snapshot",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:567] does not treat CLI cumulative usage as a fresh context snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:567",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] persists compaction tokensAfter when provider usage is unavailable",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:624] persists compaction tokensAfter when provider usage is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:624",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] ignores non-finite compaction tokensAfter values",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:671] ignores non-finite compaction tokensAfter values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:671",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] snapshots cost instead of accumulating (fixes #69347)",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:713] snapshots cost instead of accumulating (fixes #69347)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:713",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] preserves lastInteractionAt for non-interactive system runs",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:798] preserves lastInteractionAt for non-interactive system runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:798",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] advances lastInteractionAt for interactive runs",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:842] advances lastInteractionAt for interactive runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:842",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] persists cleared Claude CLI bindings through session-store merge",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:883] persists cleared Claude CLI bindings through session-store merge",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:883",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session-store.test.ts] leaves the caller snapshot intact when the session entry is missing",
+TEST_CASE("v4.29 [src/agents/command/session-store.test.ts:934] leaves the caller snapshot intact when the session entry is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session-store.test.ts:934",
                "upstream it() block #15",

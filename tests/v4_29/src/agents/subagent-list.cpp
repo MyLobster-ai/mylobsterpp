@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] returns empty active and recent sections when no runs exist",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:35] returns empty active and recent sections when no runs exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] truncates long task text in list lines",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:52] truncates long task text in list lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] keeps ended orchestrators active while descendants remain pending",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:81] keeps ended orchestrators active while descendants remain pending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] omits old ended descendants from child session summaries",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:124] omits old ended descendants from child session summaries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] formats io and prompt/cache usage from session entries",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:164] formats io and prompt/cache usage from session entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:164",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] keeps stale unended runs out of active and recent list output",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:204] keeps stale unended runs out of active and recent list output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:204",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-list.test.ts] does not let a stale unended child keep an ended parent listed active",
+TEST_CASE("v4.29 [src/agents/subagent-list.test.ts:235] does not let a stale unended child keep an ended parent listed active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-list.test.ts:235",
                "upstream it() block #6",

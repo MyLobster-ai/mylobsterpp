@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts] writes a pinned Tuwunel compose file and redacted manifest",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts:49] writes a pinned Tuwunel compose file and redacted manifest",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/harness.runtime.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts] starts the harness, waits for versions, and exposes a stop command",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts:87] starts the harness, waits for versions, and exposes a stop command",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/harness.runtime.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts] treats empty Docker health fields as a fallback to running state",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts:129] treats empty Docker health fields as a fallback to running state",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/harness.runtime.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts] falls back to the container IP when the host port is unreachable",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts:148] falls back to the container IP when the host port is unreachable",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/harness.runtime.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts] keeps the host URL when the container IP is also unreachable",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts:172] keeps the host URL when the container IP is also unreachable",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/harness.runtime.test.ts:172",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts] keeps probing the container URL until it becomes reachable",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/harness.runtime.test.ts:200] keeps probing the container URL until it becomes reachable",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/harness.runtime.test.ts:200",
                "upstream it() block #5",

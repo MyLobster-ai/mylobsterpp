@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] parses semver with or without leading v",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:15] parses semver with or without leading v",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] compares versions correctly",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:22] compares versions correctly",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] validates runtime thresholds",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:37] validates runtime thresholds",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] parses simple minimum node engine ranges",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:61] parses simple minimum node engine ranges",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:61",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] checks node versions against simple engine ranges",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:67] checks node versions against simple engine ranges",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] throws via exit when runtime is too old",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:74] throws via exit when runtime is too old",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] returns silently when runtime meets requirements",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:93] returns silently when runtime meets requirements",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:93",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts] reports unknown runtimes with fallback labels",
+TEST_CASE("v4.29 [src/infra/runtime-guard.test.ts:109] reports unknown runtimes with fallback labels",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-guard.test.ts:109",
                "upstream it() block #7",

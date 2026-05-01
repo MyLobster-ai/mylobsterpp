@@ -5,306 +5,306 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] reuses existing pending requests for the same device",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:142] reuses existing pending requests for the same device",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:142",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] recovers when pairing state files were written as arrays",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:164] recovers when pairing state files were written as arrays",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:164",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] re-requesting with identical params preserves the original ts to prevent queue-jumping",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:200] re-requesting with identical params preserves the original ts to prevent queue-jumping",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:200",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] supersedes pending requests when requested roles/scopes change",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:231] supersedes pending requests when requested roles/scopes change",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:231",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] approves mixed node and operator requests with admin caller scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:274] approves mixed node and operator requests with admin caller scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:274",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] preserves requested non-operator scopes on newly minted role tokens",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:325] preserves requested non-operator scopes on newly minted role tokens",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:325",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] preserves existing non-operator scopes during operator-only mixed-role repairs",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:403] preserves existing non-operator scopes during operator-only mixed-role repairs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:403",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] keeps superseded requests interactive when an existing pending request is interactive",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:449] keeps superseded requests interactive when an existing pending request is interactive",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:449",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects bootstrap token replay before pending scope escalation can be approved",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:479] rejects bootstrap token replay before pending scope escalation can be approved",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:479",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] fails closed for operator approvals when caller scopes are omitted",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:530] fails closed for operator approvals when caller scopes are omitted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:530",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] metadata refresh cannot mutate approved role and scope fields",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:564] metadata refresh cannot mutate approved role and scope fields",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:564",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] metadata refresh persists last-seen fields and reports missing devices",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:593] metadata refresh persists last-seen fields and reports missing devices",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:593",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] generates base64url device tokens with 256-bit entropy output length",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:620] generates base64url device tokens with 256-bit entropy output length",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:620",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] allows down-scoping from admin and preserves approved scope baseline",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:630] allows down-scoping from admin and preserves approved scope baseline",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:630",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] preserves existing token scopes when approving a repair without requested scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:656] preserves existing token scopes when approving a repair without requested scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:656",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects repair without requested scopes when caller cannot approve inherited token scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:684] rejects repair without requested scopes when caller cannot approve inherited token scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:684",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects scope escalation when rotating a token and leaves state unchanged",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:719] rejects scope escalation when rotating a token and leaves state unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:719",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects omitted-scope rotation when caller cannot hold the current token scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:739] rejects omitted-scope rotation when caller cannot hold the current token scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:739",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects token revocation when caller cannot hold the target token scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:766] rejects token revocation when caller cannot hold the target token scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:766",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] allows token revocation when caller holds the target token scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:788] allows token revocation when caller holds the target token scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:788",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects scope escalation when ensuring a token and leaves state unchanged",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:810] rejects scope escalation when ensuring a token and leaves state unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:810",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] preserves explicit empty scope baselines for node device tokens",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:830] preserves explicit empty scope baselines for node device tokens",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:830",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] normalizes legacy node token scopes back to [] on re-approval",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:859] normalizes legacy node token scopes back to [] on re-approval",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:859",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] bootstrap pairing seeds node and operator device tokens explicitly",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:888] bootstrap pairing seeds node and operator device tokens explicitly",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:888",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] bootstrap pairing keeps operator token scopes operator-only",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:921] bootstrap pairing keeps operator token scopes operator-only",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:921",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] bootstrap pairing bounds approved baseline to handoff scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:951] bootstrap pairing bounds approved baseline to handoff scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:951",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] bootstrap pairing sanitizes merged legacy baseline scopes",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1008] bootstrap pairing sanitizes merged legacy baseline scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1008",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] verifies token and rejects mismatches",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1063] verifies token and rejects mismatches",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1063",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects persisted tokens whose scopes exceed the approved scope baseline",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1082] rejects persisted tokens whose scopes exceed the approved scope baseline",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1082",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] fails closed when the paired device approval baseline is missing during verification",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1095] fails closed when the paired device approval baseline is missing during verification",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1095",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] accepts operator.read/operator.write requests with an operator.admin token scope",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1108] accepts operator.read/operator.write requests with an operator.admin token scope",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1108",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] accepts custom operator scopes under an operator.admin approval baseline",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1126] accepts custom operator scopes under an operator.admin approval baseline",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1126",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] fails closed when the paired device approval baseline is missing during ensure",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1148] fails closed when the paired device approval baseline is missing during ensure",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1148",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] fails closed when the paired device approval baseline is missing during rotation",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1163] fails closed when the paired device approval baseline is missing during rotation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1163",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] treats multibyte same-length token input as mismatch without throwing",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1178] treats multibyte same-length token input as mismatch without throwing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1178",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] derives effective roles from active tokens instead of sticky historical roles",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1192] derives effective roles from active tokens instead of sticky historical roles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1192",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] fails closed for tokenless legacy role fields",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1225] fails closed for tokenless legacy role fields",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1225",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] filters active token roles to the approved pairing role set",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1240] filters active token roles to the approved pairing role set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1240",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] rejects rotating a token for a role that was never approved",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1269] rejects rotating a token for a role that was never approved",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1269",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] removes paired devices by device id",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1286] removes paired devices by device id",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1286",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] removing a paired device clears pending requests for that device only",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1297] removing a paired device clears pending requests for that device only",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1297",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] refuses to overwrite corrupt paired device state",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1337] refuses to overwrite corrupt paired device state",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1337",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-pairing.test.ts] clears paired device state by device id",
+TEST_CASE("v4.29 [src/infra/device-pairing.test.ts:1357] clears paired device state by device id",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-pairing.test.ts:1357",
                "upstream it() block #42",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts] resolves base runtime targets, then active channel/account targets from originating context",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:46] resolves base runtime targets, then active channel/account targets from originating context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts] falls back to messageProvider and agentAccountId when originating values are missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:100] falls back to messageProvider and agentAccountId when originating values are missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts] skips scoped channel resolution when no active channel can be resolved",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:115] skips scoped channel resolution when no active channel can be resolved",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts] prefers the runtime snapshot as the base config for secret resolution",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:125] prefers the runtime snapshot as the base config for secret resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts] does not replace an already resolved run config with a stale runtime snapshot",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:150] does not replace an already resolved run config with a stale runtime snapshot",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.secret-resolution.test.ts:150",
                "upstream it() block #4",

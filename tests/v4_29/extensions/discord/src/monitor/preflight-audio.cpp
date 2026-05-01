@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts] preflights direct-message audio without requiring a mention",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts:18] preflights direct-message audio without requiring a mention",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/preflight-audio.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts] preflights audio by filename when Discord omits content type",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts:52] preflights audio by filename when Discord omits content type",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/preflight-audio.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts] preflights Discord voice attachments by waveform metadata",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts:80] preflights Discord voice attachments by waveform metadata",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/preflight-audio.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts] does not preflight typed direct-message audio",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts:110] does not preflight typed direct-message audio",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/preflight-audio.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts] ignores URL-less audio attachments",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/preflight-audio.test.ts:135] ignores URL-less audio attachments",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/preflight-audio.test.ts:135",
                "upstream it() block #4",

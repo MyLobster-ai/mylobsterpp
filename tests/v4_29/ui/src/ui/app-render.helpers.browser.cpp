@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.browser.test.ts] renders explicit hover tooltip metadata for the top-right action buttons",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.browser.test.ts:67] renders explicit hover tooltip metadata for the top-right action buttons",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.browser.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.browser.test.ts] renders the cron session filter in the mobile dropdown controls",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.browser.test.ts:106] renders the cron session filter in the mobile dropdown controls",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.browser.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.browser.test.ts] renders the mobile dropdown from state instead of mutating DOM classes",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.browser.test.ts:137] renders the mobile dropdown from state instead of mutating DOM classes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.browser.test.ts:137",
                "upstream it() block #2",

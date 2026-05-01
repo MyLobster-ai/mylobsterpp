@@ -21,6 +21,11 @@
 //
 // When the abstraction lands, replace the PARITY_GAP with real assertions and
 // the test flips green automatically.
+//
+// To convert an auto-generated file into a hand-authored one (so the
+// generator stops overwriting it), set its first non-blank line to exactly:
+//
+//     // MYLOBSTERPP_HANDWRITTEN_TEST
 
 #include <catch2/catch_test_macros.hpp>
 

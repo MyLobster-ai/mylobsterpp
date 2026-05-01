@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts] includes the cross-platform supervisor hint env vars",
+TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts:5] includes the cross-platform supervisor hint env vars",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/supervisor-markers.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts] detects launchd and systemd only from non-blank platform-specific hints",
+TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts:19] detects launchd and systemd only from non-blank platform-specific hints",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/supervisor-markers.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts] detects scheduled-task supervision on Windows from either hint family",
+TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts:29] detects scheduled-task supervision on Windows from either hint family",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/supervisor-markers.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts] ignores service markers on non-Windows platforms and unknown platforms",
+TEST_CASE("v4.29 [src/infra/supervisor-markers.test.ts:53] ignores service markers on non-Windows platforms and unknown platforms",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/supervisor-markers.test.ts:53",
                "upstream it() block #3",

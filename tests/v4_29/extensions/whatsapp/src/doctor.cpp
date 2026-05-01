@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/doctor.test.ts] does not add whatsapp config when the channel is not configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/doctor.test.ts:5] does not add whatsapp config when the channel is not configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/doctor.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/doctor.test.ts] copies legacy ack reaction into configured whatsapp channel",
+TEST_CASE("v4.29 [extensions/whatsapp/src/doctor.test.ts:19] copies legacy ack reaction into configured whatsapp channel",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/doctor.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/doctor.test.ts] keeps existing whatsapp ack reaction",
+TEST_CASE("v4.29 [extensions/whatsapp/src/doctor.test.ts:48] keeps existing whatsapp ack reaction",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/doctor.test.ts:48",
                "upstream it() block #2",

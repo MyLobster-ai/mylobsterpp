@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-repair-runtime-contract.test.ts] drops only the duplicate trailing current prompt while preserving prior structured context",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-repair-runtime-contract.test.ts:11] drops only the duplicate trailing current prompt while preserving prior structured context",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-repair-runtime-contract.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-repair-runtime-contract.test.ts] keeps media-only user history visible as omitted media instead of dropping the turn",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-repair-runtime-contract.test.ts:30] keeps media-only user history visible as omitted media instead of dropping the turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-repair-runtime-contract.test.ts:30",
                "upstream it() block #1",

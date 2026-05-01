@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts] collects trimmed tool names only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:14] collects trimmed tool names only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts] tracks cache-relevant changes and reports a real cache-read drop",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:20] tracks cache-relevant changes and reports a real cache-read drop",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts] suppresses cache-break events for small drops",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:79] suppresses cache-break events for small drops",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts] treats reordered tool lists as the same diagnostics tool set",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:112] treats reordered tool lists as the same diagnostics tool set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts] evicts old tracker entries when the tracker map grows past the soft cap",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:140] evicts old tracker entries when the tracker map grows past the soft cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts] ignores missing usage and preserves the previous cache-read baseline",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:181] ignores missing usage and preserves the previous cache-read baseline",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/prompt-cache-observability.test.ts:181",
                "upstream it() block #5",

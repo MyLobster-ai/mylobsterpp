@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.format.test.ts] formats explicit cache details for verbose status output",
+TEST_CASE("v4.29 [src/commands/status.format.test.ts:5] formats explicit cache details for verbose status output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.format.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.format.test.ts] shows cache writes even before there is a cache hit",
+TEST_CASE("v4.29 [src/commands/status.format.test.ts:16] shows cache writes even before there is a cache hit",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.format.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.format.test.ts] keeps the compact token suffix aligned with prompt-side cache math",
+TEST_CASE("v4.29 [src/commands/status.format.test.ts:27] keeps the compact token suffix aligned with prompt-side cache math",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.format.test.ts:27",
                "upstream it() block #2",

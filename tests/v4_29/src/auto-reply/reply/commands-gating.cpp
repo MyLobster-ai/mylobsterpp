@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] blocks disabled bash",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:223] blocks disabled bash",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:223",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] blocks bash when elevated access is unavailable",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:238] blocks bash when elevated access is unavailable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:238",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] blocks disabled config",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:257] blocks disabled config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:257",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] blocks disabled debug",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:267] blocks disabled debug",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:267",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] blocks authorized non-owners from /config show and /debug show",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:277] blocks authorized non-owners from /config show and /debug show",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:277",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] keeps /config show and /debug show available for owners",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:293] keeps /config show and /debug show available for owners",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:293",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] returns explicit unauthorized replies for native privileged commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:316] returns explicit unauthorized replies for native privileged commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:316",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] ignores inherited command flags",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:346] ignores inherited command flags",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:346",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] blocks disallowed /config set writes",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:358] blocks disallowed /config set writes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:358",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] honors the configured default account when gating omitted-account /config writes",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:429] honors the configured default account when gating omitted-account /config writes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:429",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts] enforces gateway client permissions for /config commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-gating.test.ts:460] enforces gateway client permissions for /config commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-gating.test.ts:460",
                "upstream it() block #10",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.splitsdktools.test.ts] routes all tools to customTools when sandboxed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.splitsdktools.test.ts:18] routes all tools to customTools when sandboxed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.splitsdktools.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.splitsdktools.test.ts] routes all tools to customTools even when not sandboxed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.splitsdktools.test.ts:32] routes all tools to customTools even when not sandboxed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.splitsdktools.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.splitsdktools.test.ts] keeps OpenClaw-managed custom tools in Pi",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.splitsdktools.test.ts:46] keeps OpenClaw-managed custom tools in Pi",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.splitsdktools.test.ts:46",
                "upstream it() block #2",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] returns the trimmed group name on successful API call",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:51] returns the trimmed group name on successful API call",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] returns undefined and logs on API failure",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:58] returns undefined and logs on API failure",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] returns undefined for whitespace-only name",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:65] returns undefined for whitespace-only name",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] serves subsequent calls from cache (positive hit)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:71] serves subsequent calls from cache (positive hit)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] caches negative result (API failure) and skips retry",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:79] caches negative result (API failure) and skips retry",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] returns undefined when API returns object with missing name field",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:88] returns undefined when API returns object with missing name field",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:88",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts] isolates cache entries across different accounts",
+TEST_CASE("v4.29 [extensions/feishu/src/bot-group-name.test.ts:94] isolates cache entries across different accounts",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot-group-name.test.ts:94",
                "upstream it() block #6",

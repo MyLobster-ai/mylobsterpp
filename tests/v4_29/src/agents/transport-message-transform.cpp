@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] synthesizes Codex-style aborted tool results for OpenAI Responses transports",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:26] synthesizes Codex-style aborted tool results for OpenAI Responses transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] preserves real OpenAI transport results and aborts missing parallel siblings",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:46] preserves real OpenAI transport results and aborts missing parallel siblings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] moves displaced OpenAI transport results before synthesizing missing siblings",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:87] moves displaced OpenAI transport results before synthesizing missing siblings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] drops aborted OpenAI transport assistant tool calls before replay",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:128] drops aborted OpenAI transport assistant tool calls before replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] drops text-only aborted and errored transport assistant turns before replay",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:143] drops text-only aborted and errored transport assistant turns before replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] drops errored Anthropic transport assistant tool calls and matching results before replay",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:176] drops errored Anthropic transport assistant tool calls and matching results before replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:176",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] still synthesizes missing tool results for Anthropic transports",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:199] still synthesizes missing tool results for Anthropic transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:199",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts] still synthesizes missing tool results for transport alias apis that own replay repair",
+TEST_CASE("v4.29 [src/agents/transport-message-transform.test.ts:218] still synthesizes missing tool results for transport alias apis that own replay repair",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-message-transform.test.ts:218",
                "upstream it() block #7",

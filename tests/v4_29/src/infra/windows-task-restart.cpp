@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts] writes a detached schtasks relaunch helper",
+TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts:84] writes a detached schtasks relaunch helper",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-task-restart.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts] prefers OPENCLAW_WINDOWS_TASK_NAME overrides",
+TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts:124] prefers OPENCLAW_WINDOWS_TASK_NAME overrides",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-task-restart.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts] returns failed when the helper cannot be spawned",
+TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts:140] returns failed when the helper cannot be spawned",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-task-restart.test.ts:140",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts] quotes the cmd /c script path when temp paths contain metacharacters",
+TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts:152] quotes the cmd /c script path when temp paths contain metacharacters",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-task-restart.test.ts:152",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts] includes startup fallback",
+TEST_CASE("v4.29 [src/infra/windows-task-restart.test.ts:168] includes startup fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-task-restart.test.ts:168",
                "upstream it() block #4",

@@ -5,334 +5,334 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] shows summary for /model with no args",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:341] shows summary for /model with no args",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:341",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] treats /model list as a models browser alias, not a model id",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:349] treats /model list as a models browser alias, not a model id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:349",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] uses workspace-scoped auth evidence in /model list provider visibility",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:359] uses workspace-scoped auth evidence in /model list provider visibility",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:359",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] shows active runtime model when different from selected model",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:420] shows active runtime model when different from selected model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:420",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] shows status for the allowed catalog without duplicate missing auth labels",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:438] shows status for the allowed catalog without duplicate missing auth labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:438",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] uses workspace-scoped auth evidence in /model status labels",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:465] uses workspace-scoped auth evidence in /model status labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:465",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] auto-applies closest match for typos",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:536] auto-applies closest match for typos",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:536",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] rejects numeric /model selections with a guided error",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:560] rejects numeric /model selections with a guided error",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:560",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] treats explicit default /model selection as resettable default",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:572] treats explicit default /model selection as resettable default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:572",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] keeps openrouter provider/model split for exact selections",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:587] keeps openrouter provider/model split for exact selections",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:587",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] keeps cloudflare @cf model segments for exact selections",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:602] keeps cloudflare @cf model segments for exact selections",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:602",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] treats @YYYYMMDD as a profile override when that profile exists for the resolved provider",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:617] treats @YYYYMMDD as a profile override when that profile exists for the resolved provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:617",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] supports alias selections with numeric auth-profile overrides",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:635] supports alias selections with numeric auth-profile overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:635",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] supports providerless allowlist selections with numeric auth-profile overrides",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:660] supports providerless allowlist selections with numeric auth-profile overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:660",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] keeps @YYYYMMDD as part of the model when the stored numeric profile is for another provider",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:678] keeps @YYYYMMDD as part of the model when the stored numeric profile is for another provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:678",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists inferred numeric auth-profile overrides for mixed-content messages",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:696] persists inferred numeric auth-profile overrides for mixed-content messages",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:696",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists provider-compatible runtime overrides for mixed-content messages",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:708] persists provider-compatible runtime overrides for mixed-content messages",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:708",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] canonicalizes legacy Codex app-server runtime overrides during persistence",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:719] canonicalizes legacy Codex app-server runtime overrides during persistence",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:719",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] clears runtime overrides when the model directive asks for default runtime",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:728] clears runtime overrides when the model directive asks for default runtime",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:728",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] ignores runtime overrides that do not belong to the selected provider",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:741] ignores runtime overrides that do not belong to the selected provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:741",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists alias-based numeric auth-profile overrides for mixed-content messages",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:762] persists alias-based numeric auth-profile overrides for mixed-content messages",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:762",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists providerless numeric auth-profile overrides for mixed-content messages",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:775] persists providerless numeric auth-profile overrides for mixed-content messages",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:775",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] resolves agentDir from the target session agent before wrapper agentDir",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:787] resolves agentDir from the target session agent before wrapper agentDir",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:787",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists explicit auth profiles after @YYYYMMDD version suffixes in mixed-content messages",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:804] persists explicit auth profiles after @YYYYMMDD version suffixes in mixed-content messages",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:804",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] ignores invalid mixed-content model directives during persistence",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:822] ignores invalid mixed-content model directives during persistence",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:822",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] shows success message when session state is available",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:888] shows success message when session state is available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:888",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists /model only on the targeted session entry",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:904] persists /model only on the targeted session entry",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:904",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] remaps unsupported stored thinking levels when persisting a model switch",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:928] remaps unsupported stored thinking levels when persisting a model switch",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:928",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] does not request a live restart when /model mutates an active session",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:945] does not request a live restart when /model mutates an active session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:945",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] retargets queued followups when /model mutates session state",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:959] retargets queued followups when /model mutates session state",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:959",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists auth profile overrides for alias model directives",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:980] persists auth profile overrides for alias model directives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:980",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] shows no model message when no /model directive",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1030] shows no model message when no /model directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1030",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] strips inline elevated directives while keeping user text",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1044] strips inline elevated directives while keeping user text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1044",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists thinkingLevel=off (does not clear)",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1052] persists thinkingLevel=off (does not clear)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1052",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] reports current thinking status",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1069] reports current thinking status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1069",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] uses catalog reasoning metadata for provider-owned thinking levels",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1099] uses catalog reasoning metadata for provider-owned thinking levels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1099",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists verbose on and off directives",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1147] persists verbose on and off directives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1147",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists and reports fast-mode directives",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1172] persists and reports fast-mode directives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1172",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] persists and reports elevated-mode directives when allowed",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1208] persists and reports elevated-mode directives when allowed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1208",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] queues system events for elevated and reasoning mode directives",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1247] queues system events for elevated and reasoning mode directives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1247",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] blocks internal operator.write exec persistence in directive-only handling",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1285] blocks internal operator.write exec persistence in directive-only handling",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1285",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] blocks internal operator.write verbose persistence in directive-only handling",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1308] blocks internal operator.write verbose persistence in directive-only handling",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1308",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] allows internal operator.admin verbose persistence in directive-only handling",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1327] allows internal operator.admin verbose persistence in directive-only handling",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1327",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] allows internal operator.admin exec persistence in directive-only handling",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1345] allows internal operator.admin exec persistence in directive-only handling",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1345",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] skips exec persistence for internal operator.write callers",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1370] skips exec persistence for internal operator.write callers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1370",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] skips verbose persistence for internal operator.write callers",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1381] skips verbose persistence for internal operator.write callers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1381",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts] treats internal provider context as authoritative over external surface metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.model.test.ts:1387] treats internal provider context as authoritative over external surface metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.model.test.ts:1387",
                "upstream it() block #46",

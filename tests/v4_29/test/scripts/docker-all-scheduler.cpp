@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts] allows an overweight lane to start alone under low parallelism",
+TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts:32] allows an overweight lane to start alone under low parallelism",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-all-scheduler.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts] does not co-schedule another lane while an overweight lane is active",
+TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts:47] does not co-schedule another lane while an overweight lane is active",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-all-scheduler.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts] can co-schedule the split installer provider lanes",
+TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts:69] can co-schedule the split installer provider lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-all-scheduler.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts] preserves the parallelism count cap",
+TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts:99] preserves the parallelism count cap",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-all-scheduler.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts] keeps resource and weight limits as co-scheduling limits",
+TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts:121] keeps resource and weight limits as co-scheduling limits",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-all-scheduler.test.ts:121",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts] describes effective scheduler limits for operator errors",
+TEST_CASE("v4.29 [test/scripts/docker-all-scheduler.test.ts:163] describes effective scheduler limits for operator errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-all-scheduler.test.ts:163",
                "upstream it() block #5",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/image-generation-core/src/runtime.test.ts] re-exports generateImage from the plugin sdk runtime",
+TEST_CASE("v4.29 [extensions/image-generation-core/src/runtime.test.ts:17] re-exports generateImage from the plugin sdk runtime",
           "[v4_29][parity_gap][image-generation-core]") {
     PARITY_GAP("extensions/image-generation-core/src/runtime.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/image-generation-core/src/runtime.test.ts] re-exports listRuntimeImageGenerationProviders from the plugin sdk runtime",
+TEST_CASE("v4.29 [extensions/image-generation-core/src/runtime.test.ts:21] re-exports listRuntimeImageGenerationProviders from the plugin sdk runtime",
           "[v4_29][parity_gap][image-generation-core]") {
     PARITY_GAP("extensions/image-generation-core/src/runtime.test.ts:21",
                "upstream it() block #1",

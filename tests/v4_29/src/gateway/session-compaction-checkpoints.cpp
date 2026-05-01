@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-compaction-checkpoints.test.ts] capture stores the copied pre-compaction transcript path and cleanup removes only the copy",
+TEST_CASE("v4.29 [src/gateway/session-compaction-checkpoints.test.ts:23] capture stores the copied pre-compaction transcript path and cleanup removes only the copy",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-compaction-checkpoints.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-compaction-checkpoints.test.ts] capture skips oversized pre-compaction transcripts",
+TEST_CASE("v4.29 [src/gateway/session-compaction-checkpoints.test.ts:88] capture skips oversized pre-compaction transcripts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-compaction-checkpoints.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-compaction-checkpoints.test.ts] persist trims old checkpoint metadata and removes trimmed snapshot files",
+TEST_CASE("v4.29 [src/gateway/session-compaction-checkpoints.test.ts:113] persist trims old checkpoint metadata and removes trimmed snapshot files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-compaction-checkpoints.test.ts:113",
                "upstream it() block #2",

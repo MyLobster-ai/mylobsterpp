@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts] keeps the media marker when a captioned video has no downloaded media",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts:49] keeps the media marker when a captioned video has no downloaded media",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.body.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts] does not transcribe group audio for unauthorized senders",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts:73] does not transcribe group audio for unauthorized senders",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.body.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts] still transcribes when commands.useAccessGroups is false",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts:111] still transcribes when commands.useAccessGroups is false",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.body.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts] transcribes DM voice notes via preflight (not only groups)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts:149] transcribes DM voice notes via preflight (not only groups)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.body.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts] escapes transcript text before embedding it in the audio framing",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.body.test.ts:176] escapes transcript text before embedding it in the audio framing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.body.test.ts:176",
                "upstream it() block #4",

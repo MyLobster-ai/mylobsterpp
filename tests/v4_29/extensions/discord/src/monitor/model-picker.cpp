@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] reuses buildModelsProviderData as source of truth with agent scope",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:81] reuses buildModelsProviderData as source of truth with agent scope",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:81",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] encodes and decodes command/provider/page/user context",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:95] encodes and decodes command/provider/page/user context",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] parses component data payloads",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:117] parses component data payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] parses compact custom_id aliases",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:137] parses compact custom_id aliases",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:137",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] parses optional submit model index",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:159] parses optional submit model index",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:159",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] rejects invalid command/action/view values",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:183] rejects invalid command/action/view values",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:183",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] enforces Discord custom_id max length",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:210] enforces Discord custom_id max length",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] keeps typical submit ids under Discord max length",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:224] keeps typical submit ids under Discord max length",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:224",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] keeps providers on a single page when count fits Discord button rows",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:241] keeps providers on a single page when count fits Discord button rows",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:241",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] paginates providers when count exceeds one-page Discord button limits",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:257] paginates providers when count exceeds one-page Discord button limits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:257",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] caps custom provider page size at Discord-safe max",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:277] caps custom provider page size at Discord-safe max",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:277",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] sorts models and paginates with Discord select-option constraints",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:305] sorts models and paginates with Discord select-option constraints",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:305",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] returns null for unknown provider",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:332] returns null for unknown provider",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:332",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] caps custom model page size at Discord select-option max",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:338] caps custom model page size at Discord select-option max",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:338",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] renders provider view on one page when provider count is <= 25",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:349] renders provider view on one page when provider count is <= 25",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:349",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] does not render navigation buttons even when provider count exceeds one page",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:400] does not render navigation buttons even when provider count exceeds one page",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:400",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] supports classic fallback rendering with content + action rows",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:427] supports classic fallback rendering with content + action rows",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:427",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] preserves the stored model suffix spacing in Discord current-model text",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:450] preserves the stored model suffix spacing in Discord current-model text",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:450",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] renders model view with select menu and explicit submit button",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:468] renders model view with select menu and explicit submit button",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:468",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] renders provider-compatible runtime choices in the model view",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:533] renders provider-compatible runtime choices in the model view",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:533",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] renders not-found model view with a back button",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:593] renders not-found model view with a back button",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:593",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] shows Recents button when quickModels are provided",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:626] shows Recents button when quickModels are provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:626",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] omits Recents button when no quickModels",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:654] omits Recents button when no quickModels",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:654",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] renders one button per model with back button after divider",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:680] renders one button per model with back button after divider",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:680",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] includes (default) suffix on default model button label",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:746] includes (default) suffix on default model button label",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:746",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts] deduplicates recents that match the default model",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/model-picker.test.ts:765] deduplicates recents that match the default model",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/model-picker.test.ts:765",
                "upstream it() block #25",

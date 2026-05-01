@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] skips image understanding when the active model supports vision",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:121] skips image understanding when the active model supports vision",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] uses explicit media image models instead of native vision skip",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:151] uses explicit media image models instead of native vision skip",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:151",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] lets per-request image prompts override entry prompts",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:195] lets per-request image prompts override entry prompts",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:195",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] prefers agents.defaults.imageModel over the active model for auto image resolution",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:246] prefers agents.defaults.imageModel over the active model for auto image resolution",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:246",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] falls back from an active text model to the provider image default",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:266] falls back from an active text model to the provider image default",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:266",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] uses active OpenRouter image models for auto image resolution",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:313] uses active OpenRouter image models for auto image resolution",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:313",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] auto-selects configured OpenRouter image providers with a resolved model",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:344] auto-selects configured OpenRouter image providers with a resolved model",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:344",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts] skips configured image providers without an auto-resolvable model",
+TEST_CASE("v4.29 [src/media-understanding/runner.vision-skip.test.ts:396] skips configured image providers without an auto-resolvable model",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.vision-skip.test.ts:396",
                "upstream it() block #7",

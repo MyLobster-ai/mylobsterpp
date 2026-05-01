@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] starts and stops the shared approval handler from runtime context registration",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:65] starts and stops the shared approval handler from runtime context registration",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] starts immediately when the runtime context was already registered",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:90] starts immediately when the runtime context was already registered",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] does not block bootstrap return on an existing runtime context",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:112] does not block bootstrap return on an existing runtime context",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] does not start a handler after the runtime context is unregistered mid-boot",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:128] does not start a handler after the runtime context is unregistered mid-boot",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] restarts the shared approval handler when the runtime context is replaced",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:159] restarts the shared approval handler when the runtime context is replaced",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:159",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] retries registered-context startup failures until the handler starts",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:197] retries registered-context startup failures until the handler starts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:197",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] does not retry terminal native approval startup failures",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:235] does not retry terminal native approval startup failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:235",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts] does not let a stale retry stop a newer active handler",
+TEST_CASE("v4.29 [src/infra/approval-handler-bootstrap.test.ts:274] does not let a stale retry stop a newer active handler",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-handler-bootstrap.test.ts:274",
                "upstream it() block #7",

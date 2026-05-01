@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/index.test.ts] routes the package root export to the pure library entry",
+TEST_CASE("v4.29 [src/index.test.ts:6] routes the package root export to the pure library entry",
           "[v4_29][parity_gap][index.test.ts]") {
     PARITY_GAP("src/index.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/index.test.ts] does not run CLI bootstrap when imported as a library dependency",
+TEST_CASE("v4.29 [src/index.test.ts:18] does not run CLI bootstrap when imported as a library dependency",
           "[v4_29][parity_gap][index.test.ts]") {
     PARITY_GAP("src/index.test.ts:18",
                "upstream it() block #1",

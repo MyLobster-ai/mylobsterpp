@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts] maps mattermost channel types to chat types",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts:9] maps mattermost channel types to chat types",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-gating.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts] derives chat kind from trusted channel lookup before fallback state",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts:17] derives chat kind from trusted channel lookup before fallback state",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-gating.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts] drops non-mentioned traffic when onchar is enabled but not triggered",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts:34] drops non-mentioned traffic when onchar is enabled but not triggered",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-gating.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts] bypasses mention for authorized control commands and allows direct chats",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-gating.test.ts:59] bypasses mention for authorized control commands and allows direct chats",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-gating.test.ts:59",
                "upstream it() block #3",

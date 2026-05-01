@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-uninstall-selection.test.ts] accepts the recorded ClawHub spec as an uninstall target",
+TEST_CASE("v4.29 [src/cli/plugins-uninstall-selection.test.ts:6] accepts the recorded ClawHub spec as an uninstall target",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-uninstall-selection.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-uninstall-selection.test.ts] accepts a versionless ClawHub spec when the install was pinned",
+TEST_CASE("v4.29 [src/cli/plugins-uninstall-selection.test.ts:29] accepts a versionless ClawHub spec when the install was pinned",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-uninstall-selection.test.ts:29",
                "upstream it() block #1",

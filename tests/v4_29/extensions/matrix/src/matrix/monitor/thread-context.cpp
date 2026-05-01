@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts] summarizes thread starter events from body text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts:10] summarizes thread starter events from body text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/thread-context.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts] marks media-only thread starter events instead of returning bare filenames",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts:25] marks media-only thread starter events instead of returning bare filenames",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/thread-context.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts] resolves and caches thread starter context",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts:40] resolves and caches thread starter context",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/thread-context.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts] does not cache thread starter fetch failures",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts:81] does not cache thread starter fetch failures",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/thread-context.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts] summarizes poll start thread roots from poll content",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/thread-context.test.ts:129] summarizes poll start thread roots from poll content",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/thread-context.test.ts:129",
                "upstream it() block #4",

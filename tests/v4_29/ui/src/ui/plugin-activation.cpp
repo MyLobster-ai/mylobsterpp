@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts] stays permissive when config has not loaded yet",
+TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts:5] stays permissive when config has not loaded yet",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/plugin-activation.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts] treats bundled default-off plugins as disabled when config is present but silent",
+TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts:13] treats bundled default-off plugins as disabled when config is present but silent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/plugin-activation.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts] returns true when the plugin is explicitly enabled",
+TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts:30] returns true when the plugin is explicitly enabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/plugin-activation.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts] returns false when plugins.allow excludes the plugin",
+TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts:51] returns false when plugins.allow excludes the plugin",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/plugin-activation.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts] keeps default-on plugins enabled when config is silent",
+TEST_CASE("v4.29 [ui/src/ui/plugin-activation.test.ts:73] keeps default-on plugins enabled when config is silent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/plugin-activation.test.ts:73",
                "upstream it() block #4",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts] rejects blank text before constructing Edge TTS",
+TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts:46] rejects blank text before constructing Edge TTS",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/tts.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts] throws after one retry when the output file stays empty",
+TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts:68] throws after one retry when the output file stays empty",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/tts.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts] succeeds when the output file has content",
+TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts:92] succeeds when the output file has content",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/tts.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts] retries once when the first output file is empty",
+TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts:113] retries once when the first output file is empty",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/tts.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts] retries once when Edge TTS resolves without creating an output file",
+TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts:137] retries once when Edge TTS resolves without creating an output file",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/tts.test.ts:137",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts] does not retry provider errors",
+TEST_CASE("v4.29 [extensions/microsoft/tts.test.ts:163] does not retry provider errors",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/tts.test.ts:163",
                "upstream it() block #5",

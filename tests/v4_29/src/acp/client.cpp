@@ -5,327 +5,327 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] sets OPENCLAW_SHELL marker and preserves existing env values",
+TEST_CASE("v4.29 [src/acp/client.test.ts:72] sets OPENCLAW_SHELL marker and preserves existing env values",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] overrides pre-existing OPENCLAW_SHELL to acp-client",
+TEST_CASE("v4.29 [src/acp/client.test.ts:83] overrides pre-existing OPENCLAW_SHELL to acp-client",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] strips skill-injected env keys when stripKeys is provided",
+TEST_CASE("v4.29 [src/acp/client.test.ts:90] strips skill-injected env keys when stripKeys is provided",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] does not modify the original baseEnv when stripping keys",
+TEST_CASE("v4.29 [src/acp/client.test.ts:112] does not modify the original baseEnv when stripping keys",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] preserves OPENCLAW_SHELL even when stripKeys contains it",
+TEST_CASE("v4.29 [src/acp/client.test.ts:124] preserves OPENCLAW_SHELL even when stripKeys contains it",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] strips provider auth env vars for the default OpenClaw bridge",
+TEST_CASE("v4.29 [src/acp/client.test.ts:138] strips provider auth env vars for the default OpenClaw bridge",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:138",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] strips provider auth env vars case-insensitively",
+TEST_CASE("v4.29 [src/acp/client.test.ts:159] strips provider auth env vars case-insensitively",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:159",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] preserves provider auth env vars for explicit custom ACP servers",
+TEST_CASE("v4.29 [src/acp/client.test.ts:175] preserves provider auth env vars for explicit custom ACP servers",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:175",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] strips provider auth env vars for the default bridge",
+TEST_CASE("v4.29 [src/acp/client.test.ts:192] strips provider auth env vars for the default bridge",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:192",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] preserves provider auth env vars for explicit custom ACP servers",
+TEST_CASE("v4.29 [src/acp/client.test.ts:204] preserves provider auth env vars for explicit custom ACP servers",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:204",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] preserves provider auth env vars when an explicit override uses the default executable with different args",
+TEST_CASE("v4.29 [src/acp/client.test.ts:215] preserves provider auth env vars when an explicit override uses the default executable with different args",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:215",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] always includes active skill env keys",
+TEST_CASE("v4.29 [src/acp/client.test.ts:228] always includes active skill env keys",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:228",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] adds provider auth env vars for the default bridge",
+TEST_CASE("v4.29 [src/acp/client.test.ts:239] adds provider auth env vars for the default bridge",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:239",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] keeps non-windows invocation unchanged",
+TEST_CASE("v4.29 [src/acp/client.test.ts:254] keeps non-windows invocation unchanged",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:254",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] unwraps .cmd shim entrypoint on windows",
+TEST_CASE("v4.29 [src/acp/client.test.ts:271] unwraps .cmd shim entrypoint on windows",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:271",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] fails closed for unresolved wrappers on windows",
+TEST_CASE("v4.29 [src/acp/client.test.ts:293] fails closed for unresolved wrappers on windows",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:293",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] auto-approves safe tools without prompting",
+TEST_CASE("v4.29 [src/acp/client.test.ts:341] auto-approves safe tools without prompting",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:341",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for dangerous tool names inferred from title",
+TEST_CASE("v4.29 [src/acp/client.test.ts:348] prompts for dangerous tool names inferred from title",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:348",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for non-read/search tools (write)",
+TEST_CASE("v4.29 [src/acp/client.test.ts:361] prompts for non-read/search tools (write)",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:361",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for exec-capable tools even when the action looks readonly",
+TEST_CASE("v4.29 [src/acp/client.test.ts:374] prompts for exec-capable tools even when the action looks readonly",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:374",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for control-plane tools even on readonly-like actions",
+TEST_CASE("v4.29 [src/acp/client.test.ts:395] prompts for control-plane tools even on readonly-like actions",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:395",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] auto-approves search without prompting",
+TEST_CASE("v4.29 [src/acp/client.test.ts:454] auto-approves search without prompting",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:454",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] auto-approves safe tools when rawInput is the only identity hint",
+TEST_CASE("v4.29 [src/acp/client.test.ts:466] auto-approves safe tools when rawInput is the only identity hint",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:466",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts when raw input spoofs a safe tool name for a dangerous title",
+TEST_CASE("v4.29 [src/acp/client.test.ts:486] prompts when raw input spoofs a safe tool name for a dangerous title",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:486",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for read outside cwd scope",
+TEST_CASE("v4.29 [src/acp/client.test.ts:507] prompts for read outside cwd scope",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:507",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] auto-approves read when rawInput path resolves inside cwd",
+TEST_CASE("v4.29 [src/acp/client.test.ts:520] auto-approves read when rawInput path resolves inside cwd",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:520",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] auto-approves read when rawInput file URL resolves inside cwd",
+TEST_CASE("v4.29 [src/acp/client.test.ts:534] auto-approves read when rawInput file URL resolves inside cwd",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:534",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for read when rawInput path escapes cwd via traversal",
+TEST_CASE("v4.29 [src/acp/client.test.ts:548] prompts for read when rawInput path escapes cwd via traversal",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:548",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for read when scoped path is missing",
+TEST_CASE("v4.29 [src/acp/client.test.ts:566] prompts for read when scoped path is missing",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:566",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts for non-core read-like tool names",
+TEST_CASE("v4.29 [src/acp/client.test.ts:583] prompts for non-core read-like tool names",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:583",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts when kind is spoofed as read",
+TEST_CASE("v4.29 [src/acp/client.test.ts:622] prompts when kind is spoofed as read",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:622",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] uses allow_always and reject_always when once options are absent",
+TEST_CASE("v4.29 [src/acp/client.test.ts:640] uses allow_always and reject_always when once options are absent",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:640",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts when tool identity is unknown and can still approve",
+TEST_CASE("v4.29 [src/acp/client.test.ts:656] prompts when tool identity is unknown and can still approve",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:656",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts when metadata tool name contains invalid characters",
+TEST_CASE("v4.29 [src/acp/client.test.ts:672] prompts when metadata tool name contains invalid characters",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:672",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts when raw input tool name exceeds max length",
+TEST_CASE("v4.29 [src/acp/client.test.ts:687] prompts when raw input tool name exceeds max length",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:687",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] prompts when title tool name contains non-allowed characters",
+TEST_CASE("v4.29 [src/acp/client.test.ts:702] prompts when title tool name contains non-allowed characters",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:702",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] returns cancelled when no permission options are present",
+TEST_CASE("v4.29 [src/acp/client.test.ts:716] returns cancelled when no permission options are present",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:716",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] sanitizes tool titles before logging and prompting",
+TEST_CASE("v4.29 [src/acp/client.test.ts:726] sanitizes tool titles before logging and prompting",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:726",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] extracts text and resource blocks into prompt text",
+TEST_CASE("v4.29 [src/acp/client.test.ts:763] extracts text and resource blocks into prompt text",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:763",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] escapes control and delimiter characters in resource link metadata",
+TEST_CASE("v4.29 [src/acp/client.test.ts:774] escapes control and delimiter characters in resource link metadata",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:774",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] escapes C0/C1 separators in resource link metadata",
+TEST_CASE("v4.29 [src/acp/client.test.ts:789] escapes C0/C1 separators in resource link metadata",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:789",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] never emits raw C0/C1 or unicode line separators from resource link metadata",
+TEST_CASE("v4.29 [src/acp/client.test.ts:804] never emits raw C0/C1 or unicode line separators from resource link metadata",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:804",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] keeps full resource link title content without truncation",
+TEST_CASE("v4.29 [src/acp/client.test.ts:825] keeps full resource link title content without truncation",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:825",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] counts newline separators toward prompt byte limits",
+TEST_CASE("v4.29 [src/acp/client.test.ts:834] counts newline separators toward prompt byte limits",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:834",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] extracts image blocks into gateway attachments",
+TEST_CASE("v4.29 [src/acp/client.test.ts:856] extracts image blocks into gateway attachments",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:856",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/client.test.ts] escapes inline control characters in tool titles",
+TEST_CASE("v4.29 [src/acp/client.test.ts:872] escapes inline control characters in tool titles",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/client.test.ts:872",
                "upstream it() block #45",

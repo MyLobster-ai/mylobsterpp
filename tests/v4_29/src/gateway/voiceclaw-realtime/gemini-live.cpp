@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts] stays paused while async OpenClaw tool work is still running",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts:9] stays paused while async OpenClaw tool work is still running",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/gemini-live.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts] releases the watchdog hold when Gemini cancels an already-acked async tool",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts:44] releases the watchdog hold when Gemini cancels an already-acked async tool",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/gemini-live.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts] cancels async OpenClaw tool work when Gemini closes after the working ack",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts:69] cancels async OpenClaw tool work when Gemini closes after the working ack",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/gemini-live.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts] defers goAway rotation until async OpenClaw tool work finishes",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts:91] defers goAway rotation until async OpenClaw tool work finishes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/gemini-live.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts] rotates after goAway when Gemini cancels the deferred async tool",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/gemini-live.test.ts:117] rotates after goAway when Gemini cancels the deferred async tool",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/gemini-live.test.ts:117",
                "upstream it() block #4",

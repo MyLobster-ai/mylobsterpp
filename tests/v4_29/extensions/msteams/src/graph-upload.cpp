@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] uploads to OneDrive with the personal drive path",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:11] uploads to OneDrive with the personal drive path",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] uploads to SharePoint with the site drive path",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:48] uploads to SharePoint with the site drive path",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] rejects upload responses missing required fields",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:86] rejects upload responses missing required fields",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] returns the ID directly when it already starts with 19:",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:112] returns the ID directly when it already starts with 19:",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] resolves personal DM chat ID via Graph API using user AAD object ID",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:124] resolves personal DM chat ID via Graph API using user AAD object ID",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] resolves personal DM chat ID without user AAD object ID (lists all 1:1 chats)",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:164] resolves personal DM chat ID without user AAD object ID (lists all 1:1 chats)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:164",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] returns null when Graph API returns no chats",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:183] returns null when Graph API returns no chats",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:183",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] returns null when Graph API call fails",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:202] returns null when Graph API call fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:202",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] extracts a unique id from quoted etags and lowercases file extensions",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:223] extracts a unique id from quoted etags and lowercases file extensions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:223",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts] keeps the raw etag when no version suffix exists and handles extensionless files",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-upload.test.ts:241] keeps the raw etag when no version suffix exists and handles extensionless files",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-upload.test.ts:241",
                "upstream it() block #9",

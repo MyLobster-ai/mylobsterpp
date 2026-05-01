@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts] renders presentation blocks",
+TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts:14] renders presentation blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/outbound-payload.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts] sends media before a separate interactive blocks message",
+TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts:35] sends media before a separate interactive blocks message",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/outbound-payload.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts] fails when merged Slack blocks exceed the platform limit",
+TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts:79] fails when merged Slack blocks exceed the platform limit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/outbound-payload.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts] offsets presentation controls against native Slack blocks before standalone interactive controls",
+TEST_CASE("v4.29 [extensions/slack/src/outbound-payload.test.ts:98] offsets presentation controls against native Slack blocks before standalone interactive controls",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/outbound-payload.test.ts:98",
                "upstream it() block #3",

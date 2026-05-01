@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] does not use live provider discovery for display-only rows",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:155] does not use live provider discovery for display-only rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:155",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] includes unauthenticated Moonshot static catalog rows",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:166] includes unauthenticated Moonshot static catalog rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:166",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] requires complete discovery-entry coverage for static-only loads",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:180] requires complete discovery-entry coverage for static-only loads",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:180",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] resolves provider owners from the installed plugin index before manifest fallback",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:196] resolves provider owners from the installed plugin index before manifest fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:196",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] falls back to manifest ownership when the plugin index is derived",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:212] falls back to manifest ownership when the plugin index is derived",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:212",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] does not fall back to legacy manifest ownership for disabled persisted plugin owners",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:236] does not fall back to legacy manifest ownership for disabled persisted plugin owners",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:236",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] returns an empty catalog when a static provider catalog throws",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:253] returns an empty catalog when a static provider catalog throws",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:253",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] only skips registry for providers with actual static catalogs",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:277] only skips registry for providers with actual static catalogs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:277",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] does not skip registry when a bundled provider has no lightweight static entry",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:299] does not skip registry when a bundled provider has no lightweight static entry",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:299",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] does not skip registry for non-bundled static catalog owners",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:311] does not skip registry for non-bundled static catalog owners",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:311",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] recognizes bundled provider hook aliases before the unknown-provider short-circuit",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:329] recognizes bundled provider hook aliases before the unknown-provider short-circuit",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:329",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] does not execute workspace provider static catalogs",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:341] does not execute workspace provider static catalogs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:341",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts] keeps unknown provider filters eligible for early empty results",
+TEST_CASE("v4.29 [src/commands/models/list.provider-catalog.test.ts:381] keeps unknown provider filters eligible for early empty results",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-catalog.test.ts:381",
                "upstream it() block #12",

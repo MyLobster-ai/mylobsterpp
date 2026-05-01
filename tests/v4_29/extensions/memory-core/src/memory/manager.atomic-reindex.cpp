@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.atomic-reindex.test.ts] keeps the prior index when a full reindex fails",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.atomic-reindex.test.ts:29] keeps the prior index when a full reindex fails",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.atomic-reindex.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.atomic-reindex.test.ts] replaces the old index after a successful temp reindex",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.atomic-reindex.test.ts:47] replaces the old index after a successful temp reindex",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.atomic-reindex.test.ts:47",
                "upstream it() block #1",

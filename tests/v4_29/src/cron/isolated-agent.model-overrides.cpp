@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts] treats blank model overrides as unset",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts:24] treats blank model overrides as unset",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-overrides.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts] applies model overrides with correct precedence",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts:35] applies model overrides with correct precedence",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-overrides.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts] uses hooks.gmail.model and keeps precedence over stored session override",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts:91] uses hooks.gmail.model and keeps precedence over stored session override",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-overrides.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts] ignores hooks.gmail.model when not in the allowlist",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts:121] ignores hooks.gmail.model when not in the allowlist",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-overrides.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts] rejects invalid model override",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts:160] rejects invalid model override",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-overrides.test.ts:160",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts] passes through the resolved default thinking level",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-overrides.test.ts:177] passes through the resolved default thinking level",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-overrides.test.ts:177",
                "upstream it() block #5",

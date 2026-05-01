@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] allows group messages when groupAllowFrom contains the inbound Signal group id",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:38] allows group messages when groupAllowFrom contains the inbound Signal group id",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] allows Signal group target forms in groupAllowFrom",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:47] allows Signal group target forms in groupAllowFrom",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] blocks group messages when groupAllowFrom contains a different Signal group id",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:61] blocks group messages when groupAllowFrom contains a different Signal group id",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] keeps sender allowlist compatibility for Signal group messages",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:70] keeps sender allowlist compatibility for Signal group messages",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] does not match group ids against direct-message allowFrom entries",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:79] does not match group ids against direct-message allowFrom entries",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] does not let group ids in allowFrom satisfy an explicit groupAllowFrom mismatch",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:93] does not let group ids in allowFrom satisfy an explicit groupAllowFrom mismatch",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:93",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] returns true for already-allowed direct messages",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:105] returns true for already-allowed direct messages",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:105",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts] issues a pairing challenge for pairing-gated senders",
+TEST_CASE("v4.29 [extensions/signal/src/monitor/access-policy.test.ts:120] issues a pairing challenge for pairing-gated senders",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor/access-policy.test.ts:120",
                "upstream it() block #7",

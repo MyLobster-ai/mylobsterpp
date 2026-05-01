@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.policy.test.ts] allows first replay after crash for retryCount=0 without lastAttemptAt",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.policy.test.ts:52] allows first replay after crash for retryCount=0 without lastAttemptAt",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.policy.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.policy.test.ts] defers retry entries until backoff window elapses",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.policy.test.ts:68] defers retry entries until backoff window elapses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.policy.test.ts:68",
                "upstream it() block #1",

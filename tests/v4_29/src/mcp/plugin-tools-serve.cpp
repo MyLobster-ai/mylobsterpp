@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts] lists registered plugin tools and serializes non-array tool content",
+TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts:23] lists registered plugin tools and serializes non-array tool content",
           "[v4_29][parity_gap][mcp]") {
     PARITY_GAP("src/mcp/plugin-tools-serve.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts] serializes plugin tool results that do not use the MCP content envelope",
+TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts:68] serializes plugin tool results that do not use the MCP content envelope",
           "[v4_29][parity_gap][mcp]") {
     PARITY_GAP("src/mcp/plugin-tools-serve.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts] returns MCP errors for unknown tools and thrown tool errors",
+TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts:101] returns MCP errors for unknown tools and thrown tool errors",
           "[v4_29][parity_gap][mcp]") {
     PARITY_GAP("src/mcp/plugin-tools-serve.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts] blocks tool execution when before_tool_call requires approval on the MCP bridge",
+TEST_CASE("v4.29 [src/mcp/plugin-tools-serve.test.ts:125] blocks tool execution when before_tool_call requires approval on the MCP bridge",
           "[v4_29][parity_gap][mcp]") {
     PARITY_GAP("src/mcp/plugin-tools-serve.test.ts:125",
                "upstream it() block #3",

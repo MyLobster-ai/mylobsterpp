@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] wires the top-level models menu adapter into the production plugin",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:31] wires the top-level models menu adapter into the production plugin",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] wires the guided add-provider adapter into the production plugin",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:51] wires the guided add-provider adapter into the production plugin",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] marks secondary account as not configured when token is shared",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:66] marks secondary account as not configured when token is shared",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] ignores accounts with missing tokens during duplicate-token checks",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:81] ignores accounts with missing tokens during duplicate-token checks",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] reports configured for single-bot setup with channel-level token",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:89] reports configured for single-bot setup with channel-level token",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] reports configured for binding-created accountId in single-bot setup",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:103] reports configured for binding-created accountId in single-bot setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:103",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] reports not configured for unknown binding-created accountId in multi-bot setup",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:118] reports not configured for unknown binding-created accountId in multi-bot setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:118",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] normalizes account keys with spaces and mixed case",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:138] normalizes account keys with spaces and mixed case",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:138",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] reports not configured when token is configured_unavailable",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:155] reports not configured when token is configured_unavailable",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts] keeps read-only accessors from resolving bot token SecretRefs",
+TEST_CASE("v4.29 [extensions/telegram/src/shared.test.ts:170] keeps read-only accessors from resolving bot token SecretRefs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/shared.test.ts:170",
                "upstream it() block #9",

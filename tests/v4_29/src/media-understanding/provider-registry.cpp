@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts] loads media providers from the capability runtime",
+TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts:27] loads media providers from the capability runtime",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-registry.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts] keeps provider id normalization behavior for capability providers",
+TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts:43] keeps provider id normalization behavior for capability providers",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-registry.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts] auto-registers media-understanding for config providers with image-capable models (#51392)",
+TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts:53] auto-registers media-understanding for config providers with image-capable models (#51392)",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-registry.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts] does not override capability providers when config also has image-capable models",
+TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts:77] does not override capability providers when config also has image-capable models",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-registry.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts] does not auto-register providers with audio or video only inputs",
+TEST_CASE("v4.29 [src/media-understanding/provider-registry.test.ts:108] does not auto-register providers with audio or video only inputs",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-registry.test.ts:108",
                "upstream it() block #4",

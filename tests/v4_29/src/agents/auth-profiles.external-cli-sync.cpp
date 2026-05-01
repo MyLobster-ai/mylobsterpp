@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] keeps equivalent stored credentials",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:70] keeps equivalent stored credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] keeps the newer stored credential",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:88] keeps the newer stored credential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] replaces when incoming credentials are fresher",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:103] replaces when incoming credentials are fresher",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] treats only non-expired and non-near-expiry access tokens as usable local oauth",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:121] treats only non-expired and non-near-expiry access tokens as usable local oauth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] only bootstraps from external cli when the stored oauth is not usable",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:160] only bootstraps from external cli when the stored oauth is not usable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:160",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] refuses external oauth usage across different known identities",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:205] refuses external oauth usage across different known identities",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:205",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] does not use codex as a runtime bootstrap source anymore",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:229] does not use codex as a runtime bootstrap source anymore",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:229",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] bootstraps the default codex profile from Codex CLI credentials when in scope",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:246] bootstraps the default codex profile from Codex CLI credentials when in scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:246",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] keeps any existing default codex oauth over Codex CLI bootstrap credentials",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:274] keeps any existing default codex oauth over Codex CLI bootstrap credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:274",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] returns null when the profile id/provider do not map to the same external source",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:301] returns null when the profile id/provider do not map to the same external source",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:301",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] normalizes Claude CLI oauth credentials into the managed Claude profile",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:314] normalizes Claude CLI oauth credentials into the managed Claude profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:314",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] skips external cli readers outside the scoped provider set",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:340] skips external cli readers outside the scoped provider set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:340",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] does not scan missing external CLI profiles without an explicit scope",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:351] does not scan missing external CLI profiles without an explicit scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:351",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] refreshes a stored external CLI profile without an explicit scope",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:366] refreshes a stored external CLI profile without an explicit scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:366",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] passes non-prompting keychain policy to scoped Claude CLI credential reads",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:396] passes non-prompting keychain policy to scoped Claude CLI credential reads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:396",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] passes non-prompting keychain policy to scoped Codex CLI credential reads",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:426] passes non-prompting keychain policy to scoped Codex CLI credential reads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:426",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] ignores Claude CLI token credentials",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:456] ignores Claude CLI token credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:456",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] resolves fresher minimax external oauth profiles as runtime overlays",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:471] resolves fresher minimax external oauth profiles as runtime overlays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:471",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] does not emit runtime overlays when the stored minimax credential is newer",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:504] does not emit runtime overlays when the stored minimax credential is newer",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:504",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts] does not overlay fresh minimax oauth over a still-usable local credential",
+TEST_CASE("v4.29 [src/agents/auth-profiles.external-cli-sync.test.ts:529] does not overlay fresh minimax oauth over a still-usable local credential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.external-cli-sync.test.ts:529",
                "upstream it() block #19",

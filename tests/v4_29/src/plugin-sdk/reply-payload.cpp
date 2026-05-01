@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] returns empty result when payload has no text and no media",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:38] returns empty result when payload has no text and no media",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] sends first media with text and remaining media without text",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:48] sends first media with text and remaining media without text",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] chunks text and sends each chunk",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:68] chunks text and sends each chunk",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] detects numeric target IDs",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:85] detects numeric target IDs",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] uses an implicit single-use reply only for the first text chunk",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:94] uses an implicit single-use reply only for the first text chunk",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] uses an implicit single-use reply only for the first media fallback send",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:122] uses an implicit single-use reply only for the first media fallback send",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] preserves audioAsVoice on media fallback sends",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:142] preserves audioAsVoice on media fallback sends",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:142",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] keeps explicit reply tags independent from single-use implicit reply modes",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:163] keeps explicit reply tags independent from single-use implicit reply modes",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:163",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] strips internal-only local media trust flags from loose payload objects",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:192] strips internal-only local media trust flags from loose payload objects",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:192",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] keeps the normalized deliverer from forwarding trustedLocalMedia",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:209] keeps the normalized deliverer from forwarding trustedLocalMedia",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:209",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] reports whether normalized payloads include media",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:274] reports whether normalized payloads include media",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:274",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] normalizes missing text and trims media urls",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:356] normalizes missing text and trims media urls",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:356",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] accepts transformed text overrides",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:372] accepts transformed text overrides",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:372",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] sends media first with caption only on the first attachment",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:420] sends media first with caption only on the first attachment",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:420",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] falls back to chunked text delivery when there is no media",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:444] falls back to chunked text delivery when there is no media",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:444",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] returns empty when chunking produces no sendable text",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:465] returns empty when chunking produces no sendable text",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:465",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] ignores blank media urls before sending",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:483] ignores blank media urls before sending",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:483",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] passes leading-caption metadata to async error handlers",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:505] passes leading-caption metadata to async error handlers",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:505",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts] combines attachment links and forwards replyToId",
+TEST_CASE("v4.29 [src/plugin-sdk/reply-payload.test.ts:537] combines attachment links and forwards replyToId",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/reply-payload.test.ts:537",
                "upstream it() block #18",

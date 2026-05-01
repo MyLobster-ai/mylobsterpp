@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] parses oauth usage windows",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:56] parses oauth usage windows",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] clamps oauth usage windows and prefers sonnet over opus when both exist",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:80] clamps oauth usage windows and prefers sonnet over opus when both exist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] returns HTTP errors with provider message suffix",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:99] returns HTTP errors with provider message suffix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] omits blank error message suffixes on oauth failures",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:111] omits blank error message suffixes on oauth failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] keeps HTTP status errors when oauth error bodies are not JSON",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:123] keeps HTTP status errors when oauth error bodies are not JSON",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] falls back to claude web usage when oauth scope is missing",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:131] falls back to claude web usage when oauth scope is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:131",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] parses sessionKey from Cookie-prefixed CLAUDE_WEB_COOKIE headers",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:161] parses sessionKey from Cookie-prefixed CLAUDE_WEB_COOKIE headers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:161",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] parses sessionKey from CLAUDE_WEB_COOKIE for web fallback",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:180] parses sessionKey from CLAUDE_WEB_COOKIE for web fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:180",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts] keeps oauth error when fallback session key is unavailable",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.claude.test.ts:199] keeps oauth error when fallback session key is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.claude.test.ts:199",
                "upstream it() block #8",

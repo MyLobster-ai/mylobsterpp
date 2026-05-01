@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] ensures allowlist entry exists when returning an agent override",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:40] ensures allowlist entry exists when returning an agent override",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] adds canonical allowlist key for anthropic aliases",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:59] adds canonical allowlist key for anthropic aliases",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] uses applyDefaultConfig path when setDefaultModel is true",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:75] uses applyDefaultConfig path when setDefaultModel is true",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] sets defaults when model is unset",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:100] sets defaults when model is unset",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] overrides existing models",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:106] overrides existing models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] no-ops when already legacy opencode-zen default",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:114] no-ops when already legacy opencode-zen default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] preserves fallbacks when setting primary",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:122] preserves fallbacks when setting primary",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:122",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts] no-ops when already on the current default",
+TEST_CASE("v4.29 [src/commands/openai-model-default.test.ts:141] no-ops when already on the current default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/openai-model-default.test.ts:141",
                "upstream it() block #7",

@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] handles debug mode and config-only command preaction",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:204] handles debug mode and config-only command preaction",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:204",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] loads plugins for text local agent runs",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:236] loads plugins for text local agent runs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:236",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] loads plugins for json local agent runs",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:249] loads plugins for json local agent runs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:249",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] keeps setup alias and channels add manifest-first",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:263] keeps setup alias and channels add manifest-first",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:263",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] lets configure own config validation and plugin loading",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:288] lets configure own config validation and plugin loading",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:288",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] only allows invalid config for explicit Matrix reinstall requests",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:298] only allows invalid config for explicit Matrix reinstall requests",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:298",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] skips help/version preaction and respects banner opt-out",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:353] skips help/version preaction and respects banner opt-out",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:353",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] applies --json stdout suppression only for explicit JSON output commands",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:375] applies --json stdout suppression only for explicit JSON output commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:375",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] routes logs to stderr in --json mode so stdout stays clean",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:413] routes logs to stderr in --json mode so stdout stays clean",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:413",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] does not preload plugins for agents list JSON output",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:442] does not preload plugins for agents list JSON output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:442",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] does not preload plugins for remote agent JSON output",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:452] does not preload plugins for remote agent JSON output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:452",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] bypasses config guard for config validate",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:462] bypasses config guard for config validate",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:462",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] bypasses config guard for config validate when root option values are present",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:471] bypasses config guard for config validate when root option values are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:471",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] bypasses config guard for config schema",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:480] bypasses config guard for config schema",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:480",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] bypasses config guard for backup create",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:489] bypasses config guard for backup create",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:489",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] routes logs to stderr during plugin loading in --json mode and restores after",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:498] routes logs to stderr during plugin loading in --json mode and restores after",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:498",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/preaction.test.ts] does not preload plugins or route logs to stderr for agents list without --json",
+TEST_CASE("v4.29 [src/cli/program/preaction.test.ts:515] does not preload plugins or route logs to stderr for agents list without --json",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/preaction.test.ts:515",
                "upstream it() block #16",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/chat-avatar.test.ts] renders assistant fallback, blob image, and text avatars",
+TEST_CASE("v4.29 [ui/src/ui/chat/chat-avatar.test.ts:42] renders assistant fallback, blob image, and text avatars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/chat-avatar.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/chat-avatar.test.ts] uses the assistant fallback while authenticated avatar routes are loading",
+TEST_CASE("v4.29 [ui/src/ui/chat/chat-avatar.test.ts:63] uses the assistant fallback while authenticated avatar routes are loading",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/chat-avatar.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/chat-avatar.test.ts] renders local user image and text avatars",
+TEST_CASE("v4.29 [ui/src/ui/chat/chat-avatar.test.ts:75] renders local user image and text avatars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/chat-avatar.test.ts:75",
                "upstream it() block #2",

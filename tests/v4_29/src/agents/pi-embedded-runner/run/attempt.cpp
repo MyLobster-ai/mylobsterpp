@@ -5,880 +5,880 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps explicit toolsAllow authoritative after force-added tools are built",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:68] keeps explicit toolsAllow authoritative after force-added tools are built",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] normalizes explicit toolsAllow entries before filtering",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:76] normalizes explicit toolsAllow entries before filtering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] strips tool result details before provider conversion",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:86] strips tool result details before provider conversion",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps runtime-context transcript entries out of the LLM boundary",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:108] keeps runtime-context transcript entries out of the LLM boundary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:108",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] skips bundle MCP when tools are disabled or unavailable",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:146] skips bundle MCP when tools are disabled or unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:146",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] creates bundle MCP only when the allowlist can reach bundle MCP tool names",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:153] creates bundle MCP only when the allowlist can reach bundle MCP tool names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] reuses precomputed legacy before_agent_start result without invoking hook again",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:196] reuses precomputed legacy before_agent_start result without invoking hook again",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:196",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] calls legacy hook when precomputed result is absent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:217] calls legacy hook when precomputed result is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:217",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] merges prompt-build and legacy context fields in deterministic order",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:233] merges prompt-build and legacy context fields in deterministic order",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:233",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] applies heartbeat prompt contributions only during heartbeat turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:264] applies heartbeat prompt contributions only during heartbeat turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:264",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] returns undefined when no hook system context is provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:303] returns undefined when no hook system context is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:303",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] builds prepend/base/append system prompt order",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:307] builds prepend/base/append system prompt order",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:307",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] normalizes hook system context line endings and trailing whitespace",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:317] normalizes hook system context line endings and trailing whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:317",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] avoids blank separators when base system prompt is empty",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:327] avoids blank separators when base system prompt is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:327",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps hook-composed system prompt stable when bootstrap warnings only change the user prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:336] keeps hook-composed system prompt stable when bootstrap warnings only change the user prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:336",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] uses minimal mode for subagent sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:374] uses minimal mode for subagent sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:374",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] uses minimal mode for cron sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:378] uses minimal mode for cron sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:378",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] uses full mode for regular and undefined sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:383] uses full mode for regular and undefined sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:383",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] never injects raw BOOTSTRAP.md into embedded system context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:391] never injects raw BOOTSTRAP.md into embedded system context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:391",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] treats regular sessions as primary bootstrap runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:399] treats regular sessions as primary bootstrap runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:399",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] suppresses bootstrap ownership for subagent and ACP/helper sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:403] suppresses bootstrap ownership for subagent and ACP/helper sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:403",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] rewrites injected file paths onto the effective workspace when the tool root changes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:410] rewrites injected file paths onto the effective workspace when the tool root changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:410",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] warns for user and manual runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:448] warns for user and manual runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:448",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not warn for background triggers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:453] does not warn for background triggers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:453",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] merges an orphaned user leaf into the next user-triggered prompt when missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:462] merges an orphaned user leaf into the next user-triggered prompt when missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:462",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not duplicate orphaned user text already present in the next prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:480] does not duplicate orphaned user text already present in the next prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:480",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not treat short orphan text as duplicate from a substring match",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:496] does not treat short orphan text as duplicate from a substring match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:496",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves structured orphaned user content before removing the leaf",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:514] preserves structured orphaned user content before removing the leaf",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:514",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] summarizes inline structured media without embedding data URIs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:539] summarizes inline structured media without embedding data URIs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:539",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] summarizes unknown structured data before JSON serialization",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:563] summarizes unknown structured data before JSON serialization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:563",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] removes an empty orphaned user leaf to prevent consecutive user turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:592] removes an empty orphaned user leaf to prevent consecutive user turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:592",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] merges orphan prompt text for non-user triggers without warning policy changes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:608] merges orphan prompt text for non-user triggers without warning policy changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:608",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] reuses the session",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:628] reuses the session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:628",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] injects authStorage api keys into provider-owned stream functions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:643] injects authStorage api keys into provider-owned stream functions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:643",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] strips the internal cache boundary before provider-owned stream calls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:668] strips the internal cache boundary before provider-owned stream calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:668",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] routes supported default streamSimple fallbacks through boundary-aware transports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:695] routes supported default streamSimple fallbacks through boundary-aware transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:695",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps explicit custom currentStreamFn values unchanged",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:710] keeps explicit custom currentStreamFn values unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:710",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] uses global tools.fs.workspaceOnly when agent has no override",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:728] uses global tools.fs.workspaceOnly when agent has no override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:728",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] prefers agent-specific tools.fs.workspaceOnly override",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:743] prefers agent-specific tools.fs.workspaceOnly override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:743",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] returns the default threshold when no loop-detection config is provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:770] returns the default threshold when no loop-detection config is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:770",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] stays on even when tools.loopDetection.enabled is false (safety net)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:775] stays on even when tools.loopDetection.enabled is false (safety net)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:775",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] uses the configured threshold override when provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:783] uses the configured threshold override when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:783",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] falls back to the default threshold when the override is non-positive",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:787] falls back to the default threshold when the override is non-positive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:787",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] floors fractional overrides",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:793] floors fractional overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:793",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] trims whitespace from live streamed tool call names and final result message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:822] trims whitespace from live streamed tool call names and final result message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:822",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] supports async stream functions that return a promise",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:849] supports async stream functions that return a promise",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:849",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] normalizes common tool aliases when the canonical name is allowed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:866] normalizes common tool aliases when the canonical name is allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:866",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] maps provider-prefixed tool names to allowed canonical tools",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:883] maps provider-prefixed tool names to allowed canonical tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:883",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] normalizes toolUse and functionCall names before dispatch",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:906] normalizes toolUse and functionCall names before dispatch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:906",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves multi-segment tool suffixes when dropping provider prefixes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:936] preserves multi-segment tool suffixes when dropping provider prefixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:936",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] rewrites repeated unavailable tool calls into plain assistant text after the threshold",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:953] rewrites repeated unavailable tool calls into plain assistant text after the threshold",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:953",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] leaves repeated unavailable tool calls alone when the unknown-tool guard is disabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:991] leaves repeated unavailable tool calls alone when the unknown-tool guard is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:991",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not count partial tool-call deltas as separate unavailable-tool retries",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1013] does not count partial tool-call deltas as separate unavailable-tool retries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1013",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not reset the unavailable-tool streak on partial-only stream chunks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1040] does not reset the unavailable-tool streak on partial-only stream chunks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1040",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] counts the final unknown-tool retry when streamed messages omit the tool name",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1080] counts the final unknown-tool retry when streamed messages omit the tool name",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1080",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] resets a provisional streamed unknown-tool retry when later chunks resolve to an allowed tool",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1120] resets a provisional streamed unknown-tool retry when later chunks resolve to an allowed tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1120",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps processing later streamed messages after one streamed unknown-tool retry was counted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1175] keeps processing later streamed messages after one streamed unknown-tool retry was counted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1175",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] resets a stale unknown-tool streak when a streamed message mixes allowed and unknown tools",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1230] resets a stale unknown-tool streak when a streamed message mixes allowed and unknown tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1230",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] infers tool names from malformed toolCallId variants when allowlist is present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1299] infers tool names from malformed toolCallId variants when allowlist is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1299",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not infer names from malformed toolCallId when allowlist is absent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1335] does not infer names from malformed toolCallId when allowlist is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1335",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] infers malformed non-blank tool names before dispatch",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1354] infers malformed non-blank tool names before dispatch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1354",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] recovers malformed non-blank names when id is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1379] recovers malformed non-blank names when id is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1379",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] recovers canonical tool names from canonical ids when name is empty",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1395] recovers canonical tool names from canonical ids when name is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1395",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] recovers tool names from ids when name is whitespace-only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1411] recovers tool names from ids when name is whitespace-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1411",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps blank names blank and assigns fallback ids when both name and id are blank",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1427] keeps blank names blank and assigns fallback ids when both name and id are blank",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1427",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] assigns fallback ids when both name and id are missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1444] assigns fallback ids when both name and id are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1444",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] prefers explicit canonical names over conflicting canonical ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1461] prefers explicit canonical names over conflicting canonical ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1461",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] prefers explicit trimmed canonical names over conflicting malformed ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1478] prefers explicit trimmed canonical names over conflicting malformed ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1478",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not rewrite composite names that mention multiple tools",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1494] does not rewrite composite names that mention multiple tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1494",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] fails closed for malformed non-blank names that are ambiguous",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1510] fails closed for malformed non-blank names that are ambiguous",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1510",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] matches malformed ids case-insensitively across common separators",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1526] matches malformed ids case-insensitively across common separators",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1526",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not override explicit non-blank tool names with inferred ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1541] does not override explicit non-blank tool names with inferred ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1541",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] fails closed when malformed ids could map to multiple allowlisted tools",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1557] fails closed when malformed ids could map to multiple allowlisted tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1557",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not collapse whitespace-only tool names to empty strings",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1572] does not collapse whitespace-only tool names to empty strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1572",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] assigns fallback ids to missing/blank tool call ids in streamed and final messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1593] assigns fallback ids to missing/blank tool call ids in streamed and final messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1593",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] trims surrounding whitespace on tool call ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1627] trims surrounding whitespace on tool call ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1627",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] reassigns duplicate tool call ids within a message to unique fallbacks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1644] reassigns duplicate tool call ids within a message to unique fallbacks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1644",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops malformed assistant tool calls from outbound context before provider replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1666] drops malformed assistant tool calls from outbound context before provider replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1666",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves outbound context when all assistant tool calls are valid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1703] preserves outbound context when all assistant tool calls are valid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1703",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] strips trailing assistant prefill turns for Anthropic outbound replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1729] strips trailing assistant prefill turns for Anthropic outbound replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1729",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] strips trailing assistant prefill turns for Gemini outbound replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1767] strips trailing assistant prefill turns for Gemini outbound replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1767",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops signed thinking turns when sibling replay tool calls are not allowlisted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1805] drops signed thinking turns when sibling replay tool calls are not allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1805",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops signed thinking turns for bedrock claude replay when sibling tool calls are not replay-safe",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1845] drops signed thinking turns for bedrock claude replay when sibling tool calls are not replay-safe",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1845",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops signed thinking turns when sibling replay tool calls reuse an id",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1885] drops signed thinking turns when sibling replay tool calls reuse an id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1885",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops signed thinking turns when replay would expose inline sessions_spawn attachments",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1926] drops signed thinking turns when replay would expose inline sessions_spawn attachments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1926",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops signed thinking turns when replay would expose non-content attachment payload fields",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:1979] drops signed thinking turns when replay would expose non-content attachment payload fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:1979",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps mutable thinking turns outside anthropic replay-only preservation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2038] keeps mutable thinking turns outside anthropic replay-only preservation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2038",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves sessions_spawn attachment payloads on replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2096] preserves sessions_spawn attachment payloads on replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2096",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps non-Anthropic thinking turns mutable when Anthropic replay validation is off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2140] keeps non-Anthropic thinking turns mutable when Anthropic replay validation is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2140",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves allowlisted tool names that contain punctuation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2176] preserves allowlisted tool names that contain punctuation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2176",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] normalizes provider-prefixed replayed tool names before provider replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2201] normalizes provider-prefixed replayed tool names before provider replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2201",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] canonicalizes mixed-case allowlisted tool names on replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2225] canonicalizes mixed-case allowlisted tool names on replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2225",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] recovers blank replayed tool names from their ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2249] recovers blank replayed tool names from their ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2249",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] recovers mangled replayed tool names before dropping the call",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2273] recovers mangled replayed tool names before dropping the call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2273",
                "upstream it() block #93",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops orphaned tool results after replay sanitization removes a tool-call turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2297] drops orphaned tool results after replay sanitization removes a tool-call turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2297",
                "upstream it() block #94",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops replayed tool calls that are no longer allowlisted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2338] drops replayed tool calls that are no longer allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2338",
                "upstream it() block #95",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops replayed tool names that are no longer allowlisted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2377] drops replayed tool names that are no longer allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2377",
                "upstream it() block #96",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops ambiguous mangled replay names instead of guessing a tool",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2406] drops ambiguous mangled replay names instead of guessing a tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2406",
                "upstream it() block #97",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves matching tool results for retained errored assistant turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2431] preserves matching tool results for retained errored assistant turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2431",
                "upstream it() block #98",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] revalidates turn ordering after dropping an assistant replay turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2485] revalidates turn ordering after dropping an assistant replay turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2485",
                "upstream it() block #99",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops orphaned Anthropic user tool_result blocks after replay sanitization",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2531] drops orphaned Anthropic user tool_result blocks after replay sanitization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2531",
                "upstream it() block #100",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops embedded Anthropic user tool_result blocks when signed-thinking replay must stay provider-owned",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2579] drops embedded Anthropic user tool_result blocks when signed-thinking replay must stay provider-owned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2579",
                "upstream it() block #101",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves embedded Anthropic user tool_result blocks for non-thinking turns even when immutable replay is enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2633] preserves embedded Anthropic user tool_result blocks for non-thinking turns even when immutable replay is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2633",
                "upstream it() block #102",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] drops orphaned Anthropic user tool_result blocks after dropping an assistant replay turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2718] drops orphaned Anthropic user tool_result blocks after dropping an assistant replay turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2718",
                "upstream it() block #103",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] repairs anthropic-compatible tool arguments when trailing junk follows valid JSON",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2776] repairs anthropic-compatible tool arguments when trailing junk follows valid JSON",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2776",
                "upstream it() block #104",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] repairs tool arguments when malformed tool-call preamble appears before JSON",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2824] repairs tool arguments when malformed tool-call preamble appears before JSON",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2824",
                "upstream it() block #105",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves anthropic-compatible tool arguments when the streamed JSON is already valid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2865] preserves anthropic-compatible tool arguments when the streamed JSON is already valid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2865",
                "upstream it() block #106",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not repair tool arguments when leading text is not tool-call metadata",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2913] does not repair tool arguments when leading text is not tool-call metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2913",
                "upstream it() block #107",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] keeps incomplete partial JSON unchanged until a complete object exists",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2946] keeps incomplete partial JSON unchanged until a complete object exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2946",
                "upstream it() block #108",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] does not repair tool arguments when trailing junk exceeds the Kimi-specific allowance",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:2971] does not repair tool arguments when trailing junk exceeds the Kimi-specific allowance",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:2971",
                "upstream it() block #109",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] clears a cached repair when later deltas make the trailing suffix invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3004] clears a cached repair when later deltas make the trailing suffix invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3004",
                "upstream it() block #110",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] clears a cached repair when a later delta adds a single oversized trailing suffix",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3049] clears a cached repair when a later delta adds a single oversized trailing suffix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3049",
                "upstream it() block #111",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves preexisting tool arguments when later reevaluation fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3088] preserves preexisting tool arguments when later reevaluation fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3088",
                "upstream it() block #112",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] decodes HTML entities in string values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3127] decodes HTML entities in string values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3127",
                "upstream it() block #113",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] recursively decodes nested objects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3134] recursively decodes nested objects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3134",
                "upstream it() block #114",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] passes through non-string primitives unchanged",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3147] passes through non-string primitives unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3147",
                "upstream it() block #115",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] returns strings without entities unchanged",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3154] returns strings without entities unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3154",
                "upstream it() block #116",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] decodes numeric character references",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3159] decodes numeric character references",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3159",
                "upstream it() block #117",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] prepends context-engine addition to the system prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3165] prepends context-engine addition to the system prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3165",
                "upstream it() block #118",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] returns the original system prompt when no addition is provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3174] returns the original system prompt when no addition is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3174",
                "upstream it() block #119",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] uses primary model when compaction.model is not set",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3184] uses primary model when compaction.model is not set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3184",
                "upstream it() block #120",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] resolves compaction.model override in runtime context so all context engines use the correct model",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3212] resolves compaction.model override in runtime context so all context engines use the correct model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3212",
                "upstream it() block #121",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] includes resolved auth profile fields for context-engine afterTurn compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3252] includes resolved auth profile fields for context-engine afterTurn compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3252",
                "upstream it() block #122",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] derives afterTurn token count from the current assistant usage snapshot",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3302] derives afterTurn token count from the current assistant usage snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3302",
                "upstream it() block #123",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts] preserves sender and channel routing context for scoped compaction discovery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.test.ts:3345] preserves sender and channel routing context for scoped compaction discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.test.ts:3345",
                "upstream it() block #124",

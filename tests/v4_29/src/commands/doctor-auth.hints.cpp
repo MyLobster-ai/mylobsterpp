@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] returns billing guidance for disabled billing profiles",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:5] returns billing guidance for disabled billing profiles",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] returns credential guidance for permanent auth disables",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:11] returns credential guidance for permanent auth disables",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] falls back to cooldown guidance for non-billing disable reasons",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:17] falls back to cooldown guidance for non-billing disable reasons",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] returns cooldown guidance for cooldown windows",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:23] returns cooldown guidance for cooldown windows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] formats permanent OAuth refresh failures as reauth-required",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:29] formats permanent OAuth refresh failures as reauth-required",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] formats non-permanent OAuth refresh failures as retry-then-reauth guidance",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:42] formats non-permanent OAuth refresh failures as retry-then-reauth guidance",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:42",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts] drops the provider-specific command when the parsed provider is unsafe",
+TEST_CASE("v4.29 [src/commands/doctor-auth.hints.test.ts:55] drops the provider-specific command when the parsed provider is unsafe",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.hints.test.ts:55",
                "upstream it() block #6",

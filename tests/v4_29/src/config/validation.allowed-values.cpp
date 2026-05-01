@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] adds allowed values for invalid union paths",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:20] adds allowed values for invalid union paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] keeps native enum messages while attaching allowed values metadata",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:35] keeps native enum messages while attaching allowed values metadata",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] includes boolean variants for boolean-or-enum unions",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:47] includes boolean variants for boolean-or-enum unions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] skips allowed-values hints for unions with open-ended branches",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:61] skips allowed-values hints for unions with open-ended branches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:61",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] surfaces specific sub-issue for invalid_union bindings errors instead of generic ",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:76] surfaces specific sub-issue for invalid_union bindings errors instead of generic ",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] prefers the matching union branch for top-level unexpected keys",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:101] prefers the matching union branch for top-level unexpected keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts] keeps generic union messaging for mixed scalar-or-object unions",
+TEST_CASE("v4.29 [src/config/validation.allowed-values.test.ts:127] keeps generic union messaging for mixed scalar-or-object unions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.allowed-values.test.ts:127",
                "upstream it() block #6",

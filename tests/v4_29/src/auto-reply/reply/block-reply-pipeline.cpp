@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] produces different keys for payloads differing only by replyToId",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:10] produces different keys for payloads differing only by replyToId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] produces different keys for payloads with different text",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:18] produces different keys for payloads with different text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] produces different keys for payloads with different media",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:24] produces different keys for payloads with different media",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] trims whitespace from text for key comparison",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:30] trims whitespace from text for key comparison",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] produces the same key for payloads differing only by replyToId",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:38] produces the same key for payloads differing only by replyToId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] keeps separate deliveries for same text with different replyToId",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:48] keeps separate deliveries for same text with different replyToId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:48",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] hasSentPayload matches regardless of replyToId",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:67] hasSentPayload matches regardless of replyToId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:67",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] tracks media URLs delivered via block replies",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:81] tracks media URLs delivered via block replies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:81",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] does not track media when text-only blocks are delivered",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:100] does not track media when text-only blocks are delivered",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:100",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] does not coalesce logical assistant blocks across assistantMessageIndex boundaries",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:113] does not coalesce logical assistant blocks across assistantMessageIndex boundaries",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:113",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] matches final assembled text to successfully streamed text chunks after abort",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:137] matches final assembled text to successfully streamed text chunks after abort",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:137",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] does not match final assembled text with content that was not streamed",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:159] does not match final assembled text with content that was not streamed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:159",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] does not suppress media payloads through streamed text coverage",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:180] does not suppress media payloads through streamed text coverage",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:180",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts] does not suppress unrelated shorter text that appears inside streamed content",
+TEST_CASE("v4.29 [src/auto-reply/reply/block-reply-pipeline.test.ts:194] does not suppress unrelated shorter text that appears inside streamed content",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/block-reply-pipeline.test.ts:194",
                "upstream it() block #13",

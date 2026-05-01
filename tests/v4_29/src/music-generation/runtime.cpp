@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/music-generation/runtime.test.ts] generates tracks through the active music-generation provider",
+TEST_CASE("v4.29 [src/music-generation/runtime.test.ts:35] generates tracks through the active music-generation provider",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/runtime.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/runtime.test.ts] auto-detects and falls through to another configured music-generation provider by default",
+TEST_CASE("v4.29 [src/music-generation/runtime.test.ts:88] auto-detects and falls through to another configured music-generation provider by default",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/runtime.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/runtime.test.ts] lists runtime music-generation providers through the provider registry",
+TEST_CASE("v4.29 [src/music-generation/runtime.test.ts:129] lists runtime music-generation providers through the provider registry",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/runtime.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/runtime.test.ts] ignores unsupported optional overrides per provider and model",
+TEST_CASE("v4.29 [src/music-generation/runtime.test.ts:153] ignores unsupported optional overrides per provider and model",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/runtime.test.ts:153",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/runtime.test.ts] uses mode-specific capabilities for edit requests",
+TEST_CASE("v4.29 [src/music-generation/runtime.test.ts:217] uses mode-specific capabilities for edit requests",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/runtime.test.ts:217",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/runtime.test.ts] normalizes requested durations to the closest supported max duration",
+TEST_CASE("v4.29 [src/music-generation/runtime.test.ts:288] normalizes requested durations to the closest supported max duration",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/runtime.test.ts:288",
                "upstream it() block #5",

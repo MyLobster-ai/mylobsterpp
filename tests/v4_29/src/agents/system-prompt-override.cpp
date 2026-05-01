@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/system-prompt-override.test.ts] uses defaults when no per-agent override exists",
+TEST_CASE("v4.29 [src/agents/system-prompt-override.test.ts:5] uses defaults when no per-agent override exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-override.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-override.test.ts] prefers the per-agent override",
+TEST_CASE("v4.29 [src/agents/system-prompt-override.test.ts:19] prefers the per-agent override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-override.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-override.test.ts] ignores blank override values",
+TEST_CASE("v4.29 [src/agents/system-prompt-override.test.ts:33] ignores blank override values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-override.test.ts:33",
                "upstream it() block #2",

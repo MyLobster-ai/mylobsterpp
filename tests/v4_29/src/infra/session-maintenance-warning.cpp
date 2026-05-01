@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts] forwards session context to outbound delivery",
+TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts:97] forwards session context to outbound delivery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-maintenance-warning.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts] suppresses duplicate warning contexts for the same session",
+TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts:112] suppresses duplicate warning contexts for the same session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-maintenance-warning.test.ts:112",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts] falls back to a system event when the last target is not deliverable",
+TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts:121] falls back to a system event when the last target is not deliverable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-maintenance-warning.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts] skips warning delivery in test mode",
+TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts:148] skips warning delivery in test mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-maintenance-warning.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts] enqueues a system event when outbound delivery fails",
+TEST_CASE("v4.29 [src/infra/session-maintenance-warning.test.ts:158] enqueues a system event when outbound delivery fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-maintenance-warning.test.ts:158",
                "upstream it() block #4",

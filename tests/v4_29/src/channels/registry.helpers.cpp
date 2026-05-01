@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts] keeps Feishu first in the current default order",
+TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts:20] keeps Feishu first in the current default order",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/registry.helpers.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts] includes MS Teams in the bundled channel list",
+TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts:25] includes MS Teams in the bundled channel list",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/registry.helpers.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts] formats Telegram selection lines without a docs prefix and with website extras",
+TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts:30] formats Telegram selection lines without a docs prefix and with website extras",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/registry.helpers.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts] prefers the pinned channel registry when resolving registered plugin channels",
+TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts:43] prefers the pinned channel registry when resolving registered plugin channels",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/registry.helpers.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts] falls back to the active registry when the pinned channel registry has no channels",
+TEST_CASE("v4.29 [src/channels/registry.helpers.test.ts:69] falls back to the active registry when the pinned channel registry has no channels",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/registry.helpers.test.ts:69",
                "upstream it() block #4",

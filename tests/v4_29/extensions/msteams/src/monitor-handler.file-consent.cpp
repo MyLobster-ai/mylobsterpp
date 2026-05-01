@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] uploads when invoke conversation matches pending upload conversation",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:146] uploads when invoke conversation matches pending upload conversation",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:146",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] calls updateActivity to replace the consent card when consentCardActivityId is set",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:171] calls updateActivity to replace the consent card when consentCardActivityId is set",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:171",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] does not send file info card via sendActivity when updateActivity succeeds",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:198] does not send file info card via sendActivity when updateActivity succeeds",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:198",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] does not call updateActivity when no consentCardActivityId is stored",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:226] does not call updateActivity when no consentCardActivityId is stored",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:226",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] still completes upload if updateActivity throws",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:239] still completes upload if updateActivity throws",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:239",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] rejects cross-conversation accept invoke and keeps pending upload",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:255] rejects cross-conversation accept invoke and keeps pending upload",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:255",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] ignores cross-conversation decline invoke and keeps pending upload",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:282] ignores cross-conversation decline invoke and keeps pending upload",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:282",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] reads pending upload from FS store when in-memory store is empty (cross-process CLI path)",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:335] reads pending upload from FS store when in-memory store is empty (cross-process CLI path)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:335",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts] cleans up FS entry on decline even when in-memory store is empty",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.file-consent.test.ts:389] cleans up FS entry on decline even when in-memory store is empty",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.file-consent.test.ts:389",
                "upstream it() block #8",

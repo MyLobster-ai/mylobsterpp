@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts] handles wildcard and path matching semantics",
+TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts:11] handles wildcard and path matching semantics",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-allowlist-matching.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts] matches bare command-name patterns against PATH-resolved executable basenames",
+TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts:24] matches bare command-name patterns against PATH-resolved executable basenames",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-allowlist-matching.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts] does not let bare command-name patterns match path-selected executables",
+TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts:30] does not let bare command-name patterns match path-selected executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-allowlist-matching.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts] honors Windows argPattern checks for bare command-name matches",
+TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts:46] honors Windows argPattern checks for bare command-name matches",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-allowlist-matching.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts] matches bare wildcard patterns against arbitrary resolved executables",
+TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts:53] matches bare wildcard patterns against arbitrary resolved executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-allowlist-matching.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts] matches absolute paths containing regex metacharacters literally",
+TEST_CASE("v4.29 [src/infra/exec-allowlist-matching.test.ts:67] matches absolute paths containing regex metacharacters literally",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-allowlist-matching.test.ts:67",
                "upstream it() block #5",

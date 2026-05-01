@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] routes Google auth fetches through the SSRF guard and preserves explicit proxy mTLS",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:53] routes Google auth fetches through the SSRF guard and preserves explicit proxy mTLS",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] lets the guard resolve the ambient runtime fetch when no override is injected",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:96] lets the guard resolve the ambient runtime fetch when no override is injected",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] keeps using the guard-selected runtime fetch even if global fetch changes later",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:112] keeps using the guard-selected runtime fetch even if global fetch changes later",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] bypasses explicit proxy when noProxy excludes the Google auth host",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:135] bypasses explicit proxy when noProxy excludes the Google auth host",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] preserves env-proxy transport when HTTPS proxy is configured",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:172] preserves env-proxy transport when HTTPS proxy is configured",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:172",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] matches gaxios proxy env precedence for Google auth requests",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:209] matches gaxios proxy env precedence for Google auth requests",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:209",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] releases guarded auth fetch resources even when callers do not consume the body",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:223] releases guarded auth fetch resources even when callers do not consume the body",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:223",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] rejects oversized guarded auth responses before buffering them into memory",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:239] rejects oversized guarded auth responses before buffering them into memory",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] rejects non-stream guarded auth responses instead of buffering them unbounded",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:267] rejects non-stream guarded auth responses instead of buffering them unbounded",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:267",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] rejects oversized auth responses from content-length before reading the body",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:294] rejects oversized auth responses from content-length before reading the body",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:294",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] builds a scoped Gaxios transport without mutating global window",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:321] builds a scoped Gaxios transport without mutating global window",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:321",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] rejects service-account credentials that override Google auth endpoints",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:341] rejects service-account credentials that override Google auth endpoints",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:341",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] reads and validates service-account files before passing them to google-auth",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:358] reads and validates service-account files before passing them to google-auth",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:358",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] accepts symlinked service-account files used by secret mounts",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:394] accepts symlinked service-account files used by secret mounts",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:394",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts] does not disclose raw credential paths or OS errors when file reads fail",
+TEST_CASE("v4.29 [extensions/googlechat/src/google-auth.runtime.test.ts:439] does not disclose raw credential paths or OS errors when file reads fail",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/google-auth.runtime.test.ts:439",
                "upstream it() block #14",

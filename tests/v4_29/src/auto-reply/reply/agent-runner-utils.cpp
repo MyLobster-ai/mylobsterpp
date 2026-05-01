@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] resolves model fallback options from run context",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:65] resolves model fallback options from run context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] passes through missing agentId for helper-based fallback resolution",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:86] passes through missing agentId for helper-based fallback resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] builds embedded run base params with auth profile and run metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:101] builds embedded run base params with auth profile and run metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] does not force final-tag enforcement for minimax providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:140] does not force final-tag enforcement for minimax providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] builds embedded contexts and scopes auth profile by provider",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:151] builds embedded contexts and scopes auth profile by provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] prefers OriginatingChannel over Provider for messageProvider",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:189] prefers OriginatingChannel over Provider for messageProvider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:189",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] uses telegram plugin threading context for native commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:207] uses telegram plugin threading context for native commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts] uses OriginatingTo for threading tool context on discord native commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-utils.test.ts:245] uses OriginatingTo for threading tool context on discord native commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-utils.test.ts:245",
                "upstream it() block #7",

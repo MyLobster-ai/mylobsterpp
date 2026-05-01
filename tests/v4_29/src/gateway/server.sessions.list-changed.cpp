@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.list surfaces transcript usage and model fallbacks from the transcript",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:15] sessions.list surfaces transcript usage and model fallbacks from the transcript",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.list uses the gateway model catalog for effective thinking defaults",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:105] sessions.list uses the gateway model catalog for effective thinking defaults",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.list does not block on slow model catalog discovery",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:160] sessions.list does not block on slow model catalog discovery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:160",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.changed mutation events include live usage metadata",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:209] sessions.changed mutation events include live usage metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:209",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.changed mutation events include live session setting metadata",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:289] sessions.changed mutation events include live session setting metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:289",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.changed mutation events include sendPolicy metadata",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:349] sessions.changed mutation events include sendPolicy metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:349",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts] sessions.changed mutation events include subagent ownership metadata",
+TEST_CASE("v4.29 [src/gateway/server.sessions.list-changed.test.ts:397] sessions.changed mutation events include subagent ownership metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.list-changed.test.ts:397",
                "upstream it() block #6",

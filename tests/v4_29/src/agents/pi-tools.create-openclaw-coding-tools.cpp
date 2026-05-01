@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] exposes gateway config and restart actions to owner sessions",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:97] exposes gateway config and restart actions to owner sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] exposes only an explicitly authorized owner-only tool to non-owner sessions",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:116] exposes only an explicitly authorized owner-only tool to non-owner sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:116",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] resolves isolated cron runtime toolsAllow after the cron owner-only grant",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:129] resolves isolated cron runtime toolsAllow after the cron owner-only grant",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] preserves action enums in normalized schemas",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:166] preserves action enums in normalized schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:166",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] enforces apply_patch availability and canonical names across model/provider constraints",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:190] enforces apply_patch availability and canonical names across model/provider constraints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:190",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] provides top-level object schemas for all tools",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:265] provides top-level object schemas for all tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:265",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] does not expose provider-specific message tools",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:284] does not expose provider-specific message tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:284",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] filters session tools for sub-agent sessions by default",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:293] filters session tools for sub-agent sessions by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:293",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] uses stored spawnDepth to apply leaf tool policy for flat depth-2 session keys",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:310] uses stored spawnDepth to apply leaf tool policy for flat depth-2 session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:310",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] applies subagent tool policy to ACP children spawned under a subagent envelope",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:329] applies subagent tool policy to ACP children spawned under a subagent envelope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:329",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] applies leaf tool policy for cross-agent subagent sessions when spawnDepth is missing",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:379] applies leaf tool policy for cross-agent subagent sessions when spawnDepth is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:379",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] supports allow-only sub-agent tool policy",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:405] supports allow-only sub-agent tool policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:405",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] applies tool profiles before allow/deny policies",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:421] applies tool profiles before allow/deny policies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:421",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] keeps browser out of coding-profile subagents unless profile-stage alsoAllow adds it",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:433] keeps browser out of coding-profile subagents unless profile-stage alsoAllow adds it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:433",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] can keep message available when a cron route needs it under the coding profile",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:468] can keep message available when a cron route needs it under the coding profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:468",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] can keep message available when a cron route needs it under a provider coding profile",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:481] can keep message available when a cron route needs it under a provider coding profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:481",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] expands group shorthands in global tool policy",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:518] expands group shorthands in global tool policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:518",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] expands group shorthands in global tool deny policy",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:530] expands group shorthands in global tool deny policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:530",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] lets agent profiles override global profiles",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:541] lets agent profiles override global profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:541",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] removes unsupported JSON Schema keywords for Cloud Code Assist API compatibility",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:557] removes unsupported JSON Schema keywords for Cloud Code Assist API compatibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:557",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] applies xai model compat for direct Grok tool cleanup",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:572] applies xai model compat for direct Grok tool cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:572",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] returns image-aware read metadata for images and text-only blocks for text files",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:595] returns image-aware read metadata for images and text-only blocks for text files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:595",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] filters tools by sandbox policy",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:643] filters tools by sandbox policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:643",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] hard-disables write/edit when sandbox workspaceAccess is ro",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:661] hard-disables write/edit when sandbox workspaceAccess is ro",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:661",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] accepts canonical parameters for read/write/edit",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:679] accepts canonical parameters for read/write/edit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:679",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] rejects legacy alias parameters",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:710] rejects legacy alias parameters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:710",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] rejects structured content blocks for write",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:741] rejects structured content blocks for write",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:741",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts] rejects structured edit payloads",
+TEST_CASE("v4.29 [src/agents/pi-tools.create-openclaw-coding-tools.test.ts:762] rejects structured edit payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.create-openclaw-coding-tools.test.ts:762",
                "upstream it() block #27",

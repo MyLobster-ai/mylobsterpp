@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] forwards prepared systemRunPlan on async node invoke after approval",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:255] forwards prepared systemRunPlan on async node invoke after approval",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:255",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] builds a local systemRunPlan when approval is required and the node omits prepare",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:303] builds a local systemRunPlan when approval is required and the node omits prepare",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:303",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] skips approval prepare in full/off mode",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:362] skips approval prepare in full/off mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:362",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] returns a non-empty placeholder for silent node exec results",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:402] returns a non-empty placeholder for silent node exec results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:402",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] forwards explicit timeouts to node system.run",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:442] forwards explicit timeouts to node system.run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:442",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] forwards timeout zero to node system.run and keeps the invoke wait bounded",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:460] forwards timeout zero to node system.run and keeps the invoke wait bounded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:460",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts] denies timed-out inline-eval requests instead of invoking the node",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-node.test.ts:478] denies timed-out inline-eval requests instead of invoking the node",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-node.test.ts:478",
                "upstream it() block #6",

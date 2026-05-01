@@ -5,432 +5,432 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips closed <tool_call> blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:110] strips closed <tool_call> blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips closed <function_calls> blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:117] strips closed <function_calls> blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips closed <tool_result> blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:124] strips closed <tool_result> blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips dangling <tool_result> content to end-of-string",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:131] strips dangling <tool_result> content to end-of-string",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips <tool_result> closed with mismatched </tool_call> and preserves trailing text",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:135] strips <tool_result> closed with mismatched </tool_call> and preserves trailing text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:135",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] does not let </tool_result> close a <tool_call> block",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:142] does not let </tool_result> close a <tool_call> block",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] hides dangling <tool_call> content to end-of-string",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:149] hides dangling <tool_call> content to end-of-string",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:149",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips standalone bracketed local-model tool blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:156] strips standalone bracketed local-model tool blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips bracketed local-model tool blocks with named closing tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:169] strips bracketed local-model tool blocks with named closing tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:169",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips Qwen-style <tool_call> with nested <function=...> XML",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:182] strips Qwen-style <tool_call> with nested <function=...> XML",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:182",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips Qwen-style <tool_call> with whitespace before nested XML",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:189] strips Qwen-style <tool_call> with whitespace before nested XML",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:189",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips dangling Qwen-style <tool_call> with nested XML to end",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:196] strips dangling Qwen-style <tool_call> with nested XML to end",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:196",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] does not close early on </tool_call> text inside JSON strings",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:200] does not close early on </tool_call> text inside JSON strings",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:200",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] does not close early on </tool_call> text inside single-quoted payload strings",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:213] does not close early on </tool_call> text inside single-quoted payload strings",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:213",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] does not close early on mismatched closing tool tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:226] does not close early on mismatched closing tool tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:226",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] hides truncated <tool_call openings that never reach >",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:241] hides truncated <tool_call openings that never reach >",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:241",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] hides truncated <tool_call openings with attributes before JSON payload",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:245] hides truncated <tool_call openings with attributes before JSON payload",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:245",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves lone <tool_call> mentions in normal prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:249] preserves lone <tool_call> mentions in normal prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:249",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips self-closing <tool_call/> tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:253] strips self-closing <tool_call/> tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:253",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips self-closing <function_calls .../> tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:257] strips self-closing <function_calls .../> tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:257",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips lone closing tool-call tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:261] strips lone closing tool-call tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:261",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips standalone <function> blocks with nested <parameter> XML (#67093)",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:267] strips standalone <function> blocks with nested <parameter> XML (#67093)",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:267",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips Gemma-style <function> with newlines between parameters (#67093)",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:274] strips Gemma-style <function> with newlines between parameters (#67093)",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:274",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips inline standalone <function> blocks after sentence lead-ins",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:287] strips inline standalone <function> blocks after sentence lead-ins",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:287",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips standalone <function> blocks with apostrophes in XML payloads (#67093)",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:294] strips standalone <function> blocks with apostrophes in XML payloads (#67093)",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:294",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves dangling <function> blocks instead of hiding the tail",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:307] preserves dangling <function> blocks instead of hiding the tail",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:307",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves XML-style explanations after lone <tool_call> tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:314] preserves XML-style explanations after lone <tool_call> tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:314",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves lone <function> mentions in normal prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:318] preserves lone <function> mentions in normal prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:318",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves literal XML-style paired tool_call examples in prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:325] preserves literal XML-style paired tool_call examples in prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:325",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves inline bare <function> XML examples in prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:332] preserves inline bare <function> XML examples in prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:332",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves machine-style XML payload examples in prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:339] preserves machine-style XML payload examples in prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:339",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves non-tool tag names that share the tool_call prefix",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:346] preserves non-tool tag names that share the tool_call prefix",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:346",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves truncated <tool_call mentions in prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:353] preserves truncated <tool_call mentions in prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:353",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves truncated <tool_call mentions with prose attributes",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:357] preserves truncated <tool_call mentions with prose attributes",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:357",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] still strips later JSON payloads after a truncated prose mention",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:364] still strips later JSON payloads after a truncated prose mention",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:364",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] still strips later JSON payloads after a truncated closing-tag mention",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:371] still strips later JSON payloads after a truncated closing-tag mention",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:371",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] still closes a tool-call block when malformed payload opens a fenced code region",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:378] still closes a tool-call block when malformed payload opens a fenced code region",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:378",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves truncated XML payload openings in prose",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:393] preserves truncated XML payload openings in prose",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:393",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] hides truncated <function_calls openings with attributes before array payload",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:400] hides truncated <function_calls openings with attributes before array payload",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:400",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves tool-call tags inside fenced code blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:404] preserves tool-call tags inside fenced code blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:404",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves inline code references to tool_call tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:415] preserves inline code references to tool_call tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:415",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips Kimi/GLM special tokens in isolation",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:421] strips Kimi/GLM special tokens in isolation",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:421",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips full-width pipe DeepSeek tokens",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:425] strips full-width pipe DeepSeek tokens",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:425",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips special tokens mixed with normal text",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:429] strips special tokens mixed with normal text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:429",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves special-token-like syntax inside code blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:436] preserves special-token-like syntax inside code blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:436",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips special tokens combined with reasoning tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:440] strips special tokens combined with reasoning tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:440",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves indentation in code blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:450] preserves indentation in code blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:450",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves special tokens inside fenced code blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:472] preserves special tokens inside fenced code blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:472",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves special tokens inside inline code spans",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:485] preserves special tokens inside inline code spans",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:485",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves malformed tokens that end inside inline code spans",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:492] preserves malformed tokens that end inside inline code spans",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:492",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] preserves malformed tokens that end inside fenced code blocks",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:496] preserves malformed tokens that end inside fenced code blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:496",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] resets special-token regex state between calls",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:501] resets special-token regex state between calls",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:501",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips plural function/tool wrapper XML only when the opt-in flag is enabled",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:509] strips plural function/tool wrapper XML only when the opt-in flag is enabled",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:509",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips minimax, tool XML, downgraded tool markers, and think tags in one pass",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:520] strips minimax, tool XML, downgraded tool markers, and think tags in one pass",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:520",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] strips relevant-memories blocks on the canonical user-visible path",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:533] strips relevant-memories blocks on the canonical user-visible path",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:533",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] drops malformed reasoning before orphan close tags when final text follows",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:544] drops malformed reasoning before orphan close tags when final text follows",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:544",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] recovers fully wrapped unclosed reasoning tags that would otherwise deliver empty text",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:550] recovers fully wrapped unclosed reasoning tags that would otherwise deliver empty text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:550",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] keeps unclosed trailing reasoning hidden when visible text already exists",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:556] keeps unclosed trailing reasoning hidden when visible text already exists",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:556",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] uses the history profile to preserve block-boundary whitespace",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:564] uses the history profile to preserve block-boundary whitespace",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:564",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] uses the history profile to drop malformed reasoning before orphan close tags",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:570] uses the history profile to drop malformed reasoning before orphan close tags",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:570",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts] uses the internal-scaffolding profile to preserve downgraded tool text behavior",
+TEST_CASE("v4.29 [src/shared/text/assistant-visible-text.test.ts:579] uses the internal-scaffolding profile to preserve downgraded tool text behavior",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/assistant-visible-text.test.ts:579",
                "upstream it() block #60",

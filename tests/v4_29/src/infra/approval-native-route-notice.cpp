@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts] labels approver-DM-only delivery as channel DMs",
+TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts:8] labels approver-DM-only delivery as channel DMs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-route-notice.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts] labels mixed-surface delivery as the channel itself",
+TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts:23] labels mixed-surface delivery as the channel itself",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-route-notice.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts] reports sorted unique destinations",
+TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts:40] reports sorted unique destinations",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-route-notice.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts] suppresses the notice when there are no destinations",
+TEST_CASE("v4.29 [src/infra/approval-native-route-notice.test.ts:48] suppresses the notice when there are no destinations",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-route-notice.test.ts:48",
                "upstream it() block #3",

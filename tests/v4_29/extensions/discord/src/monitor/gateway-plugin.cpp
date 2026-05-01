@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] includes GuildVoiceStates when voice is enabled by default",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:105] includes GuildVoiceStates when voice is enabled by default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] omits GuildVoiceStates when voice is disabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:111] omits GuildVoiceStates when voice is disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] lets intents.voiceStates override voice enablement",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:117] lets intents.voiceStates override voice enablement",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] includes optional configured privileged intents",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:131] includes optional configured privileged intents",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] resolves gateway metadata timeout from config, env, then default",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:140] resolves gateway metadata timeout from config, env, then default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] parses valid Discord gateway metadata",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:150] parses valid Discord gateway metadata",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:150",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] rejects malformed Discord gateway metadata",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:176] rejects malformed Discord gateway metadata",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:176",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] omits voice states when Discord voice is disabled in account config",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:193] omits voice states when Discord voice is disabled in account config",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:193",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] leaves autoInteractions disabled so OpenClaw owns interaction handoff",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:200] leaves autoInteractions disabled so OpenClaw owns interaction handoff",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:200",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] keeps OpenClaw metadata timeout out of gateway options",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:208] keeps OpenClaw metadata timeout out of gateway options",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:208",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] emits transport activity for current gateway socket messages",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:224] emits transport activity for current gateway socket messages",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:224",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts] ignores messages from stale gateway sockets",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-plugin.test.ts:250] ignores messages from stale gateway sockets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-plugin.test.ts:250",
                "upstream it() block #11",

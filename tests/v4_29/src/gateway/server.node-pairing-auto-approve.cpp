@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.node-pairing-auto-approve.test.ts] stays disabled by default for a direct non-loopback node",
+TEST_CASE("v4.29 [src/gateway/server.node-pairing-auto-approve.test.ts:89] stays disabled by default for a direct non-loopback node",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-pairing-auto-approve.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.node-pairing-auto-approve.test.ts] auto-approves first-time node pairing from a matching direct non-loopback CIDR",
+TEST_CASE("v4.29 [src/gateway/server.node-pairing-auto-approve.test.ts:122] auto-approves first-time node pairing from a matching direct non-loopback CIDR",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-pairing-auto-approve.test.ts:122",
                "upstream it() block #1",

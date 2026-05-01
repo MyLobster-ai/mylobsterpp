@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/inbound-debounce-policy.test.ts] rejects blank text, media, and control commands",
+TEST_CASE("v4.29 [src/channels/inbound-debounce-policy.test.ts:8] rejects blank text, media, and control commands",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/inbound-debounce-policy.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/inbound-debounce-policy.test.ts] accepts normal text when debounce is allowed",
+TEST_CASE("v4.29 [src/channels/inbound-debounce-policy.test.ts:16] accepts normal text when debounce is allowed",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/inbound-debounce-policy.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/inbound-debounce-policy.test.ts] resolves per-channel debounce and forwards callbacks",
+TEST_CASE("v4.29 [src/channels/inbound-debounce-policy.test.ts:26] resolves per-channel debounce and forwards callbacks",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/inbound-debounce-policy.test.ts:26",
                "upstream it() block #2",

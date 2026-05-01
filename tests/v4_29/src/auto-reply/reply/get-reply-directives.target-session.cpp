@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] prefers the target session entry from sessionStore for directive state",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:292] prefers the target session entry from sessionStore for directive state",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:292",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] returns a directive-only ack for trace commands instead of continuing into the agent path",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:393] returns a directive-only ack for trace commands instead of continuing into the agent path",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:393",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] uses the model reasoning default when thinking is off",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:451] uses the model reasoning default when thinking is off",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:451",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] does not re-enable model reasoning when thinking was explicitly disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:467] does not re-enable model reasoning when thinking was explicitly disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:467",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] skips the model reasoning default when thinking is active",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:484] skips the model reasoning default when thinking is active",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:484",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] does not re-enable model reasoning when agentCfg reasoningDefault is explicitly off",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:500] does not re-enable model reasoning when agentCfg reasoningDefault is explicitly off",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:500",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] does not expose configured reasoning defaults to untrusted senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:517] does not expose configured reasoning defaults to untrusted senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:517",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] ignores inline reasoning directives from untrusted senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:533] ignores inline reasoning directives from untrusted senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:533",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] does not expose session reasoning state to untrusted senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:549] does not expose session reasoning state to untrusted senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:549",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] allows session reasoning state for authorized senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:565] allows session reasoning state for authorized senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:565",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] allows configured reasoning defaults for operator gateway clients",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:582] allows configured reasoning defaults for operator gateway clients",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:582",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] allows configured reasoning defaults for authorized senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:599] allows configured reasoning defaults for authorized senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:599",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts] keeps consumed text reset triggers empty after directive cleanup",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-directives.target-session.test.ts:616] keeps consumed text reset triggers empty after directive cleanup",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-directives.target-session.test.ts:616",
                "upstream it() block #12",

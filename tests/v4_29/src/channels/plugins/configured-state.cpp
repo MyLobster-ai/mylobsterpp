@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/configured-state.test.ts] lists the shipped metadata-first configured-state channels",
+TEST_CASE("v4.29 [src/channels/plugins/configured-state.test.ts:8] lists the shipped metadata-first configured-state channels",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/configured-state.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/configured-state.test.ts] resolves Discord, Slack, Telegram, and IRC env probes without full plugin loads",
+TEST_CASE("v4.29 [src/channels/plugins/configured-state.test.ts:14] resolves Discord, Slack, Telegram, and IRC env probes without full plugin loads",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/configured-state.test.ts:14",
                "upstream it() block #1",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/before-deliver.test.ts] cancels delivery when beforeDeliver returns null",
+TEST_CASE("v4.29 [src/auto-reply/reply/before-deliver.test.ts:6] cancels delivery when beforeDeliver returns null",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/before-deliver.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/before-deliver.test.ts] allows modifying payload in beforeDeliver",
+TEST_CASE("v4.29 [src/auto-reply/reply/before-deliver.test.ts:31] allows modifying payload in beforeDeliver",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/before-deliver.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/before-deliver.test.ts] delivers normally without beforeDeliver",
+TEST_CASE("v4.29 [src/auto-reply/reply/before-deliver.test.ts:53] delivers normally without beforeDeliver",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/before-deliver.test.ts:53",
                "upstream it() block #2",

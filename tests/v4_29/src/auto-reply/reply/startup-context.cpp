@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] loads today",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:24] loads today",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] loads date-prefixed session-memory artifacts saved with friendly suffixes",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:52] loads date-prefixed session-memory artifacts saved with friendly suffixes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] loads a just-written UTC-dated slugged artifact during west-of-UTC local evening",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:72] loads a just-written UTC-dated slugged artifact during west-of-UTC local evening",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] keeps the local-day window and includes a differing current UTC date",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:93] keeps the local-day window and includes a differing current UTC date",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] preserves the full local-day window while adding a differing current UTC date",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:124] preserves the full local-day window while adding a differing current UTC date",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] keeps local today ahead of an older differing UTC date for east-of-UTC users",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:161] keeps local today ahead of an older differing UTC date for east-of-UTC users",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:161",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] prioritizes the newer UTC-dated artifact before older local-day files when startup context is truncated",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:192] prioritizes the newer UTC-dated artifact before older local-day files when startup context is truncated",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:192",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] sanitizes startup-memory labels for hostile artifact filenames",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:226] sanitizes startup-memory labels for hostile artifact filenames",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] caps same-day slugged artifacts by recency rather than slug name",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:250] caps same-day slugged artifacts by recency rather than slug name",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:250",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] keeps readable slugged artifacts when one stat call fails",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:283] keeps readable slugged artifacts when one stat call fails",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:283",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] scans the memory directory once per startup prelude build",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:316] scans the memory directory once per startup prelude build",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:316",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] returns null when no daily memory files exist",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:357] returns null when no daily memory files exist",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:357",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] honors startupContext.dailyMemoryDays override",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:366] honors startupContext.dailyMemoryDays override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:366",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] clamps oversized startupContext limits to safe caps",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:394] clamps oversized startupContext limits to safe caps",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:394",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] steps daily memory by calendar day across DST boundaries",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:419] steps daily memory by calendar day across DST boundaries",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:419",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] enforces maxTotalChars even for the first loaded file",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:445] enforces maxTotalChars even for the first loaded file",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:445",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] defaults to enabled for both /new and /reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:477] defaults to enabled for both /new and /reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:477",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts] honors enabled=false and applyOn overrides",
+TEST_CASE("v4.29 [src/auto-reply/reply/startup-context.test.ts:482] honors enabled=false and applyOn overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/startup-context.test.ts:482",
                "upstream it() block #17",

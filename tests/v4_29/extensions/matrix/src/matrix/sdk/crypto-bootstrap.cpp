@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] bootstraps cross-signing/secret-storage and binds decrypt retry signals",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:159] bootstraps cross-signing/secret-storage and binds decrypt retry signals",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:159",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] forces new cross-signing keys only when readiness check still fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:187] forces new cross-signing keys only when readiness check still fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:187",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] does not auto-reset cross-signing when automatic reset is disabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:227] does not auto-reset cross-signing when automatic reset is disabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:227",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] does not mark the own Matrix identity verified before cross-signing the current device",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:257] does not mark the own Matrix identity verified before cross-signing the current device",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:257",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] refreshes published cross-signing keys before importing private keys from secret storage",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:299] refreshes published cross-signing keys before importing private keys from secret storage",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:299",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] passes explicit secret-storage repair allowance only when requested",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:319] passes explicit secret-storage repair allowance only when requested",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:319",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] recreates secret storage and retries cross-signing when explicit bootstrap hits a stale server key",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:346] recreates secret storage and retries cross-signing when explicit bootstrap hits a stale server key",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:346",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] recreates secret storage and retries cross-signing when explicit bootstrap hits bad MAC",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:366] recreates secret storage and retries cross-signing when explicit bootstrap hits bad MAC",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:366",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] does not mutate secret storage before forced repair fails on password UIA without a password",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:374] does not mutate secret storage before forced repair fails on password UIA without a password",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:374",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] recreates secret storage and retries a forced reset when stale server SSSS blocks it",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:417] recreates secret storage and retries a forced reset when stale server SSSS blocks it",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:417",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] re-exports cross-signing keys after forced reset creates secret storage",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:443] re-exports cross-signing keys after forced reset creates secret storage",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:443",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] trusts the fresh own identity after a forced cross-signing reset",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:465] trusts the fresh own identity after a forced cross-signing reset",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:465",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] does not trust an existing unpublished identity without a reset",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:484] does not trust an existing unpublished identity without a reset",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:484",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] fails in strict mode when cross-signing keys are still unpublished",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:506] fails in strict mode when cross-signing keys are still unpublished",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:506",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] uses password UIA fallback when null and dummy auth fail",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:525] uses password UIA fallback when null and dummy auth fail",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:525",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] resets cross-signing when first bootstrap attempt throws",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:578] resets cross-signing when first bootstrap attempt throws",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:578",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] marks own device verified and cross-signs it when needed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:604] marks own device verified and cross-signs it when needed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:604",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] does not treat local-only trust as sufficient for own-device bootstrap",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:629] does not treat local-only trust as sufficient for own-device bootstrap",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:629",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] tracks incoming verification requests from other users",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:671] tracks incoming verification requests from other users",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:671",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] does not touch request state when tracking summary throws",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:687] does not touch request state when tracking summary throws",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:687",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts] registers verification listeners only once across repeated bootstrap calls",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:714] registers verification listeners only once across repeated bootstrap calls",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-bootstrap.test.ts:714",
                "upstream it() block #20",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] edit readFile expands ~ to the OS home directory",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:78] edit readFile expands ~ to the OS home directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] edit access expands ~ to the OS home directory",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:89] edit access expands ~ to the OS home directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] write writeFile expands ~ to the OS home directory",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:99] write writeFile expands ~ to the OS home directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] write mkdir expands ~ to the OS home directory",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:109] write mkdir expands ~ to the OS home directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] ignores OPENCLAW_HOME for write operations",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:119] ignores OPENCLAW_HOME for write operations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] ignores OPENCLAW_HOME for mkdir operations",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:132] ignores OPENCLAW_HOME for mkdir operations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:132",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] ignores OPENCLAW_HOME for readFile operations",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:145] ignores OPENCLAW_HOME for readFile operations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts] ignores OPENCLAW_HOME for access operations",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-tilde-expansion.test.ts:159] ignores OPENCLAW_HOME for access operations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-tilde-expansion.test.ts:159",
                "upstream it() block #7",

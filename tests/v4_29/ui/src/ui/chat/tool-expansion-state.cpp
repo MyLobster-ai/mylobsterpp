@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-expansion-state.test.ts] expands already-visible tool cards when auto-expand turns on",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-expansion-state.test.ts:25] expands already-visible tool cards when auto-expand turns on",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-expansion-state.test.ts:25",
                "upstream it() block #0",

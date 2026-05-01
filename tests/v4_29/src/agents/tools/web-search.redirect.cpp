@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-search.redirect.test.ts] resolves redirects via SSRF-guarded HEAD requests",
+TEST_CASE("v4.29 [src/agents/tools/web-search.redirect.test.ts:23] resolves redirects via SSRF-guarded HEAD requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search.redirect.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-search.redirect.test.ts] falls back to the original URL when guarded resolution fails",
+TEST_CASE("v4.29 [src/agents/tools/web-search.redirect.test.ts:43] falls back to the original URL when guarded resolution fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search.redirect.test.ts:43",
                "upstream it() block #1",

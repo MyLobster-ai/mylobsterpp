@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/ffmpeg-exec.test.ts] handles stdin EPIPE without overriding successful ffprobe stdout",
+TEST_CASE("v4.29 [src/media/ffmpeg-exec.test.ts:107] handles stdin EPIPE without overriding successful ffprobe stdout",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/ffmpeg-exec.test.ts:107",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/ffmpeg-exec.test.ts] preserves the child callback error after stdin EPIPE",
+TEST_CASE("v4.29 [src/media/ffmpeg-exec.test.ts:120] preserves the child callback error after stdin EPIPE",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/ffmpeg-exec.test.ts:120",
                "upstream it() block #1",

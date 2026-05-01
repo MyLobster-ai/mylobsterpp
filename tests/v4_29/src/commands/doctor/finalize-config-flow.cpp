@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/finalize-config-flow.test.ts] writes the candidate when preview changes are confirmed",
+TEST_CASE("v4.29 [src/commands/doctor/finalize-config-flow.test.ts:5] writes the candidate when preview changes are confirmed",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/finalize-config-flow.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/finalize-config-flow.test.ts] emits fix hints when preview changes are declined",
+TEST_CASE("v4.29 [src/commands/doctor/finalize-config-flow.test.ts:24] emits fix hints when preview changes are declined",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/finalize-config-flow.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/finalize-config-flow.test.ts] writes automatically in repair mode when changes exist",
+TEST_CASE("v4.29 [src/commands/doctor/finalize-config-flow.test.ts:46] writes automatically in repair mode when changes exist",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/finalize-config-flow.test.ts:46",
                "upstream it() block #2",

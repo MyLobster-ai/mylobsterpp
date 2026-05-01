@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts] branches from the first replaced message and re-appends the remaining suffix",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts:145] branches from the first replaced message and re-appends the remaining suffix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/transcript-rewrite.test.ts:145",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts] preserves active-branch labels after rewritten entries are re-appended",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts:177] preserves active-branch labels after rewritten entries are re-appended",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/transcript-rewrite.test.ts:177",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts] remaps compaction keep markers when rewritten entries change ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts:200] remaps compaction keep markers when rewritten entries change ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/transcript-rewrite.test.ts:200",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts] bypasses persistence hooks when replaying rewritten messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts:235] bypasses persistence hooks when replaying rewritten messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/transcript-rewrite.test.ts:235",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts] emits transcript updates when the active branch changes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/transcript-rewrite.test.ts:274] emits transcript updates when the active branch changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/transcript-rewrite.test.ts:274",
                "upstream it() block #4",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] strips /v1 when resolving the Ollama API base",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:18] strips /v1 when resolving the Ollama API base",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] sets discovered models with context windows from /api/show",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:23] sets discovered models with context windows from /api/show",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] uses Modelfile num_ctx when it expands the discovered context window",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:46] uses Modelfile num_ctx when it expands the discovered context window",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] keeps the larger native context window when Modelfile num_ctx is smaller",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:68] keeps the larger native context window when Modelfile num_ctx is smaller",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] uses positive num_ctx when /api/show omits model context metadata",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:83] uses positive num_ctx when /api/show omits model context metadata",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:83",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] sets models with vision capability from /api/show capabilities",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:98] sets models with vision capability from /api/show capabilities",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:98",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] reuses cached /api/show metadata when the model digest is unchanged",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:138] reuses cached /api/show metadata when the model digest is unchanged",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:138",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] refreshes cached /api/show metadata when the model digest changes",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:157] refreshes cached /api/show metadata when the model digest changes",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:157",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] retries /api/show after an empty result for the same digest",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:200] retries /api/show after an empty result for the same digest",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:200",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] normalizes /v1 base URLs before fetching and reuses the same cache entry",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:235] normalizes /v1 base URLs before fetching and reuses the same cache entry",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:235",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] buildOllamaModelDefinition sets input to text+image when vision capability is present",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:254] buildOllamaModelDefinition sets input to text+image when vision capability is present",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:254",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] disables tool support when Ollama capabilities omit tools",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:277] disables tool support when Ollama capabilities omit tools",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:277",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts] parses the last positive Modelfile num_ctx value",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-models.test.ts:285] parses the last positive Modelfile num_ctx value",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-models.test.ts:285",
                "upstream it() block #12",

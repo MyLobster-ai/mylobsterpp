@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-accessors.test.ts] reads merged allowFrom/defaultTo from resolved account config",
+TEST_CASE("v4.29 [extensions/imessage/src/config-accessors.test.ts:8] reads merged allowFrom/defaultTo from resolved account config",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-accessors.test.ts:8",
                "upstream it() block #0",

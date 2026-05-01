@@ -1,4 +1,4 @@
-// MYLOBSTERPP_HAND_AUTHORED
+// MYLOBSTERPP_HANDWRITTEN_TEST
 // v2026.4.29 parity: extensions/anthropic/stream-wrappers.test.ts
 //
 // Upstream tests cover composable stream wrapper helpers:

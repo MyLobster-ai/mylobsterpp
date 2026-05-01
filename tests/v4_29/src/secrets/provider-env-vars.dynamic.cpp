@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] includes later-installed plugin env vars without a bundled generated map",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:73] includes later-installed plugin env vars without a bundled generated map",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] includes setup provider env vars without loading setup runtime",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:96] includes setup provider env vars without loading setup runtime",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] includes setup provider auth evidence without loading setup runtime",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:120] includes setup provider auth evidence without loading setup runtime",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:120",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] excludes untrusted workspace plugin auth evidence by default",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:161] excludes untrusted workspace plugin auth evidence by default",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] keeps explicitly trusted workspace plugin auth evidence",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:191] keeps explicitly trusted workspace plugin auth evidence",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:191",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] appends setup provider env vars after explicit provider auth env vars",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:233] appends setup provider env vars after explicit provider auth env vars",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:233",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] keeps lazy manifest-backed exports cold until accessed and resolves them once",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:258] keeps lazy manifest-backed exports cold until accessed and resolves them once",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:258",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] reuses the lazy default lookup cache for repeated provider env var reads",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:286] reuses the lazy default lookup cache for repeated provider env var reads",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:286",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] keeps workspace plugin env vars in default lookups",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:310] keeps workspace plugin env vars in default lookups",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:310",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] excludes untrusted workspace plugin env vars when requested",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:330] excludes untrusted workspace plugin env vars when requested",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:330",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] keeps explicitly trusted workspace plugin env vars when requested",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:380] keeps explicitly trusted workspace plugin env vars when requested",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:380",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] does not trust arbitrary workspace plugin ids from the context engine slot",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:408] does not trust arbitrary workspace plugin ids from the context engine slot",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:408",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts] keeps selected workspace context engine env vars when requested",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.dynamic.test.ts:438] keeps selected workspace context engine env vars when requested",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.dynamic.test.ts:438",
                "upstream it() block #12",

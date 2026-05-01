@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] ignores non-core projects",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:14] ignores non-core projects",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] ignores full worktrees",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:25] ignores full worktrees",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] ignores metadata-only commands",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:36] ignores metadata-only commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] ignores sparse worktrees when the required files are present",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:47] ignores sparse worktrees when the required files are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] rejects sparse core worktrees that include only selected ui and package files",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:73] rejects sparse core worktrees that include only selected ui and package files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] returns a helpful message for sparse core worktrees missing transitive project files",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:109] returns a helpful message for sparse core worktrees missing transitive project files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:109",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] returns a helpful message for sparse core-test worktrees missing ui and packages files",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:127] returns a helpful message for sparse core-test worktrees missing ui and packages files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:127",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts] recognizes the check:changed sparse-skip env",
+TEST_CASE("v4.29 [test/scripts/run-tsgo.test.ts:146] recognizes the check:changed sparse-skip env",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-tsgo.test.ts:146",
                "upstream it() block #7",

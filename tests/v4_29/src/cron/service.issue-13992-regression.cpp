@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should NOT recompute nextRunAtMs for past-due jobs by default",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:24] should NOT recompute nextRunAtMs for past-due jobs by default",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should recompute past-due nextRunAtMs with recomputeExpired when slot already executed",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:43] should recompute past-due nextRunAtMs with recomputeExpired when slot already executed",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should NOT recompute past-due nextRunAtMs for running jobs even with recomputeExpired",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:65] should NOT recompute past-due nextRunAtMs for running jobs even with recomputeExpired",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should compute missing nextRunAtMs during maintenance",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:84] should compute missing nextRunAtMs during maintenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should repair nextRunAtMs=0 during maintenance",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:101] should repair nextRunAtMs=0 during maintenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should clear nextRunAtMs for disabled jobs during maintenance",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:117] should clear nextRunAtMs for disabled jobs during maintenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] should clear stuck running markers during maintenance",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:135] should clear stuck running markers during maintenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:135",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] isolates schedule errors while filling missing nextRunAtMs",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:156] isolates schedule errors while filling missing nextRunAtMs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] recomputes expired slots already executed but keeps never-executed stale slots",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:199] recomputes expired slots already executed but keeps never-executed stale slots",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:199",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts] does not advance overdue never-executed jobs when stale running marker is cleared",
+TEST_CASE("v4.29 [src/cron/service.issue-13992-regression.test.ts:244] does not advance overdue never-executed jobs when stale running marker is cleared",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-13992-regression.test.ts:244",
                "upstream it() block #9",

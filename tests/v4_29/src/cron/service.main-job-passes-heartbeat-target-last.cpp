@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.main-job-passes-heartbeat-target-last.test.ts] should pass heartbeat.target=last to runHeartbeatOnce for wakeMode=now main jobs",
+TEST_CASE("v4.29 [src/cron/service.main-job-passes-heartbeat-target-last.test.ts:56] should pass heartbeat.target=last to runHeartbeatOnce for wakeMode=now main jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.main-job-passes-heartbeat-target-last.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.main-job-passes-heartbeat-target-last.test.ts] should preserve heartbeat.target=last when wakeMode=now falls back to requestHeartbeatNow",
+TEST_CASE("v4.29 [src/cron/service.main-job-passes-heartbeat-target-last.test.ts:91] should preserve heartbeat.target=last when wakeMode=now falls back to requestHeartbeatNow",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.main-job-passes-heartbeat-target-last.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.main-job-passes-heartbeat-target-last.test.ts] should preserve heartbeat.target=last for wakeMode=next-heartbeat main jobs",
+TEST_CASE("v4.29 [src/cron/service.main-job-passes-heartbeat-target-last.test.ts:124] should preserve heartbeat.target=last for wakeMode=next-heartbeat main jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.main-job-passes-heartbeat-target-last.test.ts:124",
                "upstream it() block #2",

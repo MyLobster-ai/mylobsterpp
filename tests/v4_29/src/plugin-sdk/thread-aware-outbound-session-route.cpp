@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] uses replyToId before threadId and recovered current-session thread by default",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:23] uses replyToId before threadId and recovered current-session thread by default",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] supports provider-specific threadId-first precedence",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:37] supports provider-specific threadId-first precedence",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] keeps numeric delivery thread ids on the route while stringifying the session suffix",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:51] keeps numeric delivery thread ids on the route while stringifying the session suffix",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] recovers a current-session thread only when the base session matches",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:63] recovers a current-session thread only when the base session matches",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] lets providers veto current-session recovery",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:78] lets providers veto current-session recovery",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:78",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] preserves provider-specific thread case when requested",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:91] preserves provider-specific thread case when requested",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:91",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts] can carry a delivery thread without adding a session suffix",
+TEST_CASE("v4.29 [src/plugin-sdk/thread-aware-outbound-session-route.test.ts:104] can carry a delivery thread without adding a session suffix",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/thread-aware-outbound-session-route.test.ts:104",
                "upstream it() block #6",

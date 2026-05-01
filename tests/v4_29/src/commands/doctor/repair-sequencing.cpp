@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/repair-sequencing.test.ts] applies ordered repairs and sanitizes empty-allowlist warnings",
+TEST_CASE("v4.29 [src/commands/doctor/repair-sequencing.test.ts:131] applies ordered repairs and sanitizes empty-allowlist warnings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/repair-sequencing.test.ts:131",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/repair-sequencing.test.ts] emits Discord warnings when unsafe numeric ids block repair",
+TEST_CASE("v4.29 [src/commands/doctor/repair-sequencing.test.ts:204] emits Discord warnings when unsafe numeric ids block repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/repair-sequencing.test.ts:204",
                "upstream it() block #1",

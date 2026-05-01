@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] registers the builtin local embedding provider",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:133] registers the builtin local embedding provider",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:133",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] indexes memory files and searches",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:332] indexes memory files and searches",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:332",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] indexes multimodal image and audio files from extra paths with Gemini structured inputs",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:358] indexes multimodal image and audio files from extra paths with Gemini structured inputs",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:358",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] finds keyword matches via hybrid search when query embedding is zero",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:383] finds keyword matches via hybrid search when query embedding is zero",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:383",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] preserves keyword-only hybrid hits when minScore exceeds text weight",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:392] preserves keyword-only hybrid hits when minScore exceeds text weight",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:392",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] reports vector availability after probe",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:402] reports vector availability after probe",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:402",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] caches embedding probe readiness across transient status managers",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:412] caches embedding probe readiness across transient status managers",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:412",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] streams embedding cache rows during safe reindex",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:448] streams embedding cache rows during safe reindex",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:448",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] builds FTS index and returns search results when no embedding provider is available",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:514] builds FTS index and returns search results when no embedding provider is available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:514",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] prefers exact session transcript hits in FTS-only mode",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:548] prefers exact session transcript hits in FTS-only mode",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:548",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts] bootstraps an empty index on first search so session transcript hits are available",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/index.test.ts:608] bootstraps an empty index on first search so session transcript hits are available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/index.test.ts:608",
                "upstream it() block #10",

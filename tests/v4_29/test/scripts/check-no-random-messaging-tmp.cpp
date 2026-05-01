@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts] finds os.tmpdir calls imported from node:os",
+TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts:8] finds os.tmpdir calls imported from node:os",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-random-messaging-tmp.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts] finds tmpdir named import calls from node:os",
+TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts:16] finds tmpdir named import calls from node:os",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-random-messaging-tmp.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts] finds tmpdir calls imported from os",
+TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts:24] finds tmpdir calls imported from os",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-random-messaging-tmp.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts] ignores mentions in comments and strings",
+TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts:32] ignores mentions in comments and strings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-random-messaging-tmp.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts] ignores tmpdir symbols that are not imported from node:os",
+TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts:40] ignores tmpdir symbols that are not imported from node:os",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-random-messaging-tmp.test.ts:40",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts] guards src/media against host tmpdir usage",
+TEST_CASE("v4.29 [test/scripts/check-no-random-messaging-tmp.test.ts:48] guards src/media against host tmpdir usage",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-random-messaging-tmp.test.ts:48",
                "upstream it() block #5",

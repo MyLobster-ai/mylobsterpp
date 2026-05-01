@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history does not wait for model catalog discovery to return history",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:142] chat.history does not wait for model catalog discovery to return history",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:142",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.send returns in_flight when duplicate attachment send wins parsing race",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:210] chat.send returns in_flight when duplicate attachment send wins parsing race",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:210",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history backfills claude-cli sessions from Claude project files",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:334] chat.history backfills claude-cli sessions from Claude project files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:334",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] smoke: caps history payload and preserves routing metadata",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:414] smoke: caps history payload and preserves routing metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:414",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.send does not force-disable block streaming",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:473] chat.send does not force-disable block streaming",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:473",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history hard-caps single oversized nested payloads",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:506] chat.history hard-caps single oversized nested payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:506",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history keeps recent small messages when latest message is oversized",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:545] chat.history keeps recent small messages when latest message is oversized",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:545",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history preserves usage and cost metadata for assistant messages",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:602] chat.history preserves usage and cost metadata for assistant messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:602",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history strips inline directives from displayed message text",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:633] chat.history strips inline directives from displayed message text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:633",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history applies gateway.webchat.chatHistoryMaxChars from config",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:692] chat.history applies gateway.webchat.chatHistoryMaxChars from config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:692",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history prefers RPC maxChars over config",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:717] chat.history prefers RPC maxChars over config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:717",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history rejects invalid RPC maxChars values",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:744] chat.history rejects invalid RPC maxChars values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:744",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] chat.history still drops assistant NO_REPLY entries before truncation",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:768] chat.history still drops assistant NO_REPLY entries before truncation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:768",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts] smoke: supports abort and idempotent completion",
+TEST_CASE("v4.29 [src/gateway/server.chat.gateway-server-chat-b.test.ts:786] smoke: supports abort and idempotent completion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.chat.gateway-server-chat-b.test.ts:786",
                "upstream it() block #13",

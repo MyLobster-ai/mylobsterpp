@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/http-body.test.ts] reads body within max bytes",
+TEST_CASE("v4.29 [src/infra/http-body.test.ts:125] reads body within max bytes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/http-body.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/http-body.test.ts] timeout surfaces typed error when timeoutMs is clamped",
+TEST_CASE("v4.29 [src/infra/http-body.test.ts:212] timeout surfaces typed error when timeoutMs is clamped",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/http-body.test.ts:212",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/http-body.test.ts] guard clamps invalid maxBytes to one byte",
+TEST_CASE("v4.29 [src/infra/http-body.test.ts:221] guard clamps invalid maxBytes to one byte",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/http-body.test.ts:221",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/http-body.test.ts] surfaces connection-closed as a typed limit error",
+TEST_CASE("v4.29 [src/infra/http-body.test.ts:230] surfaces connection-closed as a typed limit error",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/http-body.test.ts:230",
                "upstream it() block #3",

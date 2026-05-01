@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] uses the active runtime snapshot for queued embedded followup runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:463] uses the active runtime snapshot for queued embedded followup runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:463",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] resolves queued embedded followups before preflight helpers read config",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:520] resolves queued embedded followups before preflight helpers read config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:520",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] passes queued origin scope into queued execution-config resolution",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:583] passes queued origin scope into queued execution-config resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:583",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] passes queued images into queued embedded followup runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:616] passes queued images into queued embedded followup runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:616",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] adds verbose auto-compaction notice and tracks count",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:652] adds verbose auto-compaction notice and tracks count",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:652",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] tracks auto-compaction from embedded result metadata even when no compaction event is emitted",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:697] tracks auto-compaction from embedded result metadata even when no compaction event is emitted",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:697",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] refreshes queued followup runs to the rotated transcript",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:753] refreshes queued followup runs to the rotated transcript",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:753",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] does not count failed compaction end events in followup runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:816] does not count failed compaction end events in followup runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:816",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] injects the post-compaction refresh prompt before followup runs after preflight compaction",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:872] injects the post-compaction refresh prompt before followup runs after preflight compaction",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:872",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] passes stored warning signature history to embedded followup runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1007] passes stored warning signature history to embedded followup runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1007",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] persists usage even when replies are suppressed",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1125] persists usage even when replies are suppressed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1125",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] passes queued config into usage persistence during drained followups",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1185] passes queued config into usage persistence during drained followups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1185",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] uses providerUsed for snapshot freshness when agent metadata overrides the run provider",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1239] uses providerUsed for snapshot freshness when agent metadata overrides the run provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1239",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] does not send cross-channel payload content to dispatcher when origin routing fails",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1296] does not send cross-channel payload content to dispatcher when origin routing fails",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1296",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] does not emit cross-channel route-failure notice when a later payload routes",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1326] does not emit cross-channel route-failure notice when a later payload routes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1326",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] uses dispatcher when origin routing metadata is incomplete",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1350] uses dispatcher when origin routing metadata is incomplete",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1350",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] keeps message-tool-only queued followup finals private",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1365] keeps message-tool-only queued followup finals private",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1365",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] lets provider followup route hooks force dispatcher delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1389] lets provider followup route hooks force dispatcher delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1389",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] lets provider followup route hooks drop payloads explicitly",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1420] lets provider followup route hooks drop payloads explicitly",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1420",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] suppresses exact NO_REPLY followups without origin or dispatcher delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1438] suppresses exact NO_REPLY followups without origin or dispatcher delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1438",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] suppresses JSON NO_REPLY followups without origin or dispatcher delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1457] suppresses JSON NO_REPLY followups without origin or dispatcher delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1457",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] keeps NO_REPLY followups with media deliverable",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1476] keeps NO_REPLY followups with media deliverable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1476",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] falls back to dispatcher when successful output has no complete origin route",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1503] falls back to dispatcher when successful output has no complete origin route",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1503",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] falls back to dispatcher when same-channel origin routing fails",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1520] falls back to dispatcher when same-channel origin routing fails",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1520",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] routes followups with originating account/thread metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1544] routes followups with originating account/thread metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1544",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] calls both markRunComplete and markDispatchIdle on NO_REPLY",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1592] calls both markRunComplete and markDispatchIdle on NO_REPLY",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1592",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] calls both markRunComplete and markDispatchIdle on empty payloads",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1597] calls both markRunComplete and markDispatchIdle on empty payloads",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1597",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] calls both markRunComplete and markDispatchIdle on agent error",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1602] calls both markRunComplete and markDispatchIdle on agent error",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1602",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] calls both markRunComplete and markDispatchIdle on successful delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1618] calls both markRunComplete and markDispatchIdle on successful delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1618",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts] passes queued run agentDir to runEmbeddedPiAgent",
+TEST_CASE("v4.29 [src/auto-reply/reply/followup-runner.test.ts:1641] passes queued run agentDir to runEmbeddedPiAgent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/followup-runner.test.ts:1641",
                "upstream it() block #29",

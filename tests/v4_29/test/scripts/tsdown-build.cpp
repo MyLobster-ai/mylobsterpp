@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] routes Windows tsdown builds through the pnpm runner instead of shell=true",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:18] routes Windows tsdown builds through the pnpm runner instead of shell=true",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] keeps source-checkout prune best-effort",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:47] keeps source-checkout prune best-effort",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] prunes stale hashed root chunk files but keeps stable aliases and nested assets",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:69] prunes stale hashed root chunk files but keeps stable aliases and nested assets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] cleans tsdown output roots before using tsdown --no-clean without deleting staged runtime deps",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:109] cleans tsdown output roots before using tsdown --no-clean without deleting staged runtime deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] tracks fatal build diagnostics while bounding captured output",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:191] tracks fatal build diagnostics while bounding captured output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:191",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] ignores unresolved imports from bundled plugin and dependency paths",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:205] ignores unresolved imports from bundled plugin and dependency paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:205",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] streams child output while preserving diagnostics for post-run checks",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:229] streams child output while preserving diagnostics for post-run checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:229",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts] terminates the child when OPENCLAW_TSDOWN_TIMEOUT_MS elapses",
+TEST_CASE("v4.29 [test/scripts/tsdown-build.test.ts:256] terminates the child when OPENCLAW_TSDOWN_TIMEOUT_MS elapses",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/tsdown-build.test.ts:256",
                "upstream it() block #7",

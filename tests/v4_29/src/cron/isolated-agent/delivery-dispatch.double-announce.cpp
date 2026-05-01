@@ -5,341 +5,341 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] early return (active subagent) sets deliveryAttempted=true so timer skips enqueueSystemEvent",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:191] early return (active subagent) sets deliveryAttempted=true so timer skips enqueueSystemEvent",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:191",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] early return (stale interim suppression) sets deliveryAttempted=true so timer skips enqueueSystemEvent",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:219] early return (stale interim suppression) sets deliveryAttempted=true so timer skips enqueueSystemEvent",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:219",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] consolidates descendant output into the final direct delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:251] consolidates descendant output into the final direct delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:251",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] uses the run-scoped session key for isolated cron descendant fallback delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:276] uses the run-scoped session key for isolated cron descendant fallback delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:276",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] normal text delivery sends exactly once and sets deliveryAttempted=true",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:312] normal text delivery sends exactly once and sets deliveryAttempted=true",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:312",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] preserves all successful text payloads for direct delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:339] preserves all successful text payloads for direct delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:339",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] queues main-session awareness for isolated cron jobs after delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:362] queues main-session awareness for isolated cron jobs after delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:362",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] skips awareness text when direct delivery strips a silent caption",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:383] skips awareness text when direct delivery strips a silent caption",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:383",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] keeps the cron run successful when awareness queueing throws after delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:409] keeps the cron run successful when awareness queueing throws after delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:409",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] skips main-session awareness for session-bound cron jobs",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:425] skips main-session awareness for session-bound cron jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:425",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] skips main-session awareness for best-effort deliveries",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:442] skips main-session awareness for best-effort deliveries",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:442",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] skips stale cron deliveries while still suppressing fallback main summary",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:459] skips stale cron deliveries while still suppressing fallback main summary",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:459",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] still delivers when the run started on time but finished more than three hours later",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:492] still delivers when the run started on time but finished more than three hours later",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:492",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] falls back to runStartedAt when nextRunAtMs=0",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:512] falls back to runStartedAt when nextRunAtMs=0",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:512",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] cleans up the direct cron session after a silent reply when deleteAfterRun is enabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:532] cleans up the direct cron session after a silent reply when deleteAfterRun is enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:532",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] cleans up the direct cron session after text delivery when deleteAfterRun is enabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:559] cleans up the direct cron session after text delivery when deleteAfterRun is enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:559",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] retires the MCP runtime directly when deleteAfterRun gateway cleanup fails",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:582] retires the MCP runtime directly when deleteAfterRun gateway cleanup fails",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:582",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] text delivery fires exactly once (no double-deliver)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:604] text delivery fires exactly once (no double-deliver)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:604",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] retries transient direct announce failures before succeeding",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:619] retries transient direct announce failures before succeeding",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:619",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] keeps direct announce delivery idempotent across replay for the same cron execution",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:636] keeps direct announce delivery idempotent across replay for the same cron execution",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:636",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] does not collapse distinct recurring runs for the same job",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:651] does not collapse distinct recurring runs for the same job",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:651",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] does not cache partial bestEffort delivery replays as delivered",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:686] does not cache partial bestEffort delivery replays as delivered",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:686",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] prunes the completed-delivery cache back to the entry cap",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:709] prunes the completed-delivery cache back to the entry cap",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:709",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] does not retry permanent direct announce failures",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:726] does not retry permanent direct announce failures",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:726",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] surfaces structured direct delivery failures without retry when best-effort is disabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:745] surfaces structured direct delivery failures without retry when best-effort is disabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:745",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] ignores structured direct delivery failures when best-effort is enabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:764] ignores structured direct delivery failures when best-effort is enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:764",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] no delivery requested means deliveryAttempted stays false and no delivery is sent",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:783] no delivery requested means deliveryAttempted stays false and no delivery is sent",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:783",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] text delivery always bypasses the write-ahead queue",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:794] text delivery always bypasses the write-ahead queue",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:794",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] structured/thread delivery also bypasses the write-ahead queue",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:816] structured/thread delivery also bypasses the write-ahead queue",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:816",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] transient retry delivers exactly once with skipQueue on both attempts",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:832] transient retry delivers exactly once with skipQueue on both attempts",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:832",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] suppresses NO_REPLY payload in direct delivery so sentinel never leaks to external channels",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:859] suppresses NO_REPLY payload in direct delivery so sentinel never leaks to external channels",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:859",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] delivers explicit targets with direct text through the outbound adapter",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:895] delivers explicit targets with direct text through the outbound adapter",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:895",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] keeps unresolved message-tool delivery out of delivered status",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:919] keeps unresolved message-tool delivery out of delivered status",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:919",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] builds outbound session context from the run session key under per-channel-peer scoping",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:952] builds outbound session context from the run session key under per-channel-peer scoping",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:952",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] passes threaded telegram delivery through to the outbound adapter",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:973] passes threaded telegram delivery through to the outbound adapter",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:973",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] cleans up the direct cron session after threaded direct delivery when deleteAfterRun is enabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:998] cleans up the direct cron session after threaded direct delivery when deleteAfterRun is enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:998",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] delivers structured heartbeat/media payloads once through the outbound adapter",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1026] delivers structured heartbeat/media payloads once through the outbound adapter",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1026",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] cleans up the direct cron session after structured direct delivery when deleteAfterRun is enabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1057] cleans up the direct cron session after structured direct delivery when deleteAfterRun is enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1057",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] suppresses NO_REPLY payload with surrounding whitespace",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1084] suppresses NO_REPLY payload with surrounding whitespace",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1084",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] suppresses mixed-case NO_REPLY in text delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1114] suppresses mixed-case NO_REPLY in text delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1114",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] cleans up the direct cron session after a structured silent reply when deleteAfterRun is enabled",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1140] cleans up the direct cron session after a structured silent reply when deleteAfterRun is enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1140",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] suppresses trailing NO_REPLY after summary text in direct delivery (#64976)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1169] suppresses trailing NO_REPLY after summary text in direct delivery (#64976)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1169",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] suppresses trailing NO_REPLY after summary text in text delivery (#64976)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1185] suppresses trailing NO_REPLY after summary text in text delivery (#64976)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1185",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] suppresses mixed-case trailing No_Reply after summary text (#64976)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1200] suppresses mixed-case trailing No_Reply after summary text (#64976)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1200",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] delivers substantive text that mentions NO_REPLY in non-trailing content (text delivery)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1215] delivers substantive text that mentions NO_REPLY in non-trailing content (text delivery)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1215",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] delivers substantive text that mentions NO_REPLY in non-trailing content (direct delivery)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1230] delivers substantive text that mentions NO_REPLY in non-trailing content (direct delivery)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1230",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] delivers non-trailing NO_REPLY mention with trailing whitespace",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1246] delivers non-trailing NO_REPLY mention with trailing whitespace",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1246",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts] drops only the payload with trailing NO_REPLY in a multi-payload direct delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1260] drops only the payload with trailing NO_REPLY in a multi-payload direct delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.double-announce.test.ts:1260",
                "upstream it() block #47",

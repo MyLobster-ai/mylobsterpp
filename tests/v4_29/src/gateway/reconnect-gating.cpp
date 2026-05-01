@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] returns false for undefined error (normal disconnect)",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:10] returns false for undefined error (normal disconnect)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] returns false for errors without detail codes (network issues)",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:14] returns false for errors without detail codes (network issues)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for AUTH_TOKEN_MISSING (misconfigured client)",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:18] blocks reconnect for AUTH_TOKEN_MISSING (misconfigured client)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for AUTH_BOOTSTRAP_TOKEN_INVALID",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:24] blocks reconnect for AUTH_BOOTSTRAP_TOKEN_INVALID",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:24",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for AUTH_PASSWORD_MISSING",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:30] blocks reconnect for AUTH_PASSWORD_MISSING",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for AUTH_PASSWORD_MISMATCH (wrong password won",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:36] blocks reconnect for AUTH_PASSWORD_MISMATCH (wrong password won",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:36",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for AUTH_RATE_LIMITED (reconnecting burns more slots)",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:42] blocks reconnect for AUTH_RATE_LIMITED (reconnecting burns more slots)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:42",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for AUTH_DEVICE_TOKEN_MISMATCH",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:48] blocks reconnect for AUTH_DEVICE_TOKEN_MISMATCH",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:48",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] blocks reconnect for PAIRING_REQUIRED",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:54] blocks reconnect for PAIRING_REQUIRED",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:54",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] allows reconnect for AUTH_TOKEN_MISMATCH (device-token fallback flow)",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:60] allows reconnect for AUTH_TOKEN_MISMATCH (device-token fallback flow)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:60",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts] allows reconnect for unrecognized detail codes (future-proof)",
+TEST_CASE("v4.29 [src/gateway/reconnect-gating.test.ts:68] allows reconnect for unrecognized detail codes (future-proof)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/reconnect-gating.test.ts:68",
                "upstream it() block #10",

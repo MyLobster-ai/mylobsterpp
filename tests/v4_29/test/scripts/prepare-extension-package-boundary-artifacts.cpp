@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts] prefixes each completed line and flushes the trailing partial line",
+TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts:23] prefixes each completed line and flushes the trailing partial line",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/prepare-extension-package-boundary-artifacts.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts] aborts sibling steps after the first failure",
+TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts:38] aborts sibling steps after the first failure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/prepare-extension-package-boundary-artifacts.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts] runs boundary prep steps serially for local checks",
+TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts:61] runs boundary prep steps serially for local checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/prepare-extension-package-boundary-artifacts.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts] passes step-specific environment overrides to child steps",
+TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts:87] passes step-specific environment overrides to child steps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/prepare-extension-package-boundary-artifacts.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts] treats artifacts as fresh only when outputs are newer than inputs",
+TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts:107] treats artifacts as fresh only when outputs are newer than inputs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/prepare-extension-package-boundary-artifacts.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts] parses prep mode and rejects unknown values",
+TEST_CASE("v4.29 [test/scripts/prepare-extension-package-boundary-artifacts.test.ts:139] parses prep mode and rejects unknown values",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/prepare-extension-package-boundary-artifacts.test.ts:139",
                "upstream it() block #5",

@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] collects configured model refs across defaults, aliases, overrides, and media tools",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:75] collects configured model refs across defaults, aliases, overrides, and media tools",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] collects manifest-owned web search plugin model refs without a hardcoded plugin list",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:145] collects manifest-owned web search plugin model refs without a hardcoded plugin list",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:145",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] uses one installed manifest pass for pricing policies and configured web-search refs",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:163] uses one installed manifest pass for pricing policies and configured web-search refs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:163",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] does not load plugin manifests for pricing when plugins are globally disabled",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:205] does not load plugin manifests for pricing when plugins are globally disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:205",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] skips remote pricing catalogs for local-only model providers",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:257] skips remote pricing catalogs for local-only model providers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:257",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] seeds pricing from explicit configured model cost without external catalog fetches",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:292] seeds pricing from explicit configured model cost without external catalog fetches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:292",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] loads openrouter pricing and maps provider aliases, wrappers, and anthropic dotted ids",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:332] loads openrouter pricing and maps provider aliases, wrappers, and anthropic dotted ids",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:332",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] does not recurse forever for native openrouter auto refs",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:424] does not recurse forever for native openrouter auto refs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:424",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] loads tiered pricing from LiteLLM and merges with OpenRouter flat pricing",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:471] loads tiered pricing from LiteLLM and merges with OpenRouter flat pricing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:471",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] normalizes LiteLLM open-ended range [start] to [start, Infinity]",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:549] normalizes LiteLLM open-ended range [start] to [start, Infinity]",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:549",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] merges OpenRouter flat pricing with LiteLLM tiered pricing",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:608] merges OpenRouter flat pricing with LiteLLM tiered pricing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:608",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] falls back gracefully when LiteLLM fetch fails",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:684] falls back gracefully when LiteLLM fetch fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:684",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] defers bootstrap refresh work until after the starter returns",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:731] defers bootstrap refresh work until after the starter returns",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:731",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] does not bootstrap remote pricing when pricing is disabled",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:764] does not bootstrap remote pricing when pricing is disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:764",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] does not refresh remote pricing when pricing is disabled",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:782] does not refresh remote pricing when pricing is disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:782",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] logs configured timeout seconds when pricing fetches time out",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:798] logs configured timeout seconds when pricing fetches time out",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:798",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts] treats oversized LiteLLM catalog responses as source failures",
+TEST_CASE("v4.29 [src/gateway/model-pricing-cache.test.ts:837] treats oversized LiteLLM catalog responses as source failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/model-pricing-cache.test.ts:837",
                "upstream it() block #16",

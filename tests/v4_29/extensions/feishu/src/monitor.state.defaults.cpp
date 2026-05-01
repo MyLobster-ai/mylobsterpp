@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.state.defaults.test.ts] falls back to hard defaults when sdk defaults are missing",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.state.defaults.test.ts:8] falls back to hard defaults when sdk defaults are missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.state.defaults.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.state.defaults.test.ts] keeps valid sdk values and repairs invalid fields",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.state.defaults.test.ts:21] keeps valid sdk values and repairs invalid fields",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.state.defaults.test.ts:21",
                "upstream it() block #1",

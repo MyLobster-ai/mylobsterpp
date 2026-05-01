@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] returns null when no AGENTS.md exists",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:40] returns null when no AGENTS.md exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] returns null when AGENTS.md has no relevant sections",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:45] returns null when AGENTS.md has no relevant sections",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] extracts Session Startup section",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:51] extracts Session Startup section",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] extracts Red Lines section",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:73] extracts Red Lines section",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] extracts both sections",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:92] extracts both sections",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:92",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] truncates when content exceeds limit",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:115] truncates when content exceeds limit",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] honors per-agent post-compaction context limit overrides",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:124] honors per-agent post-compaction context limit overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:124",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] matches section names case-insensitively",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:152] matches section names case-insensitively",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:152",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] matches H3 headings",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:167] matches H3 headings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:167",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] skips sections inside code blocks",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:182] skips sections inside code blocks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:182",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] includes sub-headings within a section",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:203] includes sub-headings within a section",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:203",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] substitutes YYYY-MM-DD with the actual date in extracted sections",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:246] substitutes YYYY-MM-DD with the actual date in extracted sections",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:246",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] appends current time line even when no YYYY-MM-DD placeholder is present",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:270] appends current time line even when no YYYY-MM-DD placeholder is present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:270",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] uses default sections (Session Startup + Red Lines) when config is not set",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:286] uses default sections (Session Startup + Red Lines) when config is not set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:286",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] uses custom section names from config instead of defaults",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:295] uses custom section names from config instead of defaults",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:295",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] supports multiple custom section names",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:314] supports multiple custom section names",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:314",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] returns null when postCompactionSections is explicitly set to [] (opt-out)",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:331] returns null when postCompactionSections is explicitly set to [] (opt-out)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:331",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] returns null when custom sections are configured but none found in AGENTS.md",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:346] returns null when custom sections are configured but none found in AGENTS.md",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:346",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] does NOT reference ",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:360] does NOT reference ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:360",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] uses default ",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:381] uses default ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:381",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] falls back to legacy sections when defaults are explicitly configured",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:389] falls back to legacy sections when defaults are explicitly configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:389",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] falls back to legacy sections when default sections are configured in a different order",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:396] falls back to legacy sections when default sections are configured in a different order",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:396",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts] custom section names are matched case-insensitively",
+TEST_CASE("v4.29 [src/auto-reply/reply/post-compaction-context.test.ts:400] custom section names are matched case-insensitively",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/post-compaction-context.test.ts:400",
                "upstream it() block #22",

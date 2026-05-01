@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:16] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] prefers accounts.default.allowFrom over top-level for default account",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:35] prefers accounts.default.allowFrom over top-level for default account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] falls back to top-level allowFrom for named account without override",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:53] falls back to top-level allowFrom for named account without override",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] does not inherit default account allowFrom for named account when top-level is absent",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:71] does not inherit default account allowFrom for named account when top-level is absent",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:91] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] falls back to merged root discord maxLinesPerMessage when runtime config omits it",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:114] falls back to merged root discord maxLinesPerMessage when runtime config omits it",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] prefers explicit runtime discord maxLinesPerMessage over merged config",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:133] prefers explicit runtime discord maxLinesPerMessage over merged config",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:133",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] uses per-account discord maxLinesPerMessage over the root value when runtime config omits it",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:152] uses per-account discord maxLinesPerMessage over the root value when runtime config omits it",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:152",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] keeps the config-token account over default env fallback when tokens collide",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:173] keeps the config-token account over default env fallback when tokens collide",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:173",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] keeps the first enabled account when duplicate tokens have the same source",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:198] keeps the first enabled account when duplicate tokens have the same source",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:198",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts] does not let disabled duplicate-token accounts suppress enabled accounts",
+TEST_CASE("v4.29 [extensions/discord/src/accounts.test.ts:225] does not let disabled duplicate-token accounts suppress enabled accounts",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/accounts.test.ts:225",
                "upstream it() block #10",

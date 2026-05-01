@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.compaction.test.ts] raises the stored compaction count to the observed value",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.compaction.test.ts:72] raises the stored compaction count to the observed value",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.compaction.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.compaction.test.ts] does not double count when the store is already at or above the observed value",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.compaction.test.ts:94] does not double count when the store is already at or above the observed value",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.compaction.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.compaction.test.ts] reconciles the session store after a successful compaction end event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.compaction.test.ts:118] reconciles the session store after a successful compaction end event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.compaction.test.ts:118",
                "upstream it() block #2",

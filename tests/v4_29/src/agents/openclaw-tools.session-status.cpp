@@ -5,292 +5,292 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] returns a status card for the current session",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:395] returns a status card for the current session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:395",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] enables transcript usage fallback for session_status",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:413] enables transcript usage fallback for session_status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:413",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] passes spawned workspace to session_status auth labels",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:432] passes spawned workspace to session_status auth labels",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:432",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] errors for unknown session keys",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:454] errors for unknown session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:454",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] resolves sessionKey=current to the requester session",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:467] resolves sessionKey=current to the requester session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:467",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] resolves sessionKey=current to the requester agent session",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:483] resolves sessionKey=current to the requester agent session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:483",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] treats the TUI client label as the current requester session",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:495] treats the TUI client label as the current requester session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:495",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] falls back from implicit default-account direct policy keys to persisted direct sessions",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:511] falls back from implicit default-account direct policy keys to persisted direct sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:511",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] falls back from implicit default-account direct policy keys to main sessions",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:527] falls back from implicit default-account direct policy keys to main sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:527",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] keeps explicit default-account direct session lookups strict",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:543] keeps explicit default-account direct session lookups strict",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:543",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] prefers a literal current session key in session_status",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:560] prefers a literal current session key in session_status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:560",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] includes background task context in session_status output",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:580] includes background task context in session_status output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:580",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] hides stale completed task rows from session_status output",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:612] hides stale completed task rows from session_status output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:612",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] shows recent failure context in session_status output when no task is active",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:655] shows recent failure context in session_status output when no task is active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:655",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] truncates long task titles and details in session_status output",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:686] truncates long task titles and details in session_status output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:686",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] prefers failure context over newer success context in session_status output",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:723] prefers failure context over newer success context in session_status output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:723",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] resolves a literal current sessionId in session_status",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:769] resolves a literal current sessionId in session_status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:769",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] keeps sessionKey=current bound to the requester subagent session",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:802] keeps sessionKey=current bound to the requester subagent session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:802",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] uses the runtime session model as the selected card model when no override is set",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:836] uses the runtime session model as the selected card model when no override is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:836",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] infers configured custom providers for runtime-only models in session_status",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:861] infers configured custom providers for runtime-only models in session_status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:861",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] preserves an unknown runtime provider in the selected status card model",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:909] preserves an unknown runtime provider in the selected status card model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:909",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] passes per-agent thinkingDefault through to the status card",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:938] passes per-agent thinkingDefault through to the status card",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:938",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] uses the implicit model thinking default when no config default is set",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:984] uses the implicit model thinking default when no config default is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:984",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] hydrates runtime catalog metadata for status when configured model metadata omits reasoning",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1029] hydrates runtime catalog metadata for status when configured model metadata omits reasoning",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1029",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] falls back to origin.provider when resolving queue settings",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1082] falls back to origin.provider when resolving queue settings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1082",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] resolves sessionId inputs",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1105] resolves sessionId inputs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1105",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] resolves duplicate sessionId inputs deterministically",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1122] resolves duplicate sessionId inputs deterministically",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1122",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] uses non-standard session keys without sessionId resolution",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1159] uses non-standard session keys without sessionId resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1159",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks cross-agent session_status without agent-to-agent access",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1175] blocks cross-agent session_status without agent-to-agent access",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1175",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks unsandboxed same-agent session_status outside self visibility",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1190] blocks unsandboxed same-agent session_status outside self visibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1190",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks unsandboxed same-agent bare main session_status outside self visibility",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1232] blocks unsandboxed same-agent bare main session_status outside self visibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1232",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks unsandboxed same-agent session_status outside tree visibility before mutation",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1273] blocks unsandboxed same-agent session_status outside tree visibility before mutation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1273",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] allows unsandboxed same-agent session_status under agent visibility",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1325] allows unsandboxed same-agent session_status under agent visibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1325",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks unsandboxed sessionId session_status outside tree visibility before mutation",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1364] blocks unsandboxed sessionId session_status outside tree visibility before mutation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1364",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks sandboxed child session_status access outside its tree before store lookup",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1418] blocks sandboxed child session_status access outside its tree before store lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1418",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks sandboxed child bare main session_status access outside its tree",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1455] blocks sandboxed child bare main session_status access outside its tree",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1455",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks sandboxed child session_status sessionId access outside its tree before store lookup",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1495] blocks sandboxed child session_status sessionId access outside its tree before store lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1495",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] blocks sandboxed child session_status parent sessionId access outside its tree",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1551] blocks sandboxed child session_status parent sessionId access outside its tree",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1551",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] keeps legacy main requester keys for sandboxed session tree checks",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1602] keeps legacy main requester keys for sandboxed session tree checks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1602",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] scopes bare session keys to the requester agent",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1637] scopes bare session keys to the requester agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1637",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts] resets per-session model override via model=default",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.session-status.test.ts:1648] resets per-session model override via model=default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.session-status.test.ts:1648",
                "upstream it() block #40",

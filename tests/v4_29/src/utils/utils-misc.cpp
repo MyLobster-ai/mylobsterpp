@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] handles boolean inputs",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:6] handles boolean inputs",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] parses default truthy/falsy strings",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:11] parses default truthy/falsy strings",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] respects custom truthy/falsy lists",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:22] respects custom truthy/falsy lists",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] returns undefined for unsupported values",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:37] returns undefined for unsupported values",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] splits whitespace and respects quotes",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:45] splits whitespace and respects quotes",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] supports backslash escapes inside double quotes",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:50] supports backslash escapes inside double quotes",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:50",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] returns null for unterminated quotes",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:55] returns null for unterminated quotes",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:55",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/utils-misc.test.ts] stops at unquoted shell comments but keeps quoted hashes literal",
+TEST_CASE("v4.29 [src/utils/utils-misc.test.ts:60] stops at unquoted shell comments but keeps quoted hashes literal",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/utils-misc.test.ts:60",
                "upstream it() block #7",

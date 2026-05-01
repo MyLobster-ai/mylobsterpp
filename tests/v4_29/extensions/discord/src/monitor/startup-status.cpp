@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/startup-status.test.ts] reports logged-in status only after the gateway is ready",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/startup-status.test.ts:5] reports logged-in status only after the gateway is ready",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/startup-status.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/startup-status.test.ts] reports client initialization while gateway readiness is still pending",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/startup-status.test.ts:14] reports client initialization while gateway readiness is still pending",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/startup-status.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/startup-status.test.ts] handles missing identity without awkward punctuation",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/startup-status.test.ts:23] handles missing identity without awkward punctuation",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/startup-status.test.ts:23",
                "upstream it() block #2",

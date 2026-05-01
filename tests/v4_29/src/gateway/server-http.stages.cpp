@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts] returns true when a stage handles the request",
+TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts:5] returns true when a stage handles the request",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.stages.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts] returns false when no stage handles the request",
+TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts:14] returns false when no stage handles the request",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.stages.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts] skips a throwing stage marked continueOnError and continues to subsequent stages",
+TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts:22] skips a throwing stage marked continueOnError and continues to subsequent stages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.stages.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts] skips a rejecting async stage marked continueOnError and continues",
+TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts:50] skips a rejecting async stage marked continueOnError and continues",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.stages.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts] rethrows when a stage throws without continueOnError",
+TEST_CASE("v4.29 [src/gateway/server-http.stages.test.ts:77] rethrows when a stage throws without continueOnError",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.stages.test.ts:77",
                "upstream it() block #4",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.gateway-node-pairing-auto-approve.test.ts] keeps CIDR auto-approval disabled when unset",
+TEST_CASE("v4.29 [src/config/config.gateway-node-pairing-auto-approve.test.ts:5] keeps CIDR auto-approval disabled when unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.gateway-node-pairing-auto-approve.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.gateway-node-pairing-auto-approve.test.ts] rejects non-array autoApproveCidrs shape",
+TEST_CASE("v4.29 [src/config/config.gateway-node-pairing-auto-approve.test.ts:37] rejects non-array autoApproveCidrs shape",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.gateway-node-pairing-auto-approve.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.gateway-node-pairing-auto-approve.test.ts] rejects non-string autoApproveCidrs entries",
+TEST_CASE("v4.29 [src/config/config.gateway-node-pairing-auto-approve.test.ts:56] rejects non-string autoApproveCidrs entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.gateway-node-pairing-auto-approve.test.ts:56",
                "upstream it() block #2",

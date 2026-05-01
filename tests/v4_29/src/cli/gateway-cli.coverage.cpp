@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] registers call/health commands and routes to callGateway",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:139] registers call/health commands and routes to callGateway",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:139",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] registers gateway probe and routes to gatewayStatusCommand",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:148] registers gateway probe and routes to gatewayStatusCommand",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:148",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] registers gateway stability and routes to diagnostics RPC",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:156] registers gateway stability and routes to diagnostics RPC",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:156",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] prints the latest stability bundle without calling Gateway",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:180] prints the latest stability bundle without calling Gateway",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:180",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] writes gateway diagnostics export with a best-effort health snapshot",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:249] writes gateway diagnostics export with a best-effort health snapshot",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] registers gateway discover and prints json output",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:285] registers gateway discover and prints json output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:285",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] validates gateway discover timeout",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:309] validates gateway discover timeout",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:309",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] fails gateway call on invalid params JSON",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:317] fails gateway call on invalid params JSON",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:317",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] validates gateway ports and handles force/start errors",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:325] validates gateway ports and handles force/start errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:325",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] prints stop hints on GatewayLockError when service is loaded",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:367] prints stop hints on GatewayLockError when service is loaded",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:367",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] keeps exit 1 for gateway bind failures wrapped as GatewayLockError",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:398] keeps exit 1 for gateway bind failures wrapped as GatewayLockError",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:398",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] keeps exit 1 for gateway lock acquisition failures",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:411] keeps exit 1 for gateway lock acquisition failures",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:411",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts] uses env/config port when --port is omitted",
+TEST_CASE("v4.29 [src/cli/gateway-cli.coverage.test.ts:424] uses env/config port when --port is omitted",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli.coverage.test.ts:424",
                "upstream it() block #12",

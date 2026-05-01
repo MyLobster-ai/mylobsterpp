@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] extracts application ID from a valid token",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:5] extracts application ID from a valid token",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] extracts large snowflake IDs without precision loss",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:11] extracts large snowflake IDs without precision loss",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] handles tokens with Bot prefix",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:18] handles tokens with Bot prefix",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] returns undefined for empty string",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:23] returns undefined for empty string",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] returns undefined for token without dots",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:27] returns undefined for token without dots",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:27",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] returns undefined when decoded segment is not numeric",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:31] returns undefined when decoded segment is not numeric",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:31",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] returns undefined for whitespace-only input",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:36] returns undefined for whitespace-only input",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:36",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts] returns undefined when first segment is empty (starts with dot)",
+TEST_CASE("v4.29 [extensions/discord/src/probe.parse-token.test.ts:40] returns undefined when first segment is empty (starts with dot)",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.parse-token.test.ts:40",
                "upstream it() block #7",

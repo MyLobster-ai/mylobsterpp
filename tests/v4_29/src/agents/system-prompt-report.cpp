@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] counts injected chars when injected file paths are absolute",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:35] counts injected chars when injected file paths are absolute",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] keeps legacy basename matching for injected files",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:46] keeps legacy basename matching for injected files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] marks workspace files truncated when injected chars are smaller than raw chars",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:57] marks workspace files truncated when injected chars are smaller than raw chars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] includes both bootstrap caps in the report payload",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:71] includes both bootstrap caps in the report payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] reports zero in-band tool list chars when tool info stays structured",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:85] reports zero in-band tool list chars when tool info stays structured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] reports injectedChars=0 when injected file does not match by path or basename",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:96] reports injectedChars=0 when injected file does not match by path or basename",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:96",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts] ignores malformed injected file paths and still matches valid entries",
+TEST_CASE("v4.29 [src/agents/system-prompt-report.test.ts:108] ignores malformed injected file paths and still matches valid entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-report.test.ts:108",
                "upstream it() block #6",

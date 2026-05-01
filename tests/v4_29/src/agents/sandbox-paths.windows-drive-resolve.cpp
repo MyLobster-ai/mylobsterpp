@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox-paths.windows-drive-resolve.test.ts] does not join workspace cwd when path looks like a Windows drive path",
+TEST_CASE("v4.29 [src/agents/sandbox-paths.windows-drive-resolve.test.ts:7] does not join workspace cwd when path looks like a Windows drive path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-paths.windows-drive-resolve.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-paths.windows-drive-resolve.test.ts] treats backslash Windows drive paths as absolute vs cwd",
+TEST_CASE("v4.29 [src/agents/sandbox-paths.windows-drive-resolve.test.ts:14] treats backslash Windows drive paths as absolute vs cwd",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-paths.windows-drive-resolve.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-paths.windows-drive-resolve.test.ts] does not prefix workspace root for drive-letter paths",
+TEST_CASE("v4.29 [src/agents/sandbox-paths.windows-drive-resolve.test.ts:25] does not prefix workspace root for drive-letter paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-paths.windows-drive-resolve.test.ts:25",
                "upstream it() block #2",

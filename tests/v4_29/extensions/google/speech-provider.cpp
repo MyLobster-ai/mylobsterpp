@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] synthesizes Gemini PCM as WAV and preserves audio tags in the request text",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:65] synthesizes Gemini PCM as WAV and preserves audio tags in the request text",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] transcodes Gemini PCM to Opus for voice-note targets",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:119] transcodes Gemini PCM to Opus for voice-note targets",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] advertises all documented Gemini TTS-capable models",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:151] advertises all documented Gemini TTS-capable models",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] renders deterministic audio-profile-v1 prompts without generating tags",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:157] renders deterministic audio-profile-v1 prompts without generating tags",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:157",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] does not wrap an OpenClaw audio-profile-v1 prompt twice",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:214] does not wrap an OpenClaw audio-profile-v1 prompt twice",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:214",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] retries once when Gemini returns no audio payload",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:248] retries once when Gemini returns no audio payload",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:248",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] retries once when Gemini TTS fetch aborts",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:280] retries once when Gemini TTS fetch aborts",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:280",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] does not retry non-transient Gemini TTS request failures",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:308] does not retry non-transient Gemini TTS request failures",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:308",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] falls back to GEMINI_API_KEY and configured Google API base URL",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:328] falls back to GEMINI_API_KEY and configured Google API base URL",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:328",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] can reuse a configured Google model-provider API key without auth profiles",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:361] can reuse a configured Google model-provider API key without auth profiles",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:361",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] returns Gemini PCM directly for telephony synthesis",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:390] returns Gemini PCM directly for telephony synthesis",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:390",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] prepends configured Gemini TTS profile text",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:412] prepends configured Gemini TTS profile text",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:412",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] resolves provider config and directive overrides",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:444] resolves provider config and directive overrides",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:444",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] lists Gemini prebuilt TTS voices",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:517] lists Gemini prebuilt TTS voices",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:517",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] formats Google TTS HTTP errors with provider details",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:528] formats Google TTS HTTP errors with provider details",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:528",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] honors configured private-network opt-in for Google TTS",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:564] honors configured private-network opt-in for Google TTS",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:564",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts] honors configured private-network opt-in for Google telephony TTS",
+TEST_CASE("v4.29 [extensions/google/speech-provider.test.ts:594] honors configured private-network opt-in for Google telephony TTS",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/speech-provider.test.ts:594",
                "upstream it() block #16",

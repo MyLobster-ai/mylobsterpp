@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] uses a route-relative avatar endpoint before basePath bootstrap finishes",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:132] uses a route-relative avatar endpoint before basePath bootstrap finishes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] prefers the paired device token for avatar metadata and local avatar URLs",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:180] prefers the paired device token for avatar metadata and local avatar URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:180",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] fetches local avatars through Authorization headers instead of tokenized URLs",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:236] fetches local avatars through Authorization headers instead of tokenized URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:236",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] keeps mounted dashboard avatar endpoints under the normalized base path",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:290] keeps mounted dashboard avatar endpoints under the normalized base path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] drops remote avatar metadata so the control UI can rely on same-origin images only",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:307] drops remote avatar metadata so the control UI can rely on same-origin images only",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:307",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] keeps unresolved IDENTITY.md avatar metadata when falling back to the logo",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:327] keeps unresolved IDENTITY.md avatar metadata when falling back to the logo",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:327",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] ignores stale avatar responses after switching sessions",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:348] ignores stale avatar responses after switching sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:348",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] cancels button-triggered /new resets when confirmation is declined",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:430] cancels button-triggered /new resets when confirmation is declined",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:430",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] cancels button-triggered /new resets when confirmation is unavailable",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:452] cancels button-triggered /new resets when confirmation is unavailable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:452",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] sends button-triggered /new resets after confirmation",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:472] sends button-triggered /new resets after confirmation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:472",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] keeps slash-command model changes in sync with the chat header cache",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:534] keeps slash-command model changes in sync with the chat header cache",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:534",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] sends /btw immediately while a main run is active without queueing it",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:593] sends /btw immediately while a main run is active without queueing it",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:593",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] sends /btw without adopting a main chat run when idle",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:627] sends /btw without adopting a main chat run when idle",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:627",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] keeps queued normal messages recallable before transcript history catches up",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:655] keeps queued normal messages recallable before transcript history catches up",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:655",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] coalesces duplicate in-flight chat submits before the gateway acknowledges them",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:670] coalesces duplicate in-flight chat submits before the gateway acknowledges them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:670",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] restores the BTW draft when detached send fails",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:696] restores the BTW draft when detached send fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:696",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] clears BTW side results when /clear resets chat history",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:720] clears BTW side results when /clear resets chat history",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:720",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] shows a visible pending item for /steer on the active run",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:757] shows a visible pending item for /steer on the active run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:757",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] steers a queued message into the active run without replacing run tracking",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:784] steers a queued message into the active run without replacing run tracking",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:784",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] removes pending steer indicators when the run finishes",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:819] removes pending steer indicators when the run finishes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:819",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] drops sent attachment payload bytes while keeping the optimistic preview URL",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:846] drops sent attachment payload bytes while keeping the optimistic preview URL",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:846",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] releases queued attachment payloads when the queued item is removed",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:884] releases queued attachment payloads when the queued item is removed",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:884",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] queues the active run abort while disconnected",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:921] queues the active run abort while disconnected",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:921",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts] keeps the draft when disconnected without an active run",
+TEST_CASE("v4.29 [ui/src/ui/app-chat.test.ts:936] keeps the draft when disconnected without an active run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-chat.test.ts:936",
                "upstream it() block #23",

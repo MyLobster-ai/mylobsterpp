@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] converts simple table to bullets",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:5] converts simple table to bullets",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] handles table with multiple columns",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:23] handles table with multiple columns",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] leaves table syntax untouched by default",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:43] leaves table syntax untouched by default",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] handles empty cells gracefully",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:59] handles empty cells gracefully",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] bolds row labels in bullets mode",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:74] bolds row labels in bullets mode",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] renders tables as code blocks in code mode",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:90] renders tables as code blocks in code mode",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts] preserves inline styles and links in bullets mode",
+TEST_CASE("v4.29 [src/markdown/ir.table-bullets.test.ts:104] preserves inline styles and links in bullets mode",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.table-bullets.test.ts:104",
                "upstream it() block #6",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts] returns null for loopback/default binds",
+TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts:5] returns null for loopback/default binds",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/gateway-bind-url.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts] resolves custom binds only when custom host is present after trimming",
+TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts:21] resolves custom binds only when custom host is present after trimming",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/gateway-bind-url.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts] resolves tailnet and lan binds or returns clear errors",
+TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts:55] resolves tailnet and lan binds or returns clear errors",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/gateway-bind-url.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts] returns null for unrecognized bind values without probing pickers",
+TEST_CASE("v4.29 [src/shared/gateway-bind-url.test.ts:105] returns null for unrecognized bind values without probing pickers",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/gateway-bind-url.test.ts:105",
                "upstream it() block #3",

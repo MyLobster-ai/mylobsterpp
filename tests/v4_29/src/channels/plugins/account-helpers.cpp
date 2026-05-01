@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] filters out empty keys",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:73] filters out empty keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] returns account keys",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:77] returns account keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] normalizes and deduplicates configured account ids",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:88] normalizes and deduplicates configured account ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] can preserve configured defaults that are not present in accounts",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:163] can preserve configured defaults that are not present in accounts",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:163",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] combines configured, additional, and implicit ids once",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:176] combines configured, additional, and implicit ids once",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:176",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] uses the fallback id when no accounts are present",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:186] uses the fallback id when no accounts are present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:186",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] builds the standard snapshot shape with optional extras",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:244] builds the standard snapshot shape with optional extras",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:244",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] normalizes missing identity fields to the shared defaults",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:266] normalizes missing identity fields to the shared defaults",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:266",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] defaults mode to webhook while preserving caller extras",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:281] defaults mode to webhook while preserving caller extras",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:281",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] allows callers to override the mode when the transport is not always webhook",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:303] allows callers to override the mode when the transport is not always webhook",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:303",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts] deep-merges selected nested object keys after resolving the account",
+TEST_CASE("v4.29 [src/channels/plugins/account-helpers.test.ts:458] deep-merges selected nested object keys after resolving the account",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-helpers.test.ts:458",
                "upstream it() block #10",

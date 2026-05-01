@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/canvas-host/server.state-dir.test.ts] uses OPENCLAW_STATE_DIR for the default canvas root",
+TEST_CASE("v4.29 [src/canvas-host/server.state-dir.test.ts:14] uses OPENCLAW_STATE_DIR for the default canvas root",
           "[v4_29][parity_gap][canvas-host]") {
     PARITY_GAP("src/canvas-host/server.state-dir.test.ts:14",
                "upstream it() block #0",

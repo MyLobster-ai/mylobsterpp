@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/video-generation-task-status.test.ts] recognizes active session-backed video generation tasks",
+TEST_CASE("v4.29 [src/agents/video-generation-task-status.test.ts:24] recognizes active session-backed video generation tasks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/video-generation-task-status.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/video-generation-task-status.test.ts] prefers a running task over queued session siblings",
+TEST_CASE("v4.29 [src/agents/video-generation-task-status.test.ts:59] prefers a running task over queued session siblings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/video-generation-task-status.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/video-generation-task-status.test.ts] builds prompt context for active session work",
+TEST_CASE("v4.29 [src/agents/video-generation-task-status.test.ts:109] builds prompt context for active session work",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/video-generation-task-status.test.ts:109",
                "upstream it() block #2",

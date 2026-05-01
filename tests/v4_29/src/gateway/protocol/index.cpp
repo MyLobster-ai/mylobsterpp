@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] returns unknown validation error when missing errors",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:24] returns unknown validation error when missing errors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] returns unknown validation error when errors list is empty",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:29] returns unknown validation error when errors list is empty",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] formats additionalProperties at root",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:33] formats additionalProperties at root",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] formats additionalProperties with instancePath",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:42] formats additionalProperties with instancePath",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] formats message with path for other errors",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:52] formats message with path for other errors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] de-dupes repeated entries",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:62] de-dupes repeated entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts Talk SecretRef payloads",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:76] accepts Talk SecretRef payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:76",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] rejects normalized talk payloads without talk.resolved",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:107] rejects normalized talk payloads without talk.resolved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:107",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts provider, model, and voice overrides",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:126] accepts provider, model, and voice overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:126",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] rejects request-time instruction overrides",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:137] rejects request-time instruction overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:137",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts valid wake params",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:151] accepts valid wake params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:151",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] rejects missing required fields",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:156] rejects missing required fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:156",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts unknown properties for forward compatibility",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:162] accepts unknown properties for forward compatibility",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:162",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts the supported model catalog views",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:183] accepts the supported model catalog views",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:183",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] rejects unknown model catalog views and extra fields",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:190] rejects unknown model catalog views and extra fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:190",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts a closed trigger and known metadata fields",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:197] accepts a closed trigger and known metadata fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:197",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] rejects unknown triggers and extra fields",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:212] rejects unknown triggers and extra fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:212",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts] accepts structured handled results",
+TEST_CASE("v4.29 [src/gateway/protocol/index.test.ts:224] accepts structured handled results",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/index.test.ts:224",
                "upstream it() block #17",

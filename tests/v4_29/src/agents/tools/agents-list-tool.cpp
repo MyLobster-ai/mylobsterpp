@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts] returns model and agent runtime metadata for allowed agents",
+TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts:21] returns model and agent runtime metadata for allowed agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/agents-list-tool.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts] returns requester as the only target when no subagent allowlist is configured",
+TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts:61] returns requester as the only target when no subagent allowlist is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/agents-list-tool.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts] marks OPENCLAW_AGENT_RUNTIME and fallback env overrides as effective",
+TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts:86] marks OPENCLAW_AGENT_RUNTIME and fallback env overrides as effective",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/agents-list-tool.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts] preserves agent fallback-only overrides while inheriting default runtime id",
+TEST_CASE("v4.29 [src/agents/tools/agents-list-tool.test.ts:115] preserves agent fallback-only overrides while inheriting default runtime id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/agents-list-tool.test.ts:115",
                "upstream it() block #3",

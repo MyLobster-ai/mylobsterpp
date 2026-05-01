@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] strips /status directive from message",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:5] strips /status directive from message",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] preserves newlines in multi-line messages",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:11] preserves newlines in multi-line messages",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] preserves newlines when stripping /status",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:17] preserves newlines when stripping /status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] collapses horizontal whitespace but keeps newlines",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:23] collapses horizontal whitespace but keeps newlines",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] returns empty string for whitespace-only input",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:30] returns empty string for whitespace-only input",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] extracts /help command",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:38] extracts /help command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:38",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] preserves newlines after extracting command",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:44] preserves newlines after extracting command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:44",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts] returns null for empty body",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-inline.test.ts:50] returns null for empty body",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-inline.test.ts:50",
                "upstream it() block #7",

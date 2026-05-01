@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts] defaults to the requester agent only",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts:41] defaults to the requester agent only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.agents.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts] includes configured allowlisted targets",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts:55] includes configured allowlisted targets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.agents.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts] falls back to default allowlist when the requester agent omits allowAgents",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts:76] falls back to default allowlist when the requester agent omits allowAgents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.agents.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts] returns configured agents when allowlist is *",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts:104] returns configured agents when allowlist is *",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.agents.test.ts:104",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts] marks allowlisted-but-unconfigured agents",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.agents.test.ts:131] marks allowlisted-but-unconfigured agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.agents.test.ts:131",
                "upstream it() block #4",

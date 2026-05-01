@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts] resolves defaults when unset",
+TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts:12] resolves defaults when unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.agent-concurrency-defaults.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts] clamps invalid values to at least 1",
+TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts:17] clamps invalid values to at least 1",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.agent-concurrency-defaults.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts] accepts subagent spawn depth and per-agent child limits",
+TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts:30] accepts subagent spawn depth and per-agent child limits",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.agent-concurrency-defaults.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts] injects missing agent defaults",
+TEST_CASE("v4.29 [src/config/config.agent-concurrency-defaults.test.ts:46] injects missing agent defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.agent-concurrency-defaults.test.ts:46",
                "upstream it() block #3",

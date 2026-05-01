@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] matches when channel and to agree",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:13] matches when channel and to agree",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] rejects when channel differs",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:22] rejects when channel differs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] rejects when to is missing from delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:31] rejects when to is missing from delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] rejects when channel is missing from delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:40] rejects when channel is missing from delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] strips :topic:NNN suffix from target.to before comparing",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:49] strips :topic:NNN suffix from target.to before comparing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] matches when provider is ",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:58] matches when provider is ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] rejects when accountIds differ",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:67] rejects when accountIds differ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:67",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] matches when delivery has accountId and target omits it (tool fills accountId at exec)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:76] matches when delivery has accountId and target omits it (tool fills accountId at exec)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:76",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] matches when delivery and target carry the same accountId",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:85] matches when delivery and target carry the same accountId",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:85",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] returns false by default (no bestEffort set)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:97] returns false by default (no bestEffort set)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:97",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts] returns true when delivery.bestEffort is true",
+TEST_CASE("v4.29 [src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:103] returns true when delivery.bestEffort is true",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/delivery-dispatch.named-agent.test.ts:103",
                "upstream it() block #10",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] defaults to enabled behaviors",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:5] defaults to enabled behaviors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] parses frontmatter boolean strings",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:11] parses frontmatter boolean strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] accepts safe install specs",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:26] accepts safe install specs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] drops unsafe brew formula values",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:40] drops unsafe brew formula values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] drops unsafe npm package specs for node installers",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:47] drops unsafe npm package specs for node installers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:47",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] drops unsafe go module specs",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:54] drops unsafe go module specs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:54",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts] drops unsafe download urls",
+TEST_CASE("v4.29 [src/agents/skills/frontmatter.test.ts:61] drops unsafe download urls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/frontmatter.test.ts:61",
                "upstream it() block #6",

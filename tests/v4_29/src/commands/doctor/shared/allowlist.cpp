@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist.test.ts] returns false for missing and blank entries",
+TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist.test.ts:5] returns false for missing and blank entries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/allowlist.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist.test.ts] returns true when at least one trimmed entry is present",
+TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist.test.ts:11] returns true when at least one trimmed entry is present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/allowlist.test.ts:11",
                "upstream it() block #1",

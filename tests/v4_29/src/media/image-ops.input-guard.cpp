@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts] returns null metadata for images above the pixel limit",
+TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts:12] returns null metadata for images above the pixel limit",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/image-ops.input-guard.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts] rejects oversized images before resize work starts",
+TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts:17] rejects oversized images before resize work starts",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/image-ops.input-guard.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts] rejects overflowed pixel counts before resize work starts",
+TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts:27] rejects overflowed pixel counts before resize work starts",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/image-ops.input-guard.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts] fails closed when sips cannot determine image dimensions",
+TEST_CASE("v4.29 [src/media/image-ops.input-guard.test.ts:37] fails closed when sips cannot determine image dimensions",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/image-ops.input-guard.test.ts:37",
                "upstream it() block #3",

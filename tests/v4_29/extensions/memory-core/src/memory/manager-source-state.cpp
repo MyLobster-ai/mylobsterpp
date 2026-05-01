@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-source-state.test.ts] loads source hashes with one bulk query",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-source-state.test.ts:10] loads source hashes with one bulk query",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-source-state.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-source-state.test.ts] uses bulk snapshot hashes when present",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-source-state.test.ts:41] uses bulk snapshot hashes when present",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-source-state.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-source-state.test.ts] falls back to per-file lookups without a bulk snapshot",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-source-state.test.ts:62] falls back to per-file lookups without a bulk snapshot",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-source-state.test.ts:62",
                "upstream it() block #2",

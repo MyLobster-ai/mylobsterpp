@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] uses PI mode by default",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:5] uses PI mode by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] accepts the PI kill switch",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:9] accepts the PI kill switch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] canonicalizes legacy Codex app-server runtime ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:13] canonicalizes legacy Codex app-server runtime ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:13",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] accepts auto mode",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:20] accepts auto mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:20",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] preserves plugin harness runtime ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:24] preserves plugin harness runtime ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:24",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] accepts the PI fallback kill switch",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:32] accepts the PI fallback kill switch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:32",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts] ignores unknown fallback values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/backend.test.ts:41] ignores unknown fallback values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/backend.test.ts:41",
                "upstream it() block #6",

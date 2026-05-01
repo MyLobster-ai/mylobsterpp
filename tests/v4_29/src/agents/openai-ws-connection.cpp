@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] opens a WebSocket with Bearer auth header",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:222] opens a WebSocket with Bearer auth header",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:222",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] adds OpenClaw attribution headers on the native OpenAI websocket",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:238] adds OpenClaw attribution headers on the native OpenAI websocket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:238",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] merges native session headers into the websocket handshake",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:255] merges native session headers into the websocket handshake",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:255",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] does not add hidden attribution headers on custom websocket endpoints",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:276] does not add hidden attribution headers on custom websocket endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:276",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] rejects insecure websocket TLS overrides",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:298] rejects insecure websocket TLS overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:298",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] resolves when the connection opens",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:311] resolves when the connection opens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:311",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] rejects when the initial connection fails (maxRetries=0)",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:320] rejects when the initial connection fails (maxRetries=0)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:320",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] sets isConnected() to true after open",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:329] sets isConnected() to true after open",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] uses the custom URL when provided",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:340] uses the custom URL when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:340",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] sends a JSON-serialized event over the socket",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:353] sends a JSON-serialized event over the socket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:353",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] throws if the connection is not open",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:367] throws if the connection is not open",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:367",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] includes previous_response_id when provided",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:376] includes previous_response_id when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:376",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] calls handler for each incoming message",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:395] calls handler for each incoming message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:395",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] returns an unsubscribe function that stops delivery",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:414] returns an unsubscribe function that stops delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:414",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] supports multiple simultaneous handlers",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:427] supports multiple simultaneous handlers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:427",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] starts as null",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:443] starts as null",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:443",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] is updated when a response.completed event is received",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:447] is updated when a response.completed event is received",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:447",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] tracks the most recent completed response",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:459] tracks the most recent completed response",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:459",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] is not updated for non-completed events",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:474] is not updated for non-completed events",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:474",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] returns false before connect",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:486] returns false before connect",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:486",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] returns true while open",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:490] returns true while open",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:490",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] returns false after close()",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:498] returns false after close()",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:498",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] marks the manager as disconnected",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:511] marks the manager as disconnected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:511",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] prevents reconnect after explicit close",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:522] prevents reconnect after explicit close",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:522",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] is safe to call before connect()",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:539] is safe to call before connect()",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:539",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] reconnects on unexpected close",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:549] reconnects on unexpected close",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:549",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] does not reconnect on non-retryable close codes",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:575] does not reconnect on non-retryable close codes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:575",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] stops retrying after maxRetries",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:596] stops retrying after maxRetries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:596",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] does not double-count retries when error and close both fire on a reconnect attempt",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:615] does not double-count retries when error and close both fire on a reconnect attempt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:615",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] resets retry count after a successful reconnect",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:662] resets retry count after a successful reconnect",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:662",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] sends a response.create event with generate: false",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:686] sends a response.create event with generate: false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:686",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] includes tools when provided",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:700] includes tools when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:700",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] normalizes nested websocket error payloads",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:717] normalizes nested websocket error payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:717",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] emits error event on malformed JSON message",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:738] emits error event on malformed JSON message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:738",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] emits error event when message has no type field",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:749] emits error event when message has no type field",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:749",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] emits error event on WebSocket socket error",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:760] emits error event on WebSocket socket error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:760",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] handles multiple successive socket errors without crashing",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:771] handles multiple successive socket errors without crashing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:771",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts] tracks previous_response_id across turns and sends continuation correctly",
+TEST_CASE("v4.29 [src/agents/openai-ws-connection.test.ts:791] tracks previous_response_id across turns and sends continuation correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-ws-connection.test.ts:791",
                "upstream it() block #37",

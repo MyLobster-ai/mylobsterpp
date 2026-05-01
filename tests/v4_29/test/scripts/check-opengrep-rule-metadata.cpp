@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts] accepts GHSA-backed rules with durable source metadata",
+TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts:15] accepts GHSA-backed rules with durable source metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-opengrep-rule-metadata.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts] requires source metadata on every compiled rule",
+TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts:19] requires source metadata on every compiled rule",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-opengrep-rule-metadata.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts] accepts non-GHSA source-backed rules with durable source metadata",
+TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts:36] accepts non-GHSA source-backed rules with durable source metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-opengrep-rule-metadata.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts] keeps the source id, rule id, and GHSA advisory URL consistent",
+TEST_CASE("v4.29 [test/scripts/check-opengrep-rule-metadata.test.ts:52] keeps the source id, rule id, and GHSA advisory URL consistent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-opengrep-rule-metadata.test.ts:52",
                "upstream it() block #3",

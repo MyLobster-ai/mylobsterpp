@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts] emits a single JSON object for non-dry runs and applies maintenance",
+TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts:112] emits a single JSON object for non-dry runs and applies maintenance",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions-cleanup.test.ts:112",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts] returns dry-run JSON without mutating the store",
+TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts:193] returns dry-run JSON without mutating the store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions-cleanup.test.ts:193",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts] counts missing transcript entries when --fix-missing is enabled in dry-run",
+TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts:221] counts missing transcript entries when --fix-missing is enabled in dry-run",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions-cleanup.test.ts:221",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts] renders a dry-run action table with keep/prune actions",
+TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts:244] renders a dry-run action table with keep/prune actions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions-cleanup.test.ts:244",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts] returns grouped JSON for --all-agents dry-runs",
+TEST_CASE("v4.29 [src/commands/sessions-cleanup.test.ts:265] returns grouped JSON for --all-agents dry-runs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions-cleanup.test.ts:265",
                "upstream it() block #4",

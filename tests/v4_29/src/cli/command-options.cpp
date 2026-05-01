@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-options.test.ts] does not inherit when the child option was set explicitly",
+TEST_CASE("v4.29 [src/cli/command-options.test.ts:41] does not inherit when the child option was set explicitly",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-options.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-options.test.ts] does not inherit from ancestors beyond the bounded traversal depth",
+TEST_CASE("v4.29 [src/cli/command-options.test.ts:53] does not inherit from ancestors beyond the bounded traversal depth",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-options.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-options.test.ts] inherits values from non-default ancestor sources (for example env)",
+TEST_CASE("v4.29 [src/cli/command-options.test.ts:65] inherits values from non-default ancestor sources (for example env)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-options.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-options.test.ts] skips default-valued ancestor options and keeps traversing",
+TEST_CASE("v4.29 [src/cli/command-options.test.ts:75] skips default-valued ancestor options and keeps traversing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-options.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-options.test.ts] returns undefined when command is missing",
+TEST_CASE("v4.29 [src/cli/command-options.test.ts:88] returns undefined when command is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-options.test.ts:88",
                "upstream it() block #4",

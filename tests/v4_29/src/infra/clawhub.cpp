@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] parses explicit ClawHub package specs",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:37] parses explicit ClawHub package specs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] resolves latest versions from latestVersion before tags",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:57] resolves latest versions from latestVersion before tags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] checks plugin api ranges without semver dependency",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:89] checks plugin api ranges without semver dependency",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] keeps wildcard plugin api ranges intersected with concrete comparators",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:107] keeps wildcard plugin api ranges intersected with concrete comparators",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] rejects invalid runtime versions and impossible wildcard comparators",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:113] rejects invalid runtime versions and impossible wildcard comparators",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] checks min gateway versions with loose host labels",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:119] checks min gateway versions with loose host labels",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:119",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] normalizes raw ClawHub SHA-256 hashes into integrity strings",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:126] normalizes raw ClawHub SHA-256 hashes into integrity strings",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:126",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] normalizes ClawHub SHA-256 hex values",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:139] normalizes ClawHub SHA-256 hex values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:139",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] resolves ClawHub auth token from config.json",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:144] resolves ClawHub auth token from config.json",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:144",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] resolves ClawHub auth token from the legacy config path override",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:155] resolves ClawHub auth token from the legacy config path override",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:155",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] injects resolved auth token into ClawHub requests",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:210] injects resolved auth token into ClawHub requests",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:210",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] downloads package archives to sanitized temp paths and cleans them up",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:224] downloads package archives to sanitized temp paths and cleans them up",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:224",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/clawhub.test.ts] downloads skill archives to sanitized temp paths and cleans them up",
+TEST_CASE("v4.29 [src/infra/clawhub.test.ts:246] downloads skill archives to sanitized temp paths and cleans them up",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/clawhub.test.ts:246",
                "upstream it() block #12",

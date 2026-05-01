@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] keeps update_plan disabled by default",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:30] keeps update_plan disabled by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] registers update_plan when explicitly enabled",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:34] registers update_plan when explicitly enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] auto-enables update_plan for unconfigured GPT-5 openai runs",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:47] auto-enables update_plan for unconfigured GPT-5 openai runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] respects explicit default contract opt-out on GPT-5 runs",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:63] respects explicit default contract opt-out on GPT-5 runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] does not auto-enable update_plan for non-openai providers even when unconfigured",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:80] does not auto-enable update_plan for non-openai providers even when unconfigured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] auto-enables update_plan for strict-agentic GPT-5 agents",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:94] auto-enables update_plan for strict-agentic GPT-5 agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] does not auto-enable update_plan for unsupported providers or models",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:109] does not auto-enable update_plan for unsupported providers or models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:109",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] lets explicit planTool false override strict-agentic auto-enable",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:128] lets explicit planTool false override strict-agentic auto-enable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:128",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] resolves strict-agentic gating from explicit agentId when no session key is available",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:148] resolves strict-agentic gating from explicit agentId when no session key is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:148",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts] applies per-agent overrides without leaking the contract to other agents",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.update-plan.test.ts:171] applies per-agent overrides without leaking the contract to other agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.update-plan.test.ts:171",
                "upstream it() block #9",

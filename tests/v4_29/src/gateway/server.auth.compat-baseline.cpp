@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] keeps valid shared-token connect behavior unchanged",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:113] keeps valid shared-token connect behavior unchanged",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:113",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] clears requested scopes for shared-token operator connects without device identity",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:123] clears requested scopes for shared-token operator connects without device identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] preserves scopes for direct-local backend shared-token connects without device identity",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:127] preserves scopes for direct-local backend shared-token connects without device identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:127",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] returns stable token-missing details for control ui without token",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:131] returns stable token-missing details for control ui without token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] provides one-time retry hint for shared token mismatches",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:151] provides one-time retry hint for shared token mismatches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] keeps explicit device token mismatch semantics stable",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:168] keeps explicit device token mismatch semantics stable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] keeps local backend device-token reconnects out of pairing",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:188] keeps local backend device-token reconnects out of pairing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:188",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] keeps valid shared-password connect behavior unchanged",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:270] keeps valid shared-password connect behavior unchanged",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:270",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] returns stable password mismatch details",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:280] returns stable password mismatch details",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:280",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] clears requested scopes for shared-password operator connects without device identity",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:296] clears requested scopes for shared-password operator connects without device identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:296",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] preserves scopes for direct-local backend shared-password connects without device identity",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:300] preserves scopes for direct-local backend shared-password connects without device identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:300",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts] keeps auth-none loopback behavior unchanged",
+TEST_CASE("v4.29 [src/gateway/server.auth.compat-baseline.test.ts:323] keeps auth-none loopback behavior unchanged",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.compat-baseline.test.ts:323",
                "upstream it() block #11",

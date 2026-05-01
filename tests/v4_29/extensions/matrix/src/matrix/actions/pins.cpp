@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/pins.test.ts] pins a message once even when asked twice",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/pins.test.ts:40] pins a message once even when asked twice",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/pins.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/pins.test.ts] unpinds only the selected message id",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/pins.test.ts:52] unpinds only the selected message id",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/pins.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/pins.test.ts] lists pinned ids and summarizes only resolvable events",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/pins.test.ts:61] lists pinned ids and summarizes only resolvable events",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/pins.test.ts:61",
                "upstream it() block #2",

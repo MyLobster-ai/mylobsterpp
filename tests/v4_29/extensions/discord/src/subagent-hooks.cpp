@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] binds thread routing on subagent_spawning",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:188] binds thread routing on subagent_spawning",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:188",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] returns error when thread-bound subagent spawn is disabled",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:217] returns error when thread-bound subagent spawn is disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:217",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] returns error when global thread bindings are disabled",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:232] returns error when global thread bindings are disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:232",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] allows account-level threadBindings.enabled to override global disable",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:252] allows account-level threadBindings.enabled to override global disable",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:252",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] defaults thread-bound subagent spawn to disabled when unset",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:277] defaults thread-bound subagent spawn to disabled when unset",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:277",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] no-ops when thread binding is requested on non-discord channel",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:289] no-ops when thread binding is requested on non-discord channel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:289",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] returns error when thread bind fails",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:306] returns error when thread bind fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:306",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] unbinds thread routing on subagent_ended",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:315] unbinds thread routing on subagent_ended",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:315",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] resolves delivery target from matching bound thread",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:340] resolves delivery target from matching bound thread",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:340",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts] keeps original routing when delivery target is ambiguous",
+TEST_CASE("v4.29 [extensions/discord/src/subagent-hooks.test.ts:366] keeps original routing when delivery target is ambiguous",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/subagent-hooks.test.ts:366",
                "upstream it() block #9",

@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] issues bootstrap tokens and persists them with an expiry",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:50] issues bootstrap tokens and persists them with an expiry",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] verifies valid bootstrap tokens and binds them to the first device identity",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:81] verifies valid bootstrap tokens and binds them to the first device identity",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] loads the issued bootstrap profile for a valid token",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:104] loads the issued bootstrap profile for a valid token",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] persists bootstrap redemption state across verification reloads",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:117] persists bootstrap redemption state across verification reloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] clears outstanding bootstrap tokens on demand",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:153] clears outstanding bootstrap tokens on demand",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:153",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] restores a revoked bootstrap token record after send failure recovery",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:172] restores a revoked bootstrap token record after send failure recovery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:172",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] revokes a specific bootstrap token",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:188] revokes a specific bootstrap token",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:188",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] verifies bootstrap tokens by the persisted map key and binds them",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:207] verifies bootstrap tokens by the persisted map key and binds them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:207",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] keeps the token when required verification fields are blank",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:251] keeps the token when required verification fields are blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:251",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] rejects bootstrap verification when role or scopes exceed the issued profile",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:265] rejects bootstrap verification when role or scopes exceed the issued profile",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:265",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] allows operator scope subsets within the issued bootstrap profile",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:280] allows operator scope subsets within the issued bootstrap profile",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:280",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] rejects cross-role scope escalation (node role requesting operator scopes)",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:292] rejects cross-role scope escalation (node role requesting operator scopes)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:292",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] supports explicitly bound bootstrap profiles",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:307] supports explicitly bound bootstrap profiles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:307",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] bounds explicitly issued bootstrap profiles to handoff scopes",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:335] bounds explicitly issued bootstrap profiles to handoff scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:335",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] logs when issued bootstrap profiles strip overbroad scopes",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:367] logs when issued bootstrap profiles strip overbroad scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:367",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] bounds redeemed bootstrap profiles to handoff scopes",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:387] bounds redeemed bootstrap profiles to handoff scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:387",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] accepts trimmed bootstrap tokens and binds them",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:424] accepts trimmed bootstrap tokens and binds them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:424",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] rejects blank or unknown tokens",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:437] rejects blank or unknown tokens",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:437",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] repairs malformed persisted state when issuing a new token",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:458] repairs malformed persisted state when issuing a new token",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:458",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] accepts equivalent public key encodings after binding the bootstrap token",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:475] accepts equivalent public key encodings after binding the bootstrap token",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:475",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] rejects a second device identity after the first verification binds the token",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:506] rejects a second device identity after the first verification binds the token",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:506",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts] fails closed for unbound legacy records and prunes expired tokens",
+TEST_CASE("v4.29 [src/infra/device-bootstrap.test.ts:519] fails closed for unbound legacy records and prunes expired tokens",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-bootstrap.test.ts:519",
                "upstream it() block #21",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts] respects inline image limits when counting placeholder images",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts:187] respects inline image limits when counting placeholder images",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments.helpers.test.ts:187",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts] uses resolved Graph chat ID for personal DMs instead of Bot Framework a: ID",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts:210] uses resolved Graph chat ID for personal DMs instead of Bot Framework a: ID",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments.helpers.test.ts:210",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts] still builds URLs when a: conversation ID is passed (caller did not resolve)",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts:220] still builds URLs when a: conversation ID is passed (caller did not resolve)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments.helpers.test.ts:220",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts] returns single and multi-file fields",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts:232] returns single and multi-file fields",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments.helpers.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts] retains the expected sharepoint host fixture",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments.helpers.test.ts:242] retains the expected sharepoint host fixture",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments.helpers.test.ts:242",
                "upstream it() block #4",

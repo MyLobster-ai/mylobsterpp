@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] parses single mention",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:18] parses single mention",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] parses multiple mentions",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:32] parses multiple mentions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles text without mentions",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:55] handles text without mentions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles empty text",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:62] handles empty text",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles mention with spaces in name",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:69] handles mention with spaces in name",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:69",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] trims whitespace from id and name",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:76] trims whitespace from id and name",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:76",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles Japanese characters in mention at start of message",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:89] handles Japanese characters in mention at start of message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:89",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] skips mention-like patterns with non-Teams IDs (e.g. in code blocks)",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:109] skips mention-like patterns with non-Teams IDs (e.g. in code blocks)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:109",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] accepts Bot Framework IDs (28:xxx)",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:129] accepts Bot Framework IDs (28:xxx)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:129",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] accepts Bot Framework IDs with non-hex payloads (29:xxx)",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:134] accepts Bot Framework IDs with non-hex payloads (29:xxx)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:134",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] accepts org-scoped IDs with extra segments (8:orgid:...)",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:139] accepts org-scoped IDs with extra segments (8:orgid:...)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:139",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] accepts AAD object IDs (UUIDs)",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:146] accepts AAD object IDs (UUIDs)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:146",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] rejects non-ID strings as mention targets",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:151] rejects non-ID strings as mention targets",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:151",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] builds entities from mention info",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:160] builds entities from mention info",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:160",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles empty list",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:187] handles empty list",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:187",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] formats text with single mention",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:194] formats text with single mention",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:194",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] formats text with multiple mentions",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:203] formats text with multiple mentions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:203",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles case-insensitive matching",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:215] handles case-insensitive matching",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:215",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] handles text without mentions",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:224] handles text without mentions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:224",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts] escapes regex metacharacters in names",
+TEST_CASE("v4.29 [extensions/msteams/src/mentions.test.ts:233] escapes regex metacharacters in names",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/mentions.test.ts:233",
                "upstream it() block #19",

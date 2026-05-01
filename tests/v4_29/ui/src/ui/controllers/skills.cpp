@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts] clears stale query state immediately when the input changes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts:72] clears stale query state immediately when the input changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/skills.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts] clears stale results as soon as a new search starts",
+TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts:87] clears stale results as soon as a new search starts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/skills.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts] clears stale results when the query is emptied",
+TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts:131] clears stale results when the query is emptied",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/skills.test.ts:131",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts] ignores stale search responses after query changes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts:142] ignores stale search responses after query changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/skills.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts] ignores stale detail responses after slug changes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts:161] ignores stale detail responses after slug changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/skills.test.ts:161",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts] records errors from failed mutations",
+TEST_CASE("v4.29 [ui/src/ui/controllers/skills.test.ts:228] records errors from failed mutations",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/skills.test.ts:228",
                "upstream it() block #5",

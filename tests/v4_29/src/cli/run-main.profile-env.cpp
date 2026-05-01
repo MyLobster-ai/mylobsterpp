@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] applies --profile before dotenv loading",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:145] applies --profile before dotenv loading",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:145",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] rejects --container combined with --profile",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:154] rejects --container combined with --profile",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:154",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] rejects --container combined with interleaved --profile",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:163] rejects --container combined with interleaved --profile",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:163",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] rejects --container combined with interleaved --dev",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:169] rejects --container combined with interleaved --dev",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:169",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] does not let dotenv change container target resolution",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:175] does not let dotenv change container target resolution",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:175",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] allows container mode when OPENCLAW_PROFILE is already set in env",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:195] allows container mode when OPENCLAW_PROFILE is already set in env",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:195",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] allows container mode when only OPENCLAW_STATE_DIR is set in env",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:216] allows container mode when only OPENCLAW_STATE_DIR is set in env",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:216",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts] allows container mode when only OPENCLAW_CONFIG_PATH is set in env",
+TEST_CASE("v4.29 [src/cli/run-main.profile-env.test.ts:224] allows container mode when only OPENCLAW_CONFIG_PATH is set in env",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.profile-env.test.ts:224",
                "upstream it() block #7",

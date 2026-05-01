@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] configures token and secret for the default account",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:155] configures token and secret for the default account",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:155",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:181] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:181",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:203] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:203",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] uses configured defaultAccount for omitted DM policy account context",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:210] uses configured defaultAccount for omitted DM policy account context",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:210",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] writes open policy state to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:244] writes open policy state to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:244",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] uses configured defaultAccount for omitted setup configured state",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:275] uses configured defaultAccount for omitted setup configured state",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:275",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] returns timeout when bot info stalls",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:317] returns timeout when bot info stalls",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:317",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] returns bot info when available",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:329] returns bot info when available",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] falls back to the direct probe helper when runtime is not initialized",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:345] falls back to the direct probe helper when runtime is not initialized",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:345",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] keeps the LINE runtime barrel self-contained",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:378] keeps the LINE runtime barrel self-contained",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:378",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] fails startup when channel secret is missing",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:432] fails startup when channel secret is missing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:432",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] fails startup when channel access token is missing",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:443] fails startup when channel access token is missing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:443",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts] starts provider when token and secret are present",
+TEST_CASE("v4.29 [extensions/line/src/setup-surface.test.ts:454] starts provider when token and secret are present",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/setup-surface.test.ts:454",
                "upstream it() block #12",

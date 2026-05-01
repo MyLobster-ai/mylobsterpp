@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts] normalizes final MEDIA replies against the run workspace",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts:172] normalizes final MEDIA replies against the run workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner.media-paths.test.ts:172",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts] maps steer queue modes to Pi steering drain modes",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts:206] maps steer queue modes to Pi steering drain modes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner.media-paths.test.ts:206",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts] shares one media cache between block accumulation and final payload delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts:234] shares one media cache between block accumulation and final payload delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner.media-paths.test.ts:234",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts] does not create a second media context inside runAgentTurnWithFallback when onBlockReply is provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner.media-paths.test.ts:283] does not create a second media context inside runAgentTurnWithFallback when onBlockReply is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner.media-paths.test.ts:283",
                "upstream it() block #3",

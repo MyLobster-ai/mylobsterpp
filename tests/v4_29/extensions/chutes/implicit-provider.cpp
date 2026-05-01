@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts] publishes the env vars used by core api-key auto-detection",
+TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts:58] publishes the env vars used by core api-key auto-detection",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/implicit-provider.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts] does not publish a provider when no API key is resolved",
+TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts:64] does not publish a provider when no API key is resolved",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/implicit-provider.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts] keeps api-key resolved Chutes profiles on the API-key loader path",
+TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts:68] keeps api-key resolved Chutes profiles on the API-key loader path",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/implicit-provider.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts] uses the OAuth marker only for oauth-backed Chutes profiles",
+TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts:76] uses the OAuth marker only for oauth-backed Chutes profiles",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/implicit-provider.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts] forwards oauth access token to Chutes model discovery",
+TEST_CASE("v4.29 [extensions/chutes/implicit-provider.test.ts:86] forwards oauth access token to Chutes model discovery",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/implicit-provider.test.ts:86",
                "upstream it() block #4",

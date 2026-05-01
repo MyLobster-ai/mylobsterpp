@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/zod-schema.providers.lazy-runtime.test.ts] skips bundled channel runtime discovery when only core channel keys are present",
+TEST_CASE("v4.29 [src/config/zod-schema.providers.lazy-runtime.test.ts:27] skips bundled channel runtime discovery when only core channel keys are present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.providers.lazy-runtime.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.providers.lazy-runtime.test.ts] loads bundled channel runtime discovery only when plugin-owned channel config is present",
+TEST_CASE("v4.29 [src/config/zod-schema.providers.lazy-runtime.test.ts:52] loads bundled channel runtime discovery only when plugin-owned channel config is present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.providers.lazy-runtime.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.providers.lazy-runtime.test.ts] loads a single plugin-owned runtime surface when the manifest omits runtime metadata",
+TEST_CASE("v4.29 [src/config/zod-schema.providers.lazy-runtime.test.ts:87] loads a single plugin-owned runtime surface when the manifest omits runtime metadata",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.providers.lazy-runtime.test.ts:87",
                "upstream it() block #2",

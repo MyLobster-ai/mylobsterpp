@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] uses trusted requesterSenderId for moderation and ignores params senderUserId",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:15] uses trusted requesterSenderId for moderation and ignores params senderUserId",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] falls back to toolContext.currentMessageId for reactions",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:49] falls back to toolContext.currentMessageId for reactions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] falls back to Discord toolContext.currentChannelId for reaction targets",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:74] falls back to Discord toolContext.currentChannelId for reaction targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] falls back to Discord toolContext.currentChannelId for sends",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:102] falls back to Discord toolContext.currentChannelId for sends",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] does not use another provider",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:128] does not use another provider",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] does not use another provider",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:148] does not use another provider",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts] rejects reactions when no message id source is available",
+TEST_CASE("v4.29 [extensions/discord/src/actions/handle-action.test.ts:169] rejects reactions when no message id source is available",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/handle-action.test.ts:169",
                "upstream it() block #6",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] uses the shared runtime load context for configured-channel loads",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:107] uses the shared runtime load context for configured-channel loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:107",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] temporarily activates configured-channel owners before loading them",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:169] temporarily activates configured-channel owners before loading them",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:169",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] does not cache scoped loads by explicit plugin ids",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:202] does not cache scoped loads by explicit plugin ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:202",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] maps explicit channel scopes to owner plugin ids before loading",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:225] maps explicit channel scopes to owner plugin ids before loading",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:225",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] forwards explicit empty scopes without widening to channel resolution",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:273] forwards explicit empty scopes without widening to channel resolution",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:273",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] preserves empty configured-channel scopes when no owners are activatable",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:289] preserves empty configured-channel scopes when no owners are activatable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:289",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] does not forward empty channel scopes for broad channel loads",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:304] does not forward empty channel scopes for broad channel loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:304",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts] reuses a compatible active registry instead of forcing a broad reload",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-registry-loader.test.ts:322] reuses a compatible active registry instead of forcing a broad reload",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-registry-loader.test.ts:322",
                "upstream it() block #7",

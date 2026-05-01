@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-config-analysis.test.ts] formats config paths predictably",
+TEST_CASE("v4.29 [src/commands/doctor-config-analysis.test.ts:9] formats config paths predictably",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-analysis.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-analysis.test.ts] resolves nested config targets without throwing",
+TEST_CASE("v4.29 [src/commands/doctor-config-analysis.test.ts:16] resolves nested config targets without throwing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-analysis.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-analysis.test.ts] strips unknown config keys while keeping known values",
+TEST_CASE("v4.29 [src/commands/doctor-config-analysis.test.ts:25] strips unknown config keys while keeping known values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-analysis.test.ts:25",
                "upstream it() block #2",

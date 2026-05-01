@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] returns null when no include file is configured",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:18] returns null when no include file is configured",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] loads include patterns from a JSON file",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:22] loads include patterns from a JSON file",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] returns an empty list when no extra exclude file is configured",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:39] returns an empty list when no extra exclude file is configured",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] loads extra exclude patterns from a JSON file",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:43] loads extra exclude patterns from a JSON file",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] throws when the configured file is not a JSON array",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:58] throws when the configured file is not a JSON array",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] defaults unit tests to the non-isolated runner",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:72] defaults unit tests to the non-isolated runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] keeps acp and ui tests out of the generic unit lane",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:78] keeps acp and ui tests out of the generic unit lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:78",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] narrows the active include list to CLI file filters when present",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:90] narrows the active include list to CLI file filters when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:90",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] adds the OpenClaw runtime setup hooks on top of the base setup",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:101] adds the OpenClaw runtime setup hooks on top of the base setup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:101",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] appends extra exclude patterns instead of replacing the base unit excludes",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:109] appends extra exclude patterns instead of replacing the base unit excludes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:109",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-config.test.ts] keeps bundled unit include files out of the resolved exclude list",
+TEST_CASE("v4.29 [test/vitest-unit-config.test.ts:121] keeps bundled unit include files out of the resolved exclude list",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-config.test.ts:121",
                "upstream it() block #10",

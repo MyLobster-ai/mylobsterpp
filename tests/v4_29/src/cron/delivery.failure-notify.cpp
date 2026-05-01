@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts] delivers failure alerts to the resolved explicit target with strict send settings",
+TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts:58] delivers failure alerts to the resolved explicit target with strict send settings",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.failure-notify.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts] uses sessionKey for delivery-target resolution and outbound context",
+TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts:98] uses sessionKey for delivery-target resolution and outbound context",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.failure-notify.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts] does not send when target resolution fails",
+TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts:124] does not send when target resolution fails",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.failure-notify.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts] swallows outbound delivery errors after logging",
+TEST_CASE("v4.29 [src/cron/delivery.failure-notify.test.ts:146] swallows outbound delivery errors after logging",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.failure-notify.test.ts:146",
                "upstream it() block #3",

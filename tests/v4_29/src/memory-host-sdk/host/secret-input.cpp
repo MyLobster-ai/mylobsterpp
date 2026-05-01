@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/secret-input.test.ts] uses the daemon env for env-backed SecretRefs",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/secret-input.test.ts:11] uses the daemon env for env-backed SecretRefs",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/secret-input.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/secret-input.test.ts] still throws when an env-backed SecretRef is missing from the daemon env",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/secret-input.test.ts:21] still throws when an env-backed SecretRef is missing from the daemon env",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/secret-input.test.ts:21",
                "upstream it() block #1",

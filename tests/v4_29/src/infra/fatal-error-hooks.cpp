@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/fatal-error-hooks.test.ts] collects non-empty hook messages",
+TEST_CASE("v4.29 [src/infra/fatal-error-hooks.test.ts:13] collects non-empty hook messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fatal-error-hooks.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fatal-error-hooks.test.ts] does not expose hook failure message or stack text",
+TEST_CASE("v4.29 [src/infra/fatal-error-hooks.test.ts:21] does not expose hook failure message or stack text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fatal-error-hooks.test.ts:21",
                "upstream it() block #1",

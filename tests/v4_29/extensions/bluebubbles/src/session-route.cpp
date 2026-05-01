@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] treats ",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:20] treats ",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] treats ",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:38] treats ",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] falls back to group when chat_guid lacks a recognizable marker",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:46] falls back to group when chat_guid lacks a recognizable marker",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] treats handle targets as direct",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:55] treats handle targets as direct",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] keeps chat_id targets classified as group",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:62] keeps chat_id targets classified as group",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] keeps chat_identifier targets classified as group",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:69] keeps chat_identifier targets classified as group",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:69",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts] DM via chat_guid and DM via handle land on the same session key",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/session-route.test.ts:76] DM via chat_guid and DM via handle land on the same session key",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/session-route.test.ts:76",
                "upstream it() block #6",

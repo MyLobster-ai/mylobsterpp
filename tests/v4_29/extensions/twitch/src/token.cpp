@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should resolve token from simplified config for default account",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:54] should resolve token from simplified config for default account",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should resolve token from config for non-default account (multi-account)",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:61] should resolve token from config for non-default account (multi-account)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should resolve token from normalized account id",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:68] should resolve token from normalized account id",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should prioritize config token over env var (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:89] should prioritize config token over env var (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should use env var when config token is empty (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:99] should use env var when config token is empty (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:99",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should return empty token when neither config nor env has token (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:117] should return empty token when neither config nor env has token (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should not use env var for non-default accounts (multi-account)",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:133] should not use env var for non-default accounts (multi-account)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:133",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should handle missing account gracefully",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:156] should handle missing account gracefully",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should handle missing Twitch config section",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:171] should handle missing Twitch config section",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:171",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts] should have correct values",
+TEST_CASE("v4.29 [extensions/twitch/src/token.test.ts:184] should have correct values",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/token.test.ts:184",
                "upstream it() block #9",

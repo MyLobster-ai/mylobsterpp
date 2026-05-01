@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/logger.settings.test.ts] matches config schema and validate invocations",
+TEST_CASE("v4.29 [src/logging/logger.settings.test.ts:5] matches config schema and validate invocations",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger.settings.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger.settings.test.ts] handles root flags before config validate",
+TEST_CASE("v4.29 [src/logging/logger.settings.test.ts:14] handles root flags before config validate",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger.settings.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger.settings.test.ts] does not match other commands",
+TEST_CASE("v4.29 [src/logging/logger.settings.test.ts:29] does not match other commands",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger.settings.test.ts:29",
                "upstream it() block #2",

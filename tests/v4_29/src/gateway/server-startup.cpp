@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] prewarms an explicit configured primary model",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:56] prewarms an explicit configured primary model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] skips warmup when no explicit primary model is configured",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:85] skips warmup when no explicit primary model is configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] honors the startup model prewarm skip env",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:95] honors the startup model prewarm skip env",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:95",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] skips static warmup for configured CLI backends",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:109] skips static warmup for configured CLI backends",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] skips static warmup when a non-PI agent runtime is forced",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:133] skips static warmup when a non-PI agent runtime is forced",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] keeps PI static warmup when the PI agent runtime is forced",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:152] keeps PI static warmup when the PI agent runtime is forced",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:152",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup.test.ts] warns when scoped models.json preparation fails",
+TEST_CASE("v4.29 [src/gateway/server-startup.test.ts:182] warns when scoped models.json preparation fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup.test.ts:182",
                "upstream it() block #6",

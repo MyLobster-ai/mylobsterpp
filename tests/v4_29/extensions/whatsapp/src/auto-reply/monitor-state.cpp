@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts] sets lastTransportActivityAt on noteConnected",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts:5] sets lastTransportActivityAt on noteConnected",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor-state.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts] updates lastTransportActivityAt on noteInbound",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts:16] updates lastTransportActivityAt on noteInbound",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor-state.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts] updates lastTransportActivityAt from explicit transport activity",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts:27] updates lastTransportActivityAt from explicit transport activity",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor-state.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts] does not set lastTransportActivityAt on noteWatchdogStale",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts:38] does not set lastTransportActivityAt on noteWatchdogStale",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor-state.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts] produces snapshots that enable stale-socket health detection",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor-state.test.ts:51] produces snapshots that enable stale-socket health detection",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor-state.test.ts:51",
                "upstream it() block #4",

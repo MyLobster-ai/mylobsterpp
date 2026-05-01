@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] returns config unchanged when no target SecretRefs are configured",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:100] returns config unchanged when no target SecretRefs are configured",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] skips gateway resolution when all configured target refs are inactive",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:113] skips gateway resolution when all configured target refs are inactive",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] hydrates requested SecretRef targets from gateway snapshot assignments",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:143] hydrates requested SecretRef targets from gateway snapshot assignments",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:143",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] enforces unresolved checks only for allowed paths when provided",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:178] enforces unresolved checks only for allowed paths when provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:178",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] fails fast when gateway-backed resolution is unavailable",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:257] fails fast when gateway-backed resolution is unavailable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:257",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] falls back to local resolution when gateway secrets.resolve is unavailable",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:283] falls back to local resolution when gateway secrets.resolve is unavailable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:283",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] falls back to local resolution for web search SecretRefs when gateway is unavailable",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:321] falls back to local resolution for web search SecretRefs when gateway is unavailable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:321",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] falls back to local resolution for web fetch provider SecretRefs when gateway is unavailable",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:376] falls back to local resolution for web fetch provider SecretRefs when gateway is unavailable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:376",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] marks web SecretRefs inactive when the web surface is disabled during local fallback",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:431] marks web SecretRefs inactive when the web surface is disabled during local fallback",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:431",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] returns a version-skew hint when gateway does not support secrets.resolve",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:491] returns a version-skew hint when gateway does not support secrets.resolve",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:491",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] returns a version-skew hint when required-method capability check fails",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:501] returns a version-skew hint when required-method capability check fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:501",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] fails when gateway returns an invalid secrets.resolve payload",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:515] fails when gateway returns an invalid secrets.resolve payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:515",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] fails when gateway assignment path does not exist in local config",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:533] fails when gateway assignment path does not exist in local config",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:533",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] fails when configured refs remain unresolved after gateway assignments are applied",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:559] fails when configured refs remain unresolved after gateway assignments are applied",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:559",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] allows unresolved refs when gateway diagnostics mark the target as inactive",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:576] allows unresolved refs when gateway diagnostics mark the target as inactive",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:576",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] uses inactiveRefPaths from structured response without parsing diagnostic text",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:592] uses inactiveRefPaths from structured response without parsing diagnostic text",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:592",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] allows unresolved array-index refs when gateway marks concrete paths inactive",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:605] allows unresolved array-index refs when gateway marks concrete paths inactive",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:605",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] degrades unresolved refs in read-only status mode instead of throwing",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:641] degrades unresolved refs in read-only status mode instead of throwing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:641",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] accepts legacy summary mode as a read-only alias",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:664] accepts legacy summary mode as a read-only alias",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:664",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] uses targeted local fallback after an incomplete gateway snapshot",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:683] uses targeted local fallback after an incomplete gateway snapshot",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:683",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] limits strict local fallback analysis to unresolved gateway paths",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:708] limits strict local fallback analysis to unresolved gateway paths",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:708",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] limits local fallback to targeted refs in read-only modes",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:746] limits local fallback to targeted refs in read-only modes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:746",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts] degrades unresolved refs in read-only operational mode",
+TEST_CASE("v4.29 [src/cli/command-secret-gateway.test.ts:791] degrades unresolved refs in read-only operational mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-gateway.test.ts:791",
                "upstream it() block #22",

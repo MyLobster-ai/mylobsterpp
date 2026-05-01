@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] passes the cron payload model override to runWithModelFallback",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:111] passes the cron payload model override to runWithModelFallback",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] passes the cron payload model to the embedded agent runner",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:132] passes the cron payload model to the embedded agent runner",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] validates cron thinking with catalog reasoning metadata",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:153] validates cron thinking with catalog reasoning metadata",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:153",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] does not add agent primary model as fallback when cron payload model is set",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:203] does not add agent primary model as fallback when cron payload model is set",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:203",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] preserves default fallback chain for cron payload model overrides",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:226] preserves default fallback chain for cron payload model overrides",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:226",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] preserves agent fallbacks when no cron payload model is set",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:256] preserves agent fallbacks when no cron payload model is set",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:256",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts] uses explicit payload fallbacks when both model and fallbacks are set",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:280] uses explicit payload fallbacks when both model and fallbacks are set",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.cron-model-override-forwarding.test.ts:280",
                "upstream it() block #6",

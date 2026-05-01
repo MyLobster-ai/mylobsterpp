@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts] marks OpenClaw-managed services as installed",
+TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts:17] marks OpenClaw-managed services as installed",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.service-summary.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts] marks running unmanaged services as externally managed",
+TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts:33] marks running unmanaged services as externally managed",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.service-summary.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts] keeps missing services as not installed when nothing is running",
+TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts:47] keeps missing services as not installed when nothing is running",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.service-summary.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts] passes command environment to runtime and loaded checks",
+TEST_CASE("v4.29 [src/commands/status.service-summary.test.ts:56] passes command environment to runtime and loaded checks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.service-summary.test.ts:56",
                "upstream it() block #3",

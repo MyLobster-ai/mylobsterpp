@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] uses POSIX-safe shell prologue in all bridge commands",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:18] uses POSIX-safe shell prologue in all bridge commands",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] path canonicalization recheck script is valid POSIX sh",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:50] path canonicalization recheck script is valid POSIX sh",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] reads inbound media-style filenames with triple-dash ids",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:62] reads inbound media-style filenames with triple-dash ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] resolves dash-leading basenames into absolute container paths",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:83] resolves dash-leading basenames into absolute container paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] resolves bind-mounted absolute container paths for reads",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:103] resolves bind-mounted absolute container paths for reads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] writes via temp file + atomic rename (never direct truncation)",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:128] writes via temp file + atomic rename (never direct truncation)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] routes mkdirp, remove, and rename through the pinned mutation helper",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:143] routes mkdirp, remove, and rename through the pinned mutation helper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:143",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts] re-validates target before the pinned write helper runs",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.shell.test.ts:161] re-validates target before the pinned write helper runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.shell.test.ts:161",
                "upstream it() block #7",

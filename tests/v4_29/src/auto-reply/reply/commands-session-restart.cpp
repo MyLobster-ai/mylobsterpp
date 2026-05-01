@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts] writes a routed restart sentinel before restarting from chat",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts:123] writes a routed restart sentinel before restarting from chat",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-restart.test.ts:123",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts] prepares the routed sentinel only when SIGUSR1 restart emits",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts:151] prepares the routed sentinel only when SIGUSR1 restart emits",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-restart.test.ts:151",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts] rejects authorized non-owner restart commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts:179] rejects authorized non-owner restart commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-restart.test.ts:179",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts] does not restart when the sentinel cannot be written",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts:196] does not restart when the sentinel cannot be written",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-restart.test.ts:196",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts] removes the success sentinel when fallback restart fails",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-restart.test.ts:205] removes the success sentinel when fallback restart fails",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-restart.test.ts:205",
                "upstream it() block #4",

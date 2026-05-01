@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] returns error when username is missing",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:68] returns error when username is missing",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] returns error when token is missing",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:76] returns error when token is missing",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] attempts connection regardless of token prefix",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:84] attempts connection regardless of token prefix",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] successfully connects with valid credentials",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:94] successfully connects with valid credentials",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] uses custom channel when specified",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:103] uses custom channel when specified",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] times out when connection takes too long",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:115] times out when connection takes too long",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] cleans up client even on failure",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:131] cleans up client even on failure",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:131",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] handles connection errors gracefully",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:150] handles connection errors gracefully",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:150",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] trims token before validation",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:168] trims token before validation",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:168",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts] handles non-Error objects in catch block",
+TEST_CASE("v4.29 [extensions/twitch/src/probe.test.ts:179] handles non-Error objects in catch block",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/probe.test.ts:179",
                "upstream it() block #9",

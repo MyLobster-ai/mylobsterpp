@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts] treats IRC account nickserv password refs as inactive when nickserv is disabled",
+TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts:12] treats IRC account nickserv password refs as inactive when nickserv is disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-channel-inactive-variants.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts] treats top-level IRC nickserv password refs as inactive when nickserv is disabled",
+TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts:48] treats top-level IRC nickserv password refs as inactive when nickserv is disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-channel-inactive-variants.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts] treats Slack signingSecret refs as inactive when mode is socket",
+TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts:79] treats Slack signingSecret refs as inactive when mode is socket",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-channel-inactive-variants.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts] treats Slack appToken refs as inactive when mode is http",
+TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts:114] treats Slack appToken refs as inactive when mode is http",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-channel-inactive-variants.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts] treats top-level Google Chat serviceAccount as inactive when enabled accounts use serviceAccountRef",
+TEST_CASE("v4.29 [src/secrets/runtime-channel-inactive-variants.test.ts:159] treats top-level Google Chat serviceAccount as inactive when enabled accounts use serviceAccountRef",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-channel-inactive-variants.test.ts:159",
                "upstream it() block #4",

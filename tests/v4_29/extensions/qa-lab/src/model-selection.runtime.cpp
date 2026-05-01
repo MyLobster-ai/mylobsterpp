@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts] keeps the OpenAI live default when an API key is configured",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts:33] keeps the OpenAI live default when an API key is configured",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-selection.runtime.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts] prefers the Codex OAuth live default when only Codex auth profiles are available",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts:41] prefers the Codex OAuth live default when only Codex auth profiles are available",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-selection.runtime.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts] keeps the OpenAI live default when stored OpenAI profiles are available",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts:50] keeps the OpenAI live default when stored OpenAI profiles are available",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-selection.runtime.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts] leaves mock defaults unchanged",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-selection.runtime.test.ts:59] leaves mock defaults unchanged",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-selection.runtime.test.ts:59",
                "upstream it() block #3",

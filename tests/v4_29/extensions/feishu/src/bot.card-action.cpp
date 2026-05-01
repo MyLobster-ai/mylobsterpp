@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] handles card action with text payload",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:114] handles card action with text payload",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] handles card action with JSON object payload",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:136] handles card action with JSON object payload",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:136",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] routes quick command actions with operator and conversation context",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:158] routes quick command actions with operator and conversation context",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:158",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] opens an approval card for metadata actions",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:186] opens an approval card for metadata actions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:186",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] runs approval confirmation through the normal message path",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:250] runs approval confirmation through the normal message path",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:250",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] safely rejects stale structured actions",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:270] safely rejects stale structured actions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:270",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] safely rejects wrong-user structured actions",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:292] safely rejects wrong-user structured actions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:292",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] sends a lightweight cancellation notice",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:311] sends a lightweight cancellation notice",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:311",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] preserves p2p callbacks for DM quick actions",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:336] preserves p2p callbacks for DM quick actions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:336",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] resolves DM chat type from the Feishu chat API when card context omits it",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:359] resolves DM chat type from the Feishu chat API when card context omits it",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:359",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] uses resolved DM chat type when building approval cards without stored context",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:388] uses resolved DM chat type when building approval cards without stored context",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:388",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] falls back to p2p when Feishu chat API returns an error",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:420] falls back to p2p when Feishu chat API returns an error",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:420",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] falls back to p2p when Feishu chat API throws",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:447] falls back to p2p when Feishu chat API throws",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:447",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] drops duplicate structured callback tokens",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:474] drops duplicate structured callback tokens",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:474",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] rejects empty callback tokens before dispatch",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:487] rejects empty callback tokens before dispatch",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:487",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] keeps a claimed token completed after a non-retryable dispatch failure",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:510] keeps a claimed token completed after a non-retryable dispatch failure",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:510",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] releases a claimed token for explicit retryable dispatch failures",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:526] releases a claimed token for explicit retryable dispatch failures",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:526",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts] keeps an in-flight token claimed while a slow dispatch is still running",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.card-action.test.ts:542] keeps an in-flight token claimed while a slow dispatch is still running",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.card-action.test.ts:542",
                "upstream it() block #17",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts] new hook overrides beat legacy before_agent_start fallback",
+TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts:188] new hook overrides beat legacy before_agent_start fallback",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.model-override-wiring.test.ts:188",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts] skips timed-out handlers and continues",
+TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts:232] skips timed-out handlers and continues",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.model-override-wiring.test.ts:232",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts] honors per-hook registration timeouts over the default modifying hook timeout",
+TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts:270] honors per-hook registration timeouts over the default modifying hook timeout",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.model-override-wiring.test.ts:270",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts] hasHooks reports new and legacy hooks independently",
+TEST_CASE("v4.29 [src/plugins/hooks.model-override-wiring.test.ts:309] hasHooks reports new and legacy hooks independently",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.model-override-wiring.test.ts:309",
                "upstream it() block #3",

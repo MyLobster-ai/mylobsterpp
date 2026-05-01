@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts] keeps public probe and token resolution aligned with base contracts",
+TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts:13] keeps public probe and token resolution aligned with base contracts",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-contract.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts] lists peers/groups from config (numeric ids only)",
+TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts:18] lists peers/groups from config (numeric ids only)",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-contract.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts] keeps directories readable when tokens are unresolved SecretRefs",
+TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts:54] keeps directories readable when tokens are unresolved SecretRefs",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-contract.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts] uses account legacy dm.allowFrom before inherited root allowFrom",
+TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts:80] uses account legacy dm.allowFrom before inherited root allowFrom",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-contract.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts] applies query and limit filtering for config-backed directories",
+TEST_CASE("v4.29 [extensions/discord/src/directory-contract.test.ts:103] applies query and limit filtering for config-backed directories",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-contract.test.ts:103",
                "upstream it() block #4",

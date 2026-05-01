@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts] does not warn when compile cache and no-respawn are configured",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts:5] does not warn when compile cache and no-respawn are configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.startup-optimization.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts] warns when compile cache is under /tmp and no-respawn is not set",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts:19] warns when compile cache is under /tmp and no-respawn is not set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.startup-optimization.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts] warns when compile cache is disabled via env override",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts:38] warns when compile cache is disabled via env override",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.startup-optimization.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts] skips startup optimization note on win32",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts:56] skips startup optimization note on win32",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.startup-optimization.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts] skips startup optimization note on non-target linux hosts",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.startup-optimization.test.ts:69] skips startup optimization note on non-target linux hosts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.startup-optimization.test.ts:69",
                "upstream it() block #4",

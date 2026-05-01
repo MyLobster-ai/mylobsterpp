@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts] returns explicit unavailable metadata for quota failures",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts:20] returns explicit unavailable metadata for quota failures",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts] returns explicit unavailable metadata for non-quota failures",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts:34] returns explicit unavailable metadata for non-quota failures",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts] returns structured search debug metadata for qmd results",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts:48] returns structured search debug metadata for qmd results",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts] re-resolves config when executing a previously created tool",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.test.ts:110] re-resolves config when executing a previously created tool",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.test.ts:110",
                "upstream it() block #3",

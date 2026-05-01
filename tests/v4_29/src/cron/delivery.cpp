@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] defaults to announce when delivery object has no mode",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:6] defaults to announce when delivery object has no mode",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] defaults missing isolated agentTurn delivery to announce",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:18] defaults missing isolated agentTurn delivery to announce",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] resolves mode=none with requested=false and no channel (#21808)",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:30] resolves mode=none with requested=false and no channel (#21808)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] resolves webhook mode without channel routing",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:42] resolves webhook mode without channel routing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] threads delivery.accountId when explicitly configured",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:54] threads delivery.accountId when explicitly configured",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:54",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] threads delivery.threadId when explicitly configured",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:72] threads delivery.threadId when explicitly configured",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] merges global defaults with job-level overrides",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:92] merges global defaults with job-level overrides",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] returns null for webhook mode without destination URL",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:117] returns null for webhook mode without destination URL",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:117",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] returns null when failure destination matches primary delivery target",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:132] returns null when failure destination matches primary delivery target",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:132",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] returns null when webhook failure destination matches the primary webhook target",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:153] returns null when webhook failure destination matches the primary webhook target",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:153",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] does not reuse inherited announce recipient when switching failure destination to webhook",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:172] does not reuse inherited announce recipient when switching failure destination to webhook",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:172",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/delivery.test.ts] allows job-level failure destination fields to clear inherited global values",
+TEST_CASE("v4.29 [src/cron/delivery.test.ts:193] allows job-level failure destination fields to clear inherited global values",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/delivery.test.ts:193",
                "upstream it() block #11",

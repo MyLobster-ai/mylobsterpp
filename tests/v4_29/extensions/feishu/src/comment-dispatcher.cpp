@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-dispatcher.test.ts] sends final comment text without waiting for typing cleanup",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-dispatcher.test.ts:111] sends final comment text without waiting for typing cleanup",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-dispatcher.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-dispatcher.test.ts] starts the typing reaction from dispatcher onReplyStart",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-dispatcher.test.ts:155] starts the typing reaction from dispatcher onReplyStart",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-dispatcher.test.ts:155",
                "upstream it() block #1",

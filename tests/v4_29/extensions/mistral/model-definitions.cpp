@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mistral/model-definitions.test.ts] uses current Pi pricing for the bundled default model",
+TEST_CASE("v4.29 [extensions/mistral/model-definitions.test.ts:12] uses current Pi pricing for the bundled default model",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/model-definitions.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/model-definitions.test.ts] publishes a curated set of current Mistral catalog models",
+TEST_CASE("v4.29 [extensions/mistral/model-definitions.test.ts:28] publishes a curated set of current Mistral catalog models",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/model-definitions.test.ts:28",
                "upstream it() block #1",

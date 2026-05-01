@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts] new subagent session inherits deliveryContext from request channel/to/threadId",
+TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts:79] new subagent session inherits deliveryContext from request channel/to/threadId",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.subagent-delivery-context.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts] existing session deliveryContext is NOT overwritten by request params",
+TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts:110] existing session deliveryContext is NOT overwritten by request params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.subagent-delivery-context.test.ts:110",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts] pre-patched subagent session (via sessions.patch) inherits deliveryContext from agent request",
+TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts:155] pre-patched subagent session (via sessions.patch) inherits deliveryContext from agent request",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.subagent-delivery-context.test.ts:155",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts] request without to/threadId does not inject empty values",
+TEST_CASE("v4.29 [src/gateway/server.agent.subagent-delivery-context.test.ts:198] request without to/threadId does not inject empty values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.subagent-delivery-context.test.ts:198",
                "upstream it() block #3",

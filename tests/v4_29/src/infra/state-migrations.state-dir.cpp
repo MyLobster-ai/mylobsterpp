@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/state-migrations.state-dir.test.ts] skips a legacy symlinked state dir when it points outside supported legacy roots",
+TEST_CASE("v4.29 [src/infra/state-migrations.state-dir.test.ts:21] skips a legacy symlinked state dir when it points outside supported legacy roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.state-dir.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.state-dir.test.ts] skips state-dir migration when OPENCLAW_STATE_DIR is explicitly set",
+TEST_CASE("v4.29 [src/infra/state-migrations.state-dir.test.ts:48] skips state-dir migration when OPENCLAW_STATE_DIR is explicitly set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.state-dir.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.state-dir.test.ts] only runs once per process until reset",
+TEST_CASE("v4.29 [src/infra/state-migrations.state-dir.test.ts:68] only runs once per process until reset",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.state-dir.test.ts:68",
                "upstream it() block #2",

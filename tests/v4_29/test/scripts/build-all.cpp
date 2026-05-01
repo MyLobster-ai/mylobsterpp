@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] routes pnpm steps through the npm_execpath pnpm runner on Windows",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:55] routes pnpm steps through the npm_execpath pnpm runner on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] keeps node steps on the current node binary",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:78] keeps node steps on the current node binary",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] adds heap headroom for plugin-sdk dts on Windows",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:97] adds heap headroom for plugin-sdk dts on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] keeps the full profile aligned with the declared steps",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:125] keeps the full profile aligned with the declared steps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] uses a runtime artifact plus plugin SDK export profile for ci artifacts",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:130] uses a runtime artifact plus plugin SDK export profile for ci artifacts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:130",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] uses a minimal built runtime profile for gateway watch regression",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:150] uses a minimal built runtime profile for gateway watch regression",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:150",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] writes the runtime postbuild stamp after the build stamp",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:160] writes the runtime postbuild stamp after the build stamp",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:160",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] does not cache plugin-sdk entry shims over compiled JS",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:170] does not cache plugin-sdk entry shims over compiled JS",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:170",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] does not cache hook metadata over compiled hook handlers",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:176] does not cache hook metadata over compiled hook handlers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:176",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] rejects unknown build profiles",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:182] rejects unknown build profiles",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:182",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] marks cacheable steps fresh when the input signature matches",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:188] marks cacheable steps fresh when the input signature matches",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:188",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] marks cacheable steps stale when an input changes",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:203] marks cacheable steps stale when an input changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:203",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/build-all.test.ts] restores cached outputs when generated files were removed",
+TEST_CASE("v4.29 [test/scripts/build-all.test.ts:217] restores cached outputs when generated files were removed",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/build-all.test.ts:217",
                "upstream it() block #12",

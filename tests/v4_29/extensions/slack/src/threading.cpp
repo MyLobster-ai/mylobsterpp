@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] threads replies when message is already threaded",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:21] threads replies when message is already threaded",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] threads top-level replies when mode is all",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:36] threads top-level replies when mode is all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] does not thread status indicator when reply threading is off",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:50] does not thread status indicator when reply threading is off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] does not treat auto-created top-level thread_ts as a real thread when mode is off",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:64] does not treat auto-created top-level thread_ts as a real thread when mode is off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] keeps first-mode behavior for auto-created top-level thread_ts",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:68] keeps first-mode behavior for auto-created top-level thread_ts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] keeps batched-mode behavior for auto-created top-level thread_ts",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:72] keeps batched-mode behavior for auto-created top-level thread_ts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] sets messageThreadId for top-level messages when replyToMode is all",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:76] sets messageThreadId for top-level messages when replyToMode is all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:76",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts] prefers thread_ts as messageThreadId for replies",
+TEST_CASE("v4.29 [extensions/slack/src/threading.test.ts:91] prefers thread_ts as messageThreadId for replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading.test.ts:91",
                "upstream it() block #7",

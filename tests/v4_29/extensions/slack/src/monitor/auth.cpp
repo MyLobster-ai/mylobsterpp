@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] falls back to channel config allowFrom when pairing store throws",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:76] falls back to channel config allowFrom when pairing store throws",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:76",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] treats malformed non-array pairing-store responses as empty",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:85] treats malformed non-array pairing-store responses as empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] memoizes pairing-store allowFrom reads within TTL",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:94] memoizes pairing-store allowFrom reads within TTL",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] refreshes pairing-store allowFrom when cache TTL is zero",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:106] refreshes pairing-store allowFrom when cache TTL is zero",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] keeps non-interactive channel senders open when only global allowFrom is configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:128] keeps non-interactive channel senders open when only global allowFrom is configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] keeps channel users as the non-interactive gate even when global allowFrom is configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:142] keeps channel users as the non-interactive gate even when global allowFrom is configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] uses the channel denial reason for non-interactive senders who miss a channel users allowlist",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:162] uses the channel denial reason for non-interactive senders who miss a channel users allowlist",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:162",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows channel senders authorized by channel users even when not in global allowFrom",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:182] allows channel senders authorized by channel users even when not in global allowFrom",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:182",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] keeps channel interactions open when no global or channel allowlists are configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:201] keeps channel interactions open when no global or channel allowlists are configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:201",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] does not let a wildcard global allowFrom bypass non-interactive channel users restrictions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:215] does not let a wildcard global allowFrom bypass non-interactive channel users restrictions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:215",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] still allows a channel user when the global allowFrom is wildcard",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:235] still allows a channel user when the global allowFrom is wildcard",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:235",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] does not give non-interactive owner bypass when channel users are configured, even if explicit owners are also listed",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:254] does not give non-interactive owner bypass when channel users are configured, even if explicit owners are also listed",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:254",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] keeps explicit owners behind the non-interactive channel users gate when allowFrom also contains wildcard",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:274] keeps explicit owners behind the non-interactive channel users gate when allowFrom also contains wildcard",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:274",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows senders without channel context when no allowFrom is configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:294] allows senders without channel context when no allowFrom is configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:294",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] rejects interactive events when expectedSenderId is not provided",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:318] rejects interactive events when expectedSenderId is not provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:318",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows interactive events when expectedSenderId matches senderId",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:332] allows interactive events when expectedSenderId matches senderId",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:332",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows interactive channel senders who match the global allowFrom even when channel users are configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:348] allows interactive channel senders who match the global allowFrom even when channel users are configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:348",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] uses a combined denial reason when an interactive sender matches neither global nor channel allowlists",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:369] uses a combined denial reason when an interactive sender matches neither global nor channel allowlists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:369",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] keeps interactive channel events open when no allowlists are configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:391] keeps interactive channel events open when no allowlists are configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:391",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] preserves explicit owner access for interactive events when allowFrom also contains wildcard",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:407] preserves explicit owner access for interactive events when allowFrom also contains wildcard",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:407",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] keeps interactive no-channel events open when no allowFrom is configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:428] keeps interactive no-channel events open when no allowFrom is configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:428",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] denies interactive no-channel events when sender is not in allowFrom",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:443] denies interactive no-channel events when sender is not in allowFrom",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:443",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows interactive no-channel events when sender is in allowFrom",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:457] allows interactive no-channel events when sender is in allowFrom",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:457",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] rejects interactive events with ambiguous channel type",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:472] rejects interactive events with ambiguous channel type",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:472",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows interactive events when channel type is known from ID prefix",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:493] allows interactive events when channel type is known from ID prefix",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:493",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] allows interactive events when channel type is known from explicit type",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:509] allows interactive events when channel type is known from explicit type",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:509",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts] does not apply interactiveEvent restrictions to non-interactive events",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/auth.test.ts:529] does not apply interactiveEvent restrictions to non-interactive events",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/auth.test.ts:529",
                "upstream it() block #26",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts] honors provider auth env vars with nonstandard names",
+TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts:19] honors provider auth env vars with nonstandard names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-auth-keys.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts] dedupes manifest env vars against direct provider env naming",
+TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts:30] dedupes manifest env vars against direct provider env naming",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-auth-keys.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts] does not false-positive on plain ",
+TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts:43] does not false-positive on plain ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-auth-keys.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts] matches real 402 billing payload contexts including JSON keys",
+TEST_CASE("v4.29 [src/agents/live-auth-keys.test.ts:56] matches real 402 billing payload contexts including JSON keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-auth-keys.test.ts:56",
                "upstream it() block #3",

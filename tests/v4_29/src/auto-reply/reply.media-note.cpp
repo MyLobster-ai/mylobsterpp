@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply.media-note.test.ts] includes all MediaPaths in the agent prompt",
+TEST_CASE("v4.29 [src/auto-reply/reply.media-note.test.ts:6] includes all MediaPaths in the agent prompt",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.media-note.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.media-note.test.ts] keeps the real image attachment note after image understanding rewrites the body",
+TEST_CASE("v4.29 [src/auto-reply/reply.media-note.test.ts:31] keeps the real image attachment note after image understanding rewrites the body",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.media-note.test.ts:31",
                "upstream it() block #1",

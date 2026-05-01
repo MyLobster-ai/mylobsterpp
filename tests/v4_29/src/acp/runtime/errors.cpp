@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/runtime/errors.test.ts] wraps generic errors with fallback code and source message",
+TEST_CASE("v4.29 [src/acp/runtime/errors.test.ts:5] wraps generic errors with fallback code and source message",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/errors.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/runtime/errors.test.ts] passes through existing ACP runtime errors",
+TEST_CASE("v4.29 [src/acp/runtime/errors.test.ts:21] passes through existing ACP runtime errors",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/errors.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/runtime/errors.test.ts] preserves ACP runtime codes from foreign package errors",
+TEST_CASE("v4.29 [src/acp/runtime/errors.test.ts:34] preserves ACP runtime codes from foreign package errors",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/errors.test.ts:34",
                "upstream it() block #2",

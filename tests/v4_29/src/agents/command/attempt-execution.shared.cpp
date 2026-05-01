@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.shared.test.ts] materializes ACP internal events without OpenClaw internal runtime markers",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.shared.test.ts:36] materializes ACP internal events without OpenClaw internal runtime markers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.shared.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.shared.test.ts] keeps ordinary ACP prompt text unchanged when no internal event is present",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.shared.test.ts:57] keeps ordinary ACP prompt text unchanged when no internal event is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.shared.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.shared.test.ts] uses plain event text for transcripts when the trigger message is an internal envelope",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.shared.test.ts:61] uses plain event text for transcripts when the trigger message is an internal envelope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.shared.test.ts:61",
                "upstream it() block #2",

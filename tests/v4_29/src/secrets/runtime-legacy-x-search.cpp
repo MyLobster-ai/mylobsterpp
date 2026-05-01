@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-legacy-x-search.test.ts] keeps legacy x_search SecretRefs in place until doctor repairs them",
+TEST_CASE("v4.29 [src/secrets/runtime-legacy-x-search.test.ts:31] keeps legacy x_search SecretRefs in place until doctor repairs them",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-legacy-x-search.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-legacy-x-search.test.ts] still resolves legacy x_search auth in place even when unrelated legacy config is present",
+TEST_CASE("v4.29 [src/secrets/runtime-legacy-x-search.test.ts:60] still resolves legacy x_search auth in place even when unrelated legacy config is present",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-legacy-x-search.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-legacy-x-search.test.ts] does not force-enable xai at runtime for knob-only x_search config",
+TEST_CASE("v4.29 [src/secrets/runtime-legacy-x-search.test.ts:92] does not force-enable xai at runtime for knob-only x_search config",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-legacy-x-search.test.ts:92",
                "upstream it() block #2",

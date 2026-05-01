@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts] marks only main running sessions whose transcript lock was cleaned",
+TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts:61] marks only main running sessions whose transcript lock was cleaned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/main-session-restart-recovery.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts] resumes marked sessions with a tool-result transcript tail",
+TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts:97] resumes marked sessions with a tool-result transcript tail",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/main-session-restart-recovery.test.ts:97",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts] fails marked sessions with stale approval-pending exec tool results",
+TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts:126] fails marked sessions with stale approval-pending exec tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/main-session-restart-recovery.test.ts:126",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts] does not scan ordinary running sessions without the restart-aborted marker",
+TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts:160] does not scan ordinary running sessions without the restart-aborted marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/main-session-restart-recovery.test.ts:160",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts] fails marked sessions whose transcript tail cannot be resumed",
+TEST_CASE("v4.29 [src/agents/main-session-restart-recovery.test.ts:180] fails marked sessions whose transcript tail cannot be resumed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/main-session-restart-recovery.test.ts:180",
                "upstream it() block #4",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/test-env.test.ts] keeps live tests on a temp HOME while copying config and auth state",
+TEST_CASE("v4.29 [test/test-env.test.ts:46] keeps live tests on a temp HOME while copying config and auth state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/test-env.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/test-env.test.ts] allows explicit live runs against the real HOME",
+TEST_CASE("v4.29 [test/test-env.test.ts:184] allows explicit live runs against the real HOME",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/test-env.test.ts:184",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/test-env.test.ts] does not load ~/.profile for normal isolated test runs",
+TEST_CASE("v4.29 [test/test-env.test.ts:201] does not load ~/.profile for normal isolated test runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/test-env.test.ts:201",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/test-env.test.ts] falls back to parsing ~/.profile when bash is unavailable",
+TEST_CASE("v4.29 [test/test-env.test.ts:220] falls back to parsing ~/.profile when bash is unavailable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/test-env.test.ts:220",
                "upstream it() block #3",

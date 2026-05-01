@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts] adds and removes a comment typing reaction using reply_id",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts:62] adds and removes a comment typing reaction using reply_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-reaction.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts] skips requests when reply_id is missing",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts:94] skips requests when reply_id is missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-reaction.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts] shares cleanup state so ambient cleanup and finally cleanup do not delete twice",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts:103] shares cleanup state so ambient cleanup and finally cleanup do not delete twice",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-reaction.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts] retries delete during later cleanup after an ambient delete failure",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-reaction.test.ts:123] retries delete during later cleanup after an ambient delete failure",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-reaction.test.ts:123",
                "upstream it() block #3",

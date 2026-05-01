@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/internal-runtime-context.test.ts] strips a marked internal runtime block and preserves surrounding text",
+TEST_CASE("v4.29 [src/agents/internal-runtime-context.test.ts:19] strips a marked internal runtime block and preserves surrounding text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/internal-runtime-context.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/internal-runtime-context.test.ts] detects canonical runtime context and ignores inline marker mentions",
+TEST_CASE("v4.29 [src/agents/internal-runtime-context.test.ts:37] detects canonical runtime context and ignores inline marker mentions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/internal-runtime-context.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/internal-runtime-context.test.ts] fuzzes delimiter injection and nested marker handling deterministically",
+TEST_CASE("v4.29 [src/agents/internal-runtime-context.test.ts:50] fuzzes delimiter injection and nested marker handling deterministically",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/internal-runtime-context.test.ts:50",
                "upstream it() block #2",

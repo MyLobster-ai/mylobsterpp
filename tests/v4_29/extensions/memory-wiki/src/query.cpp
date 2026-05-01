@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] finds wiki pages by title and body",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:99] finds wiki pages by title and body",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] does not match generated related blocks during wiki search",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:120] does not match generated related blocks during wiki search",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] matches pages when all query terms appear without an exact phrase",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:171] matches pages when all query terms appear without an exact phrase",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:171",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] supports people-routing search modes and claim evidence drilldown metadata",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:208] supports people-routing search modes and claim evidence drilldown metadata",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:208",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] keeps route-question relationship matches in compiled digest prefilter",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:317] keeps route-question relationship matches in compiled digest prefilter",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:317",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] uses body text instead of frontmatter for fallback snippets",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:367] uses body text instead of frontmatter for fallback snippets",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:367",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] finds wiki pages by structured claim text and surfaces the claim as the snippet",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:396] finds wiki pages by structured claim text and surfaces the claim as the snippet",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:396",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] ranks fresh supported claims ahead of stale contested claims",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:432] ranks fresh supported claims ahead of stale contested claims",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:432",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] surfaces bridge provenance for imported source pages",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:500] surfaces bridge provenance for imported source pages",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:500",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] includes active memory results when shared search and all corpora are enabled",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:534] includes active memory results when shared search and all corpora are enabled",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:534",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] uses the active session agent for shared memory search",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:581] uses the active session agent for shared memory search",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:581",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] allows per-call corpus overrides without changing config defaults",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:619] allows per-call corpus overrides without changing config defaults",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:619",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] keeps memory search disabled when the backend is local",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:660] keeps memory search disabled when the backend is local",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:660",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] reads wiki pages by relative path and slices line ranges",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:702] reads wiki pages by relative path and slices line ranges",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:702",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] resolves compiled claim ids back to the owning page",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:731] resolves compiled claim ids back to the owning page",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:731",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] returns provenance for imported wiki source pages",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:771] returns provenance for imported wiki source pages",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:771",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] falls back to active memory reads when memory corpus is selected",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:810] falls back to active memory reads when memory corpus is selected",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:810",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] uses the active session agent for shared memory reads",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:849] uses the active session agent for shared memory reads",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:849",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts] allows per-call get overrides to bypass wiki and force memory fallback",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/query.test.ts:882] allows per-call get overrides to bypass wiki and force memory fallback",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/query.test.ts:882",
                "upstream it() block #18",

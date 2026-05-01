@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts] migrates legacy Firecrawl fetch config into plugin-owned config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts:9] migrates legacy Firecrawl fetch config into plugin-owned config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts] drops legacy firecrawl.enabled when migrating plugin-owned config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts:45] drops legacy firecrawl.enabled when migrating plugin-owned config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts] lists legacy Firecrawl fetch config paths",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts:70] lists legacy Firecrawl fetch config paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-web-fetch-migrate.test.ts:70",
                "upstream it() block #2",

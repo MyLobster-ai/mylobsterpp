@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/restart-intent.test.ts] consumes a fresh intent for the current process",
+TEST_CASE("v4.29 [src/infra/restart-intent.test.ts:29] consumes a fresh intent for the current process",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-intent.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-intent.test.ts] rejects an intent for a different process",
+TEST_CASE("v4.29 [src/infra/restart-intent.test.ts:38] rejects an intent for a different process",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-intent.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-intent.test.ts] rejects oversized intent files before parsing",
+TEST_CASE("v4.29 [src/infra/restart-intent.test.ts:47] rejects oversized intent files before parsing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-intent.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-intent.test.ts] writes intent files with owner-only permissions",
+TEST_CASE("v4.29 [src/infra/restart-intent.test.ts:55] writes intent files with owner-only permissions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-intent.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-intent.test.ts] does not follow an existing intent-path symlink when writing",
+TEST_CASE("v4.29 [src/infra/restart-intent.test.ts:63] does not follow an existing intent-path symlink when writing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-intent.test.ts:63",
                "upstream it() block #4",

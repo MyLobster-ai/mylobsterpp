@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] detects configured internal hook surfaces",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:137] detects configured internal hook surfaces",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:137",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] should return 0 when hooks are explicitly disabled",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:185] should return 0 when hooks are explicitly disabled",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:185",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] skips hook discovery until internal hooks are configured",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:210] skips hook discovery until internal hooks are configured",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:210",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] loads only explicitly configured discovered hooks",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:221] loads only explicitly configured discovered hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:221",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] should load multiple handlers",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:246] should load multiple handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:246",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] preserves plugin-registered hooks when workspace hooks reload",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:264] preserves plugin-registered hooks when workspace hooks reload",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:264",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] replaces prior workspace hook registrations instead of duplicating them",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:277] replaces prior workspace hook registrations instead of duplicating them",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:277",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] should support named exports",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:298] should support named exports",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:298",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] should treat invalid handlers as non-loadable",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:319] should treat invalid handlers as non-loadable",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:319",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] keeps workspace hooks disabled by default until explicitly enabled",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:344] keeps workspace hooks disabled by default until explicitly enabled",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:344",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] rejects directory hook handlers that escape hook dir via symlink",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:373] rejects directory hook handlers that escape hook dir via symlink",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:373",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] rejects legacy handler modules that escape workspace via symlink",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:401] rejects legacy handler modules that escape workspace via symlink",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:401",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] rejects directory hook handlers that escape hook dir via hardlink",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:415] rejects directory hook handlers that escape hook dir via hardlink",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:415",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] rejects legacy handler modules that escape workspace via hardlink",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:449] rejects legacy handler modules that escape workspace via hardlink",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:449",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] sanitizes control characters in loader error logs",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:469] sanitizes control characters in loader error logs",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:469",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/loader.test.ts] keeps managed hooks active when a workspace hook reuses the same name",
+TEST_CASE("v4.29 [src/hooks/loader.test.ts:492] keeps managed hooks active when a workspace hook reuses the same name",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/loader.test.ts:492",
                "upstream it() block #15",

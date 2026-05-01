@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] keeps top-level channel turns in one session when replyToMode=off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:45] keeps top-level channel turns in one session when replyToMode=off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] uses parent thread_ts for thread replies even when replyToMode=off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:74] uses parent thread_ts for thread replies even when replyToMode=off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] routes actual Slack thread replies by parent thread_ts, not the child message ts",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:100] routes actual Slack thread replies by parent thread_ts, not the child message ts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] keeps top-level channel messages on the per-channel session regardless of replyToMode",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:134] keeps top-level channel messages on the per-channel session regardless of replyToMode",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] keeps unseeded top-level room messages with self thread_ts on the channel session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:165] keeps unseeded top-level room messages with self thread_ts on the channel session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] does not seed top-level group DM mentions into thread sessions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:185] does not seed top-level group DM mentions into thread sessions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:185",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] routes a seeded thread root and replies with the same Slack thread_ts to one parent session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:209] routes a seeded thread root and replies with the same Slack thread_ts to one parent session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:209",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] seeds top-level app mentions into the same parent session used by later thread replies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:253] seeds top-level app mentions into the same parent session used by later thread replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:253",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts] does not add thread suffix for DMs when replyToMode=off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:299] does not add thread suffix for DMs when replyToMode=off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.thread-session-key.test.ts:299",
                "upstream it() block #8",

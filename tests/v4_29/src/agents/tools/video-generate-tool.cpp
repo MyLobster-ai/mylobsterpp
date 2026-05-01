@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] returns null when no video-generation config or auth-backed provider is available",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:96] returns null when no video-generation config or auth-backed provider is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:96",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] registers when video-generation config is present",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:102] registers when video-generation config is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] orders auto-detected provider defaults by canonical aliases",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:116] orders auto-detected provider defaults by canonical aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] generates videos, saves them, and emits MEDIA paths without a session-backed detach",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:155] generates videos, saves them, and emits MEDIA paths without a session-backed detach",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] uses the video media cap when mediaMaxMb is not configured",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:231] uses the video media cap when mediaMaxMb is not configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:231",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] surfaces url-only generated videos without saving local files",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:276] surfaces url-only generated videos without saving local files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:276",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] falls back to the provider URL when generated video persistence exceeds the media cap",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:324] falls back to the provider URL when generated video persistence exceeds the media cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:324",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] starts background generation and wakes the session with url-only MEDIA lines",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:374] starts background generation and wakes the session with url-only MEDIA lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:374",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] surfaces provider generation failures inline when there is no detached session",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:466] surfaces provider generation failures inline when there is no detached session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:466",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] shows duration normalization details from runtime metadata",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:489] shows duration normalization details from runtime metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:489",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] surfaces normalized video geometry from runtime metadata",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:556] surfaces normalized video geometry from runtime metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:556",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] lists supported provider durations when advertised",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:621] lists supported provider durations when advertised",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:621",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] rejects image-to-video when the provider disables that mode",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:672] rejects image-to-video when the provider disables that mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:672",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] warns when optional provider overrides are ignored",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:712] warns when optional provider overrides are ignored",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:712",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] rejects providerOptions that is not a plain JSON object",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:795] rejects providerOptions that is not a plain JSON object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:795",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] forwards providerOptions to the runtime for valid JSON-object payloads",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:822] forwards providerOptions to the runtime for valid JSON-object payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:822",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] rejects *Roles arrays that are longer than the asset list",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:841] rejects *Roles arrays that are longer than the asset list",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:841",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] rejects *Roles that are not arrays",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:859] rejects *Roles that are not arrays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:859",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] attaches positional role hints to loaded reference assets",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:875] attaches positional role hints to loaded reference assets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:875",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] passes web_fetch SSRF policy when loading reference assets",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:897] passes web_fetch SSRF policy when loading reference assets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:897",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] rejects audio data: URLs via the templated rejection branch",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:934] rejects audio data: URLs via the templated rejection branch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:934",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] accepts aspectRatio=adaptive and forwards it to the runtime",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:950] accepts aspectRatio=adaptive and forwards it to the runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:950",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts] rejects unsupported aspectRatio values",
+TEST_CASE("v4.29 [src/agents/tools/video-generate-tool.test.ts:963] rejects unsupported aspectRatio values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/video-generate-tool.test.ts:963",
                "upstream it() block #22",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts] covers every native live test and tracks provider-filtered release fanout",
+TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts:12] covers every native live test and tracks provider-filtered release fanout",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-live-shard.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts] keeps aggregate shard aliases available outside the release partition",
+TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts:34] keeps aggregate shard aliases available outside the release partition",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-live-shard.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts] keeps slow gateway backend and media-capable extension files in their own shards",
+TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts:64] keeps slow gateway backend and media-capable extension files in their own shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-live-shard.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts] rejects unknown shard names",
+TEST_CASE("v4.29 [test/scripts/test-live-shard.test.ts:103] rejects unknown shard names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-live-shard.test.ts:103",
                "upstream it() block #3",

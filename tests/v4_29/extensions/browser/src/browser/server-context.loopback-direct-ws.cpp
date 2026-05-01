@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts] uses an HTTP /json/list base when opening about:blank under strict SSRF",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:17] uses an HTTP /json/list base when opening about:blank under strict SSRF",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts] uses an HTTP /json base for focus and close under strict SSRF",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:58] uses an HTTP /json base for focus and close under strict SSRF",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts] uses an HTTPS /json base for secure direct WebSocket profiles with a /cdp suffix",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:107] uses an HTTPS /json base for secure direct WebSocket profiles with a /cdp suffix",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts] blocks direct WebSocket tab operations when strict SSRF hostname allowlist rejects the cdpUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:149] blocks direct WebSocket tab operations when strict SSRF hostname allowlist rejects the cdpUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.loopback-direct-ws.test.ts:149",
                "upstream it() block #3",

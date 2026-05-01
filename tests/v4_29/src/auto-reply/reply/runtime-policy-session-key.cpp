@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts] derives an external direct-chat policy key when the conversation uses main",
+TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts:17] derives an external direct-chat policy key when the conversation uses main",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/runtime-policy-session-key.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts] normalizes dm chat type aliases",
+TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts:34] normalizes dm chat type aliases",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/runtime-policy-session-key.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts] leaves local main-session runs unsandboxed in non-main mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts:49] leaves local main-session runs unsandboxed in non-main mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/runtime-policy-session-key.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts] keeps already-isolated sessions unchanged",
+TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts:65] keeps already-isolated sessions unchanged",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/runtime-policy-session-key.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts] uses native command target sessions as the policy base",
+TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts:80] uses native command target sessions as the policy base",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/runtime-policy-session-key.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts] applies identity links for derived direct-chat policy keys",
+TEST_CASE("v4.29 [src/auto-reply/reply/runtime-policy-session-key.test.ts:97] applies identity links for derived direct-chat policy keys",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/runtime-policy-session-key.test.ts:97",
                "upstream it() block #5",

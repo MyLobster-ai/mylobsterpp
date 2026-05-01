@@ -5,299 +5,299 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] treats * in allow as allow-all",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:19] treats * in allow as allow-all",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] treats * in deny as deny-all",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:25] treats * in deny as deny-all",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] supports wildcard allow/deny patterns",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:31] supports wildcard allow/deny patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] keeps apply_patch when write is allowlisted",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:36] keeps apply_patch when write is allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] blocks apply_patch when write is denylisted",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:40] blocks apply_patch when write is denylisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:40",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] rejects forged groupId when the session has no group context",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:62] rejects forged groupId when the session has no group context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] uses session-derived group policy when caller groupId disagrees",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:74] uses session-derived group policy when caller groupId disagrees",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] accepts caller groupId when it matches session-derived group context",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:86] accepts caller groupId when it matches session-derived group context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:86",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] accepts caller groupId when spawnedBy provides the trusted group context",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:104] accepts caller groupId when spawnedBy provides the trusted group context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:104",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] keeps specific session group policy ahead of trusted parent caller groupId",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:123] keeps specific session group policy ahead of trusted parent caller groupId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:123",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] prefers the session-derived channel over caller-supplied messageProvider",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:149] prefers the session-derived channel over caller-supplied messageProvider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:149",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] applies subagent tools.alsoAllow to re-enable default-denied tools",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:189] applies subagent tools.alsoAllow to re-enable default-denied tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:189",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] applies subagent tools.allow to re-enable default-denied tools",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:199] applies subagent tools.allow to re-enable default-denied tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:199",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] merges subagent tools.alsoAllow into tools.allow when both are set",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:208] merges subagent tools.alsoAllow into tools.allow when both are set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:208",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] keeps configured deny precedence over allow and alsoAllow",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:219] keeps configured deny precedence over allow and alsoAllow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:219",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] applies configured deny to memory tools even though they are allowed by default",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:236] applies configured deny to memory tools even though they are allowed by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:236",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] does not create a restrictive allowlist when only alsoAllow is configured",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:252] does not create a restrictive allowlist when only alsoAllow is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:252",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 orchestrator (maxSpawnDepth=2) allows sessions_spawn",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:262] depth-1 orchestrator (maxSpawnDepth=2) allows sessions_spawn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:262",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 orchestrator (maxSpawnDepth=2) allows subagents",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:267] depth-1 orchestrator (maxSpawnDepth=2) allows subagents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:267",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 orchestrator (maxSpawnDepth=2) allows sessions_list",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:272] depth-1 orchestrator (maxSpawnDepth=2) allows sessions_list",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:272",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 orchestrator (maxSpawnDepth=2) allows sessions_history",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:277] depth-1 orchestrator (maxSpawnDepth=2) allows sessions_history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:277",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 orchestrator still denies gateway and cron but allows memory tools",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:282] depth-1 orchestrator still denies gateway and cron but allows memory tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:282",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-2 leaf denies sessions_spawn",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:290] depth-2 leaf denies sessions_spawn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:290",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-2 orchestrator (maxSpawnDepth=3) allows sessions_spawn",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:295] depth-2 orchestrator (maxSpawnDepth=3) allows sessions_spawn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:295",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-3 leaf (maxSpawnDepth=3) denies sessions_spawn",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:300] depth-3 leaf (maxSpawnDepth=3) denies sessions_spawn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:300",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-2 leaf denies subagents",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:305] depth-2 leaf denies subagents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:305",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-2 leaf denies sessions_list and sessions_history",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:310] depth-2 leaf denies sessions_list and sessions_history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:310",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 leaf (maxSpawnDepth=1) denies sessions_spawn",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:316] depth-1 leaf (maxSpawnDepth=1) denies sessions_spawn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:316",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] depth-1 leaf (maxSpawnDepth=1) denies sessions_list",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:321] depth-1 leaf (maxSpawnDepth=1) denies sessions_list",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:321",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] uses stored leaf role for flat depth-1 session keys",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:326] uses stored leaf role for flat depth-1 session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:326",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] defaults to leaf behavior when no depth is provided",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:363] defaults to leaf behavior when no depth is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:363",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] defaults to leaf behavior when depth is undefined and maxSpawnDepth is 1",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:369] defaults to leaf behavior when depth is undefined and maxSpawnDepth is 1",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:369",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] prefers canonical tools.byProvider policy when alias keys collide after normalization",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:415] prefers canonical tools.byProvider policy when alias keys collide after normalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:415",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] prefers canonical model-scoped tools.byProvider policy when alias keys collide",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:443] prefers canonical model-scoped tools.byProvider policy when alias keys collide",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:443",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] keeps slash-containing modelId scoped to the selected provider",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:470] keeps slash-containing modelId scoped to the selected provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:470",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] does not let slash-containing modelId select another provider policy",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:489] does not let slash-containing modelId select another provider policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:489",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] does not implicitly re-expose exec when tools.exec is configured (#47487)",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:507] does not implicitly re-expose exec when tools.exec is configured (#47487)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:507",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] does not implicitly re-expose fs tools when tools.fs is configured (#47487)",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:518] does not implicitly re-expose fs tools when tools.fs is configured (#47487)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:518",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] explicit alsoAllow works without implicit widening (#47487)",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:529] explicit alsoAllow works without implicit widening (#47487)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:529",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] does not implicitly re-expose fs tools from agent tool sections (#47487)",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:541] does not implicitly re-expose fs tools from agent tool sections (#47487)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:541",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] global tools.exec does not widen agent messaging profile (#47487)",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:561] global tools.exec does not widen agent messaging profile (#47487)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:561",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts] explicit alsoAllow with exec still grants exec under messaging profile",
+TEST_CASE("v4.29 [src/agents/pi-tools.policy.test.ts:584] explicit alsoAllow with exec still grants exec under messaging profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.policy.test.ts:584",
                "upstream it() block #41",

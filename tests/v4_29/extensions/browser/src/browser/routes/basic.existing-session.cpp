@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] reports Linux no-display headless fallback for local managed profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:132] reports Linux no-display headless fallback for local managed profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] reports request-local headless source for tracked local launches",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:166] reports request-local headless source for tracked local launches",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:166",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] maps existing-session status failures to JSON browser errors",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:198] maps existing-session status failures to JSON browser errors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:198",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] reports Chrome MCP transport without fake CDP fields",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:211] reports Chrome MCP transport without fake CDP fields",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:211",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] passes valid start headless override to local managed profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:230] passes valid start headless override to local managed profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:230",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] rejects invalid start headless values",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:240] rejects invalid start headless values",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:240",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] rejects start headless override for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:252] rejects start headless override for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:252",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] treats attach-only profiles as running when transport is available even if page reachability is false",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:274] treats attach-only profiles as running when transport is available even if page reachability is false",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:274",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts] probes Chrome MCP transport only once for status",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/basic.existing-session.test.ts:292] probes Chrome MCP transport only once for status",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/basic.existing-session.test.ts:292",
                "upstream it() block #8",

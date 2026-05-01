@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] adds current file contents to exact-match mismatch errors",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:89] adds current file contents to exact-match mismatch errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] recovers success after a post-write throw when CRLF output contains newText and oldText is only a substring",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:112] recovers success after a post-write throw when CRLF output contains newText and oldText is only a substring",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:112",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] does not recover false success when the file never changed",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:146] does not recover false success when the file never changed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:146",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] recovers deletion edits when the file changed and oldText is gone",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:170] recovers deletion edits when the file changed and oldText is gone",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:170",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] recovers multi-edit payloads after a post-write throw",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:196] recovers multi-edit payloads after a post-write throw",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:196",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] recovers tilde paths against the OS home even when OPENCLAW_HOME differs",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:228] recovers tilde paths against the OS home even when OPENCLAW_HOME differs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:228",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts] applies the same recovery path to sandboxed edit tools",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.host-edit-recovery.test.ts:285] applies the same recovery path to sandboxed edit tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.host-edit-recovery.test.ts:285",
                "upstream it() block #6",

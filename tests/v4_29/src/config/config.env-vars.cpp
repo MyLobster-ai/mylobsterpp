@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] applies env vars from env block when missing",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:17] applies env vars from env block when missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] does not override existing env vars",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:24] does not override existing env vars",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] applies env vars from env.vars when missing",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:31] applies env vars from env.vars when missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] skips non-string env.vars values from runtime JSON configs",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:38] skips non-string env.vars values from runtime JSON configs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] can build a merged runtime env without mutating process.env",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:57] can build a merged runtime env without mutating process.env",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] blocks dangerous startup env vars from config env",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:67] blocks dangerous startup env vars from config env",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] drops non-portable env keys from config env",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:105] drops non-portable env keys from config env",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:105",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] loads ${VAR} substitutions from ~/.openclaw/.env on repeated runtime loads",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:123] loads ${VAR} substitutions from ~/.openclaw/.env on repeated runtime loads",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:123",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] reads key-value pairs from the state-dir .env file",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:155] reads key-value pairs from the state-dir .env file",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] returns empty record when the state-dir .env file is missing",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:166] returns empty record when the state-dir .env file is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:166",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] drops dangerous and empty values from the state-dir .env file",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:172] drops dangerous and empty values from the state-dir .env file",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:172",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] respects OPENCLAW_STATE_DIR when reading state-dir .env vars",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:184] respects OPENCLAW_STATE_DIR when reading state-dir .env vars",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:184",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.env-vars.test.ts] lets config service env vars override state-dir .env vars",
+TEST_CASE("v4.29 [src/config/config.env-vars.test.ts:198] lets config service env vars override state-dir .env vars",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.env-vars.test.ts:198",
                "upstream it() block #12",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-reset-model.test.ts] selects a model hint and strips it from the body",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-reset-model.test.ts:54] selects a model hint and strips it from the body",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-reset-model.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-reset-model.test.ts] clears auth profile overrides when reset applies a model",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-reset-model.test.ts:64] clears auth profile overrides when reset applies a model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-reset-model.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-reset-model.test.ts] skips when resetTriggered is false",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-reset-model.test.ts:79] skips when resetTriggered is false",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-reset-model.test.ts:79",
                "upstream it() block #2",

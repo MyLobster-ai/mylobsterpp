@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] migrates shipped plugin install config records into the plugin index",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:106] migrates shipped plugin install config records into the plugin index",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:106",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] migrates shipped plugin install config records even when the manifest is missing",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:198] migrates shipped plugin install config records even when the manifest is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:198",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] keeps shipped plugin install config records when index migration fails",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:249] keeps shipped plugin install config records when index migration fails",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:249",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] rolls back shipped plugin install index migration when config write fails",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:294] rolls back shipped plugin install index migration when config write fails",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:294",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] keeps writes inside an OPENCLAW_STATE_DIR override even when the real home config exists",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:368] keeps writes inside an OPENCLAW_STATE_DIR override even when the real home config exists",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:368",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] does not mutate caller config when unsetPaths is applied on first write",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:408] does not mutate caller config when unsetPaths is applied on first write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:408",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] does not log an overwrite audit entry when creating config for the first time",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:433] does not log an overwrite audit entry when creating config for the first time",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:433",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] suppresses overwrite audit output when skipOutputLogs is set",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:456] suppresses overwrite audit output when skipOutputLogs is set",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:456",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] preserves root $schema during partial writes",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:492] preserves root $schema during partial writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:492",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] recovers configs polluted by a leading status line",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:515] recovers configs polluted by a leading status line",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:515",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] rejects destructive internal writes before replacing the config",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:553] rejects destructive internal writes before replacing the config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:553",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] keeps authored agent provider params during narrowed internal agent writes",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:605] keeps authored agent provider params during narrowed internal agent writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:605",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] preserves parsed source config when snapshot validation throws",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:685] preserves parsed source config when snapshot validation throws",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:685",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] rejects root-include partial writes instead of flattening the root config",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:712] rejects root-include partial writes instead of flattening the root config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:712",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] writes disabled plugin entries without requiring plugin config",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:736] writes disabled plugin entries without requiring plugin config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:736",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] writes runtime-derived edits back to source SecretRef markers",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:790] writes runtime-derived edits back to source SecretRef markers",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:790",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] notifies in-process reloaders with resolved source config when persisted env refs are restored",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:884] notifies in-process reloaders with resolved source config when persisted env refs are restored",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:884",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-config.test.ts] notifies in-process reloaders with canonical post-write source config",
+TEST_CASE("v4.29 [src/config/io.write-config.test.ts:972] notifies in-process reloaders with canonical post-write source config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-config.test.ts:972",
                "upstream it() block #17",

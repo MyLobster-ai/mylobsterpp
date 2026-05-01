@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.send-config.test.ts] passes cfg through the no-models slash reply send path",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.send-config.test.ts:211] passes cfg through the no-models slash reply send path",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.send-config.test.ts:211",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.send-config.test.ts] does not rely on Set.has for command token validation",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.send-config.test.ts:241] does not rely on Set.has for command token validation",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.send-config.test.ts:241",
                "upstream it() block #1",

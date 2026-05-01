@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/i18n/registry.test.ts] lists supported locales",
+TEST_CASE("v4.29 [src/i18n/registry.test.ts:45] lists supported locales",
           "[v4_29][parity_gap][i18n]") {
     PARITY_GAP("src/i18n/registry.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/i18n/registry.test.ts] resolves browser locale fallbacks",
+TEST_CASE("v4.29 [src/i18n/registry.test.ts:72] resolves browser locale fallbacks",
           "[v4_29][parity_gap][i18n]") {
     PARITY_GAP("src/i18n/registry.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/i18n/registry.test.ts] loads lazy locale translations from the registry",
+TEST_CASE("v4.29 [src/i18n/registry.test.ts:96] loads lazy locale translations from the registry",
           "[v4_29][parity_gap][i18n]") {
     PARITY_GAP("src/i18n/registry.test.ts:96",
                "upstream it() block #2",

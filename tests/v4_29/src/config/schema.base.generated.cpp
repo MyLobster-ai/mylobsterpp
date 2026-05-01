@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts] matches the computed base config schema payload",
+TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts:7] matches the computed base config schema payload",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.base.generated.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts] includes explicit URL-secret tags for sensitive URL fields",
+TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts:15] includes explicit URL-secret tags for sensitive URL fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.base.generated.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts] omits legacy hooks.internal.handlers from the public schema payload",
+TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts:24] omits legacy hooks.internal.handlers from the public schema payload",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.base.generated.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts] includes videoGenerationModel in the public schema payload",
+TEST_CASE("v4.29 [src/config/schema.base.generated.test.ts:44] includes videoGenerationModel in the public schema payload",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.base.generated.test.ts:44",
                "upstream it() block #3",

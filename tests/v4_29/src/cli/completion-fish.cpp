@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/completion-fish.test.ts] escapes single quotes in descriptions",
+TEST_CASE("v4.29 [src/cli/completion-fish.test.ts:9] escapes single quotes in descriptions",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-fish.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-fish.test.ts] builds a subcommand completion line",
+TEST_CASE("v4.29 [src/cli/completion-fish.test.ts:13] builds a subcommand completion line",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-fish.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-fish.test.ts] builds option line with short and long flags",
+TEST_CASE("v4.29 [src/cli/completion-fish.test.ts:25] builds option line with short and long flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-fish.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-fish.test.ts] builds option line with long-only flags",
+TEST_CASE("v4.29 [src/cli/completion-fish.test.ts:37] builds option line with long-only flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-fish.test.ts:37",
                "upstream it() block #3",

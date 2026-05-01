@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/kimi-coding/provider-catalog.test.ts] builds the bundled Kimi coding defaults",
+TEST_CASE("v4.29 [extensions/kimi-coding/provider-catalog.test.ts:5] builds the bundled Kimi coding defaults",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/provider-catalog.test.ts:5",
                "upstream it() block #0",

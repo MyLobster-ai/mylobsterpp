@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] loads assistant identity from the bootstrap endpoint",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:8] loads assistant identity from the bootstrap endpoint",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] can refresh runtime bootstrap settings without clobbering session identity",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:61] can refresh runtime bootstrap settings without clobbering session identity",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] does not apply default-agent bootstrap identity to an active non-default session",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:104] does not apply default-agent bootstrap identity to an active non-default session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] keeps local assistant avatar override when default-agent bootstrap identity is skipped",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:148] keeps local assistant avatar override when default-agent bootstrap identity is skipped",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] ignores failures",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:196] ignores failures",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:196",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] normalizes trailing slash basePath for bootstrap fetch path",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:224] normalizes trailing slash basePath for bootstrap fetch path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:224",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] includes the configured auth token on bootstrap fetches",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:249] includes the configured auth token on bootstrap fetches",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:249",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] retries with the alternate shared-secret credential when the first returns 401",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:281] retries with the alternate shared-secret credential when the first returns 401",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:281",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] stops retrying on non-auth errors",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:330] stops retrying on non-auth errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:330",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts] does not attach auth headers to protocol-relative bootstrap URLs",
+TEST_CASE("v4.29 [ui/src/ui/controllers/control-ui-bootstrap.test.ts:355] does not attach auth headers to protocol-relative bootstrap URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/control-ui-bootstrap.test.ts:355",
                "upstream it() block #9",

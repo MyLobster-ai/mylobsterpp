@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] rejects local paths when mediaLocalRoots is not configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:159] rejects local paths when mediaLocalRoots is not configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:159",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] rejects local paths outside configured mediaLocalRoots",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:171] rejects local paths outside configured mediaLocalRoots",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:171",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] allows local paths that are explicitly configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:184] allows local paths that are explicitly configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:184",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] allows file:// media paths and file:// local roots",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:201] allows file:// media paths and file:// local roots",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:201",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] rejects remote-host file:// media paths",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:216] rejects remote-host file:// media paths",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] rejects remote-host file:// mediaLocalRoots entries",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:226] rejects remote-host file:// mediaLocalRoots entries",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] uses account-specific mediaLocalRoots over top-level roots",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:240] uses account-specific mediaLocalRoots over top-level roots",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:240",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] rejects symlink escapes under an allowed root",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:276] rejects symlink escapes under an allowed root",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:276",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] rejects relative mediaLocalRoots entries",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:297] rejects relative mediaLocalRoots entries",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:297",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] keeps remote URL flow unchanged",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:314] keeps remote URL flow unchanged",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:314",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts] passes asVoice through to attachment delivery",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/media-send.test.ts:327] passes asVoice through to attachment delivery",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/media-send.test.ts:327",
                "upstream it() block #10",

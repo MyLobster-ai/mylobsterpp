@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] returns default account id when no accounts are configured",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:34] returns default account id when no accounts are configured",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] returns sorted configured account ids",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:38] returns sorted configured account ids",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] uses configured defaultAccount when present",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:54] uses configured defaultAccount when present",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] falls back to default account when configured defaultAccount is missing",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:70] falls back to default account when configured defaultAccount is missing",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] falls back to first sorted configured account when default is absent",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:86] falls back to first sorted configured account when default is absent",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] resolves sync account by merging base + account config",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:101] resolves sync account by merging base + account config",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:127] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:127",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] resolves account config when account key casing differs from normalized id",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:148] resolves account config when account key casing differs from normalized id",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:148",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] defaults group policy to allowlist when unset",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:166] defaults group policy to allowlist when unset",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:166",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] resolves profile precedence correctly",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:179] resolves profile precedence correctly",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:179",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] uses explicit profile from config over env fallback",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:201] uses explicit profile from config over env fallback",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:201",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] checks authentication during async account resolution",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:218] checks authentication during async account resolution",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:218",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] filters disabled accounts when listing enabled accounts",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:235] filters disabled accounts when listing enabled accounts",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:235",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts] maps account info helper from zalo-js",
+TEST_CASE("v4.29 [extensions/zalouser/src/accounts.test.ts:252] maps account info helper from zalo-js",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/accounts.test.ts:252",
                "upstream it() block #13",

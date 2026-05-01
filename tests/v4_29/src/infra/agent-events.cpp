@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] stores and clears run context",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:26] stores and clears run context",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] maintains monotonic seq per runId",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:33] maintains monotonic seq per runId",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] preserves compaction ordering on the event bus",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:52] preserves compaction ordering on the event bus",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] omits sessionKey for non-lifecycle runs hidden from Control UI",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:78] omits sessionKey for non-lifecycle runs hidden from Control UI",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] preserves sessionKey for lifecycle events hidden from Control UI",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:100] preserves sessionKey for lifecycle events hidden from Control UI",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:100",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] falls back to registered sessionKey for hidden lifecycle events",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:122] falls back to registered sessionKey for hidden lifecycle events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] merges later run context updates into existing runs",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:143] merges later run context updates into existing runs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:143",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] falls back to registered sessionKey when event sessionKey is blank",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:164] falls back to registered sessionKey when event sessionKey is blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:164",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] keeps notifying later listeners when one throws",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:183] keeps notifying later listeners when one throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:183",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] shares run context, listeners, and sequence state across duplicate module instances",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:206] shares run context, listeners, and sequence state across duplicate module instances",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:206",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] sweeps stale run contexts and clears their sequence state",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:244] sweeps stale run contexts and clears their sequence state",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:244",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/agent-events.test.ts] clearAgentRunContext also cleans up seqByRun to prevent memory leak (#63643)",
+TEST_CASE("v4.29 [src/infra/agent-events.test.ts:281] clearAgentRunContext also cleans up seqByRun to prevent memory leak (#63643)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/agent-events.test.ts:281",
                "upstream it() block #11",

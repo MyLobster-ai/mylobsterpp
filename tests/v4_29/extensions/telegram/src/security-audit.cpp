@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts] flags group commands without a sender allowlist",
+TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts:40] flags group commands without a sender allowlist",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/security-audit.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts] warns when allowFrom entries are non-numeric legacy @username configs",
+TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts:68] warns when allowFrom entries are non-numeric legacy @username configs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/security-audit.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts] warns about invalid DM allowFrom entries even when groups are not enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts:97] warns about invalid DM allowFrom entries even when groups are not enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/security-audit.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts] warns about invalid DM allowFrom entries when text commands are disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/security-audit.test.ts:125] warns about invalid DM allowFrom entries when text commands are disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/security-audit.test.ts:125",
                "upstream it() block #3",

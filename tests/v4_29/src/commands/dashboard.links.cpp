@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] opens and copies the dashboard link by default",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:78] opens and copies the dashboard link by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] never logs the gateway token in the dashboard URL (CVE regression)",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:101] never logs the gateway token in the dashboard URL (CVE regression)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] prints SSH hint when browser cannot open",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:129] prints SSH hint when browser cannot open",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] never passes token to SSH hint (CVE regression — SSH path)",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:144] never passes token to SSH hint (CVE regression — SSH path)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:144",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] respects --no-open and tells user token URL is in clipboard",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:169] respects --no-open and tells user token URL is in clipboard",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:169",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] respects --no-open with plain URL hint when clipboard fails",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:182] respects --no-open with plain URL hint when clipboard fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] prints non-tokenized URL with guidance when token SecretRef is unresolved",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:193] prints non-tokenized URL with guidance when token SecretRef is unresolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:193",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] keeps URL non-tokenized when token SecretRef is unresolved but env fallback exists",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:218] keeps URL non-tokenized when token SecretRef is unresolved but env fallback exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:218",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts] keeps URL non-tokenized when env-template gateway.auth.token is unresolved",
+TEST_CASE("v4.29 [src/commands/dashboard.links.test.ts:242] keeps URL non-tokenized when env-template gateway.auth.token is unresolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/dashboard.links.test.ts:242",
                "upstream it() block #8",

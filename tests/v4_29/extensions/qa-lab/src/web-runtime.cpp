@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/web-runtime.test.ts] opens, interacts with, snapshots, and closes a page",
+TEST_CASE("v4.29 [extensions/qa-lab/src/web-runtime.test.ts:90] opens, interacts with, snapshots, and closes a page",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/web-runtime.test.ts:90",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/web-runtime.test.ts] can close only selected page sessions",
+TEST_CASE("v4.29 [extensions/qa-lab/src/web-runtime.test.ts:119] can close only selected page sessions",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/web-runtime.test.ts:119",
                "upstream it() block #1",

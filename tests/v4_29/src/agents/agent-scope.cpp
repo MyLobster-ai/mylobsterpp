@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should return undefined when no agents config exists",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:29] should return undefined when no agents config exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should return undefined when agent id does not exist",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:35] should return undefined when agent id does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should return basic agent config",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:45] should return basic agent config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] prefers per-agent verbose defaults over global defaults",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:74] prefers per-agent verbose defaults over global defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] merges contextLimits from defaults with per-agent overrides",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:91] merges contextLimits from defaults with per-agent overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] resolves explicit and effective model primary separately",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:122] resolves explicit and effective model primary separately",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] supports per-agent model primary+fallbacks",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:159] supports per-agent model primary+fallbacks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:159",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] updates the effective model primary at the winning config layer",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:330] updates the effective model primary at the winning config layer",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:330",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] resolves fallback agent id from explicit agent id first",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:383] resolves fallback agent id from explicit agent id first",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:383",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] resolves fallback agent id from session key when explicit id is missing",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:392] resolves fallback agent id from session key when explicit id is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:392",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] resolves run fallback overrides via shared helper",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:400] resolves run fallback overrides via shared helper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:400",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] computes whether any model fallbacks are configured via shared helper",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:435] computes whether any model fallbacks are configured via shared helper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:435",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should return agent-specific sandbox config",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:486] should return agent-specific sandbox config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:486",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should return agent-specific tools config",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:514] should return agent-specific tools config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:514",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should return both sandbox and tools config",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:544] should return both sandbox and tools config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:544",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] should normalize agent id",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:568] should normalize agent id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:568",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] uses OPENCLAW_HOME for default agent workspace",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:580] uses OPENCLAW_HOME for default agent workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:580",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] uses OPENCLAW_HOME for default agentDir",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:588] uses OPENCLAW_HOME for default agentDir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:588",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] non-default agent uses agents.defaults.workspace as base (#59789)",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:598] non-default agent uses agents.defaults.workspace as base (#59789)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:598",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] default agent without per-agent workspace uses agents.defaults.workspace directly",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:609] default agent without per-agent workspace uses agents.defaults.workspace directly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:609",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] non-default agent without defaults.workspace falls back to stateDir",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:620] non-default agent without defaults.workspace falls back to stateDir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:620",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] returns the most specific workspace match for a directory",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:634] returns the most specific workspace match for a directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:634",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] returns undefined when directory has no matching workspace",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:649] returns undefined when directory has no matching workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:649",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] matches workspace paths through symlink aliases",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:665] matches workspace paths through symlink aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:665",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] returns matching workspaces ordered by specificity",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:700] returns matching workspaces ordered by specificity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:700",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] inherits agents.defaults.skills when the agent omits skills",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:723] inherits agents.defaults.skills when the agent omits skills",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:723",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] uses agents.list[].skills as a full replacement",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:736] uses agents.list[].skills as a full replacement",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:736",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-scope.test.ts] keeps explicit empty agent skills as no skills",
+TEST_CASE("v4.29 [src/agents/agent-scope.test.ts:749] keeps explicit empty agent skills as no skills",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-scope.test.ts:749",
                "upstream it() block #27",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] returns undefined when no policy contributes values",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:135] returns undefined when no policy contributes values",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:135",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] merges boolean flags and dedupes host allowlists",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:139] merges boolean flags and dedupes host allowlists",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:139",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] detects the flat allowPrivateNetwork alias",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:167] detects the flat allowPrivateNetwork alias",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:167",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] migrates the flat alias into network.dangerouslyAllowPrivateNetwork",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:172] migrates the flat alias into network.dangerouslyAllowPrivateNetwork",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:172",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] prefers the canonical network key when both old and new keys are present",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:190] prefers the canonical network key when both old and new keys are present",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:190",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] keeps an explicit canonical true when the legacy key is false",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:211] keeps an explicit canonical true when the legacy key is false",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts] prefers the canonical flag when both canonical and legacy flags are present",
+TEST_CASE("v4.29 [src/plugin-sdk/ssrf-policy.test.ts:274] prefers the canonical flag when both canonical and legacy flags are present",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/ssrf-policy.test.ts:274",
                "upstream it() block #6",

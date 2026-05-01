@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] uses a single fresh scenario for plain stable releases",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:26] uses a single fresh scenario for plain stable releases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] adds a stable-to-correction upgrade scenario for correction releases",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:36] adds a stable-to-correction upgrade scenario for correction releases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] runs lifecycle scripts for published install verification",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:53] runs lifecycle scripts for published install verification",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] flags version mismatches and missing runtime sidecars",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:70] flags version mismatches and missing runtime sidecars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] rejects packaged bundles with unresolved legacy context engine runtime loaders",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:99] rejects packaged bundles with unresolved legacy context engine runtime loaders",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:99",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] accepts packaged bundles that inline the legacy context engine registration",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:118] accepts packaged bundles that inline the legacy context engine registration",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:118",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] accepts decorated CLI version output",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:137] accepts decorated CLI version output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:137",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] uses the Unix global bin path on non-Windows platforms",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:146] uses the Unix global bin path on non-Windows platforms",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:146",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] uses the Windows npm shim path on win32",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:152] uses the Windows npm shim path on win32",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:152",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] flags bundled plugin deps imported by root dist when root mirrors are missing",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:204] flags bundled plugin deps imported by root dist when root mirrors are missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:204",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] allows bundled plugin deps imported from their own extension dist without root mirrors",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:218] allows bundled plugin deps imported from their own extension dist without root mirrors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:218",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] allows bundled plugin deps imported from root chunks sourced from their extension",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:233] allows bundled plugin deps imported from root chunks sourced from their extension",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:233",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] does not require root mirrors for extension-only Matrix crypto deps",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:248] does not require root mirrors for extension-only Matrix crypto deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:248",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] accepts mirrored root dependencies declared in package optionalDependencies",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:274] accepts mirrored root dependencies declared in package optionalDependencies",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:274",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] does not compare root mirror dependency versions",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:307] does not compare root mirror dependency versions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:307",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] flags malformed bundled extension manifests instead of silently skipping them",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:325] flags malformed bundled extension manifests instead of silently skipping them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:325",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] flags bundled extension directories that are missing package.json",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:348] flags bundled extension directories that are missing package.json",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:348",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] skips manifest-only sidecar directories without package.json",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:366] skips manifest-only sidecar directories without package.json",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:366",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] accepts legacy qa channel sidecar directories without package.json",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:384] accepts legacy qa channel sidecar directories without package.json",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:384",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] rejects bundled extension manifests that are not regular files",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:405] rejects bundled extension manifests that are not regular files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:405",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] flags root dist imports whose declared runtime package name is missing",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:449] flags root dist imports whose declared runtime package name is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:449",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] accepts root dist imports when the runtime package name is declared",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:472] accepts root dist imports when the runtime package name is declared",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:472",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] flags undeclared imports from mjs and cjs root dist files",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:495] flags undeclared imports from mjs and cjs root dist files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:495",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] ignores import-like text inside comments",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:524] ignores import-like text inside comments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:524",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] ignores import-like text inside string literals",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:550] ignores import-like text inside string literals",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:550",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] returns a structured error when installed package.json is invalid",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:575] returns a structured error when installed package.json is invalid",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:575",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts] refuses oversized root dist files",
+TEST_CASE("v4.29 [test/openclaw-npm-postpublish-verify.test.ts:590] refuses oversized root dist files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-postpublish-verify.test.ts:590",
                "upstream it() block #26",

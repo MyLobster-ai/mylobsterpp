@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/errors.test.ts] walks nested error graphs once in breadth-first order",
+TEST_CASE("v4.29 [src/infra/errors.test.ts:37] walks nested error graphs once in breadth-first order",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/errors.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/errors.test.ts] matches errno-shaped errors by code",
+TEST_CASE("v4.29 [src/infra/errors.test.ts:56] matches errno-shaped errors by code",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/errors.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/errors.test.ts] traverses .cause chain to include nested error messages",
+TEST_CASE("v4.29 [src/infra/errors.test.ts:72] traverses .cause chain to include nested error messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/errors.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/errors.test.ts] handles circular .cause references without infinite loop",
+TEST_CASE("v4.29 [src/infra/errors.test.ts:82] handles circular .cause references without infinite loop",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/errors.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/errors.test.ts] redacts sensitive tokens from formatted error messages",
+TEST_CASE("v4.29 [src/infra/errors.test.ts:91] redacts sensitive tokens from formatted error messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/errors.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/errors.test.ts] uses message-only formatting for INVALID_CONFIG and stack formatting otherwise",
+TEST_CASE("v4.29 [src/infra/errors.test.ts:127] uses message-only formatting for INVALID_CONFIG and stack formatting otherwise",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/errors.test.ts:127",
                "upstream it() block #5",

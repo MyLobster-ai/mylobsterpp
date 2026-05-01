@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] renders inputs and patches values",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:38] renders inputs and patches values",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] keeps dropdown selects on their configured value after options render",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:101] keeps dropdown selects on their configured value after options render",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] renders map fields from additionalProperties",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:145] renders map fields from additionalProperties",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:145",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] supports wildcard uiHints for map entries",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:177] supports wildcard uiHints for map entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:177",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] renders tags from uiHints metadata",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:216] renders tags from uiHints metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] supports SecretInput unions in additionalProperties maps",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:259] supports SecretInput unions in additionalProperties maps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:259",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] accepts renderable unions",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:339] accepts renderable unions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:339",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts] treats additionalProperties true as editable map fields",
+TEST_CASE("v4.29 [ui/src/ui/config-form.browser.test.ts:381] treats additionalProperties true as editable map fields",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/config-form.browser.test.ts:381",
                "upstream it() block #7",

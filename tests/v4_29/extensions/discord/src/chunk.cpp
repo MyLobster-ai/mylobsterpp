@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] splits tall messages even when under 2000 chars",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:6] splits tall messages even when under 2000 chars",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] keeps fenced code blocks balanced across chunks",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:17] keeps fenced code blocks balanced across chunks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] keeps fenced blocks intact when chunkMode is newline",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:33] keeps fenced blocks intact when chunkMode is newline",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] reserves space for closing fences when chunking",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:43] reserves space for closing fences when chunking",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] preserves whitespace when splitting long lines",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:55] preserves whitespace when splitting long lines",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:55",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] preserves mixed whitespace across chunk boundaries",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:62] preserves mixed whitespace across chunk boundaries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] keeps leading whitespace when splitting long lines",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:69] keeps leading whitespace when splitting long lines",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:69",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] uses CJK punctuation as a safe long-line split point",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:76] uses CJK punctuation as a safe long-line split point",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:76",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] still prefers whitespace before CJK punctuation",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:84] still prefers whitespace before CJK punctuation",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:84",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] does not split surrogate pairs at hard fallback boundaries",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:92] does not split surrogate pairs at hard fallback boundaries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:92",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] keeps reasoning italics balanced across chunks",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:100] keeps reasoning italics balanced across chunks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:100",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] keeps reasoning italics balanced when chunks split by char limit",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:119] keeps reasoning italics balanced when chunks split by char limit",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:119",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts] reopens italics while preserving leading whitespace on following chunk",
+TEST_CASE("v4.29 [extensions/discord/src/chunk.test.ts:133] reopens italics while preserving leading whitespace on following chunk",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/chunk.test.ts:133",
                "upstream it() block #12",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] records inbound session before dispatching delivery",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:53] records inbound session before dispatching delivery",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] runs prepared dispatches after recording session metadata",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:88] runs prepared dispatches after recording session metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] suppresses direct prepared dispatches for observe-only admission",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:130] suppresses direct prepared dispatches for observe-only admission",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] clears pending group history after a successful prepared turn",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:164] clears pending group history after a successful prepared turn",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:164",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] cleans up pre-created dispatchers when session recording fails",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:188] cleans up pre-created dispatchers when session recording fails",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] normalizes visible dispatch checks",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:223] normalizes visible dispatch checks",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] drops when ingest returns null",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:249] drops when ingest returns null",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:249",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] handles non-turn event classes without dispatch",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:265] handles non-turn event classes without dispatch",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:265",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] stops on preflight admission drops",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:282] stops on preflight admission drops",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:282",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] runs observe-only preflights through resolve, record, dispatch, and finalize without visible delivery",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:303] runs observe-only preflights through resolve, record, dispatch, and finalize without visible delivery",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:303",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] runs custom prepared dispatch from a full turn adapter",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:347] runs custom prepared dispatch from a full turn adapter",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:347",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] suppresses prepared dispatch for observe-only full turns",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:379] suppresses prepared dispatch for observe-only full turns",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:379",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts] finalizes failed dispatches before rethrowing",
+TEST_CASE("v4.29 [src/channels/turn/kernel.test.ts:423] finalizes failed dispatches before rethrowing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/kernel.test.ts:423",
                "upstream it() block #12",

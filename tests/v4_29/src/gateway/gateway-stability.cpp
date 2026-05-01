@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/gateway-stability.test.ts] keeps diagnostics bounded and queues drained under synthetic gateway churn",
+TEST_CASE("v4.29 [src/gateway/gateway-stability.test.ts:110] keeps diagnostics bounded and queues drained under synthetic gateway churn",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-stability.test.ts:110",
                "upstream it() block #0",

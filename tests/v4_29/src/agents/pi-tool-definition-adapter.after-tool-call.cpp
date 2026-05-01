@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.test.ts] does not fire after_tool_call from the adapter (handled by subscription handler)",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.test.ts:77] does not fire after_tool_call from the adapter (handled by subscription handler)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.test.ts] does not fire after_tool_call from the adapter on error",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.test.ts:88] does not fire after_tool_call from the adapter on error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.test.ts] does not consume adjusted params in adapter for wrapped tools",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.test.ts:109] does not consume adjusted params in adapter for wrapped tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.test.ts:109",
                "upstream it() block #2",

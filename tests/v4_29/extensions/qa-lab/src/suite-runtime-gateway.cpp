@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts] reads retry-after from the primary gateway error before appended logs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts:10] reads retry-after from the primary gateway error before appended logs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-gateway.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts] ignores stale retry-after text that only appears in appended gateway logs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts:19] ignores stale retry-after text that only appears in appended gateway logs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-gateway.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts] detects cleanup config patches that would not change the snapshot",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts:28] detects cleanup config patches that would not change the snapshot",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-gateway.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts] keeps changed merge patches eligible for the gateway",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts:50] keeps changed merge patches eligible for the gateway",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-gateway.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts] detects full config applies that only differ by gateway-written metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts:67] detects full config applies that only differ by gateway-written metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-gateway.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts] keeps changed full config applies eligible for the gateway",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-gateway.test.ts:93] keeps changed full config applies eligible for the gateway",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-gateway.test.ts:93",
                "upstream it() block #5",

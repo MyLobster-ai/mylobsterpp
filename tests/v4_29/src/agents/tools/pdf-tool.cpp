@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] returns null without agentDir and no explicit config",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:144] returns null without agentDir and no explicit config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:144",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] throws when agentDir missing but explicit config present",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:148] throws when agentDir missing but explicit config present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:148",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] creates tool when a PDF model is configured",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:154] creates tool when a PDF model is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:154",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] rejects when no pdf input provided",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:162] rejects when no pdf input provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:162",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] rejects too many PDFs",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:168] rejects too many PDFs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:168",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] respects fsPolicy.workspaceOnly for non-sandbox pdf paths",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:178] respects fsPolicy.workspaceOnly for non-sandbox pdf paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:178",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] rejects unsupported scheme references",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:206] rejects unsupported scheme references",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:206",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] resolves media://inbound PDF refs",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:218] resolves media://inbound PDF refs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:218",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] passes web_fetch SSRF policy when loading remote PDFs",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:255] passes web_fetch SSRF policy when loading remote PDFs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:255",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] allows managed inbound absolute PDF paths when workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:288] allows managed inbound absolute PDF paths when workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:288",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] uses native PDF path without eager extraction",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:316] uses native PDF path without eager extraction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:316",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] rejects pages parameter for native PDF providers",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:337] rejects pages parameter for native PDF providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:337",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] uses extraction fallback for non-native models",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:353] uses extraction fallback for non-native models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:353",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts] tool parameters have correct schema shape",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.test.ts:382] tool parameters have correct schema shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.test.ts:382",
                "upstream it() block #13",

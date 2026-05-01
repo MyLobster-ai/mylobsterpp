@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store-cache.test.ts] recomputes runtime-only external auth overlays even while the base store is cached",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store-cache.test.ts:99] recomputes runtime-only external auth overlays even while the base store is cached",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store-cache.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store-cache.test.ts] refreshes the cached auth store after auth-profiles.json changes",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store-cache.test.ts:115] refreshes the cached auth store after auth-profiles.json changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store-cache.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store-cache.test.ts] keeps runtime-only external auth out of persisted auth-profiles.json files",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store-cache.test.ts:133] keeps runtime-only external auth out of persisted auth-profiles.json files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store-cache.test.ts:133",
                "upstream it() block #2",

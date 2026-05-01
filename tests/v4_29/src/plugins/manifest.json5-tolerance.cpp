@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] parses a standard JSON manifest without issues",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:25] parses a standard JSON manifest without issues",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] uses native JSON parsing for standard JSON manifests",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:43] uses native JSON parsing for standard JSON manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] reuses unchanged manifest loads by file signature",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:61] reuses unchanged manifest loads by file signature",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] parses a manifest with trailing commas",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:81] parses a manifest with trailing commas",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] parses a manifest with single-line comments",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:100] parses a manifest with single-line comments",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:100",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] parses a manifest with unquoted property names",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:115] parses a manifest with unquoted property names",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] normalizes modelSupport metadata from the manifest",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:129] normalizes modelSupport metadata from the manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:129",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] normalizes activation and setup descriptor metadata from the manifest",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:150] normalizes activation and setup descriptor metadata from the manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:150",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] still rejects completely invalid syntax",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:202] still rejects completely invalid syntax",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:202",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] rejects JSON5 values that parse but are not objects",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:212] rejects JSON5 values that parse but are not objects",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:212",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts] rejects oversized manifests before parsing",
+TEST_CASE("v4.29 [src/plugins/manifest.json5-tolerance.test.ts:222] rejects oversized manifests before parsing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest.json5-tolerance.test.ts:222",
                "upstream it() block #10",

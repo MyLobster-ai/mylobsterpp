@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes heartbeatModelOverride from defaults heartbeat config",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:168] passes heartbeatModelOverride from defaults heartbeat config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:168",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes suppressToolErrorWarnings when configured",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:179] passes suppressToolErrorWarnings when configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:179",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes heartbeat timeoutSeconds as a reply-run timeout override",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:189] passes heartbeat timeoutSeconds as a reply-run timeout override",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:189",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes bootstrapContextMode when heartbeat lightContext is enabled",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:199] passes bootstrapContextMode when heartbeat lightContext is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:199",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] uses isolated session key when isolatedSession is enabled",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:209] uses isolated session key when isolatedSession is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:209",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] uses main session key when isolatedSession is not set",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:238] uses main session key when isolatedSession is not set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes per-agent heartbeat model override (merged with defaults)",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:265] passes per-agent heartbeat model override (merged with defaults)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:265",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes per-agent heartbeat lightContext override after merging defaults",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:275] passes per-agent heartbeat lightContext override after merging defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:275",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] passes per-agent heartbeat timeout override after merging defaults",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:285] passes per-agent heartbeat timeout override after merging defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:285",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] does not pass heartbeatModelOverride when no heartbeat model is configured",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:295] does not pass heartbeatModelOverride when no heartbeat model is configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:295",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts] trims heartbeat model override before passing it downstream",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.model-override.test.ts:304] trims heartbeat model override before passing it downstream",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.model-override.test.ts:304",
                "upstream it() block #10",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/control-plane-rate-limit.test.ts] pruneStaleControlPlaneBuckets removes expired buckets (#63643)",
+TEST_CASE("v4.29 [src/gateway/control-plane-rate-limit.test.ts:13] pruneStaleControlPlaneBuckets removes expired buckets (#63643)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-plane-rate-limit.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-plane-rate-limit.test.ts] pruneStaleControlPlaneBuckets is safe on empty map",
+TEST_CASE("v4.29 [src/gateway/control-plane-rate-limit.test.ts:37] pruneStaleControlPlaneBuckets is safe on empty map",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-plane-rate-limit.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-plane-rate-limit.test.ts] control-plane bucket map stays bounded between prune sweeps",
+TEST_CASE("v4.29 [src/gateway/control-plane-rate-limit.test.ts:41] control-plane bucket map stays bounded between prune sweeps",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-plane-rate-limit.test.ts:41",
                "upstream it() block #2",

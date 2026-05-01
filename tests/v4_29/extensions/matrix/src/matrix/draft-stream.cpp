@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] sends a normal text preview on first partial update",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:194] sends a normal text preview on first partial update",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:194",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] sends quiet preview notices when quiet mode is enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:211] sends quiet preview notices when quiet mode is enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:211",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] edits the message on subsequent quiet updates",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:229] edits the message on subsequent quiet updates",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:229",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] coalesces rapid quiet updates within throttle window",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:255] coalesces rapid quiet updates within throttle window",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:255",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] skips no-op updates",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:281] skips no-op updates",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:281",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] ignores updates after stop",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:300] ignores updates after stop",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:300",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] stop returns the event ID",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:316] stop returns the event ID",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:316",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] stop does not finalize live drafts on its own",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:328] stop does not finalize live drafts on its own",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:328",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] finalizeLive clears the live marker at most once",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:343] finalizeLive clears the live marker at most once",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:343",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] marks live finalize failures for normal final delivery fallback",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:361] marks live finalize failures for normal final delivery fallback",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:361",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] reset allows reuse for next block",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:378] reset allows reuse for next block",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:378",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] stops retrying after send failure",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:400] stops retrying after send failure",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:400",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] skips empty/whitespace text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:428] skips empty/whitespace text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:428",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] stops on edit failure mid-stream",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:441] stops on edit failure mid-stream",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:441",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] bypasses newline chunking for the draft preview message",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:472] bypasses newline chunking for the draft preview message",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:472",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] falls back to normal delivery when preview text exceeds one Matrix event",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:489] falls back to normal delivery when preview text exceeds one Matrix event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:489",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] discardPending cancels pending updates without creating another preview event",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:509] discardPending cancels pending updates without creating another preview event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:509",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts] uses converted Matrix text when checking the single-event preview limit",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/draft-stream.test.ts:527] uses converted Matrix text when checking the single-event preview limit",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/draft-stream.test.ts:527",
                "upstream it() block #17",

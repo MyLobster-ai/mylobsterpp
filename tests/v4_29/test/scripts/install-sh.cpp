@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] runs apt-get through noninteractive wrappers",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:23] runs apt-get through noninteractive wrappers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] exports noninteractive apt env during Linux startup",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:37] exports noninteractive apt env during Linux startup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] loads nvm before checking Node.js so stale system Node does not win",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:46] loads nvm before checking Node.js so stale system Node does not win",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] warns before redirecting an unwritable npm prefix",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:112] warns before redirecting an unwritable npm prefix",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] stops when Homebrew node installation fails",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:169] stops when Homebrew node installation fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:169",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] aborts before brew link when Homebrew node installation fails at runtime",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:184] aborts before brew link when Homebrew node installation fails at runtime",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:184",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] separates missing Homebrew node from PATH shadowing",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:207] separates missing Homebrew node from PATH shadowing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] does not print PATH advice when Homebrew node is missing at runtime",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:221] does not print PATH advice when Homebrew node is missing at runtime",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:221",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] falls back when gum reports raw-mode ioctl failures",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:249] falls back when gum reports raw-mode ioctl failures",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:249",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] reruns spinner-wrapped commands when gum reports ioctl failure",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:263] reruns spinner-wrapped commands when gum reports ioctl failure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:263",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] warns with concrete package paths and versions for duplicate npm roots",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:299] warns with concrete package paths and versions for duplicate npm roots",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:299",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-sh.test.ts] stays quiet when only one OpenClaw npm root exists",
+TEST_CASE("v4.29 [test/scripts/install-sh.test.ts:324] stays quiet when only one OpenClaw npm root exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-sh.test.ts:324",
                "upstream it() block #11",

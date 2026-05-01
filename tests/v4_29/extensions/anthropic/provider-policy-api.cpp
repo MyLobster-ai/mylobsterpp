@@ -1,4 +1,4 @@
-// MYLOBSTERPP_HAND_AUTHORED
+// MYLOBSTERPP_HANDWRITTEN_TEST
 // v2026.4.29 parity: extensions/anthropic/provider-policy-api.test.ts
 //
 // Upstream tests cover the public artifact (provider-policy-api.ts) that core

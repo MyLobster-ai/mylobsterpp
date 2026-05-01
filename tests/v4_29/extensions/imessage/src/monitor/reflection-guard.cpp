@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] returns false for empty text",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:5] returns false for empty text",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] returns false for normal user text",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:9] returns false for normal user text",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] detects +#+#+#+# separator pattern",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:15] detects +#+#+#+# separator pattern",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] detects assistant to=final marker",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:21] detects assistant to=final marker",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:21",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] detects <thinking> tags",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:27] detects <thinking> tags",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:27",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] detects <thought> tags",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:33] detects <thought> tags",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:33",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] detects <relevant_memories> tags",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:39] detects <relevant_memories> tags",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:39",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] detects <final> tags",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:45] detects <final> tags",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:45",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] returns multiple matched labels for combined markers",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:51] returns multiple matched labels for combined markers",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:51",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] ignores reflection markers inside inline code",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:58] ignores reflection markers inside inline code",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:58",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] ignores reflection markers inside fenced code blocks",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:66] ignores reflection markers inside fenced code blocks",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:66",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] still flags markers that appear outside code blocks",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:80] still flags markers that appear outside code blocks",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:80",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] does not flag normal code discussion about thinking",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:88] does not flag normal code discussion about thinking",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:88",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] flags ",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:93] flags ",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:93",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] does not flag partial tag without closing bracket",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:98] does not flag partial tag without closing bracket",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:98",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts] does not flag ",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/reflection-guard.test.ts:103] does not flag ",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/reflection-guard.test.ts:103",
                "upstream it() block #15",

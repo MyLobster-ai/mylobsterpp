@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/target-registry.fast-path.test.ts] resolves bundled channel targets by explicit channel id without manifest scans",
+TEST_CASE("v4.29 [src/secrets/target-registry.fast-path.test.ts:53] resolves bundled channel targets by explicit channel id without manifest scans",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry.fast-path.test.ts:53",
                "upstream it() block #0",

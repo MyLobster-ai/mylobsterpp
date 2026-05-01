@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/model-overrides.test.ts] passes channel kind to plugin-owned parent fallback resolution",
+TEST_CASE("v4.29 [src/channels/model-overrides.test.ts:74] passes channel kind to plugin-owned parent fallback resolution",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/model-overrides.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/model-overrides.test.ts] uses plugin-owned parent fallback candidates",
+TEST_CASE("v4.29 [src/channels/model-overrides.test.ts:130] uses plugin-owned parent fallback candidates",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/model-overrides.test.ts:130",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/model-overrides.test.ts] prefers parent conversation ids over channel-name fallbacks",
+TEST_CASE("v4.29 [src/channels/model-overrides.test.ts:184] prefers parent conversation ids over channel-name fallbacks",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/model-overrides.test.ts:184",
                "upstream it() block #2",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts] accepts source files and skips declarations",
+TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts:15] accepts source files and skips declarations",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-file-utils.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts] collects matching files while skipping common generated dirs",
+TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts:23] collects matching files while skipping common generated dirs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-file-utils.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts] supports custom skipped directories",
+TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts:43] supports custom skipped directories",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-file-utils.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts] renders repo-relative paths when possible",
+TEST_CASE("v4.29 [test/scripts/check-file-utils.test.ts:60] renders repo-relative paths when possible",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-file-utils.test.ts:60",
                "upstream it() block #3",

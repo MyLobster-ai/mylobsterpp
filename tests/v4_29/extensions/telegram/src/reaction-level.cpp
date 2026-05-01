@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] defaults to minimal level when reactionLevel is not set",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:55] defaults to minimal level when reactionLevel is not set",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] returns off level with no reactions enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:64] returns off level with no reactions enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] returns ack level with only ackEnabled",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:77] returns ack level with only ackEnabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] returns minimal level with agent reactions enabled and minimal guidance",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:90] returns minimal level with agent reactions enabled and minimal guidance",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] returns extensive level with agent reactions enabled and extensive guidance",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:99] returns extensive level with agent reactions enabled and extensive guidance",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:99",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] resolves reaction level from a specific account",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:108] resolves reaction level from a specific account",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:108",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts] falls back to global level when account has no reactionLevel",
+TEST_CASE("v4.29 [extensions/telegram/src/reaction-level.test.ts:124] falls back to global level when account has no reactionLevel",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/reaction-level.test.ts:124",
                "upstream it() block #6",

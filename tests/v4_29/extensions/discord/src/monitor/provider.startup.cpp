@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts] registers voice plugin listeners after gateway setup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts:137] registers voice plugin listeners after gateway setup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.startup.test.ts:137",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts] waits for gateway registration before creating the supervisor",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts:167] waits for gateway registration before creating the supervisor",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.startup.test.ts:167",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts] configures internal Discord REST options explicitly",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts:205] configures internal Discord REST options explicitly",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.startup.test.ts:205",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts] passes REST timeout options to proxied Discord fetch",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts:238] passes REST timeout options to proxied Discord fetch",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.startup.test.ts:238",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts] propagates gateway registration failures before supervisor startup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.startup.test.ts:267] propagates gateway registration failures before supervisor startup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.startup.test.ts:267",
                "upstream it() block #4",

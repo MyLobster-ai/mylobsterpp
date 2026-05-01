@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts] prefers default Chromium browser on macOS",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts:71] prefers default Chromium browser on macOS",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.default-browser.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts] detects Edge via LaunchServices bundle ID (com.microsoft.edgemac)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts:84] detects Edge via LaunchServices bundle ID (com.microsoft.edgemac)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.default-browser.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts] falls back to Chrome when Edge LaunchServices lookup has no app path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts:130] falls back to Chrome when Edge LaunchServices lookup has no app path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.default-browser.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts] falls back when default browser is non-Chromium on macOS",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.default-browser.test.ts:153] falls back when default browser is non-Chromium on macOS",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.default-browser.test.ts:153",
                "upstream it() block #3",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/terminal/stream-writer.test.ts] signals broken pipes and closes the writer",
+TEST_CASE("v4.29 [src/terminal/stream-writer.test.ts:20] signals broken pipes and closes the writer",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/stream-writer.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/stream-writer.test.ts] treats broken pipes from beforeWrite as closed",
+TEST_CASE("v4.29 [src/terminal/stream-writer.test.ts:40] treats broken pipes from beforeWrite as closed",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/stream-writer.test.ts:40",
                "upstream it() block #1",

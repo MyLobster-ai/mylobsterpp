@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] applies top-level defaults",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:15] applies top-level defaults",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] does not force top-level policy defaults into account config",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:28] does not force top-level policy defaults into account config",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] normalizes legacy groupPolicy allowall to open",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:40] normalizes legacy groupPolicy allowall to open",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] rejects top-level webhook mode without verificationToken",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:48] rejects top-level webhook mode without verificationToken",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] rejects top-level webhook mode without encryptKey",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:58] rejects top-level webhook mode without encryptKey",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts top-level webhook mode with verificationToken and encryptKey",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:69] accepts top-level webhook mode with verificationToken and encryptKey",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:69",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] rejects account webhook mode without verificationToken",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:81] rejects account webhook mode without verificationToken",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:81",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] rejects account webhook mode without encryptKey",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:95] rejects account webhook mode without encryptKey",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:95",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts account webhook mode inheriting top-level verificationToken and encryptKey",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:110] accepts account webhook mode inheriting top-level verificationToken and encryptKey",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:110",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts SecretRef verificationToken in webhook mode",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:126] accepts SecretRef verificationToken in webhook mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:126",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts SecretRef encryptKey in webhook mode",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:146] accepts SecretRef encryptKey in webhook mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:146",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts replyInThread at top level",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:172] accepts replyInThread at top level",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:172",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] defaults replyInThread to undefined when not set",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:177] defaults replyInThread to undefined when not set",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:177",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] rejects invalid replyInThread value",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:182] rejects invalid replyInThread value",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:182",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts replyInThread in group config",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:187] accepts replyInThread in group config",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:187",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts replyInThread in account config",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:192] accepts replyInThread in account config",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:192",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] defaults top-level typingIndicator and resolveSenderNames to true",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:203] defaults top-level typingIndicator and resolveSenderNames to true",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:203",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts account-level optimization flags",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:209] accepts account-level optimization flags",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:209",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts top-level and account-level TTS overrides",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:224] accepts top-level and account-level TTS overrides",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:224",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts top-level reactions action gate",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:263] accepts top-level reactions action gate",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:263",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts account-level reactions action gate",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:270] accepts account-level reactions action gate",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:270",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] accepts defaultAccount when it matches an account key",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:283] accepts defaultAccount when it matches an account key",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:283",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts] rejects defaultAccount when it does not match an account key",
+TEST_CASE("v4.29 [extensions/feishu/src/config-schema.test.ts:294] rejects defaultAccount when it does not match an account key",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/config-schema.test.ts:294",
                "upstream it() block #22",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-warning.test.ts] keeps bootstrap warnings in the sent prompt after hook prepend context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-warning.test.ts:11] keeps bootstrap warnings in the sent prompt after hook prepend context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-warning.test.ts:11",
                "upstream it() block #0",

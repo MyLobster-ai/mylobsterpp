@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/zod-schema.markdown-tables.test.ts] accepts block mode",
+TEST_CASE("v4.29 [src/config/zod-schema.markdown-tables.test.ts:5] accepts block mode",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.markdown-tables.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.markdown-tables.test.ts] rejects unsupported values",
+TEST_CASE("v4.29 [src/config/zod-schema.markdown-tables.test.ts:9] rejects unsupported values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.markdown-tables.test.ts:9",
                "upstream it() block #1",

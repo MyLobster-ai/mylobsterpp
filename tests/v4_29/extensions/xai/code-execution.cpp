@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts] enables code_execution when the xAI plugin web search key is configured",
+TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts:48] enables code_execution when the xAI plugin web search key is configured",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/code-execution.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts] uses the xAI Responses code_interpreter tool",
+TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts:68] uses the xAI Responses code_interpreter tool",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/code-execution.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts] reuses the xAI plugin web search key for code_execution requests",
+TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts:106] reuses the xAI plugin web search key for code_execution requests",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/code-execution.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts] reuses the legacy grok web search key for code_execution requests",
+TEST_CASE("v4.29 [extensions/xai/code-execution.test.ts:134] reuses the legacy grok web search key for code_execution requests",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/code-execution.test.ts:134",
                "upstream it() block #3",

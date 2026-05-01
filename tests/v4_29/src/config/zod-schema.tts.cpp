@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts] accepts speed and instructions in openai section",
+TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts:5] accepts speed and instructions in openai section",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.tts.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts] rejects out-of-range openai speed",
+TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts:19] rejects out-of-range openai speed",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.tts.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts] rejects openai speed below minimum",
+TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts:31] rejects openai speed below minimum",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.tts.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts] accepts provider-specific persona bindings and structured prompt fields",
+TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts:43] accepts provider-specific persona bindings and structured prompt fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.tts.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts] rejects persona rewrite config until runtime behavior exists",
+TEST_CASE("v4.29 [src/config/zod-schema.tts.test.ts:80] rejects persona rewrite config until runtime behavior exists",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.tts.test.ts:80",
                "upstream it() block #4",

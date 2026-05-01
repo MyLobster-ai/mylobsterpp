@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] returns the mapped mime for known extensions",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:11] returns the mapped mime for known extensions",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] falls back to application/octet-stream for unknown extensions",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:18] falls back to application/octet-stream for unknown extensions",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] is case-insensitive on the extension",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:23] is case-insensitive on the extension",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] EXTENSION_MIME includes the v1 image set",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:30] EXTENSION_MIME includes the v1 image set",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] IMAGE_MIME_INLINE_SET is the inline-renderable image set",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:38] IMAGE_MIME_INLINE_SET is the inline-renderable image set",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] TEXT_INLINE_MIME_SET covers small-text inlining types",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:48] TEXT_INLINE_MIME_SET covers small-text inlining types",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:48",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts] TEXT_INLINE_MAX_BYTES is the documented 8KB cap",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/mime.test.ts:55] TEXT_INLINE_MAX_BYTES is the documented 8KB cap",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/mime.test.ts:55",
                "upstream it() block #6",

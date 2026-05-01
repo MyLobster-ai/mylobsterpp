@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/kill-tree.test.ts] on Windows skips delayed force-kill when PID is already gone",
+TEST_CASE("v4.29 [src/process/kill-tree.test.ts:50] on Windows skips delayed force-kill when PID is already gone",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/kill-tree.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/kill-tree.test.ts] on Windows force-kills after grace period only when PID still exists",
+TEST_CASE("v4.29 [src/process/kill-tree.test.ts:74] on Windows force-kills after grace period only when PID still exists",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/kill-tree.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/kill-tree.test.ts] on Unix sends SIGTERM first and skips SIGKILL when process exits",
+TEST_CASE("v4.29 [src/process/kill-tree.test.ts:103] on Unix sends SIGTERM first and skips SIGKILL when process exits",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/kill-tree.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/kill-tree.test.ts] on Unix sends SIGKILL after grace period when process is still alive",
+TEST_CASE("v4.29 [src/process/kill-tree.test.ts:125] on Unix sends SIGKILL after grace period when process is still alive",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/kill-tree.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/kill-tree.test.ts] on Unix skips group kill when detached:false to avoid SIGTERMing the parent",
+TEST_CASE("v4.29 [src/process/kill-tree.test.ts:143] on Unix skips group kill when detached:false to avoid SIGTERMing the parent",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/kill-tree.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/kill-tree.test.ts] on Unix uses group kill by default (detached:true preserved as the existing behavior)",
+TEST_CASE("v4.29 [src/process/kill-tree.test.ts:164] on Unix uses group kill by default (detached:true preserved as the existing behavior)",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/kill-tree.test.ts:164",
                "upstream it() block #5",

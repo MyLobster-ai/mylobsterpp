@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] normalizes punctuation-heavy triggers to token-equivalent spacing",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:10] normalizes punctuation-heavy triggers to token-equivalent spacing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] normalizes agentId targets before persisting routes",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:14] normalizes agentId targets before persisting routes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] resolves trigger routing with punctuation-insensitive trigger values",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:23] resolves trigger routing with punctuation-insensitive trigger values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] rejects invalid route agent ids instead of normalizing them to main",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:33] rejects invalid route agent ids instead of normalizing them to main",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] rejects malformed session keys instead of persisting dead routes",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:44] rejects malformed session keys instead of persisting dead routes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:44",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] rejects session keys with empty path segments",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:55] rejects session keys with empty path segments",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:55",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] rejects duplicate triggers after normalization",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:66] rejects duplicate triggers after normalization",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:66",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] rejects oversized route lists",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:80] rejects oversized route lists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts] rejects oversized triggers",
+TEST_CASE("v4.29 [src/infra/voicewake-routing.test.ts:94] rejects oversized triggers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake-routing.test.ts:94",
                "upstream it() block #8",

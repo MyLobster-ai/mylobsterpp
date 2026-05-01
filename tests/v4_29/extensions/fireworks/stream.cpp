@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts] forces thinking disabled for Fireworks Kimi models",
+TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts:38] forces thinking disabled for Fireworks Kimi models",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/stream.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts] forces thinking disabled for Fireworks Kimi k2.5 aliases",
+TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts:48] forces thinking disabled for Fireworks Kimi k2.5 aliases",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/stream.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts] forces thinking disabled for Fireworks Kimi k2.6 models",
+TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts:58] forces thinking disabled for Fireworks Kimi k2.6 models",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/stream.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts] strips reasoning fields when disabling Fireworks Kimi thinking",
+TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts:76] strips reasoning fields when disabling Fireworks Kimi thinking",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/stream.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts] passes sanitized payloads to caller onPayload hooks",
+TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts:91] passes sanitized payloads to caller onPayload hooks",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/stream.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts] returns no provider wrapper for non-target Fireworks requests",
+TEST_CASE("v4.29 [extensions/fireworks/stream.test.ts:120] returns no provider wrapper for non-target Fireworks requests",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/stream.test.ts:120",
                "upstream it() block #5",

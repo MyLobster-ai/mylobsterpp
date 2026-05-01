@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts:74] declares explicit mode capabilities",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/video-generation-provider.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts] submits OpenRouter video jobs, polls completion, and downloads the result",
+TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts:88] submits OpenRouter video jobs, polls completion, and downloads the result",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/video-generation-provider.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts] does not forward auth headers to cross-origin polling URLs",
+TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts:235] does not forward auth headers to cross-origin polling URLs",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/video-generation-provider.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts] falls back to the documented content endpoint when a completed job has no output URL",
+TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts:289] falls back to the documented content endpoint when a completed job has no output URL",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/video-generation-provider.test.ts:289",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts] rejects video reference inputs",
+TEST_CASE("v4.29 [extensions/openrouter/video-generation-provider.test.ts:319] rejects video reference inputs",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/video-generation-provider.test.ts:319",
                "upstream it() block #4",

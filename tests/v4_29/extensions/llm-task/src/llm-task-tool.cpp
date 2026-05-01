@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] returns parsed json",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:117] returns parsed json",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:117",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] strips fenced json",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:127] strips fenced json",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:127",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] validates schema",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:137] validates schema",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:137",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] throws on invalid json",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:153] throws on invalid json",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:153",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] throws on schema mismatch",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:162] throws on schema mismatch",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] passes provider/model overrides to embedded runner",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:172] passes provider/model overrides to embedded runner",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:172",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] accepts model overrides that already include the selected provider prefix",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:183] accepts model overrides that already include the selected provider prefix",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:183",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] passes thinking override to embedded runner",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:194] passes thinking override to embedded runner",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:194",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] normalizes thinking aliases",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:204] normalizes thinking aliases",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:204",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] throws on invalid thinking level",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:210] throws on invalid thinking level",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:210",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] throws on unsupported xhigh thinking level",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:218] throws on unsupported xhigh thinking level",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:218",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] does not pass thinkLevel when thinking is omitted",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:225] does not pass thinkLevel when thinking is omitted",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:225",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] enforces allowedModels",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:231] enforces allowedModels",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:231",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts] disables tools for embedded run",
+TEST_CASE("v4.29 [extensions/llm-task/src/llm-task-tool.test.ts:241] disables tools for embedded run",
           "[v4_29][parity_gap][llm-task]") {
     PARITY_GAP("extensions/llm-task/src/llm-task-tool.test.ts:241",
                "upstream it() block #13",

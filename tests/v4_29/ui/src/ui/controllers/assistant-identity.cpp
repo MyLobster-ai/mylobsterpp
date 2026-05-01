@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/assistant-identity.test.ts] ignores stale identity responses after the active session changes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/assistant-identity.test.ts:23] ignores stale identity responses after the active session changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/assistant-identity.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/assistant-identity.test.ts] persists the assistant avatar locally and mirrors the user avatar pattern",
+TEST_CASE("v4.29 [ui/src/ui/controllers/assistant-identity.test.ts:68] persists the assistant avatar locally and mirrors the user avatar pattern",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/assistant-identity.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/assistant-identity.test.ts] clears the local override",
+TEST_CASE("v4.29 [ui/src/ui/controllers/assistant-identity.test.ts:80] clears the local override",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/assistant-identity.test.ts:80",
                "upstream it() block #2",

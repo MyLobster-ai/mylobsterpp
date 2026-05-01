@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.agents-skills-directory.test.ts] loads project .agents/skills/ above managed and below workspace",
+TEST_CASE("v4.29 [src/agents/skills.agents-skills-directory.test.ts:62] loads project .agents/skills/ above managed and below workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.agents-skills-directory.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.agents-skills-directory.test.ts] loads personal ~/.agents/skills/ above managed and below project .agents/skills/",
+TEST_CASE("v4.29 [src/agents/skills.agents-skills-directory.test.ts:93] loads personal ~/.agents/skills/ above managed and below project .agents/skills/",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.agents-skills-directory.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.agents-skills-directory.test.ts] loads unique skills from all .agents/skills/ sources alongside others",
+TEST_CASE("v4.29 [src/agents/skills.agents-skills-directory.test.ts:124] loads unique skills from all .agents/skills/ sources alongside others",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.agents-skills-directory.test.ts:124",
                "upstream it() block #2",

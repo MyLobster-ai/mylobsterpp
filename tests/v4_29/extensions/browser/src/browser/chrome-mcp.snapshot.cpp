@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.snapshot.test.ts] flattens structured snapshots into aria-style nodes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.snapshot.test.ts:27] flattens structured snapshots into aria-style nodes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.snapshot.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.snapshot.test.ts] builds AI snapshots that preserve Chrome MCP uids as refs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.snapshot.test.ts:57] builds AI snapshots that preserve Chrome MCP uids as refs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.snapshot.test.ts:57",
                "upstream it() block #1",

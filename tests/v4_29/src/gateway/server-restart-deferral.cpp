@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts] defers restart while reply delivery is in flight",
+TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts:39] defers restart while reply delivery is in flight",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-restart-deferral.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts] keeps pending > 0 until the reply is actually enqueued",
+TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts:92] keeps pending > 0 until the reply is actually enqueued",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-restart-deferral.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts] defers restart until reply dispatcher completes",
+TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts:117] defers restart until reply dispatcher completes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-restart-deferral.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts] clears dispatcher reservation when no replies were sent",
+TEST_CASE("v4.29 [src/gateway/server-restart-deferral.test.ts:144] clears dispatcher reservation when no replies were sent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-restart-deferral.test.ts:144",
                "upstream it() block #3",

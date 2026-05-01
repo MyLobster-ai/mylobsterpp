@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] hydrates buffer and filename from media for sendAttachment",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:342] hydrates buffer and filename from media for sendAttachment",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:342",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] allows host-local image attachment paths when fs root expansion is enabled",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:359] allows host-local image attachment paths when fs root expansion is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:359",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] rejects host-local text attachments even when fs root expansion is enabled",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:392] rejects host-local text attachments even when fs root expansion is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:392",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] hydrates buffer and filename from media for attachment upload-file",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:420] hydrates buffer and filename from media for attachment upload-file",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:420",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] enforces sandboxed attachment paths for attachment actions",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:426] enforces sandboxed attachment paths for attachment actions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:426",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] rewrites plugin-owned sandbox media params and preserves mxc URLs",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:579] rewrites plugin-owned sandbox media params and preserves mxc URLs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:579",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] routes plugin-owned host media hints into local-root expansion",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:601] routes plugin-owned host media hints into local-root expansion",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:601",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] does not apply set-profile media params to send actions",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:627] does not apply set-profile media params to send actions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:627",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] rejects data URLs in media params",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:709] rejects data URLs in media params",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:709",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] rewrites in-sandbox media references before dry send",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:723] rewrites in-sandbox media references before dry send",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:723",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] prefers media over mediaUrl when both aliases are present",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:769] prefers media over mediaUrl when both aliases are present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:769",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts] allows media paths under preferred OpenClaw tmp root",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.media.test.ts:825] allows media paths under preferred OpenClaw tmp root",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.media.test.ts:825",
                "upstream it() block #11",

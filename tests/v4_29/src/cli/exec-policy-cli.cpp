@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] shows the local merged exec policy as json",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:235] shows the local merged exec policy as json",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:235",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] marks host=node scopes as node-managed in show output",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:264] marks host=node scopes as node-managed in show output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:264",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] applies the yolo preset to both config and approvals",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:316] applies the yolo preset to both config and approvals",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:316",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] sets explicit values without requiring a preset",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:338] sets explicit values without requiring a preset",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:338",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] sanitizes terminal control content before rendering the text table",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:365] sanitizes terminal control content before rendering the text table",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:365",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] reports invalid input once and exits once",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:419] reports invalid input once and exits once",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:419",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] rejects host=node for the local-only sync path",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:429] rejects host=node for the local-only sync path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:429",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] rejects sync when the resulting requested host remains node",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:441] rejects sync when the resulting requested host remains node",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:441",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] rolls back approvals if the config write fails after approvals save",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:463] rolls back approvals if the config write fails after approvals save",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:463",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] removes a newly-written approvals file when config replacement fails and the original file was missing",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:487] removes a newly-written approvals file when config replacement fails and the original file was missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:487",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts] does not clobber a newer approvals write during rollback",
+TEST_CASE("v4.29 [src/cli/exec-policy-cli.test.ts:507] does not clobber a newer approvals write during rollback",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/exec-policy-cli.test.ts:507",
                "upstream it() block #10",

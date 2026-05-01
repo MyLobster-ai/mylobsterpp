@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts] escapes SSML text and attributes",
+TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts:20] escapes SSML text and attributes",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/tts.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts] normalizes region and endpoint routing",
+TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts:35] normalizes region and endpoint routing",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/tts.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts] maps Azure output formats to attachment metadata",
+TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts:49] maps Azure output formats to attachment metadata",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/tts.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts] posts SSML to the region endpoint with Azure Speech headers",
+TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts:58] posts SSML to the region endpoint with Azure Speech headers",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/tts.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts] lists voices with timeout and filters deprecated entries",
+TEST_CASE("v4.29 [extensions/azure-speech/tts.test.ts:85] lists voices with timeout and filters deprecated entries",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/tts.test.ts:85",
                "upstream it() block #4",

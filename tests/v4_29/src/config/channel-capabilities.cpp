@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] returns undefined for missing inputs",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:17] returns undefined for missing inputs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] normalizes and prefers per-account capabilities",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:23] normalizes and prefers per-account capabilities",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] falls back to provider capabilities when account capabilities are missing",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:46] falls back to provider capabilities when account capabilities are missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] matches account keys case-insensitively",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:67] matches account keys case-insensitively",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] supports msteams capabilities",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:87] supports msteams capabilities",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] handles object-format capabilities gracefully (e.g., { inlineButtons: ",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:109] handles object-format capabilities gracefully (e.g., { inlineButtons: ",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:109",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts] handles Slack object-format capabilities gracefully",
+TEST_CASE("v4.29 [src/config/channel-capabilities.test.ts:129] handles Slack object-format capabilities gracefully",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-capabilities.test.ts:129",
                "upstream it() block #6",

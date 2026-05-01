@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts] requires explicit edit capabilities before advertising edit mode",
+TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts:22] requires explicit edit capabilities before advertising edit mode",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/capabilities.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts] prefers explicit edit capabilities for reference-image requests",
+TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts:30] prefers explicit edit capabilities for reference-image requests",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/capabilities.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts] detects generate vs edit mode from reference images",
+TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts:57] detects generate vs edit mode from reference images",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/capabilities.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts] does not infer edit capabilities from aggregate fields",
+TEST_CASE("v4.29 [src/music-generation/capabilities.test.ts:62] does not infer edit capabilities from aggregate fields",
           "[v4_29][parity_gap][music-generation]") {
     PARITY_GAP("src/music-generation/capabilities.test.ts:62",
                "upstream it() block #3",

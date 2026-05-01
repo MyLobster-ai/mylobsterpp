@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts] keeps plugin-auth routes off write-capable runtime helpers",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts:114] keeps plugin-auth routes off write-capable runtime helpers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.runtime-scopes.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts] preserves write-capable runtime helpers on gateway-auth routes",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts:128] preserves write-capable runtime helpers on gateway-auth routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.runtime-scopes.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts] fails closed when gateway-auth route runtime scopes are missing",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts:141] fails closed when gateway-auth route runtime scopes are missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.runtime-scopes.test.ts:141",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts] does not allow write helpers for read-scoped gateway-auth requests",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts:155] does not allow write helpers for read-scoped gateway-auth requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.runtime-scopes.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts] restores trusted-operator defaults for routes opting into trusted surface",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts:170] restores trusted-operator defaults for routes opting into trusted surface",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.runtime-scopes.test.ts:170",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts] scopes runtime privileges per matched route for exact/prefix overlap",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.runtime-scopes.test.ts:212] scopes runtime privileges per matched route for exact/prefix overlap",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.runtime-scopes.test.ts:212",
                "upstream it() block #5",

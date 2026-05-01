@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts] keeps manual CI compatible with legacy target refs",
+TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts:30] keeps manual CI compatible with legacy target refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-contract-test-plan.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts] splits plugin contracts into focused shards",
+TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts:42] splits plugin contracts into focused shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-contract-test-plan.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts] covers every plugin contract test exactly once",
+TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts:60] covers every plugin contract test exactly once",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-contract-test-plan.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts] keeps plugin registration contract files spread across checks",
+TEST_CASE("v4.29 [test/scripts/plugin-contract-test-plan.test.ts:69] keeps plugin registration contract files spread across checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-contract-test-plan.test.ts:69",
                "upstream it() block #3",

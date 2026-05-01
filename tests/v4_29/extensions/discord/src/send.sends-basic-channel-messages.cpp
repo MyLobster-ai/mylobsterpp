@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] creates a DM channel for user targets",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:55] creates a DM channel for user targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] keeps channel targets on the channel path",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:72] keeps channel targets on the channel path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] sends basic channel messages",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:127] sends basic channel messages",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:127",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] rewrites cached @username mentions to id-based mentions",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:147] rewrites cached @username mentions to id-based mentions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:147",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] uses configured defaultAccount for cached mention rewriting when accountId is omitted",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:171] uses configured defaultAccount for cached mention rewriting when accountId is omitted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:171",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] auto-creates a forum thread when target is a Forum channel",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:205] auto-creates a forum thread when target is a Forum channel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:205",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] posts media as a follow-up message in forum channels",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:231] posts media as a follow-up message in forum channels",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:231",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] chunks long forum posts into follow-up messages",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:261] chunks long forum posts into follow-up messages",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:261",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] starts DM when recipient is a user",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:277] starts DM when recipient is a user",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:277",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] rejects bare numeric IDs as ambiguous",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:300] rejects bare numeric IDs as ambiguous",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:300",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] adds missing permission hints on 50013",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:325] adds missing permission hints on 50013",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:325",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] keeps 50013 context when permission probe finds baseline permissions",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:358] keeps 50013 context when permission probe finds baseline permissions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:358",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] uploads media attachments",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:393] uploads media attachments",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:393",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] prefers the caller-provided filename for media attachments",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:417] prefers the caller-provided filename for media attachments",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:417",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] uses configured discord mediaMaxMb for uploads",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:439] uses configured discord mediaMaxMb for uploads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:439",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] sends media with empty text without content field",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:462] sends media with empty text without content field",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:462",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] preserves whitespace in media captions",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:477] preserves whitespace in media captions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:477",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] includes message_reference when replying",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:490] includes message_reference when replying",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:490",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] preserves reply reference across all text chunks",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:506] preserves reply reference across all text chunks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:506",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] preserves reply reference for follow-up text chunks after media caption split",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:514] preserves reply reference for follow-up text chunks after media caption split",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:514",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] reacts with unicode emoji",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:529] reacts with unicode emoji",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:529",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] normalizes variation selectors in unicode emoji",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:537] normalizes variation selectors in unicode emoji",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:537",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] reacts with custom emoji syntax",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:545] reacts with custom emoji syntax",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:545",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] removes a unicode emoji reaction",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:563] removes a unicode emoji reaction",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:563",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] removes all own reactions on a message",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:577] removes all own reactions on a message",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:577",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] returns reactions with users",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:605] returns reactions with users",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:605",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] calculates permissions from guild roles",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:641] calculates permissions from guild roles",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:641",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] treats Administrator as all permissions despite overwrites",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:670] treats Administrator as all permissions despite overwrites",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:670",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] passes query params as an object",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:705] passes query params as an object",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:705",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] edits message content",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:724] edits message content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:724",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] deletes message",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:739] deletes message",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:739",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] pins and unpins messages",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:752] pins and unpins messages",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:752",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] uses URLSearchParams for search",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:768] uses URLSearchParams for search",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:768",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts] supports channel/author arrays and clamps limit",
+TEST_CASE("v4.29 [extensions/discord/src/send.sends-basic-channel-messages.test.ts:779] supports channel/author arrays and clamps limit",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.sends-basic-channel-messages.test.ts:779",
                "upstream it() block #33",

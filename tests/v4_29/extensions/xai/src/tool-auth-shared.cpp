@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] prefers plugin web search keys over legacy grok keys",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:15] prefers plugin web search keys over legacy grok keys",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] returns source metadata and managed markers for fallback auth",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:42] returns source metadata and managed markers for fallback auth",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] falls back to runtime, then source config, then env for tool auth",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:80] falls back to runtime, then source config, then env for tool auth",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] honors explicit disabled flags before auth fallback",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:135] honors explicit disabled flags before auth fallback",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] does not use env fallback when a non-env SecretRef is configured but unavailable",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:141] does not use env fallback when a non-env SecretRef is configured but unavailable",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:141",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] resolves env SecretRefs from source config when runtime snapshot is unavailable",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:167] resolves env SecretRefs from source config when runtime snapshot is unavailable",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:167",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] does not read arbitrary env SecretRef ids for xAI tool auth",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:193] does not read arbitrary env SecretRef ids for xAI tool auth",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:193",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] does not resolve env SecretRefs when provider allowlist excludes XAI_API_KEY",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:219] does not resolve env SecretRefs when provider allowlist excludes XAI_API_KEY",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:219",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts] does not resolve env SecretRefs when provider source is not env",
+TEST_CASE("v4.29 [extensions/xai/src/tool-auth-shared.test.ts:253] does not resolve env SecretRefs when provider source is not env",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/tool-auth-shared.test.ts:253",
                "upstream it() block #8",

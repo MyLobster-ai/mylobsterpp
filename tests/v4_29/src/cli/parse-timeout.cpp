@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] parses positive string values",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:5] parses positive string values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] returns undefined for empty or invalid values",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:9] returns undefined for empty or invalid values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] returns the fallback for missing or empty values",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:17] returns the fallback for missing or empty values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] parses positive numbers and strings",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:23] parses positive numbers and strings",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] falls back on unsupported types by default",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:29] falls back on unsupported types by default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] throws on unsupported types when requested",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:33] throws on unsupported types when requested",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:33",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts] throws on non-positive parsed values",
+TEST_CASE("v4.29 [src/cli/parse-timeout.test.ts:39] throws on non-positive parsed values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/parse-timeout.test.ts:39",
                "upstream it() block #6",

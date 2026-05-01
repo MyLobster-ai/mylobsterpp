@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] returns true for the current running process",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:41] returns true for the current running process",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] returns false for a non-existent PID",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:45] returns false for a non-existent PID",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] returns false for invalid PIDs",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:49] returns false for invalid PIDs",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] returns false for zombie processes on Linux",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:57] returns false for zombie processes on Linux",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] treats unreadable linux proc status as non-zombie when kill succeeds",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:68] treats unreadable linux proc status as non-zombie when kill succeeds",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] parses linux /proc stat start times and rejects malformed variants",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:84] parses linux /proc stat start times and rejects malformed variants",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:84",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] returns null on non-Linux platforms",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:107] returns null on non-Linux platforms",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/pid-alive.test.ts] returns null for invalid PIDs",
+TEST_CASE("v4.29 [src/shared/pid-alive.test.ts:113] returns null for invalid PIDs",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/pid-alive.test.ts:113",
                "upstream it() block #7",

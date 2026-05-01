@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/base-url.test.ts] recognizes direct OpenAI API routes",
+TEST_CASE("v4.29 [extensions/openai/base-url.test.ts:10] recognizes direct OpenAI API routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/base-url.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/base-url.test.ts] rejects proxy or unrelated API routes",
+TEST_CASE("v4.29 [extensions/openai/base-url.test.ts:16] rejects proxy or unrelated API routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/base-url.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/base-url.test.ts] recognizes Codex ChatGPT backend routes",
+TEST_CASE("v4.29 [extensions/openai/base-url.test.ts:22] recognizes Codex ChatGPT backend routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/base-url.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/base-url.test.ts] rejects non-Codex backend routes",
+TEST_CASE("v4.29 [extensions/openai/base-url.test.ts:37] rejects non-Codex backend routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/base-url.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/base-url.test.ts] canonicalizes legacy Codex Responses base URLs",
+TEST_CASE("v4.29 [extensions/openai/base-url.test.ts:45] canonicalizes legacy Codex Responses base URLs",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/base-url.test.ts:45",
                "upstream it() block #4",

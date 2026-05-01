@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] preserves fenced code blocks",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:46] preserves fenced code blocks",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] preserves code block with formatting inside",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:51] preserves code block with formatting inside",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] accepts valid channel",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:60] accepts valid channel",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] throws for invalid channel",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:64] throws for invalid channel",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] strips formatting and prefixes",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:70] strips formatting and prefixes",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] preserves existing JIDs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:74] preserves existing JIDs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] maps @lid using reverse mapping file",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:82] maps @lid using reverse mapping file",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] maps @lid from authDir mapping files",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:107] maps @lid from authDir mapping files",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:107",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] maps @hosted.lid from authDir mapping files",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:115] maps @hosted.lid from authDir mapping files",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:115",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] accepts hosted PN JIDs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:123] accepts hosted PN JIDs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:123",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] falls back through lidMappingDirs in order",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:127] falls back through lidMappingDirs in order",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:127",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] resolves @lid via lidLookup when mapping file is missing",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:139] resolves @lid via lidLookup when mapping file is missing",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:139",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] skips lidLookup for non-lid JIDs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:147] skips lidLookup for non-lid JIDs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:147",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts] returns null when lidLookup throws",
+TEST_CASE("v4.29 [extensions/whatsapp/src/text-runtime.test.ts:155] returns null when lidLookup throws",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/text-runtime.test.ts:155",
                "upstream it() block #13",

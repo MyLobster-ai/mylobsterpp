@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] falls back to the only page when Playwright cannot resolve target ids",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:109] falls back to the only page when Playwright cannot resolve target ids",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:109",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] uses the shared HTTP-base normalization when falling back to /json/list for direct WebSocket CDP URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:123] uses the shared HTTP-base normalization when falling back to /json/list for direct WebSocket CDP URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] resolves pages from /json/list when page CDP probing fails",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:151] resolves pages from /json/list when page CDP probing fails",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] evicts a stale cached page-less browser once and succeeds on a fresh reconnect",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:178] evicts a stale cached page-less browser once and succeeds on a fresh reconnect",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:178",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] evicts a stale cached tab-selection miss once and succeeds on a fresh reconnect",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:194] evicts a stale cached tab-selection miss once and succeeds on a fresh reconnect",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:194",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] fails after a single reconnect when the refreshed browser is still page-less",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:219] fails after a single reconnect when the refreshed browser is still page-less",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:219",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts] does not add an extra top-level retry for non-recoverable connect failures",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:237] does not add an extra top-level retry for non-recoverable connect failures",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.get-page-for-targetid.extension-fallback.test.ts:237",
                "upstream it() block #6",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts] classifies avatar URI and path helpers directly",
+TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts:17] classifies avatar URI and path helpers directly",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/avatar-policy.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts] accepts workspace-relative avatar paths and rejects URI schemes",
+TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts:27] accepts workspace-relative avatar paths and rejects URI schemes",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/avatar-policy.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts] checks path containment safely",
+TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts:37] checks path containment safely",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/avatar-policy.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts] detects avatar-like path strings",
+TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts:45] detects avatar-like path strings",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/avatar-policy.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts] supports expected local file extensions",
+TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts:52] supports expected local file extensions",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/avatar-policy.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts] resolves mime type from extension",
+TEST_CASE("v4.29 [src/shared/avatar-policy.test.ts:58] resolves mime type from extension",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/avatar-policy.test.ts:58",
                "upstream it() block #5",

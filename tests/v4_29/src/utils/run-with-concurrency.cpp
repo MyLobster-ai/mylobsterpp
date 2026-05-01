@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/run-with-concurrency.test.ts] preserves task order with bounded worker count",
+TEST_CASE("v4.29 [src/utils/run-with-concurrency.test.ts:5] preserves task order with bounded worker count",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/run-with-concurrency.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/run-with-concurrency.test.ts] stops scheduling after first failure in stop mode",
+TEST_CASE("v4.29 [src/utils/run-with-concurrency.test.ts:46] stops scheduling after first failure in stop mode",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/run-with-concurrency.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/run-with-concurrency.test.ts] continues after failures and reports the first one",
+TEST_CASE("v4.29 [src/utils/run-with-concurrency.test.ts:76] continues after failures and reports the first one",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/run-with-concurrency.test.ts:76",
                "upstream it() block #2",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] updates lastTargetId when openTab is created via CDP",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:94] updates lastTargetId when openTab is created via CDP",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] can bootstrap a managed loopback tab under strict SSRF because CDP control stays local",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:133] can bootstrap a managed loopback tab under strict SSRF because CDP control stays local",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:133",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] closes excess managed tabs after opening a new tab",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:177] closes excess managed tabs after opening a new tab",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:177",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] never closes the just-opened managed tab during cap cleanup",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:187] never closes the just-opened managed tab during cap cleanup",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:187",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] does not fail tab open when managed-tab cleanup list fails",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:201] does not fail tab open when managed-tab cleanup list fails",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:201",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] does not run managed tab cleanup in attachOnly mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:238] does not run managed tab cleanup in attachOnly mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] does not block openTab on slow best-effort cleanup closes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:262] does not block openTab on slow best-effort cleanup closes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:262",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] blocks unsupported non-network URLs before any HTTP tab-open fallback",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:285] blocks unsupported non-network URLs before any HTTP tab-open fallback",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:285",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts] uses the loopback CDP control policy for /json/new fallback requests",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.tab-selection-state.test.ts:301] uses the loopback CDP control policy for /json/new fallback requests",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.tab-selection-state.test.ts:301",
                "upstream it() block #8",

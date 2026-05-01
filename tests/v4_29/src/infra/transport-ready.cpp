@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/transport-ready.test.ts] returns when the check succeeds and logs after the delay",
+TEST_CASE("v4.29 [src/infra/transport-ready.test.ts:54] returns when the check succeeds and logs after the delay",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/transport-ready.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/transport-ready.test.ts] throws after the timeout",
+TEST_CASE("v4.29 [src/infra/transport-ready.test.ts:80] throws after the timeout",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/transport-ready.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/transport-ready.test.ts] returns early when aborted",
+TEST_CASE("v4.29 [src/infra/transport-ready.test.ts:97] returns early when aborted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/transport-ready.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/transport-ready.test.ts] stops polling when aborted during the sleep interval",
+TEST_CASE("v4.29 [src/infra/transport-ready.test.ts:111] stops polling when aborted during the sleep interval",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/transport-ready.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/transport-ready.test.ts] logs repeated unknown-error retries and the final timeout message",
+TEST_CASE("v4.29 [src/infra/transport-ready.test.ts:136] logs repeated unknown-error retries and the final timeout message",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/transport-ready.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/transport-ready.test.ts] rethrows non-abort sleep failures",
+TEST_CASE("v4.29 [src/infra/transport-ready.test.ts:159] rethrows non-abort sleep failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/transport-ready.test.ts:159",
                "upstream it() block #5",

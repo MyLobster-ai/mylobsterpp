@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts] shows per-agent thinkingDefault in the status card",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts:60] shows per-agent thinkingDefault in the status card",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.thinking-default.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts] shows per-agent fallback overrides in the status card",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts:85] shows per-agent fallback overrides in the status card",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.thinking-default.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts] keeps default fallback config when the agent has no explicit model",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts:116] keeps default fallback config when the agent has no explicit model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.thinking-default.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts] keeps agent primary strict when the agent has no explicit fallback override",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts:142] keeps agent primary strict when the agent has no explicit fallback override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.thinking-default.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts] treats an explicit empty per-agent fallback override as disabling inherited fallbacks",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.thinking-default.test.ts:171] treats an explicit empty per-agent fallback override as disabling inherited fallbacks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.thinking-default.test.ts:171",
                "upstream it() block #4",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts] registers browser placeholders without loading handlers for help",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts:65] registers browser placeholders without loading handlers for help",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli.lazy.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts] registers only the requested browser group before dispatch",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts:82] registers only the requested browser group before dispatch",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli.lazy.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts] loads browser doctor from the manage group so --deep is available",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts:98] loads browser doctor from the manage group so --deep is available",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli.lazy.test.ts:98",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts] preserves parent --json while reparsing lazy manage commands",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts:112] preserves parent --json while reparsing lazy manage commands",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli.lazy.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts] can eagerly register all browser groups for compatibility",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli.lazy.test.ts:135] can eagerly register all browser groups for compatibility",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli.lazy.test.ts:135",
                "upstream it() block #4",

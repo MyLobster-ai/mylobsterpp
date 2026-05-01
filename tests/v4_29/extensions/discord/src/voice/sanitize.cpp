@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts] strips reply tags before speech",
+TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts:5] strips reply tags before speech",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/sanitize.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts] strips the current speaker label prefix before speech",
+TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts:9] strips the current speaker label prefix before speech",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/sanitize.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts] keeps other prefixes intact",
+TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts:15] keeps other prefixes intact",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/sanitize.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts] handles reply tags and speaker prefixes together",
+TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts:21] handles reply tags and speaker prefixes together",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/sanitize.test.ts:21",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts] strips decorative emoji before speech",
+TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts:27] strips decorative emoji before speech",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/sanitize.test.ts:27",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts] keeps punctuation sane after emoji stripping",
+TEST_CASE("v4.29 [extensions/discord/src/voice/sanitize.test.ts:31] keeps punctuation sane after emoji stripping",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/sanitize.test.ts:31",
                "upstream it() block #5",

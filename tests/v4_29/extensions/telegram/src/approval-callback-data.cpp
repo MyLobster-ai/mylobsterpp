@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts] enforces Telegram callback byte boundaries",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts:9] enforces Telegram callback byte boundaries",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-callback-data.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts] rewrites /approve allow-always callbacks to always",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts:15] rewrites /approve allow-always callbacks to always",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-callback-data.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts] keeps rewritten allow-always callbacks when canonical form would overflow",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts:22] keeps rewritten allow-always callbacks when canonical form would overflow",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-callback-data.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts] keeps 64-byte callbacks and drops 65-byte callbacks through sanitize",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-callback-data.test.ts:29] keeps 64-byte callbacks and drops 65-byte callbacks through sanitize",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-callback-data.test.ts:29",
                "upstream it() block #3",

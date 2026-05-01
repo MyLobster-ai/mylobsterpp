@@ -5,250 +5,250 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] is a non-empty string",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:9] is a non-empty string",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] contains language preservation directive",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:14] contains language preservation directive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] contains factual content directive",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:18] contains factual content directive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] does not exceed MAX_INSTRUCTION_LENGTH (800 chars)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:22] does not exceed MAX_INSTRUCTION_LENGTH (800 chars)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:22",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] returns DEFAULT when both args are undefined",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:29] returns DEFAULT when both args are undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] returns DEFAULT when both args are explicitly null (untyped JS caller)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:35] returns DEFAULT when both args are explicitly null (untyped JS caller)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:35",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] treats empty-string event as absent -- runtime wins",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:43] treats empty-string event as absent -- runtime wins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:43",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] treats whitespace-only event as absent -- runtime wins",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:48] treats whitespace-only event as absent -- runtime wins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:48",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] treats tab/newline-only event as absent -- runtime wins",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:53] treats tab/newline-only event as absent -- runtime wins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:53",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] treats empty-string runtime as absent -- DEFAULT wins",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:58] treats empty-string runtime as absent -- DEFAULT wins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:58",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] treats whitespace-only runtime as absent -- DEFAULT wins",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:63] treats whitespace-only runtime as absent -- DEFAULT wins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:63",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] falls through to DEFAULT when both are empty strings",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:68] falls through to DEFAULT when both are empty strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:68",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] falls through to DEFAULT when both are whitespace-only",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:72] falls through to DEFAULT when both are whitespace-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:72",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] non-breaking space (\\\\u00A0) IS trimmed by ES2015+ trim() -- falls through",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:76] non-breaking space (\\\\u00A0) IS trimmed by ES2015+ trim() -- falls through",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:76",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] KNOWN_EDGE: zero-width space (\\\\u200B) survives normalization -- invisible string used as instructions",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:82] KNOWN_EDGE: zero-width space (\\\\u200B) survives normalization -- invisible string used as instructions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:82",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] event wins over runtime when both are non-empty",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:90] event wins over runtime when both are non-empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:90",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] runtime wins when event is undefined",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:95] runtime wins when event is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:95",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] event is trimmed before use",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:100] event is trimmed before use",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:100",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] runtime is trimmed before use",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:105] runtime is trimmed before use",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:105",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] does NOT truncate string of exactly 800 chars",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:112] does NOT truncate string of exactly 800 chars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:112",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] truncates string of 801 chars to 800",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:119] truncates string of 801 chars to 800",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:119",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] truncates very long string to exactly 800",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:126] truncates very long string to exactly 800",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:126",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] truncation applies AFTER trimming -- 810 raw chars with 10 leading spaces yields 800",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:132] truncation applies AFTER trimming -- 810 raw chars with 10 leading spaces yields 800",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:132",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] truncation applies to runtime fallback as well",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:139] truncation applies to runtime fallback as well",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:139",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] truncates by code points, not code units (emoji safe)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:145] truncates by code points, not code units (emoji safe)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:145",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] does not split surrogate pair when cut lands inside a pair",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:151] does not split surrogate pair when cut lands inside a pair",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:151",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] always returns a string, never undefined or null",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:167] always returns a string, never undefined or null",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:167",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] joins turn prefix, separator, and resolved instructions with double newlines",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:187] joins turn prefix, separator, and resolved instructions with double newlines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:187",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] output contains the turn prefix verbatim",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:194] output contains the turn prefix verbatim",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:194",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] output contains the resolved instructions verbatim",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:200] output contains the resolved instructions verbatim",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:200",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] output contains ",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:206] output contains ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:206",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] KNOWN_EDGE: empty turnPrefix produces leading blank line",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:211] KNOWN_EDGE: empty turnPrefix produces leading blank line",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:211",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] KNOWN_EDGE: empty resolvedInstructions produces trailing blank area",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:217] KNOWN_EDGE: empty resolvedInstructions produces trailing blank area",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:217",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] does not deduplicate if instructions already contain ",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:223] does not deduplicate if instructions already contain ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:223",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts] preserves multiline content in both inputs",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-instructions.test.ts:230] preserves multiline content in both inputs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-instructions.test.ts:230",
                "upstream it() block #34",

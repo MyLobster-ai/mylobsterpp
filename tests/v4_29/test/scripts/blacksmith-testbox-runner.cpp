@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] splits runner args from the remote command",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:14] splits runner args from the remote command",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] builds blacksmith run arguments",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:23] builds blacksmith run arguments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] refuses to run a remote-visible id without a local private key",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:32] refuses to run a remote-visible id without a local private key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] refuses to run a keyed id that was not claimed by this checkout",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:49] refuses to run a keyed id that was not claimed by this checkout",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] claims a keyed id without spawning when no remote command is supplied",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:72] claims a keyed id without spawning when no remote command is supplied",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] defaults the Testbox sync timeout and accepts disable override",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:97] defaults the Testbox sync timeout and accepts disable override",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:97",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts] terminates a Testbox run that stalls in sync",
+TEST_CASE("v4.29 [test/scripts/blacksmith-testbox-runner.test.ts:103] terminates a Testbox run that stalls in sync",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/blacksmith-testbox-runner.test.ts:103",
                "upstream it() block #6",

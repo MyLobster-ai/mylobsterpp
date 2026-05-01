@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] returns plain string length for ASCII text",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:9] returns plain string length for ASCII text",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] returns 0 for empty string",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:13] returns 0 for empty string",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] counts Chinese characters with extra weight",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:17] counts Chinese characters with extra weight",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] handles mixed ASCII and CJK text",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:24] handles mixed ASCII and CJK text",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:24",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] handles Japanese hiragana",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:30] handles Japanese hiragana",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] handles Japanese katakana",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:36] handles Japanese katakana",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:36",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] handles Korean hangul",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:42] handles Korean hangul",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:42",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] handles CJK punctuation and symbols in the extended range",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:48] handles CJK punctuation and symbols in the extended range",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:48",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] does not inflate standard Latin characters",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:53] does not inflate standard Latin characters",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:53",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] does not inflate numbers and basic punctuation",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:58] does not inflate numbers and basic punctuation",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:58",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] counts CJK Extension B characters as one code point",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:63] counts CJK Extension B characters as one code point",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:63",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] handles mixed BMP and Extension B CJK consistently",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:69] handles mixed BMP and Extension B CJK consistently",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:69",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] does not collapse non-CJK surrogate pairs like emoji",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:74] does not collapse non-CJK surrogate pairs like emoji",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:74",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] keeps mixed CJK and emoji weighting consistent",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:80] keeps mixed CJK and emoji weighting consistent",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:80",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] yields ~1 token per CJK char when divided by CHARS_PER_TOKEN_ESTIMATE",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:84] yields ~1 token per CJK char when divided by CHARS_PER_TOKEN_ESTIMATE",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:84",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] divides by CHARS_PER_TOKEN_ESTIMATE and rounds up",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:95] divides by CHARS_PER_TOKEN_ESTIMATE and rounds up",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:95",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts] clamps negative values to 0",
+TEST_CASE("v4.29 [src/utils/cjk-chars.test.ts:101] clamps negative values to 0",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/cjk-chars.test.ts:101",
                "upstream it() block #16",

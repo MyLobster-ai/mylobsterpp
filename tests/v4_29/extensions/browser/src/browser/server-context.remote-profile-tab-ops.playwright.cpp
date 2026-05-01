@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] uses Playwright tab operations when available",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:21] uses Playwright tab operations when available",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] assigns stable tab ids and resolves labels",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:62] assigns stable tab ids and resolves labels",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] transfers stable aliases across a high-confidence target replacement",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:97] transfers stable aliases across a high-confidence target replacement",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] does not transfer aliases when target replacement is ambiguous",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:128] does not transfer aliases when target replacement is ambiguous",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] prefers lastTargetId for remote profiles when targetId is omitted",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:155] prefers lastTargetId for remote profiles when targetId is omitted",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:155",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] rejects stale targetId for remote profiles even when only one tab remains",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:195] rejects stale targetId for remote profiles even when only one tab remains",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:195",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] keeps rejecting stale targetId for remote profiles when multiple tabs exist",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:207] keeps rejecting stale targetId for remote profiles when multiple tabs exist",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] uses Playwright focus for remote profiles when available",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:219] uses Playwright focus for remote profiles when available",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:219",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] blocks remote Playwright tab operations when strict SSRF hostname allowlist rejects the cdpUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:242] blocks remote Playwright tab operations when strict SSRF hostname allowlist rejects the cdpUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:242",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts] does not swallow Playwright runtime errors for remote profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:285] does not swallow Playwright runtime errors for remote profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.remote-profile-tab-ops.playwright.test.ts:285",
                "upstream it() block #9",

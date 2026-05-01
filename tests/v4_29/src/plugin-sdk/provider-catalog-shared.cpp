@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] detects native streaming usage compat from the endpoint capabilities",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:25] detects native streaming usage compat from the endpoint capabilities",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] opts models into streaming usage for native endpoints while preserving explicit overrides",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:46] opts models into streaming usage for native endpoints while preserving explicit overrides",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] preserves configured audio and video input modalities",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:62] preserves configured audio and video input modalities",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] converts manifest model catalog rows into provider config rows",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:102] converts manifest model catalog rows into provider config rows",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] rejects incomplete manifest rows before building provider runtime config",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:170] rejects incomplete manifest rows before building provider runtime config",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:170",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] rejects catalog data that cannot become runtime provider config",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:187] rejects catalog data that cannot become runtime provider config",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:187",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts] rejects manifest catalogs when normalization drops a model row",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-catalog-shared.test.ts:221] rejects manifest catalogs when normalization drops a model row",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-catalog-shared.test.ts:221",
                "upstream it() block #6",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/boundary-path.test.ts] resolves symlink parents with non-existent leafs inside root",
+TEST_CASE("v4.29 [src/infra/boundary-path.test.ts:17] resolves symlink parents with non-existent leafs inside root",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-path.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-path.test.ts] blocks dangling symlink leaf escapes outside root",
+TEST_CASE("v4.29 [src/infra/boundary-path.test.ts:44] blocks dangling symlink leaf escapes outside root",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-path.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-path.test.ts] allows final symlink only when unlink policy opts in",
+TEST_CASE("v4.29 [src/infra/boundary-path.test.ts:75] allows final symlink only when unlink policy opts in",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-path.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-path.test.ts] allows canonical aliases that still resolve inside root",
+TEST_CASE("v4.29 [src/infra/boundary-path.test.ts:111] allows canonical aliases that still resolve inside root",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-path.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-path.test.ts] maintains containment invariant across randomized alias cases",
+TEST_CASE("v4.29 [src/infra/boundary-path.test.ts:142] maintains containment invariant across randomized alias cases",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-path.test.ts:142",
                "upstream it() block #4",

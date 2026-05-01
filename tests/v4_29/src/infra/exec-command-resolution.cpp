@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] unwraps transparent env and nice wrappers to the effective executable",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:160] unwraps transparent env and nice wrappers to the effective executable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:160",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] keeps shell multiplexer wrappers as a separate policy target",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:189] keeps shell multiplexer wrappers as a separate policy target",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:189",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] does not satisfy inner-shell allowlists when invoked through busybox wrappers",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:208] does not satisfy inner-shell allowlists when invoked through busybox wrappers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:208",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] blocks semantic env wrappers, env -S, and deep transparent-wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:240] blocks semantic env wrappers, env -S, and deep transparent-wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:240",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] resolves allowlist candidate paths from unresolved raw executables",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:284] resolves allowlist candidate paths from unresolved raw executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:284",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] normalizes argv tokens for short clusters, long options, and special sentinels",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:413] normalizes argv tokens for short clusters, long options, and special sentinels",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:413",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts] does not synthesize cwd-joined allowlist candidates from drive-less windows roots",
+TEST_CASE("v4.29 [src/infra/exec-command-resolution.test.ts:434] does not synthesize cwd-joined allowlist candidates from drive-less windows roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-command-resolution.test.ts:434",
                "upstream it() block #6",

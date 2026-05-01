@@ -5,418 +5,418 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts config with $schema string",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:16] accepts config with $schema string",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts config without $schema",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:26] accepts config without $schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-string $schema",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:31] rejects non-string $schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts $schema during full config validation",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:36] accepts $schema during full config validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] preserves $schema through validateConfigObject round-trip",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:44] preserves $schema through validateConfigObject round-trip",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:44",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts a contextEngine slot id",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:56] accepts a contextEngine slot id",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts the model pricing bootstrap toggle",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:69] accepts the model pricing bootstrap toggle",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:69",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-boolean model pricing bootstrap values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:80] rejects non-boolean model pricing bootstrap values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts documented rescue config",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:91] accepts documented rescue config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:91",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts boolean rescue enablement",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:104] accepts boolean rescue enablement",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:104",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects unknown rescue keys",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:116] rejects unknown rescue keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:116",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts boolean and granular OTEL content capture config",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:130] accepts boolean and granular OTEL content capture config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:130",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts auth_permanent backoff knobs",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:156] accepts auth_permanent backoff knobs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:156",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts hex colors",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:170] accepts hex colors",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:170",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-hex colors",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:175] rejects non-hex colors",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:175",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects invalid hex length",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:180] rejects invalid hex length",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:180",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts strict, scripts, and trusted modes",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:187] accepts strict, scripts, and trusted modes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:187",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects unsupported values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:200] rejects unsupported values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:200",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts boolean values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:213] accepts boolean values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:213",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-boolean values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:226] rejects non-boolean values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:226",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts allowPromptInjection=false alongside allowConversationAccess=true",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:255] accepts allowPromptInjection=false alongside allowConversationAccess=true",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:255",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-boolean values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:271] rejects non-boolean values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:271",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-boolean conversation access values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:287] rejects non-boolean conversation access values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:287",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts trusted subagent override settings",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:305] accepts trusted subagent override settings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:305",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects invalid trusted subagent override settings",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:321] rejects invalid trusted subagent override settings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:321",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts kimi provider and config",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:339] accepts kimi provider and config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:339",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts direct transport",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:356] accepts direct transport",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:356",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects unknown transport",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:368] rejects unknown transport",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:368",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts gateway.tools allow and deny lists",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:384] accepts gateway.tools allow and deny lists",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:384",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects invalid gateway.tools values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:396] rejects invalid gateway.tools values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:396",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts preauth handshake timeout tuning",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:412] accepts preauth handshake timeout tuning",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:412",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-positive preauth handshake timeouts",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:421] rejects non-positive preauth handshake timeouts",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:421",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts zero to disable monitor",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:433] accepts zero to disable monitor",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:433",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects negative intervals",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:442] rejects negative intervals",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:442",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects stale thresholds shorter than the health check interval",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:454] rejects stale thresholds shorter than the health check interval",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:454",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts stale thresholds that match or exceed the health check interval",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:467] accepts stale thresholds that match or exceed the health check interval",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:467",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects stale thresholds shorter than the default health check interval",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:485] rejects stale thresholds shorter than the default health check interval",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:485",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] keeps explicit responsePrefix and group mention patterns",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:499] keeps explicit responsePrefix and group mention patterns",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:499",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] preserves empty responsePrefix when identity is present",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:526] preserves empty responsePrefix when identity is present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:526",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts blank model provider apiKey values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:551] accepts blank model provider apiKey values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:551",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts cron.webhookToken and legacy cron.webhook",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:592] accepts cron.webhookToken and legacy cron.webhook",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:592",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts cron.webhookToken SecretRef values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:604] accepts cron.webhookToken SecretRef values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:604",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-http cron.webhook URLs",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:619] rejects non-http cron.webhook URLs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:619",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts cron.retry config",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:629] accepts cron.retry config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:629",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts a broadcast peer map with strategy",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:644] accepts a broadcast peer map with strategy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:644",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects invalid broadcast strategy",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:657] rejects invalid broadcast strategy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:657",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects non-array broadcast entries",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:664] rejects non-array broadcast entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:664",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts full openai-completions compat fields",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:673] accepts full openai-completions compat fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:673",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects empty and blocked paths",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:707] rejects empty and blocked paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:707",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] sets, gets, and unsets nested values",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:717] sets, gets, and unsets nested values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:717",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] rejects unknown fields",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:731] rejects unknown fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:731",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts documented agents.list[].params overrides",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:739] accepts documented agents.list[].params overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:739",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts top-level memorySearch via auto-migration and reports legacyIssues",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:766] accepts top-level memorySearch via auto-migration and reports legacyIssues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:766",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts top-level heartbeat agent settings via auto-migration and reports legacyIssues",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:790] accepts top-level heartbeat agent settings via auto-migration and reports legacyIssues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:790",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts top-level heartbeat visibility via auto-migration and reports legacyIssues",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:811] accepts top-level heartbeat visibility via auto-migration and reports legacyIssues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:811",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts legacy messages.tts provider keys via auto-migration and reports legacyIssues",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:834] accepts legacy messages.tts provider keys via auto-migration and reports legacyIssues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:834",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] accepts legacy sandbox perSession via auto-migration and reports legacyIssues",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:872] accepts legacy sandbox perSession via auto-migration and reports legacyIssues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:872",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] does not treat resolved-only gateway.bind aliases as source-literal legacy or invalid",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:908] does not treat resolved-only gateway.bind aliases as source-literal legacy or invalid",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:908",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config-misc.test.ts] still marks literal gateway.bind host aliases as legacy",
+TEST_CASE("v4.29 [src/config/config-misc.test.ts:931] still marks literal gateway.bind host aliases as legacy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config-misc.test.ts:931",
                "upstream it() block #58",

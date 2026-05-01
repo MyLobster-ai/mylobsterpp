@@ -5,579 +5,579 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] blocks absolute endpoints unless explicitly allowed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:279] blocks absolute endpoints unless explicitly allowed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:279",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] injects a guarded fetchFn into matrix-js-sdk",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:295] injects a guarded fetchFn into matrix-js-sdk",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:295",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] prefers authenticated client media downloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:308] prefers authenticated client media downloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:308",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] falls back to legacy media downloads for older homeservers",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:326] falls back to legacy media downloads for older homeservers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:326",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] decrypts encrypted room events returned by getEvent",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:361] decrypts encrypted room events returned by getEvent",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:361",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] serializes outbound sends per room across message and event sends",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:400] serializes outbound sends per room across message and event sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:400",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not serialize sends across different rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:436] does not serialize sends across different rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:436",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] maps relations pages back to raw events",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:469] maps relations pages back to raw events",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:469",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] blocks cross-protocol redirects when absolute endpoints are allowed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:514] blocks cross-protocol redirects when absolute endpoints are allowed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:514",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] strips authorization when redirect crosses origin",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:536] strips authorization when redirect crosses origin",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:536",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] aborts requests after timeout",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:570] aborts requests after timeout",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:570",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] wires the sync store into the SDK and flushes it on shutdown",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:593] wires the sync store into the SDK and flushes it on shutdown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:593",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] emits room.message only after encrypted events decrypt",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:627] emits room.message only after encrypted events decrypt",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:627",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] emits room.failed_decryption when decrypting fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:671] emits room.failed_decryption when decrypting fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:671",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] retries failed decryption and emits room.message after late key availability",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:712] retries failed decryption and emits room.message after late key availability",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:712",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] can drain pending decrypt retries after sync stops",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:764] can drain pending decrypt retries after sync stops",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:764",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] retries failed decryptions immediately on crypto key update signals",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:810] retries failed decryptions immediately on crypto key update signals",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:810",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not keep retrying terminal historical decryption failures",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:875] does not keep retrying terminal historical decryption failures",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:875",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] emits a recovered message when decrypt retry succeeds without a second SDK decrypted event",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:907] emits a recovered message when decrypt retry succeeds without a second SDK decrypted event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:907",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] retries encrypted events that already failed before the bridge attaches",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:950] retries encrypted events that already failed before the bridge attaches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:950",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] stops decryption retries after hitting retry cap",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:997] stops decryption retries after hitting retry cap",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:997",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not start duplicate retries when crypto signals fire while retry is in-flight",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1036] does not start duplicate retries when crypto signals fire while retry is in-flight",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1036",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] emits room.invite when a membership invite targets the current user",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1105] emits room.invite when a membership invite targets the current user",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1105",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] emits room.invite when SDK emits Room event with invite membership",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1132] emits room.invite when SDK emits Room event with invite membership",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1132",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] waits for a ready sync state before resolving startup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1149] waits for a ready sync state before resolving startup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1149",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] rejects startup when sync reports an unexpected error before ready",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1177] rejects startup when sync reports an unexpected error before ready",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1177",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] allows transient startup ERROR to recover into PREPARED",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1190] allows transient startup ERROR to recover into PREPARED",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1190",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] aborts startup when the readiness wait is canceled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1205] aborts startup when the readiness wait is canceled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1205",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] aborts before post-ready startup work when shutdown races ready sync",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1220] aborts before post-ready startup work when shutdown races ready sync",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1220",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] times out startup when no ready sync state arrives",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1248] times out startup when no ready sync state arrives",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1248",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] clears stale sync state before a restarted sync session waits for fresh readiness",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1263] clears stale sync state before a restarted sync session waits for fresh readiness",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1263",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] replays outstanding invite rooms at startup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1293] replays outstanding invite rooms at startup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1293",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] passes cryptoDatabasePrefix into initRustCrypto",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1328] passes cryptoDatabasePrefix into initRustCrypto",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1328",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] bootstraps cross-signing with setupNewCrossSigning enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1343] bootstraps cross-signing with setupNewCrossSigning enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1343",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] trusts the own Matrix identity after completed self-verification",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1365] trusts the own Matrix identity after completed self-verification",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1365",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not fail self-verification cleanup when own identity verify is unavailable",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1388] does not fail self-verification cleanup when own identity verify is unavailable",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1388",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] retries bootstrap with forced reset when initial publish/verification is incomplete",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1407] retries bootstrap with forced reset when initial publish/verification is incomplete",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1407",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not force-reset bootstrap automatically when the device has an owner signature but not full trust",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1446] does not force-reset bootstrap automatically when the device has an owner signature but not full trust",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1446",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] attempts repair bootstrap even when no password is configured",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1499] attempts repair bootstrap even when no password is configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1499",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] catches and logs repair bootstrap failure when UIA is unavailable without password",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1538] catches and logs repair bootstrap failure when UIA is unavailable without password",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1538",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] provides secret storage callbacks and resolves stored recovery key",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1571] provides secret storage callbacks and resolves stored recovery key",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1571",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] provides a matrix-js-sdk logger to createClient",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1608] provides a matrix-js-sdk logger to createClient",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1608",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] passes a custom sync filter to matrix-js-sdk startup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1620] passes a custom sync filter to matrix-js-sdk startup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1620",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] schedules periodic crypto snapshot persistence",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1640] schedules periodic crypto snapshot persistence",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1640",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports own verification status when crypto marks device as verified",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1657] reports own verification status when crypto marks device as verified",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1657",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports when the current Matrix device is missing from the homeserver device list",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1686] reports when the current Matrix device is missing from the homeserver device list",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1686",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] keeps verification diagnostics when the homeserver device list cannot be read",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1710] keeps verification diagnostics when the homeserver device list cannot be read",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1710",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports the current Matrix device missing when the homeserver rejects the token",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1740] reports the current Matrix device missing when the homeserver rejects the token",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1740",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] returns degraded verification diagnostics when Matrix SDK status calls stall",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1771] returns degraded verification diagnostics when Matrix SDK status calls stall",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1771",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not treat local-only trust as Matrix identity trust",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1797] does not treat local-only trust as Matrix identity trust",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1797",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports peer device trust from the current client",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1825] reports peer device trust from the current client",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1825",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] verifies with a provided recovery key and reports success",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1857] verifies with a provided recovery key and reports success",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1857",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] accepts a staged recovery key when it establishes identity trust and backup usability",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1907] accepts a staged recovery key when it establishes identity trust and backup usability",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1907",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] fails recovery-key verification when the device lacks full cross-signing identity trust",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:1964] fails recovery-key verification when the device lacks full cross-signing identity trust",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:1964",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] keeps a usable recovery key distinct from owner device verification",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2003] keeps a usable recovery key distinct from owner device verification",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2003",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not persist a staged recovery key when backup usability came from existing material",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2060] does not persist a staged recovery key when backup usability came from existing material",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2060",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not persist a staged recovery key that secret storage did not validate",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2132] does not persist a staged recovery key that secret storage did not validate",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2132",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] returns recovery-key diagnostics without bootstrapping when backup is already usable",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2204] returns recovery-key diagnostics without bootstrapping when backup is already usable",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2204",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] fails recovery-key verification when backup remains untrusted after device verification",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2273] fails recovery-key verification when backup remains untrusted after device verification",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2273",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not overwrite the stored recovery key when recovery-key verification fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2326] does not overwrite the stored recovery key when recovery-key verification fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2326",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports detailed room-key backup health",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2386] reports detailed room-key backup health",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2386",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] tries loading backup keys from secret storage when key is missing from cache",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2428] tries loading backup keys from secret storage when key is missing from cache",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2428",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reloads backup keys from secret storage when the cached key mismatches the active backup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2471] reloads backup keys from secret storage when the cached key mismatches the active backup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2471",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports why backup key loading failed during status checks",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2516] reports why backup key loading failed during status checks",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2516",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] restores room keys from backup after loading key from secret storage",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2546] restores room keys from backup after loading key from secret storage",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2546",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] restores backup keys when the matching decryption key is cached but signature trust is stale",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2594] restores backup keys when the matching decryption key is cached but signature trust is stale",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2594",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] activates backup after loading the key from secret storage before restore",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2626] activates backup after loading the key from secret storage before restore",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2626",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] fails restore when backup key cannot be loaded on this device",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2670] fails restore when backup key cannot be loaded on this device",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2670",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reloads the matching backup key before restore when the cached key mismatches",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2698] reloads the matching backup key before restore when the cached key mismatches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2698",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] resets the current room-key backup and creates a fresh trusted version",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2745] resets the current room-key backup and creates a fresh trusted version",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2745",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] rotates the recovery key when resetting room-key backup with rotation requested",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2790] rotates the recovery key when resetting room-key backup with rotation requested",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2790",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reloads the new backup decryption key after reset when the old cached key mismatches",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2844] reloads the new backup decryption key after reset when the old cached key mismatches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2844",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] fails reset when the recreated backup still does not match the local decryption key",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2895] fails reset when the recreated backup still does not match the local decryption key",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2895",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] forces SSSS recreation when backup-secret access fails with bad MAC before reset",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2934] forces SSSS recreation when backup-secret access fails with bad MAC before reset",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2934",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] forces SSSS recreation when backup-secret access is broken even without a current server backup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:2999] forces SSSS recreation when backup-secret access is broken even without a current server backup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:2999",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] forces SSSS recreation when backup-secret access returns a falsey callback error before reset",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3060] forces SSSS recreation when backup-secret access returns a falsey callback error before reset",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3060",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports bootstrap failure when cross-signing keys are not published",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3114] reports bootstrap failure when cross-signing keys are not published",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3114",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports bootstrap success when own device is verified and keys are published",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3151] reports bootstrap success when own device is verified and keys are published",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3151",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] reports bootstrap failure when the device is only locally trusted",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3199] reports bootstrap failure when the device is only locally trusted",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3199",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] creates a key backup during bootstrap when none exists on the server",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3235] creates a key backup during bootstrap when none exists on the server",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3235",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not recreate key backup during bootstrap when one already exists",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3293] does not recreate key backup during bootstrap when one already exists",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3293",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts] does not report bootstrap errors when final verification state is healthy",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk.test.ts:3352] does not report bootstrap errors when final verification state is healthy",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk.test.ts:3352",
                "upstream it() block #81",

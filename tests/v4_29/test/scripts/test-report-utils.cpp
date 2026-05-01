@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts] normalizes repo-local absolute paths to repo-relative slash paths",
+TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts:24] normalizes repo-local absolute paths to repo-relative slash paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-report-utils.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts] preserves external absolute paths as normalized absolute paths",
+TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts:30] preserves external absolute paths as normalized absolute paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-report-utils.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts] extracts per-file durations and applies file normalization",
+TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts:38] extracts per-file durations and applies file normalization",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-report-utils.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts] returns the fallback when the file is missing",
+TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts:67] returns the fallback when the file is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-report-utils.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts] reads valid JSON files",
+TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts:73] reads valid JSON files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-report-utils.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts] launches Vitest through pnpm exec",
+TEST_CASE("v4.29 [test/scripts/test-report-utils.test.ts:91] launches Vitest through pnpm exec",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-report-utils.test.ts:91",
                "upstream it() block #5",

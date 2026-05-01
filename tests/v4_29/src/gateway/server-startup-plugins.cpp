@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts] falls back to per-plugin runtime-deps installs after failed pre-start staging",
+TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts:203] falls back to per-plugin runtime-deps installs after failed pre-start staging",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-plugins.test.ts:203",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts] pre-stages the full startup dependency set",
+TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts:248] pre-stages the full startup dependency set",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-plugins.test.ts:248",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts] derives startup activation from source config instead of runtime plugin defaults",
+TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts:276] derives startup activation from source config instead of runtime plugin defaults",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-plugins.test.ts:276",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts] falls back to per-plugin runtime-deps installs after failed pre-start scan",
+TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts:418] falls back to per-plugin runtime-deps installs after failed pre-start scan",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-plugins.test.ts:418",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts] bypasses plugin lookup and runtime-deps staging when plugins are globally disabled",
+TEST_CASE("v4.29 [src/gateway/server-startup-plugins.test.ts:452] bypasses plugin lookup and runtime-deps staging when plugins are globally disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-plugins.test.ts:452",
                "upstream it() block #4",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] resolves subagent label with fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:48] resolves subagent label with fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] sorts by startedAt then createdAt descending",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:54] sorts by startedAt then createdAt descending",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] selects last from sorted runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:63] selects last from sorted runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] resolves numeric index from running then recent finished order",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:72] resolves numeric index from running then recent finished order",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] resolves session key target and unknown session errors",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:99] resolves session key target and unknown session errors",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:99",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] resolves exact label, prefix, run-id prefix and ambiguity errors",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:107] resolves exact label, prefix, run-id prefix and ambiguity errors",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] returns ambiguous exact label error before prefix/run id matching",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:125] returns ambiguous exact label error before prefix/run id matching",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:125",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts] prefers the current live row when stale and current runs share a label on one child session",
+TEST_CASE("v4.29 [src/auto-reply/reply/subagents-utils.test.ts:133] prefers the current live row when stale and current runs share a label on one child session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/subagents-utils.test.ts:133",
                "upstream it() block #7",

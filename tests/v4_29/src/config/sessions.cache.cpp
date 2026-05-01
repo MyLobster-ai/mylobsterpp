@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should load session store from disk on first call",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:58] should load session store from disk on first call",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should serve freshly saved session stores from cache without disk reads",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:69] should serve freshly saved session stores from cache without disk reads",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should not allow cached session mutations to leak across loads",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:87] should not allow cached session mutations to leak across loads",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] does not cache pre-migration or pre-normalization disk JSON",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:111] does not cache pre-migration or pre-normalization disk JSON",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] isolates cached session stores without structuredClone",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:145] isolates cached session stores without structuredClone",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] does not parse serialized stores when writing the cache",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:173] does not parse serialized stores when writing the cache",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:173",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] clones disk-loaded stores from the raw serialized JSON",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:195] clones disk-loaded stores from the raw serialized JSON",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:195",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should refresh cache when store file changes on disk",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:226] should refresh cache when store file changes on disk",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should invalidate cache on write",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:248] should invalidate cache on write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:248",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should respect OPENCLAW_SESSION_CACHE_TTL_MS=0 to disable cache",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:273] should respect OPENCLAW_SESSION_CACHE_TTL_MS=0 to disable cache",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:273",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should handle non-existent store gracefully",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:297] should handle non-existent store gracefully",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:297",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should handle invalid JSON gracefully",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:305] should handle invalid JSON gracefully",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:305",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.cache.test.ts] should refresh cache when file is rewritten within the same mtime tick",
+TEST_CASE("v4.29 [src/config/sessions.cache.test.ts:314] should refresh cache when file is rewritten within the same mtime tick",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.cache.test.ts:314",
                "upstream it() block #12",

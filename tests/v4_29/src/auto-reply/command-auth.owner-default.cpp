@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] does not treat direct-message senders as owners when no ownerAllowFrom is configured",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:10] does not treat direct-message senders as owners when no ownerAllowFrom is configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] does not treat group-chat senders as owners when no ownerAllowFrom is configured",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:33] does not treat group-chat senders as owners when no ownerAllowFrom is configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] keeps channel-validated native group commands authorized without owner status",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:56] keeps channel-validated native group commands authorized without owner status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] senderIsOwner is false when ownerAllowFrom is configured and sender does not match",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:80] senderIsOwner is false when ownerAllowFrom is configured and sender does not match",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] does not let native command authorization bypass explicit owner allowlists",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:102] does not let native command authorization bypass explicit owner allowlists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] senderIsOwner is true when ownerAllowFrom matches sender",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:127] senderIsOwner is true when ownerAllowFrom matches sender",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:127",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] senderIsOwner is true when ownerAllowFrom is wildcard (*)",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:149] senderIsOwner is true when ownerAllowFrom is wildcard (*)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:149",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts] senderIsOwner is true for internal operator.admin sessions",
+TEST_CASE("v4.29 [src/auto-reply/command-auth.owner-default.test.ts:171] senderIsOwner is true for internal operator.admin sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-auth.owner-default.test.ts:171",
                "upstream it() block #7",

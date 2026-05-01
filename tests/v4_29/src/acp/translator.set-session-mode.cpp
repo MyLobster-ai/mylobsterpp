@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/translator.set-session-mode.test.ts] setSessionMode propagates gateway error",
+TEST_CASE("v4.29 [src/acp/translator.set-session-mode.test.ts:39] setSessionMode propagates gateway error",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.set-session-mode.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.set-session-mode.test.ts] setSessionMode succeeds when gateway accepts",
+TEST_CASE("v4.29 [src/acp/translator.set-session-mode.test.ts:57] setSessionMode succeeds when gateway accepts",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.set-session-mode.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.set-session-mode.test.ts] setSessionMode returns early for empty modeId",
+TEST_CASE("v4.29 [src/acp/translator.set-session-mode.test.ts:71] setSessionMode returns early for empty modeId",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.set-session-mode.test.ts:71",
                "upstream it() block #2",

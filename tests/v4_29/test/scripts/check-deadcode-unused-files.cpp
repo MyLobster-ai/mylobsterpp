@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts] parses the compact Knip unused-file section",
+TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts:9] parses the compact Knip unused-file section",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-deadcode-unused-files.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts] parses Knip",
+TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts:25] parses Knip",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-deadcode-unused-files.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts] reports unexpected and stale allowlist entries",
+TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts:32] reports unexpected and stale allowlist entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-deadcode-unused-files.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts] accepts optional allowlist entries whether Knip reports them or not",
+TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts:43] accepts optional allowlist entries whether Knip reports them or not",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-deadcode-unused-files.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts] accepts exactly allowlisted unused files",
+TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts:62] accepts exactly allowlisted unused files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-deadcode-unused-files.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts] rejects unsorted allowlists",
+TEST_CASE("v4.29 [test/scripts/check-deadcode-unused-files.test.ts:69] rejects unsorted allowlists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-deadcode-unused-files.test.ts:69",
                "upstream it() block #5",

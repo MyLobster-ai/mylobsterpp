@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] handles auth, wake, and agent flows",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:156] handles auth, wake, and agent flows",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:156",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] preserves mapped hook provenance across async dispatch",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:265] preserves mapped hook provenance across async dispatch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:265",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] routes explicit-agent hook completion events to the target agent main session",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:301] routes explicit-agent hook completion events to the target agent main session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:301",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] hook announcement policy keeps no-deliver success silent without hiding failures",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:321] hook announcement policy keeps no-deliver success silent without hiding failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:321",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] hook announcement policy suppresses fallback after attempted delivery",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:379] hook announcement policy suppresses fallback after attempted delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:379",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] queues direct and mapped wake payloads as untrusted system events",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:401] queues direct and mapped wake payloads as untrusted system events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:401",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] rejects request sessionKey unless hooks.allowRequestSessionKey is enabled",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:439] rejects request sessionKey unless hooks.allowRequestSessionKey is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:439",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] respects hooks session policy for request + mapping session keys",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:452] respects hooks session policy for request + mapping session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:452",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] enforces templated vs static mapping session keys on /hooks/<mapping>",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:523] enforces templated vs static mapping session keys on /hooks/<mapping>",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:523",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] treats malformed transform sessionKeySource as templated on /hooks/<mapping>",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:568] treats malformed transform sessionKeySource as templated on /hooks/<mapping>",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:568",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] preserves target-agent prefixes before isolated dispatch",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:606] preserves target-agent prefixes before isolated dispatch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:606",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] rebinds mismatched agent prefixes to the hook target before isolated dispatch",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:623] rebinds mismatched agent prefixes to the hook target before isolated dispatch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:623",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] rejects rebinding into a session namespace that is not allowlisted",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:640] rejects rebinding into a session namespace that is not allowlisted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:640",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] rejects mapped hook session rebinding into a disallowed target-agent prefix",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:662] rejects mapped hook session rebinding into a disallowed target-agent prefix",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:662",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] dedupes repeated /hooks/agent deliveries by idempotency key",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:688] dedupes repeated /hooks/agent deliveries by idempotency key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:688",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] dedupes hook retries even when trusted-proxy client IP changes",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:703] dedupes hook retries even when trusted-proxy client IP changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:703",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] does not retain oversized idempotency keys for replay dedupe",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:727] does not retain oversized idempotency keys for replay dedupe",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:727",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] expires hook idempotency entries from first delivery time",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:741] expires hook idempotency entries from first delivery time",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:741",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] enforces hooks.allowedAgentIds for explicit agent routing",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:788] enforces hooks.allowedAgentIds for explicit agent routing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:788",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] denies explicit agentId when hooks.allowedAgentIds is empty",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:843] denies explicit agentId when hooks.allowedAgentIds is empty",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:843",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] throttles repeated hook auth failures and resets after success",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:864] throttles repeated hook auth failures and resets after success",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:864",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts] rejects non-POST hook requests without consuming auth failure budget",
+TEST_CASE("v4.29 [src/gateway/server.hooks.test.ts:897] rejects non-POST hook requests without consuming auth failure budget",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.hooks.test.ts:897",
                "upstream it() block #21",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.commitments.test.ts] delivers due commitments to the original scope even when heartbeat target is none",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.commitments.test.ts:114] delivers due commitments to the original scope even when heartbeat target is none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.commitments.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.commitments.test.ts] dismisses a due commitment when the heartbeat model declines to send a check-in",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.commitments.test.ts:127] dismisses a due commitment when the heartbeat model declines to send a check-in",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.commitments.test.ts:127",
                "upstream it() block #1",

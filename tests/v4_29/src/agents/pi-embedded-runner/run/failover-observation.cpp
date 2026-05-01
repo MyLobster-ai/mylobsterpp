@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts] fills timeout observation reasons for deadline timeouts without provider error text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts:28] fills timeout observation reasons for deadline timeouts without provider error text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/failover-observation.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts] preserves explicit failover reasons",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts:41] preserves explicit failover reasons",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/failover-observation.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts] includes from and to model refs when the source differs from the selected target",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts:64] includes from and to model refs when the source differs from the selected target",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/failover-observation.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts] omits to model refs when the source matches the selected target",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/failover-observation.test.ts:99] omits to model refs when the source matches the selected target",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/failover-observation.test.ts:99",
                "upstream it() block #3",

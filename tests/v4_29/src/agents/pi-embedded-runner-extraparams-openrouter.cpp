@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts] does not inject reasoning when thinkingLevel is off (default) for OpenRouter",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:52] does not inject reasoning when thinkingLevel is off (default) for OpenRouter",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts] injects reasoning.effort when thinkingLevel is non-off for OpenRouter",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:64] injects reasoning.effort when thinkingLevel is non-off for OpenRouter",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts] removes legacy reasoning_effort and keeps reasoning unset when thinkingLevel is off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:74] removes legacy reasoning_effort and keeps reasoning unset when thinkingLevel is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts] does not inject effort when payload already has reasoning.max_tokens",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:86] does not inject effort when payload already has reasoning.max_tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts] does not inject reasoning.effort for x-ai/grok models on OpenRouter (#32039)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:97] does not inject reasoning.effort for x-ai/grok models on OpenRouter (#32039)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-openrouter.test.ts:97",
                "upstream it() block #4",

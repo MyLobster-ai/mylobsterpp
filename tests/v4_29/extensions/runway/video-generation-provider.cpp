@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts:19] declares explicit mode capabilities",
           "[v4_29][parity_gap][runway]") {
     PARITY_GAP("extensions/runway/video-generation-provider.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts] submits a text-to-video task, polls it, and downloads the output",
+TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts:23] submits a text-to-video task, polls it, and downloads the output",
           "[v4_29][parity_gap][runway]") {
     PARITY_GAP("extensions/runway/video-generation-provider.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts] accepts local image buffers by converting them into data URIs",
+TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts:84] accepts local image buffers by converting them into data URIs",
           "[v4_29][parity_gap][runway]") {
     PARITY_GAP("extensions/runway/video-generation-provider.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts] requires gen4_aleph for video-to-video",
+TEST_CASE("v4.29 [extensions/runway/video-generation-provider.test.ts:128] requires gen4_aleph for video-to-video",
           "[v4_29][parity_gap][runway]") {
     PARITY_GAP("extensions/runway/video-generation-provider.test.ts:128",
                "upstream it() block #3",

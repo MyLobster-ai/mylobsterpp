@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts] leaves explicit command overrides unchanged",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts:26] leaves explicit command overrides unchanged",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/managed-binary.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts] resolves the plugin-local bundled Codex binary",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts:39] resolves the plugin-local bundled Codex binary",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/managed-binary.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts] resolves Windows Codex command shims",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts:58] resolves Windows Codex command shims",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/managed-binary.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts] finds Codex in the external runtime-deps install root used by packaged plugins",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts:67] finds Codex in the external runtime-deps install root used by packaged plugins",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/managed-binary.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts] fails clearly when bundled runtime deps did not stage Codex",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/managed-binary.test.ts:86] fails clearly when bundled runtime deps did not stage Codex",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/managed-binary.test.ts:86",
                "upstream it() block #4",

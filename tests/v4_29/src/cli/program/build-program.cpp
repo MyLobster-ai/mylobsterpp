@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/build-program.test.ts] wires context/help/preaction/command registration with shared context",
+TEST_CASE("v4.29 [src/cli/program/build-program.test.ts:67] wires context/help/preaction/command registration with shared context",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/build-program.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/build-program.test.ts] sets exitCode to 1 on argument errors (fixes #60905)",
+TEST_CASE("v4.29 [src/cli/program/build-program.test.ts:85] sets exitCode to 1 on argument errors (fixes #60905)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/build-program.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/build-program.test.ts] does not run the command action after an argument error",
+TEST_CASE("v4.29 [src/cli/program/build-program.test.ts:98] does not run the command action after an argument error",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/build-program.test.ts:98",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/build-program.test.ts] preserves exitCode 0 for help display",
+TEST_CASE("v4.29 [src/cli/program/build-program.test.ts:108] preserves exitCode 0 for help display",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/build-program.test.ts:108",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/build-program.test.ts] preserves exitCode 0 for version display",
+TEST_CASE("v4.29 [src/cli/program/build-program.test.ts:118] preserves exitCode 0 for version display",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/build-program.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/build-program.test.ts] preserves non-zero exitCode for help error flows",
+TEST_CASE("v4.29 [src/cli/program/build-program.test.ts:128] preserves non-zero exitCode for help error flows",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/build-program.test.ts:128",
                "upstream it() block #5",

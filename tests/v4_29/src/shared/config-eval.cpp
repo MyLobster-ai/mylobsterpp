@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] normalizes truthy values across primitive types",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:39] normalizes truthy values across primitive types",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] resolves nested config paths and missing branches safely",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:51] resolves nested config paths and missing branches safely",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] uses defaults only when config paths are unresolved",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:67] uses defaults only when config paths are unresolved",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:67",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] returns the active runtime platform",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:83] returns the active runtime platform",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] caches binary lookups until PATH changes",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:88] caches binary lookups until PATH changes",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] checks PATHEXT candidates on Windows",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:112] checks PATHEXT candidates on Windows",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:112",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] accepts remote bins and remote any-bin matches",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:137] accepts remote bins and remote any-bin matches",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:137",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] rejects when any required runtime check is still unsatisfied",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:155] rejects when any required runtime check is still unsatisfied",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] rejects entries when required OS does not match local or remote",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:178] rejects entries when required OS does not match local or remote",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] accepts entries when remote platform satisfies OS requirements",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:189] accepts entries when remote platform satisfies OS requirements",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:189",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] bypasses runtime requirements when always=true",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:200] bypasses runtime requirements when always=true",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:200",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/config-eval.test.ts] evaluates runtime requirements when always is false",
+TEST_CASE("v4.29 [src/shared/config-eval.test.ts:211] evaluates runtime requirements when always is false",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/config-eval.test.ts:211",
                "upstream it() block #11",

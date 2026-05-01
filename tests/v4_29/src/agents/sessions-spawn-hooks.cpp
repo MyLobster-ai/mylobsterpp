@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] runs subagent_spawning and emits subagent_spawned with requester metadata",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:202] runs subagent_spawning and emits subagent_spawned with requester metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:202",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] emits subagent_spawned with threadRequested=false when not requested",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:260] emits subagent_spawned with threadRequested=false when not requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:260",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] respects explicit mode=run when thread binding is requested",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:282] respects explicit mode=run when thread binding is requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:282",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] returns error when thread binding cannot be created",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:299] returns error when thread binding cannot be created",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:299",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] returns error when thread binding is not marked ready",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:316] returns error when thread binding is not marked ready",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:316",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] rejects mode=session when thread=true is not requested",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:333] rejects mode=session when thread=true is not requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:333",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] rejects thread=true on channels without thread support",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:345] rejects thread=true on channels without thread support",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:345",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] runs subagent_ended cleanup hook when agent start fails after successful bind",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:359] runs subagent_ended cleanup hook when agent start fails after successful bind",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:359",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] falls back to sessions.delete cleanup when subagent_ended hook is unavailable",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:391] falls back to sessions.delete cleanup when subagent_ended hook is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:391",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts] cleans up the provisional session when lineage patching fails after thread binding",
+TEST_CASE("v4.29 [src/agents/sessions-spawn-hooks.test.ts:413] cleans up the provisional session when lineage patching fails after thread binding",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sessions-spawn-hooks.test.ts:413",
                "upstream it() block #9",

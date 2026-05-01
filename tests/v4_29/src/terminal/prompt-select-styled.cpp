@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/terminal/prompt-select-styled.test.ts] styles message and option hints before select receives params",
+TEST_CASE("v4.29 [src/terminal/prompt-select-styled.test.ts:5] styles message and option hints before select receives params",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/prompt-select-styled.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/prompt-select-styled.test.ts] keeps unhinted options unchanged",
+TEST_CASE("v4.29 [src/terminal/prompt-select-styled.test.ts:29] keeps unhinted options unchanged",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/prompt-select-styled.test.ts:29",
                "upstream it() block #1",

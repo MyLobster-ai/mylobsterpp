@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] stops at the first handler that claims the event",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:37] stops at the first handler that claims the event",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] continues to the next handler when a higher-priority handler throws",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:55] continues to the next handler when a higher-priority handler throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] can target a single plugin when core already owns the binding",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:90] can target a single plugin when core already owns the binding",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] can target a loaded non-default plugin without mutating the helper registry",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:110] can target a loaded non-default plugin without mutating the helper registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] reports missing_plugin when the bound plugin is not loaded",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:129] reports missing_plugin when the bound plugin is not loaded",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:129",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] reports no_handler when the plugin is loaded but has no targeted hooks",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:142] reports no_handler when the plugin is loaded but has no targeted hooks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] reports error when a targeted handler throws and none claim the event",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:154] reports error when a targeted handler throws and none claim the event",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:154",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts] reports targeted per-hook registration timeouts as handler errors",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-inbound-claim.test.ts:174] reports targeted per-hook registration timeouts as handler errors",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-inbound-claim.test.ts:174",
                "upstream it() block #7",

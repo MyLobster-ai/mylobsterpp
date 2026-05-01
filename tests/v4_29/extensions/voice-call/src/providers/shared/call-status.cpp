@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/shared/call-status.test.ts] normalizes missing statuses to unknown",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/shared/call-status.test.ts:9] normalizes missing statuses to unknown",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/shared/call-status.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/shared/call-status.test.ts] maps terminal provider statuses to end reasons",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/shared/call-status.test.ts:14] maps terminal provider statuses to end reasons",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/shared/call-status.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/shared/call-status.test.ts] flags terminal provider statuses",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/shared/call-status.test.ts:20] flags terminal provider statuses",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/shared/call-status.test.ts:20",
                "upstream it() block #2",

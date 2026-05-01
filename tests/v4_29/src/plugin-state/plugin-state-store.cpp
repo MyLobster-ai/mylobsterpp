@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] registers and looks up values across store instances",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:22] registers and looks up values across store instances",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] upserts values and refreshes deterministic entry ordering",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:38] upserts values and refreshes deterministic entry ordering",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] returns undefined for missing lookups and consumes by deleting atomically",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:60] returns undefined for missing lookups and consumes by deleting atomically",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] deletes and clears only the targeted namespace",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:75] deletes and clears only the targeted namespace",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] excludes expired entries and sweeps them",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:92] excludes expired entries and sweeps them",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:92",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] evicts oldest live entries over maxEntries",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:112] evicts oldest live entries over maxEntries",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:112",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] rejects when the per-plugin live row ceiling would be exceeded without evicting siblings",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:127] rejects when the per-plugin live row ceiling would be exceeded without evicting siblings",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:127",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] segregates plugins sharing a namespace and key",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:148] segregates plugins sharing a namespace and key",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:148",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] validates namespaces, keys, options, and JSON values before writes",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:164] validates namespaces, keys, options, and JSON values before writes",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:164",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] rejects reopening the same namespace with incompatible options",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:229] rejects reopening the same namespace with incompatible options",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:229",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] allows core owners and reserves core-prefixed plugin ids",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:238] allows core owners and reserves core-prefixed plugin ids",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:238",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] closes the cached DB handle and reopens cleanly",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:253] closes the cached DB handle and reopens cleanly",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:253",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] reports healthy diagnostics without stored values",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:272] reports healthy diagnostics without stored values",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:272",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts] throws on unsupported future schema versions",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.test.ts:281] throws on unsupported future schema versions",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.test.ts:281",
                "upstream it() block #13",

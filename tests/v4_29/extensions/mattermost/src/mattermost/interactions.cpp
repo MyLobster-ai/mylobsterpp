@@ -5,341 +5,341 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] derives a deterministic secret from the bot token",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:28] derives a deterministic secret from the bot token",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] produces different secrets for different tokens",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:36] produces different secrets for different tokens",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] returns a hex string",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:44] returns a hex string",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] generates a hex token",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:56] generates a hex token",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] verifies a valid token",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:61] verifies a valid token",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects a tampered token",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:67] rejects a tampered token",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects a token generated with different context",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:74] rejects a token generated with different context",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects tokens with wrong length",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:79] rejects tokens with wrong length",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:79",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] is deterministic for the same context",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:84] is deterministic for the same context",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:84",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] produces the same token regardless of key order",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:91] produces the same token regardless of key order",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:91",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] verifies a token when Mattermost reorders context keys",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:102] verifies a token when Mattermost reorders context keys",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:102",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] verifies nested context regardless of nested key order",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:113] verifies nested context regardless of nested key order",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:113",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects nested context tampering",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:140] rejects nested context tampering",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:140",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] scopes tokens per account when account secrets differ",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:160] scopes tokens per account when account secrets differ",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:160",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] stores and retrieves callback URLs",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:174] stores and retrieves callback URLs",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:174",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] returns undefined for unknown account",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:181] returns undefined for unknown account",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:181",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] prefers cached URL from registry",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:193] prefers cached URL from registry",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:193",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] recomputes from config when bypassing the cache explicitly",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:198] recomputes from config when bypassing the cache explicitly",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:198",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] uses interactions.callbackBaseUrl when configured",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:206] uses interactions.callbackBaseUrl when configured",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:206",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] trims trailing slashes from callbackBaseUrl",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:219] trims trailing slashes from callbackBaseUrl",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:219",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] uses merged per-account interactions.callbackBaseUrl",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:232] uses merged per-account interactions.callbackBaseUrl",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:232",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] falls back to gateway.customBindHost when configured",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:261] falls back to gateway.customBindHost when configured",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:261",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] falls back to localhost when customBindHost is a wildcard bind address",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:268] falls back to localhost when customBindHost is a wildcard bind address",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:268",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] brackets IPv6 custom bind hosts",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:275] brackets IPv6 custom bind hosts",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:275",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] uses default port 18789 when no config provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:282] uses default port 18789 when no config provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:282",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] builds the per-account callback path",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:289] builds the per-account callback path",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:289",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] returns an array with one attachment containing all buttons",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:301] returns an array with one attachment containing all buttons",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:301",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] sets type to ",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:314] sets type to ",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:314",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] includes HMAC _token in integration context",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:323] includes HMAC _token in integration context",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:323",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] includes sanitized action_id in integration context",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:333] includes sanitized action_id in integration context",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:333",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] merges custom context into integration context",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:345] merges custom context into integration context",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:345",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] passes callback URL to each button integration",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:358] passes callback URL to each button integration",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:358",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] preserves button style",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:373] preserves button style",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:373",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] uses provided text for the attachment",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:386] uses provided text for the attachment",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:386",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] defaults to empty string text when not provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:396] defaults to empty string text when not provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:396",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] generates verifiable tokens",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:405] generates verifiable tokens",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:405",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] generates tokens that verify even when Mattermost reorders context keys",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:417] generates tokens that verify even when Mattermost reorders context keys",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:417",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] accepts callback requests from an allowlisted source IP",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:670] accepts callback requests from an allowlisted source IP",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:670",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] accepts forwarded Mattermost source IPs from a trusted proxy",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:679] accepts forwarded Mattermost source IPs from a trusted proxy",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:679",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects callback requests from non-allowlisted source IPs",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:691] rejects callback requests from non-allowlisted source IPs",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:691",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects requests with an invalid interaction token",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:709] rejects requests with an invalid interaction token",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:709",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects requests when the signed channel does not match the callback payload",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:723] rejects requests when the signed channel does not match the callback payload",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:723",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects requests when the fetched post does not belong to the callback channel",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:733] rejects requests when the fetched post does not belong to the callback channel",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:733",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] rejects requests when the action is not present on the fetched post",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:747] rejects requests when the action is not present on the fetched post",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:747",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] accepts actions when the button name matches the action id",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:754] accepts actions when the button name matches the action id",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:754",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] blocks button dispatch when the sender is not allowed for the action",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:762] blocks button dispatch when the sender is not allowed for the action",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:762",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] forwards fetched post threading metadata to session and button callbacks",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:792] forwards fetched post threading metadata to session and button callbacks",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:792",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts] lets a custom interaction handler short-circuit generic completion updates",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/interactions.test.ts:832] lets a custom interaction handler short-circuit generic completion updates",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/interactions.test.ts:832",
                "upstream it() block #47",

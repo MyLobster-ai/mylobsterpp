@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts] loads recognized bootstrap files from glob patterns",
+TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts:27] loads recognized bootstrap files from glob patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.load-extra-bootstrap-files.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts] keeps path-traversal attempts outside workspace excluded",
+TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts:41] keeps path-traversal attempts outside workspace excluded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.load-extra-bootstrap-files.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts] supports symlinked workspace roots with realpath checks",
+TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts:54] supports symlinked workspace roots with realpath checks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.load-extra-bootstrap-files.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts] rejects hardlinked aliases to files outside workspace",
+TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts:73] rejects hardlinked aliases to files outside workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.load-extra-bootstrap-files.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts] skips oversized bootstrap files and reports diagnostics",
+TEST_CASE("v4.29 [src/agents/workspace.load-extra-bootstrap-files.test.ts:99] skips oversized bootstrap files and reports diagnostics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.load-extra-bootstrap-files.test.ts:99",
                "upstream it() block #4",

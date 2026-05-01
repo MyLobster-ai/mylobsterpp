@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/channel.gateway.test.ts] stops before monitor startup when getMe rejects the token",
+TEST_CASE("v4.29 [extensions/telegram/src/channel.gateway.test.ts:76] stops before monitor startup when getMe rejects the token",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/channel.gateway.test.ts:76",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/channel.gateway.test.ts] keeps existing fallback startup for non-auth probe failures",
+TEST_CASE("v4.29 [extensions/telegram/src/channel.gateway.test.ts:97] keeps existing fallback startup for non-auth probe failures",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/channel.gateway.test.ts:97",
                "upstream it() block #1",

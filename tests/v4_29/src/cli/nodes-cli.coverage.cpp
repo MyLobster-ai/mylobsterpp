@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts] does not register the removed run wrapper",
+TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts:110] does not register the removed run wrapper",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-cli.coverage.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts] blocks system.run on nodes invoke",
+TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts:120] blocks system.run on nodes invoke",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-cli.coverage.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts] invokes system.notify with provided fields",
+TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts:129] invokes system.notify with provided fields",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-cli.coverage.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts] invokes location.get with params",
+TEST_CASE("v4.29 [src/cli/nodes-cli.coverage.test.ts:154] invokes location.get with params",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-cli.coverage.test.ts:154",
                "upstream it() block #3",

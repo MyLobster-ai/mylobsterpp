@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] passes npm specs and optional expected integrity to npm installs with progress",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:76] passes npm specs and optional expected integrity to npm installs with progress",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:76",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] returns a timed out status and notes the retry path when npm install hangs",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:157] returns a timed out status and notes the retry path when npm install hangs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:157",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] offers registry npm specs without requiring an exact version or integrity pin",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:195] offers registry npm specs without requiring an exact version or integrity pin",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:195",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] does not offer local installs when the workspace only has a spoofed .git marker",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:229] does not offer local installs when the workspace only has a spoofed .git marker",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:229",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] allows local installs for real gitdir checkouts and sanitizes prompt text",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:283] allows local installs for real gitdir checkouts and sanitizes prompt text",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:283",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] does not add local plugin paths when enablement is blocked by policy",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:336] does not add local plugin paths when enablement is blocked by policy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:336",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] allows local installs for linked git worktrees",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:383] allows local installs for linked git worktrees",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:383",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] records local install source metadata when a local path is selected",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:433] records local install source metadata when a local path is selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:433",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] hides the npm download option for bundled plugins so the menu matches non-npm channels",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:486] hides the npm download option for bundled plugins so the menu matches non-npm channels",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:486",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] enables bundled plugins without adding their bundled directory as a local install",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:548] enables bundled plugins without adding their bundled directory as a local install",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:548",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] records local install source metadata when npm install falls back to local",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:593] records local install source metadata when npm install falls back to local",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:593",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] records absolute local catalog paths as workspace-relative source metadata",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:661] records absolute local catalog paths as workspace-relative source metadata",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:661",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] keeps local installs available when cwd is a git repo but workspaceDir is not",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:693] keeps local installs available when cwd is a git repo but workspaceDir is not",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:693",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] rejects local install paths outside the trusted workspace roots",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:743] rejects local install paths outside the trusted workspace roots",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:743",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts] rejects local install paths when relative resolution looks cross-drive",
+TEST_CASE("v4.29 [src/commands/onboarding-plugin-install.test.ts:779] rejects local install paths when relative resolution looks cross-drive",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboarding-plugin-install.test.ts:779",
                "upstream it() block #14",

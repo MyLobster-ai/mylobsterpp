@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] splits standard provider/model",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:160] splits standard provider/model",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:160",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] handles leading/trailing whitespace in model string",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:169] handles leading/trailing whitespace in model string",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:169",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] handles openrouter nested provider paths",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:182] handles openrouter nested provider paths",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] rejects model with trailing slash (empty model name)",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:195] rejects model with trailing slash (empty model name)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:195",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] rejects model with leading slash (empty provider)",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:206] rejects model with leading slash (empty provider)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:206",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] reports the cron allowlist path when payload.model is not allowed",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:217] reports the cron allowlist path when payload.model is not allowed",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:217",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] normalizes provider casing",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:237] normalizes provider casing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:237",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] normalizes anthropic model aliases",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:250] normalizes anthropic model aliases",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:250",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] normalizes bedrock provider alias",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:263] normalizes bedrock provider alias",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:263",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] job payload model overrides default (anthropic -> openai)",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:278] job payload model overrides default (anthropic -> openai)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:278",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] session override applies when no job payload model is present",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:291] session override applies when no job payload model is present",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:291",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] job payload model wins over conflicting session override",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:303] job payload model wins over conflicting session override",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:303",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] falls through to default when no override is present",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:320] falls through to default when no override is present",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:320",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] does not treat another chat session /model override as a global cron default",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:324] does not treat another chat session /model override as a global cron default",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:324",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] openai override -> session openai -> job anthropic: each step resolves correctly",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:350] openai override -> session openai -> job anthropic: each step resolves correctly",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:350",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] provider does not leak between isolated sequential runs",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:388] provider does not leak between isolated sequential runs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:388",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] stored modelOverride/providerOverride are applied",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:405] stored modelOverride/providerOverride are applied",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:405",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] default remains when store has no override",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:417] default remains when store has no override",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:417",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] whitespace-only model treated as unset (falls to default)",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:423] whitespace-only model treated as unset (falls to default)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:423",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] empty string model treated as unset",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:429] empty string model treated as unset",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:429",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] whitespace-only session modelOverride is ignored",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:435] whitespace-only session modelOverride is ignored",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:435",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] default model as string ",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:446] default model as string ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:446",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] default model as object with primary field",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:461] default model as object with primary field",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:461",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] job override switches away from object default",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:476] job override switches away from object default",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:476",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] uses agents.defaults.subagents.model when set",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:496] uses agents.defaults.subagents.model when set",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:496",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] supports subagents.model with {primary} object format",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:512] supports subagents.model with {primary} object format",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:512",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] job payload model override takes precedence over subagents.model",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:528] job payload model override takes precedence over subagents.model",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:528",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts] prefers the agent model over agents.defaults.subagents.model",
+TEST_CASE("v4.29 [src/cron/isolated-agent.model-formatting.test.ts:549] prefers the agent model over agents.defaults.subagents.model",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.model-formatting.test.ts:549",
                "upstream it() block #27",

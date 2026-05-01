@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] passes explicit agentId to outbound delivery for scoped media roots",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:90] passes explicit agentId to outbound delivery for scoped media roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:90",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] forwards requesterSenderId into the outbound delivery session",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:108] forwards requesterSenderId into the outbound delivery session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] forwards non-id requester sender fields into the outbound delivery session",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:130] forwards non-id requester sender fields into the outbound delivery session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] uses requester session/account for outbound delivery policy context",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:156] uses requester session/account for outbound delivery policy context",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] propagates the send idempotency key into mirrored transcript delivery",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:184] propagates the send idempotency key into mirrored transcript delivery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] applies mirror matrix semantics for MEDIA and silent token variants",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:207] applies mirror matrix semantics for MEDIA and silent token variants",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:207",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message.test.ts] recovers plugin resolution after registry refresh",
+TEST_CASE("v4.29 [src/infra/outbound/message.test.ts:310] recovers plugin resolution after registry refresh",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message.test.ts:310",
                "upstream it() block #6",

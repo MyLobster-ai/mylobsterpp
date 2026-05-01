@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] remaps missing workspace media paths to the real media directory",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:47] remaps missing workspace media paths to the real media directory",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] leaves existing media paths unchanged",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:63] leaves existing media paths unchanged",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] blocks structured payload files outside QQ Bot storage",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:69] blocks structured payload files outside QQ Bot storage",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] blocks structured payload paths that escape QQ Bot media via ",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:79] blocks structured payload paths that escape QQ Bot media via ",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] allows structured payload files inside the QQ Bot media directory",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:93] allows structured payload files inside the QQ Bot media directory",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] allows structured payload files inside sibling OpenClaw media subdirectories",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:99] allows structured payload files inside sibling OpenClaw media subdirectories",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] blocks structured payload files inside the QQ Bot data directory",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:115] blocks structured payload files inside the QQ Bot data directory",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:115",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts] allows legacy workspace paths when they remap into QQ Bot media storage",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/platform.test.ts:133] allows legacy workspace paths when they remap into QQ Bot media storage",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/platform.test.ts:133",
                "upstream it() block #7",

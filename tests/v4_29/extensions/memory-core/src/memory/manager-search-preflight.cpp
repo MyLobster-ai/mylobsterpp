@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search-preflight.test.ts] skips search and provider init for blank queries",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search-preflight.test.ts:5] skips search and provider init for blank queries",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-search-preflight.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search-preflight.test.ts] skips provider init when the index is empty",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search-preflight.test.ts:18] skips provider init when the index is empty",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-search-preflight.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search-preflight.test.ts] allows provider init when query and indexed content are present",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search-preflight.test.ts:31] allows provider init when query and indexed content are present",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-search-preflight.test.ts:31",
                "upstream it() block #2",

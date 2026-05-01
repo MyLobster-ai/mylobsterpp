@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/async.test.ts] resolves false immediately when already aborted",
+TEST_CASE("v4.29 [extensions/feishu/src/async.test.ts:9] resolves false immediately when already aborted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/async.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/async.test.ts] resolves false immediately when aborted during backoff",
+TEST_CASE("v4.29 [extensions/feishu/src/async.test.ts:17] resolves false immediately when aborted during backoff",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/async.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/async.test.ts] resolves true after the full delay when not aborted",
+TEST_CASE("v4.29 [extensions/feishu/src/async.test.ts:27] resolves true after the full delay when not aborted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/async.test.ts:27",
                "upstream it() block #2",

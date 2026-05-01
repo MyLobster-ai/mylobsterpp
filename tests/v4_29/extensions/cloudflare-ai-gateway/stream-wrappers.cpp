@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] removes trailing assistant prefill when thinking is enabled",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:46] removes trailing assistant prefill when thinking is enabled",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] removes multiple trailing assistant prefill messages until the conversation ends with user",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:61] removes multiple trailing assistant prefill messages until the conversation ends with user",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] keeps assistant prefill when thinking is disabled",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:77] keeps assistant prefill when thinking is disabled",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] keeps trailing assistant tool use turns when thinking is enabled",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:90] keeps trailing assistant tool use turns when thinking is enabled",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] patches Anthropic Messages models",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:112] patches Anthropic Messages models",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] leaves non-Anthropic model APIs on the original stream path",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:134] leaves non-Anthropic model APIs on the original stream path",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:134",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts] treats missing model API as the plugin",
+TEST_CASE("v4.29 [extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:152] treats missing model API as the plugin",
           "[v4_29][parity_gap][cloudflare-ai-gateway]") {
     PARITY_GAP("extensions/cloudflare-ai-gateway/stream-wrappers.test.ts:152",
                "upstream it() block #6",

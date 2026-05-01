@@ -5,313 +5,313 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] processes tool events when runId matches activeChatRunId (even if sessionId differs)",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:149] processes tool events when runId matches activeChatRunId (even if sessionId differs)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:149",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] ignores tool events when runId does not match activeChatRunId",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:171] ignores tool events when runId does not match activeChatRunId",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:171",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] processes lifecycle events when runId matches activeChatRunId",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:189] processes lifecycle events when runId matches activeChatRunId",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:189",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] captures runId from chat events when activeChatRunId is unset",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:208] captures runId from chat events when activeChatRunId is unset",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:208",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] accepts chat events when session key is an alias of the active canonical key",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:235] accepts chat events when session key is an alias of the active canonical key",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:235",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] renders BTW results separately without disturbing the active run",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:254] renders BTW results separately without disturbing the active run",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:254",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] keeps a local BTW result visible when its empty final chat event arrives",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:281] keeps a local BTW result visible when its empty final chat event arrives",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:281",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] clears stale streaming for a local BTW empty final without hiding the result",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:310] clears stale streaming for a local BTW empty final without hiding the result",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:310",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not cross-match canonical session keys from different agents",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:350] does not cross-match canonical session keys from different agents",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:350",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] clears run mapping when the session changes",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:369] clears run mapping when the session changes",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:369",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] accepts tool events after chat final for the same run",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:395] accepts tool events after chat final for the same run",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:395",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] ignores lifecycle updates for non-active runs in the same session",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:417] ignores lifecycle updates for non-active runs in the same session",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:417",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] suppresses tool events when verbose is off",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:442] suppresses tool events when verbose is off",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:442",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] omits tool output when verbose is on (non-full)",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:460] omits tool output when verbose is on (non-full)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:460",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] refreshes history after a non-local chat final",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:499] refreshes history after a non-local chat final",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:499",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] binds optimistic pending messages to the first gateway run id and skips history reload",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:514] binds optimistic pending messages to the first gateway run id and skips history reload",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:514",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not reload history or clear active run when another run final arrives mid-stream",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:548] does not reload history or clear active run when another run final arrives mid-stream",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:548",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] clears stale streaming when an orphan final arrives and no tracked run remains",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:576] clears stale streaming when an orphan final arrives and no tracked run remains",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:576",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] clears stale streaming when a duplicate final arrives after inactive /btw terminal cleanup",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:592] clears stale streaming when a duplicate final arrives after inactive /btw terminal cleanup",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:592",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] flushes deferred history reload after stale streaming clear makes the TUI idle",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:634] flushes deferred history reload after stale streaming clear makes the TUI idle",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:634",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not surface inactive orphan final failures as the global status",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:658] does not surface inactive orphan final failures as the global status",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:658",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not clear global streaming for inactive local /btw aborted or error events",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:675] does not clear global streaming for inactive local /btw aborted or error events",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:675",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not force idle for an inactive final while another tracked run is active",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:700] does not force idle for an inactive final while another tracked run is active",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:700",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] suppresses non-local empty final placeholders during concurrent runs",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:716] suppresses non-local empty final placeholders during concurrent runs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:716",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] renders final error text when chat final has no content but includes event errorMessage",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:737] renders final error text when chat final has no content but includes event errorMessage",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:737",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] renders malformed streaming fragment text when chat final only has event errorMessage",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:757] renders malformed streaming fragment text when chat final only has event errorMessage",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:757",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] renders malformed streaming fragment text for chat error events",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:776] renders malformed streaming fragment text for chat error events",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:776",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] shows a concise /auth hint for local auth failures",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:793] shows a concise /auth hint for local auth failures",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:793",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] drops streaming assistant when chat final has no message",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:815] drops streaming assistant when chat final has no message",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:815",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] reloads history when a local run ends without a displayable final message",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:839] reloads history when a local run ends without a displayable final message",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:839",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not reload history for local run with empty final when another run is active (#53115)",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:855] does not reload history for local run with empty final when another run is active (#53115)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:855",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] flushes deferred history reload after the newer local run finishes",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:872] flushes deferred history reload after the newer local run finishes",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:872",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] resets activityStatus to idle when no stream delta arrives for the watchdog window",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:955] resets activityStatus to idle when no stream delta arrives for the watchdog window",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:955",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] flushes a deferred history reload when the watchdog clears the active run",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:979] flushes a deferred history reload when the watchdog clears the active run",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:979",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] refreshes the watchdog window on each new stream delta",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1010] refreshes the watchdog window on each new stream delta",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1010",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] rearms the watchdog on active-run tool events even when tool verbosity is off",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1044] rearms the watchdog on active-run tool events even when tool verbosity is off",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1044",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] pauses the watchdog while disconnected and rearms it on reconnect without clearing the active run",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1078] pauses the watchdog while disconnected and rearms it on reconnect without clearing the active run",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1078",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] reloads history only once when reconnect recovery and deferred history refresh overlap",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1110] reloads history only once when reconnect recovery and deferred history refresh overlap",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1110",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] resets to idle when reconnect drops an active run that is no longer tracked",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1138] resets to idle when reconnect drops an active run that is no longer tracked",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1138",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] keeps reconnect recovery armed when only terminal lifecycle arrives after reconnect",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1154] keeps reconnect recovery armed when only terminal lifecycle arrives after reconnect",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1154",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] cancels the watchdog when the run finalizes normally",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1187] cancels the watchdog when the run finalizes normally",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1187",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] is disabled when streamingWatchdogMs is 0",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1217] is disabled when streamingWatchdogMs is 0",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1217",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] does not let an older run steal the active run watchdog",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1238] does not let an older run steal the active run watchdog",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1238",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts] dispose clears a pending watchdog without firing it",
+TEST_CASE("v4.29 [src/tui/tui-event-handlers.test.ts:1279] dispose clears a pending watchdog without firing it",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-event-handlers.test.ts:1279",
                "upstream it() block #43",

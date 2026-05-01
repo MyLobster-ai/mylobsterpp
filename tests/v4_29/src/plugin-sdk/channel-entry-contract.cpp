@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] loads runtime sidecars during discovery registration",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:93] loads runtime sidecars during discovery registration",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] keeps setup-runtime and full registration wired to runtime sidecars",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:121] keeps setup-runtime and full registration wired to runtime sidecars",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:121",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] includes importer and resolved path context when a bundled sidecar is missing",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:200] includes importer and resolved path context when a bundled sidecar is missing",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:200",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] keeps Windows dist sidecar loads off Jiti native import",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:229] keeps Windows dist sidecar loads off Jiti native import",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:229",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] normalizes Windows absolute sidecar paths before Jiti loads them",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:268] normalizes Windows absolute sidecar paths before Jiti loads them",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:268",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] loads packaged telegram setup sidecars from dist-facing api modules",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:312] loads packaged telegram setup sidecars from dist-facing api modules",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:312",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] emits non-negative jiti sub-step timings on the built-artifact load path",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:359] emits non-negative jiti sub-step timings on the built-artifact load path",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:359",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] keeps dist-runtime built sidecar loads on the nodeRequire fast-path",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:366] keeps dist-runtime built sidecar loads on the nodeRequire fast-path",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:366",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts] can disable source-tree fallback for dist bundled entry checks",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-entry-contract.test.ts:370] can disable source-tree fallback for dist bundled entry checks",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-entry-contract.test.ts:370",
                "upstream it() block #8",

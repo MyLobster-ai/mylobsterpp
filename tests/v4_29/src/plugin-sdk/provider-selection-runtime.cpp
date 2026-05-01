@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts] selects an explicit provider when it exists",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts:19] selects an explicit provider when it exists",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-selection-runtime.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts] reports a missing explicit provider",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts:33] reports a missing explicit provider",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-selection-runtime.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts] auto-selects the first configured provider by order",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts:51] auto-selects the first configured provider by order",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-selection-runtime.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts] merges canonical and selected provider config",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-selection-runtime.test.ts:71] merges canonical and selected provider config",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-selection-runtime.test.ts:71",
                "upstream it() block #3",

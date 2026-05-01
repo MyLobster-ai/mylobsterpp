@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] uses --ignore-scripts for dependency install",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:207] uses --ignore-scripts for dependency install",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:207",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] installs a single hook directory",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:247] installs a single hook directory",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:247",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] rejects out-of-package hook entries",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:280] rejects out-of-package hook entries",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:280",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] does not expose dangerous force unsafe install through npm-spec archive params",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:335] does not expose dangerous force unsafe install through npm-spec archive params",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:335",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] uses --ignore-scripts for npm pack and cleans up temp dir",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:370] uses --ignore-scripts for npm pack and cleans up temp dir",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:370",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] aborts when integrity drift callback rejects the fetched artifact",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:425] aborts when integrity drift callback rejects the fetched artifact",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:425",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] rejects invalid npm spec shapes",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:450] rejects invalid npm spec shapes",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:450",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/install.test.ts] detects address already in use errors",
+TEST_CASE("v4.29 [src/hooks/install.test.ts:476] detects address already in use errors",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/install.test.ts:476",
                "upstream it() block #7",

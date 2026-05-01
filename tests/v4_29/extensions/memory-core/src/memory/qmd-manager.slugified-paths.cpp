@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts] maps slugified workspace qmd URIs back to the indexed filesystem path",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts:207] maps slugified workspace qmd URIs back to the indexed filesystem path",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts:207",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts] maps slugified extra collection qmd URIs back to qmd/<collection>/ paths",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts:262] maps slugified extra collection qmd URIs back to qmd/<collection>/ paths",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts:262",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts] prefers an exact indexed path over normalized slug recovery",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts:334] prefers an exact indexed path over normalized slug recovery",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.slugified-paths.test.ts:334",
                "upstream it() block #2",

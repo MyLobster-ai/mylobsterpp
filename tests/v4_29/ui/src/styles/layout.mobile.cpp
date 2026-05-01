@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/styles/layout.mobile.test.ts] keeps the chat header and session controls from clipping on narrow widths",
+TEST_CASE("v4.29 [ui/src/styles/layout.mobile.test.ts:24] keeps the chat header and session controls from clipping on narrow widths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/styles/layout.mobile.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/styles/layout.mobile.test.ts] keeps the mobile sidebar trigger visibly interactive on hover and keyboard focus",
+TEST_CASE("v4.29 [ui/src/styles/layout.mobile.test.ts:35] keeps the mobile sidebar trigger visibly interactive on hover and keyboard focus",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/styles/layout.mobile.test.ts:35",
                "upstream it() block #1",

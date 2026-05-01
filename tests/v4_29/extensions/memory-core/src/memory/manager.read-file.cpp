@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] returns empty text when the requested file does not exist",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:36] returns empty text when the requested file does not exist",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] returns content slices when the file exists",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:46] returns content slices when the file exists",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] returns a default-sized excerpt when no line range is provided",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:69] returns a default-sized excerpt when no line range is provided",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] returns a bounded window when from is provided without lines",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:96] returns a bounded window when from is provided without lines",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] honors injected defaultLines and maxChars overrides",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:122] honors injected defaultLines and maxChars overrides",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:122",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] returns empty text when the requested slice is past EOF",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:147] returns empty text when the requested slice is past EOF",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:147",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] caps returned text to the default max chars and exposes continuation metadata",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:163] caps returned text to the default max chars and exposes continuation metadata",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:163",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] suggests read fallback for pathological single-line truncation in workspace memory files",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:186] suggests read fallback for pathological single-line truncation in workspace memory files",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:186",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] does not advertise line continuation when a single oversized line is cut mid-line",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:205] does not advertise line continuation when a single oversized line is cut mid-line",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:205",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] omits truncation metadata when the full excerpt fits and no more lines remain",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:223] omits truncation metadata when the full excerpt fits and no more lines remain",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:223",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] returns empty text when the file disappears after stat",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:243] returns empty text when the file disappears after stat",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:243",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] rejects non-memory paths",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:276] rejects non-memory paths",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:276",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts] allows additional memory paths and blocks symlinks",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.read-file.test.ts:286] allows additional memory paths and blocks symlinks",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.read-file.test.ts:286",
                "upstream it() block #12",

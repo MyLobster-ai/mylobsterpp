@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/embedding-provider.test.ts] sends queryInputType on query embeddings",
+TEST_CASE("v4.29 [extensions/openai/embedding-provider.test.ts:38] sends queryInputType on query embeddings",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/embedding-provider.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/embedding-provider.test.ts] sends documentInputType on document batch embeddings",
+TEST_CASE("v4.29 [extensions/openai/embedding-provider.test.ts:56] sends documentInputType on document batch embeddings",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/embedding-provider.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/embedding-provider.test.ts] omits input_type unless configured",
+TEST_CASE("v4.29 [extensions/openai/embedding-provider.test.ts:74] omits input_type unless configured",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/embedding-provider.test.ts:74",
                "upstream it() block #2",

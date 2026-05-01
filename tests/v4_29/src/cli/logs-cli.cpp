@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] writes output directly to stdout/stderr",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:110] writes output directly to stdout/stderr",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] wires --local-time through CLI parsing and emits local timestamps",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:131] wires --local-time through CLI parsing and emits local timestamps",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:131",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] warns when the output pipe closes",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:154] warns when the output pipe closes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:154",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] falls back to the local log file on loopback pairing-required errors",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:172] falls back to the local log file on loopback pairing-required errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:172",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] falls back to the local log file on loopback scope-upgrade errors",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:197] falls back to the local log file on loopback scope-upgrade errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:197",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] falls back to the configured Gateway file log on loopback gateway close errors",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:220] falls back to the configured Gateway file log on loopback gateway close errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:220",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] falls back to the configured Gateway file log on post-handshake plain close errors",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:253] falls back to the configured Gateway file log on post-handshake plain close errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:253",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] does not use local fallback for explicit Gateway URLs",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:274] does not use local fallback for explicit Gateway URLs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:274",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] formats UTC timestamp in plain mode by default",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:302] formats UTC timestamp in plain mode by default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:302",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] formats UTC timestamp in pretty mode",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:307] formats UTC timestamp in pretty mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:307",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] formats local time in plain mode when localTime is true",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:312] formats local time in plain mode when localTime is true",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:312",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/logs-cli.test.ts] formats local time in pretty mode when localTime is true",
+TEST_CASE("v4.29 [src/cli/logs-cli.test.ts:321] formats local time in pretty mode when localTime is true",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/logs-cli.test.ts:321",
                "upstream it() block #11",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts] marks pending legacy backup restore as completed after success",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts:94] marks pending legacy backup restore as completed after success",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts] keeps the restore pending when startup restore fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts:129] keeps the restore pending when startup restore fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts:129",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts] restores from a sibling token-hash directory when the access token changed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts:161] restores from a sibling token-hash directory when the access token changed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/legacy-crypto-restore.test.ts:161",
                "upstream it() block #2",

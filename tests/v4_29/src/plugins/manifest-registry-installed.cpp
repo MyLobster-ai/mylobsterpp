@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts] reconstructs installed-index manifest registries when manifest files change",
+TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts:74] reconstructs installed-index manifest registries when manifest files change",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-registry-installed.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts] loads manifest metadata only for plugins present in the installed index",
+TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts:109] loads manifest metadata only for plugins present in the installed index",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-registry-installed.test.ts:109",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts] reconstructs bundle candidates with their bundle manifest format",
+TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts:130] reconstructs bundle candidates with their bundle manifest format",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-registry-installed.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts] hydrates package channel command metadata while reconstructing from an older index",
+TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts:176] hydrates package channel command metadata while reconstructing from an older index",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-registry-installed.test.ts:176",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts] round-trips bundle metadata through the persisted index before reconstruction",
+TEST_CASE("v4.29 [src/plugins/manifest-registry-installed.test.ts:227] round-trips bundle metadata through the persisted index before reconstruction",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-registry-installed.test.ts:227",
                "upstream it() block #4",

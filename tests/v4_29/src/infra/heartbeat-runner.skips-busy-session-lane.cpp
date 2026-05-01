@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts] returns cron-in-progress when cron has an active job",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:86] returns cron-in-progress when cron has an active job",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:86",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts] returns cron-in-progress when cron lanes have queued work",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:106] returns cron-in-progress when cron lanes have queued work",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts] returns lanes-busy for opt-in broader busy-lane checks",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:125] returns lanes-busy for opt-in broader busy-lane checks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts] returns lanes-busy for opt-in work in any session-scoped nested lane",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:145] returns lanes-busy for opt-in work in any session-scoped nested lane",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts] returns requests-in-flight when session lane has queued work",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:167] returns requests-in-flight when session lane has queued work",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:167",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts] proceeds normally when session lane is idle",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:204] proceeds normally when session lane is idle",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.skips-busy-session-lane.test.ts:204",
                "upstream it() block #5",

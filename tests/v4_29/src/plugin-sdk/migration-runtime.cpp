@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/migration-runtime.test.ts] serves later config mutations from the same cached runtime snapshot",
+TEST_CASE("v4.29 [src/plugin-sdk/migration-runtime.test.ts:19] serves later config mutations from the same cached runtime snapshot",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/migration-runtime.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/migration-runtime.test.ts] uses unique backup paths for same-basename targets in the same millisecond",
+TEST_CASE("v4.29 [src/plugin-sdk/migration-runtime.test.ts:103] uses unique backup paths for same-basename targets in the same millisecond",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/migration-runtime.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/migration-runtime.test.ts] redacts nested secret-looking config values in JSON reports",
+TEST_CASE("v4.29 [src/plugin-sdk/migration-runtime.test.ts:153] redacts nested secret-looking config values in JSON reports",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/migration-runtime.test.ts:153",
                "upstream it() block #2",

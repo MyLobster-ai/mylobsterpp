@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/http-utils.model-override.test.ts] rejects CLI model overrides outside the configured allowlist",
+TEST_CASE("v4.29 [src/gateway/http-utils.model-override.test.ts:43] rejects CLI model overrides outside the configured allowlist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.model-override.test.ts:43",
                "upstream it() block #0",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] preserves group JIDs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:11] preserves group JIDs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] normalizes direct JIDs to E.164",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:19] normalizes direct JIDs to E.164",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] normalizes user JIDs with device suffix to E.164",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:23] normalizes user JIDs with device suffix to E.164",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] normalizes LID JIDs to E.164",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:29] normalizes LID JIDs to E.164",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:29",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] rejects invalid targets",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:34] rejects invalid targets",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:34",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] handles repeated prefixes",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:45] handles repeated prefixes",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:45",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] detects user JIDs with various formats",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:52] detects user JIDs with various formats",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:52",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] detects group JIDs with or without prefixes",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:65] detects group JIDs with or without prefixes",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:65",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] normalizes blank inputs to undefined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:78] normalizes blank inputs to undefined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:78",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts] detects common WhatsApp target forms",
+TEST_CASE("v4.29 [extensions/whatsapp/src/resolve-target.test.ts:84] detects common WhatsApp target forms",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/resolve-target.test.ts:84",
                "upstream it() block #9",

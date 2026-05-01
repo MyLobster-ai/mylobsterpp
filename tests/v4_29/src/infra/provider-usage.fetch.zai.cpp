@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts] returns HTTP errors for failed requests",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts:6] returns HTTP errors for failed requests",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.zai.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts] returns API message errors for unsuccessful payloads",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts:14] returns API message errors for unsuccessful payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.zai.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts] falls back to a generic API error for blank unsuccessful messages",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts:28] falls back to a generic API error for blank unsuccessful messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.zai.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts] parses token and monthly windows with reset times",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts:42] parses token and monthly windows with reset times",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.zai.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts] clamps invalid percentages and falls back to alternate plan fields",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.zai.test.ts:101] clamps invalid percentages and falls back to alternate plan fields",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.zai.test.ts:101",
                "upstream it() block #4",

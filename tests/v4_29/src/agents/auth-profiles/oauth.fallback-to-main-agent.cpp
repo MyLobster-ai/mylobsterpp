@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] falls back to main agent credentials when secondary agent token is expired and refresh fails",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:156] falls back to main agent credentials when secondary agent token is expired and refresh fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:156",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] adopts newer OAuth token from main agent even when secondary token is still valid",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:203] adopts newer OAuth token from main agent even when secondary token is still valid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:203",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] adopts main token when secondary expires is NaN/malformed",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:242] adopts main token when secondary expires is NaN/malformed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:242",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] accepts mode=token + type=oauth for legacy compatibility",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:272] accepts mode=token + type=oauth for legacy compatibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:272",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] accepts mode=oauth + type=token (regression)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:278] accepts mode=oauth + type=token (regression)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:278",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] rejects true mode/type mismatches",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:310] rejects true mode/type mismatches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:310",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] throws error when both secondary and main agent credentials are expired",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:316] throws error when both secondary and main agent credentials are expired",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:316",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts] still falls back to main agent credentials when the refresh-token-reused retry throws",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:337] still falls back to main agent credentials when the refresh-token-reused retry throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.fallback-to-main-agent.test.ts:337",
                "upstream it() block #7",

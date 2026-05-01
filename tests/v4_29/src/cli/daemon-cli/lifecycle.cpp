@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] re-bootstraps an installed LaunchAgent when start finds it not loaded",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:211] re-bootstraps an installed LaunchAgent when start finds it not loaded",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:211",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] kills stale gateway pids and retries restart",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:227] kills stale gateway pids and retries restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:227",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] skips stale-pid retry health checks when the retry restart is only scheduled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:251] skips stale-pid retry health checks when the retry restart is only scheduled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:251",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] fails restart when gateway remains unhealthy after the full timeout",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:270] fails restart when gateway remains unhealthy after the full timeout",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:270",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] waits longer for Windows gateway restart health",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:293] waits longer for Windows gateway restart health",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:293",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] fails restart with a stopped-free message when the waiter exits early",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:314] fails restart with a stopped-free message when the waiter exits early",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:314",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] signals an unmanaged gateway process on stop",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:338] signals an unmanaged gateway process on stop",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:338",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] skips gateway port resolution on stop when the service manager handles the stop",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:351] skips gateway port resolution on stop when the service manager handles the stop",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:351",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] signals a single unmanaged gateway process on restart",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:359] signals a single unmanaged gateway process on restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:359",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] prefers launchd repair over unmanaged restart when an installed LaunchAgent is unloaded",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:374] prefers launchd repair over unmanaged restart when an installed LaunchAgent is unloaded",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:374",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] re-bootstraps an installed LaunchAgent on restart when no unmanaged listener exists",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:392] re-bootstraps an installed LaunchAgent on restart when no unmanaged listener exists",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:392",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] fails unmanaged restart when multiple gateway listeners are present",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:424] fails unmanaged restart when multiple gateway listeners are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:424",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] fails unmanaged restart when the running gateway has commands.restart disabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:433] fails unmanaged restart when the running gateway has commands.restart disabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:433",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts] skips unmanaged signaling for pids that are not live gateway processes",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle.test.ts:447] skips unmanaged signaling for pids that are not live gateway processes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle.test.ts:447",
                "upstream it() block #13",

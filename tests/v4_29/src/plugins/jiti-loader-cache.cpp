@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] reuses cached loaders for the same module config and filename",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:29] reuses cached loaders for the same module config and filename",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] keeps loader caches scoped by jiti filename and dist preference",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:50] keeps loader caches scoped by jiti filename and dist preference",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] lets callers override alias maps and tryNative while keeping cache keys stable",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:94] lets callers override alias maps and tryNative while keeping cache keys stable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] lets callers intentionally share loaders behind a custom cache scope key",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:135] lets callers intentionally share loaders behind a custom cache scope key",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] reuses pre-normalized alias options across module-scoped loader filenames",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:168] reuses pre-normalized alias options across module-scoped loader filenames",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:168",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] serves compiled .js targets from native require without invoking the jiti loader",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:207] serves compiled .js targets from native require without invoking the jiti loader",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:207",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] falls back to jiti when the native-require helper declines",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:243] falls back to jiti when the native-require helper declines",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:243",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] normalizes Windows absolute paths before creating and calling jiti",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:268] normalizes Windows absolute paths before creating and calling jiti",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] skips the native-require fast path when tryNative is explicitly false",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:301] skips the native-require fast path when tryNative is explicitly false",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:301",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] normalizes Windows absolute paths when native loading is disabled",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:332] normalizes Windows absolute paths when native loading is disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:332",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts] forwards extra loader arguments through to the jiti fallback",
+TEST_CASE("v4.29 [src/plugins/jiti-loader-cache.test.ts:367] forwards extra loader arguments through to the jiti fallback",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/jiti-loader-cache.test.ts:367",
                "upstream it() block #10",

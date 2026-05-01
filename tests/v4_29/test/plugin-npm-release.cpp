@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] returns an empty list for blank input",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:25] returns an empty list for blank input",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] dedupes and sorts comma or whitespace separated package names",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:31] dedupes and sorts comma or whitespace separated package names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] accepts the supported explicit selection modes",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:39] accepts the supported explicit selection modes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] rejects unsupported selection modes",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:44] rejects unsupported selection modes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] rejects blank explicit plugin selections",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:52] rejects blank explicit plugin selections",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] requires plugin names for selected explicit publish mode",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:58] requires plugin names for selected explicit publish mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] rejects plugin names when all-publishable mode is selected",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:64] rejects plugin names when all-publishable mode is selected",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:64",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] parses explicit all-publishable mode",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:75] parses explicit all-publishable mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:75",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] accepts a valid publishable plugin package candidate",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:85] accepts a valid publishable plugin package candidate",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:85",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] flags invalid publishable plugin metadata",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:104] flags invalid publishable plugin metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:104",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] collects publishable npm plugins from extension package manifests",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:131] collects publishable npm plugins from extension package manifests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:131",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] returns all publishable plugins when no selection is provided",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:182] returns all publishable plugins when no selection is provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:182",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] filters by selected publishable package names",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:191] filters by selected publishable package names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:191",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] throws when the selection contains an unknown package name",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:200] throws when the selection contains an unknown package name",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:200",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] extracts unique extension ids from changed extension paths",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:211] extracts unique extension ids from changed extension paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:211",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] returns only changed publishable plugins",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:243] returns only changed publishable plugins",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:243",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-npm-release.test.ts] returns an empty list when no publishable plugins changed",
+TEST_CASE("v4.29 [test/plugin-npm-release.test.ts:252] returns an empty list when no publishable plugins changed",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-npm-release.test.ts:252",
                "upstream it() block #16",

@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] matches only plain gateway foreground starts without root options or help",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:34] matches only plain gateway foreground starts without root options or help",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] leaves argv unchanged when --update is absent",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:54] leaves argv unchanged when --update is absent",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] rewrites --update into the update command",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:59] rewrites --update into the update command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] preserves global flags that appear before --update",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:67] preserves global flags that appear before --update",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] keeps update options after the rewritten command",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:77] keeps update options after the rewritten command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] skips path bootstrap for help/version invocations",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:88] skips path bootstrap for help/version invocations",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:88",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] skips path bootstrap for read-only fast paths",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:94] skips path bootstrap for read-only fast paths",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:94",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] keeps path bootstrap for mutating or unknown commands",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:105] keeps path bootstrap for mutating or unknown commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:105",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] starts Crestodian for bare root invocations",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:113] starts Crestodian for bare root invocations",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] does not start Crestodian for help, version, or commands",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:119] does not start Crestodian for help, version, or commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:119",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] starts Crestodian before heavy command registration for modern onboard",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:127] starts Crestodian before heavy command registration for modern onboard",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:127",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] keeps classic onboard and help on the normal command path",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:140] keeps classic onboard and help on the normal command path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:140",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] starts managed proxy routing for the --update shorthand",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:149] starts managed proxy routing for the --update shorthand",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:149",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] uses the fast path for root help only",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:156] uses the fast path for root help only",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:156",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] uses the fast path for browser command help only",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:168] uses the fast path for browser command help only",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:168",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] explains plugins.allow misses for a bundled plugin command",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:182] explains plugins.allow misses for a bundled plugin command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:182",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] explains explicit bundled plugin disablement",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:192] explains explicit bundled plugin disablement",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:192",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] returns null when the bundled plugin command is already allowed",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:206] returns null when the bundled plugin command is already allowed",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:206",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] explains that dreaming is a runtime slash command, not a CLI command",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:216] explains that dreaming is a runtime slash command, not a CLI command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:216",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] returns the runtime command message even when plugins.allow is set",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:230] returns the runtime command message even when plugins.allow is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:230",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] points command names in plugins.allow at their parent plugin",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:246] points command names in plugins.allow at their parent plugin",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:246",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] explains parent plugin disablement for runtime command aliases",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:263] explains parent plugin disablement for runtime command aliases",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:263",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] allows CLI commands when their parent plugin is in plugins.allow",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:283] allows CLI commands when their parent plugin is in plugins.allow",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:283",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/run-main.test.ts] blocks CLI commands when parent plugin is NOT in plugins.allow",
+TEST_CASE("v4.29 [src/cli/run-main.test.ts:296] blocks CLI commands when parent plugin is NOT in plugins.allow",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/run-main.test.ts:296",
                "upstream it() block #23",

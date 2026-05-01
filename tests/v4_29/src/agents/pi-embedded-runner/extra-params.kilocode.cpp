@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] injects X-KILOCODE-FEATURE header with default value",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:82] injects X-KILOCODE-FEATURE header with default value",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] reads X-KILOCODE-FEATURE from KILOCODE_FEATURE env var",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:93] reads X-KILOCODE-FEATURE from KILOCODE_FEATURE env var",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] cannot be overridden by caller headers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:104] cannot be overridden by caller headers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] keeps Kilocode runtime wrapping under restrictive plugins.allow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:116] keeps Kilocode runtime wrapping under restrictive plugins.allow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] does not inject header for non-kilocode providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:127] does not inject header for non-kilocode providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:127",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] does not inject reasoning.effort for kilo/auto",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:138] does not inject reasoning.effort for kilo/auto",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:138",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] injects reasoning.effort for non-auto kilocode models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:149] injects reasoning.effort for non-auto kilocode models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:149",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] still normalizes reasoning for Kilocode under restrictive plugins.allow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:158] still normalizes reasoning for Kilocode under restrictive plugins.allow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts] does not inject reasoning.effort for x-ai models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:166] does not inject reasoning.effort for x-ai models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.kilocode.test.ts:166",
                "upstream it() block #8",

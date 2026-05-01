@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts] resolves legacy main-alias matches by sessionId and label for the configured default agent",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts:12] resolves legacy main-alias matches by sessionId and label for the configured default agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve-store.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts] still rejects non-alias agent:main matches when main is no longer configured",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts:43] still rejects non-alias agent:main matches when main is no longer configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve-store.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts] does not adopt legacy main aliases from discovered deleted-agent stores",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts:73] does not adopt legacy main aliases from discovered deleted-agent stores",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve-store.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts] rejects an explicit listed deleted main key instead of remapping to the live default main",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve-store.test.ts:115] rejects an explicit listed deleted main key instead of remapping to the live default main",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve-store.test.ts:115",
                "upstream it() block #3",

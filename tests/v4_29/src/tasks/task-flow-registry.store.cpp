@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts] uses the configured flow store for restore and save",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts:80] uses the configured flow store for restore and save",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.store.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts] restores persisted wait-state, revision, and cancel intent from sqlite",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts:120] restores persisted wait-state, revision, and cancel intent from sqlite",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.store.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts] round-trips explicit json null through sqlite",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts:168] round-trips explicit json null through sqlite",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.store.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts] hardens the sqlite flow store directory and file modes",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.store.test.ts:191] hardens the sqlite flow store directory and file modes",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.store.test.ts:191",
                "upstream it() block #3",

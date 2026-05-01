@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/ports-lsof.test.ts] prefers the first executable async candidate",
+TEST_CASE("v4.29 [src/infra/ports-lsof.test.ts:16] prefers the first executable async candidate",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports-lsof.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports-lsof.test.ts] falls through async candidates before using the shell fallback",
+TEST_CASE("v4.29 [src/infra/ports-lsof.test.ts:28] falls through async candidates before using the shell fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports-lsof.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports-lsof.test.ts] mirrors candidate resolution for the sync helper",
+TEST_CASE("v4.29 [src/infra/ports-lsof.test.ts:48] mirrors candidate resolution for the sync helper",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports-lsof.test.ts:48",
                "upstream it() block #2",

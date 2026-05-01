@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] resolves model auth and sets runtime api key",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:95] resolves model auth and sets runtime api key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] returns error when model resolution fails",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:124] returns error when model resolution fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] returns error when api key is missing and mode is not allowlisted",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:145] returns error when api key is missing and mode is not allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:145",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] continues without api key when auth mode is allowlisted",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:167] continues without api key when auth mode is allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:167",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] exchanges github token when provider is github-copilot",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:205] exchanges github token when provider is github-copilot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:205",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] returns exchanged copilot token in auth.apiKey for github-copilot provider",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:237] returns exchanged copilot token in auth.apiKey for github-copilot provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:237",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] applies exchanged copilot baseUrl to returned model",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:271] applies exchanged copilot baseUrl to returned model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:271",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] returns error when getApiKeyForModel throws",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:311] returns error when getApiKeyForModel throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:311",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] applies local no-auth header override before returning model",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:326] applies local no-auth header override before returning model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:326",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] applies provider runtime auth before storing simple-completion credentials",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:376] applies provider runtime auth before storing simple-completion credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:376",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] can skip Pi model/auth discovery for config-scoped one-shot completions",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:434] can skip Pi model/auth discovery for config-scoped one-shot completions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:434",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts] prepares provider-owned stream APIs before running a completion",
+TEST_CASE("v4.29 [src/agents/simple-completion-runtime.test.ts:473] prepares provider-owned stream APIs before running a completion",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-runtime.test.ts:473",
                "upstream it() block #11",

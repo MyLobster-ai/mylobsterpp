@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] detects a: prefix personal chat IDs",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:84] detects a: prefix personal chat IDs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] detects 8:orgid: prefix chat IDs",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:88] detects 8:orgid: prefix chat IDs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns false for Graph-compatible 19: thread IDs",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:92] returns false for Graph-compatible 19: thread IDs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns false for synthetic DM Graph IDs",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:96] returns false for synthetic DM Graph IDs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns false for null/undefined/empty",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:100] returns false for null/undefined/empty",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:100",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] fetches attachment info then view and saves media",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:113] fetches attachment info then view and saves media",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns undefined when attachment info fetch fails",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:151] returns undefined when attachment info fetch fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:151",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] skips when attachment view size exceeds maxBytes",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:171] skips when attachment view size exceeds maxBytes",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:171",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns undefined when no views are returned",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:196] returns undefined when no views are returned",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:196",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns undefined without a tokenProvider",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:216] returns undefined without a tokenProvider",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:216",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] drives the caller",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:230] drives the caller",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:230",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] logs a warning when the attachmentInfo fetch throws (no longer silently swallowed)",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:284] logs a warning when the attachmentInfo fetch throws (no longer silently swallowed)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:284",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] logs a warning when the attachmentView fetch throws",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:310] logs a warning when the attachmentView fetch throws",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:310",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] logs a warning on non-ok attachmentInfo response",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:347] logs a warning on non-ok attachmentInfo response",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:347",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] fetches every unique attachment id and returns combined media",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:379] fetches every unique attachment id and returns combined media",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:379",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] returns empty when no valid attachment ids",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:416] returns empty when no valid attachment ids",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:416",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts] continues past a per-attachment failure",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/bot-framework.test.ts:427] continues past a per-attachment failure",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/bot-framework.test.ts:427",
                "upstream it() block #16",

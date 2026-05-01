@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts] maps exhausted runtime signal to dnd",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts:55] maps exhausted runtime signal to dnd",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/auto-presence.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts] treats overloaded cooldown as exhausted",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts:59] treats overloaded cooldown as exhausted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/auto-presence.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts] recovers from exhausted to online once a profile becomes usable",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts:63] recovers from exhausted to online once a profile becomes usable",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/auto-presence.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts] re-applies presence on refresh even when signature is unchanged",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts:98] re-applies presence on refresh even when signature is unchanged",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/auto-presence.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts] does nothing when auto presence is disabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/auto-presence.test.ts:132] does nothing when auto presence is disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/auto-presence.test.ts:132",
                "upstream it() block #4",

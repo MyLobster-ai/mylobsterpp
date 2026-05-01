@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts] does not require appToken for bot-token-only channels",
+TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts:28] does not require appToken for bot-token-only channels",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-all/channels.mattermost-token-summary.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts] keeps bot+app requirement when both fields exist",
+TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts:44] keeps bot+app requirement when both fields exist",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-all/channels.mattermost-token-summary.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts] reports configured-but-unavailable Slack credentials as warn",
+TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts:58] reports configured-but-unavailable Slack credentials as warn",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-all/channels.mattermost-token-summary.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts] treats status-only available HTTP credentials as resolved",
+TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts:81] treats status-only available HTTP credentials as resolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-all/channels.mattermost-token-summary.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts] treats Slack HTTP signing-secret availability as required config",
+TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts:104] treats Slack HTTP signing-secret availability as required config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-all/channels.mattermost-token-summary.test.ts:104",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts] still reports single-token channels as ok",
+TEST_CASE("v4.29 [src/commands/status-all/channels.mattermost-token-summary.test.ts:127] still reports single-token channels as ok",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-all/channels.mattermost-token-summary.test.ts:127",
                "upstream it() block #5",

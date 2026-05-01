@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/bundled-capability-metadata.test.ts] keeps contract snapshots aligned with bundled plugin manifests",
+TEST_CASE("v4.29 [src/plugins/bundled-capability-metadata.test.ts:41] keeps contract snapshots aligned with bundled plugin manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-capability-metadata.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-capability-metadata.test.ts] keeps lightweight alias maps aligned with bundled plugin manifests",
+TEST_CASE("v4.29 [src/plugins/bundled-capability-metadata.test.ts:58] keeps lightweight alias maps aligned with bundled plugin manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-capability-metadata.test.ts:58",
                "upstream it() block #1",

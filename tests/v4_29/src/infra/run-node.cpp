@@ -5,264 +5,264 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] copies bundled plugin metadata after rebuilding from a clean dist",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:351] copies bundled plugin metadata after rebuilding from a clean dist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:351",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] tees launcher output into the requested generic output log",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:400] tees launcher output into the requested generic output log",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:400",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] surfaces generic output log stream errors",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:451] surfaces generic output log stream errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:451",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] does not mutate Matrix QA args when no generic output log is requested",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:485] does not mutate Matrix QA args when no generic output log is requested",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:485",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips rebuilding when dist is current and the source tree is clean",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:519] skips rebuilding when dist is current and the source tree is clean",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:519",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips rebuilding for private QA commands when the private QA facades are present",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:540] skips rebuilding for private QA commands when the private QA facades are present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:540",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] rebuilds private QA commands when the private QA runtime facade is missing",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:580] rebuilds private QA commands when the private QA runtime facade is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:580",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] passes the synthesized private QA env into runtime postbuild staging",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:614] passes the synthesized private QA env into runtime postbuild staging",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:614",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] derives private QA facade checks from distRoot for direct freshness checks",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:645] derives private QA facade checks from distRoot for direct freshness checks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:645",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips runtime postbuild restaging in watch mode when dist is already current",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:671] skips runtime postbuild restaging in watch mode when dist is already current",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:671",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] runs QA parity report from source without rebuilding private QA dist",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:700] runs QA parity report from source without rebuilding private QA dist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:700",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips runtime postbuild restaging when the runtime stamp is current",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:750] skips runtime postbuild restaging when the runtime stamp is current",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:750",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] restages runtime artifacts when runtime metadata is dirty",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:779] restages runtime artifacts when runtime metadata is dirty",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:779",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] serializes runtime postbuild restaging across concurrent clean launchers",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:816] serializes runtime postbuild restaging across concurrent clean launchers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:816",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] returns the build exit code when the compiler step fails",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:868] returns the build exit code when the compiler step fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:868",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] returns failure and releases the build lock when the compiler spawn errors",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:894] returns failure and releases the build lock when the compiler spawn errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:894",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] forwards wrapper SIGTERM to the active openclaw child and returns 143",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:928] forwards wrapper SIGTERM to the active openclaw child and returns 143",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:928",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] rebuilds when extension sources are newer than the build stamp",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:994] rebuilds when extension sources are newer than the build stamp",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:994",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] rebuilds when git HEAD changes even if source mtimes do not exceed the old build stamp",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1012] rebuilds when git HEAD changes even if source mtimes do not exceed the old build stamp",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1012",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips rebuilding when extension package metadata is newer than the build stamp",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1033] skips rebuilding when extension package metadata is newer than the build stamp",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1033",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips rebuilding for dirty non-source files under extensions",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1058] skips rebuilding for dirty non-source files under extensions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1058",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips rebuilding for dirty extension manifests that only affect runtime reload",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1088] skips rebuilding for dirty extension manifests that only affect runtime reload",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1088",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] reports dirty watched source trees as an explicit build reason",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1121] reports dirty watched source trees as an explicit build reason",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1121",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] does not rebuild for gateway client calls against an existing dirty dist",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1144] does not rebuild for gateway client calls against an existing dirty dist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1144",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] reports a clean tree explicitly when dist is current",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1179] reports a clean tree explicitly when dist is current",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1179",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] reports clean runtime postbuild artifacts when the runtime stamp matches HEAD",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1203] reports clean runtime postbuild artifacts when the runtime stamp matches HEAD",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1203",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] reports dirty runtime postbuild inputs separately from rebuild inputs",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1228] reports dirty runtime postbuild inputs separately from rebuild inputs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1228",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] ignores dirty generated A2UI bundle artifacts when dist is current",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1263] ignores dirty generated A2UI bundle artifacts when dist is current",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1263",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] repairs missing bundled plugin metadata without rerunning tsdown",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1287] repairs missing bundled plugin metadata without rerunning tsdown",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1287",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] removes stale bundled plugin metadata when the source manifest is gone",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1318] removes stale bundled plugin metadata when the source manifest is gone",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1318",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] skips rebuilding when only non-source extension files are newer than the build stamp",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1354] skips rebuilding when only non-source extension files are newer than the build stamp",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1354",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] rebuilds when tsdown config is newer than the build stamp",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1375] rebuilds when tsdown config is newer than the build stamp",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1375",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] releases the lock directory when the wrapper receives SIGINT",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1408] releases the lock directory when the wrapper receives SIGINT",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1408",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] releases the lock directory when the wrapper receives SIGTERM",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1427] releases the lock directory when the wrapper receives SIGTERM",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1427",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] releases the lock directory on process exit",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1441] releases the lock directory on process exit",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1441",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] detaches signal listeners after a normal release",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1455] detaches signal listeners after a normal release",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1455",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/run-node.test.ts] removes a lock left by a dead wrapper process without waiting for age-out",
+TEST_CASE("v4.29 [src/infra/run-node.test.ts:1473] removes a lock left by a dead wrapper process without waiting for age-out",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/run-node.test.ts:1473",
                "upstream it() block #36",

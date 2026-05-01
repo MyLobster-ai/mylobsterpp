@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] parses unset values",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:37] parses unset values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] parses set values",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:47] parses set values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] returns null for non set/unset actions",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:59] returns null for non set/unset actions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] maps parse errors through onError",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:70] maps parse errors through onError",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] returns null when the input does not match the slash command",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:83] returns null when the input does not match the slash command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:83",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] prefers set/unset mapping and falls back to known actions",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:90] prefers set/unset mapping and falls back to known actions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] returns onError for unknown actions",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:108] returns onError for unknown actions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:108",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] uses default set/unset/error mappings",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:119] uses default set/unset/error mappings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:119",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts] supports caller-provided mappings",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-setunset.test.ts:130] supports caller-provided mappings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-setunset.test.ts:130",
                "upstream it() block #8",

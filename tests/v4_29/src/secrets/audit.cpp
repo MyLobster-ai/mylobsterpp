@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] reports plaintext + shadowing findings",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:218] reports plaintext + shadowing findings",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:218",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] does not mutate legacy auth.json during audit",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:227] does not mutate legacy auth.json during audit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:227",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] reports malformed sidecar JSON as findings instead of crashing",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:242] reports malformed sidecar JSON as findings instead of crashing",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:242",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] skips exec ref resolution during audit unless explicitly allowed",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:252] skips exec ref resolution during audit unless explicitly allowed",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:252",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] batches ref resolution per provider during audit when --allow-exec is enabled",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:287] batches ref resolution per provider during audit when --allow-exec is enabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:287",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] short-circuits per-ref fallback for provider-wide batch failures when --allow-exec is enabled",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:330] short-circuits per-ref fallback for provider-wide batch failures when --allow-exec is enabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:330",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] scans agent models.json files for plaintext provider apiKey values",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:394] scans agent models.json files for plaintext provider apiKey values",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:394",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] scans agent models.json files for plaintext provider header values",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:405] scans agent models.json files for plaintext provider header values",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:405",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] does not flag non-sensitive routing headers in models.json",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:419] does not flag non-sensitive routing headers in models.json",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:419",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] does not flag models.json marker values as plaintext",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:434] does not flag models.json marker values as plaintext",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:434",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] flags arbitrary all-caps models.json apiKey values as plaintext",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:445] flags arbitrary all-caps models.json apiKey values as plaintext",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:445",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] does not flag models.json header marker values as plaintext",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:455] does not flag models.json header marker values as plaintext",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:455",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] reports unresolved models.json SecretRef objects in provider headers",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:476] reports unresolved models.json SecretRef objects in provider headers",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:476",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] reports malformed models.json as unresolved findings",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:494] reports malformed models.json as unresolved findings",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:494",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] reports non-regular models.json files as unresolved findings",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:500] reports non-regular models.json files as unresolved findings",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:500",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] reports oversized models.json as unresolved findings",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:507] reports oversized models.json as unresolved findings",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:507",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] scans active agent-dir override models.json even when outside state dir",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:524] scans active agent-dir override models.json even when outside state dir",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:524",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/audit.test.ts] does not flag non-sensitive routing headers in openclaw config",
+TEST_CASE("v4.29 [src/secrets/audit.test.ts:557] does not flag non-sensitive routing headers in openclaw config",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/audit.test.ts:557",
                "upstream it() block #17",

@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns error when credentials are missing",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:109] returns error when credentials are missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:109",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns error when appId is missing",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:114] returns error when appId is missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:114",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns error when appSecret is missing",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:119] returns error when appSecret is missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns bot info on successful probe",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:124] returns bot info on successful probe",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] passes the probe timeout to the Feishu request",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:131] passes the probe timeout to the Feishu request",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns timeout error when request exceeds timeout",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:146] returns timeout error when request exceeds timeout",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:146",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns aborted when abort signal is already aborted",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:159] returns aborted when abort signal is already aborted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:159",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] returns cached result on subsequent calls within TTL",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:172] returns cached result on subsequent calls within TTL",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:172",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] makes a fresh API call after cache expires",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:182] makes a fresh API call after cache expires",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:182",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] caches failed probe results (API error) for the error TTL",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:192] caches failed probe results (API error) for the error TTL",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:192",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] caches thrown request errors for the error TTL",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:202] caches thrown request errors for the error TTL",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:202",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] caches per account independently",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:212] caches per account independently",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:212",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] does not share cache between accounts with same appId but different appSecret",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:227] does not share cache between accounts with same appId but different appSecret",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:227",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] uses accountId for cache key when available",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:240] uses accountId for cache key when available",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:240",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] clearProbeCache forces fresh API call",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:255] clearProbeCache forces fresh API call",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:255",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts] handles response with pingBotInfo in data",
+TEST_CASE("v4.29 [extensions/feishu/src/probe.test.ts:263] handles response with pingBotInfo in data",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/probe.test.ts:263",
                "upstream it() block #15",

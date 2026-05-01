@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker.windows.test.ts] keeps non-windows invocation unchanged",
+TEST_CASE("v4.29 [src/agents/sandbox/docker.windows.test.ts:15] keeps non-windows invocation unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker.windows.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker.windows.test.ts] prefers docker.exe entrypoint over cmd shell fallback on windows",
+TEST_CASE("v4.29 [src/agents/sandbox/docker.windows.test.ts:29] prefers docker.exe entrypoint over cmd shell fallback on windows",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker.windows.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker.windows.test.ts] rejects unresolved docker.cmd wrappers instead of shelling out",
+TEST_CASE("v4.29 [src/agents/sandbox/docker.windows.test.ts:50] rejects unresolved docker.cmd wrappers instead of shelling out",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker.windows.test.ts:50",
                "upstream it() block #2",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts] clears stale runtime model fields when switching overrides",
+TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts:24] clears stale runtime model fields when switching overrides",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/model-overrides.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts] clears stale runtime model fields even when override selection is unchanged",
+TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts:50] clears stale runtime model fields even when override selection is unchanged",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/model-overrides.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts] retains aligned runtime model fields when selection and runtime already match",
+TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts:69] retains aligned runtime model fields when selection and runtime already match",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/model-overrides.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts] clears stale contextTokens when switching back to the default model",
+TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts:97] clears stale contextTokens when switching back to the default model",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/model-overrides.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts] marks non-default overrides with the provided source",
+TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts:124] marks non-default overrides with the provided source",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/model-overrides.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts] sets liveModelSwitchPending only when explicitly requested",
+TEST_CASE("v4.29 [src/sessions/model-overrides.test.ts:145] sets liveModelSwitchPending only when explicitly requested",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/model-overrides.test.ts:145",
                "upstream it() block #5",

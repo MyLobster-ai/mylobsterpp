@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] returns 24h default when no config",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:19] returns 24h default when no config",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] returns 24h default when config is empty",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:23] returns 24h default when config is empty",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] parses duration string",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:27] parses duration string",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] returns null when disabled",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:33] returns null when disabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] falls back to default on invalid string",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:37] falls back to default on invalid string",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:37",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] matches cron run session keys",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:43] matches cron run session keys",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:43",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] does not match base cron session keys",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:48] does not match base cron session keys",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:48",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] does not match regular session keys",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:52] does not match regular session keys",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:52",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] does not match non-canonical cron-like keys",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:56] does not match non-canonical cron-like keys",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:56",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] prunes expired cron run sessions",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:73] prunes expired cron run sessions",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:73",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] archives transcript files for pruned run sessions that are no longer referenced",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:112] archives transcript files for pruned run sessions that are no longer referenced",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:112",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] does not archive external transcript paths for pruned runs",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:138] does not archive external transcript paths for pruned runs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:138",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] respects custom retention",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:167] respects custom retention",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:167",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] does nothing when pruning is disabled",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:188] does nothing when pruning is disabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:188",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] throttles sweeps without force",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:210] throttles sweeps without force",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:210",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-reaper.test.ts] throttles per store path",
+TEST_CASE("v4.29 [src/cron/session-reaper.test.ts:231] throttles per store path",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-reaper.test.ts:231",
                "upstream it() block #15",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] normalizes string settings from the dreaming config",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:13] normalizes string settings from the dreaming config",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] lets execution defaults and phase execution override the top-level dreaming model",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:61] lets execution defaults and phase execution override the top-level dreaming model",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] falls back to cfg timezone and deep defaults",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:88] falls back to cfg timezone and deep defaults",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] defaults storage mode to separate so phase blocks do not pollute daily memory files",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:114] defaults storage mode to separate so phase blocks do not pollute daily memory files",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] preserves explicit inline storage mode for callers that opt in",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:125] preserves explicit inline storage mode for callers that opt in",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:125",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] applies top-level dreaming frequency across all phases",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:139] applies top-level dreaming frequency across all phases",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:139",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] dedupes shared workspaces across all configured agents",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:155] dedupes shared workspaces across all configured agents",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:155",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] uses default agent fallback and timezone-aware day helpers",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:178] uses default agent fallback and timezone-aware day helpers",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:178",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] resolves the configured memory-slot plugin id",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:206] resolves the configured memory-slot plugin id",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:206",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] reads dreaming config from the configured memory-slot owner",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:218] reads dreaming config from the configured memory-slot owner",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:218",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] reads dreaming config from memory-lancedb when it owns the memory slot",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:243] reads dreaming config from memory-lancedb when it owns the memory slot",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:243",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] falls back to memory-core when no memory slot override is configured",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:270] falls back to memory-core when no memory slot override is configured",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:270",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts] falls back to memory-core when memory slot is ",
+TEST_CASE("v4.29 [src/memory-host-sdk/dreaming.test.ts:292] falls back to memory-core when memory slot is ",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/dreaming.test.ts:292",
                "upstream it() block #12",

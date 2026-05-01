@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/byteplus/live.test.ts] returns assistant text",
+TEST_CASE("v4.29 [extensions/byteplus/live.test.ts:26] returns assistant text",
           "[v4_29][parity_gap][byteplus]") {
     PARITY_GAP("extensions/byteplus/live.test.ts:26",
                "upstream it() block #0",

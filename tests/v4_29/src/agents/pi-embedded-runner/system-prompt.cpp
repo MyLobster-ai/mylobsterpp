@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts] applies a string override to the session system prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts:43] applies a string override to the session system prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/system-prompt.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts] trims whitespace from string overrides",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts:51] trims whitespace from string overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/system-prompt.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts] applies a function override to the session system prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts:57] applies a function override to the session system prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/system-prompt.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts] sets _rebuildSystemPrompt that returns the override",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts:64] sets _rebuildSystemPrompt that returns the override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/system-prompt.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts] forwards provider prompt contributions into the embedded prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts:75] forwards provider prompt contributions into the embedded prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/system-prompt.test.ts:75",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts] can omit base memory guidance for non-legacy context engines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/system-prompt.test.ts:98] can omit base memory guidance for non-legacy context engines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/system-prompt.test.ts:98",
                "upstream it() block #5",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts] builds an anthropic forward-compat fallback for claude-opus-4-6",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts:181] builds an anthropic forward-compat fallback for claude-opus-4-6",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.test.ts:181",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts] builds an anthropic forward-compat fallback for claude-sonnet-4-6",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts:186] builds an anthropic forward-compat fallback for claude-sonnet-4-6",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.test.ts:186",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts] preserves the claude-cli provider for anthropic forward-compat fallback models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts:191] preserves the claude-cli provider for anthropic forward-compat fallback models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.test.ts:191",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts] builds a zai forward-compat fallback for glm-5",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.test.ts:195] builds a zai forward-compat fallback for glm-5",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.test.ts:195",
                "upstream it() block #3",

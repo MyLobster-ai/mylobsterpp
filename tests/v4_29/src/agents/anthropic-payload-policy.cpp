@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] applies native Anthropic service tier and cache markers without widening cache scope",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:50] applies native Anthropic service tier and cache markers without widening cache scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] denies proxied Anthropic service tier but honors explicit long TTL for custom hosts",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:104] denies proxied Anthropic service tier but honors explicit long TTL for custom hosts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] keeps implicit env-driven long retention conservative for custom hosts",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:125] keeps implicit env-driven long retention conservative for custom hosts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] keeps explicit short retention unchanged for custom hosts",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:149] keeps explicit short retention unchanged for custom hosts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] splits cached stable system content from uncached dynamic content",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:164] splits cached stable system content from uncached dynamic content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:164",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] applies 1h TTL for Vertex AI endpoints with long cache retention",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:182] applies 1h TTL for Vertex AI endpoints with long cache retention",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] applies 5m ephemeral cache for Vertex AI endpoints with short cache retention",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:210] applies 5m ephemeral cache for Vertex AI endpoints with short cache retention",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts] strips the boundary even when cache retention is disabled",
+TEST_CASE("v4.29 [src/agents/anthropic-payload-policy.test.ts:225] strips the boundary even when cache retention is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-payload-policy.test.ts:225",
                "upstream it() block #7",

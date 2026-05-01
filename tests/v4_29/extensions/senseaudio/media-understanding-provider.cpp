@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts] uses SenseAudio base URL by default",
+TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts:17] uses SenseAudio base URL by default",
           "[v4_29][parity_gap][senseaudio]") {
     PARITY_GAP("extensions/senseaudio/media-understanding-provider.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts] respects lowercase authorization header overrides",
+TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts:31] respects lowercase authorization header overrides",
           "[v4_29][parity_gap][senseaudio]") {
     PARITY_GAP("extensions/senseaudio/media-understanding-provider.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts] builds the expected request payload",
+TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts:47] builds the expected request payload",
           "[v4_29][parity_gap][senseaudio]") {
     PARITY_GAP("extensions/senseaudio/media-understanding-provider.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts] throws when the provider response omits text",
+TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts:90] throws when the provider response omits text",
           "[v4_29][parity_gap][senseaudio]") {
     PARITY_GAP("extensions/senseaudio/media-understanding-provider.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts] can transcribe generated speech in live mode",
+TEST_CASE("v4.29 [extensions/senseaudio/media-understanding-provider.test.ts:104] can transcribe generated speech in live mode",
           "[v4_29][parity_gap][senseaudio]") {
     PARITY_GAP("extensions/senseaudio/media-understanding-provider.test.ts:104",
                "upstream it() block #4",

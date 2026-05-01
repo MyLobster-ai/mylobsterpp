@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts] does not reactivate plugins when a process already has an active registry",
+TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts:30] does not reactivate plugins when a process already has an active registry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plugins.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts] resolves runtime plugins through the shared runtime helper",
+TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts:42] resolves runtime plugins through the shared runtime helper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plugins.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts] does not enable gateway subagent binding for normal runtime loads",
+TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts:58] does not enable gateway subagent binding for normal runtime loads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plugins.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts] inherits gateway-bindable mode from an active gateway registry",
+TEST_CASE("v4.29 [src/agents/runtime-plugins.test.ts:71] inherits gateway-bindable mode from an active gateway registry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plugins.test.ts:71",
                "upstream it() block #3",

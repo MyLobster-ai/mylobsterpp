@@ -5,327 +5,327 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] produces a finalized MsgContext",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:333] produces a finalized MsgContext",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:333",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] does not enable Slack status reactions when the message timestamp is missing",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:349] does not enable Slack status reactions when the message timestamp is missing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:349",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] includes forwarded shared attachment text in raw body",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:375] includes forwarded shared attachment text in raw body",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:375",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] ignores non-forward attachments when no direct text/files are present",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:387] ignores non-forward attachments when no direct text/files are present",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:387",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] delivers file-only message with placeholder when media download fails",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:399] delivers file-only message with placeholder when media download fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:399",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] falls back to generic file label when a Slack file name is empty",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:419] falls back to generic file label when a Slack file name is empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:419",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] extracts attachment text for bot messages with empty text when allowBots is true (#27616)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:431] extracts attachment text for bot messages with empty text when allowBots is true (#27616)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:431",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] drops bot-authored room messages when allowBots is true but no owner is present (#59284)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:460] drops bot-authored room messages when allowBots is true but no owner is present (#59284)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:460",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] allows bot-authored room messages when an explicit owner is present (#59284)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:475] allows bot-authored room messages when an explicit owner is present (#59284)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:475",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] allows bot-authored room messages when the bot is explicitly channel-allowlisted (#59284)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:489] allows bot-authored room messages when the bot is explicitly channel-allowlisted (#59284)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:489",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] drops bot-authored room messages when owner presence lookup fails (#59284)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:515] drops bot-authored room messages when owner presence lookup fails (#59284)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:515",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] keeps channel metadata out of GroupSystemPrompt",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:537] keeps channel metadata out of GroupSystemPrompt",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:537",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] classifies D-prefix DMs correctly even when channel_type is wrong",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:578] classifies D-prefix DMs correctly even when channel_type is wrong",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:578",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] uses the concrete DM channel as the live reply target while keeping user-scoped routing",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:591] uses the concrete DM channel as the live reply target while keeping user-scoped routing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:591",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] classifies D-prefix DMs when channel_type is missing",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:604] classifies D-prefix DMs when channel_type is missing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:604",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] sets MessageThreadId for top-level messages when replyToMode=all",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:617] sets MessageThreadId for top-level messages when replyToMode=all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:617",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] classifies MPIM group DMs as group chat context",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:628] classifies MPIM group DMs as group chat context",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:628",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] respects replyToModeByChatType.direct override for DMs",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:644] respects replyToModeByChatType.direct override for DMs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:644",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] still threads channel messages when replyToModeByChatType.direct is off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:656] still threads channel messages when replyToModeByChatType.direct is off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:656",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] respects dm.replyToMode legacy override for DMs",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:672] respects dm.replyToMode legacy override for DMs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:672",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] marks first thread turn and injects thread history for a new thread session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:684] marks first thread turn and injects thread history for a new thread session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:684",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] uses room users allowlist for thread context filtering",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:725] uses room users allowlist for thread context filtering",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:725",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] does not apply the owner allowlist to open-room thread context",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:754] does not apply the owner allowlist to open-room thread context",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:754",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] does not apply the owner allowlist to open DMs when dmPolicy is open",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:782] does not apply the owner allowlist to open DMs when dmPolicy is open",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:782",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] does not apply the owner allowlist to MPIM thread context",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:805] does not apply the owner allowlist to MPIM thread context",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:805",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] skips loading thread history when thread session already exists in store (bloat fix)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:822] skips loading thread history when thread session already exists in store (bloat fix)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:822",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] includes thread_ts and parent_user_id metadata in thread replies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:868] includes thread_ts and parent_user_id metadata in thread replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:868",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] excludes thread_ts from top-level messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:885] excludes thread_ts from top-level messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:885",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] excludes thread metadata when thread_ts equals ts without parent_user_id",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:896] excludes thread metadata when thread_ts equals ts without parent_user_id",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:896",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] creates thread session for top-level DM when replyToMode=all",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:910] creates thread session for top-level DM when replyToMode=all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:910",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] routes Slack thread replies through runtime conversation bindings",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:935] routes Slack thread replies through runtime conversation bindings",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:935",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] keeps a root app mention and URL-only Slack thread follow-up on one parent session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1005] keeps a root app mention and URL-only Slack thread follow-up on one parent session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1005",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] keeps a message-first root mention and URL-only Slack thread follow-up on one parent session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1069] keeps a message-first root mention and URL-only Slack thread follow-up on one parent session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1069",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] keeps a regex-mentioned Slack thread root and URL-only follow-up on one parent session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1134] keeps a regex-mentioned Slack thread root and URL-only follow-up on one parent session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1134",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] keeps runtime-bound regex mentions on the bound parent session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1199] keeps runtime-bound regex mentions on the bound parent session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1199",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] still seeds regex mentions when plugin-owned bindings do not rewrite the route",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1288] still seeds regex mentions when plugin-owned bindings do not rewrite the route",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1288",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] prepares bare-ping Slack thread replies with the parent thread timestamp",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1373] prepares bare-ping Slack thread replies with the parent thread timestamp",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1373",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] preserves single-use reply mode metadata on seeded top-level roots",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1426] preserves single-use reply mode metadata on seeded top-level roots",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1426",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] prefixes channel bodies with sender label and annotates Slack mention tokens",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1543] prefixes channel bodies with sender label and annotates Slack mention tokens",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1543",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] keeps raw Slack mention tokens when user lookup cannot resolve them",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1558] keeps raw Slack mention tokens when user lookup cannot resolve them",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1558",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] caps Slack mention username lookups per inbound message and leaves overflow mentions raw",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1574] caps Slack mention username lookups per inbound message and leaves overflow mentions raw",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1574",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] shares the per-message mention lookup budget across message text and attachment text",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1609] shares the per-message mention lookup budget across message text and attachment text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1609",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] detects /new as control command when prefixed with Slack mention",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1659] detects /new as control command when prefixed with Slack mention",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1659",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] drops thread reply without explicit mention when requireExplicitMention is true",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1702] drops thread reply without explicit mention when requireExplicitMention is true",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1702",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] allows thread reply with explicit @mention when requireExplicitMention is true",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1729] allows thread reply with explicit @mention when requireExplicitMention is true",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1729",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts] allows thread reply without explicit mention when requireExplicitMention is false (default)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare.test.ts:1756] allows thread reply without explicit mention when requireExplicitMention is false (default)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare.test.ts:1756",
                "upstream it() block #45",

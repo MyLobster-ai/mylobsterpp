@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts] forwards --verbose to ",
+TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts:63] forwards --verbose to ",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/acp-cli.option-collisions.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts] loads gateway token/password from files",
+TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts:76] loads gateway token/password from files",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/acp-cli.option-collisions.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts] warns when inline secret flags are used",
+TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts:125] warns when inline secret flags are used",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/acp-cli.option-collisions.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts] trims token file path before reading",
+TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts:136] trims token file path before reading",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/acp-cli.option-collisions.test.ts:136",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts] reports missing token-file read errors",
+TEST_CASE("v4.29 [src/cli/acp-cli.option-collisions.test.ts:148] reports missing token-file read errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/acp-cli.option-collisions.test.ts:148",
                "upstream it() block #4",

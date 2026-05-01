@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] includes channel, from, ip, host, and timestamp",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:11] includes channel, from, ip, host, and timestamp",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] formats timestamps in local timezone by default",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:28] formats timestamps in local timezone by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] formats timestamps in UTC when configured",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:40] formats timestamps in UTC when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] formats timestamps in user timezone when configured",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:54] formats timestamps in user timezone when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] omits timestamps when configured",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:66] omits timestamps when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] handles missing optional fields",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:77] handles missing optional fields",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:77",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] prefixes sender for non-direct chats",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:84] prefixes sender for non-direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:84",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] uses sender fields when senderLabel is missing",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:95] uses sender fields when senderLabel is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:95",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] keeps direct messages unprefixed",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:106] keeps direct messages unprefixed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:106",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] includes elapsed time when previousTimestamp is provided",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:117] includes elapsed time when previousTimestamp is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:117",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] omits elapsed time when disabled",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:133] omits elapsed time when disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:133",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] prefixes DM body with (self) when fromMe is true",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:147] prefixes DM body with (self) when fromMe is true",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:147",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] does not prefix group messages with (self) when fromMe is true",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:158] does not prefix group messages with (self) when fromMe is true",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:158",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts] resolves envelope options from config",
+TEST_CASE("v4.29 [src/auto-reply/envelope.test.ts:170] resolves envelope options from config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/envelope.test.ts:170",
                "upstream it() block #13",

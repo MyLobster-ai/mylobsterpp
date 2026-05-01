@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] returns stable categories without reading mutable Error.name",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:10] returns stable categories without reading mutable Error.name",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] accepts only own HTTP status data properties as error codes",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:24] accepts only own HTTP status data properties as error codes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] does not invoke throwing getters while extracting status codes",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:32] does not invoke throwing getters while extracting status codes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] contains proxy traps during extraction",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:43] contains proxy traps during extraction",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] extracts bounded provider request id hashes without exposing raw ids",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:56] extracts bounded provider request id hashes without exposing raw ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] does not invoke throwing getters while extracting provider request ids",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:70] does not invoke throwing getters while extracting provider request ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] classifies low-cardinality transport failure kinds without exposing messages",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:81] classifies low-cardinality transport failure kinds without exposing messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:81",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts] does not invoke throwing getters while classifying failure kinds",
+TEST_CASE("v4.29 [src/infra/diagnostic-error-metadata.test.ts:98] does not invoke throwing getters while classifying failure kinds",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-error-metadata.test.ts:98",
                "upstream it() block #7",

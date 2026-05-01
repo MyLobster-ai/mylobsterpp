@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/download.test.ts] persists inbound media with the shared media store",
+TEST_CASE("v4.29 [extensions/line/src/download.test.ts:59] persists inbound media with the shared media store",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/download.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/download.test.ts] does not pass the external messageId to saveMediaBuffer",
+TEST_CASE("v4.29 [extensions/line/src/download.test.ts:78] does not pass the external messageId to saveMediaBuffer",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/download.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/download.test.ts] rejects oversized media before invoking saveMediaBuffer",
+TEST_CASE("v4.29 [extensions/line/src/download.test.ts:94] rejects oversized media before invoking saveMediaBuffer",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/download.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/download.test.ts] classifies M4A ftyp major brand as audio/mp4",
+TEST_CASE("v4.29 [extensions/line/src/download.test.ts:101] classifies M4A ftyp major brand as audio/mp4",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/download.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/download.test.ts] detects MP4 video from ftyp major brand (isom)",
+TEST_CASE("v4.29 [extensions/line/src/download.test.ts:114] detects MP4 video from ftyp major brand (isom)",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/download.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/download.test.ts] propagates media store failures",
+TEST_CASE("v4.29 [extensions/line/src/download.test.ts:126] propagates media store failures",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/download.test.ts:126",
                "upstream it() block #5",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/mask-api-key.test.ts] returns missing for empty values",
+TEST_CASE("v4.29 [src/utils/mask-api-key.test.ts:5] returns missing for empty values",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/mask-api-key.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/mask-api-key.test.ts] masks short and medium values without returning raw secrets",
+TEST_CASE("v4.29 [src/utils/mask-api-key.test.ts:10] masks short and medium values without returning raw secrets",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/mask-api-key.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/mask-api-key.test.ts] masks long values with first and last 8 chars",
+TEST_CASE("v4.29 [src/utils/mask-api-key.test.ts:17] masks long values with first and last 8 chars",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/mask-api-key.test.ts:17",
                "upstream it() block #2",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts] returns string decisions",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts:24] returns string decisions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-approval-request.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts] returns null for missing or non-string decisions",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts:81] returns null for missing or non-string decisions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-approval-request.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts] uses registration response id when waiting for decision",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts:113] uses registration response id when waiting for decision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-approval-request.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts] treats expired-or-missing waitDecision as null decision",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts:141] treats expired-or-missing waitDecision as null decision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-approval-request.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts] returns final decision directly when gateway already replies with decision",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-approval-request.test.ts:162] returns final decision directly when gateway already replies with decision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-approval-request.test.ts:162",
                "upstream it() block #4",

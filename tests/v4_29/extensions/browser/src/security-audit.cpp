@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/security-audit.test.ts] flags browser control without auth",
+TEST_CASE("v4.29 [extensions/browser/src/security-audit.test.ts:17] flags browser control without auth",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/security-audit.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/security-audit.test.ts] warns on remote http CDP profiles",
+TEST_CASE("v4.29 [extensions/browser/src/security-audit.test.ts:38] warns on remote http CDP profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/security-audit.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/security-audit.test.ts] redacts private-host CDP URLs in findings",
+TEST_CASE("v4.29 [extensions/browser/src/security-audit.test.ts:60] redacts private-host CDP URLs in findings",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/security-audit.test.ts:60",
                "upstream it() block #2",

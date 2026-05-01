@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns undefined when no allowlist is configured",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:28] returns undefined when no allowlist is configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] skips wildcard matches for owner allowFrom",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:37] skips wildcard matches for owner allowFrom",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns a matching user id entry",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:46] returns a matching user id entry",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns the normalized name slug for name matches only when enabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:55] returns the normalized name slug for name matches only when enabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] allows when no role allowlist is configured",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:73] allows when no role allowlist is configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] matches role IDs only",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:82] matches role IDs only",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] does not match non-ID role entries",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:91] does not match non-ID role entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:91",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns false when no matching role IDs",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:100] returns false when no matching role IDs",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:100",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] allows when no user or role allowlists are configured",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:111] allows when no user or role allowlists are configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:111",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] allows when user allowlist matches",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:122] allows when user allowlist matches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:122",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] allows when role allowlist matches",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:133] allows when role allowlist matches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:133",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] denies when user and role allowlists do not match",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:144] denies when user and role allowlists do not match",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:144",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] stores and retrieves a gateway by account",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:167] stores and retrieves a gateway by account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:167",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] uses collision-safe key when accountId is undefined",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:174] uses collision-safe key when accountId is undefined",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:174",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] unregisters a gateway",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:181] unregisters a gateway",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:181",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] clears all gateways",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:188] clears all gateways",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:188",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] overwrites existing entry for same account",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:196] overwrites existing entry for same account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:196",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] scopes presence entries by account",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:210] scopes presence entries by account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:210",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] clears presence per account",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:222] clears presence per account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:222",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns default online presence when no presence config provided",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:237] returns default online presence when no presence config provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:237",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns status-only presence when activity is omitted",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:246] returns status-only presence when activity is omitted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:246",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] defaults to custom activity type when activity is set without type",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:253] defaults to custom activity type when activity is set without type",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:253",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] includes streaming url when activityType is streaming",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:265] includes streaming url when activityType is streaming",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:265",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] returns null without a created thread and re-keys context when present",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:282] returns null without a created thread and re-keys context when present",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:282",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] applies delivery targets and reply reference behavior across thread modes",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:354] applies delivery targets and reply reference behavior across thread modes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:354",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] handles create-thread failures with and without an existing thread",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:453] handles create-thread failures with and without an existing thread",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:453",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts] applies auto-thread reply planning across created, existing, and disabled modes",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.threading-utils.test.ts:515] applies auto-thread reply planning across created, existing, and disabled modes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.threading-utils.test.ts:515",
                "upstream it() block #26",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.security.test.ts] rejects privileged discord moderation action without trusted sender in tool context",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.security.test.ts:46] rejects privileged discord moderation action without trusted sender in tool context",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.security.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.security.test.ts] allows privileged discord moderation action with trusted sender in tool context",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.security.test.ts:59] allows privileged discord moderation action with trusted sender in tool context",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.security.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.security.test.ts] does not require trusted sender without tool context",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.security.test.ts:72] does not require trusted sender without tool context",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.security.test.ts:72",
                "upstream it() block #2",

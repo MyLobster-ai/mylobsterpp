@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.adaptive-card.test.ts] forwards adaptive card invoke values to the agent as message text",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.adaptive-card.test.ts:101] forwards adaptive card invoke values to the agent as message text",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.adaptive-card.test.ts:101",
                "upstream it() block #0",

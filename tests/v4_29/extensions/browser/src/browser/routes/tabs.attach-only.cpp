@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.attach-only.test.ts] lists tabs for manual loopback CDP profiles under strict SSRF",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.attach-only.test.ts:16] lists tabs for manual loopback CDP profiles under strict SSRF",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.attach-only.test.ts:16",
                "upstream it() block #0",

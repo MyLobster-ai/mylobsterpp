@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] returns handlers for all three plugin approval methods",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:54] returns handlers for all three plugin approval methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects invalid params",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:65] rejects invalid params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] creates and registers approval with twoPhase",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:78] creates and registers approval with twoPhase",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] expires immediately when no approval route",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:128] expires immediately when no approval route",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] passes caller connId to hasExecApprovalClients to exclude self",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:148] passes caller connId to hasExecApprovalClients to exclude self",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:148",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] keeps plugin approvals pending when the originating chat can handle /approve directly",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:170] keeps plugin approvals pending when the originating chat can handle /approve directly",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:170",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects invalid severity value",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:216] rejects invalid severity value",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:216",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects title exceeding max length",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:231] rejects title exceeding max length",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:231",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects description exceeding max length",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:245] rejects description exceeding max length",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:245",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects timeoutMs exceeding max",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:259] rejects timeoutMs exceeding max",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:259",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] generates plugin-prefixed IDs",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:274] generates plugin-prefixed IDs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:274",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] passes plugin-prefixed IDs directly to manager.create",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:294] passes plugin-prefixed IDs directly to manager.create",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:294",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects plugin-provided id field",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:311] rejects plugin-provided id field",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:311",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] lists pending plugin approvals",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:328] lists pending plugin approvals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:328",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects missing id",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:378] rejects missing id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:378",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] returns not found for unknown id",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:389] returns not found for unknown id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:389",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] returns decision when resolved",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:400] returns decision when resolved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:400",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects invalid params",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:419] rejects invalid params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:419",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects invalid decision",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:432] rejects invalid decision",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:432",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] resolves a pending approval",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:448] resolves a pending approval",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:448",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] rejects unknown approval id",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:466] rejects unknown approval id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:466",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] accepts unique short id prefixes",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:484] accepts unique short id prefixes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:484",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts] does not leak candidate ids when prefixes are ambiguous",
+TEST_CASE("v4.29 [src/gateway/server-methods/plugin-approval.test.ts:498] does not leak candidate ids when prefixes are ambiguous",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/plugin-approval.test.ts:498",
                "upstream it() block #22",

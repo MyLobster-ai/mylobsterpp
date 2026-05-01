@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] returns true on successful send",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:109] returns true on successful send",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:109",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] returns false on server error after retries",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:115] returns false on server error after retries",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] includes user_ids when userId is numeric",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:121] includes user_ids when userId is numeric",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] verifies TLS by default",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:130] verifies TLS by default",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] only disables TLS verification when explicitly requested",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:137] only disables TLS verification when explicitly requested",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:137",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] returns true on success",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:148] returns true on success",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] returns false on failure",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:156] returns false on failure",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] verifies TLS by default",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:164] verifies TLS by default",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:164",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] respects the shared send interval before posting a file URL",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:173] respects the shared send interval before posting a file URL",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:173",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] rejects malformed file URLs before making a request",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:190] rejects malformed file URLs before making a request",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:190",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] rejects non-http file URLs before making a request",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:197] rejects non-http file URLs before making a request",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:197",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] rejects SSRF-blocked hosts before making a request",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:206] rejects SSRF-blocked hosts before making a request",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:206",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] resolves user by nickname (webhook username = Chat nickname)",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:264] resolves user by nickname (webhook username = Chat nickname)",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:264",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] resolves user by username when nickname does not match",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:276] resolves user by username when nickname does not match",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:276",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] is case-insensitive",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:291] is case-insensitive",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:291",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] returns undefined when user is not found",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:302] returns undefined when user is not found",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:302",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] uses method=user_list instead of method=chatbot in the API URL",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:313] uses method=user_list instead of method=chatbot in the API URL",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:313",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] keeps user cache scoped per incoming URL",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:329] keeps user cache scoped per incoming URL",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:329",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] filters malformed user entries while keeping valid ones",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:352] filters malformed user entries while keeping valid ones",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:352",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts] verifies TLS by default for user_list lookups",
+TEST_CASE("v4.29 [extensions/synology-chat/src/client.test.ts:365] verifies TLS by default for user_list lookups",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/client.test.ts:365",
                "upstream it() block #19",

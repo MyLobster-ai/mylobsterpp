@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] prefers OPENCLAW_OAUTH_DIR over OPENCLAW_STATE_DIR",
+TEST_CASE("v4.29 [src/config/paths.test.ts:21] prefers OPENCLAW_OAUTH_DIR over OPENCLAW_STATE_DIR",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] derives oauth path from OPENCLAW_STATE_DIR when unset",
+TEST_CASE("v4.29 [src/config/paths.test.ts:33] derives oauth path from OPENCLAW_STATE_DIR when unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] prefers numeric env values over config",
+TEST_CASE("v4.29 [src/config/paths.test.ts:46] prefers numeric env values over config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] accepts Compose-style IPv4 host publish values from env",
+TEST_CASE("v4.29 [src/config/paths.test.ts:52] accepts Compose-style IPv4 host publish values from env",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:52",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] accepts Compose-style IPv6 host publish values from env",
+TEST_CASE("v4.29 [src/config/paths.test.ts:61] accepts Compose-style IPv6 host publish values from env",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] ignores the legacy env name and falls back to config",
+TEST_CASE("v4.29 [src/config/paths.test.ts:70] ignores the legacy env name and falls back to config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] falls back to config when the Compose-style suffix is invalid",
+TEST_CASE("v4.29 [src/config/paths.test.ts:79] falls back to config when the Compose-style suffix is invalid",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:79",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] falls back when malformed IPv6 inputs do not provide an explicit port",
+TEST_CASE("v4.29 [src/config/paths.test.ts:88] falls back when malformed IPv6 inputs do not provide an explicit port",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:88",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] falls back to the default port when env is invalid and config is unset",
+TEST_CASE("v4.29 [src/config/paths.test.ts:97] falls back to the default port when env is invalid and config is unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:97",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] uses OPENCLAW_STATE_DIR when set",
+TEST_CASE("v4.29 [src/config/paths.test.ts:117] uses OPENCLAW_STATE_DIR when set",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:117",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] uses OPENCLAW_HOME for default state/config locations",
+TEST_CASE("v4.29 [src/config/paths.test.ts:125] uses OPENCLAW_HOME for default state/config locations",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:125",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] prefers OPENCLAW_HOME over HOME for default state/config locations",
+TEST_CASE("v4.29 [src/config/paths.test.ts:132] prefers OPENCLAW_HOME over HOME for default state/config locations",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:132",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] orders default config candidates in a stable order",
+TEST_CASE("v4.29 [src/config/paths.test.ts:140] orders default config candidates in a stable order",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:140",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] prefers ~/.openclaw when it exists and legacy dir is missing",
+TEST_CASE("v4.29 [src/config/paths.test.ts:153] prefers ~/.openclaw when it exists and legacy dir is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:153",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] falls back to existing legacy state dir when ~/.openclaw is missing",
+TEST_CASE("v4.29 [src/config/paths.test.ts:162] falls back to existing legacy state dir when ~/.openclaw is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:162",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] CONFIG_PATH prefers existing config when present",
+TEST_CASE("v4.29 [src/config/paths.test.ts:171] CONFIG_PATH prefers existing config when present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:171",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/paths.test.ts] respects state dir overrides when config is missing",
+TEST_CASE("v4.29 [src/config/paths.test.ts:183] respects state dir overrides when config is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/paths.test.ts:183",
                "upstream it() block #16",

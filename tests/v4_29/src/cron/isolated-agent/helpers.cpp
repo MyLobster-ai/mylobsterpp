@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] picks real text over error payload",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:11] picks real text over error payload",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] falls back to error payload when no real text exists",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:19] falls back to error payload when no real text exists",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns undefined for empty payloads",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:24] returns undefined for empty payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] treats isError: undefined as non-error",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:28] treats isError: undefined as non-error",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:28",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] picks real text over error payload",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:38] picks real text over error payload",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] falls back to error payload when no real text exists",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:43] falls back to error payload when no real text exists",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:43",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns undefined for empty payloads",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:48] returns undefined for empty payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:48",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] treats isError: undefined as non-error",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:52] treats isError: undefined as non-error",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:52",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] picks real payload over error payload",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:62] picks real payload over error payload",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:62",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] falls back to error payload when no real payload exists",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:68] falls back to error payload when no real payload exists",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:68",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns undefined for empty payloads",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:73] returns undefined for empty payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:73",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] picks media payload over error text payload",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:77] picks media payload over error text payload",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:77",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] treats isError: undefined as non-error",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:83] treats isError: undefined as non-error",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:83",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] preserves all successful deliverable payloads",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:91] preserves all successful deliverable payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:91",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns only the last error payload when all payloads are errors",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:101] returns only the last error payload when all payloads are errors",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:101",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns true for empty payloads",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:114] returns true for empty payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:114",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns true for a single HEARTBEAT_OK payload",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:118] returns true for a single HEARTBEAT_OK payload",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:118",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns false for a single non-heartbeat payload",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:122] returns false for a single non-heartbeat payload",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:122",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns true when multiple payloads include narration followed by HEARTBEAT_OK",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:128] returns true when multiple payloads include narration followed by HEARTBEAT_OK",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:128",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns false when media is present even with HEARTBEAT_OK text",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:142] returns false when media is present even with HEARTBEAT_OK text",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:142",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns false when media is in a different payload than HEARTBEAT_OK",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:151] returns false when media is in a different payload than HEARTBEAT_OK",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:151",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts] returns false when no payload contains HEARTBEAT_OK",
+TEST_CASE("v4.29 [src/cron/isolated-agent/helpers.test.ts:163] returns false when no payload contains HEARTBEAT_OK",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/helpers.test.ts:163",
                "upstream it() block #21",

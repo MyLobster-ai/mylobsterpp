@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] triggers hooks for /new commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:123] triggers hooks for /new commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:123",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] uses gateway session reset for bound ACP sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:175] uses gateway session reset for bound ACP sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:175",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] keeps tail dispatch after a bound ACP reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:208] keeps tail dispatch after a bound ACP reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:208",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] forwards non-id sender fields when reset hooks emit routed replies",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:233] forwards non-id sender fields when reset hooks emit routed replies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:233",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] prefers the target session entry when emitting reset hooks",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:268] prefers the target session entry when emitting reset hooks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:268",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] marks soft reset turns and emits reset hooks",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:297] marks soft reset turns and emits reset hooks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:297",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] requires operator.admin for internal /reset soft commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:338] requires operator.admin for internal /reset soft commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:338",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] clears both sessionStore and sessionEntry when they are distinct objects",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:365] clears both sessionStore and sessionEntry when they are distinct objects",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:365",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] rejects soft reset for bound ACP sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:408] rejects soft reset for bound ACP sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:408",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] acknowledges bare /reset without falling through to model execution",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:435] acknowledges bare /reset without falling through to model execution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:435",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] acknowledges bare /new without falling through to model execution",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:452] acknowledges bare /new without falling through to model execution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:452",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts] keeps reset tails falling through so the model receives the user input",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-hooks.test.ts:469] keeps reset tails falling through so the model receives the user input",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-hooks.test.ts:469",
                "upstream it() block #11",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts] normalizes and dedupes config and env flags",
+TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts:10] normalizes and dedupes config and env flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-flags.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts] treats blank env values as no extra flags",
+TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts:21] treats blank env values as no extra flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-flags.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts] treats false-like env values as disable overrides",
+TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts:33] treats false-like env values as disable overrides",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-flags.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts] matches exact, namespace, prefix, and wildcard rules",
+TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts:49] matches exact, namespace, prefix, and wildcard rules",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-flags.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts] rejects blank and non-matching flags",
+TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts:58] rejects blank and non-matching flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-flags.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts] resolves config and env together before matching",
+TEST_CASE("v4.29 [src/infra/diagnostic-flags.test.ts:65] resolves config and env together before matching",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-flags.test.ts:65",
                "upstream it() block #5",

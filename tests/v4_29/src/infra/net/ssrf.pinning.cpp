@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] pins resolved addresses for the target hostname",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:15] pins resolved addresses for the target hostname",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] allows RFC2544 benchmark range addresses only when policy explicitly opts in",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:61] allows RFC2544 benchmark range addresses only when policy explicitly opts in",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] falls back for non-matching hostnames",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:77] falls back for non-matching hostnames",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] fails loud when a pinned lookup is created without any addresses",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:102] fails loud when a pinned lookup is created without any addresses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] enforces hostname allowlist when configured",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:111] enforces hostname allowlist when configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:111",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] supports wildcard hostname allowlist patterns",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:125] supports wildcard hostname allowlist patterns",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:125",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] sorts IPv4 addresses before IPv6 in pinned results",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:167] sorts IPv4 addresses before IPv6 in pinned results",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:167",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] uses DNS family metadata for ordering (not address string heuristics)",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:184] uses DNS family metadata for ordering (not address string heuristics)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:184",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] allows ISATAP embedded private IPv4 when private network is explicitly enabled",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:194] allows ISATAP embedded private IPv4 when private network is explicitly enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:194",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts] accepts dangerouslyAllowPrivateNetwork as an allowPrivateNetwork alias",
+TEST_CASE("v4.29 [src/infra/net/ssrf.pinning.test.ts:211] accepts dangerouslyAllowPrivateNetwork as an allowPrivateNetwork alias",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.pinning.test.ts:211",
                "upstream it() block #9",

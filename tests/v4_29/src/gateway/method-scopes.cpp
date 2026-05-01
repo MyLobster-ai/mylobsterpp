@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] leaves node-only pending drain outside operator scopes",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:50] leaves node-only pending drain outside operator scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] returns empty scopes for unknown methods",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:54] returns empty scopes for unknown methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] reads plugin-registered gateway method scopes from the active plugin registry",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:58] reads plugin-registered gateway method scopes from the active plugin registry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] keeps reserved admin namespaces admin-only even if a plugin scope is narrower",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:70] keeps reserved admin namespaces admin-only even if a plugin scope is narrower",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] requires operator.write for write methods",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:89] requires operator.write for write methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] requires admin for browser.request",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:96] requires admin for browser.request",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:96",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] requires pairing scope for node pairing approvals",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:108] requires pairing scope for node pairing approvals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:108",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] requires admin for unknown methods",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:146] requires admin for unknown methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:146",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] requires admin for reserved admin namespaces even if a plugin registered a narrower scope",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:153] requires admin for reserved admin namespaces even if a plugin registered a narrower scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:153",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] lists all plugin approval methods",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:166] lists all plugin approval methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:166",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] classifies plugin approval methods",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:174] classifies plugin approval methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:174",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] treats node-role methods as classified even without operator scopes",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:183] treats node-role methods as classified even without operator scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:183",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] classifies every exposed core gateway handler method",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:188] classifies every exposed core gateway handler method",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:188",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] classifies every listed gateway method name",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:195] classifies every listed gateway method name",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:195",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts] includes operator.talk.secrets for node-role device pairing approvals",
+TEST_CASE("v4.29 [src/gateway/method-scopes.test.ts:204] includes operator.talk.secrets for node-role device pairing approvals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/method-scopes.test.ts:204",
                "upstream it() block #14",

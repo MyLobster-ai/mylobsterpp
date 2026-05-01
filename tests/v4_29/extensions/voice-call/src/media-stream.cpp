@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] serializes TTS playback and resolves in order",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:59] serializes TTS playback and resolves in order",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] cancels active playback and clears queued items",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:93] cancels active playback and clears queued items",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] resolves pending queued playback during stream teardown",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:121] resolves pending queued playback during stream teardown",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] fails sends and closes stream when buffered bytes already exceed the cap",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:149] fails sends and closes stream when buffered bytes already exceed the cap",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] fails sends when buffered bytes exceed cap after enqueueing a frame",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:186] fails sends when buffered bytes exceed cap after enqueueing a frame",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] sanitizes websocket close reason before logging",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:229] sanitizes websocket close reason before logging",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:229",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] closes idle pre-start connections after timeout",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:237] closes idle pre-start connections after timeout",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:237",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] enforces pending connection limits",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:263] enforces pending connection limits",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:263",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] uses resolved client IPs for per-IP pending limits",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:289] uses resolved client IPs for per-IP pending limits",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:289",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] rejects upgrades when max connection cap is reached",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:325] rejects upgrades when max connection cap is reached",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:325",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] counts in-flight upgrades against the max connection cap",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:354] counts in-flight upgrades against the max connection cap",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:354",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] releases in-flight reservations when ws rejects a malformed upgrade before the callback",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:428] releases in-flight reservations when ws rejects a malformed upgrade before the callback",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:428",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] clears pending state after valid start",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:476] clears pending state after valid start",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:476",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts] rejects oversized pre-start frames at the websocket maxPayload guard before validation runs",
+TEST_CASE("v4.29 [extensions/voice-call/src/media-stream.test.ts:505] rejects oversized pre-start frames at the websocket maxPayload guard before validation runs",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/media-stream.test.ts:505",
                "upstream it() block #13",

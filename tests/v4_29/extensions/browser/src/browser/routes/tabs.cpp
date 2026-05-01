@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] returns browser-not-running for close when the browser is not reachable",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:189] returns browser-not-running for close when the browser is not reachable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:189",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] returns browser-not-running for select when the browser is not reachable",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:193] returns browser-not-running for select when the browser is not reachable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:193",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] redacts blocked tab URLs from GET /tabs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:197] redacts blocked tab URLs from GET /tabs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:197",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] blocks /tabs/focus when target tab URL fails SSRF checks",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:229] blocks /tabs/focus when target tab URL fails SSRF checks",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:229",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] does not create a tab for /tabs/focus when target is missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:245] does not create a tab for /tabs/focus when target is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:245",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] returns conflict for ambiguous target-id prefixes in /tabs/focus",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:261] returns conflict for ambiguous target-id prefixes in /tabs/focus",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:261",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] blocks /tabs/action select when target tab URL fails SSRF checks",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:289] blocks /tabs/action select when target tab URL fails SSRF checks",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:289",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] does not run SSRF result validation for /tabs/focus when policy is not configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:305] does not run SSRF result validation for /tabs/focus when policy is not configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:305",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] does not run SSRF result validation for /tabs/action select when policy is not configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:322] does not run SSRF result validation for /tabs/action select when policy is not configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:322",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] labels tabs by friendly target handles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:338] labels tabs by friendly target handles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:338",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts] redacts blocked tab URLs for /tabs/action list",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/tabs.test.ts:362] redacts blocked tab URLs for /tabs/action list",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/tabs.test.ts:362",
                "upstream it() block #10",

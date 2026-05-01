@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] includes reset and deleted transcripts in session file listing",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:64] includes reset and deleted transcripts in session file listing",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] returns lineMap tracking original JSONL line numbers",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:92] returns lineMap tracking original JSONL line numbers",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] returns empty lineMap when no messages are found",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:133] returns empty lineMap when no messages are found",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] skips blank lines and invalid JSON without breaking lineMap",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:148] skips blank lines and invalid JSON without breaking lineMap",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] captures message timestamps when present",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:165] captures message timestamps when present",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] strips inbound metadata envelope from user messages before normalization",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:192] strips inbound metadata envelope from user messages before normalization",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:192",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] strips inbound metadata when a user envelope is split across text blocks",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:238] strips inbound metadata when a user envelope is split across text blocks",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:238",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] wraps pathological long messages into multiple exported lines and repeats mappings",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:268] wraps pathological long messages into multiple exported lines and repeats mappings",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] hard-wraps pathological long tokens without spaces",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:292] hard-wraps pathological long tokens without spaces",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:292",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] does not split surrogate pairs when hard-wrapping astral unicode without spaces",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:315] does not split surrogate pairs when hard-wrapping astral unicode without spaces",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:315",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] preserves assistant messages that happen to contain sentinel-like text",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:340] preserves assistant messages that happen to contain sentinel-like text",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:340",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] flags dreaming narrative transcripts from bootstrap metadata",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:359] flags dreaming narrative transcripts from bootstrap metadata",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:359",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] flags cron run transcripts from the sibling session store and skips their content",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:383] flags cron run transcripts from the sibling session store and skips their content",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:383",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] flags dreaming narrative transcripts from the sibling session store before bootstrap lands",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:426] flags dreaming narrative transcripts from the sibling session store before bootstrap lands",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:426",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] does not flag ordinary transcripts that quote the dream-diary prompt",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:470] does not flag ordinary transcripts that quote the dream-diary prompt",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:470",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] drops generated runtime chatter while preserving real follow-up content",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:499] drops generated runtime chatter while preserving real follow-up content",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:499",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] does not let a user-typed ",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:631] does not let a user-typed ",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:631",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] skips deleted and checkpoint transcripts for dreaming ingestion",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:662] skips deleted and checkpoint transcripts for dreaming ingestion",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:662",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts] does not flag transcripts when dreaming markers only appear mid-string",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/session-files.test.ts:686] does not flag transcripts when dreaming markers only appear mid-string",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/session-files.test.ts:686",
                "upstream it() block #18",

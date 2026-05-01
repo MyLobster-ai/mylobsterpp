@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/fetch.test.ts] applies a default stream limit when maxBytes is omitted",
+TEST_CASE("v4.29 [src/media/fetch.test.ts:230] applies a default stream limit when maxBytes is omitted",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/fetch.test.ts:230",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/fetch.test.ts] uses trusted explicit-proxy mode when the caller opts in for proxy-side DNS",
+TEST_CASE("v4.29 [src/media/fetch.test.ts:316] uses trusted explicit-proxy mode when the caller opts in for proxy-side DNS",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/fetch.test.ts:316",
                "upstream it() block #1",

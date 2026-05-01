@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/components.test.ts] builds v2 containers with modal trigger",
+TEST_CASE("v4.29 [extensions/discord/src/components.test.ts:24] builds v2 containers with modal trigger",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/components.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/components.test.ts] requires options for modal select fields",
+TEST_CASE("v4.29 [extensions/discord/src/components.test.ts:59] requires options for modal select fields",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/components.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/components.test.ts] requires attachment references for file blocks",
+TEST_CASE("v4.29 [extensions/discord/src/components.test.ts:70] requires attachment references for file blocks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/components.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/components.test.ts] registers and consumes component entries",
+TEST_CASE("v4.29 [extensions/discord/src/components.test.ts:91] registers and consumes component entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/components.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/components.test.ts] shares registry state across duplicate module instances",
+TEST_CASE("v4.29 [extensions/discord/src/components.test.ts:116] shares registry state across duplicate module instances",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/components.test.ts:116",
                "upstream it() block #4",

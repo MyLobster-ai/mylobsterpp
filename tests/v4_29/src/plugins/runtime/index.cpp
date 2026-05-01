@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] resolves thinking policy with configured model compat from runtime config",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:178] resolves thinking policy with configured model compat from runtime config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:178",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] modelAuth wrappers strip agentDir and store to prevent credential steering",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:296] modelAuth wrappers strip agentDir and store to prevent credential steering",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:296",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] modelAuth wrappers preserve workspace scope while stripping credential steering",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:306] modelAuth wrappers preserve workspace scope while stripping credential steering",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:306",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] keeps subagent unavailable by default even after gateway initialization",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:357] keeps subagent unavailable by default even after gateway initialization",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:357",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] late-binds to the gateway subagent when explicitly enabled",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:363] late-binds to the gateway subagent when explicitly enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:363",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] uses explicit nodes runtime when provided",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:376] uses explicit nodes runtime when provided",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:376",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts] late-binds to gateway nodes when explicitly enabled",
+TEST_CASE("v4.29 [src/plugins/runtime/index.test.ts:391] late-binds to gateway nodes when explicitly enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/index.test.ts:391",
                "upstream it() block #6",

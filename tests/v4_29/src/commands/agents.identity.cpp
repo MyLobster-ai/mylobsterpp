@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] sets identity from workspace IDENTITY.md",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:68] sets identity from workspace IDENTITY.md",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] errors when multiple agents match the same workspace",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:101] errors when multiple agents match the same workspace",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] overrides identity file values with explicit flags",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:124] overrides identity file values with explicit flags",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] reads identity from an explicit IDENTITY.md path",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:158] reads identity from an explicit IDENTITY.md path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:158",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] accepts avatar-only identity from IDENTITY.md",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:183] accepts avatar-only identity from IDENTITY.md",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] accepts avatar-only updates via flags",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:194] accepts avatar-only updates via flags",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.identity.test.ts] errors when identity data is missing",
+TEST_CASE("v4.29 [src/commands/agents.identity.test.ts:210] errors when identity data is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.identity.test.ts:210",
                "upstream it() block #6",

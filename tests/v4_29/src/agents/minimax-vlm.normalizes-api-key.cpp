@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts] strips embedded CR/LF before sending Authorization header",
+TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts:52] strips embedded CR/LF before sending Authorization header",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/minimax-vlm.normalizes-api-key.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts] drops non-Latin1 characters from apiKey before sending Authorization header",
+TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts:56] drops non-Latin1 characters from apiKey before sending Authorization header",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/minimax-vlm.normalizes-api-key.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts] keeps trusted MINIMAX_API_HOST env fallback for VLM routing",
+TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts:60] keeps trusted MINIMAX_API_HOST env fallback for VLM routing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/minimax-vlm.normalizes-api-key.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts] uses the caller-provided request timeout",
+TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts:84] uses the caller-provided request timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/minimax-vlm.normalizes-api-key.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts] only matches the canonical MiniMax VLM model id",
+TEST_CASE("v4.29 [src/agents/minimax-vlm.normalizes-api-key.test.ts:109] only matches the canonical MiniMax VLM model id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/minimax-vlm.normalizes-api-key.test.ts:109",
                "upstream it() block #4",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts] flags hidden createRequire runtime sidecars that are not build entries",
+TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts:8] flags hidden createRequire runtime sidecars that are not build entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-runtime-sidecar-loaders.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts] allows hidden createRequire runtime sidecars when the source is an explicit build entry",
+TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts:30] allows hidden createRequire runtime sidecars when the source is an explicit build entry",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-runtime-sidecar-loaders.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts] resolves candidate arrays used by source/build fallback loops",
+TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts:48] resolves candidate arrays used by source/build fallback loops",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-runtime-sidecar-loaders.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts] ignores bundler-visible dynamic imports",
+TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts:73] ignores bundler-visible dynamic imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-runtime-sidecar-loaders.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts] collects explicit tsdown entry sources",
+TEST_CASE("v4.29 [test/scripts/check-runtime-sidecar-loaders.test.ts:87] collects explicit tsdown entry sources",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-runtime-sidecar-loaders.test.ts:87",
                "upstream it() block #4",

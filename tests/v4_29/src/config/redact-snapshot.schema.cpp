@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/redact-snapshot.schema.test.ts] main schema redact works (samples)",
+TEST_CASE("v4.29 [src/config/redact-snapshot.schema.test.ts:8] main schema redact works (samples)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/redact-snapshot.schema.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/redact-snapshot.schema.test.ts] redacts bundled channel private keys from generated schema hints",
+TEST_CASE("v4.29 [src/config/redact-snapshot.schema.test.ts:39] redacts bundled channel private keys from generated schema hints",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/redact-snapshot.schema.test.ts:39",
                "upstream it() block #1",

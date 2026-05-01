@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts] uses the request host and stream path in TwiML",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts:111] uses the request host and stream path in TwiML",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/realtime-handler.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts] preserves a public path prefix ahead of serve.path",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts:121] preserves a public path prefix ahead of serve.path",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/realtime-handler.test.ts:121",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts] normalizes Twilio outbound realtime directions",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts:132] normalizes Twilio outbound realtime directions",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/realtime-handler.test.ts:132",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts] submits continuing responses only for realtime agent consult calls",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts:217] submits continuing responses only for realtime agent consult calls",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/realtime-handler.test.ts:217",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts] rejects oversized pre-start frames before bridge setup",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/realtime-handler.test.ts:341] rejects oversized pre-start frames before bridge setup",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/realtime-handler.test.ts:341",
                "upstream it() block #4",

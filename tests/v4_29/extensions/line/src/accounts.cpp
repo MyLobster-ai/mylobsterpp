@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] resolves account from config",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:39] resolves account from config",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] resolves account from environment variables",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:61] resolves account from environment variables",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] resolves named account",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:80] resolves named account",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:106] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] returns empty token when not configured",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:132] returns empty token when not configured",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:132",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] resolves default account credentials from files",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:142] resolves default account credentials from files",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] resolves named account credentials from account-level files",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:159] resolves named account credentials from account-level files",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:159",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts] trims and lowercases account ids",
+TEST_CASE("v4.29 [extensions/line/src/accounts.test.ts:286] trims and lowercases account ids",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/accounts.test.ts:286",
                "upstream it() block #7",

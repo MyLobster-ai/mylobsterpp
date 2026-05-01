@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts] parses finite values and rejects invalid inputs",
+TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts:19] parses finite values and rejects invalid inputs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/parse-finite-number.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts] parses strict integers and rejects non-integers",
+TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts:37] parses strict integers and rejects non-integers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/parse-finite-number.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts] enforces positive integers",
+TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts:54] enforces positive integers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/parse-finite-number.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts] allows zero and positive integers only",
+TEST_CASE("v4.29 [src/infra/parse-finite-number.test.ts:64] allows zero and positive integers only",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/parse-finite-number.test.ts:64",
                "upstream it() block #3",

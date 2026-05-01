@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] inserts blocks sequentially to preserve document order",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:170] inserts blocks sequentially to preserve document order",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:170",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] reorders convert output by document tree instead of raw block array order",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:208] reorders convert output by document tree instead of raw block array order",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:208",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] falls back to size-based convert chunking for long no-heading markdown",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:252] falls back to size-based convert chunking for long no-heading markdown",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:252",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] keeps fenced code blocks balanced when size fallback split is needed",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:297] keeps fenced code blocks balanced when size fallback split is needed",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:297",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] skips image upload when markdown image URL is blocked",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:355] skips image upload when markdown image URL is blocked",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:355",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] create grants permission only to trusted Feishu requester",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:377] create grants permission only to trusted Feishu requester",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:377",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] create skips requester grant when trusted requester identity is unavailable",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:403] create skips requester grant when trusted requester identity is unavailable",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:403",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] create never grants permissions when grant_to_requester is false",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:418] create never grants permissions when grant_to_requester is false",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:418",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] returns an error when create response omits document_id",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:434] returns an error when create response omits document_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:434",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] uploads local file to doc via upload_file action",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:450] uploads local file to doc via upload_file action",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:450",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] passes workspace localRoots for upload_file when workspace-only policy is active",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:494] passes workspace localRoots for upload_file when workspace-only policy is active",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:494",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] passes empty localRoots when workspace-only policy is active without workspaceDir",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:525] passes empty localRoots when workspace-only policy is active without workspaceDir",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:525",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] passes workspace localRoots for upload_image local paths when workspace-only policy is active",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:555] passes workspace localRoots for upload_image local paths when workspace-only policy is active",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:555",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] passes workspace localRoots for upload_image absolute local paths when workspace-only policy is active",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:579] passes workspace localRoots for upload_image absolute local paths when workspace-only policy is active",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:579",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] returns an error when upload_file cannot list placeholder siblings",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:612] returns an error when upload_file cannot list placeholder siblings",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:612",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] rejects traversal paths in upload_file via loadWebMedia sandbox",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:643] rejects traversal paths in upload_file via loadWebMedia sandbox",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:643",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts] rejects traversal paths in upload_image via loadWebMedia sandbox",
+TEST_CASE("v4.29 [extensions/feishu/src/docx.test.ts:660] rejects traversal paths in upload_image via loadWebMedia sandbox",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/docx.test.ts:660",
                "upstream it() block #16",

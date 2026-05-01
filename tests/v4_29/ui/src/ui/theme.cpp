@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/theme.test.ts] resolves named theme families when mode is provided",
+TEST_CASE("v4.29 [ui/src/ui/theme.test.ts:5] resolves named theme families when mode is provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/theme.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/theme.test.ts] uses system preference when mode is system",
+TEST_CASE("v4.29 [ui/src/ui/theme.test.ts:10] uses system preference when mode is system",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/theme.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/theme.test.ts] mirrors the active preferred color scheme",
+TEST_CASE("v4.29 [ui/src/ui/theme.test.ts:18] mirrors the active preferred color scheme",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/theme.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/theme.test.ts] maps legacy stored values onto theme + mode",
+TEST_CASE("v4.29 [ui/src/ui/theme.test.ts:26] maps legacy stored values onto theme + mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/theme.test.ts:26",
                "upstream it() block #3",

@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] parses list_pages text responses when structuredContent is missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:108] parses list_pages text responses when structuredContent is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] adds --userDataDir when an explicit Chromium profile path is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:130] adds --userDataDir when an explicit Chromium profile path is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:130",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] uses browserUrl for existing-session cdpUrl without also passing userDataDir",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:142] uses browserUrl for existing-session cdpUrl without also passing userDataDir",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:142",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] uses wsEndpoint for direct existing-session websocket cdpUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:158] uses wsEndpoint for direct existing-session websocket cdpUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:158",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] appends custom Chrome MCP args and lets explicit endpoint args override auto-connect",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:173] appends custom Chrome MCP args and lets explicit endpoint args override auto-connect",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:173",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] omits the npx package prefix for a custom Chrome MCP command",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:190] omits the npx package prefix for a custom Chrome MCP command",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:190",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] parses new_page text responses and returns the created tab",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:204] parses new_page text responses and returns the created tab",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:204",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] opens about:blank directly without an extra navigate",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:218] opens about:blank directly without an extra navigate",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:218",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] parses evaluate_script text responses when structuredContent is missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:240] parses evaluate_script text responses when structuredContent is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:240",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] does not cache an ephemeral availability probe before the next real attach",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:253] does not cache an ephemeral availability probe before the next real attach",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:253",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] does not poison the next real attach after an ephemeral no-page probe",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:278] does not poison the next real attach after an ephemeral no-page probe",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:278",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] surfaces MCP tool errors instead of JSON parse noise",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:319] surfaces MCP tool errors instead of JSON parse noise",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:319",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] reuses a single pending session for concurrent requests",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:350] reuses a single pending session for concurrent requests",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:350",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] preserves session after tool-level errors (isError)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:379] preserves session after tool-level errors (isError)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:379",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] destroys session on transport errors so next call reconnects",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:414] destroys session on transport errors so next call reconnects",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:414",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] times out a stuck click and recovers on the next call",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:439] times out a stuck click and recovers on the next call",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:439",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] does not dispatch a click when the signal is already aborted",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:474] does not dispatch a click when the signal is already aborted",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:474",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] creates a fresh session when userDataDir changes for the same profile",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:496] creates a fresh session when userDataDir changes for the same profile",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:496",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] clears failed pending sessions so the next call can retry",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:523] clears failed pending sessions so the next call can retry",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:523",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] reconnects and retries list_pages once when Chrome MCP reports a stale selected page",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:540] reconnects and retries list_pages once when Chrome MCP reports a stale selected page",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:540",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] clears cached sessions after repeated stale selected-page failures",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:581] clears cached sessions after repeated stale selected-page failures",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:581",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] always passes a default timeout to navigate_page when none is specified",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:619] always passes a default timeout to navigate_page when none is specified",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:619",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] resets the Chrome MCP session when a navigate_page call hangs past the safety-net timeout",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:638] resets the Chrome MCP session when a navigate_page call hangs past the safety-net timeout",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:638",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts] honors timeoutMs for ephemeral availability probes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome-mcp.test.ts:679] honors timeoutMs for ephemeral availability probes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome-mcp.test.ts:679",
                "upstream it() block #23",

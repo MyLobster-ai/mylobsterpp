@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention via m.mentions.user_ids when the visible text also mentions the bot",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:22] detects mention via m.mentions.user_ids when the visible text also mentions the bot",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] does not trust m.mentions.user_ids without a visible text or formatted mention",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:37] does not trust m.mentions.user_ids without a visible text or formatted mention",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects room mention via visible @room text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:52] detects room mention via visible @room text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] does not trust forged m.mentions.room without visible @room text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:66] does not trust forged m.mentions.room without visible @room text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention in formatted_body with plain user ID",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:83] detects mention in formatted_body with plain user ID",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:83",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention in formatted_body with URL-encoded user ID",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:97] detects mention in formatted_body with URL-encoded user ID",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:97",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention with single quotes in href",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:111] detects mention with single quotes in href",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:111",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] does not detect mention for different user ID",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:125] does not detect mention for different user ID",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:125",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] does not false-positive on partial user ID match",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:139] does not false-positive on partial user ID match",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:139",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] does not trust hidden matrix.to links behind unrelated visible text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:153] does not trust hidden matrix.to links behind unrelated visible text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:153",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention when the visible label still names the bot",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:167] detects mention when the visible label still names the bot",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:167",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention when the visible label matches the bot",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:182] detects mention when the visible label matches the bot",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:182",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention when the visible label encodes the bot",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:197] detects mention when the visible label encodes the bot",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:197",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention when the visible label is @displayName with Unicode text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:212] detects mention when the visible label is @displayName with Unicode text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:212",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] ignores out-of-range hexadecimal HTML entities in visible labels",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:230] ignores out-of-range hexadecimal HTML entities in visible labels",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:230",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] ignores oversized decimal HTML entities in visible labels",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:245] ignores oversized decimal HTML entities in visible labels",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:245",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] does not detect mention when displayName is spoofed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:261] does not detect mention when displayName is spoofed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:261",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] detects mention via regex pattern in body text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:278] detects mention via regex pattern in body text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:278",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts] returns false when no mention is present",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/mentions.test.ts:293] returns false when no mention is present",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/mentions.test.ts:293",
                "upstream it() block #18",

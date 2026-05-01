@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/registry.test.ts] returns an empty list when runtime registry has no channels field",
+TEST_CASE("v4.29 [src/channels/plugins/registry.test.ts:28] returns an empty list when runtime registry has no channels field",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/registry.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/registry.test.ts] falls back to bundled channel plugins for direct lookups before registry bootstrap",
+TEST_CASE("v4.29 [src/channels/plugins/registry.test.ts:35] falls back to bundled channel plugins for direct lookups before registry bootstrap",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/registry.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/registry.test.ts] rebuilds channel lookups when the active registry object changes without a version bump",
+TEST_CASE("v4.29 [src/channels/plugins/registry.test.ts:41] rebuilds channel lookups when the active registry object changes without a version bump",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/registry.test.ts:41",
                "upstream it() block #2",

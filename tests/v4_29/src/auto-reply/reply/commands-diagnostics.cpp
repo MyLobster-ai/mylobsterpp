@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] requests Gateway diagnostics approval without a duplicate pending chat reply",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:237] requests Gateway diagnostics approval without a duplicate pending chat reply",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:237",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] uses the originating Telegram route for native diagnostics followups",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:269] uses the originating Telegram route for native diagnostics followups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:269",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] falls back to a visible reply when approval cannot be queued",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:308] falls back to a visible reply when approval cannot be queued",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:308",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] wraps Codex feedback upload into the Gateway diagnostics approval",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:334] wraps Codex feedback upload into the Gateway diagnostics approval",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:334",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] passes sidecar-bound session files to Codex diagnostics even when harness metadata is stale",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:385] passes sidecar-bound session files to Codex diagnostics even when harness metadata is stale",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:385",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] omits the Codex section for ordinary sessions without Codex targets",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:435] omits the Codex section for ordinary sessions without Codex targets",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:435",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] routes group diagnostics details privately before starting collection",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:466] routes group diagnostics details privately before starting collection",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:466",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] fails closed in groups when no private diagnostics route is available",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:511] fails closed in groups when no private diagnostics route is available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:511",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] routes group diagnostics confirmations privately",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:535] routes group diagnostics confirmations privately",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:535",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] requires an owner for diagnostics",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:572] requires an owner for diagnostics",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:572",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] routes confirmations back to the Codex diagnostics handler without repeating the preamble",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:587] routes confirmations back to the Codex diagnostics handler without repeating the preamble",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:587",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts] does not delegate diagnostics to a non-Codex plugin command",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-diagnostics.test.ts:610] does not delegate diagnostics to a non-Codex plugin command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-diagnostics.test.ts:610",
                "upstream it() block #11",

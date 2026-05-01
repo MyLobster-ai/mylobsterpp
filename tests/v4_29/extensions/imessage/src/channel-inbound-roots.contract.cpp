@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts] resolves configured attachment roots with account overrides",
+TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts:29] resolves configured attachment roots with account overrides",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/channel-inbound-roots.contract.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts] resolves configured remote attachment roots with account overrides",
+TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts:36] resolves configured remote attachment roots with account overrides",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/channel-inbound-roots.contract.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts] matches iMessage account ids case-insensitively for attachment roots",
+TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts:48] matches iMessage account ids case-insensitively for attachment roots",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/channel-inbound-roots.contract.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts] falls back to default iMessage attachment roots",
+TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts:67] falls back to default iMessage attachment roots",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/channel-inbound-roots.contract.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts] falls back to default iMessage remote attachment roots",
+TEST_CASE("v4.29 [extensions/imessage/src/channel-inbound-roots.contract.test.ts:74] falls back to default iMessage remote attachment roots",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/channel-inbound-roots.contract.test.ts:74",
                "upstream it() block #4",

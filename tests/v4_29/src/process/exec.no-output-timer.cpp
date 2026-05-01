@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/exec.no-output-timer.test.ts] resets no-output timeout when spawned child keeps emitting stdout",
+TEST_CASE("v4.29 [src/process/exec.no-output-timer.test.ts:71] resets no-output timeout when spawned child keeps emitting stdout",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.no-output-timer.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.no-output-timer.test.ts] marks no-output timeout when the spawned child goes silent",
+TEST_CASE("v4.29 [src/process/exec.no-output-timer.test.ts:98] marks no-output timeout when the spawned child goes silent",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.no-output-timer.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.no-output-timer.test.ts] marks global timeout when overall timeout elapses",
+TEST_CASE("v4.29 [src/process/exec.no-output-timer.test.ts:119] marks global timeout when overall timeout elapses",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.no-output-timer.test.ts:119",
                "upstream it() block #2",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] sanitizes path traversal sequences in accountId",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:10] sanitizes path traversal sequences in accountId",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] sanitizes special characters in accountId",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:20] sanitizes special characters in accountId",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] returns default directory for empty accountId",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:32] returns default directory for empty accountId",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] preserves valid accountId unchanged",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:40] preserves valid accountId unchanged",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] merges top-level and account-specific config through shared helpers",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:48] merges top-level and account-specific config through shared helpers",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] inherits shared defaults from accounts.default for named accounts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:75] inherits shared defaults from accounts.default for named accounts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:75",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] prefers account overrides and accounts.default over root defaults",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:111] prefers account overrides and accounts.default over root defaults",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:111",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] does not inherit default-account authDir for named accounts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:141] does not inherit default-account authDir for named accounts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:141",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts] does not inherit default-account selfChatMode for named accounts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.test.ts:163] does not inherit default-account selfChatMode for named accounts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.test.ts:163",
                "upstream it() block #8",

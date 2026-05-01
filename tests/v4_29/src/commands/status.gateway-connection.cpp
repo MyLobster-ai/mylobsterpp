@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.gateway-connection.test.ts] logs gateway connection details with indentation",
+TEST_CASE("v4.29 [src/commands/status.gateway-connection.test.ts:8] logs gateway connection details with indentation",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.gateway-connection.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.gateway-connection.test.ts] builds remote fallback connection details",
+TEST_CASE("v4.29 [src/commands/status.gateway-connection.test.ts:26] builds remote fallback connection details",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.gateway-connection.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.gateway-connection.test.ts] prefers node-only connection details when present",
+TEST_CASE("v4.29 [src/commands/status.gateway-connection.test.ts:42] prefers node-only connection details when present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.gateway-connection.test.ts:42",
                "upstream it() block #2",

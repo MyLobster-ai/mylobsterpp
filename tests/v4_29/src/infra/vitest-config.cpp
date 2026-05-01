@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] uses a moderate local worker cap on larger hosts",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:11] uses a moderate local worker cap on larger hosts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] lets OPENCLAW_VITEST_MAX_WORKERS override the inferred cap",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:27] lets OPENCLAW_VITEST_MAX_WORKERS override the inferred cap",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] respects the legacy OPENCLAW_TEST_WORKERS override too",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:43] respects the legacy OPENCLAW_TEST_WORKERS override too",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] keeps memory-constrained hosts conservative",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:59] keeps memory-constrained hosts conservative",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] lets roomy hosts use more local parallelism",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:73] lets roomy hosts use more local parallelism",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] backs off further when the host is already busy",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:87] backs off further when the host is already busy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:87",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] caps very large hosts at six local workers",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:101] caps very large hosts at six local workers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:101",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] scales back to half capacity when the host load is already saturated",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:117] scales back to half capacity when the host load is already saturated",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:117",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] keeps big hosts parallel under moderate host contention",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:135] keeps big hosts parallel under moderate host contention",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:135",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] allows disabling the system throttle probe explicitly",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:153] allows disabling the system throttle probe explicitly",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:153",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] counts other Vitest roots and workers while excluding the current pid",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:175] counts other Vitest roots and workers while excluding the current pid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:175",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] defaults the base pool to threads",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:196] defaults the base pool to threads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:196",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] excludes fixture trees from test collection",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:201] excludes fixture trees from test collection",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:201",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] keeps the base setup file minimal",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:205] keeps the base setup file minimal",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:205",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] keeps the base runner non-isolated by default",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:210] keeps the base runner non-isolated by default",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:210",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/vitest-config.test.ts] keeps test scripts on the native thread-first configs",
+TEST_CASE("v4.29 [src/infra/vitest-config.test.ts:217] keeps test scripts on the native thread-first configs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/vitest-config.test.ts:217",
                "upstream it() block #15",

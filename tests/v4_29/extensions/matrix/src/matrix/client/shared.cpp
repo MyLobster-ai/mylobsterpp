@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] keeps account clients isolated when resolves are interleaved",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:124] keeps account clients isolated when resolves are interleaved",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:124",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] stops only the targeted account client",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:147] stops only the targeted account client",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:147",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] drops stopped shared clients by instance so the next resolve recreates them",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:163] drops stopped shared clients by instance so the next resolve recreates them",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:163",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] reuses the effective implicit account instead of keying it as default",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:191] reuses the effective implicit account instead of keying it as default",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:191",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] honors startClient false even when the caller acquires a shared lease",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:222] honors startClient false even when the caller acquires a shared lease",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:222",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] keeps shared clients alive until the last one-off lease releases",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:239] keeps shared clients alive until the last one-off lease releases",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:239",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] rejects mismatched explicit account ids when auth is already resolved",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:274] rejects mismatched explicit account ids when auth is already resolved",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:274",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] lets a later waiter abort while shared startup continues for the owner",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:284] lets a later waiter abort while shared startup continues for the owner",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:284",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] keeps the shared startup lock while an aborted waiter exits early",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:309] keeps the shared startup lock while an aborted waiter exits early",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts] recreates the shared client when dispatcherPolicy changes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/shared.test.ts:338] recreates the shared client when dispatcherPolicy changes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/shared.test.ts:338",
                "upstream it() block #9",

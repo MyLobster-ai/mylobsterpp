@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts] forwards memory trigger metadata into tool creation so append-only guards activate",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts:39] forwards memory trigger metadata into tool creation so append-only guards activate",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts] forwards cron job id into tool creation so self-removal can be scoped",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts:52] forwards cron job id into tool creation so self-removal can be scoped",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts] activates the memory flush append-only write wrapper",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts:64] activates the memory flush append-only write wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.memory-flush-forwarding.test.ts:64",
                "upstream it() block #2",

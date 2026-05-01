@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] preserves a configured base-path prefix when building the search URL",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:15] preserves a configured base-path prefix when building the search URL",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] parses SearXNG JSON results and applies the requested count cap",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:28] parses SearXNG JSON results and applies the requested count cap",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] drops malformed result rows instead of failing the whole response",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:42] drops malformed result rows instead of failing the whole response",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] rejects invalid JSON bodies",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:61] rejects invalid JSON bodies",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:61",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] allows https public hosts",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:67] allows https public hosts",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] allows cleartext private-network hosts",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:73] allows cleartext private-network hosts",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts] rejects cleartext public hosts",
+TEST_CASE("v4.29 [extensions/searxng/src/searxng-client.test.ts:82] rejects cleartext public hosts",
           "[v4_29][parity_gap][searxng]") {
     PARITY_GAP("extensions/searxng/src/searxng-client.test.ts:82",
                "upstream it() block #6",

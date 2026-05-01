@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts] removes a command instance when present",
+TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts:6] removes a command instance when present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-tree.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts] returns false when command instance is already absent",
+TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts:15] returns false when command instance is already absent",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-tree.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts] removes by command name",
+TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts:23] removes by command name",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-tree.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts] removes by command alias",
+TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts:32] removes by command alias",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-tree.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts] returns false when name does not exist",
+TEST_CASE("v4.29 [src/cli/program/command-tree.test.ts:41] returns false when name does not exist",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-tree.test.ts:41",
                "upstream it() block #4",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] reports missing vault and missing requested obsidian cli",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:42] reports missing vault and missing requested obsidian cli",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] warns when unsafe-local is selected without explicit private access",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:71] warns when unsafe-local is selected without explicit private access",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] warns when bridge mode has no exported memory artifacts",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:87] warns when bridge mode has no exported memory artifacts",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] counts source provenance from the vault",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:94] counts source provenance from the vault",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] includes warnings in the text output",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:165] includes warnings in the text output",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] builds actionable fixes from status warnings",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:218] builds actionable fixes from status warnings",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:218",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts] suggests bridge fixes when no public artifacts are exported",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/status.test.ts:241] suggests bridge fixes when no public artifacts are exported",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/status.test.ts:241",
                "upstream it() block #6",

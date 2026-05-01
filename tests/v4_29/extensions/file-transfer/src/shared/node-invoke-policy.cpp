@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] injects policy-owned limits before invoking the node",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:105] injects policy-owned limits before invoking the node",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] denies raw node.invoke before the node when plugin policy is missing",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:132] denies raw node.invoke before the node when plugin policy is missing",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] uses plugin approvals for ask-on-miss before invoking the node",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:142] uses plugin approvals for ask-on-miss before invoking the node",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:142",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] marks node transport failures as unavailable",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:188] marks node transport failures as unavailable",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:188",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] checks file.fetch canonical policy before requesting bytes",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:210] checks file.fetch canonical policy before requesting bytes",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:210",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] continues file.fetch after preflight without forwarding caller preflightOnly",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:238] continues file.fetch after preflight without forwarding caller preflightOnly",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] checks file.write canonical policy before the mutating node call",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:256] checks file.write canonical policy before the mutating node call",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:256",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] continues file.write after preflight without forwarding caller preflightOnly",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:298] continues file.write after preflight without forwarding caller preflightOnly",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:298",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] checks every dir.fetch preflight entry before requesting the archive",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:351] checks every dir.fetch preflight entry before requesting the archive",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:351",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] rejects dir.fetch preflight responses without an entry list",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:389] rejects dir.fetch preflight responses without an entry list",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:389",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] rejects invalid dir.fetch preflight entries before requesting the archive",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:418] rejects invalid dir.fetch preflight entries before requesting the archive",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:418",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts] rejects final dir.fetch archive responses without readable archive entries",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/node-invoke-policy.test.ts:551] rejects final dir.fetch archive responses without readable archive entries",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/node-invoke-policy.test.ts:551",
                "upstream it() block #11",

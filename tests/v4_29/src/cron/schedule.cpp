@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] computes next run for cron expression with timezone",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:17] computes next run for cron expression with timezone",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] does not roll back year for Asia/Shanghai daily cron schedules (#30351)",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:28] does not roll back year for Asia/Shanghai daily cron schedules (#30351)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] throws a clear error when cron expr is missing at runtime",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:42] throws a clear error when cron expr is missing at runtime",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] supports legacy cron field when expr is missing",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:54] supports legacy cron field when expr is missing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] computes next run for every schedule",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:67] computes next run for every schedule",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] computes next run for every schedule when anchorMs is not provided",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:74] computes next run for every schedule when anchorMs is not provided",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] handles string-typed everyMs and anchorMs from legacy persisted data",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:82] handles string-typed everyMs and anchorMs from legacy persisted data",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] returns undefined for non-numeric string everyMs",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:96] returns undefined for non-numeric string everyMs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:96",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances when now matches anchor for every schedule",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:102] advances when now matches anchor for every schedule",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:102",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] never returns a past timestamp for Asia/Shanghai daily schedule (#30351)",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:108] never returns a past timestamp for Asia/Shanghai daily schedule (#30351)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:108",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] never returns a previous run that is at-or-after now",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:118] never returns a previous run that is at-or-after now",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:118",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] reuses compiled cron evaluators for the same expression/timezone",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:129] reuses compiled cron evaluators for the same expression/timezone",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:129",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] promotes accessed entries to avoid premature LRU eviction",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:149] promotes accessed entries to avoid premature LRU eviction",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:149",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances past current second when nowMs is exactly at the match",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:187] advances past current second when nowMs is exactly at the match",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:187",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances past current second when nowMs is mid-second (.500) within the match",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:194] advances past current second when nowMs is mid-second (.500) within the match",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:194",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances past current second when nowMs is late in the matching second (.999)",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:200] advances past current second when nowMs is late in the matching second (.999)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:200",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances to next day once the matching second is fully past",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:205] advances to next day once the matching second is fully past",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:205",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] returns today when nowMs is before the match",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:210] returns today when nowMs is before the match",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:210",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances to next day when job completes within same second it fired (#17821)",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:215] advances to next day when job completes within same second it fired (#17821)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:215",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] advances to next day when job completes just before second boundary (#17821)",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:226] advances to next day when job completes just before second boundary (#17821)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:226",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] returns finite numbers directly",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:236] returns finite numbers directly",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:236",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] parses numeric strings",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:240] parses numeric strings",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:240",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/schedule.test.ts] returns undefined for invalid inputs",
+TEST_CASE("v4.29 [src/cron/schedule.test.ts:245] returns undefined for invalid inputs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/schedule.test.ts:245",
                "upstream it() block #22",

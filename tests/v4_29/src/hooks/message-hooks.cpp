@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] triggers handler for ${testCase.label}",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:120] triggers handler for ${testCase.label}",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:120",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] does not trigger action-specific handlers for other actions",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:136] does not trigger action-specific handlers for other actions",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:136",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] receives full message lifecycle in order",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:149] receives full message lifecycle in order",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:149",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] triggers both general and specific handlers",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:179] triggers both general and specific handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:179",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] does not propagate handler errors",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:195] does not propagate handler errors",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:195",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] continues with later handlers when one fails",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:209] continues with later handlers when one fails",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:209",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] isolates async handler errors",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:225] isolates async handler errors",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:225",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] includes timestamps on message events",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:239] includes timestamps on message events",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts] preserves mutable messages and sessionKey",
+TEST_CASE("v4.29 [src/hooks/message-hooks.test.ts:255] preserves mutable messages and sessionKey",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hooks.test.ts:255",
                "upstream it() block #8",

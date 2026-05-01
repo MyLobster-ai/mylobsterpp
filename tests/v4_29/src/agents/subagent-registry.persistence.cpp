@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] persists completed subagent timing into the child session entry",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:219] persists completed subagent timing into the child session entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:219",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] skips cleanup when cleanupHandled was persisted",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:256] skips cleanup when cleanupHandled was persisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:256",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] maps legacy announce fields into cleanup state",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:297] maps legacy announce fields into cleanup state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:297",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] reuses unchanged persisted registry snapshots without reparsing runs.json",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:331] reuses unchanged persisted registry snapshots without reparsing runs.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:331",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] reuses unchanged invalid persisted registry snapshots as empty",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:406] reuses unchanged invalid persisted registry snapshots as empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:406",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] normalizes persisted and newly registered session keys to canonical trimmed values",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:421] normalizes persisted and newly registered session keys to canonical trimmed values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:421",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] retries cleanup announce after a failed announce",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:490] retries cleanup announce after a failed announce",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:490",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] retries cleanup announce after announce flow rejects",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:537] retries cleanup announce after announce flow rejects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:537",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] keeps delete-mode runs retryable when announce is deferred",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:583] keeps delete-mode runs retryable when announce is deferred",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:583",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] reconciles orphaned restored runs by pruning them from registry",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:622] reconciles orphaned restored runs by pruning them from registry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:622",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] reconciles stale unended restored runs that are not restart-recoverable",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:649] reconciles stale unended restored runs that are not restart-recoverable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:649",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] keeps stale unended restored runs with abortedLastRun for restart recovery",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:682] keeps stale unended restored runs with abortedLastRun for restart recovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:682",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] removes attachments when pruning orphaned restored runs",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:725] removes attachments when pruning orphaned restored runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:725",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] prefers active runs and can resolve them from persisted registry snapshots",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:765] prefers active runs and can resolve them from persisted registry snapshots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:765",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] can resolve the newest child-session row even when an older stale row is still active",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:811] can resolve the newest child-session row even when an older stale row is still active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:811",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] resume guard prunes orphan runs before announce retry",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:857] resume guard prunes orphan runs before announce retry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:857",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts] uses isolated temp state when OPENCLAW_STATE_DIR is unset in tests",
+TEST_CASE("v4.29 [src/agents/subagent-registry.persistence.test.ts:894] uses isolated temp state when OPENCLAW_STATE_DIR is unset in tests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.persistence.test.ts:894",
                "upstream it() block #16",

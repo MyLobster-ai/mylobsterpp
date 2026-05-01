@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts] disables thinking for minimax anthropic-messages provider",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:37] disables thinking for minimax anthropic-messages provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts] disables thinking for minimax-portal anthropic-messages provider",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:47] disables thinking for minimax-portal anthropic-messages provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts] does not affect non-minimax providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:57] does not affect non-minimax providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts] does not affect minimax with non-anthropic-messages api",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:67] does not affect minimax with non-anthropic-messages api",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts] preserves an already-set thinking value",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:77] preserves an already-set thinking value",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts] rewrites MiniMax-M2.7 to highspeed variant in fast mode",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:104] rewrites MiniMax-M2.7 to highspeed variant in fast mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/minimax-stream-wrappers.test.ts:104",
                "upstream it() block #5",

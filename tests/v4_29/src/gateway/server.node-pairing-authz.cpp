@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.node-pairing-authz.test.ts] enforces node pairing approval scopes",
+TEST_CASE("v4.29 [src/gateway/server.node-pairing-authz.test.ts:187] enforces node pairing approval scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-pairing-authz.test.ts:187",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.node-pairing-authz.test.ts] requests re-pairing when a paired node reconnects with upgraded commands",
+TEST_CASE("v4.29 [src/gateway/server.node-pairing-authz.test.ts:255] requests re-pairing when a paired node reconnects with upgraded commands",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-pairing-authz.test.ts:255",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.node-pairing-authz.test.ts] requests re-pairing when a commandless paired node reconnects with system.run",
+TEST_CASE("v4.29 [src/gateway/server.node-pairing-authz.test.ts:265] requests re-pairing when a commandless paired node reconnects with system.run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-pairing-authz.test.ts:265",
                "upstream it() block #2",

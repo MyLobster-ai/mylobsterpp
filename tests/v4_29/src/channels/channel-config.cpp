@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] dedupes and trims keys",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:17] dedupes and trims keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] normalizes names into slugs",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:23] normalizes names into slugs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] returns matched entry and wildcard metadata",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:31] returns matched entry and wildcard metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] matches normalized keys when normalizeKey is provided",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:94] matches normalized keys when normalizeKey is provided",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] copies match metadata onto resolved configs",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:108] copies match metadata onto resolved configs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:108",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] returns null when no entry is matched",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:117] returns null when no entry is matched",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] resolves entry and applies match metadata",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:125] resolves entry and applies match metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:125",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] allows direct messages without sender fields",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:139] allows direct messages without sender fields",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:139",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] requires some sender identity for non-direct chats",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:144] requires some sender identity for non-direct chats",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:144",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/channel-config.test.ts] validates SenderE164 and SenderUsername shape",
+TEST_CASE("v4.29 [src/channels/channel-config.test.ts:151] validates SenderE164 and SenderUsername shape",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/channel-config.test.ts:151",
                "upstream it() block #9",

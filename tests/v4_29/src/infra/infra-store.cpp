@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] treats array session stores as invalid",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:32] treats array session stores as invalid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] parses JSON5 object session stores",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:43] parses JSON5 object session stores",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] returns defaults when missing",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:60] returns defaults when missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] sanitizes and persists triggers",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:68] sanitizes and persists triggers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] falls back to defaults when triggers empty",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:80] falls back to defaults when triggers empty",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] sanitizes malformed persisted config values",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:87] sanitizes malformed persisted config values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:87",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] returns defaults when missing",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:107] returns defaults when missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] normalizes and persists routing config",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:116] normalizes and persists routing config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:116",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] resolves routes by normalized trigger",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:135] resolves routes by normalized trigger",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:135",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] emits monotonic seq",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:151] emits monotonic seq",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:151",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] emits message-flow events",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:170] emits message-flow events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:170",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] records inbound/outbound separately",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:209] records inbound/outbound separately",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:209",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] isolates accounts",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:218] isolates accounts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:218",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] marks duplicates within TTL",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:243] marks duplicates within TTL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:243",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] expires entries after TTL",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:249] expires entries after TTL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:249",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] evicts oldest entries when over max size",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:255] evicts oldest entries when over max size",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:255",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] prunes expired entries even when refreshed keys are older in insertion order",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:263] prunes expired entries even when refreshed keys are older in insertion order",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:263",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/infra-store.test.ts] supports non-mutating existence checks via peek()",
+TEST_CASE("v4.29 [src/infra/infra-store.test.ts:272] supports non-mutating existence checks via peek()",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/infra-store.test.ts:272",
                "upstream it() block #17",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] fails fast for invalid secret-input-mode before setup starts",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:44] fails fast for invalid secret-input-mode before setup starts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] logs ASCII-safe Windows guidance before setup",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:62] logs ASCII-safe Windows guidance before setup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] defaults --reset to config+creds+sessions scope",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:82] defaults --reset to config+creds+sessions scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] uses configured default workspace for --reset when --workspace is not provided",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:99] uses configured default workspace for --reset when --workspace is not provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] accepts explicit --reset-scope full",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:127] accepts explicit --reset-scope full",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:127",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] fails fast for invalid --reset-scope",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:141] fails fast for invalid --reset-scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:141",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard.test.ts] keeps onboardCommand as an alias for setupWizardCommand",
+TEST_CASE("v4.29 [src/commands/onboard.test.ts:161] keeps onboardCommand as an alias for setupWizardCommand",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard.test.ts:161",
                "upstream it() block #6",

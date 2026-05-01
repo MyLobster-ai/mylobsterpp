@@ -5,264 +5,264 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] uploads media with url payloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:187] uploads media with url payloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:187",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] uploads encrypted media with file payloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:211] uploads encrypted media with file payloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:211",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] encrypts thumbnail via thumbnail_file when room is encrypted",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:233] encrypts thumbnail via thumbnail_file when room is encrypted",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:233",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] keeps reply context on voice transcript follow-ups outside threads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:282] keeps reply context on voice transcript follow-ups outside threads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:282",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] keeps regular audio payload when audioAsVoice media is incompatible",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:314] keeps regular audio payload when audioAsVoice media is incompatible",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:314",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] keeps thumbnail_url metadata for unencrypted large images",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:343] keeps thumbnail_url metadata for unencrypted large images",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:343",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] uses explicit cfg for media sends instead of runtime loadConfig fallbacks",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:379] uses explicit cfg for media sends instead of runtime loadConfig fallbacks",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:379",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] passes caller mediaLocalRoots to media loading",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:415] passes caller mediaLocalRoots to media loading",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:415",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] adds an empty m.mentions object for plain messages without mentions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:441] adds an empty m.mentions object for plain messages without mentions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:441",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] emits m.mentions and matrix.to anchors for qualified user mentions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:455] emits m.mentions and matrix.to anchors for qualified user mentions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:455",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] keeps bare localpart text as plain text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:472] keeps bare localpart text as plain text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:472",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] does not emit mentions for escaped qualified users",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:488] does not emit mentions for escaped qualified users",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:488",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] does not emit mentions for escaped room mentions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:504] does not emit mentions for escaped room mentions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:504",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] marks room mentions via m.mentions.room",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:517] marks room mentions via m.mentions.room",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:517",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] adds mention metadata to media captions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:530] adds mention metadata to media captions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:530",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] does not emit mentions from fallback filenames when there is no caption",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:544] does not emit mentions from fallback filenames when there is no caption",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:544",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] includes thread relation metadata when threadId is set",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:575] includes thread relation metadata when threadId is set",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:575",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] resolves text chunk limit using the active Matrix account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:599] resolves text chunk limit using the active Matrix account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:599",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] returns ordered event ids for chunked text sends",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:611] returns ordered event ids for chunked text sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:611",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] merges extra content into only the first chunked text event",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:634] merges extra content into only the first chunked text event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:634",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] rejects single-event sends when converted text exceeds the Matrix limit",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:663] rejects single-event sends when converted text exceeds the Matrix limit",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:663",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] supports quiet draft preview sends without mention metadata",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:678] supports quiet draft preview sends without mention metadata",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:678",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] does not activate mentions inside Matrix tool-progress code spans",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:698] does not activate mentions inside Matrix tool-progress code spans",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:698",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] merges extra content fields into single-event sends",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:720] merges extra content fields into single-event sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:720",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] stores full mentions in m.new_content and only newly-added mentions in the edit event",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:742] stores full mentions in m.new_content and only newly-added mentions in the edit event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:742",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] does not re-notify legacy mentions when the prior event body already mentioned the user",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:769] does not re-notify legacy mentions when the prior event body already mentioned the user",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:769",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] keeps explicit empty prior m.mentions authoritative",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:791] keeps explicit empty prior m.mentions authoritative",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:791",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] supports quiet draft preview edits without mention metadata",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:813] supports quiet draft preview edits without mention metadata",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:813",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] merges extra content fields into edit payloads and m.new_content",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:849] merges extra content fields into edit payloads and m.new_content",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:849",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] adds m.mentions for poll fallback text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:873] adds m.mentions for poll fallback text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:873",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] maps 1-based option indexes to Matrix poll answer ids",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:907] maps 1-based option indexes to Matrix poll answer ids",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:907",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] rejects out-of-range option indexes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:946] rejects out-of-range option indexes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:946",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] rejects votes that exceed the poll selection cap",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:968] rejects votes that exceed the poll selection cap",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:968",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] rejects non-poll events before sending a response",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:993] rejects non-poll events before sending a response",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:993",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] accepts decrypted poll start events returned from encrypted rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:1010] accepts decrypted poll start events returned from encrypted rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:1010",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] normalizes room-prefixed targets before sending typing state",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:1050] normalizes room-prefixed targets before sending typing state",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:1050",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts] passes account config through when resolving the typing client",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/send.test.ts:1065] passes account config through when resolving the typing client",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/send.test.ts:1065",
                "upstream it() block #36",

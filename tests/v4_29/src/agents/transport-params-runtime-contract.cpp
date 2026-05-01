@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts] does not leak OpenAI GPT-5 defaults to non-OpenAI providers",
+TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts:38] does not leak OpenAI GPT-5 defaults to non-OpenAI providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-params-runtime-contract.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts] normalizes aliased caller params without losing explicit overrides",
+TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts:48] normalizes aliased caller params without losing explicit overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-params-runtime-contract.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts] injects parallel_tool_calls into openai-codex Responses payloads",
+TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts:88] injects parallel_tool_calls into openai-codex Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-params-runtime-contract.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts] propagates OpenAI GPT-5 warmup default through stream options",
+TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts:102] propagates OpenAI GPT-5 warmup default through stream options",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-params-runtime-contract.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts] maps OpenAI GPT-5 thinking level into Responses reasoning effort payloads",
+TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts:123] maps OpenAI GPT-5 thinking level into Responses reasoning effort payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-params-runtime-contract.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts] composes provider preparation before transport patch resolution",
+TEST_CASE("v4.29 [src/agents/transport-params-runtime-contract.test.ts:147] composes provider preparation before transport patch resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-params-runtime-contract.test.ts:147",
                "upstream it() block #5",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts] requires exactly one pin source",
+TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts:11] requires exactly one pin source",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-pin-version.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts] pins an explicit iOS release version and syncs generated artifacts",
+TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts:22] pins an explicit iOS release version and syncs generated artifacts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-pin-version.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts] pins from the current gateway version without carrying prerelease suffixes",
+TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts:60] pins from the current gateway version without carrying prerelease suffixes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-pin-version.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts] can skip syncing checked-in artifacts when requested",
+TEST_CASE("v4.29 [test/scripts/ios-pin-version.test.ts:86] can skip syncing checked-in artifacts when requested",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-pin-version.test.ts:86",
                "upstream it() block #3",

@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] refreshes implicit model metadata while preserving explicit reasoning overrides",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:61] refreshes implicit model metadata while preserving explicit reasoning overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] preserves explicit input modality overrides when implicit metadata has the same model id",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:103] preserves explicit input modality overrides when implicit metadata has the same model id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] merges explicit providers onto trimmed keys",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:141] merges explicit providers onto trimmed keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:141",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] keeps existing providers alongside newly configured providers in merge mode",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:156] keeps existing providers alongside newly configured providers in merge mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] preserves non-empty existing apiKey and baseUrl from models.json",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:180] preserves non-empty existing apiKey and baseUrl from models.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:180",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] preserves existing baseUrl after explicit provider key normalization",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:195] preserves existing baseUrl after explicit provider key normalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:195",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] preserves implicit provider headers when explicit config adds extra headers",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:213] preserves implicit provider headers when explicit config adds extra headers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:213",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] replaces stale baseUrl when model api surface changes",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:249] replaces stale baseUrl when model api surface changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:249",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] replaces stale baseUrl when only model-level apis change",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:275] replaces stale baseUrl when only model-level apis change",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:275",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] does not preserve stale plaintext apiKey when next entry is a marker",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:297] does not preserve stale plaintext apiKey when next entry is a marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:297",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] does not preserve a stale non-env marker when config returns to plaintext",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:317] does not preserve a stale non-env marker when config returns to plaintext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:317",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts] uses config apiKey/baseUrl when existing values are empty",
+TEST_CASE("v4.29 [src/agents/models-config.merge.test.ts:334] uses config apiKey/baseUrl when existing values are empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.merge.test.ts:334",
                "upstream it() block #11",

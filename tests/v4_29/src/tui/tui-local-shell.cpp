@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-local-shell.test.ts] logs denial on subsequent ! attempts without re-prompting",
+TEST_CASE("v4.29 [src/tui/tui-local-shell.test.ts:54] logs denial on subsequent ! attempts without re-prompting",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-local-shell.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-local-shell.test.ts] sets OPENCLAW_SHELL when running local shell commands",
+TEST_CASE("v4.29 [src/tui/tui-local-shell.test.ts:71] sets OPENCLAW_SHELL when running local shell commands",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-local-shell.test.ts:71",
                "upstream it() block #1",

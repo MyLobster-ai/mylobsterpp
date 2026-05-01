@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts] defaults to requester-only when no allowlist is configured",
+TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts:8] defaults to requester-only when no allowlist is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-target-policy.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts] keeps omitted agentId self-spawns allowed even when an allowlist is configured",
+TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts:25] keeps omitted agentId self-spawns allowed even when an allowlist is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-target-policy.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts] rejects explicit self-targets when the configured allowlist excludes the requester",
+TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts:35] rejects explicit self-targets when the configured allowlist excludes the requester",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-target-policy.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts] resolves allowed target ids without auto-adding requester for explicit allowlists",
+TEST_CASE("v4.29 [src/agents/subagent-target-policy.test.ts:50] resolves allowed target ids without auto-adding requester for explicit allowlists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-target-policy.test.ts:50",
                "upstream it() block #3",

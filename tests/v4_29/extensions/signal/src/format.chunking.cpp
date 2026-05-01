@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] text with no styles splits correctly at whitespace",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:21] text with no styles splits correctly at whitespace",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] empty text returns empty array",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:38] empty text returns empty array",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] text under limit returns single chunk unchanged",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:44] text under limit returns single chunk unchanged",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] style fully within first chunk stays in first chunk",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:54] style fully within first chunk stays in first chunk",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] style fully within second chunk has offset adjusted to chunk-local position",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:72] style fully within second chunk has offset adjusted to chunk-local position",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] style spanning chunk boundary is split into two ranges",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:93] style spanning chunk boundary is split into two ranges",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:93",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] style starting exactly at split point goes entirely to second chunk",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:116] style starting exactly at split point goes entirely to second chunk",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:116",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] style ending exactly at split point stays entirely in first chunk",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:135] style ending exactly at split point stays entirely in first chunk",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:135",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] multiple styles, some spanning boundary, some not",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:149] multiple styles, some spanning boundary, some not",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:149",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] handles zero-length text with styles gracefully",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:170] handles zero-length text with styles gracefully",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:170",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] handles text that splits exactly at limit",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:176] handles text that splits exactly at limit",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:176",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] preserves style through whitespace trimming",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:185] preserves style through whitespace trimming",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:185",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] handles repeated substrings correctly (no indexOf fragility)",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:197] handles repeated substrings correctly (no indexOf fragility)",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:197",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] handles chunk that starts with whitespace after split",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:228] handles chunk that starts with whitespace after split",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:228",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] deterministically tracks position without indexOf fragility",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:244] deterministically tracks position without indexOf fragility",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:244",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] does not exceed chunk limit after link expansion",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:278] does not exceed chunk limit after link expansion",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:278",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] handles multiple links near chunk boundary",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:293] handles multiple links near chunk boundary",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:293",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] long message with links that expand beyond limit preserves all text",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:307] long message with links that expand beyond limit preserves all text",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:307",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] styles (bold, italic) survive chunking correctly after link expansion",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:326] styles (bold, italic) survive chunking correctly after link expansion",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:326",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] multiple links near chunk boundary all get properly chunked",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:345] multiple links near chunk boundary all get properly chunked",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:345",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts] preserves spoiler style through link expansion and chunking",
+TEST_CASE("v4.29 [extensions/signal/src/format.chunking.test.ts:364] preserves spoiler style through link expansion and chunking",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.chunking.test.ts:364",
                "upstream it() block #20",

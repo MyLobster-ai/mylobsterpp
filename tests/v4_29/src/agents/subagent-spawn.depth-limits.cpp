@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts] rejects spawning when caller depth reaches maxSpawnDepth",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts:78] rejects spawning when caller depth reaches maxSpawnDepth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.depth-limits.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts] allows depth-1 callers when maxSpawnDepth is 2 and patches child capabilities",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts:89] allows depth-1 callers when maxSpawnDepth is 2 and patches child capabilities",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.depth-limits.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts] rejects callers when stored spawn depth is already at the configured max",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts:111] rejects callers when stored spawn depth is already at the configured max",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.depth-limits.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts] rejects when active children for requester session reached maxChildrenPerAgent",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts:123] rejects when active children for requester session reached maxChildrenPerAgent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.depth-limits.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts] does not use subagent maxConcurrent as a per-parent spawn gate",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts:139] does not use subagent maxConcurrent as a per-parent spawn gate",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.depth-limits.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts] fails spawn when the initial child session patch rejects the model",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.depth-limits.test.ts:156] fails spawn when the initial child session patch rejects the model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.depth-limits.test.ts:156",
                "upstream it() block #5",

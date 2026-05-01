@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] enables reasoning_effort mapping for mistral-small-latest",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:33] enables reasoning_effort mapping for mistral-small-latest",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] disables reasoning_effort for other Mistral model ids",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:42] disables reasoning_effort for other Mistral model ids",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] applies the Mistral request-shape compat flags",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:51] applies the Mistral request-shape compat flags",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] applies reasoning compat for mistral-small-latest",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:59] applies reasoning compat for mistral-small-latest",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] overrides explicit compat values that would trigger 422s",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:66] overrides explicit compat values that would trigger 422s",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] overrides explicit compat on mistral-small-latest except reasoning enablement",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:79] overrides explicit compat on mistral-small-latest except reasoning enablement",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:79",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] returns the same object when the compat patch is already present",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:93] returns the same object when the compat patch is already present",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:93",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] returns the same object when mistral-small-latest compat is fully normalized",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:104] returns the same object when mistral-small-latest compat is fully normalized",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:104",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/api.test.ts] contributes Mistral transport compat for native, provider-family, and hinted custom routes",
+TEST_CASE("v4.29 [extensions/mistral/api.test.ts:112] contributes Mistral transport compat for native, provider-family, and hinted custom routes",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/api.test.ts:112",
                "upstream it() block #8",

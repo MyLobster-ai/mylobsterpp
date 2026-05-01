@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] resolves plain user ids without calling listGuilds",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:33] resolves plain user ids without calling listGuilds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] resolves mention-format ids without calling listGuilds",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:52] resolves mention-format ids without calling listGuilds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] resolves prefixed ids (user:, discord:) without calling listGuilds",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:71] resolves prefixed ids (user:, discord:) without calling listGuilds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] resolves user ids even when listGuilds would fail",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:86] resolves user ids even when listGuilds would fail",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] calls listGuilds lazily when resolving usernames",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:105] calls listGuilds lazily when resolving usernames",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:105",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] fetches guilds only once for multiple username entries",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:140] fetches guilds only once for multiple username entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:140",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] handles mixed ids and usernames — ids resolve even if guilds fail",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:173] handles mixed ids and usernames — ids resolve even if guilds fail",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:173",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] returns unresolved for empty/blank entries",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:197] returns unresolved for empty/blank entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:197",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts] returns all unresolved when token is empty",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-users.test.ts:213] returns all unresolved when token is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-users.test.ts:213",
                "upstream it() block #8",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts] does not silently widen a read-scoped paired device to admin on shared-auth reconnect",
+TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:126] does not silently widen a read-scoped paired device to admin on shared-auth reconnect",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:126",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts] does not let backend reconnect bypass the paired scope baseline",
+TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:182] does not let backend reconnect bypass the paired scope baseline",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:182",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts] keeps direct-local backend callGateway scoped calls off stale paired CLI baseline",
+TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:235] keeps direct-local backend callGateway scoped calls off stale paired CLI baseline",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts] accepts local silent reconnect when pairing was concurrently approved",
+TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:271] accepts local silent reconnect when pairing was concurrently approved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:271",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts] does not rebroadcast a deleted silent pairing request after a concurrent rejection",
+TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:318] does not rebroadcast a deleted silent pairing request after a concurrent rejection",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:318",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts] returns the replacement pending request id when a silent request is superseded",
+TEST_CASE("v4.29 [src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:370] returns the replacement pending request id when a silent request is superseded",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.silent-scope-upgrade-reconnect.poc.test.ts:370",
                "upstream it() block #5",

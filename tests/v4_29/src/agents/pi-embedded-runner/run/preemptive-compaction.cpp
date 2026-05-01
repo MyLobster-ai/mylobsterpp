@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] exports a context-overflow-compatible precheck error text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:48] exports a context-overflow-compatible precheck error text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] raises the estimate as prompt-side content grows",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:53] raises the estimate as prompt-side content grows",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] requests preemptive compaction when the reserve-based prompt budget would be exceeded",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:68] requests preemptive compaction when the reserve-based prompt budget would be exceeded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] does not request preemptive compaction when the reserve-based prompt budget still fits",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:82] does not request preemptive compaction when the reserve-based prompt budget still fits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] uses the larger unwindowed message estimate when context engine assembly windows history",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:96] uses the larger unwindowed message estimate when context engine assembly windows history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] caps reserve tokens so small context models keep usable prompt budget",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:111] caps reserve tokens so small context models keep usable prompt budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:111",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] keeps the requested reserve when it leaves enough prompt budget",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:126] keeps the requested reserve when it leaves enough prompt budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:126",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] routes to direct tool-result truncation when recent tool tails can clearly absorb the overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:140] routes to direct tool-result truncation when recent tool tails can clearly absorb the overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:140",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] routes to compact then truncate when recent tool tails help but cannot fully cover the overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:170] routes to compact then truncate when recent tool tails help but cannot fully cover the overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:170",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts] treats mixed oversized-plus-aggregate tool tails as cumulative recovery potential",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:196] treats mixed oversized-plus-aggregate tool tails as cumulative recovery potential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/preemptive-compaction.test.ts:196",
                "upstream it() block #9",

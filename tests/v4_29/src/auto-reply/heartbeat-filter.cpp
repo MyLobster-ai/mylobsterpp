@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] matches heartbeat prompts",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:10] matches heartbeat prompts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] ignores quoted or non-user token mentions",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:37] ignores quoted or non-user token mentions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] matches no-op heartbeat acknowledgements",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:55] matches no-op heartbeat acknowledgements",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] preserves meaningful or non-text responses",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:71] preserves meaningful or non-text responses",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] respects ackMaxChars overrides",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:87] respects ackMaxChars overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] removes no-op heartbeat pairs",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:101] removes no-op heartbeat pairs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] keeps meaningful heartbeat results and non-text assistant turns",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:121] keeps meaningful heartbeat results and non-text assistant turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:121",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts] keeps ordinary chats that mention the token",
+TEST_CASE("v4.29 [src/auto-reply/heartbeat-filter.test.ts:142] keeps ordinary chats that mention the token",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/heartbeat-filter.test.ts:142",
                "upstream it() block #7",

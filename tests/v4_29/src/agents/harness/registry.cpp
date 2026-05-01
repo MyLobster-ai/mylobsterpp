@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] registers and retrieves a harness with owner metadata",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:55] registers and retrieves a harness with owner metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] restores a registry snapshot",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:64] restores a registry snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] dispatches generic session reset to registered harnesses",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:74] dispatches generic session reset to registered harnesses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] disposes registered harness runtime state",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:100] disposes registered harness runtime state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] keeps model-specific harnesses behind plugin registration in auto mode",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:112] keeps model-specific harnesses behind plugin registration in auto mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] falls back to PI for other models",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:126] falls back to PI for other models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:126",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] lets a plugin harness win in auto mode by priority",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:132] lets a plugin harness win in auto mode by priority",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:132",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] honors explicit PI mode",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:141] honors explicit PI mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:141",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/registry.test.ts] honors explicit plugin harness mode when the plugin harness is registered",
+TEST_CASE("v4.29 [src/agents/harness/registry.test.ts:150] honors explicit plugin harness mode when the plugin harness is registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/registry.test.ts:150",
                "upstream it() block #8",

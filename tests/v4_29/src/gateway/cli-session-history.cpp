@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] reads claude-cli session messages from the Claude projects store",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:125] reads claude-cli session messages from the Claude projects store",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] deduplicates imported messages against similar local transcript entries",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:177] deduplicates imported messages against similar local transcript entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:177",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] augments chat history when a session has a claude-cli binding",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:235] augments chat history when a session has a claude-cli binding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] falls back to legacy cliSessionIds when bindings are absent",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:259] falls back to legacy cliSessionIds when bindings are absent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:259",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] falls back to legacy claudeCliSessionId when newer fields are absent",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:281] falls back to legacy claudeCliSessionId when newer fields are absent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:281",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] returns undefined when the Claude session file does not exist",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:330] returns undefined when the Claude session file does not exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:330",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] collects user/assistant turns when the session has never been compacted",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:335] collects user/assistant turns when the session has never been compacted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:335",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] uses the explicit /compact summary and drops pre-boundary turns",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:366] uses the explicit /compact summary and drops pre-boundary turns",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:366",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] falls back to compact_boundary content when no explicit summary entry is present",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:420] falls back to compact_boundary content when no explicit summary entry is present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:420",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] prefers the most recent summary when the session has been compacted multiple times",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:449] prefers the most recent summary when the session has been compacted multiple times",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:449",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] returns undefined when the session file is empty or has no usable content",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:492] returns undefined when the session file is empty or has no usable content",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:492",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] rejects path-like session ids instead of escaping the Claude projects tree",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:506] rejects path-like session ids instead of escaping the Claude projects tree",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:506",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] falls back to the latest boundary content when a newer compaction has no summary",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:511] falls back to the latest boundary content when a newer compaction has no summary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:511",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts] uses a trailing summary that has no following compact_boundary marker",
+TEST_CASE("v4.29 [src/gateway/cli-session-history.test.ts:546] uses a trailing summary that has no following compact_boundary marker",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/cli-session-history.test.ts:546",
                "upstream it() block #13",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/windows-command.test.ts] leaves commands unchanged outside Windows",
+TEST_CASE("v4.29 [src/process/windows-command.test.ts:5] leaves commands unchanged outside Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/windows-command.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/windows-command.test.ts] appends .cmd for configured Windows shims",
+TEST_CASE("v4.29 [src/process/windows-command.test.ts:15] appends .cmd for configured Windows shims",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/windows-command.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/windows-command.test.ts] appends .cmd for corepack on Windows",
+TEST_CASE("v4.29 [src/process/windows-command.test.ts:25] appends .cmd for corepack on Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/windows-command.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/windows-command.test.ts] keeps explicit extensions on Windows",
+TEST_CASE("v4.29 [src/process/windows-command.test.ts:35] keeps explicit extensions on Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/windows-command.test.ts:35",
                "upstream it() block #3",

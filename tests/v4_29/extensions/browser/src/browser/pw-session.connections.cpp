@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts] does not share in-flight connectOverCDP promises across different cdpUrls",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts:131] does not share in-flight connectOverCDP promises across different cdpUrls",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.connections.test.ts:131",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts] closes only the requested scoped connection",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts:174] closes only the requested scoped connection",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.connections.test.ts:174",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts] evicts only the stale cdpUrl when getPageForTargetId retries a cached connection",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts:199] evicts only the stale cdpUrl when getPageForTargetId retries a cached connection",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.connections.test.ts:199",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts] reconnects listPagesViaPlaywright once after a cached transport disconnect",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts:232] reconnects listPagesViaPlaywright once after a cached transport disconnect",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.connections.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts] does not replay mutating page creation after an ambiguous disconnect",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.connections.test.ts:255] does not replay mutating page creation after an ambiguous disconnect",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.connections.test.ts:255",
                "upstream it() block #4",

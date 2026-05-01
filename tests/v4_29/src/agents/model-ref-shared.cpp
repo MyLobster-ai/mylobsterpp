@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-ref-shared.test.ts] re-adds the nvidia prefix for bare model ids",
+TEST_CASE("v4.29 [src/agents/model-ref-shared.test.ts:5] re-adds the nvidia prefix for bare model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-shared.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-shared.test.ts] does not double-prefix already prefixed models",
+TEST_CASE("v4.29 [src/agents/model-ref-shared.test.ts:11] does not double-prefix already prefixed models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-shared.test.ts:11",
                "upstream it() block #1",

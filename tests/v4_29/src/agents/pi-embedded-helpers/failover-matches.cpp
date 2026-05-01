@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] classifies Z.ai 1311 JSON body as billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:11] classifies Z.ai 1311 JSON body as billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] classifies Z.ai 1311 with spaces as billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:17] classifies Z.ai 1311 with spaces as billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] does not misclassify 1311 as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:22] does not misclassify 1311 as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] does not misclassify 1311 as auth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:28] does not misclassify 1311 as auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:28",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] classifies long Z.ai 1311 payloads as billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:34] classifies long Z.ai 1311 payloads as billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:34",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] classifies Z.ai 1113 JSON body as auth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:46] classifies Z.ai 1113 JSON body as auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:46",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] classifies Z.ai 1113 with spaces as auth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:51] classifies Z.ai 1113 with spaces as auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:51",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] does not misclassify 1113 as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:56] does not misclassify 1113 as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:56",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] does not misclassify 1113 as billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:61] does not misclassify 1113 as billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:61",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] rate limit still classified correctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:68] rate limit still classified correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:68",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] OpenAI model-capacity text is classified as overloaded",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:72] OpenAI model-capacity text is classified as overloaded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:72",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] OpenRouter high-load text is classified as overloaded",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:78] OpenRouter high-load text is classified as overloaded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:78",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] billing still classified correctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:86] billing still classified correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:86",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts] auth still classified correctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/failover-matches.test.ts:90] auth still classified correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/failover-matches.test.ts:90",
                "upstream it() block #13",

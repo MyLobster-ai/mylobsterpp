@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts] does not expose runtime modules",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts:54] does not expose runtime modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-index.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts] keeps the root runtime surface intentionally small",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts:97] keeps the root runtime surface intentionally small",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-index.test.ts:97",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts] keeps deprecated root config type aliases aligned",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts:110] keeps deprecated root config type aliases aligned",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-index.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts] keeps package.json plugin-sdk exports synced with the manifest",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-index.test.ts:115] keeps package.json plugin-sdk exports synced with the manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-index.test.ts:115",
                "upstream it() block #3",

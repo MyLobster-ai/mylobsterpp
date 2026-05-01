@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/logger-settings.test.ts] uses a silent fast path in default Vitest mode without config reads",
+TEST_CASE("v4.29 [src/logging/logger-settings.test.ts:51] uses a silent fast path in default Vitest mode without config reads",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-settings.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-settings.test.ts] reads logging config when test file logging is explicitly enabled",
+TEST_CASE("v4.29 [src/logging/logger-settings.test.ts:57] reads logging config when test file logging is explicitly enabled",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-settings.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-settings.test.ts] uses defaults when config schema skips logging config reads",
+TEST_CASE("v4.29 [src/logging/logger-settings.test.ts:74] uses defaults when config schema skips logging config reads",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-settings.test.ts:74",
                "upstream it() block #2",

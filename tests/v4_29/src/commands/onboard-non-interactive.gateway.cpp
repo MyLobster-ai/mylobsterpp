@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] writes gateway token auth into config",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:321] writes gateway token auth into config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:321",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] persists skipBootstrap and skips workspace bootstrap creation",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:356] persists skipBootstrap and skips workspace bootstrap creation",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:356",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] writes gateway.remote url/token",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:388] writes gateway.remote url/token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:388",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] explains local health failure when no daemon was requested",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:414] explains local health failure when no daemon was requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:414",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] uses a longer health deadline when daemon install was requested",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:441] uses a longer health deadline when daemon install was requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:441",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] passes pinned gateway auth through non-interactive health checks",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:459] passes pinned gateway auth through non-interactive health checks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:459",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] uses longer Windows health timings for daemon install probes",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:497] uses longer Windows health timings for daemon install probes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:497",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] emits a daemon-install failure when Linux user systemd is unavailable",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:505] emits a daemon-install failure when Linux user systemd is unavailable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:505",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] emits structured JSON diagnostics when daemon health fails",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:552] emits structured JSON diagnostics when daemon health fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:552",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts] auto-generates token auth when binding LAN and persists the token",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway.test.ts:593] auto-generates token auth when binding LAN and persists the token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway.test.ts:593",
                "upstream it() block #9",

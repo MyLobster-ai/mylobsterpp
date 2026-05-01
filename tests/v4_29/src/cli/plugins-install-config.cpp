@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] returns the source config and base hash when the snapshot is valid",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:70] returns the source config and base hash when the snapshot is valid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] does not run stale Matrix cleanup on the happy path",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:86] does not run stale Matrix cleanup on the happy path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] falls back to snapshot config for explicit bundled-plugin reinstall when issues match the known upgrade failure",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:102] falls back to snapshot config for explicit bundled-plugin reinstall when issues match the known upgrade failure",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] allows npm:-prefixed bundled-plugin reinstall recovery",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:123] allows npm:-prefixed bundled-plugin reinstall recovery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] allows explicit repo-checkout bundled-plugin reinstall recovery",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:154] allows explicit repo-checkout bundled-plugin reinstall recovery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:154",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] rejects unrelated invalid config even during bundled-plugin reinstall recovery",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:177] rejects unrelated invalid config even during bundled-plugin reinstall recovery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:177",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] rejects non-Matrix install requests when config is invalid",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:189] rejects non-Matrix install requests when config is invalid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:189",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] throws when invalid snapshot parsed is empty",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:200] throws when invalid snapshot parsed is empty",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:200",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts] throws when invalid snapshot config file does not exist",
+TEST_CASE("v4.29 [src/cli/plugins-install-config.test.ts:213] throws when invalid snapshot config file does not exist",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-install-config.test.ts:213",
                "upstream it() block #8",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] does not reuse default workspace plugin metadata for explicit agent dirs without workspace",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:85] does not reuse default workspace plugin metadata for explicit agent dirs without workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] reuses current plugin metadata for explicit agent dirs with matching workspace",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:99] reuses current plugin metadata for explicit agent dirs with matching workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] does not reuse scoped startup discovery cache for a different provider scope",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:117] does not reuse scoped startup discovery cache for a different provider scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] keeps the ready cache warm after models.json is written",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:140] keeps the ready cache warm after models.json is written",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] invalidates the ready cache when models.json changes externally",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:149] invalidates the ready cache when models.json changes externally",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] keeps distinct config fingerprints cached without evicting each other",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:164] keeps distinct config fingerprints cached without evicting each other",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:164",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts] serializes concurrent models.json writes to avoid overlap",
+TEST_CASE("v4.29 [src/agents/models-config.write-serialization.test.ts:180] serializes concurrent models.json writes to avoid overlap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.write-serialization.test.ts:180",
                "upstream it() block #6",

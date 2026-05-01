@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/logger-timestamp.test.ts] uses local time format in file logs (not UTC)",
+TEST_CASE("v4.29 [src/logging/logger-timestamp.test.ts:35] uses local time format in file logs (not UTC)",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-timestamp.test.ts:35",
                "upstream it() block #0",

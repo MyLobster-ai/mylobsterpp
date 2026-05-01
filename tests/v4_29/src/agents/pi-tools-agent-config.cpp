@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should apply global tool policy when no agent-specific policy exists",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:133] should apply global tool policy when no agent-specific policy exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:133",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should keep global tool policy when agent only sets tools.elevated",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:149] should keep global tool policy when agent only sets tools.elevated",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:149",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should allow apply_patch for OpenAI models when write is allow-listed",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:170] should allow apply_patch for OpenAI models when write is allow-listed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:170",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should allow disabling apply_patch explicitly",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:192] should allow disabling apply_patch explicitly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:192",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] defaults apply_patch to workspace-only (blocks traversal)",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:216] defaults apply_patch to workspace-only (blocks traversal)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] allows disabling apply_patch workspace-only via config (dangerous)",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:225] allows disabling apply_patch workspace-only via config (dangerous)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:225",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should apply agent-specific tool policy",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:236] should apply agent-specific tool policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should apply provider-specific tool policy",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:269] should apply provider-specific tool policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:269",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should apply provider-specific tool profile overrides",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:293] should apply provider-specific tool profile overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:293",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should resolve different tool policies for different agents",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:318] should resolve different tool policies for different agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:318",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should resolve group tool policy overrides (group-specific beats wildcard)",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:359] should resolve group tool policy overrides (group-specific beats wildcard)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:359",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should apply per-sender tool policies for group tools",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:384] should apply per-sender tool policies for group tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:384",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should not let default sender policy override group tools",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:419] should not let default sender policy override group tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:419",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should resolve telegram group tool policy for topic session keys",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:447] should resolve telegram group tool policy for topic session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:447",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should not apply forged caller group tool policy for non-group sessions",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:465] should not apply forged caller group tool policy for non-group sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:465",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should resolve feishu group tool policy for sender-scoped session keys",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:495] should resolve feishu group tool policy for sender-scoped session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:495",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should prefer scoped group candidates before wildcard tool policy",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:520] should prefer scoped group candidates before wildcard tool policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:520",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should resolve inherited group tool policy for subagent parent groups",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:548] should resolve inherited group tool policy for subagent parent groups",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:548",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should apply global tool policy before agent-specific policy",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:566] should apply global tool policy before agent-specific policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:566",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts] should work with sandbox tools filtering",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.test.ts:599] should work with sandbox tools filtering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.test.ts:599",
                "upstream it() block #19",

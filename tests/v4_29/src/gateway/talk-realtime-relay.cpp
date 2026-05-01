@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/talk-realtime-relay.test.ts] bridges browser audio, transcripts, marks, and tool results through a backend provider",
+TEST_CASE("v4.29 [src/gateway/talk-realtime-relay.test.ts:18] bridges browser audio, transcripts, marks, and tool results through a backend provider",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/talk-realtime-relay.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/talk-realtime-relay.test.ts] rejects relay control from a different connection",
+TEST_CASE("v4.29 [src/gateway/talk-realtime-relay.test.ts:149] rejects relay control from a different connection",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/talk-realtime-relay.test.ts:149",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/talk-realtime-relay.test.ts] caps active relay sessions per browser connection",
+TEST_CASE("v4.29 [src/gateway/talk-realtime-relay.test.ts:182] caps active relay sessions per browser connection",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/talk-realtime-relay.test.ts:182",
                "upstream it() block #2",

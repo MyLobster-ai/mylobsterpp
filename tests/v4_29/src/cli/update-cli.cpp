@@ -5,278 +5,278 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] bounds completion cache refresh during update follow-up",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:540] bounds completion cache refresh during update follow-up",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:540",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] logs friendly hint with manual refresh command when completion cache write times out",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:558] logs friendly hint with manual refresh command when completion cache write times out",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:558",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] respawns into the updated package root before running post-update tasks",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:583] respawns into the updated package root before running post-update tasks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:583",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] respawns into the updated git root before requested channel persistence",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:605] respawns into the updated git root before requested channel persistence",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:605",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] keeps downgrade post-update work in the current process",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:635] keeps downgrade post-update work in the current process",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:635",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails the update when the fresh process exits non-zero",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:678] fails the update when the fresh process exits non-zero",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:678",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] post-core resume mode skips the core update and only runs post-update tasks",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:698] post-core resume mode skips the core update and only runs post-update tasks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:698",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] post-core resume mode persists the requested update channel with the updated process",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:719] post-core resume mode persists the requested update channel with the updated process",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:719",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] passes the update timeout budget into post-core plugin updates",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:760] passes the update timeout budget into post-core plugin updates",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:760",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] uses a fail-closed integrity policy for post-core plugin updates",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:776] uses a fail-closed integrity policy for post-core plugin updates",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:776",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails json update output when post-core plugin updates fail",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:818] fails json update output when post-core plugin updates fail",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:818",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails before restart when post-core plugin updates fail",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:882] fails before restart when post-core plugin updates fail",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:882",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] preserves fresh-process plugin failure details in parent json output",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:910] preserves fresh-process plugin failure details in parent json output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:910",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] parses update status --json as the subcommand option",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1026] parses update status --json as the subcommand option",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1026",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] falls back to latest when beta tag is older than release",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1118] falls back to latest when beta tag is older than release",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1118",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] refreshes package-manager updates when the installed version already matches the target",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1139] refreshes package-manager updates when the installed version already matches the target",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1139",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] warns but still runs package updates when disk space looks low",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1162] warns but still runs package updates when disk space looks low",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1162",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] refuses package updates from inside the gateway service process",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1184] refuses package updates from inside the gateway service process",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1184",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] blocks package updates when the target requires a newer Node runtime",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1210] blocks package updates when the target requires a newer Node runtime",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1210",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails package updates when the installed correction version does not match the requested target",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1285] fails package updates when the installed correction version does not match the requested target",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1285",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] stops package post-update work when staged npm install verification fails",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1333] stops package post-update work when staged npm install verification fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1333",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] marks package post-update doctor as update-in-progress",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1415] marks package post-update doctor as update-in-progress",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1415",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] stops a running managed gateway before package replacement",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1470] stops a running managed gateway before package replacement",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1470",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] refreshes package installs even when the current version already matches the target",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1549] refreshes package installs even when the current version already matches the target",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1549",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] retries package updates without optional deps when npm global update fails",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1632] retries package updates without optional deps when npm global update fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1632",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] uses the owning npm binary for package updates when PATH npm points elsewhere",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1702] uses the owning npm binary for package updates when PATH npm points elsewhere",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1702",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] prepends portable Git PATH for package updates on Windows",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1793] prepends portable Git PATH for package updates on Windows",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1793",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] persists the requested channel only after a successful package update",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1878] persists the requested channel only after a successful package update",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1878",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] does not persist the requested channel when the package update fails",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1910] does not persist the requested channel when the package update fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1910",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] keeps the requested channel when plugin sync writes config after update",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1940] keeps the requested channel when plugin sync writes config after update",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1940",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] uses source config and plugin index records for post-update plugin sync",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:1967] uses source config and plugin index records for post-update plugin sync",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:1967",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] persists channel and runs post-update work after switching from package to git",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2030] persists channel and runs post-update work after switching from package to git",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2030",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] explains why git updates cannot run with edited files",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2093] explains why git updates cannot run with edited files",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2093",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails a package update when service env refresh cannot complete",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2201] fails a package update when service env refresh cannot complete",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2201",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails a JSON package update when fallback restart leaves the old gateway running",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2220] fails a JSON package update when fallback restart leaves the old gateway running",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2220",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] fails a package update when the restarted gateway reports activated plugin load errors",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2274] fails a package update when the restarted gateway reports activated plugin load errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2274",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] updateCommand continues after doctor sub-step and clears update flag",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2432] updateCommand continues after doctor sub-step and clears update flag",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2432",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] updateWizardCommand offers dev checkout and forwards selections",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2534] updateWizardCommand offers dev checkout and forwards selections",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2534",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli.test.ts] uses ~/openclaw as the default dev checkout directory",
+TEST_CASE("v4.29 [src/cli/update-cli.test.ts:2566] uses ~/openclaw as the default dev checkout directory",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli.test.ts:2566",
                "upstream it() block #38",

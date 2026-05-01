@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] pretty-prints structured args and pairs tool output onto the same card",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:23] pretty-prints structured args and pairs tool output onto the same card",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] preserves string args verbatim and keeps empty-output cards",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:56] preserves string args verbatim and keeps empty-output cards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] preserves tool-call input payloads from tool_use blocks",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:77] preserves tool-call input payloads from tool_use blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] pairs interleaved nameless tool results in content order",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:98] pairs interleaved nameless tool results in content order",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] builds sidebar content with input and empty output status",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:139] builds sidebar content with input and empty output status",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] extracts canvas handle payloads into canvas previews",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:163] extracts canvas handle payloads into canvas previews",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts] does not create previews for non-assistant canvas or generic outputs",
+TEST_CASE("v4.29 [ui/src/ui/chat/tool-cards.node.test.ts:196] does not create previews for non-assistant canvas or generic outputs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/tool-cards.node.test.ts:196",
                "upstream it() block #6",

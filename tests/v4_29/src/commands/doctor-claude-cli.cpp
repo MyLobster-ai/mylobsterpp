@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts] matches Claude",
+TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts:35] matches Claude",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-claude-cli.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts] stays quiet when Claude CLI is not configured or detected",
+TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts:52] stays quiet when Claude CLI is not configured or detected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-claude-cli.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts] reports a healthy claude-cli setup with the resolved Claude project dir",
+TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts:65] reports a healthy claude-cli setup with the resolved Claude project dir",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-claude-cli.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts] reports the Claude CLI workspace for a non-default runtime agent",
+TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts:115] reports the Claude CLI workspace for a non-default runtime agent",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-claude-cli.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts] explains the exact bad wiring when the claude-cli auth profile is missing",
+TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts:180] explains the exact bad wiring when the claude-cli auth profile is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-claude-cli.test.ts:180",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts] warns when Claude auth is not readable headlessly",
+TEST_CASE("v4.29 [src/commands/doctor-claude-cli.test.ts:216] warns when Claude auth is not readable headlessly",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-claude-cli.test.ts:216",
                "upstream it() block #5",

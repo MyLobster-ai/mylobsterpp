@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] scopes skill commands when account binding exists",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:110] scopes skill commands when account binding exists",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] scopes skill commands to default agent without a matching binding (#15599)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:131] scopes skill commands to default agent without a matching binding (#15599)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:131",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] truncates Telegram command registration to 100 commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:146] truncates Telegram command registration to 100 commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:146",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] keeps sub-100 commands by shortening long descriptions to fit Telegram payload budget",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:161] keeps sub-100 commands by shortening long descriptions to fit Telegram payload budget",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] normalizes hyphenated native command names for Telegram registration",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:180] normalizes hyphenated native command names for Telegram registration",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:180",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] registers only Telegram-safe command names across native, custom, and plugin sources",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:204] registers only Telegram-safe command names across native, custom, and plugin sources",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:204",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] prefixes native command menu callback data so callback handlers can preserve native routing",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:244] prefixes native command menu callback data so callback handlers can preserve native routing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:244",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] passes agent-scoped media roots for plugin command replies with media",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:268] passes agent-scoped media roots for plugin command replies with media",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] uses nested streaming.block.enabled for native command block-streaming behavior",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:297] uses nested streaming.block.enabled for native command block-streaming behavior",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:297",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] uses plugin command metadata to send and edit a Telegram progress placeholder",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:318] uses plugin command metadata to send and edit a Telegram progress placeholder",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:318",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] preserves Telegram buttons when editing a metadata-driven progress placeholder",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:363] preserves Telegram buttons when editing a metadata-driven progress placeholder",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:363",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] falls back to a normal reply when a metadata-driven progress result is not editable",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:394] falls back to a normal reply when a metadata-driven progress result is not editable",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:394",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] cleans up the progress placeholder before falling back after an edit failure",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:422] cleans up the progress placeholder before falling back after an edit failure",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:422",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] cleans up the progress placeholder when Telegram suppresses a local exec approval reply",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:446] cleans up the progress placeholder when Telegram suppresses a local exec approval reply",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:446",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] sends plugin command error replies silently when silentErrorReplies is enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:483] sends plugin command error replies silently when silentErrorReplies is enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:483",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] forwards topic-scoped binding context to Telegram plugin commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:512] forwards topic-scoped binding context to Telegram plugin commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:512",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] treats Telegram forum #General commands as topic 1 when Telegram omits topic metadata",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:542] treats Telegram forum #General commands as topic 1 when Telegram omits topic metadata",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:542",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts] forwards direct-message binding context to Telegram plugin commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.test.ts:573] forwards direct-message binding context to Telegram plugin commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.test.ts:573",
                "upstream it() block #17",

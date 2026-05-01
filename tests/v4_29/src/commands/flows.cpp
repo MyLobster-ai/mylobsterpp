@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/flows.test.ts] lists TaskFlows as JSON with linked tasks and summaries",
+TEST_CASE("v4.29 [src/commands/flows.test.ts:63] lists TaskFlows as JSON with linked tasks and summaries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/flows.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/flows.test.ts] shows one TaskFlow with linked task details in text mode",
+TEST_CASE("v4.29 [src/commands/flows.test.ts:123] shows one TaskFlow with linked task details in text mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/flows.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/flows.test.ts] sanitizes TaskFlow text output before printing to the terminal",
+TEST_CASE("v4.29 [src/commands/flows.test.ts:175] sanitizes TaskFlow text output before printing to the terminal",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/flows.test.ts:175",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/flows.test.ts] cancels a managed TaskFlow with no active children",
+TEST_CASE("v4.29 [src/commands/flows.test.ts:217] cancels a managed TaskFlow with no active children",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/flows.test.ts:217",
                "upstream it() block #3",

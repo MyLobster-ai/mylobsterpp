@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] adds reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:27] adds reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] adds reactions when reactionLevel is minimal",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:50] adds reactions when reactionLevel is minimal",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] adds reactions when reactionLevel is extensive",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:73] adds reactions when reactionLevel is extensive",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] removes reactions on empty emoji",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:96] removes reactions on empty emoji",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] removes reactions when remove flag set",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:119] removes reactions when remove flag set",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] passes account scope and sender flags",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:143] passes account scope and sender flags",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:143",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] preserves LID participant ids when forwarding reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:169] preserves LID participant ids when forwarding reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:169",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] respects reaction gating",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:193] respects reaction gating",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:193",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] disables reactions when WhatsApp is not configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:210] disables reactions when WhatsApp is not configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:210",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] prefers the action gate error when both actions.reactions and reactionLevel disable reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:224] prefers the action gate error when both actions.reactions and reactionLevel disable reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:224",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] applies default account allowFrom when accountId is omitted",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:263] applies default account allowFrom when accountId is omitted",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:263",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts] routes to resolved default account when no accountId is provided",
+TEST_CASE("v4.29 [extensions/whatsapp/src/action-runtime.test.ts:294] routes to resolved default account when no accountId is provided",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/action-runtime.test.ts:294",
                "upstream it() block #11",

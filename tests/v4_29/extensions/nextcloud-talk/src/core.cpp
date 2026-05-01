@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] builds an outbound session route for normalized room targets",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:37] builds an outbound session route for normalized room targets",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] returns null when the target cannot be normalized to a room id",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:55] returns null when the target cannot be normalized to a room id",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] normalizes and recognizes supported room target formats",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:66] normalizes and recognizes supported room target formats",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] verifies generated signatures and extracts normalized headers",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:82] verifies generated signatures and extracts normalized headers",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] persists replay decisions across guard instances and scopes account namespaces",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:134] persists replay decisions across guard instances and scopes account namespaces",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:134",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] releases in-flight replay claims when processing fails",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:167] releases in-flight replay claims when processing fails",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:167",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts] resolves allowlist matches and group policy decisions",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/core.test.ts:199] resolves allowlist matches and group policy decisions",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/core.test.ts:199",
                "upstream it() block #6",

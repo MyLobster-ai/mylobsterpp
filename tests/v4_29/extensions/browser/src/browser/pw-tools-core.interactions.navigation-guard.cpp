@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] waits for the grace window before completing a successful non-navigating click",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:26] waits for the grace window before completing a successful non-navigating click",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] runs the post-click navigation guard when navigation starts shortly after the click resolves",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:73] runs the post-click navigation guard when navigation starts shortly after the click resolves",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] checks subframe navigations before a later main-frame navigation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:136] checks subframe navigations before a later main-frame navigation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:136",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] blocks subframe-only navigation to a private URL during the post-action grace window",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:212] blocks subframe-only navigation to a private URL during the post-action grace window",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] snapshots delayed subframe URLs before later rewrites make them look safe",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:266] snapshots delayed subframe URLs before later rewrites make them look safe",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:266",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] still quarantines the main frame when a delayed subframe block fires first",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:321] still quarantines the main frame when a delayed subframe block fires first",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:321",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] does not stop watching for a later main-frame navigation after a harmless subframe hop",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:391] does not stop watching for a later main-frame navigation after a harmless subframe hop",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:391",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] checks delayed subframe navigations in the action-error recovery path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:455] checks delayed subframe navigations in the action-error recovery path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:455",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] snapshots subframe URLs observed during the action before they change",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:509] snapshots subframe URLs observed during the action before they change",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:509",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] still quarantines the main frame when an in-flight subframe block fires first",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:568] still quarantines the main frame when an in-flight subframe block fires first",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:568",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] deduplicates delayed navigation guards across repeated successful interactions",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:642] deduplicates delayed navigation guards across repeated successful interactions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:642",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] propagates blocked delayed navigation instead of reporting click success",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:698] propagates blocked delayed navigation instead of reporting click success",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:698",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] runs the post-click navigation guard with the resolved SSRF policy",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:748] runs the post-click navigation guard with the resolved SSRF policy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:748",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] skips interaction navigation guards when no explicit SSRF policy is provided",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:780] skips interaction navigation guards when no explicit SSRF policy is provided",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:780",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] runs the post-evaluate navigation guard after page evaluation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:826] runs the post-evaluate navigation guard after page evaluation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:826",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] runs the post-keypress navigation guard when navigation starts shortly after the keypress resolves",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:853] runs the post-keypress navigation guard when navigation starts shortly after the keypress resolves",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:853",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] propagates blocked delayed submit navigation instead of reporting type success",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:907] propagates blocked delayed submit navigation instead of reporting type success",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:907",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] does not run the post-click navigation guard when the url is unchanged",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:962] does not run the post-click navigation guard when the url is unchanged",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:962",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] does not run the navigation guard when only the URL hash changes (same-document navigation)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:978] does not run the navigation guard when only the URL hash changes (same-document navigation)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:978",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] runs the navigation guard when a same-URL reload fires framenavigated during a click",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:999] runs the navigation guard when a same-URL reload fires framenavigated during a click",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:999",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] does not run the post-evaluate navigation guard when the url is unchanged",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:1043] does not run the post-evaluate navigation guard when the url is unchanged",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:1043",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] propagates the SSRF policy through batch interaction actions",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:1061] propagates the SSRF policy through batch interaction actions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:1061",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts] runs the post-evaluate navigation guard when evaluate rejects after triggering navigation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:1085] runs the post-evaluate navigation guard when evaluate rejects after triggering navigation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.navigation-guard.test.ts:1085",
                "upstream it() block #22",

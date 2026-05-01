@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.flow.test.ts] exchanges code for tokens and stores username as email",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.flow.test.ts:39] exchanges code for tokens and stores username as email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.flow.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.flow.test.ts] refreshes tokens using stored client id and falls back to old refresh token",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.flow.test.ts:89] refreshes tokens using stored client id and falls back to old refresh token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.flow.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.flow.test.ts] refreshes tokens and ignores empty refresh_token values",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.flow.test.ts:119] refreshes tokens and ignores empty refresh_token values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.flow.test.ts:119",
                "upstream it() block #2",

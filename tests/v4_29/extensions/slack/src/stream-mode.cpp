@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] defaults to replace",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:10] defaults to replace",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] accepts valid modes",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:16] accepts valid modes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] defaults to partial mode with native streaming enabled",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:24] defaults to partial mode with native streaming enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] maps legacy streamMode values to unified streaming modes",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:32] maps legacy streamMode values to unified streaming modes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] maps legacy streaming booleans to unified mode and native streaming toggle",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:43] maps legacy streaming booleans to unified mode and native streaming toggle",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] accepts unified enum values directly",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:56] accepts unified enum values directly",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] starts with first incoming text",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:71] starts with first incoming text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:71",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] uses cumulative incoming text when it extends prior source",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:80] uses cumulative incoming text when it extends prior source",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] ignores regressive shorter incoming text",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:93] ignores regressive shorter incoming text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:93",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] appends non-prefix incoming chunks",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:106] appends non-prefix incoming chunks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:106",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts] cycles status dots",
+TEST_CASE("v4.29 [extensions/slack/src/stream-mode.test.ts:121] cycles status dots",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/stream-mode.test.ts:121",
                "upstream it() block #10",

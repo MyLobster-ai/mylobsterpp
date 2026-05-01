@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts] migrates global group ids",
+TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts:32] migrates global group ids",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/group-migration.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts] migrates account-scoped groups",
+TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts:50] migrates account-scoped groups",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/group-migration.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts] matches account ids case-insensitively",
+TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts:69] matches account ids case-insensitively",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/group-migration.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts] skips migration when new id already exists",
+TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts:87] skips migration when new id already exists",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/group-migration.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts] no-ops when old and new group ids are the same",
+TEST_CASE("v4.29 [extensions/telegram/src/group-migration.test.ts:108] no-ops when old and new group ids are the same",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/group-migration.test.ts:108",
                "upstream it() block #4",

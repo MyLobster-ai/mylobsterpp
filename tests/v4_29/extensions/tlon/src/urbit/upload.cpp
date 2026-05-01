@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] fetches image and calls uploadFile, returns uploaded URL",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:61] fetches image and calls uploadFile, returns uploaded URL",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] returns original URL if fetch fails",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:78] returns original URL if fetch fails",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] returns original URL if upload fails",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:93] returns original URL if upload fails",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] rejects non-http(s) URLs",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:102] rejects non-http(s) URLs",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] handles invalid URLs gracefully",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:110] handles invalid URLs gracefully",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:110",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] extracts filename from URL path",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:115] extracts filename from URL path",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts] uses default filename when URL has no path",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/upload.test.ts:135] uses default filename when URL has no path",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/upload.test.ts:135",
                "upstream it() block #6",

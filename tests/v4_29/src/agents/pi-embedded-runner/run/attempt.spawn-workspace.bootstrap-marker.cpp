@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts] keeps marker persistence enabled for clean sessions_yield exits",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:5] keeps marker persistence enabled for clean sessions_yield exits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts] skips marker persistence when recording is disabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:17] skips marker persistence when recording is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts] skips marker persistence when the attempt aborted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:29] skips marker persistence when the attempt aborted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts] skips marker persistence for prompt errors and compaction-side outcomes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:41] skips marker persistence for prompt errors and compaction-side outcomes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-marker.test.ts:41",
                "upstream it() block #3",

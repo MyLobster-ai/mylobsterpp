@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] uses number (not integer) in tool schemas for Gemini compatibility",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:171] uses number (not integer) in tool schemas for Gemini compatibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:171",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_list forwards mailbox filters and includes messages",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:213] sessions_list forwards mailbox filters and includes messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:213",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] derives mailbox previews only after agent visibility filtering",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:359] derives mailbox previews only after agent visibility filtering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:359",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_list resolves transcriptPath from agent state dir for multi-store listings",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:446] sessions_list resolves transcriptPath from agent state dir for multi-store listings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:446",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history filters tool messages by default",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:486] sessions_history filters tool messages by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:486",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history caps oversized payloads and strips heavy fields",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:519] sessions_history caps oversized payloads and strips heavy fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:519",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history enforces a hard byte cap even when a single message is huge",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:596] sessions_history enforces a hard byte cap even when a single message is huge",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:596",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history sets contentRedacted when sensitive data is redacted",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:643] sessions_history sets contentRedacted when sensitive data is redacted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:643",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history sets both contentRedacted and contentTruncated independently",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:684] sessions_history sets both contentRedacted and contentTruncated independently",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:684",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history resolves sessionId inputs",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:720] sessions_history resolves sessionId inputs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:720",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_history errors on missing sessionId",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:759] sessions_history errors on missing sessionId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:759",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_send supports fire-and-forget and wait",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:781] sessions_send supports fire-and-forget and wait",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:781",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_send resolves sessionId inputs",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:926] sessions_send resolves sessionId inputs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:926",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_send runs ping-pong then announces",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:974] sessions_send runs ping-pong then announces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:974",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts] sessions_send preserves threadId when announce target is hydrated via sessions.list",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.sessions.test.ts:1091] sessions_send preserves threadId when announce target is hydrated via sessions.list",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.sessions.test.ts:1091",
                "upstream it() block #14",

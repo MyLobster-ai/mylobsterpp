@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] aborts only compacting runs in compacting mode",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:39] aborts only compacting runs in compacting mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] aborts every active run in all mode",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:56] aborts every active run in all mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] passes steering options to active embedded runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:70] passes steering options to active embedded runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] defaults active embedded steering to all pending messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:84] defaults active embedded steering to all pending messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] force-clears an aborted run that does not drain",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:96] force-clears an aborted run that does not drain",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] waits for active runs to drain",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:122] waits for active runs to drain",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] returns drained=false when timeout elapses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:142] returns drained=false when timeout elapses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:142",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] shares active run state across distinct module instances",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:157] shares active run state across distinct module instances",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:157",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] tracks actual embedded handles separately from reply-operation ownership",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:183] tracks actual embedded handles separately from reply-operation ownership",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:183",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] tracks and clears per-session transcript snapshots for active runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:200] tracks and clears per-session transcript snapshots for active runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:200",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] stores and consumes pending live model switch requests",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:219] stores and consumes pending live model switch requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:219",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts] drops pending live model switch requests when the run clears",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/runs.test.ts:236] drops pending live model switch requests when the run clears",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/runs.test.ts:236",
                "upstream it() block #11",

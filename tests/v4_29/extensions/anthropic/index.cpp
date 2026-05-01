@@ -1,4 +1,4 @@
-// MYLOBSTERPP_HAND_AUTHORED
+// MYLOBSTERPP_HANDWRITTEN_TEST
 // v2026.4.29 parity: extensions/anthropic/index.test.ts (anthropic plugin entry)
 //
 // Upstream test exercises the Anthropic plugin's plugin-SDK hooks:

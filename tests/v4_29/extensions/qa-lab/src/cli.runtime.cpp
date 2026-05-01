@@ -5,327 +5,327 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] resolves suite repo-root-relative paths before dispatching",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:184] resolves suite repo-root-relative paths before dispatching",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:184",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes explicit suite plugin enablements into the host gateway run",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:209] passes explicit suite plugin enablements into the host gateway run",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:209",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] drops blank suite model refs so provider defaults apply",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:230] drops blank suite model refs so provider defaults apply",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:230",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] resolves telegram qa repo-root-relative paths before dispatching",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:251] resolves telegram qa repo-root-relative paths before dispatching",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:251",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects output dirs that escape the repo root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:276] rejects output dirs that escape the repo root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:276",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] defaults telegram qa runs onto the live provider lane",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:285] defaults telegram qa runs onto the live provider lane",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:285",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] sets a failing exit code when telegram scenarios fail",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:300] sets a failing exit code when telegram scenarios fail",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:300",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] keeps telegram exit code clear when --allow-failures is set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:328] keeps telegram exit code clear when --allow-failures is set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:328",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes host suite concurrency through",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:357] passes host suite concurrency through",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:357",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] sets a failing exit code when host suite scenarios fail",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:374] sets a failing exit code when host suite scenarios fail",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:374",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] keeps host suite exit code clear when --allow-failures is set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:412] keeps host suite exit code clear when --allow-failures is set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:412",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] retries host suite runs once for retryable infra failures",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:451] retries host suite runs once for retryable infra failures",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:451",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] retries host suite runs once for qa-channel readiness timeouts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:471] retries host suite runs once for qa-channel readiness timeouts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:471",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] does not retry host suite runs for generic timeout wording",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:497] does not retry host suite runs for generic timeout wording",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:497",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] does not retry host suite runs for semantic failures",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:511] does not retry host suite runs for semantic failures",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:511",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] runs a host-only parity preflight against the sentinel scenario",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:550] runs a host-only parity preflight against the sentinel scenario",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:550",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] throws when parity preflight finds a failing sentinel scenario",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:576] throws when parity preflight finds a failing sentinel scenario",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:576",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] keeps parity preflight exit code clear when --allow-failures is set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:604] keeps parity preflight exit code clear when --allow-failures is set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:604",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects preflight on the multipass runner",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:638] rejects preflight on the multipass runner",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:638",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes host suite CLI auth mode through",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:648] passes host suite CLI auth mode through",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:648",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] expands the agentic parity pack onto the suite scenario list",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:670] expands the agentic parity pack onto the suite scenario list",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:670",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects unknown suite CLI auth modes",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:699] rejects unknown suite CLI auth modes",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:699",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] sets a failing exit code when the parity gate fails",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:708] sets a failing exit code when the parity gate fails",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:708",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] prints a markdown coverage report from scenario metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:742] prints a markdown coverage report from scenario metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:742",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] resolves character eval paths and passes model refs through",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:749] resolves character eval paths and passes model refs through",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:749",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] lets character eval auto-select candidate fast mode when --fast is omitted",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:793] lets character eval auto-select candidate fast mode when --fast is omitted",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:793",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects invalid character eval thinking levels",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:818] rejects invalid character eval thinking levels",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:818",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes the explicit repo root into manual runs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:850] passes the explicit repo root into manual runs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:850",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] routes suite runs through multipass when the runner is selected",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:873] routes suite runs through multipass when the runner is selected",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:873",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes live suite selection through to the multipass runner",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:907] passes live suite selection through to the multipass runner",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:907",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] sets a failing exit code when multipass summary reports failed scenarios",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:933] sets a failing exit code when multipass summary reports failed scenarios",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:933",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects malformed multipass summary JSON",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:972] rejects malformed multipass summary JSON",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:972",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects unreadable multipass summary JSON with read/parse wording",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:999] rejects unreadable multipass summary JSON with read/parse wording",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:999",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects partial multipass summary JSON without failure fields",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1025] rejects partial multipass summary JSON without failure fields",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1025",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] keeps multipass exit code clear when --allow-failures is set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1052] keeps multipass exit code clear when --allow-failures is set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1052",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes provider-qualified mock parity suite selection through to the host runner",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1092] passes provider-qualified mock parity suite selection through to the host runner",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1092",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] rejects multipass-only suite flags on the host runner",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1126] rejects multipass-only suite flags on the host runner",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1126",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] defaults manual mock runs onto the mock-openai model lane",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1136] defaults manual mock runs onto the mock-openai model lane",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1136",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] defaults manual aimock runs onto the aimock model lane",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1155] defaults manual aimock runs onto the aimock model lane",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1155",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] defaults manual frontier runs onto the frontier model lane",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1174] defaults manual frontier runs onto the frontier model lane",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1174",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] keeps an explicit manual primary model as the alternate default",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1192] keeps an explicit manual primary model as the alternate default",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1192",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] defaults manual frontier runs onto Codex OAuth when the runtime resolver prefers it",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1212] defaults manual frontier runs onto Codex OAuth when the runtime resolver prefers it",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1212",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] resolves self-check repo-root-relative paths before starting the lab server",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1236] resolves self-check repo-root-relative paths before starting the lab server",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1236",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] resolves docker scaffold paths relative to the explicit repo root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1248] resolves docker scaffold paths relative to the explicit repo root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1248",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] passes the explicit repo root into docker image builds",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1267] passes the explicit repo root into docker image builds",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1267",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts] resolves docker up paths relative to the explicit repo root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/cli.runtime.test.ts:1279] resolves docker up paths relative to the explicit repo root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/cli.runtime.test.ts:1279",
                "upstream it() block #45",

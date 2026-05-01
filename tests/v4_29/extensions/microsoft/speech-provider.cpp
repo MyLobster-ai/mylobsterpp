@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] maps Microsoft voice metadata into speech voice options",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:31] maps Microsoft voice metadata into speech voice options",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] throws on Microsoft voice list failures",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:65] throws on Microsoft voice list failures",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] records voice discovery exchanges in debug proxy capture mode",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:75] records voice discovery exchanges in debug proxy capture mode",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] does not double-capture voice discovery when the global fetch patch is installed",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:117] does not double-capture voice discovery when the global fetch patch is installed",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] returns true for Chinese text",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:162] returns true for Chinese text",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] returns true for mixed text with majority CJK",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:166] returns true for mixed text with majority CJK",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:166",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] returns false for English text",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:170] returns false for English text",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:170",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] returns false for empty string",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:174] returns false for empty string",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:174",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] returns false for mostly English with a few CJK chars",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:178] returns false for mostly English with a few CJK chars",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] switches to a Chinese voice for CJK text when no explicit voice override is set",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:188] switches to a Chinese voice for CJK text when no explicit voice override is set",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:188",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts] preserves an explicitly configured English voice for CJK text",
+TEST_CASE("v4.29 [extensions/microsoft/speech-provider.test.ts:220] preserves an explicitly configured English voice for CJK text",
           "[v4_29][parity_gap][microsoft]") {
     PARITY_GAP("extensions/microsoft/speech-provider.test.ts:220",
                "upstream it() block #10",

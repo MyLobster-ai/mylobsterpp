@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] parses application/x-www-form-urlencoded payloads",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:38] parses application/x-www-form-urlencoded payloads",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] parses application/json payloads",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:53] parses application/json payloads",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] returns null for malformed payloads missing required fields",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:72] returns null for malformed payloads missing required fields",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] resolves command text with trigger map fallback",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:80] resolves command text with trigger map fallback",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] registers both public model slash commands",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:88] registers both public model slash commands",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] normalizes callback path in slash config",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:96] normalizes callback path in slash config",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:96",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] falls back to localhost callback URL for wildcard bind hosts",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:101] falls back to localhost callback URL for wildcard bind hosts",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:101",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] reuses existing command when trigger already points to callback URL",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:111] reuses existing command when trigger already points to callback URL",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:111",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts] skips foreign command trigger collisions instead of mutating non-owned commands",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-commands.test.ts:137] skips foreign command trigger collisions instead of mutating non-owned commands",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-commands.test.ts:137",
                "upstream it() block #8",

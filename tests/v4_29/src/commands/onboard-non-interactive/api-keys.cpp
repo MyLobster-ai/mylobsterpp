@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts] returns explicit flag keys before resolving env or plugin-backed setup",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts:43] returns explicit flag keys before resolving env or plugin-backed setup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/api-keys.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts] returns explicit env fallback keys when provider env discovery misses",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts:112] returns explicit env fallback keys when provider env discovery misses",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/api-keys.test.ts:112",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts] returns explicit env fallback refs in secret-ref mode",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts:143] returns explicit env fallback refs in secret-ref mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/api-keys.test.ts:143",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts] falls back to a matching API-key profile after flag and env are absent",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/api-keys.test.ts:175] falls back to a matching API-key profile after flag and env are absent",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/api-keys.test.ts:175",
                "upstream it() block #3",

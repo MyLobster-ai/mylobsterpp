@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openrouter/onboard.test.ts] adds allowlist entry and preserves alias",
+TEST_CASE("v4.29 [extensions/openrouter/onboard.test.ts:13] adds allowlist entry and preserves alias",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/onboard.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/onboard.test.ts] sets primary model and preserves existing model fallbacks",
+TEST_CASE("v4.29 [extensions/openrouter/onboard.test.ts:21] sets primary model and preserves existing model fallbacks",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/onboard.test.ts:21",
                "upstream it() block #1",

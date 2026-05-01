@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] formats dm allowlist entries through the shared hybrid adapter",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:41] formats dm allowlist entries through the shared hybrid adapter",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] returns an empty dm allowlist when the default account is unconfigured",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:50] returns an empty dm allowlist when the default account is unconfigured",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] resolves dm allowlist from the default account",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:59] resolves dm allowlist from the default account",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] accepts channelRules with string keys",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:77] accepts channelRules with string keys",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] accepts accounts with string keys",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:90] accepts accounts with string keys",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] configures ship, auth, and discovery settings",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:104] configures ship, auth, and discovery settings",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] resolves dm targets to normalized ships",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:159] resolves dm targets to normalized ships",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:159",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] resolves group targets to canonical chat nests",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:166] resolves group targets to canonical chat nests",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:166",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] returns a helpful error for invalid targets",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:173] returns a helpful error for invalid targets",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:173",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] lists named accounts and the implicit default account",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:182] lists named accounts and the implicit default account",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:182",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] merges named account config over channel defaults",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:198] merges named account config over channel defaults",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:198",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] keeps the default account on channel-level config only",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:234] keeps the default account on channel-level config only",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:234",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts] setup status labels the selected account",
+TEST_CASE("v4.29 [extensions/tlon/src/core.test.ts:258] setup status labels the selected account",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/core.test.ts:258",
                "upstream it() block #12",

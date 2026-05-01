@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/levels.test.ts] returns tslog v4 logLevelId values in ascending order",
+TEST_CASE("v4.29 [src/logging/levels.test.ts:5] returns tslog v4 logLevelId values in ascending order",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/levels.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/levels.test.ts] maps silent to Infinity to suppress all logs",
+TEST_CASE("v4.29 [src/logging/levels.test.ts:14] maps silent to Infinity to suppress all logs",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/levels.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/levels.test.ts] fatal has a higher value than trace (not inverted)",
+TEST_CASE("v4.29 [src/logging/levels.test.ts:18] fatal has a higher value than trace (not inverted)",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/levels.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/levels.test.ts] each level is strictly more restrictive than the one below it",
+TEST_CASE("v4.29 [src/logging/levels.test.ts:22] each level is strictly more restrictive than the one below it",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/levels.test.ts:22",
                "upstream it() block #3",

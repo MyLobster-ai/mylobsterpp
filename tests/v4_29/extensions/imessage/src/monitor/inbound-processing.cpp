@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] drops inbound messages when outbound message id matches echo cache",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:62] drops inbound messages when outbound message id matches echo cache",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] matches attachment-only echoes by bodyText placeholder",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:84] matches attachment-only echoes by bodyText placeholder",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] drops reflected self-chat duplicates after seeing the from-me copy",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:114] drops reflected self-chat duplicates after seeing the from-me copy",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] does not drop same-text messages when created_at differs",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:151] does not drop same-text messages when created_at differs",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:151",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] keeps self-chat cache scoped to configured group threads",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:176] keeps self-chat cache scoped to configured group threads",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:176",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] does not drop other participants in the same group thread",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:218] does not drop other participants in the same group thread",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:218",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] sanitizes reflected duplicate previews before logging",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:251] sanitizes reflected duplicate previews before logging",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:251",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] includes message id when available",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:294] includes message id when available",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:294",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] does not auto-authorize DM commands in open mode without allowlists",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:336] does not auto-authorize DM commands in open mode without allowlists",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:336",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts] authorizes DM commands for senders in pairing-mode store allowlist",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/inbound-processing.test.ts:345] authorizes DM commands for senders in pairing-mode store allowlist",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/inbound-processing.test.ts:345",
                "upstream it() block #9",

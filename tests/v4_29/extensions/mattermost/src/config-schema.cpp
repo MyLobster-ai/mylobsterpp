@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] accepts SecretRef botToken at top-level",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:5] accepts SecretRef botToken at top-level",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] accepts SecretRef botToken on account",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:13] accepts SecretRef botToken on account",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] accepts replyToMode",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:25] accepts replyToMode",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] accepts groups with requireMention",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:32] accepts groups with requireMention",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] accepts groups on account",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:42] accepts groups on account",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] rejects unknown properties inside groups entry",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:56] rejects unknown properties inside groups entry",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] rejects unsupported direct-message reply threading config",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:65] rejects unsupported direct-message reply threading config",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:65",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts] rejects unsupported per-chat-type reply threading config",
+TEST_CASE("v4.29 [extensions/mattermost/src/config-schema.test.ts:74] rejects unsupported per-chat-type reply threading config",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/config-schema.test.ts:74",
                "upstream it() block #7",

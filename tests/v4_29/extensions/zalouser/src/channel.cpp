@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] passes markdown chunk settings through sendText",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:100] passes markdown chunk settings through sendText",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] chunks outbound text without requiring Zalouser runtime initialization",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:132] chunks outbound text without requiring Zalouser runtime initialization",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] normalizes dm allowlist entries after trimming channel prefixes",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:148] normalizes dm allowlist entries after trimming channel prefixes",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] normalizes pairing allowlist entries after trimming channel prefixes",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:183] normalizes pairing allowlist entries after trimming channel prefixes",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] resolves requireMention from group config",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:190] resolves requireMention from group config",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:190",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] resolves group tool policy by explicit group id",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:209] resolves group tool policy by explicit group id",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:209",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] falls back to wildcard group policy",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:214] falls back to wildcard group policy",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:214",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] handles react action",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:219] handles react action",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:219",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] honors the selected Zalouser account during discovery",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:262] honors the selected Zalouser account during discovery",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:262",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] uses the configured default account for omitted target lookup",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:295] uses the configured default account for omitted target lookup",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:295",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts] uses the configured default account for omitted qr login",
+TEST_CASE("v4.29 [extensions/zalouser/src/channel.test.ts:334] uses the configured default account for omitted qr login",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/channel.test.ts:334",
                "upstream it() block #10",

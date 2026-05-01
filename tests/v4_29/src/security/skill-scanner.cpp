@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] detects suspicious source patterns",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:232] detects suspicious source patterns",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:232",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] does not flag child_process import without exec/spawn call",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:240] does not flag child_process import without exec/spawn call",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:240",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] returns empty array for clean plugin code",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:250] returns empty array for clean plugin code",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:250",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] returns empty array for normal http client code (just a fetch GET)",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:260] returns empty array for normal http client code (just a fetch GET)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:260",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] does not treat fetch in names or comments as network send context",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:270] does not treat fetch in names or comments as network send context",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:270",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] classifies scannable extensions",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:287] classifies scannable extensions",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:287",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] scans directory trees and explicit includes",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:406] scans directory trees and explicit includes",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:406",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] summarizes directory scan results",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:506] summarizes directory scan results",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:506",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] throws when reading a scannable file fails",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:543] throws when reading a scannable file fails",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:543",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] invalidates file scan cache when maxFileBytes changes between scans",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:566] invalidates file scan cache when maxFileBytes changes between scans",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:566",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] skips includeFiles entries that escape the root directory",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:578] skips includeFiles entries that escape the root directory",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:578",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] re-throws when stat throws a non-ENOENT error during file scan",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:586] re-throws when stat throws a non-ENOENT error during file scan",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:586",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] reuses cached findings for unchanged files and invalidates on file updates",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:600] reuses cached findings for unchanged files and invalidates on file updates",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:600",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/skill-scanner.test.ts] reuses cached directory listings for unchanged trees",
+TEST_CASE("v4.29 [src/security/skill-scanner.test.ts:621] reuses cached directory listings for unchanged trees",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/skill-scanner.test.ts:621",
                "upstream it() block #13",

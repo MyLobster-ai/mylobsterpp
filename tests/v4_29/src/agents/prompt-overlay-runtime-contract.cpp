@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts] adds the behavior contract and friendly style to OpenAI-family GPT-5 models by default",
+TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts:16] adds the behavior contract and friendly style to OpenAI-family GPT-5 models by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-overlay-runtime-contract.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts] lets the shared GPT-5 overlay config disable friendly style without removing the behavior contract",
+TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts:28] lets the shared GPT-5 overlay config disable friendly style without removing the behavior contract",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-overlay-runtime-contract.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts] scopes OpenAI plugin personality fallback to OpenAI-family GPT-5 providers",
+TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts:39] scopes OpenAI plugin personality fallback to OpenAI-family GPT-5 providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-overlay-runtime-contract.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts] keeps Codex virtual providers in the OpenAI-family personality fallback scope",
+TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts:59] keeps Codex virtual providers in the OpenAI-family personality fallback scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-overlay-runtime-contract.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts] does not apply GPT-5 overlays to non-GPT-5 models",
+TEST_CASE("v4.29 [src/agents/prompt-overlay-runtime-contract.test.ts:70] does not apply GPT-5 overlays to non-GPT-5 models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-overlay-runtime-contract.test.ts:70",
                "upstream it() block #4",

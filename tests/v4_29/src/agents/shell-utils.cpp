@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] uses PowerShell on Windows",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:48] uses PowerShell on Windows",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] prefers bash when fish is default and bash is on PATH",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:57] prefers bash when fish is default and bash is on PATH",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to sh when fish is default and bash is missing",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:65] falls back to sh when fish is default and bash is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to env shell when fish is default and no sh is available",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:73] falls back to env shell when fish is default and no sh is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] uses startup-suppressed args for zsh env shells",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:80] uses startup-suppressed args for zsh env shells",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] uses startup-suppressed args for bash env shells",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:88] uses startup-suppressed args for bash env shells",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:88",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] uses sh when SHELL is unset",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:96] uses sh when SHELL is unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:96",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to sh on PATH when SHELL is /usr/bin/false",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:104] falls back to sh on PATH when SHELL is /usr/bin/false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:104",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to sh on PATH when SHELL is /sbin/nologin",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:113] falls back to sh on PATH when SHELL is /sbin/nologin",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to startup-suppressed bash on PATH when SHELL is a placeholder",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:122] falls back to startup-suppressed bash on PATH when SHELL is a placeholder",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:122",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to bare sh when SHELL is a placeholder and no sh is on PATH",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:131] falls back to bare sh when SHELL is a placeholder and no sh is on PATH",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:131",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] returns undefined when PATH is empty",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:155] returns undefined when PATH is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:155",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] returns the first executable match from PATH",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:164] returns the first executable match from PATH",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:164",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] returns undefined when command does not exist",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:171] returns undefined when command does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:171",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] ignores non-interactive SHELL placeholders and falls through to runtime hints",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:209] ignores non-interactive SHELL placeholders and falls through to runtime hints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:209",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] prefers PowerShell 7 in ProgramFiles",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:240] prefers PowerShell 7 in ProgramFiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:240",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] prefers ProgramW6432 PowerShell 7 when ProgramFiles lacks pwsh",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:257] prefers ProgramW6432 PowerShell 7 when ProgramFiles lacks pwsh",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:257",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] finds pwsh on PATH when not in standard install locations",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:275] finds pwsh on PATH when not in standard install locations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:275",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/shell-utils.test.ts] falls back to Windows PowerShell 5.1 path when pwsh is unavailable",
+TEST_CASE("v4.29 [src/agents/shell-utils.test.ts:292] falls back to Windows PowerShell 5.1 path when pwsh is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/shell-utils.test.ts:292",
                "upstream it() block #18",

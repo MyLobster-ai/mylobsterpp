@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] defaults discovered direct remote URLs to wss://",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:89] defaults discovered direct remote URLs to wss://",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] falls back to manual URL entry when discovery trust is declined",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:125] falls back to manual URL entry when discovery trust is declined",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] trusts discovery endpoint without fingerprint and omits tlsFingerprint",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:172] trusts discovery endpoint without fingerprint and omits tlsFingerprint",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:172",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] drops discovery tlsFingerprint when the URL is edited after trust confirmation",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:204] drops discovery tlsFingerprint when the URL is edited after trust confirmation",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:204",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] does not route from TXT-only discovery metadata",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:229] does not route from TXT-only discovery metadata",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:229",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] validates insecure ws:// remote URLs and allows only loopback ws:// by default",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:272] validates insecure ws:// remote URLs and allows only loopback ws:// by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:272",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] allows ws:// hostname remote URLs when OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:297] allows ws:// hostname remote URLs when OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:297",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts] supports storing remote auth as an external env secret ref",
+TEST_CASE("v4.29 [src/commands/onboard-remote.test.ts:318] supports storing remote auth as an external env secret ref",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-remote.test.ts:318",
                "upstream it() block #7",

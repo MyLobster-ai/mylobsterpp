@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] skips automatic requests when the device is already verified",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:83] skips automatic requests when the device is already verified",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:83",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] still requests startup verification when trust is only local",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:98] still requests startup verification when trust is only local",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] skips automatic requests when a self verification is already pending",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:118] skips automatic requests when a self verification is already pending",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] respects the startup verification cooldown",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:143] respects the startup verification cooldown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] supports disabling startup verification requests",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:168] supports disabling startup verification requests",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:168",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] persists a successful startup verification request",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:188] persists a successful startup verification request",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:188",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] keeps startup verification failures non-fatal",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:206] keeps startup verification failures non-fatal",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:206",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] retries failed startup verification requests sooner than successful ones",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:238] retries failed startup verification requests sooner than successful ones",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:238",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts] clears the persisted startup state after verification succeeds",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup-verification.test.ts:268] clears the persisted startup state after verification succeeds",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup-verification.test.ts:268",
                "upstream it() block #8",

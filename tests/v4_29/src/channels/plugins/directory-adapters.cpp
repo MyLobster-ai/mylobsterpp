@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts] defaults self to null",
+TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts:10] defaults self to null",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-adapters.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts] preserves provided resolvers",
+TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts:15] preserves provided resolvers",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-adapters.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts] builds empty directory adapters",
+TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts:24] builds empty directory adapters",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-adapters.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts] exports standalone null/empty helpers",
+TEST_CASE("v4.29 [src/channels/plugins/directory-adapters.test.ts:31] exports standalone null/empty helpers",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-adapters.test.ts:31",
                "upstream it() block #3",

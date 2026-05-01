@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/gateway-status/output.test.ts] derives summary capability from reachable probes only in json output",
+TEST_CASE("v4.29 [src/commands/gateway-status/output.test.ts:83] derives summary capability from reachable probes only in json output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status/output.test.ts:83",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status/output.test.ts] derives summary capability from reachable probes only in text output",
+TEST_CASE("v4.29 [src/commands/gateway-status/output.test.ts:126] derives summary capability from reachable probes only in text output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status/output.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status/output.test.ts] reports post-connect detail failures as reachable but degraded in json output",
+TEST_CASE("v4.29 [src/commands/gateway-status/output.test.ts:157] reports post-connect detail failures as reachable but degraded in json output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status/output.test.ts:157",
                "upstream it() block #2",

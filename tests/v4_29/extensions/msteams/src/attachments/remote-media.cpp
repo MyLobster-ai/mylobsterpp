@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts] bypasses fetchRemoteMedia and calls the supplied fetchImpl directly",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts:43] bypasses fetchRemoteMedia and calls the supplied fetchImpl directly",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/remote-media.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts] surfaces HTTP errors as exceptions (no silent drop)",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts:66] surfaces HTTP errors as exceptions (no silent drop)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/remote-media.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts] rejects a response whose Content-Length exceeds maxBytes",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts:81] rejects a response whose Content-Length exceeds maxBytes",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/remote-media.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts] falls back to the runtime fetchRemoteMedia path when useDirectFetch is omitted",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts:101] falls back to the runtime fetchRemoteMedia path when useDirectFetch is omitted",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/remote-media.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts] does not use the direct path when useDirectFetch is true but fetchImpl is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/remote-media.test.ts:119] does not use the direct path when useDirectFetch is true but fetchImpl is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/remote-media.test.ts:119",
                "upstream it() block #4",

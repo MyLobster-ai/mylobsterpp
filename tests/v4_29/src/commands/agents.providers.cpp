@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agents.providers.test.ts] prefers inspectAccount for read-only status surfaces",
+TEST_CASE("v4.29 [src/commands/agents.providers.test.ts:45] prefers inspectAccount for read-only status surfaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.providers.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.providers.test.ts] records accounts that throw during read-only resolution as not configured",
+TEST_CASE("v4.29 [src/commands/agents.providers.test.ts:83] records accounts that throw during read-only resolution as not configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.providers.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.providers.test.ts] rethrows unexpected read-only account resolution errors",
+TEST_CASE("v4.29 [src/commands/agents.providers.test.ts:114] rethrows unexpected read-only account resolution errors",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.providers.test.ts:114",
                "upstream it() block #2",

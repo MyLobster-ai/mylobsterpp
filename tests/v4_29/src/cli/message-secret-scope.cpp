@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts] prefers explicit channel/account inputs",
+TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts:5] prefers explicit channel/account inputs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/message-secret-scope.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts] infers channel from a prefixed target",
+TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts:17] infers channel from a prefixed target",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/message-secret-scope.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts] infers a shared channel from target arrays",
+TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts:27] infers a shared channel from target arrays",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/message-secret-scope.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts] does not infer a channel when target arrays mix channels",
+TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts:37] does not infer a channel when target arrays mix channels",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/message-secret-scope.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts] uses fallback channel/account when direct inputs are missing",
+TEST_CASE("v4.29 [src/cli/message-secret-scope.test.ts:45] uses fallback channel/account when direct inputs are missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/message-secret-scope.test.ts:45",
                "upstream it() block #4",

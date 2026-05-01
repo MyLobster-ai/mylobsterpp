@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] maps Qwen chat-template thinking off to chat_template_kwargs",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:46] maps Qwen chat-template thinking off to chat_template_kwargs",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] maps Qwen chat-template thinking on to chat_template_kwargs",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:65] maps Qwen chat-template thinking on to chat_template_kwargs",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] preserves explicit chat-template kwargs while setting enable_thinking",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:74] preserves explicit chat-template kwargs while setting enable_thinking",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] maps Qwen top-level thinking format to enable_thinking",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:95] maps Qwen top-level thinking format to enable_thinking",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] skips non-reasoning and non-completions models",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:104] skips non-reasoning and non-completions models",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:104",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] injects Nemotron 3 chat-template kwargs when thinking is off",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:145] injects Nemotron 3 chat-template kwargs when thinking is off",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:145",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] does not inject Nemotron 3 chat-template kwargs when thinking is enabled",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:154] does not inject Nemotron 3 chat-template kwargs when thinking is enabled",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:154",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] preserves existing Nemotron 3 chat-template kwargs over defaults",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:158] preserves existing Nemotron 3 chat-template kwargs over defaults",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] skips non-Nemotron vLLM models",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:176] skips non-Nemotron vLLM models",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:176",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] registers when vLLM Qwen thinking format params are configured",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:187] registers when vLLM Qwen thinking format params are configured",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:187",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] skips unconfigured vLLM and non-vLLM providers",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:219] skips unconfigured vLLM and non-vLLM providers",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:219",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vllm/stream.test.ts] registers for vLLM Nemotron when thinking is off",
+TEST_CASE("v4.29 [extensions/vllm/stream.test.ts:249] registers for vLLM Nemotron when thinking is off",
           "[v4_29][parity_gap][vllm]") {
     PARITY_GAP("extensions/vllm/stream.test.ts:249",
                "upstream it() block #11",

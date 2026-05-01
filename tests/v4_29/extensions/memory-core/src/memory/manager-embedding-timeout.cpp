@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] uses hosted defaults for inline embedding calls",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:8] uses hosted defaults for inline embedding calls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] uses local defaults for the builtin local provider",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:13] uses local defaults for the builtin local provider",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] uses runtime batch defaults for local-server providers",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:18] uses runtime batch defaults for local-server providers",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] lets configured batch timeout override provider defaults",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:28] lets configured batch timeout override provider defaults",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:28",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] uses the default index concurrency when batch mode is disabled and unconfigured",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:41] uses the default index concurrency when batch mode is disabled and unconfigured",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:41",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] respects configured non-batch concurrency when batch mode is disabled",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:49] respects configured non-batch concurrency when batch mode is disabled",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:49",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] clamps configured non-batch concurrency to a positive integer",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:58] clamps configured non-batch concurrency to a positive integer",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:58",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] uses conservative non-batch concurrency for Ollama by default",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:73] uses conservative non-batch concurrency for Ollama by default",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:73",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts] uses resolved batch concurrency when batch mode is enabled",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:82] uses resolved batch concurrency when batch mode is enabled",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-timeout.test.ts:82",
                "upstream it() block #8",

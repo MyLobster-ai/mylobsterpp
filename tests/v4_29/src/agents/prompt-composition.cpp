@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts] keeps the system prompt stable after warmup for normal user-turn scenarios",
+TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts:26] keeps the system prompt stable after warmup for normal user-turn scenarios",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-composition.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts] keeps bootstrap warnings out of the system prompt and preserves the original user prompt prefix",
+TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts:41] keeps bootstrap warnings out of the system prompt and preserves the original user prompt prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-composition.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts] keeps the group auto-reply prompt dynamic only across the first-turn intro boundary",
+TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts:58] keeps the group auto-reply prompt dynamic only across the first-turn intro boundary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-composition.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts] includes direct-chat guidance that routes NO_REPLY through the default rewrite path",
+TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts:79] includes direct-chat guidance that routes NO_REPLY through the default rewrite path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-composition.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts] keeps maintenance prompts out of the normal stable-turn invariant set",
+TEST_CASE("v4.29 [src/agents/prompt-composition.test.ts:92] keeps maintenance prompts out of the normal stable-turn invariant set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/prompt-composition.test.ts:92",
                "upstream it() block #4",

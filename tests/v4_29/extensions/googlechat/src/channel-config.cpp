@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/googlechat/src/channel-config.test.ts] keeps read-only accessors from resolving service account SecretRefs",
+TEST_CASE("v4.29 [extensions/googlechat/src/channel-config.test.ts:6] keeps read-only accessors from resolving service account SecretRefs",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/channel-config.test.ts:6",
                "upstream it() block #0",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.node-mode.test.ts] returns node-only gateway details when no local gateway is installed",
+TEST_CASE("v4.29 [src/commands/status.node-mode.test.ts:18] returns node-only gateway details when no local gateway is installed",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.node-mode.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.node-mode.test.ts] does not claim node-only mode when the node service is installed but inactive",
+TEST_CASE("v4.29 [src/commands/status.node-mode.test.ts:47] does not claim node-only mode when the node service is installed but inactive",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.node-mode.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.node-mode.test.ts] falls back to an unknown gateway target when node-only config is missing",
+TEST_CASE("v4.29 [src/commands/status.node-mode.test.ts:68] falls back to an unknown gateway target when node-only config is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.node-mode.test.ts:68",
                "upstream it() block #2",

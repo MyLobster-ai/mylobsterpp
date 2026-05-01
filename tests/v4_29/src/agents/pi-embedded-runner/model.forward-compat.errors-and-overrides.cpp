@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] builds a forward-compat fallback for supported antigravity thinking ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:112] builds a forward-compat fallback for supported antigravity thinking ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:112",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] keeps unknown-model errors when no antigravity non-thinking template exists",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:125] keeps unknown-model errors when no antigravity non-thinking template exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] keeps unknown-model errors for non-gpt-5 openai-codex ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:133] keeps unknown-model errors for non-gpt-5 openai-codex ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] rejects direct openai gpt-5.3-codex-spark with a codex-only hint",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:141] rejects direct openai gpt-5.3-codex-spark with a codex-only hint",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] keeps suppressed openai gpt-5.3-codex-spark from falling through provider fallback",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:150] keeps suppressed openai gpt-5.3-codex-spark from falling through provider fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:150",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] rejects azure openai gpt-5.3-codex-spark with a codex-only hint",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:171] rejects azure openai gpt-5.3-codex-spark with a codex-only hint",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] uses codex fallback even when openai-codex provider is configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:184] uses codex fallback even when openai-codex provider is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:184",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] uses codex fallback when inline model omits api (#39682)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:205] uses codex fallback when inline model omits api (#39682)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:205",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] normalizes openai-codex gpt-5.4 overrides away from /v1/responses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:231] normalizes openai-codex gpt-5.4 overrides away from /v1/responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:231",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] normalizes openai-codex gpt-5.4 back to codex transport",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:256] normalizes openai-codex gpt-5.4 back to codex transport",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:256",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] includes auth hint for unknown ollama models (#17328)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:281] includes auth hint for unknown ollama models (#17328)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:281",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] includes auth hint for unknown vllm models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:290] includes auth hint for unknown vllm models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:290",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] does not add auth hint for non-local providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:298] does not add auth hint for non-local providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:298",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] applies provider baseUrl override to registry-found models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:305] applies provider baseUrl override to registry-found models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:305",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] applies provider headers override to registry-found models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:313] applies provider headers override to registry-found models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:313",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] lets provider config override registry-found kimi user agent headers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:323] lets provider config override registry-found kimi user agent headers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:323",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts] does not override when no provider config exists",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:364] does not override when no provider config exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.forward-compat.errors-and-overrides.test.ts:364",
                "upstream it() block #16",

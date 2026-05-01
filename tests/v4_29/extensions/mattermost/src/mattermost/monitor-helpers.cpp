@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] returns trimmed text when no mention provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:5] returns trimmed text when no mention provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] strips bot mention from text",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:9] strips bot mention from text",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] strips mention case-insensitively",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:13] strips mention case-insensitively",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:13",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves newlines in multi-line messages",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:17] preserves newlines in multi-line messages",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:17",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves Markdown headings",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:23] preserves Markdown headings",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:23",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves Markdown blockquotes",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:30] preserves Markdown blockquotes",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:30",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves Markdown lists",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:37] preserves Markdown lists",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:37",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves task lists",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:44] preserves task lists",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:44",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] handles mention in middle of text",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:51] handles mention in middle of text",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:51",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves leading indentation for nested lists",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:57] preserves leading indentation for nested lists",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:57",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves first-line indentation for nested list items",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:64] preserves first-line indentation for nested list items",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:64",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves indented code blocks",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:70] preserves indented code blocks",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:70",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts] preserves first-line indentation for indented code blocks",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-helpers.test.ts:77] preserves first-line indentation for indented code blocks",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-helpers.test.ts:77",
                "upstream it() block #12",

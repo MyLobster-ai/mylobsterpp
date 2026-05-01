@@ -5,229 +5,229 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows messages that mention the bot (default requireMention)",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:88] allows messages that mention the bot (default requireMention)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] defaults to true when undefined",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:99] defaults to true when undefined",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows mention when requireMention is undefined",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:109] allows mention when requireMention is undefined",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows messages that mention the bot",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:120] allows messages that mention the bot",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:120",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks messages that don",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:128] blocks messages that don",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] is case-insensitive for bot username",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:136] is case-insensitive for bot username",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows users in the allowlist",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:146] allows users in the allowlist",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:146",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks users not in allowlist when allowFrom is set",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:156] blocks users not in allowlist when allowFrom is set",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks everyone when allowFrom is explicitly empty",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:163] blocks everyone when allowFrom is explicitly empty",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:163",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks messages without userId",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:170] blocks messages without userId",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:170",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] bypasses role checks when user is in allowlist",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:178] bypasses role checks when user is in allowlist",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:178",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks user with role when not in allowlist",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:198] blocks user with role when not in allowlist",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:198",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks user not in allowlist even when roles configured",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:207] blocks user not in allowlist even when roles configured",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:207",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows users with matching role",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:218] allows users with matching role",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:218",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows users with any of multiple roles",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:226] allows users with any of multiple roles",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:226",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] blocks users without matching role",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:247] blocks users without matching role",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:247",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] allows all users when role is ",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:267] allows all users when role is ",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:267",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles moderator role",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:276] handles moderator role",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:276",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles subscriber role",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:283] handles subscriber role",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:283",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles owner role",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:290] handles owner role",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:290",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles vip role",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:297] handles vip role",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:297",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] checks requireMention before allowlist",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:306] checks requireMention before allowlist",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:306",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] checks allowlist before allowedRoles",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:326] checks allowlist before allowedRoles",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:326",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] extracts single mention",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:344] extracts single mention",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:344",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] extracts multiple mentions",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:349] extracts multiple mentions",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:349",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] returns empty array when no mentions",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:354] returns empty array when no mentions",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:354",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles mentions at start of message",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:359] handles mentions at start of message",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:359",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles mentions at end of message",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:364] handles mentions at end of message",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:364",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] converts mentions to lowercase",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:369] converts mentions to lowercase",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:369",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] extracts alphanumeric usernames",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:374] extracts alphanumeric usernames",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:374",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles underscores in usernames",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:379] handles underscores in usernames",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:379",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts] handles empty string",
+TEST_CASE("v4.29 [extensions/twitch/src/access-control.test.ts:384] handles empty string",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/access-control.test.ts:384",
                "upstream it() block #31",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/provider-adapter-registration.test.ts] keeps builtin adapters that are not already registered",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/provider-adapter-registration.test.ts:5] keeps builtin adapters that are not already registered",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/provider-adapter-registration.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/provider-adapter-registration.test.ts] skips builtin adapters that are already registered",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/provider-adapter-registration.test.ts:26] skips builtin adapters that are already registered",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/provider-adapter-registration.test.ts:26",
                "upstream it() block #1",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/test-helpers/state-dir-env.test.ts] set/snapshot/restore round-trips OPENCLAW_STATE_DIR",
+TEST_CASE("v4.29 [src/test-helpers/state-dir-env.test.ts:40] set/snapshot/restore round-trips OPENCLAW_STATE_DIR",
           "[v4_29][parity_gap][test-helpers]") {
     PARITY_GAP("src/test-helpers/state-dir-env.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-helpers/state-dir-env.test.ts] withStateDirEnv sets env for callback and cleans up temp root",
+TEST_CASE("v4.29 [src/test-helpers/state-dir-env.test.ts:51] withStateDirEnv sets env for callback and cleans up temp root",
           "[v4_29][parity_gap][test-helpers]") {
     PARITY_GAP("src/test-helpers/state-dir-env.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-helpers/state-dir-env.test.ts] withStateDirEnv restores env and cleans temp root when callback throws",
+TEST_CASE("v4.29 [src/test-helpers/state-dir-env.test.ts:66] withStateDirEnv restores env and cleans temp root when callback throws",
           "[v4_29][parity_gap][test-helpers]") {
     PARITY_GAP("src/test-helpers/state-dir-env.test.ts:66",
                "upstream it() block #2",

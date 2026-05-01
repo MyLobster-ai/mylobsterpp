@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-request-secret-refs.test.ts] can skip auth-profile SecretRef resolution when includeAuthStoreRefs is false",
+TEST_CASE("v4.29 [src/secrets/runtime-request-secret-refs.test.ts:11] can skip auth-profile SecretRef resolution when includeAuthStoreRefs is false",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-request-secret-refs.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-request-secret-refs.test.ts] resolves model provider request secret refs for headers, auth, and tls material",
+TEST_CASE("v4.29 [src/secrets/runtime-request-secret-refs.test.ts:44] resolves model provider request secret refs for headers, auth, and tls material",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-request-secret-refs.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-request-secret-refs.test.ts] resolves media request secret refs for provider headers, auth, and tls material",
+TEST_CASE("v4.29 [src/secrets/runtime-request-secret-refs.test.ts:111] resolves media request secret refs for provider headers, auth, and tls material",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-request-secret-refs.test.ts:111",
                "upstream it() block #2",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts] redacts home directory in prompt prefix",
+TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts:79] redacts home directory in prompt prefix",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.prompt-prefix.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts] keeps backslash separators when cwd uses them",
+TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts:90] keeps backslash separators when cwd uses them",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.prompt-prefix.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts] injects system provenance metadata when enabled",
+TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts:101] injects system provenance metadata when enabled",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.prompt-prefix.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts] injects a system provenance receipt when requested",
+TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts:118] injects a system provenance receipt when requested",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.prompt-prefix.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts] retries without provenance when the gateway rejects admin-only provenance fields",
+TEST_CASE("v4.29 [src/acp/translator.prompt-prefix.test.ts:156] retries without provenance when the gateway rejects admin-only provenance fields",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.prompt-prefix.test.ts:156",
                "upstream it() block #4",

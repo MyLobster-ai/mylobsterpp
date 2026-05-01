@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/backup.create-verify.test.ts] optionally verifies the archive after writing it",
+TEST_CASE("v4.29 [src/commands/backup.create-verify.test.ts:36] optionally verifies the archive after writing it",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.create-verify.test.ts:36",
                "upstream it() block #0",

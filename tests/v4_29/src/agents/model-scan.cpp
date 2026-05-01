@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-scan.test.ts] lists free models without probing",
+TEST_CASE("v4.29 [src/agents/model-scan.test.ts:17] lists free models without probing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-scan.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-scan.test.ts] requires an API key when probing",
+TEST_CASE("v4.29 [src/agents/model-scan.test.ts:71] requires an API key when probing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-scan.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-scan.test.ts] applies the scan timeout to the OpenRouter catalog request",
+TEST_CASE("v4.29 [src/agents/model-scan.test.ts:84] applies the scan timeout to the OpenRouter catalog request",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-scan.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-scan.test.ts] matches provider filters across canonical provider aliases",
+TEST_CASE("v4.29 [src/agents/model-scan.test.ts:106] matches provider filters across canonical provider aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-scan.test.ts:106",
                "upstream it() block #3",

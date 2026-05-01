@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] extracts message from Error instances",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:6] extracts message from Error instances",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] returns strings as-is",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:10] returns strings as-is",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] traverses the .cause chain",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:14] traverses the .cause chain",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:14",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] handles string cause",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:20] handles string cause",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:20",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] stringifies numbers",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:25] stringifies numbers",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:25",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] stringifies null",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:29] stringifies null",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:29",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] stringifies undefined",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:33] stringifies undefined",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:33",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] JSON-stringifies plain objects",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:37] JSON-stringifies plain objects",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:37",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] formats zero",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:43] formats zero",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:43",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] formats sub-minute durations as seconds",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:47] formats sub-minute durations as seconds",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:47",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] formats exactly 60 seconds as 1m",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:51] formats exactly 60 seconds as 1m",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:51",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] formats mixed minutes and seconds",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:55] formats mixed minutes and seconds",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:55",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] formats exact minutes without trailing seconds",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:59] formats exact minutes without trailing seconds",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:59",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts] rounds sub-second values",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/format.test.ts:63] rounds sub-second values",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/format.test.ts:63",
                "upstream it() block #13",

@@ -5,264 +5,264 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] has correct id",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:132] has correct id",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] has required meta fields",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:136] has required meta fields",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:136",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] supports direct messages",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:144] supports direct messages",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] does not support groups (MVP)",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:148] does not support groups (MVP)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] does not support media (MVP)",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:152] does not support media (MVP)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:152",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] listAccountIds returns empty array for unconfigured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:158] listAccountIds returns empty array for unconfigured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] listAccountIds returns default for configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:164] listAccountIds returns default for configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] recognizes npub as valid target",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:172] recognizes npub as valid target",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:172",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] recognizes hex pubkey as valid target",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:178] recognizes hex pubkey as valid target",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] rejects invalid input",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:184] rejects invalid input",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:184",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] normalizeTarget strips spaced nostr prefixes",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:191] normalizeTarget strips spaced nostr prefixes",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:191",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] has correct delivery mode",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:200] has correct delivery mode",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:200",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] has reasonable text chunk limit",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:204] has reasonable text chunk limit",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:204",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] has id label for pairing",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:210] has id label for pairing",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:210",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] normalizes spaced nostr prefixes in allow entries",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:214] normalizes spaced nostr prefixes in allow entries",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:214",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] normalizes dm allowlist entries through the dm policy adapter",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:223] normalizes dm allowlist entries through the dm policy adapter",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:223",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] has default runtime",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:248] has default runtime",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:248",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] configures a private key and relay URLs",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:261] configures a private key and relay URLs",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:261",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] preserves the selected named account label during setup",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:287] preserves the selected named account label during setup",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:287",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] uses configured defaultAccount when setup accountId is omitted",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:315] uses configured defaultAccount when setup accountId is omitted",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:315",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] returns empty array when not configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:328] returns empty array when not configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:328",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] returns empty array when nostr section exists but no privateKey",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:333] returns empty array when nostr section exists but no privateKey",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:333",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] returns default when privateKey is configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:338] returns default when privateKey is configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:338",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] returns configured defaultAccount when privateKey is configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:343] returns configured defaultAccount when privateKey is configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:343",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] does not treat unresolved SecretRef privateKey as configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:348] does not treat unresolved SecretRef privateKey as configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:348",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] returns default when configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:365] returns default when configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:365",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] returns default when not configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:370] returns default when not configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:370",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] prefers configured defaultAccount when present",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:375] prefers configured defaultAccount when present",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:375",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] resolves configured account",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:382] resolves configured account",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:382",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] resolves unconfigured account with defaults",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:399] resolves unconfigured account with defaults",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:399",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] handles disabled channel",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:412] handles disabled channel",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:412",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] handles custom accountId parameter",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:420] handles custom accountId parameter",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:420",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] handles allowFrom config",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:427] handles allowFrom config",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:427",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] handles invalid private key gracefully",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:436] handles invalid private key gracefully",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:436",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] does not treat unresolved SecretRef privateKey as configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:450] does not treat unresolved SecretRef privateKey as configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:450",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] preserves all config options",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:471] preserves all config options",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:471",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts] keeps unresolved SecretRef privateKey visible without marking the account configured",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.test.ts:493] keeps unresolved SecretRef privateKey visible without marking the account configured",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.test.ts:493",
                "upstream it() block #36",

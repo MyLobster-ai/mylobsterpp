@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts] shows requested and approved access for a scope upgrade",
+TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts:56] shows requested and approved access for a scope upgrade",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/nodes.devices.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts] normalizes pending device ids before matching paired access",
+TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts:86] normalizes pending device ids before matching paired access",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/nodes.devices.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts] does not show upgrade context for key-mismatched pending requests",
+TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts:114] does not show upgrade context for key-mismatched pending requests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/nodes.devices.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts] falls back to roles when role is absent",
+TEST_CASE("v4.29 [ui/src/ui/views/nodes.devices.test.ts:145] falls back to roles when role is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/nodes.devices.test.ts:145",
                "upstream it() block #3",

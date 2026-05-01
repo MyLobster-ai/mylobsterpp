@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] relays assistant progress and completion to the parent session",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:79] relays assistant progress and completion to the parent session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] emits a no-output notice and a resumed notice when output returns",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:141] emits a no-output notice and a resumed notice when output returns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:141",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] auto-disposes stale relays after max lifetime timeout",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:182] auto-disposes stale relays after max lifetime timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] supports delayed start notices",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:212] supports delayed start notices",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] can keep background relays out of the parent session while still logging",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:229] can keep background relays out of the parent session while still logging",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:229",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] preserves delta whitespace boundaries in progress relays",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:262] preserves delta whitespace boundaries in progress relays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:262",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] suppresses commentary-phase assistant relay text",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:293] suppresses commentary-phase assistant relay text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:293",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] still relays final_answer assistant text after suppressed commentary",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:319] still relays final_answer assistant text after suppressed commentary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:319",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts] resolves ACP spawn stream log path from session metadata",
+TEST_CASE("v4.29 [src/agents/acp-spawn-parent-stream.test.ts:353] resolves ACP spawn stream log path from session metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn-parent-stream.test.ts:353",
                "upstream it() block #8",

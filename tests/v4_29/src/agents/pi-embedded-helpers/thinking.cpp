@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] returns undefined for empty message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:5] returns undefined for empty message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] returns undefined for undefined message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:9] returns undefined for undefined message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] extracts supported values from error message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:13] extracts supported values from error message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:13",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] skips already attempted values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:21] skips already attempted values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:21",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] falls back to ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:29] falls back to ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] falls back to ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:37] falls back to ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:37",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] returns undefined for reasoning-required errors after ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:45] returns undefined for reasoning-required errors after ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:45",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] falls back to ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:53] falls back to ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:53",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] returns undefined if ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:61] returns undefined if ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:61",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts] returns undefined for unrelated error messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/thinking.test.ts:69] returns undefined for unrelated error messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/thinking.test.ts:69",
                "upstream it() block #9",

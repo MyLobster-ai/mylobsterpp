@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-foreground-failures.test.ts] returns a failed text result when the default timeout is exceeded",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-foreground-failures.test.ts:30] returns a failed text result when the default timeout is exceeded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-foreground-failures.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-foreground-failures.test.ts] rejects invalid host values before launching a command",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-foreground-failures.test.ts:54] rejects invalid host values before launching a command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-foreground-failures.test.ts:54",
                "upstream it() block #1",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] returns undefined when neither allow nor deny is configured",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:8] returns undefined when neither allow nor deny is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] keeps alsoAllow without allow additive",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:12] keeps alsoAllow without allow additive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] merges allow and alsoAllow when both are present",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:23] merges allow and alsoAllow when both are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] preserves allow-all semantics for allow: [] plus alsoAllow",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:35] preserves allow-all semantics for allow: [] plus alsoAllow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] passes deny through unchanged",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:47] passes deny through unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:47",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] keeps global alsoAllow additive in effective tool policy resolution",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:58] keeps global alsoAllow additive in effective tool policy resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts] does not block fs root expansion when only global alsoAllow is configured",
+TEST_CASE("v4.29 [src/agents/sandbox-tool-policy.test.ts:71] does not block fs root expansion when only global alsoAllow is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-tool-policy.test.ts:71",
                "upstream it() block #6",

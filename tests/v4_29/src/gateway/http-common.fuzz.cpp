@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] always emits the three baseline headers regardless of opts",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:101] always emits the three baseline headers regardless of opts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] sets Strict-Transport-Security iff opts.strictTransportSecurity is a non-empty string",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:124] sets Strict-Transport-Security iff opts.strictTransportSecurity is a non-empty string",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] propagates status, sets JSON content type, and serializes the body",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:144] propagates status, sets JSON content type, and serializes the body",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] propagates status, sets plain-text content type, and forwards the body",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:159] propagates status, sets plain-text content type, and forwards the body",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:159",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] always responds 405 with the supplied Allow header (or POST when omitted)",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:174] always responds 405 with the supplied Allow header (or POST when omitted)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] is deterministic: always 401 with the canonical error payload",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:194] is deterministic: always 401 with the canonical error payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] sets Retry-After iff retryAfterMs is truthy and > 0, with ceil-seconds value",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:208] sets Retry-After iff retryAfterMs is truthy and > 0, with ceil-seconds value",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:208",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] delegates to rate-limited vs unauthorized based on authResult.rateLimited",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:240] delegates to rate-limited vs unauthorized based on authResult.rateLimited",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:240",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] always responds 400 with the supplied message echoed into the payload",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:267] always responds 400 with the supplied message echoed into the payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:267",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] maps readJsonBody results to the documented status/body contract",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:284] maps readJsonBody results to the documented status/body contract",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:284",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] always writes the DONE sentinel exactly once per call",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:335] always writes the DONE sentinel exactly once per call",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:335",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] sets SSE headers and invokes flushHeaders when present",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:347] sets SSE headers and invokes flushHeaders when present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:347",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts] invariants hold for arbitrary socket/controller/callback combinations",
+TEST_CASE("v4.29 [src/gateway/http-common.fuzz.test.ts:381] invariants hold for arbitrary socket/controller/callback combinations",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.fuzz.test.ts:381",
                "upstream it() block #12",

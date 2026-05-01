@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps plugin-sdk entrypoint metadata unique",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:517] keeps plugin-sdk entrypoint metadata unique",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:517",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps package.json exports aligned with built plugin-sdk entrypoints",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:530] keeps package.json exports aligned with built plugin-sdk entrypoints",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:530",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps bundled plugin SDK compatibility subpaths explicitly classified",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:534] keeps bundled plugin SDK compatibility subpaths explicitly classified",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:534",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps plugin-owned SDK subpaths explicitly classified and documented",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:560] keeps plugin-owned SDK subpaths explicitly classified and documented",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:560",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps curated public plugin-sdk references on exported built subpaths",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:597] keeps curated public plugin-sdk references on exported built subpaths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:597",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps Matrix runtime deps local to the Matrix plugin",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:621] keeps Matrix runtime deps local to the Matrix plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:621",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps extension sources on public sdk or local package seams",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:638] keeps extension sources on public sdk or local package seams",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:638",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps extension production sources off repo test helpers",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:642] keeps extension production sources off repo test helpers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:642",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps extension sources off deprecated plugin-sdk compatibility imports",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:646] keeps extension sources off deprecated plugin-sdk compatibility imports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:646",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps real tests off deprecated plugin-sdk testing barrels",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:650] keeps real tests off deprecated plugin-sdk testing barrels",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:650",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps the package testing barrel as a single deprecated bridge",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:654] keeps the package testing barrel as a single deprecated bridge",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:654",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps extension test-api exports consumed",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:658] keeps extension test-api exports consumed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:658",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps reserved SDK compatibility subpaths inside their owning bundled plugins",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:662] keeps reserved SDK compatibility subpaths inside their owning bundled plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:662",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps reserved SDK compatibility subpaths actively used",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:666] keeps reserved SDK compatibility subpaths actively used",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:666",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts] keeps generic core poll helpers free of plugin owner names",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:675] keeps generic core poll helpers free of plugin owner names",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-package-contract-guardrails.test.ts:675",
                "upstream it() block #14",

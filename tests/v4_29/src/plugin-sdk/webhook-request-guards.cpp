@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts] rejects disallowed HTTP methods",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts:92] rejects disallowed HTTP methods",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-request-guards.test.ts:92",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts] enforces rate limits",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts:105] enforces rate limits",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-request-guards.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts] returns raw body contents",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts:199] returns raw body contents",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-request-guards.test.ts:199",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts] enforces strict pre-auth default body limits",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts:204] enforces strict pre-auth default body limits",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-request-guards.test.ts:204",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts] enforces in-flight request limits and releases slots",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-request-guards.test.ts:217] enforces in-flight request limits and releases slots",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-request-guards.test.ts:217",
                "upstream it() block #4",

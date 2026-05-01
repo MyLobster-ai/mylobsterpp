@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] ignores non-error status values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:14] ignores non-error status values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] keeps error-like status values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:20] keeps error-like status values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] prefers node-host aggregated denial text over generic failed status",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:25] prefers node-host aggregated denial text over generic failed status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] uses result text before generic failed status when details omit aggregated output",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:37] uses result text before generic failed status when details omit aggregated output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts JSON-style apiKey fields in text content blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:53] redacts JSON-style apiKey fields in text content blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts ENV-style credential assignments",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:67] redacts ENV-style credential assignments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts Bearer authorization tokens",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:81] redacts Bearer authorization tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:81",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] preserves image content stripping behavior",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:89] preserves image content stripping behavior",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:89",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts secrets inside result.details (e.g. exec aggregated stdout)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:101] redacts secrets inside result.details (e.g. exec aggregated stdout)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:101",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts secrets at the top level outside content/details",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:122] redacts secrets at the top level outside content/details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:122",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts a details-only result with no content array",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:142] redacts a details-only result with no content array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:142",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts primitive string results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:155] redacts primitive string results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:155",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] preserves top-level arrays while redacting nested strings",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:162] preserves top-level arrays while redacting nested strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:162",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] applies configured redact patterns to Control UI tool payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:174] applies configured redact patterns to Control UI tool payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:174",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] redacts string-valued credentials nested anywhere in args",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:191] redacts string-valued credentials nested anywhere in args",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:191",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts] passes through null/undefined and non-string primitives unchanged",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.test.ts:211] passes through null/undefined and non-string primitives unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.test.ts:211",
                "upstream it() block #15",

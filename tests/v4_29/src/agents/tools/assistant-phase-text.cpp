@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts] fails soft for malformed inputs",
+TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts:26] fails soft for malformed inputs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/assistant-phase-text.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts] prefers final_answer text over commentary in ${label} helpers",
+TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts:34] prefers final_answer text over commentary in ${label} helpers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/assistant-phase-text.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts] preserves spaces across split final_answer blocks in ${label} helpers",
+TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts:43] preserves spaces across split final_answer blocks in ${label} helpers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/assistant-phase-text.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts] does not fall back to commentary when an explicit final_answer is empty",
+TEST_CASE("v4.29 [src/agents/tools/assistant-phase-text.test.ts:54] does not fall back to commentary when an explicit final_answer is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/assistant-phase-text.test.ts:54",
                "upstream it() block #3",

@@ -5,320 +5,320 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] emits chat delta for assistant text-only events",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:191] emits chat delta for assistant text-only events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:191",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] strips inline directives from assistant chat events",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:208] strips inline directives from assistant chat events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:208",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] strips internal runtime context from assistant chat events",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:223] strips internal runtime context from assistant chat events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:223",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] suppresses NO_REPLY lead fragments and does not leak NO in final chat message",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:288] suppresses NO_REPLY lead fragments and does not leak NO in final chat message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:288",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] keeps final short replies like ",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:343] keeps final short replies like ",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:343",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] strips a glued leading NO_REPLY token from cumulative chat snapshots",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:366] strips a glued leading NO_REPLY token from cumulative chat snapshots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:366",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] flushes buffered text as delta before final when throttle suppresses the latest chunk",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:406] flushes buffered text as delta before final when throttle suppresses the latest chunk",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:406",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] preserves pre-tool assistant text when later segments stream as non-prefix snapshots",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:450] preserves pre-tool assistant text when later segments stream as non-prefix snapshots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:450",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] flushes merged segmented text before final when latest segment is throttled",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:496] flushes merged segmented text before final when latest segment is throttled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:496",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] does not flush an extra delta when the latest text already broadcast",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:542] does not flush an extra delta when the latest text already broadcast",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:542",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] cleans up agent run sequence tracking when lifecycle completes",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:581] cleans up agent run sequence tracking when lifecycle completes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:581",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] drops stale events that arrive after lifecycle completion",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:610] drops stale events that arrive after lifecycle completion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:610",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] flushes buffered chat delta before tool start events",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:650] flushes buffered chat delta before tool start events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:650",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] routes tool events only to registered recipients when verbose is enabled",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:718] routes tool events only to registered recipients when verbose is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:718",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] broadcasts tool events to WS recipients even when verbose is off, but skips node send",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:739] broadcasts tool events to WS recipients even when verbose is off, but skips node send",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:739",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] mirrors tool events to session subscribers so late-joining operator UIs can render them",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:763] mirrors tool events to session subscribers so late-joining operator UIs can render them",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:763",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] hydrates run-scoped tool events with session ownership metadata",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:829] hydrates run-scoped tool events with session ownership metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:829",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] hydrates node session tool events with session ownership metadata",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:894] hydrates node session tool events with session ownership metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:894",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] broadcasts terminal session status to session subscribers on lifecycle end",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:957] broadcasts terminal session status to session subscribers on lifecycle end",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:957",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] keeps aborted chat run markers through terminal lifecycle cleanup",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1016] keeps aborted chat run markers through terminal lifecycle cleanup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1016",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] keeps live session setting metadata at the top level for lifecycle updates",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1037] keeps live session setting metadata at the top level for lifecycle updates",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1037",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] strips tool output when verbose is on",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1111] strips tool output when verbose is on",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1111",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] keeps tool output when verbose is full",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1140] keeps tool output when verbose is full",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1140",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] broadcasts fallback events to agent subscribers and node session",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1168] broadcasts fallback events to agent subscribers and node session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1168",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] remaps chat-linked lifecycle runId to client runId",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1186] remaps chat-linked lifecycle runId to client runId",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1186",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] keeps chat-linked run remapping alive across per-attempt lifecycle errors",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1208] keeps chat-linked run remapping alive across per-attempt lifecycle errors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1208",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] defers terminal lifecycle-error cleanup for non-chat-send runs until the retry grace expires",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1272] defers terminal lifecycle-error cleanup for non-chat-send runs until the retry grace expires",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1272",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] adds detected errorKind to chat lifecycle error payloads",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1315] adds detected errorKind to chat lifecycle error payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1315",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] suppresses delayed lifecycle chat errors for active chat.send runs while still cleaning up",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1348] suppresses delayed lifecycle chat errors for active chat.send runs while still cleaning up",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1348",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] emits lifecycle chat errors for active chat.send runs with a chat run link",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1383] emits lifecycle chat errors for active chat.send runs with a chat run link",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1383",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] suppresses live client events but persists lifecycle for non-control-UI-visible runs",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1421] suppresses live client events but persists lifecycle for non-control-UI-visible runs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1421",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] uses agent event sessionKey when run-context lookup cannot resolve",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1452] uses agent event sessionKey when run-context lookup cannot resolve",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1452",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] remaps chat-linked tool runId for non-full verbose payloads",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1467] remaps chat-linked tool runId for non-full verbose payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1467",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] suppresses heartbeat ack-like chat output when showOk is false",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1501] suppresses heartbeat ack-like chat output when showOk is false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1501",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] keeps heartbeat alert text in final chat output when remainder exceeds ackMaxChars",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1535] keeps heartbeat alert text in final chat output when remainder exceeds ackMaxChars",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1535",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] includes spawnedBy in chat delta broadcasts for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1572] includes spawnedBy in chat delta broadcasts for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1572",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] includes spawnedBy in chat final broadcasts for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1613] includes spawnedBy in chat final broadcasts for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1613",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] omits spawnedBy from chat broadcasts for non-subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1656] omits spawnedBy from chat broadcasts for non-subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1656",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] skips session row load entirely for session keys that cannot carry lineage",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1685] skips session row load entirely for session keys that cannot carry lineage",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1685",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] includes spawnedBy in non-tool agent event broadcasts for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1716] includes spawnedBy in non-tool agent event broadcasts for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1716",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] includes spawnedBy in chat error final broadcasts for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1748] includes spawnedBy in chat error final broadcasts for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1748",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] includes spawnedBy in flushed chat delta for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1792] includes spawnedBy in flushed chat delta for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1792",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] includes spawnedBy in seq gap error broadcasts for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1855] includes spawnedBy in seq gap error broadcasts for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1855",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] caches spawnedBy lookup so repeated events for the same subagent session only load the row once",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1899] caches spawnedBy lookup so repeated events for the same subagent session only load the row once",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1899",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts] caches null spawnedBy for eligible subagent sessions that lack a spawnedBy value",
+TEST_CASE("v4.29 [src/gateway/server-chat.agent-events.test.ts:1953] caches null spawnedBy for eligible subagent sessions that lack a spawnedBy value",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.agent-events.test.ts:1953",
                "upstream it() block #44",

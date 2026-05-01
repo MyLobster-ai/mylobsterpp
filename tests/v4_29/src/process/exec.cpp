@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/exec.test.ts] never enables shell execution (Windows cmd.exe injection hardening)",
+TEST_CASE("v4.29 [src/process/exec.test.ts:94] never enables shell execution (Windows cmd.exe injection hardening)",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.test.ts] merges custom env with base env and drops undefined values",
+TEST_CASE("v4.29 [src/process/exec.test.ts:103] merges custom env with base env and drops undefined values",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.test.ts] suppresses npm fund prompts for npm argv",
+TEST_CASE("v4.29 [src/process/exec.test.ts:121] suppresses npm fund prompts for npm argv",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.test.ts] infers success for shimmed Windows commands when exit codes are missing",
+TEST_CASE("v4.29 [src/process/exec.test.ts:131] infers success for shimmed Windows commands when exit codes are missing",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.test.ts] does not infer success when this process already issued a timeout kill",
+TEST_CASE("v4.29 [src/process/exec.test.ts:145] does not infer success when this process already issued a timeout kill",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.test.ts] forwards SIGTERM to the wrapped child and detaches on exit",
+TEST_CASE("v4.29 [src/process/exec.test.ts:211] forwards SIGTERM to the wrapped child and detaches on exit",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.test.ts:211",
                "upstream it() block #5",

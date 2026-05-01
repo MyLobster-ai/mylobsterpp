@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts] detects encrypted rooms from cached room state",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:63] detects encrypted rooms from cached room state",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts] falls back to server room state when room cache has no encryption event",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:75] falls back to server room state when room cache has no encryption event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts] forwards verification requests and uses client crypto API",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:92] forwards verification requests and uses client crypto API",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts] rehydrates in-progress DM verification requests from the raw crypto layer",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:134] rehydrates in-progress DM verification requests from the raw crypto layer",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts] rehydrates in-progress to-device verification requests before listing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:199] rehydrates in-progress to-device verification requests before listing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/crypto-facade.test.ts:199",
                "upstream it() block #4",

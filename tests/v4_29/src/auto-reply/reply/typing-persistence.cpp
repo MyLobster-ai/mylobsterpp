@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts] should NOT restart typing after markRunComplete is called",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts:26] should NOT restart typing after markRunComplete is called",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-persistence.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts] should stop typing when both runComplete and dispatchIdle are true",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts:43] should stop typing when both runComplete and dispatchIdle are true",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-persistence.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts] should prevent typing restart even if cleanup is delayed",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts:61] should prevent typing restart even if cleanup is delayed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-persistence.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts] returns an inert controller when typing callbacks are absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-persistence.test.ts:84] returns an inert controller when typing callbacks are absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-persistence.test.ts:84",
                "upstream it() block #3",

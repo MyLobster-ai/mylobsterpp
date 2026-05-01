@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/approval-auth.test.ts] authorizes general Slack approvers from allowFrom and defaultTo",
+TEST_CASE("v4.29 [extensions/slack/src/approval-auth.test.ts:5] authorizes general Slack approvers from allowFrom and defaultTo",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/approval-auth.test.ts:5",
                "upstream it() block #0",

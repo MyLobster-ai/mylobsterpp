@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/plugins-runtime-boundary.test.ts] omits legacy plugins.runtime keys from schema metadata",
+TEST_CASE("v4.29 [src/config/plugins-runtime-boundary.test.ts:11] omits legacy plugins.runtime keys from schema metadata",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugins-runtime-boundary.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugins-runtime-boundary.test.ts] omits plugins.runtime from the generated config schema",
+TEST_CASE("v4.29 [src/config/plugins-runtime-boundary.test.ts:16] omits plugins.runtime from the generated config schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugins-runtime-boundary.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugins-runtime-boundary.test.ts] rejects legacy plugins.runtime config entries",
+TEST_CASE("v4.29 [src/config/plugins-runtime-boundary.test.ts:28] rejects legacy plugins.runtime config entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugins-runtime-boundary.test.ts:28",
                "upstream it() block #2",

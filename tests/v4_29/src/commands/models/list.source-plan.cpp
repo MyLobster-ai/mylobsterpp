@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts] uses installed manifest rows before provider index or runtime catalog sources",
+TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts:44] uses installed manifest rows before provider index or runtime catalog sources",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.source-plan.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts] uses provider index rows only when installed manifest rows are unavailable",
+TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts:69] uses provider index rows only when installed manifest rows are unavailable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.source-plan.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts] keeps provider-filtered refreshable manifest rows registry-backed",
+TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts:89] keeps provider-filtered refreshable manifest rows registry-backed",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.source-plan.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts] allows scoped runtime catalog plans to fall back to registry rows",
+TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts:116] allows scoped runtime catalog plans to fall back to registry rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.source-plan.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts] keeps broad all-model lists on the registry path with cheap catalog supplements",
+TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts:133] keeps broad all-model lists on the registry path with cheap catalog supplements",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.source-plan.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts] falls back to registry only for provider static fast paths that return no rows",
+TEST_CASE("v4.29 [src/commands/models/list.source-plan.test.ts:158] falls back to registry only for provider static fast paths that return no rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.source-plan.test.ts:158",
                "upstream it() block #5",

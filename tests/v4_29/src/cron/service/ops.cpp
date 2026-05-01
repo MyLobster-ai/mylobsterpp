@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] start marks interrupted running jobs failed, persists, and arms the timer",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:132] start marks interrupted running jobs failed, persists, and arms the timer",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] records timed out manual runs as timed_out in the shared task registry",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:185] records timed out manual runs as timed_out in the shared task registry",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:185",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] keeps manual cron runs progressing when task ledger creation fails",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:208] keeps manual cron runs progressing when task ledger creation fails",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:208",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] keeps manual cron cleanup progressing when task ledger updates fail",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:232] keeps manual cron cleanup progressing when task ledger updates fail",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] non-schedule edit preserves nextRunAtMs (#63499)",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:263] non-schedule edit preserves nextRunAtMs (#63499)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:263",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] repairs nextRunAtMs=0 on non-schedule edit (#63499)",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:294] repairs nextRunAtMs=0 on non-schedule edit (#63499)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:294",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/ops.test.ts] records startup catch-up timeouts as timed_out in the shared task registry",
+TEST_CASE("v4.29 [src/cron/service/ops.test.ts:325] records startup catch-up timeouts as timed_out in the shared task registry",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/ops.test.ts:325",
                "upstream it() block #6",

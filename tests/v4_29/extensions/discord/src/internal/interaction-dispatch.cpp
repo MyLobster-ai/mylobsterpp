@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interaction-dispatch.test.ts] passes command ephemeral defaults into deferred responses",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interaction-dispatch.test.ts:16] passes command ephemeral defaults into deferred responses",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interaction-dispatch.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interaction-dispatch.test.ts] dispatches the focused option autocomplete handler",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interaction-dispatch.test.ts:52] dispatches the focused option autocomplete handler",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interaction-dispatch.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interaction-dispatch.test.ts] defers selected subcommands before running them",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interaction-dispatch.test.ts:103] defers selected subcommands before running them",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interaction-dispatch.test.ts:103",
                "upstream it() block #2",

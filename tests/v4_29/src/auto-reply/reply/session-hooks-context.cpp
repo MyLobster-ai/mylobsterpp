@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] passes sessionKey to session_start hook context",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:116] passes sessionKey to session_start hook context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:116",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] passes sessionKey to session_end hook context on reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:135] passes sessionKey to session_end hook context on reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:135",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] marks explicit /reset rollovers with reason reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:168] marks explicit /reset rollovers with reason reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] maps custom reset trigger aliases to the new-session reason",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:188] maps custom reset trigger aliases to the new-session reason",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:188",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] marks daily stale rollovers and exposes the archived transcript path",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:213] marks daily stale rollovers and exposes the archived transcript path",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:213",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] marks idle stale rollovers with reason idle",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:239] marks idle stale rollovers with reason idle",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:239",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts] prefers idle over daily when both rollover conditions are true",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-hooks-context.test.ts:263] prefers idle over daily when both rollover conditions are true",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-hooks-context.test.ts:263",
                "upstream it() block #6",

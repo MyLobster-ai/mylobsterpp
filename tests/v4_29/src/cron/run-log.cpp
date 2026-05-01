@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] resolves prune options from config with defaults",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:18] resolves prune options from config with defaults",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] resolves store path to per-job runs/<jobId>.jsonl",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:52] resolves store path to per-job runs/<jobId>.jsonl",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] rejects unsafe job ids when resolving run log path",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:58] rejects unsafe job ids when resolving run log path",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] appends JSONL and prunes by line count",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:71] appends JSONL and prunes by line count",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] reads run-log entries synchronously for task reconciliation",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:100] reads run-log entries synchronously for task reconciliation",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:100",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] reads newest entries and filters by jobId",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:171] reads newest entries and filters by jobId",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] ignores invalid and non-finished lines while preserving delivery fields",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:227] ignores invalid and non-finished lines while preserving delivery fields",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:227",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] does not include raw delivery targets in run-log search",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:272] does not include raw delivery targets in run-log search",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:272",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] reads telemetry fields",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:314] reads telemetry fields",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:314",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] cleans up pending-write bookkeeping after appends complete",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:364] cleans up pending-write bookkeeping after appends complete",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:364",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/run-log.test.ts] read drains pending fire-and-forget writes",
+TEST_CASE("v4.29 [src/cron/run-log.test.ts:378] read drains pending fire-and-forget writes",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/run-log.test.ts:378",
                "upstream it() block #10",

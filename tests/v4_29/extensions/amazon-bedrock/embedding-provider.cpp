@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts] accepts static AWS key credentials without loading the credential chain",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts:5] accepts static AWS key credentials without loading the credential chain",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/embedding-provider.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts] accepts the Bedrock bearer token without loading the credential chain",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts:21] accepts the Bedrock bearer token without loading the credential chain",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/embedding-provider.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts] requires AWS profile credentials to resolve through the credential chain",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts:36] requires AWS profile credentials to resolve through the credential chain",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/embedding-provider.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts] rejects AWS profile markers when the credential chain cannot resolve",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts:48] rejects AWS profile markers when the credential chain cannot resolve",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/embedding-provider.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts] returns false when the AWS credential provider package is unavailable",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/embedding-provider.test.ts:60] returns false when the AWS credential provider package is unavailable",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/embedding-provider.test.ts:60",
                "upstream it() block #4",

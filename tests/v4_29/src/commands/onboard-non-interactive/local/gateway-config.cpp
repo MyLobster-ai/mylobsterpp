@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] preserves existing plaintext gateway.auth.token when no flag or env override is provided",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:84] preserves existing plaintext gateway.auth.token when no flag or env override is provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] prefers existing plaintext token over ambient OPENCLAW_GATEWAY_TOKEN on re-onboard",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:93] prefers existing plaintext token over ambient OPENCLAW_GATEWAY_TOKEN on re-onboard",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] prefers --gateway-token flag over existing plaintext token",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:105] prefers --gateway-token flag over existing plaintext token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] uses OPENCLAW_GATEWAY_TOKEN to fill an empty config on first-run",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:117] uses OPENCLAW_GATEWAY_TOKEN to fill an empty config on first-run",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] generates a random token only when flag, env, and existing config are all empty",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:126] generates a random token only when flag, env, and existing config are all empty",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:126",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] preserves an existing SecretRef when no flag or env override is provided",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:135] preserves an existing SecretRef when no flag or env override is provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:135",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] preserves an existing SecretRef even when ambient OPENCLAW_GATEWAY_TOKEN is set",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:144] preserves an existing SecretRef even when ambient OPENCLAW_GATEWAY_TOKEN is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:144",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] leaves env-source SecretRef resolution to the health probe path",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:155] leaves env-source SecretRef resolution to the health probe path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] overrides an existing SecretRef when --gateway-token flag is provided",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:165] overrides an existing SecretRef when --gateway-token flag is provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:165",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] overrides an existing SecretRef when --gateway-token-ref-env is provided",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:177] overrides an existing SecretRef when --gateway-token-ref-env is provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:177",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts] fails when --gateway-token-ref-env points to a missing env var",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/gateway-config.test.ts:197] fails when --gateway-token-ref-env points to a missing env var",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/gateway-config.test.ts:197",
                "upstream it() block #10",

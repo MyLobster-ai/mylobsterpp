@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] recovers mixed-output Claude session metadata from embedded JSON objects",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:11] recovers mixed-output Claude session metadata from embedded JSON objects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] parses Gemini CLI response text and stats payloads",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:38] parses Gemini CLI response text and stats payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] falls back to input_tokens minus cached when Gemini stats omit input",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:71] falls back to input_tokens minus cached when Gemini stats omit input",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] falls back to Gemini stats when usage exists without token fields",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:94] falls back to Gemini stats when usage exists without token fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] unwraps nested Claude result JSON from JSON output",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:128] unwraps nested Claude result JSON from JSON output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] does not unwrap nested result-shaped JSON for non-claude json backends",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:156] does not unwrap nested result-shaped JSON for non-claude json backends",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] parses nested OpenAI-style cached token details from CLI json payloads",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:184] parses nested OpenAI-style cached token details from CLI json payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:184",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] parses Claude stream-json result events",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:219] parses Claude stream-json result events",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:219",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] parses Claude stream-json result events for an explicit backend dialect",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:255] parses Claude stream-json result events for an explicit backend dialect",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:255",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] preserves Claude cache creation tokens instead of flattening them to zero",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:282] preserves Claude cache creation tokens instead of flattening them to zero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:282",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] preserves Claude session metadata even when the final result text is empty",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:319] preserves Claude session metadata even when the final result text is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:319",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] unwraps nested Claude agent result JSON from stream-json output",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:354] unwraps nested Claude agent result JSON from stream-json output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:354",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] parses multiple JSON objects embedded on the same line",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:386] parses multiple JSON objects embedded on the same line",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:386",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] extracts nested Claude API errors from failed stream-json output",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:404] extracts nested Claude API errors from failed stream-json output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:404",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-output.test.ts] streams Claude stream-json deltas for an explicit backend dialect",
+TEST_CASE("v4.29 [src/agents/cli-output.test.ts:413] streams Claude stream-json deltas for an explicit backend dialect",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-output.test.ts:413",
                "upstream it() block #14",

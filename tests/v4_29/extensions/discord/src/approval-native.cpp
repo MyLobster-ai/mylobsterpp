@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] keeps approval availability enabled when approvers exist but native delivery is off",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:35] keeps approval availability enabled when approvers exist but native delivery is off",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] honors ownerAllowFrom fallback when gating approval requests",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:76] honors ownerAllowFrom fallback when gating approval requests",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] describes the correct Discord exec-approval setup path",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:101] describes the correct Discord exec-approval setup path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] describes the named-account Discord exec-approval setup path",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:112] describes the named-account Discord exec-approval setup path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] normalizes prefixed turn-source channel ids",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:124] normalizes prefixed turn-source channel ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] falls back to approver DMs for Discord DM sessions with raw turn-source ids",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:148] falls back to approver DMs for Discord DM sessions with raw turn-source ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] ignores session-store turn targets for Discord DM sessions",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:173] ignores session-store turn targets for Discord DM sessions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:173",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] accepts raw turn-source ids when a Discord channel session backs them",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:211] accepts raw turn-source ids when a Discord channel session backs them",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:211",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] falls back to extracting the channel id from the session key",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:236] falls back to extracting the channel id from the session key",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:236",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] preserves explicit turn-source thread ids on origin targets",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:258] preserves explicit turn-source thread ids on origin targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:258",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] falls back to extracting thread ids from the session key",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:284] falls back to extracting thread ids from the session key",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:284",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts] rejects origin delivery for requests bound to another Discord account",
+TEST_CASE("v4.29 [extensions/discord/src/approval-native.test.ts:306] rejects origin delivery for requests bound to another Discord account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/approval-native.test.ts:306",
                "upstream it() block #11",

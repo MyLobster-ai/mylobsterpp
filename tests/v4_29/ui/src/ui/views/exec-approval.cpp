@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] renders exec approval as a labelled modal",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:125] renders exec approval as a labelled modal",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] maps Escape to exec denial when approval is idle",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:144] maps Escape to exec denial when approval is idle",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] does not dispatch an extra exec decision from Escape while busy",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:155] does not dispatch an extra exec decision from Escape while busy",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:155",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] renders exec approval chrome from the active locale",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:170] renders exec approval chrome from the active locale",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:170",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] uses the shared modal primitive for gateway URL confirmation and cancels on Escape",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:212] uses the shared modal primitive for gateway URL confirmation and cancels on Escape",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:212",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] uses the shared modal primitive for dreaming restart confirmation and cancels on Escape",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:231] uses the shared modal primitive for dreaming restart confirmation and cancels on Escape",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:231",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts] does not cancel dreaming restart from Escape while loading",
+TEST_CASE("v4.29 [ui/src/ui/views/exec-approval.test.ts:252] does not cancel dreaming restart from Escape while loading",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/exec-approval.test.ts:252",
                "upstream it() block #6",

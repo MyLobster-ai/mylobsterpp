@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts] warns when mutable allowlist entries rely on disabled name matching",
+TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts:5] warns when mutable allowlist entries rely on disabled name matching",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/doctor.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts] normalizes legacy slack streaming aliases into the nested streaming shape",
+TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts:37] normalizes legacy slack streaming aliases into the nested streaming shape",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/doctor.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts] does not duplicate streaming.mode change messages when streamMode wins over boolean streaming",
+TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts:91] does not duplicate streaming.mode change messages when streamMode wins over boolean streaming",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/doctor.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts] moves legacy channel allow toggles into enabled",
+TEST_CASE("v4.29 [extensions/slack/src/doctor.test.ts:118] moves legacy channel allow toggles into enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/doctor.test.ts:118",
                "upstream it() block #3",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/docs-path.test.ts] uses the workspace docs directory when it has canonical docs metadata",
+TEST_CASE("v4.29 [src/agents/docs-path.test.ts:23] uses the workspace docs directory when it has canonical docs metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/docs-path.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/docs-path.test.ts] finds bundled package docs from a nested package path",
+TEST_CASE("v4.29 [src/agents/docs-path.test.ts:32] finds bundled package docs from a nested package path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/docs-path.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/docs-path.test.ts] does not accept incomplete template-only docs directories",
+TEST_CASE("v4.29 [src/agents/docs-path.test.ts:41] does not accept incomplete template-only docs directories",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/docs-path.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/docs-path.test.ts] returns the package root only for git checkouts",
+TEST_CASE("v4.29 [src/agents/docs-path.test.ts:50] returns the package root only for git checkouts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/docs-path.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/docs-path.test.ts] omits source path for npm-style package installs",
+TEST_CASE("v4.29 [src/agents/docs-path.test.ts:57] omits source path for npm-style package installs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/docs-path.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/docs-path.test.ts] returns docs and local source together for git checkouts",
+TEST_CASE("v4.29 [src/agents/docs-path.test.ts:65] returns docs and local source together for git checkouts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/docs-path.test.ts:65",
                "upstream it() block #5",

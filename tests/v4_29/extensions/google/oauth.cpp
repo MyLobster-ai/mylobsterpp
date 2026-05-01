@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] uses GOOGLE_GENAI_USE_GCA as an oauth-personal fallback when settings are absent",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:79] uses GOOGLE_GENAI_USE_GCA as an oauth-personal fallback when settings are absent",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] prefers settings auth selection over the GOOGLE_GENAI_USE_GCA fallback",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:86] prefers settings auth selection over the GOOGLE_GENAI_USE_GCA fallback",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] reads the nested security auth selection from ~/.gemini/settings.json",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:102] reads the nested security auth selection from ~/.gemini/settings.json",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] falls back to legacy top-level selectedAuthType keys",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:117] falls back to legacy top-level selectedAuthType keys",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] returns null when gemini binary is not in PATH",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:447] returns null when gemini binary is not in PATH",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:447",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] extracts credentials from oauth2.js in known path",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:455] extracts credentials from oauth2.js in known path",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:455",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] extracts credentials when PATH entry is an npm global shim",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:464] extracts credentials when PATH entry is an npm global shim",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:464",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] extracts credentials from bundled npm installs",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:473] extracts credentials from bundled npm installs",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:473",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] extracts credentials from Homebrew libexec installs",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:487] extracts credentials from Homebrew libexec installs",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:487",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] returns null when oauth2.js cannot be found",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:496] returns null when oauth2.js cannot be found",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:496",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] returns null when oauth2.js lacks credentials",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:503] returns null when oauth2.js lacks credentials",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:503",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] caches credentials after first extraction",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:510] caches credentials after first extraction",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:510",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] skips unrelated oauth2.js files when gemini resolves inside a Windows nvm root",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:526] skips unrelated oauth2.js files when gemini resolves inside a Windows nvm root",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:526",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] falls back across loadCodeAssist endpoints with aligned headers and metadata",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:729] falls back across loadCodeAssist endpoints with aligned headers and metadata",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:729",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] keeps OAuth state separate from the PKCE verifier during manual login",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:767] keeps OAuth state separate from the PKCE verifier during manual login",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:767",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] rejects manual callback input when the returned state does not match",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:791] rejects manual callback input when the returned state does not match",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:791",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] falls back to GOOGLE_CLOUD_PROJECT when all loadCodeAssist endpoints fail",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:807] falls back to GOOGLE_CLOUD_PROJECT when all loadCodeAssist endpoints fail",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:807",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/oauth.test.ts] skips loadCodeAssist entirely when Gemini CLI is configured for personal OAuth",
+TEST_CASE("v4.29 [extensions/google/oauth.test.ts:822] skips loadCodeAssist entirely when Gemini CLI is configured for personal OAuth",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/oauth.test.ts:822",
                "upstream it() block #17",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts] reuses the cached session key for repeat transcript lookups",
+TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts:48] reuses the cached session key for repeat transcript lookups",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-transcript-key.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts] drops stale cached mappings and falls back to the current store contents",
+TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts:74] drops stale cached mappings and falls back to the current store contents",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-transcript-key.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts] returns undefined for blank transcript paths",
+TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts:112] returns undefined for blank transcript paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-transcript-key.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts] prefers the deterministic session key when duplicate sessionIds share a transcript path",
+TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts:117] prefers the deterministic session key when duplicate sessionIds share a transcript path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-transcript-key.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts] prefers the freshest matching session when different sessionIds share a transcript path",
+TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts:131] prefers the freshest matching session when different sessionIds share a transcript path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-transcript-key.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts] evicts oldest entry when cache exceeds 256 entries (#63643)",
+TEST_CASE("v4.29 [src/gateway/session-transcript-key.test.ts:145] evicts oldest entry when cache exceeds 256 entries (#63643)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-transcript-key.test.ts:145",
                "upstream it() block #5",

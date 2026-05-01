@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] falls back to DM chatGuid handle when sender handle is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:16] falls back to DM chatGuid handle when sender handle is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] marks explicit sender handles as explicit identity",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:30] marks explicit sender handles as explicit identity",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] does not infer sender from group chatGuid when sender handle is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:48] does not infer sender from group chatGuid when sender handle is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] accepts array-wrapped payload data",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:64] accepts array-wrapped payload data",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] normalizes participant handles from the handles field",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:82] normalizes participant handles from the handles field",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] normalizes participant handles from the participantHandles field",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:106] normalizes participant handles from the participantHandles field",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:106",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts] falls back to DM chatGuid handle when reaction sender handle is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-normalize.test.ts:126] falls back to DM chatGuid handle when reaction sender handle is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-normalize.test.ts:126",
                "upstream it() block #6",

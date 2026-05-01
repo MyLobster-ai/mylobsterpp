@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] applies the default retry config when none is provided",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:48] applies the default retry config when none is provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] respects explicit retry config overrides",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:54] respects explicit retry config overrides",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] passes merged options into WebClient",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:61] passes merged options into WebClient",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] applies the write retry config when none is provided",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:73] applies the write retry config when none is provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] serializes write client requests by default",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:79] serializes write client requests by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] respects explicit write client concurrency overrides",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:85] respects explicit write client concurrency overrides",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:85",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] passes no-retry config into the write client by default",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:91] passes no-retry config into the write client by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:91",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] reuses default write clients per token",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:104] reuses default write clients per token",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:104",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] keeps default write clients separated by token",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:119] keeps default write clients separated by token",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:119",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] builds stable non-secret token cache keys",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:127] builds stable non-secret token cache keys",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:127",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] sets agent from HTTPS_PROXY env var",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:167] sets agent from HTTPS_PROXY env var",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:167",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] falls back to HTTP_PROXY when HTTPS_PROXY is not set",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:175] falls back to HTTP_PROXY when HTTPS_PROXY is not set",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:175",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] does not set agent when no proxy env var is configured",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:182] does not set agent when no proxy env var is configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:182",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] does not override an explicitly provided agent",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:188] does not override an explicitly provided agent",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:188",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] prefers lowercase https_proxy over uppercase",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:196] prefers lowercase https_proxy over uppercase",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:196",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] treats empty lowercase https_proxy as authoritative over uppercase",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:208] treats empty lowercase https_proxy as authoritative over uppercase",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:208",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] also applies proxy agent to write client options",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:216] also applies proxy agent to write client options",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:216",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] respects NO_PROXY excluding slack.com",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:224] respects NO_PROXY excluding slack.com",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:224",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] respects no_proxy (lowercase) excluding .slack.com",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:232] respects no_proxy (lowercase) excluding .slack.com",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:232",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] respects space-separated no_proxy entries",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:240] respects space-separated no_proxy entries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:240",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] respects NO_PROXY wildcard",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:248] respects NO_PROXY wildcard",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:248",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] does not skip proxy when NO_PROXY excludes unrelated hosts",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:256] does not skip proxy when NO_PROXY excludes unrelated hosts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:256",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/client.test.ts] degrades gracefully on malformed proxy URL",
+TEST_CASE("v4.29 [extensions/slack/src/client.test.ts:264] degrades gracefully on malformed proxy URL",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/client.test.ts:264",
                "upstream it() block #22",

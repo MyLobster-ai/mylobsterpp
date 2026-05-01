@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts] uses --ignore-scripts for npm pack and cleans up temp dir",
+TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts:100] uses --ignore-scripts for npm pack and cleans up temp dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.npm-spec.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts] allows npm-spec installs with dangerous code patterns when forced unsafe install is set",
+TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts:166] allows npm-spec installs with dangerous code patterns when forced unsafe install is set",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.npm-spec.test.ts:166",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts] rejects non-registry npm specs",
+TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts:243] rejects non-registry npm specs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.npm-spec.test.ts:243",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts] aborts when integrity drift callback rejects the fetched artifact",
+TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts:252] aborts when integrity drift callback rejects the fetched artifact",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.npm-spec.test.ts:252",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts] classifies npm package-not-found errors with a stable error code",
+TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts:277] classifies npm package-not-found errors with a stable error code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.npm-spec.test.ts:277",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts] handles prerelease npm specs correctly",
+TEST_CASE("v4.29 [src/plugins/install.npm-spec.test.ts:298] handles prerelease npm specs correctly",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.npm-spec.test.ts:298",
                "upstream it() block #5",

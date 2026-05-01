@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] normalizes config + store allow entries and counts distinct senders",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:57] normalizes config + store allow entries and counts distinct senders",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] handles empty allowlists and store failures",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:71] handles empty allowlists and store failures",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] does not count pairing-store senders for allowlist DM policy",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:86] does not count pairing-store senders for allowlist DM policy",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] builds effective DM/group allowlists from config + pairing store",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:133] builds effective DM/group allowlists from config + pairing store",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:133",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] falls back to DM allowlist for groups when groupAllowFrom is empty",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:143] falls back to DM allowlist for groups when groupAllowFrom is empty",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] can keep group allowlist empty when fallback is disabled",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:153] can keep group allowlist empty when fallback is disabled",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] infers pinned main DM owner from a single configured allowlist entry",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:164] infers pinned main DM owner from a single configured allowlist entry",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] excludes storeAllowFrom when dmPolicy is allowlist",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:203] excludes storeAllowFrom when dmPolicy is allowlist",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:203",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] excludes pairing-store entries when dmPolicy is open",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:214] excludes pairing-store entries when dmPolicy is open",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:214",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] keeps group allowlist explicit when dmPolicy is pairing",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:225] keeps group allowlist explicit when dmPolicy is pairing",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:225",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] resolves access + effective allowlists in one shared call",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:236] resolves access + effective allowlists in one shared call",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:236",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] resolves command gate with dm/group parity for groups",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:253] resolves command gate with dm/group parity for groups",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:253",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] keeps configured dm allowlist usable for group command auth",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:264] keeps configured dm allowlist usable for group command auth",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:264",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] treats dm command authorization as dm access result",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:279] treats dm command authorization as dm access result",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:279",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] does not auto-authorize dm commands in open mode without explicit allowlists",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:289] does not auto-authorize dm commands in open mode without explicit allowlists",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:289",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] allows open-mode DMs only for wildcard or matching allowlist entries",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:307] allows open-mode DMs only for wildcard or matching allowlist entries",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:307",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts] keeps allowlist mode strict in shared resolver (no pairing-store fallback)",
+TEST_CASE("v4.29 [src/security/dm-policy-shared.test.ts:328] keeps allowlist mode strict in shared resolver (no pairing-store fallback)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/dm-policy-shared.test.ts:328",
                "upstream it() block #16",

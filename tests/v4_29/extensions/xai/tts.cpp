@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/tts.test.ts] accepts all valid voices",
+TEST_CASE("v4.29 [extensions/xai/tts.test.ts:13] accepts all valid voices",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/tts.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/tts.test.ts] rejects invalid voice names",
+TEST_CASE("v4.29 [extensions/xai/tts.test.ts:19] rejects invalid voice names",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/tts.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/tts.test.ts] treats custom endpoints as permissive",
+TEST_CASE("v4.29 [extensions/xai/tts.test.ts:27] treats custom endpoints as permissive",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/tts.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/tts.test.ts] includes parsed provider detail and request id for JSON API errors",
+TEST_CASE("v4.29 [extensions/xai/tts.test.ts:33] includes parsed provider detail and request id for JSON API errors",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/tts.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/tts.test.ts] falls back to raw body text when the error body is non-JSON",
+TEST_CASE("v4.29 [extensions/xai/tts.test.ts:70] falls back to raw body text when the error body is non-JSON",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/tts.test.ts:70",
                "upstream it() block #4",

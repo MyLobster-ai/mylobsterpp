@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] retries getFile on transient failure and succeeds on second attempt",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:211] retries getFile on transient failure and succeeds on second attempt",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:211",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] does not catch errors from fetchRemoteMedia (only getFile is retried)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:232] does not catch errors from fetchRemoteMedia (only getFile is retried)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:232",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] does not retry ",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:243] does not retry ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:243",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] does not retry ",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:255] does not retry ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:255",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] throws when getFile returns no file_path",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:279] throws when getFile returns no file_path",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:279",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] still retries transient errors even after encountering file too big in different call",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:287] still retries transient errors even after encountering file too big in different call",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:287",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] retries getFile for stickers on transient failure",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:293] retries getFile for stickers on transient failure",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:293",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] returns null for sticker when getFile exhausts retries",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:320] returns null for sticker when getFile exhausts retries",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:320",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] uses caller-provided fetch impl for file downloads",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:332] uses caller-provided fetch impl for file downloads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:332",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] uses caller-provided fetch impl for sticker downloads",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:380] uses caller-provided fetch impl for sticker downloads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:380",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] allows an explicit Telegram apiRoot host without broadening the default SSRF allowlist",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:406] allows an explicit Telegram apiRoot host without broadening the default SSRF allowlist",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:406",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] copies trusted local absolute file paths into inbound media storage for media downloads",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:436] copies trusted local absolute file paths into inbound media storage for media downloads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:436",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] copies trusted local absolute file paths into inbound media storage for sticker downloads",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:475] copies trusted local absolute file paths into inbound media storage for sticker downloads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:475",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] maps trusted local absolute path read failures to MediaFetchError",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:514] maps trusted local absolute path read failures to MediaFetchError",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:514",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] maps oversized trusted local absolute path reads to MediaFetchError",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:531] maps oversized trusted local absolute path reads to MediaFetchError",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:531",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] rejects absolute Bot API file paths outside trustedLocalFileRoots",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:548] rejects absolute Bot API file paths outside trustedLocalFileRoots",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:548",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] passes document.file_name to saveMediaBuffer instead of server-side path",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:577] passes document.file_name to saveMediaBuffer instead of server-side path",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:577",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] passes audio.file_name to saveMediaBuffer",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:602] passes audio.file_name to saveMediaBuffer",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:602",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] passes video.file_name to saveMediaBuffer",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:627] passes video.file_name to saveMediaBuffer",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:627",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] falls back to fetched.fileName when telegram file_name is absent",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:652] falls back to fetched.fileName when telegram file_name is absent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:652",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] falls back to filePath when neither telegram nor fetched fileName is available",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:669] falls back to filePath when neither telegram nor fetched fileName is available",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:669",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] allows a configured custom apiRoot host while keeping the hostname allowlist",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:686] allows a configured custom apiRoot host while keeping the hostname allowlist",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:686",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] opts into private-network Telegram media downloads only when explicitly configured",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:707] opts into private-network Telegram media downloads only when explicitly configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:707",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] constructs correct download URL with custom apiRoot for documents",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:726] constructs correct download URL with custom apiRoot for documents",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:726",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts] constructs correct download URL with custom apiRoot for stickers",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:743] constructs correct download URL with custom apiRoot for stickers",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/delivery.resolve-media-retry.test.ts:743",
                "upstream it() block #24",

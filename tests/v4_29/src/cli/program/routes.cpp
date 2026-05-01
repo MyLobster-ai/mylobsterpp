@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] matches status route without plugin preload",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:73] matches status route without plugin preload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] matches health route without plugin preload",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:78] matches health route without plugin preload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] matches channel read-only routes without plugin preload",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:83] matches channel read-only routes without plugin preload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] matches agents read-only routes without plugin preload",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:88] matches agents read-only routes without plugin preload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes parsed agents list flags through",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:93] passes parsed agents list flags through",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes parsed channel read-only route flags through",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:116] passes parsed channel read-only route flags through",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:116",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] matches gateway status route without plugin preload",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:145] matches gateway status route without plugin preload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for gateway status route when option values are missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:150] returns false for gateway status route when option values are missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:150",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for gateway status route when probe-only flags are present",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:166] returns false for gateway status route when probe-only flags are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:166",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes parsed gateway status flags through to daemon status",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:181] passes parsed gateway status flags through to daemon status",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:181",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes --no-probe through to daemon status",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:218] passes --no-probe through to daemon status",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:218",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false when status timeout flag value is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:238] returns false when status timeout flag value is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:238",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] routes status --json through the lean JSON command",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:242] routes status --json through the lean JSON command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:242",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for sessions route when --store value is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:262] returns false for sessions route when --store value is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:262",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for sessions route when --active value is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:266] returns false for sessions route when --active value is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:266",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for sessions route when --agent value is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:270] returns false for sessions route when --agent value is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:270",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] does not fast-route sessions subcommands",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:274] does not fast-route sessions subcommands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:274",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] does not match unknown routes",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:278] does not match unknown routes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:278",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for config get route when path argument is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:282] returns false for config get route when path argument is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:282",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for config unset route when path argument is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:286] returns false for config unset route when path argument is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:286",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes config get path correctly when root option values precede command",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:290] passes config get path correctly when root option values precede command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:290",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes config unset path correctly when root option values precede command",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:307] passes config unset path correctly when root option values precede command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:307",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes config get path when root value options appear after subcommand",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:315] passes config get path when root value options appear after subcommand",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:315",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] passes config unset path when root value options appear after subcommand",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:332] passes config unset path when root value options appear after subcommand",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:332",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for config get route when unknown option appears",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:340] returns false for config get route when unknown option appears",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:340",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for models list route when --provider value is missing",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:347] returns false for models list route when --provider value is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:347",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for models status route when probe flags are missing values",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:351] returns false for models status route when probe flags are missing values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:351",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for models status route when --probe-profile has no value",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:374] returns false for models status route when --probe-profile has no value",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:374",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] accepts negative-number probe profile values",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:381] accepts negative-number probe profile values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:381",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] routes tasks list JSON through the lean task JSON command",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:416] routes tasks list JSON through the lean task JSON command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:416",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] routes parent task filter values that command-path discovery sees as positionals",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:447] routes parent task filter values that command-path discovery sees as positionals",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:447",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] routes tasks audit JSON through the lean task JSON command",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:489] routes tasks audit JSON through the lean task JSON command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:489",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/routes.test.ts] returns false for task JSON routes when option values are missing or unknown",
+TEST_CASE("v4.29 [src/cli/program/routes.test.ts:513] returns false for task JSON routes when option values are missing or unknown",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/routes.test.ts:513",
                "upstream it() block #32",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] repairs legacy cron store fields and migrates notify fallback to webhook delivery",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:80] repairs legacy cron store fields and migrates notify fallback to webhook delivery",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] repairs malformed persisted cron ids before list rendering sees them",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:124] repairs malformed persisted cron ids before list rendering sees them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] warns instead of replacing announce delivery for notify fallback jobs",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:162] warns instead of replacing announce delivery for notify fallback jobs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:162",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] does not auto-repair in non-interactive mode without explicit repair approval",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:215] does not auto-repair in non-interactive mode without explicit repair approval",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:215",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] migrates notify fallback none delivery jobs to cron.webhook",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:243] migrates notify fallback none delivery jobs to cron.webhook",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:243",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] repairs legacy root delivery threadId hints into delivery",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:295] repairs legacy root delivery threadId hints into delivery",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:295",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts] rewrites stale managed dreaming jobs to the isolated agentTurn shape",
+TEST_CASE("v4.29 [src/commands/doctor-cron.test.ts:338] rewrites stale managed dreaming jobs to the isolated agentTurn shape",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron.test.ts:338",
                "upstream it() block #6",

@@ -5,348 +5,348 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] spawns ACP session, binds a new thread, and dispatches initial task",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:670] spawns ACP session, binds a new thread, and dispatches initial task",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:670",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] allows ACP resume IDs recorded for the requester session",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:730] allows ACP resume IDs recorded for the requester session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:730",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects ACP resume IDs not recorded for the requester session",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:774] rejects ACP resume IDs not recorded for the requester session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:774",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] passes model and thinking overrides into ACP session initialization",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:817] passes model and thinking overrides into ACP session initialization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:817",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] applies ACP spawn run timeout to runtime options and dispatch",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:843] applies ACP spawn run timeout to runtime options and dispatch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:843",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects OpenClaw config agent ids when runtime=acp targets a native agent",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:870] rejects OpenClaw config agent ids when runtime=acp targets a native agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:870",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] maps OpenClaw ACP runtime agent aliases to their configured harness id",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:910] maps OpenClaw ACP runtime agent aliases to their configured harness id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:910",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] inherits subagent envelope fields onto ACP children",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:953] inherits subagent envelope fields onto ACP children",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:953",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects ACP spawns that exceed subagent max depth",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:985] rejects ACP spawns that exceed subagent max depth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:985",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects ACP spawns that exceed subagent child caps",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1009] rejects ACP spawns that exceed subagent child caps",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1009",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] counts streamTo=",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1034] counts streamTo=",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1034",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not double-count duplicate ACP task rows for the same child session",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1070] does not double-count duplicate ACP task rows for the same child session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1070",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not double-count ACP task rows for active registry-tracked ACP children",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1109] does not double-count ACP task rows for active registry-tracked ACP children",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1109",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects ACP spawns to agents outside the subagent allowlist",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1152] rejects ACP spawns to agents outside the subagent allowlist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1152",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects explicit ACP self-targets when the subagent allowlist excludes the requester",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1191] rejects explicit ACP self-targets when the subagent allowlist excludes the requester",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1191",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] spawns Matrix thread-bound ACP sessions from top-level room targets",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1223] spawns Matrix thread-bound ACP sessions from top-level room targets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1223",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] keeps canonical Matrix room casing for ACP thread bindings",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1281] keeps canonical Matrix room casing for ACP thread bindings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1281",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] preserves Matrix parent room casing when binding from an existing thread",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1341] preserves Matrix parent room casing when binding from an existing thread",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1341",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] uses the target agent workspace for cross-agent ACP spawns when cwd is omitted",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1403] uses the target agent workspace for cross-agent ACP spawns when cwd is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1403",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] falls back to backend default cwd when the inherited target workspace does not exist",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1432] falls back to backend default cwd when the inherited target workspace does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1432",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] surfaces non-missing target workspace access failures instead of silently dropping cwd",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1464] surfaces non-missing target workspace access failures instead of silently dropping cwd",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1464",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] binds LINE ACP sessions to the current conversation when the channel has no native threads",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1497] binds LINE ACP sessions to the current conversation when the channel has no native threads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1497",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] binds ACP sessions through the configured default account when accountId is omitted",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1559] binds ACP sessions through the configured default account when accountId is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1559",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] uses the target agent",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1650] uses the target agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1650",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] preserves LINE fallback conversation precedence when groupId is present",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1835] preserves LINE fallback conversation precedence when groupId is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1835",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] keeps ACP spawn running when session-file persistence fails",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1932] keeps ACP spawn running when session-file persistence fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1932",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] includes cwd in ACP thread intro banner when provided at spawn time",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1958] includes cwd in ACP thread intro banner when provided at spawn time",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1958",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects disallowed ACP agents",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:1985] rejects disallowed ACP agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:1985",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] requires an explicit ACP agent when no config default exists",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2010] requires an explicit ACP agent when no config default exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2010",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] fails fast when Discord ACP thread spawn is disabled",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2023] fails fast when Discord ACP thread spawn is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2023",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] forbids ACP spawn from sandboxed requester sessions",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2053] forbids ACP spawn from sandboxed requester sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2053",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] forbids sandbox=",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2081] forbids sandbox=",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2081",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] streams ACP progress to parent when streamTo=",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2098] streams ACP progress to parent when streamTo=",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2098",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] implicitly streams mode=run ACP spawns for subagent requester sessions",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2155] implicitly streams mode=run ACP spawns for subagent requester sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2155",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream for ACP requester sessions inside a subagent envelope",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2239] does not implicitly stream for ACP requester sessions inside a subagent envelope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2239",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream when heartbeat target is not session-local",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2308] does not implicitly stream when heartbeat target is not session-local",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2308",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream when session scope is global",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2339] does not implicitly stream when session scope is global",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2339",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream for subagent requester sessions when heartbeat is disabled",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2373] does not implicitly stream for subagent requester sessions when heartbeat is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2373",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream for subagent requester sessions when heartbeat cadence is invalid",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2398] does not implicitly stream for subagent requester sessions when heartbeat cadence is invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2398",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream when heartbeats are runtime-disabled",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2428] does not implicitly stream when heartbeats are runtime-disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2428",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream for legacy subagent requester session keys",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2447] does not implicitly stream for legacy subagent requester session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2447",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream for subagent requester sessions with thread context",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2464] does not implicitly stream for subagent requester sessions with thread context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2464",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] does not implicitly stream for thread-bound subagent requester sessions",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2485] does not implicitly stream for thread-bound subagent requester sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2485",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] announces parent relay start only after successful child dispatch",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2518] announces parent relay start only after successful child dispatch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2518",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] binds Telegram forum-topic ACP sessions to the current topic",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2550] binds Telegram forum-topic ACP sessions to the current topic",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2550",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] drops self-parent Telegram current-conversation refs before binding",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2590] drops self-parent Telegram current-conversation refs before binding",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2590",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] preserves topic-qualified Telegram targets without a separate threadId",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2626] preserves topic-qualified Telegram targets without a separate threadId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2626",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] disposes pre-registered parent relay when initial ACP dispatch fails",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2657] disposes pre-registered parent relay when initial ACP dispatch fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2657",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts] rejects streamTo=",
+TEST_CASE("v4.29 [src/agents/acp-spawn.test.ts:2690] rejects streamTo=",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/acp-spawn.test.ts:2690",
                "upstream it() block #48",

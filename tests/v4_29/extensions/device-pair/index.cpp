@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] returns an inline QR image for webchat surfaces",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:255] returns an inline QR image for webchat surfaces",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:255",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects qr setup for internal gateway callers without operator.pairing",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:282] rejects qr setup for internal gateway callers without operator.pairing",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:282",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] reissues the bootstrap token if webchat QR rendering fails before falling back",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:299] reissues the bootstrap token if webchat QR rendering fails before falling back",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:299",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] reissues the bootstrap token after QR delivery failure before falling back",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:458] reissues the bootstrap token after QR delivery failure before falling back",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:458",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] falls back to the setup code instead of ASCII when the channel cannot send media",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:490] falls back to the setup code instead of ASCII when the channel cannot send media",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:490",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] supports invalidating unused setup codes",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:506] supports invalidating unused setup codes",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:506",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects cleanup for internal gateway callers without operator.pairing",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:520] rejects cleanup for internal gateway callers without operator.pairing",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:520",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] fails closed for cleanup when internal gateway scopes are absent",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:537] fails closed for cleanup when internal gateway scopes are absent",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:537",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects setup code issuance for internal gateway callers without operator.pairing",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:564] rejects setup code issuance for internal gateway callers without operator.pairing",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:564",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects unknown subcommands that fall back to setup code issuance without operator.pairing",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:581] rejects unknown subcommands that fall back to setup code issuance without operator.pairing",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:581",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] fails closed for webchat setup code issuance when scopes are absent",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:598] fails closed for webchat setup code issuance when scopes are absent",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:598",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] normalizes bare publicUrl host ports before issuing setup codes",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:615] normalizes bare publicUrl host ports before issuing setup codes",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:615",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects invalid bare publicUrl host ports",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:635] rejects invalid bare publicUrl host ports",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:635",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects invalid gateway.remote.url before falling back to bind-derived setup urls",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:654] rejects invalid gateway.remote.url before falling back to bind-derived setup urls",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:654",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] includes role and scopes for pending requests",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:713] includes role and scopes for pending requests",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:713",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] falls back to roles list and no scopes when role/scopes are absent",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:737] falls back to roles list and no scopes when role/scopes are absent",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:737",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects internal gateway callers without operator.pairing",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:760] rejects internal gateway callers without operator.pairing",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:760",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] allows internal gateway callers with operator.pairing",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:779] allows internal gateway callers with operator.pairing",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:779",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] does not force an empty caller scope context for external approvals",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:790] does not force an empty caller scope context for external approvals",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:790",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] fails closed for approvals when internal gateway scopes are absent",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:808] fails closed for approvals when internal gateway scopes are absent",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:808",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] rejects approvals that request scopes above the caller session",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:827] rejects approvals that request scopes above the caller session",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:827",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/device-pair/index.test.ts] preserves approvals for non-gateway command surfaces",
+TEST_CASE("v4.29 [extensions/device-pair/index.test.ts:844] preserves approvals for non-gateway command surfaces",
           "[v4_29][parity_gap][device-pair]") {
     PARITY_GAP("extensions/device-pair/index.test.ts:844",
                "upstream it() block #21",

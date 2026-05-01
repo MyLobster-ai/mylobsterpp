@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts] sends the default formatted transcript to the resolved origin",
+TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts:32] sends the default formatted transcript to the resolved origin",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/echo-transcript.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts] uses a custom format when provided",
+TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts:51] uses a custom format when provided",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/echo-transcript.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts] skips non-deliverable channels",
+TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts:66] skips non-deliverable channels",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/echo-transcript.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts] skips when ctx has no resolved destination",
+TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts:76] skips when ctx has no resolved destination",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/echo-transcript.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts] prefers OriginatingTo when From is absent",
+TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts:86] prefers OriginatingTo when From is absent",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/echo-transcript.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts] swallows delivery failures",
+TEST_CASE("v4.29 [src/media-understanding/echo-transcript.test.ts:100] swallows delivery failures",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/echo-transcript.test.ts:100",
                "upstream it() block #5",

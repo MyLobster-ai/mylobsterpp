@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts] uses open on macOS",
+TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts:26] uses open on macOS",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/config.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts] uses xdg-open on Linux",
+TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts:33] uses xdg-open on Linux",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/config.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts] uses a quoted PowerShell literal on Windows",
+TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts:40] uses a quoted PowerShell literal on Windows",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/config.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts] opens the configured file without shell interpolation",
+TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts:59] opens the configured file without shell interpolation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/config.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts] returns a generic error and logs details when the opener fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/config.test.ts:81] returns a generic error and logs details when the opener fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/config.test.ts:81",
                "upstream it() block #4",

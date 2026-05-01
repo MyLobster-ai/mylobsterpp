@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/allowlist-match.test.ts] reflects in-place allowFrom edits even when array length stays the same",
+TEST_CASE("v4.29 [src/channels/allowlist-match.test.ts:8] reflects in-place allowFrom edits even when array length stays the same",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlist-match.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlist-match.test.ts] drops wildcard access after in-place wildcard replacement",
+TEST_CASE("v4.29 [src/channels/allowlist-match.test.ts:29] drops wildcard access after in-place wildcard replacement",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlist-match.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlist-match.test.ts] recomputes candidate allowlist sets after in-place replacement",
+TEST_CASE("v4.29 [src/channels/allowlist-match.test.ts:50] recomputes candidate allowlist sets after in-place replacement",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlist-match.test.ts:50",
                "upstream it() block #2",

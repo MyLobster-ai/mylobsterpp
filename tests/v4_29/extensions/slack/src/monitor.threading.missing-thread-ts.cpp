@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.threading.missing-thread-ts.test.ts] recovers missing thread_ts when parent_user_id is present",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.threading.missing-thread-ts.test.ts:41] recovers missing thread_ts when parent_user_id is present",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.threading.missing-thread-ts.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.threading.missing-thread-ts.test.ts] continues without thread_ts when history lookup returns no thread result",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.threading.missing-thread-ts.test.ts:48] continues without thread_ts when history lookup returns no thread result",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.threading.missing-thread-ts.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.threading.missing-thread-ts.test.ts] continues without thread_ts when history lookup throws",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.threading.missing-thread-ts.test.ts:55] continues without thread_ts when history lookup throws",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.threading.missing-thread-ts.test.ts:55",
                "upstream it() block #2",

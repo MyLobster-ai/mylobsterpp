@@ -5,663 +5,663 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] registers a before_prompt_build hook",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:186] registers a before_prompt_build hook",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:186",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] registers before_prompt_build with the configured recall timeout plus setup grace",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:193] registers before_prompt_build with the configured recall timeout plus setup grace",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:193",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] runs recall without recording shared auth-profile failures",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:203] runs recall without recording shared auth-profile failures",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:203",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] registers a session-scoped active-memory toggle command",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:221] registers a session-scoped active-memory toggle command",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:221",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] supports an explicit global active-memory config toggle",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:301] supports an explicit global active-memory config toggle",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:301",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] uses live runtime config for before_prompt_build enablement",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:395] uses live runtime config for before_prompt_build enablement",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:395",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] fails closed when the live active-memory plugin entry is removed",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:424] fails closed when the live active-memory plugin entry is removed",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:424",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not run for agents that are not explicitly targeted",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:445] does not run for agents that are not explicitly targeted",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:445",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not rewrite session state for skipped turns with no active-memory entry to clear",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:460] does not rewrite session state for skipped turns with no active-memory entry to clear",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:460",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not run for non-interactive contexts",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:475] does not run for non-interactive contexts",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:475",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] defaults to direct-style sessions only",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:490] defaults to direct-style sessions only",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:490",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] treats non-webchat main sessions as direct chats under the default dmScope",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:506] treats non-webchat main sessions as direct chats under the default dmScope",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:506",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] treats non-default main session keys as direct chats",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:526] treats non-default main session keys as direct chats",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:526",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] runs for group sessions when group chat types are explicitly allowed",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:557] runs for group sessions when group chat types are explicitly allowed",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:557",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] runs for explicit sessions when explicit chat types are explicitly allowed",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:583] runs for explicit sessions when explicit chat types are explicitly allowed",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:583",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] keeps explicit session classification when the opaque session id contains chat-type tokens",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:607] keeps explicit session classification when the opaque session id contains chat-type tokens",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:607",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips group sessions whose conversation id is not in allowedChatIds",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:631] skips group sessions whose conversation id is not in allowedChatIds",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:631",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] runs for group sessions whose conversation id is in allowedChatIds",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:654] runs for group sessions whose conversation id is in allowedChatIds",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:654",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] treats allowedChatIds matching as case-insensitive",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:681] treats allowedChatIds matching as case-insensitive",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:681",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips sessions whose conversation id is in deniedChatIds even when chat type is allowed",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:704] skips sessions whose conversation id is in deniedChatIds even when chat type is allowed",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:704",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips sessions whose session key has no conversation id when allowedChatIds is non-empty",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:727] skips sessions whose session key has no conversation id when allowedChatIds is non-empty",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:727",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips direct-chat sessions whose conversation id is not in allowedChatIds",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:751] skips direct-chat sessions whose conversation id is not in allowedChatIds",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:751",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] runs for direct-chat sessions whose conversation id is explicitly in allowedChatIds",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:779] runs for direct-chat sessions whose conversation id is explicitly in allowedChatIds",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:779",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] matches per-peer direct session keys (agent:<id>:direct:<peer>)",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:806] matches per-peer direct session keys (agent:<id>:direct:<peer>)",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:806",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] matches per-account-channel-peer direct session keys (agent:<id>:<channel>:<account>:direct:<peer>)",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:830] matches per-account-channel-peer direct session keys (agent:<id>:<channel>:<account>:direct:<peer>)",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:830",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] strips :thread:<id> suffix before matching allowedChatIds (group)",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:855] strips :thread:<id> suffix before matching allowedChatIds (group)",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:855",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] strips :thread:<id> suffix before matching deniedChatIds (direct)",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:882] strips :thread:<id> suffix before matching deniedChatIds (direct)",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:882",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] injects system context on a successful recall hit",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:907] injects system context on a successful recall hit",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:907",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] lets active memory inherit the main QMD search mode when configured",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:953] lets active memory inherit the main QMD search mode when configured",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:953",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] frames the blocking memory subagent as a memory search agent for another model",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1013] frames the blocking memory subagent as a memory search agent for another model",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1013",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] defaults prompt style by query mode when no promptStyle is configured",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1067] defaults prompt style by query mode when no promptStyle is configured",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1067",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] honors an explicit promptStyle override",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1094] honors an explicit promptStyle override",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1094",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] keeps thinking off by default but allows an explicit thinking override",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1122] keeps thinking off by default but allows an explicit thinking override",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1122",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] allows appending extra prompt instructions without replacing the base prompt",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1166] allows appending extra prompt instructions without replacing the base prompt",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1166",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] allows replacing the base prompt while still appending conversation context",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1194] allows replacing the base prompt while still appending conversation context",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1194",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] preserves leading digits in a plain-text summary",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1224] preserves leading digits in a plain-text summary",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1224",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] preserves canonical parent session scope in the blocking memory subagent session key",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1251] preserves canonical parent session scope in the blocking memory subagent session key",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1251",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] falls back to the current session model when no plugin model is configured",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1268] falls back to the current session model when no plugin model is configured",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1268",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] infers the configured provider for bare active-memory default models",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1292] infers the configured provider for bare active-memory default models",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1292",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips recall when no model or explicit fallback resolves",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1339] skips recall when no model or explicit fallback resolves",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1339",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] uses config.modelFallback when no session or agent model resolves",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1361] uses config.modelFallback when no session or agent model resolves",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1361",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not use a built-in fallback model even when default-remote is configured",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1405] does not use a built-in fallback model even when default-remote is configured",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1405",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] persists a readable debug summary alongside the status line",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1427] persists a readable debug summary alongside the status line",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1427",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips newest memory_search toolResult entries that carry no debug payload",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1481] skips newest memory_search toolResult entries that carry no debug payload",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1481",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] replaces stale structured active-memory lines on a later empty run",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1529] replaces stale structured active-memory lines on a later empty run",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1529",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] returns nothing when the subagent says none",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1584] returns nothing when the subagent says none",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1584",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] returns partial transcript text on timeout when the subagent has already written assistant output",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1602] returns partial transcript text on timeout when the subagent has already written assistant output",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1602",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] returns partial transcript text on timeout when transcripts are temporary by default",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1664] returns partial transcript text on timeout when transcripts are temporary by default",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1664",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] keeps timeout status when the timeout transcript is empty",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1719] keeps timeout status when the timeout transcript is empty",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1719",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] keeps timeout status when the timeout transcript path does not exist",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1749] keeps timeout status when the timeout transcript path does not exist",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1749",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] returns partial transcript text when an aborted subagent rejects before the race timeout wins",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1776] returns partial transcript text when an aborted subagent rejects before the race timeout wins",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1776",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] keeps generic subagent errors unavailable without using partial transcript output",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1827] keeps generic subagent errors unavailable without using partial transcript output",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1827",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] bounds partial assistant transcript reads by character cap for large JSONL files",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1863] bounds partial assistant transcript reads by character cap for large JSONL files",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1863",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips malformed JSONL lines when reading partial assistant transcripts",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1892] skips malformed JSONL lines when reading partial assistant transcripts",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1892",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] honors transcript maxLines caps for partial text and search debug reads",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1915] honors transcript maxLines caps for partial text and search debug reads",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1915",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] caches ok and empty results but not timeout_partial results",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1960] caches ok and empty results but not timeout_partial results",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1960",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] caches empty recall results",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:1985] caches empty recall results",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:1985",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] surfaces timeout_partial summaries in status lines, metadata, and prompt prefixes",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2026] surfaces timeout_partial summaries in status lines, metadata, and prompt prefixes",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2026",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not cache timeout results",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2047] does not cache timeout results",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2047",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not share cached recall results across session-id-only contexts",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2099] does not share cached recall results across session-id-only contexts",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2099",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] ignores late subagent payloads once the active-memory timeout signal has fired",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2132] ignores late subagent payloads once the active-memory timeout signal has fired",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2132",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not spend the model timeout budget on active-memory subagent setup",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2173] does not spend the model timeout budget on active-memory subagent setup",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2173",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] returns timeout within a hard deadline even when the subagent never checks the abort signal",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2206] returns timeout within a hard deadline even when the subagent never checks the abort signal",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2206",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] returns undefined instead of throwing when an unexpected error escapes prompt building",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2245] returns undefined instead of throwing when an unexpected error escapes prompt building",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2245",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] honors configured timeoutMs values above the former 60 000 ms ceiling",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2263] honors configured timeoutMs values above the former 60 000 ms ceiling",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2263",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] clamps timeoutMs above the 120 000 ms ceiling to the ceiling",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2285] clamps timeoutMs above the 120 000 ms ceiling to the ceiling",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2285",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] sanitizes active-memory log fields onto a single line",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2307] sanitizes active-memory log fields onto a single line",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2307",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] caps active-memory log field lengths",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2341] caps active-memory log field lengths",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2341",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] uses a canonical agent session key when only sessionId is available",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2368] uses a canonical agent session key when only sessionId is available",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2368",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] uses the resolved canonical session key for non-webchat chat-type checks",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2400] uses the resolved canonical session key for non-webchat chat-type checks",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2400",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] surfaces memory embedding quota warnings in plugin trace lines",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2428] surfaces memory embedding quota warnings in plugin trace lines",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2428",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] prefers the resolved session channel over a wrapper channel hint",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2471] prefers the resolved session channel over a wrapper channel hint",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2471",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] preserves an explicit real channel hint over a stale stored wrapper channel",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2495] preserves an explicit real channel hint over a stale stored wrapper channel",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2495",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] preserves a direct explicit channel when weak legacy fallback disagrees",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2521] preserves a direct explicit channel when weak legacy fallback disagrees",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2521",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] clears stale status on skipped non-interactive turns even when agentId is missing",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2547] clears stale status on skipped non-interactive turns even when agentId is missing",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2547",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] supports message mode by sending only the latest user message",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2585] supports message mode by sending only the latest user message",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2585",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] supports full mode by sending the whole conversation",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2613] supports full mode by sending the whole conversation",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2613",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] strips prior memory/debug traces from assistant context before retrieval",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2644] strips prior memory/debug traces from assistant context before retrieval",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2644",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] strips prior active-memory prompt prefixes from user context before retrieval",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2698] strips prior active-memory prompt prefixes from user context before retrieval",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2698",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not drop ordinary user text when the active-memory tag appears inline without a matching block",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2740] does not drop ordinary user text when the active-memory tag appears inline without a matching block",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2740",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] does not drop ordinary user text that starts with active-memory-like prefixes",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2773] does not drop ordinary user text that starts with active-memory-like prefixes",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2773",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] trusts the subagent",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2812] trusts the subagent",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2812",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] applies total summary truncation after normalizing the subagent reply",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2835] applies total summary truncation after normalizing the subagent reply",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2835",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] uses the configured maxSummaryChars value in the subagent prompt",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2869] uses the configured maxSummaryChars value in the subagent prompt",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2869",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] keeps subagent transcripts off disk by default by using a temp session file",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2891] keeps subagent transcripts off disk by default by using a temp session file",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2891",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] persists subagent transcripts in a separate directory when enabled",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2917] persists subagent transcripts in a separate directory when enabled",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2917",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] falls back to the default transcript directory when transcriptDir is unsafe",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2961] falls back to the default transcript directory when transcriptDir is unsafe",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2961",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] scopes persisted subagent transcripts by agent",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:2998] scopes persisted subagent transcripts by agent",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:2998",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] sanitizes control characters out of debug lines",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:3035] sanitizes control characters out of debug lines",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:3035",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] caps the active-memory cache size and evicts the oldest entries",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:3067] caps the active-memory cache size and evicts the oldest entries",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:3067",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] skips recall after consecutive timeouts when circuit breaker trips (#74054)",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:3106] skips recall after consecutive timeouts when circuit breaker trips (#74054)",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:3106",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] resets circuit breaker after a successful recall",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:3159] resets circuit breaker after a successful recall",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:3159",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] normalizes circuit breaker config with defaults",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:3234] normalizes circuit breaker config with defaults",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:3234",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/active-memory/index.test.ts] clamps circuit breaker config within valid ranges",
+TEST_CASE("v4.29 [extensions/active-memory/index.test.ts:3240] clamps circuit breaker config within valid ranges",
           "[v4_29][parity_gap][active-memory]") {
     PARITY_GAP("extensions/active-memory/index.test.ts:3240",
                "upstream it() block #93",

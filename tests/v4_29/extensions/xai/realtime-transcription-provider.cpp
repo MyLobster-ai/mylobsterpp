@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts] normalizes provider config for voice-call streaming",
+TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts:95] normalizes provider config for voice-call streaming",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/realtime-transcription-provider.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts] streams raw binary audio and maps partial and final transcript events",
+TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts:126] streams raw binary audio and maps partial and final transcript events",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/realtime-transcription-provider.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts] rejects setup errors before the stream is ready",
+TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts:169] rejects setup errors before the stream is ready",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/realtime-transcription-provider.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts] accepts xAI realtime aliases",
+TEST_CASE("v4.29 [extensions/xai/realtime-transcription-provider.test.ts:195] accepts xAI realtime aliases",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/realtime-transcription-provider.test.ts:195",
                "upstream it() block #3",

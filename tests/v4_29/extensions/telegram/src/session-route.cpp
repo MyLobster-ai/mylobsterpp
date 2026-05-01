@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts] keeps direct topic thread ids in a thread session suffix",
+TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts:5] keeps direct topic thread ids in a thread session suffix",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/session-route.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts] recovers direct topic thread routes from currentSessionKey when the DM scope is isolated",
+TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts:19] recovers direct topic thread routes from currentSessionKey when the DM scope is isolated",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/session-route.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts] does not recover currentSessionKey threads for shared dmScope ",
+TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts:34] does not recover currentSessionKey threads for shared dmScope ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/session-route.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts] keeps group topic ids in the group peer route instead of adding a thread suffix",
+TEST_CASE("v4.29 [extensions/telegram/src/session-route.test.ts:49] keeps group topic ids in the group peer route instead of adding a thread suffix",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/session-route.test.ts:49",
                "upstream it() block #3",

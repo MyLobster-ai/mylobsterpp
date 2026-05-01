@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] returns empty list when no accounts configured",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:10] returns empty list when no accounts configured",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] returns default when top-level appId is set",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:14] returns default when top-level appId is set",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] lists named accounts",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:23] lists named accounts",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] resolves default account id to ",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:39] resolves default account id to ",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] honors configured defaultAccount",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:48] honors configured defaultAccount",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] falls back to first named account when no default configured",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:62] falls back to first named account when no default configured",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] resolves base account info for default account",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:75] resolves base account info for default account",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:75",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] resolves base account info for named account",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:95] resolves base account info for named account",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:95",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:116] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:116",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts] preserves audioFormatPolicy on the config object",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/resolve.test.ts:132] preserves audioFormatPolicy on the config object",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/resolve.test.ts:132",
                "upstream it() block #9",

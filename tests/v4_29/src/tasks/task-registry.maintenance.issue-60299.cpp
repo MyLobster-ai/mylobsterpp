@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] marks stale cron tasks lost once the runtime no longer tracks the job as active",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:165] marks stale cron tasks lost once the runtime no longer tracks the job as active",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:165",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] keeps active cron tasks live while the cron runtime still owns the job",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:182] keeps active cron tasks live while the cron runtime still owns the job",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:182",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] marks subagent tasks lost when their child session recovery is tombstoned",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:198] marks subagent tasks lost when their child session recovery is tombstoned",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:198",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] does not mark cron tasks lost when the current process is not the cron runtime authority",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:232] does not mark cron tasks lost when the current process is not the cron runtime authority",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] recovers finished cron tasks from durable run logs before marking them lost",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:249] recovers finished cron tasks from durable run logs before marking them lost",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] recovers interrupted cron tasks from durable cron job state when run logs are absent",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:293] recovers interrupted cron tasks from durable cron job state when run logs are absent",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:293",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] marks chat-backed cli tasks lost after the owning run context disappears",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:338] marks chat-backed cli tasks lost after the owning run context disappears",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:338",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] keeps chat-backed cli tasks live while the owning run context is still active",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:358] keeps chat-backed cli tasks live while the owning run context is still active",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:358",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] keeps detached media cli tasks live while their tool run context is active",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:379] keeps detached media cli tasks live while their tool run context is active",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:379",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] keeps recently refreshed media cli tasks live without a chat run context",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:403] keeps recently refreshed media cli tasks live without a chat run context",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:403",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts] skips markTaskLost and counts recovered when recovery hook recovers a stale task",
+TEST_CASE("v4.29 [src/tasks/task-registry.maintenance.issue-60299.test.ts:426] skips markTaskLost and counts recovered when recovery hook recovers a stale task",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.maintenance.issue-60299.test.ts:426",
                "upstream it() block #10",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] keeps web_search for non-xAI models",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:20] keeps web_search for non-xAI models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] keeps web_search for OpenRouter xAI model ids so OpenClaw tool routing stays authoritative",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:28] keeps web_search for OpenRouter xAI model ids so OpenClaw tool routing stays authoritative",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] keeps web_search for direct xai-capable models too",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:40] keeps web_search for direct xai-capable models too",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] removes managed web_search when native Codex search is active",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:51] removes managed web_search when native Codex search is active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] removes managed web_search for direct Codex models when auth is available",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:71] removes managed web_search for direct Codex models when auth is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] keeps managed web_search when Codex native search cannot activate",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:99] keeps managed web_search when Codex native search cannot activate",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] drops heavyweight tools when the experimental lean local-model flag is enabled",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:119] drops heavyweight tools when the experimental lean local-model flag is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:119",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts] keeps heavyweight tools when the experimental lean local-model flag is not enabled",
+TEST_CASE("v4.29 [src/agents/pi-tools.model-provider-collision.test.ts:147] keeps heavyweight tools when the experimental lean local-model flag is not enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.model-provider-collision.test.ts:147",
                "upstream it() block #7",

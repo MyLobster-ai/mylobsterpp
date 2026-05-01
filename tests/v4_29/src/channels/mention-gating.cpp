@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] combines explicit, implicit, and bypass mentions",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:10] combines explicit, implicit, and bypass mentions",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] skips when mention required and none detected",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:22] skips when mention required and none detected",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] does not skip when mention detection is unavailable",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:34] does not skip when mention detection is unavailable",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] allows matching implicit mention kinds by default",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:75] allows matching implicit mention kinds by default",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] filters implicit mention kinds through the allowlist",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:96] filters implicit mention kinds through the allowlist",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] blocks implicit mention kinds excluded by policy",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:117] blocks implicit mention kinds excluded by policy",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] dedupes repeated implicit mention kinds",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:139] dedupes repeated implicit mention kinds",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] keeps command bypass behavior unchanged",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:157] keeps command bypass behavior unchanged",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:157",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] does not allow command bypass when some other mention is present",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:178] does not allow command bypass when some other mention is present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] does not allow command bypass outside groups",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:199] does not allow command bypass outside groups",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:199",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] does not skip when mention detection is unavailable",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:220] does not skip when mention detection is unavailable",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:220",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] keeps the flat call shape for compatibility",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:238] keeps the flat call shape for compatibility",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:238",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] returns a one-item list when enabled",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:254] returns a one-item list when enabled",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:254",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/mention-gating.test.ts] returns an empty list when disabled",
+TEST_CASE("v4.29 [src/channels/mention-gating.test.ts:258] returns an empty list when disabled",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/mention-gating.test.ts:258",
                "upstream it() block #13",

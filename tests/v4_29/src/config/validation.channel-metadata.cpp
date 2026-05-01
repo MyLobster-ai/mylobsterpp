@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts] applies bundled channel defaults from plugin-owned schema metadata",
+TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts:152] applies bundled channel defaults from plugin-owned schema metadata",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.channel-metadata.test.ts:152",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts] still injects channel AJV defaults even in raw mode — persistence safety is handled by io.ts",
+TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts:171] still injects channel AJV defaults even in raw mode — persistence safety is handled by io.ts",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.channel-metadata.test.ts:171",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts] does not inject plugin AJV defaults in raw mode for plugin-owned config",
+TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts:199] does not inject plugin AJV defaults in raw mode for plugin-owned config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.channel-metadata.test.ts:199",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts] reuses the manifest registry loaded for compatibility during plugin validation",
+TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts:220] reuses the manifest registry loaded for compatibility during plugin validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.channel-metadata.test.ts:220",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts] uses a provided plugin metadata snapshot during plugin validation",
+TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts:238] uses a provided plugin metadata snapshot during plugin validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.channel-metadata.test.ts:238",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts] loads a plugin metadata snapshot once during plugin validation",
+TEST_CASE("v4.29 [src/config/validation.channel-metadata.test.ts:266] loads a plugin metadata snapshot once during plugin validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/validation.channel-metadata.test.ts:266",
                "upstream it() block #5",

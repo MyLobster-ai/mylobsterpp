@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] returns undefined for missing message",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:13] returns undefined for missing message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] returns undefined when body is blank",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:17] returns undefined when body is blank",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] extracts sender + plain text",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:26] extracts sender + plain text",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] strips HTML for html contentType",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:35] strips HTML for html contentType",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] collapses whitespace in text contentType",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:44] collapses whitespace in text contentType",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:44",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] falls back to application displayName",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:56] falls back to application displayName",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] falls back to unknown when sender is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:65] falls back to unknown when sender is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:65",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] truncates overly long parent text",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:73] truncates overly long parent text",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:73",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] formats as Replying to @sender: body",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:86] formats as Replying to @sender: body",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:86",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] invokes the fetcher on first call",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:98] invokes the fetcher on first call",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:98",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] returns cached value on repeat fetch without invoking fetcher",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:112] returns cached value on repeat fetch without invoking fetcher",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:112",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] caches undefined (Graph error) so failures do not re-fetch on burst",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:127] caches undefined (Graph error) so failures do not re-fetch on burst",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:127",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] scopes cache by groupId/channelId/parentId",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:138] scopes cache by groupId/channelId/parentId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:138",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] re-fetches after TTL expires",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:151] re-fetches after TTL expires",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:151",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] evicts oldest entries when exceeding the 100-entry cap",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:170] evicts oldest entries when exceeding the 100-entry cap",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:170",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] returns true for first observation",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:206] returns true for first observation",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:206",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] returns false after marking the same parent",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:210] returns false after marking the same parent",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:210",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] returns true again when a different parent appears in the session",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:215] returns true again when a different parent appears in the session",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:215",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts] dedupe is scoped per session key",
+TEST_CASE("v4.29 [extensions/msteams/src/thread-parent-context.test.ts:220] dedupe is scoped per session key",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/thread-parent-context.test.ts:220",
                "upstream it() block #18",

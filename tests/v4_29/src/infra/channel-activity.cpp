@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/channel-activity.test.ts] uses the default account for blank inputs and falls back to null timestamps",
+TEST_CASE("v4.29 [src/infra/channel-activity.test.ts:19] uses the default account for blank inputs and falls back to null timestamps",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/channel-activity.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/channel-activity.test.ts] keeps inbound and outbound timestamps independent and trims account ids",
+TEST_CASE("v4.29 [src/infra/channel-activity.test.ts:37] keeps inbound and outbound timestamps independent and trims account ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/channel-activity.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/channel-activity.test.ts] keeps activity isolated per account on the same channel",
+TEST_CASE("v4.29 [src/infra/channel-activity.test.ts:63] keeps activity isolated per account on the same channel",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/channel-activity.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/channel-activity.test.ts] reset clears previously recorded activity",
+TEST_CASE("v4.29 [src/infra/channel-activity.test.ts:87] reset clears previously recorded activity",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/channel-activity.test.ts:87",
                "upstream it() block #3",

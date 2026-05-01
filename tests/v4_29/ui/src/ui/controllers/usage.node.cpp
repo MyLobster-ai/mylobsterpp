@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] formats UTC offsets for whole and half-hour timezones",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:62] formats UTC offsets for whole and half-hour timezones",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] sends specific mode with browser offset when usage timezone is local",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:68] sends specific mode with browser offset when usage timezone is local",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] sends utc mode without offset when usage timezone is utc",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:78] sends utc mode without offset when usage timezone is utc",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] captures useful error strings in loadUsage",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:98] captures useful error strings in loadUsage",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] serializes non-Error objects without object-to-string coercion",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:109] serializes non-Error objects without object-to-string coercion",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:109",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] falls back and remembers compatibility when sessions.usage rejects mode/utcOffset",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:113] falls back and remembers compatibility when sessions.usage rejects mode/utcOffset",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] keeps optional loaders resilient when requests fail",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:170] keeps optional loaders resilient when requests fail",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:170",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts] normalizes usage logs payloads when logs is not an array",
+TEST_CASE("v4.29 [ui/src/ui/controllers/usage.node.test.ts:188] normalizes usage logs payloads when logs is not an array",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/usage.node.test.ts:188",
                "upstream it() block #7",

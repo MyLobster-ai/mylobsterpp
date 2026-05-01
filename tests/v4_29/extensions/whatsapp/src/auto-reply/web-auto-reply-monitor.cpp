@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] treats reply-to-bot as implicit mention",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:121] treats reply-to-bot as implicit mention",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] does not treat self-number quoted replies as implicit mention in selfChatMode groups",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:144] does not treat self-number quoted replies as implicit mention in selfChatMode groups",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] still treats reply-to-bot as implicit mention in selfChatMode when sender is a different user",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:178] still treats reply-to-bot as implicit mention in selfChatMode when sender is a different user",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:178",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] processes explicit group @mentions when self is in allowFrom (#49317)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:212] processes explicit group @mentions when self is in allowFrom (#49317)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] honors per-account selfChatMode overrides before suppressing implicit mentions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:251] honors per-account selfChatMode overrides before suppressing implicit mentions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:251",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] uses account-scoped groupPolicy and groupAllowFrom for named-account group gating",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:291] uses account-scoped groupPolicy and groupAllowFrom for named-account group gating",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:291",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] inherits group gating defaults from accounts.default for named accounts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:327] inherits group gating defaults from accounts.default for named accounts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:327",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] preserves allowFrom fallback for named-account group gating when groupAllowFrom is empty",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:363] preserves allowFrom fallback for named-account group gating when groupAllowFrom is empty",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:363",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] uses account-scoped allowFrom when bypassing mention gating for owner commands",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:400] uses account-scoped allowFrom when bypassing mention gating for owner commands",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:400",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] does not treat group mention gating as self-chat under implicit self fallback",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:428] does not treat group mention gating as self-chat under implicit self fallback",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:428",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] does not bypass mention gating for non-owner /new in group chats",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:470] does not bypass mention gating for non-owner /new in group chats",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:470",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] uses per-agent mention patterns for group gating (routing + mentionPatterns)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:494] uses per-agent mention patterns for group gating (routing + mentionPatterns)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:494",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] allows group messages when whatsapp groups default disables mention gating",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:556] allows group messages when whatsapp groups default disables mention gating",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:556",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] blocks group messages when whatsapp groups is set without a wildcard",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:575] blocks group messages when whatsapp groups is set without a wildcard",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:575",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] prefixes group messages with sender",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:601] prefixes group messages with sender",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:601",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] includes reply-to context blocks when replyToBody is present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:620] includes reply-to context blocks when replyToBody is present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:620",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] applies the WhatsApp messagePrefix when configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:641] applies the WhatsApp messagePrefix when configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:641",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] normalizes direct from labels by stripping whatsapp: prefix",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:657] normalizes direct from labels by stripping whatsapp: prefix",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:657",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] returns null when replyToBody is missing",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:676] returns null when replyToBody is missing",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:676",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts] uses unknown sender label when reply sender is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:680] uses unknown sender label when reply sender is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-monitor.test.ts:680",
                "upstream it() block #19",

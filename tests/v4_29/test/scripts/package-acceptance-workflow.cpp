@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] resolves candidate package sources before reusing Docker E2E lanes",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:12] resolves candidate package sources before reusing Docker E2E lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] offers bounded product profiles and can run Telegram against the resolved artifact",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:38] offers bounded product profiles and can run Telegram against the resolved artifact",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] lets reusable Docker E2E consume an already resolved package artifact",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:67] lets reusable Docker E2E consume an already resolved package artifact",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:67",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] bounds shared Docker image pulls so package acceptance cannot stall forever",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:98] bounds shared Docker image pulls so package acceptance cannot stall forever",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] uses Blacksmith Docker build caching for prepared E2E images",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:112] uses Blacksmith Docker build caching for prepared E2E images",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] shards broad native live tests instead of one serial live-all job",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:121] shards broad native live tests instead of one serial live-all job",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:121",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] runs Docker live harnesses from trusted helper scripts",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:207] runs Docker live harnesses from trusted helper scripts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] allows the Telegram lane to run from reusable package acceptance artifacts",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:279] allows the Telegram lane to run from reusable package acceptance artifacts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:279",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] includes package acceptance in release checks",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:293] includes package acceptance in release checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:293",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] detects Matrix fail-fast support for older release refs",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:342] detects Matrix fail-fast support for older release refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:342",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] names package acceptance Telegram as artifact-backed package validation",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:365] names package acceptance Telegram as artifact-backed package validation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:365",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] runs full release children from the trusted workflow ref",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:375] runs full release children from the trusted workflow ref",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:375",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] keeps release QA and repo E2E lanes off scarce 32-core runners",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:395] keeps release QA and repo E2E lanes off scarce 32-core runners",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:395",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts] summarizes queue time separately from execution time in full validation",
+TEST_CASE("v4.29 [test/scripts/package-acceptance-workflow.test.ts:423] summarizes queue time separately from execution time in full validation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/package-acceptance-workflow.test.ts:423",
                "upstream it() block #13",

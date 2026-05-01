@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tts/tts-config.test.ts] skips TTS when config, prefs, and session state leave auto mode off",
+TEST_CASE("v4.29 [src/tts/tts-config.test.ts:45] skips TTS when config, prefs, and session state leave auto mode off",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/tts-config.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/tts-config.test.ts] honors session auto state before prefs and config",
+TEST_CASE("v4.29 [src/tts/tts-config.test.ts:49] honors session auto state before prefs and config",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/tts-config.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/tts-config.test.ts] uses local prefs before config auto mode",
+TEST_CASE("v4.29 [src/tts/tts-config.test.ts:57] uses local prefs before config auto mode",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/tts-config.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/tts-config.test.ts] uses per-agent TTS auto and mode overrides",
+TEST_CASE("v4.29 [src/tts/tts-config.test.ts:69] uses per-agent TTS auto and mode overrides",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/tts-config.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/tts-config.test.ts] merges channel and account TTS overrides after agent overrides",
+TEST_CASE("v4.29 [src/tts/tts-config.test.ts:96] merges channel and account TTS overrides after agent overrides",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/tts-config.test.ts:96",
                "upstream it() block #4",

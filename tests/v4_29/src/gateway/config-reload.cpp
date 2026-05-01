@@ -5,334 +5,334 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] captures nested config changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:31] captures nested config changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] captures array changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:38] captures array changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] does not report unchanged arrays of objects as changed",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:45] does not report unchanged arrays of objects as changed",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] reports changed arrays of objects",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:69] reports changed arrays of objects",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] collapses changed agents.list heartbeat entries to agents.list",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:87] collapses changed agents.list heartbeat entries to agents.list",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] can emit duplicate path strings for install timestamp and dotted install id add",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:102] can emit duplicate path strings for install timestamp and dotted install id add",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:102",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] marks gateway changes as restart required",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:182] marks gateway changes as restart required",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts the gateway for browser plugin config changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:188] restarts the gateway for browser plugin config changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:188",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts the Gmail watcher for hooks.gmail changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:195] restarts the Gmail watcher for hooks.gmail changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:195",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts providers when provider config prefixes change",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:202] restarts providers when provider config prefixes change",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:202",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] refreshes channel reload rules when only the tracked channel registry changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:219] refreshes channel reload rules when only the tracked channel registry changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:219",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts heartbeat when model-related config changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:236] restarts heartbeat when model-related config changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:236",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] requires restart when model pricing bootstrap changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:248] requires restart when model pricing bootstrap changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:248",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts heartbeat when agents.defaults.models allowlist changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:256] restarts heartbeat when agents.defaults.models allowlist changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:256",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts heartbeat when agents.list entries change",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:264] restarts heartbeat when agents.list entries change",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:264",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] treats plugin install timestamp-only changes as no-op",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:272] treats plugin install timestamp-only changes as no-op",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:272",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] keeps colliding whole-record plugin install changes as restart reasons",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:284] keeps colliding whole-record plugin install changes as restart reasons",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:284",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] lists plugin install metadata and whole-record paths structurally",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:301] lists plugin install metadata and whole-record paths structurally",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:301",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] hot-reloads health monitor when channelHealthCheckMinutes changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:326] hot-reloads health monitor when channelHealthCheckMinutes changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:326",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] hot-reloads MCP config changes by disposing cached runtimes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:333] hot-reloads MCP config changes by disposing cached runtimes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:333",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] treats gateway.remote as no-op",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:340] treats gateway.remote as no-op",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:340",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] treats secrets config changes as no-op for gateway restart planning",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:346] treats secrets config changes as no-op for gateway restart planning",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:346",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] treats diagnostics.stuckSessionWarnMs as no-op for gateway restart planning",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:352] treats diagnostics.stuckSessionWarnMs as no-op for gateway restart planning",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:352",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts for gateway.auth.token changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:358] restarts for gateway.auth.token changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:358",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restarts for gateway.auth.mode changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:364] restarts for gateway.auth.mode changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:364",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] defaults unknown paths to restart",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:370] defaults unknown paths to restart",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:370",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] uses defaults when unset",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:452] uses defaults when unset",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:452",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] retries missing snapshots and reloads once config file reappears",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:605] retries missing snapshots and reloads once config file reappears",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:605",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] caps missing-file retries and skips reload after retry budget is exhausted",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:633] caps missing-file retries and skips reload after retry budget is exhausted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:633",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] contains restart callback failures and retries on subsequent changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:650] contains restart callback failures and retries on subsequent changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:650",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] restores last-known-good on invalid external config edits and reloads recovered snapshot",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:700] restores last-known-good on invalid external config edits and reloads recovered snapshot",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:700",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] queues restart in degraded mode for plugin-local invalid reloads",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:757] queues restart in degraded mode for plugin-local invalid reloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:757",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] promotes valid external config edits after they are accepted",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:846] promotes valid external config edits after they are accepted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:846",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] does not promote external config edits when hot reload rejects them",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:871] does not promote external config edits when hot reload rejects them",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:871",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] keeps accepted external config reloads applied when last-known-good promotion fails",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:898] keeps accepted external config reloads applied when last-known-good promotion fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:898",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] reuses in-process write notifications and dedupes watcher rereads by persisted hash",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:928] reuses in-process write notifications and dedupes watcher rereads by persisted hash",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:928",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] honors in-process write intent to skip reload",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:977] honors in-process write intent to skip reload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:977",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] honors in-process write intent to force restart",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1003] honors in-process write intent to force restart",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1003",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] plans in-process reloads from source config and ignores runtime materialized paths",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1028] plans in-process reloads from source config and ignores runtime materialized paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1028",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] does not suppress functional install changes that collide with timestamp paths",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1115] does not suppress functional install changes that collide with timestamp paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1115",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] skips in-process promotion when the persisted file hash no longer matches the write",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1169] skips in-process promotion when the persisted file hash no longer matches the write",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1169",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] dedupes the first watcher reread for startup internal writes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1198] dedupes the first watcher reread for startup internal writes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1198",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] does not dedupe when initialInternalWriteHash is null (#67436)",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1237] does not dedupe when initialInternalWriteHash is null (#67436)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1237",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] returns true when any path in the list matches",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1286] returns true when any path in the list matches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1286",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] returns false for empty input",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1296] returns false for empty input",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1296",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] bumps the skills snapshot version when skills.allowBundled changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1313] bumps the skills snapshot version when skills.allowBundled changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1313",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/config-reload.test.ts] does not bump the snapshot version when unrelated config changes",
+TEST_CASE("v4.29 [src/gateway/config-reload.test.ts:1338] does not bump the snapshot version when unrelated config changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/config-reload.test.ts:1338",
                "upstream it() block #46",

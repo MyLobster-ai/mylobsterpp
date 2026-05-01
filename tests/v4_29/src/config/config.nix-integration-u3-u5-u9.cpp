@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] isNixMode is false when OPENCLAW_NIX_MODE is not set",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:25] isNixMode is false when OPENCLAW_NIX_MODE is not set",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] isNixMode is false when OPENCLAW_NIX_MODE is empty",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:29] isNixMode is false when OPENCLAW_NIX_MODE is empty",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] isNixMode is false when OPENCLAW_NIX_MODE is not ",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:33] isNixMode is false when OPENCLAW_NIX_MODE is not ",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] isNixMode is true when OPENCLAW_NIX_MODE=1",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:37] isNixMode is true when OPENCLAW_NIX_MODE=1",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] STATE_DIR defaults to ~/.openclaw when env not set",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:43] STATE_DIR defaults to ~/.openclaw when env not set",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] STATE_DIR respects OPENCLAW_STATE_DIR override",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:47] STATE_DIR respects OPENCLAW_STATE_DIR override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:47",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] STATE_DIR respects OPENCLAW_HOME when state override is unset",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:53] STATE_DIR respects OPENCLAW_HOME when state override is unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:53",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] CONFIG_PATH defaults to OPENCLAW_HOME/.openclaw/openclaw.json",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:60] CONFIG_PATH defaults to OPENCLAW_HOME/.openclaw/openclaw.json",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:60",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] CONFIG_PATH defaults to ~/.openclaw/openclaw.json when env not set",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:73] CONFIG_PATH defaults to ~/.openclaw/openclaw.json when env not set",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:73",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] CONFIG_PATH respects OPENCLAW_CONFIG_PATH override",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:81] CONFIG_PATH respects OPENCLAW_CONFIG_PATH override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:81",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] CONFIG_PATH expands ~ in OPENCLAW_CONFIG_PATH override",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:89] CONFIG_PATH expands ~ in OPENCLAW_CONFIG_PATH override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:89",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] CONFIG_PATH uses STATE_DIR when only state dir is overridden",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:100] CONFIG_PATH uses STATE_DIR when only state dir is overridden",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:100",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] uses default when env and config are unset",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:111] uses default when env and config are unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:111",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] prefers OPENCLAW_GATEWAY_PORT over config",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:117] prefers OPENCLAW_GATEWAY_PORT over config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:117",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts] falls back to config when env is invalid",
+TEST_CASE("v4.29 [src/config/config.nix-integration-u3-u5-u9.test.ts:126] falls back to config when env is invalid",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.nix-integration-u3-u5-u9.test.ts:126",
                "upstream it() block #14",

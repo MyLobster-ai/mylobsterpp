@@ -47,7 +47,23 @@ SKIP_PATTERN = re.compile(
     r"\.live\.test\.ts$|\.e2e\.test\.ts$|test-fixtures/)"
 )
 
-HAND_AUTHORED_SENTINEL = "// MYLOBSTERPP_HAND_AUTHORED"
+HAND_AUTHORED_SENTINEL = "// MYLOBSTERPP_HANDWRITTEN_TEST"
+
+
+def is_hand_authored(path: Path) -> bool:
+    """Returns True if the file's first non-blank line is the sentinel.
+    The sentinel lives on line 1 specifically so it can't be confused with the
+    generator's own self-describing header text."""
+    try:
+        with path.open("r", encoding="utf-8") as f:
+            for line in f:
+                s = line.strip()
+                if not s:
+                    continue
+                return s == HAND_AUTHORED_SENTINEL
+    except OSError:
+        pass
+    return False
 
 # Match `it(` or `test(` at any indentation. Captures the description string.
 IT_PATTERN = re.compile(
@@ -123,7 +139,9 @@ def render_test_case(
     desc_escaped = cpp_string_escape(description)
     upstream_ref = f"{upstream_rel}:{upstream_line}"
     upstream_ref_escaped = cpp_string_escape(upstream_ref)
-    name = f"v4.29 [{upstream_rel}] {description}"
+    # Include line number in name to disambiguate duplicate it() descriptions
+    # (e.g. it.each() blocks share a description text).
+    name = f"v4.29 [{upstream_rel}:{upstream_line}] {description}"
     name_escaped = cpp_string_escape(name)
     # PARITY_GAP requires `note`; use a generic "ported as gap" message.
     return (
@@ -203,16 +221,11 @@ def main() -> int:
         # sanitize basename: replace dots and dashes (legal but unusual in C++ filenames) -> keep as-is, dashes ok
         out_path = out_dir / f"{base}.cpp"
 
-        if out_path.exists():
-            try:
-                existing = out_path.read_text(encoding="utf-8")
-                if HAND_AUTHORED_SENTINEL in existing:
-                    skipped_existing += 1
-                    if args.verbose:
-                        print(f"  skip (hand-authored): {out_path.relative_to(SCRIPT_DIR)}")
-                    continue
-            except OSError:
-                pass
+        if out_path.exists() and is_hand_authored(out_path):
+            skipped_existing += 1
+            if args.verbose:
+                print(f"  skip (hand-authored): {out_path.relative_to(SCRIPT_DIR)}")
+            continue
 
         try:
             content = src.read_text(encoding="utf-8", errors="replace")

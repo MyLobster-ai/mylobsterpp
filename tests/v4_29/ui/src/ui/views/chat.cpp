@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] shows the skeleton while the initial history load has no rendered content",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:400] shows the skeleton while the initial history load has no rendered content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:400",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] keeps existing messages visible without the skeleton during a background reload",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:407] keeps existing messages visible without the skeleton during a background reload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:407",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] keeps active stream content visible without the skeleton during a background reload",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:423] keeps active stream content visible without the skeleton during a background reload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:423",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] keeps the reading indicator visible without the skeleton before stream text arrives",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:434] keeps the reading indicator visible without the skeleton before stream text arrives",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:434",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] keeps Talk visible without the stale browser dictation button",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:447] keeps Talk visible without the stale browser dictation button",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:447",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] accepts and previews non-video file attachments",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:456] accepts and previews non-video file attachments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:456",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] filters video file attachments",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:486] filters video file attachments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:486",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] renders Steer only for queued messages during an active run",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:504] renders Steer only for queued messages during an active run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:504",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] keeps markdown raw text toggles idempotent",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:535] keeps markdown raw text toggles idempotent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:535",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] renders configured assistant avatars and fallback in the welcome state",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:571] renders configured assistant avatars and fallback in the welcome state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:571",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] patches the current session model and refreshes active tool visibility",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:602] patches the current session model and refreshes active tool visibility",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:602",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] clears the session model override back to the default model",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:640] clears the session model override back to the default model",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:640",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] disables the chat header model picker while a run is active",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:663] disables the chat header model picker while a run is active",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:663",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] keeps the selected model visible when the active session is absent from sessions.list",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:677] keeps the selected model visible when the active session is absent from sessions.list",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:677",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] uses default thinking options when the active session is absent",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:698] uses default thinking options when the active session is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:698",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] labels chat thinking default from the active session row",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:729] labels chat thinking default from the active session row",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:729",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts] labels chat thinking default from session defaults when the row is absent",
+TEST_CASE("v4.29 [ui/src/ui/views/chat.test.ts:747] labels chat thinking default from session defaults when the row is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/chat.test.ts:747",
                "upstream it() block #16",

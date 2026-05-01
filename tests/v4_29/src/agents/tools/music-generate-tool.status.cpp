@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.status.test.ts] returns active task status instead of starting a duplicate generation",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.status.test.ts:29] returns active task status instead of starting a duplicate generation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.status.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.status.test.ts] reports active task status when action=status is requested",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.status.test.ts:71] reports active task status when action=status is requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.status.test.ts:71",
                "upstream it() block #1",

@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] keeps @username targets",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:116] keeps @username targets",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:116",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] normalizes spaced mattermost prefixes to user targets",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:123] normalizes spaced mattermost prefixes to user targets",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] normalizes allowlist entries",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:132] normalizes allowlist entries",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:132",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] uses replyToMode for channel messages and keeps direct messages off",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:143] uses replyToMode for channel messages and keeps direct messages off",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:170] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:170",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] exposes react when mattermost is configured",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:223] exposes react when mattermost is configured",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] hides react when mattermost is not configured",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:241] hides react when mattermost is not configured",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:241",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] declares presentation capability for message sends",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:254] declares presentation capability for message sends",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:254",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] hides react when actions.reactions is false",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:270] hides react when actions.reactions is false",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:270",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] respects per-account actions.reactions in message discovery",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:287] respects per-account actions.reactions in message discovery",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:287",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] honors the selected Mattermost account during discovery",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:309] honors the selected Mattermost account during discovery",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:309",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] blocks react when default account disables reactions and accountId is omitted",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:337] blocks react when default account disables reactions and accountId is omitted",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:337",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] handles react by calling Mattermost reactions API",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:366] handles react by calling Mattermost reactions API",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:366",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] only treats boolean remove flag as removal",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:373] only treats boolean remove flag as removal",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:373",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] removes reaction when remove flag is boolean true",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:382] removes reaction when remove flag is boolean true",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:382",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] maps replyTo to replyToId for send actions",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:394] maps replyTo to replyToId for send actions",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:394",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] falls back to trimmed replyTo when replyToId is blank",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:420] falls back to trimmed replyTo when replyToId is blank",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:420",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] chunks outbound text without requiring Mattermost runtime initialization",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:449] chunks outbound text without requiring Mattermost runtime initialization",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:449",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] forwards mediaLocalRoots on sendMedia",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:456] forwards mediaLocalRoots on sendMedia",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:456",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] threads resolved cfg on sendText",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:482] threads resolved cfg on sendText",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:482",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] uses threadId as fallback when replyToId is absent (sendText)",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:512] uses threadId as fallback when replyToId is absent (sendText)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:512",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] uses threadId as fallback when replyToId is absent (sendMedia)",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:536] uses threadId as fallback when replyToId is absent (sendMedia)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:536",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] formats allowFrom entries",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:563] formats allowFrom entries",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:563",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts] uses account responsePrefix overrides",
+TEST_CASE("v4.29 [extensions/mattermost/src/channel.test.ts:573] uses account responsePrefix overrides",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/channel.test.ts:573",
                "upstream it() block #23",

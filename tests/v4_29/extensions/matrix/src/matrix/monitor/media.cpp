@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts] decrypts encrypted media when file payloads are present",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts:54] decrypts encrypted media when file payloads are present",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/media.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts] forwards originalFilename to saveMediaBuffer when provided",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts:80] forwards originalFilename to saveMediaBuffer when provided",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/media.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts] rejects encrypted media that exceeds maxBytes before decrypting",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts:102] rejects encrypted media that exceeds maxBytes before decrypting",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/media.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts] preserves typed size-limit errors from plain media downloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts:121] preserves typed size-limit errors from plain media downloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/media.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts] passes byte limits through plain media downloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/media.test.ts:140] passes byte limits through plain media downloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/media.test.ts:140",
                "upstream it() block #4",

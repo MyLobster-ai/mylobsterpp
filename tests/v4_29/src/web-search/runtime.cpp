@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] executes searches through the active plugin registry",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:121] executes searches through the active plugin registry",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] auto-detects a provider from canonical plugin-owned credentials",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:140] auto-detects a provider from canonical plugin-owned credentials",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:140",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] uses the active resolved runtime config for matching source config callers",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:158] uses the active resolved runtime config for matching source config callers",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:158",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] treats non-env SecretRefs as configured credentials for provider auto-detect",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:212] treats non-env SecretRefs as configured credentials for provider auto-detect",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] falls back to a keyless provider when no credentials are available",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:234] falls back to a keyless provider when no credentials are available",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:234",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] prefers the active runtime-selected provider when callers omit runtime metadata",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:252] prefers the active runtime-selected provider when callers omit runtime metadata",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:252",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] falls back to another provider when auto-selected search execution fails",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:318] falls back to another provider when auto-selected search execution fails",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:318",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] falls back when an auto-selected provider returns a structured error payload",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:344] falls back when an auto-selected provider returns a structured error payload",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:344",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] does not fall back when an auto-selected provider returns a validation error payload",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:371] does not fall back when an auto-selected provider returns a validation error payload",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:371",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] does not prebuild fallback provider tools before attempting the selected provider",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:401] does not prebuild fallback provider tools before attempting the selected provider",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:401",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] does not fall back when the provider came from explicit config selection",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:427] does not fall back when the provider came from explicit config selection",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:427",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] does not fall back when the caller explicitly selects a provider",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:457] does not fall back when the caller explicitly selects a provider",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:457",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] fails fast when an explicit provider cannot create a tool",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:480] fails fast when an explicit provider cannot create a tool",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:480",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] fails fast when the caller explicitly selects an unknown provider",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:497] fails fast when the caller explicitly selects an unknown provider",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:497",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] still falls back when config names an unknown provider id",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:512] still falls back when config names an unknown provider id",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:512",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] honors preferRuntimeProviders during execution",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:544] honors preferRuntimeProviders during execution",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:544",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/web-search/runtime.test.ts] returns a clear error when every fallback-capable provider is unavailable",
+TEST_CASE("v4.29 [src/web-search/runtime.test.ts:582] returns a clear error when every fallback-capable provider is unavailable",
           "[v4_29][parity_gap][web-search]") {
     PARITY_GAP("src/web-search/runtime.test.ts:582",
                "upstream it() block #16",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] parses scoped snapshot keys with peer suffixes",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:15] parses scoped snapshot keys with peer suffixes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] strips peer and patch decorators from resolved versions",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:23] strips peer and patch decorators from resolved versions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] collects the production graph from pnpm lockfile snapshots",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:30] collects the production graph from pnpm lockfile snapshots",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] resolves npm alias snapshots to the real package name",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:68] resolves npm alias snapshots to the real package name",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] reads inline importer dependency maps without repo dependencies",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:87] reads inline importer dependency maps without repo dependencies",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] resolves quoted snapshot keys that contain tarball URLs",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:108] resolves quoted snapshot keys that contain tarball URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:108",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] filters advisory findings by minimum severity",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:137] filters advisory findings by minimum severity",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:137",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts] returns a failing exit code when bulk advisories include high severity findings",
+TEST_CASE("v4.29 [test/scripts/pnpm-audit-prod.test.ts:169] returns a failing exit code when bulk advisories include high severity findings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/pnpm-audit-prod.test.ts:169",
                "upstream it() block #7",

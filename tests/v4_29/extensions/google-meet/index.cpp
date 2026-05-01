@@ -5,404 +5,404 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] defaults to chrome realtime with safe read-only tools",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:297] defaults to chrome realtime with safe read-only tools",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:297",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] resolves the realtime consult agent id",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:363] resolves the realtime consult agent id",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:363",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] keeps legacy command-pair audio format when custom commands omit a format",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:373] keeps legacy command-pair audio format when custom commands omit a format",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:373",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] uses env fallbacks for OAuth, preview, and default meeting values",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:388] uses env fallbacks for OAuth, preview, and default meeting values",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:388",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] requires explicit Meet URLs",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:415] requires explicit Meet URLs",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:415",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] advertises only the googlemeet CLI descriptor",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:422] advertises only the googlemeet CLI descriptor",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:422",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] registers the node-host command used by chrome-node transport",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:437] registers the node-host command used by chrome-node transport",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:437",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] returns structured gateway errors for missing session ids",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:449] returns structured gateway errors for missing session ids",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:449",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] uses a provider-safe flat tool parameter schema",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:474] uses a provider-safe flat tool parameter schema",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:474",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] normalizes Meet URLs, codes, and space names for the Meet API",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:510] normalizes Meet URLs, codes, and space names for the Meet API",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:510",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] finds Google Meet links from Calendar events",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:521] finds Google Meet links from Calendar events",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:521",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] adds a reauth hint for missing Calendar scopes",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:581] adds a reauth hint for missing Calendar scopes",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:581",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] fetches Meet spaces without percent-encoding the spaces path separator",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:603] fetches Meet spaces without percent-encoding the spaces path separator",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:603",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] creates Meet spaces and returns the meeting URL",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:640] creates Meet spaces and returns the meeting URL",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:640",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] lists Meet artifact metadata for the latest conference record by default",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:671] lists Meet artifact metadata for the latest conference record by default",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:671",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] keeps all conference records available when requested",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:730] keeps all conference records available when requested",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:730",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] exports linked Google Docs bodies when requested",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:752] exports linked Google Docs bodies when requested",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:752",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] fetches only the latest Meet conference record for a meeting",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:779] fetches only the latest Meet conference record for a meeting",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:779",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] lists Meet attendance rows with participant sessions",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:805] lists Meet attendance rows with participant sessions",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:805",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] merges duplicate attendance participants and annotates timing",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:839] merges duplicate attendance participants and annotates timing",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:839",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] surfaces Developer Preview acknowledgment blockers in preflight reports",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:916] surfaces Developer Preview acknowledgment blockers in preflight reports",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:916",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] builds Twilio dial plans from a PIN",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:931] builds Twilio dial plans from a PIN",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:931",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] joins a Twilio session through the tool without page parsing",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:937] joins a Twilio session through the tool without page parsing",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:937",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] hangs up delegated Twilio calls on leave",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:967] hangs up delegated Twilio calls on leave",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:967",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports setup status through the tool",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:987] reports setup status through the tool",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:987",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports attendance through the tool",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1009] reports attendance through the tool",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1009",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] writes export bundles through the tool",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1030] writes export bundles through the tool",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1030",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] dry-runs export bundles through the tool",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1074] dry-runs export bundles through the tool",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1074",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports the latest conference record through the tool",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1108] reports the latest conference record through the tool",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1108",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports the latest conference record from today",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1128] reports the latest conference record from today",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1128",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports calendar event previews through the tool",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1150] reports calendar event previews through the tool",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1150",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] fails setup status when the configured Chrome node is not connected",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1175] fails setup status when the configured Chrome node is not connected",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1175",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports missing local Chrome audio prerequisites in setup status",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1223] reports missing local Chrome audio prerequisites in setup status",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1223",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports missing local Chrome audio commands in setup status",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1262] reports missing local Chrome audio commands in setup status",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1262",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] skips local Chrome audio prerequisites for observe-only setup status",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1304] skips local Chrome audio prerequisites for observe-only setup status",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1304",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports Twilio delegation readiness when voice-call is enabled",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1350] reports Twilio delegation readiness when voice-call is enabled",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1350",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports missing voice-call wiring for Twilio transport",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1397] reports missing voice-call wiring for Twilio transport",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1397",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] opens local Chrome Meet in observe-only mode without BlackHole checks",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1438] opens local Chrome Meet in observe-only mode without BlackHole checks",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1438",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] joins Chrome on a paired node without local Chrome or BlackHole",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1487] joins Chrome on a paired node without local Chrome or BlackHole",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1487",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reuses an active Meet session for the same URL and transport",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1557] reuses an active Meet session for the same URL and transport",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1557",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reuses active Meet sessions across URL query differences",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1601] reuses active Meet sessions across URL query differences",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1601",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reuses existing Meet browser tabs across URL query differences",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1644] reuses existing Meet browser tabs across URL query differences",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1644",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] recovers and inspects an existing Meet tab without opening a new one",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1723] recovers and inspects an existing Meet tab without opening a new one",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1723",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] recovers and inspects an existing local Chrome Meet tab",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1807] recovers and inspects an existing local Chrome Meet tab",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1807",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] exposes a test-speech action that joins the requested meeting",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1877] exposes a test-speech action that joins the requested meeting",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1877",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] does not start a second realtime response for test speech",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1910] does not start a second realtime response for test speech",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1910",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] rejects observe-only mode for test speech",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1955] rejects observe-only mode for test speech",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1955",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] reports manual action when the browser profile needs Google login",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:1971] reports manual action when the browser profile needs Google login",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:1971",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] refreshes browser health before blocking an explicit speech retry",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2034] refreshes browser health before blocking an explicit speech retry",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2034",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] explains when chrome-node has no capable paired node",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2169] explains when chrome-node has no capable paired node",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2169",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] requires chromeNode.node when multiple capable nodes are connected",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2192] requires chromeNode.node when multiple capable nodes are connected",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2192",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] runs configured Chrome audio bridge commands before launch",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2232] runs configured Chrome audio bridge commands before launch",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2232",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] pipes Chrome command-pair audio through the realtime provider",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2278] pipes Chrome command-pair audio through the realtime provider",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2278",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] pipes paired-node command-pair audio through the realtime provider",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2475] pipes paired-node command-pair audio through the realtime provider",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2475",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] keeps paired-node realtime audio alive after transient input pull failures",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2660] keeps paired-node realtime audio alive after transient input pull failures",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2660",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] stops paired-node realtime audio after repeated input pull failures",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2726] stops paired-node realtime audio after repeated input pull failures",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2726",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.test.ts] exposes node-host list and stop-by-url bridge actions",
+TEST_CASE("v4.29 [extensions/google-meet/index.test.ts:2790] exposes node-host list and stop-by-url bridge actions",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.test.ts:2790",
                "upstream it() block #56",

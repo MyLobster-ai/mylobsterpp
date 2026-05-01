@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] treats undefined as missing",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:12] treats undefined as missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] treats non-finite and non-positive values as invalid_expires",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:16] treats non-finite and non-positive values as invalid_expires",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] returns expired when expires is in the past",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:23] returns expired when expires is in the past",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] returns valid when expires is in the future",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:27] returns valid when expires is in the future",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:27",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] returns expiring when expires falls within the configured margin",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:31] returns expiring when expires falls within the configured margin",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:31",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] treats near-expiry oauth credentials as no longer usable",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:43] treats near-expiry oauth credentials as no longer usable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:43",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] marks api_key with keyRef as eligible",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:62] marks api_key with keyRef as eligible",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:62",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] marks tokenRef with missing expires as eligible",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:78] marks tokenRef with missing expires as eligible",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:78",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts] marks token with invalid expires as ineligible",
+TEST_CASE("v4.29 [src/agents/auth-profiles/credential-state.test.ts:94] marks token with invalid expires as ineligible",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/credential-state.test.ts:94",
                "upstream it() block #8",

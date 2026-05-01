@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] returns 200 for GET",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:130] returns 200 for GET",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:130",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] returns 204 for HEAD",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:147] returns 204 for HEAD",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:147",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects verification-shaped requests without a signature",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:164] rejects verification-shaped requests without a signature",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:164",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] accepts signed verification-shaped requests without dispatching events",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:177] accepts signed verification-shaped requests without dispatching events",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:177",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] returns 405 for non-GET/HEAD/POST methods",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:190] returns 405 for non-GET/HEAD/POST methods",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:190",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects missing signature when events are non-empty",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:201] rejects missing signature when events are non-empty",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects unsigned POST requests before reading the body",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:212] rejects unsigned POST requests before reading the body",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] uses strict pre-auth limits for signed POST requests",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:231] uses strict pre-auth limits for signed POST requests",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:231",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects invalid signature",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:256] rejects invalid signature",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:256",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] accepts valid signature and dispatches events",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:270] accepts valid signature and dispatches events",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:270",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] releases authenticated requests before event processing completes",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:283] releases authenticated requests before event processing completes",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:283",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] returns 500 when event processing fails and does not acknowledge with 200",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:319] returns 500 when event processing fails and does not acknowledge with 200",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:319",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] returns 400 for invalid JSON payload even when signature is valid",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:344] returns 400 for invalid JSON payload even when signature is valid",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:344",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] reads body within limit",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:357] reads body within limit",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:357",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects oversized body",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:363] rejects oversized body",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:363",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects invalid JSON payloads",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:379] rejects invalid JSON payloads",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:379",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects webhooks with invalid signatures",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:385] rejects webhooks with invalid signatures",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:385",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects verification-shaped requests without a signature",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:394] rejects verification-shaped requests without a signature",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:394",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] accepts signed verification-shaped requests without dispatching events",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:405] accepts signed verification-shaped requests without dispatching events",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:405",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects oversized signed payloads before JSON parsing",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:414] rejects oversized signed payloads before JSON parsing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:414",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects missing signature when events are non-empty",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:422] rejects missing signature when events are non-empty",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:422",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects signed requests when raw body is missing",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:433] rejects signed requests when raw body is missing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:433",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] uses the signed raw body instead of a pre-parsed req.body object",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:445] uses the signed raw body instead of a pre-parsed req.body object",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:445",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] uses signed raw buffer body instead of a pre-parsed req.body object",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:454] uses signed raw buffer body instead of a pre-parsed req.body object",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:454",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] rejects invalid signed raw JSON even when req.body is a valid object",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:466] rejects invalid signed raw JSON even when req.body is a valid object",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:466",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts] returns 500 when event processing fails and does not acknowledge with 200",
+TEST_CASE("v4.29 [extensions/line/src/webhook-node.test.ts:488] returns 500 when event processing fails and does not acknowledge with 200",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/webhook-node.test.ts:488",
                "upstream it() block #25",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] exposes the fast empty config schema helper",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:157] exposes the fast empty config schema helper",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:157",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] does not load the monolithic sdk for fast helpers",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:170] does not load the monolithic sdk for fast helpers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:170",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] does not load the monolithic sdk for promise-like or symbol reflection probes",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:183] does not load the monolithic sdk for promise-like or symbol reflection probes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:183",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] loads legacy root exports on demand and preserves reflection",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:194] loads legacy root exports on demand and preserves reflection",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:194",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] falls back to src files even when the alias itself is loaded from dist",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:265] falls back to src files even when the alias itself is loaded from dist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:265",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] builds scoped and unscoped plugin-sdk aliases for jiti loads",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:291] builds scoped and unscoped plugin-sdk aliases for jiti loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:291",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] keeps bootstrap plugin-sdk aliases deterministic and ignores unsafe subpaths",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:312] keeps bootstrap plugin-sdk aliases deterministic and ignores unsafe subpaths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:312",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] ignores unsafe private local-only plugin-sdk subpaths in the CJS root alias",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:341] ignores unsafe private local-only plugin-sdk subpaths in the CJS root alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:341",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] builds source plugin-sdk subpath aliases through the wider source extension family",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:364] builds source plugin-sdk subpath aliases through the wider source extension family",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:364",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] prefers hashed dist diagnostic events chunks before falling back to src",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:393] prefers hashed dist diagnostic events chunks before falling back to src",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:393",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] chooses hashed dist diagnostic events chunks deterministically",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:406] chooses hashed dist diagnostic events chunks deterministically",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:406",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] loads legacy root exports through the merged root wrapper",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:460] loads legacy root exports through the merged root wrapper",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:460",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] does not publish private local-only plugin-sdk subpaths",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:477] does not publish private local-only plugin-sdk subpaths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:477",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts] preserves reflection semantics for lazily resolved exports",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-root-alias.test.ts:494] preserves reflection semantics for lazily resolved exports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-root-alias.test.ts:494",
                "upstream it() block #13",

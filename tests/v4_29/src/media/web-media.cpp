@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] loads browser-style canvas media paths as managed local files",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:151] loads browser-style canvas media paths as managed local files",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:151",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] includes resize failure details when image optimization cannot produce a JPEG",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:160] includes resize failure details when image optimization cannot produce a JPEG",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:160",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] resolves relative local media paths against the provided workspace directory",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:166] resolves relative local media paths against the provided workspace directory",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:166",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects host-read text files outside local roots",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:176] rejects host-read text files outside local roots",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:176",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects renamed host-read text files even when the extension looks allowed",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:191] rejects renamed host-read text files even when the extension looks allowed",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:191",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] allows host-read CSV files",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:206] allows host-read CSV files",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:206",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] allows host-read Markdown files",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:219] allows host-read Markdown files",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:219",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects binary data disguised as a CSV file",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:232] rejects binary data disguised as a CSV file",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:232",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects traversal-style canvas media paths before filesystem access",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:434] rejects traversal-style canvas media paths before filesystem access",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:434",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] hydrates inbound media store URIs before allowed-root checks",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:442] hydrates inbound media store URIs before allowed-root checks",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:442",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] allows managed inbound absolute paths before allowed-root checks",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:461] allows managed inbound absolute paths before allowed-root checks",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:461",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects unsupported media store URI locations",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:481] rejects unsupported media store URI locations",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:481",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects media store URI ids with encoded path separators",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:487] rejects media store URI ids with encoded path separators",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:487",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/web-media.test.ts] rejects media store URIs without an id",
+TEST_CASE("v4.29 [src/media/web-media.test.ts:493] rejects media store URIs without an id",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/web-media.test.ts:493",
                "upstream it() block #13",

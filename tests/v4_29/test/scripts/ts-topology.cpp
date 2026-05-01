@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts] collapses canonical symbols exported by multiple public subpaths",
+TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts:38] collapses canonical symbols exported by multiple public subpaths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ts-topology.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts] counts renamed imports, namespace imports, type-only imports, and test-only consumers",
+TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts:53] counts renamed imports, namespace imports, type-only imports, and test-only consumers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ts-topology.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts] surfaces single-owner shared and unused reports correctly",
+TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts:77] surfaces single-owner shared and unused reports correctly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ts-topology.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts] renders stable text summaries for the public-surface report",
+TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts:87] renders stable text summaries for the public-surface report",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ts-topology.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts] emits stable JSON through the CLI and filtered report output",
+TEST_CASE("v4.29 [test/scripts/ts-topology.test.ts:104] emits stable JSON through the CLI and filtered report output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ts-topology.test.ts:104",
                "upstream it() block #4",

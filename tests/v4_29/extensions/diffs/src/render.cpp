@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts] renders before/after input into a complete viewer document",
+TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts:17] renders before/after input into a complete viewer document",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/render.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts] resolves viewer assets under an optional base path",
+TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts:48] resolves viewer assets under an optional base path",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/render.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts] downgrades invalid language hints to plain text",
+TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts:70] downgrades invalid language hints to plain text",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/render.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts] renders multi-file patch input",
+TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts:100] renders multi-file patch input",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/render.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts] re-registers pierre theme loaders before rendering",
+TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts:143] re-registers pierre theme loaders before rendering",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/render.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts] rejects patches that exceed file-count limits",
+TEST_CASE("v4.29 [extensions/diffs/src/render.test.ts:193] rejects patches that exceed file-count limits",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/render.test.ts:193",
                "upstream it() block #5",

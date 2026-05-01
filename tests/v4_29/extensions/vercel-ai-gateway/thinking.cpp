@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts] exposes xhigh for trusted OpenAI upstream refs",
+TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts:18] exposes xhigh for trusted OpenAI upstream refs",
           "[v4_29][parity_gap][vercel-ai-gateway]") {
     PARITY_GAP("extensions/vercel-ai-gateway/thinking.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts] exposes Codex xhigh through the OpenAI upstream prefix",
+TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts:29] exposes Codex xhigh through the OpenAI upstream prefix",
           "[v4_29][parity_gap][vercel-ai-gateway]") {
     PARITY_GAP("extensions/vercel-ai-gateway/thinking.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts] reuses Claude thinking defaults for trusted Anthropic upstream refs",
+TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts:40] reuses Claude thinking defaults for trusted Anthropic upstream refs",
           "[v4_29][parity_gap][vercel-ai-gateway]") {
     PARITY_GAP("extensions/vercel-ai-gateway/thinking.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts] falls through for unsupported OpenAI or untrusted namespaced refs",
+TEST_CASE("v4.29 [extensions/vercel-ai-gateway/thinking.test.ts:55] falls through for unsupported OpenAI or untrusted namespaced refs",
           "[v4_29][parity_gap][vercel-ai-gateway]") {
     PARITY_GAP("extensions/vercel-ai-gateway/thinking.test.ts:55",
                "upstream it() block #3",

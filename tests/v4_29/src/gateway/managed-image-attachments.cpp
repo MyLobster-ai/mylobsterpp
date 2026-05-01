@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] keeps the existing public limit shape",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:207] keeps the existing public limit shape",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:207",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] serves full images for authorized chat-history readers",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:225] serves full images for authorized chat-history readers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:225",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects unauthenticated requests before serving bytes",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:240] rejects unauthenticated requests before serving bytes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:240",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects requests from unrelated sessions",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:253] rejects requests from unrelated sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:253",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] allows device-token access without requester session ownership",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:265] allows device-token access without requester session ownership",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:265",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects non-GET methods",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:278] rejects non-GET methods",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:278",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects malformed encoded session keys",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:291] rejects malformed encoded session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:291",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] reuses the session attachment index across requests until the transcript changes",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:303] reuses the session attachment index across requests until the transcript changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:303",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] creates inline/open blocks that both point at the full image",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:371] creates inline/open blocks that both point at the full image",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:371",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects oversized image data urls before decoding the payload",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:398] rejects oversized image data urls before decoding the payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:398",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rewrites local image sources into managed display blocks without leaking the source path",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:416] rewrites local image sources into managed display blocks without leaking the source path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:416",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] ingests external image URLs into managed storage instead of hotlinking them",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:460] ingests external image URLs into managed storage instead of hotlinking them",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:460",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] keeps managed originals under the state-dir media root when config path differs",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:525] keeps managed originals under the state-dir media root when config path differs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:525",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] merges configured managed image limits with defaults",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:571] merges configured managed image limits with defaults",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:571",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects managed outgoing images that exceed configured byte limits",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:585] rejects managed outgoing images that exceed configured byte limits",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:585",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] adds a warning block when an image is resized to fit limits",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:596] adds a warning block when an image is resized to fit limits",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:596",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] skips broken attachments when continueOnPrepareError is enabled",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:609] skips broken attachments when continueOnPrepareError is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:609",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] accepts URL images up to the configured managed-image byte limit",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:629] accepts URL images up to the configured managed-image byte limit",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:629",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects local image paths outside allowed roots",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:673] rejects local image paths outside allowed roots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:673",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] accepts local image paths inside allowed roots",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:692] accepts local image paths inside allowed roots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:692",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] rejects relative local image paths that resolve outside allowed roots",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:709] rejects relative local image paths that resolve outside allowed roots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:709",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] drops downloaded non-image sources without leaving orphaned originals",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:730] drops downloaded non-image sources without leaving orphaned originals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:730",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] skips oversized downloaded non-image sources instead of failing finalization",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:751] skips oversized downloaded non-image sources instead of failing finalization",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:751",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] does not reap older transient records while creating a new managed image",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:773] does not reap older transient records while creating a new managed image",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:773",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] upgrades transient image records to history when the message is committed",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:835] upgrades transient image records to history when the message is committed",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:835",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] cleans up dereferenced records and original files",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:873] cleans up dereferenced records and original files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:873",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] retains committed records that are still referenced by a full-image block",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:891] retains committed records that are still referenced by a full-image block",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:891",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] reads each session transcript once while evaluating committed records",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:920] reads each session transcript once while evaluating committed records",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:920",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts] does not delete files still referenced by other sessions during session-scoped cleanup",
+TEST_CASE("v4.29 [src/gateway/managed-image-attachments.test.ts:961] does not delete files still referenced by other sessions during session-scoped cleanup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/managed-image-attachments.test.ts:961",
                "upstream it() block #28",

@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] accepts assistant messages with array content and rejects others",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:35] accepts assistant messages with array content and rejects others",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] returns the original reference when no thinking blocks are present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:50] returns the original reference when no thinking blocks are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] preserves thinking blocks when the assistant message is the latest assistant turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:60] preserves thinking blocks when the assistant message is the latest assistant turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] preserves a latest assistant turn even when all content blocks are thinking",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:72] preserves a latest assistant turn even when all content blocks are thinking",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] preserves thinking blocks in the latest assistant message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:79] preserves thinking blocks in the latest assistant message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] uses non-empty omitted-reasoning text when an older assistant turn is thinking-only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:110] uses non-empty omitted-reasoning text when an older assistant turn is thinking-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:110",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] uses non-empty omitted-reasoning text when an older assistant turn is redacted-thinking-only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:138] uses non-empty omitted-reasoning text when an older assistant turn is redacted-thinking-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:138",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] returns the original reference when no thinking blocks are present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:162] returns the original reference when no thinking blocks are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:162",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] strips assistant reasoning from prior completed turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:172] strips assistant reasoning from prior completed turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:172",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] uses omitted-reasoning text when a completed assistant turn is reasoning-only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:192] uses omitted-reasoning text when a completed assistant turn is reasoning-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:192",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] preserves reasoning for the active tool-call continuation after the latest user turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:208] preserves reasoning for the active tool-call continuation after the latest user turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:208",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] strips reasoning from old tool-call turns once a later user turn starts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:231] strips reasoning from old tool-call turns once a later user turn starts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:231",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] returns the original reference when no invalid thinking signatures are present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:261] returns the original reference when no invalid thinking signatures are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:261",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] strips thinking blocks with missing, empty, or blank signatures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:278] strips thinking blocks with missing, empty, or blank signatures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:278",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] uses non-empty omitted-reasoning text when all thinking signatures are invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:302] uses non-empty omitted-reasoning text when all thinking signatures are invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:302",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] strips redacted thinking blocks with invalid opaque signatures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:316] strips redacted thinking blocks with invalid opaque signatures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:316",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] drops the latest assistant message when the thinking block is unsigned",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:340] drops the latest assistant message when the thinking block is unsigned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:340",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] preserves later turns when dropping an incomplete assistant message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:354] preserves later turns when dropping an incomplete assistant message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:354",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] marks signed thinking without text as a prefill recovery case",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:369] marks signed thinking without text as a prefill recovery case",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:369",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] marks signed thinking with an empty text block as incomplete text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:383] marks signed thinking with an empty text block as incomplete text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:383",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] treats partial text after signed thinking as valid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:395] treats partial text after signed thinking as valid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:395",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] treats non-string text blocks as incomplete text when thinking is signed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:407] treats non-string text blocks as incomplete text when thinking is signed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:407",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] retries once with omitted-reasoning text when the request is rejected before streaming",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:425] retries once with omitted-reasoning text when the request is rejected before streaming",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:425",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] retries with visible assistant text when stripping thinking leaves content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:458] retries with visible assistant text when stripping thinking leaves content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:458",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] does not retry when the stream fails after yielding a chunk",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:492] does not retry when the stream fails after yielding a chunk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:492",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] does not retry non-Anthropic-thinking errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:518] does not retry non-Anthropic-thinking errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:518",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts] preserves result() for synchronous event streams",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/thinking.test.ts:535] preserves result() for synchronous event streams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/thinking.test.ts:535",
                "upstream it() block #26",

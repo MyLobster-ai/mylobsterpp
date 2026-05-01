@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] does not render the stale assistant read-aloud footer action",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:258] does not render the stale assistant read-aloud footer action",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:258",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] positions delete confirm by message side",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:270] positions delete confirm by message side",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:270",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders assistant context usage from input and cache tokens",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:321] renders assistant context usage from input and cache tokens",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:321",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] uses the largest single assistant call for grouped context usage",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:367] uses the largest single assistant call for grouped context usage",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:367",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders full dates with message and streaming timestamps",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:393] renders full dates with message and streaming timestamps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:393",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders configured local user names",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:416] renders configured local user names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:416",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] keeps inline tool cards collapsed by default and renders expanded state",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:440] keeps inline tool cards collapsed by default and renders expanded state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:440",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders expanded standalone tool-call rows",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:479] renders expanded standalone tool-call rows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:479",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders expanded tool output rows and their json content",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:512] renders expanded tool output rows and their json content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:512",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] collapses an inline tool call while keeping matching tool output visible",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:567] collapses an inline tool call while keeping matching tool output visible",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:567",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders assistant MEDIA attachments, voice-note badge, and reply pill",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:615] renders assistant MEDIA attachments, voice-note badge, and reply pill",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:615",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders allowed transcript and content image variants",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:643] renders allowed transcript and content image variants",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:643",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] fetches managed chat images with auth and renders blob previews",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:742] fetches managed chat images with auth and renders blob previews",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:742",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] does not send auth to cross-origin managed-image-looking URLs",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:802] does not send auth to cross-origin managed-image-looking URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:802",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders canvas-only [embed] shortcodes inside the assistant bubble",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:835] renders canvas-only [embed] shortcodes inside the assistant bubble",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:835",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] opens only safe assistant image URLs in a hardened new tab",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:858] opens only safe assistant image URLs in a hardened new tab",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:858",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders verified local assistant attachments through the Control UI media route",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:898] renders verified local assistant attachments through the Control UI media route",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:898",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] rechecks local assistant attachment availability when the auth token changes",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:953] rechecks local assistant attachment availability when the auth token changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:953",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] preserves same-origin assistant attachments without local preview rewriting",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1008] preserves same-origin assistant attachments without local preview rewriting",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1008",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders blocked local assistant files as unavailable with a reason",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1036] renders blocked local assistant files as unavailable with a reason",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1036",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] allows platform-specific local assistant attachments inside preview roots",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1062] allows platform-specific local assistant attachments inside preview roots",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1062",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] revalidates cached unavailable local assistant attachments after retry window",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1145] revalidates cached unavailable local assistant attachments after retry window",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1145",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] routes inline canvas blocks through the scoped canvas host when available",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1197] routes inline canvas blocks through the scoped canvas host when available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1197",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders server-history canvas blocks for the live toolResult sequence after history reload",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1232] renders server-history canvas blocks for the live toolResult sequence after history reload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1232",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders hidden assistant_message canvas results with the configured sandbox",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1279] renders hidden assistant_message canvas results with the configured sandbox",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1279",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] renders assistant_message canvas results in the assistant bubble even when tool rows are visible",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1320] renders assistant_message canvas results in the assistant bubble even when tool rows are visible",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1320",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts] opens generic tool details instead of a canvas preview from tool rows",
+TEST_CASE("v4.29 [ui/src/ui/chat/grouped-render.test.ts:1376] opens generic tool details instead of a canvas preview from tool rows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/grouped-render.test.ts:1376",
                "upstream it() block #26",

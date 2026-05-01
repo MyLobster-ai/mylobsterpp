@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] finds stale plugins.allow and plugins.entries refs",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:53] finds stale plugins.allow and plugins.entries refs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] removes stale plugin ids from allow and entries without changing valid refs",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:78] removes stale plugin ids from allow and entries without changing valid refs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] formats stale plugin warnings with a doctor hint",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:99] formats stale plugin warnings with a doctor hint",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] removes stale third-party channel config and dependent channel refs",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:117] removes stale third-party channel config and dependent channel refs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] does not remove unknown channel config without stale plugin evidence",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:188] does not remove unknown channel config without stale plugin evidence",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] treats stale plugin refs as inert while plugins are globally disabled",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:201] treats stale plugin refs as inert while plugins are globally disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] uses missing persisted install records as stale channel evidence",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:222] uses missing persisted install records as stale channel evidence",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:222",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] does not auto-repair stale refs while plugin discovery has errors",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:245] does not auto-repair stale refs while plugin discovery has errors",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:245",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts] treats legacy plugin aliases as valid ids during scan and repair",
+TEST_CASE("v4.29 [src/commands/doctor/shared/stale-plugin-config.test.ts:288] treats legacy plugin aliases as valid ids during scan and repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/stale-plugin-config.test.ts:288",
                "upstream it() block #8",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/simple-completion-transport.test.ts] registers the configured Ollama transport and keeps the original api",
+TEST_CASE("v4.29 [src/agents/simple-completion-transport.test.ts:53] registers the configured Ollama transport and keeps the original api",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-transport.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-transport.test.ts] uses a custom api alias for Anthropic Vertex simple completions",
+TEST_CASE("v4.29 [src/agents/simple-completion-transport.test.ts:98] uses a custom api alias for Anthropic Vertex simple completions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-transport.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/simple-completion-transport.test.ts] uses a transport-aware custom api alias when llm request transport overrides are present",
+TEST_CASE("v4.29 [src/agents/simple-completion-transport.test.ts:127] uses a transport-aware custom api alias when llm request transport overrides are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/simple-completion-transport.test.ts:127",
                "upstream it() block #2",

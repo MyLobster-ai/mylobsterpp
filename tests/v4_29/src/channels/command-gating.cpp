@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] denies when useAccessGroups is enabled and no authorizer is configured",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:9] denies when useAccessGroups is enabled and no authorizer is configured",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] allows when useAccessGroups is enabled and any configured authorizer allows",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:18] allows when useAccessGroups is enabled and any configured authorizer allows",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] allows when useAccessGroups is disabled (default)",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:30] allows when useAccessGroups is disabled (default)",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] honors modeWhenAccessGroupsOff=deny",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:39] honors modeWhenAccessGroupsOff=deny",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] honors modeWhenAccessGroupsOff=configured (allow when none configured)",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:49] honors modeWhenAccessGroupsOff=configured (allow when none configured)",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] honors modeWhenAccessGroupsOff=configured (enforce when configured)",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:59] honors modeWhenAccessGroupsOff=configured (enforce when configured)",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:59",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] blocks control commands when unauthorized",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:78] blocks control commands when unauthorized",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:78",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] does not block when control commands are disabled",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:89] does not block when control commands are disabled",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:89",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/command-gating.test.ts] supports the dual-authorizer text gate helper",
+TEST_CASE("v4.29 [src/channels/command-gating.test.ts:99] supports the dual-authorizer text gate helper",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/command-gating.test.ts:99",
                "upstream it() block #8",

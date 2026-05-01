@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts] does not target iOS devices whose active operator token lacks operator.approvals",
+TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts:115] does not target iOS devices whose active operator token lacks operator.approvals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/exec-approval-ios-push.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts] targets iOS devices when the active operator token includes operator.approvals",
+TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts:154] targets iOS devices when the active operator token includes operator.approvals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/exec-approval-ios-push.test.ts:154",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts] does not treat iOS as a live approval route when every push fails",
+TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts:171] does not treat iOS as a live approval route when every push fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/exec-approval-ios-push.test.ts:171",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts] waits for request delivery to finish before sending cleanup pushes",
+TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts:203] waits for request delivery to finish before sending cleanup pushes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/exec-approval-ios-push.test.ts:203",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts] skips cleanup pushes when the original request target set is unknown",
+TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts:246] skips cleanup pushes when the original request target set is unknown",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/exec-approval-ios-push.test.ts:246",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts] sends cleanup pushes only to the original request targets",
+TEST_CASE("v4.29 [src/gateway/exec-approval-ios-push.test.ts:264] sends cleanup pushes only to the original request targets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/exec-approval-ios-push.test.ts:264",
                "upstream it() block #5",

@@ -5,229 +5,229 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] removes reactions on empty emoji",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:139] removes reactions on empty emoji",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:139",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] removes reactions when remove flag set",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:156] removes reactions when remove flag set",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:156",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] rejects removes without emoji",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:175] rejects removes without emoji",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:175",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] respects reaction gating",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:190] respects reaction gating",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:190",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] passes threadTs to sendSlackMessage for thread replies",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:204] passes threadTs to sendSlackMessage for thread replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:204",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] returns a friendly error when downloadFile cannot fetch the attachment",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:226] returns a friendly error when downloadFile cannot fetch the attachment",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] passes download scope (channel/thread) to downloadSlackFile",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:246] passes download scope (channel/thread) to downloadSlackFile",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:246",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] returns non-image downloadFile results as file metadata instead of image content",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:273] returns non-image downloadFile results as file metadata instead of image content",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:273",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] forwards resolved botToken to action functions instead of relying on config re-read",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:310] forwards resolved botToken to action functions instead of relying on config re-read",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:310",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] keeps resolved userToken for downloadFile reads when configured",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:317] keeps resolved userToken for downloadFile reads when configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:317",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] requires at least one of content, blocks, or mediaUrl",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:390] requires at least one of content, blocks, or mediaUrl",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:390",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] routes uploadFile through sendSlackMessage with upload metadata",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:403] routes uploadFile through sendSlackMessage with upload metadata",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:403",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] rejects blocks combined with mediaUrl",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:430] rejects blocks combined with mediaUrl",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:430",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] requires content or blocks for editMessage",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:478] requires content or blocks for editMessage",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:478",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] auto-injects threadTs from context when replyToMode=all",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:492] auto-injects threadTs from context when replyToMode=all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:492",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] replyToMode=first threads first message then stops",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:509] replyToMode=first threads first message then stops",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:509",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] replyToMode=first normalizes channel target when accounting explicit threadTs",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:522] replyToMode=first normalizes channel target when accounting explicit threadTs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:522",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] replyToMode=first marks hasRepliedRef even when threadTs is explicit",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:540] replyToMode=first marks hasRepliedRef even when threadTs is explicit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:540",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] replyToMode=first without hasRepliedRef does not thread",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:559] replyToMode=first without hasRepliedRef does not thread",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:559",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] does not auto-inject threadTs when replyToMode=off",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:572] does not auto-inject threadTs when replyToMode=off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:572",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] does not auto-inject threadTs when sending to different channel",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:585] does not auto-inject threadTs when sending to different channel",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:585",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] explicit threadTs overrides context threadTs",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:607] explicit threadTs overrides context threadTs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:607",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] handles channel target without prefix when replyToMode=all",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:625] handles channel target without prefix when replyToMode=all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:625",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] adds normalized timestamps to readMessages payloads",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:647] adds normalized timestamps to readMessages payloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:647",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] passes threadId through to readSlackMessages",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:672] passes threadId through to readSlackMessages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:672",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] adds normalized timestamps to pin payloads",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:692] adds normalized timestamps to pin payloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:692",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] uses user token for reads when available",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:712] uses user token for reads when available",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:712",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] falls back to bot token for reads when user token missing",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:726] falls back to bot token for reads when user token missing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:726",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] uses bot token for writes when userTokenReadOnly is true",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:739] uses bot token for writes when userTokenReadOnly is true",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:739",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] allows user token writes when bot token is missing",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:754] allows user token writes when bot token is missing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:754",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] returns all emojis when no limit is provided",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:770] returns all emojis when no limit is provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:770",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts] applies limit to emoji-list results",
+TEST_CASE("v4.29 [extensions/slack/src/action-runtime.test.ts:788] applies limit to emoji-list results",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-runtime.test.ts:788",
                "upstream it() block #31",

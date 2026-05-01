@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.before-agent-reply.test.ts] returns a plugin reply and invokes the hook after inline actions",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.before-agent-reply.test.ts:78] returns a plugin reply and invokes the hook after inline actions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.before-agent-reply.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.before-agent-reply.test.ts] falls back to NO_REPLY when the hook claims without a reply payload",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.before-agent-reply.test.ts:104] falls back to NO_REPLY when the hook claims without a reply payload",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.before-agent-reply.test.ts:104",
                "upstream it() block #1",

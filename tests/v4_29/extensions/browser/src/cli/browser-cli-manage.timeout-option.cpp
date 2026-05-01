@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] uses parent --timeout for browser start instead of hardcoded 15s",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:15] uses parent --timeout for browser start instead of hardcoded 15s",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] passes headless=true for browser start --headless",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:25] passes headless=true for browser start --headless",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] combines browser profile with browser start --headless",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:33] combines browser profile with browser start --headless",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] uses a longer built-in timeout for browser status",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:43] uses a longer built-in timeout for browser status",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] uses a longer built-in timeout for browser tabs",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:51] uses a longer built-in timeout for browser tabs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:51",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] uses a longer built-in timeout for browser profiles",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:59] uses a longer built-in timeout for browser profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:59",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts] uses a longer built-in timeout for browser open",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:67] uses a longer built-in timeout for browser open",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-manage.timeout-option.test.ts:67",
                "upstream it() block #6",

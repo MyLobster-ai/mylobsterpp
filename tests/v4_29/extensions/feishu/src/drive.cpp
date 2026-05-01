@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] registers feishu_drive and handles comment actions",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:62] registers feishu_drive and handles comment actions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] defaults add_comment file_type to docx when omitted",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:271] defaults add_comment file_type to docx when omitted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:271",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] defaults list_comments file_type to docx when omitted",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:322] defaults list_comments file_type to docx when omitted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:322",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] defaults list_comment_replies file_type to docx when omitted",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:365] defaults list_comment_replies file_type to docx when omitted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:365",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] surfaces reply_comment HTTP errors when the single supported body fails",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:409] surfaces reply_comment HTTP errors when the single supported body fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:409",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] does not wait for ambient typing cleanup before reply_comment sends visible output",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:500] does not wait for ambient typing cleanup before reply_comment sends visible output",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:500",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] does not wait for ambient typing cleanup before add_comment sends visible output",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:604] does not wait for ambient typing cleanup before add_comment sends visible output",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:604",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] does not inherit non-doc ambient file types for add_comment",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:681] does not inherit non-doc ambient file types for add_comment",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:681",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] defaults reply_comment file_type to docx when omitted",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:738] defaults reply_comment file_type to docx when omitted",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:738",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] routes whole-document reply_comment requests through add_comment compatibility",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:815] routes whole-document reply_comment requests through add_comment compatibility",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:815",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] continues with reply_comment when comment metadata preflight fails",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:890] continues with reply_comment when comment metadata preflight fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:890",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] continues with reply_comment when batch_query returns no exact comment match",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:967] continues with reply_comment when batch_query returns no exact comment match",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:967",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] falls back to add_comment when reply_comment returns compatibility code 1069302 even without is_whole metadata",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:1051] falls back to add_comment when reply_comment returns compatibility code 1069302 even without is_whole metadata",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:1051",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] clamps comment list page sizes to the Feishu API maximum",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:1133] clamps comment list page sizes to the Feishu API maximum",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:1133",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts] rejects block-scoped comments for non-docx files",
+TEST_CASE("v4.29 [extensions/feishu/src/drive.test.ts:1186] rejects block-scoped comments for non-docx files",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/drive.test.ts:1186",
                "upstream it() block #14",

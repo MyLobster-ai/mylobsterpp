@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts] hides unresolved identifiers from thread intro details while pending",
+TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts:9] hides unresolved identifiers from thread intro details while pending",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/session-identifiers.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts] adds a Codex resume hint when agent identity is resolved",
+TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts:32] adds a Codex resume hint when agent identity is resolved",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/session-identifiers.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts] adds a Kimi resume hint when agent identity is resolved",
+TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts:59] adds a Kimi resume hint when agent identity is resolved",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/session-identifiers.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts] shows pending identity text for status rendering",
+TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts:86] shows pending identity text for status rendering",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/session-identifiers.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts] prefers runtimeOptions.cwd over legacy meta.cwd",
+TEST_CASE("v4.29 [src/acp/runtime/session-identifiers.test.ts:101] prefers runtimeOptions.cwd over legacy meta.cwd",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/runtime/session-identifiers.test.ts:101",
                "upstream it() block #4",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] blocks arch dispatch unwrapping outside macOS",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:231] blocks arch dispatch unwrapping outside macOS",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:231",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] allows non-semantic env passthrough",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:252] allows non-semantic env passthrough",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:252",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] unwraps transparent wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:319] unwraps transparent wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:319",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] blocks arch trust unwrapping outside macOS",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:329] blocks arch trust unwrapping outside macOS",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:329",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] blocks semantic env usage even when it reaches a shell wrapper",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:344] blocks semantic env usage even when it reaches a shell wrapper",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:344",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] blocks wrapper overflow beyond the configured depth",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:353] blocks wrapper overflow beyond the configured depth",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:353",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts] prefers an explicit raw command override when provided",
+TEST_CASE("v4.29 [src/infra/exec-wrapper-resolution.test.ts:480] prefers an explicit raw command override when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-wrapper-resolution.test.ts:480",
                "upstream it() block #6",

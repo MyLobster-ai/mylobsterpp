@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/mock.test.ts] preserves explicit falsy event values",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/mock.test.ts:16] preserves explicit falsy event values",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/mock.test.ts:16",
                "upstream it() block #0",

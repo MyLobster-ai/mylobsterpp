@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts] supports cacheRead and cacheWrite fields",
+TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts:6] supports cacheRead and cacheWrite fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/cache-fields.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts] merges cache fields properly",
+TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts:18] merges cache fields properly",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/cache-fields.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts] handles undefined cache fields",
+TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts:39] handles undefined cache fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/cache-fields.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts] allows cache fields to be cleared with undefined",
+TEST_CASE("v4.29 [src/config/sessions/cache-fields.test.ts:50] allows cache fields to be cleared with undefined",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/cache-fields.test.ts:50",
                "upstream it() block #3",

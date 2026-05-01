@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] recovers orphaned sessions with abortedLastRun=true",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:111] recovers orphaned sessions with abortedLastRun=true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] skips sessions that are not aborted",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:152] skips sessions that are not aborted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:152",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] skips runs that have already ended",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:162] skips runs that have already ended",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:162",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] recovers restart-aborted timeout runs even when the registry marked them ended",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:180] recovers restart-aborted timeout runs even when the registry marked them ended",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:180",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] handles multiple orphaned sessions",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:208] handles multiple orphaned sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:208",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] handles callGateway failure gracefully and preserves abortedLastRun flag",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:262] handles callGateway failure gracefully and preserves abortedLastRun flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:262",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] returns empty results when no active runs exist",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:295] returns empty results when no active runs exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:295",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] skips sessions with missing session entry in store",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:305] skips sessions with missing session entry in store",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:305",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] clears abortedLastRun flag after successful resume",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:309] clears abortedLastRun flag after successful resume",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] persists accepted recovery attempts after successful resume",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:345] persists accepted recovery attempts after successful resume",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:345",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] tombstones rapid repeated accepted recovery before resuming again",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:372] tombstones rapid repeated accepted recovery before resuming again",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:372",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] skips already tombstoned wedged sessions without rewriting them",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:426] skips already tombstoned wedged sessions without rewriting them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:426",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] truncates long task descriptions in resume message",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:449] truncates long task descriptions in resume message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:449",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] includes last human message in resume when available",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:465] includes last human message in resume when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:465",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] adds config change hint when assistant messages reference config modifications",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:484] adds config change hint when assistant messages reference config modifications",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:484",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] announces recovery-in-progress once when a later retry is attempting resume",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:500] announces recovery-in-progress once when a later retry is attempting resume",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:500",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] prevents duplicate resume when updateSessionStore fails",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:532] prevents duplicate resume when updateSessionStore fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:532",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] does not retry a session after the gateway accepted resume but run remap failed",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:560] does not retry a session after the gateway accepted resume but run remap failed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:560",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts] finalizes interrupted runs with a readable failure after recovery retries are exhausted",
+TEST_CASE("v4.29 [src/agents/subagent-orphan-recovery.test.ts:593] finalizes interrupted runs with a readable failure after recovery retries are exhausted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-orphan-recovery.test.ts:593",
                "upstream it() block #18",

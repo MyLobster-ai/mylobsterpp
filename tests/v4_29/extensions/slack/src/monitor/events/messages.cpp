@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] passes regular message events to the message handler",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:198] passes regular message events to the message handler",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:198",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] passes thread_broadcast events to the message handler",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:215] passes thread_broadcast events to the message handler",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:215",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] rehydrates assistant DM message_changed events with a metadata user as inbound messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:234] rehydrates assistant DM message_changed events with a metadata user as inbound messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:234",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] drops self-authored message_changed events without assistant sender metadata",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:256] drops self-authored message_changed events without assistant sender metadata",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:256",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] drops self-authored message_changed events that only include block user IDs",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:274] drops self-authored message_changed events that only include block user IDs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:274",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] handles channel and group messages via the unified message handler",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:303] handles channel and group messages via the unified message handler",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:303",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] applies subtype system-event handling for channel messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:335] applies subtype system-event handling for channel messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:335",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] skips app_mention events for DM channel ids even with contradictory channel_type",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:354] skips app_mention events for DM channel ids even with contradictory channel_type",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:354",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts] routes app_mention events from channels to the message handler",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/messages.test.ts:364] routes app_mention events from channels to the message handler",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/messages.test.ts:364",
                "upstream it() block #8",

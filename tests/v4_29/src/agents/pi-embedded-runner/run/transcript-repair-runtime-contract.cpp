@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts] merges text orphan leaves into the next prompt with the queued marker",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:23] merges text orphan leaves into the next prompt with the queued marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts] does not duplicate an orphan leaf that is already present in the next prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:37] does not duplicate an orphan leaf that is already present in the next prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts] preserves structured text and media references before removing the leaf",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:51] preserves structured text and media references before removing the leaf",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts] summarizes inline data URI media instead of embedding payload bytes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:70] summarizes inline data URI media instead of embedding payload bytes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts] exposes transcript repair through the active message merge strategy",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:86] exposes transcript repair through the active message merge strategy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts] allows the active transcript repair strategy to be replaced for adapter contracts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:102] allows the active transcript repair strategy to be replaced for adapter contracts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/transcript-repair-runtime-contract.test.ts:102",
                "upstream it() block #5",

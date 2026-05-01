@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] trims, resolves, and dedupes paths",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:50] trims, resolves, and dedupes paths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] includes files from additional paths (directory)",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:72] includes files from additional paths (directory)",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] includes files from additional paths (single file)",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:89] includes files from additional paths (single file)",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] ignores lowercase root memory.md when canonical MEMORY.md is absent",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:100] ignores lowercase root memory.md when canonical MEMORY.md is absent",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] prefers canonical MEMORY.md over legacy root memory.md even through extra paths",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:109] prefers canonical MEMORY.md over legacy root memory.md even through extra paths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:109",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] skips root-memory repair backups from workspace and explicit extra paths",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:163] skips root-memory repair backups from workspace and explicit extra paths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] handles relative paths in additional paths",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:187] handles relative paths in additional paths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:187",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] ignores non-existent additional paths",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:199] ignores non-existent additional paths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:199",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] ignores symlinked files and directories",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:207] ignores symlinked files and directories",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:207",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] dedupes overlapping extra paths that resolve to the same file",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:244] dedupes overlapping extra paths that resolve to the same file",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:244",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] includes image and audio files from extra paths when multimodal is enabled",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:252] includes image and audio files from extra paths when multimodal is enabled",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:252",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] allows explicit access to top-level DREAMS.md",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:268] allows explicit access to top-level DREAMS.md",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:268",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] returns null when the file disappears before reading",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:281] returns null when the file disappears before reading",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:281",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] returns metadata when the file exists",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:290] returns metadata when the file exists",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:290",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] returns multimodal metadata for eligible image files",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:300] returns multimodal metadata for eligible image files",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:300",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] builds a multimodal chunk lazily for indexing",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:316] builds a multimodal chunk lazily for indexing",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:316",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] skips lazy multimodal indexing when file state changes after discovery",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:331] skips lazy multimodal indexing when file state changes after discovery",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:331",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] splits overly long lines into max-sized chunks",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:366] splits overly long lines into max-sized chunks",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:366",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] produces more chunks for CJK text than for equal-length ASCII text",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:377] produces more chunks for CJK text than for equal-length ASCII text",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:377",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] respects token budget for Chinese text",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:394] respects token budget for Chinese text",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:394",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] keeps English chunking behavior unchanged",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:417] keeps English chunking behavior unchanged",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:417",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] handles mixed CJK and ASCII content correctly",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:428] handles mixed CJK and ASCII content correctly",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:428",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] splits very long CJK lines into budget-sized segments",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:445] splits very long CJK lines into budget-sized segments",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:445",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] does not break surrogate pairs when splitting long CJK lines",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:456] does not break surrogate pairs when splitting long CJK lines",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:456",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] does not over-split long Latin lines (backward compat)",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:478] does not over-split long Latin lines (backward compat)",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:478",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] remaps chunk line numbers using a lineMap",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:487] remaps chunk line numbers using a lineMap",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:487",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] preserves original line numbers when lineMap is undefined",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:509] preserves original line numbers when lineMap is undefined",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:509",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts] handles multi-chunk content with correct remapping",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/internal.test.ts:521] handles multi-chunk content with correct remapping",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/internal.test.ts:521",
                "upstream it() block #27",

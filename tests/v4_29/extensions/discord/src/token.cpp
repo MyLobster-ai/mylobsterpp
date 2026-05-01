@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] prefers config token over env",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:10] prefers config token over env",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] uses env token when config is missing",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:20] uses env token when config is missing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] prefers account token for non-default accounts",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:30] prefers account token for non-default accounts",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] falls back to top-level token for non-default accounts without account token",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:47] falls back to top-level token for non-default accounts without account token",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] does not inherit top-level token when account token is explicitly blank",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:63] does not inherit top-level token when account token is explicitly blank",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] resolves account token when account key casing differs from normalized id",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:79] resolves account token when account key casing differs from normalized id",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:79",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/token.test.ts] throws when token is an unresolved SecretRef object",
+TEST_CASE("v4.29 [extensions/discord/src/token.test.ts:94] throws when token is an unresolved SecretRef object",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/token.test.ts:94",
                "upstream it() block #6",

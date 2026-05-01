@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/tailnet.test.ts] detects tailscale ipv4 ranges",
+TEST_CASE("v4.29 [src/infra/tailnet.test.ts:16] detects tailscale ipv4 ranges",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailnet.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailnet.test.ts] lists unique non-internal tailnet addresses only",
+TEST_CASE("v4.29 [src/infra/tailnet.test.ts:23] lists unique non-internal tailnet addresses only",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailnet.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailnet.test.ts] picks the first available tailnet addresses",
+TEST_CASE("v4.29 [src/infra/tailnet.test.ts:43] picks the first available tailnet addresses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailnet.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailnet.test.ts] throws when interface discovery fails",
+TEST_CASE("v4.29 [src/infra/tailnet.test.ts:58] throws when interface discovery fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailnet.test.ts:58",
                "upstream it() block #3",

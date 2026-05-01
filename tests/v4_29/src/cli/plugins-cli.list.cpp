@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts] includes imported state in JSON output",
+TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts:21] includes imported state in JSON output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.list.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts] keeps doctor on a module-loading snapshot",
+TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts:68] keeps doctor on a module-loading snapshot",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.list.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts] reports persisted plugin registry state without refreshing",
+TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts:80] reports persisted plugin registry state without refreshing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.list.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts] refreshes the persisted plugin registry on request",
+TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts:105] refreshes the persisted plugin registry on request",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.list.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts] shows conversation-access hook policy in inspect output",
+TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts:123] shows conversation-access hook policy in inspect output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.list.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts] does not runtime-load plugins when inspect target is missing",
+TEST_CASE("v4.29 [src/cli/plugins-cli.list.test.ts:167] does not runtime-load plugins when inspect target is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.list.test.ts:167",
                "upstream it() block #5",

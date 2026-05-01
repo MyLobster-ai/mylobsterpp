@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commitments/runtime.test.ts] does not enqueue background extraction in test mode unless forced",
+TEST_CASE("v4.29 [src/commitments/runtime.test.ts:37] does not enqueue background extraction in test mode unless forced",
           "[v4_29][parity_gap][commitments]") {
     PARITY_GAP("src/commitments/runtime.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commitments/runtime.test.ts] keeps hidden extraction opt-in by default",
+TEST_CASE("v4.29 [src/commitments/runtime.test.ts:53] keeps hidden extraction opt-in by default",
           "[v4_29][parity_gap][commitments]") {
     PARITY_GAP("src/commitments/runtime.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commitments/runtime.test.ts] micro-batches queued turns into one extractor call",
+TEST_CASE("v4.29 [src/commitments/runtime.test.ts:76] micro-batches queued turns into one extractor call",
           "[v4_29][parity_gap][commitments]") {
     PARITY_GAP("src/commitments/runtime.test.ts:76",
                "upstream it() block #2",

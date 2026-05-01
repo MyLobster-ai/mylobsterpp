@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/bundle-claude-inspect.test.ts] loads the full Claude bundle manifest with all capabilities",
+TEST_CASE("v4.29 [src/plugins/bundle-claude-inspect.test.ts:163] loads the full Claude bundle manifest with all capabilities",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundle-claude-inspect.test.ts:163",
                "upstream it() block #0",

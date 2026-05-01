@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] swallows user_not_found after prior append flushed (delivered=true)",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:38] swallows user_not_found after prior append flushed (delivered=true)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] throws SlackStreamNotDeliveredError when user_not_found fires before any flush",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:52] throws SlackStreamNotDeliveredError when user_not_found fires before any flush",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] throws SlackStreamNotDeliveredError carrying stop()",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:71] throws SlackStreamNotDeliveredError carrying stop()",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] clears pendingText after an append flush is acknowledged by Slack",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:86] clears pendingText after an append flush is acknowledged by Slack",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] throws SlackStreamNotDeliveredError with buffered text when append flush fails",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:97] throws SlackStreamNotDeliveredError with buffered text when append flush fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] falls back only still-pending tail text after a prior flush succeeded",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:116] falls back only still-pending tail text after a prior flush succeeded",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:116",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] swallows missing_recipient_user_id when delivered",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:135] swallows missing_recipient_user_id when delivered",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:135",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] re-throws unexpected Slack API errors even when delivered",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:147] re-throws unexpected Slack API errors even when delivered",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:147",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] re-throws non-Slack-shaped errors unchanged",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:160] re-throws non-Slack-shaped errors unchanged",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:160",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] returns a no-op on an already-stopped session",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:170] returns a no-op on an already-stopped session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:170",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] marks delivered=true on successful stop() without prior flush",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:184] marks delivered=true on successful stop() without prior flush",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:184",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] converts a start-time flush rejection into a pending-text fallback error",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:196] converts a start-time flush rejection into a pending-text fallback error",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:196",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] marks fallback-delivered sessions stopped only when no native stream exists",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:219] marks fallback-delivered sessions stopped only when no native stream exists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:219",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] isBenignSlackFinalizeError matches each allowlisted code",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:236] isBenignSlackFinalizeError matches each allowlisted code",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:236",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] isBenignSlackFinalizeError rejects non-listed codes",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:242] isBenignSlackFinalizeError rejects non-listed codes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:242",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts] extractSlackErrorCode handles data.error, message fallback, and junk shapes",
+TEST_CASE("v4.29 [extensions/slack/src/streaming.test.ts:248] extractSlackErrorCode handles data.error, message fallback, and junk shapes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/streaming.test.ts:248",
                "upstream it() block #15",

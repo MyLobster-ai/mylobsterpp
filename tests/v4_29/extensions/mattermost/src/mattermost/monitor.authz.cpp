@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts] keeps DM allowlist merged with pairing-store entries",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts:49] keeps DM allowlist merged with pairing-store entries",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.authz.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts] uses explicit groupAllowFrom without pairing-store inheritance",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts:60] uses explicit groupAllowFrom without pairing-store inheritance",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.authz.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts] does not inherit pairing-store entries into group allowlist",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts:71] does not inherit pairing-store entries into group allowlist",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.authz.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts] does not auto-authorize DM commands in open mode without allowlists",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts:82] does not auto-authorize DM commands in open mode without allowlists",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.authz.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts] denies group control commands when the sender is outside the allowlist",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts:103] denies group control commands when the sender is outside the allowlist",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.authz.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts] authorizes group control commands for allowlisted senders",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.authz.test.ts:113] authorizes group control commands for allowlisted senders",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.authz.test.ts:113",
                "upstream it() block #5",

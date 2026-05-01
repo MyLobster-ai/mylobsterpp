@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/fix.test.ts] tightens groupPolicy + filesystem perms",
+TEST_CASE("v4.29 [src/security/fix.test.ts:158] tightens groupPolicy + filesystem perms",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/fix.test.ts:158",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/fix.test.ts] applies allowlist per-account and seeds WhatsApp groupAllowFrom from store",
+TEST_CASE("v4.29 [src/security/fix.test.ts:195] applies allowlist per-account and seeds WhatsApp groupAllowFrom from store",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/fix.test.ts:195",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/fix.test.ts] does not seed WhatsApp groupAllowFrom if allowFrom is set",
+TEST_CASE("v4.29 [src/security/fix.test.ts:209] does not seed WhatsApp groupAllowFrom if allowFrom is set",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/fix.test.ts:209",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/fix.test.ts] returns ok=false for invalid config but still tightens perms",
+TEST_CASE("v4.29 [src/security/fix.test.ts:222] returns ok=false for invalid config but still tightens perms",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/fix.test.ts:222",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/fix.test.ts] collects permission targets for credentials + agent auth/sessions + include files",
+TEST_CASE("v4.29 [src/security/fix.test.ts:238] collects permission targets for credentials + agent auth/sessions + include files",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/fix.test.ts:238",
                "upstream it() block #4",

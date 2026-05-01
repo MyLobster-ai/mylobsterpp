@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts] finalizes cancel-requested managed flows once no child tasks remain active",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts:59] finalizes cancel-requested managed flows once no child tasks remain active",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.maintenance.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts] prunes old terminal flows",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts:88] prunes old terminal flows",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.maintenance.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts] repairs terminal mirrored flows whose delivery updates outlived endedAt",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts:114] repairs terminal mirrored flows whose delivery updates outlived endedAt",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.maintenance.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts] does not finalize cancel-requested flows while a child task is still active",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts:144] does not finalize cancel-requested flows while a child task is still active",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.maintenance.test.ts:144",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts] prunes many old terminal flows while keeping fresh and active ones",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.maintenance.test.ts:200] prunes many old terminal flows while keeping fresh and active ones",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.maintenance.test.ts:200",
                "upstream it() block #4",

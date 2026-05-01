@@ -1,4 +1,4 @@
-// MYLOBSTERPP_HAND_AUTHORED
+// MYLOBSTERPP_HANDWRITTEN_TEST
 // v2026.4.29 parity: extensions/anthropic/provider-runtime.contract.test.ts
 //
 // Upstream is a single-line invocation of the SDK contract test bundle:

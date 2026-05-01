@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts] keeps default-account group routes unchanged",
+TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts:5] keeps default-account group routes unchanged",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/group-session-key.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts] scopes named-account group routes through an account-specific thread suffix",
+TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts:19] scopes named-account group routes through an account-specific thread suffix",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/group-session-key.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts] derives the legacy group session key from a named-account scoped group route",
+TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts:36] derives the legacy group session key from a named-account scoped group route",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/group-session-key.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts] normalizes mixed-case account ids when resolving legacy scoped group keys",
+TEST_CASE("v4.29 [extensions/whatsapp/src/group-session-key.test.ts:45] normalizes mixed-case account ids when resolving legacy scoped group keys",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/group-session-key.test.ts:45",
                "upstream it() block #3",

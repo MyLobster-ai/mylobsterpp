@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] returns a clean MIME for a well-formed value",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:5] returns a clean MIME for a well-formed value",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] lowercases the result",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:10] lowercases the result",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] trims surrounding whitespace",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:15] trims surrounding whitespace",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] accepts the RFC 9110 ;parameter tail and strips it",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:19] accepts the RFC 9110 ;parameter tail and strips it",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:19",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects values with trailing junk that is not a parameter",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:29] rejects values with trailing junk that is not a parameter",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects an embedded newline before the parameter separator",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:36] rejects an embedded newline before the parameter separator",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:36",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects a bare or whitespace-only parameter section",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:42] rejects a bare or whitespace-only parameter section",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:42",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects malformed parameter tails",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:48] rejects malformed parameter tails",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:48",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects non-ASCII values before lowercasing the result",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:54] rejects non-ASCII values before lowercasing the result",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:54",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects empty, whitespace, or non-string input",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:58] rejects empty, whitespace, or non-string input",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:58",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts] rejects values without a subtype",
+TEST_CASE("v4.29 [src/media-understanding/apply.sanitize-mime.test.ts:64] rejects values without a subtype",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.sanitize-mime.test.ts:64",
                "upstream it() block #10",

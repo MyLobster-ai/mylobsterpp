@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should register a hook handler",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:35] should register a hook handler",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should allow multiple handlers for the same event",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:43] should allow multiple handlers for the same event",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should unregister a specific handler",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:56] should unregister a specific handler",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should clean up empty handler arrays",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:72] should clean up empty handler arrays",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should trigger handlers for general event type",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:84] should trigger handlers for general event type",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:84",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should trigger handlers for specific event action",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:94] should trigger handlers for specific event action",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should trigger both general and specific handlers",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:104] should trigger both general and specific handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:104",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should handle async handlers",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:118] should handle async handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:118",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should catch and log errors from handlers",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:131] should catch and log errors from handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:131",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should not throw if no handlers are registered",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:147] should not throw if no handlers are registered",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:147",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] skips hook execution when internal hooks are disabled",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:152] skips hook execution when internal hooks are disabled",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:152",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] stores handlers in the global singleton registry",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:162] stores handlers in the global singleton registry",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:162",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should create a properly formatted event",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:184] should create a properly formatted event",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:184",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should use empty context if not provided",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:196] should use empty context if not provided",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:196",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] returns false for non-message and missing-context shapes",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:326] returns false for non-message and missing-context shapes",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:326",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should trigger message:received handlers",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:360] should trigger message:received handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:360",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should trigger message:sent handlers",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:376] should trigger message:sent handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:376",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should trigger general message handlers for both received and sent",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:393] should trigger general message handlers for both received and sent",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:393",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should handle hook errors without breaking message processing",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:424] should handle hook errors without breaking message processing",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:424",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should return all registered event keys",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:448] should return all registered event keys",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:448",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should return empty array when no handlers are registered",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:459] should return empty array when no handlers are registered",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:459",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts] should remove all registered handlers",
+TEST_CASE("v4.29 [src/hooks/internal-hooks.test.ts:466] should remove all registered handlers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/internal-hooks.test.ts:466",
                "upstream it() block #21",

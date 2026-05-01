@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] coerces null properties to an empty object",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:5] coerces null properties to an empty object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] coerces non-object properties to an empty object",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:15] coerces non-object properties to an empty object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] coerces array properties to an empty object",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:24] coerces array properties to an empty object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] filters required fields that are not in properties",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:33] filters required fields that are not in properties",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] preserves required when all fields exist in properties",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:46] preserves required when all fields exist in properties",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:46",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] removes required entirely when no fields match properties",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:59] removes required entirely when no fields match properties",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:59",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] removes required from object schemas when properties is absent",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:71] removes required from object schemas when properties is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:71",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] leaves required as-is for non-object schemas when properties is absent",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:80] leaves required as-is for non-object schemas when properties is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] filters required in nested object properties",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:89] filters required in nested object properties",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:89",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] does not treat inherited keys as declared properties",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:106] does not treat inherited keys as declared properties",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:106",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] coerces nested null properties while preserving valid siblings",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:118] coerces nested null properties while preserving valid siblings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:118",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] strips empty required arrays",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:141] strips empty required arrays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:141",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] preserves non-empty required arrays",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:154] preserves non-empty required arrays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:154",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] strips empty required arrays in nested schemas",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:166] strips empty required arrays in nested schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:166",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] strips the not keyword from schemas",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:187] strips the not keyword from schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:187",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] collapses type arrays by stripping null entries",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:203] collapses type arrays by stripping null entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:203",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts] collapses type arrays in nested property schemas",
+TEST_CASE("v4.29 [src/agents/schema/clean-for-gemini.test.ts:213] collapses type arrays in nested property schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema/clean-for-gemini.test.ts:213",
                "upstream it() block #16",

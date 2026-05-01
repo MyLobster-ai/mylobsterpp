@@ -5,642 +5,642 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] caches account-scoped allowFrom store reads on hot path",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:131] caches account-scoped allowFrom store reads on hot path",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:131",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] refreshes the account-scoped allowFrom cache after its ttl expires",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:162] refreshes the account-scoped allowFrom cache after its ttl expires",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:162",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] sends pairing reminders for pending requests with cooldown",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:193] sends pairing reminders for pending requests with cooldown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:193",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] uses account-scoped pairing store reads and upserts for dm pairing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:230] uses account-scoped pairing store reads and upserts for dm pairing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:230",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] passes accountId into route resolution for inbound dm messages",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:266] passes accountId into route resolution for inbound dm messages",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:266",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not enqueue delivered text messages into system events",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:299] does not enqueue delivered text messages into system events",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:299",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] drops room messages from configured Matrix bot accounts when allowBots is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:323] drops room messages from configured Matrix bot accounts when allowBots is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:323",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] accepts room messages from configured Matrix bot accounts when allowBots is true",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:345] accepts room messages from configured Matrix bot accounts when allowBots is true",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:345",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not treat unconfigured Matrix users as bots when allowBots is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:368] does not treat unconfigured Matrix users as bots when allowBots is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:368",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] drops configured Matrix bot room messages without a mention when allowBots=",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:391] drops configured Matrix bot room messages without a mention when allowBots=",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:391",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] accepts configured Matrix bot room messages with a mention when allowBots=",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:415] accepts configured Matrix bot room messages with a mention when allowBots=",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:415",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] accepts configured Matrix bot DMs without a mention when allowBots=",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:440] accepts configured Matrix bot DMs without a mention when allowBots=",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:440",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] lets room-level allowBots override a permissive account default",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:460] lets room-level allowBots override a permissive account default",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:460",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] blocks room control commands from DM-only paired senders",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:483] blocks room control commands from DM-only paired senders",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:483",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] blocks room control commands from configured DM-only senders",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:515] blocks room control commands from configured DM-only senders",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:515",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] strips the Matrix self user id before room slash command detection",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:554] strips the Matrix self user id before room slash command detection",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:554",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] processes room messages mentioned via displayName in formatted_body",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:586] processes room messages mentioned via displayName in formatted_body",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:586",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] processes room messages mentioned via @displayName in Unicode formatted_body",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:609] processes room messages mentioned via @displayName in Unicode formatted_body",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:609",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not fetch self displayName for plain-text room mentions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:633] does not fetch self displayName for plain-text room mentions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:633",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] drops forged metadata-only mentions before session recording",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:653] drops forged metadata-only mentions before session recording",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:653",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] drops root events that carry a bundled replacement relation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:673] drops root events that carry a bundled replacement relation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:673",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips media downloads for unmentioned group media messages",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:699] skips media downloads for unmentioned group media messages",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:699",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips poll snapshot fetches for unmentioned group poll responses",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:734] skips poll snapshot fetches for unmentioned group poll responses",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:734",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] records thread starter context for inbound thread replies",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:789] records thread starter context for inbound thread replies",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:789",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps threaded DMs flat when dm threadReplies is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:832] keeps threaded DMs flat when dm threadReplies is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:832",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] posts a one-time notice when another Matrix DM room already owns the shared DM session",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:879] posts a one-time notice when another Matrix DM room already owns the shared DM session",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:879",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] checks flat DM collision notices against the current DM session key",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:930] checks flat DM collision notices against the current DM session key",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:930",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] checks threaded DM collision notices against the parent DM session",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:979] checks threaded DM collision notices against the parent DM session",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:979",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps the shared-session notice after user-target outbound metadata overwrites latest room fields",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1036] keeps the shared-session notice after user-target outbound metadata overwrites latest room fields",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1036",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips the shared-session notice when the prior Matrix session metadata is not a DM",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1083] skips the shared-session notice when the prior Matrix session metadata is not a DM",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1083",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips the shared-session notice when Matrix DMs are isolated per room",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1118] skips the shared-session notice when Matrix DMs are isolated per room",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1118",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips the shared-session notice when a Matrix DM is explicitly bound",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1167] skips the shared-session notice when a Matrix DM is explicitly bound",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1167",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] uses stable room ids instead of room-declared aliases in group context",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1236] uses stable room ids instead of room-declared aliases in group context",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1236",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] routes bound Matrix threads to the target session key",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1270] routes bound Matrix threads to the target session key",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1270",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not refresh bound Matrix thread bindings for room messages dropped before routing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1333] does not refresh bound Matrix thread bindings for room messages dropped before routing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1333",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not enqueue system events for delivered text replies",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1390] does not enqueue system events for delivered text replies",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1390",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] enqueues system events for reactions on bot-authored messages",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1522] enqueues system events for reactions on bot-authored messages",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1522",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] routes reaction notifications for bound thread messages to the bound session",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1549] routes reaction notifications for bound thread messages to the bound session",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1549",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps threaded DM reaction notifications on the flat session when dm threadReplies is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1611] keeps threaded DM reaction notifications on the flat session when dm threadReplies is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1611",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] routes thread-root reaction notifications to the thread session when threadReplies is always",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1655] routes thread-root reaction notifications to the thread session when threadReplies is always",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1655",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] ignores reactions that do not target bot-authored messages",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1693] ignores reactions that do not target bot-authored messages",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1693",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not create pairing requests for unauthorized dm reactions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1711] does not create pairing requests for unauthorized dm reactions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1711",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] honors account-scoped reaction notification overrides",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1729] honors account-scoped reaction notification overrides",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1729",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] drops pre-startup dm messages on cold start",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1757] drops pre-startup dm messages on cold start",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1757",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] replays pre-startup dm messages when persisted sync state exists",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1786] replays pre-startup dm messages when persisted sync state exists",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1786",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] accepts a DM sender added to live dm.allowFrom",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1846] accepts a DM sender added to live dm.allowFrom",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1846",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] blocks a DM sender removed from live dm.allowFrom",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1881] blocks a DM sender removed from live dm.allowFrom",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1881",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] blocks a DM sender after live wildcard removal",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1916] blocks a DM sender after live wildcard removal",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1916",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] uses account-scoped live dm.allowFrom overrides",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1951] uses account-scoped live dm.allowFrom overrides",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1951",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps startup-resolved display names only while the raw input remains configured",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:1992] keeps startup-resolved display names only while the raw input remains configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:1992",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] accepts a DM sender added as a live-resolved display name",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2027] accepts a DM sender added as a live-resolved display name",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2027",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] blocks a room sender removed from live groupAllowFrom while the group list remains configured",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2075] blocks a room sender removed from live groupAllowFrom while the group list remains configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2075",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips replayed inbound events before session recording",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2120] skips replayed inbound events before session recording",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2120",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] commits inbound events only after queued replies finish delivering",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2151] commits inbound events only after queued replies finish delivering",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2151",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] releases a claimed event when reply dispatch fails before completion",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2219] releases a claimed event when reply dispatch fails before completion",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2219",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps replay committed when queued final delivery fails after a generic error",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2256] keeps replay committed when queued final delivery fails after a generic error",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2256",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] releases a claimed event when queued final delivery fails with an explicit retryable error",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2357] releases a claimed event when queued final delivery fails with an explicit retryable error",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2357",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] commits a claimed event when dispatch completes without a final reply",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2448] commits a claimed event when dispatch completes without a final reply",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2448",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] finalizes a single quiet-preview block in place when block streaming is enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2629] finalizes a single quiet-preview block in place when block streaming is enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2629",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] streams tool progress into the Matrix draft preview when enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2655] streams tool progress into the Matrix draft preview when enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2655",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps Matrix tool progress mentions inside code formatting",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2686] keeps Matrix tool progress mentions inside code formatting",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2686",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] leaves Matrix tool progress on the default tool delivery path when disabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2706] leaves Matrix tool progress on the default tool delivery path when disabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2706",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps partial preview-first finalization on the existing draft when text is unchanged",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2718] keeps partial preview-first finalization on the existing draft when text is unchanged",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2718",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] still edits partial preview-first drafts when the final text changes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2755] still edits partial preview-first drafts when the final text changes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2755",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] preserves completed blocks by rotating to a new quiet preview",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2781] preserves completed blocks by rotating to a new quiet preview",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2781",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] queues late partials behind block-boundary rotation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2829] queues late partials behind block-boundary rotation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2829",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps delayed same-message block boundaries at the emitted block length",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2862] keeps delayed same-message block boundaries at the emitted block length",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2862",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] falls back to deliverMatrixReplies when final edit fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2915] falls back to deliverMatrixReplies when final edit fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2915",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not reset draft stream after final delivery",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2932] does not reset draft stream after final delivery",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2932",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] resets draft block offsets on assistant message start",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2958] resets draft block offsets on assistant message start",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2958",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] preserves queued block boundaries across assistant message start",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:2990] preserves queued block boundaries across assistant message start",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:2990",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] queues late block boundaries against the source assistant message",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3040] queues late block boundaries against the source assistant message",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3040",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps queued block boundaries ordered while Matrix deliveries drain",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3091] keeps queued block boundaries ordered while Matrix deliveries drain",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3091",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] stops draft stream on handler error (no leaked timer)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3154] stops draft stream on handler error (no leaked timer)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3154",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] redacts partial live drafts when generation aborts mid-stream",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3214] redacts partial live drafts when generation aborts mid-stream",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3214",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps shutdown cleanup for empty final payloads that send nothing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3260] keeps shutdown cleanup for empty final payloads that send nothing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3260",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] skips compaction notices in draft finalization",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3281] skips compaction notices in draft finalization",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3281",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] redacts stale draft when payload reply target mismatches",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3300] redacts stale draft when payload reply target mismatches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3300",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] redacts stale draft when final payload intentionally drops reply threading",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3322] redacts stale draft when final payload intentionally drops reply threading",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3322",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] redacts stale draft for media-only finals",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3346] redacts stale draft for media-only finals",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3346",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not create a throwaway draft for fast media-only finals",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3364] does not create a throwaway draft for fast media-only finals",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3364",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] does not create a throwaway draft for fast error finals",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3377] does not create a throwaway draft for fast error finals",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3377",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] redacts existing drafts for text error finals and uses normal delivery",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3390] redacts existing drafts for text error finals and uses normal delivery",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3390",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] finalizes partial drafts before reusing unchanged media captions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3408] finalizes partial drafts before reusing unchanged media captions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3408",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] finalizes quiet drafts before reusing unchanged media captions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3447] finalizes quiet drafts before reusing unchanged media captions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3447",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] redacts stale draft and sends the final once when a later preview exceeds the event limit",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3487] redacts stale draft and sends the final once when a later preview exceeds the event limit",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3487",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps final-only delivery when draft streaming is off by default",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3518] keeps final-only delivery when draft streaming is off by default",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3518",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps block streaming disabled when partial previews are on and block streaming is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3539] keeps block streaming disabled when partial previews are on and block streaming is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3539",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] keeps block streaming disabled when quiet previews are on and block streaming is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3560] keeps block streaming disabled when quiet previews are on and block streaming is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3560",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] allows shared block streaming when partial previews and block streaming are both enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3581] allows shared block streaming when partial previews and block streaming are both enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3581",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts] uses shared block streaming when explicitly enabled for Matrix",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.test.ts:3603] uses shared block streaming when explicitly enabled for Matrix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.test.ts:3603",
                "upstream it() block #90",

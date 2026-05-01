@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/action-threading.test.ts] uses the active thread only for matching channel targets",
+TEST_CASE("v4.29 [extensions/slack/src/action-threading.test.ts:23] uses the active thread only for matching channel targets",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-threading.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-threading.test.ts] threads first matching prefixed channel target with bare current channel",
+TEST_CASE("v4.29 [extensions/slack/src/action-threading.test.ts:44] threads first matching prefixed channel target with bare current channel",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-threading.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/action-threading.test.ts] skips auto-threading when reply mode or thread context blocks it",
+TEST_CASE("v4.29 [extensions/slack/src/action-threading.test.ts:59] skips auto-threading when reply mode or thread context blocks it",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/action-threading.test.ts:59",
                "upstream it() block #2",

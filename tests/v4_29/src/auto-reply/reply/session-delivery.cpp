@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts] inter-session message does NOT overwrite established Discord lastChannel",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts:5] inter-session message does NOT overwrite established Discord lastChannel",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-delivery.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts] inter-session message does NOT overwrite established Telegram lastChannel",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts:16] inter-session message does NOT overwrite established Telegram lastChannel",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-delivery.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts] inter-session message does NOT overwrite established external lastTo",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts:27] inter-session message does NOT overwrite established external lastTo",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-delivery.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts] regular Discord user message DOES update lastChannel normally",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts:41] regular Discord user message DOES update lastChannel normally",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-delivery.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts] inter-session on a NEW session (no persisted external route) may set webchat",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts:52] inter-session on a NEW session (no persisted external route) may set webchat",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-delivery.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts] inter-session on session with no persisted lastTo does not crash",
+TEST_CASE("v4.29 [src/auto-reply/reply/session-delivery.test.ts:66] inter-session on session with no persisted lastTo does not crash",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session-delivery.test.ts:66",
                "upstream it() block #5",

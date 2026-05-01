@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts] uses provider keys to auto-enable audio transcription",
+TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts:85] uses provider keys to auto-enable audio transcription",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.auto-audio.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts] prefers provider keys over auto-detected local whisper",
+TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts:98] prefers provider keys over auto-detected local whisper",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.auto-audio.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts] skips auto audio when disabled",
+TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts:129] skips auto audio when disabled",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.auto-audio.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts] prefers explicitly configured audio model entries",
+TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts:149] prefers explicitly configured audio model entries",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.auto-audio.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts] lets per-request transcription hints override configured model-entry hints",
+TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts:171] lets per-request transcription hints override configured model-entry hints",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.auto-audio.test.ts:171",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts] uses mistral when only mistral key is configured",
+TEST_CASE("v4.29 [src/media-understanding/runner.auto-audio.test.ts:208] uses mistral when only mistral key is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.auto-audio.test.ts:208",
                "upstream it() block #5",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.test.ts] keeps disposable Matrix lane flags focused",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.test.ts:53] keeps disposable Matrix lane flags focused",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.test.ts] exits with failure after Matrix artifacts are written for a failed run",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.test.ts:79] exits with failure after Matrix artifacts are written for a failed run",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.test.ts] can disable the forced exit for direct test harnesses",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.test.ts:91] can disable the forced exit for direct test harnesses",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.test.ts:91",
                "upstream it() block #2",

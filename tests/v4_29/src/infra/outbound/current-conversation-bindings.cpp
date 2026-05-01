@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] advertises support only for channels that opt into current-conversation binds",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:61] advertises support only for channels that opt into current-conversation binds",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] requires an active channel plugin registration",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:81] requires an active channel plugin registration",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] reloads persisted bindings after the in-memory cache is cleared",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:92] reloads persisted bindings after the in-memory cache is cleared",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] normalizes persisted target session keys on reload",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:128] normalizes persisted target session keys on reload",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] drops self-parent conversation refs when storing generic current bindings",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:178] drops self-parent conversation refs when storing generic current bindings",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:178",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] migrates persisted legacy self-parent binding ids on load",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:211] migrates persisted legacy self-parent binding ids on load",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] removes persisted bindings on unbind",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:277] removes persisted bindings on unbind",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:277",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts] persists touched activity across reloads",
+TEST_CASE("v4.29 [src/infra/outbound/current-conversation-bindings.test.ts:304] persists touched activity across reloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/current-conversation-bindings.test.ts:304",
                "upstream it() block #7",

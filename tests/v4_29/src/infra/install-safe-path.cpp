@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] keeps safe names unchanged",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:47] keeps safe names unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] falls back to a hashed skill name for empty or dot-like segments",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:51] falls back to a hashed skill name for empty or dot-like segments",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] normalizes separators and adds hash suffix",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:57] normalizes separators and adds hash suffix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] hashes long names while staying bounded",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:64] hashes long names while staying bounded",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] resolves install dirs under the base directory",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:73] resolves install dirs under the base directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] rejects ids that resolve to the base directory itself",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:86] rejects ids that resolve to the base directory itself",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] accepts in-base directories",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:101] accepts in-base directories",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:101",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] accepts missing candidate paths when their parent stays in base",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:115] accepts missing candidate paths when their parent stays in base",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:115",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] rejects non-directory base paths",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:129] rejects non-directory base paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:129",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts] rejects non-directory candidate paths inside the base",
+TEST_CASE("v4.29 [src/infra/install-safe-path.test.ts:143] rejects non-directory candidate paths inside the base",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-safe-path.test.ts:143",
                "upstream it() block #9",

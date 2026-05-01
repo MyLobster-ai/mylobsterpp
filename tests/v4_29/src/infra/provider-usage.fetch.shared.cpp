@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts] builds a provider error snapshot",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts:15] builds a provider error snapshot",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.shared.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts] forwards request init and clears the timeout on success",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts:32] forwards request init and clears the timeout on success",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.shared.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts] aborts timed out requests and clears the timer on rejection",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts:62] aborts timed out requests and clears the timer on rejection",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.shared.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts] maps configured status codes to token expired",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts:86] maps configured status codes to token expired",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.shared.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts] includes trimmed API error messages in HTTP errors",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts:98] includes trimmed API error messages in HTTP errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.shared.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts] omits empty HTTP error message suffixes",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.shared.test.ts:108] omits empty HTTP error message suffixes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.shared.test.ts:108",
                "upstream it() block #5",

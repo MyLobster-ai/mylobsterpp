@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] retries after import failure without poisoning the cache",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:110] retries after import failure without poisoning the cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] reloads dynamic registry entries after clearing the cache",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:128] reloads dynamic registry entries after clearing the cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] returns partial results on discovery errors",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:148] returns partial results on discovery errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] does not prepare models.json when loading catalog in read-only mode",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:181] does not prepare models.json when loading catalog in read-only mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:181",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] does not synthesize stale openai-codex/gpt-5.3-codex-spark entries from gpt-5.4",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:203] does not synthesize stale openai-codex/gpt-5.3-codex-spark entries from gpt-5.4",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:203",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] filters stale gpt-5.3-codex-spark built-ins from the catalog",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:236] filters stale gpt-5.3-codex-spark built-ins from the catalog",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:236",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] does not synthesize gpt-5.4 OpenAI forward-compat entries from template models",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:285] does not synthesize gpt-5.4 OpenAI forward-compat entries from template models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:285",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] merges provider-owned supplemental catalog entries",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:346] merges provider-owned supplemental catalog entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:346",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] dedupes supplemental models against registry entries",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:370] dedupes supplemental models against registry entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:370",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] includes configured provider models missing from discovery",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:398] includes configured provider models missing from discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:398",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] dedupes configured models against discovered provider aliases",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:436] dedupes configured models against discovered provider aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:436",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] does not add unrelated models when provider plugins return nothing",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:467] does not add unrelated models when provider plugins return nothing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:467",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] does not duplicate provider-owned supplemental models already present in ModelRegistry",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:477] does not duplicate provider-owned supplemental models already present in ModelRegistry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:477",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] matches models across canonical provider aliases",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:505] matches models across canonical provider aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:505",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-catalog.test.ts] resolves catalog entries with explicit providers and unique providerless matches",
+TEST_CASE("v4.29 [src/agents/model-catalog.test.ts:515] resolves catalog entries with explicit providers and unique providerless matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-catalog.test.ts:515",
                "upstream it() block #14",

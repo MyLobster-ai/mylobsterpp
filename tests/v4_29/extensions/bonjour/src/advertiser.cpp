@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] does not block on advertise and publishes expected txt keys",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:141] does not block on advertise and publishes expected txt keys",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:141",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] omits cliPath and sshPort in minimal mode",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:191] omits cliPath and sshPort in minimal mode",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:191",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] honors truthy OPENCLAW_DISABLE_BONJOUR values",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:214] honors truthy OPENCLAW_DISABLE_BONJOUR values",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:214",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] auto-disables Bonjour in detected containers",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:227] auto-disables Bonjour in detected containers",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:227",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] honors explicit Bonjour opt-in inside detected containers",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:240] honors explicit Bonjour opt-in inside detected containers",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:240",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] hides ciao Windows ARP probe shell while advertiser is active",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:259] hides ciao Windows ARP probe shell while advertiser is active",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:259",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] attaches conflict listeners for services",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:295] attaches conflict listeners for services",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:295",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] installs only the scoped ciao unhandled-rejection listener by default",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:318] installs only the scoped ciao unhandled-rejection listener by default",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:318",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] cleans up ciao process handlers after shutdown",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:340] cleans up ciao process handlers after shutdown",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:340",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] logs ciao handler classifications at the bonjour caller",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:374] logs ciao handler classifications at the bonjour caller",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:374",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] recovers when ciao cancellation escapes the advertiser",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:426] recovers when ciao cancellation escapes the advertiser",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:426",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] logs advertise failures and retries via watchdog",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:457] logs advertise failures and retries via watchdog",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:457",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] handles advertise throwing synchronously",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:492] handles advertise throwing synchronously",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:492",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] suppresses ciao self-probe retry console noise while advertising",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:512] suppresses ciao self-probe retry console noise while advertising",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:512",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] does not monkey-patch responder methods during shutdown",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:543] does not monkey-patch responder methods during shutdown",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:543",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] does not clobber console.log if another wrapper replaced it before shutdown",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:576] does not clobber console.log if another wrapper replaced it before shutdown",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:576",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] recreates the advertiser when ciao gets stuck announcing",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:603] recreates the advertiser when ciao gets stuck announcing",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:603",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] treats probing-to-announcing churn as one unhealthy window",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:657] treats probing-to-announcing churn as one unhealthy window",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:657",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] disables bonjour for the process after repeated stuck advertiser restarts",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:698] disables bonjour for the process after repeated stuck advertiser restarts",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:698",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] disables bonjour when the advertiser flaps within a sliding window",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:730] disables bonjour when the advertiser flaps within a sliding window",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:730",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] normalizes hostnames with domains for service names",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:773] normalizes hostnames with domains for service names",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:773",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] falls back to openclaw when system hostname is invalid for DNS",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:798] falls back to openclaw when system hostname is invalid for DNS",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:798",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] truncates reported Kubernetes service name at the DNS label byte limit",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:821] truncates reported Kubernetes service name at the DNS label byte limit",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:821",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] truncates host labels exceeding the 63-byte DNS label limit",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:845] truncates host labels exceeding the 63-byte DNS label limit",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:845",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] truncates multi-byte hostname within DNS label byte limit",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:871] truncates multi-byte hostname within DNS label byte limit",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:871",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts] uses system hostname when OPENCLAW_MDNS_HOSTNAME is unset",
+TEST_CASE("v4.29 [extensions/bonjour/src/advertiser.test.ts:894] uses system hostname when OPENCLAW_MDNS_HOSTNAME is unset",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/advertiser.test.ts:894",
                "upstream it() block #25",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] adds top-level wildcard when dmPolicy=",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:18] adds top-level wildcard when dmPolicy=",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] repairs nested-only googlechat dm allowFrom",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:33] repairs nested-only googlechat dm allowFrom",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] repairs nested-only matrix dm allowFrom",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:50] repairs nested-only matrix dm allowFrom",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] appends wildcard to discord nested dm allowFrom when top-level is absent",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:68] appends wildcard to discord nested dm allowFrom when top-level is absent",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] appends wildcard to existing top-level allowFrom",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:89] appends wildcard to existing top-level allowFrom",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] skips top-level allowFrom that already includes a wildcard",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:102] skips top-level allowFrom that already includes a wildcard",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:102",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] repairs per-account open dmPolicy without allowFrom",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:116] repairs per-account open dmPolicy without allowFrom",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:116",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts] formats open-policy wildcard warnings",
+TEST_CASE("v4.29 [src/commands/doctor/shared/open-policy-allowfrom.test.ts:132] formats open-policy wildcard warnings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/open-policy-allowfrom.test.ts:132",
                "upstream it() block #7",

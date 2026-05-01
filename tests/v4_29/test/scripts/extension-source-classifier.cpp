@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/extension-source-classifier.test.ts] treats runtime barrels as non-production source",
+TEST_CASE("v4.29 [test/scripts/extension-source-classifier.test.ts:5] treats runtime barrels as non-production source",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/extension-source-classifier.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/extension-source-classifier.test.ts] treats extension tests and fixtures as test-like across naming styles",
+TEST_CASE("v4.29 [test/scripts/extension-source-classifier.test.ts:14] treats extension tests and fixtures as test-like across naming styles",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/extension-source-classifier.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/extension-source-classifier.test.ts] keeps normal extension production files eligible for guardrails",
+TEST_CASE("v4.29 [test/scripts/extension-source-classifier.test.ts:41] keeps normal extension production files eligible for guardrails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/extension-source-classifier.test.ts:41",
                "upstream it() block #2",

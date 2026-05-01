@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] checks navigation after click and key-driven submit paths",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:128] checks navigation after click and key-driven submit paths",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:128",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] rechecks the page url after delayed navigation-triggering interactions",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:146] rechecks the page url after delayed navigation-triggering interactions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:146",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] checks URLs for tabs opened during the interaction window",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:164] checks URLs for tabs opened during the interaction window",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:164",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] fails closed when a newly opened tab URL is blocked",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:195] fails closed when a newly opened tab URL is blocked",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:195",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] fails closed when location probes never return a usable url",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:226] fails closed when location probes never return a usable url",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:226",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] fails closed when a later post-action probe becomes unreadable",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:237] fails closed when a later post-action probe becomes unreadable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:237",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] confirms stability via follow-up probe when URL changes on the last loop iteration",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:249] confirms stability via follow-up probe when URL changes on the last loop iteration",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:249",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] keeps probing through the full window before declaring navigation stable",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:274] keeps probing through the full window before declaring navigation stable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:274",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] fails closed when follow-up probe sees yet another URL change",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:294] fails closed when follow-up probe sees yet another URL change",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:294",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] fails closed when a probe error follows two stable reads",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:305] fails closed when a probe error follows two stable reads",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:305",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] skips the guard when no SSRF policy is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:319] skips the guard when no SSRF policy is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:319",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts] still probes navigation when the interaction command throws",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:329] still probes navigation when the interaction command throws",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.act.existing-session-navigation-guard.test.ts:329",
                "upstream it() block #11",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] closes the shared app-server when the version gate fails",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:77] closes the shared app-server when the version gate fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] closes and clears a shared app-server when initialize times out",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:93] closes and clears a shared app-server when initialize times out",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] does not wait for isolated initialize after a timeout closes the client",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:114] does not wait for isolated initialize after a timeout closes the client",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] passes the selected auth profile through the bridge helper",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:124] passes the selected auth profile through the bridge helper",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] uses the selected agent dir for shared app-server auth bridging",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:148] uses the selected agent dir for shared app-server auth bridging",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:148",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] resolves the managed binary before bridging and spawning the shared client",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:175] resolves the managed binary before bridging and spawning the shared client",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:175",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] restarts the shared client when the bridged auth token changes",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:211] restarts the shared client when the bridged auth token changes",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:211",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] does not let a superseded shared-client failure tear down the newer client",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:253] does not let a superseded shared-client failure tear down the newer client",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:253",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts] uses a fresh websocket Authorization header after shared-client token rotation",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/shared-client.test.ts:296] uses a fresh websocket Authorization header after shared-client token rotation",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/shared-client.test.ts:296",
                "upstream it() block #8",

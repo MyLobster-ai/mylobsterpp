@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] is a no-op for already-valid non-colliding IDs",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:183] is a no-op for already-valid non-colliding IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:183",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] strips non-alphanumeric characters from tool call IDs",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:201] strips non-alphanumeric characters from tool call IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:201",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] avoids collisions when sanitization would produce duplicate IDs",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:221] avoids collisions when sanitization would produce duplicate IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:221",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] reuses one rewritten id when a tool result carries matching toolCallId and toolUseId",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:229] reuses one rewritten id when a tool result carries matching toolCallId and toolUseId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:229",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] assigns distinct IDs when identical raw tool call ids repeat",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:237] assigns distinct IDs when identical raw tool call ids repeat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:237",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] caps tool call IDs at 40 chars while preserving uniqueness",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:245] caps tool call IDs at 40 chars while preserving uniqueness",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:245",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] strips underscores and hyphens from tool call IDs",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:278] strips underscores and hyphens from tool call IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:278",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] preserves native anthropic ids while sanitizing mixed-provider ids when requested",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:305] preserves native anthropic ids while sanitizing mixed-provider ids when requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:305",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] preserves replay-safe signed-thinking tool ids when requested",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:359] preserves replay-safe signed-thinking tool ids when requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:359",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] rewrites earlier mutable ids away from later preserved signed ids",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:389] rewrites earlier mutable ids away from later preserved signed ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:389",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] rewrites later signed turns when an earlier signed turn already owns the raw id",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:417] rewrites later signed turns when an earlier signed turn already owns the raw id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:417",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] avoids collisions with alphanumeric-only suffixes",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:432] avoids collisions with alphanumeric-only suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:432",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] assigns distinct strict IDs when identical raw tool call ids repeat",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:443] assigns distinct strict IDs when identical raw tool call ids repeat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:443",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] preserves native Kimi function ids in direct strict sanitization",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:453] preserves native Kimi function ids in direct strict sanitization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:453",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] preserves native Kimi function ids across assistant/toolResult pairs",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:461] preserves native Kimi function ids across assistant/toolResult pairs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:461",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] preserves native Kimi ids while sanitizing non-Kimi siblings",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:479] preserves native Kimi ids while sanitizing non-Kimi siblings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:479",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] disambiguates repeated native Kimi ids after preserving the first occurrence",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:505] disambiguates repeated native Kimi ids after preserving the first occurrence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:505",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] does not preserve malformed Kimi-like ids",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:536] does not preserve malformed Kimi-like ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:536",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] is a no-op for already-valid 9-char alphanumeric IDs",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:552] is a no-op for already-valid 9-char alphanumeric IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:552",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] enforces alphanumeric IDs with length 9",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:570] enforces alphanumeric IDs with length 9",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:570",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] assigns distinct strict9 IDs when identical raw tool call ids repeat",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:597] assigns distinct strict9 IDs when identical raw tool call ids repeat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:597",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] reuses one rewritten strict9 id when a tool result carries matching toolCallId and toolUseId",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:604] reuses one rewritten strict9 id when a tool result carries matching toolCallId and toolUseId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:604",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts] rewrites native Kimi function ids in strict9 mode",
+TEST_CASE("v4.29 [src/agents/tool-call-id.test.ts:612] rewrites native Kimi function ids in strict9 mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-call-id.test.ts:612",
                "upstream it() block #22",

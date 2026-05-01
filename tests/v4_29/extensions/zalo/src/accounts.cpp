@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/accounts.test.ts] resolves account config when account key casing differs from normalized id",
+TEST_CASE("v4.29 [extensions/zalo/src/accounts.test.ts:5] resolves account config when account key casing differs from normalized id",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/accounts.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/accounts.test.ts] falls back to top-level config for named accounts without overrides",
+TEST_CASE("v4.29 [extensions/zalo/src/accounts.test.ts:28] falls back to top-level config for named accounts without overrides",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/accounts.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/accounts.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/zalo/src/accounts.test.ts:49] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/accounts.test.ts:49",
                "upstream it() block #2",

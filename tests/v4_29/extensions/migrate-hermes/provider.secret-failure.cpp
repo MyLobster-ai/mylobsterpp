@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/provider.secret-failure.test.ts] reports an error when a secret auth-profile write fails",
+TEST_CASE("v4.29 [extensions/migrate-hermes/provider.secret-failure.test.ts:70] reports an error when a secret auth-profile write fails",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/provider.secret-failure.test.ts:70",
                "upstream it() block #0",

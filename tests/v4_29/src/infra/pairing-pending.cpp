@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/pairing-pending.test.ts] returns null and skips persistence when the request is missing",
+TEST_CASE("v4.29 [src/infra/pairing-pending.test.ts:5] returns null and skips persistence when the request is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-pending.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/pairing-pending.test.ts] removes the request, persists, and returns the dynamic id key",
+TEST_CASE("v4.29 [src/infra/pairing-pending.test.ts:21] removes the request, persists, and returns the dynamic id key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-pending.test.ts:21",
                "upstream it() block #1",

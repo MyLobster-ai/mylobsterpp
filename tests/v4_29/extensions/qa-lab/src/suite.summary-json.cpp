@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] records provider/model/mode so parity gates can verify labels",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:22] records provider/model/mode so parity gates can verify labels",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] includes scenarioIds in run metadata when provided",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:40] includes scenarioIds in run metadata when provided",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] treats an empty scenarioIds array as unspecified (no filter)",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:49] treats an empty scenarioIds array as unspecified (no filter)",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] records an Anthropic baseline lane cleanly for parity runs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:60] records an Anthropic baseline lane cleanly for parity runs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] leaves split fields null when a model ref is malformed",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:76] leaves split fields null when a model ref is malformed",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] keeps scenarios and counts alongside the run metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:92] keeps scenarios and counts alongside the run metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:92",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts] records optional runtime metrics when provided",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.summary-json.test.ts:102] records optional runtime metrics when provided",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.summary-json.test.ts:102",
                "upstream it() block #6",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] reads planned manifest suppressions once per resolver creation",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:51] reads planned manifest suppressions once per resolver creation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] resolves manifest suppressions for declared provider aliases",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:74] resolves manifest suppressions for declared provider aliases",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] ignores suppressions for providers the plugin does not own",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:88] ignores suppressions for providers the plugin does not own",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] reads planned manifest suppressions fresh per lookup",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:98] reads planned manifest suppressions fresh per lookup",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] reuses planned manifest suppressions inside a resolver instance",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:117] reuses planned manifest suppressions inside a resolver instance",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:117",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] matches conditional suppressions by base URL host",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:140] matches conditional suppressions by base URL host",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:140",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts] does not apply conditional suppressions to custom providers with a foreign api owner",
+TEST_CASE("v4.29 [src/plugins/manifest-model-suppression.test.ts:193] does not apply conditional suppressions to custom providers with a foreign api owner",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-model-suppression.test.ts:193",
                "upstream it() block #6",

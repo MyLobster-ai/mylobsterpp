@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts] persists committed events across restarts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:32] persists committed events across restarts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts] does not persist released pending claims",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:53] does not persist released pending claims",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts] prunes expired and overflowed entries on load",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:71] prunes expired and overflowed entries on load",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts] retains replayed backlog events based on processing time",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:101] retains replayed backlog events based on processing time",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts] treats stop persistence failures as best-effort cleanup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:128] treats stop persistence failures as best-effort cleanup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/inbound-dedupe.test.ts:128",
                "upstream it() block #4",

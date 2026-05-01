@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] migrates legacy sessions into agents/<id>/sessions",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:355] migrates legacy sessions into agents/<id>/sessions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:355",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] keeps shipped WhatsApp legacy group keys channel-qualified during migration",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:401] keeps shipped WhatsApp legacy group keys channel-qualified during migration",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:401",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] migrates legacy agent dir with conflict fallback",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:425] migrates legacy agent dir with conflict fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:425",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] auto-migrates legacy agent dir on startup",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:443] auto-migrates legacy agent dir on startup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:443",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] auto-migrates legacy sessions on startup",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:455] auto-migrates legacy sessions on startup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:455",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] migrates legacy WhatsApp auth files without touching oauth.json",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:482] migrates legacy WhatsApp auth files without touching oauth.json",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:482",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] migrates legacy Telegram pairing allowFrom store to account-scoped default file",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:498] migrates legacy Telegram pairing allowFrom store to account-scoped default file",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:498",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] does not fan out legacy Telegram pairing allowFrom store to configured named accounts",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:515] does not fan out legacy Telegram pairing allowFrom store to configured named accounts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:515",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] migrates legacy Telegram pairing allowFrom store to the default agent bound account",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:547] migrates legacy Telegram pairing allowFrom store to the default agent bound account",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:547",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] no-ops when nothing detected",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:583] no-ops when nothing detected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:583",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] routes legacy state to the default agent entry",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:594] routes legacy state to the default agent entry",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:594",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] honors session.mainKey when seeding the direct-chat bucket",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:616] honors session.mainKey when seeding the direct-chat bucket",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:616",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] canonicalizes legacy main keys inside the target sessions store",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:638] canonicalizes legacy main keys inside the target sessions store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:638",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] prefers the newest entry when collapsing main aliases",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:656] prefers the newest entry when collapsing main aliases",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:656",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] lowercases agent session keys during canonicalization",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:675] lowercases agent session keys during canonicalization",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:675",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] auto-migrates when only target sessions contain legacy keys",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:693] auto-migrates when only target sessions contain legacy keys",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:693",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] does nothing when no legacy state dir exists",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:711] does nothing when no legacy state dir exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:711",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] skips state dir migration when env override is set",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:720] skips state dir migration when env override is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:720",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] classifies already-migrated symlink mirrors without warnings",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:733] classifies already-migrated symlink mirrors without warnings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:733",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts] warns when target exists and legacy state is not a safe mirror",
+TEST_CASE("v4.29 [src/commands/doctor-state-migrations.test.ts:762] warns when target exists and legacy state is not a safe mirror",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-migrations.test.ts:762",
                "upstream it() block #19",

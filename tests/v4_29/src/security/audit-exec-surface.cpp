@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts] warns when exec approvals enable autoAllowSkills",
+TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts:23] warns when exec approvals enable autoAllowSkills",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-exec-surface.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts] warns when interpreter allowlists are present without strictInlineEval",
+TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts:37] warns when interpreter allowlists are present without strictInlineEval",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-exec-surface.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts] suppresses interpreter allowlist warnings when strictInlineEval is enabled",
+TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts:63] suppresses interpreter allowlist warnings when strictInlineEval is enabled",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-exec-surface.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts] flags open channel access combined with exec-enabled scopes",
+TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts:88] flags open channel access combined with exec-enabled scopes",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-exec-surface.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts] escalates open channel exec exposure when full exec is configured",
+TEST_CASE("v4.29 [src/security/audit-exec-surface.test.ts:106] escalates open channel exec exposure when full exec is configured",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-exec-surface.test.ts:106",
                "upstream it() block #4",

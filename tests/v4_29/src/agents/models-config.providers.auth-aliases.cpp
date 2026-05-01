@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts] shares manifest env vars across aliased providers",
+TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts:84] shares manifest env vars across aliased providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.auth-aliases.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts] reuses env keyRef markers from auth profiles for aliased providers",
+TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts:104] reuses env keyRef markers from auth profiles for aliased providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.auth-aliases.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts] ignores provider auth aliases from untrusted workspace plugins during runtime auth lookup",
+TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts:130] ignores provider auth aliases from untrusted workspace plugins during runtime auth lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.auth-aliases.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts] prefers bundled provider auth aliases over workspace collisions",
+TEST_CASE("v4.29 [src/agents/models-config.providers.auth-aliases.test.ts:178] prefers bundled provider auth aliases over workspace collisions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.auth-aliases.test.ts:178",
                "upstream it() block #3",

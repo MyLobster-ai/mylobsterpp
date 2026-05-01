@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts] settles immediately when there are no pending tasks",
+TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts:24] settles immediately when there are no pending tasks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/pending-tool-task-drain.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts] waits for all pending tasks to settle",
+TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts:30] waits for all pending tasks to settle",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/pending-tool-task-drain.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts] resets the idle timeout after each completed task",
+TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts:45] resets the idle timeout after each completed task",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/pending-tool-task-drain.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts] returns timeout when no pending task settles before the idle window",
+TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts:65] returns timeout when no pending task settles before the idle window",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/pending-tool-task-drain.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts] treats rejected tasks as drained progress",
+TEST_CASE("v4.29 [src/auto-reply/reply/pending-tool-task-drain.test.ts:79] treats rejected tasks as drained progress",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/pending-tool-task-drain.test.ts:79",
                "upstream it() block #4",

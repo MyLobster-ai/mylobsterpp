@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts] accepts custom fields under config",
+TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts:5] accepts custom fields under config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.skills-entries-config.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts] rejects unknown top-level fields",
+TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts:23] rejects unknown top-level fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.skills-entries-config.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts] accepts agents.defaults.skills",
+TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts:48] accepts agents.defaults.skills",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.skills-entries-config.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts] accepts agents.list[].skills as explicit replacements",
+TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts:60] accepts agents.list[].skills as explicit replacements",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.skills-entries-config.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts] accepts explicit empty skills arrays for defaults and agents",
+TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts:73] accepts explicit empty skills arrays for defaults and agents",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.skills-entries-config.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts] rejects legacy skills.policy config",
+TEST_CASE("v4.29 [src/config/config.skills-entries-config.test.ts:86] rejects legacy skills.policy config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.skills-entries-config.test.ts:86",
                "upstream it() block #5",

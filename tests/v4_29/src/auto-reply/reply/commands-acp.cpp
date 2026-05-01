@@ -5,320 +5,320 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] returns null when the message is not /acp",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1071] returns null when the message is not /acp",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1071",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] shows help by default",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1076] shows help by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1076",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] spawns an ACP session and binds a Discord thread",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1082] spawns an ACP session and binds a Discord thread",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1082",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] persists ACP spawn labels without a nested gateway self-call",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1137] persists ACP spawn labels without a nested gateway self-call",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1137",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] accepts unicode dash option prefixes in /acp spawn args",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1150] accepts unicode dash option prefixes in /acp spawn args",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1150",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds the current Discord channel with --bind here without creating a child thread",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1174] binds the current Discord channel with --bind here without creating a child thread",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1174",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds BlueBubbles DMs with --bind here",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1202] binds BlueBubbles DMs with --bind here",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1202",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds Slack DMs with --bind here through the generic conversation path",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1218] binds Slack DMs with --bind here through the generic conversation path",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1218",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds iMessage DMs with --bind here",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1234] binds iMessage DMs with --bind here",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1234",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds Telegram topic ACP spawns to full conversation ids",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1250] binds Telegram topic ACP spawns to full conversation ids",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1250",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds Telegram DM ACP spawns to the DM conversation id",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1268] binds Telegram DM ACP spawns to the DM conversation id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1268",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds Matrix rooms with --bind here without requiring thread spawn",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1286] binds Matrix rooms with --bind here without requiring thread spawn",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1286",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] creates Matrix thread-bound ACP spawns from top-level rooms when enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1314] creates Matrix thread-bound ACP spawns from top-level rooms when enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1314",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds Matrix thread ACP spawns to the current thread with the parent room id",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1342] binds Matrix thread ACP spawns to the current thread with the parent room id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1342",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds Feishu DM ACP spawns to the current DM conversation",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1371] binds Feishu DM ACP spawns to the current DM conversation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1371",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] binds LINE DM ACP spawns to the current conversation",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1388] binds LINE DM ACP spawns to the current conversation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1388",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] requires explicit ACP target when acp.defaultAgent is not configured",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1405] requires explicit ACP target when acp.defaultAgent is not configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1405",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] rejects mixing --thread and --bind on the same /acp spawn",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1412] rejects mixing --thread and --bind on the same /acp spawn",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1412",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] rejects thread-bound ACP spawn when spawnAcpSessions is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1420] rejects thread-bound ACP spawn when spawnAcpSessions is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1420",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] rejects Matrix thread-bound ACP spawn when spawnAcpSessions is unset",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1445] rejects Matrix thread-bound ACP spawn when spawnAcpSessions is unset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1445",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] forbids /acp spawn from sandboxed requester sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1463] forbids /acp spawn from sandboxed requester sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1463",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] cancels the ACP session bound to the current thread",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1482] cancels the ACP session bound to the current thread",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1482",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] sends steer instructions via ACP runtime",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1495] sends steer instructions via ACP runtime",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1495",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] resolves bound Telegram topic ACP sessions for /acp steer without explicit target",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1521] resolves bound Telegram topic ACP sessions for /acp steer without explicit target",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1521",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] resolves ACP reset targets through the configured default account when AccountId is omitted",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1556] resolves ACP reset targets through the configured default account when AccountId is omitted",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1556",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] blocks /acp steer when ACP dispatch is disabled by policy",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1608] blocks /acp steer when ACP dispatch is disabled by policy",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1608",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] falls through to thread-bound resolution when explicit session token is unresolvable",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1621] falls through to thread-bound resolution when explicit session token is unresolvable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1621",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] closes an ACP session, unbinds thread targets, and clears metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1650] closes an ACP session, unbinds thread targets, and clears metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1650",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] closes the bound thread ACP session when an explicit session token is unresolvable",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1669] closes the bound thread ACP session when an explicit session token is unresolvable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1669",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] reports an explicit bad ACP session token before requester fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1699] reports an explicit bad ACP session token before requester fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1699",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] handles /acp close in a bound thread when text commands are disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1719] handles /acp close in a bound thread when text commands are disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1719",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] lists ACP sessions from the session store",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1737] lists ACP sessions from the session store",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1737",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] shows ACP status for the thread-bound ACP session",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1768] shows ACP status for the thread-bound ACP session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1768",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] sanitizes leaked task and runtime details in ACP status output",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1800] sanitizes leaked task and runtime details in ACP status output",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1800",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] updates ACP runtime mode via /acp set-mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1886] updates ACP runtime mode via /acp set-mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1886",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] blocks mutating /acp actions for internal operator.write clients",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1900] blocks mutating /acp actions for internal operator.write clients",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1900",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] blocks /acp status for internal operator.write clients",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1910] blocks /acp status for internal operator.write clients",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1910",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] keeps read-only /acp actions available to internal operator.write clients",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1920] keeps read-only /acp actions available to internal operator.write clients",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1920",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] allows mutating /acp actions for internal operator.admin clients",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1942] allows mutating /acp actions for internal operator.admin clients",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1942",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] updates ACP config options and keeps cwd local when using /acp set",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1959] updates ACP config options and keeps cwd local when using /acp set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1959",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] rejects non-absolute cwd values via ACP runtime option validation",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1977] rejects non-absolute cwd values via ACP runtime option validation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1977",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] rejects invalid timeout values before backend config writes",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1986] rejects invalid timeout values before backend config writes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1986",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] returns actionable doctor output when backend is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:1995] returns actionable doctor output when backend is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:1995",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] explains when acpx is blocked by plugins.allow",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:2011] explains when acpx is blocked by plugins.allow",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:2011",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts] shows deterministic install instructions via /acp install",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp.test.ts:2030] shows deterministic install instructions via /acp install",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp.test.ts:2030",
                "upstream it() block #44",

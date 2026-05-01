@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts] marks fallback transition when selected->active pair changes",
+TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts:61] marks fallback transition when selected->active pair changes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/fallback-state.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts] normalizes fallback reason whitespace for summaries",
+TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts:73] normalizes fallback reason whitespace for summaries",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/fallback-state.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts] prefers formatted transient error details over generic rate-limit labels",
+TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts:81] prefers formatted transient error details over generic rate-limit labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/fallback-state.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts] refreshes reason when fallback remains active with same model pair",
+TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts:95] refreshes reason when fallback remains active with same model pair",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/fallback-state.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts] marks fallback as cleared when runtime returns to selected model",
+TEST_CASE("v4.29 [src/auto-reply/fallback-state.test.ts:106] marks fallback as cleared when runtime returns to selected model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/fallback-state.test.ts:106",
                "upstream it() block #4",

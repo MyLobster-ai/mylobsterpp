@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run-session-state.test.ts] persists isolated cron state only under the stable cron session key",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run-session-state.test.ts:26] persists isolated cron state only under the stable cron session key",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run-session-state.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run-session-state.test.ts] persists explicit session-bound cron state under the requested session key",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run-session-state.test.ts:59] persists explicit session-bound cron state under the requested session key",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run-session-state.test.ts:59",
                "upstream it() block #1",

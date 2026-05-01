@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts] preserves canonical peer ids that start with token-colon after a known wrapper",
+TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts:201] preserves canonical peer ids that start with token-colon after a known wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawn-requester-origin.test.ts:201",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts] keeps explicit channel prefixes ahead of ids that start with direct marker characters",
+TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts:232] keeps explicit channel prefixes ahead of ids that start with direct marker characters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawn-requester-origin.test.ts:232",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts] uses requester group space before selecting a scoped target-agent account",
+TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts:263] uses requester group space before selecting a scoped target-agent account",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawn-requester-origin.test.ts:263",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts] still peels channel id plus kind wrappers before peer lookup",
+TEST_CASE("v4.29 [src/agents/spawn-requester-origin.test.ts:305] still peels channel id plus kind wrappers before peer lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawn-requester-origin.test.ts:305",
                "upstream it() block #3",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts] keeps every preset patch valid for the runtime config schema",
+TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts:6] keeps every preset patch valid for the runtime config schema",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-presets.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts] returns null when bootstrap defaults are unset",
+TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts:19] returns null when bootstrap defaults are unset",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-presets.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts] returns the matching preset when all preset fields match",
+TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts:23] returns the matching preset when all preset fields match",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-presets.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts] does not match a preset when context injection differs",
+TEST_CASE("v4.29 [ui/src/ui/views/config-presets.test.ts:37] does not match a preset when context injection differs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-presets.test.ts:37",
                "upstream it() block #3",

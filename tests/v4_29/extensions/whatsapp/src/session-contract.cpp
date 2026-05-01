@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/session-contract.test.ts] canonicalizes legacy WhatsApp group keys to channel-qualified agent keys",
+TEST_CASE("v4.29 [extensions/whatsapp/src/session-contract.test.ts:9] canonicalizes legacy WhatsApp group keys to channel-qualified agent keys",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/session-contract.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/session-contract.test.ts] does not claim generic non-WhatsApp group keys",
+TEST_CASE("v4.29 [extensions/whatsapp/src/session-contract.test.ts:21] does not claim generic non-WhatsApp group keys",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/session-contract.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/session-contract.test.ts] derives chat type for legacy WhatsApp group keys",
+TEST_CASE("v4.29 [extensions/whatsapp/src/session-contract.test.ts:27] derives chat type for legacy WhatsApp group keys",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/session-contract.test.ts:27",
                "upstream it() block #2",

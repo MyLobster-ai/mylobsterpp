@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-slash.test.ts] returns early when slash commands are disabled",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-slash.test.ts:65] returns early when slash commands are disabled",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-slash.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-slash.test.ts] registers deduped default and native skill commands across teams",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-slash.test.ts:82] registers deduped default and native skill commands across teams",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-slash.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-slash.test.ts] warns on loopback callback urls and reports partial team failures",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-slash.test.ts:148] warns on loopback callback urls and reports partial team failures",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-slash.test.ts:148",
                "upstream it() block #2",

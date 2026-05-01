@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts] uses authToken bearer auth for Mantle Anthropic requests",
+TEST_CASE("v4.29 [extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts:34] uses authToken bearer auth for Mantle Anthropic requests",
           "[v4_29][parity_gap][amazon-bedrock-mantle]") {
     PARITY_GAP("extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts] omits unsupported Opus 4.7 sampling and reasoning overrides",
+TEST_CASE("v4.29 [extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts:76] omits unsupported Opus 4.7 sampling and reasoning overrides",
           "[v4_29][parity_gap][amazon-bedrock-mantle]") {
     PARITY_GAP("extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts] normalizes Mantle provider URLs to the Anthropic endpoint",
+TEST_CASE("v4.29 [extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts:98] normalizes Mantle provider URLs to the Anthropic endpoint",
           "[v4_29][parity_gap][amazon-bedrock-mantle]") {
     PARITY_GAP("extensions/amazon-bedrock-mantle/mantle-anthropic.runtime.test.ts:98",
                "upstream it() block #2",

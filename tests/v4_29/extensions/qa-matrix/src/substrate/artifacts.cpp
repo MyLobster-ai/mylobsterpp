@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts] redacts Matrix observed event content by default in artifacts",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts:5] redacts Matrix observed event content by default in artifacts",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/artifacts.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts] keeps reaction metadata in redacted Matrix observed-event artifacts",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts:57] keeps reaction metadata in redacted Matrix observed-event artifacts",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/artifacts.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts] keeps approval summaries in redacted Matrix observed-event artifacts",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts:102] keeps approval summaries in redacted Matrix observed-event artifacts",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/artifacts.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts] keeps redaction metadata while still stripping Matrix event content",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/artifacts.test.ts:154] keeps redaction metadata while still stripping Matrix event content",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/artifacts.test.ts:154",
                "upstream it() block #3",

@@ -5,250 +5,250 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] accepts media-only sends without message",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:233] accepts media-only sends without message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:233",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] passes outbound session context for gateway media sends",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:256] passes outbound session context for gateway media sends",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:256",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forwards gateway client scopes into outbound delivery",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:286] forwards gateway client scopes into outbound delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:286",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forwards an empty gateway scope array into outbound delivery",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:307] forwards an empty gateway scope array into outbound delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:307",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] rejects empty sends when neither text nor media is present",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:328] rejects empty sends when neither text nor media is present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:328",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] returns actionable guidance when channel is internal webchat",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:346] returns actionable guidance when channel is internal webchat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:346",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] auto-picks the single configured channel for send",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:371] auto-picks the single configured channel for send",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:371",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] auto-picks the single configured channel from the auto-enabled config snapshot for send",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:390] auto-picks the single configured channel from the auto-enabled config snapshot for send",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:390",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] returns invalid request when send channel selection is ambiguous",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:420] returns invalid request when send channel selection is ambiguous",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:420",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forwards gateway client scopes into outbound poll delivery",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:441] forwards gateway client scopes into outbound poll delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:441",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forwards an empty gateway scope array into outbound poll delivery",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:462] forwards an empty gateway scope array into outbound poll delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:462",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] includes optional poll delivery identifiers in the gateway payload",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:483] includes optional poll delivery identifiers in the gateway payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:483",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] auto-picks the single configured channel for poll",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:516] auto-picks the single configured channel for poll",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:516",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] returns invalid request when poll channel selection is ambiguous",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:530] returns invalid request when poll channel selection is ambiguous",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:530",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] does not mirror when delivery returns no results",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:551] does not mirror when delivery returns no results",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:551",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] mirrors media filenames when delivery succeeds",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:571] mirrors media filenames when delivery succeeds",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:571",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] mirrors MEDIA tags as attachments",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:595] mirrors MEDIA tags as attachments",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:595",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] lowercases provided session keys for mirroring",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:617] lowercases provided session keys for mirroring",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:617",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] derives a target session key when none is provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:637] derives a target session key when none is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:637",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] uses explicit agentId for delivery when sessionKey is not provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:657] uses explicit agentId for delivery when sessionKey is not provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:657",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] uses sessionKey agentId when explicit agentId is omitted",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:682] uses sessionKey agentId when explicit agentId is omitted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:682",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] still resolves outbound routing metadata when a sessionKey is provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:699] still resolves outbound routing metadata when a sessionKey is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:699",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] falls back to the provided sessionKey when outbound route lookup returns null",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:740] falls back to the provided sessionKey when outbound route lookup returns null",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:740",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] prefers explicit agentId over sessionKey agent for delivery and mirror",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:767] prefers explicit agentId over sessionKey agent for delivery and mirror",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:767",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] ignores blank explicit agentId and falls back to sessionKey agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:793] ignores blank explicit agentId and falls back to sessionKey agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:793",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forwards threadId to outbound delivery when provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:811] forwards threadId to outbound delivery when provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:811",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] updates mirror session keys and delivery thread ids when Slack routing derives a thread",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:829] updates mirror session keys and delivery thread ids when Slack routing derives a thread",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:829",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] preserves the provided session when Slack derives a thread for a different base session",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:868] preserves the provided session when Slack derives a thread for a different base session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:868",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] preserves derived thread delivery for existing thread-scoped Slack session keys",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:902] preserves derived thread delivery for existing thread-scoped Slack session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:902",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] preserves numeric derived thread ids for non-Slack channels",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:932] preserves numeric derived thread ids for non-Slack channels",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:932",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] returns invalid request when outbound target resolution fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:958] returns invalid request when outbound target resolution fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:958",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] recovers cold plugin resolution for threaded sends",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:984] recovers cold plugin resolution for threaded sends",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:984",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forwards replyToId on gateway sends",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:1018] forwards replyToId on gateway sends",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:1018",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] dispatches message actions through the gateway for plugin-owned channels",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:1054] dispatches message actions through the gateway for plugin-owned channels",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:1054",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts] forces senderIsOwner=false for narrowly-scoped callers but honors it for full operators",
+TEST_CASE("v4.29 [src/gateway/server-methods/send.test.ts:1135] forces senderIsOwner=false for narrowly-scoped callers but honors it for full operators",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/send.test.ts:1135",
                "upstream it() block #34",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] includes manifest-less runtime core support packages in dist build entries",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:33] includes manifest-less runtime core support packages in dist build entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] keeps the Matrix packaged runtime shim in bundled plugin build entries",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:47] keeps the Matrix packaged runtime shim in bundled plugin build entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] packs runtime core support packages without requiring plugin manifests",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:56] packs runtime core support packages without requiring plugin manifests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] packs the Matrix packaged runtime shim",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:70] packs the Matrix packaged runtime shim",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] keeps private QA bundles out of required npm pack artifacts",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:76] keeps private QA bundles out of required npm pack artifacts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] keeps bundled channel secret contracts on packed top-level sidecars",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:90] keeps bundled channel secret contracts on packed top-level sidecars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts] keeps bundled channel entry metadata on packed top-level sidecars",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-build-entries.test.ts:115] keeps bundled channel entry metadata on packed top-level sidecars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-build-entries.test.ts:115",
                "upstream it() block #6",

@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] returns empty defaults when no memory plugin state is registered",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:86] returns empty defaults when no memory plugin state is registered",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:86",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] delegates prompt building to the registered memory plugin",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:90] delegates prompt building to the registered memory plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] prefers the registered memory capability over legacy split state",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:105] prefers the registered memory capability over legacy split state",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] lists active public memory artifacts in deterministic order",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:138] lists active public memory artifacts in deterministic order",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:138",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] passes citations mode through to the prompt builder",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:184] passes citations mode through to the prompt builder",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] appends prompt supplements in plugin-id order",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:197] appends prompt supplements in plugin-id order",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:197",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] ignores malformed prompt builder output",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:209] ignores malformed prompt builder output",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:209",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] stores memory corpus supplements",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:217] stores memory corpus supplements",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:217",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] uses the registered flush plan resolver",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:231] uses the registered flush plan resolver",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:231",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] stores the registered memory runtime",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:244] stores the registered memory runtime",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:244",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] restoreMemoryPluginState swaps both prompt and flush state",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:258] restoreMemoryPluginState swaps both prompt and flush state",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:258",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-state.test.ts] clearMemoryPluginState resets both registries",
+TEST_CASE("v4.29 [src/plugins/memory-state.test.ts:285] clearMemoryPluginState resets both registries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-state.test.ts:285",
                "upstream it() block #11",

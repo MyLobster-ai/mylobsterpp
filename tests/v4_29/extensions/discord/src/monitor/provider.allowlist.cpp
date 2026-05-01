@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.allowlist.test.ts] canonicalizes resolved user names to ids in runtime config",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.allowlist.test.ts:30] canonicalizes resolved user names to ids in runtime config",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.allowlist.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.allowlist.test.ts] logs discord name metadata for resolved and unresolved allowlist entries",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.allowlist.test.ts:55] logs discord name metadata for resolved and unresolved allowlist entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.allowlist.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.allowlist.test.ts] groups resolved discord channel aliases under one target line",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.allowlist.test.ts:90] groups resolved discord channel aliases under one target line",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.allowlist.test.ts:90",
                "upstream it() block #2",

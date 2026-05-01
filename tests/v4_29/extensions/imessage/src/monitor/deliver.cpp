@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts] propagates payload replyToId through all text chunks",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts:43] propagates payload replyToId through all text chunks",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/deliver.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts] propagates payload replyToId through media sends",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts:84] propagates payload replyToId through media sends",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/deliver.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts] records outbound text and message ids in sent-message cache (post-send only)",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts:131] records outbound text and message ids in sent-message cache (post-send only)",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/deliver.test.ts:131",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts] records the actual sent placeholder for media-only replies",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/deliver.test.ts:165] records the actual sent placeholder for media-only replies",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/deliver.test.ts:165",
                "upstream it() block #3",

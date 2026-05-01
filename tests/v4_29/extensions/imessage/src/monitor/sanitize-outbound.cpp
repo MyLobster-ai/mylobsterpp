@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] returns empty string unchanged",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:5] returns empty string unchanged",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] preserves normal user-facing text",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:9] preserves normal user-facing text",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips <thinking> tags and content",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:14] strips <thinking> tags and content",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:14",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips <thought> tags and content",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:19] strips <thought> tags and content",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:19",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips <final> tags",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:24] strips <final> tags",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:24",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips <relevant_memories> tags and content",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:29] strips <relevant_memories> tags and content",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:29",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips +#+#+#+# separator patterns",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:34] strips +#+#+#+# separator patterns",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:34",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips assistant to=final markers",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:39] strips assistant to=final markers",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:39",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] strips trailing role turn markers",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:45] strips trailing role turn markers",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:45",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] collapses excessive blank lines after stripping",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:51] collapses excessive blank lines after stripping",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:51",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts] handles combined internal markers in one message",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/sanitize-outbound.test.ts:56] handles combined internal markers in one message",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/sanitize-outbound.test.ts:56",
                "upstream it() block #10",

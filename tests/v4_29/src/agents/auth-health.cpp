@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] classifies OAuth and API key profiles",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:66] classifies OAuth and API key profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:66",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] reports expired for OAuth without a refresh token",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:116] reports expired for OAuth without a refresh token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:116",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] uses runtime provider credentials for profile health",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:141] uses runtime provider credentials for profile health",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:141",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] does not let fresh .codex state override expired canonical health",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:177] does not let fresh .codex state override expired canonical health",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:177",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] keeps healthy local oauth over fresher imported Codex CLI credentials in health status",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:196] keeps healthy local oauth over fresher imported Codex CLI credentials in health status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:196",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] marks oauth as expiring when it falls within the shared refresh margin",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:229] marks oauth as expiring when it falls within the shared refresh margin",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:229",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] does not let fresh .codex state override near-expiry canonical health",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:253] does not let fresh .codex state override near-expiry canonical health",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:253",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] marks token profiles with invalid expires as missing with reason code",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:272] marks token profiles with invalid expires as missing with reason code",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:272",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] normalizes provider aliases when filtering and grouping profile health",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:297] normalizes provider aliases when filtering and grouping profile health",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:297",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-health.test.ts] supports an explicit under-minute label override",
+TEST_CASE("v4.29 [src/agents/auth-health.test.ts:335] supports an explicit under-minute label override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-health.test.ts:335",
                "upstream it() block #9",

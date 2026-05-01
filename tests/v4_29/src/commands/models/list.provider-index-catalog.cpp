@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-index-catalog.test.ts] returns provider-index preview rows when the provider plugin is enabled",
+TEST_CASE("v4.29 [src/commands/models/list.provider-index-catalog.test.ts:8] returns provider-index preview rows when the provider plugin is enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-index-catalog.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-index-catalog.test.ts] returns all enabled provider-index preview rows without a provider filter",
+TEST_CASE("v4.29 [src/commands/models/list.provider-index-catalog.test.ts:17] returns all enabled provider-index preview rows without a provider filter",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-index-catalog.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.provider-index-catalog.test.ts] suppresses provider-index preview rows when the provider plugin is disabled",
+TEST_CASE("v4.29 [src/commands/models/list.provider-index-catalog.test.ts:25] suppresses provider-index preview rows when the provider plugin is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.provider-index-catalog.test.ts:25",
                "upstream it() block #2",

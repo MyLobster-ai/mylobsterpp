@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts] prefers agent overrides > global > defaults (sandbox tool policy)",
+TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts:8] prefers agent overrides > global > defaults (sandbox tool policy)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-explain.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts] expands group tool shorthands inside sandbox tool policy",
+TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts:36] expands group tool shorthands inside sandbox tool policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-explain.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts] denies still win after group expansion",
+TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts:66] denies still win after group expansion",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-explain.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts] includes config key paths + main-session hint for non-main mode",
+TEST_CASE("v4.29 [src/agents/sandbox-explain.test.ts:89] includes config key paths + main-session hint for non-main mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-explain.test.ts:89",
                "upstream it() block #3",

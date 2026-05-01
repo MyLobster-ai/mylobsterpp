@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/archive-path.test.ts] preserves strip-induced traversal for follow-up validation",
+TEST_CASE("v4.29 [src/infra/archive-path.test.ts:77] preserves strip-induced traversal for follow-up validation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive-path.test.ts:77",
                "upstream it() block #0",

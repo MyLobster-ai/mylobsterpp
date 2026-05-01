@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] uses front/high-quality defaults when params are omitted",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:162] uses front/high-quality defaults when params are omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] maps jpg payloads to image/jpeg",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:188] maps jpg payloads to image/jpeg",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:188",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] omits inline base64 image blocks when model has no vision",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:205] omits inline base64 image blocks when model has no vision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:205",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] passes deviceId when provided",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:224] passes deviceId when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:224",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] rejects facing both when deviceId is provided",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:243] rejects facing both when deviceId is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:243",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] downloads camera_snap url payloads when node remoteIp is available",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:254] downloads camera_snap url payloads when node remoteIp is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:254",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] rejects camera_snap url payloads when node remoteIp is missing",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:276] rejects camera_snap url payloads when node remoteIp is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:276",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] downloads camera_clip url payloads when node remoteIp is available",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:298] downloads camera_clip url payloads when node remoteIp is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:298",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] rejects camera_clip url payloads when node remoteIp is missing",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:321] rejects camera_clip url payloads when node remoteIp is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:321",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] returns empty content/details when no photos are available",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:343] returns empty content/details when no photos are available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:343",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] returns MEDIA paths and no inline images when model has no vision",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:374] returns MEDIA paths and no inline images when model has no vision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:374",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] includes inline image blocks when model has vision",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:391] includes inline image blocks when model has vision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:391",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes notifications.list and returns payload",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:402] invokes notifications.list and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:402",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes notifications.actions dismiss",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:438] invokes notifications.actions dismiss",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:438",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes notifications.actions reply with reply text",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:469] invokes notifications.actions reply with reply text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:469",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes location.get and returns payload",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:503] invokes location.get and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:503",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes device.status and returns payload",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:545] invokes device.status and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:545",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes device.info and returns payload",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:570] invokes device.info and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:570",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes device.permissions and returns payload",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:596] invokes device.permissions and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:596",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] invokes device.health and returns payload",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:643] invokes device.health and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:643",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] allows metadata-only camera.list via generic invoke",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:671] allows metadata-only camera.list via generic invoke",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:671",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] blocks media invoke commands to avoid base64 context bloat",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:699] blocks media invoke commands to avoid base64 context bloat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:699",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts] allows media invoke commands when explicitly enabled",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.camera.test.ts:710] allows media invoke commands when explicitly enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.camera.test.ts:710",
                "upstream it() block #22",

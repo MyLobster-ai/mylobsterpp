@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts] returns early when no auth sources exist",
+TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts:99] returns early when no auth sources exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/session-override.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts] keeps user override when provider alias differs",
+TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts:129] keeps user override when provider alias differs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/session-override.test.ts:129",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts] keeps explicit user override when stored order prefers another profile",
+TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts:160] keeps explicit user override when stored order prefers another profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/session-override.test.ts:160",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts] keeps session override when CLI provider aliases the stored profile provider",
+TEST_CASE("v4.29 [src/agents/auth-profiles/session-override.test.ts:208] keeps session override when CLI provider aliases the stored profile provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/session-override.test.ts:208",
                "upstream it() block #3",

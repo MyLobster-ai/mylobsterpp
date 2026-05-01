@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/json-files.test.ts] reads durable json strictly while allowing missing files",
+TEST_CASE("v4.29 [src/infra/json-files.test.ts:55] reads durable json strictly while allowing missing files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-files.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-files.test.ts] writes json atomically with pretty formatting and optional trailing newline",
+TEST_CASE("v4.29 [src/infra/json-files.test.ts:72] writes json atomically with pretty formatting and optional trailing newline",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-files.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-files.test.ts] falls back to copy-on-replace for Windows rename EPERM",
+TEST_CASE("v4.29 [src/infra/json-files.test.ts:99] falls back to copy-on-replace for Windows rename EPERM",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-files.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-files.test.ts] replaces symlink targets instead of writing through them on Windows rename fallback",
+TEST_CASE("v4.29 [src/infra/json-files.test.ts:117] replaces symlink targets instead of writing through them on Windows rename fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-files.test.ts:117",
                "upstream it() block #3",

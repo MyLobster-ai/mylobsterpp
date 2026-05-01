@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] sets chatUserNearBottom=true when within the 450px threshold",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:64] sets chatUserNearBottom=true when within the 450px threshold",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] sets chatUserNearBottom=true when distance is just under threshold",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:72] sets chatUserNearBottom=true when distance is just under threshold",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] sets chatUserNearBottom=false when distance is exactly at threshold",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:80] sets chatUserNearBottom=false when distance is exactly at threshold",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] sets chatUserNearBottom=false when scrolled well above threshold",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:88] sets chatUserNearBottom=false when scrolled well above threshold",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] sets chatUserNearBottom=false when user scrolled up past one long message (>200px <450px)",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:96] sets chatUserNearBottom=false when user scrolled up past one long message (>200px <450px)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] scrolls to bottom when user is near bottom (no force)",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:124] scrolls to bottom when user is near bottom (no force)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:124",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] does NOT scroll when user is scrolled up and no force",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:139] does NOT scroll when user is scrolled up and no force",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] does NOT scroll with force=true when user has explicitly scrolled up",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:155] does NOT scroll with force=true when user has explicitly scrolled up",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] DOES scroll with force=true on initial load (chatHasAutoScrolled=false)",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:173] DOES scroll with force=true on initial load (chatHasAutoScrolled=false)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:173",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] sets chatNewMessagesBelow when not scrolling due to user position",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:189] sets chatNewMessagesBelow when not scrolling due to user position",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:189",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] multiple rapid scheduleChatScroll calls do not scroll when user is scrolled up",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:224] multiple rapid scheduleChatScroll calls do not scroll when user is scrolled up",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:224",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] streaming scrolls correctly when user IS at bottom",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:243] streaming scrolls correctly when user IS at bottom",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:243",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts] resets state for new chat session",
+TEST_CASE("v4.29 [ui/src/ui/app-scroll.test.ts:265] resets state for new chat session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-scroll.test.ts:265",
                "upstream it() block #12",

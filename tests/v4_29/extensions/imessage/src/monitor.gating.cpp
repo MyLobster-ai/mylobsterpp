@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] parseIMessageNotification rejects malformed payloads",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:99] parseIMessageNotification rejects malformed payloads",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] parseIMessageNotification preserves destination_caller_id metadata",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:107] parseIMessageNotification preserves destination_caller_id metadata",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] drops group messages without mention by default",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:123] drops group messages without mention by default",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:123",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] dispatches group messages with mention and builds a group envelope",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:141] dispatches group messages with mention and builds a group envelope",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] includes reply-to context fields + suffix",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:162] includes reply-to context fields + suffix",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] drops group reply context from non-allowlisted senders in allowlist mode",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:184] drops group reply context from non-allowlisted senders in allowlist mode",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:184",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] keeps group reply context in allowlist_quote mode",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:223] keeps group reply context in allowlist_quote mode",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:223",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] treats configured chat_id as a group session even when is_group is false",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:262] treats configured chat_id as a group session even when is_group is false",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:262",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] allows group messages when requireMention is true but no mentionPatterns exist",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:282] allows group messages when requireMention is true but no mentionPatterns exist",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:282",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] blocks group messages when imessage.groups is set without a wildcard",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:314] blocks group messages when imessage.groups is set without a wildcard",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:314",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] honors group allowlist and ignores pairing-store senders in groups",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:346] honors group allowlist and ignores pairing-store senders in groups",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:346",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts] blocks group messages when groupPolicy is disabled",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.gating.test.ts:402] blocks group messages when groupPolicy is disabled",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.gating.test.ts:402",
                "upstream it() block #11",

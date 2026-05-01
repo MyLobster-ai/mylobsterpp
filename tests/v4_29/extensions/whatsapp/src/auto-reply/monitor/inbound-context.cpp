@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts] filters non-allowlisted group history from supplemental context",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts:43] filters non-allowlisted group history from supplemental context",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts] redacts blocked quoted replies in allowlist mode",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts:70] redacts blocked quoted replies in allowlist mode",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts:70",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts] keeps blocked quoted replies in allowlist_quote mode",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts:81] keeps blocked quoted replies in allowlist_quote mode",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-context.test.ts:81",
                "upstream it() block #2",

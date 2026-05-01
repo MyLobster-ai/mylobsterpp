@@ -5,341 +5,341 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles zero-width space in name",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:15] handles zero-width space in name",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles zero-width joiner in name",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:25] handles zero-width joiner in name",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles zero-width non-joiner in about",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:33] handles zero-width non-joiner in about",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles RTL override in name",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:43] handles RTL override in name",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles bidi embedding in about",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:59] handles bidi embedding in about",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:59",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Cyrillic homoglyphs",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:69] handles Cyrillic homoglyphs",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:69",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Greek homoglyphs",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:79] handles Greek homoglyphs",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:79",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles combining diacritics",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:90] handles combining diacritics",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:90",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles excessive combining characters (Zalgo text)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:99] handles excessive combining characters (Zalgo text)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:99",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Chinese characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:114] handles Chinese characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:114",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Japanese hiragana and katakana",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:123] handles Japanese hiragana and katakana",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:123",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Korean characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:132] handles Korean characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:132",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Arabic text",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:140] handles Arabic text",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:140",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Hebrew text",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:149] handles Hebrew text",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:149",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles Thai text",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:157] handles Thai text",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:157",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles emoji sequences (ZWJ)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:167] handles emoji sequences (ZWJ)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:167",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles flag emojis",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:175] handles flag emojis",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:175",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles skin tone modifiers",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:183] handles skin tone modifiers",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:183",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes script tags",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:199] escapes script tags",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:199",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes nested script tags",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:208] escapes nested script tags",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:208",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes img onerror",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:218] escapes img onerror",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:218",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes svg onload",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:227] escapes svg onload",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:227",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes body onload",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:235] escapes body onload",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:235",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects javascript: URL in picture",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:245] rejects javascript: URL in picture",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:245",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects javascript: URL with encoding",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:253] rejects javascript: URL with encoding",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:253",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects data: URL",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:261] rejects data: URL",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:261",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects vbscript: URL",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:269] rejects vbscript: URL",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:269",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects file: URL",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:277] rejects file: URL",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:277",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes double quotes in fields",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:287] escapes double quotes in fields",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:287",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes single quotes in fields",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:296] escapes single quotes in fields",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:296",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] escapes style tags",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:306] escapes style tags",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:306",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] accepts exactly 256 characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:322] accepts exactly 256 characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:322",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects 257 characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:327] rejects 257 characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:327",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] accepts empty string",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:332] accepts empty string",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:332",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] accepts exactly 256 characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:339] accepts exactly 256 characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:339",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects 257 characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:344] rejects 257 characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:344",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] accepts exactly 2000 characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:351] accepts exactly 2000 characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:351",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects 2001 characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:356] rejects 2001 characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:356",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] accepts long valid HTTPS URLs",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:363] accepts long valid HTTPS URLs",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:363",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects invalid URL format",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:371] rejects invalid URL format",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:371",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects URL without protocol",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:378] rejects URL without protocol",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:378",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects number as name",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:392] rejects number as name",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:392",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects array as about",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:397] rejects array as about",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:397",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects object as picture",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:402] rejects object as picture",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:402",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects null as name",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:409] rejects null as name",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:409",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects boolean as about",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:414] rejects boolean as about",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:414",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] rejects function as name",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:419] rejects function as name",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:419",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts] handles prototype pollution attempt",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile.fuzz.test.ts:424] handles prototype pollution attempt",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile.fuzz.test.ts:424",
                "upstream it() block #47",

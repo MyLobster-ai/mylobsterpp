@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] calls the lazy extension-shared SDK helper with the snapshot and token sources, and returns its output unchanged",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:77] calls the lazy extension-shared SDK helper with the snapshot and token sources, and returns its output unchanged",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] falls back to ",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:113] falls back to ",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] invokes fetchSlackScopes once when only a bot token is present",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:136] invokes fetchSlackScopes once when only a bot token is present",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:136",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] invokes fetchSlackScopes twice (bot and user) when both tokens are present",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:156] invokes fetchSlackScopes twice (bot and user) when both tokens are present",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] does not invoke fetchSlackScopes when no bot token is present and reports a missing-token diagnostic",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:179] does not invoke fetchSlackScopes when no bot token is present and reports a missing-token diagnostic",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] delegates to the lazy security-audit module with the original params and returns its output",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:199] delegates to the lazy security-audit module with the original params and returns its output",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] propagates an empty findings array unchanged",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:228] propagates an empty findings array unchanged",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:228",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] forwards user inputs and the configured token to the lazy SDK helper and returns its output",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:247] forwards user inputs and the configured token to the lazy SDK helper and returns its output",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:247",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] prefers the user token over the bot token when both are configured",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:276] prefers the user token over the bot token when both are configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:276",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts] uses the same lazy SDK helper for kind=",
+TEST_CASE("v4.29 [extensions/slack/src/channel.lazy-seams.test.ts:295] uses the same lazy SDK helper for kind=",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/channel.lazy-seams.test.ts:295",
                "upstream it() block #9",

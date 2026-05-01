@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] prefers final_answer text over commentary text for assistant messages",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:12] prefers final_answer text over commentary text for assistant messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] renders errorMessage when assistant content is empty",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:32] renders errorMessage when assistant content is empty",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] renders malformed streaming fragment errors with friendly text",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:46] renders malformed streaming fragment errors with friendly text",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] falls back to a generic message when errorMessage is missing",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:57] falls back to a generic message when errorMessage is missing",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] joins multiple text blocks with single newlines",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:68] joins multiple text blocks with single newlines",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves internal newlines for string content",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:80] preserves internal newlines for string content",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:80",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves internal newlines for text blocks",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:89] preserves internal newlines for text blocks",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:89",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] places thinking before content when included",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:98] places thinking before content when included",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:98",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] sanitizes ANSI and control chars from string content",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:113] sanitizes ANSI and control chars from string content",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] redacts heavily corrupted binary-like lines",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:122] redacts heavily corrupted binary-like lines",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:122",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] strips leading inbound metadata blocks for user messages",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:131] strips leading inbound metadata blocks for user messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:131",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] strips leading inbound metadata blocks for command messages (#59871)",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:154] strips leading inbound metadata blocks for command messages (#59871)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:154",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] keeps metadata-like blocks for non-user messages",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:177] keeps metadata-like blocks for non-user messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:177",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] does not strip metadata-like blocks that are not a leading prefix",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:192] does not strip metadata-like blocks that are not a leading prefix",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:192",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] strips trailing untrusted context metadata suffix blocks for user messages",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:204] strips trailing untrusted context metadata suffix blocks for user messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:204",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] strips leading active-memory prompt prefix blocks for user messages",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:222] strips leading active-memory prompt prefix blocks for user messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:222",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] strips active-memory prompt prefix blocks for user messages even when earlier text precedes them",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:236] strips active-memory prompt prefix blocks for user messages even when earlier text precedes them",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:236",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] collects only thinking blocks",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:254] collects only thinking blocks",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:254",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] collects only text blocks",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:269] collects only text blocks",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:269",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] renders error text when stopReason is error and content is not an array",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:281] renders error text when stopReason is error and content is not an array",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:281",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] formats malformed streaming fragment errors when content is not an array",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:291] formats malformed streaming fragment errors when content is not an array",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:291",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] detects command-marked messages",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:303] detects command-marked messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:303",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves long filesystem paths verbatim for copy safety",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:324] preserves long filesystem paths verbatim for copy safety",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:324",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves long urls verbatim for copy safety",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:332] preserves long urls verbatim for copy safety",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:332",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves long file-like underscore tokens for copy safety",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:340] preserves long file-like underscore tokens for copy safety",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:340",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves long credential-like mixed alnum tokens for copy safety",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:347] preserves long credential-like mixed alnum tokens for copy safety",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:347",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] preserves quoted credential-like mixed alnum tokens for copy safety",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:354] preserves quoted credential-like mixed alnum tokens for copy safety",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:354",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] wraps rtl lines with directional isolation marks",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:361] wraps rtl lines with directional isolation marks",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:361",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] only wraps lines that contain rtl script",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:368] only wraps lines that contain rtl script",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:368",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts] does not double-wrap lines that already include bidi controls",
+TEST_CASE("v4.29 [src/tui/tui-formatters.test.ts:375] does not double-wrap lines that already include bidi controls",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-formatters.test.ts:375",
                "upstream it() block #29",

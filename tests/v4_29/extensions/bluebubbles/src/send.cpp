@@ -5,460 +5,460 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] returns chatGuid directly for chat_guid target",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:111] returns chatGuid directly for chat_guid target",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] queries chats to resolve chat_id target",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:125] queries chats to resolve chat_id target",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] queries chats to resolve chat_identifier target",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:151] queries chats to resolve chat_identifier target",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] matches chat_identifier against the 3rd component of chat GUID",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:179] matches chat_identifier against the 3rd component of chat GUID",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:179",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] resolves handle target by matching participant",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:206] resolves handle target by matching participant",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:206",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] prefers direct chat guid when handle also appears in a group chat",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:221] prefers direct chat guid when handle also appears in a group chat",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:221",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] prefers iMessage over SMS when both chats exist for the same handle",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:236] prefers iMessage over SMS when both chats exist for the same handle",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] prefers iMessage over SMS even when SMS appears first",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:252] prefers iMessage over SMS even when SMS appears first",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:252",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] falls back to SMS when no iMessage chat exists for the handle",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:271] falls back to SMS when no iMessage chat exists for the handle",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:271",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] respects explicit service: ",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:305] respects explicit service: ",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:305",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] falls back to iMessage when service: ",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:344] falls back to iMessage when service: ",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:344",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] prefers a later-page direct iMessage match over an earlier participant iMessage match",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:377] prefers a later-page direct iMessage match over an earlier participant iMessage match",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:377",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] prefers a later-page iMessage participant match over an earlier unknown-service direct match",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:424] prefers a later-page iMessage participant match over an earlier unknown-service direct match",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:424",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] prefers iMessage over SMS via participant match",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:471] prefers iMessage over SMS via participant match",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:471",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] returns null when handle only exists in group chat (not DM)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:486] returns null when handle only exists in group chat (not DM)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:486",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] returns null when chat not found",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:527] returns null when chat not found",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:527",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] handles API error gracefully",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:543] handles API error gracefully",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:543",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] paginates through chats to find match",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:559] paginates through chats to find match",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:559",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] normalizes handle addresses for matching",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:593] normalizes handle addresses for matching",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:593",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] extracts guid from various response formats",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:621] extracts guid from various response formats",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:621",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when text is empty",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:654] throws when text is empty",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:654",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when text is whitespace only",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:663] throws when text is whitespace only",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:663",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when text becomes empty after markdown stripping",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:672] throws when text becomes empty after markdown stripping",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:672",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when serverUrl is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:682] throws when serverUrl is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:682",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when password is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:688] throws when password is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:688",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when chatGuid cannot be resolved for non-handle targets",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:696] throws when chatGuid cannot be resolved for non-handle targets",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:696",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] sends message successfully",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:710] sends message successfully",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:710",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] auto-enables private-network fetches for loopback serverUrl when allowPrivateNetwork is not set",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:730] auto-enables private-network fetches for loopback serverUrl when allowPrivateNetwork is not set",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:730",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] auto-enables private-network fetches for private IP serverUrl when allowPrivateNetwork is not set",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:749] auto-enables private-network fetches for private IP serverUrl when allowPrivateNetwork is not set",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:749",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] strips markdown formatting from outbound messages",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:768] strips markdown formatting from outbound messages",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:768",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] strips markdown when creating a new chat",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:789] strips markdown when creating a new chat",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:789",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] creates a new chat when handle target is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:806] creates a new chat when handle target is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:806",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when creating a new chat requires Private API",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:824] throws when creating a new chat requires Private API",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:824",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] uses private-api when reply metadata is present",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:844] uses private-api when reply metadata is present",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:844",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] downgrades threaded reply to plain send when private API is disabled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:869] downgrades threaded reply to plain send when private API is disabled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:869",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] normalizes effect names and uses private-api for effects",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:892] normalizes effect names and uses private-api for effects",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:892",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] forces Private API for plain text on macOS 26 when available",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:918] forces Private API for plain text on macOS 26 when available",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:918",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] falls back to apple-script on macOS 26 when Private API is disabled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:947] falls back to apple-script on macOS 26 when Private API is disabled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:947",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] warns and downgrades private-api features when status is unknown",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:971] warns and downgrades private-api features when status is unknown",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:971",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] sends message with chat_guid target directly",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1003] sends message with chat_guid target directly",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1003",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] handles send failure",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1027] handles send failure",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1027",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] handles empty response body",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1043] handles empty response body",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1043",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] handles invalid JSON response body",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1058] handles invalid JSON response body",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1058",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] extracts messageId from various response formats",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1073] extracts messageId from various response formats",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1073",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] extracts messageGuid from response payload",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1085] extracts messageGuid from response payload",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1085",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] extracts top-level message_id from response payload",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1097] extracts top-level message_id from response payload",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1097",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] extracts nested result.message_id from response payload",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1109] extracts nested result.message_id from response payload",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1109",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] resolves credentials from config",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1121] resolves credentials from config",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1121",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] includes tempGuid in request payload",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1141] includes tempGuid in request payload",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1141",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] does not refresh when cache is populated (cache hit)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1158] does not refresh when cache is populated (cache hit)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1158",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] refreshes cache when expired and reply threading is requested",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1180] refreshes cache when expired and reply threading is requested",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1180",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] refreshes cache when expired and effect is requested",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1209] refreshes cache when expired and effect is requested",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1209",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] degrades gracefully when refresh fails",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1229] degrades gracefully when refresh fails",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1229",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws for effects when refresh succeeds with private_api: false",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1259] throws for effects when refresh succeeds with private_api: false",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1259",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] degrades reply threading when refresh succeeds with private_api: false",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1276] degrades reply threading when refresh succeeds with private_api: false",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1276",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] refreshes cache for plain-text sends when status is unknown",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1312] refreshes cache for plain-text sends when status is unknown",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1312",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] force-routes macOS 26 plain-text through Private API after cold-cache refresh",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1337] force-routes macOS 26 plain-text through Private API after cold-cache refresh",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1337",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] degrades gracefully when refresh returns null (server unreachable)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1363] degrades gracefully when refresh returns null (server unreachable)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1363",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] defaults the /message/text send to DEFAULT_SEND_TIMEOUT_MS (30s), not 10s",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1427] defaults the /message/text send to DEFAULT_SEND_TIMEOUT_MS (30s), not 10s",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1427",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] honors channels.bluebubbles.sendTimeoutMs from config for the send POST",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1446] honors channels.bluebubbles.sendTimeoutMs from config for the send POST",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1446",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] explicit opts.timeoutMs wins over both config and default",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1472] explicit opts.timeoutMs wins over both config and default",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1472",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] creates a new chat and returns chatGuid from response",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1504] creates a new chat and returns chatGuid from response",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1504",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] creates a new chat without a message when message is omitted",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1529] creates a new chat without a message when message is omitted",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1529",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] throws when Private API is not enabled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1575] throws when Private API is not enabled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1575",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts] returns null chatGuid when response has no chat data",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/send.test.ts:1591] returns null chatGuid when response has no chat data",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/send.test.ts:1591",
                "upstream it() block #64",

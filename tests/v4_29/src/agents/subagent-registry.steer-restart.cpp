@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] suppresses announce for interrupted runs and only announces the replacement run",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:246] suppresses announce for interrupted runs and only announces the replacement run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:246",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] defers subagent_ended hook for completion-mode runs until announce delivery resolves",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:299] defers subagent_ended hook for completion-mode runs until announce delivery resolves",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:299",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] does not emit subagent_ended on completion for persistent session-mode runs",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:333] does not emit subagent_ended on completion for persistent session-mode runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:333",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] clears announce retry state when replacing after steer restart",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:359] clears announce retry state when replacing after steer restart",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:359",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] clears terminal lifecycle state when replacing after steer restart",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:384] clears terminal lifecycle state when replacing after steer restart",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:384",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] clears frozen completion fields when replacing after steer restart",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:430] clears frozen completion fields when replacing after steer restart",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:430",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] preserves cumulative session timing across steer replacement runs",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:458] preserves cumulative session timing across steer replacement runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:458",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] preserves frozen completion as fallback when replacing for wake continuation",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:496] preserves frozen completion as fallback when replacing for wake continuation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:496",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] restores announce for a finished run when steer replacement dispatch fails",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:526] restores announce for a finished run when steer replacement dispatch fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:526",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] marks killed runs terminated and inactive",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:548] marks killed runs terminated and inactive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:548",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] treats a child session as inactive when only a stale older row is still unended",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:594] treats a child session as inactive when only a stale older row is still unended",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:594",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] recovers announce cleanup when completion arrives after a kill marker",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:623] recovers announce cleanup when completion arrives after a kill marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:623",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] retries deferred parent cleanup after a descendant announces",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:655] retries deferred parent cleanup after a descendant announces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:655",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] retries completion-mode announce delivery with backoff and then gives up after retry limit",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:703] retries completion-mode announce delivery with backoff and then gives up after retry limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:703",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts] keeps completion cleanup pending while descendants are still active",
+TEST_CASE("v4.29 [src/agents/subagent-registry.steer-restart.test.ts:742] keeps completion cleanup pending while descendants are still active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry.steer-restart.test.ts:742",
                "upstream it() block #14",

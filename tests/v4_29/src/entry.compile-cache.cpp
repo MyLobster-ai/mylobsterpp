@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] resolves install roots from source and dist entry paths",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:20] resolves install roots from source and dist entry paths",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] treats git and source entry markers as source checkouts",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:26] treats git and source entry markers as source checkouts",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] disables compile cache for source-checkout installs",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:33] disables compile cache for source-checkout installs",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] keeps compile cache enabled for packaged installs unless disabled by env",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:46] keeps compile cache enabled for packaged installs unless disabled by env",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] scopes packaged compile cache by package install metadata",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:58] scopes packaged compile cache by package install metadata",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] builds a one-shot no-cache respawn plan when source checkout inherits NODE_COMPILE_CACHE",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:73] builds a one-shot no-cache respawn plan when source checkout inherits NODE_COMPILE_CACHE",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] does not respawn packaged installs when NODE_COMPILE_CACHE is configured",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:97] does not respawn packaged installs when NODE_COMPILE_CACHE is configured",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:97",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.compile-cache.test.ts] does not respawn source checkouts twice",
+TEST_CASE("v4.29 [src/entry.compile-cache.test.ts:109] does not respawn source checkouts twice",
           "[v4_29][parity_gap][entry.compile-cache.test.ts]") {
     PARITY_GAP("src/entry.compile-cache.test.ts:109",
                "upstream it() block #7",

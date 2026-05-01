@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] returns undefined for empty input",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:5] returns undefined for empty input",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] normalizes channel: prefix",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:10] normalizes channel: prefix",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] normalizes group: prefix to channel:",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:15] normalizes group: prefix to channel:",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] normalizes user: prefix",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:19] normalizes user: prefix",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:19",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] normalizes mattermost: prefix to user:",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:23] normalizes mattermost: prefix to user:",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:23",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] keeps @username targets",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:27] keeps @username targets",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:27",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] returns undefined for #channel (triggers directory lookup)",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:32] returns undefined for #channel (triggers directory lookup)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:32",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] returns undefined for bare names (triggers directory lookup)",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:38] returns undefined for bare names (triggers directory lookup)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:38",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] returns undefined for empty prefixed values",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:43] returns undefined for empty prefixed values",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:43",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] returns false for empty input",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:52] returns false for empty input",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:52",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] recognizes prefixed targets",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:57] recognizes prefixed targets",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:57",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] recognizes @username",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:65] recognizes @username",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:65",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] does NOT recognize #channel (should go to directory)",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:69] does NOT recognize #channel (should go to directory)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:69",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] recognizes 26-char alphanumeric Mattermost IDs",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:74] recognizes 26-char alphanumeric Mattermost IDs",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:74",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] recognizes DM channel format (26__26)",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:80] recognizes DM channel format (26__26)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:80",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] rejects short strings that are not Mattermost IDs",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:86] rejects short strings that are not Mattermost IDs",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:86",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts] rejects strings longer than 26 chars that are not DM format",
+TEST_CASE("v4.29 [extensions/mattermost/src/normalize.test.ts:93] rejects strings longer than 26 chars that are not DM format",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/normalize.test.ts:93",
                "upstream it() block #16",

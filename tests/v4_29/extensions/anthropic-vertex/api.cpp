@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/api.test.ts] reuses the runtime stream factory across direct stream calls",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/api.test.ts:47] reuses the runtime stream factory across direct stream calls",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/api.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/api.test.ts] reuses the runtime stream factory across model-derived stream calls",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/api.test.ts:59] reuses the runtime stream factory across model-derived stream calls",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/api.test.ts:59",
                "upstream it() block #1",

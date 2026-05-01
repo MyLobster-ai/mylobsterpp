@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] skips ACP runtime lookup for plain-text deny turns",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:58] skips ACP runtime lookup for plain-text deny turns",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] skips ACP dispatch when send policy denies delivery and no bypass applies",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:77] skips ACP dispatch when send policy denies delivery and no bypass applies",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] dispatches through ACP when command bypass applies",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:86] dispatches through ACP when command bypass applies",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] returns unhandled when ACP dispatcher declines the turn",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:110] returns unhandled when ACP dispatcher declines the turn",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] dispatches non-tail ACP turn under deny when suppressUserDelivery is set",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:120] dispatches non-tail ACP turn under deny when suppressUserDelivery is set",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] allows tail dispatch through when sendPolicy is deny",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:159] allows tail dispatch through when sendPolicy is deny",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:159",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts] does not let ACP claim reset commands before local command handling",
+TEST_CASE("v4.29 [src/plugin-sdk/acp-runtime.test.ts:189] does not let ACP claim reset commands before local command handling",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/acp-runtime.test.ts:189",
                "upstream it() block #6",

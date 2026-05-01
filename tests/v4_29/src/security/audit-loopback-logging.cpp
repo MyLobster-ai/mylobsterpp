@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-loopback-logging.test.ts] evaluates loopback control UI and logging exposure findings",
+TEST_CASE("v4.29 [src/security/audit-loopback-logging.test.ts:23] evaluates loopback control UI and logging exposure findings",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-loopback-logging.test.ts:23",
                "upstream it() block #0",

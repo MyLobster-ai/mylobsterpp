@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] removes deprecated session.maintenance.rotateBytes",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:23] removes deprecated session.maintenance.rotateBytes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not rewrite removed routing.transcribeAudio migrations",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:45] does not rewrite removed routing.transcribeAudio migrations",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not rewrite removed routing.transcribeAudio migrations when new config exists",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:59] does not rewrite removed routing.transcribeAudio migrations when new config exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] drops invalid audio.transcription payloads",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:79] drops invalid audio.transcription payloads",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] rewrites legacy audio {input} placeholders to media templates",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:93] rewrites legacy audio {input} placeholders to media templates",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not rewrite removed routing.groupChat.requireMention migrations",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:117] does not rewrite removed routing.groupChat.requireMention migrations",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not rewrite removed channels.telegram.requireMention migrations",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:130] does not rewrite removed channels.telegram.requireMention migrations",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:130",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] removes legacy agents.defaults.llm timeout config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:145] removes legacy agents.defaults.llm timeout config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:145",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves legacy embeddedHarness runtime policy into agentRuntime",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:165] moves legacy embeddedHarness runtime policy into agentRuntime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:165",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves agents.defaults.sandbox.perSession into scope",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:208] moves agents.defaults.sandbox.perSession into scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:208",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves agents.list[].sandbox.perSession into scope",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:227] moves agents.list[].sandbox.perSession into scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:227",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] drops legacy sandbox perSession when scope is already set",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:249] drops legacy sandbox perSession when scope is already set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:249",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not migrate invalid sandbox perSession values",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:269] does not migrate invalid sandbox perSession values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:269",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves CLI-native http type to OpenClaw streamable HTTP transport",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:288] moves CLI-native http type to OpenClaw streamable HTTP transport",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:288",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] removes CLI-native type when canonical transport is already set",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:318] removes CLI-native type when canonical transport is already set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:318",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves only legacy x_search auth into plugin-owned xai config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:340] moves only legacy x_search auth into plugin-owned xai config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:340",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves top-level heartbeat into agents.defaults.heartbeat",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:372] moves top-level heartbeat into agents.defaults.heartbeat",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:372",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] moves top-level heartbeat visibility into channels.defaults.heartbeat",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:388] moves top-level heartbeat visibility into channels.defaults.heartbeat",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:388",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] keeps explicit agents.defaults.heartbeat values when merging top-level heartbeat",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:406] keeps explicit agents.defaults.heartbeat values when merging top-level heartbeat",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:406",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] keeps explicit channels.defaults.heartbeat values when merging top-level heartbeat visibility",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:433] keeps explicit channels.defaults.heartbeat values when merging top-level heartbeat visibility",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:433",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] preserves agents.defaults.heartbeat precedence over top-level heartbeat legacy key",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:460] preserves agents.defaults.heartbeat precedence over top-level heartbeat legacy key",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:460",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] drops blocked prototype keys when migrating top-level heartbeat",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:485] drops blocked prototype keys when migrating top-level heartbeat",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:485",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] records a migration change when removing empty top-level heartbeat",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:501] records a migration change when removing empty top-level heartbeat",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:501",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] seeds allowedOrigins for bind=lan with no existing controlUi config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:513] seeds allowedOrigins for bind=lan with no existing controlUi config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:513",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] seeds allowedOrigins using configured port",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:528] seeds allowedOrigins using configured port",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:528",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] seeds allowedOrigins including custom bind host for bind=custom",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:542] seeds allowedOrigins including custom bind host for bind=custom",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:542",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not overwrite existing allowedOrigins — returns null (no migration needed)",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:554] does not overwrite existing allowedOrigins — returns null (no migration needed)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:554",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not migrate when dangerouslyAllowHostHeaderOriginFallback is set — returns null",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:568] does not migrate when dangerouslyAllowHostHeaderOriginFallback is set — returns null",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:568",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] seeds allowedOrigins when existing entries are blank strings",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:580] seeds allowedOrigins when existing entries are blank strings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:580",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] does not migrate loopback bind — returns null",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:595] does not migrate loopback bind — returns null",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:595",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts] preserves existing controlUi fields when seeding allowedOrigins",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.test.ts:606] preserves existing controlUi fields when seeding allowedOrigins",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.test.ts:606",
                "upstream it() block #30",

@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] prefers config over env",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:34] prefers config over env",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] uses env when config is missing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:67] uses env when config is missing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] resolves accessToken SecretRef against the provided env",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:88] resolves accessToken SecretRef against the provided env",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] resolves password SecretRef against the provided env",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:110] resolves password SecretRef against the provided env",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] resolves account accessToken SecretRef against the provided env",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:133] resolves account accessToken SecretRef against the provided env",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not resolve account password SecretRefs when scoped token auth is configured",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:159] does not resolve account password SecretRefs when scoped token auth is configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:159",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] keeps unresolved accessToken SecretRef errors when env fallback is missing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:186] keeps unresolved accessToken SecretRef errors when env fallback is missing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:186",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not bypass env provider allowlists during startup fallback",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:206] does not bypass env provider allowlists during startup fallback",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:206",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not throw when accessToken uses a non-env SecretRef",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:231] does not throw when accessToken uses a non-env SecretRef",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:231",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] uses account-scoped env vars for non-default accounts before global env",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:254] uses account-scoped env vars for non-default accounts before global env",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:254",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] uses collision-free scoped env var names for normalized account ids",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:276] uses collision-free scoped env var names for normalized account ids",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] prefers channels.matrix.accounts.default over global env for the default account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:285] prefers channels.matrix.accounts.default over global env for the default account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:285",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] ignores typoed defaultAccount values that do not map to a real Matrix account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:319] ignores typoed defaultAccount values that do not map to a real Matrix account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:319",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] requires explicit defaultAccount selection when multiple named Matrix accounts exist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:335] requires explicit defaultAccount selection when multiple named Matrix accounts exist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:335",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] uses a named ",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:358] uses a named ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:358",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not materialize a default account from shared top-level defaults alone",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:381] does not materialize a default account from shared top-level defaults alone",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:381",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not materialize a default account from partial top-level auth defaults",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:399] does not materialize a default account from partial top-level auth defaults",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:399",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] uses the injected env-backed ",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:417] uses the injected env-backed ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:417",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not materialize a default env account from partial global auth fields",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:433] does not materialize a default env account from partial global auth fields",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:433",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not materialize a default account from top-level homeserver plus userId alone",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:448] does not materialize a default account from top-level homeserver plus userId alone",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:448",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not materialize a default env account from global homeserver plus userId alone",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:467] does not materialize a default env account from global homeserver plus userId alone",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:467",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] keeps implicit selection for env-backed accounts that can use cached credentials",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:483] keeps implicit selection for env-backed accounts that can use cached credentials",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:483",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] rejects explicit non-default account ids that are neither configured nor scoped in env",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:498] rejects explicit non-default account ids that are neither configured nor scoped in env",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:498",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] allows explicit non-default account ids backed only by scoped env vars",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:519] allows explicit non-default account ids backed only by scoped env vars",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:519",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not inherit the base deviceId for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:536] does not inherit the base deviceId for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:536",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not inherit the base userId for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:557] does not inherit the base userId for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:557",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not inherit base or global auth secrets for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:578] does not inherit base or global auth secrets for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:578",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] does not inherit a base password for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:608] does not inherit a base password for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:608",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] rejects insecure public http Matrix homeservers",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:631] rejects insecure public http Matrix homeservers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:631",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] accepts internal http homeservers only when private-network access is enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:638] accepts internal http homeservers only when private-network access is enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:638",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] resolves an explicit proxy dispatcher from top-level Matrix config",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:649] resolves an explicit proxy dispatcher from top-level Matrix config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:649",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] prefers account proxy overrides over top-level Matrix proxy config",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:668] prefers account proxy overrides over top-level Matrix proxy config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:668",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] rejects public http homeservers even when private-network access is enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:694] rejects public http homeservers even when private-network access is enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:694",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts] accepts internal http hostnames when the private-network opt-in is explicit",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/config.test.ts:705] accepts internal http hostnames when the private-network opt-in is explicit",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/config.test.ts:705",
                "upstream it() block #33",

@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] maps raw and injected sizes and marks truncation",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:16] maps raw and injected sizes and marks truncation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] reports per-file and total-limit causes",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:56] reports per-file and total-limit causes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] does not force a total-limit cause when totals are within limits",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:89] does not force a total-limit cause when totals are within limits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] appends warning details to the turn prompt instead of mutating the system prompt",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:109] appends warning details to the turn prompt instead of mutating the system prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] preserves raw prompt whitespace when appending warning details",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:120] preserves raw prompt whitespace when appending warning details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] preserves exact heartbeat prompts without warning suffixes",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:129] preserves exact heartbeat prompts without warning suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:129",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] resolves seen signatures from report history or legacy single signature",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:139] resolves seen signatures from report history or legacy single signature",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] ignores single-signature fallback when warning mode is off",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:160] ignores single-signature fallback when warning mode is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:160",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] dedupes warnings in once mode by signature",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:181] dedupes warnings in once mode by signature",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:181",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] dedupes once mode across non-consecutive repeated signatures",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:213] dedupes once mode across non-consecutive repeated signatures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:213",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] includes overflow line when more files are truncated than shown",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:261] includes overflow line when more files are truncated than shown",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:261",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] disambiguates duplicate file names in warning lines",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:299] disambiguates duplicate file names in warning lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:299",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] respects off/always warning modes",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:329] respects off/always warning modes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:329",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] uses file path in signature to avoid collisions for duplicate names",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:364] uses file path in signature to avoid collisions for duplicate names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:364",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] builds truncation report metadata from analysis + warning decision",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:398] builds truncation report metadata from analysis + warning decision",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:398",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts] improves cache-relevant system prompt stability versus legacy warning injection",
+TEST_CASE("v4.29 [src/agents/bootstrap-budget.test.ts:430] improves cache-relevant system prompt stability versus legacy warning injection",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-budget.test.ts:430",
                "upstream it() block #15",

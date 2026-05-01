@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/abort-signal.test.ts] resolves immediately when signal is missing",
+TEST_CASE("v4.29 [src/infra/abort-signal.test.ts:5] resolves immediately when signal is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-signal.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-signal.test.ts] resolves immediately when signal is already aborted",
+TEST_CASE("v4.29 [src/infra/abort-signal.test.ts:9] resolves immediately when signal is already aborted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-signal.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-signal.test.ts] waits until abort fires",
+TEST_CASE("v4.29 [src/infra/abort-signal.test.ts:15] waits until abort fires",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-signal.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-signal.test.ts] registers and removes the abort listener exactly once",
+TEST_CASE("v4.29 [src/infra/abort-signal.test.ts:30] registers and removes the abort listener exactly once",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-signal.test.ts:30",
                "upstream it() block #3",

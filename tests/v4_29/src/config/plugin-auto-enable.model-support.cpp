@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.model-support.test.ts] auto-enables provider plugins from shorthand modelSupport ownership",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.model-support.test.ts:31] auto-enables provider plugins from shorthand modelSupport ownership",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.model-support.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.model-support.test.ts] skips ambiguous shorthand model ownership during auto-enable",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.model-support.test.ts:55] skips ambiguous shorthand model ownership during auto-enable",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.model-support.test.ts:55",
                "upstream it() block #1",

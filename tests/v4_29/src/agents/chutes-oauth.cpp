@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts] rejects code-only input (state required)",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts:5] rejects code-only input (state required)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts] accepts full redirect URL when state matches",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts:12] accepts full redirect URL when state matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts] accepts querystring-only input when state matches",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts:20] accepts querystring-only input when state matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts] rejects missing state",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts:25] rejects missing state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.test.ts:25",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts] rejects state mismatch",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts:35] rejects state mismatch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.test.ts:35",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts] returns verifier and challenge",
+TEST_CASE("v4.29 [src/agents/chutes-oauth.test.ts:47] returns verifier and challenge",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/chutes-oauth.test.ts:47",
                "upstream it() block #5",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts] converts buffers to image data URLs and parses them back",
+TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts:13] converts buffers to image data URLs and parses them back",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/image-assets.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts] normalizes image file extensions",
+TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts:29] normalizes image file extensions",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/image-assets.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts] sniffs common generated image types",
+TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts:36] sniffs common generated image types",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/image-assets.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts] parses OpenAI-compatible base64 image responses",
+TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts:47] parses OpenAI-compatible base64 image responses",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/image-assets.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts] resolves source upload filenames from explicit names or MIME types",
+TEST_CASE("v4.29 [src/image-generation/image-assets.test.ts:72] resolves source upload filenames from explicit names or MIME types",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/image-assets.test.ts:72",
                "upstream it() block #4",

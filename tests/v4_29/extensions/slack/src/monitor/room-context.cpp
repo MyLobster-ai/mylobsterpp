@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts] stacks global and channel prompts for channels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts:5] stacks global and channel prompts for channels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/room-context.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts] does not create a prompt for direct messages without channel config",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts:14] does not create a prompt for direct messages without channel config",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/room-context.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts] does not include untrusted room metadata for direct messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts:22] does not include untrusted room metadata for direct messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/room-context.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts] trims and skips empty prompt parts",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/room-context.test.ts:31] trims and skips empty prompt parts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/room-context.test.ts:31",
                "upstream it() block #3",

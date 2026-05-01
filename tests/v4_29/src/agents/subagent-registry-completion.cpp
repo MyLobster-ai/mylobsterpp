@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] treats timing differences as different only after both outcomes have timing",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:52] treats timing differences as different only after both outcomes have timing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] records ended hook marker even when no subagent_ended hooks are registered",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:85] records ended hook marker even when no subagent_ended hooks are registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] runs subagent_ended hooks when available",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:100] runs subagent_ended hooks when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] returns false when the global hook runner is not initialized yet",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:115] returns false when the global hook runner is not initialized yet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] returns false when runId is blank",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:127] returns false when runId is blank",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:127",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] returns false when ended hook marker already exists",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:137] returns false when ended hook marker already exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:137",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] returns false when runId is already in flight",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:147] returns false when runId is already in flight",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:147",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts] returns false when subagent hook execution throws",
+TEST_CASE("v4.29 [src/agents/subagent-registry-completion.test.ts:157] returns false when subagent hook execution throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-completion.test.ts:157",
                "upstream it() block #7",

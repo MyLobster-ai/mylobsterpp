@@ -5,439 +5,439 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] infers failover reason from HTTP status",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:49] infers failover reason from HTTP status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] stops on cyclic cause chains",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:188] stops on cyclic cause chains",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:188",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats session-specific HTTP 410s differently from generic 410s",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:196] treats session-specific HTTP 410s differently from generic 410s",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:196",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] preserves explicit auth and billing signals on HTTP 410",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:215] preserves explicit auth and billing signals on HTTP 410",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:215",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies documented provider error shapes at the error boundary",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:236] classifies documented provider error shapes at the error boundary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:236",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies OpenRouter no-endpoints 404s as model_not_found",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:293] classifies OpenRouter no-endpoints 404s as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:293",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies JSON-wrapped OpenRouter stealth-model 404s as model_not_found",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:307] classifies JSON-wrapped OpenRouter stealth-model 404s as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:307",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies generic model-does-not-exist messages as model_not_found",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:315] classifies generic model-does-not-exist messages as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:315",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not classify generic access errors as model_not_found",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:323] does not classify generic access errors as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:323",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not classify generic deprecation transition messages as model_not_found",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:331] does not classify generic deprecation transition messages as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:331",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies model-scoped deprecation transition messages as model_not_found",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:339] classifies model-scoped deprecation transition messages as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:339",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps status-only 503s conservative unless the payload is clearly overloaded",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:348] keeps status-only 503s conservative unless the payload is clearly overloaded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:348",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not classify session lock wait errors as model timeout failover",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:363] does not classify session lock wait errors as model timeout failover",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:363",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps explicit provider failover metadata authoritative over nested session lock text",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:387] keeps explicit provider failover metadata authoritative over nested session lock text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:387",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps inferred HTTP failover metadata authoritative over nested session lock text",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:402] keeps inferred HTTP failover metadata authoritative over nested session lock text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:402",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not treat generic abort codes as explicit failover metadata over nested session lock text",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:415] does not treat generic abort codes as explicit failover metadata over nested session lock text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:415",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not let cause-based failover classification bypass wrapper session lock suppression",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:430] does not let cause-based failover classification bypass wrapper session lock suppression",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:430",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies bare pi-ai stream wrapper as timeout regardless of provider (#71620)",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:444] classifies bare pi-ai stream wrapper as timeout regardless of provider (#71620)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:444",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies openrouter-scoped upstream errors for failover",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:470] classifies openrouter-scoped upstream errors for failover",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:470",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not classify openrouter-scoped upstream errors without the matching provider",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:479] does not classify openrouter-scoped upstream errors without the matching provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:479",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats 400 insufficient_quota payloads as billing instead of format",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:493] treats 400 insufficient_quota payloads as billing instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:493",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] lets structured HTTP 400 payloads reuse provider-specific message classification",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:502] lets structured HTTP 400 payloads reuse provider-specific message classification",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:502",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not misclassify structured HTTP 400 context overflow payloads as format",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:511] does not misclassify structured HTTP 400 context overflow payloads as format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:511",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps context overflow first-class in the shared signal classifier",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:520] keeps context overflow first-class in the shared signal classifier",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:520",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats invalid-model HTTP 400 payloads as model_not_found instead of format",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:534] treats invalid-model HTTP 400 payloads as model_not_found instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:534",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats HTTP 422 as format error",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:554] treats HTTP 422 as format error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:554",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats 422 with billing message as billing instead of format",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:569] treats 422 with billing message as billing instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:569",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies OpenRouter ",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:578] classifies OpenRouter ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:578",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats zhipuai weekly/monthly limit exhausted as rate_limit",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:592] treats zhipuai weekly/monthly limit exhausted as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:592",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats Chinese provider network/server errors as timeout for failover",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:605] treats Chinese provider network/server errors as timeout for failover",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:605",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats Chinese provider auth errors as auth for failover",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:625] treats Chinese provider auth errors as auth for failover",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:625",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats overloaded provider payloads as overloaded",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:632] treats overloaded provider payloads as overloaded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:632",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps raw-text 402 weekly/monthly limit errors in billing",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:640] keeps raw-text 402 weekly/monthly limit errors in billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:640",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps temporary 402 spend limits retryable without downgrading explicit billing",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:648] keeps temporary 402 spend limits retryable without downgrading explicit billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:648",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps raw 402 wrappers aligned with status-split temporary spend limits",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:682] keeps raw 402 wrappers aligned with status-split temporary spend limits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:682",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps explicit 402 rate-limit wrappers aligned with status-split payloads",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:697] keeps explicit 402 rate-limit wrappers aligned with status-split payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:697",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] keeps plan-upgrade 402 wrappers aligned with status-split billing payloads",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:712] keeps plan-upgrade 402 wrappers aligned with status-split billing payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:712",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] infers format errors from error messages",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:727] infers format errors from error messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:727",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] infers timeout from common node error codes",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:735] infers timeout from common node error codes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:735",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] infers rate-limit and overload from symbolic error codes",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:747] infers rate-limit and overload from symbolic error codes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:747",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] infers timeout from abort/error stop-reason messages",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:753] infers timeout from abort/error stop-reason messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:753",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] infers timeout from connection/network error messages",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:769] infers timeout from connection/network error messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:769",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] treats AbortError reason=abort as timeout",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:790] treats AbortError reason=abort as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:790",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] classifies abort-wrapped RESOURCE_EXHAUSTED as rate_limit",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:798] classifies abort-wrapped RESOURCE_EXHAUSTED as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:798",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] lets wrapped causes override parent context-overflow classifications",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:815] lets wrapped causes override parent context-overflow classifications",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:815",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] coerces failover-worthy errors into FailoverError with metadata",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:824] coerces failover-worthy errors into FailoverError with metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:824",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] preserves raw provider error text for diagnostic logs",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:836] preserves raw provider error text for diagnostic logs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:836",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] coerces JSON-wrapped OpenRouter stealth-model 404s into FailoverError",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:855] coerces JSON-wrapped OpenRouter stealth-model 404s into FailoverError",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:855",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] maps overloaded to a 503 fallback status",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:865] maps overloaded to a 503 fallback status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:865",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] coerces format errors with a 400 status",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:869] coerces format errors with a 400 status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:869",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] 401/403 with generic message still returns auth (backward compat)",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:878] 401/403 with generic message still returns auth (backward compat)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:878",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] 401 with ambiguous auth message returns auth",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:883] 401 with ambiguous auth message returns auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:883",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] 403 with revoked key message returns auth_permanent",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:889] 403 with revoked key message returns auth_permanent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:889",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] 403 OpenRouter ",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:895] 403 OpenRouter ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:895",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] 401 billing-style message returns billing instead of generic auth",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:915] 401 billing-style message returns billing instead of generic auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:915",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] does not treat OpenRouter key-limit text as billing without provider context",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:925] does not treat OpenRouter key-limit text as billing without provider context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:925",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] resolveFailoverStatus maps auth_permanent to 403",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:935] resolveFailoverStatus maps auth_permanent to 403",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:935",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] coerces ambiguous auth error into the short auth lane",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:939] coerces ambiguous auth error into the short auth lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:939",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] 403 bare permission_error returns auth",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:948] 403 bare permission_error returns auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:948",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] permission_error with organization denial stays auth_permanent",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:954] permission_error with organization denial stays auth_permanent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:954",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] ",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:962] ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:962",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/failover-error.test.ts] describes non-Error values consistently",
+TEST_CASE("v4.29 [src/agents/failover-error.test.ts:970] describes non-Error values consistently",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/failover-error.test.ts:970",
                "upstream it() block #61",

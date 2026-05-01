@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/talk.normalize.test.ts] keeps core Talk normalization generic and ignores legacy provider-flat fields",
+TEST_CASE("v4.29 [src/config/talk.normalize.test.ts:6] keeps core Talk normalization generic and ignores legacy provider-flat fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/talk.normalize.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/talk.normalize.test.ts] uses new provider/providers shape directly when present",
+TEST_CASE("v4.29 [src/config/talk.normalize.test.ts:25] uses new provider/providers shape directly when present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/talk.normalize.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/talk.normalize.test.ts] merges duplicate provider ids after trimming",
+TEST_CASE("v4.29 [src/config/talk.normalize.test.ts:49] merges duplicate provider ids after trimming",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/talk.normalize.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/talk.normalize.test.ts] builds a canonical resolved talk payload for clients",
+TEST_CASE("v4.29 [src/config/talk.normalize.test.ts:73] builds a canonical resolved talk payload for clients",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/talk.normalize.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/talk.normalize.test.ts] preserves SecretRef apiKey values during normalization",
+TEST_CASE("v4.29 [src/config/talk.normalize.test.ts:106] preserves SecretRef apiKey values during normalization",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/talk.normalize.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/talk.normalize.test.ts] does not inject provider apiKey defaults during snapshot materialization",
+TEST_CASE("v4.29 [src/config/talk.normalize.test.ts:126] does not inject provider apiKey defaults during snapshot materialization",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/talk.normalize.test.ts:126",
                "upstream it() block #5",

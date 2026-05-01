@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] aggregates capabilities across plugins",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:82] aggregates capabilities across plugins",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] checks per-channel capabilities",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:93] checks per-channel capabilities",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] normalizes channel aliases for per-channel capability checks",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:137] normalizes channel aliases for per-channel capability checks",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:137",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] uses unified message tool discovery for actions, capabilities, and schema",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:160] uses unified message tool discovery for actions, capabilities, and schema",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:160",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] filters only actions that depend on current-channel-only schema",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:196] filters only actions that depend on current-channel-only schema",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:196",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] keeps unscoped current-channel schema conservative for cross-channel actions",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:232] keeps unscoped current-channel schema conservative for cross-channel actions",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:232",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] treats empty current-channel schema action lists as blocking no cross-channel actions",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:267] treats empty current-channel schema action lists as blocking no cross-channel actions",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:267",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] derives plugin-owned media-source params for the current action",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:307] derives plugin-owned media-source params for the current action",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:307",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] keeps flat media-source param discovery for backward compatibility",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:353] keeps flat media-source param discovery for backward compatibility",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:353",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts] skips crashing action/capability discovery paths and logs once",
+TEST_CASE("v4.29 [src/channels/plugins/message-actions.test.ts:383] skips crashing action/capability discovery paths and logs once",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-actions.test.ts:383",
                "upstream it() block #9",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] accepts draft-2020-12 tool output schemas from external MCP catalogs",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:79] accepts draft-2020-12 tool output schemas from external MCP catalogs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] keeps colliding sanitized tool definitions stable across catalog order changes",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:98] keeps colliding sanitized tool definitions stable across catalog order changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] holds a runtime lease until the materialized tool runtime is disposed",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:144] holds a runtime lease until the materialized tool runtime is disposed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] releases a runtime lease when catalog materialization fails",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:165] releases a runtime lease when catalog materialization fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] reuses repeated materialization and recreates after explicit disposal",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:184] reuses repeated materialization and recreates after explicit disposal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] recreates the session runtime when MCP config changes",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:253] recreates the session runtime when MCP config changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:253",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] disposes catalog startup in-flight without leaving cached runtimes",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:329] disposes catalog startup in-flight without leaving cached runtimes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:329",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] retires global session runtimes and ignores missing ids",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:374] retires global session runtimes and ignores missing ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:374",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] retires global session runtimes by session key",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:390] retires global session runtimes by session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:390",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] evicts idle runtimes after the configured TTL but skips active leases",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:411] evicts idle runtimes after the configured TTL but skips active leases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:411",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts] keeps idle runtime eviction disabled when the TTL is zero",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-runtime.test.ts:471] keeps idle runtime eviction disabled when the TTL is zero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-runtime.test.ts:471",
                "upstream it() block #10",

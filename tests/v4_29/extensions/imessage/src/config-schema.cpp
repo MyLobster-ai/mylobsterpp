@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] accepts dmPolicy=",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:5] accepts dmPolicy=",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] rejects dmPolicy=",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:14] rejects dmPolicy=",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] defaults dm/group policy",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:26] defaults dm/group policy",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] accepts historyLimit",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:36] accepts historyLimit",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] rejects unsafe executable config values",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:45] rejects unsafe executable config values",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] accepts path-like executable values with spaces",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:54] accepts path-like executable values with spaces",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:54",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] accepts textChunkLimit",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:62] accepts textChunkLimit",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:62",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] accepts safe remoteHost",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:74] accepts safe remoteHost",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:74",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] rejects unsafe remoteHost",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:82] rejects unsafe remoteHost",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:82",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] accepts attachment root patterns",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:93] accepts attachment root patterns",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:93",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts] rejects relative attachment roots",
+TEST_CASE("v4.29 [extensions/imessage/src/config-schema.test.ts:102] rejects relative attachment roots",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/config-schema.test.ts:102",
                "upstream it() block #10",

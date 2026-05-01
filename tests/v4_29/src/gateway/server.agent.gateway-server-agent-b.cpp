@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent reuses the last plugin delivery route when channel=last",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:197] agent reuses the last plugin delivery route when channel=last",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:197",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent preserves CLI session binding metadata when refreshing session state",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:235] agent preserves CLI session binding metadata when refreshing session state",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:235",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent accepts built-in channel alias (imsg)",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:294] agent accepts built-in channel alias (imsg)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:294",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent accepts plugin channel alias (teams)",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:328] agent accepts plugin channel alias (teams)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:328",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent rejects unknown channel",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:355] agent rejects unknown channel",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:355",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent errors when deliver=true and last channel is webchat",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:366] agent errors when deliver=true and last channel is webchat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:366",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent downgrades to session-only delivery when best-effort is enabled and last channel is webchat",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:387] agent downgrades to session-only delivery when best-effort is enabled and last channel is webchat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:387",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent downgrades to session-only when multiple channels are configured but no external target resolves",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:410] agent downgrades to session-only when multiple channels are configured but no external target resolves",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:410",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent uses webchat for internal runs when last provider is webchat",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:442] agent uses webchat for internal runs when last provider is webchat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:442",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] write-scoped callers cannot reset conversations via agent",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:464] write-scoped callers cannot reset conversations via agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:464",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent ack response then final response",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:511] agent ack response then final response",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:511",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent dedupes by idempotencyKey after completion",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:538] agent dedupes by idempotencyKey after completion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:538",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent dedupe survives reconnect",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:555] agent dedupe survives reconnect",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:555",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts] agent events stream to webchat clients when run context is registered",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-b.test.ts:587] agent events stream to webchat clients when run context is registered",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-b.test.ts:587",
                "upstream it() block #13",

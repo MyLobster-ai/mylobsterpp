@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] marks nodes as owner-only",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:127] marks nodes as owner-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:127",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] caps durationMs schema at 300000",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:132] caps durationMs schema at 300000",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] clamps screen_record durationMs argument to 300000 before gateway invoke",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:144] clamps screen_record durationMs argument to 300000 before gateway invoke",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] rejects the removed run action",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:165] rejects the removed run action",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] returns camera snaps via details.media.mediaUrls",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:175] returns camera snaps via details.media.mediaUrls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:175",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] returns latest photos via details.media.mediaUrls",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:201] returns latest photos via details.media.mediaUrls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] uses operator.pairing plus operator.admin to approve exec-capable node pair requests",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:256] uses operator.pairing plus operator.admin to approve exec-capable node pair requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:256",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] uses operator.pairing plus operator.write to approve non-exec node pair requests",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:270] uses operator.pairing plus operator.write to approve non-exec node pair requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:270",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] uses operator.pairing for commandless node pair requests",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:284] uses operator.pairing for commandless node pair requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:284",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] falls back to command inspection when the gateway does not advertise required scopes",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:298] falls back to command inspection when the gateway does not advertise required scopes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:298",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] blocks invokeCommand system.run so exec stays the only shell path",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:312] blocks invokeCommand system.run so exec stays the only shell path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:312",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] redirects file-transfer invoke commands to the dedicated file-transfer tool",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:324] redirects file-transfer invoke commands to the dedicated file-transfer tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:324",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts] keeps invoke pairing guidance for scope upgrade rejections",
+TEST_CASE("v4.29 [src/agents/tools/nodes-tool.test.ts:338] keeps invoke pairing guidance for scope upgrade rejections",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-tool.test.ts:338",
                "upstream it() block #12",

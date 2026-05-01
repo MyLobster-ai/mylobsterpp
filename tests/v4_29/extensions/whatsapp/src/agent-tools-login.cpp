@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/agent-tools-login.test.ts] passes the caller",
+TEST_CASE("v4.29 [extensions/whatsapp/src/agent-tools-login.test.ts:18] passes the caller",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/agent-tools-login.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/agent-tools-login.test.ts] does not retain QR state across tool actions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/agent-tools-login.test.ts:59] does not retain QR state across tool actions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/agent-tools-login.test.ts:59",
                "upstream it() block #1",

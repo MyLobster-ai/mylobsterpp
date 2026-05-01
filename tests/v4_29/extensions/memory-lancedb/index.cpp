@@ -5,327 +5,327 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema parses valid config",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:121] config schema parses valid config",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema resolves env vars",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:133] config schema resolves env vars",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:133",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema accepts provider-backed embeddings without apiKey",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:149] config schema accepts provider-backed embeddings without apiKey",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:149",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema validates captureMaxChars range",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:162] config schema validates captureMaxChars range",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:162",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema accepts captureMaxChars override",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:172] config schema accepts captureMaxChars override",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:172",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema validates recallMaxChars range",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:180] config schema validates recallMaxChars range",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:180",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema accepts recallMaxChars override",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:190] config schema accepts recallMaxChars override",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:190",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema keeps autoCapture disabled by default",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:198] config schema keeps autoCapture disabled by default",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:198",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] registers as disabled instead of throwing when inspected without config",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:205] registers as disabled instead of throwing when inspected without config",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:205",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] registers auto-recall on before_prompt_build instead of the legacy hook",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:242] registers auto-recall on before_prompt_build instead of the legacy hook",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:242",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] uses provider adapter auth when embedding apiKey is omitted",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:278] uses provider adapter auth when embedding apiKey is omitted",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:278",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] keeps before_prompt_build registered but inert when auto-recall is disabled",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:393] keeps before_prompt_build registered but inert when auto-recall is disabled",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:393",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] keeps agent_end registered but inert when auto-capture is disabled",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:435] keeps agent_end registered but inert when auto-capture is disabled",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:435",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] runs auto-recall through the registered before_prompt_build hook",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:481] runs auto-recall through the registered before_prompt_build hook",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:481",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] bounds auto-recall latency during prompt build",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:605] bounds auto-recall latency during prompt build",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:605",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] uses live runtime config to enable auto-recall after startup disable",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:701] uses live runtime config to enable auto-recall after startup disable",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:701",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] uses live runtime config to skip auto-recall after registration",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:847] uses live runtime config to skip auto-recall after registration",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:847",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] fails closed for auto-recall when the live plugin entry is removed",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:972] fails closed for auto-recall when the live plugin entry is removed",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:972",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] runs auto-capture through the registered agent_end hook",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1085] runs auto-capture through the registered agent_end hook",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1085",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] uses live runtime config to enable auto-capture after startup disable",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1195] uses live runtime config to enable auto-capture after startup disable",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1195",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] uses live runtime config to skip auto-capture after registration",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1336] uses live runtime config to skip auto-capture after registration",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1336",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] fails closed for auto-capture when the live plugin entry is removed",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1463] fails closed for auto-capture when the live plugin entry is removed",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1463",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] skips already-processed auto-capture messages by session cursor",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1676] skips already-processed auto-capture messages by session cursor",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1676",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] does not advance auto-capture cursor when message processing fails",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1713] does not advance auto-capture cursor when message processing fails",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1713",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] does not lose new auto-capture messages after history compaction rewrites prior turns",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1739] does not lose new auto-capture messages after history compaction rewrites prior turns",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1739",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] evicts auto-capture cursor state on session end",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1775] evicts auto-capture cursor state on session end",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1775",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] passes configured dimensions to OpenAI embeddings API",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1803] passes configured dimensions to OpenAI embeddings API",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1803",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] clears failed database initialization so later tool calls can retry",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1897] clears failed database initialization so later tool calls can retry",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1897",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema accepts storageOptions with string values",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:1993] config schema accepts storageOptions with string values",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:1993",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema resolves env vars in storageOptions",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2016] config schema resolves env vars in storageOptions",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2016",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema rejects missing env vars in storageOptions",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2046] config schema rejects missing env vars in storageOptions",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2046",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] config schema rejects storageOptions with non-string values",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2064] config schema rejects storageOptions with non-string values",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2064",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] shouldCapture applies real capture rules",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2082] shouldCapture applies real capture rules",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2082",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] normalizeRecallQuery trims whitespace and bounds embedding input",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2103] normalizeRecallQuery trims whitespace and bounds embedding input",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2103",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] normalizeEmbeddingVector accepts float arrays and base64 float32 responses",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2110] normalizeEmbeddingVector accepts float arrays and base64 float32 responses",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2110",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] normalizeEmbeddingVector rejects malformed embedding payloads",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2123] normalizeEmbeddingVector rejects malformed embedding payloads",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2123",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] formatRelevantMemoriesContext escapes memory text and marks entries as untrusted",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2135] formatRelevantMemoriesContext escapes memory text and marks entries as untrusted",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2135",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] looksLikePromptInjection flags control-style payloads",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2149] looksLikePromptInjection flags control-style payloads",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2149",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] detectCategory classifies using production logic",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2156] detectCategory classifies using production logic",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2156",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] memory_forget candidate list shows full UUIDs, not truncated IDs",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2164] memory_forget candidate list shows full UUIDs, not truncated IDs",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2164",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] uses the bundled module when it is already available",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2261] uses the bundled module when it is already available",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2261",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] reuses an existing user runtime install before attempting a reinstall",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2281] reuses an existing user runtime install before attempting a reinstall",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2281",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] installs LanceDB into user state when the bundled runtime is unavailable",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2306] installs LanceDB into user state when the bundled runtime is unavailable",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2306",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] fails fast in nix mode instead of attempting auto-install",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2339] fails fast in nix mode instead of attempting auto-install",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2339",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] fails clearly on Intel macOS instead of attempting an unsupported native install",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2355] fails clearly on Intel macOS instead of attempting an unsupported native install",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2355",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts] clears the cached failure so later calls can retry the install",
+TEST_CASE("v4.29 [extensions/memory-lancedb/index.test.ts:2372] clears the cached failure so later calls can retry the install",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/index.test.ts:2372",
                "upstream it() block #45",

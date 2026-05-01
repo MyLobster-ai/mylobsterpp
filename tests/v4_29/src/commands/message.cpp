@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/message.test.ts] threads resolved SecretRef config into message actions",
+TEST_CASE("v4.29 [src/commands/message.test.ts:175] threads resolved SecretRef config into message actions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/message.test.ts:175",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/message.test.ts] keeps local-fallback resolved cfg and logs diagnostics",
+TEST_CASE("v4.29 [src/commands/message.test.ts:223] keeps local-fallback resolved cfg and logs diagnostics",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/message.test.ts:223",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/message.test.ts] uses auto-enabled effective config for message actions",
+TEST_CASE("v4.29 [src/commands/message.test.ts:251] uses auto-enabled effective config for message actions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/message.test.ts:251",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/message.test.ts] normalizes poll actions and sender ownership before dispatch",
+TEST_CASE("v4.29 [src/commands/message.test.ts:279] normalizes poll actions and sender ownership before dispatch",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/message.test.ts:279",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/message.test.ts] rejects unknown message actions before dispatch",
+TEST_CASE("v4.29 [src/commands/message.test.ts:302] rejects unknown message actions before dispatch",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/message.test.ts:302",
                "upstream it() block #4",

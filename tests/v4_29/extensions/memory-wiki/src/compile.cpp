@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] writes root and directory indexes for native markdown",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:29] writes root and directory indexes for native markdown",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] renders obsidian-friendly links when configured",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:88] renders obsidian-friendly links when configured",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] writes related blocks from source ids and shared sources",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:113] writes related blocks from source ids and shared sources",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] does not relate every page through a broad shared source",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:173] does not relate every page through a broad shared source",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:173",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] writes dashboard report pages when createDashboards is enabled",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:213] writes dashboard report pages when createDashboards is enabled",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:213",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] skips dashboard report pages when createDashboards is disabled",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:327] skips dashboard report pages when createDashboards is disabled",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:327",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] writes agent directory, relationship, provenance, and privacy reports",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:356] writes agent directory, relationship, provenance, and privacy reports",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:356",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts] ignores generated related links when computing backlinks on repeated compile",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/compile.test.ts:451] ignores generated related links when computing backlinks on repeated compile",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/compile.test.ts:451",
                "upstream it() block #7",

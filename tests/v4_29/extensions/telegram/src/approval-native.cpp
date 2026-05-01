@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] describes the correct Telegram exec-approval setup path",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:35] describes the correct Telegram exec-approval setup path",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] describes the named-account Telegram exec-approval setup path",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:48] describes the named-account Telegram exec-approval setup path",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] normalizes direct-chat origin targets so DM dedupe can converge",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:62] normalizes direct-chat origin targets so DM dedupe can converge",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] parses topic-scoped turn-source targets in the extension",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:87] parses topic-scoped turn-source targets in the extension",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] falls back to the session-bound origin target for plugin approvals",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:112] falls back to the session-bound origin target for plugin approvals",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] parses numeric string thread ids from the session store for plugin approvals",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:151] parses numeric string thread ids from the session store for plugin approvals",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:151",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts] marks DM-only telegram approvals to notify the origin chat after delivery",
+TEST_CASE("v4.29 [extensions/telegram/src/approval-native.test.ts:190] marks DM-only telegram approvals to notify the origin chat after delivery",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/approval-native.test.ts:190",
                "upstream it() block #6",

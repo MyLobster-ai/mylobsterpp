@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/store.redirect.test.ts] follows redirects and keeps detected mime/extension",
+TEST_CASE("v4.29 [src/media/store.redirect.test.ts:127] follows redirects and keeps detected mime/extension",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/store.redirect.test.ts:127",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/store.redirect.test.ts] strips sensitive headers when a redirect crosses origins",
+TEST_CASE("v4.29 [src/media/store.redirect.test.ts:152] strips sensitive headers when a redirect crosses origins",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/store.redirect.test.ts:152",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/store.redirect.test.ts] keeps headers when a redirect stays on the same origin",
+TEST_CASE("v4.29 [src/media/store.redirect.test.ts:187] keeps headers when a redirect stays on the same origin",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/store.redirect.test.ts:187",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/store.redirect.test.ts] fails when redirect response omits location header",
+TEST_CASE("v4.29 [src/media/store.redirect.test.ts:212] fails when redirect response omits location header",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/store.redirect.test.ts:212",
                "upstream it() block #3",

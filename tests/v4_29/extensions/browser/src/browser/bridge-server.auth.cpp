@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts] rejects unauthenticated requests when authToken is set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts:69] rejects unauthenticated requests when authToken is set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/bridge-server.auth.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts] accepts x-openclaw-password when authPassword is set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts:73] accepts x-openclaw-password when authPassword is set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/bridge-server.auth.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts] requires auth params",
+TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts:80] requires auth params",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/bridge-server.auth.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts] serves noVNC bootstrap html without leaking password in Location header",
+TEST_CASE("v4.29 [extensions/browser/src/browser/bridge-server.auth.test.ts:88] serves noVNC bootstrap html without leaking password in Location header",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/bridge-server.auth.test.ts:88",
                "upstream it() block #3",

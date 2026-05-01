@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/auth.ssrf.test.ts] blocks private IPs by default",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/auth.ssrf.test.ts:15] blocks private IPs by default",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/auth.ssrf.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/auth.ssrf.test.ts] allows private IPs when allowPrivateNetwork is enabled",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/auth.ssrf.test.ts:25] allows private IPs when allowPrivateNetwork is enabled",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/auth.ssrf.test.ts:25",
                "upstream it() block #1",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts] keeps replyToId on first reply only when replyToMode=first",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts:70] keeps replyToId on first reply only when replyToMode=first",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/replies.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts] keeps replyToId on every reply when replyToMode=all",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts:104] keeps replyToId on every reply when replyToMode=all",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/replies.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts] suppresses replyToId when threadId is set",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts:148] suppresses replyToId when threadId is set",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/replies.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts] suppresses reasoning-only text before Matrix sends",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts:177] suppresses reasoning-only text before Matrix sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/replies.test.ts:177",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts] uses supplied cfg for chunking and send delivery without reloading runtime config",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts:200] uses supplied cfg for chunking and send delivery without reloading runtime config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/replies.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts] passes raw media captions through to sendMessageMatrix without pre-converting them",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/replies.test.ts:244] passes raw media captions through to sendMessageMatrix without pre-converting them",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/replies.test.ts:244",
                "upstream it() block #5",

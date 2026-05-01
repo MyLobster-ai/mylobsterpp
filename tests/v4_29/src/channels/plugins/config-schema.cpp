@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts] builds json schema when toJSONSchema is available",
+TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts:6] builds json schema when toJSONSchema is available",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-schema.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts] falls back when toJSONSchema is missing (zod v3 plugin compatibility)",
+TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts:12] falls back when toJSONSchema is missing (zod v3 plugin compatibility)",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-schema.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts] passes draft-07 compatibility options to toJSONSchema",
+TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts:18] passes draft-07 compatibility options to toJSONSchema",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-schema.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts] passes through ui hints and exposes a runtime parser",
+TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts:37] passes through ui hints and exposes a runtime parser",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-schema.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts] accepts undefined and empty objects only",
+TEST_CASE("v4.29 [src/channels/plugins/config-schema.test.ts:51] accepts undefined and empty objects only",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-schema.test.ts:51",
                "upstream it() block #4",

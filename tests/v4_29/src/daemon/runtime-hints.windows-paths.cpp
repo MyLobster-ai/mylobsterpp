@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/runtime-hints.windows-paths.test.ts] strips windows drive prefixes from darwin display paths",
+TEST_CASE("v4.29 [src/daemon/runtime-hints.windows-paths.test.ts:24] strips windows drive prefixes from darwin display paths",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-hints.windows-paths.test.ts:24",
                "upstream it() block #0",

@@ -5,292 +5,292 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] falls back to the default profile name when none is supplied",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:157] falls back to the default profile name when none is supplied",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:157",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] respects an explicit profile name",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:162] respects an explicit profile name",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:162",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] toggles headless args",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:190] toggles headless args",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:190",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] lets profile headless=false override global headless=true",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:200] lets profile headless=false override global headless=true",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:200",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] lets a request headless override beat env and profile headed settings",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:210] lets a request headless override beat env and profile headed settings",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:210",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] adds headless args for Linux local managed profiles without a display",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:222] adds headless args for Linux local managed profiles without a display",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:222",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] does not apply Linux no-display fallback to remote profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:234] does not apply Linux no-display fallback to remote profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:234",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] toggles no-sandbox args",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:251] toggles no-sandbox args",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:251",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] adds --disable-dev-shm-usage on linux",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:261] adds --disable-dev-shm-usage on linux",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:261",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] propagates extraArgs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:276] propagates extraArgs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:276",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] launches managed Chrome direct by default",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:289] launches managed Chrome direct by default",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:289",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] treats a throwing fs.existsSync (for prefs files) as non-existent to force bootstrap",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:300] treats a throwing fs.existsSync (for prefs files) as non-existent to force bootstrap",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:300",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] rejects a remote profile before attempting to spawn",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:381] rejects a remote profile before attempting to spawn",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:381",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] throws when no supported browser executable is found",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:395] throws when no supported browser executable is found",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:395",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] completes successfully when Chrome reports /json/version and CDP is reachable",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:405] completes successfully when Chrome reports /json/version and CDP is reachable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:405",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] uses profile executablePath over global executablePath when launching",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:451] uses profile executablePath over global executablePath when launching",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:451",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] clears stale singleton locks and retries once after profile-in-use launch failure",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:483] clears stale singleton locks and retries once after profile-in-use launch failure",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:483",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] throws with stderr hint + sandbox hint when CDP never becomes reachable",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:543] throws with stderr hint + sandbox hint when CDP never becomes reachable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:543",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] uses the configured local launch timeout while waiting for CDP discovery",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:584] uses the configured local launch timeout while waiting for CDP discovery",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:584",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] escalates to SIGKILL when CDP keeps reporting reachable past the deadline",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:621] escalates to SIGKILL when CDP keeps reporting reachable past the deadline",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:621",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns null when the /json/version response JSON is not an object",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:640] returns null when the /json/version response JSON is not an object",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:640",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns null when /json/version omits webSocketDebuggerUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:655] returns null when /json/version omits webSocketDebuggerUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:655",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns false when getChromeWebSocketUrl resolves to null",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:668] returns false when getChromeWebSocketUrl resolves to null",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:668",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns false when the ws upgrade is refused",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:681] returns false when the ws upgrade is refused",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:681",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns false when the health command response is malformed JSON",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:698] returns false when the health command response is malformed JSON",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:698",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] ignores messages whose id does not match the health probe id",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:715] ignores messages whose id does not match the health probe id",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:715",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns true when Browser.getVersion responds with an object",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:732] returns true when Browser.getVersion responds with an object",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:732",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] resolves false when the direct-ws probe cannot connect",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:754] resolves false when the direct-ws probe cannot connect",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:754",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] resolves true when the direct-ws handshake succeeds",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:765] resolves true when the direct-ws handshake succeeds",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:765",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns the input URL as-is for handshake-ready direct ws endpoints",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:783] returns the input URL as-is for handshake-ready direct ws endpoints",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:783",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] resolves false when the ws client cannot connect to the discovered ws URL",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:794] resolves false when the ws client cannot connect to the discovered ws URL",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:794",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] resolves false when the ws ",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:825] resolves false when the ws ",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:825",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] returns false when getChromeWebSocketUrl rejects (SSRF-blocked)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:842] returns false when getChromeWebSocketUrl rejects (SSRF-blocked)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:842",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] skips decoration entirely when the profile is already decorated",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:862] skips decoration entirely when the profile is already decorated",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:862",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] falls back to the default color when profile.color is undefined",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:934] falls back to the default color when profile.color is undefined",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:934",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] buffers stderr chunks when Chrome emits diagnostics while CDP comes up",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:973] buffers stderr chunks when Chrome emits diagnostics while CDP comes up",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:973",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] omits the sandbox hint on non-linux platforms",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:1012] omits the sandbox hint on non-linux platforms",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:1012",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] breaks out of the bootstrap prefs-wait loop as soon as both files exist",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:1058] breaks out of the bootstrap prefs-wait loop as soon as both files exist",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:1058",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] breaks out of the bootstrap exit-wait loop once the child reports an exit code",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:1110] breaks out of the bootstrap exit-wait loop once the child reports an exit code",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:1110",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] logs a warning when decorateOpenClawProfile throws and still returns a running Chrome",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:1164] logs a warning when decorateOpenClawProfile throws and still returns a running Chrome",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:1164",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts] logs pid as -1 when the spawned proc reports no pid",
+TEST_CASE("v4.29 [extensions/browser/src/browser/chrome.internal.test.ts:1219] logs pid as -1 when the spawned proc reports no pid",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/chrome.internal.test.ts:1219",
                "upstream it() block #40",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] imports public memory artifacts and stays idempotent across reruns",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:59] imports public memory artifacts and stays idempotent across reruns",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] returns a no-op result outside bridge mode",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:150] returns a no-op result outside bridge mode",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:150",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] returns a no-op result when bridge mode is enabled without exported memory artifacts",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:166] returns a no-op result when bridge mode is enabled without exported memory artifacts",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:166",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] imports the public memory event journal when followMemoryEvents is enabled",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:201] imports the public memory event journal when followMemoryEvents is enabled",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:201",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] prunes stale bridge pages when the source artifact disappears",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:255] prunes stale bridge pages when the source artifact disappears",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:255",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] refuses to overwrite bridge source pages through vault symlinks",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:303] refuses to overwrite bridge source pages through vault symlinks",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:303",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] replaces bridge source page hardlinks without clobbering their target",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:348] replaces bridge source page hardlinks without clobbering their target",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:348",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts] caps composed bridge source filenames to the filesystem component limit",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/bridge.test.ts:394] caps composed bridge source filenames to the filesystem component limit",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/bridge.test.ts:394",
                "upstream it() block #7",

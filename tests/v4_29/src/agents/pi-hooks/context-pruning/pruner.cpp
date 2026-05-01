@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] does not crash on assistant message with malformed thinking block (missing thinking string)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:107] does not crash on assistant message with malformed thinking block (missing thinking string)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:107",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] does not crash on assistant message with null content entries",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:124] does not crash on assistant message with null content entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] does not crash on assistant message with malformed text block (missing text string)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:138] does not crash on assistant message with malformed text block (missing text string)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] does not crash on toolResult with malformed text block (missing text string)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:155] does not crash on toolResult with malformed text block (missing text string)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] does not crash on toolResult with malformed text block during soft-trim (image path)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:186] does not crash on toolResult with malformed text block during soft-trim (image path)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] counts malformed non-string text blocks when deciding to trim tool results",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:226] counts malformed non-string text blocks when deciding to trim tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] does not crash on toolResult with null content entries",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:267] does not crash on toolResult with null content entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:267",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] handles well-formed thinking blocks correctly",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:290] handles well-formed thinking blocks correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:290",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] counts thinkingSignature bytes when estimating assistant message size",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:306] counts thinkingSignature bytes when estimating assistant message size",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:306",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] counts redacted_thinking data bytes when estimating assistant message size",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:318] counts redacted_thinking data bytes when estimating assistant message size",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:318",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] ignores non-latest thinking signatures that will be dropped before send",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:329] ignores non-latest thinking signatures that will be dropped before send",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:329",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] soft-trims image-containing tool results by replacing image blocks with placeholders",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:359] soft-trims image-containing tool results by replacing image blocks with placeholders",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:359",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] replaces image-only tool results with placeholders even when text trimming is not needed",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:401] replaces image-only tool results with placeholders even when text trimming is not needed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:401",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts] hard-clears image-containing tool results once ratios require clearing",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning/pruner.test.ts:436] hard-clears image-containing tool results once ratios require clearing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning/pruner.test.ts:436",
                "upstream it() block #13",

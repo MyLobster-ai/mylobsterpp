@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command/session.resolve-session-key.test.ts] prefers the current store when equal duplicates exist across stores",
+TEST_CASE("v4.29 [src/agents/command/session.resolve-session-key.test.ts:63] prefers the current store when equal duplicates exist across stores",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session.resolve-session-key.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session.resolve-session-key.test.ts] keeps a cross-store structural winner over a newer local fuzzy duplicate",
+TEST_CASE("v4.29 [src/agents/command/session.resolve-session-key.test.ts:83] keeps a cross-store structural winner over a newer local fuzzy duplicate",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session.resolve-session-key.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/session.resolve-session-key.test.ts] scopes stored session-key lookup to the requested agent store",
+TEST_CASE("v4.29 [src/agents/command/session.resolve-session-key.test.ts:103] scopes stored session-key lookup to the requested agent store",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/session.resolve-session-key.test.ts:103",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.scan-overview.test.ts] uses gateway fallback overrides for channels.status when requested",
+TEST_CASE("v4.29 [src/commands/status.scan-overview.test.ts:98] uses gateway fallback overrides for channels.status when requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan-overview.test.ts:98",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan-overview.test.ts] can keep channel overview on metadata-only status paths",
+TEST_CASE("v4.29 [src/commands/status.scan-overview.test.ts:124] can keep channel overview on metadata-only status paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan-overview.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan-overview.test.ts] skips channels.status when the gateway is unreachable",
+TEST_CASE("v4.29 [src/commands/status.scan-overview.test.ts:145] skips channels.status when the gateway is unreachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan-overview.test.ts:145",
                "upstream it() block #2",

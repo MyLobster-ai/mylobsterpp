@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] uses a timer-safe max gateway timeout when --timeout is 0",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:125] uses a timer-safe max gateway timeout when --timeout is 0",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] uses gateway by default",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:137] uses gateway by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:137",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] passes model overrides through gateway requests",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:150] passes model overrides through gateway requests",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] routes diagnostics to stderr before JSON gateway execution",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:165] routes diagnostics to stderr before JSON gateway execution",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] falls back to embedded agent when gateway fails",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:187] falls back to embedded agent when gateway fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:187",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] uses a fresh embedded session when gateway agent times out",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:209] uses a fresh embedded session when gateway agent times out",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:209",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] keeps timeout fallback from replacing the routed conversation session key",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:251] keeps timeout fallback from replacing the routed conversation session key",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:251",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] passes fallback metadata into JSON embedded fallback output",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:276] passes fallback metadata into JSON embedded fallback output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:276",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] skips gateway when --local is set",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:340] skips gateway when --local is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:340",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts] forces bundle MCP cleanup on embedded fallback",
+TEST_CASE("v4.29 [src/commands/agent-via-gateway.test.ts:364] forces bundle MCP cleanup on embedded fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent-via-gateway.test.ts:364",
                "upstream it() block #9",

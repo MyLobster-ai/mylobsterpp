@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] uses ~/.openclaw/openclaw.json when config exists",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:40] uses ~/.openclaw/openclaw.json when config exists",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] defaults to ~/.openclaw/openclaw.json when config is missing",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:48] defaults to ~/.openclaw/openclaw.json when config is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] uses OPENCLAW_HOME for default config path",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:55] uses OPENCLAW_HOME for default config path",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] honors explicit OPENCLAW_CONFIG_PATH override",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:65] honors explicit OPENCLAW_CONFIG_PATH override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] logs validation warnings with real line breaks",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:73] logs validation warnings with real line breaks",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] normalizes safe-bin config entries at config load time",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:112] normalizes safe-bin config entries at config load time",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:112",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.compat.test.ts] moves WhatsApp shared access defaults into accounts.default during runtime compat",
+TEST_CASE("v4.29 [src/config/io.compat.test.ts:157] moves WhatsApp shared access defaults into accounts.default during runtime compat",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.compat.test.ts:157",
                "upstream it() block #6",

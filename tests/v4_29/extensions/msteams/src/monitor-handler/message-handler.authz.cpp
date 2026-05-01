@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] does not treat DM pairing-store entries as group allowlist entries",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:269] does not treat DM pairing-store entries as group allowlist entries",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:269",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] does not widen sender auth when only a teams route allowlist is configured",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:291] does not widen sender auth when only a teams route allowlist is configured",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:291",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] keeps the DM pairing path wired through shared access resolution",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:323] keeps the DM pairing path wired through shared access resolution",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:323",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] captures tenantId from channelData.tenant.id and aadObjectId from from (#58774)",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:408] captures tenantId from channelData.tenant.id and aadObjectId from from (#58774)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:408",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] does not crash when channelData.tenant is missing and stores no tenantId",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:466] does not crash when channelData.tenant is missing and stores no tenantId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:466",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] logs an info drop reason when dmPolicy allowlist rejects a sender",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:517] logs an info drop reason when dmPolicy allowlist rejects a sender",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:517",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] logs an info drop reason when group policy has an empty allowlist",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:540] logs an info drop reason when group policy has an empty allowlist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:540",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] filters non-allowlisted thread messages out of BodyForAgent",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:563] filters non-allowlisted thread messages out of BodyForAgent",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:563",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] keeps thread messages when allowlist name matching applies without a sender id",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:605] keeps thread messages when allowlist name matching applies without a sender id",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:605",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] keeps quote context when the parent sender id is allowlisted",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:639] keeps quote context when the parent sender id is allowlisted",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:639",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts] drops quote context when attachment metadata disagrees with a blocked parent sender",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:654] drops quote context when attachment metadata disagrees with a blocked parent sender",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.authz.test.ts:654",
                "upstream it() block #10",

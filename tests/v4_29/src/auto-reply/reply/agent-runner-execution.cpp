@@ -5,390 +5,390 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] keeps the generic compaction-buffer hint without heartbeat model evidence",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:315] keeps the generic compaction-buffer hint without heartbeat model evidence",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:315",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] points to heartbeat model bleed when the last runtime model matches configured heartbeat.model",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:326] points to heartbeat model bleed when the last runtime model matches configured heartbeat.model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:326",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not blame heartbeat when the smaller runtime model is not the configured heartbeat model",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:366] does not blame heartbeat when the smaller runtime model is not the configured heartbeat model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:366",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] forwards the static extra system prompt to CLI backends",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:414] forwards the static extra system prompt to CLI backends",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:414",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] resolves CLI messageProvider from the live session surface when no origin channel is set",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:471] resolves CLI messageProvider from the live session surface when no origin channel is set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:471",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not pass CLI runtime overrides as embedded harness ids for fallback providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:522] does not pass CLI runtime overrides as embedded harness ids for fallback providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:522",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] forwards media-only tool results without typing text",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:566] forwards media-only tool results without typing text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:566",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces model capacity errors from no-text mid-turn failures",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:613] surfaces model capacity errors from no-text mid-turn failures",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:613",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces model capacity errors from pre-reply CLI failures",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:660] surfaces model capacity errors from pre-reply CLI failures",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:660",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] classifies GPT-5 plan-only terminal results as fallback-eligible",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:702] classifies GPT-5 plan-only terminal results as fallback-eligible",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:702",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not classify silent NO_REPLY terminal results for fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:757] does not classify silent NO_REPLY terminal results for fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:757",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not classify empty final payloads after block replies were sent",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:783] does not classify empty final payloads after block replies were sent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:783",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not classify empty final payloads while block replies are buffered",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:828] does not classify empty final payloads while block replies are buffered",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:828",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] classifies final GPT-5 terminal-empty results instead of silently succeeding",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:872] classifies final GPT-5 terminal-empty results instead of silently succeeding",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:872",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] rolls back persisted fallback selection when result classification rejects a candidate",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:901] rolls back persisted fallback selection when result classification rejects a candidate",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:901",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] strips a glued leading NO_REPLY token from streamed tool results",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:950] strips a glued leading NO_REPLY token from streamed tool results",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:950",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] continues delivering later streamed tool results after an earlier delivery failure",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:993] continues delivering later streamed tool results after an earlier delivery failure",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:993",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] delivers streamed tool results in callback order even when dispatch latency differs",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1040] delivers streamed tool results in callback order even when dispatch latency differs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1040",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] forwards item lifecycle events to reply options",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1086] forwards item lifecycle events to reply options",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1086",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] publishes Codex app-server telemetry to agent event subscribers",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1145] publishes Codex app-server telemetry to agent event subscribers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1145",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] emits an embedded lifecycle terminal backstop when the runner returns without one",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1197] emits an embedded lifecycle terminal backstop when the runner returns without one",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1197",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not duplicate embedded lifecycle terminal events already reported by the runner",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1252] does not duplicate embedded lifecycle terminal events already reported by the runner",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1252",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] trims chatty GPT ack-turn final prose",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1301] trims chatty GPT ack-turn final prose",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1301",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not trim GPT replies when the user asked for depth",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1359] does not trim GPT replies when the user asked for depth",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1359",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] forwards plan, approval, command output, and patch events",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1412] forwards plan, approval, command output, and patch events",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1412",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] keeps compaction start notices silent by default",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1541] keeps compaction start notices silent by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1541",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] keeps compaction callbacks active when notices are silent by default",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1577] keeps compaction callbacks active when notices are silent by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1577",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] emits a compaction start notice when notifyUser is enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1625] emits a compaction start notice when notifyUser is enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1625",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] emits a compaction completion notice when notifyUser is enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1680] emits a compaction completion notice when notifyUser is enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1680",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] prefers onCompactionEnd callback over default notice when notifyUser is enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1748] prefers onCompactionEnd callback over default notice when notifyUser is enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1748",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] emits an incomplete compaction notice when compaction ends without completing",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1809] emits an incomplete compaction notice when compaction ends without completing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1809",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not show a rate-limit countdown for mixed-cause fallback exhaustion",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1873] does not show a rate-limit countdown for mixed-cause fallback exhaustion",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1873",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces billing guidance for pure billing cooldown fallback exhaustion",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1924] surfaces billing guidance for pure billing cooldown fallback exhaustion",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1924",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces gateway restart text when fallback exhaustion wraps a drain error",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:1982] surfaces gateway restart text when fallback exhaustion wraps a drain error",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:1982",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces gateway restart text when fallback exhaustion wraps a cleared lane error",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2034] surfaces gateway restart text when fallback exhaustion wraps a cleared lane error",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2034",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces gateway restart text when the reply operation was aborted for restart",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2089] surfaces gateway restart text when the reply operation was aborted for restart",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2089",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] uses compact generic copy for raw external chat errors when verbose is off",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2134] uses compact generic copy for raw external chat errors when verbose is off",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2134",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] forwards sanitized generic errors on external chat channels when verbose is on",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2170] forwards sanitized generic errors on external chat channels when verbose is on",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2170",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] uses compact generic copy for raw runner failures in normal Discord direct chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2236] uses compact generic copy for raw runner failures in normal Discord direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2236",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] keeps raw runner failure guidance visible in verbose Discord direct chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2259] keeps raw runner failure guidance visible in verbose Discord direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2259",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] formats raw Codex API payloads before forwarding verbose external errors",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2284] formats raw Codex API payloads before forwarding verbose external errors",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2284",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces gateway reauth guidance for known OAuth refresh failures",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2324] surfaces gateway reauth guidance for known OAuth refresh failures",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2324",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] surfaces direct provider auth guidance for missing API keys",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2364] surfaces direct provider auth guidance for missing API keys",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2364",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] falls back to a generic provider message for unsafe missing-key provider ids",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2404] falls back to a generic provider message for unsafe missing-key provider ids",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2404",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] falls back to a generic reauth command when the provider in the OAuth error is unsafe",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2442] falls back to a generic reauth command when the provider in the OAuth error is unsafe",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2442",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] returns a session reset hint for Bedrock tool mismatch errors on external chat channels",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2482] returns a session reset hint for Bedrock tool mismatch errors on external chat channels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2482",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] keeps raw generic errors on internal control surfaces",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2522] keeps raw generic errors on internal control surfaces",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2522",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] restarts the active prompt when a live model switch is requested",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2562] restarts the active prompt when a live model switch is requested",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2562",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] breaks out of the retry loop when LiveSessionModelSwitchError is thrown repeatedly (#58348)",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2627] breaks out of the retry loop when LiveSessionModelSwitchError is thrown repeatedly (#58348)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2627",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] propagates auth profile state on bounded live model switch retries (#58348)",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2683] propagates auth profile state on bounded live model switch retries (#58348)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2683",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not roll back newer override changes after a failed fallback candidate",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2770] does not roll back newer override changes after a failed fallback candidate",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2770",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] drops authProfileId when fallback switches providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2829] drops authProfileId when fallback switches providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2829",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not persist fallback selection for legacy user overrides without modelOverrideSource",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2899] does not persist fallback selection for legacy user overrides without modelOverrideSource",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2899",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] does not persist fallback selection when modelOverrideSource is user",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:2967] does not persist fallback selection when modelOverrideSource is user",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:2967",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts] keeps same-provider auth profile when fallback only changes model",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-execution.test.ts:3033] keeps same-provider auth profile when fallback only changes model",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-execution.test.ts:3033",
                "upstream it() block #54",

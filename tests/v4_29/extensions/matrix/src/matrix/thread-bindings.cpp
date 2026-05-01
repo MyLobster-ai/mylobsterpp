@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] creates child Matrix thread bindings from a top-level room context",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:172] creates child Matrix thread bindings from a top-level room context",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:172",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] posts intro messages inside existing Matrix threads for current placement",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:210] posts intro messages inside existing Matrix threads for current placement",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:210",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] expires idle bindings via the sweeper",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:238] expires idle bindings via the sweeper",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:238",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] persists expired bindings after a sweep",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:283] persists expired bindings after a sweep",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:283",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] logs and survives sweeper persistence failures",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:336] logs and survives sweeper persistence failures",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:336",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] sends threaded farewell messages when bindings are unbound",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:395] sends threaded farewell messages when bindings are unbound",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:395",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] does not reload persisted bindings after the Matrix access token changes while deviceId is unknown",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:438] does not reload persisted bindings after the Matrix access token changes while deviceId is unknown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:438",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] reloads persisted bindings after the Matrix access token changes when deviceId is known",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:482] reloads persisted bindings after the Matrix access token changes when deviceId is known",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:482",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] replaces reused account managers when the bindings stateDir changes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:534] replaces reused account managers when the bindings stateDir changes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:534",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] updates lifecycle windows by session key and refreshes activity",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:576] updates lifecycle windows by session key and refreshes activity",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:576",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] persists the latest touched activity only after the debounce window",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:635] persists the latest touched activity only after the debounce window",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:635",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts] flushes pending touch persistence on stop",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/thread-bindings.test.ts:665] flushes pending touch persistence on stop",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/thread-bindings.test.ts:665",
                "upstream it() block #11",

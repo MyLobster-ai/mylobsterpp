@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.create-event.test.ts] emits sessions.changed with reason create for new agent sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.create-event.test.ts:65] emits sessions.changed with reason create for new agent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.create-event.test.ts:65",
                "upstream it() block #0",

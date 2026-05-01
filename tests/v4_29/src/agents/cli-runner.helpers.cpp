@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] returns empty results when the prompt has no image refs",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:25] returns empty results when the prompt has no image refs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] passes the max-byte guardrail through load and sanitize",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:40] passes the max-byte guardrail through load and sanitize",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] dedupes repeated refs and skips failed loads before sanitizing",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:84] dedupes repeated refs and skips failed loads before sanitizing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] keeps passing model overrides on resumed CLI sessions",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:118] keeps passing model overrides on resumed CLI sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] strips the internal cache boundary from CLI system prompt args",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:132] strips the internal cache boundary from CLI system prompt args",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:132",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] passes Codex system prompts via a model instructions file config override",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:147] passes Codex system prompts via a model instructions file config override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:147",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] passes Claude system prompts through its file flag",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:164] passes Claude system prompts through its file flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] replaces prompt placeholders before falling back to a trailing positional prompt",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:180] replaces prompt placeholders before falling back to a trailing positional prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:180",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] uses stable hashed file paths so repeated image hydration reuses the same path",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:204] uses stable hashed file paths so repeated image hydration reuses the same path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:204",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] uses the shared media extension map for image formats beyond the tiny builtin list",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:237] uses the shared media extension map for image formats beyond the tiny builtin list",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:237",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] hydrates prompt media refs into codex image args through the helper seams",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:261] hydrates prompt media refs into codex image args through the helper seams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:261",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] appends hydrated prompt media refs for stdin backends through the helper seams",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:312] appends hydrated prompt media refs for stdin backends through the helper seams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:312",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] appends Gemini prompt refs with @-prefixed image paths",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:347] appends Gemini prompt refs with @-prefixed image paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:347",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] prefers explicit images over prompt refs through the helper seams",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:398] prefers explicit images over prompt refs through the helper seams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:398",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] writes stripped system prompts to a private temp file",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:454] writes stripped system prompts to a private temp file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:454",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] scopes Claude CLI serialization to the workspace for fresh runs",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:476] scopes Claude CLI serialization to the workspace for fresh runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:476",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] scopes Claude CLI serialization to the resumed CLI session id",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:487] scopes Claude CLI serialization to the resumed CLI session id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:487",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] keeps non-Claude backends on the provider lane when serialized",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:499] keeps non-Claude backends on the provider lane when serialized",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:499",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts] disables serialization when serialize=false",
+TEST_CASE("v4.29 [src/agents/cli-runner.helpers.test.ts:511] disables serialization when serialize=false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.helpers.test.ts:511",
                "upstream it() block #18",

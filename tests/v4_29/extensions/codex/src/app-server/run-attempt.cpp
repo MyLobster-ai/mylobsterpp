@@ -5,285 +5,285 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] returns a failed dynamic tool response when an app-server tool call exceeds the deadline",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:337] returns a failed dynamic tool response when an app-server tool call exceeds the deadline",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:337",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] releases the session when Codex never completes after a dynamic tool response",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:373] releases the session when Codex never completes after a dynamic tool response",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:373",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] releases the session when Codex accepts a turn but never sends progress",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:446] releases the session when Codex accepts a turn but never sends progress",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:446",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] applies before_prompt_build to Codex developer instructions and turn input",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:473] applies before_prompt_build to Codex developer instructions and turn input",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:473",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] fires llm_input, llm_output, and agent_end hooks for codex turns",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:523] fires llm_input, llm_output, and agent_end hooks for codex turns",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:523",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] forwards Codex app-server verbose tool summaries and completed output",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:666] forwards Codex app-server verbose tool summaries and completed output",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:666",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] registers native hook relay config for an enabled Codex turn and cleans it up",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:725] registers native hook relay config for an enabled Codex turn and cleans it up",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:725",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] reuses the Codex native hook relay id across runs for the same session",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:765] reuses the Codex native hook relay id across runs for the same session",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:765",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] builds deterministic opaque Codex native hook relay ids",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:818] builds deterministic opaque Codex native hook relay ids",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:818",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] sends clearing Codex native hook config when the relay is disabled",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:830] sends clearing Codex native hook config when the relay is disabled",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:830",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] cleans up native hook relay state when turn/start fails",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:856] cleans up native hook relay state when turn/start fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:856",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] cleans up native hook relay state when the Codex turn aborts",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:877] cleans up native hook relay state when the Codex turn aborts",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:877",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] fires agent_end with failure metadata when the codex turn fails",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:896] fires agent_end with failure metadata when the codex turn fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:896",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] fires llm_output and agent_end when turn/start fails",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:958] fires llm_output and agent_end when turn/start fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:958",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] fires agent_end with success false when the codex turn is aborted",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1013] fires agent_end with success false when the codex turn is aborted",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1013",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] forwards queued user input and aborts the active app-server turn",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1037] forwards queued user input and aborts the active app-server turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1037",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] batches default queued steering before sending turn/steer",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1086] batches default queued steering before sending turn/steer",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1086",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] flushes pending default queued steering during normal turn cleanup",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1119] flushes pending default queued steering during normal turn cleanup",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1119",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] keeps legacy queue steering as separate turn/steer requests",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1144] keeps legacy queue steering as separate turn/steer requests",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1144",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] routes MCP approval elicitations through the native bridge",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1186] routes MCP approval elicitations through the native bridge",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1186",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] routes request_user_input prompts through the active run follow-up queue",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1267] routes request_user_input prompts through the active run follow-up queue",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1267",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] does not leak unhandled rejections when shutdown closes before interrupt",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1358] does not leak unhandled rejections when shutdown closes before interrupt",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1358",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] forwards image attachments to the app-server turn input",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1389] forwards image attachments to the app-server turn input",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1389",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] does not drop turn completion notifications emitted while turn/start is in flight",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1424] does not drop turn completion notifications emitted while turn/start is in flight",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1424",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] completes when turn/start returns a terminal turn without a follow-up notification",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1447] completes when turn/start returns a terminal turn without a follow-up notification",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1447",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] does not complete on unscoped turn/completed notifications",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1476] does not complete on unscoped turn/completed notifications",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1476",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] releases completion when a projector callback throws during turn/completed",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1519] releases completion when a projector callback throws during turn/completed",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1519",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] routes MCP approval elicitations through the native bridge",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1573] routes MCP approval elicitations through the native bridge",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1573",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] times out app-server startup before thread setup can hang forever",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1654] times out app-server startup before thread setup can hang forever",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1654",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] passes the selected auth profile into app-server startup",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1668] passes the selected auth profile into app-server startup",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1668",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] times out turn start before the active run handle is installed",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1698] times out turn start before the active run handle is installed",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1698",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] keeps extended history enabled when resuming a bound Codex thread",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1730] keeps extended history enabled when resuming a bound Codex thread",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1730",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] resumes a bound Codex thread when only dynamic tool descriptions change",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1752] resumes a bound Codex thread when only dynamic tool descriptions change",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1752",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] passes native hook relay config on thread start and resume",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1790] passes native hook relay config on thread start and resume",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1790",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] starts a new Codex thread when dynamic tool schemas change",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1842] starts a new Codex thread when dynamic tool schemas change",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1842",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] passes configured app-server policy, sandbox, service tier, and model on resume",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1874] passes configured app-server policy, sandbox, service tier, and model on resume",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1874",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] drops invalid legacy service tiers before app-server resume and turn requests",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1920] drops invalid legacy service tiers before app-server resume and turn requests",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1920",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] builds resume and turn params from the currently selected OpenClaw model",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1949] builds resume and turn params from the currently selected OpenClaw model",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1949",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] preserves the bound auth profile when resume params omit authProfileId",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:1990] preserves the bound auth profile when resume params omit authProfileId",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:1990",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts] reuses the bound auth profile for app-server startup when params omit it",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.test.ts:2029] reuses the bound auth profile for app-server startup when params omit it",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.test.ts:2029",
                "upstream it() block #39",

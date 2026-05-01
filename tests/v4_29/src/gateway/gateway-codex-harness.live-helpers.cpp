@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the current codex status prose from the live harness",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:10] accepts the current codex status prose from the live harness",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts current status prose that reports session context without the session id",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:20] accepts current status prose that reports session context without the session id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts current status prose that reports healthy session context without the session id",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:30] accepts current status prose that reports healthy session context without the session id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts current app-server status prose without the OpenClaw prefix",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:40] accepts current app-server status prose without the OpenClaw prefix",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts current app-server status prose with session-is wording",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:50] accepts current app-server status prose with session-is wording",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:50",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts compact session status prose emitted by current codex",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:57] accepts compact session status prose emitted by current codex",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:57",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the current status card emitted by OpenAI Codex",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:64] accepts the current status card emitted by OpenAI Codex",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:64",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] rejects status prose for a different codex session",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:81] rejects status prose for a different codex session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:81",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the interactive model-selection summary emitted by current codex",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:88] accepts the interactive model-selection summary emitted by current codex",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:88",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the configured-model fallback summary",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:105] accepts the configured-model fallback summary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:105",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the agent-id summary with active Codex model",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:115] accepts the agent-id summary with active Codex model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:115",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the current Codex agent model list from the live harness",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:133] accepts the current Codex agent model list from the live harness",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:133",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts sandbox namespace failures with current-session model fallback",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:150] accepts sandbox namespace failures with current-session model fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:150",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts missing codex CLI fallback output",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:160] accepts missing codex CLI fallback output",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:160",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts current session model summaries from codex models fallback",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:194] accepts current session model summaries from codex models fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:194",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the app-server model override list",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:205] accepts the app-server model override list",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:205",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts missing codex shell PATH fallback with current-session model",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:234] accepts missing codex shell PATH fallback with current-session model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:234",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts sandbox escalation rejection for codex models",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:253] accepts sandbox escalation rejection for codex models",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:253",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the interactive TUI current-model summary",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:272] accepts the interactive TUI current-model summary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:272",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the local Codex model-cache summary",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:288] accepts the local Codex model-cache summary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:288",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] accepts the sandboxed CLI failure active-model summary",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:305] accepts the sandboxed CLI failure active-model summary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:305",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] rejects unrelated codex command output",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:318] rejects unrelated codex command output",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:318",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts] rejects generic current-status output that is not a model listing",
+TEST_CASE("v4.29 [src/gateway/gateway-codex-harness.live-helpers.test.ts:322] rejects generic current-status output that is not a model listing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-codex-harness.live-helpers.test.ts:322",
                "upstream it() block #22",

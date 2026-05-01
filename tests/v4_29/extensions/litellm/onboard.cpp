@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/litellm/onboard.test.ts] preserves existing baseUrl and api key while adding the default model",
+TEST_CASE("v4.29 [extensions/litellm/onboard.test.ts:6] preserves existing baseUrl and api key while adding the default model",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/onboard.test.ts:6",
                "upstream it() block #0",

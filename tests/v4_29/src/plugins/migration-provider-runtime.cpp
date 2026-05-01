@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/migration-provider-runtime.test.ts] loads configured external migration-provider plugins from manifest contracts",
+TEST_CASE("v4.29 [src/plugins/migration-provider-runtime.test.ts:89] loads configured external migration-provider plugins from manifest contracts",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/migration-provider-runtime.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/migration-provider-runtime.test.ts] derives a fresh manifest registry so newly bundled migration providers are discoverable",
+TEST_CASE("v4.29 [src/plugins/migration-provider-runtime.test.ts:169] derives a fresh manifest registry so newly bundled migration providers are discoverable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/migration-provider-runtime.test.ts:169",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/migration-provider-runtime.test.ts] lists configured external migration providers alongside active providers",
+TEST_CASE("v4.29 [src/plugins/migration-provider-runtime.test.ts:224] lists configured external migration providers alongside active providers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/migration-provider-runtime.test.ts:224",
                "upstream it() block #2",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts] queues session refreshes and applies the latest result",
+TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts:59] queues session refreshes and applies the latest result",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-session-actions.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts] keeps patched model selection when a refresh returns an older snapshot",
+TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts:141] keeps patched model selection when a refresh returns an older snapshot",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-session-actions.test.ts:141",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts] accepts older session snapshots after switching session keys",
+TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts:192] accepts older session snapshots after switching session keys",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-session-actions.test.ts:192",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts] applies default model info when the current session has no persisted entry yet",
+TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts:247] applies default model info when the current session has no persisted entry yet",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-session-actions.test.ts:247",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts] resets activity status to idle when switching sessions after streaming",
+TEST_CASE("v4.29 [src/tui/tui-session-actions.test.ts:306] resets activity status to idle when switching sessions after streaming",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-session-actions.test.ts:306",
                "upstream it() block #4",

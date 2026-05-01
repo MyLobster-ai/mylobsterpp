@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/api.test.ts] formats rate limit payloads without raw JSON",
+TEST_CASE("v4.29 [extensions/discord/src/api.test.ts:11] formats rate limit payloads without raw JSON",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/api.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/api.test.ts] preserves non-JSON error text",
+TEST_CASE("v4.29 [extensions/discord/src/api.test.ts:40] preserves non-JSON error text",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/api.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/api.test.ts] sanitizes Cloudflare HTML rate limits and applies a fallback cooldown",
+TEST_CASE("v4.29 [extensions/discord/src/api.test.ts:49] sanitizes Cloudflare HTML rate limits and applies a fallback cooldown",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/api.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/api.test.ts] honors Retry-After for Cloudflare HTML application lookup rate limits",
+TEST_CASE("v4.29 [extensions/discord/src/api.test.ts:77] honors Retry-After for Cloudflare HTML application lookup rate limits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/api.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/api.test.ts] retries rate limits before succeeding",
+TEST_CASE("v4.29 [extensions/discord/src/api.test.ts:103] retries rate limits before succeeding",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/api.test.ts:103",
                "upstream it() block #4",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts] respects case-insensitive x-goog-api-key overrides",
+TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts:13] respects case-insensitive x-goog-api-key overrides",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/media-understanding-provider.video.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts] keeps private-network disabled for the default Google media endpoint",
+TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts:39] keeps private-network disabled for the default Google media endpoint",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/media-understanding-provider.video.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts] builds the expected request payload",
+TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts:66] builds the expected request payload",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/media-understanding-provider.video.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts] rejects non-Google video base URLs before sending authenticated requests",
+TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts:116] rejects non-Google video base URLs before sending authenticated requests",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/media-understanding-provider.video.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts] formats Google audio transcription HTTP errors with provider details",
+TEST_CASE("v4.29 [extensions/google/media-understanding-provider.video.test.ts:133] formats Google audio transcription HTTP errors with provider details",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/media-understanding-provider.video.test.ts:133",
                "upstream it() block #4",

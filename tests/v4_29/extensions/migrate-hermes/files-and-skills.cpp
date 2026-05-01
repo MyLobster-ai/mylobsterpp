@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts] reports normalized skill-name collisions instead of overwriting during apply",
+TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts:34] reports normalized skill-name collisions instead of overwriting during apply",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/files-and-skills.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts] reports late-created copy targets as conflicts without overwriting",
+TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts:74] reports late-created copy targets as conflicts without overwriting",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/files-and-skills.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts] applies files, appended memories, item backups, reports, and opt-in API keys",
+TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts:102] applies files, appended memories, item backups, reports, and opt-in API keys",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/files-and-skills.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts] archives unsupported Hermes state into the report without importing it",
+TEST_CASE("v4.29 [extensions/migrate-hermes/files-and-skills.test.ts:154] archives unsupported Hermes state into the report without importing it",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/files-and-skills.test.ts:154",
                "upstream it() block #3",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/native-command-session-targets.test.ts] uses the bound session for both targets when present",
+TEST_CASE("v4.29 [src/channels/native-command-session-targets.test.ts:5] uses the bound session for both targets when present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/native-command-session-targets.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/native-command-session-targets.test.ts] falls back to the routed session target when unbound",
+TEST_CASE("v4.29 [src/channels/native-command-session-targets.test.ts:20] falls back to the routed session target when unbound",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/native-command-session-targets.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/native-command-session-targets.test.ts] supports lowercase session keys for providers that already normalize",
+TEST_CASE("v4.29 [src/channels/native-command-session-targets.test.ts:34] supports lowercase session keys for providers that already normalize",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/native-command-session-targets.test.ts:34",
                "upstream it() block #2",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.watch-subscribe-retry.test.ts] retries a transient watch.subscribe startup timeout without tearing down the monitor",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.watch-subscribe-retry.test.ts:74] retries a transient watch.subscribe startup timeout without tearing down the monitor",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.watch-subscribe-retry.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor.watch-subscribe-retry.test.ts] still fails after bounded startup retries are exhausted",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor.watch-subscribe-retry.test.ts:107] still fails after bounded startup retries are exhausted",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor.watch-subscribe-retry.test.ts:107",
                "upstream it() block #1",

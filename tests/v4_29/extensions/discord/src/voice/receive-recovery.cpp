@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/receive-recovery.test.ts] treats passthrough-disabled decrypt errors as decrypt failures",
+TEST_CASE("v4.29 [extensions/discord/src/voice/receive-recovery.test.ts:10] treats passthrough-disabled decrypt errors as decrypt failures",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/receive-recovery.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/receive-recovery.test.ts] gates recovery after repeated decrypt failures in the same window",
+TEST_CASE("v4.29 [extensions/discord/src/voice/receive-recovery.test.ts:21] gates recovery after repeated decrypt failures in the same window",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/receive-recovery.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/receive-recovery.test.ts] enables passthrough only for ready DAVE sessions",
+TEST_CASE("v4.29 [extensions/discord/src/voice/receive-recovery.test.ts:38] enables passthrough only for ready DAVE sessions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/receive-recovery.test.ts:38",
                "upstream it() block #2",

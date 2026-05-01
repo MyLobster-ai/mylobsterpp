@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts] splits oversized chunks so each embedding input stays <= maxInputTokens bytes",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:29] splits oversized chunks so each embedding input stays <= maxInputTokens bytes",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts] does not split inside surrogate pairs (emoji)",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:48] does not split inside surrogate pairs (emoji)",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts] uses conservative fallback limits for local providers without declared maxInputTokens",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:65] uses conservative fallback limits for local providers without declared maxInputTokens",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts] honors hard safety caps lower than provider maxInputTokens",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:84] honors hard safety caps lower than provider maxInputTokens",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/embedding-chunk-limits.test.ts:84",
                "upstream it() block #3",

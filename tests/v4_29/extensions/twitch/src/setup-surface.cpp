@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should return existing token when user confirms to keep it",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:62] should return existing token when user confirms to keep it",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should validate token format",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:75] should validate token format",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should prompt for username with validation",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:110] should prompt for username with validation",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should prompt for client ID with validation",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:125] should prompt for client ID with validation",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should require a non-empty channel name",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:140] should require a non-empty channel name",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should return empty object when user declines",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:153] should return empty object when user declines",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should prompt for credentials when user accepts",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:165] should prompt for credentials when user accepts",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:165",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] should prompt for username and clientId when using env token",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:183] should prompt for username and clientId when using env token",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:183",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] skips env-token shortcut for non-default accounts",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:211] skips env-token shortcut for non-default accounts",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:211",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] reports status for the configured default account",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:240] reports status for the configured default account",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:240",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] reports status for the requested account override",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:262] reports status for the requested account override",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:262",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] reports env-token default account setup as configured",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:291] reports env-token default account setup as configured",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:291",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] rejects reserved account ids before using them as config keys",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:330] rejects reserved account ids before using them as config keys",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:330",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] rejects reserved account ids before env-token writes",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:347] rejects reserved account ids before env-token writes",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:347",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] normalizes account ids before rendering status lines",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:363] normalizes account ids before rendering status lines",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:363",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] reports account-scoped DM policy config keys",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:373] reports account-scoped DM policy config keys",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:373",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] writes to the requested account when defaultAccount is not created yet",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:398] writes to the requested account when defaultAccount is not created yet",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:398",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] persists a token instead of using env-token shortcut for non-default finalize",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:429] persists a token instead of using env-token shortcut for non-default finalize",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:429",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] lists all configured Twitch accounts",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:458] lists all configured Twitch accounts",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:458",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts] normalizes exposed account ids",
+TEST_CASE("v4.29 [extensions/twitch/src/setup-surface.test.ts:485] normalizes exposed account ids",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/setup-surface.test.ts:485",
                "upstream it() block #19",

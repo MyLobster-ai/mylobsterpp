@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/entry.test.ts] prefers precomputed root help text when available",
+TEST_CASE("v4.29 [src/entry.test.ts:5] prefers precomputed root help text when available",
           "[v4_29][parity_gap][entry.test.ts]") {
     PARITY_GAP("src/entry.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.test.ts] renders root help without importing the full program",
+TEST_CASE("v4.29 [src/entry.test.ts:20] renders root help without importing the full program",
           "[v4_29][parity_gap][entry.test.ts]") {
     PARITY_GAP("src/entry.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.test.ts] ignores non-root help invocations",
+TEST_CASE("v4.29 [src/entry.test.ts:34] ignores non-root help invocations",
           "[v4_29][parity_gap][entry.test.ts]") {
     PARITY_GAP("src/entry.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/entry.test.ts] skips the host help fast path when a container target is active",
+TEST_CASE("v4.29 [src/entry.test.ts:48] skips the host help fast path when a container target is active",
           "[v4_29][parity_gap][entry.test.ts]") {
     PARITY_GAP("src/entry.test.ts:48",
                "upstream it() block #3",

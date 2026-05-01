@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts] only special-cases Claude-like retry prompts",
+TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts:11] only special-cases Claude-like retry prompts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/live-agent-probes.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts] accepts only cat for the shared image probe reply",
+TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts:20] accepts only cat for the shared image probe reply",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/live-agent-probes.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts] builds a retryable cron prompt with provider-specific fallback wording",
+TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts:31] builds a retryable cron prompt with provider-specific fallback wording",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/live-agent-probes.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts] validates cron cli job shape for the shared live probe",
+TEST_CASE("v4.29 [src/gateway/live-agent-probes.test.ts:71] validates cron cli job shape for the shared live probe",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/live-agent-probes.test.ts:71",
                "upstream it() block #3",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] emits started and completed events for async streams",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:48] emits started and completed events for async streams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] counts async onPayload replacements instead of raw payload content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:123] counts async onPayload replacements instead of raw payload content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] propagates the trusted model-call traceparent without mutating caller headers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:164] propagates the trusted model-call traceparent without mutating caller headers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:164",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] emits error events when stream iteration fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:218] emits error events when stream iteration fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:218",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] adds failure kind and memory diagnostics for terminated model calls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:257] adds failure kind and memory diagnostics for terminated model calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:257",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] does not mutate non-configurable provider streams",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:300] does not mutate non-configurable provider streams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:300",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] fires frozen sanitized model-call plugin hooks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:336] fires frozen sanitized model-call plugin hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:336",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts] emits completed events when stream consumption stops early",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:411] emits completed events when stream consumption stops early",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.model-diagnostic-events.test.ts:411",
                "upstream it() block #7",

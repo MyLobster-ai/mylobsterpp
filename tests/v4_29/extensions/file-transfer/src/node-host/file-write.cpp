@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] rejects empty / non-string path",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:24] rejects empty / non-string path",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] rejects relative paths",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:31] rejects relative paths",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] rejects paths with NUL bytes",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:36] rejects paths with NUL bytes",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] requires contentBase64 but allows an empty encoded payload",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:41] requires contentBase64 but allows an empty encoded payload",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] writes a new file and returns size + sha256 + overwritten=false",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:57] writes a new file and returns size + sha256 + overwritten=false",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] does not leave .tmp files behind on success",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:73] does not leave .tmp files behind on success",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] refuses to overwrite an existing file when overwrite=false",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:85] refuses to overwrite an existing file when overwrite=false",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:85",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] overwrites and reports overwritten=true when overwrite=true",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:98] overwrites and reports overwritten=true when overwrite=true",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:98",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] returns PARENT_NOT_FOUND when parent is missing and createParents=false",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:116] returns PARENT_NOT_FOUND when parent is missing and createParents=false",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:116",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] creates missing parents when createParents=true",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:126] creates missing parents when createParents=true",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:126",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] refuses to write through an existing symlink (lstat)",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:139] refuses to write through an existing symlink (lstat)",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:139",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] refuses to write through a symlink in a parent directory by default",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:155] refuses to write through a symlink in a parent directory by default",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:155",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] checks symlinked parents before recursive mkdir",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:184] checks symlinked parents before recursive mkdir",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:184",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] follows the parent symlink when followSymlinks=true",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:203] follows the parent symlink when followSymlinks=true",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:203",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] preflights canonical write targets without creating files or parents",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:219] preflights canonical write targets without creating files or parents",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:219",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] refuses to overwrite a directory",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:243] refuses to overwrite a directory",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:243",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] returns INTEGRITY_FAILURE before writing when expectedSha256 mismatches",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:257] returns INTEGRITY_FAILURE before writing when expectedSha256 mismatches",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:257",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] does NOT replace or delete an existing file when overwrite=true and expectedSha256 mismatches",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:269] does NOT replace or delete an existing file when overwrite=true and expectedSha256 mismatches",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:269",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] accepts a matching expectedSha256 and keeps the file",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:285] accepts a matching expectedSha256 and keeps the file",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:285",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] treats expectedSha256 as case-insensitive",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:299] treats expectedSha256 as case-insensitive",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:299",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] rejects malformed base64 that silently drops characters",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:314] rejects malformed base64 that silently drops characters",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:314",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] accepts standard base64 with and without padding",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:326] accepts standard base64 with and without padding",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:326",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] accepts base64url variant (-_ instead of +/)",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:337] accepts base64url variant (-_ instead of +/)",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:337",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts] rejects content larger than the 16MB cap",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/file-write.test.ts:346] rejects content larger than the 16MB cap",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/file-write.test.ts:346",
                "upstream it() block #23",

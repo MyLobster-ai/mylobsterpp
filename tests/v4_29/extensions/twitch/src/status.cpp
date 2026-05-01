@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect unconfigured accounts",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:37] should detect unconfigured accounts",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect disabled accounts",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:47] should detect disabled accounts",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect missing clientId when account configured (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:61] should detect missing clientId when account configured (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should warn about oauth: prefix in token (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:79] should warn about oauth: prefix in token (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect clientSecret without refreshToken (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:97] should detect clientSecret without refreshToken (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect empty allowFrom array (simplified config)",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:117] should detect empty allowFrom array (simplified config)",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect allowedRoles ",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:136] should detect allowedRoles ",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:136",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect runtime errors",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:156] should detect runtime errors",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect accounts that never connected",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:171] should detect accounts that never connected",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:171",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should detect long-running connections",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:190] should detect long-running connections",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:190",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should handle empty snapshots array",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:210] should handle empty snapshots array",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:210",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts] should skip non-Twitch accounts gracefully",
+TEST_CASE("v4.29 [extensions/twitch/src/status.test.ts:216] should skip non-Twitch accounts gracefully",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/status.test.ts:216",
                "upstream it() block #11",

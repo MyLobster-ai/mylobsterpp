@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/redact-snapshot.raw.test.ts] ignores empty string replacement tokens",
+TEST_CASE("v4.29 [src/config/redact-snapshot.raw.test.ts:6] ignores empty string replacement tokens",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/redact-snapshot.raw.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/redact-snapshot.raw.test.ts] redacts non-empty values while preserving blank strings",
+TEST_CASE("v4.29 [src/config/redact-snapshot.raw.test.ts:18] redacts non-empty values while preserving blank strings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/redact-snapshot.raw.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/redact-snapshot.raw.test.ts] replaces longest values first for overlapping matches",
+TEST_CASE("v4.29 [src/config/redact-snapshot.raw.test.ts:33] replaces longest values first for overlapping matches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/redact-snapshot.raw.test.ts:33",
                "upstream it() block #2",

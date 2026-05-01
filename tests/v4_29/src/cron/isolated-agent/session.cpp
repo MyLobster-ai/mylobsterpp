@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] preserves modelOverride and providerOverride from existing session entry",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:66] preserves modelOverride and providerOverride from existing session entry",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:66",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] handles missing modelOverride gracefully",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:86] handles missing modelOverride gracefully",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] handles no existing session entry",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:100] handles no existing session entry",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] reuses existing sessionId when session is fresh",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:113] reuses existing sessionId when session is fresh",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] creates new sessionId when session is stale",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:133] creates new sessionId when session is stale",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] creates new sessionId when forceNew is true",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:156] creates new sessionId when forceNew is true",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] clears stale sessionFile when forceNew rolls to a fresh session",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:178] clears stale sessionFile when forceNew rolls to a fresh session",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:178",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] clears delivery routing metadata and deliveryContext when forceNew is true",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:196] clears delivery routing metadata and deliveryContext when forceNew is true",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:196",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] clears stale run-scoped state when forceNew rolls to a fresh session",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:230] clears stale run-scoped state when forceNew rolls to a fresh session",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:230",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] preserves user-selected model and auth overrides for fresh cron sessions",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:383] preserves user-selected model and auth overrides for fresh cron sessions",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:383",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] preserves ambient session context for non-isolated expiration rollovers",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:408] preserves ambient session context for non-isolated expiration rollovers",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:408",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] clears delivery routing metadata when session is stale",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:430] clears delivery routing metadata when session is stale",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:430",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] preserves delivery routing metadata when reusing fresh session",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:455] preserves delivery routing metadata when reusing fresh session",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:455",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts] creates new sessionId when entry exists but has no sessionId",
+TEST_CASE("v4.29 [src/cron/isolated-agent/session.test.ts:484] creates new sessionId when entry exists but has no sessionId",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/session.test.ts:484",
                "upstream it() block #13",

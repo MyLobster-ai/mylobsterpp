@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts] should run exec synchronously when process is denied",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts:42] should run exec synchronously when process is denied",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.exec.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts] routes implicit auto exec to gateway without a sandbox runtime",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts:72] routes implicit auto exec to gateway without a sandbox runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.exec.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts] fails closed when exec host=sandbox is requested without sandbox runtime",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts:96] fails closed when exec host=sandbox is requested without sandbox runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.exec.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts] should apply agent-specific exec host defaults over global defaults",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts:113] should apply agent-specific exec host defaults over global defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.exec.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts] applies explicit agentId exec defaults when sessionKey is opaque",
+TEST_CASE("v4.29 [src/agents/pi-tools-agent-config.exec.test.ts:163] applies explicit agentId exec defaults when sessionKey is opaque",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools-agent-config.exec.test.ts:163",
                "upstream it() block #4",

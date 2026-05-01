@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] uses configured base path and normalizes trailing slash",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:123] uses configured base path and normalizes trailing slash",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:123",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] infers base path from nested pathname when configured base path is not set",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:134] infers base path from nested pathname when configured base path is not set",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] skips node sessionStorage accessors that warn without a storage file",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:144] skips node sessionStorage accessors that warn without a storage file",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] ignores and scrubs legacy persisted tokens",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:167] ignores and scrubs legacy persisted tokens",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:167",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] loads the current-tab token from sessionStorage",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:211] loads the current-tab token from sessionStorage",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:211",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] does not reuse a session token for a different gatewayUrl",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:242] does not reuse a session token for a different gatewayUrl",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:242",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] does not persist gateway tokens when saving settings",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:291] does not persist gateway tokens when saving settings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:291",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] clears the current-tab token when saving an empty token",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:343] clears the current-tab token when saving an empty token",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:343",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] persists themeMode and navWidth alongside the selected theme",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:388] persists themeMode and navWidth alongside the selected theme",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:388",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] persists the browser-local custom theme payload when present",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:421] persists the browser-local custom theme payload when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:421",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] falls back to claw when persisted custom theme data is invalid",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:457] falls back to claw when persisted custom theme data is invalid",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:457",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] scopes persisted session selection per gateway",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:502] scopes persisted session selection per gateway",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:502",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] caps persisted session scopes to the most recent gateways",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:534] caps persisted session scopes to the most recent gateways",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:534",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] persists local user identity separately from gateway settings",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:589] persists local user identity separately from gateway settings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:589",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] normalizes invalid local user identity values on load",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:608] normalizes invalid local user identity values on load",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:608",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts] removes the persisted local user identity when cleared",
+TEST_CASE("v4.29 [ui/src/ui/storage.node.test.ts:623] removes the persisted local user identity when cleared",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/storage.node.test.ts:623",
                "upstream it() block #15",

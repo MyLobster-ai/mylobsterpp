@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] recovers entries from a simulated crash",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:51] recovers entries from a simulated crash",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] moves entries that exceeded max retries to failed/",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:67] moves entries that exceeded max retries to failed/",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] increments retryCount on failed recovery attempt",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:83] increments retryCount on failed recovery attempt",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] moves entries to failed/ immediately on permanent delivery errors",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:101] moves entries to failed/ immediately on permanent delivery errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] treats Matrix ",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:119] treats Matrix ",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] passes skipQueue: true to prevent re-enqueueing during recovery",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:141] passes skipQueue: true to prevent re-enqueueing during recovery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:141",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] replays stored delivery options during recovery",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:153] replays stored delivery options during recovery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:153",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] respects maxRecoveryMs time budget and bumps deferred retries",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:224] respects maxRecoveryMs time budget and bumps deferred retries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:224",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] defers entries until backoff becomes eligible",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:251] defers entries until backoff becomes eligible",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:251",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] continues past high-backoff entries and recovers ready entries behind them",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:275] continues past high-backoff entries and recovers ready entries behind them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:275",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] recovers deferred entries on a later restart once backoff elapsed",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:312] recovers deferred entries on a later restart once backoff elapsed",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:312",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts] returns zeros when queue is empty",
+TEST_CASE("v4.29 [src/infra/outbound/delivery-queue.recovery.test.ts:348] returns zeros when queue is empty",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/delivery-queue.recovery.test.ts:348",
                "upstream it() block #11",

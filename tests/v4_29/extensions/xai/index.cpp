@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] registers xAI speech providers for batch and streaming STT",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:55] registers xAI speech providers for batch and streaming STT",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] declares setup auto-enable reasons for plugin-owned tool config",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:82] declares setup auto-enable reasons for plugin-owned tool config",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] owns replay policy for xAI OpenAI-compatible transports",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:102] owns replay policy for xAI OpenAI-compatible transports",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] wires provider stream shaping for fast mode and tool-stream defaults",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:134] wires provider stream shaping for fast mode and tool-stream defaults",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] defaults tool_stream extra params but preserves explicit values",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:149] defaults tool_stream extra params but preserves explicit values",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] owns forward-compatible Grok model resolution",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:173] owns forward-compatible Grok model resolution",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:173",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] marks modern Grok refs without accepting multi-agent ids",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:196] marks modern Grok refs without accepting multi-agent ids",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:196",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/index.test.ts] owns xai compat flags for direct and downstream routed models",
+TEST_CASE("v4.29 [extensions/xai/index.test.ts:213] owns xai compat flags for direct and downstream routed models",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/index.test.ts:213",
                "upstream it() block #7",

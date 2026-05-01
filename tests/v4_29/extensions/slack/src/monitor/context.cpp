@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/context.test.ts] drops mismatched top-level app/team identifiers",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/context.test.ts:54] drops mismatched top-level app/team identifiers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/context.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/context.test.ts] drops mismatched nested team.id payloads used by interaction bodies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/context.test.ts:70] drops mismatched nested team.id payloads used by interaction bodies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/context.test.ts:70",
                "upstream it() block #1",

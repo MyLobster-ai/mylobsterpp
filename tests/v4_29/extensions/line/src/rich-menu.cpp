@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] creates message actions with explicit or default text",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:29] creates message actions with explicit or default text",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] creates a URI action",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:46] creates a URI action",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] creates a postback action",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:73] creates a postback action",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] applies postback payload truncation and displayText behavior",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:82] applies postback payload truncation and displayText behavior",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] creates picker actions for all supported modes",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:95] creates picker actions for all supported modes",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] includes initial/min/max when provided",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:110] includes initial/min/max when provided",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:110",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] computes expected 2x3 layout for supported menu heights",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:142] computes expected 2x3 layout for supported menu heights",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:142",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] assigns correct actions to areas",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:160] assigns correct actions to areas",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:160",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] creates a valid default menu configuration",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:189] creates a valid default menu configuration",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:189",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] has valid area bounds",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:200] has valid area bounds",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:200",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] uses message actions with expected default commands",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:213] uses message actions with expected default commands",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:213",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] loads local image paths through approved media localRoots",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:248] loads local image paths through approved media localRoots",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:248",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] rejects local image paths outside approved media localRoots before uploading",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:273] rejects local image paths outside approved media localRoots before uploading",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:273",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts] preserves extension-based content-type fallback for approved local paths",
+TEST_CASE("v4.29 [extensions/line/src/rich-menu.test.ts:291] preserves extension-based content-type fallback for approved local paths",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/rich-menu.test.ts:291",
                "upstream it() block #13",

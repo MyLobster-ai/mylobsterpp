@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] treats local comfy workflows as configured without an API key",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:33] treats local comfy workflows as configured without an API key",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] falls back to legacy models.providers comfy config when plugin config is absent",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:47] falls back to legacy models.providers comfy config when plugin config is absent",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] treats cloud comfy workflows as configured with a plugin config API key",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:61] treats cloud comfy workflows as configured with a plugin config API key",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] treats cloud comfy workflows as configured with a plugin config env SecretRef",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:79] treats cloud comfy workflows as configured with a plugin config env SecretRef",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] submits a local workflow, waits for history, and downloads images",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:98] submits a local workflow, waits for history, and downloads images",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] uploads reference images for local edit workflows",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:196] uploads reference images for local edit workflows",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:196",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] uses cloud endpoints, auth headers, and partner-node extra_data",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:281] uses cloud endpoints, auth headers, and partner-node extra_data",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:281",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] uses plugin config env SecretRef auth for cloud workflows",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:358] uses plugin config env SecretRef auth for cloud workflows",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:358",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts] uses provider auth fallback for cloud workflows without plugin config API keys",
+TEST_CASE("v4.29 [extensions/comfy/image-generation-provider.test.ts:397] uses provider auth fallback for cloud workflows without plugin config API keys",
           "[v4_29][parity_gap][comfy]") {
     PARITY_GAP("extensions/comfy/image-generation-provider.test.ts:397",
                "upstream it() block #8",

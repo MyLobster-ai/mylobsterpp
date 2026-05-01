@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts] formats reset windows across now/minute/hour/day/date buckets",
+TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts:27] formats reset windows across now/minute/hour/day/date buckets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.format.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts] honors max windows and reset toggle",
+TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts:46] honors max windows and reset toggle",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.format.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts] treats non-positive max windows as all windows and clamps overused percentages",
+TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts:59] treats non-positive max windows as all windows and clamps overused percentages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.format.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts] formats summary line from highest-usage window and provider cap",
+TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts:71] formats summary line from highest-usage window and provider cap",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.format.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts] returns null summary line when providers are errored or have no windows",
+TEST_CASE("v4.29 [src/infra/provider-usage.format.test.ts:96] returns null summary line when providers are errored or have no windows",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.format.test.ts:96",
                "upstream it() block #4",

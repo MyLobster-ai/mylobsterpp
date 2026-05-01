@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] reports why all mode keeps context",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:9] reports why all mode keeps context",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] reports quote override decisions",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:22] reports quote override decisions",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] keeps all context in all mode",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:37] keeps all context in all mode",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] enforces allowlist mode for non-allowlisted senders",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:47] enforces allowlist mode for non-allowlisted senders",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] keeps explicit quotes in allowlist_quote mode",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:57] keeps explicit quotes in allowlist_quote mode",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] still drops non-quote context in allowlist_quote mode",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:67] still drops non-quote context in allowlist_quote mode",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/context-visibility.test.ts] filters blocked items and reports omission count",
+TEST_CASE("v4.29 [src/security/context-visibility.test.ts:79] filters blocked items and reports omission count",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/context-visibility.test.ts:79",
                "upstream it() block #6",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts] returns baseUrl missing for empty base URL",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts:27] returns baseUrl missing for empty base URL",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/probe.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts] normalizes base URL and returns bot info",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts:35] normalizes base URL and returns bot info",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/probe.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts] forwards allowPrivateNetwork to the SSRF guard policy",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts:65] forwards allowPrivateNetwork to the SSRF guard policy",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/probe.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts] returns API error details from JSON response",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts:83] returns API error details from JSON response",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/probe.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts] falls back to statusText when error body is empty",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts:103] falls back to statusText when error body is empty",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/probe.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts] returns fetch error when request throws",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/probe.test.ts:123] returns fetch error when request throws",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/probe.test.ts:123",
                "upstream it() block #5",

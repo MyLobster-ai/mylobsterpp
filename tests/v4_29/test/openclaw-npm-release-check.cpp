@@ -5,362 +5,362 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] parses stable CalVer releases",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:35] parses stable CalVer releases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] parses beta CalVer releases",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:46] parses beta CalVer releases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] parses stable correction releases",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:58] parses stable correction releases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects legacy and malformed release formats",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:70] rejects legacy and malformed release formats",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] accepts correction release tags",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:80] accepts correction release tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects beta correction tags and malformed correction tags",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:90] rejects beta correction tags and malformed correction tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] publishes beta prereleases to beta only",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:97] publishes beta prereleases to beta only",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:97",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] publishes stable releases to beta first",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:105] publishes stable releases to beta first",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:105",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] publishes stable correction releases to beta first too",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:113] publishes stable correction releases to beta first too",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] can publish stable releases directly to latest when requested",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:121] can publish stable releases directly to latest when requested",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:121",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] ignores current beta dist-tag state for stable publishes",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:129] ignores current beta dist-tag state for stable publishes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:129",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects publishing beta prereleases to latest",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:137] rejects publishing beta prereleases to latest",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:137",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] prefers NODE_AUTH_TOKEN when both auth env vars exist",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:145] prefers NODE_AUTH_TOKEN when both auth env vars exist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:145",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] falls back to NPM_TOKEN when NODE_AUTH_TOKEN is missing",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:157] falls back to NPM_TOKEN when NODE_AUTH_TOKEN is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:157",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] reports missing auth when neither token exists",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:169] reports missing auth when neither token exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:169",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] defaults to full pack validation",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:183] defaults to full pack validation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:183",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] accepts truthy values for metadata-only validation",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:187] accepts truthy values for metadata-only validation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:187",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] treats false-like values as disabled",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:195] treats false-like values as disabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:195",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] treats stable as newer than same-day beta",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:205] treats stable as newer than same-day beta",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:205",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] treats a newer beta day as newer than an older stable day",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:209] treats a newer beta day as newer than an older stable day",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:209",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] orders stable correction releases after the base stable release",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:213] orders stable correction releases after the base stable release",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:213",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] returns null when either version is not release-shaped",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:217] returns null when either version is not release-shaped",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:217",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] compares UTC calendar days rather than wall-clock hours",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:223] compares UTC calendar days rather than wall-clock hours",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:223",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] uses npm_execpath when it points to npm",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:231] uses npm_execpath when it points to npm",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:231",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] falls back to the npm command when npm_execpath points to pnpm",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:244] falls back to the npm command when npm_execpath points to pnpm",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:244",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] uses the platform npm command when npm_execpath is missing",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:257] uses the platform npm command when npm_execpath is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:257",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] parses a plain npm pack JSON array",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:266] parses a plain npm pack JSON array",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:266",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] parses the trailing JSON payload after npm lifecycle logs",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:272] parses the trailing JSON payload after npm lifecycle logs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:272",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] returns null when no JSON payload is present",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:291] returns null when no JSON payload is present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:291",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects packs that ship the dashboard HTML without the asset payload",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:297] rejects packs that ship the dashboard HTML without the asset payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:297",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] accepts packs that ship dashboard HTML and bundled assets",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:307] accepts packs that ship dashboard HTML and bundled assets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:307",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects generated docs artifacts in npm pack output",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:320] rejects generated docs artifacts in npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:320",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects local build metadata in npm pack output",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:333] rejects local build metadata in npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:333",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects private qa artifacts in npm pack output",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:342] rejects private qa artifacts in npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:342",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects legacy update verifier QA runtime sidecars",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:372] rejects legacy update verifier QA runtime sidecars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:372",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects root dist chunks that still reference the private qa lab",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:384] rejects root dist chunks that still reference the private qa lab",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:384",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects private QA paths in the generated dist inventory",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:404] rejects private QA paths in the generated dist inventory",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:404",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects packed test files and test directories",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:427] rejects packed test files and test directories",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:427",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] allows normal runtime files",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:442] allows normal runtime files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:442",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] allows legitimate package roots named test under node_modules",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:452] allows legitimate package roots named test under node_modules",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:452",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] allows leaf runtime filenames named test or tests",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:461] allows leaf runtime filenames named test or tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:461",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] normalizes Windows or mixed separators before classifying test cargo",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:470] normalizes Windows or mixed separators before classifying test cargo",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:470",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] accepts versions within the two-day CalVer window",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:485] accepts versions within the two-day CalVer window",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:485",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects versions outside the two-day CalVer window",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:495] rejects versions outside the two-day CalVer window",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:495",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] accepts fallback correction tags for stable package versions",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:505] accepts fallback correction tags for stable package versions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:505",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] accepts correction package versions paired with matching correction tags",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:515] accepts correction package versions paired with matching correction tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:515",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects beta package versions paired with fallback correction tags",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:525] rejects beta package versions paired with fallback correction tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:525",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] validates the expected npm package metadata",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:537] validates the expected npm package metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:537",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects node-llama-cpp as a peer dependency",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:549] rejects node-llama-cpp as a peer dependency",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:549",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects node-llama-cpp as a direct runtime dependency",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:566] rejects node-llama-cpp as a direct runtime dependency",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:566",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts] rejects node-llama-cpp as an optional dependency",
+TEST_CASE("v4.29 [test/openclaw-npm-release-check.test.ts:579] rejects node-llama-cpp as an optional dependency",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-npm-release-check.test.ts:579",
                "upstream it() block #50",

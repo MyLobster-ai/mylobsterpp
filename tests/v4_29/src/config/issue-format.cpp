@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/issue-format.test.ts] normalizes empty paths to <root>",
+TEST_CASE("v4.29 [src/config/issue-format.test.ts:11] normalizes empty paths to <root>",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/issue-format.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/issue-format.test.ts] formats issue lines with and without markers",
+TEST_CASE("v4.29 [src/config/issue-format.test.ts:18] formats issue lines with and without markers",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/issue-format.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/issue-format.test.ts] sanitizes control characters and ANSI sequences in formatted lines",
+TEST_CASE("v4.29 [src/config/issue-format.test.ts:38] sanitizes control characters and ANSI sequences in formatted lines",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/issue-format.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/issue-format.test.ts] normalizes issue metadata for machine output",
+TEST_CASE("v4.29 [src/config/issue-format.test.ts:50] normalizes issue metadata for machine output",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/issue-format.test.ts:50",
                "upstream it() block #3",

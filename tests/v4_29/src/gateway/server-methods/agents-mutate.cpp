@@ -5,250 +5,250 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] creates a new agent successfully",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:370] creates a new agent successfully",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:370",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] ensures workspace is set up before writing config",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:390] ensures workspace is set up before writing config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:390",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects creating an agent with reserved ",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:411] rejects creating an agent with reserved ",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:411",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects creating a duplicate agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:425] rejects creating a duplicate agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:425",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects invalid params (missing name)",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:442] rejects invalid params (missing name)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:442",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] writes identity to both config and IDENTITY.md",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:455] writes identity to both config and IDENTITY.md",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:455",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] writes emoji and avatar to both config and IDENTITY.md",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:477] writes emoji and avatar to both config and IDENTITY.md",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:477",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] does not persist config when IDENTITY.md write fails with SafeOpenError",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:505] does not persist config when IDENTITY.md write fails with SafeOpenError",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:505",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] does not persist config when IDENTITY.md read fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:524] does not persist config when IDENTITY.md read fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:524",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] treats unsafe IDENTITY.md reads as invalid create requests",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:545] treats unsafe IDENTITY.md reads as invalid create requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:545",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] uses non-blocking reads for IDENTITY.md during agents.create",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:569] uses non-blocking reads for IDENTITY.md during agents.create",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:569",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] passes model to applyAgentConfig when provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:589] passes model to applyAgentConfig when provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:589",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] updates an existing agent successfully",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:629] updates an existing agent successfully",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:629",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects updating a nonexistent agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:640] rejects updating a nonexistent agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:640",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] ensures workspace when workspace changes",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:651] ensures workspace when workspace changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:651",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] does not ensure workspace when workspace is unchanged",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:661] does not ensure workspace when workspace is unchanged",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:661",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] writes merged identity to IDENTITY.md when only avatar changes",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:671] writes merged identity to IDENTITY.md when only avatar changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:671",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] writes merged identity to IDENTITY.md when only emoji changes",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:698] writes merged identity to IDENTITY.md when only emoji changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:698",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] writes combined identity fields to both config and IDENTITY.md",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:723] writes combined identity fields to both config and IDENTITY.md",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:723",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] syncs existing identity into a new workspace even without identity params",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:755] syncs existing identity into a new workspace even without identity params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:755",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] preserves an existing destination identity file when workspace changes",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:833] preserves an existing destination identity file when workspace changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:833",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] does not persist config when IDENTITY.md write fails on update",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:909] does not persist config when IDENTITY.md write fails on update",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:909",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] treats unsafe IDENTITY.md reads as invalid update requests",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:929] treats unsafe IDENTITY.md reads as invalid update requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:929",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] uses non-blocking reads for IDENTITY.md during agents.update",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:953] uses non-blocking reads for IDENTITY.md during agents.update",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:953",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] deletes an existing agent and trashes files by default",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:982] deletes an existing agent and trashes files by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:982",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] skips file deletion when deleteFiles is false",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:998] skips file deletion when deleteFiles is false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:998",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects deleting the main agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1012] rejects deleting the main agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1012",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects deleting a nonexistent agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1026] rejects deleting a nonexistent agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1026",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] rejects invalid params (missing agentId)",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1037] rejects invalid params (missing agentId)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1037",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] includes BOOTSTRAP.md when setup has not completed",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1057] includes BOOTSTRAP.md when setup has not completed",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1057",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] hides BOOTSTRAP.md when workspace setup is complete",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1062] hides BOOTSTRAP.md when workspace setup is complete",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1062",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] falls back to showing BOOTSTRAP.md when workspace state cannot be read",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1069] falls back to showing BOOTSTRAP.md when workspace state cannot be read",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1069",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] falls back to showing BOOTSTRAP.md when workspace state is malformed JSON",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1076] falls back to showing BOOTSTRAP.md when workspace state is malformed JSON",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1076",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] reports unreadable workspace files as present in list responses",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1083] reports unreadable workspace files as present in list responses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1083",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts] uses non-blocking safe reads for agents.files.get",
+TEST_CASE("v4.29 [src/gateway/server-methods/agents-mutate.test.ts:1207] uses non-blocking safe reads for agents.files.get",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agents-mutate.test.ts:1207",
                "upstream it() block #34",

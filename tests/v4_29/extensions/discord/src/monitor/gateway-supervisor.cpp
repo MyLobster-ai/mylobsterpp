@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts] maps current gateway errors onto domain events",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts:10] maps current gateway errors onto domain events",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-supervisor.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts] wraps fatal lifecycle stops with discord-specific context",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts:39] wraps fatal lifecycle stops with discord-specific context",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-supervisor.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts] buffers early errors, routes active ones, and logs late teardown errors",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts:59] buffers early errors, routes active ones, and logs late teardown errors",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-supervisor.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts] is idempotent on dispose and noops without an emitter",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts:93] is idempotent on dispose and noops without an emitter",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-supervisor.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts] keeps suppressing late gateway errors after dispose",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts:107] keeps suppressing late gateway errors after dispose",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-supervisor.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts] dedupes identical late gateway errors after dispose",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/gateway-supervisor.test.ts:126] dedupes identical late gateway errors after dispose",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/gateway-supervisor.test.ts:126",
                "upstream it() block #5",

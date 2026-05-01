@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/index.test.ts] owns replay policy and reasoning mode for the direct Gemini provider",
+TEST_CASE("v4.29 [extensions/google/index.test.ts:23] owns replay policy and reasoning mode for the direct Gemini provider",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/index.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/index.test.ts] owns Gemini CLI tool schema normalization",
+TEST_CASE("v4.29 [extensions/google/index.test.ts:94] owns Gemini CLI tool schema normalization",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/index.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/index.test.ts] wires google-thinking stream hooks for direct and Gemini CLI providers",
+TEST_CASE("v4.29 [extensions/google/index.test.ts:141] wires google-thinking stream hooks for direct and Gemini CLI providers",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/index.test.ts:141",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/index.test.ts] advertises adaptive thinking for Gemini dynamic thinking",
+TEST_CASE("v4.29 [extensions/google/index.test.ts:183] advertises adaptive thinking for Gemini dynamic thinking",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/index.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/index.test.ts] shares Gemini replay and stream hooks across Google provider variants",
+TEST_CASE("v4.29 [extensions/google/index.test.ts:217] shares Gemini replay and stream hooks across Google provider variants",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/index.test.ts:217",
                "upstream it() block #4",

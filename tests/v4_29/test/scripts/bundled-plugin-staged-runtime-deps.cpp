@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-staged-runtime-deps.test.ts] flags built staged plugins whose dist node_modules are missing runtime deps",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-staged-runtime-deps.test.ts:16] flags built staged plugins whose dist node_modules are missing runtime deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-staged-runtime-deps.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-staged-runtime-deps.test.ts] accepts built staged plugins when their staged runtime deps are present",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-staged-runtime-deps.test.ts:40] accepts built staged plugins when their staged runtime deps are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-staged-runtime-deps.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundled-plugin-staged-runtime-deps.test.ts] keeps the WhatsApp bundled plugin opted into staged runtime dependencies",
+TEST_CASE("v4.29 [test/scripts/bundled-plugin-staged-runtime-deps.test.ts:66] keeps the WhatsApp bundled plugin opted into staged runtime dependencies",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundled-plugin-staged-runtime-deps.test.ts:66",
                "upstream it() block #2",

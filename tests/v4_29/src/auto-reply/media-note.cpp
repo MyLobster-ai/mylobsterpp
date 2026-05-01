@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] formats single MediaPath as a media note",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:9] formats single MediaPath as a media note",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] formats multiple MediaPaths as numbered media notes",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:18] formats multiple MediaPaths as numbered media notes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] sanitizes inline media note values before rendering them into the prompt",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:33] sanitizes inline media note values before rendering them into the prompt",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] does not suppress attachments when media understanding is skipped",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:44] does not suppress attachments when media understanding is skipped",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] keeps image attachments after image descriptions are added",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:76] keeps image attachments after image descriptions are added",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] keeps image attachments when image understanding succeeds via decisions",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:95] keeps image attachments when image understanding succeeds via decisions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:95",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] strips audio attachments when transcription succeeded via MediaUnderstanding",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:107] strips audio attachments when transcription succeeded via MediaUnderstanding",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] strips audio attachments when transcription succeeded via decisions",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:126] strips audio attachments when transcription succeeded via decisions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:126",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] ignores invalid transcription indices from media understanding outputs",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:138] ignores invalid transcription indices from media understanding outputs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:138",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] ignores invalid transcription indices from media understanding decisions",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:173] ignores invalid transcription indices from media understanding decisions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:173",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] suppresses only the transcribed audio attachment in mixed media turns",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:206] suppresses only the transcribed audio attachment in mixed media turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:206",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] keeps video attachments after video descriptions are added",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:231] keeps video attachments after video descriptions are added",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:231",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] strips audio attachments when Transcript is present",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:248] strips audio attachments when Transcript is present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:248",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] does not strip multiple audio attachments using transcript-only fallback",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:257] does not strip multiple audio attachments using transcript-only fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:257",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] strips audio by extension even without mime type",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:272] strips audio by extension even without mime type",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:272",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts] keeps audio attachments when no transcription is available",
+TEST_CASE("v4.29 [src/auto-reply/media-note.test.ts:287] keeps audio attachments when no transcription is available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/media-note.test.ts:287",
                "upstream it() block #15",

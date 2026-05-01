@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts] preserves appended reply media while removing primary sticker media",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts:23] preserves appended reply media while removing primary sticker media",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts] clears media fields when sticker is the only media",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts:38] clears media fields when sticker is the only media",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts] does not prune when sticker media is already omitted from context",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts:58] does not prune when sticker media is already omitted from context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.sticker-media.test.ts:58",
                "upstream it() block #2",

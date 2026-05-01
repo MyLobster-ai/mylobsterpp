@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] resolves voice delivery support from channel capabilities",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:205] resolves voice delivery support from channel capabilities",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:205",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] marks Discord auto TTS replies as native voice messages",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:214] marks Discord auto TTS replies as native voice messages",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:214",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] keeps BlueBubbles synthesis on mp3 audio-file output but delivers it as a voice memo",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:224] keeps BlueBubbles synthesis on mp3 audio-file output but delivers it as a voice memo",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:224",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] does not mark unsupported BlueBubbles audio-file output as a voice memo",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:241] does not mark unsupported BlueBubbles audio-file output as a voice memo",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:241",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] pre-transcodes BlueBubbles synthesized mp3 to opus-in-CAF when the host can satisfy preferAudioFileFormat",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:251] pre-transcodes BlueBubbles synthesized mp3 to opus-in-CAF when the host can satisfy preferAudioFileFormat",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:251",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] falls back to the original mp3 buffer when the host transcoder fails",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:275] falls back to the original mp3 buffer when the host transcoder fails",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:275",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] uses the active runtime snapshot when source config still contains TTS SecretRefs",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:302] uses the active runtime snapshot when source config still contains TTS SecretRefs",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:302",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] keeps non-native voice-note channels as regular audio files",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:380] keeps non-native voice-note channels as regular audio files",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:380",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] selects persona preferred provider before config fallback",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:390] selects persona preferred provider before config fallback",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:390",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] merges active persona provider binding into synthesis config",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:418] merges active persona provider binding into synthesis config",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:418",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] does not mark skipped unregistered providers as missing persona bindings",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:479] does not mark skipped unregistered providers as missing persona bindings",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:479",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] does not mark skipped telephony providers as missing persona bindings",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:512] does not mark skipped telephony providers as missing persona bindings",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:512",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] uses provider defaults when fallback policy allows missing persona bindings",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:545] uses provider defaults when fallback policy allows missing persona bindings",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:545",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] preserves persona prompts by default when provider bindings are missing",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:575] preserves persona prompts by default when provider bindings are missing",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:575",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] skips unbound providers under fail policy while allowing bound fallbacks",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:604] skips unbound providers under fail policy while allowing bound fallbacks",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:604",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] deep-merges the active agent TTS override over messages.tts",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:654] deep-merges the active agent TTS override over messages.tts",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:654",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] composes per-agent TTS overrides with active persona bindings",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:701] composes per-agent TTS overrides with active persona bindings",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:701",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts] ignores prototype-pollution keys in agent TTS overrides",
+TEST_CASE("v4.29 [extensions/speech-core/src/tts.test.ts:779] ignores prototype-pollution keys in agent TTS overrides",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/tts.test.ts:779",
                "upstream it() block #17",

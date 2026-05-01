@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts] loads from disk on first call and caches",
+TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts:41] loads from disk on first call and caches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-cache.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts] refreshes from disk on second call while preserving unchanged object identity",
+TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts:51] refreshes from disk on second call while preserving unchanged object identity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-cache.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts] replaces cached result when workspace bootstrap contents change",
+TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts:64] replaces cached result when workspace bootstrap contents change",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-cache.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts] different session keys get independent caches",
+TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts:76] different session keys get independent caches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-cache.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts] clears a single session entry",
+TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts:113] clears a single session entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-cache.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts] does not affect other sessions",
+TEST_CASE("v4.29 [src/agents/bootstrap-cache.test.ts:122] does not affect other sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-cache.test.ts:122",
                "upstream it() block #5",

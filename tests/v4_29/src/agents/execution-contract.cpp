@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] auto-activates on bare gpt-5 model ids",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:14] auto-activates on bare gpt-5 model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] auto-activates on the mock-openai qa lane",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:24] auto-activates on the mock-openai qa lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] auto-activates on gpt-5o and variants without a separator",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:34] auto-activates on gpt-5o and variants without a separator",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] auto-activates on dot-separated variants",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:46] auto-activates on dot-separated variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] auto-activates on dash-separated variants",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:58] auto-activates on dash-separated variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] auto-activates on prefixed model ids (openai/gpt-5.4, openai:gpt-5.4)",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:70] auto-activates on prefixed model ids (openai/gpt-5.4, openai:gpt-5.4)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] is case-insensitive",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:92] is case-insensitive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] does not match non-gpt-5 family ids",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:104] does not match non-gpt-5 family ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:104",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] collapses to default on unsupported providers even with gpt-5 model ids",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:124] collapses to default on unsupported providers even with gpt-5 model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:124",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] honors explicit strict-agentic on the supported lane",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:136] honors explicit strict-agentic on the supported lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:136",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] honors explicit default opt-out even on the supported lane",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:155] honors explicit default opt-out even on the supported lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:155",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] collapses explicit strict-agentic to default on an unsupported lane",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:174] collapses explicit strict-agentic to default on an unsupported lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:174",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] returns true when the effective contract is strict-agentic",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:195] returns true when the effective contract is strict-agentic",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:195",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/execution-contract.test.ts] returns false when the effective contract is default",
+TEST_CASE("v4.29 [src/agents/execution-contract.test.ts:205] returns false when the effective contract is default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/execution-contract.test.ts:205",
                "upstream it() block #13",

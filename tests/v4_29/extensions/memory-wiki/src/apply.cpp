@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/apply.test.ts] creates synthesis pages with managed summary blocks and refreshed indexes",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/apply.test.ts:11] creates synthesis pages with managed summary blocks and refreshed indexes",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/apply.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/apply.test.ts] updates page metadata without overwriting existing human notes",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/apply.test.ts:85] updates page metadata without overwriting existing human notes",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/apply.test.ts:85",
                "upstream it() block #1",

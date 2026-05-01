@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] parses pinned CalVer versions and derives Apple marketing fields",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:17] parses pinned CalVer versions and derives Apple marketing fields",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] rejects semver-only versions",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:30] rejects semver-only versions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] rejects prerelease suffixes in the pinned iOS version file",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:39] rejects prerelease suffixes in the pinned iOS version file",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] keeps stable gateway CalVer values",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:50] keeps stable gateway CalVer values",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] strips beta suffixes when pinning from gateway version",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:54] strips beta suffixes when pinning from gateway version",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:54",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] strips fallback correction suffixes when pinning from gateway version",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:58] strips fallback correction suffixes when pinning from gateway version",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] reads and normalizes the root package version for iOS releases",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:62] reads and normalizes the root package version for iOS releases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:62",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] renders checked-in defaults from the pinned iOS version",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:77] renders checked-in defaults from the pinned iOS version",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:77",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] extracts exact pinned version sections first",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:91] extracts exact pinned version sections first",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:91",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] falls back to Unreleased when the release section does not exist yet",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:111] falls back to Unreleased when the release section does not exist yet",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:111",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ios-version.test.ts] extracts markdown bodies without the version heading",
+TEST_CASE("v4.29 [test/scripts/ios-version.test.ts:130] extracts markdown bodies without the version heading",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ios-version.test.ts:130",
                "upstream it() block #10",

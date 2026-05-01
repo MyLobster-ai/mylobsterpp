@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] has correct id, label, and aliases",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:46] has correct id, label, and aliases",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] reports configured when an API key is present in providerConfig",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:53] reports configured when an API key is present in providerConfig",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] reports configured for legacy appId and token in providerConfig",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:59] reports configured for legacy appId and token in providerConfig",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] reports not configured when credentials are missing",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:65] reports not configured when credentials are missing",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] falls back to env vars for credentials",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:93] falls back to env vars for credentials",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] lists voices with locale and gender",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:128] lists voices with locale and gender",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] sends the documented Seed Speech API key payload and returns voice-note Opus metadata",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:135] sends the documented Seed Speech API key payload and returns voice-note Opus metadata",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:135",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] joins streamed Seed Speech audio frames",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:191] joins streamed Seed Speech audio frames",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:191",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] reports Seed Speech provider errors without exposing credentials",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:217] reports Seed Speech provider errors without exposing credentials",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:217",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts] reports provider errors without exposing credentials",
+TEST_CASE("v4.29 [extensions/volcengine/tts.test.ts:246] reports provider errors without exposing credentials",
           "[v4_29][parity_gap][volcengine]") {
     PARITY_GAP("extensions/volcengine/tts.test.ts:246",
                "upstream it() block #9",

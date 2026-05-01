@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] parses chat_id targets",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:18] parses chat_id targets",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] parses chat targets",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:23] parses chat targets",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] parses sms handles with service",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:28] parses sms handles with service",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] normalizes handles",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:33] normalizes handles",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] normalizes chat_id prefixes case-insensitively",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:38] normalizes chat_id prefixes case-insensitively",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] normalizes chat_guid prefixes case-insensitively",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:45] normalizes chat_guid prefixes case-insensitively",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:45",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] normalizes chat_identifier prefixes case-insensitively",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:51] normalizes chat_identifier prefixes case-insensitively",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:51",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] checks allowFrom against chat_id",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:59] checks allowFrom against chat_id",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:59",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] checks allowFrom against handle",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:68] checks allowFrom against handle",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:68",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] denies when allowFrom is empty",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:76] denies when allowFrom is empty",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:76",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] formats chat targets",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:84] formats chat targets",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:84",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] only treats explicit chat targets as immediate ids",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:89] only treats explicit chat targets as immediate ids",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:89",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] infers direct and group chat types from normalized targets",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:96] infers direct and group chat types from normalized targets",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:96",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] uses generic channel group policy helpers",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:103] uses generic channel group policy helpers",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:103",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] parses handles and chat targets",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:133] parses handles and chat targets",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:133",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] returns validation errors for invalid chat_id",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:139] returns validation errors for invalid chat_id",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:139",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] returns validation errors for invalid chat_identifier entries",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:146] returns validation errors for invalid chat_identifier entries",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:146",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:153] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:153",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:174] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:174",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] writes open policy state to the named account and stores inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:181] writes open policy state to the named account and stores inherited allowFrom with ",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:181",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts] uses the configured default account for omitted-account DM policy reads, keys, and writes",
+TEST_CASE("v4.29 [extensions/imessage/src/targets.test.ts:205] uses the configured default account for omitted-account DM policy reads, keys, and writes",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/targets.test.ts:205",
                "upstream it() block #20",

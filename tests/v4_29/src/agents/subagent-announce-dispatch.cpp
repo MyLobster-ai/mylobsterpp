@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] maps steered to delivered",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:8] maps steered to delivered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] maps queued to delivered",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:15] maps queued to delivered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] maps none to not-delivered",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:22] maps none to not-delivered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] uses queue-first ordering for non-completion mode",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:48] uses queue-first ordering for non-completion mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] short-circuits direct send when non-completion queue delivers",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:61] short-circuits direct send when non-completion queue delivers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] uses direct-first ordering for completion mode",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:72] uses direct-first ordering for completion mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] falls back to queue when completion direct send fails",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:90] falls back to queue when completion direct send fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:90",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] returns direct failure when completion fallback queue cannot deliver",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:113] returns direct failure when completion fallback queue cannot deliver",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:113",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] does not fall through to direct delivery when non-completion queue drops the new item",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:138] does not fall through to direct delivery when non-completion queue drops the new item",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:138",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] preserves direct failure when completion dispatch aborts before fallback queue",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:157] preserves direct failure when completion dispatch aborts before fallback queue",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:157",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts] returns none immediately when signal is already aborted",
+TEST_CASE("v4.29 [src/agents/subagent-announce-dispatch.test.ts:193] returns none immediately when signal is already aborted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-dispatch.test.ts:193",
                "upstream it() block #10",

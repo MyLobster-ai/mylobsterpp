@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] prefers plugin-owned usage auth when available",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:72] prefers plugin-owned usage auth when available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] skips plugin usage auth when requested and no direct credential source exists",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:90] skips plugin usage auth when requested and no direct credential source exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] keeps plugin usage auth when a shared legacy plugin credential source exists",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:105] keeps plugin usage auth when a shared legacy plugin credential source exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] keeps legacy plugin credential sources provider-specific",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:137] keeps legacy plugin credential sources provider-specific",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:137",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] keeps auth-profile credential sources provider-specific",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:170] keeps auth-profile credential sources provider-specific",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:170",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] keeps plugin usage auth when an owned alias provider has auth-profile credentials",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:216] keeps plugin usage auth when an owned alias provider has auth-profile credentials",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:216",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] keeps plugin usage auth when provider-owned usage env credentials exist",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:266] keeps plugin usage auth when provider-owned usage env credentials exist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:266",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] does not overlay external auth profiles while checking the skip gate",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:297] does not overlay external auth profiles while checking the skip gate",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:297",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts] skips plugin usage auth per provider when only another provider has direct credentials",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.plugin.test.ts:315] skips plugin usage auth per provider when only another provider has direct credentials",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.plugin.test.ts:315",
                "upstream it() block #8",

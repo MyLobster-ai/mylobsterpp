@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] resolves false (not rejects) when bind returns EADDRINUSE",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:37] resolves false (not rejects) when bind returns EADDRINUSE",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] rejects immediately for EADDRNOTAVAIL (non-retryable: host address not on any interface)",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:42] rejects immediately for EADDRNOTAVAIL (non-retryable: host address not on any interface)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] rejects immediately for EACCES (non-retryable bind error)",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:47] rejects immediately for EACCES (non-retryable bind error)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] rejects immediately for other non-retryable errors",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:52] rejects immediately for other non-retryable errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:52",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] resolves true when the port is free",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:57] resolves true when the port is free",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] probes the provided host when waiting for bindability",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:86] probes the provided host when waiting for bindability",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/ports.test.ts] propagates EACCES rejection immediately without retrying",
+TEST_CASE("v4.29 [src/cli/ports.test.ts:113] propagates EACCES rejection immediately without retrying",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/ports.test.ts:113",
                "upstream it() block #6",

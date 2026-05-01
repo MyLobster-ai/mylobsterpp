@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] parses provider filters and treats empty/all as unfiltered",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:13] parses provider filters and treats empty/all as unfiltered",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] parses live case filters and treats empty/all as unfiltered",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:19] parses live case filters and treats empty/all as unfiltered",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] parses provider model overrides by provider id",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:27] parses provider model overrides by provider id",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] collects configured models from primary and fallbacks",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:38] collects configured models from primary and fallbacks",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] uses an empty auth store when live env keys should override stale profiles",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:58] uses an empty auth store when live env keys should override stale profiles",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] keeps profile-store mode when requested or when no live keys exist",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:70] keeps profile-store mode when requested or when no live keys exist",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts] redacts live API keys for diagnostics",
+TEST_CASE("v4.29 [src/image-generation/live-test-helpers.test.ts:85] redacts live API keys for diagnostics",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/live-test-helpers.test.ts:85",
                "upstream it() block #6",

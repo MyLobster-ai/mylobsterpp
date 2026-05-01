@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts] dispatches when context is available",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts:92] dispatches when context is available",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message.test.ts:92",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts] skips dispatch when no context is produced",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts:110] skips dispatch when no context is produced",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message.test.ts:110",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts] keeps dispatch running when the early typing cue fails",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts:117] keeps dispatch running when the early typing cue fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts] sends user-visible fallback when dispatch throws",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts:132] sends user-visible fallback when dispatch throws",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts] omits message_thread_id for General-topic fallback replies",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts:152] omits message_thread_id for General-topic fallback replies",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message.test.ts:152",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts] swallows fallback delivery failures after dispatch throws",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message.test.ts:171] swallows fallback delivery failures after dispatch throws",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message.test.ts:171",
                "upstream it() block #5",

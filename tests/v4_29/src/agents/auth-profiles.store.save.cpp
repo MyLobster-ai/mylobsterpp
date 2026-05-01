@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts] strips plaintext when keyRef/tokenRef are present",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts:21] strips plaintext when keyRef/tokenRef are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store.save.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts] refreshes the runtime snapshot when a saved store rotates oauth tokens",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts:76] refreshes the runtime snapshot when a saved store rotates oauth tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store.save.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts] writes runtime scheduling state to auth-state.json only",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts:135] writes runtime scheduling state to auth-state.json only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store.save.test.ts:135",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts] does not persist unchanged inherited main OAuth when saving secondary local updates",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts:188] does not persist unchanged inherited main OAuth when saving secondary local updates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store.save.test.ts:188",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts] does not persist stale inherited main OAuth after main refreshes",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts:258] does not persist stale inherited main OAuth after main refreshes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store.save.test.ts:258",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts] preserves inherited main OAuth in active secondary runtime snapshots",
+TEST_CASE("v4.29 [src/agents/auth-profiles.store.save.test.ts:331] preserves inherited main OAuth in active secondary runtime snapshots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.store.save.test.ts:331",
                "upstream it() block #5",

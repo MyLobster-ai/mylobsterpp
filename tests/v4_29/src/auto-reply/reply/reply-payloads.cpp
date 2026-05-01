@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] strips mediaUrl when it matches sentMediaUrls",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:38] strips mediaUrl when it matches sentMediaUrls",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] preserves mediaUrl when it is not in sentMediaUrls",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:46] preserves mediaUrl when it is not in sentMediaUrls",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] filters matching entries from mediaUrls array",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:54] filters matching entries from mediaUrls array",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] clears mediaUrls when all entries match",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:69] clears mediaUrls when all entries match",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] returns payloads unchanged when no media present",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:77] returns payloads unchanged when no media present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] returns payloads unchanged when sentMediaUrls is empty",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:86] returns payloads unchanged when sentMediaUrls is empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] dedupes equivalent file and local path variants",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:95] dedupes equivalent file and local path variants",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:95",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] dedupes encoded file:// paths against local paths",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:103] dedupes encoded file:// paths against local paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:103",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] suppresses when target provider is missing but target matches current provider route",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:132] suppresses when target provider is missing but target matches current provider route",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:132",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] suppresses when target provider uses ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:142] suppresses when target provider uses ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:142",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] does not suppress when providerless target does not match origin route",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:152] does not suppress when providerless target does not match origin route",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:152",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] suppresses when only one side carries the account id",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:162] suppresses when only one side carries the account id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:162",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] does not suppress when route accounts differ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:173] does not suppress when route accounts differ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:173",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] suppresses telegram topic-origin replies when explicit threadId matches",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:186] suppresses telegram topic-origin replies when explicit threadId matches",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:186",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] does not suppress telegram topic-origin replies when explicit threadId differs",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:199] does not suppress telegram topic-origin replies when explicit threadId differs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:199",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] does not suppress telegram topic-origin replies when target omits topic metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:211] does not suppress telegram topic-origin replies when target omits topic metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:211",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] suppresses telegram replies when chatId matches but target forms differ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:221] suppresses telegram replies when chatId matches but target forms differ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:221",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts] suppresses telegram replies even when the active plugin registry omits telegram",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-payloads.test.ts:232] suppresses telegram replies even when the active plugin registry omits telegram",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-payloads.test.ts:232",
                "upstream it() block #17",

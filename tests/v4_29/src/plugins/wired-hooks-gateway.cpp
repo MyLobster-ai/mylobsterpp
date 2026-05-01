@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts] runCronChanged invokes registered cron_changed hooks",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts:57] runCronChanged invokes registered cron_changed hooks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-gateway.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts] runCronChanged passes finished events with delivery and error fields",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts:75] runCronChanged passes finished events with delivery and error fields",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-gateway.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts] runCronChanged handles removed events without job",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts:103] runCronChanged handles removed events without job",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-gateway.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts] hasHooks returns true for registered gateway hooks",
+TEST_CASE("v4.29 [src/plugins/wired-hooks-gateway.test.ts:118] hasHooks returns true for registered gateway hooks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/wired-hooks-gateway.test.ts:118",
                "upstream it() block #3",

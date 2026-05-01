@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts] defaults macOS launch env values",
+TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts:14] defaults macOS launch env values",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-startup-env.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts] keeps user-provided env values",
+TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts:26] keeps user-provided env values",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-startup-env.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts] resolves Linux CA env for version-manager Node runtimes",
+TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts:41] resolves Linux CA env for version-manager Node runtimes",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-startup-env.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts] can skip macOS defaults for CLI-only pre-start planning",
+TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts:55] can skip macOS defaults for CLI-only pre-start planning",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-startup-env.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts] uses the Linux CA bundle heuristic when available",
+TEST_CASE("v4.29 [src/bootstrap/node-startup-env.test.ts:68] uses the Linux CA bundle heuristic when available",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-startup-env.test.ts:68",
                "upstream it() block #4",

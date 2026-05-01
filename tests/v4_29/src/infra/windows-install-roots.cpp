@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] normalizes validated local Windows roots",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:15] normalizes validated local Windows roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] rejects invalid or overly broad values",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:19] rejects invalid or overly broad values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] prefers HKLM registry roots over process environment values",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:28] prefers HKLM registry roots over process environment values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] uses explicit env roots without consulting HKLM",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:82] uses explicit env roots without consulting HKLM",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] falls back to validated env roots when registry lookup is unavailable",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:116] falls back to validated env roots when registry lookup is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] falls back to defaults when registry and env roots are invalid",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:136] falls back to defaults when registry and env roots are invalid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] prefers ProgramW6432 and dedupes roots case-insensitively",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:158] prefers ProgramW6432 and dedupes roots case-insensitively",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:158",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] prefers SystemRoot and WINDIR candidates over arbitrary drive scans",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:174] prefers SystemRoot and WINDIR candidates over arbitrary drive scans",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:174",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts] dedupes equivalent roots case-insensitively",
+TEST_CASE("v4.29 [src/infra/windows-install-roots.test.ts:187] dedupes equivalent roots case-insensitively",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-install-roots.test.ts:187",
                "upstream it() block #8",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/mcp-config.test.ts] writes and removes top-level mcp servers",
+TEST_CASE("v4.29 [src/config/mcp-config.test.ts:81] writes and removes top-level mcp servers",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/mcp-config.test.ts:81",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/mcp-config.test.ts] fails closed when the config file is invalid",
+TEST_CASE("v4.29 [src/config/mcp-config.test.ts:114] fails closed when the config file is invalid",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/mcp-config.test.ts:114",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/mcp-config.test.ts] accepts SSE MCP configs with headers at the config layer",
+TEST_CASE("v4.29 [src/config/mcp-config.test.ts:127] accepts SSE MCP configs with headers at the config layer",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/mcp-config.test.ts:127",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/mcp-config.test.ts] canonicalizes CLI-native HTTP type aliases when saving MCP config",
+TEST_CASE("v4.29 [src/config/mcp-config.test.ts:158] canonicalizes CLI-native HTTP type aliases when saving MCP config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/mcp-config.test.ts:158",
                "upstream it() block #3",

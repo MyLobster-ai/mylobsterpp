@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] defaults to the nested lane when no lane is provided",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:13] defaults to the nested lane when no lane is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] preserves explicit lanes",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:17] preserves explicit lanes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] defaults cron-owned runs to the cron-nested lane",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:26] defaults cron-owned runs to the cron-nested lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] moves cron lane callers onto the cron-nested lane",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:30] moves cron lane callers onto the cron-nested lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] preserves non-cron lanes",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:35] preserves non-cron lanes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:35",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] falls back to the unscoped nested lane when no session key is provided",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:42] falls back to the unscoped nested lane when no session key is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:42",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] scopes the nested lane per target session key",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:48] scopes the nested lane per target session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:48",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] produces distinct lanes for distinct target sessions",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:54] produces distinct lanes for distinct target sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:54",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] is deterministic for the same session key across calls",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:60] is deterministic for the same session key across calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:60",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] trims whitespace around the session key before scoping",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:65] trims whitespace around the session key before scoping",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:65",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] returns true for the unscoped nested lane",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:73] returns true for the unscoped nested lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:73",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] returns true for per-session nested lanes",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:77] returns true for per-session nested lanes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:77",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] returns false for unrelated lanes",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:82] returns false for unrelated lanes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:82",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] returns false for lanes that merely contain ",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:89] returns false for lanes that merely contain ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:89",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/lanes.test.ts] returns false for empty or missing lane names",
+TEST_CASE("v4.29 [src/agents/lanes.test.ts:95] returns false for empty or missing lane names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/lanes.test.ts:95",
                "upstream it() block #14",

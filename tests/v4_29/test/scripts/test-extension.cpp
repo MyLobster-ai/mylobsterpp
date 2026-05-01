@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves split channel extensions onto their own vitest configs",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:40] resolves split channel extensions onto their own vitest configs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves bluebubbles onto the bluebubbles vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:50] resolves bluebubbles onto the bluebubbles vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves acpx onto the acpx vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:59] resolves acpx onto the acpx vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves diffs onto the diffs vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:68] resolves diffs onto the diffs vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves feishu onto the feishu vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:77] resolves feishu onto the feishu vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves OpenAI onto its own provider vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:86] resolves OpenAI onto its own provider vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves matrix onto the matrix vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:95] resolves matrix onto the matrix vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:95",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves telegram onto the telegram vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:104] resolves telegram onto the telegram vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:104",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves whatsapp onto the whatsapp vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:113] resolves whatsapp onto the whatsapp vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves voice-call onto the voice-call vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:122] resolves voice-call onto the voice-call vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:122",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves mattermost onto the mattermost vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:131] resolves mattermost onto the mattermost vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:131",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves irc onto the irc vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:140] resolves irc onto the irc vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:140",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves zalo onto the zalo vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:149] resolves zalo onto the zalo vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:149",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves memory extensions onto the memory vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:158] resolves memory extensions onto the memory vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:158",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves msteams onto the msteams vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:167] resolves msteams onto the msteams vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:167",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves broad dedicated extension groups onto their narrow vitest configs",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:176] resolves broad dedicated extension groups onto their narrow vitest configs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:176",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] keeps unmatched non-provider extensions on the shared extensions vitest config",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:191] keeps unmatched non-provider extensions on the shared extensions vitest config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:191",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] omits src/<extension> when no paired core root exists",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:200] omits src/<extension> when no paired core root exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:200",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] infers the extension from the current working directory",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:209] infers the extension from the current working directory",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:209",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] maps changed paths back to extension ids",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:217] maps changed paths back to extension ids",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:217",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] lists available extension ids",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:228] lists available extension ids",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:228",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] can fail safe to all extensions when the base revision is unavailable",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:238] can fail safe to all extensions when the base revision is unavailable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:238",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] resolves a plan for extensions without tests",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:247] resolves a plan for extensions without tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:247",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] batches extensions into config-specific vitest invocations",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:256] batches extensions into config-specific vitest invocations",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:256",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] balances extension test shards by estimated CI cost",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:451] balances extension test shards by estimated CI cost",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:451",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] runs extension batch config groups concurrently when requested",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:497] runs extension batch config groups concurrently when requested",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:497",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] keeps extension batch parallelism bounded by group count",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:571] keeps extension batch parallelism bounded by group count",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:571",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-extension.test.ts] treats extensions without tests as a no-op by default",
+TEST_CASE("v4.29 [test/scripts/test-extension.test.ts:579] treats extensions without tests as a no-op by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-extension.test.ts:579",
                "upstream it() block #27",

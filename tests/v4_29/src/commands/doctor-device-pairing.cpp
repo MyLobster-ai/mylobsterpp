@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] warns about pending scope upgrades from local pairing state when the gateway is down",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:80] warns about pending scope upgrades from local pairing state when the gateway is down",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] warns when local pairing state is corrupt instead of treating it as empty",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:107] warns when local pairing state is corrupt instead of treating it as empty",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] warns when the local cached device token predates the gateway rotation",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:135] warns when the local cached device token predates the gateway rotation",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:135",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] uses gateway device pairing state when the gateway is healthy",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:173] uses gateway device pairing state when the gateway is healthy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:173",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] sanitizes device labels before printing doctor notes",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:207] sanitizes device labels before printing doctor notes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:207",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] quotes untrusted device pairing fields in suggested commands",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:238] quotes untrusted device pairing fields in suggested commands",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts] does not duplicate missing-token warnings when local cache exists for an approved role",
+TEST_CASE("v4.29 [src/commands/doctor-device-pairing.test.ts:285] does not duplicate missing-token warnings when local cache exists for an approved role",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-device-pairing.test.ts:285",
                "upstream it() block #6",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts] resolves profile-aware gateway logs and restart attempts together",
+TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts:11] resolves profile-aware gateway logs and restart attempts together",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/restart-logs.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts] honors OPENCLAW_STATE_DIR for restart attempts",
+TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts:27] honors OPENCLAW_STATE_DIR for restart attempts",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/restart-logs.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts] renders best-effort POSIX log setup with escaped paths",
+TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts:38] renders best-effort POSIX log setup with escaped paths",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/restart-logs.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts] renders CMD log setup with quoted paths",
+TEST_CASE("v4.29 [src/daemon/restart-logs.test.ts:49] renders CMD log setup with quoted paths",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/restart-logs.test.ts:49",
                "upstream it() block #3",

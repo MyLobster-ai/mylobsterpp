@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts] falls back to global fetch when the Discord proxy URL is invalid",
+TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts:23] falls back to global fetch when the Discord proxy URL is invalid",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.webhook.proxy.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts] uses proxy fetch when a Discord proxy is configured",
+TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts:53] uses proxy fetch when a Discord proxy is configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.webhook.proxy.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts] uses global fetch when the Discord proxy URL is remote",
+TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts:80] uses global fetch when the Discord proxy URL is remote",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.webhook.proxy.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts] uses global fetch when no proxy is configured",
+TEST_CASE("v4.29 [extensions/discord/src/send.webhook.proxy.test.ts:107] uses global fetch when no proxy is configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.webhook.proxy.test.ts:107",
                "upstream it() block #3",

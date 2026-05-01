@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] persists caller changes onto resolved config without leaking runtime defaults",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:14] persists caller changes onto resolved config without leaking runtime defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] strips transient plugin install records from partial writes",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:42] strips transient plugin install records from partial writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] preserves authored agent provider params during narrowed agent-list writes",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:89] preserves authored agent provider params during narrowed agent-list writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] allows explicit unsets to remove authored agent provider params",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:134] allows explicit unsets to remove authored agent provider params",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] preserves untouched include-owned subtrees during unrelated writes",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:161] preserves untouched include-owned subtrees during unrelated writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:161",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] rejects writes that would flatten include-owned subtrees",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:191] rejects writes that would flatten include-owned subtrees",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:191",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] formats actionable guidance for dmPolicy=",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:216] formats actionable guidance for dmPolicy=",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:216",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] unsets explicit paths when runtime defaults would otherwise reappear",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:226] unsets explicit paths when runtime defaults would otherwise reappear",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] does not mutate caller config when unsetting existing config objects",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:239] does not mutate caller config when unsetting existing config objects",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:239",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] keeps caller arrays immutable when unsetting array entries",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:254] keeps caller arrays immutable when unsetting array entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:254",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] treats missing unset paths as no-op without mutating caller config",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:269] treats missing unset paths as no-op without mutating caller config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:269",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] ignores blocked prototype-key unset path segments",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:285] ignores blocked prototype-key unset path segments",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:285",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] preserves env refs on unchanged paths while keeping changed paths resolved",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:307] preserves env refs on unchanged paths while keeping changed paths resolved",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:307",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] preserves env refs in arrays while keeping appended entries resolved",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:372] preserves env refs in arrays while keeping appended entries resolved",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:372",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] keeps the read-time env snapshot when writing the same config path",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:427] keeps the read-time env snapshot when writing the same config path",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:427",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] drops the read-time env snapshot when writing a different config path",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:438] drops the read-time env snapshot when writing a different config path",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:438",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] keeps plugin AJV defaults out of the persisted candidate",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:448] keeps plugin AJV defaults out of the persisted candidate",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:448",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] does not reintroduce legacy nested dm.policy defaults in the persisted candidate",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:493] does not reintroduce legacy nested dm.policy defaults in the persisted candidate",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:493",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] preserves normalized nested channel enabled keys during unrelated writes",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:531] preserves normalized nested channel enabled keys during unrelated writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:531",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] preserves root $schema during unrelated partial writes",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:594] preserves root $schema during unrelated partial writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:594",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] rejects writes that would flatten a root include",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:612] rejects writes that would flatten a root include",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:612",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] does not restore root $schema when the next config explicitly clears it",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:633] does not restore root $schema when the next config explicitly clears it",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:633",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts] does not restore root $schema when the next config sets an invalid value",
+TEST_CASE("v4.29 [src/config/io.write-prepare.test.ts:652] does not restore root $schema when the next config sets an invalid value",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.write-prepare.test.ts:652",
                "upstream it() block #22",

@@ -5,369 +5,369 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns trimmed value when non-empty",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:18] returns trimmed value when non-empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns undefined for undefined, empty, or whitespace-only input",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:23] returns undefined for undefined, empty, or whitespace-only input",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] preserves case (accountIds are case-sensitive)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:30] preserves case (accountIds are case-sensitive)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] lowercases and trims email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:37] lowercases and trims email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns undefined for undefined/empty/whitespace",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:42] returns undefined for undefined/empty/whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] preserves internal plus-addressing and unicode",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:48] preserves internal plus-addressing and unicode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:48",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns true when accountIds match",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:56] returns true when accountIds match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:56",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns true for accountId match even if emails differ",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:60] returns true for accountId match even if emails differ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:60",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns false when accountIds mismatch, ignoring email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:69] returns false when accountIds mismatch, ignoring email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:69",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] treats whitespace-equal accountIds as same",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:78] treats whitespace-equal accountIds as same",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:78",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accountId is case-sensitive",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:82] accountId is case-sensitive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:82",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns true when emails match (case-insensitive)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:88] returns true when emails match (case-insensitive)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:88",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns false when emails mismatch",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:94] returns false when emails mismatch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:94",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] matches when main has accountId+email and incoming has only matching email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:100] matches when main has accountId+email and incoming has only matching email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:100",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] matches when accountIds on one side are whitespace-only and both sides expose matching email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:112] matches when accountIds on one side are whitespace-only and both sides expose matching email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:112",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when main has accountId and incoming has neither",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:125] refuses when main has accountId and incoming has neither",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:125",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when main has email and incoming has neither",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:129] refuses when main has email and incoming has neither",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:129",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when incoming has identity but main does not",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:133] refuses when incoming has identity but main does not",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:133",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when main has only accountId and incoming has only email (non-overlapping fields)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:138] refuses when main has only accountId and incoming has only email (non-overlapping fields)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:138",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns true (no evidence of mismatch) when both sides lack accountId and email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:146] returns true (no evidence of mismatch) when both sides lack accountId and email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:146",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] returns true when one side has empty strings for both fields",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:153] returns true when one side has empty strings for both fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:153",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is reflexive: share(a,a) === true for any non-conflicting identity",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:164] is reflexive: share(a,a) === true for any non-conflicting identity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:164",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is symmetric: share(a,b) === share(b,a)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:169] is symmetric: share(a,b) === share(b,a)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:169",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accepts matching accountIds",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:183] accepts matching accountIds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:183",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accepts matching emails (case-insensitive)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:187] accepts matching emails (case-insensitive)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:187",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accepts when both sides expose identical identity across accountId + email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:193] accepts when both sides expose identical identity across accountId + email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:193",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accepts existing-no-identity adopting incoming-with-accountId",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:204] accepts existing-no-identity adopting incoming-with-accountId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:204",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accepts existing-no-identity adopting incoming-with-email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:210] accepts existing-no-identity adopting incoming-with-email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:210",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accepts when both sides lack identity metadata",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:214] accepts when both sides lack identity metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:214",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when incoming has no identity and existing has accountId",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:220] refuses when incoming has no identity and existing has accountId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:220",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when incoming has no identity and existing has email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:226] refuses when incoming has no identity and existing has email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:226",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when existing has only accountId and incoming has only email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:232] refuses when existing has only accountId and incoming has only email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:232",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses when existing has only email and incoming has only accountId",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:236] refuses when existing has only email and incoming has only accountId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:236",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses mismatching accountIds even when emails match",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:242] refuses mismatching accountIds even when emails match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:242",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses mismatching emails when both sides expose only email",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:251] refuses mismatching emails when both sides expose only email",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:251",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] accountId is case-sensitive",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:257] accountId is case-sensitive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:257",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] ignores surrounding whitespace on accountId",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:263] ignores surrounding whitespace on accountId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:263",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] ignores email case and whitespace",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:269] ignores email case and whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:269",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] treats empty/whitespace-only identity as absent (allowed to upgrade)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:275] treats empty/whitespace-only identity as absent (allowed to upgrade)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:275",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is reflexive",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:283] is reflexive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:283",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is at least as permissive as the strict rule (strict implies safe-to-copy)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:290] is at least as permissive as the strict rule (strict implies safe-to-copy)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:290",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] only relaxes the strict rule in the pure-upgrade direction",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:297] only relaxes the strict rule in the pure-upgrade direction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:297",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] does NOT relax in the regression direction (strict and unified both refuse)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:304] does NOT relax in the regression direction (strict and unified both refuse)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:304",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] refuses identity regression from a known-account main credential",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:432] refuses identity regression from a known-account main credential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:432",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is reflexive: share(a, a) is always true",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:459] is reflexive: share(a, a) is always true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:459",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] always refuses distinct non-empty accountIds (primary CWE-284 invariant)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:470] always refuses distinct non-empty accountIds (primary CWE-284 invariant)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:470",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] strict → unified: if isSameOAuthIdentity accepts, isSafeToCopyOAuthIdentity accepts",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:479] strict → unified: if isSameOAuthIdentity accepts, isSafeToCopyOAuthIdentity accepts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:479",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] unified rule never refuses a same-account pair and never accepts a different-account pair",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:497] unified rule never refuses a same-account pair and never accepts a different-account pair",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:497",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is always symmetric regardless of input shape",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:518] is always symmetric regardless of input shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:518",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] is always reflexive: share(a, a) is true",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:533] is always reflexive: share(a, a) is true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:533",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] never returns true for distinct non-empty accountIds (regardless of email)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:544] never returns true for distinct non-empty accountIds (regardless of email)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:544",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts] email comparison is case-insensitive for random email bodies",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-identity.test.ts:555] email comparison is case-insensitive for random email bodies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-identity.test.ts:555",
                "upstream it() block #51",

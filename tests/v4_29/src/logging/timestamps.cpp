@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] produces +00:00 offset for UTC",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:9] produces +00:00 offset for UTC",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] produces +08:00 offset for Asia/Shanghai",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:14] produces +08:00 offset for Asia/Shanghai",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] produces correct offset for America/New_York",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:19] produces correct offset for America/New_York",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:19",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] produces correct offset for America/New_York in summer (EDT)",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:25] produces correct offset for America/New_York in summer (EDT)",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:25",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] outputs a valid ISO 8601 string with offset",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:32] outputs a valid ISO 8601 string with offset",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:32",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] falls back gracefully for an invalid timezone",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:39] falls back gracefully for an invalid timezone",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:39",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] does NOT use getHours, getMinutes, getTimezoneOffset in the implementation",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:45] does NOT use getHours, getMinutes, getTimezoneOffset in the implementation",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:45",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] formats short style with explicit UTC offset",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:56] formats short style with explicit UTC offset",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:56",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] formats medium style with milliseconds and offset",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:60] formats medium style with milliseconds and offset",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:60",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] falls back to a valid offset when the timezone is invalid",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:75] falls back to a valid offset when the timezone is invalid",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:75",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] returns true for valid IANA timezones",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:83] returns true for valid IANA timezones",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:83",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/timestamps.test.ts] returns false for invalid timezone strings",
+TEST_CASE("v4.29 [src/logging/timestamps.test.ts:89] returns false for invalid timezone strings",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/timestamps.test.ts:89",
                "upstream it() block #11",

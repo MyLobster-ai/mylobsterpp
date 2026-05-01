@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts] keeps refreshes coalesced while preserving the first probe intent",
+TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts:41] keeps refreshes coalesced while preserving the first probe intent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/health-state.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts] captures runtime snapshots for completed refreshes and guards snapshot failures",
+TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts:64] captures runtime snapshots for completed refreshes and guards snapshot failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/health-state.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts] does not cache or broadcast sensitive health refreshes",
+TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts:96] does not cache or broadcast sensitive health refreshes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/health-state.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts] keeps sensitive and public refreshes on separate in-flight promises",
+TEST_CASE("v4.29 [src/gateway/server/health-state.test.ts:118] keeps sensitive and public refreshes on separate in-flight promises",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/health-state.test.ts:118",
                "upstream it() block #3",

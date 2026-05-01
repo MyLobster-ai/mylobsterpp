@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns undefined when groupId is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:8] returns undefined when groupId is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns undefined when accountConfig is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:14] returns undefined when accountConfig is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns the group-specific systemPrompt when defined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:23] returns the group-specific systemPrompt when defined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] falls back to wildcard when specific group entry is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:32] falls back to wildcard when specific group entry is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] suppresses wildcard when specific group entry sets systemPrompt to empty string",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:43] suppresses wildcard when specific group entry sets systemPrompt to empty string",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] suppresses wildcard when specific group entry sets systemPrompt to whitespace-only string",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:57] suppresses wildcard when specific group entry sets systemPrompt to whitespace-only string",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:57",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] trims whitespace from specific group systemPrompt",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:71] trims whitespace from specific group systemPrompt",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:71",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns undefined when specific group entry has no systemPrompt key and no wildcard",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:80] returns undefined when specific group entry has no systemPrompt key and no wildcard",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] falls back to wildcard when specific group entry has no systemPrompt key",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:89] falls back to wildcard when specific group entry has no systemPrompt key",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:89",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns undefined when peerId is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:105] returns undefined when peerId is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:105",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns undefined when accountConfig is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:111] returns undefined when accountConfig is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:111",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns the peer-specific systemPrompt when defined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:120] returns the peer-specific systemPrompt when defined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:120",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] falls back to wildcard when specific peer entry is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:129] falls back to wildcard when specific peer entry is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:129",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] suppresses wildcard when specific peer entry sets systemPrompt to empty string",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:140] suppresses wildcard when specific peer entry sets systemPrompt to empty string",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:140",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] suppresses wildcard when specific peer entry sets systemPrompt to whitespace-only string",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:154] suppresses wildcard when specific peer entry sets systemPrompt to whitespace-only string",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:154",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] trims whitespace from specific peer systemPrompt",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:168] trims whitespace from specific peer systemPrompt",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:168",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] returns undefined when specific peer entry has no systemPrompt key and no wildcard",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:177] returns undefined when specific peer entry has no systemPrompt key and no wildcard",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:177",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts] falls back to wildcard when specific peer entry has no systemPrompt key",
+TEST_CASE("v4.29 [extensions/whatsapp/src/system-prompt.test.ts:186] falls back to wildcard when specific peer entry has no systemPrompt key",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/system-prompt.test.ts:186",
                "upstream it() block #17",

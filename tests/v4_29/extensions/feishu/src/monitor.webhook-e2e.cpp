@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] rejects invalid signatures with 401 instead of empty 200",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:67] rejects invalid signatures with 401 instead of empty 200",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] rejects missing signature headers with 401",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:95] rejects missing signature headers with 401",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] rejects malformed short signatures with 401",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:119] rejects malformed short signatures with 401",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] returns 401 for unsigned invalid json before parsing",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:150] returns 401 for unsigned invalid json before parsing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:150",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] returns 400 for signed invalid json after signature validation",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:174] returns 400 for signed invalid json after signature validation",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] accepts signed plaintext url_verification challenges end-to-end",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:199] accepts signed plaintext url_verification challenges end-to-end",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] accepts signed non-challenge events and reaches the dispatcher",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:220] accepts signed non-challenge events and reaches the dispatcher",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:220",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts] accepts signed encrypted url_verification challenges end-to-end",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-e2e.test.ts:245] accepts signed encrypted url_verification challenges end-to-end",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-e2e.test.ts:245",
                "upstream it() block #7",

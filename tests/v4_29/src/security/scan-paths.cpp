@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true for same directory",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:15] returns true for same directory",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true for a direct child",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:20] returns true for a direct child",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false when candidate escapes base with ..",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:24] returns false when candidate escapes base with ..",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false for absolute path outside base",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:28] returns false for absolute path outside base",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:28",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false for a sibling directory",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:32] returns false for a sibling directory",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:32",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true when both paths exist and candidate is inside base",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:44] returns true when both paths exist and candidate is inside base",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:44",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false (line 25) when candidate is outside base without realpath check needed",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:50] returns false (line 25) when candidate is outside base without realpath check needed",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:50",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false (safe default) when realpath fails for non-existent candidate",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:56] returns false (safe default) when realpath fails for non-existent candidate",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:56",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false when requireRealpath is true and realpath fails",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:64] returns false when requireRealpath is true and realpath fails",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:64",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true (explicit opt-out) when requireRealpath is false and realpath fails",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:70] returns true (explicit opt-out) when requireRealpath is false and realpath fails",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:70",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false (safe default) when realpath fails for base path",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:76] returns false (safe default) when realpath fails for base path",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:76",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true for node_modules segment",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:89] returns true for node_modules segment",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:89",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true for hidden directory (.hidden)",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:93] returns true for hidden directory (.hidden)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:93",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false for normal paths",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:97] returns false for normal paths",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:97",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false for a single . segment (current dir)",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:101] returns false for a single . segment (current dir)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:101",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns false for a .. segment (parent dir)",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:105] returns false for a .. segment (parent dir)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:105",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/scan-paths.test.ts] returns true for Windows-style paths with node_modules",
+TEST_CASE("v4.29 [src/security/scan-paths.test.ts:109] returns true for Windows-style paths with node_modules",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/scan-paths.test.ts:109",
                "upstream it() block #16",

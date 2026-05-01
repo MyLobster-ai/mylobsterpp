@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] maps Teams reaction types to unicode emoji in event label",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:89] maps Teams reaction types to unicode emoji in event label",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] maps heart, laugh, surprised, sad, angry reaction types",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:126] maps heart, laugh, surprised, sad, angry reaction types",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] enqueues system event for reactionsAdded",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:168] enqueues system event for reactionsAdded",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] enqueues system event for reactionsRemoved",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:187] enqueues system event for reactionsRemoved",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:187",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] skips when reactions array is empty",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:205] skips when reactions array is empty",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:205",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] skips when from.id is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:220] skips when from.id is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:220",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] drops reaction from non-allowlisted DM sender",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:237] drops reaction from non-allowlisted DM sender",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:237",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts] allows reaction from allowlisted DM sender",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/reaction-handler.test.ts:252] allows reaction from allowlisted DM sender",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/reaction-handler.test.ts:252",
                "upstream it() block #7",

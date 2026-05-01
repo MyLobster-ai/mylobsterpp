@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] overlays provider-managed runtime oauth profiles onto the store",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:56] overlays provider-managed runtime oauth profiles onto the store",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] passes config and CLI scope through overlay resolution",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:73] passes config and CLI scope through overlay resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] omits exact runtime-only overlays from persisted store writes",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:96] omits exact runtime-only overlays from persisted store writes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] keeps persisted copies when the external overlay is marked persisted",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:114] keeps persisted copies when the external overlay is marked persisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] keeps stale local copies when runtime overlay no longer matches",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:133] keeps stale local copies when runtime overlay no longer matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] does not use Codex CLI OAuth as a runtime overlay source",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:151] does not use Codex CLI OAuth as a runtime overlay source",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:151",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] keeps healthy local oauth even when external cli has a fresher token",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:179] keeps healthy local oauth even when external cli has a fresher token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:179",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] keeps explicit local non-oauth auth over external cli oauth overlays",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:204] keeps explicit local non-oauth auth over external cli oauth overlays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:204",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts] keeps expired local oauth when external cli belongs to a different account",
+TEST_CASE("v4.29 [src/agents/auth-profiles/external-oauth.test.ts:230] keeps expired local oauth when external cli belongs to a different account",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/external-oauth.test.ts:230",
                "upstream it() block #8",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts] extracts Unicode-aware concept tags for common European languages",
+TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts:9] extracts Unicode-aware concept tags for common European languages",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/concept-vocabulary.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts] extracts protected and segmented CJK concept tags",
+TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts:33] extracts protected and segmented CJK concept tags",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/concept-vocabulary.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts] classifies concept tags by script family",
+TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts:56] classifies concept tags by script family",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/concept-vocabulary.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts] drops chat scaffolding stop words from derived concept tags",
+TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts:62] drops chat scaffolding stop words from derived concept tags",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/concept-vocabulary.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts] summarizes entry coverage across latin, cjk, and mixed tags",
+TEST_CASE("v4.29 [extensions/memory-core/src/concept-vocabulary.test.ts:78] summarizes entry coverage across latin, cjk, and mixed tags",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/concept-vocabulary.test.ts:78",
                "upstream it() block #4",

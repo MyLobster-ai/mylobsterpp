@@ -5,831 +5,831 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not false-positive on long assistant responses mentioning billing keywords",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:184] does not false-positive on long assistant responses mentioning billing keywords",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:184",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not false-positive on short non-billing text that mentions insufficient and balance",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:203] does not false-positive on short non-billing text that mentions insufficient and balance",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:203",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches insufficient_balance snake_case error codes (#74079)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:208] matches insufficient_balance snake_case error codes (#74079)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:208",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:212] matches ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies flat JSON billing payloads with string error code (#74079)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:217] classifies flat JSON billing payloads with string error code (#74079)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:217",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] still matches explicit 402 markers in long payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:223] still matches explicit 402 markers in long payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not match long numeric text that is not a billing error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:229] does not match long numeric text that is not a billing error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:229",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] prefers billing when API-key and 402 hints both appear",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:239] prefers billing when API-key and 402 hints both appear",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies Anthropic extra-usage exhaustion variants as billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:246] classifies Anthropic extra-usage exhaustion variants as billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches format errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:263] matches format errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:263",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] detects Cloudflare 521 HTML pages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:278] detects Cloudflare 521 HTML pages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:278",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] detects generic 5xx HTML pages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:288] detects generic 5xx HTML pages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:288",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] detects standalone Cloudflare challenge HTML pages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:293] detects standalone Cloudflare challenge HTML pages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:293",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not flag non-HTML status lines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:305] does not flag non-HTML status lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:305",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not flag quoted HTML without a closing html tag",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:310] does not flag quoted HTML without a closing html tag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:310",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches known overflow hints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:339] matches known overflow hints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:339",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:354] matches ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:354",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches Kimi ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:368] matches Kimi ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:368",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches exceed/context/max_tokens overflow variants",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:379] matches exceed/context/max_tokens overflow variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:379",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches model_context_window_exceeded stop reason surfaced by pi-ai",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:391] matches model_context_window_exceeded stop reason surfaced by pi-ai",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:391",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches Chinese context overflow error messages from proxy providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:406] matches Chinese context overflow error messages from proxy providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:406",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] ignores normal conversation text mentioning context overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:420] ignores normal conversation text mentioning context overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:420",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] excludes reasoning-required invalid-request errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:428] excludes reasoning-required invalid-request errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:428",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] ignore unrelated errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:441] ignore unrelated errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:441",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches context overflow hints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:481] matches context overflow hints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:481",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] excludes context window too small errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:492] excludes context window too small errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:492",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] excludes rate limit errors that match the broad hint regex",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:502] excludes rate limit errors that match the broad hint regex",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:502",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps too-many-tokens-per-request context overflow errors out of the rate-limit lane",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:518] keeps too-many-tokens-per-request context overflow errors out of the rate-limit lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:518",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] excludes reasoning-required invalid-request errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:524] excludes reasoning-required invalid-request errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:524",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] excludes billing errors even when text matches context overflow patterns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:535] excludes billing errors even when text matches context overflow patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:535",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] extracts provider-reported prompt token counts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:549] extracts provider-reported prompt token counts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:549",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] returns undefined when overflow counts are not present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:565] returns undefined when overflow counts are not present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:565",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] returns true for retryable 5xx status codes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:572] returns true for retryable 5xx status codes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:572",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] returns false for non-retryable or non-http text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:582] returns false for non-retryable or non-http text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:582",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats HTTP 401 invalid_api_key as ambiguous auth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:589] treats HTTP 401 invalid_api_key as ambiguous auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:589",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats body-less HTTP 422 as unknown instead of format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:593] treats body-less HTTP 422 as unknown instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:593",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats no-body HTTP 400/422 wrappers as unknown instead of format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:597] treats no-body HTTP 400/422 wrappers as unknown instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:597",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats HTTP 422 with an unclassifiable body as format error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:607] treats HTTP 422 with an unclassifiable body as format error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:607",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats 422 with billing message as billing instead of format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:614] treats 422 with billing message as billing instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:614",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats HTTP 400 insufficient-quota payloads as billing instead of format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:618] treats HTTP 400 insufficient-quota payloads as billing instead of format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:618",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps HTTP 400 provider-specific rate limits out of the generic format bucket",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:622] keeps HTTP 400 provider-specific rate limits out of the generic format bucket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:622",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not force HTTP 400 context-overflow payloads into format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:631] does not force HTTP 400 context-overflow payloads into format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:631",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] lets OpenRouter billing-classified HTTP 401 responses bypass generic auth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:640] lets OpenRouter billing-classified HTTP 401 responses bypass generic auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:640",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps generic HTTP 401 key-limit text on the auth path without provider context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:648] keeps generic HTTP 401 key-limit text on the auth path without provider context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:648",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats HTTP 499 as transient for structured errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:654] treats HTTP 499 as transient for structured errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:654",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats generic HTTP 410 responses as retryable timeouts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:665] treats generic HTTP 410 responses as retryable timeouts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:665",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats session-specific HTTP 410 responses as session_expired",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:671] treats session-specific HTTP 410 responses as session_expired",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:671",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] preserves explicit billing and auth signals on HTTP 410",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:678] preserves explicit billing and auth signals on HTTP 410",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:678",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] treats generic 410 text as retryable timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:686] treats generic 410 text as retryable timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:686",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps session-specific 410 text mapped to session_expired",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:695] keeps session-specific 410 text mapped to session_expired",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:695",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:700] classifies ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:700",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps explicit billing and auth signals on 410 text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:706] keeps explicit billing and auth signals on 410 text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:706",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies HTTP 404 assistant errors as model_not_found so model fallback can continue",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:712] classifies HTTP 404 assistant errors as model_not_found so model fallback can continue",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:712",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps HTTP 400/422 no-body wrappers out of the format bucket",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:717] keeps HTTP 400/422 no-body wrappers out of the format bucket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:717",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] preserves session and auth billing signals on HTTP 404 text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:726] preserves session and auth billing signals on HTTP 404 text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:726",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not map HTTP 404 plus context-overflow text to model_not_found",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:732] does not map HTTP 404 plus context-overflow text to model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:732",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps raw HTTP 400 wrappers aligned with structured provider classification",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:740] keeps raw HTTP 400 wrappers aligned with structured provider classification",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:740",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies OpenAI Responses unknown-no-details message distinctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:751] classifies OpenAI Responses unknown-no-details message distinctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:751",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies bare pi-ai stream wrapper as timeout regardless of provider (#71620)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:757] classifies bare pi-ai stream wrapper as timeout regardless of provider (#71620)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:757",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not match wrapped or unrelated unknown-error phrases as bare wrapper",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:781] does not match wrapped or unrelated unknown-error phrases as bare wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:781",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies openrouter-scoped upstream messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:789] classifies openrouter-scoped upstream messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:789",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify openrouter-scoped upstream messages without provider context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:798] does not classify openrouter-scoped upstream messages without provider context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:798",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches auth/rate/billing/timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:806] matches auth/rate/billing/timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:806",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches abort stop-reason timeout variants",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:820] matches abort stop-reason timeout variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:820",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches AbortError / stream-abort messages as timeout (#58315)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:831] matches AbortError / stream-abort messages as timeout (#58315)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:831",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches Gemini MALFORMED_RESPONSE stop reason as timeout (#42149)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:843] matches Gemini MALFORMED_RESPONSE stop reason as timeout (#42149)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:843",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches network errno codes in serialized error messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:851] matches network errno codes in serialized error messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:851",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches z.ai network_error stop reason as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:863] matches z.ai network_error stop reason as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:863",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches Provider finish_reason: network_error as timeout (#61281)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:871] matches Provider finish_reason: network_error as timeout (#61281)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:871",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify MALFORMED_FUNCTION_CALL as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:879] does not classify MALFORMED_FUNCTION_CALL as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:879",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches google INTERNAL status errors as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:886] matches google INTERNAL status errors as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:886",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not treat plain status text with internal-server-error wording as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:894] does not treat plain status text with internal-server-error wording as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:894",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps mixed upstream server errors retryable when they also mention status prose",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:898] keeps mixed upstream server errors retryable when they also mention status prose",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:898",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps status prose retryable when it is explicitly paired with code 500",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:904] keeps status prose retryable when it is explicitly paired with code 500",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:904",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches bare undici transport failures as timeout (#69368)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:910] matches bare undici transport failures as timeout (#69368)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:910",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches pi-ai openai-codex bare transport failures as timeout (#69368)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:925] matches pi-ai openai-codex bare transport failures as timeout (#69368)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:925",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify unrelated ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:934] does not classify unrelated ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:934",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] parses max MB values from error text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:940] parses max MB values from error text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:940",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] returns null for unrelated errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:945] returns null for unrelated errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:945",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] parses anthropic image dimension errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:951] parses anthropic image dimension errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:951",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] reclassifies periodic usage limits as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:964] reclassifies periodic usage limits as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:964",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] reclassifies org/workspace spend limits as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:975] reclassifies org/workspace spend limits as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:975",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps 402 as billing when explicit billing signals are present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:986] keeps 402 as billing when explicit billing signals are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:986",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps long 402 payloads with explicit billing text as billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1007] keeps long 402 payloads with explicit billing text as billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1007",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps 402 as billing without message or with generic message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1012] keeps 402 as billing without message or with generic message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1012",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] matches raw 402 wrappers and status-split payloads for the same message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1021] matches raw 402 wrappers and status-split payloads for the same message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1021",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps explicit 402 rate-limit messages in the rate_limit lane",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1032] keeps explicit 402 rate-limit messages in the rate_limit lane",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1032",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies bare leading 402 quota-refresh payloads as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1043] classifies bare leading 402 quota-refresh payloads as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1043",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify numeric references that merely start with 402",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1049] does not classify numeric references that merely start with 402",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1049",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps plan-upgrade 402 limit messages in billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1054] keeps plan-upgrade 402 limit messages in billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1054",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies documented provider error messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1062] classifies documented provider error messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1062",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies internal and compatibility error messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1081] classifies internal and compatibility error messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1081",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies OpenAI usage limit errors as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1150] classifies OpenAI usage limit errors as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1150",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies AWS Bedrock too-many-tokens-per-day errors as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1155] classifies AWS Bedrock too-many-tokens-per-day errors as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1155",
                "upstream it() block #93",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies provider high-demand / service-unavailable messages as overloaded",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1160] classifies provider high-demand / service-unavailable messages as overloaded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1160",
                "upstream it() block #94",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies bare ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1175] classifies bare ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1175",
                "upstream it() block #95",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies zhipuai Weekly/Monthly Limit Exhausted as rate_limit (#33785)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1184] classifies zhipuai Weekly/Monthly Limit Exhausted as rate_limit (#33785)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1184",
                "upstream it() block #96",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] keeps only high-confidence auth failures in auth_permanent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1195] keeps only high-confidence auth failures in auth_permanent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1195",
                "upstream it() block #97",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies JSON api_error with transient signal as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1205] classifies JSON api_error with transient signal as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1205",
                "upstream it() block #98",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify non-transient api_error payloads as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1228] does not classify non-transient api_error payloads as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1228",
                "upstream it() block #99",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not shadow billing errors that carry api_error type",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1248] does not shadow billing errors that carry api_error type",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1248",
                "upstream it() block #100",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not shadow auth errors that carry api_error type",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1262] does not shadow auth errors that carry api_error type",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1262",
                "upstream it() block #101",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies Chinese provider error messages correctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1285] classifies Chinese provider error messages correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1285",
                "upstream it() block #102",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies missing scope failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1343] classifies missing scope failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1343",
                "upstream it() block #103",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies raw missing scope payloads without an HTTP prefix",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1353] classifies raw missing scope payloads without an HTTP prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1353",
                "upstream it() block #104",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify non-Codex permission errors as missing scope failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1363] does not classify non-Codex permission errors as missing scope failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1363",
                "upstream it() block #105",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not treat generic Codex permission failures as missing scope failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1373] does not treat generic Codex permission failures as missing scope failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1373",
                "upstream it() block #106",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies OAuth refresh failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1383] classifies OAuth refresh failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1383",
                "upstream it() block #107",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies OAuth refresh timeouts and lock contention distinctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1391] classifies OAuth refresh timeouts and lock contention distinctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1391",
                "upstream it() block #108",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies wrapped OpenAI Codex callback validation failures distinctly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1414] classifies wrapped OpenAI Codex callback validation failures distinctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1414",
                "upstream it() block #109",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies HTML 403 auth failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1422] classifies HTML 403 auth failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1422",
                "upstream it() block #110",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies proxy, dns, timeout, schema, sandbox, and replay failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1430] classifies proxy, dns, timeout, schema, sandbox, and replay failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1430",
                "upstream it() block #111",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] splits ambiguous provider runtime failures instead of collapsing to unknown",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1450] splits ambiguous provider runtime failures instead of collapsing to unknown",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1450",
                "upstream it() block #112",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify generic config errors that mention proxy settings as proxy failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1460] does not classify generic config errors that mention proxy settings as proxy failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1460",
                "upstream it() block #113",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies google-style INTERNAL status payloads as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1468] classifies google-style INTERNAL status payloads as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1468",
                "upstream it() block #114",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify google-style INTERNAL payloads without a 500 code as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1481] does not classify google-style INTERNAL payloads without a 500 code as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1481",
                "upstream it() block #115",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] does not classify plain status text with internal server error wording as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1489] does not classify plain status text with internal server error wording as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1489",
                "upstream it() block #116",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts] classifies internal server error status prose with code 500 as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1493] classifies internal server error status prose with code 500 as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.isbillingerrormessage.test.ts:1493",
                "upstream it() block #117",

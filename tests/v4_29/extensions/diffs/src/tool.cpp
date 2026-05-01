@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] returns a viewer URL in view mode",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:25] returns a viewer URL in view mode",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] uses configured viewerBaseUrl when tool input omits baseUrl",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:44] uses configured viewerBaseUrl when tool input omits baseUrl",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] prefers per-call baseUrl over configured viewerBaseUrl",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:69] prefers per-call baseUrl over configured viewerBaseUrl",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] does not expose reserved format in the tool schema",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:95] does not expose reserved format in the tool schema",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] returns an image artifact in image mode",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:107] returns an image artifact in image mode",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] renders PDF output when fileFormat is pdf",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:148] renders PDF output when fileFormat is pdf",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] accepts mode=file as an alias for file artifact rendering",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:175] accepts mode=file as an alias for file artifact rendering",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:175",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] honors ttlSeconds for artifact-only file output",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:195] honors ttlSeconds for artifact-only file output",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:195",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] accepts image* tool options for backward compatibility",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:222] accepts image* tool options for backward compatibility",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:222",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] accepts deprecated format alias for fileFormat",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:249] accepts deprecated format alias for fileFormat",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:249",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] honors defaults.mode=file when mode is omitted",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:270] honors defaults.mode=file when mode is omitted",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:270",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] falls back to view output when both mode cannot render an image",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:285] falls back to view output when both mode cannot render an image",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:285",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] rejects invalid base URLs as tool input errors",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:309] rejects invalid base URLs as tool input errors",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:309",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] rejects oversized patch payloads",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:326] rejects oversized patch payloads",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:326",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] rejects oversized before/after payloads",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:341] rejects oversized before/after payloads",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:341",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] uses configured defaults when tool params omit them",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:358] uses configured defaults when tool params omit them",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:358",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] prefers explicit tool params over configured defaults",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:403] prefers explicit tool params over configured defaults",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:403",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts] routes tool context into artifact details for file mode",
+TEST_CASE("v4.29 [extensions/diffs/src/tool.test.ts:450] routes tool context into artifact details for file mode",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/tool.test.ts:450",
                "upstream it() block #17",

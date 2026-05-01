@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts] parses JSON responses and forwards absolute-endpoint opt-in",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts:22] parses JSON responses and forwards absolute-endpoint opt-in",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/http-client.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts] returns plain text when response is not JSON",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts:65] returns plain text when response is not JSON",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/http-client.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts] returns raw buffers for media requests",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts:88] returns raw buffers for media requests",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/http-client.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts] raises HTTP errors with status code metadata",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/http-client.test.ts:109] raises HTTP errors with status code metadata",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/http-client.test.ts:109",
                "upstream it() block #3",

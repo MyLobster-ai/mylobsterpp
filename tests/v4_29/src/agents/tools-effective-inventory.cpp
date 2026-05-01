@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] groups core, plugin, and channel tools from the effective runtime set",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:111] groups core, plugin, and channel tools from the effective runtime set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] disambiguates duplicate labels with source ids",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:180] disambiguates duplicate labels with source ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:180",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] projects plugin tool metadata into the effective inventory",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:198] projects plugin tool metadata into the effective inventory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:198",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] does not let one plugin project metadata onto another plugin tool",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:234] does not let one plugin project metadata onto another plugin tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] prefers displaySummary over raw description",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:266] prefers displaySummary over raw description",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:266",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] falls back to a sanitized summary for multi-line raw descriptions",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:289] falls back to a sanitized summary for multi-line raw descriptions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:289",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] includes the resolved tool profile",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:313] includes the resolved tool profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:313",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] adds an actionable notice when configured browser is filtered by the tool profile",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:324] adds an actionable notice when configured browser is filtered by the tool profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:324",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] does not add a browser profile notice when browser is already available",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:349] does not add a browser profile notice when browser is already available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:349",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts] passes resolved model compat into effective tool creation",
+TEST_CASE("v4.29 [src/agents/tools-effective-inventory.test.ts:368] passes resolved model compat into effective tool creation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools-effective-inventory.test.ts:368",
                "upstream it() block #9",

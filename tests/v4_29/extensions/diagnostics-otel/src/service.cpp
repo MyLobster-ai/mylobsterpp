@@ -5,327 +5,327 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] records message-flow metrics and spans",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:285] records message-flow metrics and spans",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:285",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] restarts without retaining prior listeners or log transports",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:363] restarts without retaining prior listeners or log transports",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:363",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] uses a preloaded OpenTelemetry SDK without dropping diagnostic listeners",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:395] uses a preloaded OpenTelemetry SDK without dropping diagnostic listeners",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:395",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] emits and records bounded telemetry exporter health events",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:445] emits and records bounded telemetry exporter health events",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:445",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] records liveness warning diagnostics",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:495] records liveness warning diagnostics",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:495",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] reports log exporter emit failures without exporting raw error text",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:549] reports log exporter emit failures without exporting raw error text",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:549",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] ignores untrusted telemetry exporter events for OTEL metrics",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:596] ignores untrusted telemetry exporter events for OTEL metrics",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:596",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] honors disabled traces when an OpenTelemetry SDK is preloaded",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:617] honors disabled traces when an OpenTelemetry SDK is preloaded",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:617",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] tears down active handles when restarted with diagnostics disabled",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:646] tears down active handles when restarted with diagnostics disabled",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:646",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] appends signal path when endpoint contains non-signal /v1 segment",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:672] appends signal path when endpoint contains non-signal /v1 segment",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:672",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] keeps already signal-qualified endpoint unchanged",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:682] keeps already signal-qualified endpoint unchanged",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:682",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] keeps signal-qualified endpoint unchanged when it has query params",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:692] keeps signal-qualified endpoint unchanged when it has query params",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:692",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] keeps signal-qualified endpoint unchanged when signal path casing differs",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:702] keeps signal-qualified endpoint unchanged when signal path casing differs",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:702",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] uses signal-specific OTLP endpoints ahead of the shared endpoint",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:712] uses signal-specific OTLP endpoints ahead of the shared endpoint",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:712",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] uses signal-specific OTLP env endpoints when config is unset",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:734] uses signal-specific OTLP env endpoints when config is unset",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:734",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] redacts sensitive data from log messages before export",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:756] redacts sensitive data from log messages before export",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:756",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] redacts sensitive data from log attributes before export",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:767] redacts sensitive data from log attributes before export",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:767",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not attach untrusted diagnostic trace context to exported logs",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:783] does not attach untrusted diagnostic trace context to exported logs",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:783",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] attaches trusted diagnostic trace context to exported logs",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:808] attaches trusted diagnostic trace context to exported logs",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:808",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] bounds plugin-emitted log attributes and omits source paths",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:839] bounds plugin-emitted log attributes and omits source paths",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:839",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] rate-limits repeated log export failure reports",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:893] rate-limits repeated log export failure reports",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:893",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not parent diagnostic event spans from plugin-emittable trace context",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:932] does not parent diagnostic event spans from plugin-emittable trace context",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:932",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports GenAI client token usage histogram for input and output only",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:958] exports GenAI client token usage histogram for input and output only",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:958",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] bounds agent identifiers on model usage metric attributes",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1016] bounds agent identifiers on model usage metric attributes",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1016",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] keeps GenAI token usage metric model attribute present when model is unavailable",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1043] keeps GenAI token usage metric model attribute present when model is unavailable",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1043",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports GenAI usage attributes on model usage spans without diagnostic identifiers",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1067] exports GenAI usage attributes on model usage spans without diagnostic identifiers",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1067",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports GenAI client operation duration histogram without diagnostic identifiers",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1118] exports GenAI client operation duration histogram without diagnostic identifiers",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1118",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports run, model call, and tool execution lifecycle spans",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1175] exports run, model call, and tool execution lifecycle spans",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1175",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] maps model call APIs to GenAI operation names and error type",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1449] maps model call APIs to GenAI operation names and error type",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1449",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] uses latest GenAI provider attribute only when semconv opt-in is set",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1508] uses latest GenAI provider attribute only when semconv opt-in is set",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1508",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] records upstream request id hashes as model call span events only",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1568] records upstream request id hashes as model call span events only",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1568",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports trusted context assembly spans without prompt content",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1625] exports trusted context assembly spans without prompt content",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1625",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports tool loop diagnostics without loop messages or session identifiers",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1706] exports tool loop diagnostics without loop messages or session identifiers",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1706",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports diagnostic memory samples and pressure without session identifiers",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1756] exports diagnostic memory samples and pressure without session identifiers",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1756",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] parents trusted diagnostic lifecycle spans from active started spans",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1832] parents trusted diagnostic lifecycle spans from active started spans",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1832",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] keeps trusted run spans alive long enough for post-completion usage parenting",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:1946] keeps trusted run spans alive long enough for post-completion usage parenting",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:1946",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not force remote parents for completed-only trusted lifecycle spans",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2010] does not force remote parents for completed-only trusted lifecycle spans",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2010",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not self-parent trusted diagnostic lifecycle spans without parent ids",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2056] does not self-parent trusted diagnostic lifecycle spans without parent ids",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2056",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not parent untrusted diagnostic lifecycle spans from injected trace ids",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2100] does not parent untrusted diagnostic lifecycle spans from injected trace ids",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2100",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not create live started spans for untrusted lifecycle diagnostics",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2159] does not create live started spans for untrusted lifecycle diagnostics",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2159",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports exec process spans without command text",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2246] exports exec process spans without command text",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2246",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports message delivery spans and metrics with low-cardinality attributes",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2307] exports message delivery spans and metrics with low-cardinality attributes",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2307",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] does not export model or tool content unless capture is explicitly enabled",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2408] does not export model or tool content unless capture is explicitly enabled",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2408",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] exports bounded redacted content when capture fields are opted in",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2459] exports bounded redacted content when capture fields are opted in",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2459",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] ignores invalid diagnostic event trace parents",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2525] ignores invalid diagnostic event trace parents",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2525",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts] redacts sensitive reason in session.state metric attributes",
+TEST_CASE("v4.29 [extensions/diagnostics-otel/src/service.test.ts:2551] redacts sensitive reason in session.state metric attributes",
           "[v4_29][parity_gap][diagnostics-otel]") {
     PARITY_GAP("extensions/diagnostics-otel/src/service.test.ts:2551",
                "upstream it() block #45",

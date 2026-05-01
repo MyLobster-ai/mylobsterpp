@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] resolves the shared security audit payload",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:58] resolves the shared security audit payload",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] lets the security audit load configured channel plugins when read-only discovery is incomplete",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:82] lets the security audit load configured channel plugins when read-only discovery is incomplete",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] resolves usage summaries with the provided timeout",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:104] resolves usage summaries with the provided timeout",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] resolves gateway health with the shared probe call shape",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:110] resolves gateway health with the shared probe call shape",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] returns a fallback health error when the gateway is unreachable",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:124] returns a fallback health error when the gateway is unreachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] passes gateway call overrides through the safe health path",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:135] passes gateway call overrides through the safe health path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:135",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] returns null for heartbeat when the gateway is unreachable",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:156] returns null for heartbeat when the gateway is unreachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] catches heartbeat gateway errors and returns null",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:167] catches heartbeat gateway errors and returns null",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] resolves daemon summaries together",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:185] resolves daemon summaries together",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:185",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] resolves shared runtime details with optional usage and deep fields",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:192] resolves shared runtime details with optional usage and deep fields",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:192",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] skips optional runtime details when flags are off",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:223] skips optional runtime details when flags are off",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:223",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] suppresses health failures inside shared runtime details",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:243] suppresses health failures inside shared runtime details",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:243",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts] resolves the shared runtime snapshot with security audit and runtime details",
+TEST_CASE("v4.29 [src/commands/status-runtime-shared.test.ts:263] resolves the shared runtime snapshot with security audit and runtime details",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-runtime-shared.test.ts:263",
                "upstream it() block #12",

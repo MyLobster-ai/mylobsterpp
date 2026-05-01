@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/resolve-openclaw-package-candidate.test.ts] accepts only OpenClaw release package specs for npm candidates",
+TEST_CASE("v4.29 [test/scripts/resolve-openclaw-package-candidate.test.ts:8] accepts only OpenClaw release package specs for npm candidates",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/resolve-openclaw-package-candidate.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/resolve-openclaw-package-candidate.test.ts] parses optional empty workflow inputs without rejecting the command line",
+TEST_CASE("v4.29 [test/scripts/resolve-openclaw-package-candidate.test.ts:26] parses optional empty workflow inputs without rejecting the command line",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/resolve-openclaw-package-candidate.test.ts:26",
                "upstream it() block #1",

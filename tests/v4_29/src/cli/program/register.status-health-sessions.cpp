@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs status command with timeout and debug-derived verbose",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:125] runs status command with timeout and debug-derived verbose",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] rejects invalid status timeout without calling status command",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:151] rejects invalid status timeout without calling status command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:151",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs health command with parsed timeout",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:161] runs health command with parsed timeout",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] rejects invalid health timeout without calling health command",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:175] rejects invalid health timeout without calling health command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:175",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs sessions command with forwarded options",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:185] runs sessions command with forwarded options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:185",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs sessions command with --agent forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:207] runs sessions command with --agent forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:207",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs sessions command with --all-agents forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:219] runs sessions command with --all-agents forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:219",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs sessions cleanup subcommand with forwarded options",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:230] runs sessions cleanup subcommand with forwarded options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:230",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] forwards parent-level all-agents to cleanup subcommand",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:259] forwards parent-level all-agents to cleanup subcommand",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:259",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs sessions export-trajectory with owner-routable export options",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:270] runs sessions export-trajectory with owner-routable export options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:270",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] forwards encoded sessions export-trajectory requests",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:297] forwards encoded sessions export-trajectory requests",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:297",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs tasks list from the parent command",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:315] runs tasks list from the parent command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:315",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs tasks show subcommand with lookup forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:328] runs tasks show subcommand with lookup forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:328",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs tasks maintenance subcommand with apply forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:340] runs tasks maintenance subcommand with apply forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:340",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs tasks audit subcommand with filters",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:352] runs tasks audit subcommand with filters",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:352",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] routes tasks flow commands through the TaskFlow handlers",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:376] routes tasks flow commands through the TaskFlow handlers",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:376",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs tasks notify subcommand with lookup and policy forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:397] runs tasks notify subcommand with lookup and policy forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:397",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs tasks cancel subcommand with lookup forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:409] runs tasks cancel subcommand with lookup forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:409",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs commitments list with filters",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:420] runs commitments list with filters",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:420",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] runs commitments dismiss with id forwarding",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:434] runs commitments dismiss with id forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:434",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts] does not register the legacy top-level flows command",
+TEST_CASE("v4.29 [src/cli/program/register.status-health-sessions.test.ts:445] does not register the legacy top-level flows command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.status-health-sessions.test.ts:445",
                "upstream it() block #20",

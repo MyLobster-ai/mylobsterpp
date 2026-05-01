@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] stops thread bindings when startup fails before lifecycle begins",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:289] stops thread bindings when startup fails before lifecycle begins",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:289",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] disconnects the shared gateway and suppresses late gateway errors when startup fails before lifecycle begins",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:306] disconnects the shared gateway and suppresses late gateway errors when startup fails before lifecycle begins",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:306",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] fails closed before lifecycle when Discord bot identity fetch rejects",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:335] fails closed before lifecycle when Discord bot identity fetch rejects",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:335",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] fails closed before lifecycle when Discord bot identity has no usable id",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:353] fails closed before lifecycle when Discord bot identity has no usable id",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:353",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] does not double-stop thread bindings when lifecycle performs cleanup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:371] does not double-stop thread bindings when lifecycle performs cleanup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:371",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] does not load the Discord voice runtime when voice is disabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:383] does not load the Discord voice runtime when voice is disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:383",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] loads the Discord voice runtime only when voice is enabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:392] loads the Discord voice runtime only when voice is enabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:392",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] wires exec approval button context from the resolved Discord account config",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:412] wires exec approval button context from the resolved Discord account config",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:412",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] registers the native approval runtime context when exec approvals are enabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:438] registers the native approval runtime context when exec approvals are enabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:438",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] treats ACP error status as uncertain during startup thread-binding probes",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:470] treats ACP error status as uncertain during startup thread-binding probes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:470",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] classifies typed ACP session init failures as stale",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:497] classifies typed ACP session init failures as stale",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:497",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] classifies typed non-init ACP errors as uncertain when not stale-running",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:526] classifies typed non-init ACP errors as uncertain when not stale-running",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:526",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] aborts timed-out ACP status probes during startup thread-binding health checks",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:555] aborts timed-out ACP status probes during startup thread-binding health checks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:555",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] falls back to legacy missing-session message classification",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:601] falls back to legacy missing-session message classification",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:601",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] captures gateway errors emitted before lifecycle wait starts",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:628] captures gateway errors emitted before lifecycle wait starts",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:628",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] passes OpenClaw event queue defaults to the Discord client",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:666] passes OpenClaw event queue defaults to the Discord client",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:666",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] forwards custom eventQueue config from discord config to the Discord client",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:679] forwards custom eventQueue config from discord config to the Discord client",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:679",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] does not pass eventQueue.listenerTimeout into the message run queue",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:701] does not pass eventQueue.listenerTimeout into the message run queue",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:701",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] ignores legacy inbound worker timeout config",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:717] ignores legacy inbound worker timeout config",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:717",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] continues startup when Discord daily slash-command create quota is exhausted",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:741] continues startup when Discord daily slash-command create quota is exhausted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:741",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] logs native command deploy failures as non-fatal warnings",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:775] logs native command deploy failures as non-fatal warnings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:775",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] formats rejected Discord deploy entries with command details",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:800] formats rejected Discord deploy entries with command details",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:800",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] configures internal native deploy by default",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:851] configures internal native deploy by default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:851",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] derives application id from token before probing Discord over REST",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:867] derives application id from token before probing Discord over REST",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:867",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] uses configured application id before token parsing or REST lookup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:890] uses configured application id before token parsing or REST lookup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:890",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] reports connected status on startup and shutdown",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:914] reports connected status on startup and shutdown",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:914",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] logs Discord startup phases and early gateway debug events",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:930] logs Discord startup phases and early gateway debug events",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:930",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts] keeps Discord startup chatter quiet by default",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.test.ts:971] keeps Discord startup chatter quiet by default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.test.ts:971",
                "upstream it() block #27",

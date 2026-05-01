@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/loader-cache-state.test.ts] evicts the least recently used registry cache entry",
+TEST_CASE("v4.29 [src/plugins/loader-cache-state.test.ts:5] evicts the least recently used registry cache entry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader-cache-state.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader-cache-state.test.ts] tracks in-flight loads and reports reentry by cache key",
+TEST_CASE("v4.29 [src/plugins/loader-cache-state.test.ts:20] tracks in-flight loads and reports reentry by cache key",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader-cache-state.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader-cache-state.test.ts] clears registry, in-flight, and warning state together",
+TEST_CASE("v4.29 [src/plugins/loader-cache-state.test.ts:31] clears registry, in-flight, and warning state together",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader-cache-state.test.ts:31",
                "upstream it() block #2",

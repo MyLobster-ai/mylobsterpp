@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts] resolves placeholders by descriptor name",
+TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts:25] resolves placeholders by descriptor name",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-group-descriptors.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts] builds command-group entries with a register mapper",
+TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts:37] builds command-group entries with a register mapper",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-group-descriptors.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts] builds imported specs that lazy-load and register once",
+TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts:55] builds imported specs that lazy-load and register once",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-group-descriptors.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts] builds imported specs from definition arrays",
+TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts:68] builds imported specs from definition arrays",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-group-descriptors.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts] builds program-only imported specs from exported registrar names",
+TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts:99] builds program-only imported specs from exported registrar names",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-group-descriptors.test.ts:99",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts] builds multiple program-only imported specs from definition arrays",
+TEST_CASE("v4.29 [src/cli/program/command-group-descriptors.test.ts:112] builds multiple program-only imported specs from definition arrays",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/command-group-descriptors.test.ts:112",
                "upstream it() block #5",

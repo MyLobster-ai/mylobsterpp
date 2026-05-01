@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-workspace-skill-escape.test.ts] evaluates workspace skill path escape findings",
+TEST_CASE("v4.29 [src/security/audit-workspace-skill-escape.test.ts:21] evaluates workspace skill path escape findings",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-workspace-skill-escape.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-workspace-skill-escape.test.ts] treats an unresolvable realpath (timeout/error simulation) as a potential symlink escape",
+TEST_CASE("v4.29 [src/security/audit-workspace-skill-escape.test.ts:67] treats an unresolvable realpath (timeout/error simulation) as a potential symlink escape",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-workspace-skill-escape.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-workspace-skill-escape.test.ts] surfaces scan_truncated finding when BFS visit cap is hit",
+TEST_CASE("v4.29 [src/security/audit-workspace-skill-escape.test.ts:104] surfaces scan_truncated finding when BFS visit cap is hit",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-workspace-skill-escape.test.ts:104",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/pairing-token.test.ts] uses the configured byte count and returns a base64url token",
+TEST_CASE("v4.29 [src/infra/pairing-token.test.ts:30] uses the configured byte count and returns a base64url token",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-token.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/pairing-token.test.ts] uses constant-time comparison semantics",
+TEST_CASE("v4.29 [src/infra/pairing-token.test.ts:39] uses constant-time comparison semantics",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-token.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/pairing-token.test.ts] rejects blank tokens even when both sides match",
+TEST_CASE("v4.29 [src/infra/pairing-token.test.ts:44] rejects blank tokens even when both sides match",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-token.test.ts:44",
                "upstream it() block #2",

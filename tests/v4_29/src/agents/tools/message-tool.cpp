@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] scopes command-time secret resolution to the selected channel/account",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:239] scopes command-time secret resolution to the selected channel/account",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:239",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] derives agentId from the session key",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:286] derives agentId from the session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:286",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] requires an explicit target for upload-file when configured",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:308] requires an explicit target for upload-file when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:308",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] allows upload-file when an explicit target is provided",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:326] allows upload-file when an explicit target is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:326",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] includes poll in the action enum when the current channel supports poll actions",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:468] includes poll in the action enum when the current channel supports poll actions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:468",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] hides telegram poll extras when telegram polls are disabled in scoped mode",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:482] hides telegram poll extras when telegram polls are disabled in scoped mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:482",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] uses discovery account scope for capability-gated presentation",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:535] uses discovery account scope for capability-gated presentation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:535",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] uses discovery account scope for other configured channel actions",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:567] uses discovery account scope for other configured channel actions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:567",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] routes full discovery context into plugin action discovery",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:610] routes full discovery context into plugin action discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:610",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] forwards senderIsOwner into plugin action discovery",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:657] forwards senderIsOwner into plugin action discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:657",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] keeps core send and broadcast actions in unscoped schemas",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:693] keeps core send and broadcast actions in unscoped schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:693",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] advertises Slack download-file fileId in scoped schemas",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:703] advertises Slack download-file fileId in scoped schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:703",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] surfaces explicit cross-channel target syntax in the target schema",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:777] surfaces explicit cross-channel target syntax in the target schema",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:777",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] hides BlueBubbles group actions for DM targets",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:790] hides BlueBubbles group actions for DM targets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:790",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] describes accepted actions without channel-specific wording when currentChannel is set",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:807] describes accepted actions without channel-specific wording when currentChannel is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:807",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] does not advertise cross-channel actions whose params are hidden by current-channel schema",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:844] does not advertise cross-channel actions whose params are hidden by current-channel schema",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:844",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] normalizes channel aliases before building the current channel description",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:895] normalizes channel aliases before building the current channel description",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:895",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] keeps the current-channel description stable when only one channel is configured",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:918] keeps the current-channel description stable when only one channel is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:918",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] includes the thread read hint when the current channel supports read",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:933] includes the thread read hint when the current channel supports read",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:933",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] omits the thread read hint when the current channel does not support read",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:954] omits the thread read hint when the current channel does not support read",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:954",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] includes the thread read hint in the generic fallback when configured actions include read",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:975] includes the thread read hint in the generic fallback when configured actions include read",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:975",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] includes broadcast in the generic fallback description",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:996] includes broadcast in the generic fallback description",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:996",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] forwards trusted requesterSenderId to runMessageAction",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:1069] forwards trusted requesterSenderId to runMessageAction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:1069",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts] forwards senderIsOwner to runMessageAction",
+TEST_CASE("v4.29 [src/agents/tools/message-tool.test.ts:1083] forwards senderIsOwner to runMessageAction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/message-tool.test.ts:1083",
                "upstream it() block #23",

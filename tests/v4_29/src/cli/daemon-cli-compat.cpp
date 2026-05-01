@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts] resolves aliased daemon-cli exports from a bundled chunk",
+TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts:9] resolves aliased daemon-cli exports from a bundled chunk",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli-compat.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts] returns null when required aliases are missing",
+TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts:26] returns null when required aliases are missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli-compat.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts] returns null when the required restart alias is missing",
+TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts:38] returns null when the required restart alias is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli-compat.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts] resolves split register and runner bundles",
+TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts:47] resolves split register and runner bundles",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli-compat.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts] resolves partial runner bundles for split runtime chunks",
+TEST_CASE("v4.29 [src/cli/daemon-cli-compat.test.ts:67] resolves partial runner bundles for split runtime chunks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli-compat.test.ts:67",
                "upstream it() block #4",

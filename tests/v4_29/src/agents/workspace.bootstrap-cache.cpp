@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] returns cached content when mtime unchanged",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:38] returns cached content when mtime unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] invalidates cache when mtime changes",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:58] invalidates cache when mtime changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] refreshes session bootstrap snapshots after workspace file changes",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:88] refreshes session bootstrap snapshots after workspace file changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] invalidates cache when inode changes with same mtime",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:114] invalidates cache when inode changes with same mtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] handles file deletion gracefully",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:142] handles file deletion gracefully",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:142",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] handles concurrent access",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:162] handles concurrent access",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:162",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] caches files independently by path",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:178] caches files independently by path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:178",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts] returns missing=true when bootstrap file never existed",
+TEST_CASE("v4.29 [src/agents/workspace.bootstrap-cache.test.ts:200] returns missing=true when bootstrap file never existed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.bootstrap-cache.test.ts:200",
                "upstream it() block #7",

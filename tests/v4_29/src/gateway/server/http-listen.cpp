@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/http-listen.test.ts] retries EADDRINUSE and closes server handle before retry",
+TEST_CASE("v4.29 [src/gateway/server/http-listen.test.ts:45] retries EADDRINUSE and closes server handle before retry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/http-listen.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/http-listen.test.ts] throws GatewayLockError after EADDRINUSE retries are exhausted",
+TEST_CASE("v4.29 [src/gateway/server/http-listen.test.ts:64] throws GatewayLockError after EADDRINUSE retries are exhausted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/http-listen.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/http-listen.test.ts] wraps non-EADDRINUSE errors as GatewayLockError",
+TEST_CASE("v4.29 [src/gateway/server/http-listen.test.ts:86] wraps non-EADDRINUSE errors as GatewayLockError",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/http-listen.test.ts:86",
                "upstream it() block #2",

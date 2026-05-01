@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts] accepts direct handoff replies that mention the kickoff task",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts:5] accepts direct handoff replies that mention the kickoff task",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-switch-eval.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts] accepts short mission-oriented switch confirmations",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts:13] accepts short mission-oriented switch confirmations",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-switch-eval.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts] accepts concise kickoff note confirmations",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts:21] accepts concise kickoff note confirmations",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-switch-eval.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts] accepts concise paraphrases of the kickoff task after a handoff",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts:29] accepts concise paraphrases of the kickoff task after a handoff",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-switch-eval.test.ts:29",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts] rejects unrelated handoff chatter that never confirms the kickoff reread",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts:37] rejects unrelated handoff chatter that never confirms the kickoff reread",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-switch-eval.test.ts:37",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts] rejects over-scoped multi-line wrap-ups even if they mention a switch and the mission",
+TEST_CASE("v4.29 [extensions/qa-lab/src/model-switch-eval.test.ts:45] rejects over-scoped multi-line wrap-ups even if they mention a switch and the mission",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/model-switch-eval.test.ts:45",
                "upstream it() block #5",

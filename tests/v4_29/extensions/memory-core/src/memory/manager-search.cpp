@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search.test.ts] streams fallback chunk scoring without materializing candidates",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search.test.ts:426] streams fallback chunk scoring without materializing candidates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-search.test.ts:426",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search.test.ts] fills the requested limit after model filters prune nearest KNN candidates",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-search.test.ts:518] fills the requested limit after model filters prune nearest KNN candidates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-search.test.ts:518",
                "upstream it() block #1",

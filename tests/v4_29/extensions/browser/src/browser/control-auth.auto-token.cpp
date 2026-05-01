@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] returns existing auth and skips writes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:149] returns existing auth and skips writes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:149",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] returns only the active credential in password mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:166] returns only the active credential in password mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:166",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] returns only the resolved active credential when mode is inferred",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:182] returns only the resolved active credential when mode is inferred",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] returns only the browser token in none mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:197] returns only the browser token in none mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:197",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] returns only the active token in token mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:213] returns only the active token in token mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:213",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] returns only the browser password in trusted-proxy mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:229] returns only the browser password in trusted-proxy mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:229",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] does not accept an inactive token in trusted-proxy mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:246] does not accept an inactive token in trusted-proxy mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:246",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] auto-generates and persists a token when auth is missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:260] auto-generates and persists a token when auth is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:260",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] skips auto-generation in test env",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:277] skips auto-generation in test env",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:277",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] respects explicit password mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:295] respects explicit password mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:295",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] auto-generates and persists browser auth token in none mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:299] auto-generates and persists browser auth token in none mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:299",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] does not persist over unresolved token SecretRef in none mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:315] does not persist over unresolved token SecretRef in none mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:315",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] still auto-generates in none mode when only password SecretRef is set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:330] still auto-generates in none mode when only password SecretRef is set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:330",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] auto-generates in trusted-proxy mode and persists browser auth password",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:349] auto-generates in trusted-proxy mode and persists browser auth password",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:349",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] still auto-generates in trusted-proxy mode when only token SecretRef is set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:365] still auto-generates in trusted-proxy mode when only token SecretRef is set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:365",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] does not persist over unresolved password SecretRef in trusted-proxy mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:385] does not persist over unresolved password SecretRef in trusted-proxy mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:385",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] reuses auth from latest config snapshot",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:401] reuses auth from latest config snapshot",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:401",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts] fails when gateway.auth.token SecretRef is unresolved",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.auto-token.test.ts:425] fails when gateway.auth.token SecretRef is unresolved",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.auto-token.test.ts:425",
                "upstream it() block #17",

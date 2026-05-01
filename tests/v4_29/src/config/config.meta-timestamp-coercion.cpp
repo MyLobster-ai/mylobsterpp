@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts] accepts a numeric Unix timestamp and coerces it to an ISO string",
+TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts:5] accepts a numeric Unix timestamp and coerces it to an ISO string",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.meta-timestamp-coercion.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts] still accepts a string ISO timestamp unchanged",
+TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts:19] still accepts a string ISO timestamp unchanged",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.meta-timestamp-coercion.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts] rejects out-of-range numeric timestamps without throwing",
+TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts:32] rejects out-of-range numeric timestamps without throwing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.meta-timestamp-coercion.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts] passes non-date strings through unchanged (backwards-compatible)",
+TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts:41] passes non-date strings through unchanged (backwards-compatible)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.meta-timestamp-coercion.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts] accepts meta with only lastTouchedVersion (no lastTouchedAt)",
+TEST_CASE("v4.29 [src/config/config.meta-timestamp-coercion.test.ts:53] accepts meta with only lastTouchedVersion (no lastTouchedAt)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.meta-timestamp-coercion.test.ts:53",
                "upstream it() block #4",

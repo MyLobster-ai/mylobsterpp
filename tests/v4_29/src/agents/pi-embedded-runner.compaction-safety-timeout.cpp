@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] rejects with timeout when compaction never settles",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:19] rejects with timeout when compaction never settles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns result and clears timer when compaction settles first",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:29] returns result and clears timer when compaction settles first",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] preserves compaction errors and clears timer",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:41] preserves compaction errors and clears timer",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] calls onCancel when compaction times out",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:53] calls onCancel when compaction times out",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] aborts early on external abort signal and calls onCancel once",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:68] aborts early on external abort signal and calls onCancel once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] ignores onCancel errors and still rejects with the timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:86] ignores onCancel errors and still rejects with the timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default when config is undefined",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:102] returns default when config is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:102",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default when compaction config is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:106] returns default when compaction config is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:106",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default when timeoutSeconds is not set",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:112] returns default when timeoutSeconds is not set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:112",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] converts timeoutSeconds to milliseconds",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:118] converts timeoutSeconds to milliseconds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:118",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] floors fractional seconds",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:126] floors fractional seconds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:126",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default for zero",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:134] returns default for zero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:134",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default for negative values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:140] returns default for negative values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:140",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default for NaN",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:146] returns default for NaN",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:146",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts] returns default for Infinity",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:154] returns default for Infinity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.compaction-safety-timeout.test.ts:154",
                "upstream it() block #14",

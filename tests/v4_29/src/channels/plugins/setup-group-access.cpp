@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] splits comma/newline/semicolon-separated entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:31] splits comma/newline/semicolon-separated entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] formats compact comma-separated output",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:42] formats compact comma-separated output",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] uses existing entries as initial value",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:48] uses existing entries as initial value",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] returns selected policy",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:69] returns selected policy",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] skips the allowlist text prompt when entries are policy-only",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:85] skips the allowlist text prompt when entries are policy-only",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] returns null when user skips configuration",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:105] returns null when user skips configuration",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:105",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] returns allowlist entries when policy is allowlist",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:118] returns allowlist entries when policy is allowlist",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:118",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts] returns non-allowlist policy with empty entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-group-access.test.ts:136] returns non-allowlist policy with empty entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-group-access.test.ts:136",
                "upstream it() block #7",

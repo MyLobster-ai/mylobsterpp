@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] writes and consumes a sentinel",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:34] writes and consumes a sentinel",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] drops invalid sentinel payloads",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:63] drops invalid sentinel payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] drops structurally invalid sentinel payloads",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:76] drops structurally invalid sentinel payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] formatRestartSentinelMessage uses custom message when present",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:87] formatRestartSentinelMessage uses custom message when present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] uses the exact auto-recovery message for config recovery notices",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:97] uses the exact auto-recovery message for config recovery notices",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] formatRestartSentinelMessage falls back to summary when no message",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:111] formatRestartSentinelMessage falls back to summary when no message",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:111",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] formatRestartSentinelMessage falls back to summary for blank message",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:124] formatRestartSentinelMessage falls back to summary for blank message",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:124",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] formats summary, distinct reason, and doctor hint together",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:135] formats summary, distinct reason, and doctor hint together",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:135",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] trims log tails",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:155] trims log tails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] formats restart messages without volatile timestamps",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:162] formats restart messages without volatile timestamps",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:162",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] summarizes restart payloads and trims log tails without trailing whitespace",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:178] summarizes restart payloads and trims log tails without trailing whitespace",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:178",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] writes the running version back to update sentinels on startup",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:190] writes the running version back to update sentinels on startup",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:190",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] marks update restart failures with a stable reason",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:216] marks update restart failures with a stable reason",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:216",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] builds the default agent turn for session-scoped restarts",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:241] builds the default agent turn for session-scoped restarts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:241",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] keeps explicit continuation messages",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:248] keeps explicit continuation messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:248",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] stays silent without session context",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:260] stays silent without session context",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:260",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] omits duplicate Reason: line when stats.reason matches message",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:266] omits duplicate Reason: line when stats.reason matches message",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:266",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] keeps Reason: line when stats.reason differs from message",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:281] keeps Reason: line when stats.reason differs from message",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:281",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts] formats the non-interactive doctor command",
+TEST_CASE("v4.29 [src/infra/restart-sentinel.test.ts:294] formats the non-interactive doctor command",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-sentinel.test.ts:294",
                "upstream it() block #18",

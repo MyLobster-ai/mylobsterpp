@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/extension-package-tsc-boundary.test.ts] typechecks each opt-in extension cleanly through @openclaw/plugin-sdk",
+TEST_CASE("v4.29 [test/extension-package-tsc-boundary.test.ts:27] typechecks each opt-in extension cleanly through @openclaw/plugin-sdk",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-package-tsc-boundary.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/extension-package-tsc-boundary.test.ts] fails when opt-in extensions import src/cli through a relative path",
+TEST_CASE("v4.29 [test/extension-package-tsc-boundary.test.ts:32] fails when opt-in extensions import src/cli through a relative path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-package-tsc-boundary.test.ts:32",
                "upstream it() block #1",

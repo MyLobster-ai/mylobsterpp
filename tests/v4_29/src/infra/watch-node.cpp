@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] wires chokidar watch to run-node with watched source/config paths",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:86] wires chokidar watch to run-node with watched source/config paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:86",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] terminates child on SIGINT and returns shell interrupt code",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:158] terminates child on SIGINT and returns shell interrupt code",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:158",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] terminates child on SIGTERM and returns shell terminate code",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:179] terminates child on SIGTERM and returns shell terminate code",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:179",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] returns the child exit code when the runner exits on its own",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:200] returns the child exit code when the runner exits on its own",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:200",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] restarts when the runner exits with a SIGTERM-derived code unexpectedly",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:220] restarts when the runner exits with a SIGTERM-derived code unexpectedly",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:220",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] forces no-respawn for watch children even when supervisor hints are inherited",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:241] forces no-respawn for watch children even when supervisor hints are inherited",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:241",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] ignores test-only changes and restarts on non-test source changes",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:274] ignores test-only changes and restarts on non-test source changes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:274",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] kills child and exits when watcher emits an error",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:329] kills child and exits when watcher emits an error",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] prints recovery guidance when chokidar fails with invalid package config",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:348] prints recovery guidance when chokidar fails with invalid package config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:348",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] does not log non-package-config chokidar import errors before rethrowing",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:389] does not log non-package-config chokidar import errors before rethrowing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:389",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/watch-node.test.ts] replaces an existing watcher lock holder before starting",
+TEST_CASE("v4.29 [src/infra/watch-node.test.ts:411] replaces an existing watcher lock holder before starting",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/watch-node.test.ts:411",
                "upstream it() block #10",

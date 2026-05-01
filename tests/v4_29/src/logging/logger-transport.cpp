@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/logger-transport.test.ts] does not expose production or test log transport registration",
+TEST_CASE("v4.29 [src/logging/logger-transport.test.ts:40] does not expose production or test log transport registration",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-transport.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-transport.test.ts] does not publish mutable log transport state on a well-known global symbol",
+TEST_CASE("v4.29 [src/logging/logger-transport.test.ts:51] does not publish mutable log transport state on a well-known global symbol",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-transport.test.ts:51",
                "upstream it() block #1",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts] falls back to full provider plugins when discovery entries only expose static catalogs",
+TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts:93] falls back to full provider plugins when discovery entries only expose static catalogs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-discovery.runtime.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts] keeps unscoped discovery bounded for mixed live and static-only entries",
+TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts:107] keeps unscoped discovery bounded for mixed live and static-only entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-discovery.runtime.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts] shares one registry snapshot and manifest registry between provider id discovery and entry loading",
+TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts:153] shares one registry snapshot and manifest registry between provider id discovery and entry loading",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-discovery.runtime.test.ts:153",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts] uses a provided plugin metadata snapshot without rebuilding registry metadata",
+TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts:182] uses a provided plugin metadata snapshot without rebuilding registry metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-discovery.runtime.test.ts:182",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts] returns static-only discovery entries for callers that explicitly request them",
+TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts:216] returns static-only discovery entries for callers that explicitly request them",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-discovery.runtime.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts] does not fall back to full plugin loading when discovery entries are requested only",
+TEST_CASE("v4.29 [src/plugins/provider-discovery.runtime.test.ts:230] does not fall back to full plugin loading when discovery entries are requested only",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-discovery.runtime.test.ts:230",
                "upstream it() block #5",

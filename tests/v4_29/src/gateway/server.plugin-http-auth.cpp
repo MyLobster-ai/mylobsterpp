@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] applies default security headers and optional strict transport security",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:162] applies default security headers and optional strict transport security",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] serves unauthenticated liveness/readiness probe routes when no other route handles them",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:190] serves unauthenticated liveness/readiness probe routes when no other route handles them",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:190",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] reserves gateway probe routes ahead of plugin routes",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:200] reserves gateway probe routes ahead of plugin routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:200",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] rejects non-GET/HEAD methods on probe routes",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:213] rejects non-GET/HEAD methods on probe routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:213",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] requires gateway auth for protected plugin route space and allows authenticated pass-through",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:230] requires gateway auth for protected plugin route space and allows authenticated pass-through",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:230",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] preserves trusted-proxy read scopes for gateway-auth plugin runtime routes",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:289] preserves trusted-proxy read scopes for gateway-auth plugin runtime routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:289",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] keeps write runtime scopes for shared-secret bearer gateway-auth plugin routes",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:345] keeps write runtime scopes for shared-secret bearer gateway-auth plugin routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:345",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] allows trusted-operator plugin routes to resolve admin-capable runtime scopes for shared-secret bearer auth without scope headers",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:386] allows trusted-operator plugin routes to resolve admin-capable runtime scopes for shared-secret bearer auth without scope headers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:386",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] allows unauthenticated Mattermost slash callback routes while keeping other channel routes protected",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:429] allows unauthenticated Mattermost slash callback routes while keeping other channel routes protected",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:429",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] does not bypass auth when mattermost callbackPath points to non-mattermost channel routes",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:470] does not bypass auth when mattermost callbackPath points to non-mattermost channel routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:470",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] keeps wildcard plugin handlers ungated when auth enforcement predicate excludes their paths",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:502] keeps wildcard plugin handlers ungated when auth enforcement predicate excludes their paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:502",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] uses /api/channels auth by default while keeping wildcard handlers ungated with no predicate",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:541] uses /api/channels auth by default while keeping wildcard handlers ungated with no predicate",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:541",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] serves plugin routes before control ui spa fallback",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:596] serves plugin routes before control ui spa fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:596",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] passes POST webhook routes through root-mounted control ui to plugins",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:623] passes POST webhook routes through root-mounted control ui to plugins",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:623",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] plugin routes take priority over control ui catch-all",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:651] plugin routes take priority over control ui catch-all",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:651",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] unmatched plugin paths fall through to control ui",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:676] unmatched plugin paths fall through to control ui",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:676",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] root-mounted control ui does not swallow gateway probe routes",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:692] root-mounted control ui does not swallow gateway probe routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:692",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] root-mounted control ui keeps gateway probe routes reserved ahead of plugins",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:705] root-mounted control ui keeps gateway probe routes reserved ahead of plugins",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:705",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] requires gateway auth for canonicalized /api/channels variants",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:717] requires gateway auth for canonicalized /api/channels variants",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:717",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] rejects unauthenticated plugin-channel fuzz corpus variants",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:738] rejects unauthenticated plugin-channel fuzz corpus variants",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:738",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] enforces auth before plugin handlers on encoded protected-path variants",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:755] enforces auth before plugin handlers on encoded protected-path variants",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:755",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts] rejects query-token hooks requests with bindHost=::",
+TEST_CASE("v4.29 [src/gateway/server.plugin-http-auth.test.ts:795] rejects query-token hooks requests with bindHost=::",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.plugin-http-auth.test.ts:795",
                "upstream it() block #21",

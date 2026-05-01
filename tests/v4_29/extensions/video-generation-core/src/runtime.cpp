@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/video-generation-core/src/runtime.test.ts] delegates video generation to the shared runtime surface",
+TEST_CASE("v4.29 [extensions/video-generation-core/src/runtime.test.ts:20] delegates video generation to the shared runtime surface",
           "[v4_29][parity_gap][video-generation-core]") {
     PARITY_GAP("extensions/video-generation-core/src/runtime.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/video-generation-core/src/runtime.test.ts] delegates provider listing to the shared runtime surface",
+TEST_CASE("v4.29 [extensions/video-generation-core/src/runtime.test.ts:38] delegates provider listing to the shared runtime surface",
           "[v4_29][parity_gap][video-generation-core]") {
     PARITY_GAP("extensions/video-generation-core/src/runtime.test.ts:38",
                "upstream it() block #1",

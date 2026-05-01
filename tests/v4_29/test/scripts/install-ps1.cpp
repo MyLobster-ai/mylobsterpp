@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/install-ps1.test.ts] does not exit directly from inside Main",
+TEST_CASE("v4.29 [test/scripts/install-ps1.test.ts:63] does not exit directly from inside Main",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-ps1.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/install-ps1.test.ts] keeps failure termination in the top-level completion handler",
+TEST_CASE("v4.29 [test/scripts/install-ps1.test.ts:69] keeps failure termination in the top-level completion handler",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/install-ps1.test.ts:69",
                "upstream it() block #1",

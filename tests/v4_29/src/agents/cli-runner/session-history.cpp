@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] reads the canonical session transcript instead of an arbitrary external path",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:67] reads the canonical session transcript instead of an arbitrary external path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] keeps only the newest bounded history window",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:98] keeps only the newest bounded history window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] rejects symlinked transcripts instead of following them outside the sessions directory",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:128] rejects symlinked transcripts instead of following them outside the sessions directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] drops oversized transcript files instead of loading them into hook payloads",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:163] drops oversized transcript files instead of loading them into hook payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:163",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] honors custom session store roots when resolving hook history transcripts",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:190] honors custom session store roots when resolving hook history transcripts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:190",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] does not reseed fresh CLI sessions from raw transcript history before compaction",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:229] does not reseed fresh CLI sessions from raw transcript history before compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:229",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] reseeds fresh CLI sessions from the latest compaction summary and post-compaction tail",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:252] reseeds fresh CLI sessions from the latest compaction summary and post-compaction tail",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:252",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] renders OpenClaw transcript history around the next user message",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:310] renders OpenClaw transcript history around the next user message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:310",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] skips reseed text when the transcript has no renderable conversation",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:324] skips reseed text when the transcript has no renderable conversation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:324",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts] caps rendered reseed history before adding the next user message",
+TEST_CASE("v4.29 [src/agents/cli-runner/session-history.test.ts:333] caps rendered reseed history before adding the next user message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/session-history.test.ts:333",
                "upstream it() block #9",

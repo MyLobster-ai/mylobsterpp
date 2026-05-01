@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-auth.test.ts] normalizes allowlist entries and resolves effective lists",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-auth.test.ts:42] normalizes allowlist entries and resolves effective lists",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-auth.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-auth.test.ts] checks sender allowlists against normalized ids and names",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-auth.test.ts:74] checks sender allowlists against normalized ids and names",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-auth.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-auth.test.ts] requires open direct messages to match the effective allowlist",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-auth.test.ts:92] requires open direct messages to match the effective allowlist",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-auth.test.ts:92",
                "upstream it() block #2",

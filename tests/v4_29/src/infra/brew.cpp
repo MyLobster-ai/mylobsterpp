@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] resolves brew from ~/.linuxbrew/bin when executable exists",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:14] resolves brew from ~/.linuxbrew/bin when executable exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] prefers HOMEBREW_PREFIX/bin/brew when present",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:25] prefers HOMEBREW_PREFIX/bin/brew when present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] prefers HOMEBREW_BREW_FILE over prefix and trims value",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:41] prefers HOMEBREW_BREW_FILE over prefix and trims value",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] falls back to prefix when HOMEBREW_BREW_FILE is missing or not executable",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:57] falls back to prefix when HOMEBREW_BREW_FILE is missing or not executable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] ignores blank HOMEBREW_BREW_FILE and HOMEBREW_PREFIX values",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:82] ignores blank HOMEBREW_BREW_FILE and HOMEBREW_PREFIX values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] always includes the standard macOS brew dirs after linuxbrew candidates",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:101] always includes the standard macOS brew dirs after linuxbrew candidates",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/brew.test.ts] includes Linuxbrew bin/sbin in path candidates",
+TEST_CASE("v4.29 [src/infra/brew.test.ts:111] includes Linuxbrew bin/sbin in path candidates",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/brew.test.ts:111",
                "upstream it() block #6",

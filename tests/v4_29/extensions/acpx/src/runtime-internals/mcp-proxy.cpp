@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime-internals/mcp-proxy.test.ts] injects configured MCP servers into ACP session bootstrap requests",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime-internals/mcp-proxy.test.ts:31] injects configured MCP servers into ACP session bootstrap requests",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime-internals/mcp-proxy.test.ts:31",
                "upstream it() block #0",

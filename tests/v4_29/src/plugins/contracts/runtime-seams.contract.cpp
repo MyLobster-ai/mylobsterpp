@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/runtime-seams.contract.test.ts] allows activated runtime facades when the resolved plugin root matches an installed-style manifest record",
+TEST_CASE("v4.29 [src/plugins/contracts/runtime-seams.contract.test.ts:94] allows activated runtime facades when the resolved plugin root matches an installed-style manifest record",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/runtime-seams.contract.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/runtime-seams.contract.test.ts] keeps guarded fetch on mocked global fetches even when a dispatcher is attached",
+TEST_CASE("v4.29 [src/plugins/contracts/runtime-seams.contract.test.ts:134] keeps guarded fetch on mocked global fetches even when a dispatcher is attached",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/runtime-seams.contract.test.ts:134",
                "upstream it() block #1",

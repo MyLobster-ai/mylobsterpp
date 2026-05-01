@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.e2e-test-helpers.test.ts] writes SKILL.md with required fields",
+TEST_CASE("v4.29 [src/agents/skills.e2e-test-helpers.test.ts:24] writes SKILL.md with required fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.e2e-test-helpers.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.e2e-test-helpers.test.ts] includes optional metadata, body, and frontmatterExtra",
+TEST_CASE("v4.29 [src/agents/skills.e2e-test-helpers.test.ts:39] includes optional metadata, body, and frontmatterExtra",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.e2e-test-helpers.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.e2e-test-helpers.test.ts] keeps empty body and trims blank frontmatter extra entries",
+TEST_CASE("v4.29 [src/agents/skills.e2e-test-helpers.test.ts:57] keeps empty body and trims blank frontmatter extra entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.e2e-test-helpers.test.ts:57",
                "upstream it() block #2",

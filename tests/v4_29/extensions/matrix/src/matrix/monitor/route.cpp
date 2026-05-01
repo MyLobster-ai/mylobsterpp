@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] prefers sender-bound DM routing over DM room fallback bindings",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:72] prefers sender-bound DM routing over DM room fallback bindings",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] uses the DM room as a parent-peer fallback before account-level bindings",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:89] uses the DM room as a parent-peer fallback before account-level bindings",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] can isolate Matrix DMs per room without changing agent selection",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:103] can isolate Matrix DMs per room without changing agent selection",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] lets configured ACP room bindings override DM parent-peer routing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:121] lets configured ACP room bindings override DM parent-peer routing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] keeps configured ACP room bindings ahead of per-room DM session scope",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:139] keeps configured ACP room bindings ahead of per-room DM session scope",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] lets runtime conversation bindings override both sender and room route matches",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:160] lets runtime conversation bindings override both sender and room route matches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:160",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] scopes session key to thread when a thread id is provided",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:213] scopes session key to thread when a thread id is provided",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:213",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] preserves mixed-case matrix thread ids in session keys",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:229] preserves mixed-case matrix thread ids in session keys",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:229",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts] does not scope session key when thread id is absent",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/route.test.ts:243] does not scope session key when thread id is absent",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/route.test.ts:243",
                "upstream it() block #8",

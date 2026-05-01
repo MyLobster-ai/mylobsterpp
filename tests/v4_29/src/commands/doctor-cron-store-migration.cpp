@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] normalizes legacy cron fields and reports migration issues",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:33] normalizes legacy cron fields and reports migration issues",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] normalizes payload provider alias into channel",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:80] normalizes payload provider alias into channel",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] does not report legacyPayloadKind for already-normalized payload kinds",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:109] does not report legacyPayloadKind for already-normalized payload kinds",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] normalizes whitespace-padded and non-canonical payload kinds",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:130] normalizes whitespace-padded and non-canonical payload kinds",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] normalizes isolated legacy jobs without mutating runtime code paths",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:164] normalizes isolated legacy jobs without mutating runtime code paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:164",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] preserves stored custom session targets",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:205] preserves stored custom session targets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:205",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] adds anchorMs to legacy every schedules",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:223] adds anchorMs to legacy every schedules",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:223",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] adds default staggerMs to legacy recurring top-of-hour cron schedules",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:240] adds default staggerMs to legacy recurring top-of-hour cron schedules",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:240",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] adds default staggerMs to legacy 6-field top-of-hour cron schedules",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:254] adds default staggerMs to legacy 6-field top-of-hour cron schedules",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:254",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] removes invalid legacy staggerMs from non top-of-hour cron schedules",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:268] removes invalid legacy staggerMs from non top-of-hour cron schedules",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:268",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts] migrates legacy string schedules and command-only payloads (#18445)",
+TEST_CASE("v4.29 [src/commands/doctor-cron-store-migration.test.ts:287] migrates legacy string schedules and command-only payloads (#18445)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-store-migration.test.ts:287",
                "upstream it() block #10",

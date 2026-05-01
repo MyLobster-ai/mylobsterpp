@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts] classifies blocked ip literals as private",
+TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts:98] classifies blocked ip literals as private",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.test.ts:98",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts] classifies public ip literals as non-private",
+TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts:105] classifies public ip literals as non-private",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts] does not treat hostnames as ip literals",
+TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts:109] does not treat hostnames as ip literals",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts] builds an allowed-hostname policy from HTTP base URLs",
+TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts:115] builds an allowed-hostname policy from HTTP base URLs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts] ignores empty, invalid, and non-HTTP URLs",
+TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts:121] ignores empty, invalid, and non-HTTP URLs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.test.ts:121",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts] compares policy fields semantically",
+TEST_CASE("v4.29 [src/infra/net/ssrf.test.ts:193] compares policy fields semantically",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.test.ts:193",
                "upstream it() block #5",

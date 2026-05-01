@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts] registers and lists adapters in insertion order",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts:105] registers and lists adapters in insertion order",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-providers.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts] restores a previous snapshot",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts:117] restores a previous snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-providers.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts] clears the registry",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts:151] clears the registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-providers.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts] stores adapters in a process-global singleton map",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-providers.test.ts:159] stores adapters in a process-global singleton map",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-providers.test.ts:159",
                "upstream it() block #3",

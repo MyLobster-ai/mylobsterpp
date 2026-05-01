@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qwen/provider-catalog.test.ts] builds the bundled Qwen provider defaults",
+TEST_CASE("v4.29 [extensions/qwen/provider-catalog.test.ts:11] builds the bundled Qwen provider defaults",
           "[v4_29][parity_gap][qwen]") {
     PARITY_GAP("extensions/qwen/provider-catalog.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qwen/provider-catalog.test.ts] only advertises qwen3.6-plus on Standard endpoints",
+TEST_CASE("v4.29 [extensions/qwen/provider-catalog.test.ts:21] only advertises qwen3.6-plus on Standard endpoints",
           "[v4_29][parity_gap][qwen]") {
     PARITY_GAP("extensions/qwen/provider-catalog.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qwen/provider-catalog.test.ts] opts native Qwen baseUrls into streaming usage only inside the extension",
+TEST_CASE("v4.29 [extensions/qwen/provider-catalog.test.ts:33] opts native Qwen baseUrls into streaming usage only inside the extension",
           "[v4_29][parity_gap][qwen]") {
     PARITY_GAP("extensions/qwen/provider-catalog.test.ts:33",
                "upstream it() block #2",

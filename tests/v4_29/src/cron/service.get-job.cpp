@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.get-job.test.ts] returns added jobs and undefined for missing ids",
+TEST_CASE("v4.29 [src/cron/service.get-job.test.ts:25] returns added jobs and undefined for missing ids",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.get-job.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.get-job.test.ts] preserves webhook delivery on create",
+TEST_CASE("v4.29 [src/cron/service.get-job.test.ts:47] preserves webhook delivery on create",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.get-job.test.ts:47",
                "upstream it() block #1",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/daemon-install-runtime-warning.test.ts] skips lookup when runtime is not node",
+TEST_CASE("v4.29 [src/commands/daemon-install-runtime-warning.test.ts:20] skips lookup when runtime is not node",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-runtime-warning.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-runtime-warning.test.ts] emits warning when system node check returns one",
+TEST_CASE("v4.29 [src/commands/daemon-install-runtime-warning.test.ts:33] emits warning when system node check returns one",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-runtime-warning.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-runtime-warning.test.ts] does not emit when warning helper returns null",
+TEST_CASE("v4.29 [src/commands/daemon-install-runtime-warning.test.ts:56] does not emit when warning helper returns null",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-runtime-warning.test.ts:56",
                "upstream it() block #2",

@@ -5,264 +5,264 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] ignores verbose directive inside URL",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:16] ignores verbose directive inside URL",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] ignores typoed /verioussmith",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:23] ignores typoed /verioussmith",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] ignores think directive inside URL",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:30] ignores think directive inside URL",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches verbose with leading space",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:36] matches verbose with leading space",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches trace with leading space",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:42] matches trace with leading space",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches raw trace directive",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:48] matches raw trace directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:48",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches reasoning directive",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:54] matches reasoning directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:54",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches reasoning stream directive",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:60] matches reasoning stream directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:60",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches fast directive",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:66] matches fast directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:66",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches elevated with leading space",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:72] matches elevated with leading space",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:72",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches elevated ask",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:77] matches elevated ask",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:77",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches elevated full",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:82] matches elevated full",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:82",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches think at start of line",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:88] matches think at start of line",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:88",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] does not match /think followed by extra letters",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:94] does not match /think followed by extra letters",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:94",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches /think with no argument",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:100] matches /think with no argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:100",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches /t with no argument",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:107] matches /t with no argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:107",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches think with no argument and consumes colon",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:113] matches think with no argument and consumes colon",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:113",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches verbose with no argument",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:121] matches verbose with no argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:121",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches fast with no argument",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:129] matches fast with no argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:129",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches reasoning with no argument",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:137] matches reasoning with no argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:137",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches elevated with no argument",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:145] matches elevated with no argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:145",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches exec directive with options",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:153] matches exec directive with options",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:153",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] captures invalid exec host values",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:165] captures invalid exec host values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:165",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] matches queue directive",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:173] matches queue directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:173",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] keeps legacy queue directive as queue mode",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:181] keeps legacy queue directive as queue mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:181",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] strips inline /model and /think directives while keeping user text",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:188] strips inline /model and /think directives while keeping user text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:188",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] preserves spacing when stripping think directives before paths",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:202] preserves spacing when stripping think directives before paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:202",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] preserves spacing when stripping verbose directives before paths",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:208] preserves spacing when stripping verbose directives before paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:208",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] preserves spacing when stripping reasoning directives before paths",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:214] preserves spacing when stripping reasoning directives before paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:214",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] preserves spacing when stripping status directives before paths",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:220] preserves spacing when stripping status directives before paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:220",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] does not treat /usage as a status directive",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:226] does not treat /usage as a status directive",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:226",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] parses queue options and modes",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:232] parses queue options and modes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:232",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] extracts reply_to_current tag",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:244] extracts reply_to_current tag",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:244",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] extracts reply_to_current tag with whitespace",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:250] extracts reply_to_current tag with whitespace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:250",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] extracts reply_to id tag",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:256] extracts reply_to id tag",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:256",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] extracts reply_to id tag with whitespace",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:262] extracts reply_to id tag with whitespace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:262",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts] preserves newlines when stripping reply tags",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.parse.test.ts:268] preserves newlines when stripping reply tags",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.parse.test.ts:268",
                "upstream it() block #36",

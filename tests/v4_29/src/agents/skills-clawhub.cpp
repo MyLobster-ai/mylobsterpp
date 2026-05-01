@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] installs ClawHub skills from flat-root archives",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:82] installs ClawHub skills from flat-root archives",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] updates all tracked legacy Unicode slugs in place",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:160] updates all tracked legacy Unicode slugs in place",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:160",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] updates a legacy Unicode slug when requested explicitly",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:188] updates a legacy Unicode slug when requested explicitly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:188",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] still rejects an untracked Unicode slug passed to update",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:208] still rejects an untracked Unicode slug passed to update",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:208",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects Cyrillic homograph ",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:225] rejects Cyrillic homograph ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:225",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects Cyrillic homograph ",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:236] rejects Cyrillic homograph ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:236",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects Cyrillic homograph ",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:247] rejects Cyrillic homograph ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:247",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects slug with mixed Unicode and ASCII",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:258] rejects slug with mixed Unicode and ASCII",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:258",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects slug with non-Latin scripts",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:269] rejects slug with non-Latin scripts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:269",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects Unicode that case-folds to ASCII (Kelvin sign U+212A)",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:280] rejects Unicode that case-folds to ASCII (Kelvin sign U+212A)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:280",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects slug starting with a hyphen",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:292] rejects slug starting with a hyphen",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:292",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] rejects slug ending with a hyphen",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:303] rejects slug ending with a hyphen",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:303",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] accepts uppercase ASCII slugs (preserves original casing behavior)",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:314] accepts uppercase ASCII slugs (preserves original casing behavior)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:314",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] accepts valid lowercase ASCII slugs",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:322] accepts valid lowercase ASCII slugs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:322",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts] uses search for browse-all skill discovery",
+TEST_CASE("v4.29 [src/agents/skills-clawhub.test.ts:331] uses search for browse-all skill discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-clawhub.test.ts:331",
                "upstream it() block #14",

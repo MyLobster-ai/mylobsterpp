@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts] preserves the REST client",
+TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts:9] preserves the REST client",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/proxy-request-client.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts] lets the REST client abort hanging proxied requests after its timeout",
+TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts:25] lets the REST client abort hanging proxied requests after its timeout",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/proxy-request-client.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts] lets abortAllRequests cancel active proxied fetches",
+TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts:37] lets abortAllRequests cancel active proxied fetches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/proxy-request-client.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts] provides the REST client",
+TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts:55] provides the REST client",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/proxy-request-client.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts] exports a reasonable timeout constant",
+TEST_CASE("v4.29 [extensions/discord/src/proxy-request-client.test.ts:74] exports a reasonable timeout constant",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/proxy-request-client.test.ts:74",
                "upstream it() block #4",

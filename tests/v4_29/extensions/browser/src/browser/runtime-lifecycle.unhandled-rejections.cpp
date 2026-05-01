@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts] matches direct and nested Playwright dialog-race protocol errors",
+TEST_CASE("v4.29 [extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts:75] matches direct and nested Playwright dialog-race protocol errors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts] keeps non-dialog and non-race Playwright errors unhandled",
+TEST_CASE("v4.29 [extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts:94] keeps non-dialog and non-race Playwright errors unhandled",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts] registers during startup and unregisters during shutdown",
+TEST_CASE("v4.29 [extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts:108] registers during startup and unregisters during shutdown",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/runtime-lifecycle.unhandled-rejections.test.ts:108",
                "upstream it() block #2",

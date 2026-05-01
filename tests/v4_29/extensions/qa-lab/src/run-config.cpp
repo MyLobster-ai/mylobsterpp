@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] creates a live-by-default selection that arms every scenario",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:45] creates a live-by-default selection that arms every scenario",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] normalizes live selections and filters unknown scenario ids",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:55] normalizes live selections and filters unknown scenario ids",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] rejects removed provider compatibility names",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:76] rejects removed provider compatibility names",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] falls back to all scenarios when selection would otherwise be empty",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:87] falls back to all scenarios when selection would otherwise be empty",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] keeps idle snapshots on static defaults so startup does not inspect auth profiles",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:101] keeps idle snapshots on static defaults so startup does not inspect auth profiles",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] normalizes aimock selections",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:113] normalizes aimock selections",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] anchors generated run output dirs under the provided repo root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:133] anchors generated run output dirs under the provided repo root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:133",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts] prefers the Codex OAuth default when the runtime resolver says it is available",
+TEST_CASE("v4.29 [extensions/qa-lab/src/run-config.test.ts:138] prefers the Codex OAuth default when the runtime resolver says it is available",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/run-config.test.ts:138",
                "upstream it() block #7",

@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] does not resolve providers when text has no directives",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:61] does not resolve providers when text has no directives",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] routes generic speed to the explicitly declared provider",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:83] routes generic speed to the explicitly declared provider",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] routes correctly when provider appears after the generic token",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:97] routes correctly when provider appears after the generic token",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] routes to the preferred provider when no provider token is declared",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:107] routes to the preferred provider when no provider token is declared",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] falls back to autoSelectOrder when no provider hint is available",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:118] falls back to autoSelectOrder when no provider hint is available",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] does not fall through when the explicit provider does not handle the key",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:128] does not fall through when the explicit provider does not handle the key",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] keeps explicit-provider tokens scoped to the selected provider",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:139] keeps explicit-provider tokens scoped to the selected provider",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] does not route explicit provider tokens to another provider with overlapping keys",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:150] does not route explicit provider tokens to another provider with overlapping keys",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:150",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] warns instead of routing prefixed tokens to another provider when provider is explicit",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:174] warns instead of routing prefixed tokens to another provider when provider is explicit",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:174",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] passes the selected provider id to the chosen provider parser",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:186] passes the selected provider id to the chosen provider parser",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:186",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] resolves explicit provider aliases without rewriting the requested provider value",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:201] resolves explicit provider aliases without rewriting the requested provider value",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:201",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] warns once and drops non-provider tokens when the explicit provider is unknown",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:225] warns once and drops non-provider tokens when the explicit provider is unknown",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:225",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] keeps last-wins provider semantics",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:235] keeps last-wins provider semantics",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:235",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] ignores provider tokens when provider overrides are disabled",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:247] ignores provider tokens when provider overrides are disabled",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:247",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] accepts bare tts tags as a tagged-mode trigger",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:259] accepts bare tts tags as a tagged-mode trigger",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:259",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] accepts plain tts blocks as speak-and-show text",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:269] accepts plain tts blocks as speak-and-show text",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:269",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] strips orphan closing tts tags",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:279] strips orphan closing tts tags",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:279",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] does not parse tts examples inside markdown code",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:288] does not parse tts examples inside markdown code",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:288",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] strips directive tags split across streamed chunks",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:312] strips directive tags split across streamed chunks",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:312",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] suppresses hidden tts text blocks while preserving normal text",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:321] suppresses hidden tts text blocks while preserving normal text",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:321",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] keeps plain tts block contents visible",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:329] keeps plain tts block contents visible",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:329",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/directives.test.ts] preserves non-tts bracket markup and flushes incomplete literals",
+TEST_CASE("v4.29 [src/tts/directives.test.ts:336] preserves non-tts bracket markup and flushes incomplete literals",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/directives.test.ts:336",
                "upstream it() block #21",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] throws a billing FailoverError so the webchat can render the provider failure",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:60] throws a billing FailoverError so the webchat can render the provider failure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] throws an auth FailoverError for auth-classified surface errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:80] throws an auth FailoverError for auth-classified surface errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] throws a rate_limit FailoverError for rate-limited surface errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:96] throws a rate_limit FailoverError for rate-limited surface errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] preserves the raw provider error on surfaced failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:112] preserves the raw provider error on surfaced failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] coerces a null decision reason onto the most specific non-timeout failure signal",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:132] coerces a null decision reason onto the most specific non-timeout failure signal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:132",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] leaves externally-aborted runs on the continue_normal path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:154] leaves externally-aborted runs on the continue_normal path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:154",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] leaves plain timeouts on the continue_normal path for the runner",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:170] leaves plain timeouts on the continue_normal path for the runner",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:170",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] retries the same model when an idle-timeout retry is allowed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:192] retries the same model when an idle-timeout retry is allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:192",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts] still throws a FailoverError after the surface_error refactor",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/assistant-failover.test.ts:213] still throws a FailoverError after the surface_error refactor",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/assistant-failover.test.ts:213",
                "upstream it() block #8",

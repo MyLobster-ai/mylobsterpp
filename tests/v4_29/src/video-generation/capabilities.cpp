@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts] requires explicit transform capabilities before advertising transform modes",
+TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts:22] requires explicit transform capabilities before advertising transform modes",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/capabilities.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts] prefers explicit mode capabilities for image-to-video requests",
+TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts:31] prefers explicit mode capabilities for image-to-video requests",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/capabilities.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts] does not infer transform capabilities for mixed reference requests",
+TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts:59] does not infer transform capabilities for mixed reference requests",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/capabilities.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts] uses explicit video-to-video capabilities for mixed reference requests",
+TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts:79] uses explicit video-to-video capabilities for mixed reference requests",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/capabilities.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts] applies model-specific reference input limits",
+TEST_CASE("v4.29 [src/video-generation/capabilities.test.ts:111] applies model-specific reference input limits",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/capabilities.test.ts:111",
                "upstream it() block #4",

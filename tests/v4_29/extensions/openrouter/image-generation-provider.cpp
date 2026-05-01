@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts] builds provider metadata and capabilities",
+TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts:42] builds provider metadata and capabilities",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/image-generation-provider.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts] sends chat completion image requests with Gemini image config and count",
+TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts:54] sends chat completion image requests with Gemini image config and count",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/image-generation-provider.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts] sends reference images as data URLs for edit-style requests",
+TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts:133] sends reference images as data URLs for edit-style requests",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/image-generation-provider.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts] extracts image fallbacks from string content and raw b64 parts",
+TEST_CASE("v4.29 [extensions/openrouter/image-generation-provider.test.ts:181] extracts image fallbacks from string content and raw b64 parts",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/image-generation-provider.test.ts:181",
                "upstream it() block #3",

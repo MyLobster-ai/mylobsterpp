@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] runs the qa cli through the resolved node executable",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:73] runs the qa cli through the resolved node executable",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] merges isolated env overrides into qa cli runs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:106] merges isolated env overrides into qa cli runs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] parses json qa cli output when requested",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:148] parses json qa cli output when requested",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] parses json qa cli output after colored startup logs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:174] parses json qa cli output after colored startup logs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:174",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] parses pretty json qa cli output after startup logs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:205] parses pretty json qa cli output after startup logs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:205",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] starts an agent run with transport-derived delivery metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:236] starts an agent run with transport-derived delivery metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:236",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] finds managed dreaming cron jobs across legacy and current payload contracts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:268] finds managed dreaming cron jobs across legacy and current payload contracts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:268",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] waits for an agent run and fails when the run does not finish ok",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:294] waits for an agent run and fails when the run does not finish ok",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:294",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] waits for a specific agent run id",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:318] waits for a specific agent run id",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:318",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] lists cron jobs and doctor memory status through the gateway",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:331] lists cron jobs and doctor memory status through the gateway",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:331",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts] polls memory search results until the expected needle appears",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.test.ts:348] polls memory search results until the expected needle appears",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.test.ts:348",
                "upstream it() block #10",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.google.test.ts] strips negative thinking budgets and fills Gemini 3.1 thinkingLevel",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.google.test.ts:38] strips negative thinking budgets and fills Gemini 3.1 thinkingLevel",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.google.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.google.test.ts] passes cachedContent through Google extra params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.google.test.ts:66] passes cachedContent through Google extra params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.google.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.google.test.ts] lets higher-precedence cachedContent override lower-precedence cached_content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.google.test.ts:88] lets higher-precedence cachedContent override lower-precedence cached_content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.google.test.ts:88",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepinfra/image-generation-provider.test.ts] declares generation and single-reference edit support",
+TEST_CASE("v4.29 [extensions/deepinfra/image-generation-provider.test.ts:52] declares generation and single-reference edit support",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/image-generation-provider.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/image-generation-provider.test.ts] sends OpenAI-compatible image generation requests and sniffs JPEG output",
+TEST_CASE("v4.29 [extensions/deepinfra/image-generation-provider.test.ts:62] sends OpenAI-compatible image generation requests and sniffs JPEG output",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/image-generation-provider.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/image-generation-provider.test.ts] sends image edits as multipart OpenAI-compatible requests",
+TEST_CASE("v4.29 [extensions/deepinfra/image-generation-provider.test.ts:119] sends image edits as multipart OpenAI-compatible requests",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/image-generation-provider.test.ts:119",
                "upstream it() block #2",

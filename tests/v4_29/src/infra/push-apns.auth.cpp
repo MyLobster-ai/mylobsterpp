@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] normalizes APNs environment values",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:23] normalizes APNs environment values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] prefers inline APNs private key values and unescapes newlines",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:30] prefers inline APNs private key values and unescapes newlines",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] falls back to OPENCLAW_APNS_PRIVATE_KEY when OPENCLAW_APNS_PRIVATE_KEY_P8 is blank",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:52] falls back to OPENCLAW_APNS_PRIVATE_KEY when OPENCLAW_APNS_PRIVATE_KEY_P8 is blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] reads APNs private keys from OPENCLAW_APNS_PRIVATE_KEY_PATH",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:71] reads APNs private keys from OPENCLAW_APNS_PRIVATE_KEY_PATH",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] reports missing auth fields and path read failures",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:96] reports missing auth fields and path read failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] invalidates only real bad-token APNs failures",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:119] invalidates only real bad-token APNs failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:119",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts] clears only direct registrations without an environment override mismatch",
+TEST_CASE("v4.29 [src/infra/push-apns.auth.test.ts:128] clears only direct registrations without an environment override mismatch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.auth.test.ts:128",
                "upstream it() block #6",

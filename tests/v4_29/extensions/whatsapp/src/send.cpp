@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] sends message via active listener",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:134] sends message via active listener",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] uses configured defaultAccount when outbound accountId is omitted",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:147] uses configured defaultAccount when outbound accountId is omitted",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:147",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] trims leading whitespace before sending text and captions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:177] trims leading whitespace before sending text and captions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:177",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] preserves intentional indentation when the caller opts out of transport trimming",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:198] preserves intentional indentation when the caller opts out of transport trimming",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:198",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] skips whitespace-only text sends without media",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:208] skips whitespace-only text sends without media",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:208",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] throws a helpful error when no active listener exists",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:222] throws a helpful error when no active listener exists",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:222",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] maps audio to PTT with opus mime when ogg",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:247] maps audio to PTT with opus mime when ogg",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:247",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] maps video with caption",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:294] maps video with caption",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:294",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] marks gif playback for video when requested",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:309] marks gif playback for video when requested",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] maps image with caption",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:327] maps image with caption",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:327",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] does not retry transient outbound send failures to avoid duplicate sends",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:342] does not retry transient outbound send failures to avoid duplicate sends",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:342",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] prefers explicit mediaUrl over mediaUrls when both are present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:351] prefers explicit mediaUrl over mediaUrls when both are present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:351",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] falls back to the first mediaUrls entry when mediaUrl is omitted",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:375] falls back to the first mediaUrls entry when mediaUrl is omitted",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:375",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] maps other kinds to document with filename",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:396] maps other kinds to document with filename",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:396",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] uses account-aware WhatsApp media caps for outbound uploads",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:414] uses account-aware WhatsApp media caps for outbound uploads",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:414",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] sends polls via active listener",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:457] sends polls via active listener",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:457",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] redacts recipients and poll text in outbound logs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:476] redacts recipients and poll text in outbound logs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:476",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts] sends reactions via active listener",
+TEST_CASE("v4.29 [extensions/whatsapp/src/send.test.ts:501] sends reactions via active listener",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/send.test.ts:501",
                "upstream it() block #17",

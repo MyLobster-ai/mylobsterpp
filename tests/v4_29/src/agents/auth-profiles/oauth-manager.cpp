@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] accepts matching account identities",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:48] accepts matching account identities",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] refuses overwriting an existing identity-less credential with a different token",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:57] refuses overwriting an existing identity-less credential with a different token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] refuses non-overlapping identity evidence",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:66] refuses non-overlapping identity evidence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] still allows identity-less external bootstrap adoption",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:75] still allows identity-less external bootstrap adoption",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] allows identity-less credentials to adopt from the main store",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:93] allows identity-less credentials to adopt from the main store",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] accepts matching account identities",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:109] accepts matching account identities",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:109",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] serializes without leaking credential or store secrets",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:120] serializes without leaking credential or store secrets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:120",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts] refreshes with the adopted external oauth credential",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-manager.test.ts:148] refreshes with the adopted external oauth credential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-manager.test.ts:148",
                "upstream it() block #7",

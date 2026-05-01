@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] includes deliveryContext in sentinel payload when sessionKey is provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:155] includes deliveryContext in sentinel payload when sessionKey is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:155",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] omits deliveryContext when no sessionKey is provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:173] omits deliveryContext when no sessionKey is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:173",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] includes threadId in sentinel payload for threaded sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:184] includes threadId in sentinel payload for threaded sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:184",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] enforces a 1000ms minimum timeout for tiny values",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:201] enforces a 1000ms minimum timeout for tiny values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:201",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] schedules restart when update succeeds",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:213] schedules restart when update succeeds",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:213",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] skips restart when update fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:226] skips restart when update fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] blocks unmanaged global installs before package mutation when restart is unavailable",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:279] blocks unmanaged global installs before package mutation when restart is unavailable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts] returns the latest cached update sentinel",
+TEST_CASE("v4.29 [src/gateway/server-methods/update.test.ts:313] returns the latest cached update sentinel",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/update.test.ts:313",
                "upstream it() block #7",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.test.ts] does not import the embedded runner on module load",
+TEST_CASE("v4.29 [src/commands/models/list.probe.test.ts:21] does not import the embedded runner on module load",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.test.ts] maps failover reasons to probe statuses",
+TEST_CASE("v4.29 [src/commands/models/list.probe.test.ts:25] maps failover reasons to probe statuses",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.test.ts:25",
                "upstream it() block #1",

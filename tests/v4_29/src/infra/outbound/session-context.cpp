@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] returns undefined when both session key and agent id are blank",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:22] returns undefined when both session key and agent id are blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] returns only the explicit trimmed agent id when no session key is present",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:33] returns only the explicit trimmed agent id when no session key is present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] derives the agent id from the trimmed session key when no explicit agent is given",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:46] derives the agent id from the trimmed session key when no explicit agent is given",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] prefers an explicit trimmed agent id over the derived one",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:64] prefers an explicit trimmed agent id over the derived one",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] preserves a trimmed requester sender id when provided",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:79] preserves a trimmed requester sender id when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] preserves a trimmed requester account id when provided",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:90] preserves a trimmed requester account id when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] preserves trimmed non-id sender fields for e164/username/name policy matching",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:101] preserves trimmed non-id sender fields for e164/username/name policy matching",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:101",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] normalizes explicit conversation type for policy resolution",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:118] normalizes explicit conversation type for policy resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:118",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] falls back to isGroup when no explicit conversation type is provided",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:140] falls back to isGroup when no explicit conversation type is provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:140",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts] returns undefined when all sender and session fields are blank",
+TEST_CASE("v4.29 [src/infra/outbound/session-context.test.ts:161] returns undefined when all sender and session fields are blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-context.test.ts:161",
                "upstream it() block #9",

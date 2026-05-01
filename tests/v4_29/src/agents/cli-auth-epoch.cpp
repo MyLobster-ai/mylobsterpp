@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] returns undefined when no local or auth-profile credentials exist",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:14] returns undefined when no local or auth-profile credentials exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] keeps identity-less claude cli oauth epochs stable across token changes",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:34] keeps identity-less claude cli oauth epochs stable across token changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] changes claude cli token epochs when the static token changes",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:58] changes claude cli token epochs when the static token changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] keeps gemini cli oauth epochs stable through token rotation and flips on account change",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:78] keeps gemini cli oauth epochs stable through token rotation and flips on account change",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] falls back to the identity-less oauth epoch when gemini id_token is absent",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:120] falls back to the identity-less oauth epoch when gemini id_token is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] keeps oauth auth-profile epochs stable across token refreshes",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:142] keeps oauth auth-profile epochs stable across token refreshes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] changes oauth auth-profile epochs when the account identity changes",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:187] changes oauth auth-profile epochs when the account identity changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:187",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] mixes local codex and auth-profile state",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:233] mixes local codex and auth-profile state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:233",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts] can ignore local codex state when the backend is profile-owned",
+TEST_CASE("v4.29 [src/agents/cli-auth-epoch.test.ts:303] can ignore local codex state when the backend is profile-owned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-auth-epoch.test.ts:303",
                "upstream it() block #8",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/route-args.test.ts] parses health and status route args",
+TEST_CASE("v4.29 [src/cli/program/route-args.test.ts:15] parses health and status route args",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/route-args.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/route-args.test.ts] parses gateway status route args and rejects probe-only ssh flags",
+TEST_CASE("v4.29 [src/cli/program/route-args.test.ts:46] parses gateway status route args and rejects probe-only ssh flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/route-args.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/route-args.test.ts] parses sessions and agents list route args",
+TEST_CASE("v4.29 [src/cli/program/route-args.test.ts:85] parses sessions and agents list route args",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/route-args.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/route-args.test.ts] parses config routes",
+TEST_CASE("v4.29 [src/cli/program/route-args.test.ts:120] parses config routes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/route-args.test.ts:120",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/route-args.test.ts] parses models list and models status route args",
+TEST_CASE("v4.29 [src/cli/program/route-args.test.ts:152] parses models list and models status route args",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/route-args.test.ts:152",
                "upstream it() block #4",

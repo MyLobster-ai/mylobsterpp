@@ -5,691 +5,691 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] debounces back-to-back sync calls",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:285] debounces back-to-back sync calls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:285",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs a qmd sync once for the first search in a fresh session",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:305] runs a qmd sync once for the first search in a fresh session",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:305",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not block first search on session-start sync completion",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:348] does not block first search on session-start sync completion",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:348",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs qmd sync when watched collection files change",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:403] runs qmd sync when watched collection files change",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:403",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs boot update in background by default",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:460] runs boot update in background by default",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:460",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] skips qmd command side effects in status mode initialization",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:489] skips qmd command side effects in status mode initialization",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:489",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] initializes one-shot CLI mode without watchers or background updates",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:507] initializes one-shot CLI mode without watchers or background updates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:507",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] can be configured to block startup on boot update",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:531] can be configured to block startup on boot update",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:531",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] times out collection bootstrap commands",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:575] times out collection bootstrap commands",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:575",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebinds sessions collection when existing collection path targets another agent",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:604] rebinds sessions collection when existing collection path targets another agent",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:604",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] avoids destructive rebind when qmd only reports collection names",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:674] avoids destructive rebind when qmd only reports collection names",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:674",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebinds collection when qmd text output exposes a changed pattern without a path",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:713] rebinds collection when qmd text output exposes a changed pattern without a path",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:713",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] migrates unscoped legacy collections before adding scoped names",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:762] migrates unscoped legacy collections before adding scoped names",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:762",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebinds conflicting collection name when path+pattern slot is already occupied",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:846] rebinds conflicting collection name when path+pattern slot is already occupied",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:846",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] adds canonical memory-root without treating legacy memory-alt as equivalent",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:923] adds canonical memory-root without treating legacy memory-alt as equivalent",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:923",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] warns instead of silently succeeding when add conflict metadata is unavailable",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1004] warns instead of silently succeeding when add conflict metadata is unavailable",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1004",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] recreates a managed collection when list fails but add reports the same name exists",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1040] recreates a managed collection when list fails but add reports the same name exists",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1040",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebinds memory-root when qmd table output has a stale broad pattern",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1107] rebinds memory-root when qmd table output has a stale broad pattern",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1107",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] falls back to --glob when qmd collection add rejects --mask",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1173] falls back to --glob when qmd collection add rejects --mask",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1173",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] migrates unscoped legacy collections from plain-text collection list output",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1215] migrates unscoped legacy collections from plain-text collection list output",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1215",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not migrate unscoped collections when listed metadata differs",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1271] does not migrate unscoped collections when listed metadata differs",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1271",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] times out qmd update during sync when configured",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1315] times out qmd update during sync when configured",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1315",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebuilds managed collections once when qmd update fails with null-byte ENOTDIR",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1356] rebuilds managed collections once when qmd update fails with null-byte ENOTDIR",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1356",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebuilds managed collections once when qmd update fails with null-byte ENOENT",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1413] rebuilds managed collections once when qmd update fails with null-byte ENOENT",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1413",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rebuilds managed collections once when qmd update hits duplicate document constraint",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1470] rebuilds managed collections once when qmd update hits duplicate document constraint",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1470",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not rebuild collections for unrelated unique constraint failures",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1527] does not rebuild collections for unrelated unique constraint failures",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1527",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not rebuild collections for generic qmd update failures",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1562] does not rebuild collections for generic qmd update failures",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1562",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses configured qmd search mode command",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1602] uses configured qmd search mode command",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1602",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] repairs missing managed collections and retries search once",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1653] repairs missing managed collections and retries search once",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1653",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] resolves bare qmd command to a Windows-compatible spawn invocation",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1743] resolves bare qmd command to a Windows-compatible spawn invocation",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1743",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] keeps mixed Han-script BM25 queries intact before qmd search",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1787] keeps mixed Han-script BM25 queries intact before qmd search",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1787",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] falls back to the original query when Han normalization yields no BM25 tokens",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1834] falls back to the original query when Han normalization yields no BM25 tokens",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1834",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] keeps spaced Han queries intact before qmd search",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1868] keeps spaced Han queries intact before qmd search",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1868",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] keeps original Han queries in qmd query mode",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1903] keeps original Han queries in qmd query mode",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1903",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] retries search with qmd query when configured mode rejects flags",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1937] retries search with qmd query when configured mode rejects flags",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1937",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] queues a forced sync behind an in-flight update",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:1986] queues a forced sync behind an in-flight update",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:1986",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] honors multiple forced sync requests while forced queue is active",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2039] honors multiple forced sync requests while forced queue is active",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2039",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] scopes qmd queries to managed collections",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2107] scopes qmd queries to managed collections",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2107",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] groups same-source qmd queries when the installed qmd supports multiple collection filters",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2149] groups same-source qmd queries when the installed qmd supports multiple collection filters",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2149",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] keeps mixed-source qmd queries in separate source groups",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2209] keeps mixed-source qmd queries in separate source groups",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2209",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not query phantom memory-alt collections when MEMORY.md exists",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2258] does not query phantom memory-alt collections when MEMORY.md exists",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2258",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses explicit external custom collection names verbatim at query time",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2298] uses explicit external custom collection names verbatim at query time",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2298",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs qmd query per collection when query mode has multiple collection filters",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2338] runs qmd query per collection when query mode has multiple collection filters",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2338",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses per-collection query fallback when search mode rejects flags",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2384] uses per-collection query fallback when search mode rejects flags",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2384",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs qmd searches via mcporter and warns when startDaemon=false",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2436] runs qmd searches via mcporter and warns when startDaemon=false",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2436",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses QMD 1.1+ query tool with searches array via mcporter",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2479] uses QMD 1.1+ query tool with searches array via mcporter",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2479",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] falls back to QMD <1.1 tool names when query tool is not found",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2527] falls back to QMD <1.1 tool names when query tool is not found",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2527",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses an explicit mcporter search tool override with flat query args",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2590] uses an explicit mcporter search tool override with flat query args",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2590",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] prefers mcporter start and end lines over snippet header offsets",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2633] prefers mcporter start and end lines over snippet header offsets",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2633",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses snippet header width when mcporter only returns a start line",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2707] uses snippet header width when mcporter only returns a start line",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2707",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses unified v2 args when the explicit mcporter search tool override is ",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2780] uses unified v2 args when the explicit mcporter search tool override is ",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2780",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] reuses the cached v1 tool across collections when the explicit mcporter override is ",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2818] reuses the cached v1 tool across collections when the explicit mcporter override is ",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2818",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] uses an explicit mcporter search tool override across multiple collections",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2874] uses an explicit mcporter search tool override across multiple collections",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2874",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not pin v1 fallback when only the serialized query text contains tool-not-found words",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2926] does not pin v1 fallback when only the serialized query text contains tool-not-found words",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2926",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not pin v1 fallback when a timed out query contains tool-not-found words",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:2981] does not pin v1 fallback when a timed out query contains tool-not-found words",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:2981",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] resolves mcporter to a direct Windows entrypoint without enabling shell mode",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3051] resolves mcporter to a direct Windows entrypoint without enabling shell mode",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3051",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] fails closed on Windows EINVAL cmd-shim failures instead of retrying through the shell",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3113] fails closed on Windows EINVAL cmd-shim failures instead of retrying through the shell",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3113",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] passes manager-scoped XDG env to mcporter commands",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3173] passes manager-scoped XDG env to mcporter commands",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3173",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] retries mcporter daemon start after a failure",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3216] retries mcporter daemon start after a failure",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3216",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] starts the mcporter daemon only once when enabled",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3260] starts the mcporter daemon only once when enabled",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3260",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] fails closed when no managed collections are configured",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3301] fails closed when no managed collections are configured",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3301",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] diversifies mixed session and memory search results so memory hits are retained",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3324] diversifies mixed session and memory search results so memory hits are retained",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3324",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] logs and continues when qmd embed times out",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3404] logs and continues when qmd embed times out",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3404",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs periodic embed maintenance even when regular update scheduling is disabled",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3444] runs periodic embed maintenance even when regular update scheduling is disabled",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3444",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] runs periodic embed maintenance when embed cadence is faster than update cadence",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3482] runs periodic embed maintenance when embed cadence is faster than update cadence",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3482",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not schedule redundant embed maintenance when regular updates are already more frequent",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3514] does not schedule redundant embed maintenance when regular updates are already more frequent",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3514",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] skips periodic embed maintenance in lexical search mode",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3546] skips periodic embed maintenance in lexical search mode",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3546",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] delays the first periodic embed maintenance run by stable startup jitter",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3578] delays the first periodic embed maintenance run by stable startup jitter",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3578",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] serializes qmd embeds within a process before taking the shared file lock",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3624] serializes qmd embeds within a process before taking the shared file lock",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3624",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] serializes session exports across managers for the same agent",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3686] serializes session exports across managers for the same agent",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3686",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] skips queued session export work after close while waiting on the shared update queue",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3756] skips queued session export work after close while waiting on the shared update queue",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3756",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] skips qmd embed in lexical search mode for forced sync",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3822] skips qmd embed in lexical search mode for forced sync",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3822",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] retries boot update when qmd reports a retryable lock error",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3846] retries boot update when qmd reports a retryable lock error",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3846",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] succeeds on qmd update even when stdout exceeds the output cap",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3902] succeeds on qmd update even when stdout exceeds the output cap",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3902",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] scopes by channel for agent-prefixed session keys",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3921] scopes by channel for agent-prefixed session keys",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3921",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] logs when qmd scope denies search",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3950] logs when qmd scope denies search",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3950",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] blocks non-markdown or symlink reads for qmd paths",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:3981] blocks non-markdown or symlink reads for qmd paths",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:3981",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] rejects non-memory workspace markdown reads",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4001] rejects non-memory workspace markdown reads",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4001",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] reads only requested line ranges from canonical memory files without loading the whole file",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4016] reads only requested line ranges from canonical memory files without loading the whole file",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4016",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] returns a bounded default excerpt for qmd memory reads without explicit lines",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4040] returns a bounded default excerpt for qmd memory reads without explicit lines",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4040",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] returns empty text when qmd files are missing before or during read",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4065] returns empty text when qmd files are missing before or during read",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4065",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] reuses exported session markdown files when inputs are unchanged",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4114] reuses exported session markdown files when inputs are unchanged",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4114",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] fails closed when sqlite index is busy during doc lookup or search",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4154] fails closed when sqlite index is busy during doc lookup or search",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4154",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] prefers exact docid match before prefix fallback for qmd document lookups",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4236] prefers exact docid match before prefix fallback for qmd document lookups",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4236",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] prefers collection hint when resolving duplicate qmd document hashes",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4296] prefers collection hint when resolving duplicate qmd document hashes",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4296",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] resolves search hits when qmd returns qmd:// file URIs without docid",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4366] resolves search hits when qmd returns qmd:// file URIs without docid",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4366",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] returns collection-scoped qmd paths when session exports live under the workspace qmd directory",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4416] returns collection-scoped qmd paths when session exports live under the workspace qmd directory",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4416",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] restricts qmd search to session collections before result limiting",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4511] restricts qmd search to session collections before result limiting",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4511",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] preserves multi-collection qmd search hits when results only include file URIs",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4587] preserves multi-collection qmd search hits when results only include file URIs",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4587",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] errors when qmd output exceeds command output safety cap",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4663] errors when qmd output exceeds command output safety cap",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4663",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] treats plain-text no-results markers from stdout/stderr as empty result sets",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4682] treats plain-text no-results markers from stdout/stderr as empty result sets",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4682",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] throws when stdout is empty without the no-results marker",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4708] throws when stdout is empty without the no-results marker",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4708",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] sets busy_timeout on qmd sqlite connections",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4730] sets busy_timeout on qmd sqlite connections",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4730",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] reports vector availability as unavailable when qmd status shows zero vectors",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4747] reports vector availability as unavailable when qmd status shows zero vectors",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4747",
                "upstream it() block #93",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] reports vector availability as ready when qmd status shows vectors",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4780] reports vector availability as ready when qmd status shows vectors",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4780",
                "upstream it() block #94",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] does not parse unrelated qmd status vector-like fields",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4842] does not parse unrelated qmd status vector-like fields",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4842",
                "upstream it() block #95",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] skips qmd status vector probes for lexical search mode",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4871] skips qmd status vector probes for lexical search mode",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4871",
                "upstream it() block #96",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts] handles first-run symlink, existing dir preservation, and missing default cache",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/qmd-manager.test.ts:4924] handles first-run symlink, existing dir preservation, and missing default cache",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/qmd-manager.test.ts:4924",
                "upstream it() block #97",

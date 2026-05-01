@@ -5,285 +5,285 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] ignores stale client onGap callbacks after reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:222] ignores stale client onGap callbacks after reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:222",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] ignores stale client onEvent callbacks after reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:242] ignores stale client onEvent callbacks after reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:242",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] applies update.available only from active client",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:261] applies update.available only from active client",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:261",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] clears pending update verification when the restarted version matches",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:293] clears pending update verification when the restarted version matches",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:293",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] shows a hard error when the restarted version does not match the expected update",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:329] shows a hard error when the restarted version does not match the expected update",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:329",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] surfaces post-restart sentinel failures after reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:367] surfaces post-restart sentinel failures after reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:367",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] ignores stale client onClose callbacks after reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:407] ignores stale client onClose callbacks after reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:407",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] preserves pending approval requests across reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:427] preserves pending approval requests across reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:427",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] maps generic fetch-failed auth errors to actionable token mismatch message",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:448] maps generic fetch-failed auth errors to actionable token mismatch message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:448",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] maps TypeError fetch failures to actionable auth rate-limit guidance",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:469] maps TypeError fetch failures to actionable auth rate-limit guidance",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:469",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] maps generic fetch failures to actionable device identity guidance",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:490] maps generic fetch failures to actionable device identity guidance",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:490",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] maps generic fetch failures to actionable origin guidance",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:511] maps generic fetch failures to actionable origin guidance",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:511",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] preserves specific close errors even when auth detail codes are present",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:532] preserves specific close errors even when auth detail codes are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:532",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] prefers structured connect errors over close reason",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:553] prefers structured connect errors over close reason",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:553",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] surfaces scope-upgrade approval details instead of a dead pairing error",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:575] surfaces scope-upgrade approval details instead of a dead pairing error",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:575",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] surfaces shutdown restart reasons before the socket closes",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:600] surfaces shutdown restart reasons before the socket closes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:600",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] clears pending shutdown messages on successful hello after reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:622] clears pending shutdown messages on successful hello after reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:622",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] refreshes bootstrap config after hello",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:647] refreshes bootstrap config after hello",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:647",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] sends queued chat aborts after reconnect before clearing pending state",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:660] sends queued chat aborts after reconnect before clearing pending state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:660",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] logs and drops stale queued chat abort failures after reconnect",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:682] logs and drops stale queued chat abort failures after reconnect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:682",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] keeps shutdown restart reasons on service restart closes",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:703] keeps shutdown restart reasons on service restart closes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:703",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] prefers shutdown restart reasons over non-1012 close reasons",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:723] prefers shutdown restart reasons over non-1012 close reasons",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:723",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] does not reload chat history for each live tool result event",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:743] does not reload chat history for each live tool result event",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:743",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] stores BTW side results for the active session",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:750] stores BTW side results for the active session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:750",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] ignores tracked BTW terminal finals without tearing down the active run",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:774] ignores tracked BTW terminal finals without tearing down the active run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:774",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] does not reload chat history after final assistant payload reconciles an active run",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:877] does not reload chat history after final assistant payload reconciles an active run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:877",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] replays deferred session.message reloads after legacy silent final payload",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:911] replays deferred session.message reloads after legacy silent final payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:911",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] keeps deferred session.message reload pending across unrelated terminal events",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:941] keeps deferred session.message reload pending across unrelated terminal events",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:941",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] keeps deferred session.message reload pending across unowned terminal events",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:980] keeps deferred session.message reload pending across unowned terminal events",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:980",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] clears tracked BTW terminal runs after reconnect hello",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1021] clears tracked BTW terminal runs after reconnect hello",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1021",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] ignores BTW side results for other sessions",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1050] ignores BTW side results for other sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1050",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] routes plugin.approval.requested into execApprovalQueue with kind plugin",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1069] routes plugin.approval.requested into execApprovalQueue with kind plugin",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1069",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] routes plugin.approval.resolved to remove from execApprovalQueue",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1098] routes plugin.approval.resolved to remove from execApprovalQueue",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1098",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] reloads chat history once after the final chat event when tool output was used",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1125] reloads chat history once after the final chat event when tool output was used",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1125",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] returns serverVersion for same-origin websocket targets",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1147] returns serverVersion for same-origin websocket targets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1147",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] returns serverVersion for same-origin relative targets",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1157] returns serverVersion for same-origin relative targets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1157",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] returns serverVersion for same-origin http targets",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1167] returns serverVersion for same-origin http targets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1167",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] returns serverVersion for loopback aliases on the same port",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1177] returns serverVersion for loopback aliases on the same port",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1177",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] omits serverVersion for loopback aliases on different ports",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1194] omits serverVersion for loopback aliases on different ports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1194",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts] omits serverVersion for cross-origin targets",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.node.test.ts:1204] omits serverVersion for cross-origin targets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.node.test.ts:1204",
                "upstream it() block #39",

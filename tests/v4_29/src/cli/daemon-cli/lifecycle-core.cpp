@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] prints the container restart hint when restart is requested for a not-loaded service",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:112] prints the container restart hint when restart is requested for a not-loaded service",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:112",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] emits drift warning when enabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:132] emits drift warning when enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] compares restart drift against config token even when caller env is set",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:142] compares restart drift against config token even when caller env is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:142",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] resolves config token SecretRefs using service command env before drift checks",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:164] resolves config token SecretRefs using service command env before drift checks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:164",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] prefers service command env over process env for SecretRef token drift resolution",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:174] prefers service command env over process env for SecretRef token drift resolution",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] skips drift warning when disabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:185] skips drift warning when disabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:185",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] emits stopped when an unmanaged process handles stop",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:200] emits stopped when an unmanaged process handles stop",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:200",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] emits started when a not-loaded start path repairs the service",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:219] emits started when a not-loaded start path repairs the service",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:219",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] runs restart health checks after an unmanaged restart signal",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:246] runs restart health checks after an unmanaged restart signal",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] emits loaded restart state when launchd repair handles a not-loaded restart",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:270] emits loaded restart state when launchd repair handles a not-loaded restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:270",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] skips restart health checks when restart is only scheduled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:300] skips restart health checks when restart is only scheduled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:300",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] writes a restart intent before service-manager restart",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:319] writes a restart intent before service-manager restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:319",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] clears restart intent when service-manager restart fails before signaling",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:329] clears restart intent when service-manager restart fails before signaling",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:329",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] emits scheduled when service start routes through a scheduled restart",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:340] emits scheduled when service start routes through a scheduled restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:340",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] fails start when restarting a stopped installed service errors",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:356] fails start when restarting a stopped installed service errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:356",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts] falls back to not-loaded hints when start finds no install artifacts",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.test.ts:367] falls back to not-loaded hints when start finds no install artifacts",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.test.ts:367",
                "upstream it() block #15",

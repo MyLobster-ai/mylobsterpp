@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts] bounds Telegram startup control-plane methods",
+TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts:5] bounds Telegram startup control-plane methods",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/request-timeouts.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts] keeps the longer polling timeout for getUpdates",
+TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts:13] keeps the longer polling timeout for getUpdates",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/request-timeouts.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts] bounds outbound delivery methods",
+TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts:17] bounds outbound delivery methods",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/request-timeouts.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts] does not assign hard timeouts to unrelated Telegram methods",
+TEST_CASE("v4.29 [extensions/telegram/src/request-timeouts.test.ts:24] does not assign hard timeouts to unrelated Telegram methods",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/request-timeouts.test.ts:24",
                "upstream it() block #3",

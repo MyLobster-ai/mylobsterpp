@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts] adds submitted messages to editor history",
+TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts:5] adds submitted messages to editor history",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-input-history.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts] trims input before adding to history",
+TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts:14] trims input before adding to history",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-input-history.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts] routes slash commands to handleCommand",
+TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts:30] routes slash commands to handleCommand",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-input-history.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts] routes normal messages to sendMessage",
+TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts:40] routes normal messages to sendMessage",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-input-history.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts] routes bang-prefixed lines to handleBangLine",
+TEST_CASE("v4.29 [src/tui/tui-input-history.test.ts:50] routes bang-prefixed lines to handleBangLine",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-input-history.test.ts:50",
                "upstream it() block #4",

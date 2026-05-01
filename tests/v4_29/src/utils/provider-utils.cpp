@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/provider-utils.test.ts] falls back to provider hooks for unknown providers",
+TEST_CASE("v4.29 [src/utils/provider-utils.test.ts:50] falls back to provider hooks for unknown providers",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/provider-utils.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/provider-utils.test.ts] returns native when hooks do not provide an override",
+TEST_CASE("v4.29 [src/utils/provider-utils.test.ts:63] returns native when hooks do not provide an override",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/provider-utils.test.ts:63",
                "upstream it() block #1",

@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] resolves required Telegram QA env vars",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:36] resolves required Telegram QA env vars",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] fails when a required Telegram QA env var is missing",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:50] fails when a required Telegram QA env var is missing",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] fails when the Telegram group id is not numeric",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:59] fails when the Telegram group id is not numeric",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] parses Telegram live progress env booleans",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:69] parses Telegram live progress env booleans",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] defaults Telegram live progress logging from CI when no override is set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:77] defaults Telegram live progress logging from CI when no override is set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] applies OPENCLAW_QA_SUITE_PROGRESS override to Telegram live logging",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:82] applies OPENCLAW_QA_SUITE_PROGRESS override to Telegram live logging",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] normalizes the Telegram QA canary timeout env",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:103] normalizes the Telegram QA canary timeout env",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:103",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] sanitizes and truncates Telegram live progress details",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:117] sanitizes and truncates Telegram live progress details",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:117",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] parses Telegram pooled credential payloads",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:128] parses Telegram pooled credential payloads",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:128",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] rejects Telegram pooled credential payloads with non-numeric group ids",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:142] rejects Telegram pooled credential payloads with non-numeric group ids",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:142",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] injects a temporary Telegram account into the QA gateway config",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:152] injects a temporary Telegram account into the QA gateway config",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:152",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] normalizes observed Telegram messages",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:204] normalizes observed Telegram messages",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:204",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] ignores unrelated sut replies when matching the canary response",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:241] ignores unrelated sut replies when matching the canary response",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:241",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] classifies threaded blank sut replies as matches",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:284] classifies threaded blank sut replies as matches",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:284",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] fails when any requested Telegram scenario id is unknown",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:307] fails when any requested Telegram scenario id is unknown",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:307",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] includes mention gating in the Telegram live scenario catalog",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:313] includes mention gating in the Telegram live scenario catalog",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:313",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] keeps bot-to-bot plain mentions out of the default Telegram live set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:339] keeps bot-to-bot plain mentions out of the default Telegram live set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:339",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] tracks Telegram live coverage against the shared transport contract",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:350] tracks Telegram live coverage against the shared transport contract",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:350",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] matches scenario replies by thread or exact marker",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:364] matches scenario replies by thread or exact marker",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:364",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] validates expected Telegram reply markers",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:430] validates expected Telegram reply markers",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:430",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] adds an abort deadline to Telegram API requests",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:469] adds an abort deadline to Telegram API requests",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:469",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] treats transient Telegram getUpdates network errors as recoverable",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:496] treats transient Telegram getUpdates network errors as recoverable",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:496",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] retries transient Telegram polling fetch failures while waiting for scenario replies",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:504] retries transient Telegram polling fetch failures while waiting for scenario replies",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:504",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] redacts observed message content by default in artifacts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:567] redacts observed message content by default in artifacts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:567",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] keeps observed message content in public mode when capture is requested",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:605] keeps observed message content in public mode when capture is requested",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:605",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] keeps raw timestamp and inline button text when metadata redaction is disabled",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:642] keeps raw timestamp and inline button text when metadata redaction is disabled",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:642",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] adds scenario context to observed message artifacts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:682] adds scenario context to observed message artifacts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:682",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] prints Telegram scenario RTT in the Markdown report",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:718] prints Telegram scenario RTT in the Markdown report",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:718",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] formats phase-specific canary diagnostics with context",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:740] formats phase-specific canary diagnostics with context",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:740",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] redacts canary context details in public metadata mode",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:769] redacts canary context details in public metadata mode",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:769",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts] treats null canary context as a non-canary error",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:802] treats null canary context as a non-canary error",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/telegram/telegram-live.runtime.test.ts:802",
                "upstream it() block #30",

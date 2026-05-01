@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] generates PNG buffers from the OpenAI Images API",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:145] generates PNG buffers from the OpenAI Images API",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:145",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] submits reference-image edits to the OpenAI Images edits endpoint",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:199] submits reference-image edits to the OpenAI Images edits endpoint",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:199",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] does not allow private-network routing just because a custom base URL is configured",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:269] does not allow private-network routing just because a custom base URL is configured",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:269",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] bootstraps the env proxy dispatcher before refreshing codex oauth credentials",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:300] bootstraps the env proxy dispatcher before refreshing codex oauth credentials",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:300",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] registers provider-owned OpenAI tool compat hooks for openai and codex",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:322] registers provider-owned OpenAI tool compat hooks for openai and codex",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:322",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] registers GPT-5 system prompt contributions when the friendly overlay is enabled",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:400] registers GPT-5 system prompt contributions when the friendly overlay is enabled",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:400",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] includes the tagged GPT-5 behavior contract in the OpenAI prompt overlay",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:470] includes the tagged GPT-5 behavior contract in the OpenAI prompt overlay",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:470",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] defaults to the friendly OpenAI interaction-style overlay",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:542] defaults to the friendly OpenAI interaction-style overlay",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:542",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] supports opting out of the friendly prompt overlay via plugin config",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:552] supports opting out of the friendly prompt overlay via plugin config",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:552",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] treats mixed-case off values as disabling the friendly prompt overlay",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:562] treats mixed-case off values as disabling the friendly prompt overlay",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:562",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] supports explicitly configuring the friendly prompt overlay",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:571] supports explicitly configuring the friendly prompt overlay",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:571",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] uses live plugin config for GPT-5 prompt overlay mode",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:583] uses live plugin config for GPT-5 prompt overlay mode",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:583",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/index.test.ts] treats on as an alias for the friendly prompt overlay",
+TEST_CASE("v4.29 [extensions/openai/index.test.ts:619] treats on as an alias for the friendly prompt overlay",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/index.test.ts:619",
                "upstream it() block #12",

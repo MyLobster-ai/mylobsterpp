@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.code-span-awareness.test.ts] does not strip thinking tags inside inline code backticks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.code-span-awareness.test.ts:22] does not strip thinking tags inside inline code backticks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.code-span-awareness.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.code-span-awareness.test.ts] does not strip thinking tags inside fenced code blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.code-span-awareness.test.ts:35] does not strip thinking tags inside fenced code blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.code-span-awareness.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.code-span-awareness.test.ts] still strips actual thinking tags outside code spans",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.code-span-awareness.test.ts:48] still strips actual thinking tags outside code spans",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.code-span-awareness.test.ts:48",
                "upstream it() block #2",

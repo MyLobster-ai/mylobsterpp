@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts] normalizes blank inputs to undefined",
+TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts:5] normalizes blank inputs to undefined",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/normalize.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts] preserves service prefixes for handles",
+TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts:9] preserves service prefixes for handles",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/normalize.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts] drops service prefixes for chat targets",
+TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts:13] drops service prefixes for chat targets",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/normalize.test.ts:13",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts] detects common iMessage target forms",
+TEST_CASE("v4.29 [extensions/imessage/src/normalize.test.ts:21] detects common iMessage target forms",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/normalize.test.ts:21",
                "upstream it() block #3",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] uses M2.7 as default hosted model",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:15] uses M2.7 as default hosted model",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] uses the higher upstream MiniMax context and token defaults",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:19] uses the higher upstream MiniMax context and token defaults",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] builds catalog model with name and reasoning from catalog for M2.7",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:30] builds catalog model with name and reasoning from catalog for M2.7",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] builds non-catalog model with generated name and default reasoning",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:45] builds non-catalog model with generated name and default reasoning",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] builds API model definition with standard cost for M2.7",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:60] builds API model definition with standard cost for M2.7",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] falls back to generated name for unknown model id",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:68] falls back to generated name for unknown model id",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:68",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] keeps M2.7 text-only on the Anthropic-compatible chat path",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:74] keeps M2.7 text-only on the Anthropic-compatible chat path",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] keeps M2.7-highspeed text-only on the Anthropic-compatible chat path",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:79] keeps M2.7-highspeed text-only on the Anthropic-compatible chat path",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:79",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] M2.5 model remains text-only",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:85] M2.5 model remains text-only",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:85",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts] M2.5-highspeed keeps the M2.5 cache-read pricing",
+TEST_CASE("v4.29 [extensions/minimax/model-definitions.test.ts:91] M2.5-highspeed keeps the M2.5 cache-read pricing",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/model-definitions.test.ts:91",
                "upstream it() block #9",

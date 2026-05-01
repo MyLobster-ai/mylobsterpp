@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/live-target-matcher.test.ts] matches Anthropic-owned models for the claude-cli provider filter",
+TEST_CASE("v4.29 [src/agents/live-target-matcher.test.ts:16] matches Anthropic-owned models for the claude-cli provider filter",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-target-matcher.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-target-matcher.test.ts] matches Anthropic model refs for claude-cli explicit model filters",
+TEST_CASE("v4.29 [src/agents/live-target-matcher.test.ts:27] matches Anthropic model refs for claude-cli explicit model filters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-target-matcher.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-target-matcher.test.ts] keeps direct provider/model matches working",
+TEST_CASE("v4.29 [src/agents/live-target-matcher.test.ts:38] keeps direct provider/model matches working",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-target-matcher.test.ts:38",
                "upstream it() block #2",

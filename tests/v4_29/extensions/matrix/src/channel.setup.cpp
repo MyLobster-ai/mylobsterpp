@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] bootstraps verification for newly added encrypted accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:133] bootstraps verification for newly added encrypted accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:133",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] does not bootstrap verification for already configured accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:148] does not bootstrap verification for already configured accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:148",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] bootstraps verification when setup enables encryption for an existing account",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:181] bootstraps verification when setup enables encryption for an existing account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:181",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] logs a warning when verification bootstrap fails",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:219] logs a warning when verification bootstrap fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:219",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] bootstraps a newly added env-backed default account when encryption is already enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:233] bootstraps a newly added env-backed default account when encryption is already enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:233",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] rejects default useEnv setup when no Matrix auth env vars are available",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:256] rejects default useEnv setup when no Matrix auth env vars are available",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:256",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts] clears allowPrivateNetwork and proxy when deleting the default Matrix account config",
+TEST_CASE("v4.29 [extensions/matrix/src/channel.setup.test.ts:280] clears allowPrivateNetwork and proxy when deleting the default Matrix account config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/channel.setup.test.ts:280",
                "upstream it() block #6",

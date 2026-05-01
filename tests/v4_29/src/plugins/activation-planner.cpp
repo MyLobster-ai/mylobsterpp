@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] keeps ids-only command planning stable",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:91] keeps ids-only command planning stable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:91",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] keeps ids-only provider, agent harness, channel, and route planning stable",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:129] keeps ids-only provider, agent harness, channel, and route planning stable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:129",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] keeps ids-only capability planning stable",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:176] keeps ids-only capability planning stable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:176",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] returns a richer activation plan with planner-hint reasons",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:205] returns a richer activation plan with planner-hint reasons",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:205",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] returns manifest-owner reasons when activation hints are absent",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:256] returns manifest-owner reasons when activation hints are absent",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:256",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] returns capability reasons from explicit hints and manifest ownership",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:303] returns capability reasons from explicit hints and manifest ownership",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:303",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts] treats explicit empty plugin scopes as scoped-empty",
+TEST_CASE("v4.29 [src/plugins/activation-planner.test.ts:366] treats explicit empty plugin scopes as scoped-empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/activation-planner.test.ts:366",
                "upstream it() block #6",

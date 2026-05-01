@@ -5,474 +5,474 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes user bin directories when HOME is set on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:20] includes user bin directories when HOME is set on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] excludes user bin directories when HOME is undefined on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:42] excludes user bin directories when HOME is undefined on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] places user directories before system directories on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:57] places user directories before system directories on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] places extraDirs before user directories on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:72] places extraDirs before user directories on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes env-configured bin roots when HOME is set on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:88] includes env-configured bin roots when HOME is set on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes version manager directories on macOS when HOME is set",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:114] includes version manager directories on macOS when HOME is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes env-configured version manager dirs on macOS",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:141] includes env-configured version manager dirs on macOS",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:141",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] places version manager dirs before system dirs on macOS",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:161] places version manager dirs before system dirs on macOS",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:161",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] does not include Linux user directories on Windows",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:179] does not include Linux user directories on Windows",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:179",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] omits hard-coded version-manager fallbacks on Linux when missing",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:190] omits hard-coded version-manager fallbacks on Linux when missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:190",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] omits hard-coded version-manager fallbacks on macOS when missing",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:212] omits hard-coded version-manager fallbacks on macOS when missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:212",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] keeps env-configured roots when fallback directories are missing",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:234] keeps env-configured roots when fallback directories are missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:234",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] excludes env-configured bin roots derived from the install workspace",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:258] excludes env-configured bin roots derived from the install workspace",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:258",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] excludes env-configured bin roots whose existing parent resolves into the workspace",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:283] excludes env-configured bin roots whose existing parent resolves into the workspace",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:283",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] keeps env-configured user toolchain roots when the install cwd is HOME",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:314] keeps env-configured user toolchain roots when the install cwd is HOME",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:314",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] emits only existing hard-coded version-manager fallbacks",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:331] emits only existing hard-coded version-manager fallbacks",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:331",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] falls back to default Nix profile when NIX_PROFILES is absent on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:350] falls back to default Nix profile when NIX_PROFILES is absent on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:350",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] falls back to default Nix profile when NIX_PROFILES is absent on macOS",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:360] falls back to default Nix profile when NIX_PROFILES is absent on macOS",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:360",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] places rightmost NIX_PROFILES entry before leftmost on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:370] places rightmost NIX_PROFILES entry before leftmost on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:370",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] places rightmost NIX_PROFILES entry before leftmost on macOS",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:387] places rightmost NIX_PROFILES entry before leftmost on macOS",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:387",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes single Nix profile from NIX_PROFILES on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:404] includes single Nix profile from NIX_PROFILES on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:404",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes single Nix profile from NIX_PROFILES on macOS",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:417] includes single Nix profile from NIX_PROFILES on macOS",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:417",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] preserves Nix precedence across three profiles",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:430] preserves Nix precedence across three profiles",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:430",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes Homebrew + system dirs on macOS",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:456] includes Homebrew + system dirs on macOS",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:456",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] returns PATH as-is on Windows",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:467] returns PATH as-is on Windows",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:467",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes Linux user directories when HOME is set in env",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:475] includes Linux user directories when HOME is set in env",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:475",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] excludes Linux user directories when HOME is not in env",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:495] excludes Linux user directories when HOME is not in env",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:495",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] ensures user directories come before system directories on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:509] ensures user directories come before system directories on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:509",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] includes extra directories when provided",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:523] includes extra directories when provided",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:523",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] deduplicates directories",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:532] deduplicates directories",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:532",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] prepends explicit runtime bin directories before guessed user paths",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:543] prepends explicit runtime bin directories before guessed user paths",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:543",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] sets minimal PATH and gateway vars",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:558] sets minimal PATH and gateway vars",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:558",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] passes through OPENCLAW_WRAPPER for gateway services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:581] passes through OPENCLAW_WRAPPER for gateway services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:581",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] forwards TMPDIR from the host environment on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:593] forwards TMPDIR from the host environment on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:593",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] uses a durable state temp directory for macOS LaunchAgents",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:602] uses a durable state temp directory for macOS LaunchAgents",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:602",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] falls back to os.tmpdir when TMPDIR is not set on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:611] falls back to os.tmpdir when TMPDIR is not set on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:611",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] uses profile-specific unit and label",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:620] uses profile-specific unit and label",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:620",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] does not persist ambient proxy environment variables for launchd/systemd runtime",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:632] does not persist ambient proxy environment variables for launchd/systemd runtime",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:632",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] forwards proxy URL env fallback for installed gateway services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:652] forwards proxy URL env fallback for installed gateway services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:652",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] omits PATH on Windows so Scheduled Tasks can inherit the current shell path",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:664] omits PATH on Windows so Scheduled Tasks can inherit the current shell path",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:664",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] prepends extra runtime directories to the gateway service PATH",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:678] prepends extra runtime directories to the gateway service PATH",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:678",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] passes through HOME for node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:693] passes through HOME for node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:693",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] passes through OPENCLAW_GATEWAY_TOKEN for node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:700] passes through OPENCLAW_GATEWAY_TOKEN for node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:700",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] passes through OPENCLAW_ALLOW_INSECURE_PRIVATE_WS for node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:707] passes through OPENCLAW_ALLOW_INSECURE_PRIVATE_WS for node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:707",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] omits OPENCLAW_GATEWAY_TOKEN when the env var is empty",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:714] omits OPENCLAW_GATEWAY_TOKEN when the env var is empty",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:714",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] does not persist ambient proxy environment variables for node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:724] does not persist ambient proxy environment variables for node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:724",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] forwards proxy URL env fallback for installed node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:737] forwards proxy URL env fallback for installed node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:737",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] forwards TMPDIR for node services on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:748] forwards TMPDIR for node services on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:748",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] uses a durable state temp directory for macOS node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:756] uses a durable state temp directory for macOS node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:756",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] falls back to os.tmpdir for node services when TMPDIR is not set on Linux",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:764] falls back to os.tmpdir for node services when TMPDIR is not set on Linux",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:764",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] prepends extra runtime directories to the node service PATH",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:772] prepends extra runtime directories to the node service PATH",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:772",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] uses the default state dir when no overrides are set",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:831] uses the default state dir when no overrides are set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:831",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] appends the profile suffix when set",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:836] appends the profile suffix when set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:836",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] treats default profiles as the base state dir",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:841] treats default profiles as the base state dir",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:841",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] uses OPENCLAW_STATE_DIR when provided",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:846] uses OPENCLAW_STATE_DIR when provided",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:846",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] expands ~ in OPENCLAW_STATE_DIR",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:851] expands ~ in OPENCLAW_STATE_DIR",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:851",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] preserves Windows absolute paths without HOME",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:856] preserves Windows absolute paths without HOME",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:856",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] returns true when NVM_DIR env var is set",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:863] returns true when NVM_DIR env var is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:863",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] returns true when execPath contains /.nvm/",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:867] returns true when execPath contains /.nvm/",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:867",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] returns false when neither NVM_DIR nor nvm execPath",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:873] returns false when neither NVM_DIR nor nvm execPath",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:873",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] returns a known CA bundle path when one exists",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:879] returns a known CA bundle path when one exists",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:879",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] sets macOS TLS defaults for gateway services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:888] sets macOS TLS defaults for gateway services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:888",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] sets macOS TLS defaults for node services",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:898] sets macOS TLS defaults for node services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:898",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] defaults NODE_EXTRA_CA_CERTS on Linux when NVM_DIR is set",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:907] defaults NODE_EXTRA_CA_CERTS on Linux when NVM_DIR is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:907",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] defaults NODE_EXTRA_CA_CERTS on Linux when execPath is under nvm",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:918] defaults NODE_EXTRA_CA_CERTS on Linux when execPath is under nvm",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:918",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] does not default NODE_EXTRA_CA_CERTS on Linux without nvm",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:928] does not default NODE_EXTRA_CA_CERTS on Linux without nvm",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:928",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-env.test.ts] respects user-provided NODE_EXTRA_CA_CERTS on Linux with nvm",
+TEST_CASE("v4.29 [src/daemon/service-env.test.ts:938] respects user-provided NODE_EXTRA_CA_CERTS on Linux with nvm",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-env.test.ts:938",
                "upstream it() block #66",

@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns global by default",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:33] returns global by default",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns cn when explicit region is cn",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:38] returns cn when explicit region is cn",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns global when explicit region is not cn",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:42] returns global when explicit region is not cn",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] infers cn from MINIMAX_API_HOST",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:47] infers cn from MINIMAX_API_HOST",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] infers cn from model provider base URL",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:52] infers cn from model provider base URL",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] infers cn from minimax-portal base URL (OAuth CN path)",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:63] infers cn from minimax-portal base URL (OAuth CN path)",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:63",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns global when model provider base URL is global",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:74] returns global when model provider base URL is global",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] explicit search config region takes priority over base URL",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:85] explicit search config region takes priority over base URL",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:85",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] handles non-object minimax search config gracefully",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:97] handles non-object minimax search config gracefully",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:97",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns global endpoint by default",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:105] returns global endpoint by default",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:105",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns CN endpoint when region is cn",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:109] returns CN endpoint when region is cn",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:109",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] returns CN endpoint when inferred from model provider base URL",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:115] returns CN endpoint when inferred from model provider base URL",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:115",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] prefers configured apiKey over env vars",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:128] prefers configured apiKey over env vars",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:128",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] accepts MINIMAX_CODING_API_KEY as a coding-plan alias",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:133] accepts MINIMAX_CODING_API_KEY as a coding-plan alias",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:133",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] falls back to MINIMAX_API_KEY last",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:138] falls back to MINIMAX_API_KEY last",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:138",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] uses correct global endpoint",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:145] uses correct global endpoint",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:145",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts] uses correct CN endpoint",
+TEST_CASE("v4.29 [extensions/minimax/src/minimax-web-search-provider.test.ts:149] uses correct CN endpoint",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/src/minimax-web-search-provider.test.ts:149",
                "upstream it() block #16",

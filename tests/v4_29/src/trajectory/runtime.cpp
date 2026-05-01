@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] resolves a session-adjacent trajectory file by default",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:29] resolves a session-adjacent trajectory file by default",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] sanitizes session ids when resolving an override directory",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:38] sanitizes session ids when resolving an override directory",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] records sanitized runtime events by default",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:47] records sanitized runtime events by default",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] truncates events that exceed the runtime event byte limit",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:91] truncates events that exceed the runtime event byte limit",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] writes a session-adjacent pointer when using an override directory",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:120] writes a session-adjacent pointer when using an override directory",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] keeps pointer write flags usable when O_NOFOLLOW is unavailable",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:142] keeps pointer write flags usable when O_NOFOLLOW is unavailable",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/runtime.test.ts] does not record runtime events when explicitly disabled",
+TEST_CASE("v4.29 [src/trajectory/runtime.test.ts:152] does not record runtime events when explicitly disabled",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/runtime.test.ts:152",
                "upstream it() block #6",

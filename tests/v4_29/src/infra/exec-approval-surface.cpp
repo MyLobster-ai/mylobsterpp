@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] uses the provided cfg for telegram and discord client enablement",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:91] uses the provided cfg for telegram and discord client enablement",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:91",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] reads approval availability from approvalCapability when auth is omitted",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:139] reads approval availability from approvalCapability when auth is omitted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:139",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] prefers exec-initiating-surface state over generic approval availability",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:168] prefers exec-initiating-surface state over generic approval availability",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] does not treat plugin-only approval availability as exec availability",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:200] does not treat plugin-only approval availability as exec availability",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:200",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] loads config lazily when cfg is omitted and marks unsupported channels",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:224] loads config lazily when cfg is omitted and marks unsupported channels",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:224",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] treats deliverable chat channels without a custom adapter as enabled",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:258] treats deliverable chat channels without a custom adapter as enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:258",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts] treats exec-specific initiating-surface hooks as native exec client support",
+TEST_CASE("v4.29 [src/infra/exec-approval-surface.test.ts:267] treats exec-specific initiating-surface hooks as native exec client support",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-surface.test.ts:267",
                "upstream it() block #6",

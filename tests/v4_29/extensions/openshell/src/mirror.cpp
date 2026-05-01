@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] copies source entries to target",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:25] copies source entries to target",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] excludes specified directories from sync",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:39] excludes specified directories from sync",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] excludeDirs matching is case-insensitive",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:75] excludeDirs matching is case-insensitive",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] preserves default excluded directories and repository metadata",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:97] preserves default excluded directories and repository metadata",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] skips symbolic links when copying into the host workspace",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:131] skips symbolic links when copying into the host workspace",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] preserves existing trusted host symlinks",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:149] preserves existing trusted host symlinks",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:149",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts] stages upload content without symbolic links",
+TEST_CASE("v4.29 [extensions/openshell/src/mirror.test.ts:165] stages upload content without symbolic links",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/mirror.test.ts:165",
                "upstream it() block #6",

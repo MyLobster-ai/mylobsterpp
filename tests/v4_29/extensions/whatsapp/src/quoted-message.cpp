@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts] scopes cached metadata by account id",
+TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts:9] scopes cached metadata by account id",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/quoted-message.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts] can recover the original remoteJid for a matching direct-chat target",
+TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts:33] can recover the original remoteJid for a matching direct-chat target",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/quoted-message.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts] can recover a direct-chat remoteJid when only sender E164 was cached",
+TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts:56] can recover a direct-chat remoteJid when only sender E164 was cached",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/quoted-message.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts] does not recover metadata from another chat when the target conversation differs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/quoted-message.test.ts:73] does not recover metadata from another chat when the target conversation differs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/quoted-message.test.ts:73",
                "upstream it() block #3",

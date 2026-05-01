@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/file-utils.test.ts] downloads through the guarded media adapter with the qqbot SSRF policy",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/file-utils.test.ts:30] downloads through the guarded media adapter with the qqbot SSRF policy",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/file-utils.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/file-utils.test.ts] rejects non-HTTPS URLs before attempting a fetch",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/file-utils.test.ts:66] rejects non-HTTPS URLs before attempting a fetch",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/file-utils.test.ts:66",
                "upstream it() block #1",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll waits for completion when timeout is provided",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:88] process poll waits for completion when timeout is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll accepts string timeout values",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:98] process poll accepts string timeout values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll clamps long waits to 30 seconds",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:107] process poll clamps long waits to 30 seconds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll schema advertises the 30 second wait cap",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:129] process poll schema advertises the 30 second wait cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:129",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll aborts while waiting for completion",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:136] process poll aborts while waiting for completion",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll exposes adaptive retryInMs for repeated no-output polls",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:158] process poll exposes adaptive retryInMs for repeated no-output polls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts] process poll resets retryInMs when output appears and clears on completion",
+TEST_CASE("v4.29 [src/agents/bash-tools.process.poll-timeout.test.ts:173] process poll resets retryInMs when output appears and clears on completion",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.process.poll-timeout.test.ts:173",
                "upstream it() block #6",

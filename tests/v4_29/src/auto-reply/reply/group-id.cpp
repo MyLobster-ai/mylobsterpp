@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] returns undefined for empty/null input",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:5] returns undefined for empty/null input",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] extracts group ID from provider group format",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:12] extracts group ID from provider group format",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] extracts group ID from provider topic format, stripping topic suffix",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:16] extracts group ID from provider topic format, stripping topic suffix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:16",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] extracts group ID from channel format",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:22] extracts group ID from channel format",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:22",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] extracts group ID from channel format with topic",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:26] extracts group ID from channel format with topic",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:26",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] extracts group ID from bare group: prefix",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:32] extracts group ID from bare group: prefix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:32",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] extracts group ID from bare group: prefix with topic",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:36] extracts group ID from bare group: prefix with topic",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:36",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts] returns undefined for unrecognized formats",
+TEST_CASE("v4.29 [src/auto-reply/reply/group-id.test.ts:40] returns undefined for unrecognized formats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/group-id.test.ts:40",
                "upstream it() block #7",

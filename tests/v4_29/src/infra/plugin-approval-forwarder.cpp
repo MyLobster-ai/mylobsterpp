@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] returns false when forwarding is disabled",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:109] returns false when forwarding is disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:109",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] forwards to configured targets",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:115] forwards to configured targets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] includes severity icon for critical",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:157] includes severity icon for critical",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:157",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] returns false when exec enabled but plugin disabled",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:171] returns false when exec enabled but plugin disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:171",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] forwards when plugin enabled but exec disabled",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:183] forwards when plugin enabled but exec disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] returns false when no approvals config at all",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:202] returns false when no approvals config at all",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:202",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] uses buildPluginPendingPayload from channel adapter when available",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:211] uses buildPluginPendingPayload from channel adapter when available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:211",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] calls outbound beforeDeliverPayload before plugin approval delivery",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:236] calls outbound beforeDeliverPayload before plugin approval delivery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:236",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] uses buildPluginResolvedPayload from channel adapter for resolved messages",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:255] uses buildPluginResolvedPayload from channel adapter for resolved messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:255",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] delivers resolved message to targets",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:285] delivers resolved message to targets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:285",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] reconstructs targets from resolved request snapshot when pending cache is missing",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:300] reconstructs targets from resolved request snapshot when pending cache is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:300",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts] clears pending plugin approvals",
+TEST_CASE("v4.29 [src/infra/plugin-approval-forwarder.test.ts:330] clears pending plugin approvals",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-approval-forwarder.test.ts:330",
                "upstream it() block #11",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.shared.test.ts] returns fallback when timeout wins",
+TEST_CASE("v4.29 [src/infra/provider-usage.shared.test.ts:71] returns fallback when timeout wins",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.shared.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.shared.test.ts] clears the timeout after successful work",
+TEST_CASE("v4.29 [src/infra/provider-usage.shared.test.ts:79] clears the timeout after successful work",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.shared.test.ts:79",
                "upstream it() block #1",

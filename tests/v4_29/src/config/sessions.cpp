@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] builds discord display name with guild+channel slugs",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:145] builds discord display name with guild+channel slugs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:145",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute persists channel and target",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:217] updateLastRoute persists channel and target",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:217",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute prefers explicit deliveryContext",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:262] updateLastRoute prefers explicit deliveryContext",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:262",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute clears threadId when explicit route omits threadId",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:293] updateLastRoute clears threadId when explicit route omits threadId",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:293",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute records origin + group metadata when ctx is provided",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:328] updateLastRoute records origin + group metadata when ctx is provided",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:328",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute skips missing sessions when creation is disabled",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:359] updateLastRoute skips missing sessions when creation is disabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:359",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute updates existing sessions when creation is disabled",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:381] updateLastRoute updates existing sessions when creation is disabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:381",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateLastRoute does not bump updatedAt on existing sessions (#49515)",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:405] updateLastRoute does not bump updatedAt on existing sessions (#49515)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:405",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStoreEntry preserves existing fields when patching",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:435] updateSessionStoreEntry preserves existing fields when patching",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:435",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStoreEntry returns null when session key does not exist",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:459] updateSessionStoreEntry returns null when session key does not exist",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:459",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStoreEntry keeps existing entry when patch callback returns null",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:473] updateSessionStoreEntry keeps existing entry when patch callback returns null",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:473",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStore preserves concurrent additions",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:497] updateSessionStore preserves concurrent additions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:497",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] recovers from array-backed session stores",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:516] recovers from array-backed session stores",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:516",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] normalizes last route fields on write",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:532] normalizes last route fields on write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:532",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStore keeps deletions when concurrent writes happen",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:558] updateSessionStore keeps deletions when concurrent writes happen",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:558",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] loadSessionStore auto-migrates legacy provider keys to channel keys",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:589] loadSessionStore auto-migrates legacy provider keys to channel keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:589",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] derives session transcripts dir from OPENCLAW_STATE_DIR",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:619] derives session transcripts dir from OPENCLAW_STATE_DIR",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:619",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] includes topic ids in session transcript filenames",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:627] includes topic ids in session transcript filenames",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:627",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] uses agent id when resolving session file fallback paths",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:642] uses agent id when resolving session file fallback paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:642",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] resolves cross-agent absolute sessionFile paths",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:653] resolves cross-agent absolute sessionFile paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:653",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] resolves cross-agent paths when OPENCLAW_STATE_DIR differs from stored paths",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:664] resolves cross-agent paths when OPENCLAW_STATE_DIR differs from stored paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:664",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] falls back when structural cross-root path traverses after sessions",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:678] falls back when structural cross-root path traverses after sessions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:678",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] falls back when structural cross-root path nests under sessions",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:691] falls back when structural cross-root path nests under sessions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:691",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] resolveSessionFilePathOptions keeps explicit agentId alongside absolute store path",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:711] resolveSessionFilePathOptions keeps explicit agentId alongside absolute store path",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:711",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] resolves sibling agent absolute sessionFile using alternate agentId from options",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:721] resolves sibling agent absolute sessionFile using alternate agentId from options",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:721",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] falls back to derived transcript path when sessionFile is outside agent sessions directories",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:737] falls back to derived transcript path when sessionFile is outside agent sessions directories",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:737",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStoreEntry merges concurrent patches",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:748] updateSessionStoreEntry merges concurrent patches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:748",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions.test.ts] updateSessionStoreEntry re-reads disk inside lock instead of using stale cache",
+TEST_CASE("v4.29 [src/config/sessions.test.ts:801] updateSessionStoreEntry re-reads disk inside lock instead of using stale cache",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions.test.ts:801",
                "upstream it() block #27",

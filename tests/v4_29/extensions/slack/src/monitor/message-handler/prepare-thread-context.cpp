@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts] omits non-allowlisted starter text and thread history messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:85] omits non-allowlisted starter text and thread history messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts] keeps starter text and history when allowNameMatching authorizes the sender",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:113] keeps starter text and history when allowNameMatching authorizes the sender",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts] omits bot-authored starter text and history from a new thread session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:135] omits bot-authored starter text and history from a new thread session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:135",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts] keeps third-party bot starter text in a new thread session",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:158] keeps third-party bot starter text in a new thread session",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:158",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts] omits self-authored starter text when identified by bot user id",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:182] omits self-authored starter text when identified by bot user id",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/prepare-thread-context.test.ts:182",
                "upstream it() block #4",

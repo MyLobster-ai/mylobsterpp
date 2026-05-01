@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] returns sessionKey when --to resolves a session key via context",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:74] returns sessionKey when --to resolves a session key via context",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] uses the configured default agent store for new --to sessions",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:87] uses the configured default agent store for new --to sessions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] migrates legacy main-store main-key sessions for plain --to default-agent requests",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:105] migrates legacy main-store main-key sessions for plain --to default-agent requests",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] migrates legacy main-key sessions for plain --to default-agent requests with a literal shared store",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:129] migrates legacy main-key sessions for plain --to default-agent requests with a literal shared store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:129",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] prefers the configured default-agent session over legacy main-store rows",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:153] prefers the configured default-agent session over legacy main-store rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:153",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] finds session by sessionId via reverse lookup in primary store",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:177] finds session by sessionId via reverse lookup in primary store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:177",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] finds session by sessionId in non-primary agent store",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:190] finds session by sessionId in non-primary agent store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:190",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] does not let --agent short-circuit --session-id back to the agent main session",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:206] does not let --agent short-circuit --session-id back to the agent main session",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:206",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] treats whitespace --session-id as absent when resolving --agent",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:229] treats whitespace --session-id as absent when resolving --agent",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:229",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] does not search other agent stores when --agent scopes --session-id",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:248] does not search other agent stores when --agent scopes --session-id",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:248",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] returns correct sessionStore when session found in non-primary agent store",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:272] returns correct sessionStore when session found in non-primary agent store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:272",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] returns a deterministic explicit sessionKey when sessionId not found in any store",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:288] returns a deterministic explicit sessionKey when sessionId not found in any store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:288",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] does not search other stores when explicitSessionKey is set",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:299] does not search other stores when explicitSessionKey is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:299",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] searches other stores when --to derives a key that does not match --session-id",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:315] searches other stores when --to derives a key that does not match --session-id",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:315",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent/session.test.ts] skips already-searched primary store when iterating agents",
+TEST_CASE("v4.29 [src/commands/agent/session.test.ts:337] skips already-searched primary store when iterating agents",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent/session.test.ts:337",
                "upstream it() block #14",

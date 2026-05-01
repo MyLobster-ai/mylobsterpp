@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts] skips unknown broadcast agent ids when agents.list is present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:22] skips unknown broadcast agent ids when agents.list is present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts] broadcasts sequentially in configured order",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:41] broadcasts sequentially in configured order",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts] shares group history across broadcast agents and clears after replying",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:62] shares group history across broadcast agents and clears after replying",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts] keeps named-account group broadcast routes on the scoped session key",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:142] keeps named-account group broadcast routes on the scoped session key",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts] broadcasts in parallel by default",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:193] broadcasts in parallel by default",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.broadcast-groups.combined.test.ts:193",
                "upstream it() block #4",

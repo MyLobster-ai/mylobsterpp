@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/config-schema.test.ts] builds json schema when toJSONSchema is available",
+TEST_CASE("v4.29 [src/plugins/config-schema.test.ts:21] builds json schema when toJSONSchema is available",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-schema.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-schema.test.ts] uses input mode and strips helper-only draft metadata",
+TEST_CASE("v4.29 [src/plugins/config-schema.test.ts:31] uses input mode and strips helper-only draft metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-schema.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-schema.test.ts] falls back when toJSONSchema is missing",
+TEST_CASE("v4.29 [src/plugins/config-schema.test.ts:58] falls back when toJSONSchema is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-schema.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-schema.test.ts] uses zod runtime parsing by default",
+TEST_CASE("v4.29 [src/plugins/config-schema.test.ts:64] uses zod runtime parsing by default",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-schema.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-schema.test.ts] allows custom safeParse overrides",
+TEST_CASE("v4.29 [src/plugins/config-schema.test.ts:72] allows custom safeParse overrides",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-schema.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-schema.test.ts] accepts undefined and empty objects only",
+TEST_CASE("v4.29 [src/plugins/config-schema.test.ts:87] accepts undefined and empty objects only",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-schema.test.ts:87",
                "upstream it() block #5",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/exec-approval-resolver.test.ts] routes plugin approval ids through plugin.approval.resolve",
+TEST_CASE("v4.29 [extensions/telegram/src/exec-approval-resolver.test.ts:52] routes plugin approval ids through plugin.approval.resolve",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/exec-approval-resolver.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/exec-approval-resolver.test.ts] passes fallback disablement through unchanged",
+TEST_CASE("v4.29 [extensions/telegram/src/exec-approval-resolver.test.ts:85] passes fallback disablement through unchanged",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/exec-approval-resolver.test.ts:85",
                "upstream it() block #1",

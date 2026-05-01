@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] returns the most recent assistant message when compaction markers trail history",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:26] returns the most recent assistant message when compaction markers trail history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] falls back to older assistant text when latest assistant has no text",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:47] falls back to older assistant text when latest assistant has no text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] returns assistant fingerprints for delta comparisons",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:61] returns assistant fingerprints for delta comparisons",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] reads only final_answer text from phased assistant history",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:78] reads only final_answer text from phased assistant history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] preserves spaces across split final_answer history blocks",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:104] preserves spaces across split final_answer history blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:104",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] maps gateway timeouts to timeout status",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:144] maps gateway timeouts to timeout status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:144",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] keeps transport-close wait failures as errors for generic callers",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:155] keeps transport-close wait failures as errors for generic callers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:155",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] preserves pending agent.wait status",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:167] preserves pending agent.wait status",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] preserves timing metadata from agent.wait",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:175] preserves timing metadata from agent.wait",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:175",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] returns undefined when the latest assistant fingerprint matches the baseline",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:200] returns undefined when the latest assistant fingerprint matches the baseline",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:200",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] returns the new assistant text when the fingerprint changes",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:230] returns the new assistant text when the fingerprint changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:230",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] waits across rounds until descendant runs stop changing",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:270] waits across rounds until descendant runs stop changing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:270",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] deduplicates and trims pending run ids",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:315] deduplicates and trims pending run ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:315",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/run-wait.test.ts] keeps the initial pending run ids before refreshing",
+TEST_CASE("v4.29 [src/agents/run-wait.test.ts:332] keeps the initial pending run ids before refreshing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/run-wait.test.ts:332",
                "upstream it() block #13",

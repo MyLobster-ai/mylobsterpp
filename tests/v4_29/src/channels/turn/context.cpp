@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/turn/context.test.ts] maps normalized turn facts into a finalized message context",
+TEST_CASE("v4.29 [src/channels/turn/context.test.ts:40] maps normalized turn facts into a finalized message context",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/context.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/context.test.ts] filters supplemental context with channel visibility policy",
+TEST_CASE("v4.29 [src/channels/turn/context.test.ts:178] filters supplemental context with channel visibility policy",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/context.test.ts:178",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/context.test.ts] keeps quoted context in allowlist_quote mode",
+TEST_CASE("v4.29 [src/channels/turn/context.test.ts:211] keeps quoted context in allowlist_quote mode",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/context.test.ts:211",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/turn/context.test.ts] drops supplemental context with unknown sender allow state in restrictive modes",
+TEST_CASE("v4.29 [src/channels/turn/context.test.ts:236] drops supplemental context with unknown sender allow state in restrictive modes",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/turn/context.test.ts:236",
                "upstream it() block #3",

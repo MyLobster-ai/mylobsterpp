@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] trims and lowercases non-empty values",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:223] trims and lowercases non-empty values",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:223",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] skips when provider does not match",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:240] skips when provider does not match",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:240",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] uses env credential when user confirms",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:257] uses env credential when user confirms",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:257",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] falls back to prompt when env is declined",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:268] falls back to prompt when env is declined",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:268",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] uses explicit inline env ref when secret-input-mode=ref selects existing env key",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:283] uses explicit inline env ref when secret-input-mode=ref selects existing env key",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:283",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] fails ref mode without select when fallback env var is missing",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:303] fails ref mode without select when fallback env var is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:303",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] uses explicit env for ref fallback instead of host process env",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:324] uses explicit env for ref fallback instead of host process env",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:324",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] re-prompts after provider ref validation failure and succeeds with env ref",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:345] re-prompts after provider ref validation failure and succeeds with env ref",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:345",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] never includes resolved env secret values in reference validation notes",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:383] never includes resolved env secret values in reference validation notes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:383",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] uses opts token and skips note/env/prompt",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:407] uses opts token and skips note/env/prompt",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:407",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts] falls back to env flow and shows note when opts provider does not match",
+TEST_CASE("v4.29 [src/plugins/provider-auth-input.test.ts:434] falls back to env flow and shows note when opts provider does not match",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-input.test.ts:434",
                "upstream it() block #10",

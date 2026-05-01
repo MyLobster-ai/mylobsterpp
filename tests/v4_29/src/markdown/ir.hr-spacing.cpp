@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] just hr alone renders as separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:25] just hr alone renders as separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr interrupting paragraph (setext heading case)",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:30] hr interrupting paragraph (setext heading case)",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr between paragraphs should render with separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:43] hr between paragraphs should render with separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr between paragraphs using *** should render with separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:53] hr between paragraphs using *** should render with separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr between paragraphs using ___ should render with separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:63] hr between paragraphs using ___ should render with separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] consecutive hrs should produce multiple separators",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:73] consecutive hrs should produce multiple separators",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr at document end renders separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:82] hr at document end renders separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr at document start renders separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:90] hr at document start renders separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:90",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] should not produce triple newlines regardless of hr placement",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:98] should not produce triple newlines regardless of hr placement",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:98",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] multiple consecutive hrs between paragraphs should each render as separator",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:114] multiple consecutive hrs between paragraphs should each render as separator",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:114",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr between list items renders as separator without extra spacing",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:130] hr between list items renders as separator without extra spacing",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:130",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] hr followed immediately by heading",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:139] hr followed immediately by heading",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:139",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts] heading followed by hr",
+TEST_CASE("v4.29 [src/markdown/ir.hr-spacing.test.ts:151] heading followed by hr",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/ir.hr-spacing.test.ts:151",
                "upstream it() block #12",

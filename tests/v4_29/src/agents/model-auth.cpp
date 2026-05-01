@@ -5,362 +5,362 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] prefers bearer token over access keys and profile",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:224] prefers bearer token over access keys and profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:224",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] uses access keys when bearer token is missing",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:235] uses access keys when bearer token is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:235",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] uses profile when no bearer token or access keys exist",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:245] uses profile when no bearer token or access keys exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:245",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns undefined when no AWS auth env is set",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:253] returns undefined when no AWS auth env is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:253",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns mixed when provider has both token and api key profiles",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:259] returns mixed when provider has both token and api key profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:259",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns aws-sdk when provider auth is overridden",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:279] returns aws-sdk when provider auth is overridden",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:279",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns aws-sdk for bedrock alias without explicit auth override",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:299] returns aws-sdk for bedrock alias without explicit auth override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:299",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns aws-sdk for aws-bedrock alias without explicit auth override",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:305] returns aws-sdk for aws-bedrock alias without explicit auth override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:305",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns oauth for codex when Codex CLI auth is available",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:311] returns oauth for codex when Codex CLI auth is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:311",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] normalizes line breaks in resolved API keys",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:331] normalizes line breaks in resolved API keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:331",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] throws when no API key is present",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:344] throws when no API key is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:344",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns literal custom provider keys",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:358] returns literal custom provider keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:358",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not treat non-env markers as usable credentials",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:379] does not treat non-env markers as usable credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:379",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not treat the Vertex ADC marker as a usable models.json credential",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:397] does not treat the Vertex ADC marker as a usable models.json credential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:397",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] resolves known env marker names from process env for custom providers",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:415] resolves known env marker names from process env for custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:415",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] resolves env SecretRefs from process env for custom providers",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:444] resolves env SecretRefs from process env for custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:444",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] resolves env SecretRefs with unknown env IDs from process env for custom providers",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:477] resolves env SecretRefs with unknown env IDs from process env for custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:477",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not resolve env SecretRefs when provider allowlist excludes the env id",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:510] does not resolve env SecretRefs when provider allowlist excludes the env id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:510",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not resolve env SecretRefs when provider source is not env",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:550] does not resolve env SecretRefs when provider source is not env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:550",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not treat env SecretRefs with missing unknown env IDs as usable",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:590] does not treat env SecretRefs with missing unknown env IDs as usable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:590",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not treat non-env SecretRefs as usable models.json credentials",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:623] does not treat non-env SecretRefs as usable models.json credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:623",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not treat known env marker names as usable when env value is missing",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:645] does not treat known env marker names as usable when env value is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:645",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] reuses plugin fallback auth without a models.providers entry",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:676] reuses plugin fallback auth without a models.providers entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:676",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] prefers the active runtime snapshot for SecretRef-backed plugin fallback auth",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:704] prefers the active runtime snapshot for SecretRef-backed plugin fallback auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:704",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not reuse plugin fallback auth when the plugin is disabled",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:748] does not reuse plugin fallback auth when the plugin is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:748",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] reuses plugin-owned native CLI auth",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:773] reuses plugin-owned native CLI auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:773",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] prefers explicit api-key provider config over ambient auth profiles",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:795] prefers explicit api-key provider config over ambient auth profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:795",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] prefers non-secret local env markers over ambient profiles",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:830] prefers non-secret local env markers over ambient profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:830",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] synthesizes a local auth marker for custom providers with a local baseUrl and no apiKey",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:856] synthesizes a local auth marker for custom providers with a local baseUrl and no apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:856",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] synthesizes a local auth marker for private LAN custom providers with no apiKey",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:867] synthesizes a local auth marker for private LAN custom providers with no apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:867",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] synthesizes a local auth marker for localhost custom providers",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:878] synthesizes a local auth marker for localhost custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:878",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] synthesizes a local auth marker for IPv6 loopback (::1)",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:883] synthesizes a local auth marker for IPv6 loopback (::1)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:883",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] synthesizes a local auth marker for 0.0.0.0",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:888] synthesizes a local auth marker for 0.0.0.0",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:888",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] synthesizes a local auth marker for IPv4-mapped IPv6 (::ffff:127.0.0.1)",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:898] synthesizes a local auth marker for IPv4-mapped IPv6 (::ffff:127.0.0.1)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:898",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not synthesize auth for remote custom providers without apiKey",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:903] does not synthesize auth for remote custom providers without apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:903",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] preserves custom named Ollama providers with explicit local marker auth",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:932] preserves custom named Ollama providers with explicit local marker auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:932",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] uses Ollama plugin synthetic auth for custom private provider ids without apiKey",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:967] uses Ollama plugin synthetic auth for custom private provider ids without apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:967",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] accepts non-secret local markers for private LAN custom OpenAI-compatible providers",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1001] accepts non-secret local markers for private LAN custom OpenAI-compatible providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1001",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not accept non-secret local markers for remote custom providers",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1036] does not accept non-secret local markers for remote custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1036",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not synthesize local auth when apiKey is explicitly configured but unresolved",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1067] does not synthesize local auth when apiKey is explicitly configured but unresolved",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1067",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] does not synthesize local auth when auth mode explicitly requires oauth",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1107] does not synthesize local auth when auth mode explicitly requires oauth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1107",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] keeps built-in aws-sdk fallback for local baseUrl overrides",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1137] keeps built-in aws-sdk fallback for local baseUrl overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1137",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] marks synthetic local OpenAI-compatible auth so SDK request headers clear Authorization",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1162] marks synthetic local OpenAI-compatible auth so SDK request headers clear Authorization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1162",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] injects Authorization Bearer header when authHeader is true",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1205] injects Authorization Bearer header when authHeader is true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1205",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] preserves existing model headers when injecting Authorization",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1226] preserves existing model headers when injecting Authorization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1226",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns model unchanged when authHeader is not set",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1250] returns model unchanged when authHeader is not set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1250",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns model unchanged when authHeader is false",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1270] returns model unchanged when authHeader is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1270",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns model unchanged when no API key is available",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1291] returns model unchanged when no API key is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1291",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] returns model unchanged when provider config is missing",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1308] returns model unchanged when provider config is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1308",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] rejects synthetic marker API keys",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1318] rejects synthetic marker API keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1318",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth.test.ts] strips existing authorization header case-insensitively before injection",
+TEST_CASE("v4.29 [src/agents/model-auth.test.ts:1339] strips existing authorization header case-insensitively before injection",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth.test.ts:1339",
                "upstream it() block #50",

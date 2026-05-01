@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts] stays alive in polling mode until abort",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts:75] stays alive in polling mode until abort",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.lifecycle.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts] deletes an existing webhook before polling",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts:99] deletes an existing webhook before polling",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.lifecycle.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts] continues polling when webhook inspection returns 404",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts:120] continues polling when webhook inspection returns 404",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.lifecycle.test.ts:120",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts] waits for webhook deletion before finishing webhook shutdown",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.lifecycle.test.ts:140] waits for webhook deletion before finishing webhook shutdown",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.lifecycle.test.ts:140",
                "upstream it() block #3",

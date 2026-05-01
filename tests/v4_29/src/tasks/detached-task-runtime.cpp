@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] dispatches lifecycle operations through the installed runtime",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:62] dispatches lifecycle operations through the installed runtime",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] tracks registered detached runtimes by plugin id",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:161] tracks registered detached runtimes by plugin id",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:161",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] falls back to legacy complete and fail hooks when a runtime has no finalizer",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:175] falls back to legacy complete and fail hooks when a runtime has no finalizer",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:175",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] returns recovered when hook returns recovered true",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:200] returns recovered when hook returns recovered true",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:200",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] returns not recovered when hook returns recovered false",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:215] returns not recovered when hook returns recovered false",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:215",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] returns not recovered when hook is not provided",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:230] returns not recovered when hook is not provided",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:230",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] returns not recovered and logs warning when hook throws",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:241] returns not recovered and logs warning when hook throws",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:241",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] returns not recovered and logs warning when hook returns invalid result",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:266] returns not recovered and logs warning when hook returns invalid result",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:266",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts] logs when the recovery hook is slow",
+TEST_CASE("v4.29 [src/tasks/detached-task-runtime.test.ts:285] logs when the recovery hook is slow",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/detached-task-runtime.test.ts:285",
                "upstream it() block #8",

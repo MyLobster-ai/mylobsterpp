@@ -5,229 +5,229 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] returns built-in defaults when config is missing",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:50] returns built-in defaults when config is missing",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] applies configured defaults from plugin config",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:54] applies configured defaults from plugin config",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] clamps and falls back for invalid line spacing and indicators",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:62] clamps and falls back for invalid line spacing and indicators",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] derives file defaults from quality preset and clamps explicit overrides",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:96] derives file defaults from quality preset and clamps explicit overrides",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] falls back to png for invalid file format defaults",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:124] falls back to png for invalid file format defaults",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] resolves file render format from defaults and explicit overrides",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:136] resolves file render format from defaults and explicit overrides",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] accepts format as a config alias for fileFormat",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:148] accepts format as a config alias for fileFormat",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:148",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] accepts image* config aliases for backward compatibility",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:160] accepts image* config aliases for backward compatibility",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:160",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] keeps loader-applied schema defaults from shadowing aliases and quality-derived defaults",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:178] keeps loader-applied schema defaults from shadowing aliases and quality-derived defaults",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] defaults to local-only viewer access",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:210] defaults to local-only viewer access",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:210",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] allows opt-in remote viewer access",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:214] allows opt-in remote viewer access",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:214",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] defaults to undefined when config is missing",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:222] defaults to undefined when config is missing",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:222",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] normalizes configured viewer base URLs",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:226] normalizes configured viewer base URLs",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:226",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] rejects invalid viewerBaseUrl values at manifest-validation time too",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:236] rejects invalid viewerBaseUrl values at manifest-validation time too",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:236",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] preserves defaults and security for direct safeParse callers",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:245] preserves defaults and security for direct safeParse callers",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:245",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] canonicalizes alias-driven defaults for direct safeParse callers",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:283] canonicalizes alias-driven defaults for direct safeParse callers",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:283",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] rejects invalid viewerBaseUrl config values",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:304] rejects invalid viewerBaseUrl config values",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:304",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] keeps the runtime json schema in sync with the manifest config schema",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:322] keeps the runtime json schema in sync with the manifest config schema",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:322",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] defaults to loopback for lan/tailnet bind modes",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:332] defaults to loopback for lan/tailnet bind modes",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:332",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] uses custom bind host when provided",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:348] uses custom bind host when provided",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:348",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] joins viewer path under baseUrl pathname",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:364] joins viewer path under baseUrl pathname",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:364",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] prefers normalized viewerBaseUrl strings too",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:374] prefers normalized viewerBaseUrl strings too",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:374",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] rejects base URLs with query/hash",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:384] rejects base URLs with query/hash",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:384",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] uses the configured field name in viewerBaseUrl validation errors",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:393] uses the configured field name in viewerBaseUrl validation errors",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:393",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] prefers the built plugin asset layout when present",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:401] prefers the built plugin asset layout when present",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:401",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] falls back to the source asset layout when the built artifact is absent",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:421] falls back to the source asset layout when the built artifact is absent",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:421",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] serves a stable loader that points at the current runtime bundle",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:442] serves a stable loader that points at the current runtime bundle",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:442",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] serves the runtime bundle body",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:449] serves the runtime bundle body",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:449",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] returns null for unknown asset paths",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:458] returns null for unknown asset paths",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:458",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] accepts valid payload JSON",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:493] accepts valid payload JSON",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:493",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] rejects payloads with invalid shape",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:499] rejects payloads with invalid shape",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:499",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts] rejects invalid JSON",
+TEST_CASE("v4.29 [extensions/diffs/src/config.test.ts:511] rejects invalid JSON",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/config.test.ts:511",
                "upstream it() block #31",

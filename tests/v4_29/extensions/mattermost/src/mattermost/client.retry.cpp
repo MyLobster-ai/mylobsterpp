@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] succeeds on first attempt without retries",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:44] succeeds on first attempt without retries",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] retries on 429 rate limit error and succeeds",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:66] retries on 429 rate limit error and succeeds",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] retries on port 443 connection errors (not misclassified as 4xx)",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:103] retries on port 443 connection errors (not misclassified as 4xx)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] does not retry on 400 even if error message contains ",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:128] does not retry on 400 even if error message contains ",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] retries on 5xx server errors",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:153] retries on 5xx server errors",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:153",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] retries on network errors",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:189] retries on network errors",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:189",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] retries on fetch failed errors when the cause carries a transient code",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:213] retries on fetch failed errors when the cause carries a transient code",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:213",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] does not retry on 4xx client errors (except 429)",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:241] does not retry on 4xx client errors (except 429)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:241",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] does not retry on 404 not found",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:263] does not retry on 404 not found",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:263",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] throws after exhausting all retries",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:285] throws after exhausting all retries",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:285",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] respects custom timeout option and aborts fetch",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:307] respects custom timeout option and aborts fetch",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:307",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] uses exponential backoff with jitter between retries",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:349] uses exponential backoff with jitter between retries",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:349",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] respects maxDelayMs cap",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:383] respects maxDelayMs cap",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:383",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] does not retry on 4xx errors even if message contains retryable keywords",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:417] does not retry on 4xx errors even if message contains retryable keywords",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:417",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] does not retry on 403 Forbidden even with ",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:442] does not retry on 403 Forbidden even with ",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:442",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] passes AbortSignal to fetch for timeout support",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:464] passes AbortSignal to fetch for timeout support",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:464",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts] retries on 5xx even if error message contains 4xx substring",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.retry.test.ts:487] retries on 5xx even if error message contains 4xx substring",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.retry.test.ts:487",
                "upstream it() block #16",

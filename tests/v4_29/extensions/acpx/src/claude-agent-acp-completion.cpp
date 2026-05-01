@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/src/claude-agent-acp-completion.test.ts] does not resolve a prompt on idle before the result message",
+TEST_CASE("v4.29 [extensions/acpx/src/claude-agent-acp-completion.test.ts:71] does not resolve a prompt on idle before the result message",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/claude-agent-acp-completion.test.ts:71",
                "upstream it() block #0",

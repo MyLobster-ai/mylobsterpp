@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/session.test.ts] allows only owner-equivalent realtime brain auth",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/session.test.ts:15] allows only owner-equivalent realtime brain auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/session.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/session.test.ts] sends session summary before closing after terminal adapter errors",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/session.test.ts:63] sends session summary before closing after terminal adapter errors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/session.test.ts:63",
                "upstream it() block #1",

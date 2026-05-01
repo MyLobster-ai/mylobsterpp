@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] supports injected trusted safe-bin dirs for tests/callers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:294] supports injected trusted safe-bin dirs for tests/callers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:294",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] supports injected platform for deterministic safe-bin checks",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:311] supports injected platform for deterministic safe-bin checks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:311",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] supports injected trusted path checker for deterministic callers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:325] supports injected trusted path checker for deterministic callers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:325",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] keeps safe-bin profile fixtures aligned with compiled profiles",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:352] keeps safe-bin profile fixtures aligned with compiled profiles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:352",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] does not include sort/grep in default safeBins",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:367] does not include sort/grep in default safeBins",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:367",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] does not auto-allow unprofiled safe-bin entries",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:374] does not auto-allow unprofiled safe-bin entries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:374",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] allows caller-defined custom safe-bin profiles",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:388] allows caller-defined custom safe-bin profiles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:388",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] blocks sort output flags independent of file existence",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:421] blocks sort output flags independent of file existence",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:421",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] threads trusted safe-bin dirs through allowlist evaluation",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:453] threads trusted safe-bin dirs through allowlist evaluation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:453",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] does not auto-trust PATH-shadowed safe bins without explicit trusted dirs",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:492] does not auto-trust PATH-shadowed safe bins without explicit trusted dirs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:492",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts] fails closed for semantic env wrappers in allowlist mode",
+TEST_CASE("v4.29 [src/infra/exec-approvals-safe-bins.test.ts:516] fails closed for semantic env wrappers in allowlist mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-safe-bins.test.ts:516",
                "upstream it() block #10",

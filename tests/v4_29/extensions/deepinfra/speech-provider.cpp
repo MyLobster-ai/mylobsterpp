@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepinfra/speech-provider.test.ts] normalizes provider-owned speech config",
+TEST_CASE("v4.29 [extensions/deepinfra/speech-provider.test.ts:30] normalizes provider-owned speech config",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/speech-provider.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/speech-provider.test.ts] synthesizes OpenAI-compatible speech through DeepInfra",
+TEST_CASE("v4.29 [extensions/deepinfra/speech-provider.test.ts:60] synthesizes OpenAI-compatible speech through DeepInfra",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/speech-provider.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/speech-provider.test.ts] uses DEEPINFRA_API_KEY when provider config omits apiKey",
+TEST_CASE("v4.29 [extensions/deepinfra/speech-provider.test.ts:116] uses DEEPINFRA_API_KEY when provider config omits apiKey",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/speech-provider.test.ts:116",
                "upstream it() block #2",

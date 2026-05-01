@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] joins all invites when autoJoin=always",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:75] joins all invites when autoJoin=always",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] does not auto-join invites by default",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:86] does not auto-join invites by default",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] ignores invites outside allowlist when autoJoin=allowlist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:93] ignores invites outside allowlist when autoJoin=allowlist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] joins invite when allowlisted alias resolves to the invited room",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:106] joins invite when allowlisted alias resolves to the invited room",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] retries alias resolution after an unresolved lookup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:119] retries alias resolution after an unresolved lookup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] logs and skips allowlist alias resolution failures",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:135] logs and skips allowlist alias resolution failures",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:135",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] does not trust room-provided alias claims for allowlist joins",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:156] does not trust room-provided alias claims for allowlist joins",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] uses account-scoped auto-join settings for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:169] uses account-scoped auto-join settings for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:169",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] joins sender-scoped invites without eager direct repair",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:182] joins sender-scoped invites without eager direct repair",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:182",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts] still joins invites when the sender is unavailable",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/auto-join.test.ts:194] still joins invites when the sender is unavailable",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/auto-join.test.ts:194",
                "upstream it() block #9",

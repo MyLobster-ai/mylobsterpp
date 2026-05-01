@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects absolute file paths with common extensions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:38] detects absolute file paths with common extensions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects relative paths starting with ./",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:50] detects relative paths starting with ./",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects relative paths starting with ../",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:57] detects relative paths starting with ../",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects home directory paths starting with ~/",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:64] detects home directory paths starting with ~/",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects multiple image references in a prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:73] detects multiple image references in a prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] does not leak parser state between calls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:86] does not leak parser state between calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] handles various image extensions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:93] handles various image extensions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:93",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] deduplicates repeated image references",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:103] deduplicates repeated image references",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:103",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] dedupe casing follows host filesystem conventions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:107] dedupe casing follows host filesystem conventions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:107",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns empty array when no images found",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:115] returns empty array when no images found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:115",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] ignores non-image file extensions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:119] ignores non-image file extensions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:119",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] handles paths inside quotes (without spaces)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:123] handles paths inside quotes (without spaces)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:123",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] handles paths in parentheses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:129] handles paths in parentheses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:129",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects [Image: source: ...] format from messaging systems",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:135] detects [Image: source: ...] format from messaging systems",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:135",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] handles complex message attachment paths",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:143] handles complex message attachment paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:143",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] detects multiple images in [media attached: ...] format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:151] detects multiple images in [media attached: ...] format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:151",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] does not double-count path and url in same bracket",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:165] does not double-count path and url in same bracket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:165",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] ignores remote URLs entirely (local-only)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:174] ignores remote URLs entirely (local-only)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:174",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] handles single file format with URL (no index)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:185] handles single file format with URL (no index)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:185",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] handles paths with spaces in filename",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:193] handles paths with spaces in filename",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:193",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] ignores remote-host file URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:203] ignores remote-host file URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:203",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] ignores Windows network paths from attachment-style references",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:207] ignores Windows network paths from attachment-style references",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:207",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns true when model input includes image",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:221] returns true when model input includes image",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:221",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns false when model input does not include image",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:226] returns false when model input does not include image",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:226",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns false when model input is undefined",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:231] returns false when model input is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:231",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns false when model input is empty",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:236] returns false when model input is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:236",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] allows sandbox-validated host paths outside default media roots",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:243] allows sandbox-validated host paths outside default media roots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:243",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns no images for non-vision models even when existing images are provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:280] returns no images for non-vision models even when existing images are provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:280",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] returns no detected refs when prompt has no image references",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:291] returns no detected refs when prompt has no image references",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:291",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] preserves attachment order when offloaded refs and inline images are mixed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:301] preserves attachment order when offloaded refs and inline images are mixed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:301",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] classifies trailing offloaded refs separately from prompt refs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:314] classifies trailing offloaded refs separately from prompt refs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:314",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] blocks prompt image refs outside workspace when sandbox workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:342] blocks prompt image refs outside workspace when sandbox workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:342",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts] loads managed inbound absolute paths when workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/images.test.ts:375] loads managed inbound absolute paths when workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/images.test.ts:375",
                "upstream it() block #32",

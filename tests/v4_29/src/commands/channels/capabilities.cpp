@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/channels/capabilities.test.ts] prints Slack bot + user scopes when user token is configured",
+TEST_CASE("v4.29 [src/commands/channels/capabilities.test.ts:114] prints Slack bot + user scopes when user token is configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels/capabilities.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels/capabilities.test.ts] prints Teams Graph permission hints when present",
+TEST_CASE("v4.29 [src/commands/channels/capabilities.test.ts:157] prints Teams Graph permission hints when present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels/capabilities.test.ts:157",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels/capabilities.test.ts] installs an explicit optional channel before rendering capabilities",
+TEST_CASE("v4.29 [src/commands/channels/capabilities.test.ts:194] installs an explicit optional channel before rendering capabilities",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels/capabilities.test.ts:194",
                "upstream it() block #2",

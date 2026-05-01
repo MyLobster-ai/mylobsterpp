@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] generates and persists VAPID keys on first call",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:45] generates and persists VAPID keys on first call",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] prefers env vars over persisted keys",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:58] prefers env vars over persisted keys",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] registers a new subscription",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:84] registers a new subscription",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] updates an existing subscription with the same endpoint",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:97] updates an existing subscription with the same endpoint",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] loads a subscription by ID",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:114] loads a subscription by ID",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] returns null for unknown subscription ID",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:125] returns null for unknown subscription ID",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:125",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] lists all subscriptions",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:130] lists all subscriptions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:130",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] clears a subscription by ID",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:145] clears a subscription by ID",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:145",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] clears a subscription by endpoint",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:158] clears a subscription by endpoint",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:158",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] rejects invalid endpoint",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:167] rejects invalid endpoint",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:167",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] rejects empty keys",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:177] rejects empty keys",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:177",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] configures VAPID details for direct sends",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:191] configures VAPID details for direct sends",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:191",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-web.test.ts] configures VAPID details once before broadcasting to subscribers",
+TEST_CASE("v4.29 [src/infra/push-web.test.ts:210] configures VAPID details once before broadcasting to subscribers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-web.test.ts:210",
                "upstream it() block #12",

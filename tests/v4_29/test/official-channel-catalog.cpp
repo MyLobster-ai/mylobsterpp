@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/official-channel-catalog.test.ts] includes publishable official channel plugins and skips non-publishable entries",
+TEST_CASE("v4.29 [test/official-channel-catalog.test.ts:28] includes publishable official channel plugins and skips non-publishable entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/official-channel-catalog.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/official-channel-catalog.test.ts] keeps official external catalog npm sources exactly pinned",
+TEST_CASE("v4.29 [test/official-channel-catalog.test.ts:127] keeps official external catalog npm sources exactly pinned",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/official-channel-catalog.test.ts:127",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/official-channel-catalog.test.ts] writes the official catalog under dist",
+TEST_CASE("v4.29 [test/official-channel-catalog.test.ts:141] writes the official catalog under dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/official-channel-catalog.test.ts:141",
                "upstream it() block #2",

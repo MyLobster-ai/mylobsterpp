@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] exits with code 0 after successful doctor run",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:50] exits with code 0 after successful doctor run",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] exits with code 1 when doctor fails",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:65] exits with code 1 when doctor fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] maps --fix to repair=true",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:75] maps --fix to repair=true",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] passes noOpen to dashboard command",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:88] passes noOpen to dashboard command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] passes reset options to reset command",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:101] passes reset options to reset command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] passes uninstall options to uninstall command",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:124] passes uninstall options to uninstall command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:124",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts] exits with code 1 when dashboard fails",
+TEST_CASE("v4.29 [src/cli/program/register.maintenance.test.ts:154] exits with code 1 when dashboard fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.maintenance.test.ts:154",
                "upstream it() block #6",

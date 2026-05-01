@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] defaults open groups to no mention when unset",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:26] defaults open groups to no mention when unset",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] keeps explicit top-level mention gating in open groups",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:37] keeps explicit top-level mention gating in open groups",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] keeps explicit account mention gating in open groups",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:48] keeps explicit account mention gating in open groups",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] keeps explicit per-group mention gating in open groups",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:69] keeps explicit per-group mention gating in open groups",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] defaults allowlist groups to require mentions",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:83] defaults allowlist groups to require mentions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:83",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] falls back to wildcard group config when direct match is missing",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:96] falls back to wildcard group config when direct match is missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:96",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] prefers exact group config over wildcard",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:112] prefers exact group config over wildcard",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:112",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] keeps case-insensitive matching for explicit group ids",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:128] keeps case-insensitive matching for explicit group ids",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:128",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] matches direct and case-insensitive group ids",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:146] matches direct and case-insensitive group ids",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:146",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] does not treat wildcard group defaults as explicit admission",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:157] does not treat wildcard group defaults as explicit admission",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:157",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] allows wildcard",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:169] allows wildcard",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:169",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] allows provider-prefixed wildcard entries",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:178] allows provider-prefixed wildcard entries",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:178",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] treats typed wildcard aliases as bare wildcards",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:187] treats typed wildcard aliases as bare wildcards",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:187",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] matches normalized ID entries",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:206] matches normalized ID entries",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:206",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] accepts repeated provider prefixes for legacy allowlist entries",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:215] accepts repeated provider prefixes for legacy allowlist entries",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:215",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] does not fold opaque IDs to lowercase",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:224] does not fold opaque IDs to lowercase",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:224",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] keeps user and chat allowlist namespaces distinct",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:233] keeps user and chat allowlist namespaces distinct",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:233",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] supports user_id as an additional immutable sender candidate",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:242] supports user_id as an additional immutable sender candidate",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:242",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] auto-detects bare open_id entries as user allowlist matches",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:252] auto-detects bare open_id entries as user allowlist matches",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:252",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] auto-detects bare chat_id entries as chat allowlist matches",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:261] auto-detects bare chat_id entries as chat allowlist matches",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:261",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] does not authorize based on display-name collision",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:270] does not authorize based on display-name collision",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:270",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] matches group IDs with chat: prefix",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:285] matches group IDs with chat: prefix",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:285",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] allows group when groupPolicy is ",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:295] allows group when groupPolicy is ",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:295",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] treats ",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:305] treats ",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:305",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] rejects group when groupPolicy is ",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:315] rejects group when groupPolicy is ",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:315",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts] rejects group when groupPolicy is ",
+TEST_CASE("v4.29 [extensions/feishu/src/policy.test.ts:325] rejects group when groupPolicy is ",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/policy.test.ts:325",
                "upstream it() block #25",

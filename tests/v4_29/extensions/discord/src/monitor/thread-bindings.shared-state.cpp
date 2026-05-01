@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.shared-state.test.ts] shares managers between ESM and alternate-loaded module instances",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.shared-state.test.ts:23] shares managers between ESM and alternate-loaded module instances",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.shared-state.test.ts:23",
                "upstream it() block #0",

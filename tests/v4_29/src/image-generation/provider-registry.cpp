@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/image-generation/provider-registry.test.ts] delegates provider resolution to the capability provider boundary",
+TEST_CASE("v4.29 [src/image-generation/provider-registry.test.ts:42] delegates provider resolution to the capability provider boundary",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/provider-registry.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/provider-registry.test.ts] uses active plugin providers without loading from disk",
+TEST_CASE("v4.29 [src/image-generation/provider-registry.test.ts:52] uses active plugin providers without loading from disk",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/provider-registry.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/provider-registry.test.ts] ignores prototype-like provider ids and aliases",
+TEST_CASE("v4.29 [src/image-generation/provider-registry.test.ts:64] ignores prototype-like provider ids and aliases",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/provider-registry.test.ts:64",
                "upstream it() block #2",

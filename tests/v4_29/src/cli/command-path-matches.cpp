@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts] matches prefix and exact command paths",
+TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts:9] matches prefix and exact command paths",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-matches.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts] matches declarative rules",
+TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts:16] matches declarative rules",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-matches.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts] treats structured rules without exact as prefix matches",
+TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts:32] treats structured rules without exact as prefix matches",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-matches.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts] matches any command path from a rule set",
+TEST_CASE("v4.29 [src/cli/command-path-matches.test.ts:40] matches any command path from a rule set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-matches.test.ts:40",
                "upstream it() block #3",

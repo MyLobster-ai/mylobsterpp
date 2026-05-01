@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.model-catalog.test.ts] modelSupportsDocument returns true when input includes document",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.model-catalog.test.ts:5] modelSupportsDocument returns true when input includes document",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.model-catalog.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.model-catalog.test.ts] modelSupportsDocument returns false when input lacks document",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.model-catalog.test.ts:16] modelSupportsDocument returns false when input lacks document",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.model-catalog.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.model-catalog.test.ts] modelSupportsDocument returns false for undefined entry",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.model-catalog.test.ts:27] modelSupportsDocument returns false for undefined entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.model-catalog.test.ts:27",
                "upstream it() block #2",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/config-set-input.test.ts] returns null when no batch options are provided",
+TEST_CASE("v4.29 [src/cli/config-set-input.test.ts:19] returns null when no batch options are provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-input.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-input.test.ts] rejects using both --batch-json and --batch-file",
+TEST_CASE("v4.29 [src/cli/config-set-input.test.ts:23] rejects using both --batch-json and --batch-file",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-input.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-input.test.ts] parses valid --batch-json payloads",
+TEST_CASE("v4.29 [src/cli/config-set-input.test.ts:32] parses valid --batch-json payloads",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-input.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-input.test.ts] parses valid --batch-file payloads",
+TEST_CASE("v4.29 [src/cli/config-set-input.test.ts:80] parses valid --batch-file payloads",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-input.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-input.test.ts] rejects malformed --batch-file payloads",
+TEST_CASE("v4.29 [src/cli/config-set-input.test.ts:98] rejects malformed --batch-file payloads",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-input.test.ts:98",
                "upstream it() block #4",

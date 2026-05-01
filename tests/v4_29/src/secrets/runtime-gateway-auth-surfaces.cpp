@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.auth.token active when token mode is explicit",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:19] marks gateway.auth.token active when token mode is explicit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.auth.token inactive when env token is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:36] marks gateway.auth.token inactive when env token is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.auth.token inactive when password mode is explicit",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:56] marks gateway.auth.token inactive when password mode is explicit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.auth.password active when password mode is explicit",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:73] marks gateway.auth.password active when password mode is explicit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.auth.password active when trusted-proxy mode is explicit",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:90] marks gateway.auth.password active when trusted-proxy mode is explicit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.auth.password inactive when env token is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:107] marks gateway.auth.password inactive when env token is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.remote.token active when remote token fallback is active",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:126] marks gateway.remote.token active when remote token fallback is active",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:126",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.remote.token inactive when token auth cannot win",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:143] marks gateway.remote.token inactive when token auth cannot win",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:143",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.remote.token inactive when local token SecretRef is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:162] marks gateway.remote.token inactive when local token SecretRef is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:162",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.remote.password active when remote url is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:183] marks gateway.remote.password active when remote url is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:183",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.remote.password inactive when password auth cannot win",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:199] marks gateway.remote.password inactive when password auth cannot win",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:199",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts] marks gateway.remote.password inactive as a trusted-proxy local fallback",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-auth-surfaces.test.ts:218] marks gateway.remote.password inactive as a trusted-proxy local fallback",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-auth-surfaces.test.ts:218",
                "upstream it() block #11",

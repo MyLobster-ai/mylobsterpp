@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/flows/doctor-startup-channel-maintenance.test.ts] runs Matrix startup migration during repair flows",
+TEST_CASE("v4.29 [src/flows/doctor-startup-channel-maintenance.test.ts:5] runs Matrix startup migration during repair flows",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-startup-channel-maintenance.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-startup-channel-maintenance.test.ts] skips startup migration outside repair flows",
+TEST_CASE("v4.29 [src/flows/doctor-startup-channel-maintenance.test.ts:43] skips startup migration outside repair flows",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-startup-channel-maintenance.test.ts:43",
                "upstream it() block #1",

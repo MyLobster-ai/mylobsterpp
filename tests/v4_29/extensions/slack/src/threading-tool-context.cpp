@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] uses top-level replyToMode by default",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:25] uses top-level replyToMode by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] uses chat-type replyToMode overrides for direct messages when configured",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:39] uses chat-type replyToMode overrides for direct messages when configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] uses top-level replyToMode for channels when no channel override is set",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:51] uses top-level replyToMode for channels when no channel override is set",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] falls back to top-level when no chat-type override is set",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:63] falls back to top-level when no chat-type override is set",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] uses legacy dm.replyToMode for direct messages when no chat-type override exists",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:79] uses legacy dm.replyToMode for direct messages when no chat-type override exists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] uses all mode when MessageThreadId is present",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:91] uses all mode when MessageThreadId is present",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:91",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] does not force all mode from ThreadLabel alone",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:107] does not force all mode from ThreadLabel alone",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] keeps configured channel behavior when not in a thread",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:122] keeps configured channel behavior when not in a thread",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:122",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] defaults to off when no replyToMode is configured",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:139] defaults to off when no replyToMode is configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:139",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] extracts currentChannelId from channel: prefixed To",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:148] extracts currentChannelId from channel: prefixed To",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:148",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] uses NativeChannelId for DM when To is user-prefixed",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:157] uses NativeChannelId for DM when To is user-prefixed",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:157",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts] returns undefined currentChannelId when neither channel: To nor NativeChannelId is set",
+TEST_CASE("v4.29 [extensions/slack/src/threading-tool-context.test.ts:170] returns undefined currentChannelId when neither channel: To nor NativeChannelId is set",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/threading-tool-context.test.ts:170",
                "upstream it() block #11",

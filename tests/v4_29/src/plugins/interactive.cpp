@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] hydrates legacy interactive state shapes before clearing handlers",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:479] hydrates legacy interactive state shapes before clearing handlers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:479",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] shares interactive handlers across duplicate module instances",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:605] shares interactive handlers across duplicate module instances",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:605",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] rejects duplicate namespace registrations",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:643] rejects duplicate namespace registrations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:643",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] preserves arbitrary plugin-owned channel ids",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:662] preserves arbitrary plugin-owned channel ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:662",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] acknowledges matched Discord interactions before awaiting plugin handlers",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:672] acknowledges matched Discord interactions before awaiting plugin handlers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:672",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] does not consume dedupe keys when a handler throws",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:808] does not consume dedupe keys when a handler throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:808",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] dedupes concurrent interactive dispatches while a handler is still running",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:835] dedupes concurrent interactive dispatches while a handler is still running",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:835",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/interactive.test.ts] releases inflight interactive dedupe keys after a handler failure",
+TEST_CASE("v4.29 [src/plugins/interactive.test.ts:879] releases inflight interactive dedupe keys after a handler failure",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/interactive.test.ts:879",
                "upstream it() block #7",

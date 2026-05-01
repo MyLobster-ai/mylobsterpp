@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mistral/realtime-transcription-provider.test.ts] normalizes nested provider config",
+TEST_CASE("v4.29 [extensions/mistral/realtime-transcription-provider.test.ts:13] normalizes nested provider config",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/realtime-transcription-provider.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/realtime-transcription-provider.test.ts] builds a Mistral realtime websocket URL",
+TEST_CASE("v4.29 [extensions/mistral/realtime-transcription-provider.test.ts:39] builds a Mistral realtime websocket URL",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/realtime-transcription-provider.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/realtime-transcription-provider.test.ts] requires an API key when creating sessions",
+TEST_CASE("v4.29 [extensions/mistral/realtime-transcription-provider.test.ts:55] requires an API key when creating sessions",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/realtime-transcription-provider.test.ts:55",
                "upstream it() block #2",

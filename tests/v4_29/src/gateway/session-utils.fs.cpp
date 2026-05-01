@@ -5,292 +5,292 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] skips non-user messages to find first user message",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:102] skips non-user messages to find first user message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] skips inter-session user messages by default",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:117] skips inter-session user messages by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns null when no user messages exist",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:138] returns null when no user messages exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] handles malformed JSON lines gracefully",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:152] handles malformed JSON lines gracefully",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:152",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns null for empty content",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:165] returns null for empty content",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns null for empty file",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:188] returns null for empty file",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:188",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] skips system messages to find last user/assistant",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:225] skips system messages to find last user/assistant",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:225",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns null when no user/assistant messages exist",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:238] returns null when no user/assistant messages exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:238",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] handles malformed JSON lines gracefully (last preview)",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:251] handles malformed JSON lines gracefully (last preview)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:251",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] skips empty content to find previous message",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:291] skips empty content to find previous message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:291",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] reads from end of large file (16KB window)",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:304] reads from end of large file (16KB window)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:304",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] handles valid UTF-8 content",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:319] handles valid UTF-8 content",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:319",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] strips inline directives from last preview text",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:331] strips inline directives from last preview text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:331",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns null for missing transcript files",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:358] returns null for missing transcript files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:358",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] uses sessionFile overrides when provided",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:363] uses sessionFile overrides when provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:363",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] trims whitespace in extracted previews",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:390] trims whitespace in extracted previews",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:390",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns cached values without re-reading when unchanged",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:419] returns cached values without re-reading when unchanged",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:419",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] invalidates cache when transcript changes",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:435] invalidates cache when transcript changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:435",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] includes synthetic compaction markers for compaction entries",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:471] includes synthetic compaction markers for compaction entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:471",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] reads only the active branch when transcript rewrites abandon older entries",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:504] reads only the active branch when transcript rewrites abandon older entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:504",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns recent preview items with tool summary",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:633] returns recent preview items with tool summary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:633",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] detects tool calls from tool_use/tool_call blocks and toolName field",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:643] detects tool calls from tool_use/tool_call blocks and toolName field",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:643",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] truncates preview text to max chars",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:671] truncates preview text to max chars",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:671",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] strips inline directives from preview items",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:683] strips inline directives from preview items",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:683",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] prefers final_answer text for assistant preview items",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:700] prefers final_answer text for assistant preview items",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:700",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] hides commentary-only assistant preview items",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:728] hides commentary-only assistant preview items",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:728",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns the latest assistant usage snapshot and skips delivery mirrors",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:760] returns the latest assistant usage snapshot and skips delivery mirrors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:760",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] aggregates assistant usage across the full transcript and keeps the latest context snapshot",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:799] aggregates assistant usage across the full transcript and keeps the latest context snapshot",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:799",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] reads earlier assistant usage outside the old tail window",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:842] reads earlier assistant usage outside the old tail window",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:842",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns null when the transcript has no assistant usage snapshot",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:889] returns null when the transcript has no assistant usage snapshot",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:889",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] fallback candidate uses OPENCLAW_HOME instead of os.homedir()",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:906] fallback candidate uses OPENCLAW_HOME instead of os.homedir()",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:906",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] drops unsafe session IDs instead of producing traversal paths",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:936] drops unsafe session IDs instead of producing traversal paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:936",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] drops unsafe sessionFile candidates and keeps safe fallbacks",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:945] drops unsafe sessionFile candidates and keeps safe fallbacks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:945",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] prefers the current sessionId transcript before a stale sessionFile candidate",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:959] prefers the current sessionId transcript before a stale sessionFile candidate",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:959",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] keeps explicit custom sessionFile ahead of synthesized fallback",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:975] keeps explicit custom sessionFile ahead of synthesized fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:975",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] keeps custom topic-like transcript paths ahead of synthesized fallback",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:987] keeps custom topic-like transcript paths ahead of synthesized fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:987",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] keeps forked transcript paths ahead of synthesized fallback",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:999] keeps forked transcript paths ahead of synthesized fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:999",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] keeps timestamped custom transcript paths ahead of synthesized fallback",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:1009] keeps timestamped custom transcript paths ahead of synthesized fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:1009",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] still treats generated topic transcripts from another session as stale",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:1018] still treats generated topic transcripts from another session as stale",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:1018",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] returns empty array when no transcript files exist",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:1079] returns empty array when no transcript files exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:1079",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts] skips files that do not exist and archives only existing ones",
+TEST_CASE("v4.29 [src/gateway/session-utils.fs.test.ts:1089] skips files that do not exist and archives only existing ones",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.fs.test.ts:1089",
                "upstream it() block #40",

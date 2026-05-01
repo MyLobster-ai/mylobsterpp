@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] keeps the public shell entrypoints as thin TypeScript launchers",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:72] keeps the public shell entrypoints as thin TypeScript launchers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] keeps provider auth and model defaults in the shared TypeScript helper",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:86] keeps provider auth and model defaults in the shared TypeScript helper",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] keeps snapshot, host, package, and quote helpers shared",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:104] keeps snapshot, host, package, and quote helpers shared",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] quotes shell args and resolves fuzzy snapshot hints through the shared TypeScript helper",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:139] quotes shell args and resolves fuzzy snapshot hints through the shared TypeScript helper",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:139",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] uses one Ubuntu VM fallback resolver for Linux lanes",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:179] uses one Ubuntu VM fallback resolver for Linux lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] resolves provider defaults and explicit model overrides",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:216] resolves provider defaults and explicit model overrides",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:216",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] rejects invalid providers and missing keys before touching guests",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:240] rejects invalid providers and missing keys before touching guests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:240",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] seeds agent workspace state before OS smoke agent turns",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:273] seeds agent workspace state before OS smoke agent turns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:273",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] clears phase timers and applies phase deadlines to guest commands",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:293] clears phase timers and applies phase deadlines to guest commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:293",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] provisions portable Git before Windows dev update lanes",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:310] provisions portable Git before Windows dev update lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:310",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] passes aggregate model overrides into each OS fresh lane",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:324] passes aggregate model overrides into each OS fresh lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:324",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] keeps aggregate update guest scripts isolated from the npm-update orchestrator",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:333] keeps aggregate update guest scripts isolated from the npm-update orchestrator",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:333",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] keeps macOS Discord roundtrip isolated from the lane orchestrator",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:347] keeps macOS Discord roundtrip isolated from the lane orchestrator",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:347",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] keeps Windows gateway reachability on a real deadline with start recovery",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:359] keeps Windows gateway reachability on a real deadline with start recovery",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:359",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] runs Windows ref onboarding through a detached done-file runner",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:368] runs Windows ref onboarding through a detached done-file runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:368",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] returns timed-out host command status when check is disabled",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:382] returns timed-out host command status when check is disabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:382",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] runs the Windows agent turn through the detached done-file runner",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:399] runs the Windows agent turn through the detached done-file runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:399",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] waits through transient Windows restoring state before VM operations",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:407] waits through transient Windows restoring state before VM operations",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:407",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts] resolves Windows OpenClaw commands without assuming the npm shim path",
+TEST_CASE("v4.29 [test/scripts/parallels-smoke-model.test.ts:415] resolves Windows OpenClaw commands without assuming the npm shim path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/parallels-smoke-model.test.ts:415",
                "upstream it() block #18",

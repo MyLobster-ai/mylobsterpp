@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/model-selection.test.ts] delegates default model selection through qa-lab runtime defaults",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/model-selection.test.ts:22] delegates default model selection through qa-lab runtime defaults",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/model-selection.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/model-selection.test.ts] preserves explicit model overrides",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/model-selection.test.ts:36] preserves explicit model overrides",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/model-selection.test.ts:36",
                "upstream it() block #1",

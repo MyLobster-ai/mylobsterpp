@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] requires explicit enablement even when owner approvers resolve",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:32] requires explicit enablement even when owner approvers resolve",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] prefers explicit approvers when configured",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:64] prefers explicit approvers when configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] does not infer approvers from allowFrom or DM default routes",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:75] does not infer approvers from allowFrom or DM default routes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] falls back to commands.ownerAllowFrom for exec approvers",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:89] falls back to commands.ownerAllowFrom for exec approvers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] defaults target to dm",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:99] defaults target to dm",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:99",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] matches slack target recipients from generic approval forwarding targets",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:105] matches slack target recipients from generic approval forwarding targets",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:105",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] keeps the local Slack approval prompt path active",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:130] keeps the local Slack approval prompt path active",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:130",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] normalizes wrapped sender ids",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:155] normalizes wrapped sender ids",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] applies agent and session filters to request handling",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:160] applies agent and session filters to request handling",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:160",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts] rejects requests bound to another channel or Slack account",
+TEST_CASE("v4.29 [extensions/slack/src/exec-approvals.test.ts:217] rejects requests bound to another channel or Slack account",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/exec-approvals.test.ts:217",
                "upstream it() block #9",

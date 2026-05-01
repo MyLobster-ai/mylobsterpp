@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts] fires after_tool_call exactly once on success when both adapter and handler are active",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:182] fires after_tool_call exactly once on success when both adapter and handler are active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:182",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts] fires after_tool_call exactly once on error when both adapter and handler are active",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:208] fires after_tool_call exactly once on error when both adapter and handler are active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:208",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts] uses before_tool_call adjusted params for after_tool_call payload",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:234] uses before_tool_call adjusted params for after_tool_call payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:234",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts] fires after_tool_call exactly once per tool across multiple sequential tool calls",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:266] fires after_tool_call exactly once per tool across multiple sequential tool calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.after-tool-call.fires-once.test.ts:266",
                "upstream it() block #3",

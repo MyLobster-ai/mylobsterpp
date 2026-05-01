@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts] cleans up tunnel, tailscale, and webhook server when init fails after start",
+TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts:135] cleans up tunnel, tailscale, and webhook server when init fails after start",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/runtime.test.ts:135",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts] returns an idempotent stop handler",
+TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts:157] returns an idempotent stop handler",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/runtime.test.ts:157",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts] passes fullConfig to the webhook server for streaming provider resolution",
+TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts:179] passes fullConfig to the webhook server for streaming provider resolution",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/runtime.test.ts:179",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts] accepts an explicit public URL for external voice providers",
+TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts:214] accepts an explicit public URL for external voice providers",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/runtime.test.ts:214",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts] does not log duplicate webhook and public URLs when they match",
+TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts:230] does not log duplicate webhook and public URLs when they match",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/runtime.test.ts:230",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts] wires the shared realtime agent consult tool and handler",
+TEST_CASE("v4.29 [extensions/voice-call/src/runtime.test.ts:257] wires the shared realtime agent consult tool and handler",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/runtime.test.ts:257",
                "upstream it() block #5",

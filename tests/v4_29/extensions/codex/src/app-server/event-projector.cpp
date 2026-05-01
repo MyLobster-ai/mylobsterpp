@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] projects assistant deltas and usage into embedded attempt results",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:154] projects assistant deltas and usage into embedded attempt results",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:154",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] does not treat cumulative-only token usage as fresh context usage",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:199] does not treat cumulative-only token usage as fresh context usage",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:199",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] uses raw assistant response items when turn completion omits items",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:228] uses raw assistant response items when turn completion omits items",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:228",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] does not fail a completed reply after a retryable app-server error notification",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:249] does not fail a completed reply after a retryable app-server error notification",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:249",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] uses nested app-server error messages for terminal errors",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:269] uses nested app-server error messages for terminal errors",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:269",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] normalizes snake_case current token usage fields",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:283] normalizes snake_case current token usage fields",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:283",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] keeps intermediate agentMessage items out of the final visible reply",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:312] keeps intermediate agentMessage items out of the final visible reply",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:312",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] ignores notifications for other turns",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:359] ignores notifications for other turns",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:359",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] ignores notifications that omit top-level thread and turn ids",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:371] ignores notifications that omit top-level thread and turn ids",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:371",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] preserves sessions_yield detection in attempt results",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:390] preserves sessions_yield detection in attempt results",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:390",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] projects guardian review lifecycle details into agent events",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:412] projects guardian review lifecycle details into agent events",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:412",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] projects reasoning end, plan updates, compaction state, and tool metadata",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:480] projects reasoning end, plan updates, compaction state, and tool metadata",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:480",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] emits verbose tool summaries through onToolResult",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:555] emits verbose tool summaries through onToolResult",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:555",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] redacts secrets in verbose command summaries",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:587] redacts secrets in verbose command summaries",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:587",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] uses argument details instead of lifecycle status in verbose tool summaries",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:618] uses argument details instead of lifecycle status in verbose tool summaries",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:618",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] emits completed tool output only when verbose full is enabled",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:648] emits completed tool output only when verbose full is enabled",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:648",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] uses a safe markdown fence for verbose tool output",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:681] uses a safe markdown fence for verbose tool output",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:681",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] bounds streamed verbose tool output",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:710] bounds streamed verbose tool output",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:710",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] continues projecting turn completion when an event consumer throws",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:751] continues projecting turn completion when an event consumer throws",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:751",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] fires before_compaction and after_compaction hooks for codex compaction items",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:781] fires before_compaction and after_compaction hooks for codex compaction items",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:781",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] projects codex hook started and completed notifications into agent events",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:819] projects codex hook started and completed notifications into agent events",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:819",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts] projects thread-scoped codex hook notifications that omit a turn id",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/event-projector.test.ts:882] projects thread-scoped codex hook notifications that omit a turn id",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/event-projector.test.ts:882",
                "upstream it() block #21",

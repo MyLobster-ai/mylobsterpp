@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepgram/audio.test.ts] respects lowercase authorization header overrides",
+TEST_CASE("v4.29 [extensions/deepgram/audio.test.ts:12] respects lowercase authorization header overrides",
           "[v4_29][parity_gap][deepgram]") {
     PARITY_GAP("extensions/deepgram/audio.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepgram/audio.test.ts] builds the expected request payload",
+TEST_CASE("v4.29 [extensions/deepgram/audio.test.ts:30] builds the expected request payload",
           "[v4_29][parity_gap][deepgram]") {
     PARITY_GAP("extensions/deepgram/audio.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepgram/audio.test.ts] throws when the provider response omits transcript",
+TEST_CASE("v4.29 [extensions/deepgram/audio.test.ts:68] throws when the provider response omits transcript",
           "[v4_29][parity_gap][deepgram]") {
     PARITY_GAP("extensions/deepgram/audio.test.ts:68",
                "upstream it() block #2",

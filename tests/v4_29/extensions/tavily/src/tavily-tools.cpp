@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] exposes the expected metadata and selection wiring",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:53] exposes the expected metadata and selection wiring",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] maps generic provider args into Tavily search params",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:65] maps generic provider args into Tavily search params",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] normalizes optional parameters before invoking Tavily",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:91] normalizes optional parameters before invoking Tavily",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] drops empty domain arrays and forwards query-scoped chunking",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:143] drops empty domain arrays and forwards query-scoped chunking",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] rejects chunks_per_source without query",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:186] rejects chunks_per_source without query",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] reads plugin web search config and prefers it over env defaults",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:199] reads plugin web search config and prefers it over env defaults",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] falls back to environment values and defaults",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:226] falls back to environment values and defaults",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:226",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] accepts positive numeric timeout overrides and floors them",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:237] accepts positive numeric timeout overrides and floors them",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:237",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] appends endpoints to reverse-proxy base urls",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:246] appends endpoints to reverse-proxy base urls",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts] falls back to the default host for invalid base urls",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-tools.test.ts:255] falls back to the default host for invalid base urls",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-tools.test.ts:255",
                "upstream it() block #9",

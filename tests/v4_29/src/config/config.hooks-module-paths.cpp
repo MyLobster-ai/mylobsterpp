@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts] rejects absolute hooks.mappings[].transform.module",
+TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts:14] rejects absolute hooks.mappings[].transform.module",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.hooks-module-paths.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts] rejects escaping hooks.mappings[].transform.module",
+TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts:32] rejects escaping hooks.mappings[].transform.module",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.hooks-module-paths.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts] rejects absolute hooks.internal.handlers[].module",
+TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts:50] rejects absolute hooks.internal.handlers[].module",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.hooks-module-paths.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts] rejects escaping hooks.internal.handlers[].module",
+TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts:65] rejects escaping hooks.internal.handlers[].module",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.hooks-module-paths.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts] accepts hooks.mappings[].channel runtime plugin ids",
+TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts:80] accepts hooks.mappings[].channel runtime plugin ids",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.hooks-module-paths.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts] rejects blank hooks.mappings[].channel values",
+TEST_CASE("v4.29 [src/config/config.hooks-module-paths.test.ts:97] rejects blank hooks.mappings[].channel values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.hooks-module-paths.test.ts:97",
                "upstream it() block #5",

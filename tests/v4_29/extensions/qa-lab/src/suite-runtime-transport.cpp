@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] detects classified failure replies before a success-only outbound predicate matches",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:13] detects classified failure replies before a success-only outbound predicate matches",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] fails success-only waitForOutboundMessage calls when a classified failure reply arrives first",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:26] fails success-only waitForOutboundMessage calls when a classified failure reply arrives first",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] treats QA channel message delivery failures as failure replies",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:46] treats QA channel message delivery failures as failure replies",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] fails success-only waitForOutboundMessage calls when internal coordination text leaks",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:64] fails success-only waitForOutboundMessage calls when internal coordination text leaks",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] fails success-only waitForOutboundMessage calls when a tool-backed scenario reports missing tools",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:82] fails success-only waitForOutboundMessage calls when a tool-backed scenario reports missing tools",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] fails raw scenario waitForCondition calls when a classified failure reply arrives",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:100] fails raw scenario waitForCondition calls when a classified failure reply arrives",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:100",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] fails raw scenario waitForCondition calls even when mixed traffic already exists",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:128] fails raw scenario waitForCondition calls even when mixed traffic already exists",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:128",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] reads transport transcripts with generic helper names",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:175] reads transport transcripts with generic helper names",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:175",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts] waits for outbound replies through the generic transport alias",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-transport.test.ts:212] waits for outbound replies through the generic transport alias",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-transport.test.ts:212",
                "upstream it() block #8",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-plugin-registry.test.ts] refreshes an existing registry during repair",
+TEST_CASE("v4.29 [src/commands/doctor-plugin-registry.test.ts:78] refreshes an existing registry during repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-plugin-registry.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-plugin-registry.test.ts] does not repair when registry migration is disabled",
+TEST_CASE("v4.29 [src/commands/doctor-plugin-registry.test.ts:103] does not repair when registry migration is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-plugin-registry.test.ts:103",
                "upstream it() block #1",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/binding-targets.test.ts] delegates ensureReady and ensureSession to the resolved driver",
+TEST_CASE("v4.29 [src/channels/plugins/binding-targets.test.ts:103] delegates ensureReady and ensureSession to the resolved driver",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/binding-targets.test.ts:103",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/binding-targets.test.ts] resolves resetInPlace through the driver session-key lookup",
+TEST_CASE("v4.29 [src/channels/plugins/binding-targets.test.ts:145] resolves resetInPlace through the driver session-key lookup",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/binding-targets.test.ts:145",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/binding-targets.test.ts] returns a typed error when no driver is registered",
+TEST_CASE("v4.29 [src/channels/plugins/binding-targets.test.ts:188] returns a typed error when no driver is registered",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/binding-targets.test.ts:188",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-chat.stream-text-merge.test.ts] keeps cumulative snapshots from duplicating already-buffered text",
+TEST_CASE("v4.29 [src/gateway/server-chat.stream-text-merge.test.ts:43] keeps cumulative snapshots from duplicating already-buffered text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.stream-text-merge.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.stream-text-merge.test.ts] keeps non-prefix incremental segments after tool calls",
+TEST_CASE("v4.29 [src/gateway/server-chat.stream-text-merge.test.ts:53] keeps non-prefix incremental segments after tool calls",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.stream-text-merge.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-chat.stream-text-merge.test.ts] caps merged live text while preserving the newest assistant output",
+TEST_CASE("v4.29 [src/gateway/server-chat.stream-text-merge.test.ts:63] caps merged live text while preserving the newest assistant output",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-chat.stream-text-merge.test.ts:63",
                "upstream it() block #2",

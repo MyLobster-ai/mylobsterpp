@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] evicts stale idle session states",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:56] evicts stale idle session states",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] caps tracked session states to a bounded max",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:66] caps tracked session states to a bounded max",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] reuses keyed session state when later looked up by sessionId",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:81] reuses keyed session state when later looked up by sessionId",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] does not mkdir at import time",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:100] does not mkdir at import time",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] uses the configured diagnostics.stuckSessionWarnMs threshold",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:127] uses the configured diagnostics.stuckSessionWarnMs threshold",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:127",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] starts and stops the stability recorder with the heartbeat lifecycle",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:163] starts and stops the stability recorder with the heartbeat lifecycle",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] does not track session state when diagnostics are disabled",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:187] does not track session state when diagnostics are disabled",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:187",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] checks memory pressure every tick without recording idle samples",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:201] checks memory pressure every tick without recording idle samples",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:201",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] emits idle liveness warnings into the stability recorder",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:222] emits idle liveness warnings into the stability recorder",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:222",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] throttles repeated liveness warnings",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:275] throttles repeated liveness warnings",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:275",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] does not start the heartbeat when diagnostics are disabled by config",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:309] does not start the heartbeat when diagnostics are disabled by config",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:309",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] falls back to default threshold when config is absent",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:325] falls back to default threshold when config is absent",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:325",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] uses default threshold for invalid values",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:341] uses default threshold for invalid values",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:341",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic.test.ts] records bounded outbound delivery diagnostics without session identifiers",
+TEST_CASE("v4.29 [src/logging/diagnostic.test.ts:360] records bounded outbound delivery diagnostics without session identifiers",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic.test.ts:360",
                "upstream it() block #13",

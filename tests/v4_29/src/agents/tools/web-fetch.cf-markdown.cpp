@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] sends Accept header preferring text/markdown",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:51] sends Accept header preferring text/markdown",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] uses cf-markdown extractor for text/markdown responses",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:64] uses cf-markdown extractor for text/markdown responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] falls back to readability for text/html responses",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:85] falls back to readability for text/html responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] bypasses Firecrawl when runtime metadata marks Firecrawl inactive",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:99] bypasses Firecrawl when runtime metadata marks Firecrawl inactive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] logs x-markdown-tokens when header is present",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:149] logs x-markdown-tokens when header is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] converts markdown to text when extractMode is text",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:171] converts markdown to text when extractMode is text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts] does not log x-markdown-tokens when header is absent",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.cf-markdown.test.ts:195] does not log x-markdown-tokens when header is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.cf-markdown.test.ts:195",
                "upstream it() block #6",

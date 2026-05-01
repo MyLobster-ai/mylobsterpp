@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts] returns empty string for non-string values",
+TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts:5] returns empty string for non-string values",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/normalize-secret-input.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts] strips embedded line breaks and surrounding whitespace",
+TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts:12] strips embedded line breaks and surrounding whitespace",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/normalize-secret-input.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts] drops non-Latin1 code points that can break HTTP ByteString headers",
+TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts:16] drops non-Latin1 code points that can break HTTP ByteString headers",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/normalize-secret-input.test.ts:16",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts] preserves Latin-1 characters and internal spaces",
+TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts:21] preserves Latin-1 characters and internal spaces",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/normalize-secret-input.test.ts:21",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts] returns undefined when normalized value is empty",
+TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts:27] returns undefined when normalized value is empty",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/normalize-secret-input.test.ts:27",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts] returns normalized value when non-empty",
+TEST_CASE("v4.29 [src/utils/normalize-secret-input.test.ts:32] returns normalized value when non-empty",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/normalize-secret-input.test.ts:32",
                "upstream it() block #5",

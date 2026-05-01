@@ -5,558 +5,558 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] aliases private QA plugin SDK subpaths for source tests only",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:86] aliases private QA plugin SDK subpaths for source tests only",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:86",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] defaults shared scoped configs to the non-isolated runner",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:108] defaults shared scoped configs to the non-isolated runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] ignores the legacy isolation escape hatches",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:112] ignores the legacy isolation escape hatches",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] resolves scoped discovery dirs from the repo root after config relocation",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:118] resolves scoped discovery dirs from the repo root after config relocation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] applies the non-isolated runner by default",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:128] applies the non-isolated runner by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] passes through a scoped root dir when provided",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:138] passes through a scoped root dir when provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:138",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps scoped cli directory filters aligned with repo-root include patterns",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:147] keeps scoped cli directory filters aligned with repo-root include patterns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:147",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps broad scoped cli directory filters aligned with repo-root include patterns",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:158] keeps broad scoped cli directory filters aligned with repo-root include patterns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] relativizes scoped include and exclude patterns to the configured dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:169] relativizes scoped include and exclude patterns to the configured dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:169",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] narrows scoped includes to matching CLI file filters",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:180] narrows scoped includes to matching CLI file filters",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:180",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] loads scoped include overrides from OPENCLAW_VITEST_INCLUDE_FILE",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:191] loads scoped include overrides from OPENCLAW_VITEST_INCLUDE_FILE",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:191",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] overrides setup files when a scoped config requests them",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:210] overrides setup files when a scoped config requests them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:210",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps bundled unit test includes out of the bundled exclude list",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:223] keeps bundled unit test includes out of the bundled exclude list",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:223",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps scoped lanes on threads with the shared non-isolated runner",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:293] keeps scoped lanes on threads with the shared non-isolated runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:293",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps the process lane off the openclaw runtime setup",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:335] keeps the process lane off the openclaw runtime setup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:335",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] splits auto-reply into narrower scoped buckets",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:344] splits auto-reply into narrower scoped buckets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:344",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps the broad agents lane on shared file parallelism",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:353] keeps the broad agents lane on shared file parallelism",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:353",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps selected plugin-sdk and commands light lanes off the openclaw runtime setup",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:357] keeps selected plugin-sdk and commands light lanes off the openclaw runtime setup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:357",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps the ui lane off both the openclaw runtime setup and unit-fast excludes",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:366] keeps the ui lane off both the openclaw runtime setup and unit-fast excludes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:366",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] defaults channel tests to threads with the non-isolated runner",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:374] defaults channel tests to threads with the non-isolated runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:374",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps the core channel lane limited to non-extension roots",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:382] keeps the core channel lane limited to non-extension roots",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:382",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] loads channel include overrides from OPENCLAW_VITEST_INCLUDE_FILE",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:386] loads channel include overrides from OPENCLAW_VITEST_INCLUDE_FILE",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:386",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] defaults extension tests to threads with the non-isolated runner",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:414] defaults extension tests to threads with the non-isolated runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:414",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes split extension channel include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:422] normalizes split extension channel include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:422",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes bluebubbles extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:435] normalizes bluebubbles extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:435",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes acpx extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:442] normalizes acpx extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:442",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes diffs extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:447] normalizes diffs extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:447",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes feishu extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:452] normalizes feishu extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:452",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes irc extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:457] normalizes irc extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:457",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:462] normalizes extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:462",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes extension provider include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:467] normalizes extension provider include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:467",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes extension messaging include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:479] normalizes extension messaging include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:479",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes matrix extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:486] normalizes matrix extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:486",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes mattermost extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:491] normalizes mattermost extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:491",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes msteams extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:496] normalizes msteams extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:496",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes telegram extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:501] normalizes telegram extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:501",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes whatsapp extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:506] normalizes whatsapp extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:506",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes zalo extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:511] normalizes zalo extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:511",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes voice-call extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:518] normalizes voice-call extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:518",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes memory extension include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:523] normalizes memory extension include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:523",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps telegram plugin tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:530] keeps telegram plugin tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:530",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps whatsapp tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:556] keeps whatsapp tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:556",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps voice-call tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:563] keeps voice-call tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:563",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps zalo tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:572] keeps zalo tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:572",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps provider plugin tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:584] keeps provider plugin tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:584",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps messaging plugin tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:593] keeps messaging plugin tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:593",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps mattermost tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:600] keeps mattermost tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:600",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes secrets include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:609] normalizes secrets include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:609",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes hooks include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:614] normalizes hooks include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:614",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps memory plugin tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:619] keeps memory plugin tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:619",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps bluebubbles tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:628] keeps bluebubbles tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:628",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps feishu tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:637] keeps feishu tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:637",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps irc tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:644] keeps irc tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:644",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps acpx tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:651] keeps acpx tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:651",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps diffs tests out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:658] keeps diffs tests out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:658",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps broad dedicated extension groups out of the shared extensions lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:665] keeps broad dedicated extension groups out of the shared extensions lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:665",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes gateway include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:681] normalizes gateway include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:681",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes infra include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:691] normalizes infra include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:691",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes runtime config include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:696] normalizes runtime config include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:696",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes cron include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:701] normalizes cron include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:701",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes daemon include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:706] normalizes daemon include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:706",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes media include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:711] normalizes media include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:711",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes logging include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:716] normalizes logging include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:716",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes plugin-sdk include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:721] normalizes plugin-sdk include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:721",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes shared-core include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:726] normalizes shared-core include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:726",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes process include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:734] normalizes process include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:734",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes tasks include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:739] normalizes tasks include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:739",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes wizard include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:744] normalizes wizard include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:744",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes tui include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:749] normalizes tui include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:749",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes media-understanding include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:754] normalizes media-understanding include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:754",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] keeps tooling tests in their own lane",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:761] keeps tooling tests in their own lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:761",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes acp include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:770] normalizes acp include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:770",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes cli include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:775] normalizes cli include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:775",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes commands include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:780] normalizes commands include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:780",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes auto-reply include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:785] normalizes auto-reply include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:785",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes agents include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:790] normalizes agents include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:790",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes plugins include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:795] normalizes plugins include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:795",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes ui include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:801] normalizes ui include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:801",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts] normalizes utils include patterns relative to the scoped dir",
+TEST_CASE("v4.29 [test/vitest-scoped-config.test.ts:807] normalizes utils include patterns relative to the scoped dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-scoped-config.test.ts:807",
                "upstream it() block #78",

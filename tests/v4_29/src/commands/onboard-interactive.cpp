@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-interactive.test.ts] restores terminal state without resuming stdin on success",
+TEST_CASE("v4.29 [src/commands/onboard-interactive.test.ts:37] restores terminal state without resuming stdin on success",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-interactive.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-interactive.test.ts] restores terminal state without resuming stdin on cancel",
+TEST_CASE("v4.29 [src/commands/onboard-interactive.test.ts:48] restores terminal state without resuming stdin on cancel",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-interactive.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-interactive.test.ts] rethrows non-cancel errors after restoring terminal state",
+TEST_CASE("v4.29 [src/commands/onboard-interactive.test.ts:73] rethrows non-cancel errors after restoring terminal state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-interactive.test.ts:73",
                "upstream it() block #2",

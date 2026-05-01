@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/stagger.test.ts] detects recurring top-of-hour cron expressions for 5-field and 6-field cron",
+TEST_CASE("v4.29 [src/cron/stagger.test.ts:10] detects recurring top-of-hour cron expressions for 5-field and 6-field cron",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/stagger.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/stagger.test.ts] normalizes explicit stagger values",
+TEST_CASE("v4.29 [src/cron/stagger.test.ts:18] normalizes explicit stagger values",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/stagger.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/stagger.test.ts] resolves effective stagger for cron schedules",
+TEST_CASE("v4.29 [src/cron/stagger.test.ts:26] resolves effective stagger for cron schedules",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/stagger.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/stagger.test.ts] handles missing runtime expr values without throwing",
+TEST_CASE("v4.29 [src/cron/stagger.test.ts:37] handles missing runtime expr values without throwing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/stagger.test.ts:37",
                "upstream it() block #3",

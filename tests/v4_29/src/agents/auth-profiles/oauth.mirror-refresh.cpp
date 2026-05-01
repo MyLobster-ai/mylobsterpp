@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] mirrors refreshed credentials into the main store so peers skip refresh",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:80] mirrors refreshed credentials into the main store so peers skip refresh",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] does not mirror when refresh was performed from the main agent itself",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:123] does not mirror when refresh was performed from the main agent itself",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] inherits main-agent credentials via the pre-refresh adopt path when main is already fresher",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:165] inherits main-agent credentials via the pre-refresh adopt path when main is already fresher",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:165",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] answers app-server forced refresh from fresh main credentials when a sub-agent copy is expired",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:210] answers app-server forced refresh from fresh main credentials when a sub-agent copy is expired",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:210",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] refreshes the main owner when a stale local OAuth clone shadows a newer main credential",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:263] refreshes the main owner when a stale local OAuth clone shadows a newer main credential",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:263",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] inherits main-agent credentials via the catch-block fallback when refresh throws after main becomes fresh",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:344] inherits main-agent credentials via the catch-block fallback when refresh throws after main becomes fresh",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:344",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts] mirrors refreshed credentials produced by the plugin-refresh path",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.mirror-refresh.test.ts:414] mirrors refreshed credentials produced by the plugin-refresh path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.mirror-refresh.test.ts:414",
                "upstream it() block #6",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts] pretty style returns local HH:MM:SS without timezone suffix",
+TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts:32] pretty style returns local HH:MM:SS without timezone suffix",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/console-timestamp.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts] compact style returns local ISO-like timestamp with timezone offset",
+TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts:44] compact style returns local ISO-like timestamp with timezone offset",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/console-timestamp.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts] json style returns local ISO-like timestamp with timezone offset",
+TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts:54] json style returns local ISO-like timestamp with timezone offset",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/console-timestamp.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts] timestamp contains the correct local date components",
+TEST_CASE("v4.29 [src/logging/console-timestamp.test.ts:64] timestamp contains the correct local date components",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/console-timestamp.test.ts:64",
                "upstream it() block #3",

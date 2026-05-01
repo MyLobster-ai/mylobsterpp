@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-binding.test.ts] clears the Codex app-server sidecar when a pending bind is denied",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-binding.test.ts:21] clears the Codex app-server sidecar when a pending bind is denied",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-binding.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-binding.test.ts] consumes inbound bound messages when command authorization is absent",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-binding.test.ts:47] consumes inbound bound messages when command authorization is absent",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-binding.test.ts:47",
                "upstream it() block #1",

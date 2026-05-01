@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] syncs merged skills into a target workspace",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:105] syncs merged skills into a target workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] syncs the explicit agent skill subset instead of inherited defaults",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:147] syncs the explicit agent skill subset instead of inherited defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:147",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] keeps synced skills confined under target workspace when frontmatter name uses traversal",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:224] keeps synced skills confined under target workspace when frontmatter name uses traversal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:224",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] keeps synced skills confined under target workspace when frontmatter name is absolute",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:247] keeps synced skills confined under target workspace when frontmatter name is absolute",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:247",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] filters skills based on env/config gates",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:267] filters skills based on env/config gates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:267",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] applies skill filters, including empty lists",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:295] applies skill filters, including empty lists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:295",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts] syncs remote-eligible filtered skills into the target workspace",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:322] syncs remote-eligible filtered skills into the target workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.syncs-merged-skills-into-target-workspace.test.ts:322",
                "upstream it() block #6",

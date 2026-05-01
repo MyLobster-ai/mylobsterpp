@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] formats state and crypto previews",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:55] formats state and crypto previews",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] warns on stale custom Matrix plugin paths and cleans them",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:89] warns on stale custom Matrix plugin paths and cleans them",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] surfaces matrix sequence warnings and repair changes",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:116] surfaces matrix sequence warnings and repair changes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] normalizes legacy Matrix room allow aliases to enabled",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:157] normalizes legacy Matrix room allow aliases to enabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:157",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] normalizes legacy Matrix private-network aliases",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:215] normalizes legacy Matrix private-network aliases",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:215",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] migrates legacy channels.matrix.dm.policy ",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:263] migrates legacy channels.matrix.dm.policy ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:263",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] migrates legacy ",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:298] migrates legacy ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:298",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] migrates legacy channels.matrix.dm.policy ",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:318] migrates legacy channels.matrix.dm.policy ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:318",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] migrates legacy per-account channels.matrix.accounts.<id>.dm.policy ",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:333] migrates legacy per-account channels.matrix.accounts.<id>.dm.policy ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:333",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts] leaves modern dm.policy values untouched",
+TEST_CASE("v4.29 [extensions/matrix/src/doctor.test.ts:385] leaves modern dm.policy values untouched",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/doctor.test.ts:385",
                "upstream it() block #9",

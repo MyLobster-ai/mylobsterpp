@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts] returns undefined for messages without media",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts:43] returns undefined for messages without media",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/media.node.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts] uses explicit mimetype from audioMessage when present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts:49] uses explicit mimetype from audioMessage when present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/media.node.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts] uses explicit mimetype from imageMessage when present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts:60] uses explicit mimetype from imageMessage when present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/media.node.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts] preserves fileName from document messages",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/media.node.test.ts:72] preserves fileName from document messages",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/media.node.test.ts:72",
                "upstream it() block #3",

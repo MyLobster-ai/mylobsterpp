@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openshell/src/backend.test.ts] filters blocked secrets from ssh exec env",
+TEST_CASE("v4.29 [extensions/openshell/src/backend.test.ts:16] filters blocked secrets from ssh exec env",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/backend.test.ts:16",
                "upstream it() block #0",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.block-reply-rejections.test.ts] contains rejected async text_end block replies",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.block-reply-rejections.test.ts:25] contains rejected async text_end block replies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.block-reply-rejections.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.block-reply-rejections.test.ts] contains rejected async message_end block replies",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.block-reply-rejections.test.ts:42] contains rejected async message_end block replies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.block-reply-rejections.test.ts:42",
                "upstream it() block #1",

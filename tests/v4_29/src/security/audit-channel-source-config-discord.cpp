@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-channel-source-config-discord.test.ts] keeps source-configured channel security findings when resolved inspection is incomplete",
+TEST_CASE("v4.29 [src/security/audit-channel-source-config-discord.test.ts:41] keeps source-configured channel security findings when resolved inspection is incomplete",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-channel-source-config-discord.test.ts:41",
                "upstream it() block #0",

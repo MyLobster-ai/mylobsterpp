@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts] sends text messages through the message API",
+TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts:26] sends text messages through the message API",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/send.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts] routes media-bearing sends through the photo API and uses text as caption",
+TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts:48] routes media-bearing sends through the photo API and uses text as caption",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/send.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts] fails fast for missing token or blank photo URLs",
+TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts:73] fails fast for missing token or blank photo URLs",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/send.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts] sends cfg-backed media directly without hosted-media rewrites",
+TEST_CASE("v4.29 [extensions/zalo/src/send.test.ts:92] sends cfg-backed media directly without hosted-media rewrites",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/send.test.ts:92",
                "upstream it() block #3",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts] stamps channel metadata on single and batch results",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts:12] stamps channel metadata on single and batch results",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-send-result.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts] normalizes raw send results",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts:39] normalizes raw send results",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-send-result.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts] builds an empty outbound result with channel metadata",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts:54] builds an empty outbound result with channel metadata",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-send-result.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts] wraps outbound delivery and poll results",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts:64] wraps outbound delivery and poll results",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-send-result.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts] normalizes raw send results",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-send-result.test.ts:113] normalizes raw send results",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-send-result.test.ts:113",
                "upstream it() block #4",

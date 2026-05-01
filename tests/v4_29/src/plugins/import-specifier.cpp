@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/import-specifier.test.ts] converts Windows absolute import specifiers to file URLs",
+TEST_CASE("v4.29 [src/plugins/import-specifier.test.ts:9] converts Windows absolute import specifiers to file URLs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/import-specifier.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/import-specifier.test.ts] preserves import specifiers that Node can already resolve",
+TEST_CASE("v4.29 [src/plugins/import-specifier.test.ts:23] preserves import specifiers that Node can already resolve",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/import-specifier.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/import-specifier.test.ts] does not rewrite non-Windows paths",
+TEST_CASE("v4.29 [src/plugins/import-specifier.test.ts:33] does not rewrite non-Windows paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/import-specifier.test.ts:33",
                "upstream it() block #2",

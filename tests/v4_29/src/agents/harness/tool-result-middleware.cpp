@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts] fails closed when middleware throws",
+TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts:5] fails closed when middleware throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/tool-result-middleware.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts] fails closed for invalid middleware results",
+TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts:33] fails closed for invalid middleware results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/tool-result-middleware.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts] fails closed when middleware mutates the current result into an invalid shape",
+TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts:49] fails closed when middleware mutates the current result into an invalid shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/tool-result-middleware.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts] rejects oversized middleware details",
+TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts:67] rejects oversized middleware details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/tool-result-middleware.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts] rejects cyclic middleware details",
+TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts:87] rejects cyclic middleware details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/tool-result-middleware.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts] accepts well-formed middleware results",
+TEST_CASE("v4.29 [src/agents/harness/tool-result-middleware.test.ts:109] accepts well-formed middleware results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/tool-result-middleware.test.ts:109",
                "upstream it() block #5",

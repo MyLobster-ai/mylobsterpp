@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills-install-fallback.test.ts] handles sudo probe failures for go install without apt fallback",
+TEST_CASE("v4.29 [src/agents/skills-install-fallback.test.ts:101] handles sudo probe failures for go install without apt fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install-fallback.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install-fallback.test.ts] uv not installed and no brew returns helpful error without curl auto-install",
+TEST_CASE("v4.29 [src/agents/skills-install-fallback.test.ts:152] uv not installed and no brew returns helpful error without curl auto-install",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install-fallback.test.ts:152",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install-fallback.test.ts] preserves system uv/python env vars when running uv installs",
+TEST_CASE("v4.29 [src/agents/skills-install-fallback.test.ts:168] preserves system uv/python env vars when running uv installs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install-fallback.test.ts:168",
                "upstream it() block #2",

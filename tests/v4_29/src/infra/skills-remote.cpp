@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] removes disconnected nodes from remote skill eligibility",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:23] removes disconnected nodes from remote skill eligibility",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] supports idempotent remote node removal",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:41] supports idempotent remote node removal",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] bumps the skills snapshot version when an eligible remote node disconnects",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:49] bumps the skills snapshot version when an eligible remote node disconnects",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] ignores non-mac and non-system.run nodes for eligibility",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:67] ignores non-mac and non-system.run nodes for eligibility",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] aggregates bins and note labels across eligible mac nodes",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:95] aggregates bins and note labels across eligible mac nodes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] suppresses the exec host=node note when routing is not allowed",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:128] suppresses the exec host=node note when routing is not allowed",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] does not expose bins for nodes that only have cached paired metadata",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:149] does not expose bins for nodes that only have cached paired metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:149",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] clears stale bins when a connected node probe times out",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:161] clears stale bins when a connected node probe times out",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:161",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] coalesces overlapping bin probes for the same node",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:225] coalesces overlapping bin probes for the same node",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:225",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/skills-remote.test.ts] records bins from system.which object-map responses",
+TEST_CASE("v4.29 [src/infra/skills-remote.test.ts:301] records bins from system.which object-map responses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/skills-remote.test.ts:301",
                "upstream it() block #9",

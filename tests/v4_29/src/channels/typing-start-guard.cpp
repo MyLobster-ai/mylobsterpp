@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts] skips starts when sealed",
+TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts:5] skips starts when sealed",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing-start-guard.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts] trips breaker after max consecutive failures",
+TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts:16] trips breaker after max consecutive failures",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing-start-guard.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts] resets breaker state",
+TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts:38] resets breaker state",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing-start-guard.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts] rethrows start errors when configured",
+TEST_CASE("v4.29 [src/channels/typing-start-guard.test.ts:56] rethrows start errors when configured",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing-start-guard.test.ts:56",
                "upstream it() block #3",

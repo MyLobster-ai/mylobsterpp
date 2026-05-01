@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/completion-cli.write-state.test.ts] keeps completion cache generation alive when a subcli fails to register",
+TEST_CASE("v4.29 [src/cli/completion-cli.write-state.test.ts:82] keeps completion cache generation alive when a subcli fails to register",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-cli.write-state.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-cli.write-state.test.ts] can skip plugin command registration for update-triggered cache writes",
+TEST_CASE("v4.29 [src/cli/completion-cli.write-state.test.ts:110] can skip plugin command registration for update-triggered cache writes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-cli.write-state.test.ts:110",
                "upstream it() block #1",

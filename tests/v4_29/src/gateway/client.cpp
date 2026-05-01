@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] blocks ws:// to non-loopback addresses (CWE-319)",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:195] blocks ws:// to non-loopback addresses (CWE-319)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:195",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] handles malformed URLs gracefully without crashing",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:209] handles malformed URLs gracefully without crashing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:209",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] allows ws:// to loopback addresses",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:224] allows ws:// to loopback addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:224",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] allows wss:// to any address",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:238] allows wss:// to any address",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:238",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] allows ws:// to private addresses only with OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:252] allows ws:// to private addresses only with OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:252",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] allows ws:// hostnames with OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:267] allows ws:// hostnames with OPENCLAW_ALLOW_INSECURE_PRIVATE_WS=1",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:267",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] preserves retry metadata from gateway error responses",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:284] preserves retry metadata from gateway error responses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:284",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] retries startup-unavailable connect failures without terminal callbacks",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:341] retries startup-unavailable connect failures without terminal callbacks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:341",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] clears stale token on device token mismatch close",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:417] clears stale token on device token mismatch close",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:417",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] does not break close flow when token clear throws",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:436] does not break close flow when token clear throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:436",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] does not clear auth state for non-mismatch close reasons",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:455] does not clear auth state for non-mismatch close reasons",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:455",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] keeps a managed reconnect timer after gateway restart closes",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:467] keeps a managed reconnect timer after gateway restart closes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:467",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] clears pending reconnect timers on stop",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:490] clears pending reconnect timers on stop",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:490",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] force-terminates a lingering socket after stop",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:509] force-terminates a lingering socket after stop",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:509",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] waits for a lingering socket to terminate in stopAndWait",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:532] waits for a lingering socket to terminate in stopAndWait",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:532",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] does not clear persisted device auth when explicit shared token is provided",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:565] does not clear persisted device auth when explicit shared token is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:565",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] uses explicit shared token and does not inject stored device token",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:723] uses explicit shared token and does not inject stored device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:723",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] waits for socket open before sending connect after an early challenge",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:742] waits for socket open before sending connect after an early challenge",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:742",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] logs stopped connect handshakes at debug level during teardown",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:757] logs stopped connect handshakes at debug level during teardown",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:757",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] uses explicit shared password and does not inject stored device token",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:783] uses explicit shared password and does not inject stored device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:783",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] uses stored device token scopes when shared token is not provided",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:803] uses stored device token scopes when shared token is not provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:803",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] uses bootstrap token when no shared or device token is available",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:825] uses bootstrap token when no shared or device token is available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:825",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] prefers explicit deviceToken over stored device token",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:845] prefers explicit deviceToken over stored device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:845",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] falls back to requested scopes when stored device token has no cached scopes",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:869] falls back to requested scopes when stored device token has no cached scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:869",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] retries with stored device token after shared-token mismatch on trusted endpoints",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:892] retries with stored device token after shared-token mismatch on trusted endpoints",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:892",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] retries with stored device token when server recommends retry_with_device_token",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:920] retries with stored device token when server recommends retry_with_device_token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:920",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] does not auto-reconnect on AUTH_TOKEN_MISSING connect failures",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:940] does not auto-reconnect on AUTH_TOKEN_MISSING connect failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:940",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] clears stale stored device tokens and does not reconnect on AUTH_DEVICE_TOKEN_MISMATCH",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:962] clears stale stored device tokens and does not reconnect on AUTH_DEVICE_TOKEN_MISMATCH",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:962",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client.test.ts] does not auto-reconnect on token mismatch when retry is not trusted",
+TEST_CASE("v4.29 [src/gateway/client.test.ts:992] does not auto-reconnect on token mismatch when retry is not trusted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client.test.ts:992",
                "upstream it() block #28",

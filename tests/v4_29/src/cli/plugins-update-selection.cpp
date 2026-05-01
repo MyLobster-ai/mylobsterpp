@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts] maps an explicit unscoped npm dist-tag update to the tracked plugin id",
+TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts:19] maps an explicit unscoped npm dist-tag update to the tracked plugin id",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-update-selection.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts] maps an explicit scoped npm dist-tag update to the tracked plugin id",
+TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts:39] maps an explicit scoped npm dist-tag update to the tracked plugin id",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-update-selection.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts] maps an explicit npm version update to the tracked plugin id",
+TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts:59] maps an explicit npm version update to the tracked plugin id",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-update-selection.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts] keeps recorded npm tags when update is invoked by plugin id",
+TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts:79] keeps recorded npm tags when update is invoked by plugin id",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-update-selection.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts] maps a bare scoped npm package update to the tracked plugin id",
+TEST_CASE("v4.29 [src/cli/plugins-update-selection.test.ts:96] maps a bare scoped npm package update to the tracked plugin id",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-update-selection.test.ts:96",
                "upstream it() block #4",

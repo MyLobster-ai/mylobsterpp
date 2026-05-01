@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] writes credentials atomically with secure file permissions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:60] writes credentials atomically with secure file permissions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] touch updates lastUsedAt while preserving createdAt",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:80] touch updates lastUsedAt while preserving createdAt",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] backfill updates deviceId when credentials still match the same auth lineage",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:109] backfill updates deviceId when credentials still match the same auth lineage",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] backfill skips when newer credentials already changed the token",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:140] backfill skips when newer credentials already changed the token",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] serializes stale backfill writes behind newer credential saves",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:172] serializes stale backfill writes behind newer credential saves",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:172",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] migrates legacy matrix credential files on read",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:240] migrates legacy matrix credential files on read",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:240",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] returns migrated credentials when another process moves the legacy file mid-read",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:261] returns migrated credentials when another process moves the legacy file mid-read",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:261",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] does not rename the legacy path after falling back to already-migrated current credentials",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:299] does not rename the legacy path after falling back to already-migrated current credentials",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:299",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] does not migrate legacy default credentials during a non-selected account read",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:371] does not migrate legacy default credentials during a non-selected account read",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:371",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] migrates legacy credentials to the named account when top-level auth is only a shared default",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:403] migrates legacy credentials to the named account when top-level auth is only a shared default",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:403",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] clears both current and legacy credential paths",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:434] clears both current and legacy credential paths",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:434",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts] requires a token match when userId is absent",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/credentials.test.ts:457] requires a token match when userId is absent",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/credentials.test.ts:457",
                "upstream it() block #11",

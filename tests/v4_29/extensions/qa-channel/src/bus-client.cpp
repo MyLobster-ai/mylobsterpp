@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/bus-client.test.ts] rejects malformed JSON responses instead of throwing from the stream callback",
+TEST_CASE("v4.29 [extensions/qa-channel/src/bus-client.test.ts:43] rejects malformed JSON responses instead of throwing from the stream callback",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/bus-client.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/bus-client.test.ts] preserves baseUrl path prefixes when composing bus URLs",
+TEST_CASE("v4.29 [extensions/qa-channel/src/bus-client.test.ts:59] preserves baseUrl path prefixes when composing bus URLs",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/bus-client.test.ts:59",
                "upstream it() block #1",

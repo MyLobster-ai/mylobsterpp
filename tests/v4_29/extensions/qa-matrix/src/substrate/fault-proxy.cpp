@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/fault-proxy.test.ts] faults matching Matrix requests and forwards everything else",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/fault-proxy.test.ts:69] faults matching Matrix requests and forwards everything else",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/fault-proxy.test.ts:69",
                "upstream it() block #0",

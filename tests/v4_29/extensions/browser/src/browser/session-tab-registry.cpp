@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts] tracks and closes tabs for normalized session keys",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts:23] tracks and closes tabs for normalized session keys",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-registry.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts] untracks specific tabs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts:59] untracks specific tabs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-registry.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts] deduplicates tabs and ignores expected close errors",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts:88] deduplicates tabs and ignores expected close errors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-registry.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts] sweeps idle tracked tabs and keeps recently touched tabs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts:119] sweeps idle tracked tabs and keeps recently touched tabs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-registry.test.ts:119",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts] caps tracked tabs per session by closing least recently used tabs first",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts:151] caps tracked tabs per session by closing least recently used tabs first",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-registry.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts] honors session filters during sweeps",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-registry.test.ts:175] honors session filters during sweeps",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-registry.test.ts:175",
                "upstream it() block #5",

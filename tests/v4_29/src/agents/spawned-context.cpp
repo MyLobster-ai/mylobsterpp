@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] trims text fields and drops empties",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:10] trims text fields and drops empties",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] maps agent group fields to run metadata shape",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:29] maps agent group fields to run metadata shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] prefers explicit workspaceDir when provided",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:56] prefers explicit workspaceDir when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] prefers targetAgentId over requester session agent for cross-agent spawns",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:65] prefers targetAgentId over requester session agent for cross-agent spawns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] falls back to requester session agent when targetAgentId is missing",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:74] falls back to requester session agent when targetAgentId is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] returns undefined for missing requester context",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:82] returns undefined for missing requester context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/spawned-context.test.ts] forwards workspace only for spawned runs",
+TEST_CASE("v4.29 [src/agents/spawned-context.test.ts:93] forwards workspace only for spawned runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/spawned-context.test.ts:93",
                "upstream it() block #6",

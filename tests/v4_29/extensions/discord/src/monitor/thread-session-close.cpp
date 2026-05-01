@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] resets updatedAt to 0 for sessions whose key contains the threadId",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:45] resets updatedAt to 0 for sessions whose key contains the threadId",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] returns 0 and leaves store unchanged when no session matches",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:63] returns 0 and leaves store unchanged when no session matches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] resets all matching sessions when multiple keys contain the threadId",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:79] resets all matching sessions when multiple keys contain the threadId",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] does not match a key that contains the threadId as a substring of a longer snowflake",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:102] does not match a key that contains the threadId as a substring of a longer snowflake",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] matching is case-insensitive for the session key",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:120] matching is case-insensitive for the session key",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] returns 0 immediately when threadId is empty without touching the store",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:137] returns 0 immediately when threadId is empty without touching the store",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:137",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] does not recount sessions that were already reset",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:148] does not recount sessions that were already reset",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:148",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts] resolves the store path using cfg.session.store and accountId",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-session-close.test.ts:166] resolves the store path using cfg.session.store and accountId",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-session-close.test.ts:166",
                "upstream it() block #7",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts] defaults to main lane when no lane is provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts:6] defaults to main lane when no lane is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/lanes.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts] maps cron lane to cron-nested lane to prevent deadlocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts:13] maps cron lane to cron-nested lane to prevent deadlocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/lanes.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts] preserves other lanes as-is",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts:22] preserves other lanes as-is",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/lanes.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts] defaults to main lane and prefixes with session:",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts:37] defaults to main lane and prefixes with session:",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/lanes.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts] adds session: prefix if not present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts:43] adds session: prefix if not present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/lanes.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts] preserves existing session: prefix",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/lanes.test.ts:52] preserves existing session: prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/lanes.test.ts:52",
                "upstream it() block #5",

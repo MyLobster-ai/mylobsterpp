@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts] matches repeated lookups for the same scope, timestamp, and text",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:20] matches repeated lookups for the same scope, timestamp, and text",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts] canonicalizes DM scope across chatIdentifier and chatGuid",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:39] canonicalizes DM scope across chatIdentifier and chatGuid",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts] expires entries after the ttl window",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:82] expires entries after the ttl window",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts] evicts older entries when the cache exceeds its cap",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:103] evicts older entries when the cache exceeds its cap",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts] enforces the cache cap even when cleanup is throttled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:132] enforces the cache cap even when cleanup is throttled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:132",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts] does not collide long texts that differ only in the middle",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:160] does not collide long texts that differ only in the middle",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-self-chat-cache.test.ts:160",
                "upstream it() block #5",

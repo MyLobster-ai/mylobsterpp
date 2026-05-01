@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] rejects invalid params",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:89] rejects invalid params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] rejects missing sessionKey",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:98] rejects missing sessionKey",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] rejects caller-supplied auth context params",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:107] rejects caller-supplied auth context params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] rejects unknown agent ids",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:116] rejects unknown agent ids",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] rejects unknown session keys",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:128] rejects unknown session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] returns the effective runtime inventory",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:144] returns the effective runtime inventory",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:144",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] serves repeated requests from the fresh inventory cache",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:177] serves repeated requests from the fresh inventory cache",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:177",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] invalidates the cache when only the channel registry version changes",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:188] invalidates the cache when only the channel registry version changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:188",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] coalesces identical cache misses while inventory resolution is pending",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:200] coalesces identical cache misses while inventory resolution is pending",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:200",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] returns stale cached inventory immediately while refreshing in the background",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:211] returns stale cached inventory immediately while refreshing in the background",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:211",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] falls back to origin.threadId when delivery context omits thread metadata",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:276] falls back to origin.threadId when delivery context omits thread metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] passes senderIsOwner=true for admin-scoped callers",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:317] passes senderIsOwner=true for admin-scoped callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:317",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts] rejects agent ids that do not match the session agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-effective.test.ts:334] rejects agent ids that do not match the session agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-effective.test.ts:334",
                "upstream it() block #12",

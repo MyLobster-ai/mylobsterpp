@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] generates and persists a token when startup auth is missing",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:99] generates and persists a token when startup auth is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not generate when token already exists",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:120] does not generate when token already exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not generate in password mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:135] does not generate in password mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:135",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] resolves gateway.auth.password SecretRef before startup auth checks",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:148] resolves gateway.auth.password SecretRef before startup auth checks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] resolves gateway.auth.token SecretRef before startup auth checks",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:179] resolves gateway.auth.token SecretRef before startup auth checks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] resolves env-template gateway.auth.token before env-token short-circuiting",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:206] resolves env-template gateway.auth.token before env-token short-circuiting",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:206",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] uses OPENCLAW_GATEWAY_TOKEN without resolving configured token SecretRef",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:224] uses OPENCLAW_GATEWAY_TOKEN without resolving configured token SecretRef",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:224",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] fails when gateway.auth.token SecretRef is active and unresolved",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:234] fails when gateway.auth.token SecretRef is active and unresolved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:234",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] requires explicit gateway.auth.mode when token and password are both configured",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:245] requires explicit gateway.auth.mode when token and password are both configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:245",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] uses OPENCLAW_GATEWAY_PASSWORD without resolving configured password SecretRef",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:263] uses OPENCLAW_GATEWAY_PASSWORD without resolving configured password SecretRef",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:263",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not resolve gateway.auth.password SecretRef when token mode is explicit",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:289] does not resolve gateway.auth.password SecretRef when token mode is explicit",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:289",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not generate in trusted-proxy mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:316] does not generate in trusted-proxy mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:316",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not generate in explicit none mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:330] does not generate in explicit none mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:330",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] treats undefined token override as no override",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:343] treats undefined token override as no override",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:343",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] keeps generated token ephemeral when runtime override flips explicit non-token mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:366] keeps generated token ephemeral when runtime override flips explicit non-token mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:366",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] keeps generated token ephemeral when runtime override flips explicit none mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:376] keeps generated token ephemeral when runtime override flips explicit none mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:376",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] keeps generated token ephemeral when runtime override flips implicit password mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:386] keeps generated token ephemeral when runtime override flips implicit password mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:386",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] throws when hooks token reuses gateway token resolved from env",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:396] throws when hooks token reuses gateway token resolved from env",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:396",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] rejects the .env.example placeholder password supplied via config",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:447] rejects the .env.example placeholder password supplied via config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:447",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] accepts any non-placeholder token (negative control)",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:464] accepts any non-placeholder token (negative control)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:464",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] throws on the known-weak password sentinel",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:500] throws on the known-weak password sentinel",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:500",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not throw on an empty token (falls through to generation path)",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:525] does not throw on an empty token (falls through to generation path)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:525",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not throw on a real token",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:536] does not throw on a real token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:536",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] does not throw on the none mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:547] does not throw on the none mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:547",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] throws when hooks token reuses gateway token auth",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:559] throws when hooks token reuses gateway token auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:559",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] allows hooks token when gateway auth is not token mode",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:578] allows hooks token when gateway auth is not token mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:578",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts] allows matching values when hooks are disabled",
+TEST_CASE("v4.29 [src/gateway/startup-auth.test.ts:597] allows matching values when hooks are disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/startup-auth.test.ts:597",
                "upstream it() block #26",

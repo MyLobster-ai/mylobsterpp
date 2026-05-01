@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] passes undefined userId when not provided",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:25] passes undefined userId when not provided",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] trims provided userId before client creation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:42] trims provided userId before client creation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] passes accountId through to client creation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:59] passes accountId through to client creation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] passes dispatcherPolicy through to client creation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:78] passes dispatcherPolicy through to client creation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] passes deviceId through to client creation (#61317)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:102] passes deviceId through to client creation (#61317)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] omits deviceId when not provided",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:123] omits deviceId when not provided",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:123",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts] returns client validation errors for insecure public http homeservers",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/probe.test.ts:140] returns client validation errors for insecure public http homeservers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/probe.test.ts:140",
                "upstream it() block #6",

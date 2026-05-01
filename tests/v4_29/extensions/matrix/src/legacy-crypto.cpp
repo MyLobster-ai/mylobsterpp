@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts] extracts a saved backup key into the new recovery-key path",
+TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts:90] extracts a saved backup key into the new recovery-key path",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/legacy-crypto.test.ts:90",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts] skips migration when no legacy Matrix plans exist",
+TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts:124] skips migration when no legacy Matrix plans exist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/legacy-crypto.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts] warns when legacy local-only room keys cannot be recovered automatically",
+TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts:139] warns when legacy local-only room keys cannot be recovered automatically",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/legacy-crypto.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts] prefers stored credentials for named accounts when config is token-only",
+TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts:170] prefers stored credentials for named accounts when config is token-only",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/legacy-crypto.test.ts:170",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts] stays warning-only when the legacy crypto inspector artifact is unavailable",
+TEST_CASE("v4.29 [extensions/matrix/src/legacy-crypto.test.ts:207] stays warning-only when the legacy crypto inspector artifact is unavailable",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/legacy-crypto.test.ts:207",
                "upstream it() block #4",

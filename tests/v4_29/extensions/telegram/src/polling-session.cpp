@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] uses backoff helpers for recoverable polling retries",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:226] uses backoff helpers for recoverable polling retries",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:226",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] does not call getUpdates for offset confirmation (avoiding 409 conflicts)",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:286] does not call getUpdates for offset confirmation (avoiding 409 conflicts)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:286",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] forces a restart when polling stalls without getUpdates activity",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:319] forces a restart when polling stalls without getUpdates activity",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:319",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] forces a restart when the runner task is pending but reports not running",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:393] forces a restart when the runner task is pending but reports not running",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:393",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] honors a custom polling stall threshold",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:447] honors a custom polling stall threshold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:447",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] rebuilds the transport after a stalled polling cycle",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:479] rebuilds the transport after a stalled polling cycle",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:479",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] rebuilds the transport after a recoverable polling error",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:554] rebuilds the transport after a recoverable polling error",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:554",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] does not trigger stall restart shortly after a getUpdates error",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:575] does not trigger stall restart shortly after a getUpdates error",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:575",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] publishes polling liveness after getUpdates succeeds",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:618] publishes polling liveness after getUpdates succeeds",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:618",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] keeps polling marked connected across recoverable restart cycles",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:668] keeps polling marked connected across recoverable restart cycles",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:668",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] does not trigger stall restart when non-getUpdates API calls are active",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:744] does not trigger stall restart when non-getUpdates API calls are active",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:744",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] does not trigger stall restart while a recent non-getUpdates API call is in-flight",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:792] does not trigger stall restart while a recent non-getUpdates API call is in-flight",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:792",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] triggers stall restart when a non-getUpdates API call has been in-flight past the threshold",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:848] triggers stall restart when a non-getUpdates API call has been in-flight past the threshold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:848",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] does not trigger stall restart when a newer non-getUpdates API call starts while an older one is still in-flight",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:899] does not trigger stall restart when a newer non-getUpdates API call starts while an older one is still in-flight",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:899",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] rebuilds the transport after a getUpdates conflict to force a fresh TCP socket",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:966] rebuilds the transport after a getUpdates conflict to force a fresh TCP socket",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:966",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] logs an actionable duplicate-poller hint for getUpdates conflicts",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:1005] logs an actionable duplicate-poller hint for getUpdates conflicts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:1005",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] closes the transport once when runUntilAbort exits normally",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:1031] closes the transport once when runUntilAbort exits normally",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:1031",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts] closes the stale transport when a rebuild replaces it",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-session.test.ts:1053] closes the stale transport when a rebuild replaces it",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-session.test.ts:1053",
                "upstream it() block #17",

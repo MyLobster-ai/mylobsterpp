@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked package names on vendored manifests",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:34] finds blocked package names on vendored manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked packages declared through npm alias specs",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:47] finds blocked packages declared through npm alias specs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked packages declared through nested override alias specs",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:66] finds blocked packages declared through nested override alias specs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] pins the axios override to an exact version",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:85] pins the axios override to an exact version",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked package directories under node_modules regardless of node_modules casing",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:91] finds blocked package directories under node_modules regardless of node_modules casing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked package directories regardless of blocked package segment casing",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:102] finds blocked package directories regardless of blocked package segment casing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:102",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked package file aliases under node_modules regardless of casing",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:113] finds blocked package file aliases under node_modules regardless of casing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:113",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked extensionless package file aliases under node_modules",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:124] finds blocked extensionless package file aliases under node_modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:124",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked package directories anywhere in a resolved path",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:135] finds blocked package directories anywhere in a resolved path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:135",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] finds blocked package file aliases anywhere in a resolved path",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:146] finds blocked package file aliases anywhere in a resolved path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:146",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] does not treat similarly named non-node_modules segments as package-resolution paths",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:157] does not treat similarly named non-node_modules segments as package-resolution paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:157",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] does not treat similarly named non-node_modules file aliases as package-resolution paths",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:165] does not treat similarly named non-node_modules file aliases as package-resolution paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:165",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] does not treat dotted non-loadable file aliases as blocked package paths",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:173] does not treat dotted non-loadable file aliases as blocked package paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:173",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] does not treat similarly named non-package paths as blocked package directories",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:181] does not treat similarly named non-package paths as blocked package directories",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:181",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] does not flag the unscoped name segment from an allowed scoped package path",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:189] does not flag the unscoped name segment from an allowed scoped package path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:189",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] keeps blocked packages out of the root manifest",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:197] keeps blocked packages out of the root manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:197",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts] keeps blocked packages out of the lockfile graph",
+TEST_CASE("v4.29 [src/plugins/dependency-denylist.test.ts:202] keeps blocked packages out of the lockfile graph",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/dependency-denylist.test.ts:202",
                "upstream it() block #16",

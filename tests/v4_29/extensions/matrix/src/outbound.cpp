@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts] chunks outbound text without requiring Matrix runtime initialization",
+TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts:34] chunks outbound text without requiring Matrix runtime initialization",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/outbound.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts] passes resolved cfg to sendMessageMatrix for text sends",
+TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts:44] passes resolved cfg to sendMessageMatrix for text sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/outbound.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts] passes resolved cfg to sendMessageMatrix for media sends",
+TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts:74] passes resolved cfg to sendMessageMatrix for media sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/outbound.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts] passes resolved cfg through injected deps.matrix",
+TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts:105] passes resolved cfg through injected deps.matrix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/outbound.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts] passes resolved cfg to sendPollMatrix",
+TEST_CASE("v4.29 [extensions/matrix/src/outbound.test.ts:140] passes resolved cfg to sendPollMatrix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/outbound.test.ts:140",
                "upstream it() block #4",

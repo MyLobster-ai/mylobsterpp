@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/install-flow.test.ts] returns resolved path and stat for existing files",
+TEST_CASE("v4.29 [src/infra/install-flow.test.ts:23] returns resolved path and stat for existing files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-flow.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-flow.test.ts] returns a path-not-found error for missing paths",
+TEST_CASE("v4.29 [src/infra/install-flow.test.ts:39] returns a path-not-found error for missing paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-flow.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-flow.test.ts] extracts archive and passes root directory to callback",
+TEST_CASE("v4.29 [src/infra/install-flow.test.ts:58] extracts archive and passes root directory to callback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-flow.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-flow.test.ts] returns extract failure when extraction throws",
+TEST_CASE("v4.29 [src/infra/install-flow.test.ts:94] returns extract failure when extraction throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-flow.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-flow.test.ts] returns root-resolution failure when archive layout is invalid",
+TEST_CASE("v4.29 [src/infra/install-flow.test.ts:105] returns root-resolution failure when archive layout is invalid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-flow.test.ts:105",
                "upstream it() block #4",

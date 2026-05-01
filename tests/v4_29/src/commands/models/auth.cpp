@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] runs plugin-owned openai-codex login",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:348] runs plugin-owned openai-codex login",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:348",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] uses the requested agent store for provider auth login",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:403] uses the requested agent store for provider auth login",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:403",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] loads the owning plugin for an explicit provider even in a clean config",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:433] loads the owning plugin for an explicit provider even in a clean config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:433",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] runs the requested anthropic cli auth method with the full login context",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:495] runs the requested anthropic cli auth method with the full login context",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:495",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] preserves other providers",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:641] preserves other providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:641",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] overwrites an existing primary when login uses --set-default",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:676] overwrites an existing primary when login uses --set-default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:676",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] survives lockout clearing failure without blocking login",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:699] survives lockout clearing failure without blocking login",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:699",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] reports loaded plugin providers when requested provider is unavailable",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:710] reports loaded plugin providers when requested provider is unavailable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:710",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] does not persist a cancelled manual token entry",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:718] does not persist a cancelled manual token entry",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:718",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] writes pasted Anthropic setup-tokens and logs the preference note",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:742] writes pasted Anthropic setup-tokens and logs the preference note",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:742",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] writes pasted tokens to the requested agent store",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:768] writes pasted tokens to the requested agent store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:768",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] rejects an unknown agent before prompting for pasted tokens",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:787] rejects an unknown agent before prompting for pasted tokens",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:787",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] runs token auth for any token-capable provider plugin",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:802] runs token auth for any token-capable provider plugin",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:802",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] uses the requested agent store for setup-token provider auth",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:845] uses the requested agent store for setup-token provider auth",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:845",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] uses the requested agent store for interactive token auth add",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:889] uses the requested agent store for interactive token auth add",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:889",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/auth.test.ts] keeps the requested agent store when interactive auth add falls back to paste-token",
+TEST_CASE("v4.29 [src/commands/models/auth.test.ts:934] keeps the requested agent store when interactive auth add falls back to paste-token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/auth.test.ts:934",
                "upstream it() block #15",

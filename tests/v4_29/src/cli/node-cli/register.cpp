@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/node-cli/register.test.ts] registers node start for the macOS app node service manager",
+TEST_CASE("v4.29 [src/cli/node-cli/register.test.ts:36] registers node start for the macOS app node service manager",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/node-cli/register.test.ts:36",
                "upstream it() block #0",

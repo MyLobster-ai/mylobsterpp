@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts] guards outPath when workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts:77] guards outPath when workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.nodes-workspace-guard.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts] normalizes relative outPath to an absolute workspace path before execute",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts:92] normalizes relative outPath to an absolute workspace path before execute",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.nodes-workspace-guard.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts] maps sandbox container outPath to host root when containerWorkdir is provided",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts:115] maps sandbox container outPath to host root when containerWorkdir is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.nodes-workspace-guard.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts] rejects outPath outside workspace when workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts:141] rejects outPath outside workspace when workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.nodes-workspace-guard.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts] does not guard outPath when workspaceOnly is disabled",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.nodes-workspace-guard.test.ts:154] does not guard outPath when workspaceOnly is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.nodes-workspace-guard.test.ts:154",
                "upstream it() block #4",

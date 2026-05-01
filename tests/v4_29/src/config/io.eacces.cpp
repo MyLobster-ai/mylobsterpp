@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/io.eacces.test.ts] returns a helpful error message when config file is not readable (EACCES)",
+TEST_CASE("v4.29 [src/config/io.eacces.test.ts:26] returns a helpful error message when config file is not readable (EACCES)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.eacces.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.eacces.test.ts] includes configPath in the chown hint for the correct remediation command",
+TEST_CASE("v4.29 [src/config/io.eacces.test.ts:48] includes configPath in the chown hint for the correct remediation command",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.eacces.test.ts:48",
                "upstream it() block #1",

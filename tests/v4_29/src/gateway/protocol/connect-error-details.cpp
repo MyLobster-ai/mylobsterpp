@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] reads structured detail codes",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:19] reads structured detail codes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] returns null for invalid detail payloads",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:23] returns null for invalid detail payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] reads retry advice fields when present",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:30] reads retry advice fields when present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] returns empty advice for invalid payloads",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:42] returns empty advice for invalid payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] builds reason-specific pairing messages",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:56] builds reason-specific pairing messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] builds structured pairing details with remediation",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:65] builds structured pairing details with remediation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:65",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] reads pairing details and backfills missing remediation hints",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:79] reads pairing details and backfills missing remediation hints",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:79",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] includes request ids in close reasons when available",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:94] includes request ids in close reasons when available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:94",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] drops request ids that do not match the allowlist",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:105] drops request ids that do not match the allowlist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:105",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] reads pairing details as compact connect details",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:121] reads pairing details as compact connect details",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:121",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] formats upgrade rejections with the request id",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:135] formats upgrade rejections with the request id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:135",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] parses surfaced pairing-required messages",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:145] parses surfaced pairing-required messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:145",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts] prefers pairing detail formatting over the generic message",
+TEST_CASE("v4.29 [src/gateway/protocol/connect-error-details.test.ts:161] prefers pairing detail formatting over the generic message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/protocol/connect-error-details.test.ts:161",
                "upstream it() block #12",

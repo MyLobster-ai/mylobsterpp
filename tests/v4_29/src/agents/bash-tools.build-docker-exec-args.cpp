@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts] prepends custom PATH after login shell sourcing to preserve both custom and system tools",
+TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts:5] prepends custom PATH after login shell sourcing to preserve both custom and system tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.build-docker-exec-args.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts] does not interpolate PATH into the shell command",
+TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts:25] does not interpolate PATH into the shell command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.build-docker-exec-args.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts] does not add PATH export when PATH is not in env",
+TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts:43] does not add PATH export when PATH is not in env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.build-docker-exec-args.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts] includes workdir flag when specified",
+TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts:58] includes workdir flag when specified",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.build-docker-exec-args.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts] uses login shell for consistent environment",
+TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts:71] uses login shell for consistent environment",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.build-docker-exec-args.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts] includes tty flag when requested",
+TEST_CASE("v4.29 [src/agents/bash-tools.build-docker-exec-args.test.ts:83] includes tty flag when requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.build-docker-exec-args.test.ts:83",
                "upstream it() block #5",

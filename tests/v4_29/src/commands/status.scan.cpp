@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] passes sourceConfig into buildChannelsTable for summary-mode status output",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:75] passes sourceConfig into buildChannelsTable for summary-mode status output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] keeps default text status off live channel status and setup runtime fallback",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:99] keeps default text status off live channel status and setup runtime fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] uses live channel status and setup fallback for deep text status",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:124] uses live channel status and setup fallback for deep text status",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] skips channel plugin preload for status --json with no channel config",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:152] skips channel plugin preload for status --json with no channel config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:152",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] skips plugin compatibility loading for status --json when the config file is missing",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:167] skips plugin compatibility loading for status --json when the config file is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:167",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] skips plugin compatibility loading for status --json even with configured channels",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:182] skips plugin compatibility loading for status --json even with configured channels",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] skips gateway and update probes on cold-start status paths",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:198] skips gateway and update probes on cold-start status paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:198",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] skips memory backend inspection for default memory-core with no existing store",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:217] skips memory backend inspection for default memory-core with no existing store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:217",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] keeps default text status off plugin compatibility and memory scans",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:225] keeps default text status off plugin compatibility and memory scans",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:225",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] inspects memory backend when memory search is explicitly configured",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:234] inspects memory backend when memory search is explicitly configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:234",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] keeps status --json on read-only channel metadata when channel config exists",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:252] keeps status --json on read-only channel metadata when channel config exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:252",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.test.ts] keeps status --json on read-only channel metadata when channel auth is env-only",
+TEST_CASE("v4.29 [src/commands/status.scan.test.ts:281] keeps status --json on read-only channel metadata when channel auth is env-only",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.test.ts:281",
                "upstream it() block #11",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts] keeps streaming usage enabled for provider-declared compatible endpoints",
+TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts:8] keeps streaming usage enabled for provider-declared compatible endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-completions-compat.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts] keeps streaming usage enabled for custom provider-declared compatible endpoints",
+TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts:19] keeps streaming usage enabled for custom provider-declared compatible endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-completions-compat.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts] does not broaden streaming usage for generic custom providers",
+TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts:30] does not broaden streaming usage for generic custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-completions-compat.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts] does not infer local streaming usage from provider id alone",
+TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts:54] does not infer local streaming usage from provider id alone",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-completions-compat.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts] enables streaming usage compat for vLLM on a local OpenAI-compatible endpoint",
+TEST_CASE("v4.29 [src/agents/openai-completions-compat.test.ts:66] enables streaming usage compat for vLLM on a local OpenAI-compatible endpoint",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-completions-compat.test.ts:66",
                "upstream it() block #4",

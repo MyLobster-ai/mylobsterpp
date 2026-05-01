@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] forProfile hot-reloads newly added profiles from config",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:79] forProfile hot-reloads newly added profiles from config",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] forProfile still throws for profiles that don",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:128] forProfile still throws for profiles that don",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] forProfile refreshes existing profile config after getRuntimeConfig cache updates",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:148] forProfile refreshes existing profile config after getRuntimeConfig cache updates",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] listProfiles refreshes config before enumerating profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:170] listProfiles refreshes config before enumerating profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:170",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] marks existing runtime state for reconcile when profile invariants change",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:191] marks existing runtime state for reconcile when profile invariants change",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:191",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] marks local managed runtime state for reconcile when profile headless changes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:229] marks local managed runtime state for reconcile when profile headless changes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:229",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] marks local managed runtime state for reconcile when profile executablePath changes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:272] marks local managed runtime state for reconcile when profile executablePath changes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:272",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] does not reconcile existing-session runtime when only headless changes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:321] does not reconcile existing-session runtime when only headless changes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:321",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts] does not reconcile remote cdp runtime when only headless changes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:376] does not reconcile remote cdp runtime when only headless changes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.hot-reload-profiles.test.ts:376",
                "upstream it() block #8",

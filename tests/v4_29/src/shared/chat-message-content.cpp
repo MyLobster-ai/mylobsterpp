@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] extracts the first text block from array content",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:10] extracts the first text block from array content",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] returns plain string content",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:18] returns plain string content",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] preserves empty-string text in the first block",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:26] preserves empty-string text in the first block",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] only considers the first content block even if later blocks have text",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:34] only considers the first content block even if later blocks have text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] returns undefined for missing, empty, or non-text content",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:47] returns undefined for missing, empty, or non-text content",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:47",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] preserves boundary spacing when joining adjacent final_answer text blocks",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:57] preserves boundary spacing when joining adjacent final_answer text blocks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:57",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] prefers final_answer text over commentary text",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:80] prefers final_answer text over commentary text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:80",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] does not fall back to commentary-only text",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:100] does not fall back to commentary-only text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:100",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] does not fall back to unphased legacy text when final_answer is empty",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:115] does not fall back to unphased legacy text when final_answer is empty",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:115",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] falls back to unphased legacy text",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:131] falls back to unphased legacy text",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:131",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] does not mix unphased legacy text into final_answer output",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:140] does not mix unphased legacy text into final_answer output",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:140",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] prefers the top-level assistant phase when present",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:159] prefers the top-level assistant phase when present",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:159",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] resolves a single explicit phase from textSignature metadata",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:165] resolves a single explicit phase from textSignature metadata",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:165",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts] returns undefined when text blocks contain mixed explicit phases",
+TEST_CASE("v4.29 [src/shared/chat-message-content.test.ts:180] returns undefined when text blocks contain mixed explicit phases",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-message-content.test.ts:180",
                "upstream it() block #13",

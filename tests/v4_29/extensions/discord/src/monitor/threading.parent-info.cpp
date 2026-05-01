@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts] falls back to fetched thread parentId when parentId is missing in payload",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts:12] falls back to fetched thread parentId when parentId is missing in payload",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.parent-info.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts] falls back to fetched thread parentId when partial channel getters throw",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts:54] falls back to fetched thread parentId when partial channel getters throw",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.parent-info.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts] does not fetch thread info when parentId is already present",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts:98] does not fetch thread info when parentId is already present",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.parent-info.test.ts:98",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts] returns empty parent info when fallback thread lookup has no parentId",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.parent-info.test.ts:129] returns empty parent info when fallback thread lookup has no parentId",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.parent-info.test.ts:129",
                "upstream it() block #3",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] preserves selected agent when it still exists in the list",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:85] preserves selected agent when it still exists in the list",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] resets to default when selected agent is removed",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:103] resets to default when selected agent is removed",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] sets default when no agent is selected",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:121] sets default when no agent is selected",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] loads catalog and stores result",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:141] loads catalog and stores result",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] captures request errors for fallback UI handling",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:168] captures request errors for fallback UI handling",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:168",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] ignores catalog responses after selected agent changes mid-request",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:179] ignores catalog responses after selected agent changes mid-request",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:179",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] loads effective tools for the active session",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:205] loads effective tools for the active session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:205",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] captures effective-tool request errors",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:241] captures effective-tool request errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:241",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] ignores effective-tool responses after selected agent changes mid-request",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:253] ignores effective-tool responses after selected agent changes mid-request",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:253",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] uses the catalog provider when the active session reports a stale provider",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:278] uses the catalog provider when the active session reports a stale provider",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:278",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] preserves already-qualified session models when the active session provider is stale and the catalog is empty",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:308] preserves already-qualified session models when the active session provider is stale and the catalog is empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:308",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] restores the pre-save agent after reload when it still exists",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:340] restores the pre-save agent after reload when it still exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:340",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts] falls back to the default agent when the saved agent disappears",
+TEST_CASE("v4.29 [ui/src/ui/controllers/agents.test.ts:387] falls back to the default agent when the saved agent disappears",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/agents.test.ts:387",
                "upstream it() block #12",

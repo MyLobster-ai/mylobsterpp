@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts] runs image understanding through a bounded Codex app-server turn",
+TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts:174] runs image understanding through a bounded Codex app-server turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/media-understanding-provider.test.ts:174",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts] declines approval requests during image understanding",
+TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts:218] declines approval requests during image understanding",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/media-understanding-provider.test.ts:218",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts] extracts text from terminal turn items",
+TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts:241] extracts text from terminal turn items",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/media-understanding-provider.test.ts:241",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts] rejects text-only Codex app-server models before starting a turn",
+TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts:260] rejects text-only Codex app-server models before starting a turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/media-understanding-provider.test.ts:260",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts] surfaces Codex app-server turn errors",
+TEST_CASE("v4.29 [extensions/codex/media-understanding-provider.test.ts:281] surfaces Codex app-server turn errors",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/media-understanding-provider.test.ts:281",
                "upstream it() block #4",

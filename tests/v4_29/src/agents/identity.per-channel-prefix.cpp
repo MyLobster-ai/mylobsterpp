@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] returns undefined when no prefix configured anywhere",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:11] returns undefined when no prefix configured anywhere",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] returns global prefix when set",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:16] returns global prefix when set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] resolves ",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:21] resolves ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] returns empty string when global prefix is explicitly empty",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:31] returns empty string when global prefix is explicitly empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] returns channel prefix when set, ignoring global",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:40] returns channel prefix when set, ignoring global",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:40",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] falls through to global when channel prefix is undefined",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:50] falls through to global when channel prefix is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:50",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] channel empty string stops cascade (no global prefix applied)",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:60] channel empty string stops cascade (no global prefix applied)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:60",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] resolves ",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:70] resolves ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:70",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] different channels get different prefixes",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:82] different channels get different prefixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:82",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] returns undefined when channel not in config",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:95] returns undefined when channel not in config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:95",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] returns account prefix when set, ignoring channel and global",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:108] returns account prefix when set, ignoring channel and global",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:108",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] falls through to channel prefix when account prefix is undefined",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:125] falls through to channel prefix when account prefix is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:125",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] falls through to global when both account and channel are undefined",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:141] falls through to global when both account and channel are undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:141",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] account empty string stops cascade",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:157] account empty string stops cascade",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:157",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] resolves ",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:174] resolves ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:174",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] different accounts on same channel get different prefixes",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:192] different accounts on same channel get different prefixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:192",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] unknown accountId falls through to channel level",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:212] unknown accountId falls through to channel level",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:212",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] L1: account prefix wins when all levels set",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:249] L1: account prefix wins when all levels set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:249",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] L2: channel prefix when account undefined",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:255] L2: channel prefix when account undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:255",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] L4: global prefix when channel has no prefix",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:261] L4: global prefix when channel has no prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:261",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] undefined: no prefix at any level",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:265] undefined: no prefix at any level",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:265",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] passes channel context through to responsePrefix resolution",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:276] passes channel context through to responsePrefix resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:276",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts] uses global when no channel context provided",
+TEST_CASE("v4.29 [src/agents/identity.per-channel-prefix.test.ts:289] uses global when no channel context provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.per-channel-prefix.test.ts:289",
                "upstream it() block #22",

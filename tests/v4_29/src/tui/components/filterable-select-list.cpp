@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/components/filterable-select-list.test.ts] clears the active filter before cancelling",
+TEST_CASE("v4.29 [src/tui/components/filterable-select-list.test.ts:39] clears the active filter before cancelling",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/filterable-select-list.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/filterable-select-list.test.ts] calls onCancel when escape is pressed with an empty filter",
+TEST_CASE("v4.29 [src/tui/components/filterable-select-list.test.ts:58] calls onCancel when escape is pressed with an empty filter",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/filterable-select-list.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/filterable-select-list.test.ts] calls onCancel when ctrl+c is pressed with an empty filter",
+TEST_CASE("v4.29 [src/tui/components/filterable-select-list.test.ts:70] calls onCancel when ctrl+c is pressed with an empty filter",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/filterable-select-list.test.ts:70",
                "upstream it() block #2",

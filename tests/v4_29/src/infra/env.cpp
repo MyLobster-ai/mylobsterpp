@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] copies Z_AI_API_KEY to ZAI_API_KEY when missing",
+TEST_CASE("v4.29 [src/infra/env.test.ts:32] copies Z_AI_API_KEY to ZAI_API_KEY when missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] does not override existing ZAI_API_KEY",
+TEST_CASE("v4.29 [src/infra/env.test.ts:39] does not override existing ZAI_API_KEY",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] ignores blank legacy Z_AI_API_KEY values",
+TEST_CASE("v4.29 [src/infra/env.test.ts:46] ignores blank legacy Z_AI_API_KEY values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] does not copy when legacy Z_AI_API_KEY is unset",
+TEST_CASE("v4.29 [src/infra/env.test.ts:53] does not copy when legacy Z_AI_API_KEY is unset",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] accepts common truthy values",
+TEST_CASE("v4.29 [src/infra/env.test.ts:62] accepts common truthy values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] rejects other values",
+TEST_CASE("v4.29 [src/infra/env.test.ts:69] rejects other values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:69",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] logs accepted env options once with redaction and formatting",
+TEST_CASE("v4.29 [src/infra/env.test.ts:78] logs accepted env options once with redaction and formatting",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:78",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] skips blank values and test-mode logging",
+TEST_CASE("v4.29 [src/infra/env.test.ts:109] skips blank values and test-mode logging",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:109",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/env.test.ts] normalizes the legacy ZAI env alias",
+TEST_CASE("v4.29 [src/infra/env.test.ts:145] normalizes the legacy ZAI env alias",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/env.test.ts:145",
                "upstream it() block #8",

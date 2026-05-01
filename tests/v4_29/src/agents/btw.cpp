@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] streams blocks without persisting BTW data to disk",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:306] streams blocks without persisting BTW data to disk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:306",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] returns a final payload when block streaming is unavailable",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:384] returns a final payload when block streaming is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:384",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] applies provider runtime auth before streaming github-copilot BTW questions",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:392] applies provider runtime auth before streaming github-copilot BTW questions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:392",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] uses the provider",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:443] uses the provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:443",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] falls back to streamSimple when no provider stream fn is registered",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:476] falls back to streamSimple when no provider stream fn is registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:476",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] strips injected empty tools arrays from BTW payloads before sending",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:486] strips injected empty tools arrays from BTW payloads before sending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:486",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] allows Bedrock /btw runs to proceed without a static api key in aws-sdk mode",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:501] allows Bedrock /btw runs to proceed without a static api key in aws-sdk mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:501",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] forces provider reasoning off even when the session think level is adaptive",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:532] forces provider reasoning off even when the session think level is adaptive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:532",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] fails when the current branch has no messages",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:554] fails when the current branch has no messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:554",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] uses active-run snapshot messages for BTW context while the main run is in flight",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:561] uses active-run snapshot messages for BTW context while the main run is in flight",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:561",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] uses the in-flight prompt as background only when there is no prior transcript context",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:603] uses the in-flight prompt as background only when there is no prior transcript context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:603",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] wraps the side question so the model does not treat it as a main-task continuation",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:636] wraps the side question so the model does not treat it as a main-task continuation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:636",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] branches away from an unresolved trailing user turn before building BTW context",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:664] branches away from an unresolved trailing user turn before building BTW context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:664",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] branches to the active run snapshot leaf when the session is busy",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:680] branches to the active run snapshot leaf when the session is busy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:680",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] falls back when the active run snapshot leaf no longer exists",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:693] falls back when the active run snapshot leaf no longer exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:693",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] returns the BTW answer without appending transcript custom entries",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:712] returns the BTW answer without appending transcript custom entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:712",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] does not log transcript persistence warnings because BTW no longer writes to disk",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:721] does not log transcript persistence warnings because BTW no longer writes to disk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:721",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] excludes tool results from BTW context to avoid replaying raw tool output",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:732] excludes tool results from BTW context to avoid replaying raw tool output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:732",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] strips assistant tool calls from BTW context so no-tool side questions stay tool-free",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:764] strips assistant tool calls from BTW context so no-tool side questions stay tool-free",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:764",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] drops assistant messages that contain only tool calls",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:800] drops assistant messages that contain only tool calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:800",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] strips embedded user tool results from BTW context",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:814] strips embedded user tool results from BTW context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:814",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] drops assistant thinking blocks from BTW context",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:835] drops assistant thinking blocks from BTW context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:835",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] drops thinking-only assistant messages from BTW context",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:863] drops thinking-only assistant messages from BTW context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:863",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] drops malformed user image blocks from BTW context",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:877] drops malformed user image blocks from BTW context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:877",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/btw.test.ts] normalizes malformed assistant content before stripping tool blocks",
+TEST_CASE("v4.29 [src/agents/btw.test.ts:889] normalizes malformed assistant content before stripping tool blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/btw.test.ts:889",
                "upstream it() block #24",

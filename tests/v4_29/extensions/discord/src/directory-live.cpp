@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts] returns empty group directory when token is missing",
+TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts:41] returns empty group directory when token is missing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-live.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts] returns empty peer directory without query and skips guild listing",
+TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts:51] returns empty peer directory without query and skips guild listing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-live.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts] filters group channels by query and respects limit",
+TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts:60] filters group channels by query and respects limit",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-live.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts] returns ranked peer results and caps member search by limit",
+TEST_CASE("v4.29 [extensions/discord/src/directory-live.test.ts:89] returns ranked peer results and caps member search by limit",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/directory-live.test.ts:89",
                "upstream it() block #3",

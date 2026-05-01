@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns true for ",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:11] returns true for ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] matches case-insensitively",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:15] matches case-insensitively",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns false when connected",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:19] returns false when connected",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:19",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns false when lastError is null",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:23] returns false when lastError is null",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns false for unrelated errors",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:27] returns false for unrelated errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:27",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns false for auth errors",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:31] returns false for auth errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:31",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns true for structured pairing code",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:35] returns true for structured pairing code",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:35",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] detects scope-upgrade pending approval and keeps the request id",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:47] detects scope-upgrade pending approval and keeps the request id",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:47",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns required for structured auth-required codes",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:62] returns required for structured auth-required codes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:62",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] returns failed for structured auth mismatch codes",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:74] returns failed for structured auth mismatch codes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:74",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] does not treat generic connect failures as auth failures",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:86] does not treat generic connect failures as auth failures",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:86",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts] falls back to unauthorized string matching without structured codes",
+TEST_CASE("v4.29 [ui/src/ui/views/overview.node.test.ts:98] falls back to unauthorized string matching without structured codes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/overview.node.test.ts:98",
                "upstream it() block #11",

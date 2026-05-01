@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/batch-http.test.ts] posts JSON and returns parsed response payload",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/batch-http.test.ts:30] posts JSON and returns parsed response payload",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/batch-http.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/batch-http.test.ts] attaches status to non-ok errors",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/batch-http.test.ts:69] attaches status to non-ok errors",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/batch-http.test.ts:69",
                "upstream it() block #1",

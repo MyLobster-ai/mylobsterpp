@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts] allows same-origin hosted canvas document paths",
+TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts:5] allows same-origin hosted canvas document paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/canvas-url.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts] rewrites safe canvas paths through the scoped canvas host",
+TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts:11] rewrites safe canvas paths through the scoped canvas host",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/canvas-url.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts] rejects non-canvas same-origin paths",
+TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts:22] rejects non-canvas same-origin paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/canvas-url.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts] rejects absolute external URLs",
+TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts:26] rejects absolute external URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/canvas-url.test.ts:26",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts] allows absolute external URLs only when explicitly enabled",
+TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts:30] allows absolute external URLs only when explicitly enabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/canvas-url.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts] rejects file URLs",
+TEST_CASE("v4.29 [ui/src/ui/canvas-url.test.ts:36] rejects file URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/canvas-url.test.ts:36",
                "upstream it() block #5",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts] reads direct config snapshot payload from GatewayClient.request",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts:9] reads direct config snapshot payload from GatewayClient.request",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-config.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts] prefers resolved snapshot payload when present",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts:14] prefers resolved snapshot payload when present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-config.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts] supports wrapped config payload fallback",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts:22] supports wrapped config payload fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-config.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts] supports legacy nested payload fallback",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts:27] supports legacy nested payload fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-config.test.ts:27",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts] supports legacy nested resolved payload fallback",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts:34] supports legacy nested resolved payload fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-config.test.ts:34",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts] throws when no usable config payload exists",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-config.test.ts:41] throws when no usable config payload exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-config.test.ts:41",
                "upstream it() block #5",

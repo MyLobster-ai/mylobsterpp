@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] allows labeled AI snapshots for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:128] allows labeled AI snapshots for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:128",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] allows ref screenshots for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:150] allows ref screenshots for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:150",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] checks existing-session snapshot URL when SSRF policy is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:180] checks existing-session snapshot URL when SSRF policy is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:180",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] checks existing-session screenshot URL when SSRF policy is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:192] checks existing-session screenshot URL when SSRF policy is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:192",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] rejects selector-based element screenshots for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:211] rejects selector-based element screenshots for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:211",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] fails closed for existing-session networkidle waits",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:230] fails closed for existing-session networkidle waits",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:230",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] fails closed for existing-session type timeout overrides",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:249] fails closed for existing-session type timeout overrides",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:249",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] supports glob URL waits for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:268] supports glob URL waits for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] forwards click timeoutMs to the existing-session click executor",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:297] forwards click timeoutMs to the existing-session click executor",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:297",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts] supports coordinate clicks for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.existing-session.test.ts:324] supports coordinate clicks for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.existing-session.test.ts:324",
                "upstream it() block #9",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts] decodes valid structured payloads",
+TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts:9] decodes valid structured payloads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-interaction.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts] falls back for legacy text-like payloads",
+TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts:36] falls back for legacy text-like payloads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-interaction.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts] rejects malformed structured payloads",
+TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts:55] rejects malformed structured payloads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-interaction.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts] rejects stale payloads",
+TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts:74] rejects stale payloads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-interaction.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts] rejects wrong-conversation payloads when chat context is enforced",
+TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts:93] rejects wrong-conversation payloads when chat context is enforced",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-interaction.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts] rejects malformed chat-type context",
+TEST_CASE("v4.29 [extensions/feishu/src/card-interaction.test.ts:111] rejects malformed chat-type context",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-interaction.test.ts:111",
                "upstream it() block #5",

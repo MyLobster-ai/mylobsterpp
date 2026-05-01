@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts] returns undefined when no hooks are registered",
+TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts:19] returns undefined when no hooks are registered",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.before-agent-finalize.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts] returns a revise decision with the hook reason",
+TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts:27] returns a revise decision with the hook reason",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.before-agent-finalize.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts] joins multiple revise reasons so the harness can request one follow-up pass",
+TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts:43] joins multiple revise reasons so the harness can request one follow-up pass",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.before-agent-finalize.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts] lets finalize override earlier revise decisions",
+TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts:63] lets finalize override earlier revise decisions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.before-agent-finalize.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts] hasHooks reports correctly",
+TEST_CASE("v4.29 [src/plugins/hooks.before-agent-finalize.test.ts:83] hasHooks reports correctly",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.before-agent-finalize.test.ts:83",
                "upstream it() block #4",

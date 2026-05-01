@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] uses spawnDepth from the session store when available",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:9] uses spawnDepth from the session store when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] derives depth from spawnedBy ancestry when spawnDepth is missing",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:19] derives depth from spawnedBy ancestry when spawnDepth is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] resolves depth when caller is identified by sessionId",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:33] resolves depth when caller is identified by sessionId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] resolves prefixed store keys when caller key omits the agent prefix",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:47] resolves prefixed store keys when caller key omits the agent prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] accepts JSON5 syntax in the on-disk depth store for backward compatibility",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:79] accepts JSON5 syntax in the on-disk depth store for backward compatibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] falls back to session-key segment counting when metadata is missing",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:106] falls back to session-key segment counting when metadata is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:106",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] defaults to 48 hours when config does not override the timeout",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:118] defaults to 48 hours when config does not override the timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:118",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] uses a timer-safe sentinel for no-timeout overrides",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:123] uses a timer-safe sentinel for no-timeout overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:123",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts] clamps very large timeout overrides to timer-safe values",
+TEST_CASE("v4.29 [src/agents/subagent-depth.test.ts:128] clamps very large timeout overrides to timer-safe values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-depth.test.ts:128",
                "upstream it() block #8",

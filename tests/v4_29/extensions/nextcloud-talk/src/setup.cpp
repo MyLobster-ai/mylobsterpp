@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] normalizes and validates base urls",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:19] normalizes and validates base urls",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] patches scoped account config and clears selected fields",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:32] patches scoped account config and clears selected fields",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] sets top-level DM policy state",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:93] sets top-level DM policy state",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] honors named-account DM policy state and config keys",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:110] honors named-account DM policy state and config keys",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] uses configured defaultAccount for omitted DM policy account context",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:133] uses configured defaultAccount for omitted DM policy account context",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] writes open DM policy to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:164] writes open DM policy to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:164",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] validates env/default-account constraints and applies config patches",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:191] validates env/default-account constraints and applies config patches",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:191",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] clears stored bot secret fields when switching the default account to env",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:278] clears stored bot secret fields when switching the default account to env",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:278",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] clears stored bot secret fields when the wizard switches to env",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:306] clears stored bot secret fields when the wizard switches to env",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:306",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] matches normalized configured account ids",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:328] matches normalized configured account ids",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:328",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:373] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:373",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts] uses configured defaultAccount for omitted setup configured state",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/setup.test.ts:397] uses configured defaultAccount for omitted setup configured state",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/setup.test.ts:397",
                "upstream it() block #11",

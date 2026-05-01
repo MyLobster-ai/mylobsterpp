@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] falls back to joined embed title and description when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:93] falls back to joined embed title and description when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] prefers starter content over embed fallback text",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:111] prefers starter content over embed fallback text",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] preserves username, tag, and role metadata for downstream visibility checks",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:125] preserves username, tag, and role metadata for downstream visibility checks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] extracts text from forwarded message snapshots when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:145] extracts text from forwarded message snapshots when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] prefers content over forwarded message snapshots",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:161] prefers content over forwarded message snapshots",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:161",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] joins multiple forwarded message snapshots",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:174] joins multiple forwarded message snapshots",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:174",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] preserves forwarded attachment placeholders in thread starter context",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:190] preserves forwarded attachment placeholders in thread starter context",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:190",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] preserves forwarded sticker placeholders in thread starter context",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:214] preserves forwarded sticker placeholders in thread starter context",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:214",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] uses the thread id as the message channel id for forum parents",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:237] uses the thread id as the message channel id for forum parents",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:237",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts] returns null when content, embeds, and snapshots are all empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.starter.test.ts:250] returns null when content, embeds, and snapshots are all empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.starter.test.ts:250",
                "upstream it() block #9",

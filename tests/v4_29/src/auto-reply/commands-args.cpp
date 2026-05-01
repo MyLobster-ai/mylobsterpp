@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/commands-args.test.ts] formats config args (show/get/unset/set) and normalizes values",
+TEST_CASE("v4.29 [src/auto-reply/commands-args.test.ts:11] formats config args (show/get/unset/set) and normalizes values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-args.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-args.test.ts] formats debug args (show/reset/unset/set)",
+TEST_CASE("v4.29 [src/auto-reply/commands-args.test.ts:28] formats debug args (show/reset/unset/set)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-args.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-args.test.ts] formats queue args (order + omission)",
+TEST_CASE("v4.29 [src/auto-reply/commands-args.test.ts:37] formats queue args (order + omission)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-args.test.ts:37",
                "upstream it() block #2",

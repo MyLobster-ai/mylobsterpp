@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime.test.ts] resolves sandbox ssh secret refs for active ssh backends",
+TEST_CASE("v4.29 [src/secrets/runtime.test.ts:8] resolves sandbox ssh secret refs for active ssh backends",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime.test.ts] treats sandbox ssh secret refs as inactive when ssh backend is not selected",
+TEST_CASE("v4.29 [src/secrets/runtime.test.ts:50] treats sandbox ssh secret refs as inactive when ssh backend is not selected",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime.test.ts] fails when an active exec ref id contains traversal segments",
+TEST_CASE("v4.29 [src/secrets/runtime.test.ts:85] fails when an active exec ref id contains traversal segments",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.test.ts:85",
                "upstream it() block #2",

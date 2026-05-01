@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/policy.test.ts] keeps workspace hooks disabled by default",
+TEST_CASE("v4.29 [src/hooks/policy.test.ts:30] keeps workspace hooks disabled by default",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/policy.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/policy.test.ts] allows workspace hooks when explicitly enabled",
+TEST_CASE("v4.29 [src/hooks/policy.test.ts:38] allows workspace hooks when explicitly enabled",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/policy.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/policy.test.ts] keeps plugin hooks enabled without local hook toggles",
+TEST_CASE("v4.29 [src/hooks/policy.test.ts:54] keeps plugin hooks enabled without local hook toggles",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/policy.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/policy.test.ts] lets managed hooks override bundled and plugin hooks",
+TEST_CASE("v4.29 [src/hooks/policy.test.ts:61] lets managed hooks override bundled and plugin hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/policy.test.ts:61",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/policy.test.ts] prevents workspace hooks from overriding non-workspace hooks",
+TEST_CASE("v4.29 [src/hooks/policy.test.ts:71] prevents workspace hooks from overriding non-workspace hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/policy.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/policy.test.ts] keeps later workspace entries for the same source/name",
+TEST_CASE("v4.29 [src/hooks/policy.test.ts:80] keeps later workspace entries for the same source/name",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/policy.test.ts:80",
                "upstream it() block #5",

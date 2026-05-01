@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] resolves status policy with shared startup semantics",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:15] resolves status policy with shared startup semantics",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] applies exact overrides after broader channel plugin rules",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:26] applies exact overrides after broader channel plugin rules",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] keeps config-only agent commands on config-only startup",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:69] keeps config-only agent commands on config-only startup",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] resolves mixed startup-only rules",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:99] resolves mixed startup-only rules",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] defaults unknown command paths to network proxy routing",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:158] defaults unknown command paths to network proxy routing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] resolves static network proxy bypass policies from the catalog",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:165] resolves static network proxy bypass policies from the catalog",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:165",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] resolves mixed network proxy policies from argv-sensitive catalog entries",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:173] resolves mixed network proxy policies from argv-sensitive catalog entries",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:173",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] uses the longest catalog command path for deep network proxy overrides",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:197] uses the longest catalog command path for deep network proxy overrides",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:197",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] stops catalog command path resolution before positional arguments",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:228] stops catalog command path resolution before positional arguments",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:228",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] treats bare gateway invocations with options as the gateway runtime",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:237] treats bare gateway invocations with options as the gateway runtime",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:237",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] does not let gateway run option values spoof bypass subcommands",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:244] does not let gateway run option values spoof bypass subcommands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:244",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts] still resolves real gateway bypass subcommands after their command token",
+TEST_CASE("v4.29 [src/cli/command-path-policy.test.ts:257] still resolves real gateway bypass subcommands after their command token",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-path-policy.test.ts:257",
                "upstream it() block #11",

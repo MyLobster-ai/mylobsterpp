@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] rejects explicit same-agent targets when allowAgents excludes the requester",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:85] rejects explicit same-agent targets when allowAgents excludes the requester",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] allows omitted agentId to default to requester even when allowAgents excludes requester",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:126] allows omitted agentId to default to requester even when allowAgents excludes requester",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] accepts a spawned run across session patching, runtime-model persistence, registry registration, and lifecycle emission",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:163] accepts a spawned run across session patching, runtime-model persistence, registry registration, and lifecycle emission",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:163",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] omits requesterOrigin threadId when no requester thread is provided",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:259] omits requesterOrigin threadId when no requester thread is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:259",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] pins admin-only methods to operator.admin and preserves least-privilege for others (#59428)",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:294] pins admin-only methods to operator.admin and preserves least-privilege for others (#59428)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:294",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] forwards normalized thinking to the agent run",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:340] forwards normalized thinking to the agent run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:340",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] does not duplicate long subagent task text in the initial user message (#72019)",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:376] does not duplicate long subagent task text in the initial user message (#72019)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:376",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts] returns an error when the initial child session patch is rejected",
+TEST_CASE("v4.29 [src/agents/subagent-spawn.test.ts:412] returns an error when the initial child session patch is rejected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-spawn.test.ts:412",
                "upstream it() block #7",

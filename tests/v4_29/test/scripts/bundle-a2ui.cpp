@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts] keeps generated renderer output out of bundle hash inputs",
+TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts:12] keeps generated renderer output out of bundle hash inputs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundle-a2ui.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts] prefers the installed rolldown CLI over a network dlx fallback",
+TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts:35] prefers the installed rolldown CLI over a network dlx fallback",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundle-a2ui.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts] sorts hash inputs without locale-dependent collation",
+TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts:43] sorts hash inputs without locale-dependent collation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundle-a2ui.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts] keeps unrelated repo dependency churn out of bundle hash inputs",
+TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts:54] keeps unrelated repo dependency churn out of bundle hash inputs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundle-a2ui.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts] keeps local node_modules state out of bundle hash inputs",
+TEST_CASE("v4.29 [test/scripts/bundle-a2ui.test.ts:63] keeps local node_modules state out of bundle hash inputs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/bundle-a2ui.test.ts:63",
                "upstream it() block #4",

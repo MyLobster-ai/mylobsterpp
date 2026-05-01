@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts] creates managed flows and updates them through revision-checked helpers",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts:44] creates managed flows and updates them through revision-checked helpers",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts] requires a controller for managed flows and rejects clearing it later",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts:162] requires a controller for managed flows and rejects clearing it later",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.test.ts:162",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts] emits restored, upserted, and deleted flow observer events",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts:192] emits restored, upserted, and deleted flow observer events",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.test.ts:192",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts] normalizes restored managed flows without a controller id",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts:234] normalizes restored managed flows without a controller id",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts] mirrors one-task flow state from tasks and leaves managed flows alone",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts:266] mirrors one-task flow state from tasks and leaves managed flows alone",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.test.ts:266",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts] preserves explicit json null in state and wait payloads",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.test.ts:372] preserves explicit json null in state and wait payloads",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.test.ts:372",
                "upstream it() block #5",

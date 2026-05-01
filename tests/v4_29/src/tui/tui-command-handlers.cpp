@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] renders the sending indicator before chat.send resolves",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:114] renders the sending indicator before chat.send resolves",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] forwards unknown slash commands to the gateway",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:142] forwards unknown slash commands to the gateway",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:142",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] opens a context mode selector for /context without sending immediately",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:158] opens a context mode selector for /context without sending immediately",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:158",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] sends the selected context mode through the gateway command path",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:167] sends the selected context mode through the gateway command path",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:167",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] forwards /context list directly",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:184] forwards /context list directly",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] forwards /context help directly",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:198] forwards /context help directly",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:198",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] forwards /status to the shared gateway command path",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:212] forwards /status to the shared gateway command path",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] keeps gateway diagnostics on /gateway-status",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:227] keeps gateway diagnostics on /gateway-status",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:227",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] returns to Crestodian with an optional request",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:244] returns to Crestodian with an optional request",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:244",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] leaves a Crestodian breadcrumb after switching agents",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:257] leaves a Crestodian breadcrumb after switching agents",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:257",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] defers local run binding until gateway events provide a real run id",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:267] defers local run binding until gateway events provide a real run id",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:267",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] sends /btw without hijacking the active main run",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:277] sends /btw without hijacking the active main run",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:277",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] creates unique session for /new and resets shared session for /reset",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:300] creates unique session for /new and resets shared session for /reset",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:300",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] reports send failures and marks activity status as error",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:322] reports send failures and marks activity status as error",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:322",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] sanitizes control sequences in /new and /reset failures",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:336] sanitizes control sequences in /new and /reset failures",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:336",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] reports disconnected status and skips gateway send when offline",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:351] reports disconnected status and skips gateway send when offline",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:351",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] runs /auth through the local auth flow and refreshes session info",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:364] runs /auth through the local auth flow and refreshes session info",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:364",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] rejects /auth in non-local mode",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:384] rejects /auth in non-local mode",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:384",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] blocks /auth while an optimistic run is still pending",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:392] blocks /auth while an optimistic run is still pending",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:392",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] rejects invalid /activation values before patching the session",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:406] rejects invalid /activation values before patching the session",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:406",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts] patches the session for valid /activation values",
+TEST_CASE("v4.29 [src/tui/tui-command-handlers.test.ts:415] patches the session for valid /activation values",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-command-handlers.test.ts:415",
                "upstream it() block #20",

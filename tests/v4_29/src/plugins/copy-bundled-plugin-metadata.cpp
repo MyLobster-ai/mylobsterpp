@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] rewrites TypeScript extension entries to built JS paths",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:89] rewrites TypeScript extension entries to built JS paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] copies plugin manifests, package metadata, and local skill directories",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:98] copies plugin manifests, package metadata, and local skill directories",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] copies generated bundled channel config schemas into dist manifests",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:129] copies generated bundled channel config schemas into dist manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] relocates node_modules-backed skill paths into bundled-skills and rewrites the manifest",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:193] relocates node_modules-backed skill paths into bundled-skills and rewrites the manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:193",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] falls back to repo-root hoisted node_modules skill paths",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:243] falls back to repo-root hoisted node_modules skill paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:243",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] omits missing declared skill paths and removes stale generated outputs",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:262] omits missing declared skill paths and removes stale generated outputs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:262",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] retries transient skill copy races from concurrent runtime postbuilds",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:285] retries transient skill copy races from concurrent runtime postbuilds",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:285",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] removes generated outputs for plugins no longer present in source",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:322] removes generated outputs for plugins no longer present in source",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:322",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] removes stale dist outputs when a source extension directory no longer has a manifest",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:363] removes stale dist outputs when a source extension directory no longer has a manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:363",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] removes non-packaged private QA plugin metadata unless private QA build is enabled",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:383] removes non-packaged private QA plugin metadata unless private QA build is enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:383",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts] preserves manifest-less runtime support package outputs and copies package metadata",
+TEST_CASE("v4.29 [src/plugins/copy-bundled-plugin-metadata.test.ts:440] preserves manifest-less runtime support package outputs and copies package metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/copy-bundled-plugin-metadata.test.ts:440",
                "upstream it() block #10",

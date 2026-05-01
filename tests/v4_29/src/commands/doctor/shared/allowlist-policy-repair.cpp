@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist-policy-repair.test.ts] restores matrix dm allowFrom from the pairing store into the nested path",
+TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist-policy-repair.test.ts:17] restores matrix dm allowFrom from the pairing store into the nested path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/allowlist-policy-repair.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist-policy-repair.test.ts] skips disabled channel and account entries",
+TEST_CASE("v4.29 [src/commands/doctor/shared/allowlist-policy-repair.test.ts:37] skips disabled channel and account entries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/allowlist-policy-repair.test.ts:37",
                "upstream it() block #1",

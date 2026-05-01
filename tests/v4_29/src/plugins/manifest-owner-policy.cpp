@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts] treats bundled owners as bundled and others as non-bundled",
+TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts:12] treats bundled owners as bundled and others as non-bundled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-owner-policy.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts] respects enabled, denylist, explicit disable, and allowlist bounds",
+TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts:17] respects enabled, denylist, explicit disable, and allowlist bounds",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-owner-policy.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts] reports base policy block reasons and supports explicit allowlist bypasses",
+TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts:69] reports base policy block reasons and supports explicit allowlist bypasses",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-owner-policy.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts] detects explicit manifest owner trust from allowlist or explicit enablement",
+TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts:109] detects explicit manifest owner trust from allowlist or explicit enablement",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-owner-policy.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts] uses effective activation state for activated manifest owners",
+TEST_CASE("v4.29 [src/plugins/manifest-owner-policy.test.ts:139] uses effective activation state for activated manifest owners",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/manifest-owner-policy.test.ts:139",
                "upstream it() block #4",

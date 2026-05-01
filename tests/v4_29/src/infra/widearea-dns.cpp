@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts] builds the default zone path from the normalized domain",
+TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts:86] builds the default zone path from the normalized domain",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/widearea-dns.test.ts:86",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts] renders a zone with gateway PTR/SRV/TXT records",
+TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts:94] renders a zone with gateway PTR/SRV/TXT records",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/widearea-dns.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts] rejects blank domains",
+TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts:149] rejects blank domains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/widearea-dns.test.ts:149",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts] skips rewriting unchanged content",
+TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts:155] skips rewriting unchanged content",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/widearea-dns.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts] increments same-day serials when content changes",
+TEST_CASE("v4.29 [src/infra/widearea-dns.test.ts:170] increments same-day serials when content changes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/widearea-dns.test.ts:170",
                "upstream it() block #4",

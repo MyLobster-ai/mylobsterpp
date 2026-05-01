@@ -5,551 +5,551 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should normalize provider names",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:135] should normalize provider names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:135",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] only applies generic provider-id normalization before auth alias lookup",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:150] only applies generic provider-id normalization before auth alias lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:150",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns true for setup-registered cli backends",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:175] returns true for setup-registered cli backends",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:175",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns false for provider ids",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:179] returns false for provider ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:179",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] keeps canonical OpenRouter native ids without duplicating the provider",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:185] keeps canonical OpenRouter native ids without duplicating the provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:185",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] round-trips normalized refs through modelKey",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:341] round-trips normalized refs through modelKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:341",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] splits legacy combined refs when provider is not stored separately",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:354] splits legacy combined refs when provider is not stored separately",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:354",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] preserves explicit runtime provider for vendor-prefixed model ids",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:366] preserves explicit runtime provider for vendor-prefixed model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:366",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] normalizes explicit override providers without reparsing runtime semantics",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:379] normalizes explicit override providers without reparsing runtime semantics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:379",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] splits legacy combined override refs when provider is not stored separately",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:394] splits legacy combined override refs when provider is not stored separately",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:394",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] normalizes explicit override providers without reparsing away wrapper semantics",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:406] normalizes explicit override providers without reparsing away wrapper semantics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:406",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] prefers explicit overrides ahead of runtime model fields",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:421] prefers explicit overrides ahead of runtime model fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:421",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] preserves explicit wrapper providers for vendor-prefixed override models",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:436] preserves explicit wrapper providers for vendor-prefixed override models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:436",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] infers provider when configured model match is unique",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:453] infers provider when configured model match is unique",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:453",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns undefined when configured matches are ambiguous",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:472] returns undefined when configured matches are ambiguous",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:472",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns undefined for provider-prefixed model ids",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:492] returns undefined for provider-prefixed model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:492",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] infers provider for slash-containing model id when allowlist match is unique",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:511] infers provider for slash-containing model id when allowlist match is unique",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:511",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] infers provider from configured provider catalogs when allowlist is absent",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:530] infers provider from configured provider catalogs when allowlist is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:530",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns undefined when provider catalog matches are ambiguous",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:549] returns undefined when provider catalog matches are ambiguous",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:549",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should build alias index from config",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:573] should build alias index from config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:573",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] keeps explicitly allowlisted models even when missing from bundled catalog",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:600] keeps explicitly allowlisted models even when missing from bundled catalog",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:600",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] overlays configured provider metadata and alias onto matching catalog entries",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:619] overlays configured provider metadata and alias onto matching catalog entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:619",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] keeps configured provider models visible when the catalog is otherwise allow-any",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:665] keeps configured provider models visible when the catalog is otherwise allow-any",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:665",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] matches allowlisted catalog entries with normalized provider and model ids",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:710] matches allowlisted catalog entries with normalized provider and model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:710",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] applies configured provider metadata and alias to synthetic allowlist entries",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:743] applies configured provider metadata and alias to synthetic allowlist entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:743",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] includes fallback models in allowed set",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:791] includes fallback models in allowed set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:791",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] handles empty fallbacks gracefully",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:809] handles empty fallbacks gracefully",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:809",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] prefers per-agent fallback overrides when agentId is provided",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:823] prefers per-agent fallback overrides when agentId is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:823",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] accepts explicit allowlist refs absent from bundled catalog",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:845] accepts explicit allowlist refs absent from bundled catalog",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:845",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] strips trailing auth profile suffix before allowlist matching",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:860] strips trailing auth profile suffix before allowlist matching",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:860",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] infers provider from allowlist for bare model ids to prevent prefix drift (#48369)",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:884] infers provider from allowlist for bare model ids to prevent prefix drift (#48369)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:884",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves slash-form aliases before provider/model parsing",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:912] resolves slash-form aliases before provider/model parsing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:912",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should resolve from string with alias",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:940] should resolve from string with alias",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:940",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should resolve direct ref if no alias match",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:958] should resolve direct ref if no alias match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:958",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] prefers slash-form aliases over direct provider/model parsing",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:966] prefers slash-form aliases over direct provider/model parsing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:966",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] strips trailing profile suffix for simple model refs",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:990] strips trailing profile suffix for simple model refs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:990",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] strips trailing profile suffix for provider/model refs",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:998] strips trailing profile suffix for provider/model refs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:998",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] preserves Cloudflare @cf model segments",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1009] preserves Cloudflare @cf model segments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1009",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] preserves OpenRouter @preset model segments",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1020] preserves OpenRouter @preset model segments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1020",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] splits trailing profile suffix after OpenRouter preset paths",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1031] splits trailing profile suffix after OpenRouter preset paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1031",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] preserves LM Studio @iq* quant suffixes",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1042] preserves LM Studio @iq* quant suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1042",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] splits trailing profile suffix after LM Studio @iq* quant suffixes",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1054] splits trailing profile suffix after LM Studio @iq* quant suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1054",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] strips profile suffix before alias resolution",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1066] strips profile suffix before alias resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1066",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should infer the unique provider from configured models for bare defaults",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1088] should infer the unique provider from configured models for bare defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1088",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should fall back to the configured default provider and warn if provider is missing for non-alias",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1109] should fall back to the configured default provider and warn if provider is missing for non-alias",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1109",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] sanitizes control characters in providerless-model warnings",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1138] sanitizes control characters in providerless-model warnings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1138",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] infers a unique configured provider for bare default model strings",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1168] infers a unique configured provider for bare default model strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1168",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] prefers slash-form aliases for configured default models",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1198] prefers slash-form aliases for configured default models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1198",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should use default provider/model if config is empty",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1221] should use default provider/model if config is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1221",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should prefer configured custom provider when default provider is not in models.providers",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1231] should prefer configured custom provider when default provider is not in models.providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1231",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should keep default provider when it is in models.providers",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1247] should keep default provider when it is in models.providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1247",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] can skip plugin-backed model normalization for display-only callers",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1263] can skip plugin-backed model normalization for display-only callers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1263",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] preserves exact configured provider ids before legacy alias normalization",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1285] preserves exact configured provider ids before legacy alias normalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1285",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] keeps legacy modelstudio aliases when no exact foreign api owner is configured",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1312] keeps legacy modelstudio aliases when no exact foreign api owner is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1312",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should fall back to hardcoded default when no custom providers have models",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1330] should fall back to hardcoded default when no custom providers have models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1330",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] should warn when specified model cannot be resolved and falls back to default",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1336] should warn when specified model cannot be resolved and falls back to default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1336",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves openrouter:auto through the canonical OpenRouter auto model",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1365] resolves openrouter:auto through the canonical OpenRouter auto model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1365",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves openrouter:free to the first configured concrete OpenRouter free model",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1383] resolves openrouter:free to the first configured concrete OpenRouter free model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1383",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves openrouter:free from configured OpenRouter provider models when needed",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1407] resolves openrouter:free from configured OpenRouter provider models when needed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1407",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves openrouter:free through the allowed-model interactive path",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1446] resolves openrouter:free through the allowed-model interactive path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1446",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] treats raw openrouter:free allowlist entries as allowed in the legacy resolver path",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1481] treats raw openrouter:free allowlist entries as allowed in the legacy resolver path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1481",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] prefers per-model params.thinking over global thinkingDefault",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1536] prefers per-model params.thinking over global thinkingDefault",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1536",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] accepts legacy duplicated OpenRouter keys for per-model thinking",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1553] accepts legacy duplicated OpenRouter keys for per-model thinking",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1553",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] accepts per-model params.thinking=adaptive",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1575] accepts per-model params.thinking=adaptive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1575",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] keeps thinking off by default for explicitly configured Anthropic Opus 4.7",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1591] keeps thinking off by default for explicitly configured Anthropic Opus 4.7",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1591",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] falls back to medium when no provider thinking hook is active",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1603] falls back to medium when no provider thinking hook is active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1603",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns trimmed string for string input",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1628] returns trimmed string for string input",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1628",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns undefined for empty/whitespace string",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1632] returns undefined for empty/whitespace string",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1632",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] extracts primary from object",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1637] extracts primary from object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1637",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns undefined for object without primary",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1643] returns undefined for object without primary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1643",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] returns undefined for null/undefined/number",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1648] returns undefined for null/undefined/number",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1648",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] prefers the agent primary model over agents.defaults.subagents.model",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1656] prefers the agent primary model over agents.defaults.subagents.model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1656",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] still prefers agent subagents.model over the agent primary model",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1677] still prefers agent subagents.model over the agent primary model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1677",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves a model alias override to its full provider/model ref",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1701] resolves a model alias override to its full provider/model ref",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1701",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves bare configured aliases with the target agent runtime default provider",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1719] resolves bare configured aliases with the target agent runtime default provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1719",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] resolves alias in configured subagent model",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1746] resolves alias in configured subagent model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1746",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] passes through already-qualified provider/model refs unchanged",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1762] passes through already-qualified provider/model refs unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1762",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection.test.ts] falls back to runtime default when no override or config",
+TEST_CASE("v4.29 [src/agents/model-selection.test.ts:1780] falls back to runtime default when no override or config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection.test.ts:1780",
                "upstream it() block #77",

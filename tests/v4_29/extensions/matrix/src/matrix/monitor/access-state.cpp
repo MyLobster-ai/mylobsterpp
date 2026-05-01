@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts] normalizes effective allowlists once and exposes reusable matches",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts:5] normalizes effective allowlists once and exposes reusable matches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/access-state.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts] does not let DM pairing-store entries authorize room control commands",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts:31] does not let DM pairing-store entries authorize room control commands",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/access-state.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts] does not let pairing-store entries authorize open DMs without wildcard",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts:50] does not let pairing-store entries authorize open DMs without wildcard",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/access-state.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts] does not let configured DM allowFrom authorize room control commands",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts:65] does not let configured DM allowFrom authorize room control commands",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/access-state.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts] keeps room-user matching disabled for dm traffic",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/access-state.test.ts:83] keeps room-user matching disabled for dm traffic",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/access-state.test.ts:83",
                "upstream it() block #4",

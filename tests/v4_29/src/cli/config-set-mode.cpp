@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] selects value mode by default",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:5] selects value mode by default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] selects json mode when strict parsing is enabled",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:15] selects json mode when strict parsing is enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] selects ref-builder mode when ref flags are present",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:25] selects ref-builder mode when ref flags are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] selects provider-builder mode when provider flags are present",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:35] selects provider-builder mode when provider flags are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] returns batch mode when batch flags are present",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:45] returns batch mode when batch flags are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] rejects ref-builder and provider-builder collisions",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:55] rejects ref-builder and provider-builder collisions",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:55",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts] rejects mixing batch mode with builder flags",
+TEST_CASE("v4.29 [src/cli/config-set-mode.test.ts:68] rejects mixing batch mode with builder flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-set-mode.test.ts:68",
                "upstream it() block #6",

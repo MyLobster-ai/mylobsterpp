@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] accepts hyphenated UUIDs",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:24] accepts hyphenated UUIDs",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] accepts compact UUIDs",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:28] accepts compact UUIDs",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] accepts uuid-like hex values with letters",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:32] accepts uuid-like hex values with letters",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] rejects numeric ids and phone-like values",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:36] rejects numeric ids and phone-like values",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] prefers sourceNumber over sourceUuid",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:43] prefers sourceNumber over sourceUuid",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] uses sourceUuid when sourceNumber is missing",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:55] uses sourceUuid when sourceNumber is missing",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:55",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] maps uuid senders to recipient and peer ids",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:65] maps uuid senders to recipient and peer ids",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:65",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] falls back to the direct probe helper when runtime is not initialized",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:73] falls back to the direct probe helper when runtime is not initialized",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:73",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] extracts version from {version} result",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:112] extracts version from {version} result",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:112",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] returns ok=false when /check fails",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:127] returns ok=false when /check fails",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:127",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] setup status lines use the selected account cliPath",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:141] setup status lines use the selected account cliPath",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:141",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] setup status uses configured defaultAccount for omitted cliPath lookup",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:161] setup status uses configured defaultAccount for omitted cliPath lookup",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:161",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] uses configured defaultAccount for omitted setup configured state",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:182] uses configured defaultAccount for omitted setup configured state",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:182",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] chunks outbound text without requiring Signal runtime initialization",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:211] chunks outbound text without requiring Signal runtime initialization",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:211",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] treats INFO/DEBUG as log",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:223] treats INFO/DEBUG as log",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:223",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] treats WARN/ERROR as error",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:228] treats WARN/ERROR as error",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:228",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] treats failures without explicit severity as error",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:234] treats failures without explicit severity as error",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:234",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] returns null for empty lines",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:239] returns null for empty lines",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:239",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] accepts already normalized numbers",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:246] accepts already normalized numbers",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:246",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] normalizes valid E.164 numbers",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:250] normalizes valid E.164 numbers",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:250",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] rejects empty input",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:254] rejects empty input",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:254",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] rejects invalid values",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:258] rejects invalid values",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:258",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] rejects inputs with stray + characters",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:263] rejects inputs with stray + characters",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:263",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] rejects numbers that are too short or too long",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:268] rejects numbers that are too short or too long",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:268",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] parses e164, uuid and wildcard entries",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:273] parses e164, uuid and wildcard entries",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:273",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] normalizes bare uuid values",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:281] normalizes bare uuid values",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:281",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] returns validation errors for invalid entries",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:287] returns validation errors for invalid entries",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:287",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:298] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:298",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:319] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:319",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] uses configured defaultAccount for omitted DM policy account context",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:326] uses configured defaultAccount for omitted DM policy account context",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:326",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/core.test.ts] writes open policy state to the named account and stores inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/signal/src/core.test.ts:356] writes open policy state to the named account and stores inherited allowFrom with ",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/core.test.ts:356",
                "upstream it() block #30",

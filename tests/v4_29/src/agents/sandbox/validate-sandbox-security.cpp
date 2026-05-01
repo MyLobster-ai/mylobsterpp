@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks common Docker socket directories",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:24] blocks common Docker socket directories",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] does not block /var by default",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:31] does not block /var by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks sensitive home credential paths",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:35] blocks sensitive home credential paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] still blocks OS-home credential paths when OPENCLAW_HOME points elsewhere",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:56] still blocks OS-home credential paths when OPENCLAW_HOME points elsewhere",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks canonical OS-home aliases for credential paths",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:68] blocks canonical OS-home aliases for credential paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows legitimate project directory mounts",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:94] allows legitimate project directory mounts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows undefined or empty binds",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:106] allows undefined or empty binds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:106",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks dangerous bind source paths",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:111] blocks dangerous bind source paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:111",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows parent mounts that are not blocked",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:164] allows parent mounts that are not blocked",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:164",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks sensitive home credential binds",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:168] blocks sensitive home credential binds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:168",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks credential binds through canonical home aliases",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:177] blocks credential binds through canonical home aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:177",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks symlink escapes into blocked directories",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:194] blocks symlink escapes into blocked directories",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:194",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks symlink-parent escapes with non-existent leaf outside allowed roots",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:214] blocks symlink-parent escapes with non-existent leaf outside allowed roots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:214",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks symlink-parent escapes into blocked paths when leaf does not exist",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:234] blocks symlink-parent escapes into blocked paths when leaf does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:234",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] rejects non-absolute source paths (relative or named volumes)",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:252] rejects non-absolute source paths (relative or named volumes)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:252",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks bind sources outside allowed roots when allowlist is configured",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:259] blocks bind sources outside allowed roots when allowlist is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:259",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows bind sources in allowed roots when allowlist is configured",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:269] allows bind sources in allowed roots when allowlist is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:269",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows bind sources outside allowed roots with explicit dangerous override",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:278] allows bind sources outside allowed roots with explicit dangerous override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:278",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks reserved container target paths by default",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:289] blocks reserved container target paths by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:289",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows reserved container target paths with explicit dangerous override",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:296] allows reserved container target paths with explicit dangerous override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:296",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows bridge/none/custom/undefined",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:311] allows bridge/none/custom/undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:311",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks host mode (case-insensitive)",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:318] blocks host mode (case-insensitive)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:318",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] blocks container namespace joins by default",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:328] blocks container namespace joins by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:328",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows container namespace joins with explicit dangerous override",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:344] allows container namespace joins with explicit dangerous override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:344",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows custom profile paths/undefined",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:354] allows custom profile paths/undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:354",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] allows named profile/undefined",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:361] allows named profile/undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:361",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts] passes with safe config",
+TEST_CASE("v4.29 [src/agents/sandbox/validate-sandbox-security.test.ts:386] passes with safe config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/validate-sandbox-security.test.ts:386",
                "upstream it() block #26",

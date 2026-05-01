@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] returns null silently and does not touch env when not explicitly enabled",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:95] returns null silently and does not touch env when not explicitly enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] throws when enabled without a proxy URL",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:107] throws when enabled without a proxy URL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] uses OPENCLAW_PROXY_URL when config proxyUrl is omitted",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:116] uses OPENCLAW_PROXY_URL when config proxyUrl is omitted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] prefers config proxyUrl over OPENCLAW_PROXY_URL",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:125] prefers config proxyUrl over OPENCLAW_PROXY_URL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] throws for HTTPS proxy URLs from OPENCLAW_PROXY_URL",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:137] throws for HTTPS proxy URLs from OPENCLAW_PROXY_URL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:137",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] sets both undici and global-agent proxy env vars",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:146] sets both undici and global-agent proxy env vars",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:146",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] redacts proxy credentials before logging the active proxy URL",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:163] redacts proxy credentials before logging the active proxy URL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:163",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] clears NO_PROXY so internal destinations do not bypass the filtering proxy",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:175] clears NO_PROXY so internal destinations do not bypass the filtering proxy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:175",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] activates undici and global-agent routing",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:190] activates undici and global-agent routing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:190",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] restores previous proxy env and global-agent state on stop",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:200] restores previous proxy env and global-agent state on stop",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:200",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] restores node http and https globals on stop",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:237] restores node http and https globals on stop",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:237",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] keeps process-wide proxy hooks active until the last overlapping handle stops",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:275] keeps process-wide proxy hooks active until the last overlapping handle stops",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:275",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] restores env and throws when undici activation fails",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:321] restores env and throws when undici activation fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:321",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] restores env and throws when global-agent bootstrap fails",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:337] restores env and throws when global-agent bootstrap fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:337",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] temporarily restores the original node HTTP stack for Gateway loopback control-plane setup",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:353] temporarily restores the original node HTTP stack for Gateway loopback control-plane setup",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:353",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] allows the Gateway control-plane bypass for literal loopback IPs and localhost",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:383] allows the Gateway control-plane bypass for literal loopback IPs and localhost",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:383",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] rejects dangerous Gateway control-plane bypass for non-loopback URLs",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:407] rejects dangerous Gateway control-plane bypass for non-loopback URLs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:407",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] temporarily clears inherited proxy env for Gateway control-plane setup",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:416] temporarily clears inherited proxy env for Gateway control-plane setup",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:416",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] temporarily clears managed proxy env while restoring the original HTTP stack",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:462] temporarily clears managed proxy env while restoring the original HTTP stack",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:462",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] kill restores env synchronously during hard process exit",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:502] kill restores env synchronously during hard process exit",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:502",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts] stopProxy is a no-op when handle is null",
+TEST_CASE("v4.29 [src/infra/net/proxy/proxy-lifecycle.test.ts:516] stopProxy is a no-op when handle is null",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy/proxy-lifecycle.test.ts:516",
                "upstream it() block #20",

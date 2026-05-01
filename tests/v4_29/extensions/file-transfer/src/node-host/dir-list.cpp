@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] rejects empty / non-string path",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:23] rejects empty / non-string path",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] rejects relative paths",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:31] rejects relative paths",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] rejects paths with NUL bytes",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:38] rejects paths with NUL bytes",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] returns NOT_FOUND for a missing directory",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:47] returns NOT_FOUND for a missing directory",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] returns IS_FILE when path resolves to a regular file",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:54] returns IS_FILE when path resolves to a regular file",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:54",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] lists files and subdirs with metadata, sorted by name",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:62] lists files and subdirs with metadata, sorted by name",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] includes dotfiles in the listing",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:87] includes dotfiles in the listing",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:87",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] paginates via pageToken (offset-based)",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:98] paginates via pageToken (offset-based)",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:98",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts] clamps maxEntries to the hard ceiling and uses the default for invalid values",
+TEST_CASE("v4.29 [extensions/file-transfer/src/node-host/dir-list.test.ts:138] clamps maxEntries to the hard ceiling and uses the default for invalid values",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/node-host/dir-list.test.ts:138",
                "upstream it() block #8",

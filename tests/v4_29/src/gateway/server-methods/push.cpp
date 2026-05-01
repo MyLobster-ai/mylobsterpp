@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] rejects invalid params",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:133] rejects invalid params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:133",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] returns invalid request when node has no APNs registration",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:139] returns invalid request when node has no APNs registration",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:139",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] sends push test when registration and auth are available",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:146] sends push test when registration and auth are available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:146",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] sends push test through relay registrations",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:165] sends push test through relay registrations",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] clears stale registrations after invalid token push-test failures",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:222] clears stale registrations after invalid token push-test failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:222",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] does not clear relay registrations after invalidation-shaped failures",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:249] does not clear relay registrations after invalidation-shaped failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:249",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts] does not clear direct registrations when push.test overrides the environment",
+TEST_CASE("v4.29 [src/gateway/server-methods/push.test.ts:286] does not clear direct registrations when push.test overrides the environment",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/push.test.ts:286",
                "upstream it() block #6",

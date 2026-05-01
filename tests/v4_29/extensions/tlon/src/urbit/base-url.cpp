@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts] adds https:// when scheme is missing and strips path/query fragments",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts:14] adds https:// when scheme is missing and strips path/query fragments",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/base-url.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts] rejects non-http schemes",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts:20] rejects non-http schemes",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/base-url.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts] rejects embedded credentials",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts:29] rejects embedded credentials",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/base-url.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts] normalizes a trailing dot in the hostname for origin construction",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts:38] normalizes a trailing dot in the hostname for origin construction",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/base-url.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts] preserves port in the normalized origin",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/base-url.test.ts:44] preserves port in the normalized origin",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/base-url.test.ts:44",
                "upstream it() block #4",

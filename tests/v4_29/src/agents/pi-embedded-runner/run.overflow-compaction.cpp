@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] passes precomputed legacy before_agent_start result into the attempt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:151] passes precomputed legacy before_agent_start result into the attempt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:151",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] passes resolved auth profile into run attempts for context-engine afterTurn propagation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:180] passes resolved auth profile into run attempts for context-engine afterTurn propagation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:180",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] forwards optional attempt params and the runtime plan into one attempt call",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:195] forwards optional attempt params and the runtime plan into one attempt call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:195",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] forwards explicit OpenAI Codex auth profiles to codex plugin harnesses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:234] forwards explicit OpenAI Codex auth profiles to codex plugin harnesses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] forwards OpenAI Codex auth profiles when openai/* is forced through codex",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:306] forwards OpenAI Codex auth profiles when openai/* is forced through codex",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:306",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] blocks undersized models before dispatching a provider attempt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:379] blocks undersized models before dispatching a provider attempt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:379",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] passes trigger=overflow when retrying compaction after context overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:405] passes trigger=overflow when retrying compaction after context overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:405",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] threads prompt-cache runtime context into overflow compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:426] threads prompt-cache runtime context into overflow compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:426",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] passes observed overflow token counts into compaction when providers report them",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:479] passes observed overflow token counts into compaction when providers report them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:479",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] does not reset compaction attempt budget after successful tool-result truncation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:505] does not reset compaction attempt budget after successful tool-result truncation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:505",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] fires compaction hooks during overflow recovery for ownsCompaction engines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:550] fires compaction hooks during overflow recovery for ownsCompaction engines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:550",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] runs maintenance after successful overflow-recovery compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:588] runs maintenance after successful overflow-recovery compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:588",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] retries overflow recovery against the rotated compacted transcript",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:619] retries overflow recovery against the rotated compacted transcript",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:619",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] guards thrown engine-owned overflow compaction attempts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:655] guards thrown engine-owned overflow compaction attempts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:655",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] returns retry_limit when repeated retries never converge",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:674] returns retry_limit when repeated retries never converge",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:674",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] preserves replay invalidation when retries exhaust after side effects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:695] preserves replay invalidation when retries exhaust after side effects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:695",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts] normalizes abort-wrapped prompt errors before handing off to model fallback",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:717] normalizes abort-wrapped prompt errors before handing off to model fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.overflow-compaction.test.ts:717",
                "upstream it() block #16",

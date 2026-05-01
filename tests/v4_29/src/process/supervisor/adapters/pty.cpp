@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] forwards explicit signals to node-pty kill on non-Windows",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:74] forwards explicit signals to node-pty kill on non-Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] uses process-tree kill for SIGKILL by default",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:95] uses process-tree kill for SIGKILL by default",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] wait does not settle immediately on SIGKILL",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:108] wait does not settle immediately on SIGKILL",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:108",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] prefers real PTY exit over SIGKILL fallback settle",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:122] prefers real PTY exit over SIGKILL fallback settle",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:122",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] resolves wait when exit fires before wait is called",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:144] resolves wait when exit fires before wait is called",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] disposes PTY listeners",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:158] disposes PTY listeners",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] keeps inherited env when no override env is provided on non-Linux",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:174] keeps inherited env when no override env is provided on non-Linux",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:174",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] wraps Linux PTY spawns so shell children inherit higher OOM score",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:196] wraps Linux PTY spawns so shell children inherit higher OOM score",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:196",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] passes explicit env overrides as strings",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:225] passes explicit env overrides as strings",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:225",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] does not pass a signal to node-pty on Windows",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:238] does not pass a signal to node-pty on Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:238",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts] uses process-tree kill for SIGKILL on Windows",
+TEST_CASE("v4.29 [src/process/supervisor/adapters/pty.test.ts:259] uses process-tree kill for SIGKILL on Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/adapters/pty.test.ts:259",
                "upstream it() block #10",

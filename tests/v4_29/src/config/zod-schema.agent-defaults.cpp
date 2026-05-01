@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts subagent archiveAfterMinutes=0 to disable archiving",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:7] accepts subagent archiveAfterMinutes=0 to disable archiving",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts videoGenerationModel",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:17] accepts videoGenerationModel",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts imageGenerationModel timeoutMs",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:28] accepts imageGenerationModel timeoutMs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts mediaGenerationAutoProviderFallback",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:50] accepts mediaGenerationAutoProviderFallback",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts experimental.localModelLean",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:58] accepts experimental.localModelLean",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts contextInjection: always",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:67] accepts contextInjection: always",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts contextInjection: continuation-skip",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:72] accepts contextInjection: continuation-skip",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:72",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts contextInjection: never",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:77] accepts contextInjection: never",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:77",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] rejects invalid contextInjection values",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:82] rejects invalid contextInjection values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:82",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts embeddedPi.executionContract",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:86] accepts embeddedPi.executionContract",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:86",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts compaction.truncateAfterCompaction",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:95] accepts compaction.truncateAfterCompaction",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:95",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts compaction.midTurnPrecheck.enabled",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:106] accepts compaction.midTurnPrecheck.enabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:106",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts focused contextLimits on defaults and agent entries",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:119] accepts focused contextLimits on defaults and agent entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:119",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts positive heartbeat timeoutSeconds on defaults and agent entries",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:145] accepts positive heartbeat timeoutSeconds on defaults and agent entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:145",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] accepts per-agent TTS overrides",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:160] accepts per-agent TTS overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:160",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] rejects zero heartbeat timeoutSeconds",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:179] rejects zero heartbeat timeoutSeconds",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:179",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] preserves per-agent contextTokens through config validation",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:184] preserves per-agent contextTokens through config validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:184",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts] rejects non-positive contextTokens on agent entries and defaults",
+TEST_CASE("v4.29 [src/config/zod-schema.agent-defaults.test.ts:206] rejects non-positive contextTokens on agent entries and defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.agent-defaults.test.ts:206",
                "upstream it() block #17",

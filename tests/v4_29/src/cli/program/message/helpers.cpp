@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] calls exit(0) after successful message delivery",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:96] calls exit(0) after successful message delivery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:96",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] loads configured channel plugins when no target channel is known yet",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:107] loads configured channel plugins when no target channel is known yet",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] narrows plugin loading from a channel-prefixed target",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:115] narrows plugin loading from a channel-prefixed target",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] loads configured channel plugins for mixed broadcast target prefixes",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:124] loads configured channel plugins for mixed broadcast target prefixes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] runs gateway_stop hooks before exit when registered",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:139] runs gateway_stop hooks before exit when registered",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] calls exit(1) when message delivery fails",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:147] calls exit(1) when message delivery fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:147",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] runs gateway_stop hooks on failure before exit(1)",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:156] runs gateway_stop hooks on failure before exit(1)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] logs gateway_stop failure and still exits with success code",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:165] logs gateway_stop failure and still exits with success code",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:165",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] logs gateway_stop failure and preserves failure exit code when send fails",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:174] logs gateway_stop failure and preserves failure exit code when send fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:174",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] does not call exit(0) when the action throws",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:185] does not call exit(0) when the action throws",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:185",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] does not call exit(0) if the error path returns",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:194] does not call exit(0) if the error path returns",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:194",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] passes action and maps account to accountId",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:206] passes action and maps account to accountId",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:206",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts] strips non-string account values instead of passing accountId",
+TEST_CASE("v4.29 [src/cli/program/message/helpers.test.ts:234] strips non-string account values instead of passing accountId",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/message/helpers.test.ts:234",
                "upstream it() block #12",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] adds minimax provider with correct settings",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:10] adds minimax provider with correct settings",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] keeps reasoning enabled for MiniMax-M2.7",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:19] keeps reasoning enabled for MiniMax-M2.7",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] keeps MiniMax chat models text-only so image tools use MiniMax-VL-01",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:24] keeps MiniMax chat models text-only so image tools use MiniMax-VL-01",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] preserves existing model params when adding alias",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:31] preserves existing model params when adding alias",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] merges existing minimax provider models",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:53] merges existing minimax provider models",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] preserves other providers when adding minimax",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:65] preserves other providers when adding minimax",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:65",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] preserves existing models mode",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:92] preserves existing models mode",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] does not overwrite existing primary model in provider-only mode",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:99] does not overwrite existing primary model in provider-only mode",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:99",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts] sets the chosen model as primary in config mode",
+TEST_CASE("v4.29 [extensions/minimax/onboard.test.ts:106] sets the chosen model as primary in config mode",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/onboard.test.ts:106",
                "upstream it() block #8",

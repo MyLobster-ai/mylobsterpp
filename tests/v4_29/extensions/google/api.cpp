@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] detects the Google Generative AI transport id",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:15] detects the Google Generative AI transport id",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] normalizes only explicit Google Generative AI baseUrls",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:21] normalizes only explicit Google Generative AI baseUrls",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] keeps /openai on generic Google base URL normalization and strips it only for native Gemini callers",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:43] keeps /openai on generic Google base URL normalization and strips it only for native Gemini callers",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] normalizes Google provider configs by provider key, provider api, or model api",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:57] normalizes Google provider configs by provider key, provider api, or model api",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] normalizes transport baseUrls only for Google Generative AI",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:88] normalizes transport baseUrls only for Google Generative AI",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] normalizes google-vertex model ids without rewriting the OpenAI-compatible baseUrl",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:109] normalizes google-vertex model ids without rewriting the OpenAI-compatible baseUrl",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:109",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] derives the Gemini API origin without duplicating /v1beta",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:139] derives the Gemini API origin without duplicating /v1beta",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] parses project-aware oauth auth payloads into bearer headers",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:149] parses project-aware oauth auth payloads into bearer headers",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:149",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] falls back to API key headers for raw tokens",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:160] falls back to API key headers for raw tokens",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:160",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] builds shared Google Generative AI HTTP request config",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:169] builds shared Google Generative AI HTTP request config",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:169",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] preserves explicit OpenAI-compatible Google endpoints during provider normalization",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:200] preserves explicit OpenAI-compatible Google endpoints during provider normalization",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:200",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] strips URL credentials during Google base URL normalization",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:212] strips URL credentials during Google base URL normalization",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:212",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/api.test.ts] rejects non-Google Gemini base URLs and honors explicit private-network opt-in",
+TEST_CASE("v4.29 [extensions/google/api.test.ts:219] rejects non-Google Gemini base URLs and honors explicit private-network opt-in",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/api.test.ts:219",
                "upstream it() block #12",

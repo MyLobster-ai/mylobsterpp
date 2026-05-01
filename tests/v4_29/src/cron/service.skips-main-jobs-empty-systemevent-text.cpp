@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts] skips main jobs with empty systemEvent text",
+TEST_CASE("v4.29 [src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts:62] skips main jobs with empty systemEvent text",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts] does not schedule timers when cron is disabled",
+TEST_CASE("v4.29 [src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts:86] does not schedule timers when cron is disabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts] status reports next wake when enabled",
+TEST_CASE("v4.29 [src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts:111] status reports next wake when enabled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.skips-main-jobs-empty-systemevent-text.test.ts:111",
                "upstream it() block #2",

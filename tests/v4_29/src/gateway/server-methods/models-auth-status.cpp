@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] returns a serialisable snapshot on first call",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:110] returns a serialisable snapshot on first call",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] serves cached response within TTL and marks it as cached",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:128] serves cached response within TTL and marks it as cached",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] bypasses cache when params.refresh is set",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:143] bypasses cache when params.refresh is set",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:143",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] invalidateModelAuthStatusCache() clears the cached response",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:151] invalidateModelAuthStatusCache() clears the cached response",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:151",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] does not query usage for api-key-only providers",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:158] does not query usage for api-key-only providers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] scopes external CLI auth overlays to configured providers",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:194] scopes external CLI auth overlays to configured providers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] keeps the auth store overlay unscoped when config has no provider signal",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:234] keeps the auth store overlay unscoped when config has no provider signal",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:234",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] still returns providers when usage fetch fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:248] still returns providers when usage fetch fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:248",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] does not leak secret-looking fields from upstream profile data",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:262] does not leak secret-looking fields from upstream profile data",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:262",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] skips env-backed OAuth providers (resolvable apiKey) from missing synthesis",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:314] skips env-backed OAuth providers (resolvable apiKey) from missing synthesis",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:314",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] still flags provider as missing when apiKey env SecretRef points at an unset env var",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:333] still flags provider as missing when apiKey env SecretRef points at an unset env var",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:333",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] env SecretRef pointing at a set env var is treated as env-backed",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:360] env SecretRef pointing at a set env var is treated as env-backed",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:360",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] env-backed escape hatch also applies to auth.profiles entries",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:387] env-backed escape hatch also applies to auth.profiles entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:387",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] normalizes expectsOAuth provider ids to match buildAuthHealthSummary",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:411] normalizes expectsOAuth provider ids to match buildAuthHealthSummary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:411",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] flags provider configured auth:oauth but with only api_key profile as missing",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:447] flags provider configured auth:oauth but with only api_key profile as missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:447",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] responds with UNAVAILABLE when buildAuthHealthSummary throws",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:482] responds with UNAVAILABLE when buildAuthHealthSummary throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:482",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] ignores token profiles — healthy OAuth + expired token stays ok",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:530] ignores token profiles — healthy OAuth + expired token stays ok",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:530",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] falls back to prov.status when no OAuth profiles exist",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:542] falls back to prov.status when no OAuth profiles exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:542",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] expired + missing both map to ",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:563] expired + missing both map to ",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:563",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] precedence: expired/missing > expiring > ok > static",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:585] precedence: expired/missing > expiring > ok > static",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:585",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts] picks the earliest expiresAt across OAuth profiles",
+TEST_CASE("v4.29 [src/gateway/server-methods/models-auth-status.test.ts:609] picks the earliest expiresAt across OAuth profiles",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/models-auth-status.test.ts:609",
                "upstream it() block #20",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] strips ASCII control chars (CR/LF/NUL/tab)",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:6] strips ASCII control chars (CR/LF/NUL/tab)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] strips Unicode line/paragraph separators",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:10] strips Unicode line/paragraph separators",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] strips Unicode format chars (bidi override)",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:14] strips Unicode format chars (bidi override)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:14",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] preserves ordinary Unicode + spaces",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:19] preserves ordinary Unicode + spaces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:19",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] sanitizes workspaceDir (no newlines / separators)",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:26] sanitizes workspaceDir (no newlines / separators)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:26",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] sanitizes sandbox workspace and mount strings",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:35] sanitizes sandbox workspace and mount strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:35",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] wraps sanitized text in untrusted-data tags",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:56] wraps sanitized text in untrusted-data tags",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:56",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] returns empty string when sanitized input is empty",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:70] returns empty string when sanitized input is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:70",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts] applies max char limit",
+TEST_CASE("v4.29 [src/agents/sanitize-for-prompt.test.ts:78] applies max char limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sanitize-for-prompt.test.ts:78",
                "upstream it() block #8",

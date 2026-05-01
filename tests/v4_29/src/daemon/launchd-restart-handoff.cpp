@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts] waits for the caller pid before kickstarting launchd",
+TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts:23] waits for the caller pid before kickstarting launchd",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/launchd-restart-handoff.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts] passes the plain label separately for start-after-exit mode",
+TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts:53] passes the plain label separately for start-after-exit mode",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/launchd-restart-handoff.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts] sanitizes restart helper environment overrides before spawning",
+TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts:75] sanitizes restart helper environment overrides before spawning",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/launchd-restart-handoff.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts] rejects invalid launchd labels before spawning the helper",
+TEST_CASE("v4.29 [src/daemon/launchd-restart-handoff.test.ts:104] rejects invalid launchd labels before spawning the helper",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/launchd-restart-handoff.test.ts:104",
                "upstream it() block #3",

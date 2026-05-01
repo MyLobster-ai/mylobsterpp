@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] falls back to the configured default when sessionKey is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:12] falls back to the configured default when sessionKey is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] falls back to the configured default when sessionKey is non-agent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:20] falls back to the configured default when sessionKey is non-agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] falls back to the configured default for global sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:28] falls back to the configured default for global sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] keeps the agent id for provider-qualified agent sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:36] keeps the agent id for provider-qualified agent sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] uses the agent id from agent session keys",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:44] uses the agent id from agent session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:44",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] uses explicit agentId when sessionKey is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:52] uses explicit agentId when sessionKey is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:52",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts] prefers explicit agentId over non-agent session keys",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:60] prefers explicit agentId over non-agent session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.resolvesessionagentids.test.ts:60",
                "upstream it() block #6",

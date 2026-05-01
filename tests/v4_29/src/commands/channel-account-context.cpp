@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts] uses enabled/configured defaults when hooks are missing",
+TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts:11] uses enabled/configured defaults when hooks are missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channel-account-context.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts] uses plugin enable/configure hooks",
+TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts:32] uses plugin enable/configure hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channel-account-context.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts] keeps strict mode fail-closed and degrades read_only mode when resolveAccount throws",
+TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts:56] keeps strict mode fail-closed and degrades read_only mode when resolveAccount throws",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channel-account-context.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts] prefers inspectAccount in read_only mode",
+TEST_CASE("v4.29 [src/commands/channel-account-context.test.ts:84] prefers inspectAccount in read_only mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channel-account-context.test.ts:84",
                "upstream it() block #3",

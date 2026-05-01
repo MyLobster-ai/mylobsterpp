@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] computes first-wave parity metrics from suite summaries",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:33] computes first-wave parity metrics from suite summaries",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] keeps non-tool scenarios out of the valid-tool-call metric",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:58] keeps non-tool scenarios out of the valid-tool-call metric",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when the candidate regresses against baseline",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:75] fails the parity gate when the candidate regresses against baseline",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when candidate and baseline cover different non-parity scenarios",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:113] fails the parity gate when candidate and baseline cover different non-parity scenarios",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] reports each missing required parity scenario exactly once (no double-counting)",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:140] reports each missing required parity scenario exactly once (no double-counting)",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] scopes parity metrics to declared parity scenarios even when extra lanes are present",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:165] scopes parity metrics to declared parity scenarios even when extra lanes are present",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:165",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when required parity scenarios are missing on both sides",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:204] fails the parity gate when required parity scenarios are missing on both sides",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:204",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when required parity scenarios are skipped",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:223] fails the parity gate when required parity scenarios are skipped",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:223",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when a required parity scenario fails on both sides",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:254] fails the parity gate when a required parity scenario fails on both sides",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:254",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when a required parity scenario fails on the candidate only",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:283] fails the parity gate when a required parity scenario fails on the candidate only",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:283",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] fails the parity gate when the baseline contains suspicious pass results",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:305] fails the parity gate when the baseline contains suspicious pass results",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:305",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] ignores neutral Failed and Blocked headings in passing protocol reports",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:328] ignores neutral Failed and Blocked headings in passing protocol reports",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:328",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] ignores neutral error-budget and no-errors-observed phrasing in passing reports",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:349] ignores neutral error-budget and no-errors-observed phrasing in passing reports",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:349",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] still flags genuine error-narration suspicious passes",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:373] still flags genuine error-narration suspicious passes",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:373",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] does not flag positive-tone prose as fake success (positive-tone detection removed)",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:387] does not flag positive-tone prose as fake success (positive-tone detection removed)",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:387",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] does not flag bare ",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:404] does not flag bare ",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:404",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] does not flag structured status lines that end in ",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:418] does not flag structured status lines that end in ",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:418",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] does not flag positive-tone passes when the scenario shows real tool-call evidence",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:434] does not flag positive-tone passes when the scenario shows real tool-call evidence",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:434",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] only flags failure-tone passes, not positive-tone",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:456] only flags failure-tone passes, not positive-tone",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:456",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] throws QaParityLabelMismatchError when the candidate run.primaryProvider does not match the label",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:477] throws QaParityLabelMismatchError when the candidate run.primaryProvider does not match the label",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:477",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] throws QaParityLabelMismatchError when the baseline run.primaryProvider does not match the label",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:508] throws QaParityLabelMismatchError when the baseline run.primaryProvider does not match the label",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:508",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] accepts matching run.primaryProvider labels without throwing",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:532] accepts matching run.primaryProvider labels without throwing",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:532",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] skips run.primaryProvider verification when the summary is missing a run block (legacy summaries)",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:557] skips run.primaryProvider verification when the summary is missing a run block (legacy summaries)",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:557",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] skips provider verification for arbitrary display labels when run metadata is present",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:570] skips provider verification for arbitrary display labels when run metadata is present",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:570",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] skips provider verification for mixed-case or decorated display labels",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:596] skips provider verification for mixed-case or decorated display labels",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:596",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] throws when a structured label mismatches the recorded model even if the provider matches",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:622] throws when a structured label mismatches the recorded model even if the provider matches",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:622",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] accepts colon-delimited structured labels when provider and model both match",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:650] accepts colon-delimited structured labels when provider and model both match",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:650",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] renders a readable markdown parity report",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:676] renders a readable markdown parity report",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:676",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts] parametrizes the markdown header from the comparison labels",
+TEST_CASE("v4.29 [extensions/qa-lab/src/agentic-parity-report.test.ts:698] parametrizes the markdown header from the comparison labels",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/agentic-parity-report.test.ts:698",
                "upstream it() block #28",

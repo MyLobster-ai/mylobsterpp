@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] skips bootstrap reinjection on safe continuation turns when configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:48] skips bootstrap reinjection on safe continuation turns when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] still resolves bootstrap context when continuation-skip has no completed assistant turn yet",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:62] still resolves bootstrap context when continuation-skip has no completed assistant turn yet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] disables bootstrap injection without marking the turn as a continuation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:80] disables bootstrap injection without marking the turn as a continuation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] does not let a stale completed marker suppress pending workspace bootstrap",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:96] does not let a stale completed marker suppress pending workspace bootstrap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] forwards senderIsOwner into embedded message-action discovery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:116] forwards senderIsOwner into embedded message-action discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] never skips heartbeat bootstrap filtering",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:145] never skips heartbeat bootstrap filtering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:145",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] runs full bootstrap injection after a successful non-heartbeat turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:160] runs full bootstrap injection after a successful non-heartbeat turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:160",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] does not record full bootstrap completion for heartbeat runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:177] does not record full bootstrap completion for heartbeat runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:177",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] allows continuation skip again for limited bootstrap mode",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:187] allows continuation skip again for limited bootstrap mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:187",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts] filters no-op heartbeat pairs before history limiting and context-engine assembly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:201] filters no-op heartbeat pairs before history limiting and context-engine assembly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-injection.test.ts:201",
                "upstream it() block #9",

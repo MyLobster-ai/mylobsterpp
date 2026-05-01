@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts] injects identifier-preservation guidance even without custom instructions",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts:64] injects identifier-preservation guidance even without custom instructions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-preservation.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts] keeps identifier-preservation guidance when custom instructions are provided",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts:78] keeps identifier-preservation guidance when custom instructions are provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-preservation.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts] applies identifier-preservation guidance on staged split + merge summarization",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts:90] applies identifier-preservation guidance on staged split + merge summarization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-preservation.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts] avoids duplicate additional-focus headers in split+merge path",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts:105] avoids duplicate additional-focus headers in split+merge path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-preservation.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts] returns base instructions when no custom text is provided",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts:140] returns base instructions when no custom text is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-preservation.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts] appends custom instructions in a stable format",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-preservation.test.ts:148] appends custom instructions in a stable format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-preservation.test.ts:148",
                "upstream it() block #5",

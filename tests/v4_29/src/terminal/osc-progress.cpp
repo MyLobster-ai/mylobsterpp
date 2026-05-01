@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/terminal/osc-progress.test.ts] detects supported terminal environments",
+TEST_CASE("v4.29 [src/terminal/osc-progress.test.ts:5] detects supported terminal environments",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/osc-progress.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/osc-progress.test.ts] writes sanitized OSC 9;4 progress sequences",
+TEST_CASE("v4.29 [src/terminal/osc-progress.test.ts:11] writes sanitized OSC 9;4 progress sequences",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/osc-progress.test.ts:11",
                "upstream it() block #1",

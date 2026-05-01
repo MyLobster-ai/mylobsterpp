@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] rejects when websocket closes before open",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:107] rejects when websocket closes before open",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:107",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] retries when first attempt errors before open and next attempt succeeds",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:129] retries when first attempt errors before open and next attempt succeeds",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:129",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] dispatches reaction events to the reaction handler",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:179] dispatches reaction events to the reaction handler",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:179",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] terminates when bot update_at changes (disable/enable cycle)",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:237] terminates when bot update_at changes (disable/enable cycle)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:237",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] keeps connection alive when update_at stays the same",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:276] keeps connection alive when update_at stays the same",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:276",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] continues protocol keepalive when Mattermost responds with pong",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:302] continues protocol keepalive when Mattermost responds with pong",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:302",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] terminates silent websocket drops when Mattermost misses pong timeout",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:334] terminates silent websocket drops when Mattermost misses pong timeout",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:334",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] does not terminate when getBotUpdateAt throws",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:378] does not terminate when getBotUpdateAt throws",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:378",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] keeps polling when the initial getBotUpdateAt call fails",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:417] keeps polling when the initial getBotUpdateAt call fails",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:417",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts] does not overlap health checks when a prior poll is still running",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-websocket.test.ts:461] does not overlap health checks when a prior poll is still running",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-websocket.test.ts:461",
                "upstream it() block #9",

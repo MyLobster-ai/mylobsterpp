@@ -5,362 +5,362 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] preserves existing password SecretRef and keeps default webhook path",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:73] preserves existing password SecretRef and keeps default webhook path",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] applies a custom webhook path when requested",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:100] applies a custom webhook path when requested",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] validates server URLs before accepting input",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:130] validates server URLs before accepting input",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] disables the channel through the setup wizard",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:146] disables the channel through the setup wizard",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:146",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:159] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:159",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:181] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:181",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] uses configured defaultAccount for omitted DM policy account context",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:188] uses configured defaultAccount for omitted DM policy account context",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:188",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] uses configured defaultAccount when accountId is omitted in account resolution",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:222] uses configured defaultAccount when accountId is omitted in account resolution",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:222",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] uses configured defaultAccount for omitted setup configured state",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:248] uses configured defaultAccount for omitted setup configured state",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:248",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] writes open policy state to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:274] writes open policy state to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:274",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] treats SecretRef passwords as configured when serverUrl exists",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:306] treats SecretRef passwords as configured when serverUrl exists",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:306",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] strips stale legacy private-network aliases after canonical normalization",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:327] strips stale legacy private-network aliases after canonical normalization",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:327",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts account config when serverUrl and password are both set",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:359] accepts account config when serverUrl and password are both set",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:359",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts SecretRef password when serverUrl is set",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:367] accepts SecretRef password when serverUrl is set",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:367",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] requires password when top-level serverUrl is configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:379] requires password when top-level serverUrl is configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:379",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] requires password when account serverUrl is configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:393] requires password when account serverUrl is configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:393",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] allows password omission when serverUrl is not configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:411] allows password omission when serverUrl is not configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:411",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] defaults enrichGroupParticipantsFromContacts to true",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:422] defaults enrichGroupParticipantsFromContacts to true",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:422",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] defaults account enrichGroupParticipantsFromContacts to true",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:434] defaults account enrichGroupParticipantsFromContacts to true",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:434",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts explicit enrichGroupParticipantsFromContacts at channel and account scope",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:453] accepts explicit enrichGroupParticipantsFromContacts at channel and account scope",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:453",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] uses generic channel group policy helpers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:468] uses generic channel group policy helpers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:468",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] normalizes chat_guid targets",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:498] normalizes chat_guid targets",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:498",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] normalizes group numeric targets to chat_id",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:502] normalizes group numeric targets to chat_id",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:502",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] strips provider prefix and normalizes handles",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:506] strips provider prefix and normalizes handles",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:506",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] extracts handle from DM chat_guid for cross-context matching",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:512] extracts handle from DM chat_guid for cross-context matching",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:512",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] preserves group chat_guid format",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:524] preserves group chat_guid format",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:524",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] normalizes raw chat_guid values",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:530] normalizes raw chat_guid values",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:530",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] normalizes chat<digits> pattern to chat_identifier format",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:537] normalizes chat<digits> pattern to chat_identifier format",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:537",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] normalizes UUID/hex chat identifiers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:545] normalizes UUID/hex chat identifiers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:545",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts chat targets",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:556] accepts chat targets",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:556",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts email handles",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:560] accepts email handles",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:560",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts phone numbers with punctuation",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:564] accepts phone numbers with punctuation",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:564",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts raw chat_guid values",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:568] accepts raw chat_guid values",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:568",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts chat<digits> pattern as chat_id",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:572] accepts chat<digits> pattern as chat_id",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:572",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] accepts UUID/hex chat identifiers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:578] accepts UUID/hex chat identifiers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:578",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] rejects display names",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:583] rejects display names",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:583",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] treats explicit chat targets as immediate ids",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:589] treats explicit chat targets as immediate ids",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:589",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] prefers directory fallback for bare handles and phone numbers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:594] prefers directory fallback for bare handles and phone numbers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:594",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] infers direct chat for handles and dm chat_guids",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:601] infers direct chat for handles and dm chat_guids",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:601",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] infers group chat for explicit group targets",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:606] infers group chat for explicit group targets",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:606",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses chat<digits> pattern as chat_identifier",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:613] parses chat<digits> pattern as chat_identifier",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:613",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses UUID/hex chat identifiers as chat_identifier",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:628] parses UUID/hex chat identifiers as chat_identifier",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:628",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses explicit chat_id: prefix",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:639] parses explicit chat_id: prefix",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:639",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses phone numbers as handles",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:643] parses phone numbers as handles",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:643",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses raw chat_guid format",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:651] parses raw chat_guid format",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:651",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses chat<digits> pattern as chat_identifier",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:660] parses chat<digits> pattern as chat_identifier",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:660",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses UUID/hex chat identifiers as chat_identifier",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:671] parses UUID/hex chat identifiers as chat_identifier",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:671",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses explicit chat_id: prefix",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:682] parses explicit chat_id: prefix",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:682",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] parses phone numbers as handles",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:686] parses phone numbers as handles",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:686",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] denies when allowFrom is empty",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:695] denies when allowFrom is empty",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:695",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts] allows wildcard entries",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/setup-surface.test.ts:703] allows wildcard entries",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/setup-surface.test.ts:703",
                "upstream it() block #50",

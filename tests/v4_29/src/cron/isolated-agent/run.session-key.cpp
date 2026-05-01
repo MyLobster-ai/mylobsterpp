@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] builds an agent-scoped key for legacy aliases",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:5] builds an agent-scoped key for legacy aliases",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] preserves canonical agent keys instead of prefixing twice",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:11] preserves canonical agent keys instead of prefixing twice",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] normalizes canonical keys to lowercase before reuse",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:17] normalizes canonical keys to lowercase before reuse",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] keeps hook keys scoped under the target agent",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:23] keeps hook keys scoped under the target agent",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] canonicalizes main alias when cfg.session.mainKey differs from default (#29683)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:29] canonicalizes main alias when cfg.session.mainKey differs from default (#29683)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] canonicalizes agent:id:main alias to configured mainKey (#29683)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:36] canonicalizes agent:id:main alias to configured mainKey (#29683)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:36",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] does not change non-alias keys when cfg is provided",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:48] does not change non-alias keys when cfg is provided",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:48",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts] behaves unchanged when cfg is omitted (backward compat)",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key.test.ts:60] behaves unchanged when cfg is omitted (backward compat)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key.test.ts:60",
                "upstream it() block #7",

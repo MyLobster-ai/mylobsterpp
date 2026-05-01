@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] skips primary model when far from cooldown expiry (30 min remaining)",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:245] skips primary model when far from cooldown expiry (30 min remaining)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:245",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] uses inferred unavailable reason when skipping a cooldowned primary model",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:259] uses inferred unavailable reason when skipping a cooldowned primary model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:259",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] probes primary model when within 2-min margin of cooldown expiry",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:263] probes primary model when within 2-min margin of cooldown expiry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:263",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] logs primary metadata on probe success and failure fallback decisions",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:275] logs primary metadata on probe success and failure fallback decisions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:275",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] probes primary model when cooldown already expired",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:401] probes primary model when cooldown already expired",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:401",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] attempts non-primary fallbacks during rate-limit cooldown after primary probe failure",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:413] attempts non-primary fallbacks during rate-limit cooldown after primary probe failure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:413",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] attempts non-primary fallbacks during overloaded cooldown after primary probe failure",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:420] attempts non-primary fallbacks during overloaded cooldown after primary probe failure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:420",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] keeps walking remaining fallbacks after an abort-wrapped RESOURCE_EXHAUSTED probe failure",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:427] keeps walking remaining fallbacks after an abort-wrapped RESOURCE_EXHAUSTED probe failure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:427",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] throttles probe when called within 30s interval",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:498] throttles probe when called within 30s interval",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:498",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] allows probe when 30s have passed since last probe",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:515] allows probe when 30s have passed since last probe",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:515",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] prunes stale probe throttle entries before checking eligibility",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:529] prunes stale probe throttle entries before checking eligibility",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:529",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] caps probe throttle state by evicting the oldest entries",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:544] caps probe throttle state by evicting the oldest entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:544",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] handles non-finite soonest safely (treats as probe-worthy)",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:559] handles non-finite soonest safely (treats as probe-worthy)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:559",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] handles NaN soonest safely (treats as probe-worthy)",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:571] handles NaN soonest safely (treats as probe-worthy)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:571",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] handles null soonest safely (treats as probe-worthy)",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:582] handles null soonest safely (treats as probe-worthy)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:582",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] single candidate skips with rate_limit and exhausts candidates",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:593] single candidate skips with rate_limit and exhausts candidates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:593",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] scopes probe throttling by agentDir to avoid cross-agent suppression",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:623] scopes probe throttling by agentDir to avoid cross-agent suppression",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:623",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] probes billing-cooldowned primary when no fallback candidates exist",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:654] probes billing-cooldowned primary when no fallback candidates exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:654",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] probes billing-cooldowned primary with fallbacks when near cooldown expiry",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:690] probes billing-cooldowned primary with fallbacks when near cooldown expiry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:690",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts] skips billing-cooldowned primary with fallbacks when far from cooldown expiry",
+TEST_CASE("v4.29 [src/agents/model-fallback.probe.test.ts:704] skips billing-cooldowned primary with fallbacks when far from cooldown expiry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-fallback.probe.test.ts:704",
                "upstream it() block #19",

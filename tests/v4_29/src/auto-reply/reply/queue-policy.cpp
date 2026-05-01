@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts] runs immediately when there is no active run",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts:5] runs immediately when there is no active run",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue-policy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts] drops heartbeat runs while another run is active",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts:16] drops heartbeat runs while another run is active",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue-policy.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts] enqueues followups for non-heartbeat active runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts:27] enqueues followups for non-heartbeat active runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue-policy.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts] enqueues steer mode runs while active",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue-policy.test.ts:38] enqueues steer mode runs while active",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue-policy.test.ts:38",
                "upstream it() block #3",

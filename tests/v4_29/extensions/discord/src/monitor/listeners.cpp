@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] returns immediately without awaiting handler completion",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:35] returns immediately without awaiting handler completion",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] runs handlers for the same channel concurrently (no per-channel serialization)",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:57] runs handlers for the same channel concurrently (no per-channel serialization)",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] runs handlers for different channels in parallel",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:96] runs handlers for different channels in parallel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] logs async handler failures",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:129] logs async handler failures",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:129",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] calls onEvent callback for each message",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:143] calls onEvent callback for each message",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] returns immediately without awaiting Discord interaction handling",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:156] returns immediately without awaiting Discord interaction handling",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] logs async interaction failures",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:175] logs async interaction failures",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:175",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts] calls onEvent callback for each interaction",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/listeners.test.ts:190] calls onEvent callback for each interaction",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/listeners.test.ts:190",
                "upstream it() block #7",

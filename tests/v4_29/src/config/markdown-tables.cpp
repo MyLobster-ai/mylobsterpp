@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] mattermost mode is off",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:34] mattermost mode is off",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] signal mode is bullets",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:38] signal mode is bullets",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] whatsapp mode is bullets",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:42] whatsapp mode is bullets",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] slack has no special default in this seam-only slice",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:46] slack has no special default in this seam-only slice",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] defaults to code for slack",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:52] defaults to code for slack",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] coerces explicit block mode to code for slack",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:56] coerces explicit block mode to code for slack",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/markdown-tables.test.ts] coerces explicit block mode to code for non-slack channels",
+TEST_CASE("v4.29 [src/config/markdown-tables.test.ts:61] coerces explicit block mode to code for non-slack channels",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/markdown-tables.test.ts:61",
                "upstream it() block #6",

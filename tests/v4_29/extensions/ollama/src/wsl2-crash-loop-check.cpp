@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] parses systemctl show properties",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:58] parses systemctl show properties",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] detects enabled Restart=always ollama service",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:69] detects enabled Restart=always ollama service",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] does not treat enabled-runtime as persistent autostart",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:81] does not treat enabled-runtime as persistent autostart",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] requires Restart=always",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:87] requires Restart=always",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] returns false when systemctl is unavailable",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:93] returns false when systemctl is unavailable",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] detects CUDA from the first available WSL marker",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:99] detects CUDA from the first available WSL marker",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] checks the remaining CUDA markers before returning false",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:106] checks the remaining CUDA markers before returning false",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:106",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] warns for WSL2 plus Ollama autostart plus CUDA",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:113] warns for WSL2 plus Ollama autostart plus CUDA",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:113",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] does not probe systemd outside WSL2",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:129] does not probe systemd outside WSL2",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:129",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] does not warn when CUDA is not visible",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:138] does not warn when CUDA is not visible",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:138",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts] never throws from advisory checks",
+TEST_CASE("v4.29 [extensions/ollama/src/wsl2-crash-loop-check.test.ts:149] never throws from advisory checks",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/wsl2-crash-loop-check.test.ts:149",
                "upstream it() block #10",

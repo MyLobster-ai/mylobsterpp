@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] formats empty skills list",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:42] formats empty skills list",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] formats skills list with eligible skill",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:49] formats skills list with eligible skill",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] formats skills list with disabled skill",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:64] formats skills list with disabled skill",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] formats skills list with missing requirements",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:77] formats skills list with missing requirements",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] filters to eligible only with --eligible flag",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:98] filters to eligible only with --eligible flag",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] returns not found message for unknown skill",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:114] returns not found message for unknown skill",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] shows detailed info for a skill",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:121] shows detailed info for a skill",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:121",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] shows API key storage guidance for the active config path",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:152] shows API key storage guidance for the active config path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:152",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] normalizes text-presentation emoji selectors in info output",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:182] normalizes text-presentation emoji selectors in info output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:182",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] shows summary of skill status",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:196] shows summary of skill status",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:196",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] normalizes text-presentation emoji selectors in check output",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:216] normalizes text-presentation emoji selectors in check output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:216",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] sanitizes ANSI and C1 controls in skills list JSON output",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:277] sanitizes ANSI and C1 controls in skills list JSON output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:277",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.test.ts] sanitizes skills info JSON output",
+TEST_CASE("v4.29 [src/cli/skills-cli.test.ts:296] sanitizes skills info JSON output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.test.ts:296",
                "upstream it() block #12",

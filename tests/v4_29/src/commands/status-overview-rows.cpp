@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status-overview-rows.test.ts] builds command overview rows from the shared surface",
+TEST_CASE("v4.29 [src/commands/status-overview-rows.test.ts:12] builds command overview rows from the shared surface",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-overview-rows.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-overview-rows.test.ts] marks skipped memory inspection as not checked in fast status output",
+TEST_CASE("v4.29 [src/commands/status-overview-rows.test.ts:27] marks skipped memory inspection as not checked in fast status output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-overview-rows.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status-overview-rows.test.ts] builds status-all overview rows from the shared surface",
+TEST_CASE("v4.29 [src/commands/status-overview-rows.test.ts:45] builds status-all overview rows from the shared surface",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status-overview-rows.test.ts:45",
                "upstream it() block #2",

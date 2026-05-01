@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] loads ~/.openclaw/.env as fallback without overriding CWD .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:99] loads ~/.openclaw/.env as fallback without overriding CWD .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] does not override an already-set env var from the shell",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:117] does not override an already-set env var from the shell",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] loads fallback state .env when CWD .env is missing",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:134] loads fallback state .env when CWD .env is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:134",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] loads the Ubuntu gateway.env compatibility fallback after ~/.openclaw/.env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:148] loads the Ubuntu gateway.env compatibility fallback after ~/.openclaw/.env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] does not warn about dotenv conflicts when the key is already set",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:179] does not warn about dotenv conflicts when the key is already set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks dangerous and workspace-control vars from CWD .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:201] blocks dangerous and workspace-control vars from CWD .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks credential and gateway auth vars from CWD .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:249] blocks credential and gateway auth vars from CWD .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:249",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks OPENCLAW_STATE_DIR from workspace .env even when unset in process env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:280] blocks OPENCLAW_STATE_DIR from workspace .env even when unset in process env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:280",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks path-override vars (OPENCLAW_AGENT_DIR, OPENCLAW_BUNDLED_PLUGINS_DIR, PI_CODING_AGENT_DIR, OPENCLAW_OAUTH_DIR) from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:299] blocks path-override vars (OPENCLAW_AGENT_DIR, OPENCLAW_BUNDLED_PLUGINS_DIR, PI_CODING_AGENT_DIR, OPENCLAW_OAUTH_DIR) from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:299",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks OPENCLAW_TEST_TAILSCALE_BINARY from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:328] blocks OPENCLAW_TEST_TAILSCALE_BINARY from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:328",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks pinned helper interpreter vars from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:345] blocks pinned helper interpreter vars from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:345",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks bundled trust-root vars from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:367] blocks bundled trust-root vars from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:367",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] still allows trusted global .env to set non-workspace runtime vars",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:395] still allows trusted global .env to set non-workspace runtime vars",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:395",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] still allows trusted global .env to set credential and gateway auth vars",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:423] still allows trusted global .env to set credential and gateway auth vars",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:423",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] does not let CWD .env redirect which global .env is loaded",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:466] does not let CWD .env redirect which global .env is loaded",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:466",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks OPENCLAW_STATE_DIR from workspace .env even when unset in process env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:487] blocks OPENCLAW_STATE_DIR from workspace .env even when unset in process env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:487",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] loads the gateway.env compatibility fallback during CLI startup",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:504] loads the gateway.env compatibility fallback during CLI startup",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:504",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] does not load gateway.env when OPENCLAW_STATE_DIR is explicitly set",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:528] does not load gateway.env when OPENCLAW_STATE_DIR is explicitly set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:528",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] keeps the legacy state-dir fallback for CLI dotenv loading",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:551] keeps the legacy state-dir fallback for CLI dotenv loading",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:551",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks bundled trust-root vars from workspace .env during CLI startup",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:571] blocks bundled trust-root vars from workspace .env during CLI startup",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:571",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks workspace .env takeover vars before loading the global fallback",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:586] blocks workspace .env takeover vars before loading the global fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:586",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks runtime-control variables from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:632] blocks runtime-control variables from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:632",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] still allows user-defined non-control vars through workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:697] still allows user-defined non-control vars through workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:697",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks bundled connector endpoint vars from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:718] blocks bundled connector endpoint vars from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:718",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks Matrix per-account scoped homeserver vars from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:752] blocks Matrix per-account scoped homeserver vars from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:752",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dotenv.test.ts] blocks generic endpoint-routing suffixes from workspace .env",
+TEST_CASE("v4.29 [src/infra/dotenv.test.ts:774] blocks generic endpoint-routing suffixes from workspace .env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dotenv.test.ts:774",
                "upstream it() block #25",

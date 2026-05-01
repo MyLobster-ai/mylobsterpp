@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] uses frameLocator for role refs when snapshot was scoped to a frame",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:59] uses frameLocator for role refs when snapshot was scoped to a frame",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] uses page getByRole for role refs by default",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:70] uses page getByRole for role refs by default",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:70",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] uses aria-ref locators when refs mode is aria",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:80] uses aria-ref locators when refs mode is aria",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] uses backend-marked DOM locators for ax refs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:90] uses backend-marked DOM locators for ax refs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] falls back to role heuristics for ax refs without backend markers",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:100] falls back to role heuristics for ax refs without backend markers",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:100",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] rejects unknown ax refs instead of timing out on aria-ref locators",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:110] rejects unknown ax refs instead of timing out on aria-ref locators",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:110",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] restores refs for a different Page instance (same CDP targetId)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:119] restores refs for a different Page instance (same CDP targetId)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:119",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] stores unmanaged downloads under unique managed paths",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:139] stores unmanaged downloads under unique managed paths",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:139",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] suppresses unmanaged download save rejections until path is awaited",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:171] suppresses unmanaged download save rejections until path is awaited",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:171",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] leaves unmanaged download handling to explicit waiters while armed",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:198] leaves unmanaged download handling to explicit waiters while armed",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:198",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] tracks page errors and network requests (best-effort)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:213] tracks page errors and network requests (best-effort)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:213",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts] drops state on page close",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.test.ts:246] drops state on page close",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.test.ts:246",
                "upstream it() block #11",

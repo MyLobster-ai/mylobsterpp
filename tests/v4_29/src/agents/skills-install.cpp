@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] blocks install when skill has dangerous code patterns",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:153] blocks install when skill has dangerous code patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:153",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] allows dangerous skill installs when forced unsafe install is set",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:174] allows dangerous skill installs when forced unsafe install is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:174",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] runs npm node installs with an OpenClaw-managed user prefix",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:197] runs npm node installs with an OpenClaw-managed user prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:197",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] keeps the default npm prefix out of env-overridden state paths",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:222] keeps the default npm prefix out of env-overridden state paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:222",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] uses a fixed system state root for root npm installs",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:240] uses a fixed system state root for root npm installs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:240",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] blocks install when skill scan fails",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:251] blocks install when skill scan fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:251",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] surfaces plugin scanner findings from before_install",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:267] surfaces plugin scanner findings from before_install",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:267",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] blocks install when before_install rejects the skill",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:329] blocks install when before_install rejects the skill",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.test.ts] keeps before_install hook blocks even when forced unsafe install is set",
+TEST_CASE("v4.29 [src/agents/skills-install.test.ts:351] keeps before_install hook blocks even when forced unsafe install is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.test.ts:351",
                "upstream it() block #8",

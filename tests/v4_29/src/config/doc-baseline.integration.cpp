@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] is deterministic across repeated runs",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:31] is deterministic across repeated runs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] includes core, channel, and plugin config metadata",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:42] includes core, channel, and plugin config metadata",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] preserves help text and tags from merged schema hints",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:59] preserves help text and tags from merged schema hints",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] omits legacy hooks.internal.handlers from the generated baseline",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:68] omits legacy hooks.internal.handlers from the generated baseline",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] uses human-readable channel metadata for top-level channel sections",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:75] uses human-readable channel metadata for top-level channel sections",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:75",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] matches array help hints that still use [] notation",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:94] matches array help hints that still use [] notation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] walks union branches for nested config keys",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:103] walks union branches for nested config keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:103",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts] supports check mode for stale hash files",
+TEST_CASE("v4.29 [src/config/doc-baseline.integration.test.ts:114] supports check mode for stale hash files",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/doc-baseline.integration.test.ts:114",
                "upstream it() block #7",

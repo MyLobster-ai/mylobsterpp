@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts] writes the default identity file under OPENCLAW_STATE_DIR",
+TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts:8] writes the default identity file under OPENCLAW_STATE_DIR",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-identity.state-dir.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts] reuses the stored identity on subsequent loads",
+TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts:17] reuses the stored identity on subsequent loads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-identity.state-dir.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts] repairs stored device IDs that no longer match the public key",
+TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts:33] repairs stored device IDs that no longer match the public key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-identity.state-dir.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts] regenerates the identity when the stored file is invalid",
+TEST_CASE("v4.29 [src/infra/device-identity.state-dir.test.ts:53] regenerates the identity when the stored file is invalid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-identity.state-dir.test.ts:53",
                "upstream it() block #3",

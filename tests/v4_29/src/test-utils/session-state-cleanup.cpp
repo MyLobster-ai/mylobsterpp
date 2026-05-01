@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/test-utils/session-state-cleanup.test.ts] waits for in-flight session store locks before clearing test state",
+TEST_CASE("v4.29 [src/test-utils/session-state-cleanup.test.ts:71] waits for in-flight session store locks before clearing test state",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/session-state-cleanup.test.ts:71",
                "upstream it() block #0",

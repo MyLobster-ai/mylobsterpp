@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts] serializes tasks per key and keeps different keys independent",
+TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts:15] serializes tasks per key and keeps different keys independent",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/keyed-async-queue.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts] keeps queue alive after task failures",
+TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts:58] keeps queue alive after task failures",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/keyed-async-queue.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts] does not leak unhandled rejections when a task failure is already awaited",
+TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts:81] does not leak unhandled rejections when a task failure is already awaited",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/keyed-async-queue.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts] runs enqueue/settle hooks once per task",
+TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts:107] runs enqueue/settle hooks once per task",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/keyed-async-queue.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts] exposes tail map for observability",
+TEST_CASE("v4.29 [src/plugin-sdk/keyed-async-queue.test.ts:123] exposes tail map for observability",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/keyed-async-queue.test.ts:123",
                "upstream it() block #4",

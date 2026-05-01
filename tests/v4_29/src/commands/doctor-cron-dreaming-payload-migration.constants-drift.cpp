@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.constants-drift.test.ts] imports the source-of-truth values from the memory host SDK",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.constants-drift.test.ts:24] imports the source-of-truth values from the memory host SDK",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.constants-drift.test.ts:24",
                "upstream it() block #0",

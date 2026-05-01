@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.transcript-policy.test.ts] uses RuntimePlan transcript policy when available",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.transcript-policy.test.ts:18] uses RuntimePlan transcript policy when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.transcript-policy.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.transcript-policy.test.ts] keeps the legacy provider transcript fallback when no RuntimePlan is available",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.transcript-policy.test.ts:67] keeps the legacy provider transcript fallback when no RuntimePlan is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.transcript-policy.test.ts:67",
                "upstream it() block #1",

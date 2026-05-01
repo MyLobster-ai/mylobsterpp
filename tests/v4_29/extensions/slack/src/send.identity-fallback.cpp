@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts] retries without identity when needed contains chat:write.customize",
+TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts:49] retries without identity when needed contains chat:write.customize",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.identity-fallback.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts] retries when chat:write.customize appears only in response_metadata.acceptedScopes",
+TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts:80] retries when chat:write.customize appears only in response_metadata.acceptedScopes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.identity-fallback.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts] retries when chat:write.customize appears only in response_metadata.scopes",
+TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts:103] retries when chat:write.customize appears only in response_metadata.scopes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.identity-fallback.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts] rethrows missing_scope errors that reference a different scope",
+TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts:122] rethrows missing_scope errors that reference a different scope",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.identity-fallback.test.ts:122",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts] rethrows customize-scope errors when identity is empty",
+TEST_CASE("v4.29 [extensions/slack/src/send.identity-fallback.test.ts:140] rethrows customize-scope errors when identity is empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.identity-fallback.test.ts:140",
                "upstream it() block #4",

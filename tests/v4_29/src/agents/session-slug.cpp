@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/session-slug.test.ts] generates a two-word slug by default",
+TEST_CASE("v4.29 [src/agents/session-slug.test.ts:22] generates a two-word slug by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-slug.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-slug.test.ts] adds a numeric suffix when the base slug is taken",
+TEST_CASE("v4.29 [src/agents/session-slug.test.ts:28] adds a numeric suffix when the base slug is taken",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-slug.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-slug.test.ts] falls back to three words when collisions persist",
+TEST_CASE("v4.29 [src/agents/session-slug.test.ts:34] falls back to three words when collisions persist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-slug.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-slug.test.ts] uses secure fallback suffix entropy when word collisions persist",
+TEST_CASE("v4.29 [src/agents/session-slug.test.ts:40] uses secure fallback suffix entropy when word collisions persist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-slug.test.ts:40",
                "upstream it() block #3",

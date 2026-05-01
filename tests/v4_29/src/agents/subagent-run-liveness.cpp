@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] keeps fresh unended runs live",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:13] keeps fresh unended runs live",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] marks old unended runs stale when no explicit timeout extends the window",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:21] marks old unended runs stale when no explicit timeout extends the window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] does not mark ended runs stale",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:29] does not mark ended runs stale",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] uses sessionStartedAt ahead of createdAt",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:38] uses sessionStartedAt ahead of createdAt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] extends stale cutoff for explicit long run timeouts",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:47] extends stale cutoff for explicit long run timeouts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:47",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] ignores non-real fixture timestamps as unknown instead of stale",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:56] ignores non-real fixture timestamps as unknown instead of stale",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] defaults to current time when now is omitted",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:64] defaults to current time when now is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:64",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts] keeps child links only while live, recently ended, or waiting on descendants",
+TEST_CASE("v4.29 [src/agents/subagent-run-liveness.test.ts:78] keeps child links only while live, recently ended, or waiting on descendants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-run-liveness.test.ts:78",
                "upstream it() block #7",

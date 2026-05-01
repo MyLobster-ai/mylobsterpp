@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.permissions.test.ts] does not reject a committed write when post-commit chmod fails",
+TEST_CASE("v4.29 [src/plugin-state/plugin-state-store.permissions.test.ts:10] does not reject a committed write when post-commit chmod fails",
           "[v4_29][parity_gap][plugin-state]") {
     PARITY_GAP("src/plugin-state/plugin-state-store.permissions.test.ts:10",
                "upstream it() block #0",

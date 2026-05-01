@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/global-singleton.test.ts] reuses an initialized singleton",
+TEST_CASE("v4.29 [src/shared/global-singleton.test.ts:13] reuses an initialized singleton",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/global-singleton.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/global-singleton.test.ts] does not re-run the factory when undefined was already stored",
+TEST_CASE("v4.29 [src/shared/global-singleton.test.ts:23] does not re-run the factory when undefined was already stored",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/global-singleton.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/global-singleton.test.ts] reuses a prepopulated global value without calling the factory",
+TEST_CASE("v4.29 [src/shared/global-singleton.test.ts:31] reuses a prepopulated global value without calling the factory",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/global-singleton.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/global-singleton.test.ts] reuses the same map instance",
+TEST_CASE("v4.29 [src/shared/global-singleton.test.ts:42] reuses the same map instance",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/global-singleton.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/global-singleton.test.ts] preserves existing map contents across repeated resolution",
+TEST_CASE("v4.29 [src/shared/global-singleton.test.ts:49] preserves existing map contents across repeated resolution",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/global-singleton.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/global-singleton.test.ts] reuses a prepopulated global map without creating a new one",
+TEST_CASE("v4.29 [src/shared/global-singleton.test.ts:56] reuses a prepopulated global map without creating a new one",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/global-singleton.test.ts:56",
                "upstream it() block #5",

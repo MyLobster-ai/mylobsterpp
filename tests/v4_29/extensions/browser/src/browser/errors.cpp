@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/errors.test.ts] teaches agents that bare numbers are not stable tab targets",
+TEST_CASE("v4.29 [extensions/browser/src/browser/errors.test.ts:5] teaches agents that bare numbers are not stable tab targets",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/errors.test.ts:5",
                "upstream it() block #0",

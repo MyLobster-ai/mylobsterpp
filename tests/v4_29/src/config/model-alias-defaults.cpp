@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] adds default aliases when models are present",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:73] adds default aliases when models are present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] does not override existing aliases",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:90] does not override existing aliases",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] respects explicit empty alias disables",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:106] respects explicit empty alias disables",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] fills missing model provider defaults",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:130] fills missing model provider defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] clamps maxTokens to contextWindow",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:143] clamps maxTokens to contextWindow",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] normalizes stale mistral maxTokens that matched the full context window",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:153] normalizes stale mistral maxTokens that matched the full context window",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] defaults anthropic provider and model api to anthropic-messages",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:163] defaults anthropic provider and model api to anthropic-messages",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:163",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts] propagates provider api to models when model api is missing",
+TEST_CASE("v4.29 [src/config/model-alias-defaults.test.ts:194] propagates provider api to models when model api is missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/model-alias-defaults.test.ts:194",
                "upstream it() block #7",

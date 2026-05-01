@@ -5,411 +5,411 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] ensures configured ACP routes for Feishu DMs",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:413] ensures configured ACP routes for Feishu DMs",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:413",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] surfaces configured ACP initialization failures to the Feishu conversation",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:437] surfaces configured ACP initialization failures to the Feishu conversation",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:437",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] routes Feishu topic messages through active bound conversations",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:468] routes Feishu topic messages through active bound conversations",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:468",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] passes reasoning preview permission from session state into the dispatcher",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:510] passes reasoning preview permission from session state into the dispatcher",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:510",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] does not enqueue inbound preview text as system events",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:639] does not enqueue inbound preview text as system events",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:639",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] blocks open DMs when a restrictive allowlist does not match",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:670] blocks open DMs when a restrictive allowlist does not match",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:670",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] reads pairing allow store for non-command DMs when dmPolicy is pairing",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:702] reads pairing allow store for non-command DMs when dmPolicy is pairing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:702",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] skips sender-name lookup when resolveSenderNames is false",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:742] skips sender-name lookup when resolveSenderNames is false",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:742",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] propagates parent/root message ids into inbound context for reply reconstruction",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:773] propagates parent/root message ids into inbound context for reply reconstruction",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:773",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] uses message create_time as Timestamp instead of Date.now()",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:818] uses message create_time as Timestamp instead of Date.now()",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:818",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] falls back to Date.now() when create_time is absent",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:854] falls back to Date.now() when create_time is absent",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:854",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] replies pairing challenge to DM chat_id instead of user:sender id",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:889] replies pairing challenge to DM chat_id instead of user:sender id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:889",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] creates pairing request and drops unauthorized DMs in pairing mode",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:924] creates pairing request and drops unauthorized DMs in pairing mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:924",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] computes group command authorization from group allowFrom",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:986] computes group command authorization from group allowFrom",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:986",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] normalizes group mention-prefixed slash commands before command-auth probing",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1033] normalizes group mention-prefixed slash commands before command-auth probing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1033",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] falls back to top-level allowFrom for group command authorization",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1069] falls back to top-level allowFrom for group command authorization",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1069",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] allows group sender when global groupSenderAllowFrom includes sender",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1117] allows group sender when global groupSenderAllowFrom includes sender",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1117",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] blocks group sender when global groupSenderAllowFrom excludes sender",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1160] blocks group sender when global groupSenderAllowFrom excludes sender",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1160",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] prefers per-group allowFrom over global groupSenderAllowFrom",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1198] prefers per-group allowFrom over global groupSenderAllowFrom",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1198",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] drops quoted group context from senders outside the group sender allowlist in allowlist mode",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1237] drops quoted group context from senders outside the group sender allowlist in allowlist mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1237",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] keeps quoted group context from non-allowlisted senders in default all mode",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1289] keeps quoted group context from non-allowlisted senders in default all mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1289",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] dispatches group image message when groupPolicy is open (requireMention defaults to false)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1340] dispatches group image message when groupPolicy is open (requireMention defaults to false)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1340",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] drops group image message when groupPolicy is open but requireMention is explicitly true",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1370] drops group image message when groupPolicy is open but requireMention is explicitly true",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1370",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] drops group image message when groupPolicy is allowlist and requireMention is not set (defaults to true)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1401] drops group image message when groupPolicy is allowlist and requireMention is not set (defaults to true)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1401",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] admits group when chat_id is explicitly configured under groups, even with empty groupAllowFrom (#67687)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1437] admits group when chat_id is explicitly configured under groups, even with empty groupAllowFrom (#67687)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1437",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] does not let explicit group config override disabled group policy",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1479] does not let explicit group config override disabled group policy",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1479",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] does not treat wildcard group defaults as allowlist admission",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1512] does not treat wildcard group defaults as allowlist admission",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1512",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] drops message when groupConfig.enabled is false",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1545] drops message when groupConfig.enabled is false",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1545",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] transcribes inbound audio before building the agent turn",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1577] transcribes inbound audio before building the agent turn",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1577",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] uses video file_key (not thumbnail image_key) for inbound video download",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1654] uses video file_key (not thumbnail image_key) for inbound video download",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1654",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] uses media message_type file_key (not thumbnail image_key) for inbound mobile video download",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1702] uses media message_type file_key (not thumbnail image_key) for inbound mobile video download",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1702",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] falls back to the message payload filename when download metadata omits it",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1750] falls back to the message payload filename when download metadata omits it",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1750",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] downloads embedded media tags from post messages as files",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1795] downloads embedded media tags from post messages as files",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1795",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] includes message_id in BodyForAgent on its own line",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1849] includes message_id in BodyForAgent on its own line",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1849",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] expands merge_forward content from API sub-messages",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1884] expands merge_forward content from API sub-messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1884",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] falls back when merge_forward API returns no sub-messages",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:1962] falls back when merge_forward API returns no sub-messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:1962",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] dispatches once and appends permission notice to the main agent body",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2009] dispatches once and appends permission notice to the main agent body",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2009",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] ignores stale non-existent contact scope permission errors",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2072] ignores stale non-existent contact scope permission errors",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2072",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] routes group sessions by sender when groupSessionScope=group_sender",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2133] routes group sessions by sender when groupSessionScope=group_sender",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2133",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] routes topic sessions and parentPeer when groupSessionScope=group_topic_sender",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2170] routes topic sessions and parentPeer when groupSessionScope=group_topic_sender",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2170",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] keeps root_id as topic key when root_id and thread_id both exist",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2208] keeps root_id as topic key when root_id and thread_id both exist",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2208",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] uses thread_id as the canonical topic key in Feishu topic groups",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2247] uses thread_id as the canonical topic key in Feishu topic groups",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2247",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] uses thread_id as topic key when root_id is missing",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2306] uses thread_id as topic key when root_id is missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2306",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] maps legacy topicSessionMode=enabled to group_topic routing",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2344] maps legacy topicSessionMode=enabled to group_topic routing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2344",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] maps legacy topicSessionMode=enabled to root_id when both root_id and thread_id exist",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2382] maps legacy topicSessionMode=enabled to root_id when both root_id and thread_id exist",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2382",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] uses message_id as topic root when group_topic + replyInThread and no root_id",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2421] uses message_id as topic root when group_topic + replyInThread and no root_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2421",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] keeps topic session key stable after first turn creates a thread",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2459] keeps topic session key stable after first turn creates a thread",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2459",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] replies to the topic root when handling a message inside an existing topic",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2516] replies to the topic root when handling a message inside an existing topic",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2516",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] replies to triggering message in normal group even when root_id is present (#32980)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2554] replies to triggering message in normal group even when root_id is present (#32980)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2554",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] replies to topic root in topic-mode group with root_id",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2592] replies to topic root in topic-mode group with root_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2592",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] replies to topic root in topic-sender group with root_id",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2630] replies to topic root in topic-sender group with root_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2630",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] forces thread replies when inbound message contains thread_id",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2668] forces thread replies when inbound message contains thread_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2668",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] bootstraps topic thread context only for a new thread session",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2707] bootstraps topic thread context only for a new thread session",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2707",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] skips topic thread bootstrap when the thread session already exists",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2781] skips topic thread bootstrap when the thread session already exists",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2781",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] keeps sender-scoped thread history when the inbound event and thread history use different sender ids",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2824] keeps sender-scoped thread history when the inbound event and thread history use different sender ids",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2824",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] filters topic bootstrap context to allowlisted group senders",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2894] filters topic bootstrap context to allowlisted group senders",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2894",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] does not dispatch twice for the same image message_id (concurrent dedupe)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:2971] does not dispatch twice for the same image message_id (concurrent dedupe)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:2971",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts] skips empty-text messages with no media to prevent blank user turns in session (#74634)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.test.ts:3003] skips empty-text messages with no media to prevent blank user turns in session (#74634)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.test.ts:3003",
                "upstream it() block #57",

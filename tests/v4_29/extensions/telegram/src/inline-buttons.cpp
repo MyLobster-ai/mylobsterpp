@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] returns ",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:7] returns ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] returns ",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:12] returns ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] handles telegram: prefix from normalizeTelegramMessagingTarget",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:17] handles telegram: prefix from normalizeTelegramMessagingTarget",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] handles tg/group prefixes and topic suffixes",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:23] handles tg/group prefixes and topic suffixes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] returns ",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:30] returns ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] returns ",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:35] returns ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:35",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] drops shared buttons whose callback data exceeds Telegram",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:44] drops shared buttons whose callback data exceeds Telegram",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:44",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts] rewrites /approve allow-always callbacks to always so plugin IDs fit Telegram limits",
+TEST_CASE("v4.29 [extensions/telegram/src/inline-buttons.test.ts:60] rewrites /approve allow-always callbacks to always so plugin IDs fit Telegram limits",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/inline-buttons.test.ts:60",
                "upstream it() block #7",

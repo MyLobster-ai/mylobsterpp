@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts] parent session is idle after yield — end_turn, no pendingToolCalls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts:28] parent session is idle after yield — end_turn, no pendingToolCalls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts] clientToolCall takes precedence over yieldDetected",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts:59] clientToolCall takes precedence over yieldDetected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts] normal attempt without yield has no stopReason override",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts:80] normal attempt without yield has no stopReason override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/sessions-yield.orchestration.test.ts:80",
                "upstream it() block #2",

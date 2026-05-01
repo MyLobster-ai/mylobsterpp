@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] uses explicit forum threadId when provided",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:125] uses explicit forum threadId when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] passes explicit replyTo into auto-thread resolution",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:144] passes explicit replyTo into auto-thread resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] inherits currentMessageId for same-target sends when replyToMode=all",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:169] inherits currentMessageId for same-target sends when replyToMode=all",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] skips inherited reply threading for batched mode",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:189] skips inherited reply threading for batched mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:189",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] consumes first-mode inherited reply threading only once",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:209] consumes first-mode inherited reply threading only once",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:209",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] consumes first-mode when the first send uses an explicit replyTo",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:249] consumes first-mode when the first send uses an explicit replyTo",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:249",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts] does not inherit reply threading across providers even when target ids match",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.threading.test.ts:291] does not inherit reply threading across providers even when target ids match",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.threading.test.ts:291",
                "upstream it() block #6",

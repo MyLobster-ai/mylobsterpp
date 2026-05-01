@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/pairing-files.test.ts] resolves pairing file paths from explicit base dirs",
+TEST_CASE("v4.29 [src/infra/pairing-files.test.ts:10] resolves pairing file paths from explicit base dirs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-files.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/pairing-files.test.ts] prunes only entries older than the ttl",
+TEST_CASE("v4.29 [src/infra/pairing-files.test.ts:18] prunes only entries older than the ttl",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-files.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/pairing-files.test.ts] refreshes a single matching pending request in place",
+TEST_CASE("v4.29 [src/infra/pairing-files.test.ts:33] refreshes a single matching pending request in place",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-files.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/pairing-files.test.ts] replaces existing pending requests with one merged request",
+TEST_CASE("v4.29 [src/infra/pairing-files.test.ts:56] replaces existing pending requests with one merged request",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/pairing-files.test.ts:56",
                "upstream it() block #3",

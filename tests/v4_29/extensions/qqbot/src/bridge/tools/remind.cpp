@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts] marks qqbot_remind as owner-only",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts:19] marks qqbot_remind as owner-only",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/tools/remind.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts] schedules reminders directly through Gateway cron with ambient QQ delivery context",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts:24] schedules reminders directly through Gateway cron with ambient QQ delivery context",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/tools/remind.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts] routes list and remove through Gateway cron without exposing generic cron to the model",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts:61] routes list and remove through Gateway cron without exposing generic cron to the model",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/tools/remind.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts] supports injected cron scheduler dependencies for engine-level tests",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts:76] supports injected cron scheduler dependencies for engine-level tests",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/tools/remind.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts] does not schedule when sender ownership is missing",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/tools/remind.test.ts:103] does not schedule when sender ownership is missing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/tools/remind.test.ts:103",
                "upstream it() block #4",

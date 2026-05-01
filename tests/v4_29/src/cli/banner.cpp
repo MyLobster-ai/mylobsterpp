@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/banner.test.ts] hides tagline text when cli.banner.taglineMode is off",
+TEST_CASE("v4.29 [src/cli/banner.test.ts:18] hides tagline text when cli.banner.taglineMode is off",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/banner.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/banner.test.ts] uses default tagline when cli.banner.taglineMode is default",
+TEST_CASE("v4.29 [src/cli/banner.test.ts:29] uses default tagline when cli.banner.taglineMode is default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/banner.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/banner.test.ts] prefers explicit tagline mode over config",
+TEST_CASE("v4.29 [src/cli/banner.test.ts:40] prefers explicit tagline mode over config",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/banner.test.ts:40",
                "upstream it() block #2",

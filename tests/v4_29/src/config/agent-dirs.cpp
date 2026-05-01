@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/agent-dirs.test.ts] uses OPENCLAW_HOME for default agent dir resolution",
+TEST_CASE("v4.29 [src/config/agent-dirs.test.ts:10] uses OPENCLAW_HOME for default agent dir resolution",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/agent-dirs.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/agent-dirs.test.ts] resolves agent dir under OPENCLAW_HOME state dir",
+TEST_CASE("v4.29 [src/config/agent-dirs.test.ts:33] resolves agent dir under OPENCLAW_HOME state dir",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/agent-dirs.test.ts:33",
                "upstream it() block #1",

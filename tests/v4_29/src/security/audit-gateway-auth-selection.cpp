@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-gateway-auth-selection.test.ts] applies gateway auth precedence across local and remote modes",
+TEST_CASE("v4.29 [src/security/audit-gateway-auth-selection.test.ts:7] applies gateway auth precedence across local and remote modes",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-gateway-auth-selection.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-gateway-auth-selection.test.ts] adds warning finding when probe auth SecretRef is unavailable",
+TEST_CASE("v4.29 [src/security/audit-gateway-auth-selection.test.ts:111] adds warning finding when probe auth SecretRef is unavailable",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-gateway-auth-selection.test.ts:111",
                "upstream it() block #1",

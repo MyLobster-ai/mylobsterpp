@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/dispatcher.abort.test.ts] propagates AbortSignal and lets handlers observe abort",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/dispatcher.abort.test.ts:54] propagates AbortSignal and lets handlers observe abort",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/dispatcher.abort.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/dispatcher.abort.test.ts] returns 400 for malformed percent-encoding in route params",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/dispatcher.abort.test.ts:72] returns 400 for malformed percent-encoding in route params",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/dispatcher.abort.test.ts:72",
                "upstream it() block #1",

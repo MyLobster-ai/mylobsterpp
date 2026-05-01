@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] routes the memex upload URL through the SSRF guard",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:102] routes the memex upload URL through the SSRF guard",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] surfaces guarded upload failures for hosted Memex targets",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:167] surfaces guarded upload failures for hosted Memex targets",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:167",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] rejects Memex upload targets outside the hosted Tlon domain allowlist",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:197] rejects Memex upload targets outside the hosted Tlon domain allowlist",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:197",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] rejects Memex hosted result URLs outside the hosted Tlon domain allowlist",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:218] rejects Memex hosted result URLs outside the hosted Tlon domain allowlist",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:218",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] rejects Memex upload targets with a non-standard port",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:249] rejects Memex upload targets with a non-standard port",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] disables redirects for Memex upload targets",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:270] disables redirects for Memex upload targets",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:270",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] routes scheme-less hosted ship URLs through the Memex upload path",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:300] routes scheme-less hosted ship URLs through the Memex upload path",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:300",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] rejects truly unparseable ship URLs as not hosted",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:332] rejects truly unparseable ship URLs as not hosted",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:332",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] accepts hosted Memex upload URLs with an explicit :443 port",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:368] accepts hosted Memex upload URLs with an explicit :443 port",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:368",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] disables redirects for the Memex upload URL lookup",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:394] disables redirects for the Memex upload URL lookup",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:394",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] routes the custom S3 signed URL through the SSRF guard",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:461] routes the custom S3 signed URL through the SSRF guard",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:461",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] surfaces guarded upload failures for custom S3 targets without calling release",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:490] surfaces guarded upload failures for custom S3 targets without calling release",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:490",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] passes the private-network opt-in to guarded custom S3 uploads",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:507] passes the private-network opt-in to guarded custom S3 uploads",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:507",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts] rejects custom S3 result URLs that are not http(s)",
+TEST_CASE("v4.29 [extensions/tlon/src/tlon-api.test.ts:545] rejects custom S3 result URLs that are not http(s)",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/tlon-api.test.ts:545",
                "upstream it() block #13",

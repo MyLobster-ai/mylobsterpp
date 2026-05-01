@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts] treats threadId as a legacy delivery hint",
+TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts:11] treats threadId as a legacy delivery hint",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-legacy-delivery.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts] hydrates threadId into new delivery payloads",
+TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts:16] hydrates threadId into new delivery payloads",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-legacy-delivery.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts] patches and merges threadId into existing deliveries",
+TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts:31] patches and merges threadId into existing deliveries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-legacy-delivery.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts] strips threadId from legacy payloads after normalization",
+TEST_CASE("v4.29 [src/commands/doctor-cron-legacy-delivery.test.ts:48] strips threadId from legacy payloads after normalization",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-legacy-delivery.test.ts:48",
                "upstream it() block #3",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts] dispatches to all broadcast agents when bot is mentioned",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts:257] dispatches to all broadcast agents when bot is mentioned",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.broadcast.test.ts:257",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts] skips broadcast dispatch when bot is NOT mentioned (requireMention=true)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts:291] skips broadcast dispatch when bot is NOT mentioned (requireMention=true)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.broadcast.test.ts:291",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts] skips broadcast dispatch when bot identity is unknown (requireMention=true)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts:310] skips broadcast dispatch when bot identity is unknown (requireMention=true)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.broadcast.test.ts:310",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts] preserves single-agent dispatch when no broadcast config",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts:328] preserves single-agent dispatch when no broadcast config",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.broadcast.test.ts:328",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts] cross-account broadcast dedup: second account skips dispatch",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts:372] cross-account broadcast dedup: second account skips dispatch",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.broadcast.test.ts:372",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts] skips unknown agents not in agents.list",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.broadcast.test.ts:422] skips unknown agents not in agents.list",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.broadcast.test.ts:422",
                "upstream it() block #5",

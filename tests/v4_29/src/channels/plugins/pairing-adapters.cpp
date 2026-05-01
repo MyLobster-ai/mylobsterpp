@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/pairing-adapters.test.ts] strips prefixes and applies optional mapping",
+TEST_CASE("v4.29 [src/channels/plugins/pairing-adapters.test.ts:9] strips prefixes and applies optional mapping",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/pairing-adapters.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/pairing-adapters.test.ts] builds text pairing adapters",
+TEST_CASE("v4.29 [src/channels/plugins/pairing-adapters.test.ts:19] builds text pairing adapters",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/pairing-adapters.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/pairing-adapters.test.ts] builds logger-backed approval notifiers",
+TEST_CASE("v4.29 [src/channels/plugins/pairing-adapters.test.ts:33] builds logger-backed approval notifiers",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/pairing-adapters.test.ts:33",
                "upstream it() block #2",

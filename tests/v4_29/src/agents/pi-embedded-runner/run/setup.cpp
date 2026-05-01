@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts] maps prompt image metadata to before_model_resolve attachments",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts:10] maps prompt image metadata to before_model_resolve attachments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/setup.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts] omits attachments when there are no images",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts:19] omits attachments when there are no images",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/setup.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts] passes attachment metadata to before_model_resolve hooks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts:26] passes attachment metadata to before_model_resolve hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/setup.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts] omits the attachments key for text-only before_model_resolve hooks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/setup.test.ts:55] omits the attachments key for text-only before_model_resolve hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/setup.test.ts:55",
                "upstream it() block #3",

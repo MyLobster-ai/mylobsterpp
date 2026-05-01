@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts] creates a snapshot before actionable startup migration",
+TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts:100] creates a snapshot before actionable startup migration",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/startup-maintenance.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts] skips snapshot creation when startup only has warning-only migration state",
+TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts:129] skips snapshot creation when startup only has warning-only migration state",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/startup-maintenance.test.ts:129",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts] logs the concrete unavailable-inspector warning when startup migration is warning-only",
+TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts:148] logs the concrete unavailable-inspector warning when startup migration is warning-only",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/startup-maintenance.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts] skips startup migration when snapshot creation fails",
+TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts:169] skips startup migration when snapshot creation fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/startup-maintenance.test.ts:169",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts] downgrades migration step failures to warnings so startup can continue",
+TEST_CASE("v4.29 [extensions/matrix/src/startup-maintenance.test.ts:198] downgrades migration step failures to warnings so startup can continue",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/startup-maintenance.test.ts:198",
                "upstream it() block #4",

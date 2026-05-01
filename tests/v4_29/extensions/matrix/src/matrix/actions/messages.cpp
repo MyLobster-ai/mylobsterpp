@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts] forwards timeoutMs to the shared Matrix edit helper",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts:115] forwards timeoutMs to the shared Matrix edit helper",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/messages.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts] routes edits through the shared Matrix edit helper so mentions are preserved",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts:137] routes edits through the shared Matrix edit helper so mentions are preserved",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/messages.test.ts:137",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts] does not re-notify legacy mentions when action edits target pre-m.mentions messages",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts:163] does not re-notify legacy mentions when action edits target pre-m.mentions messages",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/messages.test.ts:163",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts] includes poll snapshots when reading message history",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts:189] includes poll snapshots when reading message history",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/messages.test.ts:189",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts] dedupes multiple poll events for the same poll within one read page",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts:245] dedupes multiple poll events for the same poll within one read page",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/messages.test.ts:245",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts] uses hydrated history events so encrypted poll entries can be read",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/messages.test.ts:264] uses hydrated history events so encrypted poll entries can be read",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/messages.test.ts:264",
                "upstream it() block #5",

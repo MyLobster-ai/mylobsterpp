@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-launch.test.ts] filters inherited inspector flags when relaunching TUI",
+TEST_CASE("v4.29 [src/tui/tui-launch.test.ts:44] filters inherited inspector flags when relaunching TUI",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-launch.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-launch.test.ts] passes local mode through to the relaunched TUI",
+TEST_CASE("v4.29 [src/tui/tui-launch.test.ts:89] passes local mode through to the relaunched TUI",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-launch.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-launch.test.ts] launches compiled CLI shapes without repeating the current command",
+TEST_CASE("v4.29 [src/tui/tui-launch.test.ts:105] launches compiled CLI shapes without repeating the current command",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-launch.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-launch.test.ts] pins the child gateway URL and config auth source through env without adding url argv",
+TEST_CASE("v4.29 [src/tui/tui-launch.test.ts:122] pins the child gateway URL and config auth source through env without adding url argv",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-launch.test.ts:122",
                "upstream it() block #3",

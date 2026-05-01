@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts] returns the channel summary configured flag when present",
+TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts:45] returns the channel summary configured flag when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/channels.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts] falls back to the default account when the channel summary omits configured",
+TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts:61] falls back to the default account when the channel summary omits configured",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/channels.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts] falls back to the first account when no default account id is available",
+TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts:83] falls back to the first account when no default account id is available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/channels.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts] keeps disabled channels hidden when neither summary nor accounts are active",
+TEST_CASE("v4.29 [ui/src/ui/views/channels.test.ts:101] keeps disabled channels hidden when neither summary nor accounts are active",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/channels.test.ts:101",
                "upstream it() block #3",

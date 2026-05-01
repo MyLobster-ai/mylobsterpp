@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] lists configured channels from openclaw.json even when no plugins are loaded",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:74] lists configured channels from openclaw.json even when no plugins are loaded",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] deletes the selected channel block from openclaw.json",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:103] deletes the selected channel block from openclaw.json",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] deletes a real channel block named done",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:128] deletes a real channel block named done",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] preserves channel-wide defaults when deleting the last channel block",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:153] preserves channel-wide defaults when deleting the last channel block",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:153",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] does not list blocked object keys as removable channels",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:173] does not list blocked object keys as removable channels",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:173",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] sanitizes known channel labels before rendering prompts",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:198] sanitizes known channel labels before rendering prompts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:198",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] sanitizes unknown channel keys before rendering prompts",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:232] sanitizes unknown channel keys before rendering prompts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:232",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.channels.test.ts] uses a placeholder when an unknown channel key sanitizes to empty",
+TEST_CASE("v4.29 [src/commands/configure.channels.test.ts:240] uses a placeholder when an unknown channel key sanitizes to empty",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.channels.test.ts:240",
                "upstream it() block #7",

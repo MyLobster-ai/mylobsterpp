@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] handles stable and prerelease precedence for both legacy and beta formats",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:18] handles stable and prerelease precedence for both legacy and beta formats",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] returns null for invalid inputs",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:31] returns null for invalid inputs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] falls back to latest when beta is older",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:65] falls back to latest when beta is older",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] keeps beta when beta is not older",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:74] keeps beta when beta is not older",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] falls back to latest when beta has same base as stable",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:83] falls back to latest when beta has same base as stable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:83",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] keeps non-beta channels unchanged",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:92] keeps non-beta channels unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:92",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] exposes tag fetch helpers for success and http failures",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:101] exposes tag fetch helpers for success and http failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:101",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] formats branch, detached tag, and non-git installs",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:128] formats branch, detached tag, and non-git installs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:128",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] reports unknown, missing, stale, and ok states from lockfile markers",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:178] reports unknown, missing, stale, and ok states from lockfile markers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] returns unknown install status when root is missing",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:220] returns unknown install status when root is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:220",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] detects package installs for non-git roots",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:231] detects package installs for non-git roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:231",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-check.test.ts] treats symlinked git installs as git roots",
+TEST_CASE("v4.29 [src/infra/update-check.test.ts:256] treats symlinked git installs as git roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-check.test.ts:256",
                "upstream it() block #11",

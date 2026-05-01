@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] normalizes outbound MEDIA tags without changing canonical media URIs",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:14] normalizes outbound MEDIA tags without changing canonical media URIs",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] classifies supported and unsupported media reference schemes",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:19] classifies supported and unsupported media reference schemes",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] resolves canonical inbound media URIs",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:43] resolves canonical inbound media URIs",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] maps canonical inbound media URIs to local paths for direct file readers",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:62] maps canonical inbound media URIs to local paths for direct file readers",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] resolves direct absolute paths only for first-level inbound media files",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:77] resolves direct absolute paths only for first-level inbound media files",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] rejects inbound media URIs with unsupported locations or unsafe ids",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:101] rejects inbound media URIs with unsupported locations or unsafe ids",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/media-reference.test.ts] rejects symlinked inbound media files",
+TEST_CASE("v4.29 [src/media/media-reference.test.ts:119] rejects symlinked inbound media files",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/media-reference.test.ts:119",
                "upstream it() block #6",

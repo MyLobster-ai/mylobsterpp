@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts] merges allowFrom + dms into peer entries",
+TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts:55] merges allowFrom + dms into peer entries",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/directory.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts] normalizes spaced provider-prefixed peer entries",
+TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts:63] normalizes spaced provider-prefixed peer entries",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/directory.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts] merges groups map + groupAllowFrom into group entries",
+TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts:84] merges groups map + groupAllowFrom into group entries",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/directory.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts] falls back to static peers on live lookup failure by default",
+TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts:92] falls back to static peers on live lookup failure by default",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/directory.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts] surfaces live peer lookup failures when fallback is disabled",
+TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts:110] surfaces live peer lookup failures when fallback is disabled",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/directory.test.ts:110",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts] surfaces live group lookup failures when fallback is disabled",
+TEST_CASE("v4.29 [extensions/feishu/src/directory.test.ts:126] surfaces live group lookup failures when fallback is disabled",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/directory.test.ts:126",
                "upstream it() block #5",

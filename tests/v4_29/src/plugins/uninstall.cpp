@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] falls back to pluginId when channelIds are unknown",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:227] falls back to pluginId when channelIds are unknown",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:227",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] keeps explicit empty channelIds as remove-nothing",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:231] keeps explicit empty channelIds as remove-nothing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:231",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] filters shared keys and duplicate channel ids",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:235] filters shared keys and duplicate channel ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes plugin from entries",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:245] removes plugin from entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:245",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes plugin from installs",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:259] removes plugin from installs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:259",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes plugin from allowlist",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:275] removes plugin from allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:275",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes plugin from denylist",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:286] removes plugin from denylist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:286",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes absolute load path for a workspace-relative install source path",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:322] removes absolute load path for a workspace-relative install source path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:322",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] clears context engine slot when uninstalling active context engine plugin",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:381] clears context engine slot when uninstalling active context engine plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:381",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes plugins object when uninstall leaves only empty slots",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:397] removes plugins object when uninstall leaves only empty slots",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:397",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] cleans up empty slots object",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:405] cleans up empty slots object",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:405",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] cleans up empty plugins object",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:445] cleans up empty plugins object",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:445",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] preserves other config values",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:455] preserves other config values",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:455",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] returns error when plugin not found",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:668] returns error when plugin not found",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:668",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] removes config entries",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:682] removes config entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:682",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] deletes directory when deleteFiles is true",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:703] deletes directory when deleteFiles is true",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:703",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] plans directory removal without deleting before commit",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:716] plans directory removal without deleting before commit",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:716",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] returns a warning when directory deletion fails unexpectedly",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:834] returns a warning when directory deletion fails unexpectedly",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:834",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] never deletes arbitrary configured install paths",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:849] never deletes arbitrary configured install paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:849",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] deletes tracked managed install paths even when they are not the default target",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:870] deletes tracked managed install paths even when they are not the default target",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:870",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] deletes tracked installs from a recorded managed extensions root",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:889] deletes tracked installs from a recorded managed extensions root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:889",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] returns null for linked plugins",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:911] returns null for linked plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:911",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] returns managed install path for copied path installs",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:925] returns managed install path for copied path installs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:925",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] falls back to default path when configured installPath is untrusted",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:943] falls back to default path when configured installPath is untrusted",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:943",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] uses configured installPath when it stays inside the managed extensions dir",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:959] uses configured installPath when it stays inside the managed extensions dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:959",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/uninstall.test.ts] uses configured installPath when it is under the recorded managed extensions root",
+TEST_CASE("v4.29 [src/plugins/uninstall.test.ts:977] uses configured installPath when it is under the recorded managed extensions root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/uninstall.test.ts:977",
                "upstream it() block #25",

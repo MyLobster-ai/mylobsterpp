@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] returns token expired for auth failures",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:6] returns token expired for auth failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] returns HTTP status errors for non-auth failures",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:16] returns HTTP status errors for non-auth failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] parses windows, reset times, and plan balance",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:26] parses windows, reset times, and plan balance",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] labels weekly secondary window as Week",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:60] labels weekly secondary window as Week",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] labels secondary window as Week when reset cadence clearly exceeds one day",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:85] labels secondary window as Week when reset cadence clearly exceeds one day",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] labels short secondary windows in hours",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:113] labels short secondary windows in hours",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] builds a balance-only plan when credits exist without a plan type",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:129] builds a balance-only plan when credits exist without a plan type",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:129",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts] falls back invalid credit strings to a zero balance",
+TEST_CASE("v4.29 [src/infra/provider-usage.fetch.codex.test.ts:141] falls back invalid credit strings to a zero balance",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.fetch.codex.test.ts:141",
                "upstream it() block #7",

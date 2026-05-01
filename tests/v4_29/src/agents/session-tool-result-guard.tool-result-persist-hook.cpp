@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] does not modify persisted toolResult messages when no hook is registered",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:109] does not modify persisted toolResult messages when no hook is registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:109",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] caps oversized toolResult details before persistence",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:120] caps oversized toolResult details before persistence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] caps oversized toolResult details without serializing the original payload",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:157] caps oversized toolResult details without serializing the original payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:157",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] caps wide toolResult details without materializing every entry up front",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:205] caps wide toolResult details without materializing every entry up front",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:205",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] falls back to a compact summary when sanitized details still exceed the cap",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:258] falls back to a compact summary when sanitized details still exceed the cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:258",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] loads tool_result_persist hooks without breaking persistence",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:303] loads tool_result_persist hooks without breaking persistence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:303",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] reapplies the cap after tool_result_persist expands a tool result",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:358] reapplies the cap after tool_result_persist expands a tool result",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:358",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] reapplies the details cap after tool_result_persist expands details",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:384] reapplies the details cap after tool_result_persist expands details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:384",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] continues persistence when a before_message_write hook throws",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:415] continues persistence when a before_message_write hook throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:415",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts] reapplies the cap after before_message_write expands a tool result",
+TEST_CASE("v4.29 [src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:446] reapplies the cap after before_message_write expands a tool result",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-tool-result-guard.tool-result-persist-hook.test.ts:446",
                "upstream it() block #9",

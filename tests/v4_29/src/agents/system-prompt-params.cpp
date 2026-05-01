@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts] detects repo root from workspaceDir",
+TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts:33] detects repo root from workspaceDir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-params.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts] falls back to cwd when workspaceDir has no repo",
+TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts:45] falls back to cwd when workspaceDir has no repo",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-params.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts] uses configured repoRoot when valid",
+TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts:57] uses configured repoRoot when valid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-params.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts] ignores invalid repoRoot config and auto-detects",
+TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts:78] ignores invalid repoRoot config and auto-detects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-params.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts] returns undefined when no repo is found",
+TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts:98] returns undefined when no repo is found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-params.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts] includes the default profile canvas root in runtimeInfo",
+TEST_CASE("v4.29 [src/agents/system-prompt-params.test.ts:106] includes the default profile canvas root in runtimeInfo",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-params.test.ts:106",
                "upstream it() block #5",

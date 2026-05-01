@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] prefers strict mapped rooms over discovered rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:25] prefers strict mapped rooms over discovered rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] falls back to discovered strict joined rooms when m.direct is stale",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:50] falls back to discovered strict joined rooms when m.direct is stale",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] prefers discovered rooms marked direct in local member state over plain strict rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:72] prefers discovered rooms marked direct in local member state over plain strict rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] ignores remote member-state direct flags when ranking discovered rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:95] ignores remote member-state direct flags when ranking discovered rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] does not treat discovered rooms with local is_direct false as active DMs",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:114] does not treat discovered rooms with local is_direct false as active DMs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] repoints m.direct to an existing strict joined room",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:134] repoints m.direct to an existing strict joined room",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:134",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] creates a fresh direct room when no healthy DM exists",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:165] creates a fresh direct room when no healthy DM exists",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:165",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] rejects unqualified Matrix user ids",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:195] rejects unqualified Matrix user ids",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:195",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] classifies a strict room as direct and repairs m.direct",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:208] classifies a strict room as direct and repairs m.direct",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:208",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] does not classify rooms with local is_direct false as direct",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:235] does not classify rooms with local is_direct false as direct",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:235",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] returns already-mapped without rewriting account data",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:259] returns already-mapped without rewriting account data",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:259",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] still classifies the room as direct when repair fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:284] still classifies the room as direct when repair fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:284",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts] serializes concurrent m.direct writes so distinct mappings are not lost",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/direct-management.test.ts:306] serializes concurrent m.direct writes so distinct mappings are not lost",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/direct-management.test.ts:306",
                "upstream it() block #12",

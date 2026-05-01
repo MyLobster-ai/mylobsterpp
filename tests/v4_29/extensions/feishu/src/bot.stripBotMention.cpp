@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] returns original text when mentions are missing",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:25] returns original text when mentions are missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] strips bot mention in p2p (addressing prefix, not semantic content)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:30] strips bot mention in p2p (addressing prefix, not semantic content)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] strips bot mention in group so slash commands work (#35994)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:38] strips bot mention in group so slash commands work (#35994)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] strips bot mention in group preserving slash command prefix (#35994)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:50] strips bot mention in group preserving slash command prefix (#35994)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] strips bot mention but normalizes other mentions in p2p (mention-forward)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:62] strips bot mention but normalizes other mentions in p2p (mention-forward)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] falls back to @name when open_id is absent",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:73] falls back to @name when open_id is absent",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] falls back to plain @name when no id is present",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:81] falls back to plain @name when no id is present",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:81",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] treats mention key regex metacharacters as literal text",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:89] treats mention key regex metacharacters as literal text",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:89",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] normalizes multiple mentions in one pass",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:97] normalizes multiple mentions in one pass",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:97",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] treats $ in display name as literal (no replacement-pattern interpolation)",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:110] treats $ in display name as literal (no replacement-pattern interpolation)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:110",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts] escapes < and > in mention name to protect tag structure",
+TEST_CASE("v4.29 [extensions/feishu/src/bot.stripBotMention.test.ts:119] escapes < and > in mention name to protect tag structure",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/bot.stripBotMention.test.ts:119",
                "upstream it() block #10",

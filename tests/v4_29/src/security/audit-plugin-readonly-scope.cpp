@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-plugin-readonly-scope.test.ts] keeps configured channel owner collectors when the provided channel plugin list omits them",
+TEST_CASE("v4.29 [src/security/audit-plugin-readonly-scope.test.ts:68] keeps configured channel owner collectors when the provided channel plugin list omits them",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-plugin-readonly-scope.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-plugin-readonly-scope.test.ts] removes configured channel owner collectors only when channel security will audit them",
+TEST_CASE("v4.29 [src/security/audit-plugin-readonly-scope.test.ts:105] removes configured channel owner collectors only when channel security will audit them",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-plugin-readonly-scope.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-plugin-readonly-scope.test.ts] skips plugin runtime and collector discovery when collector loading is disabled",
+TEST_CASE("v4.29 [src/security/audit-plugin-readonly-scope.test.ts:135] skips plugin runtime and collector discovery when collector loading is disabled",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-plugin-readonly-scope.test.ts:135",
                "upstream it() block #2",

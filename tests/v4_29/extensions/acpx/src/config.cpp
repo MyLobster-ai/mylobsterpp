@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] resolves workspace stateDir and cwd by default",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:7] resolves workspace stateDir and cwd by default",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] keeps explicit timeoutSeconds config",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:22] keeps explicit timeoutSeconds config",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] keeps explicit probeAgent config",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:33] keeps explicit probeAgent config",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] accepts agent command overrides",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:44] accepts agent command overrides",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] leaves probeAgent undefined by default so the runtime picks its built-in probe agent",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:61] leaves probeAgent undefined by default so the runtime picks its built-in probe agent",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] carries an explicit probeAgent through to the resolved plugin config, trimmed and lowercased",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:70] carries an explicit probeAgent through to the resolved plugin config, trimmed and lowercased",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] rejects an empty probeAgent string",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:81] rejects an empty probeAgent string",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:81",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] injects the built-in plugin-tools MCP server only when explicitly enabled",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:92] injects the built-in plugin-tools MCP server only when explicitly enabled",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:92",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] injects the built-in OpenClaw tools MCP server only when explicitly enabled",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:107] injects the built-in OpenClaw tools MCP server only when explicitly enabled",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:107",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts] keeps the runtime json schema in sync with the manifest config schema",
+TEST_CASE("v4.29 [extensions/acpx/src/config.test.ts:122] keeps the runtime json schema in sync with the manifest config schema",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/config.test.ts:122",
                "upstream it() block #9",

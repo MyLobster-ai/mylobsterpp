@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts] authorizes when sender matches allowFrom",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts:56] authorizes when sender matches allowFrom",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-elevated.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts] does not authorize when only recipient matches allowFrom",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts:63] does not authorize when only recipient matches allowFrom",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-elevated.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts] does not authorize untyped mutable sender fields",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts:70] does not authorize untyped mutable sender fields",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-elevated.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts] authorizes mutable sender fields only with explicit prefix",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-elevated.test.ts:82] authorizes mutable sender fields only with explicit prefix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-elevated.test.ts:82",
                "upstream it() block #3",

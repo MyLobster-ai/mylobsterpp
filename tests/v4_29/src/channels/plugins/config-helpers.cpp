@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts] clears configured values and removes empty account entries",
+TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts:5] clears configured values and removes empty account entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-helpers.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts] treats empty string values as not configured by default",
+TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts:23] treats empty string values as not configured by default",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-helpers.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts] can mark cleared when fields are present even if values are empty",
+TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts:41] can mark cleared when fields are present even if values are empty",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-helpers.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts] keeps other account fields intact",
+TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts:60] keeps other account fields intact",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-helpers.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts] returns unchanged when account entry is missing",
+TEST_CASE("v4.29 [src/channels/plugins/config-helpers.test.ts:89] returns unchanged when account entry is missing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/config-helpers.test.ts:89",
                "upstream it() block #4",

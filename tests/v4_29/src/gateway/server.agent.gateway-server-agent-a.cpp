@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent marks implicit delivery when lastTo is stale",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:169] agent marks implicit delivery when lastTo is stale",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:169",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent forwards sessionKey to agentCommand",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:198] agent forwards sessionKey to agentCommand",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:198",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent preserves spawnDepth on subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:222] agent preserves spawnDepth on subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:222",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent derives sessionKey from agentId",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:251] agent derives sessionKey from agentId",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:251",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent rejects unknown reply channel",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:274] agent rejects unknown reply channel",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:274",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent rejects mismatched agentId and sessionKey",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:287] agent rejects mismatched agentId and sessionKey",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:287",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent rejects malformed agent-prefixed session keys",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:302] agent rejects malformed agent-prefixed session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:302",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent forwards accountId to agentCommand",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:315] agent forwards accountId to agentCommand",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:315",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent avoids lastAccountId when explicit to is provided",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:336] agent avoids lastAccountId when explicit to is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:336",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent keeps explicit accountId when explicit to is provided",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:355] agent keeps explicit accountId when explicit to is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:355",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent falls back to lastAccountId for implicit delivery",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:375] agent falls back to lastAccountId for implicit delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:375",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent forwards image attachments as images[]",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:393] agent forwards image attachments as images[]",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:393",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts] agent errors when delivery requested and no last channel exists",
+TEST_CASE("v4.29 [src/gateway/server.agent.gateway-server-agent-a.test.ts:430] agent errors when delivery requested and no last channel exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.agent.gateway-server-agent-a.test.ts:430",
                "upstream it() block #12",

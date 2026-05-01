@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program.smoke.test.ts] registers message + status commands",
+TEST_CASE("v4.29 [src/cli/program.smoke.test.ts:47] registers message + status commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program.smoke.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program.smoke.test.ts] runs tui with explicit timeout override",
+TEST_CASE("v4.29 [src/cli/program.smoke.test.ts:53] runs tui with explicit timeout override",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program.smoke.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program.smoke.test.ts] runs crestodian one-shot requests",
+TEST_CASE("v4.29 [src/cli/program.smoke.test.ts:58] runs crestodian one-shot requests",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program.smoke.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program.smoke.test.ts] warns and ignores invalid tui timeout override",
+TEST_CASE("v4.29 [src/cli/program.smoke.test.ts:65] warns and ignores invalid tui timeout override",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program.smoke.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program.smoke.test.ts] runs setup wizard when wizard flags are present",
+TEST_CASE("v4.29 [src/cli/program.smoke.test.ts:71] runs setup wizard when wizard flags are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program.smoke.test.ts:71",
                "upstream it() block #4",

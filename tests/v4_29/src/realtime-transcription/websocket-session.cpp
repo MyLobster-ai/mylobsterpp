@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/realtime-transcription/websocket-session.test.ts] flushes queued binary audio after an open-ready connection",
+TEST_CASE("v4.29 [src/realtime-transcription/websocket-session.test.ts:59] flushes queued binary audio after an open-ready connection",
           "[v4_29][parity_gap][realtime-transcription]") {
     PARITY_GAP("src/realtime-transcription/websocket-session.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-transcription/websocket-session.test.ts] lets providers mark ready after a JSON handshake",
+TEST_CASE("v4.29 [src/realtime-transcription/websocket-session.test.ts:92] lets providers mark ready after a JSON handshake",
           "[v4_29][parity_gap][realtime-transcription]") {
     PARITY_GAP("src/realtime-transcription/websocket-session.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-transcription/websocket-session.test.ts] rejects provider setup errors before ready",
+TEST_CASE("v4.29 [src/realtime-transcription/websocket-session.test.ts:132] rejects provider setup errors before ready",
           "[v4_29][parity_gap][realtime-transcription]") {
     PARITY_GAP("src/realtime-transcription/websocket-session.test.ts:132",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/kilocode/index.test.ts] owns passthrough-gemini replay policy for Gemini-backed models",
+TEST_CASE("v4.29 [extensions/kilocode/index.test.ts:9] owns passthrough-gemini replay policy for Gemini-backed models",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/index.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/index.test.ts] wires kilocode-thinking stream hooks",
+TEST_CASE("v4.29 [extensions/kilocode/index.test.ts:18] wires kilocode-thinking stream hooks",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/index.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/index.test.ts] publishes configured Kilo models through plugin-owned catalog augmentation",
+TEST_CASE("v4.29 [extensions/kilocode/index.test.ts:72] publishes configured Kilo models through plugin-owned catalog augmentation",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/index.test.ts:72",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/irc/src/monitor.test.ts] keeps channel target for group messages",
+TEST_CASE("v4.29 [extensions/irc/src/monitor.test.ts:5] keeps channel target for group messages",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/monitor.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/monitor.test.ts] maps DM target to sender nick and preserves raw target",
+TEST_CASE("v4.29 [extensions/irc/src/monitor.test.ts:18] maps DM target to sender nick and preserves raw target",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/monitor.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/monitor.test.ts] falls back to raw target when sender nick is empty",
+TEST_CASE("v4.29 [extensions/irc/src/monitor.test.ts:31] falls back to raw target when sender nick is empty",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/monitor.test.ts:31",
                "upstream it() block #2",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalouser/src/status-issues.test.ts] flags missing auth when configured is false",
+TEST_CASE("v4.29 [extensions/zalouser/src/status-issues.test.ts:6] flags missing auth when configured is false",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/status-issues.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/status-issues.test.ts] warns when dmPolicy is open",
+TEST_CASE("v4.29 [extensions/zalouser/src/status-issues.test.ts:20] warns when dmPolicy is open",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/status-issues.test.ts:20",
                "upstream it() block #1",

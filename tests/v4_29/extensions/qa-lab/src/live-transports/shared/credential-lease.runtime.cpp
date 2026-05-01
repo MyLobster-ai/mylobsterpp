@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] uses env credentials by default",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:20] uses env credentials by default",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] acquires, heartbeats, and releases convex credentials",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:38] acquires, heartbeats, and releases convex credentials",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] defaults convex credential role to maintainer outside CI",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:83] defaults convex credential role to maintainer outside CI",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] defaults convex credential role to ci when CI=true",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:112] defaults convex credential role to ci when CI=true",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] retries convex acquire while the pool is exhausted",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:142] retries convex acquire while the pool is exhausted",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:142",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] rejects non-https convex site URLs unless local insecure opt-in is enabled",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:198] rejects non-https convex site URLs unless local insecure opt-in is enabled",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:198",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] allows loopback http URLs when OPENCLAW_QA_ALLOW_INSECURE_HTTP is enabled",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:214] allows loopback http URLs when OPENCLAW_QA_ALLOW_INSECURE_HTTP is enabled",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:214",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] rejects unsafe endpoint prefix overrides",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:243] rejects unsafe endpoint prefix overrides",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:243",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] releases acquired lease when payload parsing fails",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:260] releases acquired lease when payload parsing fails",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:260",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] fails convex mode when auth secret is missing",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:296] fails convex mode when auth secret is missing",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:296",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts] captures heartbeat failures for fail-fast checks",
+TEST_CASE("v4.29 [extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:312] captures heartbeat failures for fail-fast checks",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/live-transports/shared/credential-lease.runtime.test.ts:312",
                "upstream it() block #10",

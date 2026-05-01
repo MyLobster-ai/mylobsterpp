@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts] dispatches to enabled web content extractors",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts:18] dispatches to enabled web content extractors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.readability.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts] reuses extractor resolution for repeated calls with the same config object",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts:44] reuses extractor resolution for repeated calls with the same config object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.readability.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts] returns null when no extractor produces content",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts:74] returns null when no extractor produces content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.readability.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts] continues when a plugin extractor throws",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts:93] continues when a plugin extractor throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.readability.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts] returns null when extractor loading throws",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.readability.test.ts:123] returns null when extractor loading throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.readability.test.ts:123",
                "upstream it() block #4",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts] warns when named accounts exist without default and no valid binding exists",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:6] warns when named accounts exist without default and no valid binding exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts] does not warn when an explicit account binding exists",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:25] does not warn when an explicit account binding exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts] warns when bindings cover only a subset of configured accounts",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:40] warns when bindings cover only a subset of configured accounts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts] does not warn when wildcard account binding exists",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:59] does not warn when wildcard account binding exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts] does not warn when default account is present",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:74] does not warn when default account is present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.test.ts:74",
                "upstream it() block #4",

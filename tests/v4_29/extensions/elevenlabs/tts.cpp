@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts] includes parsed provider detail and request id for JSON API errors",
+TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts:41] includes parsed provider detail and request id for JSON API errors",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/tts.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts] falls back to raw body text when the error body is non-JSON",
+TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts:67] falls back to raw body text when the error body is non-JSON",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/tts.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts] caps streamed non-JSON error reads instead of consuming full response bodies",
+TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts:74] caps streamed non-JSON error reads instead of consuming full response bodies",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/tts.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts] keeps the MPEG Accept header for MP3 output",
+TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts:89] keeps the MPEG Accept header for MP3 output",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/tts.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts] omits the MPEG Accept header for PCM telephony output",
+TEST_CASE("v4.29 [extensions/elevenlabs/tts.test.ts:98] omits the MPEG Accept header for PCM telephony output",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/tts.test.ts:98",
                "upstream it() block #4",

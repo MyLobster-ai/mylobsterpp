@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts] passes senderIsOwner=false to isolated cron agent runs",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts:77] passes senderIsOwner=false to isolated cron agent runs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.owner-auth.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts] authorizes the exact isolated cron toolsAllow=cron self-removal path",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts:89] authorizes the exact isolated cron toolsAllow=cron self-removal path",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.owner-auth.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts] normalizes toolsAllow before authorizing isolated cron self-removal",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts:104] normalizes toolsAllow before authorizing isolated cron self-removal",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.owner-auth.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts] does not authorize cron when isolated cron toolsAllow omits cron",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.owner-auth.test.ts:119] does not authorize cron when isolated cron toolsAllow omits cron",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.owner-auth.test.ts:119",
                "upstream it() block #3",

@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] attempts compaction when LLM times out with high prompt token usage (>65%)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:38] attempts compaction when LLM times out with high prompt token usage (>65%)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] retries the prompt after successful timeout compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:106] retries the prompt after successful timeout compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] passes channel, thread, message, and sender context into timeout compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:150] passes channel, thread, message, and sender context into timeout compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] falls through to normal handling when timeout compaction fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:196] falls through to normal handling when timeout compaction fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:196",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] does not attempt compaction when prompt token usage is low",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:222] does not attempt compaction when prompt token usage is low",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:222",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] points idle-timeout errors at the provider timeout config key",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:241] points idle-timeout errors at the provider timeout config key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:241",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] retries one silent idle timeout before surfacing an error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:260] retries one silent idle timeout before surfacing an error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:260",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] does not attempt compaction for low-context timeouts on later retries",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:281] does not attempt compaction for low-context timeouts on later retries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:281",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] still attempts compaction for timed-out attempts that set aborted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:306] still attempts compaction for timed-out attempts that set aborted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:306",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] does not attempt compaction when timedOutDuringCompaction is true",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:332] does not attempt compaction when timedOutDuringCompaction is true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:332",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] falls through to failover rotation after max timeout compaction attempts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:349] falls through to failover rotation after max timeout compaction attempts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:349",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] catches thrown errors from contextEngine.compact during timeout recovery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:404] catches thrown errors from contextEngine.compact during timeout recovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:404",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] fires compaction hooks during timeout recovery for ownsCompaction engines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:425] fires compaction hooks during timeout recovery for ownsCompaction engines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:425",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] counts compacted:false timeout compactions against the retry cap across profile rotation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:471] counts compacted:false timeout compactions against the retry cap across profile rotation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:471",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] counts thrown timeout compactions against the retry cap across profile rotation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:534] counts thrown timeout compactions against the retry cap across profile rotation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:534",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts] uses prompt/input tokens for ratio, not total tokens",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:577] uses prompt/input tokens for ratio, not total tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.timeout-triggered-compaction.test.ts:577",
                "upstream it() block #15",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/server.startup.test.ts] waits for gateway hello before creating AgentSideConnection",
+TEST_CASE("v4.29 [src/acp/server.startup.test.ts:217] waits for gateway hello before creating AgentSideConnection",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/server.startup.test.ts:217",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/server.startup.test.ts] routes logs to stderr before loading gateway config",
+TEST_CASE("v4.29 [src/acp/server.startup.test.ts:232] routes logs to stderr before loading gateway config",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/server.startup.test.ts:232",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/server.startup.test.ts] rejects startup when gateway connect fails before hello",
+TEST_CASE("v4.29 [src/acp/server.startup.test.ts:252] rejects startup when gateway connect fails before hello",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/server.startup.test.ts:252",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/server.startup.test.ts] passes resolved SecretInput gateway credentials to the ACP gateway client",
+TEST_CASE("v4.29 [src/acp/server.startup.test.ts:272] passes resolved SecretInput gateway credentials to the ACP gateway client",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/server.startup.test.ts:272",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/server.startup.test.ts] passes CLI URL override context into shared gateway auth resolution",
+TEST_CASE("v4.29 [src/acp/server.startup.test.ts:304] passes CLI URL override context into shared gateway auth resolution",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/server.startup.test.ts:304",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/server.startup.test.ts] does not proxy the standalone ACP control-plane Gateway connection",
+TEST_CASE("v4.29 [src/acp/server.startup.test.ts:327] does not proxy the standalone ACP control-plane Gateway connection",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/server.startup.test.ts:327",
                "upstream it() block #5",

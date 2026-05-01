@@ -5,320 +5,320 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] shows the force overwrite option in install help",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:244] shows the force overwrite option in install help",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:244",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] exits when --marketplace is combined with --link",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:259] exits when --marketplace is combined with --link",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:259",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] exits when --force is combined with --link",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:268] exits when --force is combined with --link",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:268",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] exits when marketplace install fails",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:278] exits when marketplace install fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:278",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes the active profile extensions dir to marketplace installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:292] passes the active profile extensions dir to marketplace installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:292",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] fails closed for unrelated invalid config before installer side effects",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:308] fails closed for unrelated invalid config before installer side effects",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:308",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] installs marketplace plugins and persists plugin index",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:338] installs marketplace plugins and persists plugin index",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:338",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes force through as overwrite mode for marketplace installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:393] passes force through as overwrite mode for marketplace installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:393",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] installs ClawHub plugins and persists source metadata",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:407] installs ClawHub plugins and persists source metadata",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:407",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes the active profile extensions dir to ClawHub installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:453] passes the active profile extensions dir to ClawHub installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:453",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not persist incomplete config entries for config-gated bundled installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:484] does not persist incomplete config entries for config-gated bundled installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:484",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] enables config-gated bundled installs when provider-backed config is explicit",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:516] enables config-gated bundled installs when provider-backed config is explicit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:516",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes force through as overwrite mode for ClawHub installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:542] passes force through as overwrite mode for ClawHub installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:542",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] keeps explicit ClawHub versions pinned in install records",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:577] keeps explicit ClawHub versions pinned in install records",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:577",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] prefers ClawHub before npm for bare plugin specs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:619] prefers ClawHub before npm for bare plugin specs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:619",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] keeps explicit bare ClawHub selectors in install records",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:661] keeps explicit bare ClawHub selectors in install records",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:661",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] falls back to npm when ClawHub does not have the package",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:700] falls back to npm when ClawHub does not have the package",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:700",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] installs directly from npm when npm: prefix is used",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:717] installs directly from npm when npm: prefix is used",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:717",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes the active profile extensions dir to npm installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:749] passes the active profile extensions dir to npm installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:749",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes npm: prefix installs through npm options without ClawHub lookup",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:773] passes npm: prefix installs through npm options without ClawHub lookup",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:773",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] reports npm install failures without trying ClawHub when npm: prefix is used",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:800] reports npm install failures without trying ClawHub when npm: prefix is used",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:800",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not resolve npm: prefixed bundled plugin ids through bundled installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:819] does not resolve npm: prefixed bundled plugin ids through bundled installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:819",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] rejects empty npm: prefix installs before resolver lookup",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:845] rejects empty npm: prefix installs before resolver lookup",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:845",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes dangerous force unsafe install to marketplace installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:855] passes dangerous force unsafe install to marketplace installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:855",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes dangerous force unsafe install to npm installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:876] passes dangerous force unsafe install to npm installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:876",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes dangerous force unsafe install to linked path probe installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:889] passes dangerous force unsafe install to linked path probe installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:889",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes dangerous force unsafe install to linked hook-pack probe fallback",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:934] passes dangerous force unsafe install to linked hook-pack probe fallback",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:934",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for linked path when a no-flag security scan blocks",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:962] does not fall back to hook pack for linked path when a no-flag security scan blocks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:962",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes dangerous force unsafe install to local hook-pack fallback installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:986] passes dangerous force unsafe install to local hook-pack fallback installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:986",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes the active profile extensions dir to local path installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1013] passes the active profile extensions dir to local path installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1013",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes force through as overwrite mode for npm installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1047] passes force through as overwrite mode for npm installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1047",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] suggests update or --force when npm plugin install target already exists",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1060] suggests update or --force when npm plugin install target already exists",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1060",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not append hook-pack fallback details for managed extensions boundary failures",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1083] does not append hook-pack fallback details for managed extensions boundary failures",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1083",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes the install logger to the --link dry-run probe",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1108] passes the install logger to the --link dry-run probe",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1108",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for local path when a no-flag security scan fails",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1180] does not fall back to hook pack for local path when a no-flag security scan fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1180",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for local path when dangerous force unsafe install is set",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1204] does not fall back to hook pack for local path when dangerous force unsafe install is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1204",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for local path when security scan fails under dangerous force unsafe install",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1233] does not fall back to hook pack for local path when security scan fails under dangerous force unsafe install",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1233",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for npm installs when dangerous force unsafe install is set",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1262] does not fall back to hook pack for npm installs when dangerous force unsafe install is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1262",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for npm installs when a no-flag security scan blocks",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1286] does not fall back to hook pack for npm installs when a no-flag security scan blocks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1286",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to hook pack for npm installs when security scan fails under dangerous force unsafe install",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1301] does not fall back to hook pack for npm installs when security scan fails under dangerous force unsafe install",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1301",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] still falls back to local hook pack when dangerous force unsafe install is set for non-security errors",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1325] still falls back to local hook pack when dangerous force unsafe install is set for non-security errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1325",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] still falls back to npm hook pack when dangerous force unsafe install is set for non-security errors",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1375] still falls back to npm hook pack when dangerous force unsafe install is set for non-security errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1375",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] does not fall back to npm when ClawHub rejects a real package",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1430] does not fall back to npm when ClawHub rejects a real package",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1430",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] falls back to installing hook packs from npm specs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1443] falls back to installing hook packs from npm specs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1443",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts] passes force through as overwrite mode for hook-pack npm fallback installs",
+TEST_CASE("v4.29 [src/cli/plugins-cli.install.test.ts:1464] passes force through as overwrite mode for hook-pack npm fallback installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.install.test.ts:1464",
                "upstream it() block #44",

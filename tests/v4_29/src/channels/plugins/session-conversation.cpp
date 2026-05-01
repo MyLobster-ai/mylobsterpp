@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts] keeps generic :thread: parsing in core",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts:22] keeps generic :thread: parsing in core",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts] lets Telegram own :topic: session grammar",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts:37] lets Telegram own :topic: session grammar",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts] does not load bundled session-key fallbacks for inactive channel plugins",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts:57] does not load bundled session-key fallbacks for inactive channel plugins",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts] lets Feishu own parent fallback candidates",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts:81] lets Feishu own parent fallback candidates",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts] keeps the legacy parent-candidate hook as a fallback only",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.test.ts:104] keeps the legacy parent-candidate hook as a fallback only",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.test.ts:104",
                "upstream it() block #4",

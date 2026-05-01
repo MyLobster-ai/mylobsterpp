@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/index.test.ts] is opt-in by default",
+TEST_CASE("v4.29 [extensions/codex/index.test.ts:8] is opt-in by default",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/index.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/index.test.ts] registers the codex provider and agent harness",
+TEST_CASE("v4.29 [extensions/codex/index.test.ts:16] registers the codex provider and agent harness",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/index.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/index.test.ts] registers with capture APIs that do not expose conversation binding hooks yet",
+TEST_CASE("v4.29 [extensions/codex/index.test.ts:62] registers with capture APIs that do not expose conversation binding hooks yet",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/index.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/index.test.ts] only claims the codex provider by default",
+TEST_CASE("v4.29 [extensions/codex/index.test.ts:83] only claims the codex provider by default",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/index.test.ts:83",
                "upstream it() block #3",

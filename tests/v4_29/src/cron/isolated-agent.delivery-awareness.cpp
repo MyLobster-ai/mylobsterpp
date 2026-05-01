@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.delivery-awareness.test.ts] queues delivered isolated cron text for the next main-session turn",
+TEST_CASE("v4.29 [src/cron/isolated-agent.delivery-awareness.test.ts:57] queues delivered isolated cron text for the next main-session turn",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.delivery-awareness.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.delivery-awareness.test.ts] uses the global main queue when session scope is global",
+TEST_CASE("v4.29 [src/cron/isolated-agent.delivery-awareness.test.ts:81] uses the global main queue when session scope is global",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.delivery-awareness.test.ts:81",
                "upstream it() block #1",

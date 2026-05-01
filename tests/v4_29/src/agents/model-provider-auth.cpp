@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-provider-auth.test.ts] accepts implicit Bedrock AWS SDK auth without an API key",
+TEST_CASE("v4.29 [src/agents/model-provider-auth.test.ts:24] accepts implicit Bedrock AWS SDK auth without an API key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-provider-auth.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-provider-auth.test.ts] accepts local no-key custom providers",
+TEST_CASE("v4.29 [src/agents/model-provider-auth.test.ts:35] accepts local no-key custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-provider-auth.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-provider-auth.test.ts] keeps remote no-key custom providers unavailable",
+TEST_CASE("v4.29 [src/agents/model-provider-auth.test.ts:58] keeps remote no-key custom providers unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-provider-auth.test.ts:58",
                "upstream it() block #2",

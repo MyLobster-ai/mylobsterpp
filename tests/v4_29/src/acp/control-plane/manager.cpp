@@ -5,397 +5,397 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] marks ACP-shaped sessions without metadata as stale",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:241] marks ACP-shaped sessions without metadata as stale",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:241",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] canonicalizes the main alias before ACP rehydrate after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:258] canonicalizes the main alias before ACP rehydrate after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:258",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] tracks parented direct ACP turns in the task registry",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:309] tracks parented direct ACP turns in the task registry",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:309",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] serializes concurrent turns for the same ACP session",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:377] serializes concurrent turns for the same ACP session",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:377",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] rejects a queued turn promptly when its caller aborts before the actor is free",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:435] rejects a queued turn promptly when its caller aborts before the actor is free",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:435",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] times out a hung persistent turn without closing the session and lets queued work continue",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:516] times out a hung persistent turn without closing the session and lets queued work continue",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:516",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] keeps timed-out runtime handles counted until timeout cleanup finishes",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:608] keeps timed-out runtime handles counted until timeout cleanup finishes",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:608",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] runs turns for different ACP sessions in parallel",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:693] runs turns for different ACP sessions in parallel",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:693",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] reuses runtime session handles for repeat turns in the same manager process",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:754] reuses runtime session handles for repeat turns in the same manager process",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:754",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] re-ensures cached runtime handles when the backend reports the session is dead",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:786] re-ensures cached runtime handles when the backend reports the session is dead",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:786",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] re-ensures cached runtime handles when persisted ACP session identity changes",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:832] re-ensures cached runtime handles when persisted ACP session identity changes",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:832",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] rehydrates runtime handles after a manager restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:905] rehydrates runtime handles after a manager restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:905",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] passes persisted ACP backend session identity back into ensureSession for configured bindings after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:937] passes persisted ACP backend session identity back into ensureSession for configured bindings after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:937",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] prefers the persisted agent session id when reopening an ACP runtime after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:980] prefers the persisted agent session id when reopening an ACP runtime after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:980",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] passes persisted cwd runtime options into ensureSession after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1025] passes persisted cwd runtime options into ensureSession after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1025",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] passes persisted model runtime options into ensureSession after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1064] passes persisted model runtime options into ensureSession after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1064",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] passes persisted thinking runtime options into ensureSession after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1102] passes persisted thinking runtime options into ensureSession after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1102",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] does not resume persisted ACP identity for oneshot sessions after restart",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1140] does not resume persisted ACP identity for oneshot sessions after restart",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1140",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] falls back to a fresh ensure without reusing stale agent session ids",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1187] falls back to a fresh ensure without reusing stale agent session ids",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1187",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] enforces acp.maxConcurrentSessions when opening new runtime handles",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1284] enforces acp.maxConcurrentSessions when opening new runtime handles",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1284",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] enforces acp.maxConcurrentSessions during initializeSession",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1332] enforces acp.maxConcurrentSessions during initializeSession",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1332",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] persists runtime options provided during initializeSession",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1372] persists runtime options provided during initializeSession",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1372",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] preserves runtimeOptions cwd when initializeSession cwd is omitted",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1414] preserves runtimeOptions cwd when initializeSession cwd is omitted",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1414",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] drops cached runtime handles after tolerated close failures",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1453] drops cached runtime handles after tolerated close failures",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1453",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] treats stale session init failures as recoverable during discard resets",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1525] treats stale session init failures as recoverable during discard resets",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1525",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] treats unsupported close controls as recoverable during discard cleanup",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1558] treats unsupported close controls as recoverable during discard cleanup",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1558",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] clears persisted resume identity when close discards persistent state",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1596] clears persisted resume identity when close discards persistent state",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1596",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] prepares a fresh persistent session before ensure when metadata has no stable session id",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1660] prepares a fresh persistent session before ensure when metadata has no stable session id",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1660",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] skips runtime re-ensure when discarding a pending persistent session",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1734] skips runtime re-ensure when discarding a pending persistent session",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1734",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] evicts idle cached runtimes before enforcing max concurrent limits",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1798] evicts idle cached runtimes before enforcing max concurrent limits",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1798",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] tracks ACP turn latency and error-code observability",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1860] tracks ACP turn latency and error-code observability",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1860",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] rolls back ensured runtime sessions when metadata persistence fails",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1912] rolls back ensured runtime sessions when metadata persistence fails",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1912",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] preempts an active turn on cancel and returns to idle state",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1939] preempts an active turn on cancel and returns to idle state",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1939",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] cleans actor-tail bookkeeping after session turns complete",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:1998] cleans actor-tail bookkeeping after session turns complete",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:1998",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] surfaces backend failures raised after a done event",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2041] surfaces backend failures raised after a done event",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2041",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] rejects ACP streams that end without a terminal done event",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2077] rejects ACP streams that end without a terminal done event",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2077",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] marks the session as errored when runtime ensure fails before turn start",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2115] marks the session as errored when runtime ensure fails before turn start",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2115",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] retries once with a fresh runtime handle after early acpx exits",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2150] retries once with a fresh runtime handle after early acpx exits",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2150",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] retries once with a fresh persistent session after an early missing-session turn failure",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2196] retries once with a fresh persistent session after an early missing-session turn failure",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2196",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] persists runtime mode changes through setSessionRuntimeMode",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2302] persists runtime mode changes through setSessionRuntimeMode",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2302",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] reapplies persisted controls on next turn after runtime option updates",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2332] reapplies persisted controls on next turn after runtime option updates",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2332",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] reconciles persisted ACP session identifiers from runtime status after a turn",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2396] reconciles persisted ACP session identifiers from runtime status after a turn",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2396",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] reconciles oneshot ACP identity from runtime status before closing after a turn",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2467] reconciles oneshot ACP identity from runtime status before closing after a turn",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2467",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] reconciles pending ACP identities during startup scan",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2552] reconciles pending ACP identities during startup scan",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2552",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] skips startup reconcile for pending identities without stable runtime ids",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2626] skips startup reconcile for pending identities without stable runtime ids",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2626",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] reconciles prompt-learned agent session IDs even when runtime status omits them",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2677] reconciles prompt-learned agent session IDs even when runtime status omits them",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2677",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] skips startup identity reconciliation for already resolved sessions",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2754] skips startup identity reconciliation for already resolved sessions",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2754",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] preserves existing ACP session identifiers when ensure returns none",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2794] preserves existing ACP session identifiers when ensure returns none",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2794",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] applies persisted runtime options before running turns",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2834] applies persisted runtime options before running turns",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2834",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] re-ensures runtime handles after cwd runtime option updates",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2895] re-ensures runtime handles after cwd runtime option updates",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2895",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] returns unsupported-control error when backend does not support set_config_option",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:2968] returns unsupported-control error when backend does not support set_config_option",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:2968",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] rejects invalid runtime option values before backend controls run",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:3000] rejects invalid runtime option values before backend controls run",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:3000",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] can close and clear metadata when backend is unavailable",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:3036] can close and clear metadata when backend is unavailable",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:3036",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] does not fail reset close recovery when backend lookup also throws",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:3064] does not fail reset close recovery when backend lookup also throws",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:3064",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] prepares a fresh session during reset recovery even when the backend is unhealthy",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:3092] prepares a fresh session during reset recovery even when the backend is unhealthy",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:3092",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts] surfaces metadata clear errors during closeSession",
+TEST_CASE("v4.29 [src/acp/control-plane/manager.test.ts:3129] surfaces metadata clear errors during closeSession",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/control-plane/manager.test.ts:3129",
                "upstream it() block #55",

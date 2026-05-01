@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/node-shell.test.ts] uses cmd.exe for win-prefixed platform labels",
+TEST_CASE("v4.29 [src/infra/node-shell.test.ts:5] uses cmd.exe for win-prefixed platform labels",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-shell.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-shell.test.ts] uses /bin/sh for non-windows and missing platform values",
+TEST_CASE("v4.29 [src/infra/node-shell.test.ts:29] uses /bin/sh for non-windows and missing platform values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-shell.test.ts:29",
                "upstream it() block #1",

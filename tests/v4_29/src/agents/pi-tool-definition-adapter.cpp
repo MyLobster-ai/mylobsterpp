@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] wraps tool errors into a tool result",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:46] wraps tool errors into a tool result",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] normalizes exec tool aliases in error results",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:57] normalizes exec tool aliases in error results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] coerces details-only tool results to include content",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:67] coerces details-only tool results to include content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:67",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] coerces non-standard object results to include content",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:88] coerces non-standard object results to include content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] passes plain object params through unchanged",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:140] passes plain object params through unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] parses a JSON string into an object (streaming delta accumulation)",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:145] parses a JSON string into an object (streaming delta accumulation)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:145",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] parses a JSON string with surrounding whitespace",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:150] parses a JSON string with surrounding whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:150",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] falls back to empty object for invalid JSON string",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:155] falls back to empty object for invalid JSON string",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] falls back to empty object for empty string",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:160] falls back to empty object for empty string",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:160",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] falls back to empty object for null",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:165] falls back to empty object for null",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:165",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] falls back to empty object for undefined",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:170] falls back to empty object for undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:170",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] falls back to empty object for a JSON array string",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:175] falls back to empty object for a JSON array string",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:175",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] handles nested JSON string correctly",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:180] handles nested JSON string correctly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:180",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] detects collisions with existing built-in names after normalization",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:189] detects collisions with existing built-in names after normalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:189",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] detects duplicate client tool names after normalization",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:198] detects duplicate client tool names after normalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:198",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] detects collisions with reserved Pi built-in tool names",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:206] detects collisions with reserved Pi built-in tool names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:206",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts] wraps conflict errors with a stable prefix",
+TEST_CASE("v4.29 [src/agents/pi-tool-definition-adapter.test.ts:215] wraps conflict errors with a stable prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tool-definition-adapter.test.ts:215",
                "upstream it() block #16",

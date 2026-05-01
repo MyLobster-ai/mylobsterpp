@@ -5,523 +5,523 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] capArrayByJsonBytes trims from the front",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:80] capArrayByJsonBytes trims from the front",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] parseGroupKey handles group keys",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:85] parseGroupKey handles group keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] session defaults include provider-owned thinking options",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:99] session defaults include provider-owned thinking options",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] session defaults and rows use catalog reasoning metadata for provider thinking options",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:146] session defaults and rows use catalog reasoning metadata for provider thinking options",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:146",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] session defaults and rows expose xhigh from configured catalog compat",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:203] session defaults and rows expose xhigh from configured catalog compat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:203",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] session defaults use configured thinking default",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:228] session defaults use configured thinking default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:228",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] session rows use per-agent thinking default from config",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:245] session rows use per-agent thinking default from config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:245",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] session rows prefer per-model thinking over global default",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:281] session rows prefer per-model thinking over global default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:281",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] classifySessionKey respects chat type + prefixes",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:310] classifySessionKey respects chat type + prefixes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:310",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey maps main aliases to default agent main",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:319] resolveSessionStoreKey maps main aliases to default agent main",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:319",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey preserves non-alias agent:main keys for deleted-agent checks",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:333] resolveSessionStoreKey preserves non-alias agent:main keys for deleted-agent checks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:333",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveDeletedAgentIdFromSessionKey rejects non-alias main keys when main is absent",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:343] resolveDeletedAgentIdFromSessionKey rejects non-alias main keys when main is absent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:343",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey canonicalizes bare keys to default agent",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:358] resolveSessionStoreKey canonicalizes bare keys to default agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:358",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey falls back to first list entry when no agent is marked default",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:371] resolveSessionStoreKey falls back to first list entry when no agent is marked default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:371",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey falls back to main when agents.list is missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:382] resolveSessionStoreKey falls back to main when agents.list is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:382",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey normalizes session key casing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:390] resolveSessionStoreKey normalizes session key casing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:390",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveSessionStoreKey honors global scope",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:405] resolveSessionStoreKey honors global scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:405",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveGatewaySessionStoreTarget uses canonical key for main alias",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:416] resolveGatewaySessionStoreTarget uses canonical key for main alias",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:416",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveGatewaySessionStoreTarget includes legacy mixed-case store key",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:433] resolveGatewaySessionStoreTarget includes legacy mixed-case store key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:433",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveGatewaySessionStoreTarget includes all case-variant duplicate keys",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:455] resolveGatewaySessionStoreTarget includes all case-variant duplicate keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:455",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveGatewaySessionStoreTarget finds legacy main alias key when mainKey is customized",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:476] resolveGatewaySessionStoreTarget finds legacy main alias key when mainKey is customized",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:476",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] resolveGatewaySessionStoreTarget preserves discovered store paths for non-round-tripping agent dirs",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:493] resolveGatewaySessionStoreTarget preserves discovered store paths for non-round-tripping agent dirs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:493",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] loadSessionEntry reads discovered stores from non-round-tripping agent dirs",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:520] loadSessionEntry reads discovered stores from non-round-tripping agent dirs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:520",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] loadSessionEntry preserves a listed deleted main session over the live default main",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:553] loadSessionEntry preserves a listed deleted main session over the live default main",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:553",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] loadSessionEntry resolves deleted main aliases when mainKey is customized",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:605] loadSessionEntry resolves deleted main aliases when mainKey is customized",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:605",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] loadSessionEntry prefers the freshest duplicate row for a logical key",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:652] loadSessionEntry prefers the freshest duplicate row for a logical key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:652",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] loadSessionEntry prefers the freshest duplicate row across discovered stores",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:689] loadSessionEntry prefers the freshest duplicate row across discovered stores",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:689",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] pruneLegacyStoreKeys removes alias and case-variant ghost keys",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:740] pruneLegacyStoreKeys removes alias and case-variant ghost keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:740",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] migrateAndPruneGatewaySessionStoreKey promotes the freshest duplicate row",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:755] migrateAndPruneGatewaySessionStoreKey promotes the freshest duplicate row",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:755",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] migrateAndPruneGatewaySessionStoreKey replaces a stale canonical row with a fresher duplicate",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:784] migrateAndPruneGatewaySessionStoreKey replaces a stale canonical row with a fresher duplicate",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:784",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway rejects avatar symlink escapes outside workspace",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:812] listAgentsForGateway rejects avatar symlink escapes outside workspace",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:812",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway allows avatar symlinks that stay inside workspace",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:829] listAgentsForGateway allows avatar symlinks that stay inside workspace",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:829",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway keeps explicit agents.list scope over disk-only agents (scope boundary)",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:848] listAgentsForGateway keeps explicit agents.list scope over disk-only agents (scope boundary)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:848",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway includes effective workspace + model for default agent",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:863] listAgentsForGateway includes effective workspace + model for default agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:863",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway reports effective env runtime fallback override",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:895] listAgentsForGateway reports effective env runtime fallback override",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:895",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway preserves fallback-only agent runtime overrides",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:927] listAgentsForGateway preserves fallback-only agent runtime overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:927",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] listAgentsForGateway respects per-agent fallback override (including explicit empty list)",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:949] listAgentsForGateway respects per-agent fallback override (including explicit empty list)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:949",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] prefers explicit session overrides ahead of runtime model fields",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:979] prefers explicit session overrides ahead of runtime model fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:979",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] preserves openrouter provider when model contains vendor prefix",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:996] preserves openrouter provider when model contains vendor prefix",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:996",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] falls back to override when runtime model is not recorded yet",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1014] falls back to override when runtime model is not recorded yet",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1014",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] keeps nested model ids under the stored provider override",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1028] keeps nested model ids under the stored provider override",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1028",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] preserves explicit wrapper providers for vendor-prefixed override models",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1043] preserves explicit wrapper providers for vendor-prefixed override models",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1043",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] strips a duplicated provider prefix from stored overrides",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1063] strips a duplicated provider prefix from stored overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1063",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] falls back to resolved provider for unprefixed legacy runtime model",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1078] falls back to resolved provider for unprefixed legacy runtime model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1078",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] preserves provider from slash-prefixed model when modelProvider is missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1096] preserves provider from slash-prefixed model when modelProvider is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1096",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] shows the selected override model even when a fallback runtime model exists",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1113] shows the selected override model even when a fallback runtime model exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1113",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] separates Claude CLI runtime metadata from canonical model identity",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1138] separates Claude CLI runtime metadata from canonical model identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1138",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] infers canonical provider for bare CLI models before default-provider fallback",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1167] infers canonical provider for bare CLI models before default-provider fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1167",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] does not inherit default provider for unprefixed legacy runtime model",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1204] does not inherit default provider for unprefixed legacy runtime model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1204",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] infers provider from configured model allowlist when unambiguous",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1214] infers provider from configured model allowlist when unambiguous",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1214",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] infers provider from configured provider catalogs when allowlist is absent",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1227] infers provider from configured provider catalogs when allowlist is absent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1227",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] keeps provider unknown when configured models are ambiguous",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1249] keeps provider unknown when configured models are ambiguous",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1249",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] keeps provider unknown when configured provider catalog matches are ambiguous",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1263] keeps provider unknown when configured provider catalog matches are ambiguous",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1263",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] preserves provider from slash-prefixed runtime model",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1288] preserves provider from slash-prefixed runtime model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1288",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] infers wrapper provider for slash-prefixed runtime model when allowlist match is unique",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1303] infers wrapper provider for slash-prefixed runtime model when allowlist match is unique",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1303",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] canonicalizes CLI runtime provider to the selected model provider",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1326] canonicalizes CLI runtime provider to the selected model provider",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1326",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] prefers configured provider inference over default-provider parsing for bare CLI models",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1342] prefers configured provider inference over default-provider parsing for bare CLI models",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1342",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] returns undefined for undefined entry",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1363] returns undefined for undefined entry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1363",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] prefers displayName when set",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1367] prefers displayName when set",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1367",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] falls back to subject when displayName is missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1377] falls back to subject when displayName is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1377",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] uses first user message when displayName and subject missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1386] uses first user message when displayName and subject missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1386",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] truncates long first user message to 60 chars with ellipsis",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1394] truncates long first user message to 60 chars with ellipsis",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1394",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] truncates at word boundary when possible",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1407] truncates at word boundary when possible",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1407",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] falls back to sessionId prefix with date",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1419] falls back to sessionId prefix with date",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1419",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] falls back to sessionId prefix without date when updatedAt missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1428] falls back to sessionId prefix without date when updatedAt missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1428",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] trims whitespace from displayName",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1437] trims whitespace from displayName",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1437",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] ignores empty displayName and falls through",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1446] ignores empty displayName and falls through",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1446",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] keeps Foundry GPT deployments image-capable even when stale catalog metadata says text-only",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1458] keeps Foundry GPT deployments image-capable even when stale catalog metadata says text-only",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1458",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] uses the preserved Foundry model name hint for alias deployments with stale text-only input metadata",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1470] uses the preserved Foundry model name hint for alias deployments with stale text-only input metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1470",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] treats claude-cli Claude models as image-capable even when catalog metadata is stale or missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1487] treats claude-cli Claude models as image-capable even when catalog metadata is stale or missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1487",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] matches catalog model ids case-insensitively for explicit providers",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1504] matches catalog model ids case-insensitively for explicit providers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1504",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] does not borrow image support from another provider when provider is explicit",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1521] does not borrow image support from another provider when provider is explicit",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1521",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] uses a unique providerless catalog match",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1533] uses a unique providerless catalog match",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1533",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.test.ts] fails closed on ambiguous providerless catalog matches",
+TEST_CASE("v4.29 [src/gateway/session-utils.test.ts:1549] fails closed on ambiguous providerless catalog matches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.test.ts:1549",
                "upstream it() block #73",

@@ -5,348 +5,348 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/release-check.test.ts] accepts legacy 9-digit calver builds before lane-floor cutover",
+TEST_CASE("v4.29 [test/release-check.test.ts:53] accepts legacy 9-digit calver builds before lane-floor cutover",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] requires lane-floor builds on and after lane-floor cutover",
+TEST_CASE("v4.29 [test/release-check.test.ts:59] requires lane-floor builds on and after lane-floor cutover",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] accepts canonical stable lane builds on and after lane-floor cutover",
+TEST_CASE("v4.29 [test/release-check.test.ts:67] accepts canonical stable lane builds on and after lane-floor cutover",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:67",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] keeps generated dynamic imports opaque to tsx",
+TEST_CASE("v4.29 [test/release-check.test.ts:75] keeps generated dynamic imports opaque to tsx",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] keeps the expected packaged CLI smoke command list",
+TEST_CASE("v4.29 [test/release-check.test.ts:79] keeps the expected packaged CLI smoke command list",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] keeps packed completion smoke scoped to one shell cache",
+TEST_CASE("v4.29 [test/release-check.test.ts:90] keeps packed completion smoke scoped to one shell cache",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] builds a packed CLI smoke env with packaged-install guardrails",
+TEST_CASE("v4.29 [test/release-check.test.ts:94] builds a packed CLI smoke env with packaged-install guardrails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:94",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] skips plugin command discovery during packed completion cache smoke",
+TEST_CASE("v4.29 [test/release-check.test.ts:131] skips plugin command discovery during packed completion cache smoke",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:131",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] runs with a sterile env instead of maintainer provider credentials",
+TEST_CASE("v4.29 [test/release-check.test.ts:155] runs with a sterile env instead of maintainer provider credentials",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags invalid bundled extension install metadata",
+TEST_CASE("v4.29 [test/release-check.test.ts:189] flags invalid bundled extension install metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:189",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags invalid bundled extension minHostVersion metadata",
+TEST_CASE("v4.29 [test/release-check.test.ts:206] flags invalid bundled extension minHostVersion metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:206",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] allows install metadata without npmSpec when only non-publish metadata is present",
+TEST_CASE("v4.29 [test/release-check.test.ts:223] allows install metadata without npmSpec when only non-publish metadata is present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:223",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags non-object install metadata instead of throwing",
+TEST_CASE("v4.29 [test/release-check.test.ts:238] flags non-object install metadata instead of throwing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:238",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] maps package names from import specifiers",
+TEST_CASE("v4.29 [test/release-check.test.ts:269] maps package names from import specifiers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:269",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] derives required root mirrors from built root dist imports",
+TEST_CASE("v4.29 [test/release-check.test.ts:278] derives required root mirrors from built root dist imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:278",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags missing root mirrors for plugin deps imported by root dist",
+TEST_CASE("v4.29 [test/release-check.test.ts:317] flags missing root mirrors for plugin deps imported by root dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:317",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags mirrored root runtime metadata without root deps",
+TEST_CASE("v4.29 [test/release-check.test.ts:338] flags mirrored root runtime metadata without root deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:338",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] accepts mirrored root runtime metadata backed by root deps",
+TEST_CASE("v4.29 [test/release-check.test.ts:353] accepts mirrored root runtime metadata backed by root deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:353",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] does not derive root mirrors for root chunks sourced from the owning plugin",
+TEST_CASE("v4.29 [test/release-check.test.ts:366] does not derive root mirrors for root chunks sourced from the owning plugin",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:366",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] does not require root deps for root chunks sourced from the owning installed plugin",
+TEST_CASE("v4.29 [test/release-check.test.ts:389] does not require root deps for root chunks sourced from the owning installed plugin",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:389",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] still requires root deps for root-owned installed chunks",
+TEST_CASE("v4.29 [test/release-check.test.ts:416] still requires root deps for root-owned installed chunks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:416",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] does not compare root mirror versions for plugin manifest deps",
+TEST_CASE("v4.29 [test/release-check.test.ts:445] does not compare root mirror versions for plugin manifest deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:445",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags root mirrors omitted from mirrored root runtime metadata",
+TEST_CASE("v4.29 [test/release-check.test.ts:471] flags root mirrors omitted from mirrored root runtime metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:471",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] accepts matching root mirrors for plugin deps imported by root dist",
+TEST_CASE("v4.29 [test/release-check.test.ts:492] accepts matching root mirrors for plugin deps imported by root dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:492",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags conflicting plugin dependency specs",
+TEST_CASE("v4.29 [test/release-check.test.ts:518] flags conflicting plugin dependency specs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:518",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks all packaged node_modules payloads",
+TEST_CASE("v4.29 [test/release-check.test.ts:541] blocks all packaged node_modules payloads",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:541",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks generated docs artifacts from npm pack output",
+TEST_CASE("v4.29 [test/release-check.test.ts:556] blocks generated docs artifacts from npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:556",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks plugin SDK TypeScript build info from npm pack output",
+TEST_CASE("v4.29 [test/release-check.test.ts:569] blocks plugin SDK TypeScript build info from npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:569",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks local build metadata from npm pack output",
+TEST_CASE("v4.29 [test/release-check.test.ts:575] blocks local build metadata from npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:575",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] keeps local build metadata excluded by package files",
+TEST_CASE("v4.29 [test/release-check.test.ts:581] keeps local build metadata excluded by package files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:581",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks legacy runtime dependency stamps from npm pack output",
+TEST_CASE("v4.29 [test/release-check.test.ts:588] blocks legacy runtime dependency stamps from npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:588",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks private qa channel, qa lab, and suite paths from npm pack output",
+TEST_CASE("v4.29 [test/release-check.test.ts:603] blocks private qa channel, qa lab, and suite paths from npm pack output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:603",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks root dist chunks that still reference private qa lab sources",
+TEST_CASE("v4.29 [test/release-check.test.ts:634] blocks root dist chunks that still reference private qa lab sources",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:634",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] blocks private QA paths in the generated dist inventory",
+TEST_CASE("v4.29 [test/release-check.test.ts:654] blocks private QA paths in the generated dist inventory",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:654",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] requires the shipped channel catalog, control ui, and optional bundled metadata",
+TEST_CASE("v4.29 [test/release-check.test.ts:675] requires the shipped channel catalog, control ui, and optional bundled metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:675",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] accepts the shipped upgrade surface when optional bundled metadata is present",
+TEST_CASE("v4.29 [test/release-check.test.ts:711] accepts the shipped upgrade surface when optional bundled metadata is present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:711",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] requires bundled plugin runtime sidecars that dynamic plugin boundaries resolve at runtime",
+TEST_CASE("v4.29 [test/release-check.test.ts:738] requires bundled plugin runtime sidecars that dynamic plugin boundaries resolve at runtime",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:738",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] points missing runtime build artifacts at pnpm build",
+TEST_CASE("v4.29 [test/release-check.test.ts:752] points missing runtime build artifacts at pnpm build",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:752",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] points missing Control UI artifacts at pnpm ui:build",
+TEST_CASE("v4.29 [test/release-check.test.ts:758] points missing Control UI artifacts at pnpm ui:build",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:758",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] points combined runtime and Control UI misses at both build commands",
+TEST_CASE("v4.29 [test/release-check.test.ts:764] points combined runtime and Control UI misses at both build commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:764",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] does not emit a build hint for unrelated packed paths",
+TEST_CASE("v4.29 [test/release-check.test.ts:772] does not emit a build hint for unrelated packed paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:772",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] accepts pack results within the unpacked size budget",
+TEST_CASE("v4.29 [test/release-check.test.ts:778] accepts pack results within the unpacked size budget",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:778",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags oversized pack results that risk low-memory startup failures",
+TEST_CASE("v4.29 [test/release-check.test.ts:784] flags oversized pack results that risk low-memory startup failures",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:784",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] fails closed when npm pack output omits unpackedSize for every result",
+TEST_CASE("v4.29 [test/release-check.test.ts:792] fails closed when npm pack output omits unpackedSize for every result",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:792",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] flags oversized plugin SDK test-contract entrypoints before publish",
+TEST_CASE("v4.29 [test/release-check.test.ts:805] flags oversized plugin SDK test-contract entrypoints before publish",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:805",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] keeps packed postinstall on the lazy bundled dependency path",
+TEST_CASE("v4.29 [test/release-check.test.ts:829] keeps packed postinstall on the lazy bundled dependency path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:829",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] returns no errors when declared deps are installed at the openclaw package root",
+TEST_CASE("v4.29 [test/release-check.test.ts:867] returns no errors when declared deps are installed at the openclaw package root",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:867",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] surfaces an error naming the owning plugin and missing dependency",
+TEST_CASE("v4.29 [test/release-check.test.ts:883] surfaces an error naming the owning plugin and missing dependency",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:883",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/release-check.test.ts] checks canonical external runtime-deps roots for packed installs",
+TEST_CASE("v4.29 [test/release-check.test.ts:902] checks canonical external runtime-deps roots for packed installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/release-check.test.ts:902",
                "upstream it() block #48",

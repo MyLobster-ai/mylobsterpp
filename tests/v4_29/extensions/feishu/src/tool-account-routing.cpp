@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] wiki tool registers when first account disables it and routes to agentAccountId",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:69] wiki tool registers when first account disables it and routes to agentAccountId",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] wiki tool prefers the active contextual account over configured defaultAccount",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:84] wiki tool prefers the active contextual account over configured defaultAccount",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] drive tool registers when first account disables it and routes to agentAccountId",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:100] drive tool registers when first account disables it and routes to agentAccountId",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] perm tool registers when only second account enables it and routes to agentAccountId",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:115] perm tool registers when only second account enables it and routes to agentAccountId",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] bitable tool routes to agentAccountId and allows explicit accountId override",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:130] bitable tool routes to agentAccountId and allows explicit accountId override",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:130",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] falls back to the configured Feishu default selection when agentAccountId is not a real account",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:142] falls back to the configured Feishu default selection when agentAccountId is not a real account",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts] does not silently fall back when the contextual account is real but uses non-env SecretRefs",
+TEST_CASE("v4.29 [extensions/feishu/src/tool-account-routing.test.ts:157] does not silently fall back when the contextual account is real but uses non-env SecretRefs",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/tool-account-routing.test.ts:157",
                "upstream it() block #6",

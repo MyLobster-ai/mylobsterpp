@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts] uses callback on integrity drift",
+TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts:37] uses callback on integrity drift",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-integrity.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts] returns payload when the drift callback allows continuing",
+TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts:64] returns payload when the drift callback allows continuing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-integrity.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts] warns and aborts by default when no callback is provided",
+TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts:89] warns and aborts by default when no callback is provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-integrity.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts] formats default warning and abort error messages",
+TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts:106] formats default warning and abort error messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-integrity.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts] falls back to the original spec when resolvedSpec is missing",
+TEST_CASE("v4.29 [src/infra/npm-integrity.test.ts:140] falls back to the original spec when resolvedSpec is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-integrity.test.ts:140",
                "upstream it() block #4",

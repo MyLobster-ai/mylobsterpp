@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embeddings-remote-fetch.test.ts] maps remote embedding response data to vectors",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embeddings-remote-fetch.test.ts:22] maps remote embedding response data to vectors",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/embeddings-remote-fetch.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embeddings-remote-fetch.test.ts] throws a status-rich error on non-ok responses",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/embeddings-remote-fetch.test.ts:47] throws a status-rich error on non-ok responses",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/embeddings-remote-fetch.test.ts:47",
                "upstream it() block #1",

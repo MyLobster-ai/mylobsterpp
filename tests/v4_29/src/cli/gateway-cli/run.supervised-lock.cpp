@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] does not retry gateway lock errors outside a supervisor",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:13] does not retry gateway lock errors outside a supervisor",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] leaves a healthy launchd-supervised gateway in control",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:32] leaves a healthy launchd-supervised gateway in control",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] uses exit 78 semantics for healthy systemd-supervised lock conflicts",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:56] uses exit 78 semantics for healthy systemd-supervised lock conflicts",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] bounds supervised retries when the existing gateway stays unhealthy",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:83] bounds supervised retries when the existing gateway stays unhealthy",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] bounds supervised retries for EADDRINUSE lock errors",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:115] bounds supervised retries for EADDRINUSE lock errors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:115",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] keeps unmanaged duplicate starts on the existing exit-success path",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:149] keeps unmanaged duplicate starts on the existing exit-success path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:149",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts] normalizes wildcard bind hosts for local health probes",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run.supervised-lock.test.ts:158] normalizes wildcard bind hosts for local health probes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run.supervised-lock.test.ts:158",
                "upstream it() block #6",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] adds a file",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:196] adds a file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:196",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] updates and moves a file",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:209] updates and moves a file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:209",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] supports end-of-file inserts",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:229] supports end-of-file inserts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:229",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects path traversal outside cwd by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:245] rejects path traversal outside cwd by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:245",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects absolute paths outside cwd by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:265] rejects absolute paths outside cwd by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:265",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] deletes the resolved target path",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:281] deletes the resolved target path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:281",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects symlink escape attempts by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:295] rejects symlink escape attempts by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:295",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects broken final symlink targets outside cwd by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:320] rejects broken final symlink targets outside cwd by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:320",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects hardlink alias escapes by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:347] rejects hardlink alias escapes by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:347",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects symlinks within cwd by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:383] rejects symlinks within cwd by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:383",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] rejects delete path traversal via symlink directories by default",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:409] rejects delete path traversal via symlink directories by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:409",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] allows path traversal when workspaceOnly is explicitly disabled",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:438] allows path traversal when workspaceOnly is explicitly disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:438",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] allows deleting a symlink itself even if it points outside cwd",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:462] allows deleting a symlink itself even if it points outside cwd",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:462",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/apply-patch.test.ts] uses container paths when the sandbox bridge has no local host path",
+TEST_CASE("v4.29 [src/agents/apply-patch.test.ts:572] uses container paths when the sandbox bridge has no local host path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/apply-patch.test.ts:572",
                "upstream it() block #13",

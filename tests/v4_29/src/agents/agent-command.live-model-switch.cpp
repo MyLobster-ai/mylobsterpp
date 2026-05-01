@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] retries with the switched provider/model when LiveSessionModelSwitchError is thrown",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:518] retries with the switched provider/model when LiveSessionModelSwitchError is thrown",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:518",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] validates explicit thinking against configured model compat without an allowlist",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:543] validates explicit thinking against configured model compat without an allowlist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:543",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] records fallback steps to the session trajectory runtime",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:599] records fallback steps to the session trajectory runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:599",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] propagates non-switch errors without retrying and emits lifecycle error",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:635] propagates non-switch errors without retrying and emits lifecycle error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:635",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] propagates authProfileId from the switch error to the retried session entry",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:655] propagates authProfileId from the switch error to the retried session entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:655",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] keeps aliased session auth profiles for codex-cli runs",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:676] keeps aliased session auth profiles for codex-cli runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:676",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] classifies empty embedded run results before model fallback accepts them",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:718] classifies empty embedded run results before model fallback accepts them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:718",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] updates hasSessionModelOverride for fallback resolution after switch",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:762] updates hasSessionModelOverride for fallback resolution after switch",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:762",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] does not flip hasSessionModelOverride on auth-only switch with same model",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:776] does not flip hasSessionModelOverride on auth-only switch with same model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:776",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] sends internal completion wakes to ACP sessions as plain prompt text",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:792] sends internal completion wakes to ACP sessions as plain prompt text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:792",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] allows manual ACP spawn turns when ACP dispatch is disabled",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:845] allows manual ACP spawn turns when ACP dispatch is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:845",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] keeps ordinary ACP turns blocked when ACP dispatch is disabled",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:869] keeps ordinary ACP turns blocked when ACP dispatch is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:869",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts] flips hasSessionModelOverride on provider-only switch with same model",
+TEST_CASE("v4.29 [src/agents/agent-command.live-model-switch.test.ts:894] flips hasSessionModelOverride on provider-only switch with same model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-command.live-model-switch.test.ts:894",
                "upstream it() block #12",

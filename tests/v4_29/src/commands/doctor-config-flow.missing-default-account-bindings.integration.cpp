@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts] warns when named accounts have no valid account-scoped bindings",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts:9] warns when named accounts have no valid account-scoped bindings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts] warns when multiple accounts have no explicit default",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts:27] warns when multiple accounts have no explicit default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts] warns when defaultAccount does not match configured accounts",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts:46] warns when defaultAccount does not match configured accounts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-default-account-bindings.integration.test.ts:46",
                "upstream it() block #2",

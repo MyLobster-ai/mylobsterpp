@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] shows fallback provider details for successful attempts",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:80] shows fallback provider details for successful attempts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] shows attempted provider chain for failed attempts",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:119] shows attempted provider chain for failed attempts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] persists fallback metadata from /tts audio and renders it in /tts status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:149] persists fallback metadata from /tts audio and renders it in /tts status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:149",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] treats bare /tts as status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:197] treats bare /tts as status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:197",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] resolves status config for the active agent",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:208] resolves status config for the active agent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:208",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] passes the active agent and account ids to /tts audio synthesis",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:222] passes the active agent and account ids to /tts audio synthesis",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:222",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] lists and sets configured TTS personas",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:251] lists and sets configured TTS personas",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:251",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] reads the latest assistant transcript reply once",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:269] reads the latest assistant transcript reply once",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:269",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] does not resend /tts latest for the same assistant reply",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:336] does not resend /tts latest for the same assistant reply",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:336",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts] stores chat-scoped TTS overrides on the session entry",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-tts.test.ts:370] stores chat-scoped TTS overrides on the session entry",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-tts.test.ts:370",
                "upstream it() block #9",

@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should not call adapter when disabled",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:124] should not call adapter when disabled",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:124",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should call setReaction with initialEmoji for setQueued immediately",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:139] should call setReaction with initialEmoji for setQueued immediately",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:139",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should debounce setThinking and eventually call adapter",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:148] should debounce setThinking and eventually call adapter",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should debounce setCompacting and eventually call adapter",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:162] should debounce setCompacting and eventually call adapter",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:162",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should classify tool name and debounce",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:171] should classify tool name and debounce",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:171",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should only fire last state when rapidly changing (debounce)",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:235] should only fire last state when rapidly changing (debounce)",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:235",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should deduplicate same emoji calls",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:252] should deduplicate same emoji calls",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:252",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should cancel a pending compacting emoji before resuming thinking",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:267] should cancel a pending compacting emoji before resuming thinking",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:267",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should call removeReaction when adapter supports it and emoji changes",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:280] should call removeReaction when adapter supports it and emoji changes",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:280",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should only call setReaction when adapter lacks removeReaction",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:294] should only call setReaction when adapter lacks removeReaction",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:294",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should clear all known emojis when adapter supports removeReaction",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:309] should clear all known emojis when adapter supports removeReaction",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:309",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should handle clear gracefully when adapter lacks removeReaction",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:322] should handle clear gracefully when adapter lacks removeReaction",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:322",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should restore initial emoji",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:332] should restore initial emoji",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:332",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should use custom emojis when provided",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:343] should use custom emojis when provided",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:343",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should use custom timing when provided",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:361] should use custom timing when provided",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:361",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should call onError callback when adapter throws",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:434] should call onError callback when adapter throws",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:434",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should export CODING_TOOL_TOKENS",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:457] should export CODING_TOOL_TOKENS",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:457",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should export WEB_TOOL_TOKENS",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:461] should export WEB_TOOL_TOKENS",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:461",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should export DEFAULT_EMOJIS with all required keys",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:465] should export DEFAULT_EMOJIS with all required keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:465",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.test.ts] should export DEFAULT_TIMING with all required keys",
+TEST_CASE("v4.29 [src/channels/status-reactions.test.ts:480] should export DEFAULT_TIMING with all required keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.test.ts:480",
                "upstream it() block #19",

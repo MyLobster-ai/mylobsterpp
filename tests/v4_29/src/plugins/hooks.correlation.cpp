@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts] adds runId to legacy before_agent_start events from hook context",
+TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts:14] adds runId to legacy before_agent_start events from hook context",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.correlation.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts] adds runId to agent_end events from hook context",
+TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts:32] adds runId to agent_end events from hook context",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.correlation.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts] times out never-settling agent_end handlers",
+TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts:56] times out never-settling agent_end handlers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.correlation.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts] honors per-hook registration timeouts over the default void hook timeout",
+TEST_CASE("v4.29 [src/plugins/hooks.correlation.test.ts:90] honors per-hook registration timeouts over the default void hook timeout",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.correlation.test.ts:90",
                "upstream it() block #3",

@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] does not crash when preferred-provider lookup sees a provider without an id",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:320] does not crash when preferred-provider lookup sees a provider without an id",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:320",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] exits when config is invalid",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:382] exits when config is invalid",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:382",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] skips prompts and setup steps when flags are set",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:424] skips prompts and setup steps when flags are set",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:424",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] persists skipBootstrap and skips workspace bootstrap creation when requested",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:459] persists skipBootstrap and skips workspace bootstrap creation when requested",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:459",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] fails fast if the auth choice prompt returns nothing",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:504] fails fast if the auth choice prompt returns nothing",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:504",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] launches TUI without auto-delivery when hatching",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:574] launches TUI without auto-delivery when hatching",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:574",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] offers TUI hatch even without BOOTSTRAP.md",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:578] offers TUI hatch even without BOOTSTRAP.md",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:578",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] shows the web search hint at the end of setup",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:582] shows the web search hint at the end of setup",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:582",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] defers channel setup plugin loads during QuickStart until a channel is selected",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:619] defers channel setup plugin loads during QuickStart until a channel is selected",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:619",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] prompts for a model during explicit interactive Ollama setup",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:651] prompts for a model during explicit interactive Ollama setup",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:651",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] re-prompts for auth when applyAuthChoice requests retry selection",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:712] re-prompts for auth when applyAuthChoice requests retry selection",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:712",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] shows plugin compatibility notices for an existing valid config",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:780] shows plugin compatibility notices for an existing valid config",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:780",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] resolves gateway.auth.password SecretRef for local setup probe",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:842] resolves gateway.auth.password SecretRef for local setup probe",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:842",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] passes secretInputMode through to local gateway config step",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:911] passes secretInputMode through to local gateway config step",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:911",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] shows the resolved gateway port in quickstart for fresh envs",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:941] shows the resolved gateway port in quickstart for fresh envs",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:941",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.test.ts] uses manifest setup metadata for post-auth model policy without loading provider runtime",
+TEST_CASE("v4.29 [src/wizard/setup.test.ts:983] uses manifest setup metadata for post-auth model policy without loading provider runtime",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.test.ts:983",
                "upstream it() block #15",

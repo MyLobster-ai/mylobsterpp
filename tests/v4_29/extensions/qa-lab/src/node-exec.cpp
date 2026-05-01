@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts] reuses the current exec path when already running under Node",
+TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts:5] reuses the current exec path when already running under Node",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/node-exec.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts] reuses nodejs as a valid current Node executable",
+TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts:15] reuses nodejs as a valid current Node executable",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/node-exec.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts] resolves node from PATH when the parent runtime is bun",
+TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts:28] resolves node from PATH when the parent runtime is bun",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/node-exec.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts] throws a clear error when node is unavailable",
+TEST_CASE("v4.29 [extensions/qa-lab/src/node-exec.test.ts:42] throws a clear error when node is unavailable",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/node-exec.test.ts:42",
                "upstream it() block #3",

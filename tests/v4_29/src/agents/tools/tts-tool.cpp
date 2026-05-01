@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] uses SILENT_REPLY_TOKEN in guidance text",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:14] uses SILENT_REPLY_TOKEN in guidance text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] stores audio delivery in details.media and preserves the spoken text in content",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:20] stores audio delivery in details.media and preserves the spoken text in content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] uses audioAsVoice from the TTS runtime even when the provider output is not native",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:46] uses audioAsVoice from the TTS runtime even when the provider output is not native",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] passes an optional timeout to speech generation",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:68] passes an optional timeout to speech generation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] passes the active agent id to speech generation",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:88] passes the active agent id to speech generation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] passes the active account id to speech generation",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:107] passes the active account id to speech generation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] echoes longer utterances verbatim into the tool-result content",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:126] echoes longer utterances verbatim into the tool-result content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:126",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] defuses reply-directive tokens embedded in the spoken text",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:141] defuses reply-directive tokens embedded in the spoken text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:141",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] defuses MEDIA lines with non-ASCII leading whitespace",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:164] defuses MEDIA lines with non-ASCII leading whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:164",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] defuses fenced-code delimiters embedded in the spoken text",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:181] defuses fenced-code delimiters embedded in the spoken text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:181",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts] throws when synthesis fails so the agent records a tool error",
+TEST_CASE("v4.29 [src/agents/tools/tts-tool.test.ts:199] throws when synthesis fails so the agent records a tool error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/tts-tool.test.ts:199",
                "upstream it() block #10",

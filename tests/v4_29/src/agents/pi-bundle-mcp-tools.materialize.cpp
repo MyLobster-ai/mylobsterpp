@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts] materializes bundle MCP tools and executes them",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts:56] materializes bundle MCP tools and executes them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-tools.materialize.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts] disambiguates bundle MCP tools that collide with existing tool names",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts:74] disambiguates bundle MCP tools that collide with existing tool names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-tools.materialize.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts] materializes configured MCP tools through the session runtime boundary",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts:83] materializes configured MCP tools through the session runtime boundary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-tools.materialize.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts] returns tools sorted alphabetically for stable prompt-cache keys",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-tools.materialize.test.ts:136] returns tools sorted alphabetically for stable prompt-cache keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-tools.materialize.test.ts:136",
                "upstream it() block #3",

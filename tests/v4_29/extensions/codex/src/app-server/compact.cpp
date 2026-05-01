@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] waits for native app-server compaction before reporting success",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:43] waits for native app-server compaction before reporting success",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] accepts native context-compaction item completion as success",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:81] accepts native context-compaction item completion as success",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] reuses the bound auth profile for native compaction",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:111] reuses the bound auth profile for native compaction",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] fails closed when the persisted binding auth profile disagrees with the runtime request",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:133] fails closed when the persisted binding auth profile disagrees with the runtime request",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:133",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] prefers owning context-engine compaction and records native status separately",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:160] prefers owning context-engine compaction and records native status separately",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:160",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] still runs native compaction when context-engine maintenance fails",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:243] still runs native compaction when context-engine maintenance fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:243",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] records native compaction status when primary compaction has no result payload",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:294] records native compaction status when primary compaction has no result payload",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:294",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] reports context-engine compaction errors without skipping native compaction",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:341] reports context-engine compaction errors without skipping native compaction",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:341",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts] does not fail owning context-engine compaction when Codex native compaction cannot run",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/compact.test.ts:389] does not fail owning context-engine compaction when Codex native compaction cannot run",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/compact.test.ts:389",
                "upstream it() block #8",

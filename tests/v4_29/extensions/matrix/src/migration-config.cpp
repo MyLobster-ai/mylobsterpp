@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] reuses stored user identity for token-only configs when the access token matches",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:23] reuses stored user identity for token-only configs when the access token matches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] ignores stored device IDs from stale cached Matrix credentials",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:53] ignores stored device IDs from stale cached Matrix credentials",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] does not trust stale stored creds on the same homeserver when the token changes",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:86] does not trust stale stored creds on the same homeserver when the token changes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] does not inherit the base userId for non-default token-only accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:115] does not inherit the base userId for non-default token-only accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] does not inherit the base access token for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:147] does not inherit the base access token for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:147",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] does not inherit the global Matrix access token for non-default accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:171] does not inherit the global Matrix access token for non-default accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts] uses the same scoped env token encoding as runtime account auth",
+TEST_CASE("v4.29 [extensions/matrix/src/migration-config.test.ts:199] uses the same scoped env token encoding as runtime account auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/migration-config.test.ts:199",
                "upstream it() block #6",

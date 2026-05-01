@@ -5,229 +5,229 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns undefined when threadRequested is false",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:115] returns undefined when threadRequested is false",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns undefined when channel is not matrix",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:124] returns undefined when channel is not matrix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] proceeds past channel check when channel is ",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:133] proceeds past channel check when channel is ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when thread bindings are disabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:142] returns error when thread bindings are disabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when spawnSubagentSessions is false",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:155] returns error when spawnSubagentSessions is false",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:155",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when spawnSubagentSessions defaults to false (no config)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:168] returns error when spawnSubagentSessions defaults to false (no config)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when requester.to has no room target",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:179] returns error when requester.to has no room target",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:179",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when requester.to is empty",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:192] returns error when requester.to is empty",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:192",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when no binding adapter is available for the account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:202] returns error when no binding adapter is available for the account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:202",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] calls bind with the resolved room id and returns ok",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:219] calls bind with the resolved room id and returns ok",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:219",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] uses ",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:266] uses ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:266",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns error when bind() throws",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:286] returns error when bind() throws",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:286",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] respects per-account threadBindings override over base config",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:297] respects per-account threadBindings override over base config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:297",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] binds thread routing through the lazy registration barrel",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:344] binds thread routing through the lazy registration barrel",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:344",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] resolves delivery targets through the lazy registration barrel",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:363] resolves delivery targets through the lazy registration barrel",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:363",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] does nothing when no matching bindings exist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:413] does nothing when no matching bindings exist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:413",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] removes matching bindings and calls persist on the manager",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:423] removes matching bindings and calls persist on the manager",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:423",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] sends farewell through the binding service when requested",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:449] sends farewell through the binding service when requested",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:449",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] skips persist when removeBindingRecord returns false (binding not found in store)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:492] skips persist when removeBindingRecord returns false (binding not found in store)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:492",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] falls back to listAllBindings when accountId is absent",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:514] falls back to listAllBindings when accountId is absent",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:514",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] does not double-persist when multiple bindings share the same account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:539] does not double-persist when multiple bindings share the same account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:539",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns undefined when expectsCompletionMessage is false",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:571] returns undefined when expectsCompletionMessage is false",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:571",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns undefined when requester channel is not matrix",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:580] returns undefined when requester channel is not matrix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:580",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns undefined when no bindings match the child session key",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:590] returns undefined when no bindings match the child session key",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:590",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns origin with threadId when binding has a distinct parentConversationId",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:610] returns origin with threadId when binding has a distinct parentConversationId",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:610",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns origin without threadId when conversationId equals parentConversationId",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:638] returns origin without threadId when conversationId equals parentConversationId",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:638",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns origin without threadId when binding has no parentConversationId",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:666] returns origin without threadId when binding has no parentConversationId",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:666",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] falls back to the single binding when requesterOrigin threadId does not match any binding",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:692] falls back to the single binding when requesterOrigin threadId does not match any binding",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:692",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] returns undefined when multiple bindings exist and threadId matches none",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:721] returns undefined when multiple bindings exist and threadId matches none",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:721",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] uses listAllBindings when requesterOrigin has no accountId",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:742] uses listAllBindings when requesterOrigin has no accountId",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:742",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] resolves both spawns independently when two accounts fire simultaneously",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:799] resolves both spawns independently when two accounts fire simultaneously",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:799",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts] one account bind failure does not affect the other account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/subagent-hooks.test.ts:835] one account bind failure does not affect the other account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/subagent-hooks.test.ts:835",
                "upstream it() block #31",

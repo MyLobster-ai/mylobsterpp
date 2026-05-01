@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] stops one-off shared clients when no active monitor client is registered",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:67] stops one-off shared clients when no active monitor client is registered",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] skips one-off room preparation when readiness is disabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:79] skips one-off room preparation when readiness is disabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] starts one-off clients when started readiness is required",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:91] starts one-off clients when started readiness is required",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] reuses active monitor client when available",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:100] reuses active monitor client when available",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] starts active clients when started readiness is required",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:117] starts active clients when started readiness is required",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:117",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] uses the implicit resolved account id for active client lookup and storage",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:131] uses the implicit resolved account id for active client lookup and storage",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:131",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] uses explicit cfg instead of loading runtime config",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:165] uses explicit cfg instead of loading runtime config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:165",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] stops shared action clients after wrapped calls succeed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:182] stops shared action clients after wrapped calls succeed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:182",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] can discard read-only shared action clients without persisting crypto state",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:198] can discard read-only shared action clients without persisting crypto state",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:198",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] stops shared action clients when the wrapped call throws",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:215] stops shared action clients when the wrapped call throws",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:215",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts] resolves room ids before running wrapped room actions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/actions/client.test.ts:228] resolves room ids before running wrapped room actions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/actions/client.test.ts:228",
                "upstream it() block #10",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/memory-runtime.test.ts] loads only the configured memory slot plugin",
+TEST_CASE("v4.29 [src/plugins/memory-runtime.test.ts:163] loads only the configured memory slot plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-runtime.test.ts:163",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-runtime.test.ts] does not fall back to broad plugin loading when the memory slot is disabled",
+TEST_CASE("v4.29 [src/plugins/memory-runtime.test.ts:191] does not fall back to broad plugin loading when the memory slot is disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-runtime.test.ts:191",
                "upstream it() block #1",

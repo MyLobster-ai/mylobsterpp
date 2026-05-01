@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts] resolves exact unique display name matches",
+TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts:34] resolves exact unique display name matches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/resolve-targets.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts] does not resolve ambiguous or non-exact matches",
+TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts:52] does not resolve ambiguous or non-exact matches",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/resolve-targets.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts] prefers exact group matches over first partial result",
+TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts:65] prefers exact group matches over first partial result",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/resolve-targets.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts] threads accountId into live Matrix target lookups",
+TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts:89] threads accountId into live Matrix target lookups",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/resolve-targets.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts] reuses directory lookups for normalized duplicate inputs",
+TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts:124] reuses directory lookups for normalized duplicate inputs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/resolve-targets.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts] accepts prefixed fully qualified ids without directory lookups",
+TEST_CASE("v4.29 [extensions/matrix/src/resolve-targets.test.ts:149] accepts prefixed fully qualified ids without directory lookups",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/resolve-targets.test.ts:149",
                "upstream it() block #5",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] covers every pre-release plugin skill surface in the plugin prerelease plan",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:26] covers every pre-release plugin skill surface in the plugin prerelease plan",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] runs the package and Docker product lanes through the existing scheduler",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:34] runs the package and Docker product lanes through the existing scheduler",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] keeps live-ish coverage outside provider-backed Docker lanes",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:61] keeps live-ish coverage outside provider-backed Docker lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] keeps SDK/package boundary checks inside the plugin prerelease suite",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:74] keeps SDK/package boundary checks inside the plugin prerelease suite",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] uses kitchen-sink npm and ClawHub scenarios as the registry install canary",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:84] uses kitchen-sink npm and ClawHub scenarios as the registry install canary",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:84",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] keeps the generic plugin Docker lane as an external install contract canary",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:141] keeps the generic plugin Docker lane as an external install contract canary",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:141",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] wires the full plugin prerelease plan into its release workflow",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:167] wires the full plugin prerelease plan into its release workflow",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:167",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] keeps release-check reruns independent while cancelling superseded umbrella runs",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:310] keeps release-check reruns independent while cancelling superseded umbrella runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:310",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts] keeps the live-ish availability check redacted",
+TEST_CASE("v4.29 [test/scripts/plugin-prerelease-test-plan.test.ts:340] keeps the live-ish availability check redacted",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-prerelease-test-plan.test.ts:340",
                "upstream it() block #8",

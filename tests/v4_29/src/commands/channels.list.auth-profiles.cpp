@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/channels.list.auth-profiles.test.ts] includes local auth profiles in JSON output without loading external profiles",
+TEST_CASE("v4.29 [src/commands/channels.list.auth-profiles.test.ts:72] includes local auth profiles in JSON output without loading external profiles",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.list.auth-profiles.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.list.auth-profiles.test.ts] includes configured chat channel accounts in JSON output",
+TEST_CASE("v4.29 [src/commands/channels.list.auth-profiles.test.ts:111] includes configured chat channel accounts in JSON output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.list.auth-profiles.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.list.auth-profiles.test.ts] prints configured chat channel accounts before auth providers",
+TEST_CASE("v4.29 [src/commands/channels.list.auth-profiles.test.ts:146] prints configured chat channel accounts before auth providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.list.auth-profiles.test.ts:146",
                "upstream it() block #2",

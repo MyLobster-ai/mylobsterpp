@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts] passes the exact OpenAI Codex auth profile into app-server startup",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts:143] passes the exact OpenAI Codex auth profile into app-server startup",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts:143",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts] reuses a bound OpenAI Codex auth profile when resume params omit authProfileId",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts:164] reuses a bound OpenAI Codex auth profile when resume params omit authProfileId",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts:164",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts] prefers an explicit runtime auth profile over a stale persisted binding",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts:189] prefers an explicit runtime auth profile over a stale persisted binding",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-profile-runtime-contract.test.ts:189",
                "upstream it() block #2",

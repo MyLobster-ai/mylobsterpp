@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts] suppresses ack reactions when reactionLevel is off",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:108] suppresses ack reactions when reactionLevel is off",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts] uses the active account reactionLevel override for ack gating",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:117] uses the active account reactionLevel override for ack gating",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts] returns a handle that removes the ack with an empty reaction",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:137] returns a handle that removes the ack with an empty reaction",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:137",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts] records ack send failures on the handle",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:154] records ack send failures on the handle",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/ack-reaction.test.ts:154",
                "upstream it() block #3",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-mode.test.ts] matches /reset soft with or without a tail",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-mode.test.ts:5] matches /reset soft with or without a tail",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-mode.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-mode.test.ts] rejects reset-prefixed typos without a command boundary",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-reset-mode.test.ts:21] rejects reset-prefixed typos without a command boundary",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-reset-mode.test.ts:21",
                "upstream it() block #1",

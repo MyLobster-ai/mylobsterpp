@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/node-resolve.test.ts] resolves node ids through candidate matching",
+TEST_CASE("v4.29 [src/shared/node-resolve.test.ts:10] resolves node ids through candidate matching",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-resolve.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-resolve.test.ts] supports optional default-node selection when query is blank",
+TEST_CASE("v4.29 [src/shared/node-resolve.test.ts:14] supports optional default-node selection when query is blank",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-resolve.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-resolve.test.ts] passes the original node list to the default picker",
+TEST_CASE("v4.29 [src/shared/node-resolve.test.ts:23] passes the original node list to the default picker",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-resolve.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-resolve.test.ts] still throws when default selection is disabled or returns null",
+TEST_CASE("v4.29 [src/shared/node-resolve.test.ts:35] still throws when default selection is disabled or returns null",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-resolve.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-resolve.test.ts] returns the full node object and falls back to a synthetic entry when needed",
+TEST_CASE("v4.29 [src/shared/node-resolve.test.ts:45] returns the full node object and falls back to a synthetic entry when needed",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-resolve.test.ts:45",
                "upstream it() block #4",

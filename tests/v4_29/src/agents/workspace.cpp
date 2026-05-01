@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] uses OPENCLAW_HOME for default workspace resolution",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:26] uses OPENCLAW_HOME for default workspace resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] creates BOOTSTRAP.md and records a seeded marker for brand new workspaces",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:79] creates BOOTSTRAP.md and records a seeded marker for brand new workspaces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] recovers partial initialization by creating BOOTSTRAP.md when marker is missing",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:88] recovers partial initialization by creating BOOTSTRAP.md when marker is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] does not recreate BOOTSTRAP.md after completion, even when a core file is recreated",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:97] does not recreate BOOTSTRAP.md after completion, even when a core file is recreated",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] does not re-seed BOOTSTRAP.md for legacy completed workspaces without state marker",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:115] does not re-seed BOOTSTRAP.md for legacy completed workspaces without state marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:115",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] treats memory-backed workspaces as existing even when template files are missing",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:130] treats memory-backed workspaces as existing even when template files are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] treats git-backed workspaces as existing even when template files are missing",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:148] treats git-backed workspaces as existing even when template files are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:148",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] migrates legacy onboardingCompletedAt markers to setupCompletedAt",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:158] migrates legacy onboardingCompletedAt markers to setupCompletedAt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] reports bootstrap pending while BOOTSTRAP.md exists and setup is incomplete",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:180] reports bootstrap pending while BOOTSTRAP.md exists and setup is incomplete",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:180",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] keeps bootstrap status read-only when stale completion evidence exists",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:189] keeps bootstrap status read-only when stale completion evidence exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:189",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] repairs stale BOOTSTRAP.md when profile files show onboarding completed",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:205] repairs stale BOOTSTRAP.md when profile files show onboarding completed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:205",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] uses SOUL.md customization as stale bootstrap completion evidence",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:228] uses SOUL.md customization as stale bootstrap completion evidence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:228",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] does not treat git alone as stale bootstrap completion evidence",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:246] does not treat git alone as stale bootstrap completion evidence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:246",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] reports bootstrap complete once BOOTSTRAP.md is deleted and completion is recorded",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:263] reports bootstrap complete once BOOTSTRAP.md is deleted and completion is recorded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:263",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] writes the current fenced HEARTBEAT template body into new workspaces",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:274] writes the current fenced HEARTBEAT template body into new workspaces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:274",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] includes MEMORY.md when present",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:304] includes MEMORY.md when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:304",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] ignores lowercase memory.md when MEMORY.md is absent",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:312] ignores lowercase memory.md when MEMORY.md is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:312",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] omits memory entries when no memory files exist",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:320] omits memory entries when no memory files exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:320",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] treats hardlinked bootstrap aliases as missing",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:327] treats hardlinked bootstrap aliases as missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:327",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] returns all files for main session (no sessionKey)",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:371] returns all files for main session (no sessionKey)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:371",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] returns all files for normal (non-subagent, non-cron) session key",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:376] returns all files for normal (non-subagent, non-cron) session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:376",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] filters to allowlist for subagent sessions",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:381] filters to allowlist for subagent sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:381",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace.test.ts] filters to allowlist for cron sessions",
+TEST_CASE("v4.29 [src/agents/workspace.test.ts:386] filters to allowlist for cron sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace.test.ts:386",
                "upstream it() block #22",

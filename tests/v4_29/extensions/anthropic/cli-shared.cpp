@@ -1,4 +1,4 @@
-// MYLOBSTERPP_HAND_AUTHORED
+// MYLOBSTERPP_HANDWRITTEN_TEST
 // v2026.4.29 parity: extensions/anthropic/cli-shared.test.ts
 //
 // Upstream tests cover Claude CLI argument-list normalization helpers:

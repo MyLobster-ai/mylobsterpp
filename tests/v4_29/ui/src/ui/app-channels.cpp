@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-channels.test.ts] discards stale dirty config state on explicit reload",
+TEST_CASE("v4.29 [ui/src/ui/app-channels.test.ts:78] discards stale dirty config state on explicit reload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-channels.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-channels.test.ts] keeps failed channel saves from discarding pending edits during recovery reload",
+TEST_CASE("v4.29 [ui/src/ui/app-channels.test.ts:105] keeps failed channel saves from discarding pending edits during recovery reload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-channels.test.ts:105",
                "upstream it() block #1",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts] returns noop-same-container when source and target containers match",
+TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts:5] returns noop-same-container when source and target containers match",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/audio-transcode.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts] returns no-recipe when no afconvert recipe is defined for the requested pair",
+TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts:14] returns no-recipe when no afconvert recipe is defined for the requested pair",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/audio-transcode.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts] returns invalid-extension for an empty source extension",
+TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts:23] returns invalid-extension for an empty source extension",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/audio-transcode.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts] returns invalid-extension for an empty target extension",
+TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts:32] returns invalid-extension for an empty target extension",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/audio-transcode.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts] rejects path-traversal style extensions",
+TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts:41] rejects path-traversal style extensions",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/audio-transcode.test.ts:41",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts] returns platform-unsupported off-Darwin without invoking afconvert",
+TEST_CASE("v4.29 [extensions/speech-core/src/audio-transcode.test.ts:50] returns platform-unsupported off-Darwin without invoking afconvert",
           "[v4_29][parity_gap][speech-core]") {
     PARITY_GAP("extensions/speech-core/src/audio-transcode.test.ts:50",
                "upstream it() block #5",

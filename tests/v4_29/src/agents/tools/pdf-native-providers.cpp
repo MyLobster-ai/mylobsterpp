@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] anthropicAnalyzePdf sends correct request shape",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:61] anthropicAnalyzePdf sends correct request shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] anthropicAnalyzePdf throws on API error",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:91] anthropicAnalyzePdf throws on API error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] anthropicAnalyzePdf throws when response has no text",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:104] anthropicAnalyzePdf throws when response has no text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] geminiAnalyzePdf sends correct request shape",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:117] geminiAnalyzePdf sends correct request shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] geminiAnalyzePdf throws on API error",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:145] geminiAnalyzePdf throws on API error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] geminiAnalyzePdf throws when no candidates returned",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:158] geminiAnalyzePdf throws when no candidates returned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] anthropicAnalyzePdf supports multiple PDFs",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:169] anthropicAnalyzePdf supports multiple PDFs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:169",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] anthropicAnalyzePdf uses custom base URL",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:195] anthropicAnalyzePdf uses custom base URL",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:195",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] anthropicAnalyzePdf requires apiKey",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:210] anthropicAnalyzePdf requires apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:210",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] geminiAnalyzePdf requires apiKey",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:216] geminiAnalyzePdf requires apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:216",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] geminiAnalyzePdf does not duplicate /v1beta when baseUrl already includes it",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:222] geminiAnalyzePdf does not duplicate /v1beta when baseUrl already includes it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:222",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts] geminiAnalyzePdf normalizes bare Google API hosts to a single /v1beta root",
+TEST_CASE("v4.29 [src/agents/tools/pdf-native-providers.test.ts:241] geminiAnalyzePdf normalizes bare Google API hosts to a single /v1beta root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-native-providers.test.ts:241",
                "upstream it() block #11",

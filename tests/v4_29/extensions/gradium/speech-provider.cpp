@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts] reports configured when GRADIUM_API_KEY is set",
+TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts:15] reports configured when GRADIUM_API_KEY is set",
           "[v4_29][parity_gap][gradium]") {
     PARITY_GAP("extensions/gradium/speech-provider.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts] reports not configured when no key is available",
+TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts:29] reports not configured when no key is available",
           "[v4_29][parity_gap][gradium]") {
     PARITY_GAP("extensions/gradium/speech-provider.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts] synthesizes audio via the Gradium TTS endpoint",
+TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts:41] synthesizes audio via the Gradium TTS endpoint",
           "[v4_29][parity_gap][gradium]") {
     PARITY_GAP("extensions/gradium/speech-provider.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts] uses opus and voiceCompatible for voice-note target",
+TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts:72] uses opus and voiceCompatible for voice-note target",
           "[v4_29][parity_gap][gradium]") {
     PARITY_GAP("extensions/gradium/speech-provider.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts] uses ulaw_8000 for telephony synthesis",
+TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts:93] uses ulaw_8000 for telephony synthesis",
           "[v4_29][parity_gap][gradium]") {
     PARITY_GAP("extensions/gradium/speech-provider.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts] throws when no API key is available",
+TEST_CASE("v4.29 [extensions/gradium/speech-provider.test.ts:112] throws when no API key is available",
           "[v4_29][parity_gap][gradium]") {
     PARITY_GAP("extensions/gradium/speech-provider.test.ts:112",
                "upstream it() block #5",

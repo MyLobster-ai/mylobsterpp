@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] matches the bare token",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:7] matches the bare token",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] matches a token wrapped by an isolated-cron ",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:11] matches a token wrapped by an isolated-cron ",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] matches the token on its own line within multiline content",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:15] matches the token on its own line within multiline content",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] does NOT match a user message that merely embeds the token mid-sentence",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:19] does NOT match a user message that merely embeds the token mid-sentence",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:19",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] does NOT match a user message with the token in a code-fence-style block",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:25] does NOT match a user message with the token in a code-fence-style block",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:25",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] does NOT match an arbitrary wrapper the runtime does not produce",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:31] does NOT match an arbitrary wrapper the runtime does not produce",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:31",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts] returns false for empty inputs",
+TEST_CASE("v4.29 [extensions/memory-core/src/dreaming-shared.test.ts:35] returns false for empty inputs",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/dreaming-shared.test.ts:35",
                "upstream it() block #6",

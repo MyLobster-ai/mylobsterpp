@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should not include ollama when no API key is configured",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:108] should not include ollama when no API key is configured",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should use native ollama api type",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:116] should use native ollama api type",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:116",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should preserve explicit ollama baseUrl on implicit provider injection",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:130] should preserve explicit ollama baseUrl on implicit provider injection",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] discovers per-model context windows from /api/show",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:156] discovers per-model context windows from /api/show",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] auto-registers ollama provider when models are discovered locally",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:195] auto-registers ollama provider when models are discovered locally",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:195",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] does not warn when Ollama is unreachable and not explicitly configured",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:228] does not warn when Ollama is unreachable and not explicitly configured",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:228",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] warns when Ollama is unreachable and explicitly configured",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:249] warns when Ollama is unreachable and explicitly configured",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:249",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] falls back to default context window when /api/show fails",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:280] falls back to default context window when /api/show fails",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:280",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] caps /api/show requests when /api/tags returns a very large model list",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:305] caps /api/show requests when /api/tags returns a very large model list",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:305",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should have correct model structure without streaming override",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:337] should have correct model structure without streaming override",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:337",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should skip discovery fetch when explicit models are configured",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:352] should skip discovery fetch when explicit models are configured",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:352",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should use synthetic local auth for configured remote providers without apiKey",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:395] should use synthetic local auth for configured remote providers without apiKey",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:395",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should not use synthetic local auth for configured cloud providers without apiKey",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:432] should not use synthetic local auth for configured cloud providers without apiKey",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:432",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts] should preserve explicit apiKey from configured remote providers",
+TEST_CASE("v4.29 [extensions/ollama/provider-discovery.test.ts:469] should preserve explicit apiKey from configured remote providers",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/provider-discovery.test.ts:469",
                "upstream it() block #13",

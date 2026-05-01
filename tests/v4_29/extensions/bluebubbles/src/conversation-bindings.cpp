@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/conversation-bindings.test.ts] preserves existing metadata when rebinding the same conversation",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/conversation-bindings.test.ts:19] preserves existing metadata when rebinding the same conversation",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/conversation-bindings.test.ts:19",
                "upstream it() block #0",

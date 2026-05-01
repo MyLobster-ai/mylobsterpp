@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/future-version-guard.test.ts] blocks destructive actions from older binaries",
+TEST_CASE("v4.29 [src/config/future-version-guard.test.ts:19] blocks destructive actions from older binaries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/future-version-guard.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/future-version-guard.test.ts] allows same stable family and older configs",
+TEST_CASE("v4.29 [src/config/future-version-guard.test.ts:35] allows same stable family and older configs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/future-version-guard.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/future-version-guard.test.ts] allows intentional downgrade override through env",
+TEST_CASE("v4.29 [src/config/future-version-guard.test.ts:54] allows intentional downgrade override through env",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/future-version-guard.test.ts:54",
                "upstream it() block #2",

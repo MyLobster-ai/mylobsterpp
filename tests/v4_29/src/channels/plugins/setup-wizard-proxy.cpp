@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts] forwards configured resolution to the loaded wizard",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts:19] forwards configured resolution to the loaded wizard",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-proxy.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts] forwards prepare when the loaded wizard implements it",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts:43] forwards prepare when the loaded wizard implements it",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-proxy.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts] forwards finalize when the loaded wizard implements it",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts:70] forwards finalize when the loaded wizard implements it",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-proxy.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts] falls back when delegated surfaces are absent",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts:104] falls back when delegated surfaces are absent",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-proxy.test.ts:104",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts] builds a direct proxy wizard with delegated status/prepare/finalize",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-proxy.test.ts:173] builds a direct proxy wizard with delegated status/prepare/finalize",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-proxy.test.ts:173",
                "upstream it() block #4",

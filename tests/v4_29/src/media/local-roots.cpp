@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/local-roots.test.ts] adds concrete parent roots for local media sources without widening to filesystem root",
+TEST_CASE("v4.29 [src/media/local-roots.test.ts:105] adds concrete parent roots for local media sources without widening to filesystem root",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/local-roots.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/local-roots.test.ts] does not widen local roots for pass-through remote media schemes",
+TEST_CASE("v4.29 [src/media/local-roots.test.ts:131] does not widen local roots for pass-through remote media schemes",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/local-roots.test.ts:131",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/local-roots.test.ts] keeps the config-dir media cache root when state and config paths differ",
+TEST_CASE("v4.29 [src/media/local-roots.test.ts:190] keeps the config-dir media cache root when state and config paths differ",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/local-roots.test.ts:190",
                "upstream it() block #2",

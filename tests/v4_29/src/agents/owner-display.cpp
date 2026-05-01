@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/owner-display.test.ts] returns keyed hash settings when hash mode has an explicit secret",
+TEST_CASE("v4.29 [src/agents/owner-display.test.ts:6] returns keyed hash settings when hash mode has an explicit secret",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/owner-display.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/owner-display.test.ts] does not fall back to gateway tokens when hash secret is missing",
+TEST_CASE("v4.29 [src/agents/owner-display.test.ts:20] does not fall back to gateway tokens when hash secret is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/owner-display.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/owner-display.test.ts] disables owner hash secret when display mode is raw",
+TEST_CASE("v4.29 [src/agents/owner-display.test.ts:37] disables owner hash secret when display mode is raw",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/owner-display.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/owner-display.test.ts] generates a dedicated secret when hash mode is enabled without one",
+TEST_CASE("v4.29 [src/agents/owner-display.test.ts:53] generates a dedicated secret when hash mode is enabled without one",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/owner-display.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/owner-display.test.ts] does nothing when a hash secret is already configured",
+TEST_CASE("v4.29 [src/agents/owner-display.test.ts:66] does nothing when a hash secret is already configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/owner-display.test.ts:66",
                "upstream it() block #4",

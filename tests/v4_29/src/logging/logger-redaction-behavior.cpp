@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] redacts credential fields before writing JSONL file logs",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:43] redacts credential fields before writing JSONL file logs",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] redacts bearer tokens in file log message strings",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:55] redacts bearer tokens in file log message strings",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] uses logging.file from the active config path",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:66] uses logging.file from the active config path",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] writes trace context as top-level JSONL fields",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:87] writes trace context as top-level JSONL fields",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] writes active request trace context as top-level JSONL fields",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:107] writes active request trace context as top-level JSONL fields",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] writes hostname and flattened message as top-level JSONL fields",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:127] writes hostname and flattened message as top-level JSONL fields",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:127",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts] promotes agent, session, and channel context to top-level JSONL fields",
+TEST_CASE("v4.29 [src/logging/logger-redaction-behavior.test.ts:140] promotes agent, session, and channel context to top-level JSONL fields",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-redaction-behavior.test.ts:140",
                "upstream it() block #6",

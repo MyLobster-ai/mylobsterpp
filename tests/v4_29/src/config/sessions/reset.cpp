@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/reset.test.ts] does not treat feishu conversation ids with embedded :topic: as thread suffixes",
+TEST_CASE("v4.29 [src/config/sessions/reset.test.ts:11] does not treat feishu conversation ids with embedded :topic: as thread suffixes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/reset.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/reset.test.ts] still treats telegram :topic: suffixes as thread sessions",
+TEST_CASE("v4.29 [src/config/sessions/reset.test.ts:18] still treats telegram :topic: suffixes as thread sessions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/reset.test.ts:18",
                "upstream it() block #1",

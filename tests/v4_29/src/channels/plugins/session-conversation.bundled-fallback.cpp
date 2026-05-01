@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts] delegates pre-bootstrap thread parsing to the active bundled channel plugin",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts:78] delegates pre-bootstrap thread parsing to the active bundled channel plugin",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.bundled-fallback.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts] can skip bundled fallback probing for hot generic-only callers",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts:93] can skip bundled fallback probing for hot generic-only callers",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.bundled-fallback.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts] uses explicit bundled parent candidates before registry bootstrap",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts:120] uses explicit bundled parent candidates before registry bootstrap",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.bundled-fallback.test.ts:120",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts] delegates repeated fallback calls through the public-surface loader",
+TEST_CASE("v4.29 [src/channels/plugins/session-conversation.bundled-fallback.test.ts:141] delegates repeated fallback calls through the public-surface loader",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/session-conversation.bundled-fallback.test.ts:141",
                "upstream it() block #3",

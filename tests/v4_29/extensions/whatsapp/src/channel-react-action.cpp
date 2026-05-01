@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] uses explicit messageId when provided",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:78] uses explicit messageId when provided",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] falls back to toolContext.currentMessageId when messageId omitted",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:91] falls back to toolContext.currentMessageId when messageId omitted",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] converts numeric toolContext messageId to string",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:109] converts numeric toolContext messageId to string",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] throws ToolInputError when messageId missing and no toolContext",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:127] throws ToolInputError when messageId missing and no toolContext",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:127",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] skips context fallback when targeting a different chat",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:138] skips context fallback when targeting a different chat",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:138",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] uses context fallback when target matches current chat",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:154] uses context fallback when target matches current chat",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:154",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] keeps direct-chat reactions without an inferred participant",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:176] keeps direct-chat reactions without an inferred participant",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:176",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] prefers explicit participant over inferred current-message participant",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:198] prefers explicit participant over inferred current-message participant",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:198",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] does not reuse the current-chat participant for cross-chat reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:224] does not reuse the current-chat participant for cross-chat reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:224",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] does not infer participant when messageId is explicitly provided",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:242] does not infer participant when messageId is explicitly provided",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:242",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] skips context fallback when source is another provider",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:264] skips context fallback when source is another provider",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:264",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts] skips context fallback when currentChannelId is missing with explicit target",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-react-action.test.ts:280] skips context fallback when currentChannelId is missing with explicit target",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-react-action.test.ts:280",
                "upstream it() block #11",

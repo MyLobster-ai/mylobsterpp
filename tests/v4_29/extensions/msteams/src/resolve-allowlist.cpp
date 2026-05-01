@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] marks empty input unresolved",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:43] marks empty input unresolved",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] resolves first Graph user match",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:48] resolves first Graph user match",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] keeps configured Teams conversation IDs resolved without Graph lookup",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:65] keeps configured Teams conversation IDs resolved without Graph lookup",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] normalizes conversation-prefixed configured channel IDs",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:84] normalizes conversation-prefixed configured channel IDs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] resolves team/channel by team name + channel display name",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:98] resolves team/channel by team name + channel display name",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] uses General channel conversation ID as team key for team-only entry",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:125] uses General channel conversation ID as team key for team-only entry",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:125",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] falls back to Graph GUID when listChannelsForTeam throws",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:147] falls back to Graph GUID when listChannelsForTeam throws",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:147",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] falls back to Graph GUID when General channel is not found",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:167] falls back to Graph GUID when General channel is not found",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] accepts the Graph 1:1 chat thread format",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:210] accepts the Graph 1:1 chat thread format",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:210",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] accepts Bot Framework user ids",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:232] accepts Bot Framework user ids",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:232",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] accepts user:<aad-object-id> ids",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:236] accepts user:<aad-object-id> ids",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:236",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts] normalizes leading/trailing whitespace before classifying",
+TEST_CASE("v4.29 [extensions/msteams/src/resolve-allowlist.test.ts:247] normalizes leading/trailing whitespace before classifying",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/resolve-allowlist.test.ts:247",
                "upstream it() block #11",

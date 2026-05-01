@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/vitest-light-paths.test.ts] maps plugin-sdk allowlist source and test files to sibling light tests",
+TEST_CASE("v4.29 [test/vitest-light-paths.test.ts:12] maps plugin-sdk allowlist source and test files to sibling light tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-light-paths.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-light-paths.test.ts] keeps non-allowlisted plugin-sdk files off the light lane",
+TEST_CASE("v4.29 [test/vitest-light-paths.test.ts:23] keeps non-allowlisted plugin-sdk files off the light lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-light-paths.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-light-paths.test.ts] maps commands allowlist source and test files to sibling light tests",
+TEST_CASE("v4.29 [test/vitest-light-paths.test.ts:28] maps commands allowlist source and test files to sibling light tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-light-paths.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-light-paths.test.ts] keeps non-allowlisted commands files off the light lane",
+TEST_CASE("v4.29 [test/vitest-light-paths.test.ts:43] keeps non-allowlisted commands files off the light lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-light-paths.test.ts:43",
                "upstream it() block #3",

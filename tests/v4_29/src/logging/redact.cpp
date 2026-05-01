@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks env assignments while keeping the key",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:37] masks env assignments while keeping the key",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks CLI flags",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:46] masks CLI flags",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks hook token CLI flags",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:55] masks hook token CLI flags",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks sensitive URL query parameters",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:64] masks sensitive URL query parameters",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks short URL query tokens fully",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:73] masks short URL query tokens fully",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks standalone lowercase token assignments in diagnostic output",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:82] masks standalone lowercase token assignments in diagnostic output",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks JSON fields",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:91] masks JSON fields",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:91",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks bearer tokens",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:100] masks bearer tokens",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:100",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks URL query tokens",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:109] masks URL query tokens",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks bot-style tokens",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:118] masks bot-style tokens",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:118",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks bot API URL tokens",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:127] masks bot API URL tokens",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:127",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] redacts short tokens fully",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:137] redacts short tokens fully",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:137",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] does not redact lowercase key diagnostics",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:146] does not redact lowercase key diagnostics",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:146",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] masks sensitive URL query params while preserving non-sensitive params",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:155] masks sensitive URL query params while preserving non-sensitive params",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:155",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] treats sensitive URL query param names case-insensitively",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:164] treats sensitive URL query param names case-insensitively",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:164",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] redacts private key blocks",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:173] redacts private key blocks",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:173",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] honors custom patterns with flags",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:189] honors custom patterns with flags",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:189",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] honors escaped character classes in custom patterns",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:198] honors escaped character classes in custom patterns",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:198",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] ignores unsafe nested-repetition custom patterns",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:208] ignores unsafe nested-repetition custom patterns",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:208",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] redacts large payloads with bounded regex passes",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:217] redacts large payloads with bounded regex passes",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:217",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] skips redaction when mode is off",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:226] skips redaction when mode is off",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:226",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] honors logging redaction settings from the active config path",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:235] honors logging redaction settings from the active config path",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:235",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] does not resolve patterns when mode is off",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:247] does not resolve patterns when mode is off",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:247",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] reuses compiled global regex patterns",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:264] reuses compiled global regex patterns",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:264",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] redacts matching content across all lines",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:277] redacts matching content across all lines",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:277",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] returns lines unmodified when mode is off",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:285] returns lines unmodified when mode is off",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:285",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] returns lines unmodified when resolved patterns is empty — does not fall back to defaults",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:291] returns lines unmodified when resolved patterns is empty — does not fall back to defaults",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:291",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] returns empty array unchanged — does not produce a synthetic blank line",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:299] returns empty array unchanged — does not produce a synthetic blank line",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:299",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/redact.test.ts] redacts a PEM block spanning multiple lines in the array",
+TEST_CASE("v4.29 [src/logging/redact.test.ts:304] redacts a PEM block spanning multiple lines in the array",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/redact.test.ts:304",
                "upstream it() block #28",

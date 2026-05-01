@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-targeted-sync.test.ts] preserves unrelated dirty sessions after targeted cleanup",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-targeted-sync.test.ts:8] preserves unrelated dirty sessions after targeted cleanup",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-targeted-sync.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-targeted-sync.test.ts] runs a full reindex after fallback activates during targeted sync",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-targeted-sync.test.ts:21] runs a full reindex after fallback activates during targeted sync",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-targeted-sync.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-targeted-sync.test.ts] uses the unsafe reindex path when enabled",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-targeted-sync.test.ts:51] uses the unsafe reindex path when enabled",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-targeted-sync.test.ts:51",
                "upstream it() block #2",

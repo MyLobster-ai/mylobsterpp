@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/agent-paths.test.ts] defaults to the multi-agent path when no overrides are set",
+TEST_CASE("v4.29 [src/agents/agent-paths.test.ts:18] defaults to the multi-agent path when no overrides are set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-paths.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-paths.test.ts] honors OPENCLAW_AGENT_DIR overrides",
+TEST_CASE("v4.29 [src/agents/agent-paths.test.ts:34] honors OPENCLAW_AGENT_DIR overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-paths.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-paths.test.ts] honors PI_CODING_AGENT_DIR when OPENCLAW_AGENT_DIR is unset",
+TEST_CASE("v4.29 [src/agents/agent-paths.test.ts:51] honors PI_CODING_AGENT_DIR when OPENCLAW_AGENT_DIR is unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-paths.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/agent-paths.test.ts] prefers OPENCLAW_AGENT_DIR over PI_CODING_AGENT_DIR when both are set",
+TEST_CASE("v4.29 [src/agents/agent-paths.test.ts:68] prefers OPENCLAW_AGENT_DIR over PI_CODING_AGENT_DIR when both are set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/agent-paths.test.ts:68",
                "upstream it() block #3",

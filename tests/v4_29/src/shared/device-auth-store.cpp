@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] loads only matching device ids and normalized roles",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:23] loads only matching device ids and normalized roles",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] returns null for missing stores and malformed token entries",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:53] returns null for missing stores and malformed token entries",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] stores normalized roles and deduped sorted scopes while preserving same-device tokens",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:83] stores normalized roles and deduped sorted scopes while preserving same-device tokens",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] replaces stale stores from other devices instead of merging them",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:128] replaces stale stores from other devices instead of merging them",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] overwrites existing entries for the same normalized role",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:163] overwrites existing entries for the same normalized role",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:163",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] avoids writes when clearing missing roles or mismatched devices",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:201] avoids writes when clearing missing roles or mismatched devices",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts] removes normalized roles when clearing stored tokens",
+TEST_CASE("v4.29 [src/shared/device-auth-store.test.ts:234] removes normalized roles when clearing stored tokens",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-auth-store.test.ts:234",
                "upstream it() block #6",

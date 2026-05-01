@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] registers and unregisters the embedded backend",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:115] registers and unregisters the embedded backend",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] creates the embedded runtime state directory without probing at startup by default",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:132] creates the embedded runtime state directory without probing at startup by default",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] registers the default backend without importing ACPX runtime until first use",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:158] registers the default backend without importing ACPX runtime until first use",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:158",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] can run the embedded runtime probe at startup when explicitly enabled",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:180] can run the embedded runtime probe at startup when explicitly enabled",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:180",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] passes the default runtime timeout to the embedded runtime factory",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:201] passes the default runtime timeout to the embedded runtime factory",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:201",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] forwards a configured probeAgent to the runtime factory so the probe does not hardcode the default",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:223] forwards a configured probeAgent to the runtime factory so the probe does not hardcode the default",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] uses the first allowed ACP agent as the default probe agent",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:254] uses the first allowed ACP agent as the default probe agent",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:254",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] keeps explicit probeAgent ahead of acp.allowedAgents",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:281] keeps explicit probeAgent ahead of acp.allowedAgents",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:281",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] warns when legacy compatibility config is explicitly ignored",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:309] warns when legacy compatibility config is explicitly ignored",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] can skip the embedded runtime probe via env",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:332] can skip the embedded runtime probe via env",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:332",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] formats non-string doctor details without losing object payloads",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:355] formats non-string doctor details without losing object payloads",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:355",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts] can skip the embedded runtime backend via env",
+TEST_CASE("v4.29 [extensions/acpx/src/service.test.ts:382] can skip the embedded runtime backend via env",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/service.test.ts:382",
                "upstream it() block #11",

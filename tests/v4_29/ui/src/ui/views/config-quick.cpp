@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] uses direct dashboard cards for the compact settings layout",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:65] uses direct dashboard cards for the compact settings layout",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] keeps the local user name fixed and shows the assistant identity",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:81] keeps the local user name fixed and shows the assistant identity",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] renders same-origin assistant avatar routes from IDENTITY.md",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:109] renders same-origin assistant avatar routes from IDENTITY.md",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] shows the IDENTITY.md avatar source when the assistant falls back to the logo",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:130] shows the IDENTITY.md avatar source when the assistant falls back to the logo",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] reads assistant image imports into an override",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:163] reads assistant image imports into an override",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:163",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] can clear an assistant avatar override back to IDENTITY.md",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:226] can clear an assistant avatar override back to IDENTITY.md",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] lets the browser-local assistant avatar override stale missing IDENTITY.md metadata",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:256] lets the browser-local assistant avatar override stale missing IDENTITY.md metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:256",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] rejects oversized avatar uploads before reading them",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:292] rejects oversized avatar uploads before reading them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:292",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] shows an import theme option in quick settings before a theme is imported",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:324] shows an import theme option in quick settings before a theme is imported",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:324",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] routes custom clicks into the tweakcn importer until a custom theme exists",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:336] routes custom clicks into the tweakcn importer until a custom theme exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:336",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts] applies the imported custom theme from quick settings once it exists",
+TEST_CASE("v4.29 [ui/src/ui/views/config-quick.test.ts:361] applies the imported custom theme from quick settings once it exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/config-quick.test.ts:361",
                "upstream it() block #10",

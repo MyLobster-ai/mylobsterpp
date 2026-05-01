@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts] emits OAuth TLS prerequisite guidance when cert chain validation fails",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts:31] emits OAuth TLS prerequisite guidance when cert chain validation fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.doctor.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts] stays quiet when preflight succeeds",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts:52] stays quiet when preflight succeeds",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.doctor.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts] skips probe when OpenAI Codex OAuth is not configured",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts:66] skips probe when OpenAI Codex OAuth is not configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.doctor.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts] runs probe in deep mode even without OpenAI Codex OAuth profile",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.doctor.test.ts:81] runs probe in deep mode even without OpenAI Codex OAuth profile",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.doctor.test.ts:81",
                "upstream it() block #3",

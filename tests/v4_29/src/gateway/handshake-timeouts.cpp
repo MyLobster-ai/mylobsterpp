@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] defaults connect challenge timeout to the shared pre-auth handshake timeout",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:14] defaults connect challenge timeout to the shared pre-auth handshake timeout",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] clamps connect challenge timeouts into the supported range",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:18] clamps connect challenge timeouts into the supported range",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] prefers OPENCLAW_HANDSHAKE_TIMEOUT_MS and falls back on the test-only env",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:25] prefers OPENCLAW_HANDSHAKE_TIMEOUT_MS and falls back on the test-only env",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] resolves preauth handshake timeout with env over config over default",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:41] resolves preauth handshake timeout with env over config over default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] resolves preauth handshake timeout from the test-only env before config",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:65] resolves preauth handshake timeout from the test-only env before config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] ignores invalid handshake timeout overrides and falls back safely",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:74] ignores invalid handshake timeout overrides and falls back safely",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] getConnectChallengeTimeoutMsFromEnv reads OPENCLAW_CONNECT_CHALLENGE_TIMEOUT_MS",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:99] getConnectChallengeTimeoutMsFromEnv reads OPENCLAW_CONNECT_CHALLENGE_TIMEOUT_MS",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:99",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] resolveConnectChallengeTimeoutMs falls back to env override",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:109] resolveConnectChallengeTimeoutMs falls back to env override",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:109",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts] resolveConnectChallengeTimeoutMs follows configured preauth timeout",
+TEST_CASE("v4.29 [src/gateway/handshake-timeouts.test.ts:134] resolveConnectChallengeTimeoutMs follows configured preauth timeout",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/handshake-timeouts.test.ts:134",
                "upstream it() block #8",

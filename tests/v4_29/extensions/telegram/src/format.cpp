@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] handles core markdown-to-telegram conversions",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:5] handles core markdown-to-telegram conversions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders blockquotes as native Telegram blockquote tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:29] renders blockquotes as native Telegram blockquote tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders blockquotes with inline formatting",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:36] renders blockquotes with inline formatting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders multiline blockquotes as a single Telegram blockquote",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:43] renders multiline blockquotes as a single Telegram blockquote",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders separated quoted paragraphs as distinct blockquotes",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:48] renders separated quoted paragraphs as distinct blockquotes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders fenced code blocks",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:55] renders fenced code blocks",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:55",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] properly nests overlapping bold and autolink (#4071)",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:60] properly nests overlapping bold and autolink (#4071)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:60",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] properly nests link inside bold",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:67] properly nests link inside bold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:67",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] properly nests bold wrapping a link with trailing text",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:72] properly nests bold wrapping a link with trailing text",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:72",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] properly nests bold inside a link",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:77] properly nests bold inside a link",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:77",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] wraps punctuated file references in code tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:82] wraps punctuated file references in code tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:82",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders spoiler tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:88] renders spoiler tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:88",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] renders spoiler with nested formatting",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:93] renders spoiler with nested formatting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:93",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] does not treat single pipe as spoiler",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:98] does not treat single pipe as spoiler",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:98",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] does not treat unpaired || as spoiler",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:104] does not treat unpaired || as spoiler",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:104",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] keeps valid spoiler pairs when a trailing || is unmatched",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:110] keeps valid spoiler pairs when a trailing || is unmatched",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:110",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] splits long multiline html text without breaking balanced tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:116] splits long multiline html text without breaking balanced tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:116",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] fails loudly when a leading entity cannot fit inside a chunk",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:124] fails loudly when a leading entity cannot fit inside a chunk",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:124",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] treats malformed leading ampersands as plain text when chunking html",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:128] treats malformed leading ampersands as plain text when chunking html",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:128",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts] fails loudly when tag overhead leaves no room for text",
+TEST_CASE("v4.29 [extensions/telegram/src/format.test.ts:134] fails loudly when tag overhead leaves no room for text",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.test.ts:134",
                "upstream it() block #19",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] rejects approvals that do not carry v1 binding",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:46] rejects approvals that do not carry v1 binding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] enforces exact argv binding in v1 object",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:58] enforces exact argv binding in v1 object",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] rejects argv mismatch in v1 object",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:65] rejects argv mismatch in v1 object",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] rejects env overrides when v1 binding has no env hash",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:83] rejects env overrides when v1 binding has no env hash",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] accepts matching env hash with reordered keys",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:104] accepts matching env hash with reordered keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:104",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] rejects mismatched Windows-compatible env override values",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:126] rejects mismatched Windows-compatible env override values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:126",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] rejects non-node host requests",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:152] rejects non-node host requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:152",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts] uses v1 binding even when legacy command text diverges",
+TEST_CASE("v4.29 [src/gateway/node-invoke-system-run-approval-match.test.ts:164] uses v1 binding even when legacy command text diverges",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-invoke-system-run-approval-match.test.ts:164",
                "upstream it() block #7",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] uses an explicit agent id for canonical direct-chat keys",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:8] uses an explicit agent id for canonical direct-chat keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] uses an explicit agent id for group keys",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:16] uses an explicit agent id for group keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] passes through correct discord:direct keys unchanged",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:29] passes through correct discord:direct keys unchanged",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] migrates legacy discord:dm: keys to discord:direct:",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:39] migrates legacy discord:dm: keys to discord:direct:",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] fixes phantom discord:channel:USERID keys when sender matches",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:49] fixes phantom discord:channel:USERID keys when sender matches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] does not rewrite discord:channel: keys for non-direct chats",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:59] does not rewrite discord:channel: keys for non-direct chats",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:59",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] does not rewrite discord:channel: keys when sender does not match",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:69] does not rewrite discord:channel: keys when sender does not match",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:69",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts] handles keys without an agent prefix",
+TEST_CASE("v4.29 [src/config/sessions/session-key.test.ts:79] handles keys without an agent prefix",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/session-key.test.ts:79",
                "upstream it() block #7",

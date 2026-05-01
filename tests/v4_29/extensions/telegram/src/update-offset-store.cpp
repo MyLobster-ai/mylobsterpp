@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] removes the offset file so a new bot starts fresh",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:12] removes the offset file so a new bot starts fresh",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] does not throw when the offset file does not exist",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:22] does not throw when the offset file does not exist",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] only removes the targeted account offset, leaving others intact",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:28] only removes the targeted account offset, leaving others intact",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] returns null when stored offset was written by a different bot token",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:40] returns null when stored offset was written by a different bot token",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] treats legacy offset records without bot identity as stale when token is provided",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:63] treats legacy offset records without bot identity as stale when token is provided",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] ignores invalid persisted update IDs from disk",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:82] ignores invalid persisted update IDs from disk",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts] rejects writing invalid update IDs",
+TEST_CASE("v4.29 [extensions/telegram/src/update-offset-store.test.ts:102] rejects writing invalid update IDs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/update-offset-store.test.ts:102",
                "upstream it() block #6",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts] covers the replay family matrix",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts:12] covers the replay family matrix",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-model-shared.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts] keeps google-gemini replay sanitation on the bootstrap path",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts:140] keeps google-gemini replay sanitation on the bootstrap path",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-model-shared.test.ts:140",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts] keeps anthropic-by-model replay family scoped to claude ids",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts:168] keeps anthropic-by-model replay family scoped to claude ids",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-model-shared.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts] exposes canonical replay hooks for reused provider families",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts:182] exposes canonical replay hooks for reused provider families",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-model-shared.test.ts:182",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts] exposes Opus 4.7 thinking levels for direct and proxied Claude providers",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts:255] exposes Opus 4.7 thinking levels for direct and proxied Claude providers",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-model-shared.test.ts:255",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts] keeps adaptive-only Claude variants from advertising xhigh or max",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-model-shared.test.ts:266] keeps adaptive-only Claude variants from advertising xhigh or max",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-model-shared.test.ts:266",
                "upstream it() block #5",

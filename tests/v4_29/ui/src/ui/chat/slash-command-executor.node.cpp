@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] aborts every sub-agent session for /kill all",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:24] aborts every sub-agent session for /kill all",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] aborts matching sub-agent sessions for /kill <agentId>",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:65] aborts matching sub-agent sessions for /kill <agentId>",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] does not exact-match a session key outside the current subagent subtree",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:99] does not exact-match a session key outside the current subagent subtree",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] returns a no-op summary when matching sessions have no active runs",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:132] returns a no-op summary when matching sessions have no active runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] treats the legacy main session key as the default agent scope",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:165] treats the legacy main session key as the default agent scope",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] does not abort unrelated same-agent subagents from another root session",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:200] does not abort unrelated same-agent subagents from another root session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:200",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] resolves the legacy main alias for bare /model",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:241] resolves the legacy main alias for bare /model",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:241",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] mirrors resolved provider-qualified model refs after /model changes",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:275] mirrors resolved provider-qualified model refs after /model changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:275",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] uses the local model catalog to qualify raw /model overrides when the patch response omits provider",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:309] uses the local model catalog to qualify raw /model overrides when the patch response omits provider",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] corrects stale patched providers with the catalog after /model",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:339] corrects stale patched providers with the catalog after /model",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:339",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] keeps openrouter-prefixed refs when patched model ids include slashes",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:363] keeps openrouter-prefixed refs when patched model ids include slashes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:363",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] falls back to the patched server provider when catalog lookup fails",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:394] falls back to the patched server provider when catalog lookup fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:394",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] keeps provider-qualified nested ids when the patched catalog lookup fails",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:418] keeps provider-qualified nested ids when the patched catalog lookup fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:418",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] reuses a provided model catalog for /model updates without refetching",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:442] reuses a provided model catalog for /model updates without refetching",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:442",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] resolves the legacy main alias for /usage",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:465] resolves the legacy main alias for /usage",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:465",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] keeps /usage context hidden when the context snapshot is stale",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:496] keeps /usage context hidden when the context snapshot is stale",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:496",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] uses the context snapshot for /usage while preserving cumulative total display",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:528] uses the context snapshot for /usage while preserving cumulative total display",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:528",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] reports the current thinking level for bare /think",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:559] reports the current thinking level for bare /think",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:559",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] accepts minimal and xhigh thinking levels",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:593] accepts minimal and xhigh thinking levels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:593",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] uses default thinking options when the active session is absent",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:637] uses default thinking options when the active session is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:637",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] reports the current verbose level for bare /verbose",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:732] reports the current verbose level for bare /verbose",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:732",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] reports the current fast mode for bare /fast",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:753] reports the current fast mode for bare /fast",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:753",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] patches fast mode for /fast on",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:774] patches fast mode for /fast on",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:774",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] injects into the current session via chat.send with deliver: false",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:793] injects into the current session via chat.send with deliver: false",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:793",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] injects into a matching subagent when the first word resolves to one",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:822] injects into a matching subagent when the first word resolves to one",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:822",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] uses cached sessions to avoid an extra sessions.list round trip",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:859] uses cached sessions to avoid an extra sessions.list round trip",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:859",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] matches an explicit full subagent session key",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:897] matches an explicit full subagent session key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:897",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] does not treat ",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:934] does not treat ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:934",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] does not match agent id as target — treats ",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:963] does not match agent id as target — treats ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:963",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] keeps ended subagent targets so steer does not fall back to the current session",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:997] keeps ended subagent targets so steer does not fall back to the current session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:997",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] returns a no-op summary when the current session has no active run",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1028] returns a no-op summary when the current session has no active run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1028",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] returns usage when no message is provided",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1048] returns usage when no message is provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1048",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] returns error message on RPC failure",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1062] returns error message on RPC failure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1062",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] calls sessions.steer to abort and restart the current session",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1082] calls sessions.steer to abort and restart the current session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1082",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] redirects a matching subagent when the first word resolves to one",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1108] redirects a matching subagent when the first word resolves to one",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1108",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] redirects an ended subagent instead of falling back to the current session",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1141] redirects an ended subagent instead of falling back to the current session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1141",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] returns usage when no message is provided",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1175] returns usage when no message is provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1175",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts] returns error message on RPC failure",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-command-executor.node.test.ts:1189] returns error message on RPC failure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-command-executor.node.test.ts:1189",
                "upstream it() block #37",

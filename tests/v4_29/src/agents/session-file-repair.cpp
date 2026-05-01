@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] rewrites session files that contain malformed lines",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:38] rewrites session files that contain malformed lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] does not drop CRLF-terminated JSONL lines",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:59] does not drop CRLF-terminated JSONL lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] warns and skips repair when the session header is invalid",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:70] warns and skips repair when the session header is invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] returns a detailed reason when read errors are not ENOENT",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:90] returns a detailed reason when read errors are not ENOENT",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] rewrites persisted assistant messages with empty content arrays",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:101] rewrites persisted assistant messages with empty content arrays",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] drops persisted blank user text messages",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:148] drops persisted blank user text messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] removes blank user text blocks while preserving media blocks",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:177] removes blank user text blocks while preserving media blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:177",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] reports both drops and rewrites in the warn message when both occur",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:207] reports both drops and rewrites in the warn message when both occur",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:207",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] does not rewrite silent-reply turns (stopReason=stop, content=[]) on disk",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:239] does not rewrite silent-reply turns (stopReason=stop, content=[]) on disk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:239",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts] is a no-op on a session that was already repaired",
+TEST_CASE("v4.29 [src/agents/session-file-repair.test.ts:274] is a no-op on a session that was already repaired",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-file-repair.test.ts:274",
                "upstream it() block #9",

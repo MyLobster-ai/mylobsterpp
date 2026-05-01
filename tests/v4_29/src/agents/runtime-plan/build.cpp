@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/runtime-plan/build.test.ts] records resolved model, auth, transport, tool, delivery, and observability policy",
+TEST_CASE("v4.29 [src/agents/runtime-plan/build.test.ts:18] records resolved model, auth, transport, tool, delivery, and observability policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plan/build.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/runtime-plan/build.test.ts] keeps OpenClaw-owned tool-schema normalization reachable from the plan",
+TEST_CASE("v4.29 [src/agents/runtime-plan/build.test.ts:90] keeps OpenClaw-owned tool-schema normalization reachable from the plan",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plan/build.test.ts:90",
                "upstream it() block #1",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] returns true when activeHours is not configured",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:26] returns true when activeHours is not configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] returns true when activeHours start/end are invalid",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:32] returns true when activeHours start/end are invalid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] returns false when activeHours start equals end",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:42] returns false when activeHours start equals end",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] respects user timezone windows for normal ranges",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:53] respects user timezone windows for normal ranges",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] supports overnight ranges",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:62] supports overnight ranges",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] respects explicit non-user timezones",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:71] respects explicit non-user timezones",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:71",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts] falls back to user timezone when activeHours timezone is invalid",
+TEST_CASE("v4.29 [src/infra/heartbeat-active-hours.test.ts:79] falls back to user timezone when activeHours timezone is invalid",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-active-hours.test.ts:79",
                "upstream it() block #6",

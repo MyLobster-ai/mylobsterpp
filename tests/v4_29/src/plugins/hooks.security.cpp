@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] short-circuits lower-priority hooks after block=true",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:108] short-circuits lower-priority hooks after block=true",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] preserves deterministic same-priority registration order when terminal hook runs first",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:126] preserves deterministic same-priority registration order when terminal hook runs first",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] stops before lower-priority throwing hooks when catchErrors is false",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:150] stops before lower-priority throwing hooks when catchErrors is false",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] throws for before_tool_call when configured as fail-closed",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:167] throws for before_tool_call when configured as fail-closed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:167",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] sanitizes caught hook error logs",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:193] sanitizes caught hook error logs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:193",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] short-circuits lower-priority hooks after cancel=true",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:265] short-circuits lower-priority hooks after cancel=true",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:265",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] preserves deterministic same-priority registration order for non-terminal merges",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:289] preserves deterministic same-priority registration order for non-terminal merges",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:289",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts] stops before lower-priority throwing hooks when catchErrors is false",
+TEST_CASE("v4.29 [src/plugins/hooks.security.test.ts:298] stops before lower-priority throwing hooks when catchErrors is false",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/hooks.security.test.ts:298",
                "upstream it() block #7",

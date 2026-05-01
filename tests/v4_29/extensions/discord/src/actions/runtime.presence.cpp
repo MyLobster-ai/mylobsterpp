@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] sets playing activity",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:31] sets playing activity",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] sets status-only without activity",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:101] sets status-only without activity",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] defaults status to online",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:122] defaults status to online",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:122",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] respects presence gating",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:127] respects presence gating",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:127",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] errors when gateway is not registered",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:131] errors when gateway is not registered",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] errors when gateway is not connected",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:136] errors when gateway is not connected",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] uses accountId to resolve gateway",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:142] uses accountId to resolve gateway",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:142",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] requires activityType when activityName is provided",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:149] requires activityType when activityName is provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:149",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts] rejects unknown presence actions",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.presence.test.ts:155] rejects unknown presence actions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.presence.test.ts:155",
                "upstream it() block #8",

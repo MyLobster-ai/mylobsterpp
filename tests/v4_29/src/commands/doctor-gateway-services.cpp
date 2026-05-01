@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] treats gateway.auth.token as source of truth for service token repairs",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:268] treats gateway.auth.token as source of truth for service token repairs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:268",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] passes planned managed env keys into service audit for legacy inline secret detection",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:303] passes planned managed env keys into service audit for legacy inline secret detection",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:303",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] repairs gateway services whose pinned port differs from current config",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:340] repairs gateway services whose pinned port differs from current config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:340",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] repairs gateway services with embedded proxy environment values",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:378] repairs gateway services with embedded proxy environment values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:378",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] uses OPENCLAW_GATEWAY_TOKEN when config token is missing",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:416] uses OPENCLAW_GATEWAY_TOKEN when config token is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:416",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] does not flag entrypoint mismatch when symlink and realpath match",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:459] does not flag entrypoint mismatch when symlink and realpath match",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:459",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] does not flag entrypoint mismatch when realpath fails but normalized absolute paths match",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:485] does not flag entrypoint mismatch when realpath fails but normalized absolute paths match",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:485",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] keeps wrapper-managed gateway services aligned during entrypoint drift checks",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:502] keeps wrapper-managed gateway services aligned during entrypoint drift checks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:502",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] still flags entrypoint mismatch when canonicalized paths differ",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:545] still flags entrypoint mismatch when canonicalized paths differ",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:545",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] skips entrypoint rewrites for an active systemd unit",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:562] skips entrypoint rewrites for an active systemd unit",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:562",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] repairs entrypoint drift when the systemd unit is stopped",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:593] repairs entrypoint drift when the systemd unit is stopped",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:593",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] leaves all service metadata unchanged when an active unit has command drift plus other issues",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:620] leaves all service metadata unchanged when an active unit has command drift plus other issues",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:620",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] repairs entrypoint mismatch in non-interactive fix mode",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:664] repairs entrypoint mismatch in non-interactive fix mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:664",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] stages service config repairs during non-interactive update repairs",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:684] stages service config repairs during non-interactive update repairs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:684",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] treats SecretRef-managed gateway token as non-persisted service state",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:704] treats SecretRef-managed gateway token as non-persisted service state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:704",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] falls back to embedded service token when config and env tokens are missing",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:751] falls back to embedded service token when config and env tokens are missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:751",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] does not persist embedded service tokens during non-interactive update repairs",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:799] does not persist embedded service tokens during non-interactive update repairs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:799",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] does not persist EnvironmentFile-backed service tokens into config",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:837] does not persist EnvironmentFile-backed service tokens into config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:837",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] reports service config drift but skips service rewrite when service repair policy is external",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:880] reports service config drift but skips service rewrite when service repair policy is external",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:880",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] ignores inactive non-legacy Linux gateway-like services",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:919] ignores inactive non-legacy Linux gateway-like services",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:919",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] reports active non-legacy Linux gateway-like services",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:945] reports active non-legacy Linux gateway-like services",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:945",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] removes legacy Linux user systemd services",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:971] removes legacy Linux user systemd services",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:971",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts] reports legacy services but skips cleanup when service repair policy is external",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-services.test.ts:1025] reports legacy services but skips cleanup when service repair policy is external",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-services.test.ts:1025",
                "upstream it() block #22",

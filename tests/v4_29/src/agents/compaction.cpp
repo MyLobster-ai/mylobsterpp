@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] splits messages into two non-empty parts",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:74] splits messages into two non-empty parts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] preserves message order across parts",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:84] preserves message order across parts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] keeps tool_use and matching toolResult in the same chunk",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:91] keeps tool_use and matching toolResult in the same chunk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] keeps multiple toolResults with their assistant in the same chunk",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:113] keeps multiple toolResults with their assistant in the same chunk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] keeps displaced toolResults with their assistant chunk",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:146] keeps displaced toolResults with their assistant chunk",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:146",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] splits after a completed tool_call/result pair when over budget",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:168] splits after a completed tool_call/result pair when over budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] splits before a trailing completed tool-call pair",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:184] splits before a trailing completed tool-call pair",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:184",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] does not block splits after aborted tool-call assistants",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:198] does not block splits after aborted tool-call assistants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:198",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] splits before unfinished tool-call turns that never get a result",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:211] splits before unfinished tool-call turns that never get a result",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:211",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] drops older chunks until the history budget is met",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:227] drops older chunks until the history budget is met",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:227",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] keeps the newest messages when pruning",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:235] keeps the newest messages when pruning",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:235",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] keeps history when already within budget",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:251] keeps history when already within budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:251",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] returns droppedMessagesList containing dropped messages",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:267] returns droppedMessagesList containing dropped messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:267",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] returns empty droppedMessagesList when no pruning needed",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:281] returns empty droppedMessagesList when no pruning needed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:281",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] removes orphaned tool_result messages when tool_use is dropped",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:295] removes orphaned tool_result messages when tool_use is dropped",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:295",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] keeps tool_result when its tool_use is also kept",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:318] keeps tool_result when its tool_use is also kept",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:318",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.test.ts] removes multiple orphaned tool_results from the same dropped tool_use",
+TEST_CASE("v4.29 [src/agents/compaction.test.ts:341] removes multiple orphaned tool_results from the same dropped tool_use",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.test.ts:341",
                "upstream it() block #16",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] does not auto-handle interactions when autoInteractions is disabled",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:75] does not auto-handle interactions when autoInteractions is disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] emits async dispatch failures as gateway errors",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:99] emits async dispatch failures as gateway errors",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] preserves MESSAGE_CREATE author payloads for inbound dispatch",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:130] preserves MESSAGE_CREATE author payloads for inbound dispatch",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] marks successful gateway resumes connected",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:168] marks successful gateway resumes connected",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:168",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] queues outbound gateway events when the connection window is exhausted",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:189] queues outbound gateway events when the connection window is exhausted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:189",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] sends critical gateway events immediately even when regular sends are queued",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:215] sends critical gateway events immediately even when regular sends are queued",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:215",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] ignores stale socket close events after reconnecting",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:237] ignores stale socket close events after reconnecting",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:237",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] reconnects after active remote normal closes",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:258] reconnects after active remote normal closes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:258",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] clears resume state after invalid session false",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:295] clears resume state after invalid session false",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:295",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] includes close code details when reconnect attempts are exhausted",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:321] includes close code details when reconnect attempts are exhausted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:321",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] does not reconnect after fatal gateway closes",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:343] does not reconnect after fatal gateway closes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:343",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] clears heartbeat timers before delayed reconnects",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:362] clears heartbeat timers before delayed reconnects",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:362",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] clears stale heartbeat timers before early reconnect exits",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:414] clears stale heartbeat timers before early reconnect exits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:414",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts] spaces identify sends by gateway max concurrency bucket",
+TEST_CASE("v4.29 [extensions/discord/src/internal/gateway.test.ts:430] spaces identify sends by gateway max concurrency bucket",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/gateway.test.ts:430",
                "upstream it() block #13",

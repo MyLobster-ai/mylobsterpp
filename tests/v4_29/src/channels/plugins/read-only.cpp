@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] keeps built plugin loader candidates inside the installed package dist root",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:430] keeps built plugin loader candidates inside the installed package dist root",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:430",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] does not load setup-only channel plugin runtime by default",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:444] does not load setup-only channel plugin runtime by default",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:444",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] loads configured external channel setup metadata without importing full runtime",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:467] loads configured external channel setup metadata without importing full runtime",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:467",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] matches setup-only plugins by manifest-owned channel ids when plugin id differs",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:489] matches setup-only plugins by manifest-owned channel ids when plugin id differs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:489",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] clones setup-only plugins for every configured owned channel when setup id matches one channel",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:519] clones setup-only plugins for every configured owned channel when setup id matches one channel",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:519",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] clones setup-only plugins when only another owned channel is configured",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:567] clones setup-only plugins when only another owned channel is configured",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:567",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] keeps configured external channels visible when no setup entry exists",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:610] keeps configured external channels visible when no setup entry exists",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:610",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] uses manifest channel configs when no setup entry exists",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:637] uses manifest channel configs when no setup entry exists",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:637",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] uses manifest channel configs before setup-only plugin loading",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:668] uses manifest channel configs before setup-only plugin loading",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:668",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] sanitizes terminal control sequences from manifest channel metadata",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:719] sanitizes terminal control sequences from manifest channel metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:719",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] ignores manifest channel configs with unsafe channel ids",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:750] ignores manifest channel configs with unsafe channel ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:750",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] uses own normalized account ids for manifest channel account config",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:778] uses own normalized account ids for manifest channel account config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:778",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] keeps setup-entry precedence when channel config descriptors are not runtime cutoffs",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:816] keeps setup-entry precedence when channel config descriptors are not runtime cutoffs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:816",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] uses external channel env vars as read-only configuration triggers",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:845] uses external channel env vars as read-only configuration triggers",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:845",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] does not promote disabled external channels from manifest env",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:867] does not promote disabled external channels from manifest env",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:867",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] does not promote disabled bundled channels from ambient env",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:893] does not promote disabled bundled channels from ambient env",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:893",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] does not promote explicitly disabled bundled channels from ambient env",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:913] does not promote explicitly disabled bundled channels from ambient env",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:913",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] keeps explicitly enabled bundled channels visible from env configuration",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:939] keeps explicitly enabled bundled channels visible from env configuration",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:939",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] loads bundled setup runtime only when explicitly requested",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:963] loads bundled setup runtime only when explicitly requested",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:963",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] accepts option-like env keys through the explicit env option",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:988] accepts option-like env keys through the explicit env option",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:988",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] discovers trusted external channel plugins from the default agent workspace",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:1018] discovers trusted external channel plugins from the default agent workspace",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:1018",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts] ignores external setup plugins that export an unrequested channel id",
+TEST_CASE("v4.29 [src/channels/plugins/read-only.test.ts:1054] ignores external setup plugins that export an unrequested channel id",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/read-only.test.ts:1054",
                "upstream it() block #21",

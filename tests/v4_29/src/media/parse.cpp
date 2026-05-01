@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] returns ordered text and media segments while ignoring fenced MEDIA lines",
+TEST_CASE("v4.29 [src/media/parse.test.ts:118] returns ordered text and media segments while ignoring fenced MEDIA lines",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:118",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] keeps markdown image urls as text by default",
+TEST_CASE("v4.29 [src/media/parse.test.ts:132] keeps markdown image urls as text by default",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] extracts markdown image urls while keeping surrounding caption text when enabled",
+TEST_CASE("v4.29 [src/media/parse.test.ts:140] extracts markdown image urls while keeping surrounding caption text when enabled",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:140",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] keeps inline caption text around markdown images when enabled",
+TEST_CASE("v4.29 [src/media/parse.test.ts:151] keeps inline caption text around markdown images when enabled",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:151",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] extracts multiple markdown image urls in order",
+TEST_CASE("v4.29 [src/media/parse.test.ts:162] extracts multiple markdown image urls in order",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] strips markdown image title suffixes from extracted urls",
+TEST_CASE("v4.29 [src/media/parse.test.ts:173] strips markdown image title suffixes from extracted urls",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:173",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] keeps balanced parentheses inside markdown image urls",
+TEST_CASE("v4.29 [src/media/parse.test.ts:184] keeps balanced parentheses inside markdown image urls",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:184",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] does not lift markdown image urls that fail media validation",
+TEST_CASE("v4.29 [src/media/parse.test.ts:212] does not lift markdown image urls that fail media validation",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:212",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] leaves very long markdown-image candidate lines as text",
+TEST_CASE("v4.29 [src/media/parse.test.ts:225] leaves very long markdown-image candidate lines as text",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:225",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] keeps surrounding text around inline badge images by default",
+TEST_CASE("v4.29 [src/media/parse.test.ts:252] keeps surrounding text around inline badge images by default",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:252",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/parse.test.ts] still extracts markdown images when explicitly enabled",
+TEST_CASE("v4.29 [src/media/parse.test.ts:262] still extracts markdown images when explicitly enabled",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/parse.test.ts:262",
                "upstream it() block #10",

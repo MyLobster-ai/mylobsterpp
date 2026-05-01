@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts] reports configured only when key plus region or endpoint is available",
+TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts:42] reports configured only when key plus region or endpoint is available",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/speech-provider.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts] normalizes provider-owned config under canonical and alias keys",
+TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts:67] normalizes provider-owned config under canonical and alias keys",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/speech-provider.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts] parses provider-specific TTS directives",
+TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts:113] parses provider-specific TTS directives",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/speech-provider.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts] uses native Ogg/Opus for voice-note output",
+TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts:142] uses native Ogg/Opus for voice-note output",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/speech-provider.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts] lists voices through config or explicit request auth",
+TEST_CASE("v4.29 [extensions/azure-speech/speech-provider.test.ts:179] lists voices through config or explicit request auth",
           "[v4_29][parity_gap][azure-speech]") {
     PARITY_GAP("extensions/azure-speech/speech-provider.test.ts:179",
                "upstream it() block #4",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] guards initiateCall when provider, webhook, capacity, or fromNumber are missing",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:75] guards initiateCall when provider, webhook, capacity, or fromNumber are missing",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] initiates notify-mode calls with inline TwiML and records provider ids",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:133] initiates notify-mode calls with inline TwiML and records provider ids",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:133",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] fails initiateCall cleanly when provider initiation throws",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:172] fails initiateCall cleanly when provider initiation throws",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:172",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] speaks through connected calls and rolls back to listening on provider errors",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:198] speaks through connected calls and rolls back to listening on provider errors",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:198",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] passes configured voice ids through to Telnyx speak",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:229] passes configured voice ids through to Telnyx speak",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:229",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] sends DTMF through connected provider calls",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:259] sends DTMF through connected provider calls",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:259",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] rejects invalid or unsupported outbound DTMF",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:280] rejects invalid or unsupported outbound DTMF",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:280",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] ends connected calls, clears timers, and rejects pending transcripts",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:300] ends connected calls, clears timers, and rejects pending transcripts",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:300",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] preserves timeout reasons when ending timed out calls",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:329] preserves timeout reasons when ending timed out calls",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:329",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts] handles missing, disconnected, and already-ended calls",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/outbound.test.ts:354] handles missing, disconnected, and already-ended calls",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/outbound.test.ts:354",
                "upstream it() block #9",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] flags direct channel module imports",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:10] flags direct channel module imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] flags channel config path access",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:23] flags channel config path access",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] flags channel-literal comparisons",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:35] flags channel-literal comparisons",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] flags object literals with explicit channel ids",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:49] flags object literals with explicit channel ids",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] ignores non-channel literals and unrelated text",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:61] ignores non-channel literals and unrelated text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] reverse-deps mode flags channel module re-exports",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:70] reverse-deps mode flags channel module re-exports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] reverse-deps mode ignores channel literals when no imports are present",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:82] reverse-deps mode ignores channel literals when no imports are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] user-facing text mode flags channel names in string literals",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:90] user-facing text mode flags channel names in string literals",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:90",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] user-facing text mode ignores channel names in import specifiers",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:102] user-facing text mode ignores channel names in import specifiers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:102",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] system-mark guard flags hardcoded gear literals",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:109] system-mark guard flags hardcoded gear literals",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:109",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts] system-mark guard ignores module import specifiers",
+TEST_CASE("v4.29 [test/scripts/check-channel-agnostic-boundaries.test.ts:121] system-mark guard ignores module import specifiers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-channel-agnostic-boundaries.test.ts:121",
                "upstream it() block #10",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts] resolves completion payload from completed status",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts:9] resolves completion payload from completed status",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-status.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts] throws for terminal failure states",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts:25] throws for terminal failure states",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-status.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts] returns completed result directly without waiting",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts:35] returns completed result directly without waiting",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-status.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts] throws when wait disabled and batch is not complete",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-status.test.ts:50] throws when wait disabled and batch is not complete",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-status.test.ts:50",
                "upstream it() block #3",

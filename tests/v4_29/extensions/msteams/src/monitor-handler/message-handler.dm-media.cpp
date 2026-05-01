@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts] translates a: conversation ID to Graph format for DMs",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:5] translates a: conversation ID to Graph format for DMs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts] passes through non-a: conversation IDs unchanged",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:15] passes through non-a: conversation IDs unchanged",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts] passes through when aadObjectId is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:25] passes through when aadObjectId is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts] passes through when appId is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:35] passes through when appId is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts] passes through for non-DM conversations even with a: prefix",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:45] passes through for non-DM conversations even with a: prefix",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.dm-media.test.ts:45",
                "upstream it() block #4",

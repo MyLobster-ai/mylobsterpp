@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] skips zero/false values for optional detail fields",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:5] skips zero/false values for optional detail fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] includes only truthy boolean details",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:20] includes only truthy boolean details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] keeps positive numbers and true booleans",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:38] keeps positive numbers and true booleans",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] formats read/write/edit with intent-first file detail",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:55] formats read/write/edit with intent-first file detail",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] formats web_search query with quotes",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:80] formats web_search query with quotes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] summarizes exec commands with context",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:91] summarizes exec commands with context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:91",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] moves cd path to context suffix and appends raw command",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:107] moves cd path to context suffix and appends raw command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] moves cd path to context suffix with multiple stages and raw command",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:118] moves cd path to context suffix with multiple stages and raw command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:118",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] moves pushd path to context suffix and appends raw command",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:131] moves pushd path to context suffix and appends raw command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:131",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] clears inferred cwd when popd is stripped from preamble",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:142] clears inferred cwd when popd is stripped from preamble",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:142",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] moves cd path to context suffix with || separator",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:153] moves cd path to context suffix with || separator",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:153",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] explicit workdir takes priority over cd path",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:166] explicit workdir takes priority over cd path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:166",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] summarizes all stages and appends raw command",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:177] summarizes all stages and appends raw command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:177",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] falls back to raw command for unknown binaries",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:190] falls back to raw command for unknown binaries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:190",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] falls back to raw command for unknown binary with cwd",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:201] falls back to raw command for unknown binary with cwd",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:201",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] keeps multi-stage summary when only some stages are generic",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:212] keeps multi-stage summary when only some stages are generic",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:212",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] handles standalone cd as raw command",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:224] handles standalone cd as raw command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:224",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] handles chained cd commands using last path",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:236] handles chained cd commands using last path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:236",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] respects quotes when splitting preamble separators",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:248] respects quotes when splitting preamble separators",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:248",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-display.test.ts] recognizes heredoc/inline script exec details",
+TEST_CASE("v4.29 [src/agents/tool-display.test.ts:262] recognizes heredoc/inline script exec details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-display.test.ts:262",
                "upstream it() block #19",

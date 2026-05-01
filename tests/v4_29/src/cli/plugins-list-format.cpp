@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-list-format.test.ts] labels active registry entries as enabled rather than loaded",
+TEST_CASE("v4.29 [src/cli/plugins-list-format.test.ts:6] labels active registry entries as enabled rather than loaded",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-list-format.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-list-format.test.ts] shows imported state in verbose output",
+TEST_CASE("v4.29 [src/cli/plugins-list-format.test.ts:13] shows imported state in verbose output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-list-format.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-list-format.test.ts] sanitizes activation reasons in verbose output",
+TEST_CASE("v4.29 [src/cli/plugins-list-format.test.ts:30] sanitizes activation reasons in verbose output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-list-format.test.ts:30",
                "upstream it() block #2",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] uses native require on Windows for compatible JavaScript contract-api modules",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:38] uses native require on Windows for compatible JavaScript contract-api modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] falls back to the Jiti boundary on Windows for TypeScript contract-api modules",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:70] falls back to the Jiti boundary on Windows for TypeScript contract-api modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:70",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] prefers doctor-contract-api over the broader contract-api surface",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:119] prefers doctor-contract-api over the broader contract-api surface",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] uses native require for compatible JavaScript contract modules",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:155] uses native require for compatible JavaScript contract modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] reads doctor contracts from the current manifest registry on each call",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:186] reads doctor contracts from the current manifest registry on each call",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] narrows touched-path doctor ids for scoped dry-run validation",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:224] narrows touched-path doctor ids for scoped dry-run validation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:224",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts] falls back to the full doctor-id set when touched paths are too broad",
+TEST_CASE("v4.29 [src/plugins/doctor-contract-registry.test.ts:250] falls back to the full doctor-id set when touched paths are too broad",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/doctor-contract-registry.test.ts:250",
                "upstream it() block #6",

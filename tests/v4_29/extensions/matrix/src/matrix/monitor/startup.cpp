@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts] persists converted avatar URLs after profile sync",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts:142] persists converted avatar URLs after profile sync",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup.test.ts:142",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts] reports stale devices, pending verification, and restored legacy backups",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts:175] reports stale devices, pending verification, and restored legacy backups",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup.test.ts:175",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts] logs cooldown and request-failure verification outcomes without throwing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts:216] logs cooldown and request-failure verification outcomes without throwing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup.test.ts:216",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts] aborts maintenance before later startup steps continue",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/startup.test.ts:241] aborts maintenance before later startup steps continue",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/startup.test.ts:241",
                "upstream it() block #3",

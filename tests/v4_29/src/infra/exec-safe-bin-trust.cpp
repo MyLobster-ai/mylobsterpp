@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts] keeps default trusted dirs limited to immutable system paths",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts:14] keeps default trusted dirs limited to immutable system paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-trust.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts] builds trusted dirs from defaults and explicit extra dirs",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts:23] builds trusted dirs from defaults and explicit extra dirs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-trust.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts] memoizes trusted dirs per explicit trusted-dir snapshot",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts:35] memoizes trusted dirs per explicit trusted-dir snapshot",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-trust.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts] validates resolved paths using injected trusted dirs",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts:51] validates resolved paths using injected trusted dirs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-trust.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts] does not trust PATH entries by default",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts:67] does not trust PATH entries by default",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-trust.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts] flags explicitly trusted dirs that are group/world writable",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-trust.test.ts:76] flags explicitly trusted dirs that are group/world writable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-trust.test.ts:76",
                "upstream it() block #5",

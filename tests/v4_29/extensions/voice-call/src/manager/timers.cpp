@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts] starts and clears max duration timers, persisting timeout metadata before delegation",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts:30] starts and clears max duration timers, persisting timeout metadata before delegation",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/timers.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts] does not time out terminal calls",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts:64] does not time out terminal calls",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/timers.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts] waits for transcripts, resolves matching tokens, rejects mismatches and timeouts",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts:85] waits for transcripts, resolves matching tokens, rejects mismatches and timeouts",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/timers.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts] rejects duplicate transcript waiters for the same call",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager/timers.test.ts:116] rejects duplicate transcript waiters for the same call",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager/timers.test.ts:116",
                "upstream it() block #3",

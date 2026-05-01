@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] uses the runtime-supported Jiti boundary on Windows for setup-api modules",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:190] uses the runtime-supported Jiti boundary on Windows for setup-api modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:190",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] passes explicit plugin id scope into setup manifest reads",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:222] passes explicit plugin id scope into setup manifest reads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:222",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] skips setup-api loading when config has no relevant migration triggers",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:242] skips setup-api loading when config has no relevant migration triggers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:242",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] loads only plugins whose manifest migration triggers match the config",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:284] loads only plugins whose manifest migration triggers match the config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:284",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] still loads explicitly configured plugin entries without manifest trigger metadata",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:340] still loads explicitly configured plugin entries without manifest trigger metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:340",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] prefers setup provider descriptors over top-level provider ids",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:362] prefers setup provider descriptors over top-level provider ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:362",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] treats explicit descriptor-only setup as a runtime cutoff",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:406] treats explicit descriptor-only setup as a runtime cutoff",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:406",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] does not report descriptor-only diagnostics for bundled setup-api fallback paths",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:445] does not report descriptor-only diagnostics for bundled setup-api fallback paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:445",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] reports setup descriptor drift without rejecting runtime registrations",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:476] reports setup descriptor drift without rejecting runtime registrations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:476",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] does not report drift when setup descriptors match runtime registrations",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:542] does not report drift when setup descriptors match runtime registrations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:542",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] does not load setup-api modules from the current working directory",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:550] does not load setup-api modules from the current working directory",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:550",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] resolves setup cli backends from descriptors without loading every setup-api",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:590] resolves setup cli backends from descriptors without loading every setup-api",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:590",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] keeps synchronously registered cli backends even when register returns a promise",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:648] keeps synchronously registered cli backends even when register returns a promise",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:648",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] swallows rejected async setup provider registration returns",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:665] swallows rejected async setup provider registration returns",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:665",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] swallows rejected async setup cli backend registration returns",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:707] swallows rejected async setup cli backend registration returns",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:707",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] swallows rejected async setup registry registration returns",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:725] swallows rejected async setup registry registration returns",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:725",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] fails closed when multiple plugins claim the same setup provider id",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:735] fails closed when multiple plugins claim the same setup provider id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:735",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] fails closed when duplicate plugin ids shadow the same setup provider id",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:745] fails closed when duplicate plugin ids shadow the same setup provider id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:745",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] fails closed when multiple plugins claim the same setup cli backend id",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:755] fails closed when multiple plugins claim the same setup cli backend id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:755",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] fails closed when duplicate plugin ids shadow the same setup cli backend id",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:765] fails closed when duplicate plugin ids shadow the same setup cli backend id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:765",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts] does not retain setup lookup cache entries",
+TEST_CASE("v4.29 [src/plugins/setup-registry.test.ts:775] does not retain setup lookup cache entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/setup-registry.test.ts:775",
                "upstream it() block #20",

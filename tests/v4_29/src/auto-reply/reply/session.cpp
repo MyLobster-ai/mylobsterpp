@@ -5,551 +5,551 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] forks a new session from the parent session file",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:303] forks a new session from the parent session file",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:303",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] forks from parent when thread session key already exists but was not forked yet",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:391] forks from parent when thread session key already exists but was not forked yet",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:391",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] skips fork and creates fresh session when parent tokens exceed threshold",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:473] skips fork and creates fresh session when parent tokens exceed threshold",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:473",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] skips fork when resolved parent token estimate exceeds threshold",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:542] skips fork when resolved parent token estimate exceeds threshold",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:542",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] respects session.parentForkMaxTokens override",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:602] respects session.parentForkMaxTokens override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:602",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] records topic-specific session files when MessageThreadId is present",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:680] records topic-specific session files when MessageThreadId is present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:680",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] records topic-specific session files from SessionKey when MessageThreadId is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:705] records topic-specific session files from SessionKey when MessageThreadId is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:705",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses RawBody for command extraction and reset triggers when Body contains wrapped context",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:736] uses RawBody for command extraction and reset triggers when Body contains wrapped context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:736",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves argument casing while still matching reset triggers case-insensitively",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:767] preserves argument casing while still matching reset triggers case-insensitively",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:767",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] drains stale system events when /new rotates an existing session",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:795] drains stale system events when /new rotates an existing session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:795",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] rotates local session state for /new on bound ACP sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:842] rotates local session state for /new on bound ACP sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:842",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] rotates local session state for ACP /new when no matching conversation binding exists",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:898] rotates local session state for ACP /new when no matching conversation binding exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:898",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps custom reset triggers working on bound ACP sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:943] keeps custom reset triggers working on bound ACP sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:943",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps normal /new behavior for unbound ACP-shaped session keys",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1002] keeps normal /new behavior for unbound ACP-shaped session keys",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1002",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] does not suppress /new when active conversation binding points to a non-ACP session",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1046] does not suppress /new when active conversation binding points to a non-ACP session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1046",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] does not suppress /new when active target session key is non-ACP even with configured ACP binding",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1132] does not suppress /new when active target session key is non-ACP even with configured ACP binding",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1132",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] prefers native command target sessions over bound slash sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1189] prefers native command target sessions over bound slash sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1189",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses the default per-agent sessions store when config store is unset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1236] uses the default per-agent sessions store when config store is unset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1236",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] defaults to daily reset at 4am local time",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1376] defaults to daily reset at 4am local time",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1376",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] treats sessions as stale before the daily reset when updated before yesterday",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1418] treats sessions as stale before the daily reset when updated before yesterday",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1418",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] expires sessions when idle timeout wins over daily reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1443] expires sessions when idle timeout wins over daily reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1443",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] drains stale system events when idle rollover creates a new session",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1473] drains stale system events when idle rollover creates a new session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1473",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps the existing stale session for /reset soft",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1517] keeps the existing stale session for /reset soft",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1517",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps the existing stale session for /reset: soft",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1557] keeps the existing stale session for /reset: soft",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1557",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps the existing stale session for multiline /reset soft tails",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1597] keeps the existing stale session for multiline /reset soft tails",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1597",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] does not preserve a stale session for unauthorized /reset soft",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1637] does not preserve a stale session for unauthorized /reset soft",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1637",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses per-type overrides for thread sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1679] uses per-type overrides for thread sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1679",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] detects thread sessions without thread key suffix",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1710] detects thread sessions without thread key suffix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1710",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] defaults to daily resets when only resetByType is configured",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1740] defaults to daily resets when only resetByType is configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1740",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps legacy idleMinutes behavior without reset config",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1770] keeps legacy idleMinutes behavior without reset config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1770",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] closes tracked browser tabs when idle session expires",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1806] closes tracked browser tabs when idle session expires",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1806",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] closes tracked browser tabs on explicit /new reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1839] closes tracked browser tabs on explicit /new reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1839",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] does not close browser tabs for a fresh session without previous state",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1873] does not close browser tabs for a fresh session without previous state",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1873",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses channel-specific reset policy when configured",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1895] uses channel-specific reset policy when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1895",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] applies WhatsApp group reset authorization across sender variants",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:1959] applies WhatsApp group reset authorization across sender variants",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:1959",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] starts a fresh session when a scoped WhatsApp group entry only contains activation state",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2025] starts a fresh session when a scoped WhatsApp group entry only contains activation state",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2025",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] supports mention-prefixed Slack reset commands and preserves args",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2082] supports mention-prefixed Slack reset commands and preserves args",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2082",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves behavior overrides across /new and /reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2140] preserves behavior overrides across /new and /reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2140",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves selected auth profile overrides across /new and /reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2196] preserves selected auth profile overrides across /new and /reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2196",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] clears auto-sourced model/provider/auth overrides on /new and /reset (#69301)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2275] clears auto-sourced model/provider/auth overrides on /new and /reset (#69301)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2275",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves spawned session ownership metadata across /new and /reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2335] preserves spawned session ownership metadata across /new and /reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2335",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] requires operator.admin when Provider is internal even if Surface carries external metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2389] requires operator.admin when Provider is internal even if Surface carries external metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2389",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps the existing session for /reset soft",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2426] keeps the existing session for /reset soft",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2426",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps the existing session for /reset newline soft",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2469] keeps the existing session for /reset newline soft",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2469",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] archives the old session store entry on /new",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2504] archives the old session store entry on /new",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2504",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] archives the old session transcript on daily/scheduled reset (stale session)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2546] archives the old session transcript on daily/scheduled reset (stale session)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2546",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps provider-owned CLI sessions on implicit daily reset boundaries",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2597] keeps provider-owned CLI sessions on implicit daily reset boundaries",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2597",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] honors explicit reset policies for provider-owned CLI sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2658] honors explicit reset policies for provider-owned CLI sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2658",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] disposes the previous bundle MCP runtime on session rollover",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2703] disposes the previous bundle MCP runtime on session rollover",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2703",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] idle-based new session does NOT preserve overrides (no entry to read)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2749] idle-based new session does NOT preserve overrides (no entry to read)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2749",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] adds a local timestamp to queued system events by default",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2781] adds a local timestamp to queued system events by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2781",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps channel summary lines prefixed as trusted system output on new main sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2805] keeps channel summary lines prefixed as trusted system output on new main sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2805",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses lastCallUsage for totalTokens when provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2838] uses lastCallUsage for totalTokens when provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2838",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses lastCallUsage cache counters when available",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2865] uses lastCallUsage cache counters when available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2865",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] marks totalTokens as unknown when no fresh context snapshot is available",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2899] marks totalTokens as unknown when no fresh context snapshot is available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2899",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses promptTokens when available without lastCallUsage",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2920] uses promptTokens when available without lastCallUsage",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2920",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] treats CLI usage as a fresh context snapshot when requested",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2942] treats CLI usage as a fresh context snapshot when requested",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2942",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] persists totalTokens from promptTokens when usage is unavailable",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:2978] persists totalTokens from promptTokens when usage is unavailable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:2978",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps non-clamped lastCallUsage totalTokens when exceeding context window",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3007] keeps non-clamped lastCallUsage totalTokens when exceeding context window",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3007",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] snapshots estimatedCostUsd instead of accumulating (fixes #69347)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3029] snapshots estimatedCostUsd instead of accumulating (fixes #69347)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3029",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] persists zero estimatedCostUsd for free priced models",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3097] persists zero estimatedCostUsd for free priced models",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3097",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] does not inherit lastThreadId from a previous thread interaction in non-thread sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3145] does not inherit lastThreadId from a previous thread interaction in non-thread sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3145",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves lastThreadId within the same thread session",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3175] preserves lastThreadId within the same thread session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3175",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] retires stale main-session delivery route when dmScope uses per-channel DM keys",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3205] retires stale main-session delivery route when dmScope uses per-channel DM keys",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3205",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps legacy main-session delivery route when current DM target does not match",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3251] keeps legacy main-session delivery route when current DM target does not match",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3251",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] clears stale thread routing on non-thread system-event sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3297] clears stale thread routing on non-thread system-event sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3297",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] does not synthesize heartbeat routing on a session with no external route",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3367] does not synthesize heartbeat routing on a session with no external route",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3367",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves the existing user route when a heartbeat targets a different chat on the shared session",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3396] preserves the existing user route when a heartbeat targets a different chat on the shared session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3396",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps persisted external lastChannel when OriginatingChannel is internal webchat",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3450] keeps persisted external lastChannel when OriginatingChannel is internal webchat",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3450",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves persisted external route when webchat views a channel-peer session (fixes #47745)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3484] preserves persisted external route when webchat views a channel-peer session (fixes #47745)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3484",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] lets direct webchat turns own routing for sessions with no prior external route",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3525] lets direct webchat turns own routing for sessions with no prior external route",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3525",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps persisted external route when OriginatingChannel is non-deliverable",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3558] keeps persisted external route when OriginatingChannel is non-deliverable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3558",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses session key channel hint when first turn is internal webchat",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3592] uses session key channel hint when first turn is internal webchat",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3592",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps internal route when there is no persisted external fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3611] keeps internal route when there is no persisted external fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3611",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] keeps webchat channel for webchat/main sessions",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3630] keeps webchat channel for webchat/main sessions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3630",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves external route for main session when webchat accesses without destination (fixes #47745)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3647] preserves external route for main session when webchat accesses without destination (fixes #47745)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3647",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] preserves external route for main session when webchat sends with destination (fixes #47745)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3680] preserves external route for main session when webchat sends with destination (fixes #47745)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3680",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts] uses the configured default account for persisted routing when AccountId is omitted",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.test.ts:3716] uses the configured default account for persisted routing when AccountId is omitted",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.test.ts:3716",
                "upstream it() block #77",

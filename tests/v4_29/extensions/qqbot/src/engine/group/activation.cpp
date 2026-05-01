@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] maps configRequireMention=true → mention",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:6] maps configRequireMention=true → mention",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] maps configRequireMention=false → always",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:17] maps configRequireMention=false → always",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] honours explicit session-store override (mention)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:36] honours explicit session-store override (mention)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] honours explicit session-store override (always)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:49] honours explicit session-store override (always)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] ignores override when the key is absent",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:62] ignores override when the key is absent",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] ignores reader errors (null) and falls back",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:75] ignores reader errors (null) and falls back",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:75",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] ignores invalid activation values",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:88] ignores invalid activation values",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:88",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts] normalizes whitespace / case",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/activation.test.ts:101] normalizes whitespace / case",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/activation.test.ts:101",
                "upstream it() block #7",

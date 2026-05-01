@@ -5,257 +5,257 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] returns current message when history is empty",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:94] returns current message when history is empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] wraps history entries and excludes current by default",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:102] wraps history entries and excludes current by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] trims history to configured limit",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:119] trims history to configured limit",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] builds context from map and appends entry",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:144] builds context from map and appends entry",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:144",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] builds context from pending map without appending",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:163] builds context from pending map without appending",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:163",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] records pending entries only when enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:182] records pending entries only when enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] clears history entries only when enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:210] clears history entries only when enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] requires totalTokens and threshold",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:226] requires totalTokens and threshold",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] skips when entry is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:237] skips when entry is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:237",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] skips when under threshold",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:248] skips when under threshold",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:248",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] triggers at the threshold boundary",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:259] triggers at the threshold boundary",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:259",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] skips when already flushed for current compaction count",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:270] skips when already flushed for current compaction count",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:270",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] runs when above threshold and not flushed",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:285] runs when above threshold and not flushed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:285",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] ignores stale cached totals",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:296] ignores stale cached totals",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:296",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] ignores stale cached totals when no projected token count is provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:309] ignores stale cached totals when no projected token count is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:309",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] triggers when a projected token count crosses the threshold",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:320] triggers when a projected token count crosses the threshold",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:320",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] returns true when memoryFlushCompactionCount matches compactionCount",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:334] returns true when memoryFlushCompactionCount matches compactionCount",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:334",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] returns false when memoryFlushCompactionCount differs",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:343] returns false when memoryFlushCompactionCount differs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:343",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] returns false when memoryFlushCompactionCount is undefined",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:352] returns false when memoryFlushCompactionCount is undefined",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:352",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] treats missing compactionCount as 0",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:360] treats missing compactionCount as 0",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:360",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] falls back to agent config or default tokens",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:370] falls back to agent config or default tokens",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:370",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] uses provider-specific configured limits when the same model id exists on multiple providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:374] uses provider-specific configured limits when the same model id exists on multiple providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:374",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] prefers agent contextTokens override over the provider configured window",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:399] prefers agent contextTokens override over the provider configured window",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:399",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] increments compaction count",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:419] increments compaction count",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:419",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] updates totalTokens when tokensAfter is provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:435] updates totalTokens when tokensAfter is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:435",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] prefers explicit compactionTokensAfter over last-call usage for run accounting",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:462] prefers explicit compactionTokensAfter over last-call usage for run accounting",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:462",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] falls back to last-call usage when run compactionTokensAfter is non-finite",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:490] falls back to last-call usage when run compactionTokensAfter is non-finite",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:490",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] ignores non-finite tokensAfter values",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:518] ignores non-finite tokensAfter values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:518",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] updates sessionId and sessionFile when compaction rotated transcripts",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:542] updates sessionId and sessionFile when compaction rotated transcripts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:542",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] preserves fork transcript filenames when compaction rotates transcripts",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:552] preserves fork transcript filenames when compaction rotates transcripts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:552",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] keeps rewritten absolute sessionFile paths that stay inside the sessions directory",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:564] keeps rewritten absolute sessionFile paths that stay inside the sessions directory",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:564",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] increments compaction count by an explicit amount",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:574] increments compaction count by an explicit amount",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:574",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] updates sessionId and sessionFile when newSessionId is provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:591] updates sessionId and sessionFile when newSessionId is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:591",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] does not update sessionFile when newSessionId matches current sessionId",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:617] does not update sessionFile when newSessionId matches current sessionId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:617",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] updates sessionFile when rotation keeps the same sessionId",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:640] updates sessionFile when rotation keeps the same sessionId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:640",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts] does not update totalTokens when tokensAfter is not provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-state.test.ts:665] does not update totalTokens when tokensAfter is not provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-state.test.ts:665",
                "upstream it() block #35",

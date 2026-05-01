@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] rejects runs controlled by another session",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:184] rejects runs controlled by another session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:184",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] returns a structured error when the gateway send fails",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:217] returns a structured error when the gateway send fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:217",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not send to a newer live run when the caller passes a stale run entry",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:270] does not send to a newer live run when the caller passes a stale run entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:270",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] sends follow-up messages to the exact finished current run",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:314] sends follow-up messages to the exact finished current run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:314",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] sends follow-up messages to the newest finished run when stale active rows still exist",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:377] sends follow-up messages to the newest finished run when stale active rows still exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:377",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not return the previous assistant reply when no new assistant message appears",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:452] does not return the previous assistant reply when no new assistant message appears",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:452",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] kills a subagent by session key without requester ownership checks",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:530] kills a subagent by session key without requester ownership checks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:530",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] returns found=false when the session key is not tracked as a subagent run",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:567] returns found=false when the session key is not tracked as a subagent run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:567",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not kill a newest finished run when only a stale older row is still active",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:576] does not kill a newest finished run when only a stale older row is still active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:576",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] still terminates the run when session store persistence fails during kill",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:617] still terminates the run when session store persistence fails during kill",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:617",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not mutate the live session when the caller passes a stale run entry",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:665] does not mutate the live session when the caller passes a stale run entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:665",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not kill a stale child row while cascading descendants from an ended current parent",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:721] does not kill a stale child row while cascading descendants from an ended current parent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:721",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not cascade through a child session that moved to a newer parent",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:810] does not cascade through a child session that moved to a newer parent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:810",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] ignores stale run snapshots in bulk kill requests",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:916] ignores stale run snapshots in bulk kill requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:916",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not let a stale bulk entry suppress the current live entry for the same child key",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:972] does not let a stale bulk entry suppress the current live entry for the same child key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:972",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] does not kill a newest finished bulk target when only a stale older row is still active",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:1034] does not kill a newest finished bulk target when only a stale older row is still active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:1034",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] cascades through descendants for an ended current bulk target even when a stale older row is still active",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:1094] cascades through descendants for an ended current bulk target even when a stale older row is still active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:1094",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] returns an error and clears the restart marker when run remap fails",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:1174] returns an error and clears the restart marker when run remap fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:1174",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] rejects steering runs that are no longer tracked in the registry",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:1242] rejects steering runs that are no longer tracked in the registry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:1242",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-control.test.ts] steers an ended current run that is still waiting on active descendants even when stale older rows exist",
+TEST_CASE("v4.29 [src/agents/subagent-control.test.ts:1279] steers an ended current run that is still waiting on active descendants even when stale older rows exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-control.test.ts:1279",
                "upstream it() block #19",

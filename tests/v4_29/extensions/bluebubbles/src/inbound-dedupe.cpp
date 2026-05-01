@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] claims a new guid and rejects committed duplicates",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:22] claims a new guid and rejects committed duplicates",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] scopes dedupe per account",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:27] scopes dedupe per account",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] reports skip when guid is missing or blank",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:32] reports skip when guid is missing or blank",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] rejects overlong guids to cap on-disk size",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:44] rejects overlong guids to cap on-disk size",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] releases the claim so a later replay can retry after a transient failure",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:51] releases the claim so a later replay can retry after a transient failure",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:51",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] marks every coalesced source messageId as seen so a later replay dedupes",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:67] marks every coalesced source messageId as seen so a later replay dedupes",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] scopes coalesced commits per account",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:82] scopes coalesced commits per account",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] skips empty or overlong guids without throwing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:92] skips empty or overlong guids without throwing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:92",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] returns messageId for new-message events",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:104] returns messageId for new-message events",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:104",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] returns associatedMessageGuid for balloon events",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:108] returns associatedMessageGuid for balloon events",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:108",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] suffixes key with :updated for updated-message events",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:118] suffixes key with :updated for updated-message events",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:118",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] updated-message and new-message for same GUID produce distinct keys",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:124] updated-message and new-message for same GUID produce distinct keys",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:124",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts] returns undefined when messageId is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/inbound-dedupe.test.ts:133] returns undefined when messageId is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/inbound-dedupe.test.ts:133",
                "upstream it() block #12",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] sets and applies nested overrides",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:16] sets and applies nested overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] merges object overrides without clobbering siblings",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:25] merges object overrides without clobbering siblings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] unsets overrides and prunes empty branches",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:35] unsets overrides and prunes empty branches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] rejects prototype pollution paths",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:43] rejects prototype pollution paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] blocks __proto__ keys inside override object values",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:52] blocks __proto__ keys inside override object values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] blocks constructor/prototype keys inside override object values",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:61] blocks constructor/prototype keys inside override object values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:61",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts] sanitizes blocked object keys when writing overrides",
+TEST_CASE("v4.29 [src/config/runtime-overrides.test.ts:70] sanitizes blocked object keys when writing overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-overrides.test.ts:70",
                "upstream it() block #6",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] detects when timeline output is enabled",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:43] detects when timeline output is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] honors config diagnostics flags after config is available",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:76] honors config diagnostics flags after config is available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] lets false-like env diagnostics disable config-enabled timeline output",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:95] lets false-like env diagnostics disable config-enabled timeline output",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:95",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] writes JSONL diagnostic events with the stable envelope",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:107] writes JSONL diagnostic events with the stable envelope",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] records span start and end events around successful work",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:142] records span start and end events around successful work",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:142",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] records span error events and rethrows failures",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:174] records span error events and rethrows failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:174",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts] records synchronous spans",
+TEST_CASE("v4.29 [src/infra/diagnostics-timeline.test.ts:198] records synchronous spans",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostics-timeline.test.ts:198",
                "upstream it() block #6",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts] logs startup success",
+TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts:32] logs startup success",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-watcher-lifecycle.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts] logs actionable non-start reason",
+TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts:45] logs actionable non-start reason",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-watcher-lifecycle.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts] suppresses expected non-start reasons",
+TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts:56] suppresses expected non-start reasons",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-watcher-lifecycle.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts] supports skip callback when watcher is disabled",
+TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts:70] supports skip callback when watcher is disabled",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-watcher-lifecycle.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts] logs startup errors",
+TEST_CASE("v4.29 [src/hooks/gmail-watcher-lifecycle.test.ts:84] logs startup errors",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-watcher-lifecycle.test.ts:84",
                "upstream it() block #4",

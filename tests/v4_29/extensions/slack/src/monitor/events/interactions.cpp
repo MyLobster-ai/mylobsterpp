@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] enqueues structured events and updates button rows",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:298] enqueues structured events and updates button rows",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:298",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] registers a matcher that accepts plugin action ids beyond the OpenClaw prefix",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:376] registers a matcher that accepts plugin action ids beyond the OpenClaw prefix",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:376",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] routes matching Slack actions through the shared plugin interactive dispatcher",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:386] routes matching Slack actions through the shared plugin interactive dispatcher",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:386",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] treats Slack reply buttons as plain interaction events instead of plugin dispatch",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:475] treats Slack reply buttons as plain interaction events instead of plugin dispatch",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:475",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] uses unique interaction ids for repeated Slack actions on the same message",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:519] uses unique interaction ids for repeated Slack actions on the same message",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:519",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] resolves plugin binding approvals from shared interactive Slack actions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:604] resolves plugin binding approvals from shared interactive Slack actions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:604",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] resolves exec approvals from shared interactive Slack actions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:672] resolves exec approvals from shared interactive Slack actions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:672",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] keeps exec approval buttons when gateway resolution fails",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:732] keeps exec approval buttons when gateway resolution fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:732",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] rejects unauthorized exec approval interactions without enqueueing them",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:776] rejects unauthorized exec approval interactions without enqueueing them",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:776",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] drops block actions when mismatch guard triggers",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:834] drops block actions when mismatch guard triggers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:834",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] drops modal lifecycle payloads when mismatch guard triggers",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:872] drops modal lifecycle payloads when mismatch guard triggers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:872",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] captures select values and updates action rows for non-button actions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:916] captures select values and updates action rows for non-button actions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:916",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] blocks block actions from users outside configured channel users allowlist",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:971] blocks block actions from users outside configured channel users allowlist",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:971",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] blocks channel block actions when sender is outside configured global allowFrom",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1011] blocks channel block actions when sender is outside configured global allowFrom",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1011",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] allows channel block actions when channel users allowlist authorizes the sender",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1049] allows channel block actions when channel users allowlist authorizes the sender",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1049",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] blocks wildcard global allowFrom from bypassing configured channel users",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1087] blocks wildcard global allowFrom from bypassing configured channel users",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1087",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] keeps channel block actions open when no allowlists are configured",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1128] keeps channel block actions open when no allowlists are configured",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1128",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] blocks DM block actions when sender is not in allowFrom",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1161] blocks DM block actions when sender is not in allowFrom",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1161",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] ignores malformed action payloads after ack and logs warning",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1200] ignores malformed action payloads after ack and logs warning",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1200",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] escapes mrkdwn characters in confirmation labels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1234] escapes mrkdwn characters in confirmation labels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1234",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] falls back to container channel and message timestamps",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1283] falls back to container channel and message timestamps",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1283",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] summarizes multi-select confirmations in updated message rows",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1330] summarizes multi-select confirmations in updated message rows",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1330",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] renders date/time/datetime picker selections in confirmation rows",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1389] renders date/time/datetime picker selections in confirmation rows",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1389",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] captures expanded selection and temporal payload fields",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1534] captures expanded selection and temporal payload fields",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1534",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] captures workflow button trigger metadata",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1603] captures workflow button trigger metadata",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1603",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] captures modal submissions and enqueues view submission event",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1650] captures modal submissions and enqueues view submission event",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1650",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] blocks modal events when private metadata userId does not match submitter",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1751] blocks modal events when private metadata userId does not match submitter",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1751",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] blocks modal events when private metadata is missing userId",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1778] blocks modal events when private metadata is missing userId",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1778",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] keeps no-channel modal events open when allowFrom is unset",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1804] keeps no-channel modal events open when allowFrom is unset",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1804",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] captures modal input labels and picker values across block types",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:1831] captures modal input labels and picker values across block types",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:1831",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] truncates rich text preview to keep payload summaries compact",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:2046] truncates rich text preview to keep payload summaries compact",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:2046",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] captures modal close events and enqueues view closed event",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:2095] captures modal close events and enqueues view closed event",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:2095",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] defaults modal close isCleared to false when Slack omits the flag",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:2183] defaults modal close isCleared to false when Slack omits the flag",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:2183",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts] caps oversized interaction payloads with compact summaries",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/interactions.test.ts:2214] caps oversized interaction payloads with compact summaries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/interactions.test.ts:2214",
                "upstream it() block #33",

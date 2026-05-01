@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts] strips quotes and keeps the first non-empty line",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts:5] strips quotes and keeps the first non-empty line",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts] skips leading blank lines before selecting a title",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts:11] skips leading blank lines before selecting a title",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts] skips leading markdown fence lines before selecting a title",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts:17] skips leading markdown fence lines before selecting a title",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts] strips markdown emphasis wrappers around the full title",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.test.ts:23] strips markdown emphasis wrappers around the full title",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.test.ts:23",
                "upstream it() block #3",

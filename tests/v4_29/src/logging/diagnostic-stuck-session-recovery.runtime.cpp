@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] does not abort an active embedded run by default",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:94] does not abort an active embedded run by default",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] aborts an active embedded run when active abort recovery is enabled",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:114] aborts an active embedded run when active abort recovery is enabled",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:114",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] force-clears and releases the session lane when abort cleanup does not drain",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:132] force-clears and releases the session lane when abort cleanup does not drain",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:132",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] force-clears and releases the session lane when an active run cannot be aborted",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:153] force-clears and releases the session lane when an active run cannot be aborted",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:153",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] releases a stale session lane when diagnostics are processing but no active run exists",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:174] releases a stale session lane when diagnostics are processing but no active run exists",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] does not release the session lane while reply work is active without an embedded handle",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:188] does not release the session lane while reply work is active without an embedded handle",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:188",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] does not release the session lane while unregistered lane work is active",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:212] does not release the session lane while unregistered lane work is active",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] reports when recovery finds no active work to release",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:242] reports when recovery finds no active work to release",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:242",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] releases a stale session-id lane when no session key is available",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:258] releases a stale session-id lane when no session key is available",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:258",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts] coalesces duplicate recovery attempts for the same session",
+TEST_CASE("v4.29 [src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:272] coalesces duplicate recovery attempts for the same session",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stuck-session-recovery.runtime.test.ts:272",
                "upstream it() block #9",

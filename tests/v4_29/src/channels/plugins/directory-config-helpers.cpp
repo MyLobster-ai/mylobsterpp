@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] normalizes, deduplicates, filters, and limits user ids",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:24] normalizes, deduplicates, filters, and limits user ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] extracts normalized group ids from map keys",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:37] extracts normalized group ids from map keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] merges allowFrom and map keys with dedupe/query/limit",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:55] merges allowFrom and map keys with dedupe/query/limit",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] merges groups keys and group allowFrom entries",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:73] merges groups keys and group allowFrom entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] merges source iterables with dedupe/query/limit",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:90] merges source iterables with dedupe/query/limit",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] returns empty when the inspected account is missing",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:107] returns empty when the inspected account is missing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] lists entries from inspected account sources",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:119] lists entries from inspected account sources",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:119",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] builds a reusable inspected-account lister",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:134] builds a reusable inspected-account lister",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:134",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] lists user entries from resolved account allowFrom",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:155] lists user entries from resolved account allowFrom",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] lists group entries from resolved account map keys",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:167] lists group entries from resolved account map keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:167",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] lists entries from resolved account sources",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:181] lists entries from resolved account sources",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:181",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts] builds a reusable resolved-account lister",
+TEST_CASE("v4.29 [src/channels/plugins/directory-config-helpers.test.ts:195] builds a reusable resolved-account lister",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/directory-config-helpers.test.ts:195",
                "upstream it() block #11",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/executable-path.test.ts] detects executable files and rejects directories or non-executables",
+TEST_CASE("v4.29 [src/infra/executable-path.test.ts:12] detects executable files and rejects directories or non-executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/executable-path.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/executable-path.test.ts] resolves executables from PATH entries and cwd-relative paths",
+TEST_CASE("v4.29 [src/infra/executable-path.test.ts:29] resolves executables from PATH entries and cwd-relative paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/executable-path.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/executable-path.test.ts] resolves absolute, home-relative, and Path-cased env executables",
+TEST_CASE("v4.29 [src/infra/executable-path.test.ts:53] resolves absolute, home-relative, and Path-cased env executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/executable-path.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/executable-path.test.ts] does not treat drive-less rooted windows paths as cwd-relative executables",
+TEST_CASE("v4.29 [src/infra/executable-path.test.ts:81] does not treat drive-less rooted windows paths as cwd-relative executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/executable-path.test.ts:81",
                "upstream it() block #3",

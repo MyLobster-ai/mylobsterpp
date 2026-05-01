@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] defaults Kimi thinking to disabled unless explicitly enabled",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:86] defaults Kimi thinking to disabled unless explicitly enabled",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:86",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] converts tagged Kimi tool-call text into structured tool calls",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:99] converts tagged Kimi tool-call text into structured tool calls",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] leaves normal assistant text unchanged",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:176] leaves normal assistant text unchanged",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:176",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] supports async stream functions",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:198] supports async stream functions",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:198",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] parses multiple tagged tool calls in one section",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:217] parses multiple tagged tool calls in one section",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:217",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] adapts provider stream context without changing wrapper behavior",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:241] adapts provider stream context without changing wrapper behavior",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:241",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] forces Kimi thinking disabled and strips proxy reasoning fields",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:261] forces Kimi thinking disabled and strips proxy reasoning fields",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:261",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] lets explicit model params keep Kimi thinking disabled even when session thinking is on",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:284] lets explicit model params keep Kimi thinking disabled even when session thinking is on",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:284",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts] enables Kimi thinking only when explicitly requested",
+TEST_CASE("v4.29 [extensions/kimi-coding/stream.test.ts:310] enables Kimi thinking only when explicitly requested",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/stream.test.ts:310",
                "upstream it() block #8",

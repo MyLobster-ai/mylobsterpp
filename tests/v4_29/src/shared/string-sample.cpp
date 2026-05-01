@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/string-sample.test.ts] returns emptyText for empty lists",
+TEST_CASE("v4.29 [src/shared/string-sample.test.ts:5] returns emptyText for empty lists",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-sample.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-sample.test.ts] joins short lists without a suffix",
+TEST_CASE("v4.29 [src/shared/string-sample.test.ts:10] joins short lists without a suffix",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-sample.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-sample.test.ts] adds a remainder suffix when truncating",
+TEST_CASE("v4.29 [src/shared/string-sample.test.ts:14] adds a remainder suffix when truncating",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-sample.test.ts:14",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-sample.test.ts] uses a floored limit and clamps non-positive values to one entry",
+TEST_CASE("v4.29 [src/shared/string-sample.test.ts:23] uses a floored limit and clamps non-positive values to one entry",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-sample.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-sample.test.ts] uses the default limit when none is provided",
+TEST_CASE("v4.29 [src/shared/string-sample.test.ts:38] uses the default limit when none is provided",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-sample.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-sample.test.ts] does not add a suffix when the limit exactly matches the entry count",
+TEST_CASE("v4.29 [src/shared/string-sample.test.ts:46] does not add a suffix when the limit exactly matches the entry count",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-sample.test.ts:46",
                "upstream it() block #5",

@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] routes button clicks with reply references",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:291] routes button clicks with reply references",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:291",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] records DM component interactions with user originating targets",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:308] records DM component interactions with user originating targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:308",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] uses raw callbackData for built-in fallback when no plugin handler matches",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:325] uses raw callbackData for built-in fallback when no plugin handler matches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:325",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] preserves selected values for select fallback when no plugin handler matches",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:341] preserves selected values for select fallback when no plugin handler matches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:341",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] keeps reusable buttons active after use",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:370] keeps reusable buttons active after use",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:370",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] blocks buttons when allowedUsers does not match",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:392] blocks buttons when allowedUsers does not match",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:392",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] blocks buttons from guilds removed from the allowlist",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:411] blocks buttons from guilds removed from the allowlist",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:411",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] routes modal submissions with field values",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:556] routes modal submissions with field values",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:556",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] keeps reusable modal entries active after submission",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:583] keeps reusable modal entries active after submission",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:583",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] passes false auth to plugin Discord interactions for non-allowlisted guild users",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:590] passes false auth to plugin Discord interactions for non-allowlisted guild users",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:590",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] passes true auth to plugin Discord interactions for allowlisted guild users",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:598] passes true auth to plugin Discord interactions for allowlisted guild users",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:598",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] routes plugin Discord interactions in group DMs by channel id instead of sender id",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:606] routes plugin Discord interactions in group DMs by channel id instead of sender id",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:606",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] marks built-in Group DM component fallbacks with group metadata",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:651] marks built-in Group DM component fallbacks with group metadata",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:651",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] blocks Group DM modal triggers before showing the modal",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:690] blocks Group DM modal triggers before showing the modal",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:690",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] does not fall through to Claw when a plugin Discord interaction already replied",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:721] does not fall through to Claw when a plugin Discord interaction already replied",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:721",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] lets plugin Discord interactions clear components after acknowledging",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:748] lets plugin Discord interactions clear components after acknowledging",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:748",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] falls through to built-in Discord component routing when a plugin declines handling",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:795] falls through to built-in Discord component routing when a plugin declines handling",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:795",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts] resolves plugin binding approvals without falling through to Claw",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/monitor.test.ts:816] resolves plugin binding approvals without falling through to Claw",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/monitor.test.ts:816",
                "upstream it() block #17",

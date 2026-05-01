@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/moonshot/index.test.ts] mirrors Kimi web-search env credentials in manifest metadata",
+TEST_CASE("v4.29 [extensions/moonshot/index.test.ts:20] mirrors Kimi web-search env credentials in manifest metadata",
           "[v4_29][parity_gap][moonshot]") {
     PARITY_GAP("extensions/moonshot/index.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/moonshot/index.test.ts] owns replay policy for OpenAI-compatible Moonshot transports without mangling native Kimi tool_call IDs",
+TEST_CASE("v4.29 [extensions/moonshot/index.test.ts:26] owns replay policy for OpenAI-compatible Moonshot transports without mangling native Kimi tool_call IDs",
           "[v4_29][parity_gap][moonshot]") {
     PARITY_GAP("extensions/moonshot/index.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/moonshot/index.test.ts] wires moonshot-thinking stream hooks",
+TEST_CASE("v4.29 [extensions/moonshot/index.test.ts:44] wires moonshot-thinking stream hooks",
           "[v4_29][parity_gap][moonshot]") {
     PARITY_GAP("extensions/moonshot/index.test.ts:44",
                "upstream it() block #2",

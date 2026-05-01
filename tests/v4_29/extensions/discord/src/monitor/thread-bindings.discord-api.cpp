@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] returns explicit channelId without resolving route",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:73] returns explicit channelId without resolving route",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] normalizes prefixed explicit channelId without resolving route",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:85] normalizes prefixed explicit channelId without resolving route",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] strips channel prefix before resolving route",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:97] strips channel prefix before resolving route",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] returns parent channel for thread channels",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:114] returns parent channel for thread channels",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] forwards cfg when resolving channel id through Discord client",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:129] forwards cfg when resolving channel id through Discord client",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:129",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] keeps non-thread channel id even when parent_id exists",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:151] keeps non-thread channel id even when parent_id exists",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:151",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] keeps forum channel id instead of parent category",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:166] keeps forum channel id instead of parent category",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:166",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts] forwards cfg to webhook send path",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:195] forwards cfg to webhook send path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.discord-api.test.ts:195",
                "upstream it() block #7",

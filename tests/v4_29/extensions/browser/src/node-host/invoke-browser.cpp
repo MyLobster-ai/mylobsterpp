@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] adds profile and browser status details on ws-backed timeouts",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:175] adds profile and browser status details on ws-backed timeouts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:175",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] includes chrome-mcp transport in timeout diagnostics when no CDP URL exists",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:207] includes chrome-mcp transport in timeout diagnostics when no CDP URL exists",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:207",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] redacts sensitive cdpUrl details in timeout diagnostics",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:240] redacts sensitive cdpUrl details in timeout diagnostics",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:240",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] keeps non-timeout browser errors intact",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:273] keeps non-timeout browser errors intact",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:273",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] rejects unauthorized query.profile when allowProfiles is configured",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:291] rejects unauthorized query.profile when allowProfiles is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:291",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] uses the browser source snapshot for proxy default-profile decisions",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:310] uses the browser source snapshot for proxy default-profile decisions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:310",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] rejects unauthorized body.profile when allowProfiles is configured",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:345] rejects unauthorized body.profile when allowProfiles is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:345",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] rejects persistent profile creation when allowProfiles is configured",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:364] rejects persistent profile creation when allowProfiles is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:364",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] rejects persistent profile deletion when allowProfiles is configured",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:383] rejects persistent profile deletion when allowProfiles is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:383",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] rejects persistent profile reset when allowProfiles is configured",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:401] rejects persistent profile reset when allowProfiles is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:401",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] canonicalizes an allowlisted body profile into the dispatched query",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:420] canonicalizes an allowlisted body profile into the dispatched query",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:420",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts] rejects persistent profile creation when allowProfiles is empty",
+TEST_CASE("v4.29 [extensions/browser/src/node-host/invoke-browser.test.ts:447] rejects persistent profile creation when allowProfiles is empty",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/node-host/invoke-browser.test.ts:447",
                "upstream it() block #11",

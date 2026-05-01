@@ -5,264 +5,264 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] downloads forwarded attachments",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:200] downloads forwarded attachments",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:200",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] forwards fetchImpl to forwarded attachment downloads",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:234] forwards fetchImpl to forwarded attachment downloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:234",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] keeps forwarded attachment metadata when download fails",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:266] keeps forwarded attachment metadata when download fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:266",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] downloads forwarded stickers",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:287] downloads forwarded stickers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:287",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] returns empty when no snapshots are present",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:320] returns empty when no snapshots are present",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:320",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] downloads forwarded referenced attachments when snapshots are absent",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:327] downloads forwarded referenced attachments when snapshots are absent",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:327",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] skips snapshots without attachments",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:359] skips snapshots without attachments",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:359",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] passes readIdleTimeoutMs to forwarded attachment downloads",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:373] passes readIdleTimeoutMs to forwarded attachment downloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:373",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] passes readIdleTimeoutMs to forwarded sticker downloads",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:404] passes readIdleTimeoutMs to forwarded sticker downloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:404",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] downloads stickers",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:441] downloads stickers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:441",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] forwards fetchImpl to sticker downloads",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:472] forwards fetchImpl to sticker downloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:472",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] keeps attachment metadata when download fails",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:501] keeps attachment metadata when download fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:501",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] skips attachments without a usable URL",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:520] skips attachments without a usable URL",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:520",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] classifies audio attachments by filename when content type is missing",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:539] classifies audio attachments by filename when content type is missing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:539",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] classifies Discord voice attachments by waveform metadata",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:563] classifies Discord voice attachments by waveform metadata",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:563",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] falls back to URL when saveMediaBuffer fails",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:589] falls back to URL when saveMediaBuffer fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:589",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] preserves downloaded attachments alongside failed ones",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:620] preserves downloaded attachments alongside failed ones",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:620",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] keeps sticker metadata when sticker download fails",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:666] keeps sticker metadata when sticker download fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:666",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] passes readIdleTimeoutMs to fetchRemoteMedia for attachments",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:691] passes readIdleTimeoutMs to fetchRemoteMedia for attachments",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:691",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] passes readIdleTimeoutMs to fetchRemoteMedia for stickers",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:720] passes readIdleTimeoutMs to fetchRemoteMedia for stickers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:720",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] times out slow attachment downloads and returns fallback",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:748] times out slow attachment downloads and returns fallback",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:748",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] passes abortSignal to fetchRemoteMedia and falls back when aborted",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:786] passes abortSignal to fetchRemoteMedia and falls back when aborted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:786",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] passes Discord CDN hostname allowlist with RFC2544 enabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:837] passes Discord CDN hostname allowlist with RFC2544 enabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:837",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] merges provided ssrfPolicy with Discord CDN defaults",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:858] merges provided ssrfPolicy with Discord CDN defaults",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:858",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] includes forwarded message snapshots in body text",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:895] includes forwarded message snapshots in body text",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:895",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] falls back to referenced forward message text when snapshots are absent",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:908] falls back to referenced forward message text when snapshots are absent",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:908",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] does not treat ordinary replies as forwarded context",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:920] does not treat ordinary replies as forwarded context",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:920",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] resolves user mentions in content",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:932] resolves user mentions in content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:932",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] leaves content unchanged if no mentions present",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:945] leaves content unchanged if no mentions present",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:945",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] uses sticker placeholders when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:955] uses sticker placeholders when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:955",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] uses embed title when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:972] uses embed title when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:972",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] uses embed description when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:983] uses embed description when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:983",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] joins embed title and description when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:994] joins embed title and description when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:994",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] prefers message content over embed fallback text",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:1005] prefers message content over embed fallback text",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:1005",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] joins forwarded snapshot embed title and description when content is empty",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:1016] joins forwarded snapshot embed title and description when content is empty",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:1016",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] caches channel lookups between calls",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:1035] caches channel lookups between calls",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:1035",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts] negative-caches missing channels",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-utils.test.ts:1056] negative-caches missing channels",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-utils.test.ts:1056",
                "upstream it() block #36",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts] starts the Google Live WebSocket transport from a generic session result",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts:59] starts the Google Live WebSocket transport from a generic session result",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts] keeps Google Live WebSocket sessions off the WebRTC fallback when transport is omitted",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts:86] keeps Google Live WebSocket sessions off the WebRTC fallback when transport is omitted",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts] does not treat ambiguous Google sessions as browser WebRTC sessions",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts:108] does not treat ambiguous Google sessions as browser WebRTC sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk.test.ts:108",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts] does not infer Google Live transport from websocketUrl on non-Google sessions",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts:123] does not infer Google Live transport from websocketUrl on non-Google sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts] starts the Gateway relay transport for backend-only realtime providers",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts:137] starts the Gateway relay transport for backend-only realtime providers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk.test.ts:137",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts] keeps legacy session results on the OpenAI-style WebRTC transport",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk.test.ts:161] keeps legacy session results on the OpenAI-style WebRTC transport",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk.test.ts:161",
                "upstream it() block #5",

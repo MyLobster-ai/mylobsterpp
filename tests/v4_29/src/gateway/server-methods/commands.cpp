@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] returns all command sources",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:187] returns all command sources",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:187",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] maps native commands with category, scope, and args",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:195] maps native commands with category, scope, and args",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:195",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] exposes per-command scope",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:217] exposes per-command scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:217",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] skips args when acceptsArgs is false",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:226] skips args when acceptsArgs is false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:226",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] serializes dynamic choices when acceptsArgs is true",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:233] serializes dynamic choices when acceptsArgs is true",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:233",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] identifies skill commands by source",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:249] identifies skill commands by source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:249",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] always includes plugin commands regardless of scope filter",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:256] always includes plugin commands regardless of scope filter",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:256",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] filters built-in commands by scope=native (excludes text-only)",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:264] filters built-in commands by scope=native (excludes text-only)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:264",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] filters built-in commands by scope=text (excludes native-only)",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:273] filters built-in commands by scope=text (excludes native-only)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:273",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] resolves provider-specific native names",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:281] resolves provider-specific native names",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:281",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] normalizes mixed-case provider",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:288] normalizes mixed-case provider",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:288",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] uses default names without provider",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:296] uses default names without provider",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:296",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] omits plugin commands when provider lacks nativeCommandsAutoEnabled",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:303] omits plugin commands when provider lacks nativeCommandsAutoEnabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:303",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] uses text-surface names when scope=text even with provider-native aliases",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:309] uses text-surface names when scope=text even with provider-native aliases",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:309",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] keeps plugin text commands visible for scope=text even without native provider support",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:328] keeps plugin text commands visible for scope=text even without native provider support",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:328",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] keeps plugin text names while exposing provider-native aliases for scope=text",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:345] keeps plugin text names while exposing provider-native aliases for scope=text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:345",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] returns provider-specific plugin command names",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:362] returns provider-specific plugin command names",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:362",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] excludes args when includeArgs=false",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:369] excludes args when includeArgs=false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:369",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] caps serialized command payload size and field lengths",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:376] caps serialized command payload size and field lengths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:376",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] rejects unknown agentId",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:428] rejects unknown agentId",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:428",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] rejects invalid params",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:434] rejects invalid params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:434",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts] is callable independently from handler",
+TEST_CASE("v4.29 [src/gateway/server-methods/commands.test.ts:446] is callable independently from handler",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/commands.test.ts:446",
                "upstream it() block #21",

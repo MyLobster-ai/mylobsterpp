@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets X-Content-Type-Options",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:38] sets X-Content-Type-Options",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets Referrer-Policy",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:44] sets Referrer-Policy",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets Permissions-Policy that allows microphone for same-origin",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:50] sets Permissions-Policy that allows microphone for same-origin",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets Strict-Transport-Security when provided",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:59] sets Strict-Transport-Security when provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] does not set Strict-Transport-Security when not provided",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:70] does not set Strict-Transport-Security when not provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] does not set Strict-Transport-Security for empty string",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:76] does not set Strict-Transport-Security for empty string",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:76",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] does not set Strict-Transport-Security when opts is omitted",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:82] does not set Strict-Transport-Security when opts is omitted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets status, content-type and writes JSON body",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:90] sets status, content-type and writes JSON body",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:90",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets status, content-type and writes plain-text body",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:100] sets status, content-type and writes plain-text body",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:100",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] defaults the Allow header to POST and responds 405",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:110] defaults the Allow header to POST and responds 405",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:110",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] honours a custom Allow header value",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:118] honours a custom Allow header value",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:118",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 401 and a structured unauthorized payload",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:126] responds with 401 and a structured unauthorized payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:126",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 429 and no Retry-After when retryAfterMs is omitted",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:137] responds with 429 and no Retry-After when retryAfterMs is omitted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:137",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 429 and no Retry-After when retryAfterMs is zero",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:152] responds with 429 and no Retry-After when retryAfterMs is zero",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:152",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 429 and no Retry-After when retryAfterMs is negative",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:159] responds with 429 and no Retry-After when retryAfterMs is negative",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:159",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets Retry-After (seconds, ceiled) when retryAfterMs is positive",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:166] sets Retry-After (seconds, ceiled) when retryAfterMs is positive",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:166",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] delegates to sendRateLimited when the auth result is rate limited",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:175] delegates to sendRateLimited when the auth result is rate limited",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:175",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] delegates to sendUnauthorized when the auth result is not rate limited",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:184] delegates to sendUnauthorized when the auth result is not rate limited",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:184",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 400 and includes the supplied message",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:196] responds with 400 and includes the supplied message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:196",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] returns the parsed body on success",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:209] returns the parsed body on success",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:209",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 413 when the body is too large",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:217] responds with 413 when the body is too large",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:217",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 408 when the request body times out",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:244] responds with 408 when the request body times out",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:244",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] responds with 400 for other parse failures",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:257] responds with 400 for other parse failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:257",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] writes the SSE termination sentinel to the response stream",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:270] writes the SSE termination sentinel to the response stream",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:270",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] sets the SSE headers and calls flushHeaders when present",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:279] sets the SSE headers and calls flushHeaders when present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:279",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] skips flushHeaders gracefully when the response does not expose one",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:291] skips flushHeaders gracefully when the response does not expose one",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:291",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] returns a no-op cleanup when no sockets are available",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:311] returns a no-op cleanup when no sockets are available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:311",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] aborts the controller and calls onDisconnect when a socket closes",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:320] aborts the controller and calls onDisconnect when a socket closes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:320",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] does not double-abort when the controller is already aborted",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:331] does not double-abort when the controller is already aborted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:331",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] works without an onDisconnect callback",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:344] works without an onDisconnect callback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:344",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] deduplicates identical request and response sockets",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:353] deduplicates identical request and response sockets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:353",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] registers handlers on distinct request and response sockets",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:362] registers handlers on distinct request and response sockets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:362",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-common.test.ts] cleanup detaches the close listener from each socket",
+TEST_CASE("v4.29 [src/gateway/http-common.test.ts:374] cleanup detaches the close listener from each socket",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-common.test.ts:374",
                "upstream it() block #32",

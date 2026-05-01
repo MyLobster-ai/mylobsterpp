@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/completion-cli.test.ts] generates zsh functions for nested subcommands",
+TEST_CASE("v4.29 [src/cli/completion-cli.test.ts:25] generates zsh functions for nested subcommands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-cli.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-cli.test.ts] defers zsh registration until compinit is available",
+TEST_CASE("v4.29 [src/cli/completion-cli.test.ts:34] defers zsh registration until compinit is available",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-cli.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-cli.test.ts] generates PowerShell command paths without the executable prefix",
+TEST_CASE("v4.29 [src/cli/completion-cli.test.ts:87] generates PowerShell command paths without the executable prefix",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-cli.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/completion-cli.test.ts] generates fish completions for root and nested command contexts",
+TEST_CASE("v4.29 [src/cli/completion-cli.test.ts:96] generates fish completions for root and nested command contexts",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/completion-cli.test.ts:96",
                "upstream it() block #3",

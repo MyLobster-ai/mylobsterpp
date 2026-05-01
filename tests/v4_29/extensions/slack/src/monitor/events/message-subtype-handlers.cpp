@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts] resolves message_changed metadata and identifiers",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:6] resolves message_changed metadata and identifiers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts] resolves message_deleted metadata and identifiers",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:25] resolves message_deleted metadata and identifiers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts] does not treat thread_broadcast as a metadata-only system event",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:44] does not treat thread_broadcast as a metadata-only system event",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts] returns undefined for regular messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:57] returns undefined for regular messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/events/message-subtype-handlers.test.ts:57",
                "upstream it() block #3",

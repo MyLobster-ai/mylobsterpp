@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts] coerces mixed entries to non-empty strings",
+TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts:14] coerces mixed entries to non-empty strings",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/allowlist-config-edit.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts] reads dm/group config from the resolved account",
+TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts:178] reads dm/group config from the resolved account",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/allowlist-config-edit.test.ts:178",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts] writes group allowlist entries to groupAllowFrom",
+TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts:188] writes group allowlist entries to groupAllowFrom",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/allowlist-config-edit.test.ts:188",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts] reads legacy dm config from the resolved account",
+TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts:235] reads legacy dm config from the resolved account",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/allowlist-config-edit.test.ts:235",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts] writes dm allowlist entries and keeps legacy cleanup behavior",
+TEST_CASE("v4.29 [src/plugin-sdk/allowlist-config-edit.test.ts:243] writes dm allowlist entries and keeps legacy cleanup behavior",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/allowlist-config-edit.test.ts:243",
                "upstream it() block #4",

@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] strips minimax tool call XML and downgraded markers",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:190] strips minimax tool call XML and downgraded markers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:190",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] strips tool_result XML via the shared assistant-visible sanitizer",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:200] strips tool_result XML via the shared assistant-visible sanitizer",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:200",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] strips thinking tags",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:207] strips thinking tags",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:207",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] sanitizes blocks without injecting newlines",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:224] sanitizes blocks without injecting newlines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:224",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] rewrites error-ish assistant text only when the transcript marks it as an error",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:235] rewrites error-ish assistant text only when the transcript marks it as an error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:235",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] keeps normal status text that mentions billing",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:245] keeps normal status text that mentions billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:245",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] preserves successful turns with stale background errorMessage",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:260] preserves successful turns with stale background errorMessage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:260",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] prefers final_answer text when phased assistant history is present",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:270] prefers final_answer text when phased assistant history is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:270",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] derives non-WhatsApp announce targets from the session key",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:296] derives non-WhatsApp announce targets from the session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:296",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] hydrates WhatsApp accountId from sessions.list when available",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:305] hydrates WhatsApp accountId from sessions.list when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:305",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] falls back to origin provider and accountId from sessions.list when legacy route fields are absent",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:336] falls back to origin provider and accountId from sessions.list when legacy route fields are absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:336",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] keeps threadId from sessions.list delivery context for announce delivery",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:363] keeps threadId from sessions.list delivery context for announce delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:363",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] preserves threaded Slack session keys when sessions.list lacks stored thread metadata",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:390] preserves threaded Slack session keys when sessions.list lacks stored thread metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:390",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] filters out other agents when tools.agentToAgent.enabled is false",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:429] filters out other agents when tools.agentToAgent.enabled is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:429",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] keeps literal current keys for message previews",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:438] keeps literal current keys for message previews",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:438",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] resolves cross-agent transcript paths from agent defaults when gateway store path is relative",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:469] resolves cross-agent transcript paths from agent defaults when gateway store path is relative",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:469",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] resolves transcriptPath even when sessions.list does not return a store path",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:490] resolves transcriptPath even when sessions.list does not return a store path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:490",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] falls back to agent defaults when gateway path is non-string",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:510] falls back to agent defaults when gateway path is non-string",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:510",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] falls back to agent defaults when gateway path is ",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:531] falls back to agent defaults when gateway path is ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:531",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] resolves absolute {agentId} template paths per session agent",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:552] resolves absolute {agentId} template paths per session agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:552",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] falls back to origin.provider when the legacy top-level channel field is missing",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:587] falls back to origin.provider when the legacy top-level channel field is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:587",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] returns an error when neither sessionKey nor label is provided",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:612] returns an error when neither sessionKey nor label is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:612",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] returns an error when label resolution fails",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:627] returns an error when label resolution fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:627",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] blocks cross-agent sends when tools.agentToAgent.enabled is false",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:647] blocks cross-agent sends when tools.agentToAgent.enabled is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:647",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts] does not reuse a stale assistant reply when no new reply appears",
+TEST_CASE("v4.29 [src/agents/tools/sessions.test.ts:661] does not reuse a stale assistant reply when no new reply appears",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions.test.ts:661",
                "upstream it() block #24",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] renders a product-facing tool list",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:131] renders a product-facing tool list",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:131",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] returns usage when arguments are provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:182] returns usage when arguments are provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:182",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] does not synthesize group ids for direct-chat sender ids",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:195] does not synthesize group ids for direct-chat sender ids",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:195",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] prefers the target session entry for tool inventory group metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:213] prefers the target session entry for tool inventory group metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:213",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] renders the detailed tool list in verbose mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:255] renders the detailed tool list in verbose mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:255",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] accepts explicit compact mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:268] accepts explicit compact mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:268",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] ignores unauthorized senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:279] ignores unauthorized senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] uses the configured default account when /tools omits AccountId",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:295] uses the configured default account when /tools omits AccountId",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:295",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] returns a concise fallback error on effective inventory failures",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:352] returns a concise fallback error on effective inventory failures",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:352",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] uses the canonical target session agent for /tools inventory",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:370] uses the canonical target session agent for /tools inventory",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:370",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts] does not forward a stale ambient agentDir for session-bound /tools",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.tools.test.ts:392] does not forward a stale ambient agentDir for session-bound /tools",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.tools.test.ts:392",
                "upstream it() block #10",

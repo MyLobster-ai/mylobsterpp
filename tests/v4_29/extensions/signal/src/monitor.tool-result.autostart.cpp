@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts] uses bounded readiness checks when auto-starting the daemon",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts:65] uses bounded readiness checks when auto-starting the daemon",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.tool-result.autostart.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts] uses startupTimeoutMs override when provided",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts:90] uses startupTimeoutMs override when provided",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.tool-result.autostart.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts] caps startupTimeoutMs at 2 minutes",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts:106] caps startupTimeoutMs at 2 minutes",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.tool-result.autostart.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts] fails fast when auto-started signal daemon exits during startup",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts:121] fails fast when auto-started signal daemon exits during startup",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.tool-result.autostart.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts] treats daemon exit after user abort as clean shutdown",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.tool-result.autostart.test.ts:155] treats daemon exit after user abort as clean shutdown",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.tool-result.autostart.test.ts:155",
                "upstream it() block #4",

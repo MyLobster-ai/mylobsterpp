@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts] detects state dir on mmc-backed mount",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts:17] detects state dir on mmc-backed mount",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.linux-storage.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts] returns null for non-mmc devices",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts:36] returns null for non-mmc devices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.linux-storage.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts] resolves /dev/disk aliases to mmc devices",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts:47] resolves /dev/disk aliases to mmc devices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.linux-storage.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts] uses resolved state path to select mount",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts:69] uses resolved state path to select mount",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.linux-storage.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts] returns null outside linux",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts:89] returns null outside linux",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.linux-storage.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts] escapes decoded mountinfo control characters in warning output",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.linux-storage.test.ts:100] escapes decoded mountinfo control characters in warning output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.linux-storage.test.ts:100",
                "upstream it() block #5",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts] defaults maxFileBytes to 100 MB when unset",
+TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts:50] defaults maxFileBytes to 100 MB when unset",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/log-file-size-cap.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts] uses configured maxFileBytes",
+TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts:55] uses configured maxFileBytes",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/log-file-size-cap.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts] rotates file writes after cap is reached and keeps logging",
+TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts:60] rotates file writes after cap is reached and keeps logging",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/log-file-size-cap.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts] keeps cached default rolling loggers on the current-day file",
+TEST_CASE("v4.29 [src/logging/log-file-size-cap.test.ts:81] keeps cached default rolling loggers on the current-day file",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/log-file-size-cap.test.ts:81",
                "upstream it() block #3",

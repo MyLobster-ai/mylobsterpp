@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/bundled-channel-catalog-read.test.ts] reads bundled channel metadata from the extensions dir returned by resolveBundledPluginsDir",
+TEST_CASE("v4.29 [src/channels/bundled-channel-catalog-read.test.ts:62] reads bundled channel metadata from the extensions dir returned by resolveBundledPluginsDir",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/bundled-channel-catalog-read.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/bundled-channel-catalog-read.test.ts] falls back to dist/channel-catalog.json when the resolver returns undefined",
+TEST_CASE("v4.29 [src/channels/bundled-channel-catalog-read.test.ts:90] falls back to dist/channel-catalog.json when the resolver returns undefined",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/bundled-channel-catalog-read.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/bundled-channel-catalog-read.test.ts] falls back to dist/channel-catalog.json when the resolved dir has no plugin package.jsons",
+TEST_CASE("v4.29 [src/channels/bundled-channel-catalog-read.test.ts:117] falls back to dist/channel-catalog.json when the resolved dir has no plugin package.jsons",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/bundled-channel-catalog-read.test.ts:117",
                "upstream it() block #2",

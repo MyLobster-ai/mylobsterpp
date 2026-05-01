@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] returns undefined for a completed one-shot job that has not been rescheduled",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:28] returns undefined for a completed one-shot job that has not been rescheduled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] returns the new atMs when a completed one-shot job is rescheduled to a future time",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:36] returns the new atMs when a completed one-shot job is rescheduled to a future time",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] returns the new atMs when rescheduled via legacy numeric atMs field",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:45] returns the new atMs when rescheduled via legacy numeric atMs field",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] returns undefined when rescheduled to a time before the last run",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:56] returns undefined when rescheduled to a time before the last run",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] still returns atMs for a job that has never run",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:66] still returns atMs for a job that has never run",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] still returns atMs for a job whose last status is error",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:72] still returns atMs for a job whose last status is error",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts] returns undefined for a disabled job even if rescheduled",
+TEST_CASE("v4.29 [src/cron/service.issue-19676-at-reschedule.test.ts:80] returns undefined for a disabled job even if rescheduled",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-19676-at-reschedule.test.ts:80",
                "upstream it() block #6",

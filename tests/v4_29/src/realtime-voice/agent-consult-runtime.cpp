@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts] exposes the shared consult tool based on policy",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts:35] exposes the shared consult tool based on policy",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-runtime.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts] runs an embedded agent using the shared session and prompt contract",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts:52] runs an embedded agent using the shared session and prompt contract",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-runtime.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts] scopes sandbox resolution to the configured consult agent",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts:94] scopes sandbox resolution to the configured consult agent",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-runtime.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts] returns a speakable fallback when the embedded agent has no visible text",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-runtime.test.ts:121] returns a speakable fallback when the embedded agent has no visible text",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-runtime.test.ts:121",
                "upstream it() block #3",

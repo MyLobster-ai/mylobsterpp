@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] executes prepare/start/send/outcome/cleanup as one bounded lifecycle",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:89] executes prepare/start/send/outcome/cleanup as one bounded lifecycle",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] emits trusted harness lifecycle diagnostics for successful attempts",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:144] emits trusted harness lifecycle diagnostics for successful attempts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] emits trusted harness error diagnostics with the failing lifecycle phase",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:202] emits trusted harness error diagnostics with the failing lifecycle phase",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:202",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] runs cleanup with the original failure and preserves that failure",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:250] runs cleanup with the original failure and preserves that failure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:250",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] runs cleanup for failed prepare/start lifecycle stages",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:286] runs cleanup for failed prepare/start lifecycle stages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:286",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] passes raw send results to cleanup when outcome resolution fails",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:318] passes raw send results to cleanup when outcome resolution fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:318",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] surfaces cleanup failures after successful outcomes",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:354] surfaces cleanup failures after successful outcomes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:354",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] runs a V1 harness through prepare/start/send without changing attempt params",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:379] runs a V1 harness through prepare/start/send without changing attempt params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:379",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] keeps result classification as an explicit outcome stage",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:408] keeps result classification as an explicit outcome stage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:408",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] preserves harness-supplied classification when no classify hook is registered",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:430] preserves harness-supplied classification when no classify hook is registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:430",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] clears stale non-ok classification when classification resolves to ok",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:452] clears stale non-ok classification when classification resolves to ok",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:452",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] preserves existing compact/reset/dispose hook this binding as compatibility methods",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:475] preserves existing compact/reset/dispose hook this binding as compatibility methods",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:475",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/v2.test.ts] does not dispose V1 harnesses during per-attempt cleanup",
+TEST_CASE("v4.29 [src/agents/harness/v2.test.ts:528] does not dispose V1 harnesses during per-attempt cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/v2.test.ts:528",
                "upstream it() block #12",

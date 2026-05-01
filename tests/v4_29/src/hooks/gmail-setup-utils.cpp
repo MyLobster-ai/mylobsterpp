@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/gmail-setup-utils.test.ts] includes stdout and exit code when tailscale serve fails",
+TEST_CASE("v4.29 [src/hooks/gmail-setup-utils.test.ts:67] includes stdout and exit code when tailscale serve fails",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-setup-utils.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail-setup-utils.test.ts] includes JSON parse failure details with stdout",
+TEST_CASE("v4.29 [src/hooks/gmail-setup-utils.test.ts:100] includes JSON parse failure details with stdout",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail-setup-utils.test.ts:100",
                "upstream it() block #1",

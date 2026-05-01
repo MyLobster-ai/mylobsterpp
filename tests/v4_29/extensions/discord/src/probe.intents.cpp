@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] reports disabled when no bits set",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:11] reports disabled when no bits set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] reports enabled when full intent bits set",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:19] reports enabled when full intent bits set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] reports limited when limited intent bits set",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:28] reports limited when limited intent bits set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] prefers enabled over limited when both set",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:37] prefers enabled over limited when both set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] retries Cloudflare HTML rate limits during application id lookup",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:46] retries Cloudflare HTML rate limits during application id lookup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:46",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] does not retry Cloudflare HTML rate limits during application summary probes",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:65] does not retry Cloudflare HTML rate limits during application summary probes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:65",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts] derives application id from parseable tokens before probing REST",
+TEST_CASE("v4.29 [extensions/discord/src/probe.intents.test.ts:81] derives application id from parseable tokens before probing REST",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/probe.intents.test.ts:81",
                "upstream it() block #6",

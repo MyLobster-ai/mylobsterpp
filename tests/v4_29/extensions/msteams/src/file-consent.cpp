@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] accepts a valid SharePoint HTTPS URL",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:78] accepts a valid SharePoint HTTPS URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] accepts subdomains of allowlisted domains",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:86] accepts subdomains of allowlisted domains",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] accepts graph.microsoft.com",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:95] accepts graph.microsoft.com",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:95",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects non-HTTPS URLs",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:103] rejects non-HTTPS URLs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects invalid URLs",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:111] rejects invalid URLs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:111",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects hosts not in the allowlist",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:117] rejects hosts not in the allowlist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects an SSRF attempt with internal metadata URL",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:123] rejects an SSRF attempt with internal metadata URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:123",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects localhost",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:131] rejects localhost",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:131",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolves to a private IPv4 (10.x)",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:137] rejects when DNS resolves to a private IPv4 (10.x)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:137",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolves to loopback",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:145] rejects when DNS resolves to loopback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:145",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolves to link-local (169.254.x.x)",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:153] rejects when DNS resolves to link-local (169.254.x.x)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:153",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolves to IPv6 loopback",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:161] rejects when DNS resolves to IPv6 loopback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:161",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolves to IPv4-mapped IPv6 private address",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:169] rejects when DNS resolves to IPv4-mapped IPv6 private address",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:169",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolves to IPv4-mapped IPv6 loopback",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:177] rejects when DNS resolves to IPv4-mapped IPv6 loopback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:177",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when any DNS answer is private/reserved",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:185] rejects when any DNS answer is private/reserved",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:185",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] accepts when all DNS answers are public",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:193] accepts when all DNS answers are public",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:193",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects when DNS resolution fails",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:201] rejects when DNS resolution fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:201",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] accepts a custom allowlist",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:209] accepts a custom allowlist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:209",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects hosts that are suffix-tricked (e.g. notsharepoint.com)",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:218] rejects hosts that are suffix-tricked (e.g. notsharepoint.com)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:218",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] rejects file:// protocol",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:224] rejects file:// protocol",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:224",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] contains only Microsoft/SharePoint domains",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:234] contains only Microsoft/SharePoint domains",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:234",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] does not contain overly broad domains",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:246] does not contain overly broad domains",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:246",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] sends the OpenClaw User-Agent header with consent uploads",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:263] sends the OpenClaw User-Agent header with consent uploads",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:263",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] blocks upload to a disallowed host",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:286] blocks upload to a disallowed host",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:286",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] blocks upload to a private IP",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:300] blocks upload to a private IP",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:300",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] allows upload to a valid SharePoint URL and performs PUT",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:314] allows upload to a valid SharePoint URL and performs PUT",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:314",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] throws on non-OK response after passing validation",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:333] throws on non-OK response after passing validation",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:333",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts] blocks HTTP (non-HTTPS) upload before fetch is called",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent.test.ts:350] blocks HTTP (non-HTTPS) upload before fetch is called",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent.test.ts:350",
                "upstream it() block #27",

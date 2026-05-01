@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] includes active plugin load errors in the health snapshot",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:427] includes active plugin load errors in the health snapshot",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:427",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] skips telegram probe when not configured",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:478] skips telegram probe when not configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:478",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] probes telegram getMe + webhook info when configured",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:502] probes telegram getMe + webhook info when configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:502",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] preserves runtime state and probe payloads when plugin summaries omit them",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:529] preserves runtime state and probe payloads when plugin summaries omit them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:529",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] merges inspected account metadata with runtime state before building health summaries",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:576] merges inspected account metadata with runtime state before building health summaries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:576",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] preserves plugin-derived configured state for unavailable SecretRef credentials",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:628] preserves plugin-derived configured state for unavailable SecretRef credentials",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:628",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] omits secret runtime fields and raw probe payloads from non-sensitive health snapshots",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:681] omits secret runtime fields and raw probe payloads from non-sensitive health snapshots",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:681",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] returns structured telegram probe errors",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:744] returns structured telegram probe errors",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:744",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts] disables heartbeat for agents without heartbeat blocks",
+TEST_CASE("v4.29 [src/commands/health.snapshot.test.ts:794] disables heartbeat for agents without heartbeat blocks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.snapshot.test.ts:794",
                "upstream it() block #8",

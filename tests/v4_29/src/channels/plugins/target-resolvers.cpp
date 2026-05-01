@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/target-resolvers.test.ts] marks each input unresolved with the same note",
+TEST_CASE("v4.29 [src/channels/plugins/target-resolvers.test.ts:8] marks each input unresolved with the same note",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/target-resolvers.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/target-resolvers.test.ts] returns unresolved entries when the token is missing",
+TEST_CASE("v4.29 [src/channels/plugins/target-resolvers.test.ts:17] returns unresolved entries when the token is missing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/target-resolvers.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/target-resolvers.test.ts] resolves and maps entries when a token is present",
+TEST_CASE("v4.29 [src/channels/plugins/target-resolvers.test.ts:28] resolves and maps entries when a token is present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/target-resolvers.test.ts:28",
                "upstream it() block #2",

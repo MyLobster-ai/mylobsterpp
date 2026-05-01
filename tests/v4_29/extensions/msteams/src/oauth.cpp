@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] produces a 64-char hex verifier and a base64url SHA-256 challenge",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:42] produces a 64-char hex verifier and a base64url SHA-256 challenge",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] produces a 64-char hex string separate from the PKCE verifier",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:51] produces a 64-char hex string separate from the PKCE verifier",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] includes correct tenant, client_id, scopes, PKCE params, and redirect_uri",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:60] includes correct tenant, client_id, scopes, PKCE params, and redirect_uri",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] does not expose the PKCE verifier in the URL",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:82] does not expose the PKCE verifier in the URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] uses custom scopes when provided",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:95] uses custom scopes when provided",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] extracts code and state from a valid callback URL",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:111] extracts code and state from a valid callback URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:111",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] returns error when code is missing from URL",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:117] returns error when code is missing from URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:117",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] rejects bare authorization codes to prevent CSRF bypass",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:123] rejects bare authorization codes to prevent CSRF bypass",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:123",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] returns error on empty input",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:131] returns error on empty input",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:131",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] returns error when state is missing from a valid URL (CSRF protection)",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:136] returns error when state is missing from a valid URL (CSRF protection)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:136",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] rejects bare codes even when expectedState is empty",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:144] rejects bare codes even when expectedState is empty",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:144",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] exchanges an authorization code for delegated tokens",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:165] exchanges an authorization code for delegated tokens",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:165",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] throws on a 400 error response",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:205] throws on a 400 error response",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:205",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] refreshes tokens using refresh_token grant and keeps old refresh token when Azure omits it",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:237] refreshes tokens using refresh_token grant and keeps old refresh token when Azure omits it",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:237",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] uses new refresh token when Azure returns one",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:269] uses new refresh token when Azure returns one",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:269",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts] throws on a 401 error response",
+TEST_CASE("v4.29 [extensions/msteams/src/oauth.test.ts:288] throws on a 401 error response",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/oauth.test.ts:288",
                "upstream it() block #15",

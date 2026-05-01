@@ -5,313 +5,313 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks private and legacy loopback literals before fetch",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:182] blocks private and legacy loopback literals before fetch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:182",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks special-use IPv4 literal URLs before fetch",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:201] blocks special-use IPv4 literal URLs before fetch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:201",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] logs blocked URL fetches without path/query metadata",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:212] logs blocked URL fetches without path/query metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:212",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] allows RFC2544 benchmark range IPv4 literal URLs when explicitly opted in",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:232] allows RFC2544 benchmark range IPv4 literal URLs when explicitly opted in",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] fails closed for plain HTTP targets when explicit proxy mode requires pinned DNS",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:242] fails closed for plain HTTP targets when explicit proxy mode requires pinned DNS",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:242",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks explicit proxies that resolve to private hosts by default",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:257] blocks explicit proxies that resolve to private hosts by default",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:257",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] allows explicit private proxies only when the SSRF policy allows private network access",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:279] allows explicit private proxies only when the SSRF policy allows private network access",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] uses runtime undici fetch when attaching a dispatcher",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:303] uses runtime undici fetch when attaching a dispatcher",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:303",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] uses mocked global fetch when tests stub it",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:344] uses mocked global fetch when tests stub it",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:344",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] fails closed when the runtime rejects the pinned dispatcher shape",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:383] fails closed when the runtime rejects the pinned dispatcher shape",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:383",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] ignores dispatcher support markers on ambient global fetch",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:402] ignores dispatcher support markers on ambient global fetch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:402",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] treats explicit fetchImpl equal to ambient global fetch as non-dispatcher-capable",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:446] treats explicit fetchImpl equal to ambient global fetch as non-dispatcher-capable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:446",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] keeps explicit proxy transport policy when DNS pinning is disabled",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:488] keeps explicit proxy transport policy when DNS pinning is disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:488",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks redirect chains that hop to private hosts",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:528] blocks redirect chains that hop to private hosts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:528",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] enforces hostname allowlist policies",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:539] enforces hostname allowlist policies",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:539",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] does not let wildcard allowlists match the apex host",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:551] does not let wildcard allowlists match the apex host",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:551",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] allows wildcard allowlisted hosts",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:563] allows wildcard allowlisted hosts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:563",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] strips sensitive headers when redirect crosses origins",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:578] strips sensitive headers when redirect crosses origins",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:578",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] rewrites POST redirects to GET and clears the body for cross-origin 302 responses",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:615] rewrites POST redirects to GET and clears the body for cross-origin 302 responses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:615",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] rewrites same-origin 302 POST redirects to GET and preserves auth headers",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:647] rewrites same-origin 302 POST redirects to GET and preserves auth headers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:647",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] rewrites 303 redirects to GET and clears the body",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:679] rewrites 303 redirects to GET and clears the body",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:679",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] preserves method and body for 307 redirects",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:714] preserves method and body for 307 redirects",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:714",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] drops unsafe bodies while stripping auth headers for cross-origin 307 redirects",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:747] drops unsafe bodies while stripping auth headers for cross-origin 307 redirects",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:747",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] preserves unsafe cross-origin 307 bodies only when explicitly enabled",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:782] preserves unsafe cross-origin 307 bodies only when explicitly enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:782",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] drops unsafe bodies while stripping auth headers for cross-origin 308 redirects",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:818] drops unsafe bodies while stripping auth headers for cross-origin 308 redirects",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:818",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] preserves unsafe cross-origin 308 bodies only when explicitly enabled",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:853] preserves unsafe cross-origin 308 bodies only when explicitly enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:853",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] keeps the exported redirect-header helper functional",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:889] keeps the exported redirect-header helper functional",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:889",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] keeps headers when redirect stays on same origin",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:903] keeps headers when redirect stays on same origin",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:903",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] rejects redirect loops that return to the original URL",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:961] rejects redirect loops that return to the original URL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:961",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks URLs that use credentials to obscure a private host",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:973] blocks URLs that use credentials to obscure a private host",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:973",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks private IPv6 addresses embedded in URLs with credentials",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:985] blocks private IPv6 addresses embedded in URLs with credentials",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:985",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] blocks redirect to a URL using credentials to obscure a private host",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:996] blocks redirect to a URL using credentials to obscure a private host",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:996",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] ignores env proxy by default to preserve DNS-pinned destination binding",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1007] ignores env proxy by default to preserve DNS-pinned destination binding",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1007",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] uses the env proxy in strict mode when the SSRF proxy lifecycle is active",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1014] uses the env proxy in strict mode when the SSRF proxy lifecycle is active",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1014",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] routes through env proxy when trusted proxy mode is explicitly enabled",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1023] routes through env proxy when trusted proxy mode is explicitly enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1023",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] keeps DNS pinning in trusted proxy mode when only ALL_PROXY is configured",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1030] keeps DNS pinning in trusted proxy mode when only ALL_PROXY is configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1030",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] keeps DNS pinning in trusted proxy mode for NO_PROXY targets",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1055] keeps DNS pinning in trusted proxy mode for NO_PROXY targets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1055",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] applies explicit timeoutMs to guarded direct dispatchers",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1081] applies explicit timeoutMs to guarded direct dispatchers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1081",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] inherits the configured global stream timeout for guarded direct dispatchers",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1109] inherits the configured global stream timeout for guarded direct dispatchers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1109",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] allows explicit proxy on localhost when allowPrivateProxy is true even with restrictive hostnameAllowlist",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1144] allows explicit proxy on localhost when allowPrivateProxy is true even with restrictive hostnameAllowlist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1144",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] skips target DNS pinning in trusted explicit-proxy mode after hostname-policy checks",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1179] skips target DNS pinning in trusted explicit-proxy mode after hostname-policy checks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1179",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] still blocks off-allowlist targets in trusted explicit-proxy mode",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1213] still blocks off-allowlist targets in trusted explicit-proxy mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1213",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] still blocks explicit proxy on localhost when allowPrivateProxy is false",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1248] still blocks explicit proxy on localhost when allowPrivateProxy is false",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1248",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts] falls back to DNS pinning in trusted proxy mode when no proxy env var is configured",
+TEST_CASE("v4.29 [src/infra/net/fetch-guard.ssrf.test.ts:1279] falls back to DNS pinning in trusted proxy mode when no proxy env var is configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/fetch-guard.ssrf.test.ts:1279",
                "upstream it() block #43",

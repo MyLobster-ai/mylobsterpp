@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] merges login-shell PATH for host=gateway",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:146] merges login-shell PATH for host=gateway",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:146",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] sets OPENCLAW_SHELL for host=gateway commands",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:167] sets OPENCLAW_SHELL for host=gateway commands",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:167",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] throws security violation when env.PATH is provided",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:182] throws security violation when env.PATH is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] fails closed when a blocked runtime override key is requested",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:203] fails closed when a blocked runtime override key is requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:203",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] does not apply login-shell PATH when probe rejects unregistered absolute SHELL",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:219] does not apply login-shell PATH when probe rejects unregistered absolute SHELL",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:219",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] blocks LD_/DYLD_ env vars on host execution",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:261] blocks LD_/DYLD_ env vars on host execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:261",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] blocks proxy and TLS override env vars on host execution",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:272] blocks proxy and TLS override env vars on host execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:272",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] strips dangerous inherited env vars from host execution",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:288] strips dangerous inherited env vars from host execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:288",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] routes implicit auto host to gateway when sandbox runtime is unavailable",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:311] routes implicit auto host to gateway when sandbox runtime is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:311",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts] fails closed when sandbox host is explicitly configured without sandbox runtime",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.path.test.ts:321] fails closed when sandbox host is explicitly configured without sandbox runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.path.test.ts:321",
                "upstream it() block #9",

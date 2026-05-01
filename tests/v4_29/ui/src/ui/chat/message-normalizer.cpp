@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] normalizes message with string content",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:15] normalizes message with string content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] does not reinterpret directive-like user string content",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:32] does not reinterpret directive-like user string content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] normalizes message with array content",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:45] normalizes message with array content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] does not reinterpret directive-like user text blocks inside array content",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:71] does not reinterpret directive-like user text blocks inside array content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] normalizes message with text field (alternative format)",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:88] normalizes message with text field (alternative format)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] expands [embed] shortcodes into canvas blocks",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:97] expands [embed] shortcodes into canvas blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:97",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] ignores [embed] shortcodes inside fenced code blocks",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:121] ignores [embed] shortcodes inside fenced code blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:121",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] leaves block-form inline html embed shortcodes as plain text",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:135] leaves block-form inline html embed shortcodes as plain text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:135",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] extracts MEDIA attachments and reply metadata from assistant text",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:149] extracts MEDIA attachments and reply metadata from assistant text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:149",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] marks media-only audio attachments as voice notes when audio_as_voice is present",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:183] marks media-only audio attachments as voice notes when audio_as_voice is present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:183",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] keeps valid local MEDIA paths as assistant attachments",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:204] keeps valid local MEDIA paths as assistant attachments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:204",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] keeps spaced local filenames together instead of leaking suffix text",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:225] keeps spaced local filenames together instead of leaking suffix text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:225",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] does not fall back to raw text when an invalid MEDIA line is stripped",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:244] does not fall back to raw text when an invalid MEDIA line is stripped",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:244",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] preserves relative MEDIA references as visible text instead of dropping the assistant turn",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:253] preserves relative MEDIA references as visible text instead of dropping the assistant turn",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:253",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] strips reply_to_current without rendering a quoted preview",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:262] strips reply_to_current without rendering a quoted preview",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:262",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] does not restore stripped reply tags when no visible text remains",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:272] does not restore stripped reply tags when no visible text remains",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:272",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] preserves structured attachment content items",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:282] preserves structured attachment content items",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:282",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] detects tool result by toolCallId",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:311] detects tool result by toolCallId",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:311",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] detects tool result by tool_call_id (snake_case)",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:321] detects tool result by tool_call_id (snake_case)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:321",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] detects tool messages by toolcall content blocks",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:331] detects tool messages by toolcall content blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:331",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] handles missing role",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:346] handles missing role",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:346",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] handles missing content",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:351] handles missing content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:351",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] uses current timestamp when not provided",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:356] uses current timestamp when not provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:356",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] handles arguments field (alternative to args)",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:361] handles arguments field (alternative to args)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:361",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] handles input field for anthropic tool_use blocks",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:370] handles input field for anthropic tool_use blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:370",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts] preserves top-level sender labels",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-normalizer.test.ts:379] preserves top-level sender labels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-normalizer.test.ts:379",
                "upstream it() block #25",

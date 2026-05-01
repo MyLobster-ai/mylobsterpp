@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] resolves the persisted index path under the state plugins directory",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:82] resolves the persisted index path under the state plugins directory",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] writes and reads the installed plugin index atomically",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:90] writes and reads the installed plugin index atomically",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] does not preserve prototype poison keys from persisted index JSON",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:106] does not preserve prototype poison keys from persisted index JSON",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] returns null for missing or invalid persisted indexes",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:143] returns null for missing or invalid persisted indexes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] rejects pre-migration persisted indexes so update can rebuild them",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:154] rejects pre-migration persisted indexes so update can rebuild them",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:154",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] inspects missing, fresh, and stale persisted index state without loading runtime",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:165] inspects missing, fresh, and stale persisted index state without loading runtime",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:165",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] refreshes and persists a rebuilt index without loading plugin runtime",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:256] refreshes and persists a rebuilt index without loading plugin runtime",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:256",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts] preserves existing install records when refreshing the manifest cache",
+TEST_CASE("v4.29 [src/plugins/installed-plugin-index-store.test.ts:281] preserves existing install records when refreshing the manifest cache",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/installed-plugin-index-store.test.ts:281",
                "upstream it() block #7",

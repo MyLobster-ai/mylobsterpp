@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qianfan/index.test.ts] registers Qianfan with api-key auth wizard metadata",
+TEST_CASE("v4.29 [extensions/qianfan/index.test.ts:16] registers Qianfan with api-key auth wizard metadata",
           "[v4_29][parity_gap][qianfan]") {
     PARITY_GAP("extensions/qianfan/index.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qianfan/index.test.ts] builds the static Qianfan model catalog",
+TEST_CASE("v4.29 [extensions/qianfan/index.test.ts:33] builds the static Qianfan model catalog",
           "[v4_29][parity_gap][qianfan]") {
     PARITY_GAP("extensions/qianfan/index.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qianfan/index.test.ts] adds Qianfan provider defaults without changing primary model in provider-only mode",
+TEST_CASE("v4.29 [extensions/qianfan/index.test.ts:61] adds Qianfan provider defaults without changing primary model in provider-only mode",
           "[v4_29][parity_gap][qianfan]") {
     PARITY_GAP("extensions/qianfan/index.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qianfan/index.test.ts] sets Qianfan as the agent primary model in full onboarding mode",
+TEST_CASE("v4.29 [extensions/qianfan/index.test.ts:84] sets Qianfan as the agent primary model in full onboarding mode",
           "[v4_29][parity_gap][qianfan]") {
     PARITY_GAP("extensions/qianfan/index.test.ts:84",
                "upstream it() block #3",

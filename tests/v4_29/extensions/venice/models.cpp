@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] buildVeniceModelDefinition returns config with required fields",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:117] buildVeniceModelDefinition returns config with required fields",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:117",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] retries transient fetch failures before succeeding",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:129] retries transient fetch failures before succeeding",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:129",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] uses API maxCompletionTokens for catalog models when present",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:147] uses API maxCompletionTokens for catalog models when present",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:147",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] retains catalog maxTokens when the API omits maxCompletionTokens",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:166] retains catalog maxTokens when the API omits maxCompletionTokens",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:166",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] disables tools for catalog models that do not support function calling",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:184] disables tools for catalog models that do not support function calling",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] uses a conservative bounded maxTokens value for new models",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:191] uses a conservative bounded maxTokens value for new models",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:191",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] caps new-model maxTokens to the fallback context window when API context is missing",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:212] caps new-model maxTokens to the fallback context window when API context is missing",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] ignores missing capabilities on partial metadata instead of aborting discovery",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:231] ignores missing capabilities on partial metadata instead of aborting discovery",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:231",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] keeps known models discoverable when a row omits model_spec",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:254] keeps known models discoverable when a row omits model_spec",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:254",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/venice/models.test.ts] falls back to static catalog after retry budget is exhausted",
+TEST_CASE("v4.29 [extensions/venice/models.test.ts:278] falls back to static catalog after retry budget is exhausted",
           "[v4_29][parity_gap][venice]") {
     PARITY_GAP("extensions/venice/models.test.ts:278",
                "upstream it() block #9",

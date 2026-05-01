@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] returns null when diagnostics cache tracing is disabled",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:28] returns null when diagnostics cache tracing is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] honors diagnostics cache trace config and expands file paths",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:37] honors diagnostics cache trace config and expands file paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] records empty prompt/system values when enabled",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:67] records empty prompt/system values when enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:67",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] records raw model run session stages",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:94] records raw model run session stages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] records stream context from systemPrompt when wrapping stream functions",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:107] records stream context from systemPrompt when wrapping stream functions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] respects env overrides for enablement",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:151] respects env overrides for enablement",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:151",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] sanitizes cache-trace payloads before writing",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:174] sanitizes cache-trace payloads before writing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:174",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cache-trace.test.ts] handles circular references in messages without stack overflow",
+TEST_CASE("v4.29 [src/agents/cache-trace.test.ts:266] handles circular references in messages without stack overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cache-trace.test.ts:266",
                "upstream it() block #7",

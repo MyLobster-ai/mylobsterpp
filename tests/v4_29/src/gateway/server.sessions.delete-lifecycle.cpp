@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete rejects main and aborts active runs",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:22] sessions.delete rejects main and aborts active runs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete limits plugin-runtime cleanup to sessions owned by that plugin",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:80] sessions.delete limits plugin-runtime cleanup to sessions owned by that plugin",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete closes ACP runtime handles before removing ACP sessions",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:130] sessions.delete closes ACP runtime handles before removing ACP sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete emits session_end with deleted reason and no replacement",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:170] sessions.delete emits session_end with deleted reason and no replacement",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:170",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete does not emit lifecycle events when nothing was deleted",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:219] sessions.delete does not emit lifecycle events when nothing was deleted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:219",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete emits subagent targetKind for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:238] sessions.delete emits subagent targetKind for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete can skip lifecycle hooks while still unbinding thread bindings",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:269] sessions.delete can skip lifecycle hooks while still unbinding thread bindings",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:269",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete directly unbinds thread bindings when hooks are unavailable",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:292] sessions.delete directly unbinds thread bindings when hooks are unavailable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:292",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts] sessions.delete returns unavailable when active run does not stop",
+TEST_CASE("v4.29 [src/gateway/server.sessions.delete-lifecycle.test.ts:314] sessions.delete returns unavailable when active run does not stop",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.delete-lifecycle.test.ts:314",
                "upstream it() block #8",

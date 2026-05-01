@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/conversation-route.test.ts] lets runtime iMessage conversation bindings override default routing",
+TEST_CASE("v4.29 [extensions/imessage/src/conversation-route.test.ts:21] lets runtime iMessage conversation bindings override default routing",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/conversation-route.test.ts:21",
                "upstream it() block #0",

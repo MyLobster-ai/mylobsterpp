@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts] rejects targetDir escapes outside the per-skill tools root",
+TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts:221] rejects targetDir escapes outside the per-skill tools root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.download.test.ts:221",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts] allows relative targetDir inside the per-skill tools root",
+TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts:237] allows relative targetDir inside the per-skill tools root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.download.test.ts:237",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts] handles tar.bz2 extraction safety edge-cases",
+TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts:305] handles tar.bz2 extraction safety edge-cases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.download.test.ts:305",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts] rejects tar.bz2 archives that change after preflight",
+TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts:363] rejects tar.bz2 archives that change after preflight",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.download.test.ts:363",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts] rejects tar.bz2 entries that traverse pre-existing targetDir symlinks",
+TEST_CASE("v4.29 [src/agents/skills-install.download.test.ts:403] rejects tar.bz2 entries that traverse pre-existing targetDir symlinks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills-install.download.test.ts:403",
                "upstream it() block #4",

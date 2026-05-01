@@ -5,285 +5,285 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] falls back to streamed text when final text is empty",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:22] falls back to streamed text when final text is empty",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] prefers the final text when present",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:26] prefers the final text when present",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] falls back to formatted error text when final and streamed text are empty",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:35] falls back to formatted error text when final and streamed text are empty",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] formats malformed streaming fragment errors when final and streamed text are empty",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:45] formats malformed streaming fragment errors when final and streamed text are empty",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] treats /elev as an alias for /elevated",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:57] treats /elev as an alias for /elevated",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] normalizes alias case",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:61] normalizes alias case",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:61",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] includes gateway text commands",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:68] includes gateway text commands",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:68",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] includes /auth in local embedded mode",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:74] includes /auth in local embedded mode",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:74",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] uses global only as the default when scope is global",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:81] uses global only as the default when scope is global",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:81",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] keeps explicit agent-prefixed keys unchanged",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:100] keeps explicit agent-prefixed keys unchanged",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:100",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] lowercases session keys with uppercase characters",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:111] lowercases session keys with uppercase characters",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:111",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] infers agent from cwd when session is not agent-prefixed",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:143] infers agent from cwd when session is not agent-prefixed",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:143",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] keeps explicit agent prefix from --session",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:154] keeps explicit agent prefix from --session",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:154",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] falls back when cwd has no matching workspace",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:165] falls back when cwd has no matching workspace",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:165",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] returns pairing recovery guidance when disconnect reason requires pairing",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:178] returns pairing recovery guidance when disconnect reason requires pairing",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:178",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] falls back to idle for generic disconnect reasons",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:185] falls back to idle for generic disconnect reasons",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:185",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] suppresses duplicate backspace events within the dedupe window",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:208] suppresses duplicate backspace events within the dedupe window",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:208",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] preserves backspace events outside the dedupe window",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:216] preserves backspace events outside the dedupe window",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:216",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] treats ASCII BS as backspace when it is the first event",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:224] treats ASCII BS as backspace when it is the first event",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:224",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] never suppresses non-backspace keys",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:232] never suppresses non-backspace keys",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:232",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] clears input and arms exit on first ctrl+c when editor has text",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:240] clears input and arms exit on first ctrl+c when editor has text",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:240",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] exits on second ctrl+c within the exit window",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:247] exits on second ctrl+c within the exit window",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:247",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] shows warning when exit window has elapsed",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:254] shows warning when exit window has elapsed",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:254",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] drains terminal input before stopping the TUI",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:263] drains terminal input before stopping the TUI",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:263",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] still stops when the terminal does not support drainInput",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:282] still stops when the terminal does not support drainInput",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:282",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] rethrows non-ignorable stop errors after draining",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:293] rethrows non-ignorable stop errors after draining",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:293",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] treats setRawMode EBADF errors as ignorable",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:310] treats setRawMode EBADF errors as ignorable",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:310",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] does not ignore unrelated stop errors",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:320] does not ignore unrelated stop errors",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:320",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] swallows only ignorable stop errors",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:325] swallows only ignorable stop errors",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:325",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] rethrows non-ignorable stop errors",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:333] rethrows non-ignorable stop errors",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:333",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] returns a string path when codex CLI is installed",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:343] returns a string path when codex CLI is installed",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:343",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] returns null or a valid path (never throws)",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:353] returns null or a valid path (never throws)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:353",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] uses the source runner when dist is unavailable",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:362] uses the source runner when dist is unavailable",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:362",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] uses the packaged wrapper when dist is available",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:377] uses the packaged wrapper when dist is available",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:377",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] enables shell mode for Windows cmd shims",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:394] enables shell mode for Windows cmd shims",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:394",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] enables shell mode for Windows bat shims",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:403] enables shell mode for Windows bat shims",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:403",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] keeps direct execution for non-wrapper commands",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:412] keeps direct execution for non-wrapper commands",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:412",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] runs the packaged wrapper from the repo root",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:429] runs the packaged wrapper from the repo root",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:429",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] runs the source fallback helper from the repo root",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:438] runs the source fallback helper from the repo root",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:438",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.test.ts] keeps the caller cwd for direct codex exec",
+TEST_CASE("v4.29 [src/tui/tui.test.ts:447] keeps the caller cwd for direct codex exec",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.test.ts:447",
                "upstream it() block #39",

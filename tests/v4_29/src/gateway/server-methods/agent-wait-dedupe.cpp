@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] unblocks waiters when a terminal chat dedupe entry is written",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:40] unblocks waiters when a terminal chat dedupe entry is written",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] preserves structured yield metadata from terminal agent results",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:73] preserves structured yield metadata from terminal agent results",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] keeps stale chat dedupe blocked while agent dedupe is in-flight",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:112] keeps stale chat dedupe blocked while agent dedupe is in-flight",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] uses newer terminal chat snapshot when agent entry is non-terminal",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:150] uses newer terminal chat snapshot when agent entry is non-terminal",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:150",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] ignores stale agent snapshots when waiting for an active chat run",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:189] ignores stale agent snapshots when waiting for an active chat run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:189",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] prefers the freshest terminal snapshot when agent/chat dedupe keys collide",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:239] prefers the freshest terminal snapshot when agent/chat dedupe keys collide",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:239",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] preserves an RPC cancel snapshot when late completion writes the same key",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:300] preserves an RPC cancel snapshot when late completion writes the same key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:300",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] preserves an RPC cancel snapshot when late rejection writes the same chat key",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:332] preserves an RPC cancel snapshot when late rejection writes the same chat key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:332",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] resolves multiple waiters for the same run id",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:365] resolves multiple waiters for the same run id",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:365",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts] cleans up waiter registration on timeout",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent-wait-dedupe.test.ts:402] cleans up waiter registration on timeout",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent-wait-dedupe.test.ts:402",
                "upstream it() block #9",

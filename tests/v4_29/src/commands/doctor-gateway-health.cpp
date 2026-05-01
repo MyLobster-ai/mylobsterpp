@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] uses a lightweight status RPC for the restart liveness gate",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:26] uses a lightweight status RPC for the restart liveness gate",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] does not run follow-up channel probes when liveness fails",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:48] does not run follow-up channel probes when liveness fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] requests cached memory status without a live embedding probe",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:70] requests cached memory status without a live embedding probe",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] treats outer gateway timeouts as inconclusive (skipped: false)",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:88] treats outer gateway timeouts as inconclusive (skipped: false)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] propagates checked: false and skipped: true when gateway skipped the embedding probe",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:103] propagates checked: false and skipped: true when gateway skipped the embedding probe",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] keeps gateway request timeouts as explicit failures",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:125] keeps gateway request timeouts as explicit failures",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:125",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts] keeps non-timeout gateway errors as explicit failures",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-health.test.ts:136] keeps non-timeout gateway errors as explicit failures",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-health.test.ts:136",
                "upstream it() block #6",

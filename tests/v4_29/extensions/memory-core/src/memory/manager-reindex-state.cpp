@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts] requires a full reindex when the embedding model changes",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts:52] requires a full reindex when the embedding model changes",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-reindex-state.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts] requires a full reindex when the provider cache key changes",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts:62] requires a full reindex when the provider cache key changes",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-reindex-state.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts] requires a full reindex when extraPaths change",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts:78] requires a full reindex when extraPaths change",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-reindex-state.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts] requires a full reindex when configured sources add sessions",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts:109] requires a full reindex when configured sources add sessions",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-reindex-state.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts] requires a full reindex when multimodal settings change",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts:119] requires a full reindex when multimodal settings change",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-reindex-state.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts] keeps older indexes with missing sources compatible with memory-only config",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-reindex-state.test.ts:150] keeps older indexes with missing sources compatible with memory-only config",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-reindex-state.test.ts:150",
                "upstream it() block #5",

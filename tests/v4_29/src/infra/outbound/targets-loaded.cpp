@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/targets-loaded.test.ts] returns undefined when no loaded plugin exists",
+TEST_CASE("v4.29 [src/infra/outbound/targets-loaded.test.ts:18] returns undefined when no loaded plugin exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/targets-loaded.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/targets-loaded.test.ts] uses loaded plugin config defaultTo fallback",
+TEST_CASE("v4.29 [src/infra/outbound/targets-loaded.test.ts:24] uses loaded plugin config defaultTo fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/targets-loaded.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/targets-loaded.test.ts] trims channel ids before reading the loaded registry",
+TEST_CASE("v4.29 [src/infra/outbound/targets-loaded.test.ts:50] trims channel ids before reading the loaded registry",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/targets-loaded.test.ts:50",
                "upstream it() block #2",

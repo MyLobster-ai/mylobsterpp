@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] forces local Vitest runs back onto local-check policy",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:10] forces local Vitest runs back onto local-check policy",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] keeps local-check disablement for CI Vitest runs",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:21] keeps local-check disablement for CI Vitest runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] selects the large local profile on roomy hosts that are not throttled",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:35] selects the large local profile on roomy hosts that are not throttled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] keeps the smaller local profile when the host is already throttled",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:55] keeps the smaller local profile when the host is already throttled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] never selects the large local profile in CI",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:70] never selects the large local profile in CI",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] serializes local full-suite shards under critical memory pressure",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:84] serializes local full-suite shards under critical memory pressure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:84",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] limits local full-suite shards when memory is tight",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:103] limits local full-suite shards when memory is tight",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:103",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts] lets explicit system throttle opt-out ignore memory pressure",
+TEST_CASE("v4.29 [test/scripts/vitest-local-scheduling.test.ts:122] lets explicit system throttle opt-out ignore memory pressure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-local-scheduling.test.ts:122",
                "upstream it() block #7",

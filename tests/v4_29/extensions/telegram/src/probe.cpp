@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] should fail after 3 unsuccessful attempts",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:105] should fail after 3 unsuccessful attempts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] respects timeout budget across retries",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:127] respects timeout budget across retries",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:127",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] should NOT retry if getMe returns a 401 Unauthorized",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:156] should NOT retry if getMe returns a 401 Unauthorized",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:156",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] can skip webhook info when caller only needs bot identity",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:176] can skip webhook info when caller only needs bot identity",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:176",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] uses resolver-scoped Telegram fetch with probe network options",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:188] uses resolver-scoped Telegram fetch with probe network options",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] reuses probe fetcher across repeated probes for the same account transport settings",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:210] reuses probe fetcher across repeated probes for the same account transport settings",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:210",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] does not reuse probe fetcher cache when network settings differ",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:236] does not reuse probe fetcher cache when network settings differ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts] reuses probe fetcher cache across token rotation when accountId is stable",
+TEST_CASE("v4.29 [extensions/telegram/src/probe.test.ts:262] reuses probe fetcher cache across token rotation when accountId is stable",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/probe.test.ts:262",
                "upstream it() block #7",

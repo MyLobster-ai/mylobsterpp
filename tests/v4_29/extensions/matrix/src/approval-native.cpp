@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] describes the correct Matrix exec-approval setup path",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:26] describes the correct Matrix exec-approval setup path",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] describes the named-account Matrix exec-approval setup path",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:36] describes the named-account Matrix exec-approval setup path",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] describes native matrix approval delivery capabilities",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:48] describes native matrix approval delivery capabilities",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] resolves origin targets from matrix turn source",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:76] resolves origin targets from matrix turn source",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] resolves approver dm targets",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:102] resolves approver dm targets",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] suppresses same-channel plugin forwarding when Matrix native delivery is available",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:120] suppresses same-channel plugin forwarding when Matrix native delivery is available",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:120",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] preserves room-id case when matching Matrix origin targets",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:154] preserves room-id case when matching Matrix origin targets",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:154",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] keeps plugin approval auth independent from exec approvers",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:180] keeps plugin approval auth independent from exec approvers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:180",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] requires Matrix DM approvers before enabling plugin approval auth",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:224] requires Matrix DM approvers before enabling plugin approval auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:224",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] reports exec initiating-surface availability independently from plugin auth",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:248] reports exec initiating-surface availability independently from plugin auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:248",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] enables matrix-native plugin approval delivery when DM approvers are configured",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:276] enables matrix-native plugin approval delivery when DM approvers are configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts] keeps matrix-native plugin approval delivery disabled without DM approvers",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-native.test.ts:304] keeps matrix-native plugin approval delivery disabled without DM approvers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-native.test.ts:304",
                "upstream it() block #11",

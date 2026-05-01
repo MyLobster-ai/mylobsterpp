@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/uuid.test.ts] uses crypto.randomUUID when available",
+TEST_CASE("v4.29 [ui/src/ui/uuid.test.ts:5] uses crypto.randomUUID when available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/uuid.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/uuid.test.ts] falls back to crypto.getRandomValues",
+TEST_CASE("v4.29 [ui/src/ui/uuid.test.ts:16] falls back to crypto.getRandomValues",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/uuid.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/uuid.test.ts] still returns a v4 UUID when crypto is missing",
+TEST_CASE("v4.29 [ui/src/ui/uuid.test.ts:31] still returns a v4 UUID when crypto is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/uuid.test.ts:31",
                "upstream it() block #2",

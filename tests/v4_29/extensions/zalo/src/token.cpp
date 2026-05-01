@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts] falls back to top-level token for non-default accounts without overrides",
+TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts:9] falls back to top-level token for non-default accounts without overrides",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/token.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts] uses accounts.default botToken for default account when configured",
+TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts:21] uses accounts.default botToken for default account when configured",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/token.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts] uses configured defaultAccount token when accountId is omitted",
+TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts:35] uses configured defaultAccount token when accountId is omitted",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/token.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts] does not inherit top-level token when account token is explicitly blank",
+TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts:50] does not inherit top-level token when account token is explicitly blank",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/token.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts] resolves account token when account key casing differs from normalized id",
+TEST_CASE("v4.29 [extensions/zalo/src/token.test.ts:64] resolves account token when account key casing differs from normalized id",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/token.test.ts:64",
                "upstream it() block #4",

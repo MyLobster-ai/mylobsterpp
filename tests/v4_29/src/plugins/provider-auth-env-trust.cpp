@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts] buildApiKeyCredential excludes untrusted workspace plugin env vars for ref mode",
+TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts:10] buildApiKeyCredential excludes untrusted workspace plugin env vars for ref mode",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-env-trust.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts] buildApiKeyCredential keeps secret-ref-like input literal in plaintext mode",
+TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts:28] buildApiKeyCredential keeps secret-ref-like input literal in plaintext mode",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-env-trust.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts] resolveRefFallbackInput excludes untrusted workspace plugin env vars",
+TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts:42] resolveRefFallbackInput excludes untrusted workspace plugin env vars",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-env-trust.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts] promptSecretRefForSetup keeps config-aware trusted env var suggestions",
+TEST_CASE("v4.29 [src/plugins/provider-auth-env-trust.test.ts:62] promptSecretRefForSetup keeps config-aware trusted env var suggestions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-env-trust.test.ts:62",
                "upstream it() block #3",

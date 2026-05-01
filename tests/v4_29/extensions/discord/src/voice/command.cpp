@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts] serializes subcommands without top-level command-only fields",
+TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts:56] serializes subcommands without top-level command-only fields",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/command.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts] dispatches slash-command subcommand interactions",
+TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts:71] dispatches slash-command subcommand interactions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/command.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts] vc leave reports missing guild before manager lookup",
+TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts:92] vc leave reports missing guild before manager lookup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/command.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts] vc status reports unavailable voice manager",
+TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts:105] vc status reports unavailable voice manager",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/command.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts] vc status reports no active sessions when manager has none",
+TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts:120] vc status reports no active sessions when manager has none",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/command.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts] vc status tolerates partial thread channels with throwing getters",
+TEST_CASE("v4.29 [extensions/discord/src/voice/command.test.ts:140] vc status tolerates partial thread channels with throwing getters",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/command.test.ts:140",
                "upstream it() block #5",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts] rejects malformed/forbidden node.invoke payloads before forwarding",
+TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts:261] rejects malformed/forbidden node.invoke payloads before forwarding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-invoke-approval-bypass.test.ts:261",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts] rejects browser.proxy persistent profile mutations before forwarding",
+TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts:322] rejects browser.proxy persistent profile mutations before forwarding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-invoke-approval-bypass.test.ts:322",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts] binds approvals to decision/device and blocks cross-device replay",
+TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts:355] binds approvals to decision/device and blocks cross-device replay",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-invoke-approval-bypass.test.ts:355",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts] blocks cross-node replay on same device",
+TEST_CASE("v4.29 [src/gateway/server.node-invoke-approval-bypass.test.ts:428] blocks cross-node replay on same device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.node-invoke-approval-bypass.test.ts:428",
                "upstream it() block #3",

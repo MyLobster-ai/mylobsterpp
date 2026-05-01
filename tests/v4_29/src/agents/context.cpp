@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] keeps the smallest context window when the same bare model id appears under multiple providers",
+TEST_CASE("v4.29 [src/agents/context.test.ts:25] keeps the smallest context window when the same bare model id appears under multiple providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] stores provider-qualified entries independently",
+TEST_CASE("v4.29 [src/agents/context.test.ts:42] stores provider-qualified entries independently",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] prefers discovered contextTokens over contextWindow",
+TEST_CASE("v4.29 [src/agents/context.test.ts:56] prefers discovered contextTokens over contextWindow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] upgrades claude opus 4.7 variants to 1M when discovery still reports 200k",
+TEST_CASE("v4.29 [src/agents/context.test.ts:66] upgrades claude opus 4.7 variants to 1M when discovery still reports 200k",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not upgrade non-Anthropic opus 4.7 variants from discovery",
+TEST_CASE("v4.29 [src/agents/context.test.ts:76] does not upgrade non-Anthropic opus 4.7 variants from discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not upgrade provider-qualified anthropic opus 4.7 discovery ids without verified ownership",
+TEST_CASE("v4.29 [src/agents/context.test.ts:86] does not upgrade provider-qualified anthropic opus 4.7 discovery ids without verified ownership",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not upgrade bare opus 4.7 discovery ids without verified ownership",
+TEST_CASE("v4.29 [src/agents/context.test.ts:96] does not upgrade bare opus 4.7 discovery ids without verified ownership",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:96",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] writes bare model id to cache; does not touch raw provider-qualified discovery entries",
+TEST_CASE("v4.29 [src/agents/context.test.ts:108] writes bare model id to cache; does not touch raw provider-qualified discovery entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:108",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not write synthetic provider-qualified keys; only bare model ids go into cache",
+TEST_CASE("v4.29 [src/agents/context.test.ts:130] does not write synthetic provider-qualified keys; only bare model ids go into cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:130",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] adds config-only model context windows and ignores invalid entries",
+TEST_CASE("v4.29 [src/agents/context.test.ts:154] adds config-only model context windows and ignores invalid entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:154",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] prefers configured contextTokens over contextWindow",
+TEST_CASE("v4.29 [src/agents/context.test.ts:175] prefers configured contextTokens over contextWindow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:175",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] uses provider-level context defaults for configured model entries",
+TEST_CASE("v4.29 [src/agents/context.test.ts:191] uses provider-level context defaults for configured model entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:191",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] stores, reads, and clears values by object identity",
+TEST_CASE("v4.29 [src/agents/context.test.ts:210] stores, reads, and clears values by object identity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:210",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] ignores non-object keys",
+TEST_CASE("v4.29 [src/agents/context.test.ts:220] ignores non-object keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:220",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] uses provider-level context defaults when no model-level cap is set",
+TEST_CASE("v4.29 [src/agents/context.test.ts:230] uses provider-level context defaults when no model-level cap is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:230",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] prefers model-level context caps over provider-level defaults",
+TEST_CASE("v4.29 [src/agents/context.test.ts:252] prefers model-level context caps over provider-level defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:252",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] returns 1M context when anthropic context1m is enabled for opus/sonnet",
+TEST_CASE("v4.29 [src/agents/context.test.ts:274] returns 1M context when anthropic context1m is enabled for opus/sonnet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:274",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] returns 1M context when claude-cli context1m is enabled for opus/sonnet",
+TEST_CASE("v4.29 [src/agents/context.test.ts:304] returns 1M context when claude-cli context1m is enabled for opus/sonnet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:304",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not force 1M context when context1m is not enabled",
+TEST_CASE("v4.29 [src/agents/context.test.ts:334] does not force 1M context when context1m is not enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:334",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not force 1M context for non-opus/sonnet Anthropic models",
+TEST_CASE("v4.29 [src/agents/context.test.ts:364] does not force 1M context for non-opus/sonnet Anthropic models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:364",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] returns 1M context for claude opus 4.7 variants without context1m",
+TEST_CASE("v4.29 [src/agents/context.test.ts:394] returns 1M context for claude opus 4.7 variants without context1m",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:394",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not force 1M context for non-Anthropic providers with opus 4.7 ids",
+TEST_CASE("v4.29 [src/agents/context.test.ts:405] does not force 1M context for non-Anthropic providers with opus 4.7 ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:405",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] does not force 1M context for model-only anthropic opus 4.7 ids",
+TEST_CASE("v4.29 [src/agents/context.test.ts:416] does not force 1M context for model-only anthropic opus 4.7 ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:416",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.test.ts] prefers per-model contextTokens config over contextWindow",
+TEST_CASE("v4.29 [src/agents/context.test.ts:426] prefers per-model contextTokens config over contextWindow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.test.ts:426",
                "upstream it() block #23",

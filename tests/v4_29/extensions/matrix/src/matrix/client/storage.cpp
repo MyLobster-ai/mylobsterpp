@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] resolves state file paths inside the selected storage root",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:202] resolves state file paths inside the selected storage root",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:202",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] uses the simplified matrix runtime root for account-scoped storage",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:305] uses the simplified matrix runtime root for account-scoped storage",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:305",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] falls back to migrating the older flat matrix storage layout",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:335] falls back to migrating the older flat matrix storage layout",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:335",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] continues migrating whichever legacy artifact is still missing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:357] continues migrating whichever legacy artifact is still missing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:357",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] refuses to migrate legacy storage when the snapshot step fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:381] refuses to migrate legacy storage when the snapshot step fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:381",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] rolls back moved legacy storage when the crypto move fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:398] rolls back moved legacy storage when the crypto move fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:398",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] refuses fallback migration when multiple Matrix accounts need explicit selection",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:423] refuses fallback migration when multiple Matrix accounts need explicit selection",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:423",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] refuses fallback migration for a non-selected Matrix account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:448] refuses fallback migration for a non-selected Matrix account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:448",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] keeps the canonical current-token storage root when deviceId is still unknown",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:483] keeps the canonical current-token storage root when deviceId is still unknown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:483",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] reuses an existing token-hash storage root for the same device after the access token changes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:504] reuses an existing token-hash storage root for the same device after the access token changes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:504",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] does not reuse a populated older token-hash root while deviceId is unknown",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:528] does not reuse a populated older token-hash root while deviceId is unknown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:528",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] does not reuse a populated sibling storage root from a different device",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:551] does not reuse a populated sibling storage root from a different device",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:551",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] does not reuse a populated sibling storage root with ambiguous device metadata",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:561] does not reuse a populated sibling storage root with ambiguous device metadata",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:561",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] keeps the current-token storage root stable after deviceId backfill when startup claimed state there",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:569] keeps the current-token storage root stable after deviceId backfill when startup claimed state there",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:569",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts] does not keep the current-token storage root sticky when only marker files exist after backfill",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/storage.test.ts:600] does not keep the current-token storage root sticky when only marker files exist after backfill",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/storage.test.ts:600",
                "upstream it() block #14",

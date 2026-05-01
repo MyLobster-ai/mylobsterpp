@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] starts the default module and returns its stop hook",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:47] starts the default module and returns its stop hook",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] honors skip env before loading the module",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:62] honors skip env before loading the module",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] uses the override module when configured",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:76] uses the override module when configured",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] normalizes Windows absolute paths in the default override loader",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:92] normalizes Windows absolute paths in the default override loader",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] leaves caller-supplied override loaders responsible for their own specifiers",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:106] leaves caller-supplied override loaders responsible for their own specifiers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] validates the override specifier before loading it",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:126] validates the override specifier before loading it",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:126",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts] surfaces override validation failures",
+TEST_CASE("v4.29 [src/plugins/lazy-service-module.test.ts:142] surfaces override validation failures",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/lazy-service-module.test.ts:142",
                "upstream it() block #6",

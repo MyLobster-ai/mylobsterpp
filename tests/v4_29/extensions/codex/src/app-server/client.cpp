@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] routes request responses by id",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:41] routes request responses by id",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] logs a redacted preview for malformed app-server messages",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:53] logs a redacted preview for malformed app-server messages",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] preserves JSON-RPC error codes",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:71] preserves JSON-RPC error codes",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] rejects timed-out requests and ignores late responses",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:86] rejects timed-out requests and ignores late responses",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] rejects aborted requests and ignores late responses",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:102] rejects aborted requests and ignores late responses",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] initializes with the required client version",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:117] initializes with the required client version",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] blocks unsupported app-server versions during initialize",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:139] blocks unsupported app-server versions during initialize",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] blocks same-version Codex app-server prereleases below the stable floor",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:152] blocks same-version Codex app-server prereleases below the stable floor",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:152",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] blocks same-version Codex app-server build metadata below the stable floor",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:165] blocks same-version Codex app-server build metadata below the stable floor",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:165",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] accepts newer Codex app-server prereleases",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:178] accepts newer Codex app-server prereleases",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:178",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] accepts newer Codex app-server builds",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:189] accepts newer Codex app-server builds",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:189",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] blocks app-server initialize responses without a version",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:200] blocks app-server initialize responses without a version",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:200",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] force-stops app-server transports that ignore the graceful signal",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:210] force-stops app-server transports that ignore the graceful signal",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:210",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] waits for app-server transport exit during async shutdown",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:235] waits for app-server transport exit during async shutdown",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:235",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] handles stdin write errors without crashing the process",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:266] handles stdin write errors without crashing the process",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:266",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] does not write to stdin after the child process exits",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:287] does not write to stdin after the child process exits",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:287",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] reads the Codex version from the app-server user agent",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:299] reads the Codex version from the app-server user agent",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:299",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] answers server-initiated requests with the registered handler result",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:311] answers server-initiated requests with the registered handler result",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:311",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] fails closed when a dynamic tool server request handler hangs",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:330] fails closed when a dynamic tool server request handler hangs",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:330",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] fails closed for unhandled native app-server approvals",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:368] fails closed for unhandled native app-server approvals",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:368",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] only treats known Codex app-server approval methods as approvals",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:385] only treats known Codex app-server approval methods as approvals",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:385",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts] fails closed for unhandled request_user_input prompts",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/client.test.ts:393] fails closed for unhandled request_user_input prompts",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/client.test.ts:393",
                "upstream it() block #21",

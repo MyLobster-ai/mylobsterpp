@@ -1,4 +1,4 @@
-// MYLOBSTERPP_HAND_AUTHORED
+// MYLOBSTERPP_HANDWRITTEN_TEST
 // v2026.4.29 parity: extensions/anthropic/cli-migration.test.ts
 //
 // Upstream tests cover the Claude CLI -> mylobsterpp auth profile migration:

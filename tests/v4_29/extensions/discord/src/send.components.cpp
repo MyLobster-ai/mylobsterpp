@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] keeps direct-channel DM session keys on component entries",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:75] keeps direct-channel DM session keys on component entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] edits component messages and refreshes component registry entries",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:102] edits component messages and refreshes component registry entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] registers a prebuilt component message against an edited message id",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:138] registers a prebuilt component message against an edited message id",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] forwards mediaReadFile and mediaAccess to sendMessageDiscord",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:161] forwards mediaReadFile and mediaAccess to sendMessageDiscord",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] keeps modal component messages on the component path",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:187] keeps modal component messages on the component path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:187",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] keeps spoiler file blocks on the component path",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:222] keeps spoiler file blocks on the component path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:222",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts] keeps container-styled messages on the component path",
+TEST_CASE("v4.29 [extensions/discord/src/send.components.test.ts:248] keeps container-styled messages on the component path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.components.test.ts:248",
                "upstream it() block #6",

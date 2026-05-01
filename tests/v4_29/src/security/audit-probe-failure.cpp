@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-probe-failure.test.ts] adds probe_failed warnings for deep probe failure modes",
+TEST_CASE("v4.29 [src/security/audit-probe-failure.test.ts:5] adds probe_failed warnings for deep probe failure modes",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-probe-failure.test.ts:5",
                "upstream it() block #0",

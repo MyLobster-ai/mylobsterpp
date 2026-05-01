@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] connect + health + presence + status succeed",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:28] connect + health + presence + status succeed",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] broadcasts heartbeat events and serves last-heartbeat",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:55] broadcasts heartbeat events and serves last-heartbeat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] presence events carry seq + stateVersion",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:111] presence events carry seq + stateVersion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] agent events stream with seq",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:136] agent events stream with seq",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:136",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] shutdown event is broadcast on close",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:159] shutdown event is broadcast on close",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:159",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] presence broadcast reaches multiple clients",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:174] presence broadcast reaches multiple clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:174",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] presence includes client fingerprint",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:205] presence includes client fingerprint",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:205",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.health.test.ts] cli connections are not tracked as instances",
+TEST_CASE("v4.29 [src/gateway/server.health.test.ts:255] cli connections are not tracked as instances",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.health.test.ts:255",
                "upstream it() block #7",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-activation-boundary.test.ts] keeps generic boundaries cold and loads only narrow browser helper surfaces on use",
+TEST_CASE("v4.29 [src/plugin-activation-boundary.test.ts:117] keeps generic boundaries cold and loads only narrow browser helper surfaces on use",
           "[v4_29][parity_gap][plugin-activation-boundary.test.ts]") {
     PARITY_GAP("src/plugin-activation-boundary.test.ts:117",
                "upstream it() block #0",

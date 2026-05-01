@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] surfaces manifest provider auth choices before setup runtime loads",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:65] surfaces manifest provider auth choices before setup runtime loads",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] prefers manifest setup contributions over duplicate install-catalog entries",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:115] prefers manifest setup contributions over duplicate install-catalog entries",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] surfaces install-catalog provider choices when runtime setup options are absent",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:161] surfaces install-catalog provider choices when runtime setup options are absent",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] adds a fallback group when install-catalog entries omit group metadata",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:208] adds a fallback group when install-catalog entries omit group metadata",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:208",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] hides install-catalog choices that cannot be enabled",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:244] hides install-catalog choices that cannot be enabled",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:244",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] hides install-catalog choices outside a configured plugin allowlist",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:271] hides install-catalog choices outside a configured plugin allowlist",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:271",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] keeps setup contributions on cold metadata instead of runtime wizard options",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:299] keeps setup contributions on cold metadata instead of runtime wizard options",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:299",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/provider-flow.test.ts] keeps docs attached to runtime model-picker contributions",
+TEST_CASE("v4.29 [src/flows/provider-flow.test.ts:347] keeps docs attached to runtime model-picker contributions",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/provider-flow.test.ts:347",
                "upstream it() block #7",

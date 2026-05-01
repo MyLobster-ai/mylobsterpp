@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] skips browser cleanup when no session keys are provided",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:45] skips browser cleanup when no session keys are provided",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] delegates cleanup through the browser maintenance surface",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:52] delegates cleanup through the browser maintenance surface",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] moves paths to a reserved user trash container without invoking a PATH-resolved command",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:69] moves paths to a reserved user trash container without invoking a PATH-resolved command",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] uses the resolved trash directory for reserved destinations",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:92] uses the resolved trash directory for reserved destinations",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] refuses to trash filesystem roots",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:119] refuses to trash filesystem roots",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] refuses to trash paths outside allowed roots",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:125] refuses to trash paths outside allowed roots",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:125",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] refuses to use a symlinked trash directory",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:133] refuses to use a symlinked trash directory",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:133",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] falls back to copy and remove when rename crosses filesystems",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:147] falls back to copy and remove when rename crosses filesystems",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:147",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] retries copy fallback when the copy destination is created concurrently",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:170] retries copy fallback when the copy destination is created concurrently",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:170",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts] retries with the same timestamp when the destination is created concurrently",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-maintenance.test.ts:217] retries with the same timestamp when the destination is created concurrently",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-maintenance.test.ts:217",
                "upstream it() block #9",

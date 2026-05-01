@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] reuses a started runtime across plugin registration contexts",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:162] reuses a started runtime across plugin registration contexts",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] does not block service startup while runtime exposure initializes",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:181] does not block service startup while runtime exposure initializes",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:181",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] creates a fresh shared runtime after service stop",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:207] creates a fresh shared runtime after service stop",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:207",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] does not log a startup error when provider setup is incomplete",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:227] does not log a startup error when provider setup is incomplete",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:227",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] still reports missing provider setup when a command needs the runtime",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:247] still reports missing provider setup when a command needs the runtime",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:247",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] initiates a call via voicecall.initiate",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:271] initiates a call via voicecall.initiate",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:271",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] returns call status",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:287] returns call status",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:287",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] sends DTMF via voicecall.dtmf",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:302] sends DTMF via voicecall.dtmf",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:302",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] normalizes legacy config through runtime creation and warns to run doctor",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:318] normalizes legacy config through runtime creation and warns to run doctor",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:318",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] tool get_status returns json payload",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:361] tool get_status returns json payload",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:361",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] tool send_dtmf returns json payload",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:373] tool send_dtmf returns json payload",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:373",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] legacy tool status without sid returns error payload",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:387] legacy tool status without sid returns error payload",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:387",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] CLI latency summarizes turn metrics from JSONL",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:398] CLI latency summarizes turn metrics from JSONL",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:398",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] CLI start prints JSON",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:429] CLI start prints JSON",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:429",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] CLI setup prints human-readable checks by default",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:444] CLI setup prints human-readable checks by default",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:444",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] CLI setup preserves JSON output with --json",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:466] CLI setup preserves JSON output with --json",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:466",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] CLI smoke dry-runs a live call unless --yes is passed",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:493] CLI smoke dry-runs a live call unless --yes is passed",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:493",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/index.test.ts] CLI smoke can place a live notify call with --yes",
+TEST_CASE("v4.29 [extensions/voice-call/index.test.ts:517] CLI smoke can place a live notify call with --yes",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/index.test.ts:517",
                "upstream it() block #17",

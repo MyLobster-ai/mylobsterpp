@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/fireworks/index.test.ts] registers Fireworks with api-key auth wizard metadata",
+TEST_CASE("v4.29 [extensions/fireworks/index.test.ts:38] registers Fireworks with api-key auth wizard metadata",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/index.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/index.test.ts] builds the Fireworks catalog",
+TEST_CASE("v4.29 [extensions/fireworks/index.test.ts:54] builds the Fireworks catalog",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/index.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/index.test.ts] resolves forward-compat Fireworks model ids from the default template",
+TEST_CASE("v4.29 [extensions/fireworks/index.test.ts:78] resolves forward-compat Fireworks model ids from the default template",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/index.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/index.test.ts] disables reasoning metadata for Fireworks Kimi dynamic models",
+TEST_CASE("v4.29 [extensions/fireworks/index.test.ts:97] disables reasoning metadata for Fireworks Kimi dynamic models",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/index.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/index.test.ts] disables reasoning metadata for Fireworks Kimi k2.5 aliases",
+TEST_CASE("v4.29 [extensions/fireworks/index.test.ts:114] disables reasoning metadata for Fireworks Kimi k2.5 aliases",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/index.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fireworks/index.test.ts] disables reasoning metadata for Fireworks Kimi k2.6 dynamic models",
+TEST_CASE("v4.29 [extensions/fireworks/index.test.ts:131] disables reasoning metadata for Fireworks Kimi k2.6 dynamic models",
           "[v4_29][parity_gap][fireworks]") {
     PARITY_GAP("extensions/fireworks/index.test.ts:131",
                "upstream it() block #5",

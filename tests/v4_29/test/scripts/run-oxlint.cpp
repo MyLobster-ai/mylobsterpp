@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts] prepares extension package boundary artifacts for normal lint runs",
+TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts:9] prepares extension package boundary artifacts for normal lint runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-oxlint.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts] skips artifact preparation for metadata-only oxlint commands",
+TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts:15] skips artifact preparation for metadata-only oxlint commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-oxlint.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts] does not run package-boundary artifact prep twice in pnpm check",
+TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts:22] does not run package-boundary artifact prep twice in pnpm check",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-oxlint.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts] filters tracked targets missing from sparse checkouts",
+TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts:37] filters tracked targets missing from sparse checkouts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-oxlint.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts] keeps missing untracked oxlint targets so typos still fail",
+TEST_CASE("v4.29 [test/scripts/run-oxlint.test.ts:55] keeps missing untracked oxlint targets so typos still fail",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-oxlint.test.ts:55",
                "upstream it() block #4",

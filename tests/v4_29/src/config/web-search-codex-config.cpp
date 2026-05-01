@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/web-search-codex-config.test.ts] accepts tools.web.search.openaiCodex",
+TEST_CASE("v4.29 [src/config/web-search-codex-config.test.ts:5] accepts tools.web.search.openaiCodex",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/web-search-codex-config.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/web-search-codex-config.test.ts] rejects invalid openaiCodex.mode",
+TEST_CASE("v4.29 [src/config/web-search-codex-config.test.ts:30] rejects invalid openaiCodex.mode",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/web-search-codex-config.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/web-search-codex-config.test.ts] rejects invalid openaiCodex.contextSize",
+TEST_CASE("v4.29 [src/config/web-search-codex-config.test.ts:53] rejects invalid openaiCodex.contextSize",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/web-search-codex-config.test.ts:53",
                "upstream it() block #2",

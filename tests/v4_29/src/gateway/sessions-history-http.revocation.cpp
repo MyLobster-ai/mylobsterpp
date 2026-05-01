@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/sessions-history-http.revocation.test.ts] closes the stream before delivering transcript updates after auth is revoked",
+TEST_CASE("v4.29 [src/gateway/sessions-history-http.revocation.test.ts:177] closes the stream before delivering transcript updates after auth is revoked",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-history-http.revocation.test.ts:177",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-history-http.revocation.test.ts] rechecks SSE auth against live proxy config instead of startup fallbacks",
+TEST_CASE("v4.29 [src/gateway/sessions-history-http.revocation.test.ts:207] rechecks SSE auth against live proxy config instead of startup fallbacks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-history-http.revocation.test.ts:207",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-history-http.revocation.test.ts] skips SSE reauth for transcript updates outside this stream",
+TEST_CASE("v4.29 [src/gateway/sessions-history-http.revocation.test.ts:242] skips SSE reauth for transcript updates outside this stream",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-history-http.revocation.test.ts:242",
                "upstream it() block #2",

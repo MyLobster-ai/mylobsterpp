@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/parent-default-help.test.ts] invokes parent help and exits 0 when invoked without subcommand",
+TEST_CASE("v4.29 [src/cli/program/parent-default-help.test.ts:25] invokes parent help and exits 0 when invoked without subcommand",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/parent-default-help.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/parent-default-help.test.ts] still routes through subcommand actions when one is invoked",
+TEST_CASE("v4.29 [src/cli/program/parent-default-help.test.ts:34] still routes through subcommand actions when one is invoked",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/parent-default-help.test.ts:34",
                "upstream it() block #1",

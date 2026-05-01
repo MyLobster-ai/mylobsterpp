@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] reports configured when INWORLD_API_KEY env var is set",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:29] reports configured when INWORLD_API_KEY env var is set",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] reports configured when providerConfig apiKey is set",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:40] reports configured when providerConfig apiKey is set",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] reports not configured when no key is available",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:51] reports not configured when no key is available",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] has correct provider metadata",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:62] has correct provider metadata",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] normalizes provider-owned speech config from raw provider config",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:71] normalizes provider-owned speech config from raw provider config",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] parses Inworld TTS directive overrides",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:98] parses Inworld TTS directive overrides",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:98",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] warns on invalid directive temperature",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:131] warns on invalid directive temperature",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:131",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] synthesizes voice-note targets with native OGG_OPUS output",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:154] synthesizes voice-note targets with native OGG_OPUS output",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:154",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts] synthesizes telephony PCM at 22050 Hz",
+TEST_CASE("v4.29 [extensions/inworld/speech-provider.test.ts:185] synthesizes telephony PCM at 22050 Hz",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/speech-provider.test.ts:185",
                "upstream it() block #8",

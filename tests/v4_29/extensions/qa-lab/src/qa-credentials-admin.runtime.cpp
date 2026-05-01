@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] adds a credential set through the admin endpoint",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:20] adds a credential set through the admin endpoint",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] rejects admin commands when maintainer secret is missing",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:69] rejects admin commands when maintainer secret is missing",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] rejects non-https admin site URLs unless local insecure opt-in is enabled",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:82] rejects non-https admin site URLs unless local insecure opt-in is enabled",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] allows loopback http admin site URLs when OPENCLAW_QA_ALLOW_INSECURE_HTTP is enabled",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:97] allows loopback http admin site URLs when OPENCLAW_QA_ALLOW_INSECURE_HTTP is enabled",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] rejects unsafe endpoint-prefix overrides",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:118] rejects unsafe endpoint-prefix overrides",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] surfaces broker error codes for remove",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:134] surfaces broker error codes for remove",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:134",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] lists credentials and forwards includePayload/status filters",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:161] lists credentials and forwards includePayload/status filters",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:161",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts] doctors credential broker env without exposing secret values",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:209] doctors credential broker env without exposing secret values",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-credentials-admin.runtime.test.ts:209",
                "upstream it() block #7",

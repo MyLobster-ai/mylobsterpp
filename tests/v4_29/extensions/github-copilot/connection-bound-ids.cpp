@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts] rewrites opaque message response item IDs deterministically",
+TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts:8] rewrites opaque message response item IDs deterministically",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/connection-bound-ids.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts] uses response item type prefixes and preserves local IDs",
+TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts:19] uses response item type prefixes and preserves local IDs",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/connection-bound-ids.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts] preserves reasoning IDs regardless of encrypted_content",
+TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts:38] preserves reasoning IDs regardless of encrypted_content",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/connection-bound-ids.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts] patches response payload input arrays only",
+TEST_CASE("v4.29 [extensions/github-copilot/connection-bound-ids.test.ts:54] patches response payload input arrays only",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/connection-bound-ids.test.ts:54",
                "upstream it() block #3",

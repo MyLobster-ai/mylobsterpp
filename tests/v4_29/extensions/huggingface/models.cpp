@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] buildHuggingfaceModelDefinition returns config with required fields",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:21] buildHuggingfaceModelDefinition returns config with required fields",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] discoverHuggingfaceModels returns static catalog when apiKey is empty",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:33] discoverHuggingfaceModels returns static catalog when apiKey is empty",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] discoverHuggingfaceModels returns static catalog in test env (VITEST)",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:39] discoverHuggingfaceModels returns static catalog in test env (VITEST)",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] uses the default discovery timeout for live Hugging Face fetches",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:45] uses the default discovery timeout for live Hugging Face fetches",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] accepts a custom discovery timeout override",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:62] accepts a custom discovery timeout override",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] returns true for :cheapest and :fastest refs",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:80] returns true for :cheapest and :fastest refs",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:80",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/huggingface/models.test.ts] returns false for base ref and :provider refs",
+TEST_CASE("v4.29 [extensions/huggingface/models.test.ts:85] returns false for base ref and :provider refs",
           "[v4_29][parity_gap][huggingface]") {
     PARITY_GAP("extensions/huggingface/models.test.ts:85",
                "upstream it() block #6",

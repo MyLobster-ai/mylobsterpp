@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts] prefers explicit runtime install command",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts:15] prefers explicit runtime install command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp/install-hints.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts] uses local acpx extension path when present",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts:22] uses local acpx extension path when present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp/install-hints.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts] falls back to scoped install hint for acpx when local extension is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts:29] falls back to scoped install hint for acpx when local extension is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp/install-hints.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts] returns generic plugin hint for non-acpx backend",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-acp/install-hints.test.ts:36] returns generic plugin hint for non-acpx backend",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-acp/install-hints.test.ts:36",
                "upstream it() block #3",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] auto-approves scoped readonly reads",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:21] auto-approves scoped readonly reads",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] does not auto-approve reads outside cwd",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:34] does not auto-approve reads outside cwd",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] auto-approves readonly search tools",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:47] auto-approves readonly search tools",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] classifies process as exec-capable even for readonly-like actions",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:60] classifies process as exec-capable even for readonly-like actions",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] classifies gateway as control-plane",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:102] classifies gateway as control-plane",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] classifies mutating messaging tools as mutating",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:115] classifies mutating messaging tools as mutating",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts] fails closed on spoofed metadata and title mismatches",
+TEST_CASE("v4.29 [src/acp/approval-classifier.test.ts:128] fails closed on spoofed metadata and title mismatches",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/approval-classifier.test.ts:128",
                "upstream it() block #6",

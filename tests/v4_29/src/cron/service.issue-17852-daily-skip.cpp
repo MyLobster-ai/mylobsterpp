@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.issue-17852-daily-skip.test.ts] recomputeNextRunsForMaintenance should NOT advance past-due nextRunAtMs by default",
+TEST_CASE("v4.29 [src/cron/service.issue-17852-daily-skip.test.ts:39] recomputeNextRunsForMaintenance should NOT advance past-due nextRunAtMs by default",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-17852-daily-skip.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-17852-daily-skip.test.ts] recomputeNextRunsForMaintenance can advance expired nextRunAtMs on recovery path when slot already executed",
+TEST_CASE("v4.29 [src/cron/service.issue-17852-daily-skip.test.ts:56] recomputeNextRunsForMaintenance can advance expired nextRunAtMs on recovery path when slot already executed",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-17852-daily-skip.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-17852-daily-skip.test.ts] full recomputeNextRuns WOULD silently advance past-due nextRunAtMs (the bug)",
+TEST_CASE("v4.29 [src/cron/service.issue-17852-daily-skip.test.ts:70] full recomputeNextRuns WOULD silently advance past-due nextRunAtMs (the bug)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-17852-daily-skip.test.ts:70",
                "upstream it() block #2",

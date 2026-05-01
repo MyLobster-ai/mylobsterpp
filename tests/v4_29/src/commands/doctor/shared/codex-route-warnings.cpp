@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts] warns when the Codex plugin is enabled but openai-codex models still route through PI",
+TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts:16] warns when the Codex plugin is enabled but openai-codex models still route through PI",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/codex-route-warnings.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts] does not warn when the native Codex runtime is selected",
+TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts:34] does not warn when the native Codex runtime is selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/codex-route-warnings.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts] does not warn when OPENCLAW_AGENT_RUNTIME selects native Codex",
+TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts:52] does not warn when OPENCLAW_AGENT_RUNTIME selects native Codex",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/codex-route-warnings.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts] does not warn unless the Codex plugin is explicitly enabled or allowed",
+TEST_CASE("v4.29 [src/commands/doctor/shared/codex-route-warnings.test.ts:70] does not warn unless the Codex plugin is explicitly enabled or allowed",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/codex-route-warnings.test.ts:70",
                "upstream it() block #3",

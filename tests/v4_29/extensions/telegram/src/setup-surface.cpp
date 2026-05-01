@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] adds groups[",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:13] adds groups[",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] preserves an explicit wildcard group mention setting",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:30] preserves an explicit wildcard group mention setting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] shows global config commands for the default account",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:52] shows global config commands for the default account",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] shows account-scoped config commands for named accounts",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:63] shows account-scoped config commands for named accounts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] skips the warning when an allowFrom entry already exists",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:74] skips the warning when an allowFrom entry already exists",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:92] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:92",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:113] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:113",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] uses configured defaultAccount for omitted DM policy account context",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:120] uses configured defaultAccount for omitted DM policy account context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:120",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] writes open policy state to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:148] writes open policy state to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:148",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts] accepts numeric sender ids only",
+TEST_CASE("v4.29 [extensions/telegram/src/setup-surface.test.ts:171] accepts numeric sender ids only",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/setup-surface.test.ts:171",
                "upstream it() block #9",

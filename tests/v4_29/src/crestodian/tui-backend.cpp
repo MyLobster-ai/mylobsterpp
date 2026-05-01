@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/crestodian/tui-backend.test.ts] runs Crestodian inside the shared TUI shell",
+TEST_CASE("v4.29 [src/crestodian/tui-backend.test.ts:39] runs Crestodian inside the shared TUI shell",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/tui-backend.test.ts:39",
                "upstream it() block #0",

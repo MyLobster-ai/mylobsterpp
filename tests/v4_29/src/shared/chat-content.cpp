@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/chat-content.test.ts] normalizes plain string content",
+TEST_CASE("v4.29 [src/shared/chat-content.test.ts:5] normalizes plain string content",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-content.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-content.test.ts] extracts only text blocks from array content",
+TEST_CASE("v4.29 [src/shared/chat-content.test.ts:9] extracts only text blocks from array content",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-content.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-content.test.ts] applies sanitizers and custom join/normalization hooks",
+TEST_CASE("v4.29 [src/shared/chat-content.test.ts:21] applies sanitizers and custom join/normalization hooks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-content.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-content.test.ts] returns null for unsupported or empty content",
+TEST_CASE("v4.29 [src/shared/chat-content.test.ts:55] returns null for unsupported or empty content",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-content.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/chat-content.test.ts] tolerates sanitize and normalize hooks that return non-string values",
+TEST_CASE("v4.29 [src/shared/chat-content.test.ts:65] tolerates sanitize and normalize hooks that return non-string values",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/chat-content.test.ts:65",
                "upstream it() block #4",

@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects config.set when SecretRef resolution fails",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:102] rejects config.set when SecretRef resolution fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] round-trips config.set and returns the live config path",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:135] round-trips config.set and returns the live config path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:135",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] redacts browser cdpUrl credentials from config.get responses",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:160] redacts browser cdpUrl credentials from config.get responses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:160",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] does not reject config.set for unresolved auth-profile refs outside submitted config",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:216] does not reject config.set for unresolved auth-profile refs outside submitted config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:216",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] returns config.set validation details in the top-level error message",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:241] returns config.set validation details in the top-level error message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:241",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] returns a path-scoped config schema lookup",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:267] returns a path-scoped config schema lookup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:267",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects config.schema.lookup when the path is missing",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:289] rejects config.schema.lookup when the path is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:289",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects prototype-chain config.schema.lookup paths without reflecting them",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:316] rejects prototype-chain config.schema.lookup paths without reflecting them",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:316",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] returns noop for config.patch when config is unchanged",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:325] returns noop for config.patch when config is unchanged",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:325",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects config.patch when raw is null",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:349] rejects config.patch when raw is null",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:349",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects config.patch when merged SecretRefs cannot resolve",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:358] rejects config.patch when merged SecretRefs cannot resolve",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:358",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects config.apply when SecretRef resolution fails",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:390] rejects config.apply when SecretRef resolution fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:390",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] does not reject config.apply for unresolved auth-profile refs outside submitted config",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:426] does not reject config.apply for unresolved auth-profile refs outside submitted config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:426",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] rejects invalid raw config",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:445] rejects invalid raw config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:445",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] requires raw to be a string",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:452] requires raw to be a string",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:452",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] filters sessions by agentId",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:464] filters sessions by agentId",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:464",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts] resolves and patches main alias to default agent main key",
+TEST_CASE("v4.29 [src/gateway/server.config-patch.test.ts:525] resolves and patches main alias to default agent main key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.config-patch.test.ts:525",
                "upstream it() block #16",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/e2ee-client.test.ts] filters receipt noise without suppressing room state or timeline events",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/e2ee-client.test.ts:6] filters receipt noise without suppressing room state or timeline events",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/e2ee-client.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/e2ee-client.test.ts] shares persisted crypto and sync state by actor account",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/e2ee-client.test.ts:14] shares persisted crypto and sync state by actor account",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/e2ee-client.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/e2ee-client.test.ts] records late-decrypted payload updates for an existing event id",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/e2ee-client.test.ts:41] records late-decrypted payload updates for an existing event id",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/e2ee-client.test.ts:41",
                "upstream it() block #2",

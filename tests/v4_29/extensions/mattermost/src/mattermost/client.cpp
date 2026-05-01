@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] strips trailing slashes",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:76] strips trailing slashes",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:76",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] strips /api/v4 suffix",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:80] strips /api/v4 suffix",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] returns undefined for empty input",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:86] returns undefined for empty input",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] preserves valid base URL",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:92] preserves valid base URL",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] creates a client with normalized baseUrl",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:100] creates a client with normalized baseUrl",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:100",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] throws on empty baseUrl",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:111] throws on empty baseUrl",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:111",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] sends Authorization header with Bearer token",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:117] sends Authorization header with Bearer token",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:117",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] sets Content-Type for string bodies",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:129] sets Content-Type for string bodies",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:129",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] throws on non-ok responses",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:141] throws on non-ok responses",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:141",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] returns undefined on 204 responses",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:154] returns undefined on 204 responses",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:154",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] sends channel_id and message",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:171] sends channel_id and message",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:171",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] includes rootId when provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:189] includes rootId when provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:189",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] includes fileIds when provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:207] includes fileIds when provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:207",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] includes props when provided (for interactive buttons)",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:225] includes props when provided (for interactive buttons)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:225",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] omits props when not provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:255] omits props when not provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:255",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] sends PUT to /posts/{id}",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:276] sends PUT to /posts/{id}",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:276",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] includes post id in the body",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:283] includes post id in the body",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:283",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] includes props for button completion updates",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:289] includes props for button completion updates",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:289",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts] omits message when not provided",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/client.test.ts:305] omits message when not provided",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/client.test.ts:305",
                "upstream it() block #18",

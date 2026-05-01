@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] cleans up thread bindings when gateway wait fails before READY",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:179] cleans up thread bindings when gateway wait fails before READY",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:179",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] cleans up when gateway wait fails after startup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:192] cleans up when gateway wait fails after startup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:192",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] pushes connected status when gateway is already connected at lifecycle start",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:207] pushes connected status when gateway is already connected at lifecycle start",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:207",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] does not treat a missing gateway handle as ready",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:223] does not treat a missing gateway handle as ready",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:223",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] records throttled gateway socket activity as transport liveness",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:255] records throttled gateway socket activity as transport liveness",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:255",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] removes the gateway socket activity listener during lifecycle cleanup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:294] removes the gateway socket activity listener during lifecycle cleanup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:294",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] restarts the gateway once when startup never reaches READY, then recovers",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:307] restarts the gateway once when startup never reaches READY, then recovers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:307",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] waits for the stale startup socket to close before reconnecting",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:342] waits for the stale startup socket to close before reconnecting",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:342",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] fails when startup still is not ready after a restart",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:377] fails when startup still is not ready after a restart",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:377",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] handles queued disallowed intents errors without waiting for gateway events",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:406] handles queued disallowed intents errors without waiting for gateway events",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:406",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] logs queued non-fatal startup gateway errors and continues",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:428] logs queued non-fatal startup gateway errors and continues",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:428",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] throws queued fatal startup gateway errors",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:447] throws queued fatal startup gateway errors",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:447",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] throws queued reconnect exhaustion errors",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:463] throws queued reconnect exhaustion errors",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:463",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] surfaces fatal startup gateway errors while waiting for READY",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:484] surfaces fatal startup gateway errors while waiting for READY",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:484",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] pushes disconnected status when the gateway closes after startup",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:522] pushes disconnected status when the gateway closes after startup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:522",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] pushes disconnected status when the gateway schedules a reconnect",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:542] pushes disconnected status when the gateway schedules a reconnect",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:542",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] pushes connected status when a runtime reconnect becomes ready",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:562] pushes connected status when a runtime reconnect becomes ready",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:562",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts] force-stops when a runtime reconnect opens but never becomes ready",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.lifecycle.test.ts:593] force-stops when a runtime reconnect opens but never becomes ready",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.lifecycle.test.ts:593",
                "upstream it() block #17",

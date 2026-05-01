@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/system-prompt.memory.test.ts] can suppress base memory guidance so context engines own memory prompt assembly",
+TEST_CASE("v4.29 [src/agents/system-prompt.memory.test.ts:10] can suppress base memory guidance so context engines own memory prompt assembly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.memory.test.ts:10",
                "upstream it() block #0",

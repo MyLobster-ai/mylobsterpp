@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] converts assistant content: [] to a non-empty sentinel text block when stopReason is error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:61] converts assistant content: [] to a non-empty sentinel text block when stopReason is error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] drops blank user text messages from replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:69] drops blank user text messages from replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] removes blank user text blocks while preserving non-text content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:84] removes blank user text blocks while preserving non-text content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] preserves nonzero-usage silent-reply turns (stopReason=stop, content=[]) untouched",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:98] preserves nonzero-usage silent-reply turns (stopReason=stop, content=[]) untouched",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] converts zero-usage empty stop turns to a replay sentinel",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:111] converts zero-usage empty stop turns to a replay sentinel",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:111",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] preserves empty content with non-error stopReasons (toolUse, length) untouched",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:120] preserves empty content with non-error stopReasons (toolUse, length) untouched",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:120",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] wraps legacy string assistant content as a single text block (regression)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:134] wraps legacy string assistant content as a single text block (regression)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:134",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] drops metadata-only legacy string assistant content from replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:141] drops metadata-only legacy string assistant content from replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:141",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] drops metadata-only assistant text blocks without fabricating placeholder output",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:152] drops metadata-only assistant text blocks without fabricating placeholder output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:152",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] filters openclaw delivery-mirror and gateway-injected assistant messages from replay",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:168] filters openclaw delivery-mirror and gateway-injected assistant messages from replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:168",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts] returns the original array reference when nothing needs to change",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/replay-history.test.ts:181] returns the original array reference when nothing needs to change",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/replay-history.test.ts:181",
                "upstream it() block #10",

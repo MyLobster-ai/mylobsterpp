@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] does not crash with express 5 path-to-regexp (#55161)",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:150] does not crash with express 5 path-to-regexp (#55161)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:150",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] provides deleteActivity in proactive continueConversation contexts",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:173] provides deleteActivity in proactive continueConversation contexts",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:173",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] passes the OpenClaw User-Agent to the Bot Framework connector client",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:214] passes the OpenClaw User-Agent to the Bot Framework connector client",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:214",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] validates a token with Bot Framework issuer and correct audience list",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:261] validates a token with Bot Framework issuer and correct audience list",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:261",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] accepts tokens with aud: https://api.botframework.com (#58249)",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:274] accepts tokens with aud: https://api.botframework.com (#58249)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:274",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] accepts global audience tokens when azp matches the configured app id",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:289] accepts global audience tokens when azp matches the configured app id",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:289",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] rejects global audience tokens when app binding does not match the configured app id",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:300] rejects global audience tokens when app binding does not match the configured app id",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:300",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] rejects non-object verified payloads",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:311] rejects non-object verified payloads",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:311",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] validates a token with Entra issuer",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:319] validates a token with Entra issuer",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:319",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] validates a SingleTenant token with tenant-scoped STS Windows issuer (#64270)",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:330] validates a SingleTenant token with tenant-scoped STS Windows issuer (#64270)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:330",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] rejects STS Windows tokens issued by a different tenant (#64270)",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:346] rejects STS Windows tokens issued by a different tenant (#64270)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:346",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] rejects tokens with unknown issuer",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:359] rejects tokens with unknown issuer",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:359",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] returns false when signature verification fails",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:367] returns false when signature verification fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:367",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] returns false for empty bearer token",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:374] returns false for empty bearer token",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:374",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] returns false when token has no kid header",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:380] returns false when token has no kid header",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:380",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] returns false when token has no issuer claim",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:388] returns false when token has no issuer claim",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:388",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] passes clientId, clientSecret, tenantId to sdk.App",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:411] passes clientId, clientSecret, tenantId to sdk.App",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:411",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] reads the certificate and creates app with token function",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:436] reads the certificate and creates app with token function",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:436",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] wraps readFileSync errors with descriptive message",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:458] wraps readFileSync errors with descriptive message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:458",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] throws when federated but no certificatePath and no managedIdentity",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:474] throws when federated but no certificatePath and no managedIdentity",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:474",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] creates app with token function for user-assigned MI",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:488] creates app with token function for user-assigned MI",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:488",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] creates app with token function for system-assigned MI",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:506] creates app with token function for system-assigned MI",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:506",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] throws from token function when token acquisition fails",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:522] throws from token function when token acquisition fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:522",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] provides sendActivity via REST API client in logic callback",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:569] provides sendActivity via REST API client in logic callback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:569",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] provides deleteActivity via REST DELETE in logic callback",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:589] provides deleteActivity via REST DELETE in logic callback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:589",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] throws when serviceUrl is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:612] throws when serviceUrl is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:612",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] throws when conversation.id is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:621] throws when conversation.id is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:621",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] sends 200 for normal message activities",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:636] sends 200 for normal message activities",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:636",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts] sends 200 immediately for invoke activities",
+TEST_CASE("v4.29 [extensions/msteams/src/sdk.test.ts:650] sends 200 immediately for invoke activities",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/sdk.test.ts:650",
                "upstream it() block #28",

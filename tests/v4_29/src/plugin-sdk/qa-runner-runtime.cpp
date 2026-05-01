@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] stays cold until runner discovery is requested",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:50] stays cold until runner discovery is requested",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] loads the qa-lab runtime public surface through the public runner seam",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:58] loads the qa-lab runtime public surface through the public runner seam",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] uses the source bundled tree for qa-lab runtime loading in private qa mode",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:65] uses the source bundled tree for qa-lab runtime loading in private qa mode",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] loads bundled plugin test APIs with the private QA source tree override",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:74] loads bundled plugin test APIs with the private QA source tree override",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] reports the qa runtime as unavailable when the qa-lab surface is missing",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:94] reports the qa runtime as unavailable when the qa-lab surface is missing",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] returns activated runner registrations declared in plugin manifests",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:104] returns activated runner registrations declared in plugin manifests",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] reports declared runners as blocked when the plugin is present but not activated",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:146] reports declared runners as blocked when the plugin is present but not activated",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:146",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] prefers the source bundled tree for private qa discovery in repo checkouts",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:171] prefers the source bundled tree for private qa discovery in repo checkouts",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:171",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] fails fast when two plugins declare the same qa runner command",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:220] fails fast when two plugins declare the same qa runner command",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:220",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts] fails when runtime registrations include an undeclared command",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.test.ts:247] fails when runtime registrations include an undeclared command",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.test.ts:247",
                "upstream it() block #9",

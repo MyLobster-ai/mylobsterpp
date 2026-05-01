@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] rejects env auth for non-default accounts",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:87] rejects env auth for non-default accounts",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:87",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] requires inline or file credentials when env auth is not used",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:99] requires inline or file credentials when env auth is not used",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] builds a patch from token-file and trims optional webhook fields",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:111] builds a patch from token-file and trims optional webhook fields",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] prefers inline token patch when token-file is absent",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:143] prefers inline token patch when token-file is absent",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] configures service-account auth and webhook audience",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:167] configures service-account auth and webhook audience",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:167",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:196] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:196",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] reports configured state for the selected account instead of any account",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:221] reports configured state for the selected account instead of any account",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:221",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] reports configured state for the configured defaultAccount instead of any account",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:244] reports configured state for the configured defaultAccount instead of any account",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:244",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:266] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:266",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] uses configured defaultAccount for omitted DM policy account context",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:273] uses configured defaultAccount for omitted DM policy account context",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:273",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] uses configured defaultAccount for omitted allowFrom prompt context",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:304] uses configured defaultAccount for omitted allowFrom prompt context",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:304",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] writes open DM policy to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:338] writes open DM policy to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:338",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] keeps startAccount pending until abort, then unregisters",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:363] keeps startAccount pending until abort, then unregisters",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:363",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] parses default-account env JSON credentials only when they decode to an object",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:389] parses default-account env JSON credentials only when they decode to an object",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:389",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] ignores env JSON credentials when they decode to a non-object value",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:401] ignores env JSON credentials when they decode to a non-object value",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:401",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] inherits shared defaults from accounts.default for named accounts",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:415] inherits shared defaults from accounts.default for named accounts",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:415",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] prefers top-level and account overrides over accounts.default",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:440] prefers top-level and account overrides over accounts.default",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:440",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] does not inherit disabled state from accounts.default for named accounts",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:466] does not inherit disabled state from accounts.default for named accounts",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:466",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] does not inherit default-account credentials into named accounts",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:490] does not inherit default-account credentials into named accounts",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:490",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] does not inherit dangerous name matching from accounts.default",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:518] does not inherit dangerous name matching from accounts.default",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:518",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/googlechat/src/setup.test.ts:541] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/setup.test.ts:541",
                "upstream it() block #20",

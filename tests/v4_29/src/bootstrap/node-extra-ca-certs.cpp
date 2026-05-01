@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] returns undefined on non-linux platforms",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:18] returns undefined on non-linux platforms",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] returns the first readable Linux CA bundle",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:27] returns the first readable Linux CA bundle",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] detects nvm via NVM_DIR",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:38] detects nvm via NVM_DIR",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] detects nvm via execPath",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:42] detects nvm via execPath",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] returns false for non-nvm node paths",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:48] returns false for non-nvm node paths",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] returns undefined when NODE_EXTRA_CA_CERTS is already set",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:54] returns undefined when NODE_EXTRA_CA_CERTS is already set",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:54",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] returns undefined when node is not nvm-managed",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:67] returns undefined when node is not nvm-managed",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:67",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts] returns the readable Linux CA bundle for nvm-managed node",
+TEST_CASE("v4.29 [src/bootstrap/node-extra-ca-certs.test.ts:78] returns the readable Linux CA bundle for nvm-managed node",
           "[v4_29][parity_gap][bootstrap]") {
     PARITY_GAP("src/bootstrap/node-extra-ca-certs.test.ts:78",
                "upstream it() block #7",

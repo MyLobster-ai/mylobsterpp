@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] falls back to toolContext.currentChannelId for read actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:207] falls back to toolContext.currentChannelId for read actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:207",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] advertises upload-file in the message tool surface",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:234] advertises upload-file in the message tool surface",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:234",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] routes upload-file through sendMessageMSTeams with filename override",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:250] routes upload-file through sendMessageMSTeams with filename override",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:250",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] routes member-info through the Teams runtime",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:290] routes member-info through the Teams runtime",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] routes channel-list through the Teams runtime",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:309] routes channel-list through the Teams runtime",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:309",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] routes channel-info through the Teams runtime",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:328] routes channel-info through the Teams runtime",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:328",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] accepts target as an alias for pin actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:353] accepts target as an alias for pin actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:353",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] falls back from content to message fields for edit actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:372] falls back from content to message fields for edit actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:372",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] falls back from pinnedMessageId to messageId for unpin actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:399] falls back from pinnedMessageId to messageId for unpin actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:399",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] uses explicit pinnedMessageId over messageId for unpin actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:416] uses explicit pinnedMessageId over messageId for unpin actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:416",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] returns an error when unpin is called without pinnedMessageId or messageId",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:434] returns an error when unpin is called without pinnedMessageId or messageId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:434",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] exposes pinnedMessageId in the tool schema",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:442] exposes pinnedMessageId in the tool schema",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:442",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] reuses currentChannelId fallback for react actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:462] reuses currentChannelId fallback for react actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:462",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] shares the missing target and messageId validation across actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:491] shares the missing target and messageId validation across actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:491",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] keeps presentation-card target validation shared",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:497] keeps presentation-card target validation shared",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:497",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] preserves message text when sending presentation cards",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:505] preserves message text when sending presentation cards",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:505",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] reports the allowed reaction types when emoji is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:550] reports the allowed reaction types when emoji is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:550",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] requires a non-empty search query after trimming",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:565] requires a non-empty search query after trimming",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:565",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] routes channel fallback targets via teamId/channelId for react actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:576] routes channel fallback targets via teamId/channelId for react actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:576",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] preserves explicit teamId/channelId target over toolContext fallback",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:614] preserves explicit teamId/channelId target over toolContext fallback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:614",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] keeps chat conversation fallback targets as-is for DM react actions",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:649] keeps chat conversation fallback targets as-is for DM react actions",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:649",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] uses NativeChannelId for channel turns so actions route via teamId/channelId",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:700] uses NativeChannelId for channel turns so actions route via teamId/channelId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:700",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] falls back to To for DM turns (no NativeChannelId)",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:715] falls back to To for DM turns (no NativeChannelId)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:715",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] falls back to To for group chat turns (no NativeChannelId)",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:723] falls back to To for group chat turns (no NativeChannelId)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:723",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts] ignores NativeChannelId that does not encode a teamId/channelId pair",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.actions.test.ts:731] ignores NativeChannelId that does not encode a teamId/channelId pair",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.actions.test.ts:731",
                "upstream it() block #24",

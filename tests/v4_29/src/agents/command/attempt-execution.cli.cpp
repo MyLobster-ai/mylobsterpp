@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] clears stale Claude CLI session IDs before retrying after session expiration",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:134] clears stale Claude CLI session IDs before retrying after session expiration",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] does not pass --resume when the stored Claude CLI transcript is missing",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:212] does not pass --resume when the stored Claude CLI transcript is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:212",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] keeps Claude CLI resume when the stored transcript has assistant content",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:256] keeps Claude CLI resume when the stored transcript has assistant content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:256",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] passes session-bound OpenAI Codex auth profile to codex-cli aliases",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:308] passes session-bound OpenAI Codex auth profile to codex-cli aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:308",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] persists CLI replies into the session transcript",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:354] persists CLI replies into the session transcript",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:354",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] persists the transcript body instead of runtime-only CLI prompt context",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:392] persists the transcript body instead of runtime-only CLI prompt context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:392",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] forwards user trigger and channel context to CLI runs",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:427] forwards user trigger and channel context to CLI runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:427",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] routes canonical Anthropic models through the configured Claude CLI runtime",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:477] routes canonical Anthropic models through the configured Claude CLI runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:477",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] keeps one-shot model runs on the raw embedded provider path",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:532] keeps one-shot model runs on the raw embedded provider path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:532",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] forwards one-shot CLI cleanup to CLI providers",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:606] forwards one-shot CLI cleanup to CLI providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:606",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] treats legacy sessions with history as PI-pinned",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:673] treats legacy sessions with history as PI-pinned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:673",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] pins sessions with history to the configured Codex harness instead of PI",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:717] pins sessions with history to the configured Codex harness instead of PI",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:717",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] pins a fresh unpinned session to the default PI harness",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:767] pins a fresh unpinned session to the default PI harness",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:767",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts] does not pass CLI runtime aliases as embedded harness ids for fallback providers",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.cli.test.ts:811] does not pass CLI runtime aliases as embedded harness ids for fallback providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.cli.test.ts:811",
                "upstream it() block #13",

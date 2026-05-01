@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts] uses native Jiti import for Windows dist public artifact loads",
+TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts:114] uses native Jiti import for Windows dist public artifact loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-loader.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts] prefers source require for bundled source public artifacts when a ts require hook exists",
+TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts:151] prefers source require for bundled source public artifacts when a ts require hook exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-loader.test.ts:151",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts] reuses one bundled dist jiti loader across public artifacts with the same native mode",
+TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts:193] reuses one bundled dist jiti loader across public artifacts with the same native mode",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-loader.test.ts:193",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts] loads built public artifacts through staged runtime deps",
+TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts:226] loads built public artifacts through staged runtime deps",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-loader.test.ts:226",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts] rejects public artifacts that change after boundary validation",
+TEST_CASE("v4.29 [src/plugins/public-surface-loader.test.ts:245] rejects public artifacts that change after boundary validation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-loader.test.ts:245",
                "upstream it() block #4",

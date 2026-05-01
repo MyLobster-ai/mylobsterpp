@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] rejects requests with the wrong secret",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:127] rejects requests with the wrong secret",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:127",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] re-resolves SecretRef-backed secrets across requests",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:144] re-resolves SecretRef-backed secrets across requests",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] creates flows through the bound session and scrubs owner metadata from responses",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:198] creates flows through the bound session and scrubs owner metadata from responses",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:198",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] runs child tasks and scrubs task ownership fields from responses",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:223] runs child tasks and scrubs task ownership fields from responses",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:223",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] returns 404 for missing flow mutations",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:258] returns 404 for missing flow mutations",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:258",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] returns 409 for revision conflicts",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:284] returns 409 for revision conflicts",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:284",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] rejects internal runtimes and running-only metadata from external callers",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:317] rejects internal runtimes and running-only metadata from external callers",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:317",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] reuses the same task record when retried with the same runId",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:362] reuses the same task record when retried with the same runId",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:362",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts] returns 409 when cancellation targets a terminal flow",
+TEST_CASE("v4.29 [extensions/webhooks/src/http.test.ts:404] returns 409 when cancellation targets a terminal flow",
           "[v4_29][parity_gap][webhooks]") {
     PARITY_GAP("extensions/webhooks/src/http.test.ts:404",
                "upstream it() block #8",

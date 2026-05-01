@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] suppresses payloads flagged as reasoning",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:151] suppresses payloads flagged as reasoning",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:151",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] suppresses payloads that start with reasoning prefix text",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:155] suppresses payloads that start with reasoning prefix text",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:155",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] suppresses payloads that start with a quoted reasoning prefix",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:159] suppresses payloads that start with a quoted reasoning prefix",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:159",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] does not suppress messages that mention Reasoning: mid-text",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:163] does not suppress messages that mention Reasoning: mid-text",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:163",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] sends chunked text replies and logs a summary",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:182] sends chunked text replies and logs a summary",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:182",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] reports text replies that Baileys did not accept",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:202] reports text replies that Baileys did not accept",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:202",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] strips raw XML tool-call blocks before WhatsApp text delivery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:226] strips raw XML tool-call blocks before WhatsApp text delivery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:226",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] uses the same final sanitizer stack for auto-reply text delivery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:248] uses the same final sanitizer stack for auto-reply text delivery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:248",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] keeps quote threading on every text chunk for a threaded reply",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:274] keeps quote threading on every text chunk for a threaded reply",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:274",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] retries text send on wrapped transient failure",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:343] retries text send on wrapped transient failure",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:343",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] sends image media with caption and then remaining text",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:361] sends image media with caption and then remaining text",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:361",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] preserves leading indentation after trimming only leading blank lines",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:394] preserves leading indentation after trimming only leading blank lines",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:394",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] keeps quote threading on media and trailing text chunks for a threaded reply",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:410] keeps quote threading on media and trailing text chunks for a threaded reply",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:410",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] retries media send on transient failure",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:464] retries media send on transient failure",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:464",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] falls back to text-only when the first media send fails",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:485] falls back to text-only when the first media send fails",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:485",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] still attempts later media after the first media fails",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:512] still attempts later media after the first media fails",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:512",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] sanitizes XML tool-call blocks for outbound sendPayload delivery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:575] sanitizes XML tool-call blocks for outbound sendPayload delivery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:575",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] keeps payload and auto-reply media normalization in parity",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:599] keeps payload and auto-reply media normalization in parity",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:599",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] sends audio media as ptt voice note with visible text separately",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:658] sends audio media as ptt voice note with visible text separately",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:658",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] transcodes mp3 audio media before sending a ptt voice note",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:689] transcodes mp3 audio media before sending a ptt voice note",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:689",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] sends video media",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:729] sends video media",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:729",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] sends non-audio/image/video media as document",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:758] sends non-audio/image/video media as document",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:758",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts] strips URL query and fragment data from derived document file names",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:789] strips URL query and fragment data from derived document file names",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/deliver-reply.test.ts:789",
                "upstream it() block #22",

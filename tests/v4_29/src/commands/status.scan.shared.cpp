@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] skips auth resolution and probe for missing remote urls by default",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:61] skips auth resolution and probe for missing remote urls by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] can probe the local fallback when remote url is missing",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:86] can probe the local fallback when remote url is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] merges auth warnings into failed probe errors by default",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:126] merges auth warnings into failed probe errors by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:126",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] treats scope-limited read probes as reachable",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:152] treats scope-limited read probes as reachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:152",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] uses a bounded local status RPC fallback when the detail probe times out",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:188] uses a bounded local status RPC fallback when the detail probe times out",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] keeps the local status RPC fallback timeout aligned with configured handshake timeout",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:241] keeps the local status RPC fallback timeout aligned with configured handshake timeout",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:241",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] does not raise an explicit local status RPC fallback timeout",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:284] does not raise an explicit local status RPC fallback timeout",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:284",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] lets callGateway reuse paired-device auth for local status RPC fallback",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:326] lets callGateway reuse paired-device auth for local status RPC fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:326",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] does not use the status RPC fallback for remote probe failures",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:373] does not use the status RPC fallback for remote probe failures",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:373",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] asks custom memory-slot runtimes for status without requiring built-in memorySearch",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:407] asks custom memory-slot runtimes for status without requiring built-in memorySearch",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:407",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts] keeps default memory-core on the cold-start store shortcut",
+TEST_CASE("v4.29 [src/commands/status.scan.shared.test.ts:467] keeps default memory-core on the cold-start store shortcut",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.shared.test.ts:467",
                "upstream it() block #10",

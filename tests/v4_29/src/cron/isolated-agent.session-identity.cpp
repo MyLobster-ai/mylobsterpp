@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts] passes resolved agentDir to runEmbeddedPiAgent",
+TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts:32] passes resolved agentDir to runEmbeddedPiAgent",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.session-identity.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts] appends current time after the cron header line",
+TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts:46] appends current time after the cron header line",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.session-identity.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts] uses agentId for workspace, session key, and store paths",
+TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts:62] uses agentId for workspace, session key, and store paths",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.session-identity.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts] passes sessionFile to isolated cron runs",
+TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts:111] passes sessionFile to isolated cron runs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.session-identity.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts] starts a fresh session id for each cron run",
+TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts:127] starts a fresh session id for each cron run",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.session-identity.test.ts:127",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts] preserves an existing cron session label",
+TEST_CASE("v4.29 [src/cron/isolated-agent.session-identity.test.ts:152] preserves an existing cron session label",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.session-identity.test.ts:152",
                "upstream it() block #5",

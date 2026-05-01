@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] registers a short-lived relay and builds hidden CLI commands",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:35] registers a short-lived relay and builds hidden CLI commands",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] allows callers to replace a relay at a stable id",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:63] allows callers to replace a relay at a stable id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] exposes registered relays through the direct hook bridge",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:87] exposes registered relays through the direct hook bridge",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] keeps direct bridge registry files private and loopback-only",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:118] keeps direct bridge registry files private and loopback-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] binds direct bridge tokens to the relay they were issued for",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:159] binds direct bridge tokens to the relay they were issued for",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:159",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects oversized direct bridge responses",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:203] rejects oversized direct bridge responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:203",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] accepts an allowed Codex invocation and preserves raw payload",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:255] accepts an allowed Codex invocation and preserves raw payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:255",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] retains bounded payload snapshots in invocation history",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:299] retains bounded payload snapshots in invocation history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:299",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] removes retained invocations when a relay is unregistered",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:327] removes retained invocations when a relay is unregistered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:327",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] keeps only a bounded history of retained invocations",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:355] keeps only a bounded history of retained invocations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:355",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects missing, wrong-provider, and disallowed-event invocations",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:383] rejects missing, wrong-provider, and disallowed-event invocations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:383",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects payloads beyond the relay JSON budget without recursive traversal",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:419] rejects payloads beyond the relay JSON budget without recursive traversal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:419",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects broad object payloads before reading children beyond the JSON node budget",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:441] rejects broad object payloads before reading children beyond the JSON node budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:441",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects payloads beyond the relay string budget",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:472] rejects payloads beyond the relay string budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:472",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects payloads beyond the relay aggregate string budget",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:492] rejects payloads beyond the relay aggregate string budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:492",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects payloads beyond the relay object key budget",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:510] rejects payloads beyond the relay object key budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:510",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] rejects expired relay ids",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:534] rejects expired relay ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:534",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] uses the Codex no-op output when no OpenClaw hook decides",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:557] uses the Codex no-op output when no OpenClaw hook decides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:557",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps Codex PreToolUse to OpenClaw before_tool_call and blocks before execution",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:576] maps Codex PreToolUse to OpenClaw before_tool_call and blocks before execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:576",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] does not rewrite Codex native tool input when before_tool_call adjusts params",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:632] does not rewrite Codex native tool input when before_tool_call adjusts params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:632",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps Codex PostToolUse to OpenClaw after_tool_call observation",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:661] maps Codex PostToolUse to OpenClaw after_tool_call observation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:661",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps Codex MCP PreToolUse to OpenClaw before_tool_call and can block",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:707] maps Codex MCP PreToolUse to OpenClaw before_tool_call and can block",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:707",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] lets security-style plugins block native MCP calls by scanning tool params",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:762] lets security-style plugins block native MCP calls by scanning tool params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:762",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps Codex MCP PostToolUse to OpenClaw after_tool_call observation",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:821] maps Codex MCP PostToolUse to OpenClaw after_tool_call observation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:821",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] routes Codex MCP PermissionRequest payloads through OpenClaw approval policy",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:869] routes Codex MCP PermissionRequest payloads through OpenClaw approval policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:869",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps Codex Stop to before_agent_finalize revision output",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:918] maps Codex Stop to before_agent_finalize revision output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:918",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps before_agent_finalize finalize output to Codex continue false",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:985] maps before_agent_finalize finalize output to Codex continue false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:985",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] maps PermissionRequest approval allow and deny decisions to Codex hook output",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1020] maps PermissionRequest approval allow and deny decisions to Codex hook output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1020",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] defers PermissionRequest when OpenClaw approval does not decide",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1084] defers PermissionRequest when OpenClaw approval does not decide",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1084",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] deduplicates pending PermissionRequest approvals by relay, run, and tool call",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1108] deduplicates pending PermissionRequest approvals by relay, run, and tool call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1108",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] does not reuse pending PermissionRequest approvals when a tool call id is reused with different input",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1161] does not reuse pending PermissionRequest approvals when a tool call id is reused with different input",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1161",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] defers PermissionRequest approvals after the per-relay approval budget is exhausted",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1218] defers PermissionRequest approvals after the per-relay approval budget is exhausted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1218",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] deduplicates pending PermissionRequest approvals before consuming approval budget",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1248] deduplicates pending PermissionRequest approvals before consuming approval budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1248",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] uses canonical PermissionRequest content fingerprints for ordinary objects",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1299] uses canonical PermissionRequest content fingerprints for ordinary objects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1299",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] keeps broad PermissionRequest content fingerprints sensitive to tail changes",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1318] keeps broad PermissionRequest content fingerprints sensitive to tail changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1318",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] fingerprints broad PermissionRequest inputs without Object.keys enumeration",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1346] fingerprints broad PermissionRequest inputs without Object.keys enumeration",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1346",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] sanitizes PermissionRequest approval previews and reports omitted keys",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1372] sanitizes PermissionRequest approval previews and reports omitted keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1372",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts] uses the Codex hook relay command shape",
+TEST_CASE("v4.29 [src/agents/harness/native-hook-relay.test.ts:1402] uses the Codex hook relay command shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/harness/native-hook-relay.test.ts:1402",
                "upstream it() block #37",

@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] uses defaultRequireMention when channels config is empty",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:9] uses defaultRequireMention when channels config is empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] defaults defaultRequireMention to true when not provided",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:18] defaults defaultRequireMention to true when not provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] prefers explicit channel/fallback requireMention over defaultRequireMention",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:26] prefers explicit channel/fallback requireMention over defaultRequireMention",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] uses wildcard entries when no direct channel config exists",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:35] uses wildcard entries when no direct channel config exists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] uses direct match metadata when channel config exists",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:49] uses direct match metadata when channel config exists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] matches channel config key stored in lowercase when Slack delivers uppercase channel ID",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:61] matches channel config key stored in lowercase when Slack delivers uppercase channel ID",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:61",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] matches channel config key stored in uppercase when user types lowercase channel ID",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:72] matches channel config key stored in uppercase when user types lowercase channel ID",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:72",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] blocks channel-name route matches by default",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:82] blocks channel-name route matches by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:82",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] allows channel-name route matches when dangerous name matching is enabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:92] allows channel-name route matches when dangerous name matching is enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:92",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] infers channel types from ids when missing",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:161] infers channel types from ids when missing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:161",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] prefers explicit channel_type values",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:167] prefers explicit channel_type values",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:167",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] overrides wrong channel_type for D-prefix DM channels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:171] overrides wrong channel_type for D-prefix DM channels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:171",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] preserves correct channel_type for D-prefix DM channels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:179] preserves correct channel_type for D-prefix DM channels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:179",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] does not override G-prefix channel_type (ambiguous prefix)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:183] does not override G-prefix channel_type (ambiguous prefix)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:183",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] defaults missing channel_type to channel sessions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:192] defaults missing channel_type to channel sessions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:192",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] uses the configured default agent for fallback system-event sessions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:199] uses the configured default agent for fallback system-event sessions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:199",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] routes channel system events through account bindings",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:211] routes channel system events through account bindings",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:211",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] routes DM system events through direct-peer bindings when sender is known",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:232] routes DM system events through direct-peer bindings when sender is known",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:232",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] allows unlisted channels when groupPolicy is open even with channelsConfig entries",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:260] allows unlisted channels when groupPolicy is open even with channelsConfig entries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:260",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] blocks unlisted channels when groupPolicy is allowlist",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:270] blocks unlisted channels when groupPolicy is allowlist",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:270",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] blocks explicitly denied channels even when groupPolicy is open",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:278] blocks explicitly denied channels even when groupPolicy is open",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:278",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts] allows all channels when groupPolicy is open and channelsConfig is empty",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.test.ts:295] allows all channels when groupPolicy is open and channelsConfig is empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.test.ts:295",
                "upstream it() block #21",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] creates gateway action config for qa-channel",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:6] creates gateway action config for qa-channel",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] builds agent delivery params for qa-channel replies",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:33] builds agent delivery params for qa-channel replies",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] waits until the qa-channel default account is running",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:43] waits until the qa-channel default account is running",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] surfaces the last reported qa-channel account status on timeout",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:67] surfaces the last reported qa-channel account status on timeout",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] surfaces the last probe error on timeout",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:86] surfaces the last probe error on timeout",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] inherits the shared normalized message capabilities",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:99] inherits the shared normalized message capabilities",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] inherits the shared failure-aware wait helper",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:120] inherits the shared failure-aware wait helper",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:120",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts] captures a fresh failure cursor for each wait helper call",
+TEST_CASE("v4.29 [extensions/qa-lab/src/qa-channel-transport.test.ts:143] captures a fresh failure cursor for each wait helper call",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/qa-channel-transport.test.ts:143",
                "upstream it() block #7",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts] skips model pricing bootstrap import when pricing is disabled",
+TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts:71] skips model pricing bootstrap import when pricing is disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-services.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts] keeps scheduled services inert during initial runtime setup",
+TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts:89] keeps scheduled services inert during initial runtime setup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-services.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts] passes startup plugin lookup metadata to the initial pricing refresh",
+TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts:111] passes startup plugin lookup metadata to the initial pricing refresh",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-services.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts] does not start model pricing refresh after early stop",
+TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts:136] does not start model pricing refresh after early stop",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-services.test.ts:136",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts] activates heartbeat, cron, and delivery recovery after sidecars are ready",
+TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts:154] activates heartbeat, cron, and delivery recovery after sidecars are ready",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-services.test.ts:154",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts] keeps scheduled services disabled for minimal test gateways",
+TEST_CASE("v4.29 [src/gateway/server-runtime-services.test.ts:188] keeps scheduled services disabled for minimal test gateways",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-services.test.ts:188",
                "upstream it() block #5",

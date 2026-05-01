@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] parses typed plugin config before falling back to environment knobs",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:13] parses typed plugin config before falling back to environment knobs",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] ignores app-server environment clearing for websocket transports",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:48] ignores app-server environment clearing for websocket transports",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] normalizes app-server environment variables to clear",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:63] normalizes app-server environment variables to clear",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] drops invalid legacy service tiers without discarding the rest of the config",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:80] drops invalid legacy service tiers without discarding the rest of the config",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] rejects malformed plugin config instead of treating freeform strings as control values",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:103] rejects malformed plugin config instead of treating freeform strings as control values",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] requires a websocket url when websocket transport is configured",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:113] requires a websocket url when websocket transport is configured",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] defaults native Codex approvals to unchained local execution",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:122] defaults native Codex approvals to unchained local execution",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:122",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] treats configured and environment commands as explicit overrides",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:141] treats configured and environment commands as explicit overrides",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:141",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] resolves Computer Use setup from plugin config and environment fallbacks",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:167] resolves Computer Use setup from plugin config and environment fallbacks",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:167",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] allows plugin config to opt in to guardian-reviewed local execution",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:209] allows plugin config to opt in to guardian-reviewed local execution",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:209",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] allows environment mode fallback to opt in to guardian-reviewed local execution",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:228] allows environment mode fallback to opt in to guardian-reviewed local execution",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:228",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] accepts the latest auto_review reviewer and legacy guardian_subagent alias",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:243] accepts the latest auto_review reviewer and legacy guardian_subagent alias",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:243",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] ignores removed OPENCLAW_CODEX_APP_SERVER_GUARDIAN fallback",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:258] ignores removed OPENCLAW_CODEX_APP_SERVER_GUARDIAN fallback",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:258",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] lets explicit policy fields override guardian mode",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:273] lets explicit policy fields override guardian mode",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:273",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] derives distinct shared-client keys for distinct auth tokens without exposing them",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:295] derives distinct shared-client keys for distinct auth tokens without exposing them",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:295",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] derives distinct shared-client keys for distinct env values without exposing them",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:328] derives distinct shared-client keys for distinct env values without exposing them",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:328",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] derives distinct shared-client keys for distinct agent dirs",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:358] derives distinct shared-client keys for distinct agent dirs",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:358",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] keeps runtime config keys aligned with manifest schema and UI hints",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:371] keeps runtime config keys aligned with manifest schema and UI hints",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:371",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts] does not schema-default mode-derived policy fields",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/config.test.ts:400] does not schema-default mode-derived policy fields",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/config.test.ts:400",
                "upstream it() block #18",

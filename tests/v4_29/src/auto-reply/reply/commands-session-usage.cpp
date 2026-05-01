@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts] uses the canonical target session agent for /usage cost",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts:129] uses the canonical target session agent for /usage cost",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-usage.test.ts:129",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts] prefers the target session entry from sessionStore for /usage cost",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts:141] prefers the target session entry from sessionStore for /usage cost",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-usage.test.ts:141",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts] prefers the target session entry from sessionStore for /usage footer mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts:166] prefers the target session entry from sessionStore for /usage footer mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-usage.test.ts:166",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts] uses the canonical target session agent for /fast status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts:196] uses the canonical target session agent for /fast status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-usage.test.ts:196",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts] prefers the target session entry from sessionStore for /fast status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-session-usage.test.ts:215] prefers the target session entry from sessionStore for /fast status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-session-usage.test.ts:215",
                "upstream it() block #4",

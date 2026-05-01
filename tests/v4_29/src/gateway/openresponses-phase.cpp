@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts] accepts assistant message phase and rejects user phase",
+TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts:7] accepts assistant message phase and rejects user phase",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-phase.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts] accepts assistant output item phase metadata",
+TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts:40] accepts assistant output item phase metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-phase.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts] shapes assistant output items with the provided phase",
+TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts:53] shapes assistant output items with the provided phase",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-phase.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts] builds prompts from phased assistant history without dropping text",
+TEST_CASE("v4.29 [src/gateway/openresponses-phase.test.ts:85] builds prompts from phased assistant history without dropping text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-phase.test.ts:85",
                "upstream it() block #3",

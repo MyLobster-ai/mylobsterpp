@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] preserves audio-as-voice metadata from tts results",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:110] preserves audio-as-voice metadata from tts results",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] records messaging tool side effects while returning concise text to app-server",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:145] records messaging tool side effects while returning concise text to app-server",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:145",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] does not record messaging side effects when the send fails",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:184] does not record messaging side effects when the send fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:184",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] applies agent tool result middleware from the active plugin registry",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:215] applies agent tool result middleware from the active plugin registry",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:215",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] passes raw tool failure state into agent tool result middleware",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:262] passes raw tool failure state into agent tool result middleware",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:262",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] uses raw tool provenance for media trust after middleware rewrites details",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:295] uses raw tool provenance for media trust after middleware rewrites details",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:295",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] still applies legacy codex app-server extension factories after middleware",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:339] still applies legacy codex app-server extension factories after middleware",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:339",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] fires after_tool_call for successful codex tool executions",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:380] fires after_tool_call for successful codex tool executions",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:380",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] runs before_tool_call for unwrapped dynamic tools before execution",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:419] runs before_tool_call for unwrapped dynamic tools before execution",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:419",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] does not execute dynamic tools blocked by before_tool_call",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:494] does not execute dynamic tools blocked by before_tool_call",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:494",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] applies dynamic tool result middleware before after_tool_call observes the result",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:554] applies dynamic tool result middleware before after_tool_call observes the result",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:554",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] reports dynamic tool execution errors through after_tool_call without stranding the turn",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:624] reports dynamic tool execution errors through after_tool_call without stranding the turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:624",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] passes per-call abort signals into dynamic tool execution",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:677] passes per-call abort signals into dynamic tool execution",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:677",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts] does not double-wrap dynamic tools that already have before_tool_call",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/dynamic-tools.test.ts:714] does not double-wrap dynamic tools that already have before_tool_call",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/dynamic-tools.test.ts:714",
                "upstream it() block #13",

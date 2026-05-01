@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] evaluates pairing channels when registering the CLI (not at import)",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:129] evaluates pairing channels when registering the CLI (not at import)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:129",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] accepts channel as positional for list",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:174] accepts channel as positional for list",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:174",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] forwards --account for list",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:182] forwards --account for list",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] normalizes channel aliases",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:190] normalizes channel aliases",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:190",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] accepts extension channels outside the registry",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:199] accepts extension channels outside the registry",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:199",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] defaults list to the sole available channel",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:208] defaults list to the sole available channel",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:208",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] accepts channel as positional for approve (npm-run compatible)",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:217] accepts channel as positional for approve (npm-run compatible)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:217",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] does not overwrite an existing command owner when approving pairing",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:244] does not overwrite an existing command owner when approving pairing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:244",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] forwards --account for approve",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:266] forwards --account for approve",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:266",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] defaults approve to the sole available channel when only code is provided",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:286] defaults approve to the sole available channel when only code is provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:286",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts] keeps approve usage error when multiple channels exist and channel is omitted",
+TEST_CASE("v4.29 [src/cli/pairing-cli.test.ts:298] keeps approve usage error when multiple channels exist and channel is omitted",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/pairing-cli.test.ts:298",
                "upstream it() block #10",

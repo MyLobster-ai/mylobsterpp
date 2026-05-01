@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/moonshot/provider-catalog.test.ts] builds the bundled Moonshot provider defaults",
+TEST_CASE("v4.29 [extensions/moonshot/provider-catalog.test.ts:10] builds the bundled Moonshot provider defaults",
           "[v4_29][parity_gap][moonshot]") {
     PARITY_GAP("extensions/moonshot/provider-catalog.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/moonshot/provider-catalog.test.ts] opts native Moonshot baseUrls into streaming usage only inside the extension",
+TEST_CASE("v4.29 [extensions/moonshot/provider-catalog.test.ts:36] opts native Moonshot baseUrls into streaming usage only inside the extension",
           "[v4_29][parity_gap][moonshot]") {
     PARITY_GAP("extensions/moonshot/provider-catalog.test.ts:36",
                "upstream it() block #1",

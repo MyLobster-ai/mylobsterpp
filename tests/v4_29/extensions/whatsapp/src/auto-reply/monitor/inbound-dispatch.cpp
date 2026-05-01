@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] builds a finalized inbound context payload",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:205] builds a finalized inbound context payload",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:205",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] keeps agent and command bodies independently overridable",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:242] keeps agent and command bodies independently overridable",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:242",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] falls back SenderId to SenderE164 when sender id is missing",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:271] falls back SenderId to SenderE164 when sender id is missing",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:271",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] passes groupSystemPrompt into GroupSystemPrompt for group chats",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:290] passes groupSystemPrompt into GroupSystemPrompt for group chats",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] passes groupSystemPrompt into GroupSystemPrompt for direct chats",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:303] passes groupSystemPrompt into GroupSystemPrompt for direct chats",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:303",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] omits GroupSystemPrompt when groupSystemPrompt is not provided",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:316] omits GroupSystemPrompt when groupSystemPrompt is not provided",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:316",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] preserves reply threading policy in the inbound context",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:328] preserves reply threading policy in the inbound context",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:328",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] passes WhatsApp structured objects into untrusted structured context",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:343] passes WhatsApp structured objects into untrusted structured context",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:343",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] defaults responsePrefix to identity name in self-chats when unset",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:374] defaults responsePrefix to identity name in self-chats when unset",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:374",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] does not force a response prefix in self-chats when identity is unset",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:395] does not force a response prefix in self-chats when identity is unset",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:395",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] clears pending group history when the dispatcher does not queue a final reply",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:405] clears pending group history when the dispatcher does not queue a final reply",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:405",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] delivers block and final WhatsApp payloads; suppresses text-only tool payloads but delivers media",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:427] delivers block and final WhatsApp payloads; suppresses text-only tool payloads but delivers media",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:427",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] normalizes WhatsApp payload text before delivery and echo bookkeeping",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:483] normalizes WhatsApp payload text before delivery and echo bookkeeping",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:483",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] suppresses reasoning and compaction payloads before WhatsApp delivery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:516] suppresses reasoning and compaction payloads before WhatsApp delivery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:516",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] suppresses payloads that normalize to no visible WhatsApp content",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:537] suppresses payloads that normalize to no visible WhatsApp content",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:537",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] suppresses error payload text",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:560] suppresses error payload text",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:560",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] maps WhatsApp blockStreaming=true to disableBlockStreaming=false",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:575] maps WhatsApp blockStreaming=true to disableBlockStreaming=false",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:575",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] maps WhatsApp blockStreaming=false to disableBlockStreaming=true",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:587] maps WhatsApp blockStreaming=false to disableBlockStreaming=true",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:587",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] leaves disableBlockStreaming undefined when WhatsApp blockStreaming is unset",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:601] leaves disableBlockStreaming undefined when WhatsApp blockStreaming is unset",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:601",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] treats block-only turns as visible replies instead of silent turns",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:615] treats block-only turns as visible replies instead of silent turns",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:615",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] does not treat generated WhatsApp text as sent when the provider did not accept it",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:645] does not treat generated WhatsApp text as sent when the provider did not accept it",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:645",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] returns true for tool-only media turns after delivering media",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:689] returns true for tool-only media turns after delivering media",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:689",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] passes sendComposing through as the reply typing callback",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:748] passes sendComposing through as the reply typing callback",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:748",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] logs delivery failures from the shared dispatcher with WhatsApp context",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:764] logs delivery failures from the shared dispatcher with WhatsApp context",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:764",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] updates main last route for DM when session key matches main session key",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:802] updates main last route for DM when session key matches main session key",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:802",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] does not update main last route for isolated DM scope sessions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:819] does not update main last route for isolated DM scope sessions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:819",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] does not update main last route for non-owner sender when main DM scope is pinned",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:839] does not update main last route for non-owner sender when main DM scope is pinned",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:839",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] updates main last route for owner sender when main DM scope is pinned",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:859] updates main last route for owner sender when main DM scope is pinned",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:859",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts] resolves DM route targets from the sender first and the chat JID second",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:879] resolves DM route targets from the sender first and the chat JID second",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/inbound-dispatch.test.ts:879",
                "upstream it() block #28",

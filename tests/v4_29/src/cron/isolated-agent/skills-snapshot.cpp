@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/skills-snapshot.test.ts] refreshes when the cached skill filter changes",
+TEST_CASE("v4.29 [src/cron/isolated-agent/skills-snapshot.test.ts:40] refreshes when the cached skill filter changes",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/skills-snapshot.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/skills-snapshot.test.ts] refreshes when the process version resets to 0 but the cached snapshot is stale",
+TEST_CASE("v4.29 [src/cron/isolated-agent/skills-snapshot.test.ts:64] refreshes when the process version resets to 0 but the cached snapshot is stale",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/skills-snapshot.test.ts:64",
                "upstream it() block #1",

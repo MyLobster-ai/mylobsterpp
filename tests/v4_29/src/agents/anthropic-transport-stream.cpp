@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] uses the guarded fetch transport for api-key Anthropic requests",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:134] uses the guarded fetch transport for api-key Anthropic requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] does not add implicit Anthropic beta headers for custom compatible API-key endpoints",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:181] does not add implicit Anthropic beta headers for custom compatible API-key endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:181",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] does not add implicit Anthropic beta headers for custom compatible OAuth endpoints",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:204] does not add implicit Anthropic beta headers for custom compatible OAuth endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:204",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] keeps Anthropic beta headers for direct Anthropic OAuth endpoints",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:223] keeps Anthropic beta headers for direct Anthropic OAuth endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:223",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] recognizes schemeless api.anthropic.com base URLs as direct Anthropic",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:239] recognizes schemeless api.anthropic.com base URLs as direct Anthropic",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:239",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] does not add implicit Anthropic beta headers for foreign hosts mentioning api.anthropic.com",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:255] does not add implicit Anthropic beta headers for foreign hosts mentioning api.anthropic.com",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:255",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] ignores non-positive runtime maxTokens overrides and falls back to the model limit",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:269] ignores non-positive runtime maxTokens overrides and falls back to the model limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:269",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] ignores fractional runtime maxTokens overrides that floor to zero",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:288] ignores fractional runtime maxTokens overrides that floor to zero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:288",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] fails locally when Anthropic maxTokens is non-positive after resolution",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:307] fails locally when Anthropic maxTokens is non-positive after resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:307",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] classifies malformed Anthropic SSE data as a stable transport error",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:350] classifies malformed Anthropic SSE data as a stable transport error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:350",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] preserves Anthropic OAuth identity and tool-name remapping with transport overrides",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:367] preserves Anthropic OAuth identity and tool-name remapping with transport overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:367",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] preserves text seeded on a text block after a thinking block",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:460] preserves text seeded on a text block after a thinking block",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:460",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] skips malformed tools when building Anthropic payloads",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:536] skips malformed tools when building Anthropic payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:536",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] coerces replayed malformed tool-call args to an object for Anthropic payloads",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:577] coerces replayed malformed tool-call args to an object for Anthropic payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:577",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] drops empty text blocks from image tool results before Anthropic payloads",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:682] drops empty text blocks from image tool results before Anthropic payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:682",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] cancels stalled SSE body reads when the abort signal fires mid-stream",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:741] cancels stalled SSE body reads when the abort signal fires mid-stream",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:741",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] treats already-aborted signals as abort errors before reading SSE chunks",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:775] treats already-aborted signals as abort errors before reading SSE chunks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:775",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] maps adaptive thinking effort for Claude 4.6 transport runs",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:799] maps adaptive thinking effort for Claude 4.6 transport runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:799",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts] maps xhigh thinking effort for Claude Opus 4.7 transport runs",
+TEST_CASE("v4.29 [src/agents/anthropic-transport-stream.test.ts:823] maps xhigh thinking effort for Claude Opus 4.7 transport runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/anthropic-transport-stream.test.ts:823",
                "upstream it() block #18",

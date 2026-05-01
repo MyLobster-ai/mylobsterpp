@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.media.test.ts] stores image extension and keeps document filename",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.media.test.ts:183] stores image extension and keeps document filename",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.media.test.ts:183",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.media.test.ts] passes mediaMaxMb to saveMediaBuffer",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.media.test.ts:237] passes mediaMaxMb to saveMediaBuffer",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.media.test.ts:237",
                "upstream it() block #1",

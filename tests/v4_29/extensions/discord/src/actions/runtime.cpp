@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] uses configured defaultAccount when cfg is provided and accountId is omitted",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:173] uses configured defaultAccount when cfg is provided and accountId is omitted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:173",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] resolves Discord DM targets for reaction adds",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:202] resolves Discord DM targets for reaction adds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:202",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] resolves Discord DM targets for reaction listing",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:227] resolves Discord DM targets for reaction listing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:227",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] removes reactions on empty emoji",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:252] removes reactions on empty emoji",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:252",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] removes reactions when remove flag set",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:268] removes reactions when remove flag set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:268",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] rejects removes without emoji",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:285] rejects removes without emoji",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:285",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] respects reaction gating",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:300] respects reaction gating",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:300",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] parses string booleans for poll options",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:314] parses string booleans for poll options",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:314",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] adds normalized timestamps to readMessages payloads",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:339] adds normalized timestamps to readMessages payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:339",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] threads provided cfg into readMessages calls",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:358] threads provided cfg into readMessages calls",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:358",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] adds normalized timestamps to fetchMessage payloads",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:370] adds normalized timestamps to fetchMessage payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:370",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] threads provided cfg into fetchMessage calls",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:388] threads provided cfg into fetchMessage calls",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:388",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] adds normalized timestamps to listPins payloads",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:405] adds normalized timestamps to listPins payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:405",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] adds normalized timestamps to searchMessages payloads",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:418] adds normalized timestamps to searchMessages payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:418",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] sends voice messages from a local file path",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:440] sends voice messages from a local file path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:440",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] forwards trusted mediaLocalRoots into sendMessageDiscord",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:463] forwards trusted mediaLocalRoots into sendMessageDiscord",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:463",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] ignores empty components objects for regular media sends",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:486] ignores empty components objects for regular media sends",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:486",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] forwards the optional filename into sendMessageDiscord",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:514] forwards the optional filename into sendMessageDiscord",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:514",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] rejects voice messages that include content",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:536] rejects voice messages that include content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:536",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] forwards optional thread content",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:551] forwards optional thread content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:551",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] uses configured defaultAccount for omitted memberInfo presence lookup",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:577] uses configured defaultAccount for omitted memberInfo presence lookup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:577",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] creates a channel",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:632] creates a channel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:632",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] respects channel gating for channelCreate",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:658] respects channel gating for channelCreate",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:658",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] forwards accountId for channelList",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:664] forwards accountId for channelList",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:664",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] edits a channel",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:672] edits a channel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:672",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] forwards thread edit fields",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:699] forwards thread edit fields",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:699",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] deletes a channel",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:756] deletes a channel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:756",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] moves a channel",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:761] moves a channel",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:761",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] creates a category with type=4",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:807] creates a category with type=4",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:807",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] edits a category",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:824] edits a category",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:824",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] deletes a category",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:840] deletes a category",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:840",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] removes channel permissions",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:886] removes channel permissions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:886",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] forwards accountId for timeout",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:899] forwards accountId for timeout",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:899",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] allows moderation when account config enables it",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:922] allows moderation when account config enables it",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:922",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] blocks moderation when account omits it",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:943] blocks moderation when account omits it",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:943",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] uses account-merged config, not top-level config",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:962] uses account-merged config, not top-level config",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:962",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] inherits top-level channel gate when account overrides moderation only",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:982] inherits top-level channel gate when account overrides moderation only",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:982",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts] allows account to explicitly re-enable top-level disabled channel gate",
+TEST_CASE("v4.29 [extensions/discord/src/actions/runtime.test.ts:1002] allows account to explicitly re-enable top-level disabled channel gate",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/actions/runtime.test.ts:1002",
                "upstream it() block #37",

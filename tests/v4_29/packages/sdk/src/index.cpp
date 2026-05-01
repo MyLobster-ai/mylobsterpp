@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] runs an agent through the Gateway agent method",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:57] runs an agent through the Gateway agent method",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] preserves numeric wait timestamps",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:101] preserves numeric wait timestamps",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] maps aborted wait snapshots to cancelled even when Gateway status is timeout",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:124] maps aborted wait snapshots to cancelled even when Gateway status is timeout",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] keeps wait-only deadlines non-terminal",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:144] keeps wait-only deadlines non-terminal",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:144",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] maps terminal runtime timeout snapshots to timed_out",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:159] maps terminal runtime timeout snapshots to timed_out",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:159",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] maps terminal timeout snapshots without stop reasons to timed_out",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:179] maps terminal timeout snapshots without stop reasons to timed_out",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:179",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] splits provider-qualified model refs and rejects unsupported run options",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:201] splits provider-qualified model refs and rejects unsupported run options",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:201",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] ceil-converts run timeoutMs to Gateway timeout seconds",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:236] ceil-converts run timeoutMs to Gateway timeout seconds",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:236",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] throws explicit unsupported errors for SDK namespaces without Gateway RPCs",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:266] throws explicit unsupported errors for SDK namespaces without Gateway RPCs",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:266",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] cancels runs and checks model auth status through current Gateway methods",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:306] cancels runs and checks model auth status through current Gateway methods",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:306",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] replays fast run events emitted before the caller starts iterating",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:330] replays fast run events emitted before the caller starts iterating",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:330",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] does not surface raw chat projection events in per-run streams",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:385] does not surface raw chat projection events in per-run streams",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:385",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] normalizes chat-only projection events in per-run streams",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:482] normalizes chat-only projection events in per-run streams",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:482",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] creates a session and sends a message as a run",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:612] creates a session and sends a message as a run",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:612",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/sdk/src/index.test.ts] normalizes Gateway agent stream events into SDK events",
+TEST_CASE("v4.29 [packages/sdk/src/index.test.ts:637] normalizes Gateway agent stream events into SDK events",
           "[v4_29][parity_gap][sdk]") {
     PARITY_GAP("packages/sdk/src/index.test.ts:637",
                "upstream it() block #14",

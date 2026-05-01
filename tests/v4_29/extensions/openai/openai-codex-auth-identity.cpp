@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts] prefers JWT profile email when present",
+TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts:11] prefers JWT profile email when present",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openai-codex-auth-identity.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts] extracts account and plan metadata from the JWT auth claim",
+TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts:27] extracts account and plan metadata from the JWT auth claim",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openai-codex-auth-identity.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts] falls back to credential email before synthetic ids",
+TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts:48] falls back to credential email before synthetic ids",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openai-codex-auth-identity.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts] derives a stable profile id when email is missing",
+TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts:60] derives a stable profile id when email is missing",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openai-codex-auth-identity.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts] returns no metadata when token parsing yields no identity",
+TEST_CASE("v4.29 [extensions/openai/openai-codex-auth-identity.test.ts:74] returns no metadata when token parsing yields no identity",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openai-codex-auth-identity.test.ts:74",
                "upstream it() block #4",

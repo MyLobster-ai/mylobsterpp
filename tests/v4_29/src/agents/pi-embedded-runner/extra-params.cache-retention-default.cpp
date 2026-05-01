@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] returns ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:55] returns ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects explicit ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:66] respects explicit ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects explicit ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:86] respects explicit ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects legacy cacheControlTtl config",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:106] respects legacy cacheControlTtl config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] returns undefined for non-Anthropic providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:126] returns undefined for non-Anthropic providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:126",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] prefers explicit cacheRetention over default",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:139] prefers explicit cacheRetention over default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:139",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] works with extraParamsOverride",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:160] works with extraParamsOverride",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:160",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects cacheRetention for custom provider with anthropic-messages API",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:170] respects cacheRetention for custom provider with anthropic-messages API",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:170",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] passes cacheRetention ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:191] passes cacheRetention ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:191",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] does not default to caching for custom provider without explicit config",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:197] does not default to caching for custom provider without explicit config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:197",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] passes cacheRetention ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:201] passes cacheRetention ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:201",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects cacheRetention ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:207] respects cacheRetention ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:207",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] passes cacheRetention ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:228] passes cacheRetention ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:228",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] does not treat non-Anthropic Bedrock models as cache-retention eligible",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:234] does not treat non-Anthropic Bedrock models as cache-retention eligible",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:234",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] keeps explicit cacheRetention for Anthropic Bedrock models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:245] keeps explicit cacheRetention for Anthropic Bedrock models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:245",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] defaults to ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:256] defaults to ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:256",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects explicit ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:267] respects explicit ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:267",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] respects explicit ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:278] respects explicit ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:278",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] passes through explicit cacheRetention for opaque Bedrock app inference profile ARNs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:289] passes through explicit cacheRetention for opaque Bedrock app inference profile ARNs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:289",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] passes through explicit ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:300] passes through explicit ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:300",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] does not default cacheRetention for opaque Bedrock app inference profile ARNs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:311] does not default cacheRetention for opaque Bedrock app inference profile ARNs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:311",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts] classifies OpenRouter Anthropic model refs centrally",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:324] classifies OpenRouter Anthropic model refs centrally",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.cache-retention-default.test.ts:324",
                "upstream it() block #21",

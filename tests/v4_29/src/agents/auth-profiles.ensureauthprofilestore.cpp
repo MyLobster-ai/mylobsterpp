@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] migrates legacy auth.json and deletes it (PR #368)",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:127] migrates legacy auth.json and deletes it (PR #368)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:127",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] merges main auth profiles into agent store and keeps agent overrides",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:168] merges main auth profiles into agent store and keeps agent overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:168",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] uses the main agent",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:235] uses the main agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] keeps a newer agent replacement credential while repairing stale default references",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:333] keeps a newer agent replacement credential while repairing stale default references",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:333",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] preserves a valid main default OAuth profile while replacing a stale agent override",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:416] preserves a valid main default OAuth profile while replacing a stale agent override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:416",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] keeps a stale default OAuth profile when the main profile belongs to a different identity",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:505] keeps a stale default OAuth profile when the main profile belongs to a different identity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:505",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] normalizes mode/apiKey aliases while migrating legacy auth.json",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:649] normalizes mode/apiKey aliases while migrating legacy auth.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:649",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] does not load legacy flat auth-profiles.json entries at runtime",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:676] does not load legacy flat auth-profiles.json entries at runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:676",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] merges legacy oauth.json into auth-profiles.json",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:697] merges legacy oauth.json into auth-profiles.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:697",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] exposes provider-managed runtime auth without persisting copied tokens",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:756] exposes provider-managed runtime auth without persisting copied tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:756",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] does not write inherited auth stores during secrets runtime reads",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:798] does not write inherited auth stores during secrets runtime reads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:798",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] does not clone inherited auth stores during normal agent reads",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:842] does not clone inherited auth stores during normal agent reads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:842",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts] logs one warning with aggregated reasons for rejected auth-profiles entries",
+TEST_CASE("v4.29 [src/agents/auth-profiles.ensureauthprofilestore.test.ts:889] logs one warning with aggregated reasons for rejected auth-profiles entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.ensureauthprofilestore.test.ts:889",
                "upstream it() block #12",

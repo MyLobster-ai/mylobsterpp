@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] produces a valid WAV header",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:13] produces a valid WAV header",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] sets correct file size in RIFF header",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:23] sets correct file size in RIFF header",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] sets correct sample rate",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:30] sets correct sample rate",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] sets correct channel count",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:36] sets correct channel count",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] embeds PCM data after the 44-byte header",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:42] embeds PCM data after the 44-byte header",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] sets data chunk size matching PCM length",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:51] sets data chunk size matching PCM length",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] strips the #!AMR header when present",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:60] strips the #!AMR header when present",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:60",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns the buffer unchanged when no AMR header",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:69] returns the buffer unchanged when no AMR header",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:69",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns the buffer unchanged when too short",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:75] returns the buffer unchanged when too short",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:75",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] detects voice content_type",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:83] detects voice content_type",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:83",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] detects audio/* content_type",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:87] detects audio/* content_type",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:87",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] detects voice file extensions",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:92] detects voice file extensions",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:92",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] rejects non-voice attachments",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:99] rejects non-voice attachments",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:99",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] handles missing fields",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:104] handles missing fields",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:104",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] recognizes audio MIME types",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:127] recognizes audio MIME types",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:127",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] rejects non-audio files",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:132] rejects non-audio files",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:132",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] is case-insensitive on extensions",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:137] is case-insensitive on extensions",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:137",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns false for QQ native MIME types",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:144] returns false for QQ native MIME types",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:144",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns false for QQ native extensions",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:151] returns false for QQ native extensions",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:151",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns true for non-native audio formats",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:158] returns true for non-native audio formats",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:158",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns false for non-audio files",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:165] returns false for non-audio files",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:165",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] extracts PCM from a valid mono 24kHz WAV",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:196] extracts PCM from a valid mono 24kHz WAV",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:196",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns null for buffers shorter than 44 bytes",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:206] returns null for buffers shorter than 44 bytes",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:206",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns null for non-WAV data",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:210] returns null for non-WAV data",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:210",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] returns null for non-PCM audio formats",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:216] returns null for non-PCM audio formats",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:216",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] downmixes stereo to mono",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:222] downmixes stereo to mono",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:222",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts] resamples non-24kHz WAV to 24kHz",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/audio.test.ts:241] resamples non-24kHz WAV to 24kHz",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/audio.test.ts:241",
                "upstream it() block #26",

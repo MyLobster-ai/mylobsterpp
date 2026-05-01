@@ -5,712 +5,712 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] can load scoped plugins from a supplied manifest registry without rereading manifests",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:919] can load scoped plugins from a supplied manifest registry without rereading manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:919",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] refreshes bundled plugin-sdk aliases without deleting the shared alias directory",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:944] refreshes bundled plugin-sdk aliases without deleting the shared alias directory",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:944",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] disables bundled plugins by default",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:962] disables bundled plugins by default",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:962",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] repairs enabled bundled plugin runtime deps before importing the plugin",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:985] repairs enabled bundled plugin runtime deps before importing the plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:985",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] keeps bundled runtime dep install logs off non-activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1078] keeps bundled runtime dep install logs off non-activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1078",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not repair disabled bundled plugin runtime deps",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1153] does not repair disabled bundled plugin runtime deps",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not repair disabled selected setup-only channel runtime deps",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1194] does not repair disabled selected setup-only channel runtime deps",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1194",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] repairs enabled selected setup-only channel runtime deps before loading setup entry",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1280] repairs enabled selected setup-only channel runtime deps before loading setup entry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1280",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] repairs default-enabled bundled plugin runtime deps",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1381] repairs default-enabled bundled plugin runtime deps",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1381",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] installs bundled runtime deps into each plugin root",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1437] installs bundled runtime deps into each plugin root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1437",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads bundled runtime deps from an external stage dir",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1522] loads bundled runtime deps from an external stage dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1522",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads bundled plugins from symlinked package roots with an external stage dir",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1597] loads bundled plugins from symlinked package roots with an external stage dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1597",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads copied external runtime mirrors with package-root runtime deps",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1651] loads copied external runtime mirrors with package-root runtime deps",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1651",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] materializes root JavaScript chunks in external runtime mirrors",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1803] materializes root JavaScript chunks in external runtime mirrors",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1803",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads bundled plugins with plugin-sdk imports from an external stage dir",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:1936] loads bundled plugins with plugin-sdk imports from an external stage dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:1936",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads bundled plugins with plugin-sdk imports from a package dist root",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2047] loads bundled plugins with plugin-sdk imports from a package dist root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2047",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads dist-runtime wrappers from an external stage dir without rewriting mirrors on reload",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2118] loads dist-runtime wrappers from an external stage dir without rewriting mirrors on reload",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2118",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads native ESM deps from the writable stage dir without reusing a layered baseline",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2303] loads native ESM deps from the writable stage dir without reusing a layered baseline",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2303",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads source-checkout bundled runtime deps without mirroring the repo tree",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2461] loads source-checkout bundled runtime deps without mirroring the repo tree",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2461",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] registers standalone text transforms",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2543] registers standalone text transforms",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2543",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] marks auto-enabled bundled channels as activated but not explicitly enabled",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2657] marks auto-enabled bundled channels as activated but not explicitly enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2657",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] materializes auto-enabled bundled channels into restrictive allowlists",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2690] materializes auto-enabled bundled channels into restrictive allowlists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2690",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] preserves all auto-enable reasons in activation metadata",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2727] preserves all auto-enable reasons in activation metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2727",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] keeps explicit plugin enablement distinct from derived activation",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2768] keeps explicit plugin enablement distinct from derived activation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2768",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] preserves package.json metadata for bundled memory plugins",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:2797] preserves package.json metadata for bundled memory plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:2797",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] treats an explicit empty plugin scope as scoped-empty instead of unscoped",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3288] treats an explicit empty plugin scope as scoped-empty instead of unscoped",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3288",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] skips discovery and manifest registry loading entirely when onlyPluginIds is an explicit empty array",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3316] skips discovery and manifest registry loading entirely when onlyPluginIds is an explicit empty array",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3316",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] only publishes plugin commands to the global registry during activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3349] only publishes plugin commands to the global registry during activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3349",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] clears plugin agent harnesses during activating reloads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3409] clears plugin agent harnesses during activating reloads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3409",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] rejects malformed plugin agent harness registrations",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3452] rejects malformed plugin agent harness registrations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3452",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not register internal hooks globally during non-activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3490] does not register internal hooks globally during non-activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3490",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] replaces prior plugin hook registrations on activating reloads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3526] replaces prior plugin hook registrations on activating reloads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3526",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] injects plugin config into internal hook event context",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3569] injects plugin config into internal hook event context",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3569",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] rolls back global side effects when registration fails",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3629] rolls back global side effects when registration fails",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3629",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] fails plugin registration when a hook is missing its required name",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3718] fails plugin registration when a hook is missing its required name",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3718",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] fails plugin registration when a non-memory plugin registers a memory capability",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3763] fails plugin registration when a non-memory plugin registers a memory capability",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3763",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] can scope bundled provider loads to deepseek without hanging",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3805] can scope bundled provider loads to deepseek without hanging",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3805",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not replace active memory plugin registries during non-activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3824] does not replace active memory plugin registries during non-activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3824",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] clears newly-registered memory plugin registries when plugin register fails",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3910] clears newly-registered memory plugin registries when plugin register fails",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3910",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not replace the active detached task runtime during non-activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:3971] does not replace the active detached task runtime during non-activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:3971",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] clears newly-registered detached task runtimes when plugin register fails",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4019] clears newly-registered detached task runtimes when plugin register fails",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4019",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] restores cached detached task runtime registrations on cache hits",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4061] restores cached detached task runtime registrations on cache hits",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4061",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] restores cached command and interactive handler registrations on cache hits",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4106] restores cached command and interactive handler registrations on cache hits",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4106",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] clears stale detached task runtime registrations on active reloads when no plugin re-registers one",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4173] clears stale detached task runtime registrations on active reloads when no plugin re-registers one",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4173",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] restores cached memory capability public artifacts on cache hits",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4190] restores cached memory capability public artifacts on cache hits",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4190",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] preserves previously registered memory capability across activate:false snapshot loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4257] preserves previously registered memory capability across activate:false snapshot loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4257",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] uses discovery registration mode for non-activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4338] uses discovery registration mode for non-activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4338",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] caches non-activating snapshots without restoring global side effects",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4385] caches non-activating snapshots without restoring global side effects",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4385",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not re-register non-bundled plugins after gateway-bindable boot loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4441] does not re-register non-bundled plugins after gateway-bindable boot loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4441",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] re-initializes global hook runner when serving registry from cache",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4481] re-initializes global hook runner when serving registry from cache",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4481",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] preserves the gateway-bindable hook runner across later default-mode activating loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4512] preserves the gateway-bindable hook runner across later default-mode activating loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4512",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] evicts least recently used registries when the loader cache exceeds its cap",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4833] evicts least recently used registries when the loader cache exceeds its cap",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4833",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] normalizes bundled plugin env overrides against the provided env",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4880] normalizes bundled plugin env overrides against the provided env",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4880",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] prefers OPENCLAW_HOME over HOME for env-expanded load paths",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4913] prefers OPENCLAW_HOME over HOME for env-expanded load paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4913",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads plugins when source and root differ only by realpath alias",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4953] loads plugins when source and root differ only by realpath alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4953",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] denylist disables plugins even if allowed",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4976] denylist disables plugins even if allowed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4976",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] fails fast on invalid plugin config",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:4995] fails fast on invalid plugin config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:4995",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] repairs incomplete registered channel metadata before storing registry entries",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5019] repairs incomplete registered channel metadata before storing registry entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5019",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] throws when strict plugin loading sees plugin errors",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5065] throws when strict plugin loading sees plugin errors",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5065",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] fails when plugin export id mismatches manifest id",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5094] fails when plugin export id mismatches manifest id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5094",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] can include plugin export shape when register is missing",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5125] can include plugin export shape when register is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5125",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] handles single-plugin channel, context engine, and cli validation",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5150] handles single-plugin channel, context engine, and cli validation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5150",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] registers plugin http routes",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5308] registers plugin http routes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5308",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] rejects duplicate plugin registrations",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5344] rejects duplicate plugin registrations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5344",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] allows the same plugin to register the same service id twice",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5442] allows the same plugin to register the same service id twice",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5442",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] tracks regular services and gateway discovery services separately",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5470] tracks regular services and gateway discovery services separately",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5470",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] rewrites removed registerHttpHandler failures into migration diagnostics",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5496] rewrites removed registerHttpHandler failures into migration diagnostics",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5496",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not rewrite unrelated registerHttpHandler helper failures",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5532] does not rewrite unrelated registerHttpHandler helper failures",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5532",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] enforces plugin http route validation and conflict rules",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5555] enforces plugin http route validation and conflict rules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5555",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] respects explicit disable in config",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5681] respects explicit disable in config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5681",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads bundled channel entries through nested default export wrappers",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5704] loads bundled channel entries through nested default export wrappers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5704",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] does not treat manifest channel ids as scoped plugin id matches",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5797] does not treat manifest channel ids as scoped plugin id matches",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5797",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] only setup-loads a disabled channel plugin when the caller scopes to the selected plugin",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:5841] only setup-loads a disabled channel plugin when the caller scopes to the selected plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:5841",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] applies the bundled runtime setter before loading the merged setup-runtime plugin",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6204] applies the bundled runtime setter before loading the merged setup-runtime plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6204",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] records setup runtime setter failures without aborting the full load pass",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6235] records setup runtime setter failures without aborting the full load pass",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6235",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] rejects mismatched bundled runtime entry ids before applying setup-runtime setters",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6273] rejects mismatched bundled runtime entry ids before applying setup-runtime setters",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6273",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] rejects mismatched bundled setup export ids before loading setup-runtime entry code",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6308] rejects mismatched bundled setup export ids before loading setup-runtime entry code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6308",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] isolates loadSetupPlugin errors as per-plugin diagnostics instead of crashing registry load",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6344] isolates loadSetupPlugin errors as per-plugin diagnostics instead of crashing registry load",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6344",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] keeps healthy sibling channel plugins loadable when a setup entry throws",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6413] keeps healthy sibling channel plugins loadable when a setup entry throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6413",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] prefers setupEntry for configured channel loads during startup when opted in",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6512] prefers setupEntry for configured channel loads during startup when opted in",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6512",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] blocks before_prompt_build but preserves legacy model overrides when prompt injection is disabled",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6532] blocks before_prompt_build but preserves legacy model overrides when prompt injection is disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6532",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] blocks next-turn injections when prompt injection is disabled",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6587] blocks next-turn injections when prompt injection is disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6587",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] keeps prompt-injection typed hooks enabled by default",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6628] keeps prompt-injection typed hooks enabled by default",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6628",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] blocks conversation typed hooks for non-bundled plugins unless explicitly allowed",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6652] blocks conversation typed hooks for non-bundled plugins unless explicitly allowed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6652",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] allows conversation typed hooks for non-bundled plugins when explicitly enabled",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6681] allows conversation typed hooks for non-bundled plugins when explicitly enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6681",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] ignores unknown typed hooks from plugins and keeps loading",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6716] ignores unknown typed hooks from plugins and keeps loading",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6716",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] enforces memory slot loading rules",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:6753] enforces memory slot loading rules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:6753",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] resolves duplicate plugin ids by source precedence",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7063] resolves duplicate plugin ids by source precedence",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7063",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] warns about open allowlists only for auto-discovered plugins",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7186] warns about open allowlists only for auto-discovered plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7186",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] handles workspace-discovered plugins according to trust and precedence",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7251] handles workspace-discovered plugins according to trust and precedence",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7251",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads bundled plugins when manifest metadata opts into default enablement",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7355] loads bundled plugins when manifest metadata opts into default enablement",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7355",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] keeps scoped and unscoped plugin ids distinct",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7389] keeps scoped and unscoped plugin ids distinct",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7389",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] evaluates load-path provenance warnings",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7419] evaluates load-path provenance warnings",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7419",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] uses the source runtime snapshot allowlist for plugin trust checks",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7554] uses the source runtime snapshot allowlist for plugin trust checks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7554",
                "upstream it() block #93",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] allows bundled plugin entry files that are hardlinked aliases",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7636] allows bundled plugin entry files that are hardlinked aliases",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7636",
                "upstream it() block #94",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] preserves runtime reflection semantics when runtime is lazily initialized",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7688] preserves runtime reflection semantics when runtime is lazily initialized",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7688",
                "upstream it() block #95",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] supports legacy plugins importing monolithic plugin-sdk root",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7725] supports legacy plugins importing monolithic plugin-sdk root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7725",
                "upstream it() block #96",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] supports legacy plugins subscribing to diagnostic events from the root sdk",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7753] supports legacy plugins subscribing to diagnostic events from the root sdk",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7753",
                "upstream it() block #97",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] suppresses trust warning logs for non-activating snapshot loads",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7817] suppresses trust warning logs for non-activating snapshot loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7817",
                "upstream it() block #98",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] loads source TypeScript plugins that route through local runtime shims",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7854] loads source TypeScript plugins that route through local runtime shims",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7854",
                "upstream it() block #99",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.test.ts] converts Windows absolute import specifiers to file URLs only for module loading",
+TEST_CASE("v4.29 [src/plugins/loader.test.ts:7893] converts Windows absolute import specifiers to file URLs only for module loading",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.test.ts:7893",
                "upstream it() block #100",

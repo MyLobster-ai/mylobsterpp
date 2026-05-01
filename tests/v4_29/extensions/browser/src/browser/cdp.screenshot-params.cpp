@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] viewport screenshot omits fromSurface and captureBeyondViewport",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:98] viewport screenshot omits fromSurface and captureBeyondViewport",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:98",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] uses the requested timeout as the raw CDP command timeout",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:116] uses the requested timeout as the raw CDP command timeout",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:116",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] fullPage on emulated tab: clears, detects drift, re-applies saved emulation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:130] fullPage on emulated tab: clears, detects drift, re-applies saved emulation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] fullPage on non-emulated tab: clears and does NOT re-apply emulation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:171] fullPage on non-emulated tab: clears and does NOT re-apply emulation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:171",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] fullPage viewport dimensions never shrink below current innerWidth/Height",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:190] fullPage viewport dimensions never shrink below current innerWidth/Height",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:190",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] returns false for a normal viewport screenshot with wsUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:201] returns false for a normal viewport screenshot with wsUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] returns true when wsUrl is missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:207] returns true when wsUrl is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] returns true when ref is specified",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:211] returns true when ref is specified",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:211",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts] returns true when element is specified",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.screenshot-params.test.ts:217] returns true when element is specified",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.screenshot-params.test.ts:217",
                "upstream it() block #8",

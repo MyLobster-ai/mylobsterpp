@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/scripts/prepare-codex-ci-config.test.ts] renders a minimal trusted non-interactive Codex config for the target repo",
+TEST_CASE("v4.29 [src/scripts/prepare-codex-ci-config.test.ts:11] renders a minimal trusted non-interactive Codex config for the target repo",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/prepare-codex-ci-config.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/prepare-codex-ci-config.test.ts] writes the generated config to disk",
+TEST_CASE("v4.29 [src/scripts/prepare-codex-ci-config.test.ts:32] writes the generated config to disk",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/prepare-codex-ci-config.test.ts:32",
                "upstream it() block #1",

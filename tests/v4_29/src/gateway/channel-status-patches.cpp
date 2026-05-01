@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/channel-status-patches.test.ts] uses one timestamp for connected event-liveness state",
+TEST_CASE("v4.29 [src/gateway/channel-status-patches.test.ts:8] uses one timestamp for connected event-liveness state",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-status-patches.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-status-patches.test.ts] reports transport liveness without implying a new connection event",
+TEST_CASE("v4.29 [src/gateway/channel-status-patches.test.ts:18] reports transport liveness without implying a new connection event",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-status-patches.test.ts:18",
                "upstream it() block #1",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] includes masked auth sources in JSON output",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:309] includes masked auth sources in JSON output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:309",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] uses agent overrides and reports sources",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:365] uses agent overrides and reports sources",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:365",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] handles cli backend and aliased provider auth summaries",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:399] handles cli backend and aliased provider auth summaries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:399",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] treats plugin-owned synthetic auth as usable for models in use",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:461] treats plugin-owned synthetic auth as usable for models in use",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:461",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] includes auth-evidence-only providers in the auth overview",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:544] includes auth-evidence-only providers in the auth overview",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:544",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] reports defaults source when --agent has no overrides",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:599] reports defaults source when --agent has no overrides",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:599",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] throws when agent id is unknown",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:625] throws when agent id is unknown",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:625",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.status.test.ts] exits non-zero when auth is missing",
+TEST_CASE("v4.29 [src/commands/models/list.status.test.ts:631] exits non-zero when auth is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.status.test.ts:631",
                "upstream it() block #7",

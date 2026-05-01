@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts] returns the current provider/model",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts:5] returns the current provider/model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts] prefers assistant provider/model when the failing attempt reports them",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts:13] prefers assistant provider/model when the failing attempt reports them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts] ignores the embedded PI harness provider when the model provider is known",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts:26] ignores the embedded PI harness provider when the model provider is known",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/helpers.resolve-error-context.test.ts:26",
                "upstream it() block #2",

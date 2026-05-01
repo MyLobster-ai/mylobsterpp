@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts] uses the resolved runtime load context for configured channel scope",
+TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts:154] uses the resolved runtime load context for configured channel scope",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugin-registry.test.ts:154",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts] reloads when escalating from configured-channels to channels",
+TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts:201] reloads when escalating from configured-channels to channels",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugin-registry.test.ts:201",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts] does not treat a pre-seeded partial registry as all scope",
+TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts:239] does not treat a pre-seeded partial registry as all scope",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugin-registry.test.ts:239",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts] does not treat a tools-only pre-seeded registry as channel scope",
+TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts:272] does not treat a tools-only pre-seeded registry as channel scope",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugin-registry.test.ts:272",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts] reloads when a pre-seeded channel registry is missing the configured channel plugin ids",
+TEST_CASE("v4.29 [src/cli/plugin-registry.test.ts:309] reloads when a pre-seeded channel registry is missing the configured channel plugin ids",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugin-registry.test.ts:309",
                "upstream it() block #4",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] adds member to a chat with default role",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:46] adds member to a chat with default role",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] adds member to a chat with owner role",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:67] adds member to a chat with owner role",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] normalizes role casing and whitespace",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:89] normalizes role casing and whitespace",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] rejects unknown roles",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:108] rejects unknown roles",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:108",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] constructs correct user@odata.bind URL",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:121] constructs correct user@odata.bind URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:121",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] escapes user ids before building the OData bind URL",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:136] escapes user ids before building the OData bind URL",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] adds member to a channel",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:151] adds member to a channel",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:151",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] lists members, finds match, deletes by membershipId",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:179] lists members, finds match, deletes by membershipId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:179",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] throws when user not found in member list",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:205] throws when user not found in member list",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:205",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] removes member from a channel",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:222] removes member from a channel",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:222",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] follows member pagination before concluding the user is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:245] follows member pagination before concluding the user is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:245",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] renames a chat with topic",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:285] renames a chat with topic",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:285",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts] renames a channel with displayName",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-group-management.test.ts:302] renames a channel with displayName",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-group-management.test.ts:302",
                "upstream it() block #12",

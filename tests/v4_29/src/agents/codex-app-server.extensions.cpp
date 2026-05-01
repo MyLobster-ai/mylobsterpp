@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] includes plugin-registered middleware and restores it from cache",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:43] includes plugin-registered middleware and restores it from cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] rejects middleware when the manifest omits the runtime contract",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:96] rejects middleware when the manifest omits the runtime contract",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] rejects middleware from non-bundled plugins even when they declare the contract",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:136] rejects middleware from non-bundled plugins even when they declare the contract",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:136",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] merges runtimes when a plugin registers the same middleware function twice",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:173] merges runtimes when a plugin registers the same middleware function twice",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:173",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] lazily loads bundled middleware owners from manifest contracts",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:209] lazily loads bundled middleware owners from manifest contracts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:209",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] includes plugin-registered Codex app-server extension factories and restores them from cache",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:261] includes plugin-registered Codex app-server extension factories and restores them from cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:261",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] rejects Codex app-server extension factories from non-bundled plugins even when they declare the contract",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:315] rejects Codex app-server extension factories from non-bundled plugins even when they declare the contract",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:315",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] rejects bundled plugins that omit the Codex app-server extension contract",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:352] rejects bundled plugins that omit the Codex app-server extension contract",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:352",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] rejects non-function Codex app-server extension factories from bundled plugins",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:388] rejects non-function Codex app-server extension factories from bundled plugins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:388",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts] initializes async Codex app-server extension factories in registration order",
+TEST_CASE("v4.29 [src/agents/codex-app-server.extensions.test.ts:428] initializes async Codex app-server extension factories in registration order",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-app-server.extensions.test.ts:428",
                "upstream it() block #9",

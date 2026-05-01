@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] parses DNS name from tailscale status",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:47] parses DNS name from tailscale status",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] falls back to IP when DNS missing",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:57] falls back to IP when DNS missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] parses noisy JSON output from tailscale status",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:65] parses noisy JSON output from tailscale status",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] allows the test binary override in explicit test environments",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:74] allows the test binary override in explicit test environments",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] ignores the test binary override outside test environments",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:82] ignores the test binary override outside test environments",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] enableTailscaleServe attempts normal first, then sudo",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:136] enableTailscaleServe attempts normal first, then sudo",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] enableTailscaleServe does NOT use sudo if first attempt succeeds",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:152] enableTailscaleServe does NOT use sudo if first attempt succeeds",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:152",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] disableTailscaleServe uses fallback",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:165] disableTailscaleServe uses fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:165",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] ensureFunnel uses fallback for enabling",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:182] ensureFunnel uses fallback for enabling",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:182",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] enableTailscaleServe skips sudo on non-permission errors",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:217] enableTailscaleServe skips sudo on non-permission errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:217",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tailscale.test.ts] enableTailscaleServe rethrows original error if sudo fails",
+TEST_CASE("v4.29 [src/infra/tailscale.test.ts:225] enableTailscaleServe rethrows original error if sudo fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tailscale.test.ts:225",
                "upstream it() block #10",

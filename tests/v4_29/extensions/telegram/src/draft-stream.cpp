@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] sends stream preview message with message_thread_id when provided",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:59] sends stream preview message with message_thread_id when provided",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] edits existing stream preview message on subsequent updates",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:67] edits existing stream preview message on subsequent updates",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] waits for in-flight updates before final flush edit",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:81] waits for in-flight updates before final flush edit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] omits message_thread_id for general topic id",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:101] omits message_thread_id for general topic id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] uses sendMessage/editMessageText for dm thread previews",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:110] uses sendMessage/editMessageText for dm thread previews",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:110",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] tracks when a message preview first became visible",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:126] tracks when a message preview first became visible",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:126",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] retries DM message preview send without thread when thread is not found",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:148] retries DM message preview send without thread when thread is not found",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:148",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] keeps allow_sending_without_reply on message previews that target a reply",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:169] keeps allow_sending_without_reply on message previews that target a reply",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:169",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] materializes message previews using rendered HTML text",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:186] materializes message previews using rendered HTML text",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:186",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] returns existing preview id when materializing message transport",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:208] returns existing preview id when materializing message transport",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:208",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] deletes message preview on clear after finalization",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:222] deletes message preview on clear after finalization",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:222",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] creates new message after forceNewMessage is called",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:237] creates new message after forceNewMessage is called",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:237",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] creates new message after cleanup and forceNewMessage",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:260] creates new message after cleanup and forceNewMessage",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:260",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] sends first update immediately after forceNewMessage within throttle window",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:277] sends first update immediately after forceNewMessage within throttle window",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:277",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] does not rebind to an old message when forceNewMessage races an in-flight send",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:297] does not rebind to an old message when forceNewMessage races an in-flight send",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:297",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] marks sendMayHaveLanded after an ambiguous first preview send failure",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:335] marks sendMayHaveLanded after an ambiguous first preview send failure",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:335",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] clears sendMayHaveLanded on pre-connect first preview send failures",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:359] clears sendMayHaveLanded on pre-connect first preview send failures",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:359",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] clears sendMayHaveLanded on Telegram 4xx client rejections",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:366] clears sendMayHaveLanded on Telegram 4xx client rejections",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:366",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] supports rendered previews with parse_mode",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:373] supports rendered previews with parse_mode",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:373",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] enforces maxChars after renderText expansion",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:392] enforces maxChars after renderText expansion",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:392",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] sends immediately on stop() even with 1 character",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:438] sends immediately on stop() even with 1 character",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:438",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] sends immediately on stop() with short sentence",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:449] sends immediately on stop() with short sentence",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:449",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] does not send first message below threshold",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:462] does not send first message below threshold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:462",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] does not send a first message when discard() supersedes a short partial",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:472] does not send a first message when discard() supersedes a short partial",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:472",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] sends first message when reaching threshold",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:484] sends first message when reaching threshold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:484",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] works with longer text above threshold",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:494] works with longer text above threshold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:494",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] edits normally after first message is sent",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:506] edits normally after first message is sent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:506",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts] sends immediately without minInitialChars set (backward compatible)",
+TEST_CASE("v4.29 [extensions/telegram/src/draft-stream.test.ts:523] sends immediately without minInitialChars set (backward compatible)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/draft-stream.test.ts:523",
                "upstream it() block #27",

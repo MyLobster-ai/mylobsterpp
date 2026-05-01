@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] creates a preview post and updates it on later changes",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:42] creates a preview post and updates it on later changes",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] does not resend identical updates",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:68] does not resend identical updates",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] clears the preview post when no final reply is delivered",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:84] clears the preview post when no final reply is delivered",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] discardPending keeps the preview post but ignores later updates",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:103] discardPending keeps the preview post but ignores later updates",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] seal keeps the preview post and cancels pending final overwrites",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:123] seal keeps the preview post and cancels pending final overwrites",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] stop flushes the last pending update and ignores later ones",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:142] stop flushes the last pending update and ignores later ones",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] warns and stops when preview creation fails",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:166] warns and stops when preview creation fails",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:166",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] does not resend after an update failure followed by stop",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:196] does not resend after an update failure followed by stop",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:196",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] renders a status with the tool name",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:246] renders a status with the tool name",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts] falls back to a generic running tool status",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/draft-stream.test.ts:250] falls back to a generic running tool status",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/draft-stream.test.ts:250",
                "upstream it() block #9",

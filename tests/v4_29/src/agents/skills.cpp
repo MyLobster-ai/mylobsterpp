@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] sanitizes and de-duplicates command names",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:177] sanitizes and de-duplicates command names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:177",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] truncates descriptions and preserves tool-dispatch metadata",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:213] truncates descriptions and preserves tool-dispatch metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:213",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] inherits agents.defaults.skills when agentId is provided",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:249] inherits agents.defaults.skills when agentId is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:249",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] includes enabled Claude bundle markdown commands as native OpenClaw slash commands",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:278] includes enabled Claude bundle markdown commands as native OpenClaw slash commands",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:278",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] returns empty prompt when skills dirs are missing",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:338] returns empty prompt when skills dirs are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:338",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] loads bundled skills when present",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:348] loads bundled skills when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:348",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] applies per-agent skillsLimits.maxSkillsPromptChars",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:369] applies per-agent skillsLimits.maxSkillsPromptChars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:369",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] does not apply agents.list[].skillsLimits without an explicit agent id",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:401] does not apply agents.list[].skillsLimits without an explicit agent id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:401",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] loads extra skill folders from config (lowest precedence)",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:435] loads extra skill folders from config (lowest precedence)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:435",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] loads workspace skills while omitting disable-model-invocation entries",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:478] loads workspace skills while omitting disable-model-invocation entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:478",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] sets and restores env vars",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:508] sets and restores env vars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:508",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] keeps env keys tracked until all overlapping overrides restore",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:531] keeps env keys tracked until all overlapping overrides restore",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:531",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] applies env overrides from snapshots",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:557] applies env overrides from snapshots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:557",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] prefers the active runtime snapshot over raw SecretRef skill config",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:578] prefers the active runtime snapshot over raw SecretRef skill config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:578",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] prefers resolved caller skill config when the active runtime snapshot is still raw",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:603] prefers resolved caller skill config when the active runtime snapshot is still raw",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:603",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] does not resolve raw skill apiKey refs when the host already provides primaryEnv",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:628] does not resolve raw skill apiKey refs when the host already provides primaryEnv",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:628",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] blocks unsafe env overrides but allows declared secrets",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:663] blocks unsafe env overrides but allows declared secrets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:663",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] blocks dangerous host env overrides even when declared",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:697] blocks dangerous host env overrides even when declared",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:697",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] blocks override-only host env overrides in skill config",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:730] blocks override-only host env overrides in skill config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:730",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.test.ts] allows required env overrides from snapshots",
+TEST_CASE("v4.29 [src/agents/skills.test.ts:766] allows required env overrides from snapshots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.test.ts:766",
                "upstream it() block #19",

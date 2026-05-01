@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] skips socket startup when Slack channel is disabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:286] skips socket startup when Slack channel is disabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:286",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] skips tool summaries with responsePrefix",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:312] skips tool summaries with responsePrefix",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:312",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] drops events with mismatched api_app_id",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:316] drops events with mismatched api_app_id",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:316",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] does not derive responsePrefix from routed agent identity when unset",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:340] does not derive responsePrefix from routed agent identity when unset",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:340",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] preserves RawBody without injecting processed room history",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:373] preserves RawBody without injecting processed room history",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:373",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] scopes thread history to the thread by default",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:394] scopes thread history to the thread by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:394",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] updates assistant thread status when replies start",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:427] updates assistant thread status when replies start",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:427",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] accepts channel messages when mentionPatterns match",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:473] accepts channel messages when mentionPatterns match",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:473",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] accepts channel messages when mentionPatterns match even if another user is mentioned",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:477] accepts channel messages when mentionPatterns match even if another user is mentioned",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:477",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] treats replies to bot threads as implicit mentions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:481] treats replies to bot threads as implicit mentions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:481",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] accepts channel messages without mention when channels.slack.requireMention is false",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:499] accepts channel messages without mention when channels.slack.requireMention is false",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:499",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] keeps always-on channel messages private by default",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:525] keeps always-on channel messages private by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:525",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] treats control commands as mentions for group bypass",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:557] treats control commands as mentions for group bypass",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:557",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] threads replies when incoming message is in a thread",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:565] threads replies when incoming message is in a thread",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:565",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] ignores replyToId directive when replyToMode is off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:578] ignores replyToId directive when replyToMode is off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:578",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] keeps replyToId directive threading when replyToMode is all",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:605] keeps replyToId directive threading when replyToMode is all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:605",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] reacts to mention-gated room messages when ackReaction is enabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:618] reacts to mention-gated room messages when ackReaction is enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:618",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] keeps ack reaction when no reply is delivered and status reactions are disabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:660] keeps ack reaction when no reply is delivered and status reactions are disabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:660",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] keeps ack reaction when no reply is delivered and status reactions are enabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:675] keeps ack reaction when no reply is delivered and status reactions are enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:675",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] restores ack reaction when dispatch fails before any reply is delivered",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:690] restores ack reaction when dispatch fails before any reply is delivered",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:690",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] replies with pairing code when dmPolicy is pairing and no allowFrom is set",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:700] replies with pairing code when dmPolicy is pairing and no allowFrom is set",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:700",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] does not resend pairing code when a request is already pending",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:718] does not resend pairing code when a request is already pending",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:718",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] threads top-level replies when replyToMode is all",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:737] threads top-level replies when replyToMode is all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:737",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] treats parent_user_id as a thread reply even when thread_ts matches ts",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:745] treats parent_user_id as a thread reply even when thread_ts matches ts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:745",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] keeps thread parent inheritance opt-in",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:761] keeps thread parent inheritance opt-in",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:761",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] injects starter context for thread replies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:778] injects starter context for thread replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:778",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] scopes thread session keys to the routed agent",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:805] scopes thread session keys to the routed agent",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:805",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] keeps replies in channel root when message is not threaded (replyToMode off)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:832] keeps replies in channel root when message is not threaded (replyToMode off)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:832",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts] threads first reply when replyToMode is first and message is not threaded",
+TEST_CASE("v4.29 [extensions/slack/src/monitor.tool-result.test.ts:840] threads first reply when replyToMode is first and message is not threaded",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor.tool-result.test.ts:840",
                "upstream it() block #28",

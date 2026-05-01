@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] maps container workspace paths to host workspace root",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:54] maps container workspace paths to host workspace root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] maps file:// container workspace paths to host workspace root",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:69] maps file:// container workspace paths to host workspace root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] does not remap remote-host file:// paths",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:84] does not remap remote-host file:// paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] does not remap malformed file:// container workspace paths",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:99] does not remap malformed file:// container workspace paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] does not remap file:// container workspace paths with encoded separators",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:114] does not remap file:// container workspace paths with encoded separators",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] maps @-prefixed container workspace paths to host workspace root",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:131] maps @-prefixed container workspace paths to host workspace root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:131",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] normalizes @-prefixed absolute paths before guard checks",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:146] normalizes @-prefixed absolute paths before guard checks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:146",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] does not remap absolute paths outside the configured container workdir",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:161] does not remap absolute paths outside the configured container workdir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:161",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] does not guard outPath by default",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:176] does not guard outPath by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:176",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts] guards custom outPath params when configured",
+TEST_CASE("v4.29 [src/agents/pi-tools.read.workspace-root-guard.test.ts:187] guards custom outPath params when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.read.workspace-root-guard.test.ts:187",
                "upstream it() block #9",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] routes provider output through an open audio sink",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:24] routes provider output through an open audio sink",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] passes the requested audio format to the provider bridge",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:60] passes the requested audio format to the provider bridge",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] can acknowledge provider marks without transport mark support",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:82] can acknowledge provider marks without transport mark support",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] can ignore provider marks",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:109] can ignore provider marks",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] passes tool calls the active session and triggers initial greeting on ready",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:136] passes tool calls the active session and triggers initial greeting on ready",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] forwards tool result continuation options to the provider bridge",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:172] forwards tool result continuation options to the provider bridge",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:172",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts] does not expose session callbacks until the provider returns its bridge",
+TEST_CASE("v4.29 [src/realtime-voice/session-runtime.test.ts:195] does not expose session callbacks until the provider returns its bridge",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/session-runtime.test.ts:195",
                "upstream it() block #6",

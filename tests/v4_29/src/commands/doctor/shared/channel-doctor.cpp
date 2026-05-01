@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] skips plugin discovery when no channels are configured",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:127] skips plugin discovery when no channels are configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:127",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] skips plugin discovery when only channel defaults are configured",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:134] skips plugin discovery when only channel defaults are configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] skips plugin discovery for explicitly disabled channels",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:150] skips plugin discovery for explicitly disabled channels",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] uses read-only doctor adapters for configured channel ids",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:166] uses read-only doctor adapters for configured channel ids",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:166",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] merges partial doctor adapters instead of masking runtime-only hooks",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:179] merges partial doctor adapters instead of masking runtime-only hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] ignores malformed doctor adapter values so valid fallbacks still run",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:193] ignores malformed doctor adapter values so valid fallbacks still run",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:193",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] falls back to setup doctor adapters when read-only plugins lack doctor hooks",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:212] falls back to setup doctor adapters when read-only plugins lack doctor hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] falls back to bundled runtime doctor adapters when setup adapters lack doctor hooks",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:225] falls back to bundled runtime doctor adapters when setup adapters lack doctor hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:225",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] passes explicit env into read-only channel plugin discovery",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:239] passes explicit env into read-only channel plugin discovery",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:239",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] keeps configured channel doctor lookup non-fatal when setup loading fails",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:251] keeps configured channel doctor lookup non-fatal when setup loading fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:251",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] uses config for empty allowlist lookup without exposing it to plugin hooks",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:276] uses config for empty allowlist lookup without exposing it to plugin hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts] reuses empty allowlist doctor entries across per-account hooks",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-doctor.test.ts:311] reuses empty allowlist doctor entries across per-account hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-doctor.test.ts:311",
                "upstream it() block #11",

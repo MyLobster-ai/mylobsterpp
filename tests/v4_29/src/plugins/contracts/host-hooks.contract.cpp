@@ -5,285 +5,285 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] registers generic SDK seams without Plan Mode business logic",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:60] registers generic SDK seams without Plan Mode business logic",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] rejects external plugins from trusted policy and reserved command ownership",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:88] rejects external plugins from trusted policy and reserved command ownership",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] rejects reserved command ownership for non-reserved bundled command names",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:129] rejects reserved command ownership for non-reserved bundled command names",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] lets bundled fixture policies run before normal before_tool_call hooks",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:160] lets bundled fixture policies run before normal before_tool_call hooks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:160",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] lets later trusted policy blocks override earlier approval requests",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:185] lets later trusted policy blocks override earlier approval requests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:185",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] passes adjusted trusted policy params to later trusted policies",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:224] passes adjusted trusted policy params to later trusted policies",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:224",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] validates plugin-owned JSON values as plain JSON-compatible data",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:263] validates plugin-owned JSON values as plain JSON-compatible data",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:263",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] rejects non-JSON descriptor schemas before projecting Control UI descriptors",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:278] rejects non-JSON descriptor schemas before projecting Control UI descriptors",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:278",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] projects registered session extensions into gateway session rows",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:308] projects registered session extensions into gateway session rows",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:308",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] projects sync session extension projectors into gateway rows without exposing raw state",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:346] projects sync session extension projectors into gateway rows without exposing raw state",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:346",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] rejects async session extension projectors because gateway rows are synchronous",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:404] rejects async session extension projectors because gateway rows are synchronous",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:404",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] reports specific diagnostics for malformed session extension callbacks",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:433] reports specific diagnostics for malformed session extension callbacks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:433",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] rejects duplicate runtime lifecycle and agent event subscription ids",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:471] rejects duplicate runtime lifecycle and agent event subscription ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:471",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] defensively ignores promise-like session projections from untyped plugins",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:548] defensively ignores promise-like session projections from untyped plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:548",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] skips throwing session extension projectors without losing other projections",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:587] skips throwing session extension projectors without losing other projections",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:587",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] requires explicit unset to remove plugin session extension state",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:658] requires explicit unset to remove plugin session extension state",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:658",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] models queued next-turn injections and agent_turn_prepare as one prompt context",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:774] models queued next-turn injections and agent_turn_prepare as one prompt context",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:774",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] skips malformed persisted next-turn injection records during prompt assembly",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:821] skips malformed persisted next-turn injection records during prompt assembly",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:821",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] rejects malformed next-turn injection input before persisting records",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:851] rejects malformed next-turn injection input before persisting records",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:851",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] reports duplicate next-turn injections as not newly enqueued",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:889] reports duplicate next-turn injections as not newly enqueued",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:889",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] suppresses stale next-turn injections from plugins that are no longer loaded",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:957] suppresses stale next-turn injections from plugins that are no longer loaded",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:957",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] preserves global enqueue order when draining live next-turn injections",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1061] preserves global enqueue order when draining live next-turn injections",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1061",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] validates gateway protocol envelopes for plugin patch and UI descriptors",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1147] validates gateway protocol envelopes for plugin patch and UI descriptors",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1147",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] enforces command requiredScopes for gateway clients while preserving text command continuations",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1169] enforces command requiredScopes for gateway clients while preserving text command continuations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1169",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] dispatches sanitized agent events and clears plugin run context on run end",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1264] dispatches sanitized agent events and clears plugin run context on run end",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1264",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] clears run context on terminal events even when no plugin subscribes to agent events",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1306] clears run context on terminal events even when no plugin subscribes to agent events",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1306",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] does not let delayed non-terminal subscriptions resurrect closed run context",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1330] does not let delayed non-terminal subscriptions resurrect closed run context",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1330",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] continues agent event dispatch and terminal cleanup when one subscription throws",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1378] continues agent event dispatch and terminal cleanup when one subscription throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1378",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] preserves run context until async terminal event subscriptions settle",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1445] preserves run context until async terminal event subscriptions settle",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1445",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] covers the non-Plan plugin archetypes promised by the host-hook fixture",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1511] covers the non-Plan plugin archetypes promised by the host-hook fixture",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1511",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] proves every #71676 Plan Mode entry-point class has a generic host seam",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1549] proves every #71676 Plan Mode entry-point class has a generic host seam",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1549",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] cleans plugin-owned session state and lifecycle resources on reset/disable",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1575] cleans plugin-owned session state and lifecycle resources on reset/disable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1575",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] keeps scheduler job records when cleanup fails so cleanup can retry",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1699] keeps scheduler job records when cleanup fails so cleanup can retry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1699",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] preserves restarted scheduler jobs while cleaning the replaced registry",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1745] preserves restarted scheduler jobs while cleaning the replaced registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1745",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] does not let stale scheduler cleanup delete a newer job generation",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1828] does not let stale scheduler cleanup delete a newer job generation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1828",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] does not register scheduler jobs globally during non-activating registry loads",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1893] does not register scheduler jobs globally during non-activating registry loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1893",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] removes persistent plugin-owned session state and pending injections during cleanup",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:1948] removes persistent plugin-owned session state and pending injections during cleanup",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:1948",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] does not clear unrelated run context during session-scoped cleanup",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:2050] does not clear unrelated run context during session-scoped cleanup",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:2050",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] preserves durable plugin session state during plugin restart cleanup",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:2108] preserves durable plugin session state during plugin restart cleanup",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:2108",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts] cleans pending injections for plugins that registered no host-hook callbacks",
+TEST_CASE("v4.29 [src/plugins/contracts/host-hooks.contract.test.ts:2196] cleans pending injections for plugins that registered no host-hook callbacks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/host-hooks.contract.test.ts:2196",
                "upstream it() block #39",

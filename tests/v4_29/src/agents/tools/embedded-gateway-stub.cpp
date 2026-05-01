@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts] resolves sessions through the gateway session resolver",
+TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts:40] resolves sessions through the gateway session resolver",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/embedded-gateway-stub.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts] throws resolver errors for unresolved sessions",
+TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts:59] throws resolver errors for unresolved sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/embedded-gateway-stub.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts] projects embedded chat history through the shared display projector",
+TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts:75] projects embedded chat history through the shared display projector",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/embedded-gateway-stub.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts] passes the full raw history to projection before limiting visible messages",
+TEST_CASE("v4.29 [src/agents/tools/embedded-gateway-stub.test.ts:97] passes the full raw history to projection before limiting visible messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/embedded-gateway-stub.test.ts:97",
                "upstream it() block #3",

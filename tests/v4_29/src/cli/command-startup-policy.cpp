@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts] matches config guard bypass commands",
+TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts:12] matches config guard bypass commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-startup-policy.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts] matches route-first config guard skip policy",
+TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts:19] matches route-first config guard skip policy",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-startup-policy.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts] matches plugin preload policy",
+TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts:40] matches plugin preload policy",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-startup-policy.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts] matches banner suppression policy",
+TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts:166] matches banner suppression policy",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-startup-policy.test.ts:166",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts] matches CLI PATH bootstrap policy",
+TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts:178] matches CLI PATH bootstrap policy",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-startup-policy.test.ts:178",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts] aggregates startup policy for commander and route-first callers",
+TEST_CASE("v4.29 [src/cli/command-startup-policy.test.ts:188] aggregates startup policy for commander and route-first callers",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-startup-policy.test.ts:188",
                "upstream it() block #5",

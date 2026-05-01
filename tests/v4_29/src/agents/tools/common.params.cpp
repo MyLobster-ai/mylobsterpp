@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] defaults to enabled when unset",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:15] defaults to enabled when unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] respects explicit false",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:21] respects explicit false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] returns numeric strings for numbers",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:29] returns numeric strings for numbers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] trims strings",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:34] trims strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] accepts snake_case aliases for camelCase keys",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:39] accepts snake_case aliases for camelCase keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:39",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] parses numeric strings",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:46] parses numeric strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:46",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] keeps partial parse behavior by default",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:51] keeps partial parse behavior by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:51",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] rejects partial numeric strings when strict is enabled",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:56] rejects partial numeric strings when strict is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:56",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] truncates when integer is true",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:61] truncates when integer is true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:61",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] accepts snake_case aliases for camelCase keys",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:66] accepts snake_case aliases for camelCase keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:66",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] throws when required values are missing",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:73] throws when required values are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:73",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] allows empty emoji for removal semantics",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:84] allows empty emoji for removal semantics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:84",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] throws when remove true but emoji empty",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:93] throws when remove true but emoji empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:93",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts] passes through remove flag",
+TEST_CASE("v4.29 [src/agents/tools/common.params.test.ts:102] passes through remove flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/common.params.test.ts:102",
                "upstream it() block #13",

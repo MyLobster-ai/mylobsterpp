@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should include nvidia when NVIDIA_API_KEY is configured",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:95] should include nvidia when NVIDIA_API_KEY is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] resolves the nvidia api key value from env",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:110] resolves the nvidia api key value from env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:110",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should use anthropic-messages API for API-key provider",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:123] should use anthropic-messages API for API-key provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:123",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should respect MINIMAX_API_HOST env var for CN endpoint (#34487)",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:142] should respect MINIMAX_API_HOST env var for CN endpoint (#34487)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should set authHeader for minimax portal provider",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:154] should set authHeader for minimax portal provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:154",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should include minimax portal provider when MINIMAX_OAUTH_TOKEN is configured",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:158] should include minimax portal provider when MINIMAX_OAUTH_TOKEN is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should not include vllm when no API key is configured",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:171] should not include vllm when no API key is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:171",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts] should include vllm when VLLM_API_KEY is set",
+TEST_CASE("v4.29 [src/agents/models-config.providers.nvidia.test.ts:175] should include vllm when VLLM_API_KEY is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.nvidia.test.ts:175",
                "upstream it() block #7",

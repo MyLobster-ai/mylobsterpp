@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] returns mapping, additions, and unresolved (including missing ids)",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:12] returns mapping, additions, and unresolved (including missing ids)",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] supports custom resolved formatting",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:24] supports custom resolved formatting",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] supports custom unresolved formatting",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:33] supports custom unresolved formatting",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] adds trimmed users and skips ",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:44] adds trimmed users and skips ",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] ignores non-objects",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:50] ignores non-objects",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:50",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] replaces resolved names with ids and keeps unresolved entries",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:58] replaces resolved names with ids and keeps unresolved entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] deduplicates ids after canonicalization",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:70] deduplicates ids after canonicalization",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:70",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] supports canonicalization strategy for nested users",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:81] supports canonicalization strategy for nested users",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:81",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] logs sampled resolved and unresolved entries",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:101] logs sampled resolved and unresolved entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:101",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts] skips logging when both lists are empty",
+TEST_CASE("v4.29 [src/channels/allowlists/resolve-utils.test.ts:115] skips logging when both lists are empty",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allowlists/resolve-utils.test.ts:115",
                "upstream it() block #9",

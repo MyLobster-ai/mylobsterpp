@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/config-schema.test.ts] accepts SecretRef botToken and webhookSecret at top-level",
+TEST_CASE("v4.29 [extensions/zalo/src/config-schema.test.ts:5] accepts SecretRef botToken and webhookSecret at top-level",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/config-schema.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/config-schema.test.ts] accepts SecretRef botToken and webhookSecret on account",
+TEST_CASE("v4.29 [extensions/zalo/src/config-schema.test.ts:14] accepts SecretRef botToken and webhookSecret on account",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/config-schema.test.ts:14",
                "upstream it() block #1",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] derives stable session names from profile and port",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:21] derives stable session names from profile and port",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] builds a login-shell command that runs the raw watcher in the repo",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:39] builds a login-shell command that runs the raw watcher in the repo",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] creates a detached tmux session when none exists",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:65] creates a detached tmux session when none exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] auto-attaches in an interactive terminal after creating a session",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:140] auto-attaches in an interactive terminal after creating a session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] switches tmux clients instead of nesting attach when already inside tmux",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:173] switches tmux clients instead of nesting attach when already inside tmux",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:173",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] keeps detached output in CI unless attach is forced",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:205] keeps detached output in CI unless attach is forced",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:205",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] respawns the existing tmux pane on repeated runs",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:232] respawns the existing tmux pane on repeated runs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:232",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] recreates a stale session when its active pane target is missing",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:272] recreates a stale session when its active pane target is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:272",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] runs the raw foreground watcher when tmux mode is disabled",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:331] runs the raw foreground watcher when tmux mode is disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:331",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts] prints a raw-mode hint when tmux is unavailable",
+TEST_CASE("v4.29 [src/infra/gateway-watch-tmux.test.ts:354] prints a raw-mode hint when tmux is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-watch-tmux.test.ts:354",
                "upstream it() block #9",

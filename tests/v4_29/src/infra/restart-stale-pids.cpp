@@ -5,327 +5,327 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns [] when lsof exits with non-zero status",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:208] returns [] when lsof exits with non-zero status",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:208",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] logs warning when initial lsof scan exits with status > 1",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:213] logs warning when initial lsof scan exits with status > 1",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:213",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns [] when lsof returns an error object (e.g. ENOENT)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:221] returns [] when lsof returns an error object (e.g. ENOENT)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:221",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] parses openclaw-gateway pids and excludes the current process",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:234] parses openclaw-gateway pids and excludes the current process",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] excludes ancestor pids so a sidecar cannot kill its parent gateway — regression for #68451",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:250] excludes ancestor pids so a sidecar cannot kill its parent gateway — regression for #68451",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:250",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] excludes PID 1 when the direct parent gateway is the container entrypoint — container topology",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:321] excludes PID 1 when the direct parent gateway is the container entrypoint — container topology",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:321",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] excludes pids whose command does not include ",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:386] excludes pids whose command does not include ",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:386",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] forwards the spawnTimeoutMs argument to spawnSync",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:397] forwards the spawnTimeoutMs argument to spawnSync",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:397",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] deduplicates pids from dual-stack listeners (IPv4+IPv6 emit same pid twice)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:407] deduplicates pids from dual-stack listeners (IPv4+IPv6 emit same pid twice)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:407",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] delegates to Windows port helpers on win32 and skips lsof",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:418] delegates to Windows port helpers on win32 and skips lsof",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:418",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns verified gateway pids from Windows helpers on win32",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:434] returns verified gateway pids from Windows helpers on win32",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:434",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] excludes ancestor pids on Windows too — #68451 regression mirror for the win32 path",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:452] excludes ancestor pids on Windows too — #68451 regression mirror for the win32 path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:452",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns [] for empty lsof stdout (status 0, nothing listening)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:484] returns [] for empty lsof stdout (status 0, nothing listening)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:484",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] parses multiple openclaw pids from a single lsof output block",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:489] parses multiple openclaw pids from a single lsof output block",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:489",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns [] when status 0 but only non-openclaw pids present",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:506] returns [] when status 0 but only non-openclaw pids present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:506",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] treats lsof exit status 1 as port-free (no listeners)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:524] treats lsof exit status 1 as port-free (no listeners)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:524",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] treats lsof exit status >1 as inconclusive, not port-free — Codex P2 regression",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:534] treats lsof exit status >1 as inconclusive, not port-free — Codex P2 regression",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:534",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] does not make a second lsof call when the first returns status 0",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:558] does not make a second lsof call when the first returns status 0",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:558",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] lsof status 1 with non-empty openclaw stdout is treated as busy, not free (Linux container edge case)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:585] lsof status 1 with non-empty openclaw stdout is treated as busy, not free (Linux container edge case)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:585",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] pollPortOnce outer catch returns { free: null, permanent: false } when resolveLsofCommandSync throws",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:607] pollPortOnce outer catch returns { free: null, permanent: false } when resolveLsofCommandSync throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:607",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns [] and does not call process.kill when port has no listeners",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:648] returns [] and does not call process.kill when port has no listeners",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:648",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] sends SIGTERM to stale pids and returns them",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:655] sends SIGTERM to stale pids and returns them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:655",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] escalates to SIGKILL when process survives the SIGTERM window",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:666] escalates to SIGKILL when process survives the SIGTERM window",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:666",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] polls until port is confirmed free before returning — regression for #33103",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:689] polls until port is confirmed free before returning — regression for #33103",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:689",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] bails immediately when lsof is permanently unavailable (ENOENT) — Greptile edge case",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:729] bails immediately when lsof is permanently unavailable (ENOENT) — Greptile edge case",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:729",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] bails immediately when lsof is permanently unavailable (EPERM) — SELinux/AppArmor",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:751] bails immediately when lsof is permanently unavailable (EPERM) — SELinux/AppArmor",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:751",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] bails immediately when lsof is permanently unavailable (EACCES) — same as ENOENT",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:764] bails immediately when lsof is permanently unavailable (EACCES) — same as ENOENT",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:764",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] proceeds with warning when polling budget is exhausted — fake clock, no real 2s wait",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:777] proceeds with warning when polling budget is exhausted — fake clock, no real 2s wait",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:777",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] still polls for port-free when all stale pids were already dead at SIGTERM time",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:797] still polls for port-free when all stale pids were already dead at SIGTERM time",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:797",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] continues polling on transient lsof errors (not ENOENT) — Codex P1 fix",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:825] continues polling on transient lsof errors (not ENOENT) — Codex P1 fix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:825",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns gracefully when resolveGatewayPort throws",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:852] returns gracefully when resolveGatewayPort throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:852",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns gracefully when lsof is unavailable from the start",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:859] returns gracefully when lsof is unavailable from the start",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:859",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] treats failed Windows port probes as inconclusive, not free",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:871] treats failed Windows port probes as inconclusive, not free",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:871",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] waits for port release when the initial Windows stale-pid probe is inconclusive",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:923] waits for port release when the initial Windows stale-pid probe is inconclusive",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:923",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] waits for port release when Windows listener argv inspection is inconclusive",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:951] waits for port release when Windows listener argv inspection is inconclusive",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:951",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] does not report Windows pids as killed when taskkill fails",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:981] does not report Windows pids as killed when taskkill fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:981",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] treats Windows EPERM liveness checks as alive and still forces taskkill",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1027] treats Windows EPERM liveness checks as alive and still forces taskkill",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1027",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] skips a mid-loop entry when the command does not include ",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1090] skips a mid-loop entry when the command does not include ",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1090",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] skips a mid-loop entry when currentCmd is missing (two consecutive p-lines)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1103] skips a mid-loop entry when currentCmd is missing (two consecutive p-lines)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1103",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] ignores a p-line with an invalid (non-positive) PID — ternary false branch",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1114] ignores a p-line with an invalid (non-positive) PID — ternary false branch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1114",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] silently skips lines that start with neither ",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1127] silently skips lines that start with neither ",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1127",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] treats status 1 + non-openclaw stdout as port-free (not an openclaw process)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1146] treats status 1 + non-openclaw stdout as port-free (not an openclaw process)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1146",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns immediately when called with 0ms (timeoutMs <= 0 early return)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1170] returns immediately when called with 0ms (timeoutMs <= 0 early return)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1170",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] returns immediately when called with a negative value (Math.max(0,...) clamp)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1177] returns immediately when called with a negative value (Math.max(0,...) clamp)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1177",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] executes the Atomics.wait path successfully when called with a positive timeout",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1182] executes the Atomics.wait path successfully when called with a positive timeout",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1182",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts] falls back to busy-wait when Atomics.wait throws (Worker / sandboxed env)",
+TEST_CASE("v4.29 [src/infra/restart-stale-pids.test.ts:1190] falls back to busy-wait when Atomics.wait throws (Worker / sandboxed env)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart-stale-pids.test.ts:1190",
                "upstream it() block #45",

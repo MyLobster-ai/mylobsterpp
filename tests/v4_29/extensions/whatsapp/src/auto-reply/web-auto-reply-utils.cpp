@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] ignores regex matches when other mentions are present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:55] ignores regex matches when other mentions are present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] matches explicit self mentions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:65] matches explicit self mentions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] falls back to regex when no mentions are present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:75] falls back to regex when no mentions are present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] ignores JID mentions in a true 1:1 self-chat (not a group)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:84] ignores JID mentions in a true 1:1 self-chat (not a group)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] detects an explicit group @mention even when self is in allowFrom (#49317)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:111] detects an explicit group @mention even when self is in allowFrom (#49317)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:111",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] honors explicit self-chat overrides without recomputing from allowFrom",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:130] honors explicit self-chat overrides without recomputing from allowFrom",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] matches fallback number mentions when regexes do not match",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:145] matches fallback number mentions when regexes do not match",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] uses @lid reverse mapping for mentions and self identity",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:156] uses @lid reverse mapping for mentions and self identity",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] uses channel reset overrides when configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:194] uses channel reset overrides when configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:194",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] returns normalized debug fields and mention outcome",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:237] returns normalized debug fields and mention outcome",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:237",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] resolves owner list from allowFrom or falls back to self",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:250] resolves owner list from allowFrom or falls back to self",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:250",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] returns undefined for undefined input",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:265] returns undefined for undefined input",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:265",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] returns input when under limit",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:269] returns input when under limit",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:269",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] truncates and annotates when over limit",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:273] truncates and annotates when over limit",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:273",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] matches known Baileys crypto auth errors (Error)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:279] matches known Baileys crypto auth errors (Error)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:279",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts] does not throw on circular objects",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:285] does not throw on circular objects",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/web-auto-reply-utils.test.ts:285",
                "upstream it() block #15",

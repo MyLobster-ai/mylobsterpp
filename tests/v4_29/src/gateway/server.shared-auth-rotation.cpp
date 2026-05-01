@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.shared-auth-rotation.test.ts] disconnects existing shared-token websocket sessions after config.patch rotates auth",
+TEST_CASE("v4.29 [src/gateway/server.shared-auth-rotation.test.ts:139] disconnects existing shared-token websocket sessions after config.patch rotates auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.shared-auth-rotation.test.ts:139",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.shared-auth-rotation.test.ts] keeps existing device-token websocket sessions connected after shared token rotation",
+TEST_CASE("v4.29 [src/gateway/server.shared-auth-rotation.test.ts:155] keeps existing device-token websocket sessions connected after shared token rotation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.shared-auth-rotation.test.ts:155",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.shared-auth-rotation.test.ts] disconnects shared-auth websocket sessions when config.apply rewrites a SecretRef token",
+TEST_CASE("v4.29 [src/gateway/server.shared-auth-rotation.test.ts:217] disconnects shared-auth websocket sessions when config.apply rewrites a SecretRef token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.shared-auth-rotation.test.ts:217",
                "upstream it() block #2",

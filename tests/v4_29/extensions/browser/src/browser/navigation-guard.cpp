@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks private loopback URLs by default",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:36] blocks private loopback URLs by default",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows about:blank",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:44] allows about:blank",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks file URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:52] blocks file URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks data URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:60] blocks data URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks javascript URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:68] blocks javascript URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks non-blank about URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:76] blocks non-blank about URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:76",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows blocked hostnames when explicitly allowed",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:84] allows blocked hostnames when explicitly allowed",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:84",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks hostnames that resolve to private addresses by default",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:98] blocks hostnames that resolve to private addresses by default",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:98",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows hostnames that resolve to public addresses",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:108] allows hostnames that resolve to public addresses",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:108",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks hostname navigation when strict SSRF policy is explicitly configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:119] blocks hostname navigation when strict SSRF policy is explicitly configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:119",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows hostname navigation when the default strict policy object is present",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:131] allows hostname navigation when the default strict policy object is present",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:131",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows explicitly allowed hostnames in strict mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:143] allows explicitly allowed hostnames in strict mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:143",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows wildcard-allowlisted hostnames in strict mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:157] allows wildcard-allowlisted hostnames in strict mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:157",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] does not treat the bare suffix as matching a wildcard allowlist entry",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:171] does not treat the bare suffix as matching a wildcard allowlist entry",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:171",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] does not match sibling domains against wildcard allowlist entries",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:186] does not match sibling domains against wildcard allowlist entries",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:186",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] treats bracketed IPv6 URL hostnames as IP literals in strict mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:201] treats bracketed IPv6 URL hostnames as IP literals in strict mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:201",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows public navigation when only Gateway env proxy is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:210] allows public navigation when only Gateway env proxy is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:210",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks explicit browser proxy routing in strict SSRF mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:222] blocks explicit browser proxy routing in strict SSRF mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:222",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows explicit browser proxy routing when private-network mode is enabled",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:234] allows explicit browser proxy routing when private-network mode is enabled",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:234",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] rejects invalid URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:246] rejects invalid URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:246",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] validates final network URLs after navigation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:254] validates final network URLs after navigation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:254",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] ignores non-network browser-internal final URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:264] ignores non-network browser-internal final URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:264",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks final hostname URLs in strict mode after navigation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:272] blocks final hostname URLs in strict mode after navigation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:272",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] blocks private intermediate redirect hops",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:281] blocks private intermediate redirect hops",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:281",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] allows redirect chains when every hop is public",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:307] allows redirect chains when every hop is public",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:307",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts] requires redirect-hop inspection only in explicit strict mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/navigation-guard.test.ts:328] requires redirect-hop inspection only in explicit strict mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/navigation-guard.test.ts:328",
                "upstream it() block #25",

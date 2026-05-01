@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/run-additional-boundary-checks.test.ts] normalizes concurrency input",
+TEST_CASE("v4.29 [test/scripts/run-additional-boundary-checks.test.ts:22] normalizes concurrency input",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-additional-boundary-checks.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-additional-boundary-checks.test.ts] formats command display text",
+TEST_CASE("v4.29 [test/scripts/run-additional-boundary-checks.test.ts:28] formats command display text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-additional-boundary-checks.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-additional-boundary-checks.test.ts] buffers grouped output and reports aggregate failures",
+TEST_CASE("v4.29 [test/scripts/run-additional-boundary-checks.test.ts:34] buffers grouped output and reports aggregate failures",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-additional-boundary-checks.test.ts:34",
                "upstream it() block #2",

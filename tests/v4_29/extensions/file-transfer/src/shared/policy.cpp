@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] returns NO_POLICY when no plugin config block is present",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:48] returns NO_POLICY when no plugin config block is present",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] returns NO_POLICY when plugin policy block is missing",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:54] returns NO_POLICY when plugin policy block is missing",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] returns NO_POLICY when no entry exists for the node and no ",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:60] returns NO_POLICY when no entry exists for the node and no ",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] prefers the current runtime config over a stale passed plugin config",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:66] prefers the current runtime config over a stale passed plugin config",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] rejects /allowed/../etc/passwd even when /allowed/** is allowed",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:95] rejects /allowed/../etc/passwd even when /allowed/** is allowed",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] rejects a path that ENDS in /..",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:108] rejects a path that ENDS in /..",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:108",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] rejects bare ",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:120] rejects bare ",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:120",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] denies even when allowReadPaths matches",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:130] denies even when allowReadPaths matches",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:130",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] denies even with ask=always (denyPaths is hard)",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:146] denies even with ask=always (denyPaths is hard)",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:146",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] allows on matched-allow with ask=off (default)",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:163] allows on matched-allow with ask=off (default)",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:163",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] propagates per-node maxBytes on matched-allow",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:175] propagates per-node maxBytes on matched-allow",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:175",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] uses kind=write to consult allowWritePaths, not allowReadPaths",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:183] uses kind=write to consult allowWritePaths, not allowReadPaths",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:183",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] propagates followSymlinks=false by default and =true when configured",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:195] propagates followSymlinks=false by default and =true when configured",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:195",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] expands tilde in patterns relative to homedir",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:213] expands tilde in patterns relative to homedir",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:213",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] matches Windows node paths without gateway-local path semantics",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:227] matches Windows node paths without gateway-local path semantics",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:227",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] ask=on-miss returns askable POLICY_DENIED on miss",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:242] ask=on-miss returns askable POLICY_DENIED on miss",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:242",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] ask=on-miss miss preserves transfer caps for one-time approvals",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:255] ask=on-miss miss preserves transfer caps for one-time approvals",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:255",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] ask=on-miss still silent-allows on a match",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:275] ask=on-miss still silent-allows on a match",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:275",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] ask=always always returns ask-always (prompt on every call)",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:283] ask=always always returns ask-always (prompt on every call)",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:283",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] ask=off returns non-askable POLICY_DENIED on miss",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:291] ask=off returns non-askable POLICY_DENIED on miss",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:291",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] invalid ask values normalize to off",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:299] invalid ask values normalize to off",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:299",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] resolves by displayName when nodeId has no entry",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:309] resolves by displayName when nodeId has no entry",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:309",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] falls back to ",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:323] falls back to ",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:323",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] appends path to allowReadPaths under the existing matching key",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:339] appends path to allowReadPaths under the existing matching key",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:339",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] creates a new node entry keyed by displayName when no entry exists",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:374] creates a new node entry keyed by displayName when no entry exists",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:374",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] never persists under the ",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:405] never persists under the ",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:405",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] rejects unsafe keys (__proto__, prototype, constructor) that would mutate prototype chain",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:449] rejects unsafe keys (__proto__, prototype, constructor) that would mutate prototype chain",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:449",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts] dedupes when path already present",
+TEST_CASE("v4.29 [extensions/file-transfer/src/shared/policy.test.ts:475] dedupes when path already present",
           "[v4_29][parity_gap][file-transfer]") {
     PARITY_GAP("extensions/file-transfer/src/shared/policy.test.ts:475",
                "upstream it() block #27",

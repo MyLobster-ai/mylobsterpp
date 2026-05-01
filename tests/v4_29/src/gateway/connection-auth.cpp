@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts] resolves local SecretRef token when OPENCLAW env is absent",
+TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts:202] resolves local SecretRef token when OPENCLAW env is absent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/connection-auth.test.ts:202",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts] resolves config-first token SecretRef even when OPENCLAW env token exists",
+TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts:230] resolves config-first token SecretRef even when OPENCLAW env token exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/connection-auth.test.ts:230",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts] resolves config-first password SecretRef even when OPENCLAW env password exists",
+TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts:260] resolves config-first password SecretRef even when OPENCLAW env password exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/connection-auth.test.ts:260",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts] throws when config-first token SecretRef cannot resolve even if env token exists",
+TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts:291] throws when config-first token SecretRef cannot resolve even if env token exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/connection-auth.test.ts:291",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts] throws when config-first password SecretRef cannot resolve even if env password exists",
+TEST_CASE("v4.29 [src/gateway/connection-auth.test.ts:325] throws when config-first password SecretRef cannot resolve even if env password exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/connection-auth.test.ts:325",
                "upstream it() block #4",

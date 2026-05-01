@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] formats compact units and omits trailing zero components",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:32] formats compact units and omits trailing zero components",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] returns fallback for invalid duration input",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:63] returns fallback for invalid duration input",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] formats single-unit outputs and day threshold behavior",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:70] formats single-unit outputs and day threshold behavior",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] returns undefined when required Intl parts are missing",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:160] returns undefined when required Intl parts are missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:160",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] returns undefined when Intl formatting throws",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:181] returns undefined when Intl formatting throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:181",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] returns fallback for invalid elapsed input",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:203] returns fallback for invalid elapsed input",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:203",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] formats relative age around key unit boundaries",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:210] formats relative age around key unit boundaries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] returns fallback for invalid timestamp input",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:242] returns fallback for invalid timestamp input",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:242",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts] falls back to relative days when date formatting throws",
+TEST_CASE("v4.29 [src/infra/format-time/format-time.test.ts:286] falls back to relative days when date formatting throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/format-time/format-time.test.ts:286",
                "upstream it() block #8",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts] extracts media paths from tool output text",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts:42] extracts media paths from tool output text",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-media.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts] resolves generated image paths from mock request logs first",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts:47] resolves generated image paths from mock request logs first",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-media.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts] falls back to generated image files under the gateway temp root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts:72] falls back to generated image files under the gateway temp root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-media.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts] applies provider image generation config with transport-required plugins",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts:92] applies provider image generation config with transport-required plugins",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-media.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts] preserves plugins already allowed by the gateway when configuring media",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-media.test.ts:111] preserves plugins already allowed by the gateway when configuring media",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-media.test.ts:111",
                "upstream it() block #4",

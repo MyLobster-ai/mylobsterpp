@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] accepts HTTPS URL",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:26] accepts HTTPS URL",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] accepts uppercase HTTPS scheme",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:33] accepts uppercase HTTPS scheme",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] rejects HTTP URL",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:40] rejects HTTP URL",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] rejects URL longer than 2000 chars",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:47] rejects URL longer than 2000 chars",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] rejects private-network targets through the shared SSRF policy",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:54] rejects private-network targets through the shared SSRF policy",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:54",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] maps image MIME to image",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:69] maps image MIME to image",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:69",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] maps uppercase image MIME to image",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:73] maps uppercase image MIME to image",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:73",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] maps video MIME to video",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:77] maps video MIME to video",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:77",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] maps audio MIME to audio",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:81] maps audio MIME to audio",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:81",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] falls back unknown MIME to image",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:85] falls back unknown MIME to image",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:85",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] respects explicit media kind without remote MIME probing",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:99] respects explicit media kind without remote MIME probing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:99",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] preserves explicit video kind when a preview URL is provided",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:108] preserves explicit video kind when a preview URL is provided",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:108",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] infers audio kind from explicit duration metadata when mediaKind is omitted",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:121] infers audio kind from explicit duration metadata when mediaKind is omitted",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:121",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] does not infer video from previewImageUrl alone",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:133] does not infer video from previewImageUrl alone",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:133",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] infers media kinds from known HTTPS file extensions",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:145] infers media kinds from known HTTPS file extensions",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:145",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] validates previewImageUrl when provided",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:160] validates previewImageUrl when provided",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:160",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] falls back to image when no explicit LINE media options or known extension are present",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:169] falls back to image when no explicit LINE media options or known extension are present",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:169",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] rejects local paths because LINE outbound media requires public HTTPS URLs",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:178] rejects local paths because LINE outbound media requires public HTTPS URLs",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:178",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts] rejects non-HTTPS URL explicitly",
+TEST_CASE("v4.29 [extensions/line/src/outbound-media.test.ts:184] rejects non-HTTPS URL explicitly",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/outbound-media.test.ts:184",
                "upstream it() block #18",

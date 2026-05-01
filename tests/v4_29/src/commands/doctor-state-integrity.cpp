@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] does not prompt for oauth dir when no whatsapp/pairing config is active",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:145] does not prompt for oauth dir when no whatsapp/pairing config is active",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:145",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] does not prompt for oauth dir when whatsapp is configured without persisted auth state",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:154] does not prompt for oauth dir when whatsapp is configured without persisted auth state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:154",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] prompts for oauth dir when a channel dmPolicy is pairing",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:166] prompts for oauth dir when a channel dmPolicy is pairing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:166",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] prompts for oauth dir when OPENCLAW_OAUTH_DIR is explicitly configured",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:178] prompts for oauth dir when OPENCLAW_OAUTH_DIR is explicitly configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:178",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] warns about orphaned on-disk agent directories missing from agents.list",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:186] warns about orphaned on-disk agent directories missing from agents.list",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] detects orphaned agent dirs even when the on-disk folder casing differs",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:201] detects orphaned agent dirs even when the on-disk folder casing differs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] ignores configured agent dirs and incomplete agent folders",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:214] ignores configured agent dirs and incomplete agent folders",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:214",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] warns about tombstoned subagent restart recovery sessions",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:229] warns about tombstoned subagent restart recovery sessions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:229",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] clears stale aborted recovery flags for tombstoned subagent sessions when approved",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:260] clears stale aborted recovery flags for tombstoned subagent sessions when approved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:260",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] warns when a case-mismatched agent dir does not resolve to the configured agent path",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:293] warns when a case-mismatched agent dir does not resolve to the configured agent path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:293",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] does not warn when a case-mismatched dir resolves to the configured agent path",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:323] does not warn when a case-mismatched dir resolves to the configured agent path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:323",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] detects orphan transcripts and offers archival remediation",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:354] detects orphan transcripts and offers archival remediation",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:354",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] does not auto-archive orphan transcripts from non-interactive repair mode",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:377] does not auto-archive orphan transcripts from non-interactive repair mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:377",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] suppresses orphan transcript warnings when QMD sessions are enabled",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:443] suppresses orphan transcript warnings when QMD sessions are enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:443",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] still detects orphan transcripts when QMD sessions are disabled",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:452] still detects orphan transcripts when QMD sessions are disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:452",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] prints openclaw-only verification hints when recent sessions are missing transcripts",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:461] prints openclaw-only verification hints when recent sessions are missing transcripts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:461",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts] ignores slash-routing sessions for recent missing transcript warnings",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.test.ts:480] ignores slash-routing sessions for recent missing transcript warnings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.test.ts:480",
                "upstream it() block #16",

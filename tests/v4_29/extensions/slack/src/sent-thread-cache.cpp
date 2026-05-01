@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] records and checks thread participation",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:15] records and checks thread participation",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] returns false for unrecorded threads",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:20] returns false for unrecorded threads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] distinguishes different channels and threads",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:24] distinguishes different channels and threads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] scopes participation by accountId",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:30] scopes participation by accountId",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] ignores empty accountId, channelId, or threadTs",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:36] ignores empty accountId, channelId, or threadTs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:36",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] clears all entries",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:45] clears all entries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:45",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] shares thread participation across distinct module instances",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:53] shares thread participation across distinct module instances",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:53",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] expired entries return false and are cleaned up on read",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:76] expired entries return false and are cleaned up on read",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:76",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts] enforces maximum entries by evicting oldest fresh entries",
+TEST_CASE("v4.29 [extensions/slack/src/sent-thread-cache.test.ts:83] enforces maximum entries by evicting oldest fresh entries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/sent-thread-cache.test.ts:83",
                "upstream it() block #8",

@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] serializeConfigForm preserves numbers in JSON output",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:114] serializeConfigForm preserves numbers in JSON output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] cloneConfigObject + setPathValue preserves unrelated numeric fields",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:126] cloneConfigObject + setPathValue preserves unrelated numeric fields",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] setPathValue rejects __proto__ in path",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:139] setPathValue rejects __proto__ in path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] setPathValue rejects constructor in path",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:146] setPathValue rejects constructor in path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:146",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] setPathValue rejects prototype in path",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:152] setPathValue rejects prototype in path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:152",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] removePathValue rejects __proto__ in path",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:158] removePathValue rejects __proto__ in path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] setPathValue allows normal keys",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:164] setPathValue allows normal keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] coerces string numbers to numbers based on schema",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:172] coerces string numbers to numbers based on schema",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:172",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] preserves already-correct numeric values",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:208] preserves already-correct numeric values",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:208",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] does not coerce non-numeric strings to numbers",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:216] does not coerce non-numeric strings to numbers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:216",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] coerces string booleans to booleans based on schema",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:240] coerces string booleans to booleans based on schema",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:240",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] handles empty string for number fields as undefined",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:263] handles empty string for number fields as undefined",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:263",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] passes through null and undefined values untouched",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:286] passes through null and undefined values untouched",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:286",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] handles anyOf schemas with number variant",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:291] handles anyOf schemas with number variant",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:291",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] handles integer schema type",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:306] handles integer schema type",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:306",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] rejects non-integer string for integer schema type",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:319] rejects non-integer string for integer schema type",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:319",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] does not coerce non-finite numeric strings",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:331] does not coerce non-finite numeric strings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:331",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] supports allOf schema composition",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:343] supports allOf schema composition",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:343",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] recurses into object inside anyOf (nullable pattern)",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:366] recurses into object inside anyOf (nullable pattern)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:366",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] recurses into array inside anyOf",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:392] recurses into array inside anyOf",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:392",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] handles tuple array schemas by index",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:414] handles tuple array schemas by index",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:414",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] preserves tuple indexes when a value is cleared",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:432] preserves tuple indexes when a value is cleared",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:432",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] omits cleared number field from object output",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:451] omits cleared number field from object output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:451",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] filters undefined from array when number item is cleared",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:465] filters undefined from array when number item is cleared",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:465",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts] coerces boolean in anyOf union",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config/form-utils.node.test.ts:481] coerces boolean in anyOf union",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config/form-utils.node.test.ts:481",
                "upstream it() block #24",

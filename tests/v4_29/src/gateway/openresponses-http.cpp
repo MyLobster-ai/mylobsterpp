@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] handles OpenResponses request parsing and validation",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:207] handles OpenResponses request parsing and validation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:207",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] streams OpenResponses SSE events",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:669] streams OpenResponses SSE events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:669",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] treats write-scoped HTTP callers as non-owner and admin-scoped callers as owner",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:761] treats write-scoped HTTP callers as non-owner and admin-scoped callers as owner",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:761",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] treats shared-secret bearer callers as owner operators",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:816] treats shared-secret bearer callers as owner operators",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:816",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] preserves assistant text alongside non-stream function_call output",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:847] preserves assistant text alongside non-stream function_call output",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:847",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] falls back to payload text for streamed function_call responses",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:888] falls back to payload text for streamed function_call responses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:888",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] reuses the prior session when previous_response_id is provided",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:939] reuses the prior session when previous_response_id is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:939",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] reuses prior sessions across different user values when auth scope matches",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:988] reuses prior sessions across different user values when auth scope matches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:988",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] stores response session mappings when the response is emitted",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1027] stores response session mappings when the response is emitted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1027",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] caps response session cache by evicting the oldest entries",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1062] caps response session cache by evicting the oldest entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1062",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] does not reuse cached sessions when the auth subject changes",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1074] does not reuse cached sessions when the auth subject changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1074",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] blocks unsafe URL-based file/image inputs",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1094] blocks unsafe URL-based file/image inputs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1094",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] enforces URL allowlist and URL part cap for responses inputs",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1127] enforces URL allowlist and URL part cap for responses inputs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1127",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] aborts agent command when streaming client disconnects",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1174] aborts agent command when streaming client disconnects",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1174",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts] aborts agent command when non-streaming client disconnects",
+TEST_CASE("v4.29 [src/gateway/openresponses-http.test.ts:1229] aborts agent command when non-streaming client disconnects",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-http.test.ts:1229",
                "upstream it() block #14",

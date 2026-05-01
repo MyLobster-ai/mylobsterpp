@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] fails with timeout when no-output watchdog trips",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:154] fails with timeout when no-output watchdog trips",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:154",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] enqueues a system event and heartbeat wake on no-output watchdog timeout for session runs",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:176] enqueues a system event and heartbeat wake on no-output watchdog timeout for session runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:176",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] fails with timeout when overall timeout trips",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:212] fails with timeout when overall timeout trips",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:212",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] rethrows the retry failure when session-expired recovery retry also fails",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:234] rethrows the retry failure when session-expired recovery retry also fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] returns the assembled CLI prompt in meta for raw trace consumers",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:313] returns the assembled CLI prompt in meta for raw trace consumers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:313",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] seeds fresh CLI sessions from the OpenClaw transcript",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:352] seeds fresh CLI sessions from the OpenClaw transcript",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:352",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] keeps resumed CLI sessions on native resume history",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:377] keeps resumed CLI sessions on native resume history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:377",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] reports CLI reply backends as streaming until the managed run finishes",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:402] reports CLI reply backends as streaming until the managed run finishes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:402",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] keeps raw assistant output separate from transformed visible CLI output",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:458] keeps raw assistant output separate from transformed visible CLI output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:458",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] emits llm_input, llm_output, and agent_end hooks for successful CLI runs",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:487] emits llm_input, llm_output, and agent_end hooks for successful CLI runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:487",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] does not emit llm_output when the CLI run returns no assistant text",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:589] does not emit llm_output when the CLI run returns no assistant text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:589",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] emits agent_end with failure details when the CLI run fails",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:617] emits agent_end with failure details when the CLI run fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:617",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] does not emit duplicate llm_input when session-expired recovery succeeds",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:659] does not emit duplicate llm_input when session-expired recovery succeeds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:659",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] skips transcript loading when only llm_output hooks are active",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:742] skips transcript loading when only llm_output hooks are active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:742",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] builds fresh-session history reseed prompts from hook-mutated prompts",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:777] builds fresh-session history reseed prompts from hook-mutated prompts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:777",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts] uses backend-configured resume watchdog override",
+TEST_CASE("v4.29 [src/agents/cli-runner.reliability.test.ts:841] uses backend-configured resume watchdog override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.reliability.test.ts:841",
                "upstream it() block #15",

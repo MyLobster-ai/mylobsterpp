@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] uses approver-restricted authorization for exec and plugin commands",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:10] uses approver-restricted authorization for exec and plugin commands",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] reports initiating-surface state and DM routing from configured approvers",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:60] reports initiating-surface state and DM routing from configured approvers",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] reports enabled when approvers exist even if native delivery is off (#59620)",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:133] reports enabled when approvers exist even if native delivery is off (#59620)",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] suppresses forwarding fallback only for matching native-delivery surfaces",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:165] suppresses forwarding fallback only for matching native-delivery surfaces",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] builds the canonical approval capability and preserves legacy split compatibility",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:254] builds the canonical approval capability and preserves legacy split compatibility",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:254",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] accepts canonical top-level capability surfaces",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:408] accepts canonical top-level capability surfaces",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:408",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts] keeps the deprecated approvals alias as a compatibility shim",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-delivery-helpers.test.ts:452] keeps the deprecated approvals alias as a compatibility shim",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-delivery-helpers.test.ts:452",
                "upstream it() block #6",

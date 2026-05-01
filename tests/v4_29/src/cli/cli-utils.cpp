@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/cli-utils.test.ts] creates an unref",
+TEST_CASE("v4.29 [src/cli/cli-utils.test.ts:11] creates an unref",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cli-utils.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cli-utils.test.ts] parses canvas.snapshot payload",
+TEST_CASE("v4.29 [src/cli/cli-utils.test.ts:44] parses canvas.snapshot payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cli-utils.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cli-utils.test.ts] rejects invalid canvas.snapshot payload",
+TEST_CASE("v4.29 [src/cli/cli-utils.test.ts:51] rejects invalid canvas.snapshot payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cli-utils.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cli-utils.test.ts] prints setup info (no apply)",
+TEST_CASE("v4.29 [src/cli/cli-utils.test.ts:59] prints setup info (no apply)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cli-utils.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cli-utils.test.ts] uses default unit when omitted",
+TEST_CASE("v4.29 [src/cli/cli-utils.test.ts:85] uses default unit when omitted",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cli-utils.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cli-utils.test.ts] rejects invalid composite strings",
+TEST_CASE("v4.29 [src/cli/cli-utils.test.ts:108] rejects invalid composite strings",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cli-utils.test.ts:108",
                "upstream it() block #5",

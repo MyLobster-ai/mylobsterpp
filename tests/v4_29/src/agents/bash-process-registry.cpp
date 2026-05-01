@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] captures output and truncates",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:36] captures output and truncates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] caps pending output to avoid runaway polls",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:51] caps pending output to avoid runaway polls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] respects max output cap when pending cap is larger",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:69] respects max output cap when pending cap is larger",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] caps stdout and stderr independently",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:84] caps stdout and stderr independently",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] only persists finished sessions when backgrounded",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:102] only persists finished sessions when backgrounded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] session cursorKeyMode can start unknown",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:138] session cursorKeyMode can start unknown",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:138",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] session cursorKeyMode can be set to application",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:148] session cursorKeyMode can be set to application",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:148",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts] session cursorKeyMode can be toggled between normal and application",
+TEST_CASE("v4.29 [src/agents/bash-process-registry.test.ts:158] session cursorKeyMode can be toggled between normal and application",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-process-registry.test.ts:158",
                "upstream it() block #7",

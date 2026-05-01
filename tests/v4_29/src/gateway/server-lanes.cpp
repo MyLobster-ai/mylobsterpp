@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-lanes.test.ts] applies cron maxConcurrentRuns to the cron-nested lane used by cron agent turns",
+TEST_CASE("v4.29 [src/gateway/server-lanes.test.ts:22] applies cron maxConcurrentRuns to the cron-nested lane used by cron agent turns",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-lanes.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-lanes.test.ts] keeps the shared nested lane at its default concurrency",
+TEST_CASE("v4.29 [src/gateway/server-lanes.test.ts:61] keeps the shared nested lane at its default concurrency",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-lanes.test.ts:61",
                "upstream it() block #1",

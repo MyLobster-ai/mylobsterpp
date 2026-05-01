@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/silent-reply.test.ts] uses the default direct/group/internal policy",
+TEST_CASE("v4.29 [src/config/silent-reply.test.ts:6] uses the default direct/group/internal policy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/silent-reply.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/silent-reply.test.ts] applies configured defaults by conversation type",
+TEST_CASE("v4.29 [src/config/silent-reply.test.ts:21] applies configured defaults by conversation type",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/silent-reply.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/silent-reply.test.ts] lets surface overrides beat the default policy",
+TEST_CASE("v4.29 [src/config/silent-reply.test.ts:44] lets surface overrides beat the default policy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/silent-reply.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/silent-reply.test.ts] resolves rewrite defaults and surface overrides by conversation type",
+TEST_CASE("v4.29 [src/config/silent-reply.test.ts:73] resolves rewrite defaults and surface overrides by conversation type",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/silent-reply.test.ts:73",
                "upstream it() block #3",

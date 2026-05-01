@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.set-input-files.test.ts] revalidates upload paths and uses resolved canonical paths for inputRef",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.set-input-files.test.ts:67] revalidates upload paths and uses resolved canonical paths for inputRef",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.set-input-files.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.set-input-files.test.ts] throws and skips setInputFiles when use-time validation fails",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.set-input-files.test.ts:86] throws and skips setInputFiles when use-time validation fails",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.set-input-files.test.ts:86",
                "upstream it() block #1",

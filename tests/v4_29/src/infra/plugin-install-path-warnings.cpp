@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts] ignores non-path installs and blank path candidates",
+TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts:33] ignores non-path installs and blank path candidates",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-install-path-warnings.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts] detects stale custom plugin install paths",
+TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts:52] detects stale custom plugin install paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-install-path-warnings.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts] uses the second candidate path when the first one is stale",
+TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts:81] uses the second candidate path when the first one is stale",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-install-path-warnings.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts] detects active custom plugin install paths",
+TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts:90] detects active custom plugin install paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-install-path-warnings.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts] applies custom command formatting in warning messages",
+TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts:101] applies custom command formatting in warning messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-install-path-warnings.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts] omits repo checkout guidance when no bundled source hint exists",
+TEST_CASE("v4.29 [src/infra/plugin-install-path-warnings.test.ts:122] omits repo checkout guidance when no bundled source hint exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/plugin-install-path-warnings.test.ts:122",
                "upstream it() block #5",

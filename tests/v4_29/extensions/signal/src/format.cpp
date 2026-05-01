@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders inline styles",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:5] renders inline styles",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders links as label plus url when needed",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:17] renders links as label plus url when needed",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] keeps style offsets correct with multiple expanded links",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:24] keeps style offsets correct with multiple expanded links",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] applies spoiler styling",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:36] applies spoiler styling",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders fenced code blocks with monospaced styles",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:43] renders fenced code blocks with monospaced styles",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders lists without extra block markup",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:54] renders lists without extra block markup",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:54",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] uses UTF-16 code units for offsets",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:61] uses UTF-16 code units for offsets",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:61",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] does not duplicate URL for normalized equivalent labels",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:70] does not duplicate URL for normalized equivalent labels",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:70",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] still shows URL when label is meaningfully different",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:88] still shows URL when label is meaningfully different",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:88",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] shows URL when the label is only the domain but the URL has a path",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:93] shows URL when the label is only the domain but the URL has a path",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:93",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders headings as bold text",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:100] renders headings as bold text",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:100",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders h2 headings as bold text",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:106] renders h2 headings as bold text",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:106",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders h3 headings as bold text",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:112] renders h3 headings as bold text",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:112",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders blockquotes with a visible prefix",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:118] renders blockquotes with a visible prefix",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:118",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders multi-line blockquotes with a visible prefix",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:124] renders multi-line blockquotes with a visible prefix",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:124",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders horizontal rules as a visible separator",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:131] renders horizontal rules as a visible separator",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:131",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/format.test.ts] renders horizontal rules between content",
+TEST_CASE("v4.29 [extensions/signal/src/format.test.ts:136] renders horizontal rules between content",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/format.test.ts:136",
                "upstream it() block #16",

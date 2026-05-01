@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/default-model.test.ts] sets defaults when model is unset",
+TEST_CASE("v4.29 [extensions/google/default-model.test.ts:6] sets defaults when model is unset",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/default-model.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/default-model.test.ts] overrides existing models",
+TEST_CASE("v4.29 [extensions/google/default-model.test.ts:13] overrides existing models",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/default-model.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/default-model.test.ts] no-ops when already on the target default",
+TEST_CASE("v4.29 [extensions/google/default-model.test.ts:21] no-ops when already on the target default",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/default-model.test.ts:21",
                "upstream it() block #2",

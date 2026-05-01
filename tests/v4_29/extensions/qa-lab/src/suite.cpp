@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts] rejects unsupported transport ids before starting the lab",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts:5] rejects unsupported transport ids before starting the lab",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts] parses progress env booleans",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts:18] parses progress env booleans",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts] defaults progress logging from CI when no override is set",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts:26] defaults progress logging from CI when no override is set",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts] resolves transport-ready timeout from params and env",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts:31] resolves transport-ready timeout from params and env",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts] applies OPENCLAW_QA_SUITE_PROGRESS override and falls back on invalid values",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts:48] applies OPENCLAW_QA_SUITE_PROGRESS override and falls back on invalid values",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts] sanitizes scenario ids for progress logs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite.test.ts:81] sanitizes scenario ids for progress logs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite.test.ts:81",
                "upstream it() block #5",

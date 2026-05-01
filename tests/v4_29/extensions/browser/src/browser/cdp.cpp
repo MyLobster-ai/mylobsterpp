@@ -5,313 +5,313 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] creates a target via the browser websocket",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:102] creates a target via the browser websocket",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] creates a target via direct WebSocket URL (skips /json/version)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:144] creates a target via direct WebSocket URL (skips /json/version)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] honors configured HTTP discovery timeouts when creating a target",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:172] honors configured HTTP discovery timeouts when creating a target",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:172",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] honors configured WebSocket handshake timeouts when creating a target",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:207] honors configured WebSocket handshake timeouts when creating a target",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:207",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] preserves query params when connecting via direct WebSocket URL",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:233] preserves query params when connecting via direct WebSocket URL",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:233",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] enforces SSRF policy on the navigation target URL before any CDP connection attempt",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:262] enforces SSRF policy on the navigation target URL before any CDP connection attempt",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:262",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] blocks private navigation targets by default",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:278] blocks private navigation targets by default",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:278",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] blocks hostname navigation targets when strict SSRF policy is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:293] blocks hostname navigation targets when strict SSRF policy is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:293",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] blocks unsupported non-network navigation URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:309] blocks unsupported non-network navigation URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] allows private navigation targets when explicitly configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:324] allows private navigation targets when explicitly configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:324",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] blocks cross-host websocket pivots returned by /json/version in strict SSRF mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:351] blocks cross-host websocket pivots returned by /json/version in strict SSRF mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:351",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] blocks the initial /json/version fetch when the cdpUrl host is outside strict SSRF policy",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:368] blocks the initial /json/version fetch when the cdpUrl host is outside strict SSRF policy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:368",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] blocks direct websocket cdp urls outside strict SSRF policy",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:381] blocks direct websocket cdp urls outside strict SSRF policy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:381",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] evaluates javascript via CDP",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:394] evaluates javascript via CDP",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:394",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] fails when /json/version omits webSocketDebuggerUrl for an HTTP cdpUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:420] fails when /json/version omits webSocketDebuggerUrl for an HTTP cdpUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:420",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] falls back to direct WS connection when /json/version is unavailable for a bare ws:// cdpUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:430] falls back to direct WS connection when /json/version is unavailable for a bare ws:// cdpUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:430",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] falls back to direct WS connection when discovered Browserless endpoint rejects commands",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:447] falls back to direct WS connection when discovered Browserless endpoint rejects commands",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:447",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] captures an aria snapshot via CDP",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:509] captures an aria snapshot via CDP",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:509",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] normalizes loopback websocket URLs for remote CDP hosts",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:550] normalizes loopback websocket URLs for remote CDP hosts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:550",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] propagates auth and query params onto normalized websocket URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:558] propagates auth and query params onto normalized websocket URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:558",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] rewrites localhost absolute-form websocket URLs for remote CDP hosts",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:566] rewrites localhost absolute-form websocket URLs for remote CDP hosts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:566",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] normalizes loopback websocket aliases to the configured CDP loopback host",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:574] normalizes loopback websocket aliases to the configured CDP loopback host",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:574",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] rewrites 0.0.0.0 wildcard bind address to remote CDP host",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:582] rewrites 0.0.0.0 wildcard bind address to remote CDP host",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:582",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] rewrites :: wildcard bind address to remote CDP host",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:590] rewrites :: wildcard bind address to remote CDP host",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:590",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] keeps existing websocket query params when appending remote CDP query params",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:598] keeps existing websocket query params when appending remote CDP query params",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:598",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] rewrites wildcard bind addresses to secure remote CDP hosts without clobbering websocket params",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:608] rewrites wildcard bind addresses to secure remote CDP hosts without clobbering websocket params",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:608",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] upgrades ws to wss when CDP uses https",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:618] upgrades ws to wss when CDP uses https",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:618",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] maps blocked browser targets to conflict responses",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:628] maps blocked browser targets to conflict responses",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:628",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] preserves BrowserError mappings",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:640] preserves BrowserError mappings",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:640",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] sanitizes navigation-target SSRF policy errors without leaking raw policy details",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:647] sanitizes navigation-target SSRF policy errors without leaking raw policy details",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:647",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] maps CDP endpoint policy blocks to a distinct endpoint-scoped message",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:658] maps CDP endpoint policy blocks to a distinct endpoint-scoped message",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:658",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns true for ws:// URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:667] returns true for ws:// URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:667",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns true for wss:// URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:672] returns true for wss:// URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:672",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns false for http:// and https:// URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:677] returns false for http:// and https:// URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:677",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns false for invalid or non-URL strings",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:682] returns false for invalid or non-URL strings",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:682",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns true for ws/wss URLs with a /devtools/<kind>/<id> path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:690] returns true for ws/wss URLs with a /devtools/<kind>/<id> path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:690",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns false for bare ws/wss URLs without a /devtools/ path (needs discovery)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:701] returns false for bare ws/wss URLs without a /devtools/ path (needs discovery)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:701",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns false for ws URLs whose path is not /devtools/*",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:709] returns false for ws URLs whose path is not /devtools/*",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:709",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] returns false for http/https URLs, invalid URLs, and empty strings",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:716] returns false for http/https URLs, invalid URLs, and empty strings",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:716",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] accepts wss:// URLs and defaults to port 443",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:725] accepts wss:// URLs and defaults to port 443",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:725",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] accepts ws:// URLs and defaults to port 80",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:732] accepts ws:// URLs and defaults to port 80",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:732",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] preserves explicit ports in wss:// URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:738] preserves explicit ports in wss:// URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:738",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] still accepts http:// and https:// URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:743] still accepts http:// and https:// URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:743",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts] rejects unsupported protocols",
+TEST_CASE("v4.29 [extensions/browser/src/browser/cdp.test.ts:750] rejects unsupported protocols",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/cdp.test.ts:750",
                "upstream it() block #43",

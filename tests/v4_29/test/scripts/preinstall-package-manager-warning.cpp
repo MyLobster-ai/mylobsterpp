@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] prefers npm_config_user_agent when present",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:9] prefers npm_config_user_agent when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] falls back to npm_execpath when user agent is missing",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:17] falls back to npm_execpath when user agent is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] ignores untrusted user-agent tokens with control characters",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:25] ignores untrusted user-agent tokens with control characters",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] returns null for pnpm",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:36] returns null for pnpm",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] warns for npm installs",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:40] warns for npm installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:40",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] warns once for npm lifecycle runs",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:46] warns once for npm lifecycle runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:46",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts] stays quiet for pnpm",
+TEST_CASE("v4.29 [test/scripts/preinstall-package-manager-warning.test.ts:60] stays quiet for pnpm",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/preinstall-package-manager-warning.test.ts:60",
                "upstream it() block #6",

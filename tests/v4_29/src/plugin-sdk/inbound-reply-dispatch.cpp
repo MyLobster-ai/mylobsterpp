@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/inbound-reply-dispatch.test.ts] delegates record and dispatch through the channel turn kernel once",
+TEST_CASE("v4.29 [src/plugin-sdk/inbound-reply-dispatch.test.ts:14] delegates record and dispatch through the channel turn kernel once",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/inbound-reply-dispatch.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/inbound-reply-dispatch.test.ts] exports shared visible reply dispatch helpers",
+TEST_CASE("v4.29 [src/plugin-sdk/inbound-reply-dispatch.test.ts:73] exports shared visible reply dispatch helpers",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/inbound-reply-dispatch.test.ts:73",
                "upstream it() block #1",

@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] returns null for openclaw-test.service (openclaw only in description, no gateway on same line)",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:75] returns null for openclaw-test.service (openclaw only in description, no gateway on same line)",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] returns openclaw for the canonical gateway unit (ExecStart has both openclaw and gateway)",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:79] returns openclaw for the canonical gateway unit (ExecStart has both openclaw and gateway)",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] returns clawdbot for a clawdbot gateway unit",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:83] returns clawdbot for a clawdbot gateway unit",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] handles line continuations — marker and gateway split across physical lines",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:87] handles line continuations — marker and gateway split across physical lines",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] ignores dependency-only references to the gateway unit",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:92] ignores dependency-only references to the gateway unit",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:92",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] ignores non-gateway ExecStart commands that only pass gateway-named options",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:96] ignores non-gateway ExecStart commands that only pass gateway-named options",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:96",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] does not report LaunchAgent companions that only mention the gateway label",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:229] does not report LaunchAgent companions that only mention the gateway label",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:229",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] does not report LaunchAgent companions that only pass gateway-named options",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:250] does not report LaunchAgent companions that only pass gateway-named options",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:250",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] reports custom LaunchAgents that execute openclaw gateway",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:270] reports custom LaunchAgents that execute openclaw gateway",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:270",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] skips schtasks queries unless deep mode is enabled",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:319] skips schtasks queries unless deep mode is enabled",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:319",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] returns empty results when schtasks query fails",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:325] returns empty results when schtasks query fails",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:325",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/inspect.test.ts] collects only non-openclaw marker tasks from schtasks output",
+TEST_CASE("v4.29 [src/daemon/inspect.test.ts:336] collects only non-openclaw marker tasks from schtasks output",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/inspect.test.ts:336",
                "upstream it() block #11",

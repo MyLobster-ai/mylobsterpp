@@ -5,530 +5,530 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] maps changed source files into scoped lane targets",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:101] maps changed source files into scoped lane targets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps changed mode focused by default for Vitest wiring edits",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:110] keeps changed mode focused by default for Vitest wiring edits",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:110",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps the broad changed run available for Vitest wiring edits",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:119] keeps the broad changed run available for Vitest wiring edits",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps test runner implementation edits on runner tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:130] keeps test runner implementation edits on runner tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes group visible reply config changes through channel delivery regressions",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:144] routes group visible reply config changes through channel delivery regressions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes source reply prompt changes through prompt and channel delivery regressions",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:163] routes source reply prompt changes through prompt and channel delivery regressions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes source reply delivery mode changes through channel delivery regressions",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:178] routes source reply delivery mode changes through channel delivery regressions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:178",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes channel reply pipeline SDK changes through SDK and channel delivery regressions",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:194] routes channel reply pipeline SDK changes through SDK and channel delivery regressions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:194",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes reply runtime SDK exports through plugin SDK contract tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:209] routes reply runtime SDK exports through plugin SDK contract tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:209",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps extension batch runner edits on extension script tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:216] keeps extension batch runner edits on extension script tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:216",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] does not route live tests through the normal changed-test lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:223] does not route live tests through the normal changed-test lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:223",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes changed extension vitest configs to their own shard",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:232] routes changed extension vitest configs to their own shard",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:232",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes contract roots to separate contract shards",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:247] routes contract roots to separate contract shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:247",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes misc extensions to the misc extension shard",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:269] routes misc extensions to the misc extension shard",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:269",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes browser extension changes to the browser extension lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:282] routes browser extension changes to the browser extension lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:282",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps shared test helpers cheap by default when no precise target exists",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:297] keeps shared test helpers cheap by default when no precise target exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:297",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps the broad changed run available for shared test helpers",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:305] keeps the broad changed run available for shared test helpers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:305",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes channel contract helper edits through the tests that import them",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:316] routes channel contract helper edits through the tests that import them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:316",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes channel SDK helper edits through the tests that import them",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:326] routes channel SDK helper edits through the tests that import them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:326",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes channel contract helper edits through contract shards",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:337] routes channel contract helper edits through contract shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:337",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes precise plugin contract helpers without broad-running every shard",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:352] routes precise plugin contract helpers without broad-running every shard",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:352",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps unknown root surfaces cheap by default",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:363] keeps unknown root surfaces cheap by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:363",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps the broad changed run available for unknown root surfaces",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:371] keeps the broad changed run available for unknown root surfaces",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:371",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] skips changed docs files that cannot map to test lanes",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:382] skips changed docs files that cannot map to test lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:382",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] skips root agent guidance changes instead of broad-running tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:390] skips root agent guidance changes instead of broad-running tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:390",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] skips app-only changes because app tests are separate from Vitest lanes",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:396] skips app-only changes because app tests are separate from Vitest lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:396",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps public plugin SDK changes focused by default",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:404] keeps public plugin SDK changes focused by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:404",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] adds extension tests for public plugin SDK changes in broad changed mode",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:419] adds extension tests for public plugin SDK changes in broad changed mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:419",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes LM Studio changes to the provider extension lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:443] routes LM Studio changes to the provider extension lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:443",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes QA extension changes to the QA extension lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:458] routes QA extension changes to the QA extension lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:458",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes the top-level extensions target to every extension shard",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:473] routes the top-level extensions target to every extension shard",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:473",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] narrows default-lane changed source files to affected tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:484] narrows default-lane changed source files to affected tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:484",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes changed source files to sibling tests when present",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:499] routes changed source files to sibling tests when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:499",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes changed ui support files to the ui lane without dead include globs",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:514] routes changed ui support files to the ui lane without dead include globs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:514",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes auto-reply route source files to route regression tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:530] routes auto-reply route source files to route regression tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:530",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes ACP command source files to ACP command regression tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:551] routes ACP command source files to ACP command regression tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:551",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes Google Meet CLI edits to the lightweight CLI tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:568] routes Google Meet CLI edits to the lightweight CLI tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:568",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes Google Meet OAuth edits to the lightweight OAuth tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:575] routes Google Meet OAuth edits to the lightweight OAuth tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:575",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes Google Meet entry edits to the plugin entry tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:582] routes Google Meet entry edits to the plugin entry tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:582",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes memory doctor and embedding default edits to focused tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:589] routes memory doctor and embedding default edits to focused tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:589",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes provider auth choice edits to focused auth-choice tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:605] routes provider auth choice edits to focused auth-choice tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:605",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes provider env var edits to focused secret tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:615] routes provider env var edits to focused secret tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:615",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes changed utils and shared files to their light scoped lanes",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:625] routes changed utils and shared files to their light scoped lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:625",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes explicit plugin-sdk light tests to the lighter plugin-sdk lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:647] routes explicit plugin-sdk light tests to the lighter plugin-sdk lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:647",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes explicit commands light tests to the lighter commands lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:660] routes explicit commands light tests to the lighter commands lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:660",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes unit-fast light tests to the cache-friendly unit-fast lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:673] routes unit-fast light tests to the cache-friendly unit-fast lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:673",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes changed commands source allowlist files to sibling light tests",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:689] routes changed commands source allowlist files to sibling light tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:689",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes plugin-sdk source files with sibling tests narrowly by default",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:708] routes plugin-sdk source files with sibling tests narrowly by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:708",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes plugin-sdk source files with sibling tests plus extensions in broad changed mode",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:723] routes plugin-sdk source files with sibling tests plus extensions in broad changed mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:723",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] routes command source files with sibling tests narrowly on the command lane",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:747] routes command source files with sibling tests narrowly on the command lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:747",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps changed mode to precise targets by default",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:762] keeps changed mode to precise targets by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:762",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps broad changed fallback available through explicit env",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:769] keeps broad changed fallback available through explicit env",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:769",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] uses import-graph targets in default changed mode",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:780] uses import-graph targets in default changed mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:780",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] skips the lock for a single scoped tooling run",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:811] skips the lock for a single scoped tooling run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:811",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps the lock for non-tooling runs",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:826] keeps the lock for non-tooling runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:826",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] skips the lock when a parent changed gate already holds it",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:841] skips the lock when a parent changed gate already holds it",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:841",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] allows forcing the lock back on",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:859] allows forcing the lock back on",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:859",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] covers each normal full-suite test file exactly once",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:879] covers each normal full-suite test file exactly once",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:879",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] uses the large host-aware local profile on roomy local hosts",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:912] uses the large host-aware local profile on roomy local hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:912",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps CI full-suite runs serial even on roomy hosts",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:926] keeps CI full-suite runs serial even on roomy hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:926",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps explicit parallel overrides ahead of the host-aware profile",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:942] keeps explicit parallel overrides ahead of the host-aware profile",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:942",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps serial untargeted runs on aggregate shards",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:958] keeps serial untargeted runs on aggregate shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:958",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] expands untargeted local runs to leaf project configs by default",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:994] expands untargeted local runs to leaf project configs by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:994",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] can skip the aggregate extension shard when CI runs dedicated extension shards",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1055] can skip the aggregate extension shard when CI runs dedicated extension shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1055",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] can expand full-suite shards to project configs for perf experiments",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1086] can expand full-suite shards to project configs for perf experiments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1086",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] skips extension project configs when leaf sharding and the aggregate extension shard is disabled",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1186] skips extension project configs when leaf sharding and the aggregate extension shard is disabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1186",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] expands full-suite shards before running them in parallel",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1211] expands full-suite shards before running them in parallel",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1211",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps untargeted watch mode on the native root config",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1235] keeps untargeted watch mode on the native root config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1235",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] assigns isolated Vitest fs-module cache paths per parallel shard",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1248] assigns isolated Vitest fs-module cache paths per parallel shard",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1248",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps an explicit global cache path",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1277] keeps an explicit global cache path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1277",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] adds a default no-output timeout to non-watch specs",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1288] adds a default no-output timeout to non-watch specs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1288",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps explicit watchdog settings and watch mode untouched",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1308] keeps explicit watchdog settings and watch mode untouched",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1308",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] allows changed checks to disable automatic silent-run retries",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1335] allows changed checks to disable automatic silent-run retries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1335",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] assigns isolated fs-module caches to multi-spec non-watch runs",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1346] assigns isolated fs-module caches to multi-spec non-watch runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1346",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-projects.test.ts] keeps single-spec and watch runs on the default cache",
+TEST_CASE("v4.29 [test/scripts/test-projects.test.ts:1385] keeps single-spec and watch runs on the default cache",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-projects.test.ts:1385",
                "upstream it() block #74",

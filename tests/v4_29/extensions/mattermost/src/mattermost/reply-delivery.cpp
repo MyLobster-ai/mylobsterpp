@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts] suppresses payloads flagged as reasoning",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts:41] suppresses payloads flagged as reasoning",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reply-delivery.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts] suppresses reasoning-prefixed payloads even without an explicit flag",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts:62] suppresses reasoning-prefixed payloads even without an explicit flag",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reply-delivery.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts] suppresses reasoning payloads formatted as a Mattermost blockquote",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts:83] suppresses reasoning payloads formatted as a Mattermost blockquote",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reply-delivery.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts] does not suppress messages that mention Reasoning: mid-text",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts:104] does not suppress messages that mention Reasoning: mid-text",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reply-delivery.test.ts:104",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts] passes agent-scoped mediaLocalRoots when sending media paths",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts:134] passes agent-scoped mediaLocalRoots when sending media paths",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reply-delivery.test.ts:134",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts] forwards replyToId for text-only chunked replies",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reply-delivery.test.ts:182] forwards replyToId for text-only chunked replies",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reply-delivery.test.ts:182",
                "upstream it() block #5",

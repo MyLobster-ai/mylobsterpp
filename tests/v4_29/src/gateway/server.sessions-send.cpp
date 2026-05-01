@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions-send.test.ts] returns reply when lifecycle ends before agent.wait",
+TEST_CASE("v4.29 [src/gateway/server.sessions-send.test.ts:115] returns reply when lifecycle ends before agent.wait",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions-send.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions-send.test.ts] finds session by label and sends message",
+TEST_CASE("v4.29 [src/gateway/server.sessions-send.test.ts:163] finds session by label and sends message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions-send.test.ts:163",
                "upstream it() block #1",

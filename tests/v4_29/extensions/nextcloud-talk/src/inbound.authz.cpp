@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/inbound.authz.test.ts] does not treat DM pairing-store entries as group allowlist entries",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/inbound.authz.test.ts:39] does not treat DM pairing-store entries as group allowlist entries",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/inbound.authz.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/inbound.authz.test.ts] matches group rooms by token instead of colliding room names",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/inbound.authz.test.ts:96] matches group rooms by token instead of colliding room names",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/inbound.authz.test.ts:96",
                "upstream it() block #1",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] canonicalizes decoded case/slash variants",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:19] canonicalizes decoded case/slash variants",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] resolves traversal after repeated decoding",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:38] resolves traversal after repeated decoding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] marks malformed encoding",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:48] marks malformed encoding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] resolves 4x encoded slash path variants to protected channel routes",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:53] resolves 4x encoded slash path variants to protected channel routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] flags decode depth overflow and fails closed for protected prefix checks",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:61] flags decode depth overflow and fails closed for protected prefix checks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] protects plugin channel path variant: ${path}",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:84] protects plugin channel path variant: ${path}",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:84",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/security-path.test.ts] does not protect unrelated paths",
+TEST_CASE("v4.29 [src/gateway/security-path.test.ts:90] does not protect unrelated paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/security-path.test.ts:90",
                "upstream it() block #6",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] does not accumulate :heartbeat suffix when wake passes an already-suffixed key",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:102] does not accumulate :heartbeat suffix when wake passes an already-suffixed key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] appends :heartbeat exactly once from a clean base key",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:140] appends :heartbeat exactly once from a clean base key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:140",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] stays stable even with multiply-accumulated suffixes",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:156] stays stable even with multiply-accumulated suffixes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:156",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] keeps isolated keys distinct when the configured base key already ends with :heartbeat",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:188] keeps isolated keys distinct when the configured base key already ends with :heartbeat",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:188",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] consumes base-session cron events when isolated heartbeat runs on a :heartbeat session",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:204] consumes base-session cron events when isolated heartbeat runs on a :heartbeat session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:204",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] stays stable for wake re-entry when the configured base key already ends with :heartbeat",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:260] stays stable for wake re-entry when the configured base key already ends with :heartbeat",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:260",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] classifies hook:wake exec events when they are queued on the active isolated session",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:295] classifies hook:wake exec events when they are queued on the active isolated session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:295",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] keeps a forced real :heartbeat session distinct from the heartbeat-isolated sibling",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:340] keeps a forced real :heartbeat session distinct from the heartbeat-isolated sibling",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:340",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] stays stable when a forced real :heartbeat session re-enters through its isolated sibling",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:356] stays stable when a forced real :heartbeat session re-enters through its isolated sibling",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:356",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] does not create an isolated session when task-based heartbeat skips for no-tasks-due",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:394] does not create an isolated session when task-based heartbeat skips for no-tasks-due",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:394",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts] converges a legacy isolated key that lacks the stored marker (single :heartbeat suffix)",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.isolated-key-stability.test.ts:457] converges a legacy isolated key that lacks the stored marker (single :heartbeat suffix)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.isolated-key-stability.test.ts:457",
                "upstream it() block #10",

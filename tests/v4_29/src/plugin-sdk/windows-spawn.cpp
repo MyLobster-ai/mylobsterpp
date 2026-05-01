@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/windows-spawn.test.ts] fails closed by default for unresolved windows wrappers",
+TEST_CASE("v4.29 [src/plugin-sdk/windows-spawn.test.ts:15] fails closed by default for unresolved windows wrappers",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/windows-spawn.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/windows-spawn.test.ts] only returns shell fallback when explicitly opted in",
+TEST_CASE("v4.29 [src/plugin-sdk/windows-spawn.test.ts:30] only returns shell fallback when explicitly opted in",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/windows-spawn.test.ts:30",
                "upstream it() block #1",

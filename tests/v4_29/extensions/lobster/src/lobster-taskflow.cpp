@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] creates a flow and finishes it when Lobster succeeds",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:61] creates a flow and finishes it when Lobster succeeds",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] moves the flow to waiting when Lobster requests approval",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:84] moves the flow to waiting when Lobster requests approval",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] fails the flow when Lobster returns an error envelope",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:115] fails the flow when Lobster returns an error envelope",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] fails the flow when the runner throws",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:135] fails the flow when the runner throws",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] resumes the flow and finishes it on success",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:153] resumes the flow and finishes it on success",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:153",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] returns a mutation error when taskFlow resume is rejected",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:177] returns a mutation error when taskFlow resume is rejected",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:177",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts] returns to waiting when the resumed Lobster run needs approval again",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-taskflow.test.ts:198] returns to waiting when the resumed Lobster run needs approval again",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-taskflow.test.ts:198",
                "upstream it() block #6",

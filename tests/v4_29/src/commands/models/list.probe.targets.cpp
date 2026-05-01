@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] reports invalid_expires with a legacy-compatible first error line",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:217] reports invalid_expires with a legacy-compatible first error line",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:217",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] reports excluded_by_auth_order when profile id is not present in explicit order",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:225] reports excluded_by_auth_order when profile id is not present in explicit order",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:225",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] reports unresolved_ref when a ref-only profile cannot resolve its SecretRef",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:237] reports unresolved_ref when a ref-only profile cannot resolve its SecretRef",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:237",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] skips marker-only models.json credentials when building probe targets",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:262] skips marker-only models.json credentials when building probe targets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:262",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] does not treat arbitrary all-caps models.json apiKey values as markers",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:275] does not treat arbitrary all-caps models.json apiKey values as markers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:275",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] matches canonical providers against alias-valued catalog probe models",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:295] matches canonical providers against alias-valued catalog probe models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:295",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] uses workspace-scoped auth evidence when building env probe targets",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:341] uses workspace-scoped auth evidence when building env probe targets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:341",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts] uses the requested agent auth store when building profile probe targets",
+TEST_CASE("v4.29 [src/commands/models/list.probe.targets.test.ts:385] uses the requested agent auth store when building profile probe targets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.probe.targets.test.ts:385",
                "upstream it() block #7",

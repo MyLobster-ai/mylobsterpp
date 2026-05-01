@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] generates PNG buffers through the shared provider HTTP path",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:53] generates PNG buffers through the shared provider HTTP path",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] keeps the dedicated global image endpoint when text config uses the global API host",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:93] keeps the dedicated global image endpoint when text config uses the global API host",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] does not inherit unrelated MiniMax text endpoint hosts for image generation",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:117] does not inherit unrelated MiniMax text endpoint hosts for image generation",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] uses the dedicated CN image endpoint when CN API host is configured",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:141] uses the dedicated CN image endpoint when CN API host is configured",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] infers the dedicated CN image endpoint from MiniMax provider config",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:157] infers the dedicated CN image endpoint from MiniMax provider config",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] infers the dedicated CN image endpoint from MiniMax Portal provider config",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:181] infers the dedicated CN image endpoint from MiniMax Portal provider config",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:181",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts] ignores private custom text endpoints for image generation",
+TEST_CASE("v4.29 [extensions/minimax/image-generation-provider.test.ts:205] ignores private custom text endpoints for image generation",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/image-generation-provider.test.ts:205",
                "upstream it() block #6",

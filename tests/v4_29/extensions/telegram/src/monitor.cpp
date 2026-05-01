@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] processes a DM and sends reply",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:412] processes a DM and sends reply",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:412",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] uses agent maxConcurrent for runner concurrency",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:434] uses agent maxConcurrent for runner concurrency",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:434",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] requires mention in groups by default",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:456] requires mention in groups by default",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:456",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] retries on recoverable undici fetch errors",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:475] retries on recoverable undici fetch errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:475",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] deletes webhook before starting polling",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:491] deletes webhook before starting polling",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:491",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] retries recoverable deleteWebhook failures before polling",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:498] retries recoverable deleteWebhook failures before polling",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:498",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] continues polling when deleteWebhook transiently fails but webhook is already absent",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:513] continues polling when deleteWebhook transiently fails but webhook is already absent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:513",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] retries cleanup when deleteWebhook and webhook confirmation both transiently fail",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:529] retries cleanup when deleteWebhook and webhook confirmation both transiently fail",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:529",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] retries setup-time recoverable errors before starting polling",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:544] retries setup-time recoverable errors before starting polling",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:544",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] awaits runner.stop before retrying after recoverable polling error",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:555] awaits runner.stop before retrying after recoverable polling error",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:555",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] stops bot instance when polling cycle exits",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:582] stops bot instance when polling cycle exits",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:582",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] refuses a concurrent same-token polling monitor before starting another runner",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:592] refuses a concurrent same-token polling monitor before starting another runner",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:592",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] allows concurrent polling monitors for different bot tokens",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:608] allows concurrent polling monitors for different bot tokens",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:608",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] starts a same-token replacement after the previous monitor releases",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:632] starts a same-token replacement after the previous monitor releases",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:632",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] clears bounded cleanup timers after a clean stop",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:655] clears bounded cleanup timers after a clean stop",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:655",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] surfaces non-recoverable errors",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:669] surfaces non-recoverable errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:669",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] force-restarts polling when unhandled network rejection stalls runner",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:679] force-restarts polling when unhandled network rejection stalls runner",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:679",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] force-restarts polling when uncaught network exception stalls runner",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:697] force-restarts polling when uncaught network exception stalls runner",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:697",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] force-restarts polling when uncaught polling HttpError stalls runner",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:713] force-restarts polling when uncaught polling HttpError stalls runner",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:713",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] rebuilds the resolved transport after a stalled polling restart",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:729] rebuilds the resolved transport after a stalled polling restart",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:729",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] rebuilds the resolved transport after an unhandled polling network rejection",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:766] rebuilds the resolved transport after an unhandled polling network rejection",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:766",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] aborts the active Telegram fetch when unhandled network rejection forces restart",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:798] aborts the active Telegram fetch when unhandled network rejection forces restart",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:798",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] ignores unrelated process-level network errors while telegram polling is active",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:817] ignores unrelated process-level network errors while telegram polling is active",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:817",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] passes configured webhookHost to webhook listener",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:843] passes configured webhookHost to webhook listener",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:843",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] webhook mode waits for abort signal before returning",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:870] webhook mode waits for abort signal before returning",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:870",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] force-restarts polling when getUpdates stalls (watchdog)",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:889] force-restarts polling when getUpdates stalls (watchdog)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:889",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] uses configured Telegram polling stall threshold",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:909] uses configured Telegram polling stall threshold",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:909",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] does not call getUpdates for offset confirmation (avoids 409 conflicts)",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:934] does not call getUpdates for offset confirmation (avoids 409 conflicts)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:934",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] skips offset confirmation when no persisted offset exists",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:944] skips offset confirmation when no persisted offset exists",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:944",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] skips offset confirmation when persisted offset is invalid",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:948] skips offset confirmation when persisted offset is invalid",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:948",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] skips offset confirmation when persisted offset cannot be safely incremented",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:952] skips offset confirmation when persisted offset cannot be safely incremented",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:952",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] resets webhookCleared latch on 409 conflict so deleteWebhook re-runs, and rebuilds transport for a fresh TCP socket (#69787)",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:956] resets webhookCleared latch on 409 conflict so deleteWebhook re-runs, and rebuilds transport for a fresh TCP socket (#69787)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:956",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts] falls back to configured webhookSecret when not passed explicitly",
+TEST_CASE("v4.29 [extensions/telegram/src/monitor.test.ts:1017] falls back to configured webhookSecret when not passed explicitly",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/monitor.test.ts:1017",
                "upstream it() block #32",

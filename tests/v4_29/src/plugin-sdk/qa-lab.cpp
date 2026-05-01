@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts] keeps the qa-lab facade cold until used",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts:25] keeps the qa-lab facade cold until used",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-lab.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts] delegates qa cli registration through the bundled public surface",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts:36] delegates qa cli registration through the bundled public surface",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-lab.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts] delegates qa cli availability through the bundled public surface",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts:43] delegates qa cli availability through the bundled public surface",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-lab.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts] reports qa-lab unavailable when private facade artifacts are not packed",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-lab.test.ts:50] reports qa-lab unavailable when private facade artifacts are not packed",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-lab.test.ts:50",
                "upstream it() block #3",

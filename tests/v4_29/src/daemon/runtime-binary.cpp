@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts] recognizes standard node binaries",
+TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts:5] recognizes standard node binaries",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-binary.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts] recognizes versioned node binaries with and without dashes",
+TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts:12] recognizes versioned node binaries with and without dashes",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-binary.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts] handles quotes and casing",
+TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts:21] handles quotes and casing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-binary.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts] rejects non-node runtimes",
+TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts:26] rejects non-node runtimes",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-binary.test.ts:26",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts] recognizes bun binaries",
+TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts:35] recognizes bun binaries",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-binary.test.ts:35",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts] rejects non-bun runtimes",
+TEST_CASE("v4.29 [src/daemon/runtime-binary.test.ts:41] rejects non-bun runtimes",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/runtime-binary.test.ts:41",
                "upstream it() block #5",

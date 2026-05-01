@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] registers DeepSeek with api-key auth wizard metadata",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:56] registers DeepSeek with api-key auth wizard metadata",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] builds the static DeepSeek model catalog",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:72] builds the static DeepSeek model catalog",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] owns OpenAI-compatible replay policy",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:100] owns OpenAI-compatible replay policy",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] advertises max thinking levels for DeepSeek V4 models only",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:113] advertises max thinking levels for DeepSeek V4 models only",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] maps thinking levels to DeepSeek V4 payload controls",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:144] maps thinking levels to DeepSeek V4 payload controls",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] preserves replayed reasoning_content when DeepSeek V4 thinking is enabled",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:194] preserves replayed reasoning_content when DeepSeek V4 thinking is enabled",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] adds blank reasoning_content for replayed tool calls from non-DeepSeek turns",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:267] adds blank reasoning_content for replayed tool calls from non-DeepSeek turns",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:267",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] adds blank reasoning_content for replayed plain assistant messages",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:329] adds blank reasoning_content for replayed plain assistant messages",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] strips replayed reasoning_content when DeepSeek V4 thinking is disabled",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:368] strips replayed reasoning_content when DeepSeek V4 thinking is disabled",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:368",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepseek/index.test.ts] publishes configured DeepSeek models through plugin-owned catalog augmentation",
+TEST_CASE("v4.29 [extensions/deepseek/index.test.ts:431] publishes configured DeepSeek models through plugin-owned catalog augmentation",
           "[v4_29][parity_gap][deepseek]") {
     PARITY_GAP("extensions/deepseek/index.test.ts:431",
                "upstream it() block #9",

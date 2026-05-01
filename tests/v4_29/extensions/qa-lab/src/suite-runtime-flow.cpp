@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-flow.test.ts] wires the split suite runtime deps into the scenario runtime api",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-flow.test.ts:149] wires the split suite runtime deps into the scenario runtime api",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-flow.test.ts:149",
                "upstream it() block #0",

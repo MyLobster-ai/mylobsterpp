@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.integration.test.ts] loads an activated qa runner from a linked plugin path without a bundled install fallback",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runner-runtime.integration.test.ts:46] loads an activated qa runner from a linked plugin path without a bundled install fallback",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runner-runtime.integration.test.ts:46",
                "upstream it() block #0",

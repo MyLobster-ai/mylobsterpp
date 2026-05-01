@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/synthetic-auth.runtime.test.ts] uses persisted registry synthetic auth refs before the runtime registry exists",
+TEST_CASE("v4.29 [src/plugins/synthetic-auth.runtime.test.ts:43] uses persisted registry synthetic auth refs before the runtime registry exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/synthetic-auth.runtime.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/synthetic-auth.runtime.test.ts] does not derive the registry just to resolve synthetic auth refs",
+TEST_CASE("v4.29 [src/plugins/synthetic-auth.runtime.test.ts:64] does not derive the registry just to resolve synthetic auth refs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/synthetic-auth.runtime.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/synthetic-auth.runtime.test.ts] prefers the active runtime registry when plugins are already loaded",
+TEST_CASE("v4.29 [src/plugins/synthetic-auth.runtime.test.ts:80] prefers the active runtime registry when plugins are already loaded",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/synthetic-auth.runtime.test.ts:80",
                "upstream it() block #2",

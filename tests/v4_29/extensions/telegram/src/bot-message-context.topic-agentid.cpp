@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts] uses group-level agent when no topic agentId is set",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts:63] uses group-level agent when no topic agentId is set",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.topic-agentid.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts] routes to topic-specific agent when agentId is set",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts:70] routes to topic-specific agent when agentId is set",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.topic-agentid.test.ts:70",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts] different topics route to different agents",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts:80] different topics route to different agents",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.topic-agentid.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts] ignores whitespace-only agentId and uses group-level agent",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts:96] ignores whitespace-only agentId and uses group-level agent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.topic-agentid.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts] preserves an unknown topic agentId in the session key",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts:105] preserves an unknown topic agentId in the session key",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.topic-agentid.test.ts:105",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts] routes DM topic to specific agent when agentId is set",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.topic-agentid.test.ts:120] routes DM topic to specific agent when agentId is set",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.topic-agentid.test.ts:120",
                "upstream it() block #5",

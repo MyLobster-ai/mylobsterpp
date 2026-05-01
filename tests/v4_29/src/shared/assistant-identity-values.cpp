@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts] returns undefined for missing or blank values",
+TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts:5] returns undefined for missing or blank values",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/assistant-identity-values.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts] trims values and preserves strings within the limit",
+TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts:11] trims values and preserves strings within the limit",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/assistant-identity-values.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts] truncates overlong trimmed values at the exact limit",
+TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts:16] truncates overlong trimmed values at the exact limit",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/assistant-identity-values.test.ts:16",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts] returns an empty string when truncating to a zero-length limit",
+TEST_CASE("v4.29 [src/shared/assistant-identity-values.test.ts:20] returns an empty string when truncating to a zero-length limit",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/assistant-identity-values.test.ts:20",
                "upstream it() block #3",

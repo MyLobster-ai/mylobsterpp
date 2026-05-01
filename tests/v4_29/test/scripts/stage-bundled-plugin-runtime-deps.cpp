@@ -5,285 +5,285 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] pins fallback install specs to exact installed versions",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:49] pins fallback install specs to exact installed versions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] rejects unsafe runtime dependency specs for fallback installs",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:90] rejects unsafe runtime dependency specs for fallback installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] writes required and optional fallback deps into one manifest",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:101] writes required and optional fallback deps into one manifest",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] hides npm child windows during fallback runtime installs",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:133] hides npm child windows during fallback runtime installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:133",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] forces fallback runtime installs off inherited npm dry-run mode",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:158] forces fallback runtime installs off inherited npm dry-run mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] skips restaging when runtime deps stamp matches the sanitized manifest",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:183] skips restaging when runtime deps stamp matches the sanitized manifest",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:183",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] restages when the manifest-owned runtime deps change",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:236] restages when the manifest-owned runtime deps change",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] restages when the root pnpm lockfile changes",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:275] restages when the root pnpm lockfile changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:275",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] retries stale temp dir cleanup races before staging runtime deps",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:311] retries stale temp dir cleanup races before staging runtime deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:311",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] keeps runtime deps temp dirs owned by a live build process",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:355] keeps runtime deps temp dirs owned by a live build process",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:355",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] restores atomically replaced dirs when concurrent cleanup runs during rename failure",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:385] restores atomically replaced dirs when concurrent cleanup runs during rename failure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:385",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] retries transient backup cleanup during atomic replace",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:423] retries transient backup cleanup during atomic replace",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:423",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] keeps a successful replacement when backup cleanup hits transient ENOTEMPTY",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:454] keeps a successful replacement when backup cleanup hits transient ENOTEMPTY",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:454",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] keeps successful root staging when owned stage temp cleanup races",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:501] keeps successful root staging when owned stage temp cleanup races",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:501",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] restages when installed root runtime dependency contents change",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:546] restages when installed root runtime dependency contents change",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:546",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] restages when plugin-local installed runtime dependency contents change",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:577] restages when plugin-local installed runtime dependency contents change",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:577",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] fingerprints regular files when readdir reports symlink-like entries",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:626] fingerprints regular files when readdir reports symlink-like entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:626",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] refuses to replace a symlinked plugin node_modules directory",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:684] refuses to replace a symlinked plugin node_modules directory",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:684",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] refuses to write a runtime deps stamp through a symlink",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:711] refuses to write a runtime deps stamp through a symlink",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:711",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] stages runtime deps from the root node_modules when already installed",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:739] stages runtime deps from the root node_modules when already installed",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:739",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] removes legacy runtime dependency stamps from dist",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:766] removes legacy runtime dependency stamps from dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:766",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] skips missing optional runtime deps when copying the installed closure",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:791] skips missing optional runtime deps when copying the installed closure",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:791",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] prunes staged test cargo from copied runtime dependencies",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:828] prunes staged test cargo from copied runtime dependencies",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:828",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] preserves nested runtime dependencies named test or tests",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:881] preserves nested runtime dependencies named test or tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:881",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] stages hoisted transitive runtime deps from the root node_modules",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:942] stages hoisted transitive runtime deps from the root node_modules",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:942",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] stages nested dependency trees from installed direct package roots",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:982] stages nested dependency trees from installed direct package roots",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:982",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back to install when a dependency tree contains an unowned symlinked directory",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1020] falls back to install when a dependency tree contains an unowned symlinked directory",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1020",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] dedupes cyclic dependency aliases by canonical root",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1064] dedupes cyclic dependency aliases by canonical root",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1064",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back to install when a dependency name escapes node_modules",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1110] falls back to install when a dependency name escapes node_modules",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1110",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back to install when a staged dependency tree contains a symlink outside copied roots",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1139] falls back to install when a staged dependency tree contains a symlink outside copied roots",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1139",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back to install when the root transitive closure is incomplete",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1184] falls back to install when the root transitive closure is incomplete",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1184",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] removes global non-runtime suffixes from staged runtime dependencies",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1229] removes global non-runtime suffixes from staged runtime dependencies",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1229",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] applies package-specific cargo prune rules after staging",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1258] applies package-specific cargo prune rules after staging",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1258",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] honors keepDirectories to opt a subtree out of global basename prune",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1303] honors keepDirectories to opt a subtree out of global basename prune",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1303",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] applies default prune rules for known heavy non-runtime package cargo",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1363] applies default prune rules for known heavy non-runtime package cargo",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1363",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back to staging installs when the root dependency version is incompatible",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1428] falls back to staging installs when the root dependency version is incompatible",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1428",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back when a ^0.0.x root dependency exceeds the patch ceiling",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1473] falls back when a ^0.0.x root dependency exceeds the patch ceiling",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1473",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] falls back when a stable caret range only matches a prerelease root build",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1509] falls back when a stable caret range only matches a prerelease root build",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1509",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] retries transient runtime dependency staging failures before surfacing an error",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1545] retries transient runtime dependency staging failures before surfacing an error",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1545",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts] surfaces the last staging error after exhausting retries",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1576] surfaces the last staging error after exhausting retries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime-deps.test.ts:1576",
                "upstream it() block #39",

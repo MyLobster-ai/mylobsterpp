@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] redacts secret CLI arguments in diagnostic command text",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:14] redacts secret CLI arguments in diagnostic command text",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] redacts Matrix token output before diagnostics and artifacts",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:33] redacts Matrix token output before diagnostics and artifacts",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] prefers the ESM OpenClaw CLI entrypoint when present",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:39] prefers the ESM OpenClaw CLI entrypoint when present",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] can preserve expected non-zero CLI output for negative scenarios",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:50] can preserve expected non-zero CLI output for negative scenarios",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] can pass stdin to CLI commands",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:77] can pass stdin to CLI commands",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] can close stdin after interactive CLI prompts",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:105] can close stdin after interactive CLI prompts",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:105",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts] includes timed-out CLI output in diagnostics",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:144] includes timed-out CLI output in diagnostics",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/scenario-runtime-cli.test.ts:144",
                "upstream it() block #6",

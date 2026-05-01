@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] joins setupCommand arrays with newlines",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:10] joins setupCommand arrays with newlines",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] accepts safe binds array in sandbox.docker config",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:30] accepts safe binds array in sandbox.docker config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] accepts non-empty Docker GPU passthrough config",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:65] accepts non-empty Docker GPU passthrough config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects empty Docker GPU passthrough config",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:83] rejects empty Docker GPU passthrough config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects network host mode via Zod schema validation",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:98] rejects network host mode via Zod schema validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects container namespace join by default",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:113] rejects container namespace join by default",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] allows container namespace join with explicit dangerous override",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:128] allows container namespace join with explicit dangerous override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:128",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] uses agent override precedence for dangerous sandbox docker booleans",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:144] uses agent override precedence for dangerous sandbox docker booleans",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:144",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects seccomp unconfined via Zod schema validation",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:169] rejects seccomp unconfined via Zod schema validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:169",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects apparmor unconfined via Zod schema validation",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:184] rejects apparmor unconfined via Zod schema validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:184",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects non-string values in binds array",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:199] rejects non-string values in binds array",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:199",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] accepts binds array in sandbox.browser config",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:216] accepts binds array in sandbox.browser config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:216",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects non-string values in browser binds array",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:236] rejects non-string values in browser binds array",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:236",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] merges global and agent browser binds",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:251] merges global and agent browser binds",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:251",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] treats empty binds as configured (override to none)",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:260] treats empty binds as configured (override to none)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:260",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] ignores agent browser binds under shared scope",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:269] ignores agent browser binds under shared scope",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:269",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] returns undefined binds when none configured",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:285] returns undefined binds when none configured",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:285",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] defaults browser network to dedicated sandbox network",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:294] defaults browser network to dedicated sandbox network",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:294",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] prefers agent browser network over global browser network",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:303] prefers agent browser network over global browser network",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:303",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] merges cdpSourceRange with agent override",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:312] merges cdpSourceRange with agent override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:312",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects host network mode in sandbox.browser config",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:321] rejects host network mode in sandbox.browser config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:321",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] rejects container namespace join in sandbox.browser config by default",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:336] rejects container namespace join in sandbox.browser config by default",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:336",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts] allows container namespace join in sandbox.browser config with explicit dangerous override",
+TEST_CASE("v4.29 [src/config/config.sandbox-docker.test.ts:351] allows container namespace join in sandbox.browser config with explicit dangerous override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.sandbox-docker.test.ts:351",
                "upstream it() block #22",

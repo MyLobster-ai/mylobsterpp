@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] plans the full release path against package-backed e2e images",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:30] plans the full release path against package-backed e2e images",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] plans Open WebUI only when release-path coverage requests it",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:61] plans Open WebUI only when release-path coverage requests it",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] splits release-path package and plugin chunks across shorter CI jobs",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:77] splits release-path package and plugin chunks across shorter CI jobs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] keeps legacy release chunk names as aggregate aliases",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:289] keeps legacy release chunk names as aggregate aliases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:289",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] plans a live-only selected lane without package e2e images",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:342] plans a live-only selected lane without package e2e images",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:342",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] plans Open WebUI as a functional-image lane with OpenAI credentials",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:355] plans Open WebUI as a functional-image lane with OpenAI credentials",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:355",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] surfaces Docker lane test-state scenarios in plan JSON",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:375] surfaces Docker lane test-state scenarios in plan JSON",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:375",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] maps the legacy bundled channel deps lane to the split compat lane",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:480] maps the legacy bundled channel deps lane to the split compat lane",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:480",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] maps installer E2E to provider-specific package install lanes",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:493] maps installer E2E to provider-specific package install lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:493",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] maps bundled plugin install/uninstall to package-backed shards",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:511] maps bundled plugin install/uninstall to package-backed shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:511",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts] rejects unknown selected lanes with the available lane names",
+TEST_CASE("v4.29 [test/scripts/docker-e2e-plan.test.ts:546] rejects unknown selected lanes with the available lane names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-e2e-plan.test.ts:546",
                "upstream it() block #10",

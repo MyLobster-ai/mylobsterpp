@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-wizard.test.ts] builds model-picker entries from plugin metadata and provider-method choices",
+TEST_CASE("v4.29 [src/plugins/provider-wizard.test.ts:271] builds model-picker entries from plugin metadata and provider-method choices",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-wizard.test.ts:271",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-wizard.test.ts] resolves providers in setup mode across wizard consumers",
+TEST_CASE("v4.29 [src/plugins/provider-wizard.test.ts:296] resolves providers in setup mode across wizard consumers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-wizard.test.ts:296",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-wizard.test.ts] routes model-selected hooks only to the matching provider",
+TEST_CASE("v4.29 [src/plugins/provider-wizard.test.ts:309] routes model-selected hooks only to the matching provider",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-wizard.test.ts:309",
                "upstream it() block #2",

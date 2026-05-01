@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] coalesces multiple wake requests into one run",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:54] coalesces multiple wake requests into one run",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] retries requests-in-flight after the default retry delay",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:74] retries requests-in-flight after the default retry delay",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] keeps retry cooldown even when a sooner request arrives",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:103] keeps retry cooldown even when a sooner request arrives",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] retries thrown handler errors after the default retry delay",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:121] retries thrown handler errors after the default retry delay",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] stale disposer does not clear a newer handler",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:134] stale disposer does not clear a newer handler",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:134",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] preempts existing timer when a sooner schedule is requested",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:160] preempts existing timer when a sooner schedule is requested",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:160",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] keeps existing timer when later schedule is requested",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:177] keeps existing timer when later schedule is requested",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:177",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] does not downgrade a higher-priority pending reason",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:192] does not downgrade a higher-priority pending reason",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:192",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] resets running/scheduled flags when new handler is registered",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:205] resets running/scheduled flags when new handler is registered",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:205",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] clears stale retry cooldown when a new handler is registered",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:239] clears stale retry cooldown when a new handler is registered",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:239",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] drains pending wake once a handler is registered",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:260] drains pending wake once a handler is registered",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:260",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] forwards wake target fields and preserves them across retries",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:279] forwards wake target fields and preserves them across retries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:279",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] preserves heartbeat override when same-target wakes coalesce",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:310] preserves heartbeat override when same-target wakes coalesce",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:310",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts] executes distinct targeted wakes queued in the same coalescing window",
+TEST_CASE("v4.29 [src/infra/heartbeat-wake.test.ts:340] executes distinct targeted wakes queued in the same coalescing window",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-wake.test.ts:340",
                "upstream it() block #13",

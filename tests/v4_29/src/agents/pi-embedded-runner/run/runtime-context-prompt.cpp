@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] keeps unchanged prompts as a normal user prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:9] keeps unchanged prompts as a normal user prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] moves hidden runtime context out of the visible prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:18] moves hidden runtime context out of the visible prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] preserves prompt additions as hidden runtime context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:39] preserves prompt additions as hidden runtime context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] uses a marker prompt for runtime-only events",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:51] uses a marker prompt for runtime-only events",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] queues runtime context as a hidden next-turn custom message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:65] queues runtime context as a hidden next-turn custom message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] labels next-turn runtime context only when used as prompt-local system context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:90] labels next-turn runtime context only when used as prompt-local system context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts] labels runtime-only events as system context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:100] labels runtime-only events as system context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/runtime-context-prompt.test.ts:100",
                "upstream it() block #6",

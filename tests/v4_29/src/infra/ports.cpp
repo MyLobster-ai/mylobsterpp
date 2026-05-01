@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] ensurePortAvailable rejects when port busy",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:71] ensurePortAvailable rejects when port busy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] handlePortError exits nicely on EADDRINUSE",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:82] handlePortError exits nicely on EADDRINUSE",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] prints an OpenClaw-specific hint when port details look like another OpenClaw instance",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:98] prints an OpenClaw-specific hint when port details look like another OpenClaw instance",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:98",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] reports busy when lsof is missing but loopback listener exists",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:118] reports busy when lsof is missing but loopback listener exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] falls back to ss when lsof is unavailable",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:139] falls back to ss when lsof is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] uses PowerShell process command lines to classify OpenClaw listeners",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:202] uses PowerShell process command lines to classify OpenClaw listeners",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:202",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/ports.test.ts] falls back to wmic when PowerShell cannot read the command line",
+TEST_CASE("v4.29 [src/infra/ports.test.ts:238] falls back to wmic when PowerShell cannot read the command line",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/ports.test.ts:238",
                "upstream it() block #6",

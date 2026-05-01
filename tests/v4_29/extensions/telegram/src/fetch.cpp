@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] normalizes a full bot endpoint apiRoot before callers append bot paths",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:314] normalizes a full bot endpoint apiRoot before callers append bot paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:314",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] wraps proxy fetches and leaves retry policy to caller-provided fetch",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:320] wraps proxy fetches and leaves retry policy to caller-provided fetch",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:320",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] does not double-wrap an already wrapped proxy fetch",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:331] does not double-wrap an already wrapped proxy fetch",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:331",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] uses resolver-scoped Agent dispatcher with configured transport policy",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:340] uses resolver-scoped Agent dispatcher with configured transport policy",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:340",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] emits default transport decisions at debug level",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:367] emits default transport decisions at debug level",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:367",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] uses EnvHttpProxyAgent dispatcher when proxy env is configured",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:376] uses EnvHttpProxyAgent dispatcher when proxy env is configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:376",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] uses the OpenClaw debug proxy URL when no explicit proxy fetch is provided",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:413] uses the OpenClaw debug proxy URL when no explicit proxy fetch is provided",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:413",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] uses OPENCLAW_PROXY_URL as a Telegram explicit proxy when proxy env is absent",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:430] uses OPENCLAW_PROXY_URL as a Telegram explicit proxy when proxy env is absent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:430",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] preserves caller-provided custom fetch when OPENCLAW_PROXY_URL is present",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:463] preserves caller-provided custom fetch when OPENCLAW_PROXY_URL is present",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:463",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] prefers standard proxy env over OPENCLAW_PROXY_URL for Telegram",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:485] prefers standard proxy env over OPENCLAW_PROXY_URL for Telegram",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:485",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] pins env-proxy transport policy onto proxyTls for proxied HTTPS requests",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:504] pins env-proxy transport policy onto proxyTls for proxied HTTPS requests",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:504",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] keeps resolver-scoped transport policy for OpenClaw proxy fetches",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:533] keeps resolver-scoped transport policy for OpenClaw proxy fetches",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:533",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] exports fallback dispatcher attempts for Telegram media downloads",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:565] exports fallback dispatcher attempts for Telegram media downloads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:565",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] does not blind-retry when sticky IPv4 fallback is disallowed for explicit proxy paths",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:617] does not blind-retry when sticky IPv4 fallback is disallowed for explicit proxy paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:617",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] does not blind-retry when sticky IPv4 fallback is disallowed for env proxy paths",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:637] does not blind-retry when sticky IPv4 fallback is disallowed for env proxy paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:637",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] uses ALL_PROXY env as EnvHttpProxyAgent transport",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:655] uses ALL_PROXY env as EnvHttpProxyAgent transport",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:655",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] arms sticky IPv4 fallback when env proxy init falls back to direct Agent",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:687] arms sticky IPv4 fallback when env proxy init falls back to direct Agent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:687",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] arms sticky IPv4 fallback when NO_PROXY bypasses telegram under env proxy",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:705] arms sticky IPv4 fallback when NO_PROXY bypasses telegram under env proxy",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:705",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] uses no_proxy over NO_PROXY when deciding env-proxy bypass",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:721] uses no_proxy over NO_PROXY when deciding env-proxy bypass",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:721",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] matches whitespace and wildcard no_proxy entries like EnvHttpProxyAgent",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:731] matches whitespace and wildcard no_proxy entries like EnvHttpProxyAgent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:731",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] fails closed when explicit proxy dispatcher initialization fails",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:740] fails closed when explicit proxy dispatcher initialization fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:740",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] falls back to Agent when env proxy dispatcher initialization fails",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:758] falls back to Agent when env proxy dispatcher initialization fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:758",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] retries once and then keeps sticky IPv4 dispatcher for subsequent requests",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:784] retries once and then keeps sticky IPv4 dispatcher for subsequent requests",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:784",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] escalates from IPv4 fallback to pinned Telegram IP and keeps it sticky",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:818] escalates from IPv4 fallback to pinned Telegram IP and keeps it sticky",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:818",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] keeps the armed fallback sticky when all attempts fail",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:846] keeps the armed fallback sticky when all attempts fail",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:846",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] preserves caller-provided dispatcher across fallback retry",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:870] preserves caller-provided dispatcher across fallback retry",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:870",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] does not arm sticky fallback from caller-provided dispatcher failures",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:890] does not arm sticky fallback from caller-provided dispatcher failures",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:890",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] does not retry when error codes do not match fallback rules",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:914] does not retry when error codes do not match fallback rules",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:914",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] keeps per-resolver transport policy isolated across multiple accounts",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:931] keeps per-resolver transport policy isolated across multiple accounts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:931",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] passes a bounded keep-alive pool configuration to every constructed dispatcher",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:975] passes a bounded keep-alive pool configuration to every constructed dispatcher",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:975",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] close() destroys the default dispatcher and all lazily-created fallback dispatchers",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:1000] close() destroys the default dispatcher and all lazily-created fallback dispatchers",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:1000",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] close() is idempotent",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:1028] close() is idempotent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:1028",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts] close() swallows dispatcher destroy failures so callers can safely fire-and-forget",
+TEST_CASE("v4.29 [extensions/telegram/src/fetch.test.ts:1044] close() swallows dispatcher destroy failures so callers can safely fire-and-forget",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/fetch.test.ts:1044",
                "upstream it() block #32",

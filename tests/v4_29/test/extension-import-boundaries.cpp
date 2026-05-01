@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts] collects code references without matching comments or strings",
+TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts:26] collects code references without matching comments or strings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-import-boundaries.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts] script json output stays empty",
+TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts:59] script json output stays empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-import-boundaries.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts] script json output stays empty",
+TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts:69] script json output stays empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-import-boundaries.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts] script json output stays empty",
+TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts:79] script json output stays empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-import-boundaries.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts] script json output stays empty",
+TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts:89] script json output stays empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-import-boundaries.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts] script json output stays empty",
+TEST_CASE("v4.29 [test/extension-import-boundaries.test.ts:99] script json output stays empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/extension-import-boundaries.test.ts:99",
                "upstream it() block #5",

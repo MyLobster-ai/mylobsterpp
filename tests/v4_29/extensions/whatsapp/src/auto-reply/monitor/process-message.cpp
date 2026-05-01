@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts] resolves group systemPrompt from account config and passes it into buildWhatsAppInboundContext",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:241] resolves group systemPrompt from account config and passes it into buildWhatsAppInboundContext",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:241",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts] fires message_received hooks with canonical WhatsApp correlation fields",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:251] fires message_received hooks with canonical WhatsApp correlation fields",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:251",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts] does not fire WhatsApp message_received hooks without explicit opt-in",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:327] does not fire WhatsApp message_received hooks without explicit opt-in",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:327",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts] tracks session metadata writes as connection background tasks",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:338] tracks session metadata writes as connection background tasks",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.test.ts:338",
                "upstream it() block #3",

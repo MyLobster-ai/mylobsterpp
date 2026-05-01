@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] wraps text with OSC 8 open and close sequences",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:5] wraps text with OSC 8 open and close sequences",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] handles empty text",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:10] handles empty text",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] extracts bare URLs",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:17] extracts bare URLs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] extracts multiple bare URLs",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:22] extracts multiple bare URLs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:22",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] extracts markdown link hrefs",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:29] extracts markdown link hrefs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] extracts markdown links with angle brackets and title text",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:34] extracts markdown links with angle brackets and title text",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:34",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] extracts both bare URLs and markdown links",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:39] extracts both bare URLs and markdown links",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:39",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] deduplicates URLs",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:47] deduplicates URLs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:47",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] returns empty array for text without URLs",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:53] returns empty array for text without URLs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:53",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] handles URLs with query params and fragments",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:57] handles URLs with query params and fragments",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:57",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] returns lines unchanged when no URLs",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:64] returns lines unchanged when no URLs",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:64",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] wraps a single-line URL with OSC 8",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:69] wraps a single-line URL with OSC 8",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:69",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] wraps a URL broken across two lines",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:80] wraps a URL broken across two lines",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:80",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] handles URL with ANSI styling codes",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:91] handles URL with ANSI styling codes",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:91",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] handles named link rendered as text (url)",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:104] handles named link rendered as text (url)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:104",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] handles multiple URLs on the same line",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:114] handles multiple URLs on the same line",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:114",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] does not modify lines without URL text",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:124] does not modify lines without URL text",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:124",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] prefers the longest known URL when a fragment matches multiple prefixes",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:132] prefers the longest known URL when a fragment matches multiple prefixes",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:132",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts] handles URL split across three lines",
+TEST_CASE("v4.29 [src/tui/osc8-hyperlinks.test.ts:140] handles URL split across three lines",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/osc8-hyperlinks.test.ts:140",
                "upstream it() block #18",

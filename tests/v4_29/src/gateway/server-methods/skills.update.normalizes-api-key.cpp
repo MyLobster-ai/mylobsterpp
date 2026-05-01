@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.update.normalizes-api-key.test.ts] strips embedded CR/LF from apiKey",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.update.normalizes-api-key.test.ts:27] strips embedded CR/LF from apiKey",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.update.normalizes-api-key.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.update.normalizes-api-key.test.ts] redacts apiKey and secret env values from the response but writes full values to config",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.update.normalizes-api-key.test.ts:65] redacts apiKey and secret env values from the response but writes full values to config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.update.normalizes-api-key.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.update.normalizes-api-key.test.ts] keeps existing secrets when clients submit redacted sentinel values",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.update.normalizes-api-key.test.ts:116] keeps existing secrets when clients submit redacted sentinel values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.update.normalizes-api-key.test.ts:116",
                "upstream it() block #2",

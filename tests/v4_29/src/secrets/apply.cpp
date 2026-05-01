@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] preflights and applies one-way scrub without plaintext backups",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:267] preflights and applies one-way scrub without plaintext backups",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:267",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] skips exec SecretRef checks during dry-run unless explicitly allowed",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:306] skips exec SecretRef checks during dry-run unless explicitly allowed",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:306",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] ignores unrelated auth-profile store refs during allowExec dry-run preflight",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:334] ignores unrelated auth-profile store refs during allowExec dry-run preflight",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:334",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] ignores unrelated auth-profile store refs during no-op write apply",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:362] ignores unrelated auth-profile store refs during no-op write apply",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:362",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] rejects write mode for exec plans unless allowExec is set",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:401] rejects write mode for exec plans unless allowExec is set",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:401",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] rejects write mode for plans with exec provider upserts unless allowExec is set",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:423] rejects write mode for plans with exec provider upserts unless allowExec is set",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:423",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] applies auth-profiles sibling ref targets to the scoped agent store",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:445] applies auth-profiles sibling ref targets to the scoped agent store",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:445",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] creates a new auth-profiles mapping when provider metadata is supplied",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:482] creates a new auth-profiles mapping when provider metadata is supplied",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:482",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] is idempotent on repeated write applies",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:526] is idempotent on repeated write applies",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:526",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] applies targets safely when map keys contain dots",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:553] applies targets safely when map keys contain dots",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:553",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] migrates skills entries apiKey targets alongside provider api keys",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:589] migrates skills entries apiKey targets alongside provider api keys",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:589",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] applies talk provider target types",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:631] applies talk provider target types",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:631",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] applies model provider header targets",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:670] applies model provider header targets",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:670",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] applies array-indexed targets for agent memory search",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:714] applies array-indexed targets for agent memory search",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:714",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] rejects plan targets that do not match allowed secret-bearing paths",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:780] rejects plan targets that do not match allowed secret-bearing paths",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:780",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] rejects plan targets with forbidden prototype-like path segments",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:802] rejects plan targets with forbidden prototype-like path segments",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:802",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/apply.test.ts] applies provider upserts and deletes from plan",
+TEST_CASE("v4.29 [src/secrets/apply.test.ts:823] applies provider upserts and deletes from plan",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/apply.test.ts:823",
                "upstream it() block #16",

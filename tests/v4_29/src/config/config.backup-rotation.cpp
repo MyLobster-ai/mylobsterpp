@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.backup-rotation.test.ts] keeps a 5-deep backup ring for config writes",
+TEST_CASE("v4.29 [src/config/config.backup-rotation.test.ts:18] keeps a 5-deep backup ring for config writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.backup-rotation.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.backup-rotation.test.ts] cleanOrphanBackups removes stale files outside the rotation ring",
+TEST_CASE("v4.29 [src/config/config.backup-rotation.test.ts:77] cleanOrphanBackups removes stale files outside the rotation ring",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.backup-rotation.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.backup-rotation.test.ts] maintainConfigBackups composes rotate/copy/harden/prune flow",
+TEST_CASE("v4.29 [src/config/config.backup-rotation.test.ts:109] maintainConfigBackups composes rotate/copy/harden/prune flow",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.backup-rotation.test.ts:109",
                "upstream it() block #2",

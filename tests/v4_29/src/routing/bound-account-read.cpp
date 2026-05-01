@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] returns exact peer match when caller supplies a matching peerId",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:11] returns exact peer match when caller supplies a matching peerId",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] prefers wildcard peer binding over channel-only when caller peerKind matches",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:38] prefers wildcard peer binding over channel-only when caller peerKind matches",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] preserves first-match binding order for peerless callers",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:66] preserves first-match binding order for peerless callers",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] falls back to peer-specific binding for peerless callers when no channel-only or wildcard binding exists",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:92] falls back to peer-specific binding for peerless callers when no channel-only or wildcard binding exists",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] skips non-matching peer-specific bindings when caller supplies a different peerId",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:113] skips non-matching peer-specific bindings when caller supplies a different peerId",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] returns undefined when the agent has no binding on the channel",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:135] returns undefined when the agent has no binding on the channel",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:135",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] filters bindings by peer kind when caller supplies peerKind",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:152] filters bindings by peer kind when caller supplies peerKind",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:152",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] treats group and channel peer kinds as equivalent (matches resolve-route semantics)",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:193] treats group and channel peer kinds as equivalent (matches resolve-route semantics)",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:193",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] accepts a wildcard peer binding as fallback for peerless callers",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:240] accepts a wildcard peer binding as fallback for peerless callers",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:240",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] skips wildcard peer bindings when the caller",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:264] skips wildcard peer bindings when the caller",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:264",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] matches exact peer id even when the caller",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:294] matches exact peer id even when the caller",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:294",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] matches exact canonical peer aliases before falling back to wildcard bindings",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:316] matches exact canonical peer aliases before falling back to wildcard bindings",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:316",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] skips peer-specific bindings whose kind does not match the caller",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:349] skips peer-specific bindings whose kind does not match the caller",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:349",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] skips scoped bindings when the caller has no matching group space",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:379] skips scoped bindings when the caller has no matching group space",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:379",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] matches scoped guild and team bindings against caller group space",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:407] matches scoped guild and team bindings against caller group space",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:407",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts] requires caller roles before selecting role-scoped bindings",
+TEST_CASE("v4.29 [src/routing/bound-account-read.test.ts:447] requires caller roles before selecting role-scoped bindings",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/bound-account-read.test.ts:447",
                "upstream it() block #15",

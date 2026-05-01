@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.persona.test.ts] prefers explicit label and prefixes with gear",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.persona.test.ts:9] prefers explicit label and prefixes with gear",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.persona.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.persona.test.ts] falls back to agent id when label is missing",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.persona.test.ts:15] falls back to agent id when label is missing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.persona.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.persona.test.ts] builds persona from binding record",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-bindings.persona.test.ts:19] builds persona from binding record",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-bindings.persona.test.ts:19",
                "upstream it() block #2",

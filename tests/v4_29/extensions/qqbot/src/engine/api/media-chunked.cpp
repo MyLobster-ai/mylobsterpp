@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] captures filePath / fileSize / message",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:101] captures filePath / fileSize / message",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] returns true for the filled-in module",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:112] returns true for the filled-in module",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:112",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] rejects url / base64 sources up-front",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:127] rejects url / base64 sources up-front",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:127",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] takes the cache fast path and skips upload_prepare on hit",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:155] takes the cache fast path and skips upload_prepare on hit",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] runs prepare → COS PUT → part_finish → complete for a buffer source",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:179] runs prepare → COS PUT → part_finish → complete for a buffer source",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] maps UPLOAD_PREPARE_FALLBACK_CODE to UploadDailyLimitExceededError",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:267] maps UPLOAD_PREPARE_FALLBACK_CODE to UploadDailyLimitExceededError",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:267",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts] streams hashes from a localPath source",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/api/media-chunked.test.ts:292] streams hashes from a localPath source",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/api/media-chunked.test.ts:292",
                "upstream it() block #6",

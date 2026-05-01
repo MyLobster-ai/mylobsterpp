@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/video-dimensions.test.ts] returns positive integer dimensions from ffprobe JSON",
+TEST_CASE("v4.29 [src/media/video-dimensions.test.ts:14] returns positive integer dimensions from ffprobe JSON",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/video-dimensions.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/video-dimensions.test.ts] ignores missing or invalid dimensions",
+TEST_CASE("v4.29 [src/media/video-dimensions.test.ts:20] ignores missing or invalid dimensions",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/video-dimensions.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/video-dimensions.test.ts] probes video dimensions through ffprobe stdin",
+TEST_CASE("v4.29 [src/media/video-dimensions.test.ts:32] probes video dimensions through ffprobe stdin",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/video-dimensions.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/video-dimensions.test.ts] falls back when ffprobe fails or returns malformed output",
+TEST_CASE("v4.29 [src/media/video-dimensions.test.ts:54] falls back when ffprobe fails or returns malformed output",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/video-dimensions.test.ts:54",
                "upstream it() block #3",

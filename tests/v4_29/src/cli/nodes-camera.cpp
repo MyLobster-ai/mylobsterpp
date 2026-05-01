@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] parses camera.snap payload",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:54] parses camera.snap payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] rejects invalid camera.snap payload",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:65] rejects invalid camera.snap payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] parses camera.clip payload",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:71] parses camera.clip payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] rejects invalid camera.clip payload",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:87] rejects invalid camera.clip payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] builds stable temp paths when id provided",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:93] builds stable temp paths when id provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] writes camera clip payload to temp path",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:104] writes camera clip payload to temp path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] writes camera clip payload from url",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:122] writes camera clip payload from url",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:122",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] rejects camera clip url payloads without node remoteIp",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:143] rejects camera clip url payloads without node remoteIp",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:143",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] writes base64 to file",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:158] writes base64 to file",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:158",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] writes url payload to file",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:170] writes url payload to file",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:170",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] rejects url host mismatches",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:181] rejects url host mismatches",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:181",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] removes partially written file when url stream fails",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:229] removes partially written file when url stream fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:229",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] parses screen.record payload",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:249] parses screen.record payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:249",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] drops invalid optional fields instead of throwing",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:266] drops invalid optional fields instead of throwing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:266",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] rejects invalid screen.record payload",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:281] rejects invalid screen.record payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:281",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts] builds screen record temp path",
+TEST_CASE("v4.29 [src/cli/nodes-camera.test.ts:287] builds screen record temp path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/nodes-camera.test.ts:287",
                "upstream it() block #15",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts:20] declares explicit mode capabilities",
           "[v4_29][parity_gap][vydra]") {
     PARITY_GAP("extensions/vydra/video-generation-provider.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts] submits veo3 jobs and downloads the completed video",
+TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts:24] submits veo3 jobs and downloads the completed video",
           "[v4_29][parity_gap][vydra]") {
     PARITY_GAP("extensions/vydra/video-generation-provider.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts] requires a remote image url for kling",
+TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts:65] requires a remote image url for kling",
           "[v4_29][parity_gap][vydra]") {
     PARITY_GAP("extensions/vydra/video-generation-provider.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts] submits kling jobs with a remote image url",
+TEST_CASE("v4.29 [extensions/vydra/video-generation-provider.test.ts:81] submits kling jobs with a remote image url",
           "[v4_29][parity_gap][vydra]") {
     PARITY_GAP("extensions/vydra/video-generation-provider.test.ts:81",
                "upstream it() block #3",

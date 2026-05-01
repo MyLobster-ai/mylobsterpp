@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] returns the approver DM notice text",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:88] returns the approver DM notice text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] mentions Matrix in the fallback native approval guidance",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:94] mentions Matrix in the fallback native approval guidance",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] avoids repeating allowFrom guidance in the no-route fallback",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:105] avoids repeating allowFrom guidance in the no-route fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] explains how to enable Matrix native approvals when Matrix is the initiating platform",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:118] explains how to enable Matrix native approvals when Matrix is the initiating platform",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] normalizes reply metadata and filters invalid decisions",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:215] normalizes reply metadata and filters invalid decisions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:215",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] builds pending reply payloads with trimmed warning text and slug fallback",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:238] builds pending reply payloads with trimmed warning text and slug fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] compacts structured cwd paths in pending reply payloads",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:292] compacts structured cwd paths in pending reply payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:292",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] omits allow-always actions when the effective policy requires approval every time",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:305] omits allow-always actions when the effective policy requires approval every time",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:305",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] stores agent and session metadata for downstream suppression checks",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:348] stores agent and session metadata for downstream suppression checks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:348",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] uses a longer fence for commands containing triple backticks",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:370] uses a longer fence for commands containing triple backticks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:370",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] clamps pending reply expiration to zero seconds",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:384] clamps pending reply expiration to zero seconds",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:384",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] formats longer approval windows in minutes",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:397] formats longer approval windows in minutes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:397",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] builds shared exec approval action descriptors and interactive replies",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:410] builds shared exec approval action descriptors and interactive replies",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:410",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] builds and parses shared exec approval command text",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:454] builds and parses shared exec approval command text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:454",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts] builds unavailable payloads for approver DMs",
+TEST_CASE("v4.29 [src/infra/exec-approval-reply.test.ts:485] builds unavailable payloads for approver DMs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-reply.test.ts:485",
                "upstream it() block #14",

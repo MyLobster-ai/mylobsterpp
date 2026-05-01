@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts] stores mistral client when mistral provider is selected",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts:61] stores mistral client when mistral provider is selected",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.mistral-provider.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts] stores mistral client after fallback activation",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts:79] stores mistral client after fallback activation",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.mistral-provider.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts] uses default ollama model when activating ollama fallback",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts:112] uses default ollama model when activating ollama fallback",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.mistral-provider.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts] includes outputDimensionality in the primary provider request",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts:124] includes outputDimensionality in the primary provider request",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.mistral-provider.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts] includes memory input_type fields in the primary provider request",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts:139] includes memory input_type fields in the primary provider request",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.mistral-provider.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts] uses default lmstudio model when activating lmstudio fallback",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.mistral-provider.test.ts:154] uses default lmstudio model when activating lmstudio fallback",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.mistral-provider.test.ts:154",
                "upstream it() block #5",

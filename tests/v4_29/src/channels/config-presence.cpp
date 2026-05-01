@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/config-presence.test.ts] treats enabled-only channel sections as not meaningfully configured",
+TEST_CASE("v4.29 [src/channels/config-presence.test.ts:63] treats enabled-only channel sections as not meaningfully configured",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/config-presence.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/config-presence.test.ts] ignores enabled-only matrix config when listing configured channels",
+TEST_CASE("v4.29 [src/channels/config-presence.test.ts:70] ignores enabled-only matrix config when listing configured channels",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/config-presence.test.ts:70",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/config-presence.test.ts] lists explicitly disabled channel ids case-insensitively",
+TEST_CASE("v4.29 [src/channels/config-presence.test.ts:83] lists explicitly disabled channel ids case-insensitively",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/config-presence.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/config-presence.test.ts] detects env-only channel config",
+TEST_CASE("v4.29 [src/channels/config-presence.test.ts:96] detects env-only channel config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/config-presence.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/config-presence.test.ts] detects persisted Matrix credentials without config or env",
+TEST_CASE("v4.29 [src/channels/config-presence.test.ts:115] detects persisted Matrix credentials without config or env",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/config-presence.test.ts:115",
                "upstream it() block #4",

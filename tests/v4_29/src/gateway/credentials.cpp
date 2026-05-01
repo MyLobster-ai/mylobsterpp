@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] prefers explicit credentials over config and environment",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:110] prefers explicit credentials over config and environment",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] returns empty credentials when url override is used without explicit auth",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:125] returns empty credentials when url override is used without explicit auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] uses env credentials for env-sourced url overrides",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:137] uses env credentials for env-sourced url overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:137",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] uses local-mode environment values before local config",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:150] uses local-mode environment values before local config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:150",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] uses config-first local token precedence inside gateway service runtime",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:158] uses config-first local token precedence inside gateway service runtime",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] falls back to remote credentials in local mode when local auth is missing",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:178] falls back to remote credentials in local mode when local auth is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:178",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] fails closed when local token SecretRef is unresolved and remote token fallback exists",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:195] fails closed when local token SecretRef is unresolved and remote token fallback exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:195",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] fails closed when local password SecretRef is unresolved and remote password fallback exists",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:204] fails closed when local password SecretRef is unresolved and remote password fallback exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:204",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when local password auth relies on an unresolved SecretRef",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:213] throws when local password auth relies on an unresolved SecretRef",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:213",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] treats env-template local tokens as SecretRefs instead of plaintext",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:221] treats env-template local tokens as SecretRefs instead of plaintext",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:221",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when env-template local token SecretRef is unresolved in token mode",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:243] throws when env-template local token SecretRef is unresolved in token mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:243",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when unresolved local token SecretRef would otherwise fall back to remote token",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:260] throws when unresolved local token SecretRef would otherwise fall back to remote token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:260",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when unresolved local password SecretRef would otherwise fall back to remote password",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:269] throws when unresolved local password SecretRef would otherwise fall back to remote password",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:269",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] ignores unresolved local password ref when local auth mode is none",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:278] ignores unresolved local password ref when local auth mode is none",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:278",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when trusted-proxy local password SecretRef cannot resolve",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:286] throws when trusted-proxy local password SecretRef cannot resolve",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:286",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] resolves trusted-proxy local password credentials",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:292] resolves trusted-proxy local password credentials",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:292",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] does not use remote password as trusted-proxy local fallback",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:312] does not use remote password as trusted-proxy local fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:312",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] keeps local credentials ahead of remote fallback in local mode",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:334] keeps local credentials ahead of remote fallback in local mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:334",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] uses remote-mode remote credentials before env and local config",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:351] uses remote-mode remote credentials before env and local config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:351",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] falls back to env/config when remote mode omits remote credentials",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:359] falls back to env/config when remote mode omits remote credentials",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:359",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] supports env-first password override in remote mode for gateway call path",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:368] supports env-first password override in remote mode for gateway call path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:368",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] supports env-first token precedence in remote mode",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:378] supports env-first token precedence in remote mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:378",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] supports remote-only password fallback for strict remote override call sites",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:389] supports remote-only password fallback for strict remote override call sites",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:389",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] supports remote-only token fallback for strict remote override call sites",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:406] supports remote-only token fallback for strict remote override call sites",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:406",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when remote token auth relies on an unresolved SecretRef",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:423] throws when remote token auth relies on an unresolved SecretRef",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:423",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] ignores unresolved local token ref in remote-only mode when local auth mode is token",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:467] ignores unresolved local token ref in remote-only mode when local auth mode is token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:467",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws for unresolved local token ref in remote mode when local fallback is enabled",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:480] throws for unresolved local token ref in remote mode when local fallback is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:480",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] does not throw for unresolved remote token ref when password is available",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:491] does not throw for unresolved remote token ref when password is available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:491",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] throws when remote password auth relies on an unresolved SecretRef",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:517] throws when remote password auth relies on an unresolved SecretRef",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:517",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] supports config-first precedence for token/password",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:543] supports config-first precedence for token/password",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:543",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] uses env-first precedence by default",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:560] uses env-first precedence by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:560",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] rejects unresolved env var placeholders in config credentials",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:575] rejects unresolved env var placeholders in config credentials",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:575",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/credentials.test.ts] accepts config credentials that do not contain env var references",
+TEST_CASE("v4.29 [src/gateway/credentials.test.ts:586] accepts config credentials that do not contain env var references",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/credentials.test.ts:586",
                "upstream it() block #32",

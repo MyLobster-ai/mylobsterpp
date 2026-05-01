@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] blocks inline scripts while allowing inline styles",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:6] blocks inline scripts while allowing inline styles",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] allows Google Fonts for style and font loading",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:14] allows Google Fonts for style and font loading",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] limits image loading to same-origin, data, and managed blob URLs",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:20] limits image loading to same-origin, data, and managed blob URLs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] includes inline script hashes in script-src when provided",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:26] includes inline script hashes in script-src when provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:26",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] includes multiple inline script hashes",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:34] includes multiple inline script hashes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:34",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] falls back to plain script-src self when hashes array is empty",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:41] falls back to plain script-src self when hashes array is empty",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:41",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] returns empty for HTML without scripts",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:48] returns empty for HTML without scripts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:48",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] hashes inline script content",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:52] hashes inline script content",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:52",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] skips scripts with src attribute",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:59] skips scripts with src attribute",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:59",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] does not treat data-src as an external script attribute",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:64] does not treat data-src as an external script attribute",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:64",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] hashes only inline scripts when mixed with external",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:73] hashes only inline scripts when mixed with external",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:73",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] handles multiline inline scripts",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:86] handles multiline inline scripts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:86",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts] skips empty inline scripts",
+TEST_CASE("v4.29 [src/gateway/control-ui-csp.test.ts:93] skips empty inline scripts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/control-ui-csp.test.ts:93",
                "upstream it() block #12",

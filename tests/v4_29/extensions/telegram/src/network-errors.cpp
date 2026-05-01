@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] tracks Telegram polling origin separately from generic network matching",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:19] tracks Telegram polling origin separately from generic network matching",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects AbortError names",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:49] detects AbortError names",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects nested causes",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:54] detects nested causes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects expanded message patterns",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:60] detects expanded message patterns",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] treats undici fetch failed errors as recoverable in send context",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:65] treats undici fetch failed errors as recoverable in send context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] honors allowMessageMatch=false for broad snippet matches",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:74] honors allowMessageMatch=false for broad snippet matches",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] skips broad message matches for send context",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:87] skips broad message matches for send context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:87",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] treats grammY failed-after envelope errors as recoverable in send context",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:97] treats grammY failed-after envelope errors as recoverable in send context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:97",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] returns false for unrelated errors",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:106] returns false for unrelated errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:106",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects grammY ",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:110] detects grammY ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:110",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] normalizes blank tagged origins to null and finds nested tags",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:115] normalizes blank tagged origins to null and finds nested tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:115",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects network error wrapped in HttpError",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:136] detects network error wrapped in HttpError",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:136",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects network error with cause wrapped in HttpError",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:146] detects network error with cause wrapped in HttpError",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:146",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] returns false for non-network errors wrapped in HttpError",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:154] returns false for non-network errors wrapped in HttpError",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:154",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] does NOT allow retry for non-network errors",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:188] does NOT allow retry for non-network errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:188",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects pre-connect error nested in cause chain",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:193] detects pre-connect error nested in cause chain",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:193",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects pre-connect error wrapped in grammY HttpError",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:199] detects pre-connect error wrapped in grammY HttpError",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:199",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] does not infer safe send retry from a plain grammY network envelope",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:206] does not infer safe send retry from a plain grammY network envelope",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:206",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] returns false for plain Error",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:224] returns false for plain Error",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:224",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] returns true for Telegram 429 errors",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:230] returns true for Telegram 429 errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:230",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects wrapped 429 retry_after errors without error_code",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:234] detects wrapped 429 retry_after errors without error_code",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:234",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects error_code in nested cause",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:242] detects error_code in nested cause",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:242",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] returns false for plain Error",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:258] returns false for plain Error",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:258",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts] detects error_code in nested cause",
+TEST_CASE("v4.29 [extensions/telegram/src/network-errors.test.ts:262] detects error_code in nested cause",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-errors.test.ts:262",
                "upstream it() block #23",

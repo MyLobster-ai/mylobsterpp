@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] reuses and refreshes pending requests",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:52] reuses and refreshes pending requests",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] recovers when pairing state files were written as arrays",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:134] recovers when pairing state files were written as arrays",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] generates base64url node tokens and rejects mismatches",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:169] generates base64url node tokens and rejects mismatches",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] removes paired nodes without disturbing pending requests",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:192] removes paired nodes without disturbing pending requests",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:192",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] requires the right scopes to approve node requests",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:218] requires the right scopes to approve node requests",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:218",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] refuses to overwrite corrupt paired node state when requesting pairing",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:271] refuses to overwrite corrupt paired node state when requesting pairing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:271",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/node-pairing.test.ts] updates paired node last-seen metadata and reports missing nodes",
+TEST_CASE("v4.29 [src/infra/node-pairing.test.ts:290] updates paired node last-seen metadata and reports missing nodes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/node-pairing.test.ts:290",
                "upstream it() block #6",

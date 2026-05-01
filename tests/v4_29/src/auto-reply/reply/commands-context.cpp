@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-context.test.ts] canonicalizes registered aliases like /id to their primary command",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-context.test.ts:8] canonicalizes registered aliases like /id to their primary command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-context.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-context.test.ts] preserves multiline soft reset tails after structural normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-context.test.ts:31] preserves multiline soft reset tails after structural normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-context.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-context.test.ts] maps explicit gateway origin into command context",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-context.test.ts:54] maps explicit gateway origin into command context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-context.test.ts:54",
                "upstream it() block #2",

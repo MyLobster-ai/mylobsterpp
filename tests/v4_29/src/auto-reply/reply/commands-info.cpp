@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] only lets owners export trajectory bundles",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:115] only lets owners export trajectory bundles",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] returns sender details for /whoami",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:127] returns sender details for /whoami",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:127",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] uses the canonical command sender identity for /whoami AllowFrom",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:150] uses the canonical command sender identity for /whoami AllowFrom",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] returns expected details for /context commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:173] returns expected details for /context commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:173",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] prefers the persisted session parent when routing /status context",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:196] prefers the persisted session parent when routing /status context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:196",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] preserves the shared session store path when routing /status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:224] preserves the shared session store path when routing /status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:224",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] prefers the target session entry when routing /status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:241] prefers the target session entry when routing /status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:241",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] forwards resolved fast mode to /status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:273] forwards resolved fast mode to /status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:273",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts] uses the canonical target session agent when listing /commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-info.test.ts:290] uses the canonical target session agent when listing /commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-info.test.ts:290",
                "upstream it() block #8",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-inactive-telegram-surfaces.test.ts] skips inactive Telegram refs and emits diagnostics",
+TEST_CASE("v4.29 [src/secrets/runtime-inactive-telegram-surfaces.test.ts:8] skips inactive Telegram refs and emits diagnostics",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-inactive-telegram-surfaces.test.ts:8",
                "upstream it() block #0",

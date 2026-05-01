@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/monitor/processed-messages.test.ts] dedupes and evicts oldest entries",
+TEST_CASE("v4.29 [extensions/tlon/src/monitor/processed-messages.test.ts:8] dedupes and evicts oldest entries",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/monitor/processed-messages.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/monitor/processed-messages.test.ts] releases failed claims so retries can run again",
+TEST_CASE("v4.29 [extensions/tlon/src/monitor/processed-messages.test.ts:27] releases failed claims so retries can run again",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/monitor/processed-messages.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/monitor/processed-messages.test.ts] keeps successful claims deduped",
+TEST_CASE("v4.29 [extensions/tlon/src/monitor/processed-messages.test.ts:44] keeps successful claims deduped",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/monitor/processed-messages.test.ts:44",
                "upstream it() block #2",

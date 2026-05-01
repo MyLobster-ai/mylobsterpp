@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts] primes the Matrix sync cursor without recording observed events",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts:10] primes the Matrix sync cursor without recording observed events",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/sync.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts] returns a typed no-match result while preserving the latest sync token",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts:26] returns a typed no-match result while preserving the latest sync token",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/sync.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts] keeps recording later same-batch events after the first match",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts:88] keeps recording later same-batch events after the first match",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/sync.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts] lets a second wait reuse later same-batch events without another /sync",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts:155] lets a second wait reuse later same-batch events without another /sync",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/sync.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts] shares one in-flight /sync poll across concurrent waits",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/sync.test.ts:221] shares one in-flight /sync poll across concurrent waits",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/sync.test.ts:221",
                "upstream it() block #4",

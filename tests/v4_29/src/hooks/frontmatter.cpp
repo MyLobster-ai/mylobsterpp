@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] parses single-line key-value pairs",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:9] parses single-line key-value pairs",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles missing frontmatter",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:24] handles missing frontmatter",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles unclosed frontmatter",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:30] handles unclosed frontmatter",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] parses multi-line metadata block with indented JSON",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:38] parses multi-line metadata block with indented JSON",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] parses multi-line metadata with complex nested structure",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:65] parses multi-line metadata with complex nested structure",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles single-line metadata (inline JSON)",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:92] handles single-line metadata (inline JSON)",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:92",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles mixed single-line and multi-line values",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:103] handles mixed single-line and multi-line values",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:103",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] strips surrounding quotes from values",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:125] strips surrounding quotes from values",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:125",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles CRLF line endings",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:136] handles CRLF line endings",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:136",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles CR line endings",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:143] handles CR line endings",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:143",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] extracts openclaw metadata from parsed frontmatter",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:152] extracts openclaw metadata from parsed frontmatter",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:152",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] returns undefined when metadata is missing",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:175] returns undefined when metadata is missing",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:175",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] returns undefined when openclaw key is missing",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:181] returns undefined when openclaw key is missing",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:181",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] returns undefined for invalid JSON",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:189] returns undefined for invalid JSON",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:189",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles install specs",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:197] handles install specs",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:197",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] handles os restrictions",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:217] handles os restrictions",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:217",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] parses real session-memory HOOK.md format",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:231] parses real session-memory HOOK.md format",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:231",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] parses YAML metadata map",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:264] parses YAML metadata map",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:264",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] defaults to enabled when missing",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:282] defaults to enabled when missing",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:282",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts] parses enabled flag",
+TEST_CASE("v4.29 [src/hooks/frontmatter.test.ts:286] parses enabled flag",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/frontmatter.test.ts:286",
                "upstream it() block #19",

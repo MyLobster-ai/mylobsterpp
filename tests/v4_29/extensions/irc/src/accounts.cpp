@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] returns default when no accounts are configured",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:13] returns default when no accounts are configured",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] normalizes, deduplicates, and sorts configured account ids",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:17] normalizes, deduplicates, and sorts configured account ids",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] prefers configured defaultAccount when it matches",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:35] prefers configured defaultAccount when it matches",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] falls back to default when configured defaultAccount is missing",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:51] falls back to default when configured defaultAccount is missing",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] falls back to first sorted account when default is absent",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:67] falls back to first sorted account when default is absent",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] matches normalized configured account ids",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:84] matches normalized configured account ids",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:84",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] parses delimited IRC_CHANNELS env values for the default account",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:107] parses delimited IRC_CHANNELS env values for the default account",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts] preserves shared NickServ config when an account overrides one NickServ field",
+TEST_CASE("v4.29 [extensions/irc/src/accounts.test.ts:156] preserves shared NickServ config when an account overrides one NickServ field",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/accounts.test.ts:156",
                "upstream it() block #7",

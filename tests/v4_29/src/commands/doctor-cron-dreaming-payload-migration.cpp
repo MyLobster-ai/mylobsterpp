@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] rewrites stale main-session dreaming jobs to isolated agentTurn shape",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:38] rewrites stale main-session dreaming jobs to isolated agentTurn shape",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] identifies the managed job by description tag even when name was edited",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:49] identifies the managed job by description tag even when name was edited",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] identifies the managed job by name + payload token when description tag is missing",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:56] identifies the managed job by name + payload token when description tag is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] is idempotent on already-migrated jobs",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:64] is idempotent on already-migrated jobs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] re-applies missing pieces (e.g. lightContext flag) on partially-migrated jobs",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:71] re-applies missing pieces (e.g. lightContext flag) on partially-migrated jobs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] normalizes delivery to mode=none when omitted on an isolated dreaming job",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:80] normalizes delivery to mode=none when omitted on an isolated dreaming job",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:80",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] leaves unrelated cron jobs untouched",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:89] leaves unrelated cron jobs untouched",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:89",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] ignores look-alike jobs whose payload token does not match",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:107] ignores look-alike jobs whose payload token does not match",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:107",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] processes a mixed batch correctly",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:117] processes a mixed batch correctly",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:117",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] counts fully-stale legacy jobs",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:141] counts fully-stale legacy jobs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:141",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] counts partially-migrated jobs (e.g. lightContext flipped to false)",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:145] counts partially-migrated jobs (e.g. lightContext flipped to false)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:145",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] counts partially-migrated jobs missing delivery",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:151] counts partially-migrated jobs missing delivery",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:151",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] returns 0 for fully-migrated jobs",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:157] returns 0 for fully-migrated jobs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:157",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts] ignores unrelated jobs",
+TEST_CASE("v4.29 [src/commands/doctor-cron-dreaming-payload-migration.test.ts:161] ignores unrelated jobs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-cron-dreaming-payload-migration.test.ts:161",
                "upstream it() block #13",

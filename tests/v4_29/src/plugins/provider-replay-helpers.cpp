@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] builds strict openai-completions replay policy",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:15] builds strict openai-completions replay policy",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] omits tool-call id sanitization when opted out for openai-completions",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:25] omits tool-call id sanitization when opted out for openai-completions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] drops historical reasoning for Gemma 4 openai-completions replay",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:38] drops historical reasoning for Gemma 4 openai-completions replay",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] omits tool-call id sanitization when opted out for openai-responses",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:58] omits tool-call id sanitization when opted out for openai-responses",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] builds strict anthropic replay policy",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:71] builds strict anthropic replay policy",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] derives claude-only anthropic replay policy from the model id",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:81] derives claude-only anthropic replay policy from the model id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:81",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] preserves thinking blocks for Claude Opus 4.5+ and Sonnet 4.5+ models",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:100] preserves thinking blocks for Claude Opus 4.5+ and Sonnet 4.5+ models",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:100",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] builds native Anthropic replay policy with selective tool-call id preservation",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:120] builds native Anthropic replay policy with selective tool-call id preservation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:120",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] builds hybrid anthropic or openai replay policy",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:141] builds hybrid anthropic or openai replay policy",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:141",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] builds Gemini replay helpers and tagged reasoning mode",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:181] builds Gemini replay helpers and tagged reasoning mode",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:181",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] builds passthrough Gemini signature sanitization only when needed",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:189] builds passthrough Gemini signature sanitization only when needed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:189",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts] sanitizes Gemini replay ordering with a bootstrap turn",
+TEST_CASE("v4.29 [src/plugins/provider-replay-helpers.test.ts:204] sanitizes Gemini replay ordering with a bootstrap turn",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-replay-helpers.test.ts:204",
                "upstream it() block #11",

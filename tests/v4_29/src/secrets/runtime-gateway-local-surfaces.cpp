@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.remote refs as inactive when local auth credentials are configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:37] treats gateway.remote refs as inactive when local auth credentials are configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.auth.password ref as active when mode is unset and no token is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:74] treats gateway.auth.password ref as active when mode is unset and no token is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.auth.token ref as active when token mode is explicit",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:94] treats gateway.auth.token ref as active when token mode is explicit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.auth.token ref as inactive when password mode is explicit",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:115] treats gateway.auth.token ref as inactive when password mode is explicit",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] fails when gateway.auth.token ref is active and unresolved",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:138] fails when gateway.auth.token ref is active and unresolved",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:138",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.auth.password ref as active when auth mode is trusted-proxy",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:156] treats gateway.auth.password ref as active when auth mode is trusted-proxy",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.auth.password ref as inactive when remote token is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:167] treats gateway.auth.password ref as inactive when remote token is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:167",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.remote.token ref as active in local mode when no local credentials are configured",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:224] treats gateway.remote.token ref as active in local mode when no local credentials are configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:224",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.remote.password ref as active in local mode when password can win",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:246] treats gateway.remote.password ref as active in local mode when password can win",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts] treats gateway.remote refs as active when tailscale serve is enabled",
+TEST_CASE("v4.29 [src/secrets/runtime-gateway-local-surfaces.test.ts:270] treats gateway.remote refs as active when tailscale serve is enabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-gateway-local-surfaces.test.ts:270",
                "upstream it() block #9",

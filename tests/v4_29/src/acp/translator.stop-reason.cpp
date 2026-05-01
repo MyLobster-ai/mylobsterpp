@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] error state resolves as end_turn, not refusal",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:16] error state resolves as end_turn, not refusal",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] error state with no errorMessage resolves as end_turn",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:32] error state with no errorMessage resolves as end_turn",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] aborted state resolves as cancelled",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:47] aborted state resolves as cancelled",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] keeps in-flight prompts pending across transient gateway disconnects",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:62] keeps in-flight prompts pending across transient gateway disconnects",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] rejects in-flight prompts when the gateway does not reconnect before the grace window",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:84] rejects in-flight prompts when the gateway does not reconnect before the grace window",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:84",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] keeps pre-ack send disconnects inside the reconnect grace window",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:99] keeps pre-ack send disconnects inside the reconnect grace window",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] reconciles a missed final event on reconnect via agent.wait",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:126] reconciles a missed final event on reconnect via agent.wait",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:126",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] rechecks accepted prompts at the disconnect deadline after reconnect timeout",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:159] rechecks accepted prompts at the disconnect deadline after reconnect timeout",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:159",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] keeps accepted prompts pending when the deadline recheck still reports timeout",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:196] keeps accepted prompts pending when the deadline recheck still reports timeout",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:196",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] does not clear a newer disconnect deadline while reconnect reconciliation is still running",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:225] does not clear a newer disconnect deadline while reconnect reconciliation is still running",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:225",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] rejects pre-ack prompts when reconnect timeout still finds no run",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:274] rejects pre-ack prompts when reconnect timeout still finds no run",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:274",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] rejects a superseded pre-ack prompt when a newer prompt has replaced the session entry",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:306] rejects a superseded pre-ack prompt when a newer prompt has replaced the session entry",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:306",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] rejects stale pre-ack prompts when a superseded send resolves late",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:329] rejects stale pre-ack prompts when a superseded send resolves late",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:329",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] finishes terminal prompts while rejecting stale pre-ack prompts",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:374] finishes terminal prompts while rejecting stale pre-ack prompts",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:374",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] reconciles prompts started while the gateway is disconnected",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:441] reconciles prompts started while the gateway is disconnected",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:441",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts] does not let a stale disconnect deadline reject a newer prompt on the same session",
+TEST_CASE("v4.29 [src/acp/translator.stop-reason.test.ts:466] does not let a stale disconnect deadline reject a newer prompt on the same session",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/translator.stop-reason.test.ts:466",
                "upstream it() block #15",

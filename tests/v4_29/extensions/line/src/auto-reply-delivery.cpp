@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts] uses reply token for text before sending rich messages",
+TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts:78] uses reply token for text before sending rich messages",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/auto-reply-delivery.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts] uses reply token for rich-only payloads",
+TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts:106] uses reply token for rich-only payloads",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/auto-reply-delivery.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts] sends rich messages before quick-reply text so quick replies remain visible",
+TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts:140] sends rich messages before quick-reply text so quick replies remain visible",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/auto-reply-delivery.test.ts:140",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts] falls back to push when reply token delivery fails",
+TEST_CASE("v4.29 [extensions/line/src/auto-reply-delivery.test.ts:184] falls back to push when reply token delivery fails",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/auto-reply-delivery.test.ts:184",
                "upstream it() block #3",

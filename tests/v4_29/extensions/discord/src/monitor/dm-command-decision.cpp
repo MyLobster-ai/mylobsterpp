@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts] returns true for allowed DM access",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts:46] returns true for allowed DM access",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-decision.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts] creates pairing reply for new pairing requests",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts:64] creates pairing reply for new pairing requests",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-decision.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts] skips pairing reply when pairing request already exists",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts:82] skips pairing reply when pairing request already exists",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-decision.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts] runs unauthorized handler for blocked DM access",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-decision.test.ts:92] runs unauthorized handler for blocked DM access",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-decision.test.ts:92",
                "upstream it() block #3",

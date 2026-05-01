@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] invokes start on reply start",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:55] invokes start on reply start",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] reports start errors",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:64] reports start errors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] invokes stop on idle and reports stop errors",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:74] invokes stop on idle and reports stop errors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] sends typing keepalive pings until idle cleanup",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:86] sends typing keepalive pings until idle cleanup",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] stops keepalive after consecutive start failures",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:110] stops keepalive after consecutive start failures",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:110",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] does not restart keepalive when breaker trips on initial start",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:128] does not restart keepalive when breaker trips on initial start",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] resets failure counter after a successful keepalive tick",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:144] resets failure counter after a successful keepalive tick",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:144",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] deduplicates stop across idle and cleanup",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:167] deduplicates stop across idle and cleanup",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] does not restart keepalive after idle cleanup",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:177] does not restart keepalive after idle cleanup",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:177",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] auto-stops typing after maxDurationMs",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:197] auto-stops typing after maxDurationMs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:197",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] does not auto-stop if idle is called before TTL",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:217] does not auto-stop if idle is called before TTL",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:217",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] uses default 60s TTL when not specified",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:243] uses default 60s TTL when not specified",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:243",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] disables TTL when maxDurationMs is 0",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:259] disables TTL when maxDurationMs is 0",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:259",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/typing.test.ts] resets TTL timer on restart after idle",
+TEST_CASE("v4.29 [src/channels/typing.test.ts:271] resets TTL timer on restart after idle",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/typing.test.ts:271",
                "upstream it() block #13",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] returns wiki status over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:144] returns wiki status over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:144",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] returns recent import runs over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:173] returns recent import runs over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:173",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] returns import insights over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:222] returns import insights over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:222",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] returns memory palace overview over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:280] returns memory palace overview over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:280",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] validates required query params for wiki.search",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:336] validates required query params for wiki.search",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:336",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] forwards wiki.search mode and corpus options over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:360] forwards wiki.search mode and corpus options over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:360",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] forwards ingest requests over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:396] forwards ingest requests over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:396",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts] applies wiki mutations over the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/gateway.test.ts:428] applies wiki mutations over the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/gateway.test.ts:428",
                "upstream it() block #7",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/web.start.test.ts] restarts a previously running channel when login start exits early without a QR",
+TEST_CASE("v4.29 [src/gateway/server-methods/web.start.test.ts:87] restarts a previously running channel when login start exits early without a QR",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/web.start.test.ts:87",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/web.start.test.ts] keeps the channel stopped when login start has taken over with a QR flow",
+TEST_CASE("v4.29 [src/gateway/server-methods/web.start.test.ts:124] keeps the channel stopped when login start has taken over with a QR flow",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/web.start.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/web.start.test.ts] passes refreshed QR payloads back to the client while login is still pending",
+TEST_CASE("v4.29 [src/gateway/server-methods/web.start.test.ts:157] passes refreshed QR payloads back to the client while login is still pending",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/web.start.test.ts:157",
                "upstream it() block #2",

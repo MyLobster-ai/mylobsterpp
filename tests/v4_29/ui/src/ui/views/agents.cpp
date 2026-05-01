@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] selects the configured primary model on initial render",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:128] selects the configured primary model on initial render",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:128",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] remounts overview model controls when switching selected agents",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:190] remounts overview model controls when switching selected agents",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:190",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] shows the skills count only for the selected agent",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:257] shows the skills count only for the selected agent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:257",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] keeps the Cron Jobs tab label while localizing channel refresh never state",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:312] keeps the Cron Jobs tab label while localizing channel refresh never state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:312",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] renders the upgraded markdown preview structure with file metadata",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:348] renders the upgraded markdown preview structure with file metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:348",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] renders preview header controls as icon-only buttons with accessible labels",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:396] renders preview header controls as icon-only buttons with accessible labels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:396",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts] resets the expanded preview button state when the dialog closes",
+TEST_CASE("v4.29 [ui/src/ui/views/agents.test.ts:447] resets the expanded preview button state when the dialog closes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents.test.ts:447",
                "upstream it() block #6",

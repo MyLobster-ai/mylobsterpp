@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] runs agent command with deps and verbose enabled for --verbose on",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:82] runs agent command with deps and verbose enabled for --verbose on",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] runs agent command with verbose disabled for --verbose off",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:98] runs agent command with verbose disabled for --verbose off",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] accepts a model override for one-shot agent runs",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:112] accepts a model override for one-shot agent runs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] runs agents add and computes hasFlags based on explicit options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:126] runs agents add and computes hasFlags based on explicit options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] runs agents list when root agents command is invoked",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:166] runs agents list when root agents command is invoked",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:166",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] forwards agents list options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:171] forwards agents list options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] forwards agents bindings options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:182] forwards agents bindings options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] forwards agents bind options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:193] forwards agents bind options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:193",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] documents bind accountId resolution behavior in help text",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:215] documents bind accountId resolution behavior in help text",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:215",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] forwards agents unbind options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:224] forwards agents unbind options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:224",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] forwards agents delete options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:237] forwards agents delete options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:237",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] forwards set-identity options",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:249] forwards set-identity options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:249",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] reports errors via runtime when a command fails",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:286] reports errors via runtime when a command fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:286",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts] reports errors via runtime when agent command fails",
+TEST_CASE("v4.29 [src/cli/program/register.agent.test.ts:295] reports errors via runtime when agent command fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.agent.test.ts:295",
                "upstream it() block #13",

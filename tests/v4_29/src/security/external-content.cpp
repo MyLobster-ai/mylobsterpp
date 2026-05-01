@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] wraps content with security boundaries and matching IDs",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:90] wraps content with security boundaries and matching IDs",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:90",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] includes sender metadata when provided",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:104] includes sender metadata when provided",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] sanitizes newline-delimited metadata marker injection",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:115] sanitizes newline-delimited metadata marker injection",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] includes security warning by default",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:130] includes security warning by default",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] can skip security warning when requested",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:138] can skip security warning when requested",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:138",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] sanitizes attacker-injected markers with fake IDs",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:184] sanitizes attacker-injected markers with fake IDs",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:184",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] sanitizes model special-token literals in metadata",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:223] sanitizes model special-token literals in metadata",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:223",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] preserves non-marker unicode content",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:239] preserves non-marker unicode content",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] fully sanitizes markers when zero-width spaces shift folded offsets",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:246] fully sanitizes markers when zero-width spaces shift folded offsets",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] preserves non-marker zero-width characters while sanitizing spoofed markers",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:259] preserves non-marker zero-width characters while sanitizing spoofed markers",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:259",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] sanitizes fullwidth uppercase homoglyph markers (foldMarkerChar lines 152-153)",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:267] sanitizes fullwidth uppercase homoglyph markers (foldMarkerChar lines 152-153)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:267",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] sanitizes fullwidth lowercase homoglyph markers (foldMarkerChar lines 154-155)",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:280] sanitizes fullwidth lowercase homoglyph markers (foldMarkerChar lines 154-155)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:280",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] returns content unchanged when phrase is present but no marker delimiters found (line 240)",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:292] returns content unchanged when phrase is present but no marker delimiters found (line 240)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:292",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] wraps web search content with boundaries",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:305] wraps web search content with boundaries",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:305",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] includes the source label",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:314] includes the source label",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:314",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] adds warnings for web fetch content",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:320] adds warnings for web fetch content",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:320",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] normalizes homoglyph markers before sanitizing",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:327] normalizes homoglyph markers before sanitizing",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:327",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] builds complete safe prompt with all metadata",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:389] builds complete safe prompt with all metadata",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:389",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] handles minimal parameters",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:407] handles minimal parameters",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:407",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] safely wraps social engineering attempt",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:450] safely wraps social engineering attempt",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:450",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/external-content.test.ts] safely wraps role hijacking attempt",
+TEST_CASE("v4.29 [src/security/external-content.test.ts:483] safely wraps role hijacking attempt",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/external-content.test.ts:483",
                "upstream it() block #20",

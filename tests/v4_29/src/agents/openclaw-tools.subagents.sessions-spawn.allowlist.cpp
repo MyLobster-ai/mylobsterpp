@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] only allows same-agent spawns by default",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:91] only allows same-agent spawns by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:91",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] forbids cross-agent spawning when not allowlisted",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:97] forbids cross-agent spawning when not allowlisted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:97",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] allows cross-agent spawning when configured",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:108] allows cross-agent spawning when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:108",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] falls back to default allowlist when agent config omits allowAgents",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:122] falls back to default allowlist when agent config omits allowAgents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:122",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] allows any agent when allowlist contains *",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:136] allows any agent when allowlist contains *",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] normalizes allowlisted agent ids",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:146] normalizes allowlisted agent ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:146",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] forbids sandboxed cross-agent spawns that would unsandbox the child",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:156] forbids sandboxed cross-agent spawns that would unsandbox the child",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] forbids sandbox=",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:172] forbids sandbox=",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:172",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] forbids omitted agentId when requireAgentId is configured",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:187] forbids omitted agentId when requireAgentId is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:187",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] allows omitted agentId when requireAgentId is false",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:200] allows omitted agentId when requireAgentId is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:200",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] allows explicit agentId when requireAgentId is configured",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:214] allows explicit agentId when requireAgentId is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:214",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] rejects malformed agentId strings before any gateway work",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:224] rejects malformed agentId strings before any gateway work",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:224",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] rejects agentId containing path separators",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:237] rejects agentId containing path separators",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:237",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] rejects agentId exceeding 64 characters",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:249] rejects agentId exceeding 64 characters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:249",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] accepts well-formed agentId with hyphens and underscores",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:261] accepts well-formed agentId with hyphens and underscores",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:261",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts] allows allowlisted-but-unconfigured agentId",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:271] allows allowlisted-but-unconfigured agentId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.allowlist.test.ts:271",
                "upstream it() block #15",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/gateway/browser-request.profile-from-body.test.ts] uses profile from request body when query profile is missing",
+TEST_CASE("v4.29 [extensions/browser/src/gateway/browser-request.profile-from-body.test.ts:79] uses profile from request body when query profile is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/gateway/browser-request.profile-from-body.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/gateway/browser-request.profile-from-body.test.ts] prefers query profile over body profile when both are present",
+TEST_CASE("v4.29 [extensions/browser/src/gateway/browser-request.profile-from-body.test.ts:98] prefers query profile over body profile when both are present",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/gateway/browser-request.profile-from-body.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/gateway/browser-request.profile-from-body.test.ts] allows non-mutating profile reads",
+TEST_CASE("v4.29 [extensions/browser/src/gateway/browser-request.profile-from-body.test.ts:163] allows non-mutating profile reads",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/gateway/browser-request.profile-from-body.test.ts:163",
                "upstream it() block #2",

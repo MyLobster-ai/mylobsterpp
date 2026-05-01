@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] searches ClawHub skills from the native CLI",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:195] searches ClawHub skills from the native CLI",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:195",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] installs a skill from ClawHub into the active workspace",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:214] installs a skill from ClawHub into the active workspace",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:214",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] installs a skill into the cwd-inferred agent workspace",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:238] installs a skill into the cwd-inferred agent workspace",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:238",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] lets --agent override cwd-inferred workspace for installs",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:263] lets --agent override cwd-inferred workspace for installs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:263",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] honors parent --agent for subcommands",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:286] honors parent --agent for subcommands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:286",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] updates all tracked ClawHub skills",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:305] updates all tracked ClawHub skills",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:305",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] updates tracked ClawHub skills in the cwd-inferred agent workspace",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:332] updates tracked ClawHub skills in the cwd-inferred agent workspace",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:332",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] lets --agent override cwd-inferred workspace for updates",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:359] lets --agent override cwd-inferred workspace for updates",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:359",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] falls back to the default agent outside configured workspaces",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:468] falls back to the default agent outside configured workspaces",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:468",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts] keeps non-JSON skills list output on stdout with human-readable formatting",
+TEST_CASE("v4.29 [src/cli/skills-cli.commands.test.ts:484] keeps non-JSON skills list output on stdout with human-readable formatting",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/skills-cli.commands.test.ts:484",
                "upstream it() block #9",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/cli.browser-plugin.integration.test.ts] registers the browser command from the bundled browser plugin",
+TEST_CASE("v4.29 [src/plugins/cli.browser-plugin.integration.test.ts:29] registers the browser command from the bundled browser plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/cli.browser-plugin.integration.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/cli.browser-plugin.integration.test.ts] omits the browser command when the bundled browser plugin is disabled",
+TEST_CASE("v4.29 [src/plugins/cli.browser-plugin.integration.test.ts:48] omits the browser command when the bundled browser plugin is disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/cli.browser-plugin.integration.test.ts:48",
                "upstream it() block #1",

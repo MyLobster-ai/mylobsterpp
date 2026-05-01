@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.issue-35195-backup-timing.test.ts] keeps .bak as the pre-edit store even after later normalization persists",
+TEST_CASE("v4.29 [src/cron/service.issue-35195-backup-timing.test.ts:12] keeps .bak as the pre-edit store even after later normalization persists",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-35195-backup-timing.test.ts:12",
                "upstream it() block #0",

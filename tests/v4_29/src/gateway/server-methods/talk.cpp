@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/talk.test.ts] uses the active runtime config snapshot instead of the raw config snapshot",
+TEST_CASE("v4.29 [src/gateway/server-methods/talk.test.ts:65] uses the active runtime config snapshot instead of the raw config snapshot",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/talk.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/talk.test.ts] passes runtime-resolved messages.tts provider secrets to strict provider resolvers",
+TEST_CASE("v4.29 [src/gateway/server-methods/talk.test.ts:141] passes runtime-resolved messages.tts provider secrets to strict provider resolvers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/talk.test.ts:141",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/talk.test.ts] falls back to the gateway relay when Google returns a WebRTC-shaped browser session",
+TEST_CASE("v4.29 [src/gateway/server-methods/talk.test.ts:246] falls back to the gateway relay when Google returns a WebRTC-shaped browser session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/talk.test.ts:246",
                "upstream it() block #2",

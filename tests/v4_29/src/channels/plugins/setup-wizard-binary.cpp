@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts] builds status lines, hint, and score from binary detection",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts:11] builds status lines, hint, and score from binary detection",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-binary.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts] passes accountId into binary path resolution",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts:41] passes accountId into binary path resolution",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-binary.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts] reuses the same path resolver for current and initial values",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts:67] reuses the same path resolver for current and initial values",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-binary.test.ts:67",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts] forwards optional status resolvers to the loaded wizard",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts:89] forwards optional status resolvers to the loaded wizard",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-binary.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts] forwards shouldPrompt for the requested input key",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-binary.test.ts:114] forwards shouldPrompt for the requested input key",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-binary.test.ts:114",
                "upstream it() block #4",

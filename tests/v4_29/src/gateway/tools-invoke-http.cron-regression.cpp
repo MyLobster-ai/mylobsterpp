@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.cron-regression.test.ts] blocks cron and gateway by default",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.cron-regression.test.ts:132] blocks cron and gateway by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.cron-regression.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.cron-regression.test.ts] allows cron once gateway.tools.allow explicitly removes the default deny",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.cron-regression.test.ts:140] allows cron once gateway.tools.allow explicitly removes the default deny",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.cron-regression.test.ts:140",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.cron-regression.test.ts] keeps gateway denied under the coding profile while honoring explicit cron allow",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.cron-regression.test.ts:154] keeps gateway denied under the coding profile while honoring explicit cron allow",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.cron-regression.test.ts:154",
                "upstream it() block #2",

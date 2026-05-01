@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-auth-flat-profiles.test.ts] rewrites legacy flat auth-profiles.json stores with a backup",
+TEST_CASE("v4.29 [src/commands/doctor-auth-flat-profiles.test.ts:52] rewrites legacy flat auth-profiles.json stores with a backup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth-flat-profiles.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth-flat-profiles.test.ts] reports legacy flat stores without rewriting when repair is declined",
+TEST_CASE("v4.29 [src/commands/doctor-auth-flat-profiles.test.ts:84] reports legacy flat stores without rewriting when repair is declined",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth-flat-profiles.test.ts:84",
                "upstream it() block #1",

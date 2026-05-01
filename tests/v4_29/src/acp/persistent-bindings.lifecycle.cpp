@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts] clears configured bindings and lets the next turn recreate them",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts:61] clears configured bindings and lets the next turn recreate them",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.lifecycle.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts] falls back to close-only resets when no configured binding exists",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts:101] falls back to close-only resets when no configured binding exists",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.lifecycle.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts] can force metadata clearing for bound ACP targets outside the configured registry",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts:128] can force metadata clearing for bound ACP targets outside the configured registry",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.lifecycle.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts] treats configured bindings with no ACP metadata as already reset",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.lifecycle.test.ts:155] treats configured bindings with no ACP metadata as already reset",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.lifecycle.test.ts:155",
                "upstream it() block #3",

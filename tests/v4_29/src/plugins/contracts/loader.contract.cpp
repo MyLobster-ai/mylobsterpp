@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts] keeps bundled provider compatibility wired to the provider registry",
+TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts:79] keeps bundled provider compatibility wired to the provider registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/loader.contract.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts] keeps vitest bundled provider enablement wired to the provider registry",
+TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts:87] keeps vitest bundled provider enablement wired to the provider registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/loader.contract.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts] keeps bundled web search loading scoped to the web search registry",
+TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts:93] keeps bundled web search loading scoped to the web search registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/loader.contract.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts] keeps bundled web search allowlist compatibility wired to the web search registry",
+TEST_CASE("v4.29 [src/plugins/contracts/loader.contract.test.ts:97] keeps bundled web search allowlist compatibility wired to the web search registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/loader.contract.test.ts:97",
                "upstream it() block #3",

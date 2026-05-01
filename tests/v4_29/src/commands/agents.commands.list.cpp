@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agents.commands.list.test.ts] keeps plain JSON output on the config-only path",
+TEST_CASE("v4.29 [src/commands/agents.commands.list.test.ts:76] keeps plain JSON output on the config-only path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.commands.list.test.ts:76",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.commands.list.test.ts] keeps provider details available for JSON callers that request bindings",
+TEST_CASE("v4.29 [src/commands/agents.commands.list.test.ts:88] keeps provider details available for JSON callers that request bindings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.commands.list.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.commands.list.test.ts] keeps human output enriched from read-only provider metadata",
+TEST_CASE("v4.29 [src/commands/agents.commands.list.test.ts:116] keeps human output enriched from read-only provider metadata",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.commands.list.test.ts:116",
                "upstream it() block #2",

@@ -5,306 +5,306 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps supported file references and paths",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:10] wraps supported file references and paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not wrap inside protected html contexts",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:25] does not wrap inside protected html contexts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles mixed content correctly",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:39] handles mixed content correctly",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles boundary and punctuation wrapping cases",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:45] handles boundary and punctuation wrapping cases",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] de-linkifies auto-linkified anchors for plain files and paths",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:66] de-linkifies auto-linkified anchors for plain files and paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves explicit links where label differs from href",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:82] preserves explicit links where label differs from href",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file ref after closing anchor tag",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:92] wraps file ref after closing anchor tag",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file references in markdown mode",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:100] wraps file references in markdown mode",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:100",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not wrap in HTML mode (trusts caller markup)",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:105] does not wrap in HTML mode (trusts caller markup)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:105",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not double-wrap already code-formatted content",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:112] does not double-wrap already code-formatted content",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:112",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file references by default",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:121] wraps file references by default",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:121",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] can skip wrapping when requested",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:126] can skip wrapping when requested",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:126",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps multiple file types in a single message",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:131] wraps multiple file types in a single message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:131",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves real URLs as anchor tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:137] preserves real URLs as anchor tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:137",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves explicit markdown links even when href looks like a file ref",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:142] preserves explicit markdown links even when href looks like a file ref",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:142",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file ref after real URL in same message",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:147] wraps file ref after real URL in same message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:147",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file references in chunked output",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:155] wraps file references in chunked output",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:155",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] keeps rendered html chunks within the provided limit",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:162] keeps rendered html chunks within the provided limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:162",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves whitespace when html-limit retry splitting runs",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:170] preserves whitespace when html-limit retry splitting runs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:170",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] prefers word boundaries when escaped html shrinks the retry window",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:178] prefers word boundaries when escaped html shrinks the retry window",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:178",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] prefers word boundaries when html-limit retry splits formatted prose",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:186] prefers word boundaries when html-limit retry splits formatted prose",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:186",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves formatting while splitting at word boundaries",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:193] preserves formatting while splitting at word boundaries",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:193",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not rely on monotonic html length for sliced file refs",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:204] does not rely on monotonic html length for sliced file refs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:204",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] gracefully returns the original chunk when tag overhead exceeds the limit",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:213] gracefully returns the original chunk when tag overhead exceeds the limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:213",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] falls back to in-paren word boundaries when the parenthesis is unbalanced",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:222] falls back to in-paren word boundaries when the parenthesis is unbalanced",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:222",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] falls back to hard splits when a single word exceeds the limit",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:229] falls back to hard splits when a single word exceeds the limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:229",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not emit whitespace-only chunks during html-limit retry splitting",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:236] does not emit whitespace-only chunks during html-limit retry splitting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:236",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves paragraph separators when retry chunking produces whitespace-only spans",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:244] preserves paragraph separators when retry chunking produces whitespace-only spans",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:244",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file refs inside emphasis tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:253] wraps file refs inside emphasis tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:253",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not wrap inside fenced code blocks",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:263] does not wrap inside fenced code blocks",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:263",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] preserves real URL/domain paths as anchors",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:269] preserves real URL/domain paths as anchors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:269",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles wrapFileRefs: false (plain text output)",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:287] handles wrapFileRefs: false (plain text output)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:287",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] classifies extension-like tokens as file refs or domains",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:293] classifies extension-like tokens as file refs or domains",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:293",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file refs across boundaries, sequences, and path variants",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:342] wraps file refs across boundaries, sequences, and path variants",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:342",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles nested code tags (depth tracking)",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:401] handles nested code tags (depth tracking)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:401",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles multiple anchor tags in sequence",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:408] handles multiple anchor tags in sequence",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:408",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps orphaned TLD pattern after special character",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:416] wraps orphaned TLD pattern after special character",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:416",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps orphaned single-letter TLD patterns",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:424] wraps orphaned single-letter TLD patterns",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:424",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not match filenames containing angle brackets",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:433] does not match filenames containing angle brackets",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:433",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] wraps file ref before unrelated HTML tags",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:442] wraps file ref before unrelated HTML tags",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:442",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles malformed HTML with stray closing tags (negative depth)",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:449] handles malformed HTML with stray closing tags (negative depth)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:449",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] does not wrap orphaned TLD fragments inside protected HTML contexts",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:462] does not wrap orphaned TLD fragments inside protected HTML contexts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:462",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts] handles multiple orphaned TLDs with HTML tags (offset stability)",
+TEST_CASE("v4.29 [extensions/telegram/src/format.wrap-md.test.ts:478] handles multiple orphaned TLDs with HTML tags (offset stability)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/format.wrap-md.test.ts:478",
                "upstream it() block #42",

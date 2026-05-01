@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/voicewake.test.ts] returns defaults when missing",
+TEST_CASE("v4.29 [src/infra/voicewake.test.ts:12] returns defaults when missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake.test.ts] sanitizes and persists triggers",
+TEST_CASE("v4.29 [src/infra/voicewake.test.ts:21] sanitizes and persists triggers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/voicewake.test.ts] falls back to defaults for empty or malformed persisted values",
+TEST_CASE("v4.29 [src/infra/voicewake.test.ts:34] falls back to defaults for empty or malformed persisted values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/voicewake.test.ts:34",
                "upstream it() block #2",

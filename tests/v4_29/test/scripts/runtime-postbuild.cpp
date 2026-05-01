@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts] tracks plugin-owned static assets that release packaging must ship",
+TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts:15] tracks plugin-owned static assets that release packaging must ship",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/runtime-postbuild.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts] copies declared static assets into dist",
+TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts:26] copies declared static assets into dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/runtime-postbuild.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts] warns when a declared static asset is missing",
+TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts:43] warns when a declared static asset is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/runtime-postbuild.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts] writes stable aliases for hashed root runtime modules",
+TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts:58] writes stable aliases for hashed root runtime modules",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/runtime-postbuild.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts] writes legacy CLI exit compatibility chunks",
+TEST_CASE("v4.29 [test/scripts/runtime-postbuild.test.ts:89] writes legacy CLI exit compatibility chunks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/runtime-postbuild.test.ts:89",
                "upstream it() block #4",

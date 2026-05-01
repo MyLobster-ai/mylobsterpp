@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] forwards an OpenAI Codex auth profile when the selected provider is codex-cli",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:230] forwards an OpenAI Codex auth profile when the selected provider is codex-cli",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:230",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] forwards an OpenAI Codex auth profile when the auth provider is the legacy codex-cli alias",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:250] forwards an OpenAI Codex auth profile when the auth provider is the legacy codex-cli alias",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:250",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] does not leak an OpenAI API-key auth profile into the Codex CLI alias",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:270] does not leak an OpenAI API-key auth profile into the Codex CLI alias",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:270",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] does not leak an OpenAI Codex auth profile into an unrelated CLI provider",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:283] does not leak an OpenAI Codex auth profile into an unrelated CLI provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:283",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] does not let a configured Codex harness leak OpenAI Codex auth into unrelated CLI providers",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:296] does not let a configured Codex harness leak OpenAI Codex auth into unrelated CLI providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:296",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] forwards an OpenAI Codex auth profile through the embedded Pi path",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:316] forwards an OpenAI Codex auth profile through the embedded Pi path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:316",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] accepts the legacy codex-cli auth-provider alias on the embedded OpenAI Codex path",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:331] accepts the legacy codex-cli auth-provider alias on the embedded OpenAI Codex path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:331",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] forwards an OpenAI auth profile through the embedded OpenAI path",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:351] forwards an OpenAI auth profile through the embedded OpenAI path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:351",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] does not leak an OpenAI Codex auth profile into an unrelated embedded provider",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:366] does not leak an OpenAI Codex auth profile into an unrelated embedded provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:366",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] preserves OpenAI Codex auth profiles through the real codex/* harness startup path",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:379] preserves OpenAI Codex auth profiles through the real codex/* harness startup path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:379",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] validates openai/* forced through the Codex harness can use OpenAI Codex OAuth profiles",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:402] validates openai/* forced through the Codex harness can use OpenAI Codex OAuth profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:402",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts] preserves configured Codex harness when a skeleton session entry is considered history",
+TEST_CASE("v4.29 [src/agents/auth-profile-runtime-contract.test.ts:425] preserves configured Codex harness when a skeleton session entry is considered history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profile-runtime-contract.test.ts:425",
                "upstream it() block #11",

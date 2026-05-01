@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts] resolves the ADC marker through the provider hook",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts:27] resolves the ADC marker through the provider hook",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/index.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts] merges the implicit Vertex catalog into explicit provider overrides",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts:40] merges the implicit Vertex catalog into explicit provider overrides",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/index.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts] owns Anthropic-style replay policy",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts:81] owns Anthropic-style replay policy",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/index.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts] resolves synthetic auth when ADC is available",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts:102] resolves synthetic auth when ADC is available",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/index.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts] returns undefined when ADC is not available",
+TEST_CASE("v4.29 [extensions/anthropic-vertex/index.test.ts:119] returns undefined when ADC is not available",
           "[v4_29][parity_gap][anthropic-vertex]") {
     PARITY_GAP("extensions/anthropic-vertex/index.test.ts:119",
                "upstream it() block #4",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] should NOT reset session when Provider is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:85] should NOT reset session when Provider is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] should reset session when Provider is NOT ",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:111] should reset session when Provider is NOT ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] should preserve session when Provider is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:136] should preserve session when Provider is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:136",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] does not let heartbeat keep an expired daily session fresh for the next user message",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:165] does not let heartbeat keep an expired daily session fresh for the next user message",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] resets legacy daily sessions using the JSONL header even when updatedAt is fresh",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:209] resets legacy daily sessions using the JSONL header even when updatedAt is fresh",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:209",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] does not let heartbeat keep a legacy idle session fresh without lastInteractionAt",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:248] does not let heartbeat keep a legacy idle session fresh without lastInteractionAt",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:248",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] should handle cron-event provider same as heartbeat (no reset)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:296] should handle cron-event provider same as heartbeat (no reset)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:296",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts] should handle exec-event provider same as heartbeat (no reset)",
+TEST_CASE("v4.29 [src/auto-reply/reply/session.heartbeat-no-reset.test.ts:320] should handle exec-event provider same as heartbeat (no reset)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/session.heartbeat-no-reset.test.ts:320",
                "upstream it() block #7",

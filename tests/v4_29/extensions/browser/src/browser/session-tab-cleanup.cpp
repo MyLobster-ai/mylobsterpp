@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-cleanup.test.ts] classifies primary sessions without matching subagent, cron, or acp sessions",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-cleanup.test.ts:23] classifies primary sessions without matching subagent, cron, or acp sessions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-cleanup.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-cleanup.test.ts] only cleans up tracked tabs for primary-agent sessions",
+TEST_CASE("v4.29 [extensions/browser/src/browser/session-tab-cleanup.test.ts:30] only cleans up tracked tabs for primary-agent sessions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/session-tab-cleanup.test.ts:30",
                "upstream it() block #1",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.sender-prefers-delivery-target.test.ts] uses the delivery target as sender when lastTo differs",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.sender-prefers-delivery-target.test.ts:10] uses the delivery target as sender when lastTo differs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.sender-prefers-delivery-target.test.ts:10",
                "upstream it() block #0",

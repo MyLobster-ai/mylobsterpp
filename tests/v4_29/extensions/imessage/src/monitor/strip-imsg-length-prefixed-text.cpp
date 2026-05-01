@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] removes a length-delimited field wrapper from text",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:8] removes a length-delimited field wrapper from text",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] removes a wrapped payload when the payload length byte is ASCII-printable",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:13] removes a wrapped payload when the payload length byte is ASCII-printable",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] removes a payload behind a two-byte varint length (raw buffer)",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:19] removes a payload behind a two-byte varint length (raw buffer)",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:19",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] does not strip plain text whose first bytes can mimic a naked length prefix",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:31] does not strip plain text whose first bytes can mimic a naked length prefix",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] does not strip plain text that starts with a different length-delimited field tag",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:36] does not strip plain text that starts with a different length-delimited field tag",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:36",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] preserves plain text",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:41] preserves plain text",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:41",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] preserves text when the wrapped length does not consume the whole string",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:45] preserves text when the wrapped length does not consume the whole string",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:45",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] preserves text when the field tag is missing",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:50] preserves text when the field tag is missing",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:50",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts] returns empty string unchanged",
+TEST_CASE("v4.29 [extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:55] returns empty string unchanged",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/monitor/strip-imsg-length-prefixed-text.test.ts:55",
                "upstream it() block #8",

@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] skips provider hook dispatch for unrelated errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:30] skips provider hook dispatch for unrelated errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] does not match unrelated errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:68] does not match unrelated errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Bedrock ThrottlingException as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:78] classifies Bedrock ThrottlingException as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Bedrock ModelNotReadyException as overloaded",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:84] classifies Bedrock ModelNotReadyException as overloaded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Groq model_deactivated as model_not_found",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:90] classifies Groq model_deactivated as model_not_found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies concurrency limit as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:94] classifies concurrency limit as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Cloudflare Workers AI quota errors as rate_limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:99] classifies Cloudflare Workers AI quota errors as rate_limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:99",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] does not match generic ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:105] does not match generic ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:105",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] returns null for unmatched errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:109] returns null for unmatched errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] detects Bedrock ValidationException as context overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:115] detects Bedrock ValidationException as context overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:115",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] detects Ollama context overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:121] detects Ollama context overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:121",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] detects llama.cpp slot ctx-size overflow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:125] detects llama.cpp slot ctx-size overflow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:125",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] still detects standard context overflow patterns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:134] still detects standard context overflow patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:134",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Bedrock ThrottlingException via provider patterns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:141] classifies Bedrock ThrottlingException via provider patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:141",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Groq model_deactivated via provider patterns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:147] classifies Groq model_deactivated via provider patterns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:147",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Cloudflare HTML 502 as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:179] classifies Cloudflare HTML 502 as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:179",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Cloudflare HTML 503 with rate-limit text as timeout",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:183] classifies Cloudflare HTML 503 with rate-limit text as timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:183",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] preserves auth classification for 401 HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:187] preserves auth classification for 401 HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:187",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] preserves auth classification for 403 HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:191] preserves auth classification for 403 HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:191",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] preserves auth classification for Error-prefixed 401 HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:195] preserves auth classification for Error-prefixed 401 HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:195",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] preserves billing classification for 402 HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:199] preserves billing classification for 402 HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:199",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] preserves rate-limit classification for 429 HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:203] preserves rate-limit classification for 429 HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:203",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies runtime failure kind as upstream_html for non-auth HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:207] classifies runtime failure kind as upstream_html for non-auth HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:207",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies 403 HTML runtime failures as auth_html_403",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:213] classifies 403 HTML runtime failures as auth_html_403",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:213",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies 407 HTML runtime failures as proxy",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:219] classifies 407 HTML runtime failures as proxy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:219",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] classifies Error-prefixed 407 HTML runtime failures as proxy",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:223] classifies Error-prefixed 407 HTML runtime failures as proxy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:223",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts] does not misclassify JSON API rate-limit responses as HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:227] does not misclassify JSON API rate-limit responses as HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/provider-error-patterns.test.ts:227",
                "upstream it() block #26",

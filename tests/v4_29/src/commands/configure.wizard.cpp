@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] persists gateway.mode=local when only the run mode is selected",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:235] persists gateway.mode=local when only the run mode is selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:235",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] keeps startup gateway hint probes bounded",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:251] keeps startup gateway hint probes bounded",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:251",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] exits with code 1 when configure wizard is cancelled",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:283] exits with code 1 when configure wizard is cancelled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:283",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] persists provider-owned web search config changes returned by setupSearch",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:293] persists provider-owned web search config changes returned by setupSearch",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:293",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] does not crash when web search providers are unavailable under plugin policy",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:340] does not crash when web search providers are unavailable under plugin policy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:340",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] does not load managed search provider options when web search is disabled",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:369] does not load managed search provider options when web search is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:369",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] defers channel status checks until a channel is selected",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:388] defers channel status checks until a channel is selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:388",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] still supports keyless web search providers through the shared setup flow",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:410] still supports keyless web search providers through the shared setup flow",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:410",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] can enable native Codex search without configuring a managed provider",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:441] can enable native Codex search without configuring a managed provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:441",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] preserves disabled native Codex search when toggled off",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:477] preserves disabled native Codex search when toggled off",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:477",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts] retries without dropping nested plugin config written during wizard flow (issue #64188)",
+TEST_CASE("v4.29 [src/commands/configure.wizard.test.ts:524] retries without dropping nested plugin config written during wizard flow (issue #64188)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.wizard.test.ts:524",
                "upstream it() block #10",

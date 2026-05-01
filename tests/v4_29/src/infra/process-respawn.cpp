@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns disabled when OPENCLAW_NO_RESPAWN is set",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:77] returns disabled when OPENCLAW_NO_RESPAWN is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] keeps OPENCLAW_NO_RESPAWN ahead of inherited supervisor hints",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:84] keeps OPENCLAW_NO_RESPAWN ahead of inherited supervisor hints",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:84",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns supervised when launchd hints are present on macOS (no kickstart)",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:97] returns supervised when launchd hints are present on macOS (no kickstart)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns supervised on macOS when launchd label is set (no kickstart)",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:102] returns supervised on macOS when launchd label is set (no kickstart)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] launchd supervisor never returns failed regardless of triggerOpenClawRestart outcome",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:106] launchd supervisor never returns failed regardless of triggerOpenClawRestart outcome",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] does not schedule kickstart on non-darwin platforms",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:122] does not schedule kickstart on non-darwin platforms",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns supervised when XPC_SERVICE_NAME is set by launchd",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:134] returns supervised when XPC_SERVICE_NAME is set by launchd",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:134",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] spawns detached child with current exec argv",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:144] spawns detached child with current exec argv",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:144",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns supervised when OPENCLAW_LAUNCHD_LABEL is set (stock launchd plist)",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:165] returns supervised when OPENCLAW_LAUNCHD_LABEL is set (stock launchd plist)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:165",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns supervised when OPENCLAW_SYSTEMD_UNIT is set",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:170] returns supervised when OPENCLAW_SYSTEMD_UNIT is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:170",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns supervised when OpenClaw gateway task markers are set on Windows",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:179] returns supervised when OpenClaw gateway task markers are set on Windows",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:179",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] keeps generic service markers out of non-Windows supervisor detection",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:191] keeps generic service markers out of non-Windows supervisor detection",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:191",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns disabled on Windows without Scheduled Task markers",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:204] returns disabled on Windows without Scheduled Task markers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:204",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns disabled in containers so PID 1 stays alive for in-process restart",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:215] returns disabled in containers so PID 1 stays alive for in-process restart",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:215",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] ignores node task script hints for gateway restart detection on Windows",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:230] ignores node task script hints for gateway restart detection on Windows",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:230",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] returns failed when spawn throws",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:245] returns failed when spawn throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:245",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] keeps OPENCLAW_NO_RESPAWN semantics for update restarts",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:260] keeps OPENCLAW_NO_RESPAWN semantics for update restarts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:260",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/process-respawn.test.ts] allows detached respawn on unmanaged Windows during updates",
+TEST_CASE("v4.29 [src/infra/process-respawn.test.ts:270] allows detached respawn on unmanaged Windows during updates",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/process-respawn.test.ts:270",
                "upstream it() block #17",

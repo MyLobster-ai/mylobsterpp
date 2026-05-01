@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] pending messages appear in InboundHistory; trigger itself does not",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:141] pending messages appear in InboundHistory; trigger itself does not",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:141",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] multi-agent: each agent has an independent watermark",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:167] multi-agent: each agent has an independent watermark",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:167",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] respects historyLimit: caps to the most recent N entries",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:216] respects historyLimit: caps to the most recent N entries",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:216",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] historyLimit=0 disables history accumulation entirely",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:244] historyLimit=0 disables history accumulation entirely",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:244",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] historyLimit=0 does not serialize same-room ingress",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:265] historyLimit=0 does not serialize same-room ingress",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:265",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] DMs do not accumulate history (group chat only)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:298] DMs do not accumulate history (group chat only)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:298",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] history-enabled rooms do not serialize DM ingress heavy work",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:321] history-enabled rooms do not serialize DM ingress heavy work",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:321",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] includes skipped media-only room messages in next trigger history",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:361] includes skipped media-only room messages in next trigger history",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:361",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] includes skipped poll updates in next trigger history",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:399] includes skipped poll updates in next trigger history",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:399",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] messages arriving during agent processing are visible on the next trigger",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:466] messages arriving during agent processing are visible on the next trigger",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:466",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] watermark does not advance when final reply delivery fails (retry sees same history)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:518] watermark does not advance when final reply delivery fails (retry sees same history)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:518",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] retrying the same failed trigger reuses the original history window",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:553] retrying the same failed trigger reuses the original history window",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:553",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] records pending history before sender-name lookup resolves",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:583] records pending history before sender-name lookup resolves",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:583",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts] preserves arrival order when a plain message starts before a later trigger",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:630] preserves arrival order when a plain message starts before a later trigger",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.group-history.test.ts:630",
                "upstream it() block #13",

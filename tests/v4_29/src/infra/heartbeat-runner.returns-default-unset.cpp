@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] returns default when unset",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:244] returns default when unset",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:244",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] returns null when invalid or zero",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:248] returns null when invalid or zero",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:248",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] parses duration strings with minute defaults",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:261] parses duration strings with minute defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:261",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] uses explicit heartbeat overrides when provided",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:279] uses explicit heartbeat overrides when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:279",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] enables only explicit heartbeat agents when configured",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:306] enables only explicit heartbeat agents when configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:306",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] uses global heartbeat defaults for all agents when no explicit heartbeat entries exist",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:317] uses global heartbeat defaults for all agents when no explicit heartbeat entries exist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:317",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] falls back to default agent when no heartbeat config exists",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:328] falls back to default agent when no heartbeat config exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:328",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] resolves target variants across route and allowlist rules",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:345] resolves target variants across route and allowlist rules",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:345",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] prefers per-agent heartbeat overrides when provided",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:542] prefers per-agent heartbeat overrides when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:542",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] prefers delivery accountId for allowFrom resolution",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:564] prefers delivery accountId for allowFrom resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:564",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] skips when agent heartbeat is not enabled",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:616] skips when agent heartbeat is not enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:616",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] skips outside active hours",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:631] skips outside active hours",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:631",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] uses the last non-empty payload for delivery",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:655] uses the last non-empty payload for delivery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:655",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] uses per-agent heartbeat overrides and session keys",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:714] uses per-agent heartbeat overrides and session keys",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:714",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] reuses non-default agent sessionFile from templated stores",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:791] reuses non-default agent sessionFile from templated stores",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:791",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] suppresses duplicate heartbeat payloads within 24h",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1077] suppresses duplicate heartbeat payloads within 24h",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1077",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] loads the default agent session from templated stores",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1221] loads the default agent session from templated stores",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1221",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] adds explicit workspace HEARTBEAT.md path guidance to heartbeat prompts",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1398] adds explicit workspace HEARTBEAT.md path guidance to heartbeat prompts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1398",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] keeps non-task HEARTBEAT.md context while stripping blank-line-separated task blocks",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1417] keeps non-task HEARTBEAT.md context while stripping blank-line-separated task blocks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1417",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] strips documented unindented task entries while keeping following top-level bullets",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1492] strips documented unindented task entries while keeping following top-level bullets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1492",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] applies HEARTBEAT.md gating rules across file states and triggers",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1563] applies HEARTBEAT.md gating rules across file states and triggers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1563",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] uses an internal-only cron prompt when heartbeat delivery target is none",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1698] uses an internal-only cron prompt when heartbeat delivery target is none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1698",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts] uses an internal-only exec prompt when heartbeat delivery target is none",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.returns-default-unset.test.ts:1753] uses an internal-only exec prompt when heartbeat delivery target is none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.returns-default-unset.test.ts:1753",
                "upstream it() block #22",

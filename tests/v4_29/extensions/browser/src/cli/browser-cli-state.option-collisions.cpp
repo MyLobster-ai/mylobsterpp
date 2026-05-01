@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] forwards parent-captured --target-id on ",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:73] forwards parent-captured --target-id on ",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] resolves --url via parent when addGatewayClientOptions captures it",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:88] resolves --url via parent when addGatewayClientOptions captures it",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] inherits --url from parent when subcommand does not provide it",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:110] inherits --url from parent when subcommand does not provide it",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] accepts legacy parent ",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:122] accepts legacy parent ",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:122",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] filters non-string header values from JSON payload",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:134] filters non-string header values from JSON payload",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:134",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] errors when set offline receives an invalid value",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:146] errors when set offline receives an invalid value",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:146",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] errors when set media receives an invalid value",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:156] errors when set media receives an invalid value",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] errors when headers JSON is missing",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:166] errors when headers JSON is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:166",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts] errors when headers JSON is not an object",
+TEST_CASE("v4.29 [extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:176] errors when headers JSON is not an object",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/cli/browser-cli-state.option-collisions.test.ts:176",
                "upstream it() block #8",

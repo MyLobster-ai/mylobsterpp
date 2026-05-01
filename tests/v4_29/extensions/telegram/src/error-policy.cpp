@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts] resolves policy and cooldown from the most specific config",
+TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts:21] resolves policy and cooldown from the most specific config",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/error-policy.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts] suppresses only repeated matching errors within the same scope",
+TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts:34] suppresses only repeated matching errors within the same scope",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/error-policy.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts] keeps cooldowns per error message within the same scope",
+TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts:64] keeps cooldowns per error message within the same scope",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/error-policy.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts] prunes expired cooldowns within a single scope",
+TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts:93] prunes expired cooldowns within a single scope",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/error-policy.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts] does not leak suppression across accounts or threads",
+TEST_CASE("v4.29 [extensions/telegram/src/error-policy.test.ts:123] does not leak suppression across accounts or threads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/error-policy.test.ts:123",
                "upstream it() block #4",

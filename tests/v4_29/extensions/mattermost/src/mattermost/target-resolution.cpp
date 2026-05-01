@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts] recognizes explicit targets and ID-shaped values",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts:46] recognizes explicit targets and ID-shaped values",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/target-resolution.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts] resolves opaque ids as users and caches the result",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts:57] resolves opaque ids as users and caches the result",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/target-resolution.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts] falls back to channel targets on 404 lookups",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts:90] falls back to channel targets on 404 lookups",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/target-resolution.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts] uses account resolution when token/base url are not passed",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/target-resolution.test.ts:108] uses account resolution when token/base url are not passed",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/target-resolution.test.ts:108",
                "upstream it() block #3",

@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] clears inherited API-key env vars when the default Codex profile is subscription auth",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:118] clears inherited API-key env vars when the default Codex profile is subscription auth",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:118",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] clears an inherited OpenAI API key for an explicit Codex OAuth profile",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:156] clears an inherited OpenAI API key for an explicit Codex OAuth profile",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:156",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] clears an inherited OpenAI API key for an explicit Codex token profile",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:188] clears an inherited OpenAI API key for an explicit Codex token profile",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:188",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] keeps an inherited OpenAI API key for an explicit Codex api-key profile",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:217] keeps an inherited OpenAI API key for an explicit Codex api-key profile",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:217",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] does not clear process environment for websocket app-server connections",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:243] does not clear process environment for websocket app-server connections",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:243",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] applies an OpenAI Codex OAuth profile through app-server login",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:276] applies an OpenAI Codex OAuth profile through app-server login",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:276",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] refreshes an expired OpenAI Codex OAuth profile before app-server login",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:311] refreshes an expired OpenAI Codex OAuth profile before app-server login",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:311",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] applies an OpenAI Codex api-key profile backed by a secret ref",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:353] applies an OpenAI Codex api-key profile backed by a secret ref",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:353",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] falls back to CODEX_API_KEY when no auth profile and no Codex account is available",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:383] falls back to CODEX_API_KEY when no auth profile and no Codex account is available",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:383",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] falls back to OPENAI_API_KEY when CODEX_API_KEY is not set",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:412] falls back to OPENAI_API_KEY when CODEX_API_KEY is not set",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:412",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] keeps an existing app-server ChatGPT account over env API-key fallback",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:439] keeps an existing app-server ChatGPT account over env API-key fallback",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:439",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] skips env API-key fallback when app-server does not require OpenAI auth",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:465] skips env API-key fallback when app-server does not require OpenAI auth",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:465",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] honors clearEnv before env API-key fallback",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:488] honors clearEnv before env API-key fallback",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:488",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] does not send env API-key fallback to websocket app-server connections",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:513] does not send env API-key fallback to websocket app-server connections",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:513",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] applies an OpenAI Codex token profile backed by a secret ref",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:539] applies an OpenAI Codex token profile backed by a secret ref",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:539",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] accepts a legacy Codex auth-provider alias for app-server login",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:572] accepts a legacy Codex auth-provider alias for app-server login",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:572",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] answers app-server ChatGPT token refresh requests from the bound profile",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:604] answers app-server ChatGPT token refresh requests from the bound profile",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:604",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] refreshes inherited main Codex OAuth without cloning it into the child store",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:643] refreshes inherited main Codex OAuth without cloning it into the child store",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:643",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] force-refreshes the owner credential instead of a stale child OAuth clone",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:694] force-refreshes the owner credential instead of a stale child OAuth clone",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:694",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] accepts a refreshed Codex OAuth credential when the stored provider is a legacy alias",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:769] accepts a refreshed Codex OAuth credential when the stored provider is a legacy alias",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:769",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts] preserves a stored ChatGPT plan type when building token login params",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/auth-bridge.test.ts:808] preserves a stored ChatGPT plan type when building token login params",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/auth-bridge.test.ts:808",
                "upstream it() block #20",

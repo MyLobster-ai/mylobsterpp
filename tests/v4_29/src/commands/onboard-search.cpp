@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] returns config unchanged when user skips",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:291] returns config unchanged when user skips",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:291",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] sets provider keys and enables plugin entries",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:298] sets provider keys and enables plugin entries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:298",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] shows missing-key note when no key is provided and no env var",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:362] shows missing-key note when no key is provided and no env var",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:362",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] keeps existing key when user leaves input blank",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:385] keeps existing key when user leaves input blank",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:385",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] quickstart skips key prompt when config key exists",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:400] quickstart skips key prompt when config key exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:400",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] quickstart skips key prompt when canonical plugin config key exists",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:420] quickstart skips key prompt when canonical plugin config key exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:420",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] quickstart falls through to key prompt when no key and no env var",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:452] quickstart falls through to key prompt when no key and no env var",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:452",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] uses provider-specific credential copy for kimi in onboarding",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:473] uses provider-specific credential copy for kimi in onboarding",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:473",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] quickstart skips key prompt when env var is available",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:487] quickstart skips key prompt when env var is available",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:487",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] quickstart detects an existing firecrawl key even when the plugin is disabled",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:508] quickstart detects an existing firecrawl key even when the plugin is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:508",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] preserves disabled firecrawl plugin state and allowlist when web search stays disabled",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:521] preserves disabled firecrawl plugin state and allowlist when web search stays disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:521",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] stores env-backed SecretRef for perplexity ref mode",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:561] stores env-backed SecretRef for perplexity ref mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:561",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] stores env-backed SecretRefs for simple providers",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:604] stores env-backed SecretRefs for simple providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:604",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] stores plaintext key when secretInputMode is unset",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:634] stores plaintext key when secretInputMode is unset",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:634",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-search.test.ts] exports search providers in alphabetical order",
+TEST_CASE("v4.29 [src/commands/onboard-search.test.ts:644] exports search providers in alphabetical order",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-search.test.ts:644",
                "upstream it() block #14",

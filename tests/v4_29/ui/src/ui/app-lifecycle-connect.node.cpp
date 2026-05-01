@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-lifecycle-connect.node.test.ts] waits for bootstrap load before first gateway connect",
+TEST_CASE("v4.29 [ui/src/ui/app-lifecycle-connect.node.test.ts:79] waits for bootstrap load before first gateway connect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-lifecycle-connect.node.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-lifecycle-connect.node.test.ts] skips deferred connect when disconnected before bootstrap resolves",
+TEST_CASE("v4.29 [ui/src/ui/app-lifecycle-connect.node.test.ts:97] skips deferred connect when disconnected before bootstrap resolves",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-lifecycle-connect.node.test.ts:97",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-lifecycle-connect.node.test.ts] scrubs URL settings before starting the bootstrap fetch",
+TEST_CASE("v4.29 [ui/src/ui/app-lifecycle-connect.node.test.ts:117] scrubs URL settings before starting the bootstrap fetch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-lifecycle-connect.node.test.ts:117",
                "upstream it() block #2",

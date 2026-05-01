@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts] dedupes stale bound rows for the same child session",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts:108] dedupes stale bound rows for the same child session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents/action-agents.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts] keeps /agents numbering aligned with target resolution when hidden recent rows exist",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts:144] keeps /agents numbering aligned with target resolution when hidden recent rows exist",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents/action-agents.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts] shows room-channel runs as unbound when the plugin supports conversation bindings",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts:183] shows room-channel runs as unbound when the plugin supports conversation bindings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents/action-agents.test.ts:183",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts] formats bindings generically",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts:200] formats bindings generically",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents/action-agents.test.ts:200",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts] shows bindings unavailable for channels without conversation binding support",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents/action-agents.test.ts:228] shows bindings unavailable for channels without conversation binding support",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents/action-agents.test.ts:228",
                "upstream it() block #4",

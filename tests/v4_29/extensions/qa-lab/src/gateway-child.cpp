@@ -5,313 +5,313 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] cleans up temp QA gateway roots when node path resolution fails before startup",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:59] cleans up temp QA gateway roots when node path resolution fails before startup",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] keeps the slow-reply QA opt-out enabled under fast mode",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:81] keeps the slow-reply QA opt-out enabled under fast mode",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] maps live frontier key aliases into provider env vars",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:95] maps live frontier key aliases into provider env vars",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:95",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] defaults gateway-child provider mode to mock-openai when omitted",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:110] defaults gateway-child provider mode to mock-openai when omitted",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] keeps explicit provider env vars over live aliases",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:115] keeps explicit provider env vars over live aliases",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:115",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] preserves Codex CLI auth home for live frontier runs while sandboxing OpenClaw home",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:127] preserves Codex CLI auth home for live frontier runs while sandboxing OpenClaw home",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:127",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] forwards host HOME for live Claude CLI runs while keeping OpenClaw home sandboxed",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:147] forwards host HOME for live Claude CLI runs while keeping OpenClaw home sandboxed",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:147",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] can forward host HOME for browser-backed QA runs while keeping OpenClaw home sandboxed",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:166] can forward host HOME for browser-backed QA runs while keeping OpenClaw home sandboxed",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:166",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] preserves the live Anthropic key for live Claude CLI runs without writing it into config",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:185] preserves the live Anthropic key for live Claude CLI runs without writing it into config",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:185",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] removes preserved Anthropic keys for live Claude CLI subscription runs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:207] removes preserved Anthropic keys for live Claude CLI subscription runs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:207",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] does not pass QA setup-token values to the gateway child env",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:229] does not pass QA setup-token values to the gateway child env",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:229",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] does not pass Convex credential broker secrets to the gateway child env",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:242] does not pass Convex credential broker secrets to the gateway child env",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:242",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] requires an Anthropic key for live Claude CLI API-key mode",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:255] requires an Anthropic key for live Claude CLI API-key mode",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:255",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] keeps explicit Codex CLI auth home for live frontier runs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:273] keeps explicit Codex CLI auth home for live frontier runs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:273",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] treats restart socket closures as retryable gateway call errors",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:321] treats restart socket closures as retryable gateway call errors",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:321",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] waits for a fresh in-process restart boundary after the current log offset",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:332] waits for a fresh in-process restart boundary after the current log offset",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:332",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] times out when a SIGUSR1 restart never reaches the boundary",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:347] times out when a SIGUSR1 restart never reaches the boundary",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:347",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] stages a live Anthropic setup-token profile for isolated QA workers",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:358] stages a live Anthropic setup-token profile for isolated QA workers",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:358",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] stages placeholder mock auth profiles per agent dir so mock-openai runs can resolve credentials",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:392] stages placeholder mock auth profiles per agent dir so mock-openai runs can resolve credentials",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:392",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] stages mock profiles only for the requested agents and providers when callers override the defaults",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:442] stages mock profiles only for the requested agents and providers when callers override the defaults",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:442",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] allows loopback gateway health probes through the SSRF guard",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:474] allows loopback gateway health probes through the SSRF guard",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:474",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] force-stops gateway children that ignore the graceful signal",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:498] force-stops gateway children that ignore the graceful signal",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:498",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] treats bind collisions as retryable gateway startup errors",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:537] treats bind collisions as retryable gateway startup errors",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:537",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] treats startup token mismatches as retryable rpc startup errors",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:553] treats startup token mismatches as retryable rpc startup errors",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:553",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] probes gateway health with a one-shot HEAD request through the SSRF guard",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:562] probes gateway health with a one-shot HEAD request through the SSRF guard",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:562",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] preserves only sanitized gateway debug artifacts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:593] preserves only sanitized gateway debug artifacts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:593",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] rejects preserved gateway artifacts outside the repo root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:658] rejects preserved gateway artifacts outside the repo root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:658",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] rejects preserved gateway artifacts that traverse symlinks",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:664] rejects preserved gateway artifacts that traverse symlinks",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:664",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] cleans startup temp roots when they are not preserved",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:682] cleans startup temp roots when they are not preserved",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:682",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] returns the built control ui root when repo assets exist",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:704] returns the built control ui root when repo assets exist",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:704",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] returns undefined when control ui is disabled or not built",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:716] returns undefined when control ui is disabled or not built",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:716",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] prefers a built bundled plugin when present",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:728] prefers a built bundled plugin when present",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:728",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] falls back to the source bundled plugin when no built copy exists",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:760] falls back to the source bundled plugin when no built copy exists",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:760",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] uses a source bundled plugin when the built copy is missing CLI metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:776] uses a source bundled plugin when the built copy is missing CLI metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:776",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] creates a scoped bundled plugin tree for allowed plugins plus always-allowed runtime facades",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:813] creates a scoped bundled plugin tree for allowed plugins plus always-allowed runtime facades",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:813",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] skips transient runtime dependency artifacts while staging built bundled plugins",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:920] skips transient runtime dependency artifacts while staging built bundled plugins",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:920",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] preserves dist-runtime-only root chunks when dist also exists",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:971] preserves dist-runtime-only root chunks when dist also exists",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:971",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] rejects invalid bundled plugin ids before staging paths are built",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1047] rejects invalid bundled plugin ids before staging paths are built",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1047",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] stages source-only bundled plugins into a repo-like runtime root with node_modules",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1071] stages source-only bundled plugins into a repo-like runtime root with node_modules",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1071",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] maps cli backend provider ids to their owning bundled plugin ids",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1174] maps cli backend provider ids to their owning bundled plugin ids",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1174",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] maps configured OpenAI Responses provider aliases to the OpenAI plugin",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1198] maps configured OpenAI Responses provider aliases to the OpenAI plugin",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1198",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] copies selected live provider configs from the host config",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1240] copies selected live provider configs from the host config",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1240",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] raises the QA runtime host version to the highest allowed plugin floor",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1293] raises the QA runtime host version to the highest allowed plugin floor",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1293",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts] includes always-allowed runtime facade plugins when raising the QA runtime host version",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-child.test.ts:1326] includes always-allowed runtime facade plugins when raising the QA runtime host version",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-child.test.ts:1326",
                "upstream it() block #43",

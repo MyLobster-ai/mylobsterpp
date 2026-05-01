@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts loopback and tailscale serve/funnel host headers",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:33] accepts loopback and tailscale serve/funnel host headers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] rejects non-local hosts",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:47] rejects non-local hosts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts localhost absolute-form hostnames",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:56] accepts localhost absolute-form hostnames",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] throws when interface discovery throws",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:367] throws when interface discovery throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:367",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts loopback, private, link-local, and cgnat ranges",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:376] accepts loopback, private, link-local, and cgnat ranges",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:376",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] rejects public addresses",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:399] rejects public addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:399",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts localhost",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:408] accepts localhost",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:408",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts loopback addresses",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:413] accepts loopback addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:413",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts RFC 1918 private addresses",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:419] accepts RFC 1918 private addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:419",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts CGNAT and link-local addresses",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:427] accepts CGNAT and link-local addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:427",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] accepts IPv6 private addresses",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:432] accepts IPv6 private addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:432",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] rejects unspecified IPv6 address (::)",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:438] rejects unspecified IPv6 address (::)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:438",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] rejects multicast IPv6 addresses (ff00::/8)",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:446] rejects multicast IPv6 addresses (ff00::/8)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:446",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] rejects public addresses",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:452] rejects public addresses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:452",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] rejects empty/falsy input",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:458] rejects empty/falsy input",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:458",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns false on a typical non-container host",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:469] returns false on a typical non-container host",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:469",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true when /.dockerenv exists",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:480] returns true when /.dockerenv exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:480",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true when /run/.containerenv exists",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:486] returns true when /run/.containerenv exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:486",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true when /proc/1/cgroup contains docker marker",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:497] returns true when /proc/1/cgroup contains docker marker",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:497",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true when /proc/1/cgroup contains kubepods marker",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:506] returns true when /proc/1/cgroup contains kubepods marker",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:506",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true when /proc/1/cgroup contains containerd with container ID",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:515] returns true when /proc/1/cgroup contains containerd with container ID",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:515",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns false when /proc/1/cgroup contains containerd.service (host machine)",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:526] returns false when /proc/1/cgroup contains containerd.service (host machine)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:526",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true for cgroup v2 kubepods.slice path",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:535] returns true for cgroup v2 kubepods.slice path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:535",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns true for cgroup v2 cri-containerd scope path",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:546] returns true for cgroup v2 cri-containerd scope path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:546",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] caches the result across calls",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:557] caches the result across calls",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:557",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns 127.0.0.1 for loopback mode",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:573] returns 127.0.0.1 for loopback mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:573",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns 0.0.0.0 for lan mode",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:577] returns 0.0.0.0 for lan mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:577",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns 127.0.0.1 for auto mode on non-container host",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:581] returns 127.0.0.1 for auto mode on non-container host",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:581",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns 0.0.0.0 for auto mode inside a container",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:590] returns 0.0.0.0 for auto mode inside a container",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:590",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] defaults to loopback when bind is undefined (non-container)",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:596] defaults to loopback when bind is undefined (non-container)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:596",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns loopback on non-container host",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:612] returns loopback on non-container host",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:612",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns auto inside a container",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:621] returns auto inside a container",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:621",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns loopback inside a container when tailscale serve is active",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:627] returns loopback inside a container when tailscale serve is active",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:627",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns loopback inside a container when tailscale funnel is active",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:633] returns loopback inside a container when tailscale funnel is active",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:633",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] returns auto inside a container when tailscale is off",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:639] returns auto inside a container when tailscale is off",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:639",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] allows private ws:// only when opt-in is enabled",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:687] allows private ws:// only when opt-in is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:687",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] still rejects ws:// public IP literals when opt-in is enabled",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:705] still rejects ws:// public IP literals when opt-in is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:705",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/net.test.ts] still rejects non-unicast IPv6 ws:// even when opt-in is enabled",
+TEST_CASE("v4.29 [src/gateway/net.test.ts:713] still rejects non-unicast IPv6 ws:// even when opt-in is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/net.test.ts:713",
                "upstream it() block #37",

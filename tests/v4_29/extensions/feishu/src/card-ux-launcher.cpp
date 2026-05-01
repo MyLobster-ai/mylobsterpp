@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts] recognizes the quick-actions bot menu key",
+TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts:27] recognizes the quick-actions bot menu key",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-ux-launcher.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts] builds a launcher card with interactive actions",
+TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts:32] builds a launcher card with interactive actions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-ux-launcher.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts] opens the launcher from a supported bot menu event",
+TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts:62] opens the launcher from a supported bot menu event",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-ux-launcher.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts] falls back to legacy menu handling when launcher send fails",
+TEST_CASE("v4.29 [extensions/feishu/src/card-ux-launcher.test.ts:84] falls back to legacy menu handling when launcher send fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/card-ux-launcher.test.ts:84",
                "upstream it() block #3",

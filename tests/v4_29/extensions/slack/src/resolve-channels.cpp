@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/resolve-channels.test.ts] resolves by name and prefers active channels",
+TEST_CASE("v4.29 [extensions/slack/src/resolve-channels.test.ts:5] resolves by name and prefers active channels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/resolve-channels.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/resolve-channels.test.ts] keeps unresolved entries",
+TEST_CASE("v4.29 [extensions/slack/src/resolve-channels.test.ts:27] keeps unresolved entries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/resolve-channels.test.ts:27",
                "upstream it() block #1",

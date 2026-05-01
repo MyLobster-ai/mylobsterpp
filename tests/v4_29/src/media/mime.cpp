@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] detects HTML files by extension (no magic bytes)",
+TEST_CASE("v4.29 [src/media/mime.test.ts:94] detects HTML files by extension (no magic bytes)",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] detects .htm files by extension",
+TEST_CASE("v4.29 [src/media/mime.test.ts:100] detects .htm files by extension",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] detects XML files by extension",
+TEST_CASE("v4.29 [src/media/mime.test.ts:106] detects XML files by extension",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] detects CSS files by extension",
+TEST_CASE("v4.29 [src/media/mime.test.ts:111] detects CSS files by extension",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] detects AAC from a bare filename when buffer sniffing is inconclusive",
+TEST_CASE("v4.29 [src/media/mime.test.ts:116] detects AAC from a bare filename when buffer sniffing is inconclusive",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] detects Apple CAF audio by magic bytes when file-type does not recognize the container",
+TEST_CASE("v4.29 [src/media/mime.test.ts:121] detects Apple CAF audio by magic bytes when file-type does not recognize the container",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:121",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] returns audio/x-caf when extension and CAF magic bytes both agree",
+TEST_CASE("v4.29 [src/media/mime.test.ts:132] returns audio/x-caf when extension and CAF magic bytes both agree",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:132",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/mime.test.ts] caps dependency sniffing to a bounded prefix",
+TEST_CASE("v4.29 [src/media/mime.test.ts:138] caps dependency sniffing to a bounded prefix",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/mime.test.ts:138",
                "upstream it() block #7",

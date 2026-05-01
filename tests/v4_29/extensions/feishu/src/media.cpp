@@ -5,278 +5,278 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses msg_type=media for mp4 video",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:158] uses msg_type=media for mp4 video",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:158",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses msg_type=audio for opus",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:179] uses msg_type=audio for opus",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:179",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses msg_type=file for documents",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:200] uses msg_type=file for documents",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:200",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses msg_type=media for remote mp4 content even when the filename is generic",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:221] uses msg_type=media for remote mp4 content even when the filename is generic",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:221",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] falls back to generic file for unsupported audio formats",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:247] falls back to generic file for unsupported audio formats",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:247",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] transcodes voice-intent mp3 to msg_type=audio",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:274] transcodes voice-intent mp3 to msg_type=audio",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:274",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] leaves native voice audio unchanged when audioAsVoice is true",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:308] leaves native voice audio unchanged when audioAsVoice is true",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:308",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] falls back to file when voice-intent audio cannot be transcoded",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:333] falls back to file when voice-intent audio cannot be transcoded",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:333",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] configures the media client timeout for image uploads",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:371] configures the media client timeout for image uploads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:371",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses msg_type=media when replying with mp4",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:387] uses msg_type=media when replying with mp4",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:387",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] passes reply_in_thread when replyInThread is true",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:406] passes reply_in_thread when replyInThread is true",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:406",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] omits reply_in_thread when replyInThread is false",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:427] omits reply_in_thread when replyInThread is false",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:427",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] passes mediaLocalRoots as localRoots to loadWebMedia for local paths (#27884)",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:441] passes mediaLocalRoots as localRoots to loadWebMedia for local paths (#27884)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:441",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] fails closed when media URL fetch is blocked",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:467] fails closed when media URL fetch is blocked",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:467",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses isolated temp paths for image downloads",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:486] uses isolated temp paths for image downloads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:486",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] uses isolated temp paths for message resource downloads",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:513] uses isolated temp paths for message resource downloads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:513",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] rejects invalid image keys before calling feishu api",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:536] rejects invalid image keys before calling feishu api",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:536",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] rejects invalid file keys before calling feishu api",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:547] rejects invalid file keys before calling feishu api",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:547",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves Chinese filenames for file uploads",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:560] preserves Chinese filenames for file uploads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:560",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves ASCII filenames unchanged for file uploads",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:572] preserves ASCII filenames unchanged for file uploads",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:572",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves special Unicode characters (em-dash, full-width brackets) in filenames",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:584] preserves special Unicode characters (em-dash, full-width brackets) in filenames",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:584",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] returns ASCII filenames unchanged",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:598] returns ASCII filenames unchanged",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:598",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves Chinese characters",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:603] preserves Chinese characters",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:603",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves em-dash and full-width brackets",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:610] preserves em-dash and full-width brackets",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:610",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves single quotes and parentheses",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:614] preserves single quotes and parentheses",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:614",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves filenames without extension",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:618] preserves filenames without extension",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:618",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves mixed ASCII and non-ASCII",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:622] preserves mixed ASCII and non-ASCII",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:622",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] preserves emoji filenames",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:626] preserves emoji filenames",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:626",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] strips control characters",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:630] strips control characters",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:630",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] strips quotes and backslashes to prevent header injection",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:635] strips quotes and backslashes to prevent header injection",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:635",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] forwards provided type=file for non-image resources",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:665] forwards provided type=file for non-image resources",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:665",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] image uses type=image",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:683] image uses type=image",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:683",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] extracts content-type and filename metadata from download headers",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:703] extracts content-type and filename metadata from download headers",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:703",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] retries file resources as media after HTTP 502",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:726] retries file resources as media after HTTP 502",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:726",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] rethrows the original HTTP 502 when the media retry fails",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:764] rethrows the original HTTP 502 when the media retry fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:764",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] does not retry non-fallback download failures",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:789] does not retry non-fallback download failures",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:789",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] recovers CJK filenames from plain Content-Disposition headers decoded as Latin-1",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:817] recovers CJK filenames from plain Content-Disposition headers decoded as Latin-1",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:817",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] keeps valid Latin-1 filenames from plain Content-Disposition headers unchanged",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:837] keeps valid Latin-1 filenames from plain Content-Disposition headers unchanged",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:837",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts] keeps JSON-derived file_name metadata unchanged",
+TEST_CASE("v4.29 [extensions/feishu/src/media.test.ts:855] keeps JSON-derived file_name metadata unchanged",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/media.test.ts:855",
                "upstream it() block #38",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] returns default values when no config is provided",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:39] returns default values when no config is provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] uses channel defaults when provided",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:50] uses channel defaults when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] per-channel config overrides channel defaults",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:66] per-channel config overrides channel defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] per-account config overrides per-channel config",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:93] per-account config overrides per-channel config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] falls through to defaults when account has no heartbeat config",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:133] falls through to defaults when account has no heartbeat config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] handles missing accountId gracefully",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:165] handles missing accountId gracefully",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:165",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] handles non-existent account gracefully",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:172] handles non-existent account gracefully",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:172",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] works with whatsapp channel",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:183] works with whatsapp channel",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:183",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] works with discord channel",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:204] works with discord channel",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:204",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] works with slack channel",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:224] works with slack channel",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:224",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] webchat uses channel defaults only (no per-channel config)",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:246] webchat uses channel defaults only (no per-channel config)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:246",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] webchat returns defaults when no channel defaults configured",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:262] webchat returns defaults when no channel defaults configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:262",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts] webchat ignores accountId (only uses defaults)",
+TEST_CASE("v4.29 [src/infra/heartbeat-visibility.test.ts:274] webchat ignores accountId (only uses defaults)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-visibility.test.ts:274",
                "upstream it() block #12",

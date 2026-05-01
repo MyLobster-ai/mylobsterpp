@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] throws when runtime auth resolves to blank and no configured key exists",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:48] throws when runtime auth resolves to blank and no configured key exists",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] falls back to configured env marker key when profile resolution fails",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:62] falls back to configured env marker key when profile resolution fails",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] accepts synthesized lmstudio-local for non-explicit auth mode",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:80] accepts synthesized lmstudio-local for non-explicit auth mode",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] accepts synthesized lmstudio-local for explicit api-key mode",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:94] accepts synthesized lmstudio-local for explicit api-key mode",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:94",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] accepts shared synthetic local marker for keyless runtime auth",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:108] accepts shared synthetic local marker for keyless runtime auth",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:108",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] allows header-only runtime auth when Authorization is configured",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:122] allows header-only runtime auth when Authorization is configured",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] suppresses profile runtime auth when Authorization is configured",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:138] suppresses profile runtime auth when Authorization is configured",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:138",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] suppresses env runtime auth when Authorization is configured",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:156] suppresses env runtime auth when Authorization is configured",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:156",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] suppresses shell env runtime auth when Authorization is configured",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:174] suppresses shell env runtime auth when Authorization is configured",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:174",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] throws when explicit api-key mode cannot resolve any key",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:192] throws when explicit api-key mode cannot resolve any key",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:192",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] resolves SecretRef api key and headers",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:210] resolves SecretRef api key and headers",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:210",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] resolves env-template api keys from config",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:246] resolves env-template api keys from config",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:246",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] throws a path-specific error when a SecretRef header cannot be resolved",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:259] throws a path-specific error when a SecretRef header cannot be resolved",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:259",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts] builds auth headers with key precedence and json support",
+TEST_CASE("v4.29 [extensions/lmstudio/src/runtime.test.ts:276] builds auth headers with key precedence and json support",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/runtime.test.ts:276",
                "upstream it() block #13",

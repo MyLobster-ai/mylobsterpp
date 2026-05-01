@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] extracts a root --container flag before the command",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:9] extracts a root --container flag before the command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] accepts the equals form",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:19] accepts the equals form",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] rejects a missing container value",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:27] rejects a missing container value",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] does not consume an adjacent flag as the container value",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:34] does not consume an adjacent flag as the container value",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] leaves argv unchanged when the flag is absent",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:43] leaves argv unchanged when the flag is absent",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] extracts --container after the command like other root options",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:51] extracts --container after the command like other root options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] stops parsing --container after the -- terminator",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:61] stops parsing --container after the -- terminator",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:61",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] uses argv first and falls back to OPENCLAW_CONTAINER",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:95] uses argv first and falls back to OPENCLAW_CONTAINER",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:95",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] passes through when no container target is provided",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:109] passes through when no container target is provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] uses OPENCLAW_CONTAINER when the flag is absent",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:116] uses OPENCLAW_CONTAINER when the flag is absent",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:116",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] clears inherited host routing and gateway env before execing into the child CLI",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:165] clears inherited host routing and gateway env before execing into the child CLI",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:165",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] passes the proxy URL env fallback into the child container CLI",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:216] passes the proxy URL env fallback into the child container CLI",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:216",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] redacts proxy URL credentials and URL suffixes before rejecting loopback container proxy forwarding",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:298] redacts proxy URL credentials and URL suffixes before rejecting loopback container proxy forwarding",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:298",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] allows explicitly overridden loopback proxy URL forwarding into a child container CLI",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:334] allows explicitly overridden loopback proxy URL forwarding into a child container CLI",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:334",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] executes through podman when the named container is running",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:367] executes through podman when the named container is running",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:367",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] falls back to docker when podman does not have the container",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:420] falls back to docker when podman does not have the container",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:420",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] checks docker after podman and before failing",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:473] checks docker after podman and before failing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:473",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] does not try any sudo podman fallback for regular users",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:537] does not try any sudo podman fallback for regular users",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:537",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] rejects ambiguous matches across runtimes",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:571] rejects ambiguous matches across runtimes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:571",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] allocates a tty for interactive terminal sessions",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:597] allocates a tty for interactive terminal sessions",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:597",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] prefers --container over OPENCLAW_CONTAINER",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:642] prefers --container over OPENCLAW_CONTAINER",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:642",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] throws when the named container is not running",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:676] throws when the named container is not running",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:676",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] skips recursion when the bypass env is set",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:690] skips recursion when the bypass env is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:690",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] blocks updater commands from running inside the container",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:701] blocks updater commands from running inside the container",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:701",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] blocks update after interleaved root flags",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:718] blocks update after interleaved root flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:718",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/container-target.test.ts] blocks the --update shorthand from running inside the container",
+TEST_CASE("v4.29 [src/cli/container-target.test.ts:735] blocks the --update shorthand from running inside the container",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/container-target.test.ts:735",
                "upstream it() block #25",

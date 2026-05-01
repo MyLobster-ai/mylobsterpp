@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] includes core and provider-specific auth choices",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:101] includes core and provider-specific auth choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] builds cli help choices from the same runtime catalog",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:276] builds cli help choices from the same runtime catalog",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:276",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] can include legacy aliases in cli help choices",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:324] can include legacy aliases in cli help choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:324",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] keeps static cli help choices off the plugin-backed catalog",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:336] keeps static cli help choices off the plugin-backed catalog",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:336",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] shows plugin and wizard providers in grouped selection",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:369] shows plugin and wizard providers in grouped selection",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:369",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] prefers Anthropic Claude CLI over API key in grouped selection",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:415] prefers Anthropic Claude CLI over API key in grouped selection",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:415",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] orders OpenAI auth methods as api key, browser login, then device pairing",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:450] orders OpenAI auth methods as api key, browser login, then device pairing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:450",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] groups OpenCode Zen and Go under one OpenCode entry",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:489] groups OpenCode Zen and Go under one OpenCode entry",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:489",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts] hides image-generation-only providers from the interactive auth picker",
+TEST_CASE("v4.29 [src/commands/auth-choice-options.test.ts:521] hides image-generation-only providers from the interactive auth picker",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice-options.test.ts:521",
                "upstream it() block #8",

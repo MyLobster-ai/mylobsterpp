@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] shows a simple providers menu on text surfaces",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:178] shows a simple providers menu on text surfaces",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:178",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] hides unauthenticated providers by default and keeps all as explicit browse",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:194] hides unauthenticated providers by default and keeps all as explicit browse",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:194",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] hides legacy runtime providers from /models provider lists",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:211] hides legacy runtime providers from /models provider lists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:211",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] labels the default runtime choice as OpenClaw Pi",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:238] labels the default runtime choice as OpenClaw Pi",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:238",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] keeps the telegram provider picker browse-only",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:254] keeps the telegram provider picker browse-only",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:254",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] keeps plugin menu hook compatibility for provider pickers",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:274] keeps plugin menu hook compatibility for provider pickers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:274",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] lists models for /models <provider>",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:291] lists models for /models <provider>",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:291",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] does not list bare fallback models under the default provider when catalog ownership is unique",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:300] does not list bare fallback models under the default provider when catalog ownership is unique",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:300",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] keeps /models list <provider> as an alias",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:338] keeps /models list <provider> as an alias",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:338",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] keeps the auth label on text-surface provider listings",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:345] keeps the auth label on text-surface provider listings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:345",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] uses spawned workspace for direct /models provider visibility",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:372] uses spawned workspace for direct /models provider visibility",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:372",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] returns a deprecation message for /models add when no provider is given",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:392] returns a deprecation message for /models add when no provider is given",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:392",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] returns a deprecation message for /models add <provider>",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:401] returns a deprecation message for /models add <provider>",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:401",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts] returns a deprecation message for /models add <provider> <modelId>",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-models.test.ts:410] returns a deprecation message for /models add <provider> <modelId>",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-models.test.ts:410",
                "upstream it() block #13",

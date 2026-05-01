@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] rejects unsupported runtime session modes with a clear AcpRuntimeError (issue #73071)",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:88] rejects unsupported runtime session modes with a clear AcpRuntimeError (issue #73071)",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] exposes assertSupportedRuntimeSessionMode as a typed guard",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:117] exposes assertSupportedRuntimeSessionMode as a typed guard",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] normalizes OpenClaw Codex model ids for ACP startup",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:125] normalizes OpenClaw Codex model ids for ACP startup",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] leaves Codex ACP startup defaults alone when no model or thinking is provided",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:156] leaves Codex ACP startup defaults alone when no model or thinking is provided",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] does not normalize model startup for non-Codex ACP agents",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:188] does not normalize model startup for non-Codex ACP agents",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] injects Codex ACP startup config into the scoped registry",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:220] injects Codex ACP startup config into the scoped registry",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:220",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] passes gpt-5.5 Codex ACP startup through instead of blocking it",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:234] passes gpt-5.5 Codex ACP startup through instead of blocking it",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:234",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] maps explicit Codex ACP thinking to startup reasoning effort",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:265] maps explicit Codex ACP thinking to startup reasoning effort",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:265",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] normalizes Codex ACP model config controls to adapter ids",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:297] normalizes Codex ACP model config controls to adapter ids",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:297",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] normalizes Codex ACP slash reasoning suffixes to config controls",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:328] normalizes Codex ACP slash reasoning suffixes to config controls",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:328",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] normalizes Codex ACP thinking config controls to reasoning effort",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:363] normalizes Codex ACP thinking config controls to reasoning effort",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:363",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] ignores unsupported Codex ACP timeout config controls",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:393] ignores unsupported Codex ACP timeout config controls",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:393",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] forwards timeout config controls for non-Codex ACP agents",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:424] forwards timeout config controls for non-Codex ACP agents",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:424",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] keeps stale persistent loads hidden until a fresh record is saved",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:455] keeps stale persistent loads hidden until a fresh record is saved",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:455",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] marks the session fresh after discardPersistentState close",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:488] marks the session fresh after discardPersistentState close",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:488",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] routes openclaw ensureSession through the bridge-safe delegate when MCP servers are configured",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:520] routes openclaw ensureSession through the bridge-safe delegate when MCP servers are configured",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:520",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] routes non-openclaw sessions through the default delegate",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:551] routes non-openclaw sessions through the default delegate",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:551",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] routes handle-based follow-up calls for openclaw sessions through the bridge-safe delegate",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:582] routes handle-based follow-up calls for openclaw sessions through the bridge-safe delegate",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:582",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] keeps MCP-enabled routing when the openclaw agent is overridden to a non-bridge adapter",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:610] keeps MCP-enabled routing when the openclaw agent is overridden to a non-bridge adapter",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:610",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] uses the bridge-safe delegate for any agent mapped to the openclaw bridge command",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:645] uses the bridge-safe delegate for any agent mapped to the openclaw bridge command",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:645",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] uses the bridge-safe delegate for documented env-wrapped openclaw bridge commands",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:680] uses the bridge-safe delegate for documented env-wrapped openclaw bridge commands",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:680",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] uses the bridge-safe delegate for local node openclaw entrypoints",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:716] uses the bridge-safe delegate for local node openclaw entrypoints",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:716",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] routes follow-up calls by persisted agent command before current config",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:752] routes follow-up calls by persisted agent command before current config",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:752",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts] probes through the bridge-safe delegate when probeAgent resolves to openclaw bridge",
+TEST_CASE("v4.29 [extensions/acpx/src/runtime.test.ts:788] probes through the bridge-safe delegate when probeAgent resolves to openclaw bridge",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/runtime.test.ts:788",
                "upstream it() block #23",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/client-start-readiness.test.ts] starts the client only after the event loop is responsive",
+TEST_CASE("v4.29 [src/gateway/client-start-readiness.test.ts:10] starts the client only after the event loop is responsive",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client-start-readiness.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client-start-readiness.test.ts] does not start the client after an aborted readiness wait",
+TEST_CASE("v4.29 [src/gateway/client-start-readiness.test.ts:24] does not start the client after an aborted readiness wait",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client-start-readiness.test.ts:24",
                "upstream it() block #1",

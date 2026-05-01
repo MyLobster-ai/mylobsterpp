@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] accepts top-level typed ACP bindings with per-agent runtime defaults",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:5] accepts top-level typed ACP bindings with per-agent runtime defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] accepts route binding session dmScope overrides",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:49] accepts route binding session dmScope overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] rejects legacy Discord channel-local ACP binding fields",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:70] rejects legacy Discord channel-local ACP binding fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] rejects legacy Telegram topic-local ACP binding fields",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:95] rejects legacy Telegram topic-local ACP binding fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] rejects ACP bindings without a peer conversation target",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:119] rejects ACP bindings without a peer conversation target",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] accepts ACP bindings for arbitrary channel ids when the peer target is explicit",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:133] accepts ACP bindings for arbitrary channel ids when the peer target is explicit",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:133",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] accepts ACP bindings for generic direct and group peer kinds",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:151] accepts ACP bindings for generic direct and group peer kinds",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:151",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts] accepts deprecated dm peer kind for backward compatibility",
+TEST_CASE("v4.29 [src/config/config.acp-binding-cutover.test.ts:178] accepts deprecated dm peer kind for backward compatibility",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.acp-binding-cutover.test.ts:178",
                "upstream it() block #7",

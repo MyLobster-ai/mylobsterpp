@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] falls back to normal delivery when preview finalize fails",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:394] falls back to normal delivery when preview finalize fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:394",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] finalizes fast draft preview text without sending a duplicate normal reply",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:407] finalizes fast draft preview text without sending a duplicate normal reply",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:407",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] suppresses block streaming when Slack draft preview streaming is active",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:434] suppresses block streaming when Slack draft preview streaming is active",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:434",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] escapes Slack mrkdwn in tool progress preview labels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:442] escapes Slack mrkdwn in tool progress preview labels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:442",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] starts native streams in the first-reply thread for top-level channel messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:455] starts native streams in the first-reply thread for top-level channel messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:455",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] suppresses reasoning payloads before Slack native streaming delivery",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:477] suppresses reasoning payloads before Slack native streaming delivery",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:477",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] keeps same-content tool and final payloads distinct after preview fallback",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:496] keeps same-content tool and final payloads distinct after preview fallback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:496",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] keeps multi-part block replies in the first reply thread after the plan is consumed",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:522] keeps multi-part block replies in the first reply thread after the plan is consumed",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:522",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] does not flush draft previews for media finals before normal delivery",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:552] does not flush draft previews for media finals before normal delivery",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:552",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] does not flush draft previews for error finals before normal delivery",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:577] does not flush draft previews for error finals before normal delivery",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:577",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] routes pending native stream text through chunked sender when finalize fails before the SDK buffer flushes",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:602] routes pending native stream text through chunked sender when finalize fails before the SDK buffer flushes",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:602",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] routes all pending native stream text through chunked sender when an append flush fails",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:629] routes all pending native stream text through chunked sender when an append flush fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:629",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] forwards oversized pending stream text to the chunked sender intact (chunking is the sender",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:661] forwards oversized pending stream text to the chunked sender intact (chunking is the sender",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:661",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts] routes full pendingText (earlier buffered + failing chunk) through chunked sender on non-benign append failure",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:691] routes full pendingText (earlier buffered + failing chunk) through chunked sender on non-benign append failure",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.preview-fallback.test.ts:691",
                "upstream it() block #13",

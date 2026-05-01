@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/runtime-plan/types.compat.test.ts] keeps copied scalar unions aligned with their source contracts",
+TEST_CASE("v4.29 [src/agents/runtime-plan/types.compat.test.ts:21] keeps copied scalar unions aligned with their source contracts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plan/types.compat.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/runtime-plan/types.compat.test.ts] keeps reply payload shapes structurally compatible with the runtime leaf payload shape",
+TEST_CASE("v4.29 [src/agents/runtime-plan/types.compat.test.ts:27] keeps reply payload shapes structurally compatible with the runtime leaf payload shape",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plan/types.compat.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/runtime-plan/types.compat.test.ts] keeps builder call signatures aligned with exported structural params",
+TEST_CASE("v4.29 [src/agents/runtime-plan/types.compat.test.ts:35] keeps builder call signatures aligned with exported structural params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/runtime-plan/types.compat.test.ts:35",
                "upstream it() block #2",

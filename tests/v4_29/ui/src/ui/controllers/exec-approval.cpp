@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns entries with kind ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:5] returns entries with kind ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] parses a valid payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:35] parses a valid payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns null when title is missing from request",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:50] returns null when title is missing from request",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns null when request is missing entirely",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:58] returns null when request is missing entirely",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns null when id is missing",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:63] returns null when id is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns null when timestamps are missing",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:68] returns null when timestamps are missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:68",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns null for null payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:73] returns null for null payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:73",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] returns null for non-object payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:77] returns null for non-object payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:77",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts] handles missing optional fields gracefully",
+TEST_CASE("v4.29 [ui/src/ui/controllers/exec-approval.test.ts:81] handles missing optional fields gracefully",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/exec-approval.test.ts:81",
                "upstream it() block #8",

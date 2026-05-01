@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts] builds guild access context from channel config and topic",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts:10] builds guild access context from channel config and topic",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/inbound-context.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts] omits guild-only metadata for direct messages",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts:38] omits guild-only metadata for direct messages",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/inbound-context.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts] keeps direct helper behavior consistent",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts:54] keeps direct helper behavior consistent",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/inbound-context.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts] matches supplemental context senders through role allowlists",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts:65] matches supplemental context senders through role allowlists",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/inbound-context.test.ts:65",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts] matches supplemental context senders by plain username when name matching is enabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/inbound-context.test.ts:88] matches supplemental context senders by plain username when name matching is enabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/inbound-context.test.ts:88",
                "upstream it() block #4",

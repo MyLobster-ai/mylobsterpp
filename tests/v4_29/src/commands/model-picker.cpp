@@ -5,313 +5,313 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] adds auth-route hints for OpenAI API and Codex OAuth models",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:185] adds auth-route hints for OpenAI API and Codex OAuth models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:185",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] hides unauthenticated catalog entries from default model choices",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:225] hides unauthenticated catalog entries from default model choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:225",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps implicit Bedrock AWS SDK models visible without API-key auth",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:249] keeps implicit Bedrock AWS SDK models visible without API-key auth",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:249",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] hides legacy runtime providers from default model choices",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:273] hides legacy runtime providers from default model choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:273",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] uses configured provider models without loading the full catalog in replace mode",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:307] uses configured provider models without loading the full catalog in replace mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:307",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] treats byteplus plan models as preferred-provider matches",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:346] treats byteplus plan models as preferred-provider matches",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:346",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] shows literal double-prefix labels for providers that preserve literal prefixes",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:393] shows literal double-prefix labels for providers that preserve literal prefixes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:393",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] shows literal double-prefix keep label before browsing provider catalogs",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:441] shows literal double-prefix keep label before browsing provider catalogs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:441",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps current preferred-provider models cold until browsing is requested",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:485] keeps current preferred-provider models cold until browsing is requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:485",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] loads the full model catalog when the user chooses to browse",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:519] loads the full model catalog when the user chooses to browse",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:519",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] supports configuring vLLM during setup",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:566] supports configuring vLLM during setup",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:566",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] prefers provider model-picker contributions when the runtime exposes them",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:639] prefers provider model-picker contributions when the runtime exposes them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:639",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps skip-auth model selection cold when catalog loading is disabled",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:694] keeps skip-auth model selection cold when catalog loading is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:694",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] surfaces NVIDIA provider model-picker contributions",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:728] surfaces NVIDIA provider model-picker contributions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:728",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] filters to allowed keys when provided",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:781] filters to allowed keys when provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:781",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] uses static manifest catalog rows for a preferred provider without loading runtime catalog",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:817] uses static manifest catalog rows for a preferred provider without loading runtime catalog",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:817",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] uses configured provider models without loading the full catalog in replace mode",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:852] uses configured provider models without loading the full catalog in replace mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:852",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] scopes the initial allowlist picker to the preferred provider",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:889] scopes the initial allowlist picker to the preferred provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:889",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] shows configured preferred provider models when the catalog has no entries",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:925] shows configured preferred provider models when the catalog has no entries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:925",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps local no-key provider models visible in allowlist choices",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:964] keeps local no-key provider models visible in allowlist choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:964",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] seeds existing model fallbacks into unscoped allowlist selections",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1002] seeds existing model fallbacks into unscoped allowlist selections",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1002",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] resolves bare fallback seeds against the primary model provider",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1037] resolves bare fallback seeds against the primary model provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1037",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps the no-catalog allowlist prompt blank when no allowlist exists",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1079] keeps the no-catalog allowlist prompt blank when no allowlist exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1079",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] shows existing fallbacks in the no-catalog allowlist prompt when an allowlist exists",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1098] shows existing fallbacks in the no-catalog allowlist prompt when an allowlist exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1098",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps provider-scoped fallback supplements within scope",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1125] keeps provider-scoped fallback supplements within scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1125",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] uses configured provider-scoped seeds without loading the full catalog",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1175] uses configured provider-scoped seeds without loading the full catalog",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1175",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] uses explicit allowed model keys without loading the full catalog",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1204] uses explicit allowed model keys without loading the full catalog",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1204",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] hides legacy runtime refs from allowlist choices and configured supplements",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1235] hides legacy runtime refs from allowlist choices and configured supplements",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1235",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] filters internal router models in both default and allowlist prompts",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1274] filters internal router models in both default and allowlist prompts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1274",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] preserves existing entries for selected models",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1306] preserves existing entries for selected models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1306",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] preserves entries outside scoped allowlist updates",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1324] preserves entries outside scoped allowlist updates",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1324",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] clears the allowlist when no models remain",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1346] clears the allowlist when no models remain",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1346",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] sets fallbacks from selection when the primary is included",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1363] sets fallbacks from selection when the primary is included",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1363",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] does not inject a phantom primary when none was configured",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1382] does not inject a phantom primary when none was configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1382",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] does not write an empty model object for singleton default selections",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1399] does not write an empty model object for singleton default selections",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1399",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] clears existing fallbacks when only the primary remains selected",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1410] clears existing fallbacks when only the primary remains selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1410",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] drops malformed fallback refs instead of preserving raw strings",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1428] drops malformed fallback refs instead of preserving raw strings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1428",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] preserves hidden fallbacks during unscoped selections",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1446] preserves hidden fallbacks during unscoped selections",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1446",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] preserves out-of-scope fallbacks during scoped selections",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1465] preserves out-of-scope fallbacks during scoped selections",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1465",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] removes scoped fallbacks for empty scoped selections",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1486] removes scoped fallbacks for empty scoped selections",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1486",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] does not add new scoped fallbacks when the primary is outside scope",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1507] does not add new scoped fallbacks when the primary is outside scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1507",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] removes existing scoped fallback aliases when deselected",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1528] removes existing scoped fallback aliases when deselected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1528",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] canonicalizes existing scoped fallback aliases when kept selected",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1551] canonicalizes existing scoped fallback aliases when kept selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1551",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/model-picker.test.ts] keeps existing fallbacks when the primary is not selected",
+TEST_CASE("v4.29 [src/commands/model-picker.test.ts:1579] keeps existing fallbacks when the primary is not selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/model-picker.test.ts:1579",
                "upstream it() block #43",

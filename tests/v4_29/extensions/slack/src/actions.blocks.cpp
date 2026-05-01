@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] updates with valid blocks",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:9] updates with valid blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] uses image block text as edit fallback",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:28] uses image block text as edit fallback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] uses video block title as edit fallback",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:44] uses video block title as edit fallback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] uses generic file fallback text for file blocks",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:68] uses generic file fallback text for file blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] caps long block fallback text while preserving edit blocks",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:84] caps long block fallback text while preserving edit blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:84",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] rejects empty blocks arrays",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:113] rejects empty blocks arrays",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] rejects blocks missing a type",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:127] rejects blocks missing a type",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:127",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts] rejects blocks arrays above Slack max count",
+TEST_CASE("v4.29 [extensions/slack/src/actions.blocks.test.ts:141] rejects blocks arrays above Slack max count",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/actions.blocks.test.ts:141",
                "upstream it() block #7",

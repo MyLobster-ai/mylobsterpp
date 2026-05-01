@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] extracts tool name from message.toolName/tool_name",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:6] extracts tool name from message.toolName/tool_name",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] extracts tool call names from content blocks (tool_use/toolcall/tool_call)",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:11] extracts tool call names from content blocks (tool_use/toolcall/tool_call)",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] normalizes type and trims names; de-dupes",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:23] normalizes type and trims names; de-dupes",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] returns true when tool call names exist",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:37] returns true when tool call names exist",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] returns false when no tool calls exist",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:42] returns false when no tool calls exist",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] counts tool_result blocks and tool_result_error blocks; tracks errors via is_error",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:49] counts tool_result blocks and tool_result_error blocks; tracks errors via is_error",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:49",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts] handles non-array content",
+TEST_CASE("v4.29 [src/utils/transcript-tools.test.ts:62] handles non-array content",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/transcript-tools.test.ts:62",
                "upstream it() block #6",

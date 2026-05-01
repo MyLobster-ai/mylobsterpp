@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts] keeps OpenAI image cache floors observable without blocking release validation",
+TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts:5] keeps OpenAI image cache floors observable without blocking release validation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-cache-regression-runner.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts] keeps hard cache floors blocking for required OpenAI lanes",
+TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts:31] keeps hard cache floors blocking for required OpenAI lanes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-cache-regression-runner.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts] retries hard cache baseline misses once",
+TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts:57] retries hard cache baseline misses once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-cache-regression-runner.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts] accepts a warmup that already hits the provider cache",
+TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts:87] accepts a warmup that already hits the provider cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-cache-regression-runner.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts] still rejects warmups with no cache write or cache hit evidence",
+TEST_CASE("v4.29 [src/agents/live-cache-regression-runner.test.ts:110] still rejects warmups with no cache write or cache hit evidence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-cache-regression-runner.test.ts:110",
                "upstream it() block #4",

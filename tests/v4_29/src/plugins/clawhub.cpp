@@ -5,257 +5,257 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] formats clawhub specifiers",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:225] formats clawhub specifiers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:225",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] installs a ClawHub code plugin through the archive installer",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:230] installs a ClawHub code plugin through the archive installer",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:230",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] resolves explicit ClawHub dist tags before fetching version metadata",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:252] resolves explicit ClawHub dist tags before fetching version metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:252",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] installs when ClawHub advertises a wildcard plugin API range",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:293] installs when ClawHub advertises a wildcard plugin API range",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:293",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] does not let a wildcard plugin API range hide an invalid runtime version",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:322] does not let a wildcard plugin API range hide an invalid runtime version",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:322",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] passes dangerous force unsafe install through to archive installs",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:351] passes dangerous force unsafe install through to archive installs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:351",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] cleans up the downloaded archive even when archive install fails",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:365] cleans up the downloaded archive even when archive install fails",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:365",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] accepts version-endpoint SHA-256 hashes expressed as raw hex",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:383] accepts version-endpoint SHA-256 hashes expressed as raw hex",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:383",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] accepts version-endpoint SHA-256 hashes expressed as unpadded SRI",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:409] accepts version-endpoint SHA-256 hashes expressed as unpadded SRI",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:409",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] falls back to strict files[] verification when sha256hash is missing",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:435] falls back to strict files[] verification when sha256hash is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:435",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] validates _meta.json against canonical package and resolved version metadata",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:482] validates _meta.json against canonical package and resolved version metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:482",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] fails closed when sha256hash is present but unrecognized instead of silently falling back",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:550] fails closed when sha256hash is present but unrecognized instead of silently falling back",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:550",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects ClawHub installs when sha256hash is explicitly null and files[] is unavailable",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:584] rejects ClawHub installs when sha256hash is explicitly null and files[] is unavailable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:584",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects ClawHub installs when the version metadata has no archive hash or fallback files[]",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:611] rejects ClawHub installs when the version metadata has no archive hash or fallback files[]",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:611",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] fails closed when files[] contains a malformed entry",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:637] fails closed when files[] contains a malformed entry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:637",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] fails closed when files[] contains an invalid sha256",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:664] fails closed when files[] contains an invalid sha256",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:664",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] fails closed when sha256hash is not a string",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:697] fails closed when sha256hash is not a string",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:697",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] returns a typed install failure when the archive download throws",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:724] returns a typed install failure when the archive download throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:724",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] returns a typed install failure when fallback archive verification cannot read the zip",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:738] returns a typed install failure when fallback archive verification cannot read the zip",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:738",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects ClawHub installs when the downloaded archive hash drifts from metadata",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:779] rejects ClawHub installs when the downloaded archive hash drifts from metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:779",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when an expected file is missing from the archive",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:811] rejects fallback verification when an expected file is missing from the archive",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:811",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when the archive includes an unexpected file",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:856] rejects fallback verification when the archive includes an unexpected file",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:856",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] accepts root-level files[] paths and allows _meta.json as an unvalidated generated file",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:903] accepts root-level files[] paths and allows _meta.json as an unvalidated generated file",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:903",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] omits the skipped-files suffix when no generated extras are present",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:954] omits the skipped-files suffix when no generated extras are present",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:954",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when _meta.json is not valid JSON",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:993] rejects fallback verification when _meta.json is not valid JSON",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:993",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when _meta.json slug does not match the package name",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1034] rejects fallback verification when _meta.json slug does not match the package name",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1034",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when _meta.json exceeds the per-file size limit",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1075] rejects fallback verification when _meta.json exceeds the per-file size limit",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1075",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when archive directories alone exceed the entry limit",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1136] rejects fallback verification when archive directories alone exceed the entry limit",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1136",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when the actual ZIP central directory exceeds the entry limit",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1190] rejects fallback verification when the actual ZIP central directory exceeds the entry limit",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1190",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when the downloaded archive exceeds the ZIP size limit",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1241] rejects fallback verification when the downloaded archive exceeds the ZIP size limit",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1241",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when a file hash drifts from files[] metadata",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1293] rejects fallback verification when a file hash drifts from files[] metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1293",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback metadata with an unsafe files[] path",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1332] rejects fallback metadata with an unsafe files[] path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1332",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback metadata with leading or trailing path whitespace",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1365] rejects fallback metadata with leading or trailing path whitespace",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1365",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback verification when the archive includes a whitespace-suffixed file path",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1398] rejects fallback verification when the archive includes a whitespace-suffixed file path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1398",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback metadata with duplicate files[] paths",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1439] rejects fallback metadata with duplicate files[] paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1439",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/clawhub.test.ts] rejects fallback metadata when files[] includes generated _meta.json",
+TEST_CASE("v4.29 [src/plugins/clawhub.test.ts:1477] rejects fallback metadata when files[] includes generated _meta.json",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/clawhub.test.ts:1477",
                "upstream it() block #35",

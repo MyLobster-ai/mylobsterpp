@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] auto-restores suspicious update-channel-only roots from backup",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:162] auto-restores suspicious update-channel-only roots from backup",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] auto-restores when metadata disappears from an otherwise valid config",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:190] auto-restores when metadata disappears from an otherwise valid config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:190",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] auto-restores when gateway mode disappears from the last-good shape",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:209] auto-restores when gateway mode disappears from the last-good shape",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:209",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] auto-restores after a large size drop against last-good config",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:230] auto-restores after a large size drop against last-good config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:230",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] does not restore noncritical config edits",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:263] does not restore noncritical config edits",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:263",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] dedupes repeated suspicious hashes",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:281] dedupes repeated suspicious hashes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:281",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] sync recovery uses backup baseline when health state is absent",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:295] sync recovery uses backup baseline when health state is absent",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:295",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] promotes a valid startup config and restores it after an invalid direct edit",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:310] promotes a valid startup config and restores it after an invalid direct edit",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:310",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] does not restore stale last-known-good for plugin schema evolution issues",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:350] does not restore stale last-known-good for plugin schema evolution issues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:350",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] does not restore stale last-known-good for plugin minHostVersion skew issues",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:411] does not restore stale last-known-good for plugin minHostVersion skew issues",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:411",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts] refuses to promote redacted secret placeholders",
+TEST_CASE("v4.29 [src/config/io.observe-recovery.test.ts:465] refuses to promote redacted secret placeholders",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.observe-recovery.test.ts:465",
                "upstream it() block #10",

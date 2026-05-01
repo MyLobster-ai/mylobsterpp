@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] rejects dmPolicy=",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:23] rejects dmPolicy=",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] rejects dmPolicy=",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:32] rejects dmPolicy=",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] rejects legacy dm.policy=",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:41] rejects legacy dm.policy=",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts legacy dm.policy=",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:49] accepts legacy dm.policy=",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts textChunkLimit without reviving legacy message limits",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:56] accepts textChunkLimit without reviving legacy message limits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] defaults groupPolicy to allowlist",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:67] defaults groupPolicy to allowlist",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts historyLimit",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:73] accepts historyLimit",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:73",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts Discord application IDs at top-level and account scope",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:79] accepts Discord application IDs at top-level and account scope",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:79",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] rejects unsafe numeric Discord application IDs",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:93] rejects unsafe numeric Discord application IDs",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:93",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] loads guild map and dm group settings",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:103] loads guild map and dm group settings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:103",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts voice model override field",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:140] accepts voice model override field",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:140",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] coerces safe-integer numeric allowlist entries to strings",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:150] coerces safe-integer numeric allowlist entries to strings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:150",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] rejects numeric IDs that are not valid non-negative safe integers",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:176] rejects numeric IDs that are not valid non-negative safe integers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:176",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts agentComponents.enabled at channel scope",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:235] accepts agentComponents.enabled at channel scope",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:235",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts agentComponents.enabled at account scope",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:245] accepts agentComponents.enabled at account scope",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:245",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] accepts thread.inheritParent at top-level and account scope",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:259] accepts thread.inheritParent at top-level and account scope",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:259",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts] rejects unknown fields under agentComponents",
+TEST_CASE("v4.29 [extensions/discord/src/config-schema.test.ts:283] rejects unknown fields under agentComponents",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/config-schema.test.ts:283",
                "upstream it() block #16",

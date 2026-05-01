@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts] does not track invalid non-message events from the message stream",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts:85] does not track invalid non-message events from the message stream",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.test.ts:85",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts] does not track duplicate messages that are already seen",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts:109] does not track duplicate messages that are already seen",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.test.ts:109",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts] tracks accepted non-duplicate messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts:119] tracks accepted non-duplicate messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts] accepts thread_broadcast messages from the message stream",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts:129] accepts thread_broadcast messages from the message stream",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.test.ts:129",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts] drops message subtypes that do not carry user message text",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts:150] drops message subtypes that do not carry user message text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.test.ts:150",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts] flushes pending top-level buffered keys before immediate non-debounce follow-ups",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.test.ts:170] flushes pending top-level buffered keys before immediate non-debounce follow-ups",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.test.ts:170",
                "upstream it() block #5",

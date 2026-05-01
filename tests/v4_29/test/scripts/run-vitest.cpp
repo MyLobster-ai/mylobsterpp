@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] adds --no-maglev to vitest child processes by default",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:13] adds --no-maglev to vitest child processes by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] detects pnpm exec node wrappers that can be spawned directly",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:17] detects pnpm exec node wrappers that can be spawned directly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] allows opting back into Maglev explicitly",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:29] allows opting back into Maglev explicitly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] parses the optional no-output timeout env",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:38] parses the optional no-output timeout env",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] spawns vitest in a detached process group on Unix hosts",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:48] spawns vitest in a detached process group on Unix hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] reenables local check policy for local Vitest children",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:61] reenables local check policy for local Vitest children",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:61",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] preserves explicit local-check disablement in CI",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:76] preserves explicit local-check disablement in CI",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:76",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] caps native Rust worker pools for serial Vitest runs",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:93] caps native Rust worker pools for serial Vitest runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:93",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] keeps explicit native Rust worker pool settings",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:109] keeps explicit native Rust worker pool settings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] suppresses rolldown plugin timing noise while keeping other stderr intact",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:127] suppresses rolldown plugin timing noise while keeping other stderr intact",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:127",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] kills silent vitest runs after the configured idle timeout",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:136] kills silent vitest runs after the configured idle timeout",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:136",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts] includes the runner label in watchdog logs when provided",
+TEST_CASE("v4.29 [test/scripts/run-vitest.test.ts:180] includes the runner label in watchdog logs when provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest.test.ts:180",
                "upstream it() block #11",

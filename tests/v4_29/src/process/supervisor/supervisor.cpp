@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts] spawns child runs and captures output",
+TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts:120] spawns child runs and captures output",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/supervisor.test.ts:120",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts] enforces no-output timeout for silent processes",
+TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts:142] enforces no-output timeout for silent processes",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/supervisor.test.ts:142",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts] cancels prior scoped run when replaceExistingScope is enabled",
+TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts:170] cancels prior scoped run when replaceExistingScope is enabled",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/supervisor.test.ts:170",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts] applies overall timeout even for near-immediate timer firing",
+TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts:208] applies overall timeout even for near-immediate timer firing",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/supervisor.test.ts:208",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts] can stream output without retaining it in RunExit payload",
+TEST_CASE("v4.29 [src/process/supervisor/supervisor.test.ts:234] can stream output without retaining it in RunExit payload",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/supervisor/supervisor.test.ts:234",
                "upstream it() block #4",

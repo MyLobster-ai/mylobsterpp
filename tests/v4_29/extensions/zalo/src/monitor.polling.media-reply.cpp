@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts] hosts and sends media replies while polling when a webhook URL is configured",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts:138] hosts and sends media replies while polling when a webhook URL is configured",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.polling.media-reply.test.ts:138",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts] sends media replies directly when webhook hosting is not configured",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts:201] sends media replies directly when webhook hosting is not configured",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.polling.media-reply.test.ts:201",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts] shares one hosted media route across accounts on the same path",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts:255] shares one hosted media route across accounts on the same path",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.polling.media-reply.test.ts:255",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts] re-registers the hosted media route after the active registry swaps",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.polling.media-reply.test.ts:372] re-registers the hosted media route after the active registry swaps",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.polling.media-reply.test.ts:372",
                "upstream it() block #3",

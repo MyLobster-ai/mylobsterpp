@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts] accepts rich discovery reports that explicitly confirm all required files were read",
+TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts:9] accepts rich discovery reports that explicitly confirm all required files were read",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/discovery-eval.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts] accepts numeric ",
+TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts:28] accepts numeric ",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/discovery-eval.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts] accepts claude-style ",
+TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts:48] accepts claude-style ",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/discovery-eval.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts] still flags genuine file-miss language when the report never confirms the required reads",
+TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts:66] still flags genuine file-miss language when the report never confirms the required reads",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/discovery-eval.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts] flags discovery replies that drift into unrelated suite wrap-up claims",
+TEST_CASE("v4.29 [extensions/qa-lab/src/discovery-eval.test.ts:83] flags discovery replies that drift into unrelated suite wrap-up claims",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/discovery-eval.test.ts:83",
                "upstream it() block #4",

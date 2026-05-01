@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] webchat clients cannot patch, delete, compact, or restore sessions",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:25] webchat clients cannot patch, delete, compact, or restore sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] session:patch hook fires with correct context",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:107] session:patch hook fires with correct context",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] session:patch hook does not fire for webchat clients",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:151] session:patch hook does not fire for webchat clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] session:patch hook only fires after successful patch",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:190] session:patch hook only fires after successful patch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:190",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] session:patch skips clone and dispatch when no hooks listen",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:231] session:patch skips clone and dispatch when no hooks listen",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:231",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] session:patch hook mutations cannot change the response path",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:255] session:patch hook mutations cannot change the response path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:255",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts] control-ui client can delete sessions even in webchat mode",
+TEST_CASE("v4.29 [src/gateway/server.sessions.permissions-hooks.test.ts:301] control-ui client can delete sessions even in webchat mode",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.permissions-hooks.test.ts:301",
                "upstream it() block #6",

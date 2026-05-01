@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] reports privacy-mode and wildcard unmentioned-group configuration risks",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:16] reports privacy-mode and wildcard unmentioned-group configuration risks",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] reports unreachable groups with match metadata",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:44] reports unreachable groups with match metadata",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] reports polling runtime state that never completed getUpdates after startup grace",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:76] reports polling runtime state that never completed getUpdates after startup grace",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] does not report polling startup before the connect grace expires",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:102] does not report polling startup before the connect grace expires",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] reports stale polling transport activity after successful getUpdates stops refreshing",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:118] reports stale polling transport activity after successful getUpdates stops refreshing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] does not report inherited stale transport activity during a fresh polling lifecycle",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:142] does not report inherited stale transport activity during a fresh polling lifecycle",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] reports webhook runtime state that never completed setWebhook after startup grace",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:159] reports webhook runtime state that never completed setWebhook after startup grace",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:159",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] does not report webhook startup before the connect grace expires",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:185] does not report webhook startup before the connect grace expires",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:185",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] does not report an advertised webhook just because no user updates arrived",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:201] does not report an advertised webhook just because no user updates arrived",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:201",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] ignores accounts that are not both enabled and configured",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:217] ignores accounts that are not both enabled and configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:217",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] falls back to Telegram-safe defaults for empty overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:231] falls back to Telegram-safe defaults for empty overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:231",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] preserves explicit non-empty overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:245] preserves explicit non-empty overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:245",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] puts requested emoji first and appends Telegram fallbacks",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:260] puts requested emoji first and appends Telegram fallbacks",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:260",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] accepts Telegram-supported reaction emojis",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:271] accepts Telegram-supported reaction emojis",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:271",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] rejects unsupported emojis",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:276] rejects unsupported emojis",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:276",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] returns undefined when chat does not include available_reactions",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:282] returns undefined when chat does not include available_reactions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:282",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] returns null when available_reactions is omitted/null",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:287] returns null when available_reactions is omitted/null",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:287",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] extracts emoji reactions only",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:294] extracts emoji reactions only",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:294",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] treats malformed available_reactions payloads as an empty allowlist instead of throwing",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:305] treats malformed available_reactions payloads as an empty allowlist instead of throwing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:305",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] uses getChat lookup when message chat does not include available_reactions",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:315] uses getChat lookup when message chat does not include available_reactions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:315",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] falls back to unrestricted reactions when getChat lookup fails",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:329] falls back to unrestricted reactions when getChat lookup fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:329",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] returns requested emoji when already Telegram-supported",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:345] returns requested emoji when already Telegram-supported",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:345",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] returns first Telegram-supported fallback for unsupported requested emoji",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:359] returns first Telegram-supported fallback for unsupported requested emoji",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:359",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] uses generic Telegram fallbacks for unknown emojis",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:373] uses generic Telegram fallbacks for unknown emojis",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:373",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] respects chat allowed reactions",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:382] respects chat allowed reactions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:382",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] returns undefined when no candidate is chat-allowed",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:397] returns undefined when no candidate is chat-allowed",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:397",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts] returns undefined for empty requested emoji",
+TEST_CASE("v4.29 [extensions/telegram/src/status.test.ts:412] returns undefined for empty requested emoji",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/status.test.ts:412",
                "upstream it() block #26",

@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not add whatsapp config when missing and no auth exists",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:149] does not add whatsapp config when missing and no auth exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:149",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not add whatsapp config when only auth exists (issue #900)",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:158] does not add whatsapp config when only auth exists (issue #900)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:158",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not add whatsapp config when only legacy auth exists (issue #900)",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:165] does not add whatsapp config when only legacy auth exists (issue #900)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:165",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not add whatsapp config when only non-default auth exists (issue #900)",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:172] does not add whatsapp config when only non-default auth exists (issue #900)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:172",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy secretref-env markers on SecretRef credential paths",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:179] migrates legacy secretref-env markers on SecretRef credential paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] leaves invalid legacy secretref-env markers for validation to reject",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:217] leaves invalid legacy secretref-env markers for validation to reject",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:217",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] moves WhatsApp access defaults into accounts.default for named accounts",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:230] moves WhatsApp access defaults into accounts.default for named accounts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:230",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates browser ssrfPolicy allowPrivateNetwork to dangerouslyAllowPrivateNetwork",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:263] migrates browser ssrfPolicy allowPrivateNetwork to dangerouslyAllowPrivateNetwork",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:263",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] normalizes conflicting browser SSRF alias keys without changing effective behavior",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:283] normalizes conflicting browser SSRF alias keys without changing effective behavior",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:283",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates nano-banana skill config to native image generation config",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:302] migrates nano-banana skill config to native image generation config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:302",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] removes deprecated commands.modelsWrite from legacy configs",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:334] removes deprecated commands.modelsWrite from legacy configs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:334",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy OpenAI provider api values to OpenAI completions",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:348] migrates legacy OpenAI provider api values to OpenAI completions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:348",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] marks legacy untagged /models add OpenAI Codex metadata rows for doctor repair",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:382] marks legacy untagged /models add OpenAI Codex metadata rows for doctor repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:382",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not mark untagged manual OpenAI Codex metadata overrides",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:416] does not mark untagged manual OpenAI Codex metadata overrides",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:416",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy Codex primary refs to OpenAI refs plus explicit Codex runtime",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:467] migrates legacy Codex primary refs to OpenAI refs plus explicit Codex runtime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:467",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not force Codex harness for legacy fallback-only refs",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:517] does not force Codex harness for legacy fallback-only refs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:517",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy Claude CLI primary refs to Anthropic refs plus explicit runtime",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:538] migrates legacy Claude CLI primary refs to Anthropic refs plus explicit runtime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:538",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy Codex CLI primary refs to OpenAI refs plus explicit runtime",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:564] migrates legacy Codex CLI primary refs to OpenAI refs plus explicit runtime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:564",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy Gemini CLI primary refs to Google refs plus explicit runtime",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:590] migrates legacy Gemini CLI primary refs to Google refs plus explicit runtime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:590",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] preserves legacy runtime fallback-only refs because runtime is container-scoped",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:618] preserves legacy runtime fallback-only refs because runtime is container-scoped",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:618",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] prefers legacy nano-banana env.GEMINI_API_KEY over skill apiKey during migration",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:639] prefers legacy nano-banana env.GEMINI_API_KEY over skill apiKey during migration",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:639",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] preserves explicit native config while removing legacy nano-banana skill config",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:663] preserves explicit native config while removing legacy nano-banana skill config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:663",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] removes nano-banana from skills.allowBundled during migration",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:701] removes nano-banana from skills.allowBundled during migration",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:701",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy web search provider config to plugin-owned config paths",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:712] migrates legacy web search provider config to plugin-owned config paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:712",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] merges legacy web search provider config into explicit plugin config without overriding it",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:770] merges legacy web search provider config into explicit plugin config without overriding it",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:770",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] keeps explicit plugin-owned web fetch config while filling missing legacy fields",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:816] keeps explicit plugin-owned web fetch config while filling missing legacy fields",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:816",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] normalizes talk provider ids without overriding explicit provider config",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:861] normalizes talk provider ids without overriding explicit provider config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:861",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] does not report talk provider normalization for semantically identical key ordering differences",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:886] does not report talk provider normalization for semantically identical key ordering differences",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:886",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates tools.message.allowCrossContextSend to canonical crossContext settings",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:908] migrates tools.message.allowCrossContextSend to canonical crossContext settings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:908",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] migrates legacy deepgram media options to providerOptions.deepgram",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:932] migrates legacy deepgram media options to providerOptions.deepgram",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:932",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts] normalizes persisted mistral model maxTokens that matched the old context-sized defaults",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.migrations.test.ts:1009] normalizes persisted mistral model maxTokens that matched the old context-sized defaults",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.migrations.test.ts:1009",
                "upstream it() block #30",

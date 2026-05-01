@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] sends Authorization header on initial request with manual redirect",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:159] sends Authorization header on initial request with manual redirect",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:159",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] rejects non-Slack hosts to avoid leaking tokens",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:179] rejects non-Slack hosts to avoid leaking tokens",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:179",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] strips Authorization header on cross-origin redirects",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:188] strips Authorization header on cross-origin redirects",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:188",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] preserves Authorization header on same-origin redirects",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:222] preserves Authorization header on same-origin redirects",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:222",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns redirect response when no location header is provided",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:243] returns redirect response when no location header is provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:243",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns 4xx/5xx responses directly without following",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:259] returns 4xx/5xx responses directly without following",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:259",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] handles 301 permanent redirects",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:272] handles 301 permanent redirects",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:272",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] prefers url_private_download over url_private",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:304] prefers url_private_download over url_private",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:304",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] preserves Authorization on same-origin redirects for private downloads",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:333] preserves Authorization on same-origin redirects for private downloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:333",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] strips Authorization on cross-origin redirects for private downloads",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:341] strips Authorization on cross-origin redirects for private downloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:341",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns null when download fails",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:349] returns null when download fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:349",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] passes bounded media download timeouts while preserving Slack auth",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:362] passes bounded media download timeouts while preserving Slack auth",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:362",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns null when a media download exceeds the total timeout",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:388] returns null when a media download exceeds the total timeout",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:388",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns null when no files are provided",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:421] returns null when no files are provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:421",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] skips files without url_private",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:431] skips files without url_private",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:431",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] rejects HTML auth pages for non-HTML files",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:442] rejects HTML auth pages for non-HTML files",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:442",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] allows expected HTML uploads",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:461] allows expected HTML uploads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:461",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] overrides video/* MIME to audio/* for slack_audio voice messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:488] overrides video/* MIME to audio/* for slack_audio voice messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:488",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] preserves original MIME for non-voice Slack files",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:529] preserves original MIME for non-voice Slack files",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:529",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] falls through to next file when first file returns error",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:563] falls through to next file when first file returns error",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:563",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns all successfully downloaded files as an array",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:592] returns all successfully downloaded files as an array",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:592",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] caps downloads to 8 files for large multi-attachment messages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:638] caps downloads to 8 files for large multi-attachment messages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:638",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] routes dispatcher-backed Slack media requests through runtime fetch",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:668] routes dispatcher-backed Slack media requests through runtime fetch",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:668",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] passes ssrfPolicy with Slack CDN allowedHostnames and allowRfc2544BenchmarkRange to file downloads",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:715] passes ssrfPolicy with Slack CDN allowedHostnames and allowRfc2544BenchmarkRange to file downloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:715",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] passes ssrfPolicy to forwarded attachment image downloads",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:743] passes ssrfPolicy to forwarded attachment image downloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:743",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] ignores non-forwarded attachments",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:778] ignores non-forwarded attachments",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:778",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] extracts text from forwarded shared attachments",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:795] extracts text from forwarded shared attachments",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:795",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] skips forwarded image URLs on non-Slack hosts",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:815] skips forwarded image URLs on non-Slack hosts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:815",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] downloads Slack-hosted images from forwarded shared attachments",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:829] downloads Slack-hosted images from forwarded shared attachments",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:829",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] paginates and returns the latest N messages across pages",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:870] paginates and returns the latest N messages across pages",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:870",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] includes file-only messages and drops empty-only entries",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:930] includes file-only messages and drops empty-only entries",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:930",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns empty when limit is zero without calling Slack API",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:955] returns empty when limit is zero without calling Slack API",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:955",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns empty and surfaces the error via logVerbose when Slack API throws",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:972] returns empty and surfaces the error via logVerbose when Slack API throws",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:972",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns the starter message when the Slack API succeeds",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:1001] returns the starter message when the Slack API succeeds",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:1001",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns null when the starter message has no text or files",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:1025] returns null when the starter message has no text or files",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:1025",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns a placeholder starter when the root message only has files",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:1041] returns a placeholder starter when the root message only has files",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:1041",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] returns null and surfaces the error via logVerbose when Slack API throws",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:1072] returns null and surfaces the error via logVerbose when Slack API throws",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:1072",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts] surfaces non-Error thrown values via logVerbose",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/media.test.ts:1093] surfaces non-Error thrown values via logVerbose",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/media.test.ts:1093",
                "upstream it() block #37",

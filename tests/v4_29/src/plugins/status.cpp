@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] forwards an explicit env to plugin loading",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:401] forwards an explicit env to plugin loading",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:401",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] forwards an explicit logger to plugin loading",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:418] forwards an explicit logger to plugin loading",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:418",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] carries installed-index compatibility metadata into registry snapshot reports",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:439] carries installed-index compatibility metadata into registry snapshot reports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:439",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] uses a metadata snapshot load for snapshot reports",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:474] uses a metadata snapshot load for snapshot reports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:474",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] loads plugin status from the auto-enabled config snapshot",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:485] loads plugin status from the auto-enabled config snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:485",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] uses the auto-enabled config snapshot for inspect policy summaries",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:512] uses the auto-enabled config snapshot for inspect policy summaries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:512",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] preserves raw config activation context when compatibility notices build their own report",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:556] preserves raw config activation context when compatibility notices build their own report",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:556",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] applies the full bundled provider compat chain before loading plugins",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:560] applies the full bundled provider compat chain before loading plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:560",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] preserves raw config activation context for compatibility-derived reports",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:578] preserves raw config activation context for compatibility-derived reports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:578",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] normalizes bundled plugin versions to the core base release",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:582] normalizes bundled plugin versions to the core base release",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:582",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] marks plugins as imported when runtime or facade state has loaded them",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:604] marks plugins as imported when runtime or facade state has loaded them",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:604",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] marks snapshot-loaded plugin modules as imported during full report loads",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:628] marks snapshot-loaded plugin modules as imported during full report loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:628",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] marks errored plugin modules as imported when full diagnostics already evaluated them",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:646] marks errored plugin modules as imported when full diagnostics already evaluated them",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:646",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] builds an inspect report with capability shape and policy",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:661] builds an inspect report with capability shape and policy",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:661",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] builds inspect reports for every loaded plugin",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:716] builds inspect reports for every loaded plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:716",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] treats a CLI-command-only plugin as a plain capability",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:746] treats a CLI-command-only plugin as a plain capability",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:746",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] treats a context-engine plugin as a plain capability",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:765] treats a context-engine plugin as a plain capability",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:765",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] builds compatibility warnings for legacy compatibility paths",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:791] builds compatibility warnings for legacy compatibility paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:791",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] builds structured compatibility notices with deterministic ordering",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:809] builds structured compatibility notices with deterministic ordering",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:809",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] builds compatibility warnings for deprecated implicit startup sidecar metadata",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:836] builds compatibility warnings for deprecated implicit startup sidecar metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:836",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] does not warn when explicit startup-lazy metadata avoids legacy startup compatibility",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:856] does not warn when explicit startup-lazy metadata avoids legacy startup compatibility",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:856",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] returns no compatibility warnings for modern capability plugins",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:868] returns no compatibility warnings for modern capability plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:868",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.test.ts] formats and summarizes compatibility notices",
+TEST_CASE("v4.29 [src/plugins/status.test.ts:920] formats and summarizes compatibility notices",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.test.ts:920",
                "upstream it() block #22",

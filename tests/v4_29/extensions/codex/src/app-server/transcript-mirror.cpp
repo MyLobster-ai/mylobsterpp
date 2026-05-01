@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts] mirrors user and assistant messages into the Pi transcript",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts:33] mirrors user and assistant messages into the Pi transcript",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-mirror.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts] deduplicates app-server turn mirrors by idempotency scope",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts:61] deduplicates app-server turn mirrors by idempotency scope",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-mirror.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts] runs before_message_write before appending mirrored transcript messages",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts:95] runs before_message_write before appending mirrored transcript messages",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-mirror.test.ts:95",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts] preserves the computed idempotency key when hooks rewrite message keys",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts:128] preserves the computed idempotency key when hooks rewrite message keys",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-mirror.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts] respects before_message_write blocking decisions",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/transcript-mirror.test.ts:161] respects before_message_write blocking decisions",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/transcript-mirror.test.ts:161",
                "upstream it() block #4",

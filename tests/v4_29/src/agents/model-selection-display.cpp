@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] keeps explicit runtime slash-bearing ids unchanged for display",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:10] keeps explicit runtime slash-bearing ids unchanged for display",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] combines separate runtime provider and model ids",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:18] combines separate runtime provider and model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] falls back to override values when runtime values are absent",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:27] falls back to override values when runtime values are absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] renders the trailing model segment for compact UI labels",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:38] renders the trailing model segment for compact UI labels",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] returns a stable empty-state label",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:47] returns a stable empty-state label",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:47",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] keeps partial runtime patches merged with current state",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:53] keeps partial runtime patches merged with current state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:53",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] keeps override ids attached to the current provider when no override provider is stored",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:66] keeps override ids attached to the current provider when no override provider is stored",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:66",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] keeps the current provider for slash-bearing override ids when provider is already known",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:79] keeps the current provider for slash-bearing override ids when provider is already known",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:79",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts] falls back to configured defaults when runtime session state is empty",
+TEST_CASE("v4.29 [src/agents/model-selection-display.test.ts:92] falls back to configured defaults when runtime session state is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-selection-display.test.ts:92",
                "upstream it() block #8",

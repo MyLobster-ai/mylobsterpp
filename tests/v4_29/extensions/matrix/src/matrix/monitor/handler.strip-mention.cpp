@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips full Matrix user id without configured mention regexes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:5] strips full Matrix user id without configured mention regexes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips Matrix localpart without configured mention regexes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:15] strips Matrix localpart without configured mention regexes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips display name with separator",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:24] strips display name with separator",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips @display name with comma separator",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:33] strips @display name with comma separator",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] returns original text when text is empty",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:42] returns original text when text is empty",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] falls back to configured mention regexes before slash command",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:51] falls back to configured mention regexes before slash command",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips mention prefix with extra whitespace",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:58] strips mention prefix with extra whitespace",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:58",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips mention prefix with display name (case-insensitive)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:65] strips mention prefix with display name (case-insensitive)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:65",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips mention prefix with display name (exact case)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:72] strips mention prefix with display name (exact case)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:72",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] does not strip mention from middle of text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:79] does not strip mention from middle of text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:79",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] does not strip non-matching patterns",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:86] does not strip non-matching patterns",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:86",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] strips only the first mention prefix",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:93] strips only the first mention prefix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:93",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] handles multiple regex patterns and strips first match",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:100] handles multiple regex patterns and strips first match",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:100",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] preserves original text when no patterns match",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:107] preserves original text when no patterns match",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:107",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] handles regex with special characters in mention",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:114] handles regex with special characters in mention",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:114",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] preserves regular message without slash command after stripping",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:121] preserves regular message without slash command after stripping",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:121",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] preserves regex flags when stripping (case-insensitive match)",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:128] preserves regex flags when stripping (case-insensitive match)",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:128",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts] does not carry global regex state across calls",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:135] does not carry global regex state across calls",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/handler.strip-mention.test.ts:135",
                "upstream it() block #17",

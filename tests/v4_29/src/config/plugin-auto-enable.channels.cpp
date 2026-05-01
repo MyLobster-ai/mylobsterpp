@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] uses env-scoped catalog metadata for preferOver auto-enable decisions",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:47] uses env-scoped catalog metadata for preferOver auto-enable decisions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] memoizes external catalog preferOver lookups within one auto-enable pass",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:107] memoizes external catalog preferOver lookups within one auto-enable pass",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] uses the plugin manifest id, not the channel id, for plugins.entries",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:185] uses the plugin manifest id, not the channel id, for plugins.entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:185",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] does not double-enable when plugin is already enabled under its plugin id",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:193] does not double-enable when plugin is already enabled under its plugin id",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:193",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] respects explicit disable of the plugin by its plugin id",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:201] respects explicit disable of the plugin by its plugin id",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:201",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] prefers an external plugin that declares preferOver for a bundled channel",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:210] prefers an external plugin that declares preferOver for a bundled channel",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:210",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] falls back to the bundled channel when the preferred external plugin is disabled",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:236] falls back to the bundled channel when the preferred external plugin is disabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] does not auto-disable a lower-priority channel plugin that was explicitly selected",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:264] does not auto-disable a lower-priority channel plugin that was explicitly selected",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:264",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] falls back to channel key as plugin id when no installed manifest declares the channel",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:294] falls back to channel key as plugin id when no installed manifest declares the channel",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:294",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] uses manifest channel config preferOver metadata for plugin channels",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:308] uses manifest channel config preferOver metadata for plugin channels",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:308",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] prefers bluebubbles: skips imessage auto-configure when both are configured",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:340] prefers bluebubbles: skips imessage auto-configure when both are configured",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:340",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] keeps imessage enabled if already explicitly enabled (non-destructive)",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:351] keeps imessage enabled if already explicitly enabled (non-destructive)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:351",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] allows imessage auto-configure when bluebubbles is explicitly disabled",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:360] allows imessage auto-configure when bluebubbles is explicitly disabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:360",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] allows imessage auto-configure when bluebubbles is in deny list",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:370] allows imessage auto-configure when bluebubbles is in deny list",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:370",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts] auto-enables imessage when only imessage is configured",
+TEST_CASE("v4.29 [src/config/plugin-auto-enable.channels.test.ts:379] auto-enables imessage when only imessage is configured",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/plugin-auto-enable.channels.test.ts:379",
                "upstream it() block #14",

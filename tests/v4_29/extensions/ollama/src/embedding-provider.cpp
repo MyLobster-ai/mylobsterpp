@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] calls /api/embed and returns normalized vectors",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:63] calls /api/embed and returns normalized vectors",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] resolves configured base URL and headers without sending local marker auth",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:88] resolves configured base URL and headers without sending local marker auth",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] resolves configured baseURL alias",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:130] resolves configured baseURL alias",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] fails fast when memory-search remote apiKey is an unresolved SecretRef",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:157] fails fast when memory-search remote apiKey is an unresolved SecretRef",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:157",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] falls back to env key when provider apiKey is an unresolved SecretRef",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:172] falls back to env key when provider apiKey is an unresolved SecretRef",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:172",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] sends batch embeddings in one Ollama request",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:205] sends batch embeddings in one Ollama request",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:205",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] uses a retrieval query prefix for qwen3 embedding queries",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:240] uses a retrieval query prefix for qwen3 embedding queries",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:240",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] uses the nomic search_query prefix for query embeddings",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:258] uses the nomic search_query prefix for query embeddings",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:258",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] uses the mixedbread retrieval prompt for query embeddings",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:274] uses the mixedbread retrieval prompt for query embeddings",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:274",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] keeps document batch embeddings raw",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:292] keeps document batch embeddings raw",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:292",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] uses custom Ollama provider config and strips that provider prefix",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:324] uses custom Ollama provider config and strips that provider prefix",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:324",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] does not attach pure env OLLAMA_API_KEY to a local host",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:361] does not attach pure env OLLAMA_API_KEY to a local host",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:361",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] attaches pure env OLLAMA_API_KEY to Ollama Cloud",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:383] attaches pure env OLLAMA_API_KEY to Ollama Cloud",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:383",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] does not attach provider apiKey to a different remote embedding host",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:407] does not attach provider apiKey to a different remote embedding host",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:407",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] attaches remote apiKey to a remote embedding host",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:438] attaches remote apiKey to a remote embedding host",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:438",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] honors remote local marker as an explicit no-auth opt-out",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:461] honors remote local marker as an explicit no-auth opt-out",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:461",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts] marks inline memory batches as local-server timeout work",
+TEST_CASE("v4.29 [extensions/ollama/src/embedding-provider.test.ts:492] marks inline memory batches as local-server timeout work",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/embedding-provider.test.ts:492",
                "upstream it() block #16",

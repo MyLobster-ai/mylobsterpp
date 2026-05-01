@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts] passes the resolved shared config into the tts tool",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts:130] passes the resolved shared config into the tts tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.tts-config.test.ts:130",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts] passes the resolved session agent id into the tts tool",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts:171] passes the resolved session agent id into the tts tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.tts-config.test.ts:171",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts] passes the active account id into the tts tool",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts:205] passes the active account id into the tts tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.tts-config.test.ts:205",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts] passes preserved channel delivery context into the cron tool",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts:256] passes preserved channel delivery context into the cron tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.tts-config.test.ts:256",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts] uses agent route context when auto-threading context is unavailable",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts:282] uses agent route context when auto-threading context is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.tts-config.test.ts:282",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts] passes self-remove scope into the cron tool",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.tts-config.test.ts:306] passes self-remove scope into the cron tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.tts-config.test.ts:306",
                "upstream it() block #5",

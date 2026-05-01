@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts] returns no LAN address when interface discovery throws",
+TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts:23] returns no LAN address when interface discovery throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/network-discovery-display.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts] reports a warning when tailnet inspection throws",
+TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts:29] reports a warning when tailnet inspection throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/network-discovery-display.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts] falls back to loopback when bind host resolution throws",
+TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts:42] falls back to loopback when bind host resolution throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/network-discovery-display.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts] still returns discovered tailnet values when interfaces are available",
+TEST_CASE("v4.29 [src/infra/network-discovery-display.test.ts:57] still returns discovered tailnet values when interfaces are available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/network-discovery-display.test.ts:57",
                "upstream it() block #3",

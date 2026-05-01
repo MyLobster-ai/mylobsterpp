@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] returns team and channel config when present",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:32] returns team and channel config when present",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] returns undefined configs when teamId is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:61] returns undefined configs when teamId is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] blocks team and channel name matches by default",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:77] blocks team and channel name matches by default",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] matches team and channel by name when dangerous name matching is enabled",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:85] matches team and channel by name when dangerous name matching is enabled",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] forces thread replies for direct messages",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:98] forces thread replies for direct messages",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] defaults to requireMention=true and replyStyle=thread",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:106] defaults to requireMention=true and replyStyle=thread",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:106",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] defaults replyStyle to top-level when requireMention=false",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:114] defaults replyStyle to top-level when requireMention=false",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:114",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] prefers channel overrides over team and global defaults",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:125] prefers channel overrides over team and global defaults",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:125",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] inherits team mention settings when channel config is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:140] inherits team mention settings when channel config is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:140",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] uses explicit replyStyle even when requireMention defaults would differ",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:152] uses explicit replyStyle even when requireMention defaults would differ",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:152",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] allows when policy is open",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:162] allows when policy is open",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:162",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] blocks when policy is disabled",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:173] blocks when policy is disabled",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:173",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] blocks allowlist when empty",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:184] blocks allowlist when empty",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:184",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] allows allowlist when sender matches",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:195] allows allowlist when sender matches",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:195",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] blocks sender-name allowlist matches by default",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:206] blocks sender-name allowlist matches by default",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:206",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] allows sender-name allowlist matches when explicitly enabled",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:217] allows sender-name allowlist matches when explicitly enabled",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:217",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts] allows allowlist wildcard",
+TEST_CASE("v4.29 [extensions/msteams/src/policy.test.ts:229] allows allowlist wildcard",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/policy.test.ts:229",
                "upstream it() block #16",

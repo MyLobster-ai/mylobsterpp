@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] binds the current thread-chat thread",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:278] binds the current thread-chat thread",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:278",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] rejects /focus from a leaf subagent",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:309] rejects /focus from a leaf subagent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:309",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] binds topic-chat topics as current conversations",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:332] binds topic-chat topics as current conversations",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:332",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] creates a room-chat child thread from a top-level room when spawning is enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:355] creates a room-chat child thread from a top-level room when spawning is enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:355",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] treats a room thread turn as the current thread",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:390] treats a room thread turn as the current thread",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:390",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] rejects room top-level thread creation when spawnSubagentSessions is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:414] rejects room top-level thread creation when spawnSubagentSessions is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:414",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] includes ACP session identifiers in intro text when available",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:442] includes ACP session identifiers in intro text when available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:442",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] rejects rebinding when another user owns the thread",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:484] rejects rebinding when another user owns the thread",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:484",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] rejects unsupported channels",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:504] rejects unsupported channels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:504",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] unfocuses the active binding for the binding owner",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:512] unfocuses the active binding for the binding owner",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:512",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] unfocuses an active room thread binding for the binding owner",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:536] unfocuses an active room thread binding for the binding owner",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:536",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts] drops self-parent refs before resolving /unfocus bindings",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-subagents-focus.test.ts:572] drops self-parent refs before resolving /unfocus bindings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-subagents-focus.test.ts:572",
                "upstream it() block #11",

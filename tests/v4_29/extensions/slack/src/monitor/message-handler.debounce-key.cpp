@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] returns null when message has no sender",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:19] returns null when message has no sender",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] scopes thread replies by thread_ts",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:24] scopes thread replies by thread_ts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] isolates unresolved thread replies with maybe-thread prefix",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:29] isolates unresolved thread replies with maybe-thread prefix",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] scopes top-level messages by their own timestamp to prevent cross-thread collisions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:40] scopes top-level messages by their own timestamp to prevent cross-thread collisions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] keeps top-level DMs channel-scoped to preserve short-message batching",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:53] keeps top-level DMs channel-scoped to preserve short-message batching",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] falls back to bare channel when no timestamp is available",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:60] falls back to bare channel when no timestamp is available",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:60",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts] uses bot_id as sender fallback",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler.debounce-key.test.ts:65] uses bot_id as sender fallback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler.debounce-key.test.ts:65",
                "upstream it() block #6",

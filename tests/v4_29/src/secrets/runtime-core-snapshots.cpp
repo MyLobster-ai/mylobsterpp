@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts] resolves config env refs for core config surfaces",
+TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts:114] resolves config env refs for core config surfaces",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-core-snapshots.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts] resolves env refs for memory, talk, and gateway surfaces",
+TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts:158] resolves env refs for memory, talk, and gateway surfaces",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-core-snapshots.test.ts:158",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts] resolves env-backed auth profile SecretRefs",
+TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts:203] resolves env-backed auth profile SecretRefs",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-core-snapshots.test.ts:203",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts] resolves inline placeholder auth profiles to env refs",
+TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts:245] resolves inline placeholder auth profiles to env refs",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-core-snapshots.test.ts:245",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts] activates runtime snapshots for loadConfig",
+TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts:277] activates runtime snapshots for loadConfig",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-core-snapshots.test.ts:277",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts] activates runtime snapshots for ensureAuthProfileStore",
+TEST_CASE("v4.29 [src/secrets/runtime-core-snapshots.test.ts:284] activates runtime snapshots for ensureAuthProfileStore",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-core-snapshots.test.ts:284",
                "upstream it() block #5",

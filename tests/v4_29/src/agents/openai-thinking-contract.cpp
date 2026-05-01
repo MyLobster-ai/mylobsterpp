@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts] serializes OpenAI Responses reasoning effort from pi-ai simple options",
+TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts:80] serializes OpenAI Responses reasoning effort from pi-ai simple options",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-thinking-contract.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts] serializes Codex Responses reasoning effort from pi-ai simple options",
+TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts:90] serializes Codex Responses reasoning effort from pi-ai simple options",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-thinking-contract.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts] leaves Codex Responses reasoning absent when pi-agent-core disables thinking",
+TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts:100] leaves Codex Responses reasoning absent when pi-agent-core disables thinking",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-thinking-contract.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts] keeps OpenAI Responses reasoning explicitly disabled when pi-agent-core disables thinking",
+TEST_CASE("v4.29 [src/agents/openai-thinking-contract.test.ts:110] keeps OpenAI Responses reasoning explicitly disabled when pi-agent-core disables thinking",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-thinking-contract.test.ts:110",
                "upstream it() block #3",

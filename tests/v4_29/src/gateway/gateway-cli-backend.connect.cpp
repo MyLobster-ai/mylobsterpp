@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/gateway-cli-backend.connect.test.ts] connects a test gateway client through the live helper",
+TEST_CASE("v4.29 [src/gateway/gateway-cli-backend.connect.test.ts:120] connects a test gateway client through the live helper",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-cli-backend.connect.test.ts:120",
                "upstream it() block #0",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] captureEnv restores mutated keys",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:21] captureEnv restores mutated keys",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] captureFullEnv restores added keys and baseline values",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:36] captureFullEnv restores added keys and baseline values",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withEnv applies values only inside callback",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:49] withEnv applies values only inside callback",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withEnv restores values when callback throws",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:59] withEnv restores values when callback throws",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withEnv can delete a key only inside callback",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:73] withEnv can delete a key only inside callback",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withEnvAsync restores values when callback throws",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:85] withEnvAsync restores values when callback throws",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:85",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withEnvAsync applies values only inside async callback",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:99] withEnvAsync applies values only inside async callback",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:99",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withEnvAsync can delete a key only inside callback",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:109] withEnvAsync can delete a key only inside callback",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:109",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] createPathResolutionEnv clears leaked path overrides before applying explicit ones",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:121] createPathResolutionEnv clears leaked path overrides before applying explicit ones",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:121",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/test-utils/env.test.ts] withPathResolutionEnv only applies the explicit path env inside the callback",
+TEST_CASE("v4.29 [src/test-utils/env.test.ts:147] withPathResolutionEnv only applies the explicit path env inside the callback",
           "[v4_29][parity_gap][test-utils]") {
     PARITY_GAP("src/test-utils/env.test.ts:147",
                "upstream it() block #9",

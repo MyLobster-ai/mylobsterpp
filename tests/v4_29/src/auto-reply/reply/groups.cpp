@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] keeps prompt helpers off the heavy group runtime",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:11] keeps prompt helpers off the heavy group runtime",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] builds direct chat context from the resolved silent reply policy",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:60] builds direct chat context from the resolved silent reply policy",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] gates group silent-token instructions on the resolved silent reply policy",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:92] gates group silent-token instructions on the resolved silent reply policy",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] marks non-visible assistant replies silent for groups with silence allowed",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:128] marks non-visible assistant replies silent for groups with silence allowed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] loads the group runtime only when requireMention resolution needs it",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:162] loads the group runtime only when requireMention resolution needs it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] honors Discord guild channel requireMention fallback when runtime plugin is unavailable",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:201] honors Discord guild channel requireMention fallback when runtime plugin is unavailable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts] honors account-scoped Discord guild requireMention fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/groups.test.ts:241] honors account-scoped Discord guild requireMention fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/groups.test.ts:241",
                "upstream it() block #6",

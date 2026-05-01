@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/thinking.test.ts] removes thinkingBudget=0 for Gemini 2.5 Pro",
+TEST_CASE("v4.29 [extensions/google/thinking.test.ts:70] removes thinkingBudget=0 for Gemini 2.5 Pro",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/thinking.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/thinking.test.ts] rewrites Gemini 3 thinking budgets to thinkingLevel",
+TEST_CASE("v4.29 [extensions/google/thinking.test.ts:82] rewrites Gemini 3 thinking budgets to thinkingLevel",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/thinking.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/thinking.test.ts] keeps Gemini 3 adaptive thinking provider-dynamic instead of forcing a fixed level",
+TEST_CASE("v4.29 [extensions/google/thinking.test.ts:101] keeps Gemini 3 adaptive thinking provider-dynamic instead of forcing a fixed level",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/thinking.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/thinking.test.ts] maps Gemini 2.5 adaptive thinking to dynamic thinkingBudget",
+TEST_CASE("v4.29 [extensions/google/thinking.test.ts:119] maps Gemini 2.5 adaptive thinking to dynamic thinkingBudget",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/thinking.test.ts:119",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/thinking.test.ts] maps Gemma 4 thinking mode without sending thinkingBudget",
+TEST_CASE("v4.29 [extensions/google/thinking.test.ts:138] maps Gemma 4 thinking mode without sending thinkingBudget",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/thinking.test.ts:138",
                "upstream it() block #4",

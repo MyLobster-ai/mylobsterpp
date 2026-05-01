@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] has correct id and label",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:57] has correct id and label",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] supports direct chat with media",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:66] supports direct chat with media",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] listAccountIds includes default and named accounts when configured",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:75] listAccountIds includes default and named accounts when configured",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] resolveAccount merges account overrides with base config defaults",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:90] resolveAccount merges account overrides with base config defaults",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] defaultAccountId returns ",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:123] defaultAccountId returns ",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] setup status honors the selected named account",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:128] setup status honors the selected named account",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] formats allowFrom entries through the shared adapter",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:157] formats allowFrom entries through the shared adapter",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:157",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] resolveDmPolicy returns policy, allowFrom, normalizeEntry",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:169] resolveDmPolicy returns policy, allowFrom, normalizeEntry",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:169",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] normalizes entries and notifies approved users",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:198] normalizes entries and notifies approved users",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:198",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when token is missing",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:251] warns when token is missing",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:251",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when allowInsecureSsl is true",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:258] warns when allowInsecureSsl is true",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:258",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when dangerous name matching is enabled",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:265] warns when dangerous name matching is enabled",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:265",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when inherited shared webhookPath is dangerously re-enabled",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:272] warns when inherited shared webhookPath is dangerously re-enabled",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:272",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when dmPolicy is open",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:285] warns when dmPolicy is open",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:285",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when dmPolicy is open and allowedUserIds is empty",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:292] warns when dmPolicy is open and allowedUserIds is empty",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:292",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when dmPolicy is allowlist and allowedUserIds is empty",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:299] warns when dmPolicy is allowlist and allowedUserIds is empty",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:299",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when named multi-account routes inherit a shared webhookPath",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:306] warns when named multi-account routes inherit a shared webhookPath",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:306",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] warns when enabled accounts share the same exact webhookPath",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:316] warns when enabled accounts share the same exact webhookPath",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:316",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] returns no warnings for fully configured account",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:336] returns no warnings for fully configured account",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:336",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] normalizeTarget strips prefix and trims",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:345] normalizeTarget strips prefix and trims",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:345",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] targetResolver.looksLikeId matches numeric IDs",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:352] targetResolver.looksLikeId matches numeric IDs",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:352",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] returns empty stubs",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:362] returns empty stubs",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:362",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] returns formatting hints",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:372] returns formatting hints",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:372",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] sendText throws when no incomingUrl",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:382] sendText throws when no incomingUrl",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:382",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] sendText returns OutboundDeliveryResult on success",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:397] sendText returns OutboundDeliveryResult on success",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:397",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] sendMedia throws when missing incomingUrl",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:420] sendMedia throws when missing incomingUrl",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:420",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] startAccount returns pending promise for disabled account",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:515] startAccount returns pending promise for disabled account",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:515",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] startAccount returns pending promise for account without token",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:519] startAccount returns pending promise for account without token",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:519",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] startAccount refuses allowlist accounts with empty allowedUserIds",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:523] startAccount refuses allowlist accounts with empty allowedUserIds",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:523",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] startAccount refuses open accounts with empty allowedUserIds",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:541] startAccount refuses open accounts with empty allowedUserIds",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:541",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] startAccount refuses named accounts without explicit webhookPath in multi-account setups",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:561] startAccount refuses named accounts without explicit webhookPath in multi-account setups",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:561",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] startAccount refuses duplicate exact webhook paths across accounts",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:577] startAccount refuses duplicate exact webhook paths across accounts",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:577",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts] re-registers same account/path through the route registrar",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.test.ts:594] re-registers same account/path through the route registrar",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.test.ts:594",
                "upstream it() block #32",

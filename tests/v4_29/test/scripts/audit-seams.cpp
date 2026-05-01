@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] detects cron agent handoff and outbound delivery boundaries",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:9] detects cron agent handoff and outbound delivery boundaries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] detects scheduler-state seams in cron service orchestration",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:31] detects scheduler-state seams in cron service orchestration",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] detects subagent spawn and cleanup handoff boundaries",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:52] detects subagent spawn and cleanup handoff boundaries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] detects subagent lifecycle registry and announce delivery seams",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:74] detects subagent lifecycle registry and announce delivery seams",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] detects parent-stream seams for ACP spawn relays",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:96] detects parent-stream seams for ACP spawn relays",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] keeps cron seam statuses conservative when nearby tests exist",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:117] keeps cron seam statuses conservative when nearby tests exist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] keeps subagent seam statuses conservative when nearby tests exist",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:130] keeps subagent seam statuses conservative when nearby tests exist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:130",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts] documents cron and subagent seam coverage in help text",
+TEST_CASE("v4.29 [test/scripts/audit-seams.test.ts:143] documents cron and subagent seam coverage in help text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/audit-seams.test.ts:143",
                "upstream it() block #7",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google-meet/node-host.test.ts] starts observe-only Chrome without BlackHole or bridge processes",
+TEST_CASE("v4.29 [extensions/google-meet/node-host.test.ts:44] starts observe-only Chrome without BlackHole or bridge processes",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/node-host.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/node-host.test.ts] clears output playback without closing the active bridge when the old output exits",
+TEST_CASE("v4.29 [extensions/google-meet/node-host.test.ts:73] clears output playback without closing the active bridge when the old output exits",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/node-host.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/node-host.test.ts] lists active bridge sessions and hides closed sessions",
+TEST_CASE("v4.29 [extensions/google-meet/node-host.test.ts:150] lists active bridge sessions and hides closed sessions",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/node-host.test.ts:150",
                "upstream it() block #2",

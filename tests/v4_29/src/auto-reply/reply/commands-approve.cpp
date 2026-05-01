@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] rejects invalid usage",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:443] rejects invalid usage",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:443",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] submits approval",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:455] submits approval",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:455",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] accepts bare approve text for Slack-style manual approvals",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:479] accepts bare approve text for Slack-style manual approvals",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:479",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] accepts Telegram /approve from configured approvers even when chat access is otherwise blocked",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:507] accepts Telegram /approve from configured approvers even when chat access is otherwise blocked",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:507",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] honors the configured default account for omitted-account /approve auth",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:527] honors the configured default account for omitted-account /approve auth",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:527",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] accepts Signal /approve from configured approvers even when chat access is otherwise blocked",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:574] accepts Signal /approve from configured approvers even when chat access is otherwise blocked",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:574",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] does not treat implicit default approval auth as a bypass for unauthorized senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:605] does not treat implicit default approval auth as a bypass for unauthorized senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:605",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] does not treat implicit same-chat approval auth as a bypass for unauthorized senders",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:625] does not treat implicit same-chat approval auth as a bypass for unauthorized senders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:625",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] does not allow empty helper approvers to bypass unauthorized sender checks",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:661] does not allow empty helper approvers to bypass unauthorized sender checks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:661",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] keeps same-chat /approve available to authorized senders when helper approvers are empty",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:686] keeps same-chat /approve available to authorized senders when helper approvers are empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:686",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] accepts Telegram /approve from exec target recipients when native approvals are disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:717] accepts Telegram /approve from exec target recipients when native approvals are disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:717",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] requires configured Discord approvers for exec approvals",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:755] requires configured Discord approvers for exec approvals",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:755",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] rejects legacy unprefixed plugin approval fallback on Discord before exec fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:814] rejects legacy unprefixed plugin approval fallback on Discord before exec fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:814",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] preserves legacy unprefixed plugin approval fallback on Discord",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:843] preserves legacy unprefixed plugin approval fallback on Discord",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:843",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] returns the underlying not-found error for plugin-only approval routing",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:871] returns the underlying not-found error for plugin-only approval routing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:871",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] requires configured Discord approvers for plugin approvals",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:922] requires configured Discord approvers for plugin approvals",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:922",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] rejects unauthorized or invalid Telegram /approve variants",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:965] rejects unauthorized or invalid Telegram /approve variants",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:965",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts] enforces gateway approval scopes",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-approve.test.ts:1029] enforces gateway approval scopes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-approve.test.ts:1029",
                "upstream it() block #17",

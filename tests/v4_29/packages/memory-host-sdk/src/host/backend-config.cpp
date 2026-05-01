@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] defaults to builtin backend when config missing",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:74] defaults to builtin backend when config missing",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] resolves qmd backend with default collections",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:82] resolves qmd backend with default collections",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] keeps uppercase MEMORY.md as the root pattern when only lowercase memory.md exists",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:113] keeps uppercase MEMORY.md as the root pattern when only lowercase memory.md exists",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] prefers MEMORY.md over legacy memory.md when both root files exist",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:126] prefers MEMORY.md over legacy memory.md when both root files exist",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] parses quoted qmd command paths",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:139] parses quoted qmd command paths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] resolves custom paths relative to workspace",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:153] resolves custom paths relative to workspace",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] scopes qmd collection names per agent",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:178] scopes qmd collection names per agent",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:178",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] merges default and per-agent qmd extra collections",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:205] merges default and per-agent qmd extra collections",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:205",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] preserves explicit custom collection names for paths outside the workspace",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:254] preserves explicit custom collection names for paths outside the workspace",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:254",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] keeps symlinked workspace paths agent-scoped when deciding custom collection names",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:281] keeps symlinked workspace paths agent-scoped when deciding custom collection names",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:281",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] keeps unresolved child paths under a symlinked workspace agent-scoped",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:306] keeps unresolved child paths under a symlinked workspace agent-scoped",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:306",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] resolves qmd update timeout overrides",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:335] resolves qmd update timeout overrides",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:335",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] resolves qmd startup refresh overrides",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:357] resolves qmd startup refresh overrides",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:357",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] resolves qmd search mode override",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:376] resolves qmd search mode override",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:376",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] resolves qmd mcporter search tool override",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:390] resolves qmd mcporter search tool override",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:390",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] maps agents.defaults.memorySearch.extraPaths to QMD collections",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:408] maps agents.defaults.memorySearch.extraPaths to QMD collections",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:408",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] merges default and per-agent memorySearch.extraPaths for QMD collections",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:432] merges default and per-agent memorySearch.extraPaths for QMD collections",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:432",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] falls back to defaults when agent has no overrides",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:459] falls back to defaults when agent has no overrides",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:459",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] deduplicates merged memorySearch.extraPaths for QMD collections",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:485] deduplicates merged memorySearch.extraPaths for QMD collections",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:485",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] keeps unnamed extra paths agent-scoped even when they resolve outside the workspace",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:515] keeps unnamed extra paths agent-scoped even when they resolve outside the workspace",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:515",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] matches per-agent memorySearch.extraPaths using normalized agent ids",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:533] matches per-agent memorySearch.extraPaths using normalized agent ids",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:533",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts] deduplicates identical roots shared by memory.qmd.paths and memorySearch.extraPaths",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/backend-config.test.ts:556] deduplicates identical roots shared by memory.qmd.paths and memorySearch.extraPaths",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/backend-config.test.ts:556",
                "upstream it() block #21",

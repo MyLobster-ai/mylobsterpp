@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] prefers resolved model default over agent thinkingDefault",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:5] prefers resolved model default over agent thinkingDefault",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] keeps session thinking override without consulting defaults",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:20] keeps session thinking override without consulting defaults",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] prefers session fastMode over agent default",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:37] prefers session fastMode over agent default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] falls back to agent fastModeDefault when session override is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:53] falls back to agent fastModeDefault when session override is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] prefers session reasoningLevel over agent default",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:67] prefers session reasoningLevel over agent default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] falls back to agent reasoningDefault when session override is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:83] falls back to agent reasoningDefault when session override is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:83",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] falls back to agentCfg reasoningDefault when agent entry is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:97] falls back to agentCfg reasoningDefault when agent entry is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:97",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] applies agent reasoningDefault even when thinking is active",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:111] applies agent reasoningDefault even when thinking is active",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:111",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] defaults reasoning to off when no agent default is set",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:127] defaults reasoning to off when no agent default is set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:127",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] respects agent reasoningDefault: off as explicit override",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:139] respects agent reasoningDefault: off as explicit override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:139",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts] respects agentCfg reasoningDefault: off as explicit override",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.levels.test.ts:154] respects agentCfg reasoningDefault: off as explicit override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.levels.test.ts:154",
                "upstream it() block #10",

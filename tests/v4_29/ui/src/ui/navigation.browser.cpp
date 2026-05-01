@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] renders responsive navigation shell, drawer, and collapsed states",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:41] renders responsive navigation shell, drawer, and collapsed states",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] renders the dashboard breadcrumb as an overview link",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:51] renders the dashboard breadcrumb as an overview link",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] keeps the dashboard breadcrumb link inside the configured base path",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:68] keeps the dashboard breadcrumb link inside the configured base path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] renders the dreaming view on the /dreaming route",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:79] renders the dreaming view on the /dreaming route",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] requires confirmation before sending dreaming restart patch",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:145] requires confirmation before sending dreaming restart patch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] renders the refreshed top navigation shell",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:325] renders the refreshed top navigation shell",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:325",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] closes mobile chat controls on Escape, outside pointerdown, and tab changes",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:451] closes mobile chat controls on Escape, outside pointerdown, and tab changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:451",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] preserves session navigation and keeps focus mode scoped to chat",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:505] preserves session navigation and keeps focus mode scoped to chat",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:505",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] auto-scrolls chat history to the latest message",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:550] auto-scrolls chat history to the latest message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:550",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] hydrates hash tokens, restores same-tab refreshes, and clears after gateway changes",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:645] hydrates hash tokens, restores same-tab refreshes, and clears after gateway changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:645",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts] keeps a hash token pending until the gateway URL change is confirmed",
+TEST_CASE("v4.29 [ui/src/ui/navigation.browser.test.ts:677] keeps a hash token pending until the gateway URL change is confirmed",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/navigation.browser.test.ts:677",
                "upstream it() block #10",

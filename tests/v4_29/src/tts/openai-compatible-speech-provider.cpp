@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tts/openai-compatible-speech-provider.test.ts] normalizes config with built-in base URL policies",
+TEST_CASE("v4.29 [src/tts/openai-compatible-speech-provider.test.ts:30] normalizes config with built-in base URL policies",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/openai-compatible-speech-provider.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/openai-compatible-speech-provider.test.ts] maps configured extra JSON body fields into synthesis requests",
+TEST_CASE("v4.29 [src/tts/openai-compatible-speech-provider.test.ts:77] maps configured extra JSON body fields into synthesis requests",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/openai-compatible-speech-provider.test.ts:77",
                "upstream it() block #1",

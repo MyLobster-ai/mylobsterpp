@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts] defaults profile output outside the repo",
+TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts:14] defaults profile output outside the repo",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest-profile.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts] keeps explicit output directories",
+TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts:21] keeps explicit output directories",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest-profile.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts] builds main-thread cpu profiling args",
+TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts:27] builds main-thread cpu profiling args",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest-profile.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts] builds runner cpu and heap profiling args",
+TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts:42] builds runner cpu and heap profiling args",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest-profile.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts] parses mode and explicit output dir",
+TEST_CASE("v4.29 [test/scripts/run-vitest-profile.test.ts:61] parses mode and explicit output dir",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/run-vitest-profile.test.ts:61",
                "upstream it() block #4",

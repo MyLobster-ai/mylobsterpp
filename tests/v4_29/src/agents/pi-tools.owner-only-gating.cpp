@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts] removes owner-only tools for unauthorized senders",
+TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts:23] removes owner-only tools for unauthorized senders",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.owner-only-gating.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts] keeps owner-only tools for authorized senders",
+TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts:32] keeps owner-only tools for authorized senders",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.owner-only-gating.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts] keeps canvas available to unauthorized senders by current trust model",
+TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts:41] keeps canvas available to unauthorized senders by current trust model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.owner-only-gating.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts] defaults to removing owner-only tools when owner status is unknown",
+TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts:47] defaults to removing owner-only tools when owner status is unknown",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.owner-only-gating.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts] restricts node-originated runs to the node-safe tool subset",
+TEST_CASE("v4.29 [src/agents/pi-tools.owner-only-gating.test.ts:57] restricts node-originated runs to the node-safe tool subset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.owner-only-gating.test.ts:57",
                "upstream it() block #4",

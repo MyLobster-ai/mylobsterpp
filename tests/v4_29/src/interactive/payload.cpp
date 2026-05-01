@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/interactive/payload.test.ts] treats whitespace-only text and empty structured payloads as empty",
+TEST_CASE("v4.29 [src/interactive/payload.test.ts:24] treats whitespace-only text and empty structured payloads as empty",
           "[v4_29][parity_gap][interactive]") {
     PARITY_GAP("src/interactive/payload.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/interactive/payload.test.ts] trims text and falls back to channel data by default",
+TEST_CASE("v4.29 [src/interactive/payload.test.ts:57] trims text and falls back to channel data by default",
           "[v4_29][parity_gap][interactive]") {
     PARITY_GAP("src/interactive/payload.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/interactive/payload.test.ts] normalizes interactive replies and resolves text fallbacks",
+TEST_CASE("v4.29 [src/interactive/payload.test.ts:92] normalizes interactive replies and resolves text fallbacks",
           "[v4_29][parity_gap][interactive]") {
     PARITY_GAP("src/interactive/payload.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/interactive/payload.test.ts] preserves URL-only presentation buttons for native link renderers and fallback text",
+TEST_CASE("v4.29 [src/interactive/payload.test.ts:111] preserves URL-only presentation buttons for native link renderers and fallback text",
           "[v4_29][parity_gap][interactive]") {
     PARITY_GAP("src/interactive/payload.test.ts:111",
                "upstream it() block #3",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] resolves stable defaults",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:10] resolves stable defaults",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] applies explicit stream overrides",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:19] applies explicit stream overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] accepts explicit deliveryMode=live override",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:45] accepts explicit deliveryMode=live override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] uses default tag visibility when no override is provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:60] uses default tag visibility when no override is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] respects tag visibility overrides",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:67] respects tag visibility overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] resolves chunking/coalescing from ACP stream controls",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:85] resolves chunking/coalescing from ACP stream controls",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:85",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts] applies live-mode streaming overrides for incremental delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/acp-stream-settings.test.ts:94] applies live-mode streaming overrides for incremental delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/acp-stream-settings.test.ts:94",
                "upstream it() block #6",

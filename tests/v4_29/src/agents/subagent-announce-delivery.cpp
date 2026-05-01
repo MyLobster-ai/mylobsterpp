@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] preserves stored thread ids when requester origin omits one for the same chat",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:219] preserves stored thread ids when requester origin omits one for the same chat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:219",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] preserves stored thread ids for group-prefixed requester targets",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:239] preserves stored thread ids for group-prefixed requester targets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:239",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] still strips stale thread ids when the stored route points at a different chat",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:259] still strips stale thread ids when the stored route points at a different chat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:259",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] resolves bound completion delivery from the requester session, not the child session",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:280] resolves bound completion delivery from the requester session, not the child session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:280",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps queued announces with no external route session-only",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:399] keeps queued announces with no external route session-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:399",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps queued announces with channel-only origins session-only",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:417] keeps queued announces with channel-only origins session-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:417",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps queued announces with internal origins session-only",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:435] keeps queued announces with internal origins session-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:435",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] preserves queued external route fields when channel and target are present",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:458] preserves queued external route fields when channel and target are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:458",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps completion announces session-internal while preserving route context for active requesters",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:483] keeps completion announces session-internal while preserving route context for active requesters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:483",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps direct external delivery for dormant completion requesters",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:508] keeps direct external delivery for dormant completion requesters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:508",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps announce-agent delivery primary for dormant completion events with child output",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:533] keeps announce-agent delivery primary for dormant completion events with child output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:533",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] uses a direct thread fallback when announce-agent delivery fails",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:586] uses a direct thread fallback when announce-agent delivery fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:586",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] uses direct fallback for Telegram DMs when announce-agent delivery fails",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:635] uses direct fallback for Telegram DMs when announce-agent delivery fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:635",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] uses direct fallback when an active Telegram requester cannot be woken",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:679] uses direct fallback when an active Telegram requester cannot be woken",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:679",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] uses a direct thread fallback when announce-agent returns no visible output",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:728] uses a direct thread fallback when announce-agent returns no visible output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:728",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] uses direct fallback for completion DMs without a thread id when announce-agent returns no visible output",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:773] uses direct fallback for completion DMs without a thread id when announce-agent returns no visible output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:773",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] uses a direct channel fallback when announce-agent returns no visible output",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:832] uses a direct channel fallback when announce-agent returns no visible output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:832",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] falls back to the external requester route when completion origin is internal",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:883] falls back to the external requester route when completion origin is internal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:883",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] keeps direct external delivery for non-completion announces",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:932] keeps direct external delivery for non-completion announces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:932",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] prefers task completion result text",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:959] prefers task completion result text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:959",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] falls back to task and status labels when result text is empty",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:977] falls back to task and status labels when result text is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:977",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts] falls back to the task label when result and status label are empty",
+TEST_CASE("v4.29 [src/agents/subagent-announce-delivery.test.ts:995] falls back to the task label when result and status label are empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce-delivery.test.ts:995",
                "upstream it() block #21",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] enforces operator and node permissions",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:174] enforces operator and node permissions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:174",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] writes sentinel and schedules restart",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:211] writes sentinel and schedules restart",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:211",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] uses configured update channel",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:248] uses configured update channel",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:248",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] enforces command allowlists across node clients",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:282] enforces command allowlists across node clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:282",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] keeps allowlisted declared commands available before node pairing exists",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:421] keeps allowlisted declared commands available before node pairing exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:421",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] records only allowlisted commands in pending node pairing requests",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:451] records only allowlisted commands in pending node pairing requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:451",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] rejects reconnect metadata spoof for paired node devices",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:490] rejects reconnect metadata spoof for paired node devices",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:490",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts] filters system.run for confusable iOS metadata at connect time",
+TEST_CASE("v4.29 [src/gateway/server.roles-allowlist-update.test.ts:536] filters system.run for confusable iOS metadata at connect time",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.roles-allowlist-update.test.ts:536",
                "upstream it() block #7",

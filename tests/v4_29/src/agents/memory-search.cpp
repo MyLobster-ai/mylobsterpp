@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] returns null when disabled",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:149] returns null when disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:149",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] returns null sync config when disabled",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:168] returns null sync config when disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:168",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] defaults provider to auto when unspecified",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:187] defaults provider to auto when unspecified",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:187",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] resolves custom provider ids through their configured api owner",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:202] resolves custom provider ids through their configured api owner",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:202",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] resolves sync config without consulting embedding providers",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:229] resolves sync config without consulting embedding providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:229",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] uses configured embeddingBatchTimeoutSeconds when set",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:268] uses configured embeddingBatchTimeoutSeconds when set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:268",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] merges defaults and overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:285] merges defaults and overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:285",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] merges extra memory paths from defaults and overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:330] merges extra memory paths from defaults and overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:330",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] normalizes multimodal settings",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:353] normalizes multimodal settings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:353",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] keeps an explicit empty multimodal modalities list empty",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:377] keeps an explicit empty multimodal modalities list empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:377",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] does not enforce multimodal provider validation when no modalities are active",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:397] does not enforce multimodal provider validation when no modalities are active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:397",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] rejects multimodal memory on unsupported providers",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:417] rejects multimodal memory on unsupported providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:417",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] accepts Gemini multimodal memory even when the runtime registry has not registered Gemini yet",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:434] accepts Gemini multimodal memory even when the runtime registry has not registered Gemini yet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:434",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] rejects multimodal memory when fallback is configured",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:457] rejects multimodal memory when fallback is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:457",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] includes batch defaults for openai without remote overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:475] includes batch defaults for openai without remote overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:475",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] keeps remote unset for local provider without overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:481] keeps remote unset for local provider without overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:481",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] includes remote defaults for gemini without overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:487] includes remote defaults for gemini without overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:487",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] includes remote defaults and model default for mistral without overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:493] includes remote defaults and model default for mistral without overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:493",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] includes remote defaults and model default for lmstudio without overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:500] includes remote defaults and model default for lmstudio without overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:500",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] includes remote defaults and model default for ollama without overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:507] includes remote defaults and model default for ollama without overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:507",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] merges memory search input_type overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:514] merges memory search input_type overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:514",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] defaults session delta thresholds",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:541] defaults session delta thresholds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:541",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] merges remote defaults with agent overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:559] merges remote defaults with agent overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:559",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] merges remote non-batch concurrency from defaults with agent overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:569] merges remote non-batch concurrency from defaults with agent overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:569",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] preserves SecretRef remote apiKey when merging defaults with agent overrides",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:581] preserves SecretRef remote apiKey when merging defaults with agent overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:581",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] gates session sources behind experimental flag",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:596] gates session sources behind experimental flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:596",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/memory-search.test.ts] allows session sources when experimental flag is enabled",
+TEST_CASE("v4.29 [src/agents/memory-search.test.ts:620] allows session sources when experimental flag is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/memory-search.test.ts:620",
                "upstream it() block #26",

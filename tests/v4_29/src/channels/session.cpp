@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/session.test.ts] does not pass ctx when updating a different session key",
+TEST_CASE("v4.29 [src/channels/session.test.ts:33] does not pass ctx when updating a different session key",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/session.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/session.test.ts] passes ctx when updating the same session key",
+TEST_CASE("v4.29 [src/channels/session.test.ts:58] passes ctx when updating the same session key",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/session.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/session.test.ts] normalizes mixed-case session keys before recording and route updates",
+TEST_CASE("v4.29 [src/channels/session.test.ts:83] normalizes mixed-case session keys before recording and route updates",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/session.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/session.test.ts] skips last-route updates when main DM owner pin mismatches sender",
+TEST_CASE("v4.29 [src/channels/session.test.ts:109] skips last-route updates when main DM owner pin mismatches sender",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/session.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/session.test.ts] forwards session creation policy to last-route updates",
+TEST_CASE("v4.29 [src/channels/session.test.ts:136] forwards session creation policy to last-route updates",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/session.test.ts:136",
                "upstream it() block #4",

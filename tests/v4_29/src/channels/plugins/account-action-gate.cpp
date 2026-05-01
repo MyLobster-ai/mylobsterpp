@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/account-action-gate.test.ts] prefers account action values over base values",
+TEST_CASE("v4.29 [src/channels/plugins/account-action-gate.test.ts:10] prefers account action values over base values",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-action-gate.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-action-gate.test.ts] falls back to base actions when account actions are unset",
+TEST_CASE("v4.29 [src/channels/plugins/account-action-gate.test.ts:18] falls back to base actions when account actions are unset",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-action-gate.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/account-action-gate.test.ts] uses default value when neither account nor base defines the key",
+TEST_CASE("v4.29 [src/channels/plugins/account-action-gate.test.ts:26] uses default value when neither account nor base defines the key",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/account-action-gate.test.ts:26",
                "upstream it() block #2",

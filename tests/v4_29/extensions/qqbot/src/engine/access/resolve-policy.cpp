@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] defaults to open when no allowFrom is configured",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:6] defaults to open when no allowFrom is configured",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] defaults to open when allowFrom only contains wildcard",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:13] defaults to open when allowFrom only contains wildcard",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] infers allowlist when allowFrom has a concrete entry",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:20] infers allowlist when allowFrom has a concrete entry",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] infers group=allowlist when only groupAllowFrom is restricted",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:27] infers group=allowlist when only groupAllowFrom is restricted",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:27",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] honours explicit dmPolicy over inference",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:38] honours explicit dmPolicy over inference",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] honours explicit groupPolicy over inference",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:44] honours explicit groupPolicy over inference",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:44",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts] allows dmPolicy=disabled to cut off DM entirely",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/resolve-policy.test.ts:53] allows dmPolicy=disabled to cut off DM entirely",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/resolve-policy.test.ts:53",
                "upstream it() block #6",

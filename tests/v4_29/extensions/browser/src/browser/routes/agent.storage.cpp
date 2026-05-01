@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts] accepts local and session",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts:10] accepts local and session",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.storage.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts] rejects unsupported values",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts:15] rejects unsupported values",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.storage.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts] returns parsed kind and trimmed target id",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts:22] returns parsed kind and trimmed target id",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.storage.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts] returns null kind and undefined target id for invalid values",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts:33] returns null kind and undefined target id for invalid values",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.storage.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts] returns parsed request for supported kinds",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts:46] returns parsed request for supported kinds",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.storage.test.ts:46",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts] returns null for unsupported kind",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.storage.test.ts:57] returns null for unsupported kind",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.storage.test.ts:57",
                "upstream it() block #5",

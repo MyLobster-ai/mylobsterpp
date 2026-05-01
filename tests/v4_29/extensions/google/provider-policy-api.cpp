@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/provider-policy-api.test.ts] normalizes Google provider config without loading the full provider plugin",
+TEST_CASE("v4.29 [extensions/google/provider-policy-api.test.ts:5] normalizes Google provider config without loading the full provider plugin",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/provider-policy-api.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/provider-policy-api.test.ts] preserves explicit OpenAI-compatible Google endpoints during normalization",
+TEST_CASE("v4.29 [extensions/google/provider-policy-api.test.ts:32] preserves explicit OpenAI-compatible Google endpoints during normalization",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/provider-policy-api.test.ts:32",
                "upstream it() block #1",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts] matches wildcard and array tokens with stable capture ordering",
+TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts:10] matches wildcard and array tokens with stable capture ordering",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry-pattern.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts] materializes sibling ref paths from wildcard and array captures",
+TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts:28] materializes sibling ref paths from wildcard and array captures",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry-pattern.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts] matches two wildcard captures in five-segment header paths",
+TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts:42] matches two wildcard captures in five-segment header paths",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry-pattern.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts] expands wildcard and array patterns over config objects",
+TEST_CASE("v4.29 [src/secrets/target-registry-pattern.test.ts:53] expands wildcard and array patterns over config objects",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry-pattern.test.ts:53",
                "upstream it() block #3",

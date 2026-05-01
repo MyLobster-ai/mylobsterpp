@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts] suppresses empty payloads",
+TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts:8] suppresses empty payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/heartbeat-policy.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts] suppresses when any payload is a heartbeat ack and no media is present",
+TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts:12] suppresses when any payload is a heartbeat ack and no media is present",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/heartbeat-policy.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts] does not suppress when media is present",
+TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts:21] does not suppress when media is present",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/heartbeat-policy.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts] enqueues only when delivery was requested but did not run",
+TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts:34] enqueues only when delivery was requested but did not run",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/heartbeat-policy.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts] does not enqueue after attempted outbound delivery",
+TEST_CASE("v4.29 [src/cron/heartbeat-policy.test.ts:47] does not enqueue after attempted outbound delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/heartbeat-policy.test.ts:47",
                "upstream it() block #4",

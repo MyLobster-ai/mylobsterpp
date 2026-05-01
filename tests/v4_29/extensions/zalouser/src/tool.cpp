@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] returns error when send action is missing required fields",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:49] returns error when send action is missing required fields",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] sends text message for send action",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:56] sends text message for send action",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] defaults send routing from ambient deliveryContext target",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:72] defaults send routing from ambient deliveryContext target",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] keeps explicit threadId over ambient delivery defaults",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:93] keeps explicit threadId over ambient delivery defaults",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] does not route send actions from foreign ambient thread defaults",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:115] does not route send actions from foreign ambient thread defaults",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:115",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] returns tool error when send action fails",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:135] returns tool error when send action fails",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:135",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] routes image and link actions to correct helpers",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:145] routes image and link actions to correct helpers",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] returns friends/groups lists",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:176] returns friends/groups lists",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:176",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts] reports me + status actions",
+TEST_CASE("v4.29 [extensions/zalouser/src/tool.test.ts:197] reports me + status actions",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/tool.test.ts:197",
                "upstream it() block #8",

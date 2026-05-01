@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/identity.test.ts] prefers account-level overrides",
+TEST_CASE("v4.29 [src/agents/identity.test.ts:6] prefers account-level overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.test.ts] falls back to channel-level overrides",
+TEST_CASE("v4.29 [src/agents/identity.test.ts:25] falls back to channel-level overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.test.ts] uses the global ackReaction when channel overrides are missing",
+TEST_CASE("v4.29 [src/agents/identity.test.ts:44] uses the global ackReaction when channel overrides are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.test.ts] falls back to the agent identity emoji when global config is unset",
+TEST_CASE("v4.29 [src/agents/identity.test.ts:53] falls back to the agent identity emoji when global config is unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.test.ts] returns the default emoji when no config is present",
+TEST_CASE("v4.29 [src/agents/identity.test.ts:61] returns the default emoji when no config is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity.test.ts] allows empty strings to disable reactions",
+TEST_CASE("v4.29 [src/agents/identity.test.ts:67] allows empty strings to disable reactions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity.test.ts:67",
                "upstream it() block #5",

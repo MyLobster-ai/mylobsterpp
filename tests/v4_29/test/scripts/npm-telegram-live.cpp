@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] supports npm-specific Convex credential aliases",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:15] supports npm-specific Convex credential aliases",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] defaults CI runs to Convex when broker credentials are present",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:24] defaults CI runs to Convex when broker credentials are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] installs the package candidate before forwarding runtime secrets",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:35] installs the package candidate before forwarding runtime secrets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] can install a resolved package tarball instead of a registry spec",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:52] can install a resolved package tarball instead of a registry spec",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:52",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] keeps private QA harness imports local while using the installed package dist",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:66] keeps private QA harness imports local while using the installed package dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] exposes installed package dependencies to the mounted QA harness",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:89] exposes installed package dependencies to the mounted QA harness",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:89",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts] lets npm-specific credential aliases override shared QA env",
+TEST_CASE("v4.29 [test/scripts/npm-telegram-live.test.ts:103] lets npm-specific credential aliases override shared QA env",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-telegram-live.test.ts:103",
                "upstream it() block #6",

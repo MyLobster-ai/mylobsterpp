@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts] prefers the source-aware loader over bun when both succeed",
+TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts:103] prefers the source-aware loader over bun when both succeed",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/load-channel-config-surface.test.ts:103",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts] does not require bun when the source-aware loader succeeds",
+TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts:137] does not require bun when the source-aware loader succeeds",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/load-channel-config-surface.test.ts:137",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts] falls back to bun when the source-aware loader fails",
+TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts:151] falls back to bun when the source-aware loader fails",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/load-channel-config-surface.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts] retries from an isolated package copy when extension-local node_modules is broken",
+TEST_CASE("v4.29 [src/config/load-channel-config-surface.test.ts:169] retries from an isolated package copy when extension-local node_modules is broken",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/load-channel-config-surface.test.ts:169",
                "upstream it() block #3",

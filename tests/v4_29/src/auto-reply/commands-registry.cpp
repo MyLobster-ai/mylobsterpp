@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] builds command text with args",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:95] builds command text with args",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] exposes native specs",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:102] exposes native specs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] filters commands based on config flags",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:112] filters commands based on config flags",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] does not enable restricted commands from inherited flags",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:135] does not enable restricted commands from inherited flags",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] appends skill commands when provided",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:151] appends skill commands when provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] applies discord native command overrides",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:177] applies discord native command overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:177",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] applies slack native command overrides",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:188] applies slack native command overrides",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:188",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] can resolve default native command names without loading bundled channel fallbacks",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:209] can resolve default native command names without loading bundled channel fallbacks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:209",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] keeps discord native command specs within slash-command limits",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:217] keeps discord native command specs within slash-command limits",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:217",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] keeps ACP native action choices aligned with implemented handlers",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:271] keeps ACP native action choices aligned with implemented handlers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:271",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] registers fast mode as a first-class options command",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:295] registers fast mode as a first-class options command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:295",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] detects known text commands",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:306] detects known text commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:306",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] respects text command gating",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:331] respects text command gating",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:331",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] normalizes telegram-style command mentions for the current bot",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:368] normalizes telegram-style command mentions for the current bot",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:368",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] keeps telegram-style command mentions for other bots",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:382] keeps telegram-style command mentions for other bots",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:382",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] keeps unregistered dock underscore aliases unchanged",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:388] keeps unregistered dock underscore aliases unchanged",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:388",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] parses positional args and captureRemaining",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:416] parses positional args and captureRemaining",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:416",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] serializes args via raw first, then values",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:434] serializes args via raw first, then values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:434",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] resolves auto arg menus when missing a choice arg",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:451] resolves auto arg menus when missing a choice arg",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:451",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] keeps verbose full available while preserving no-arg status dispatch",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:464] keeps verbose full available while preserving no-arg status dispatch",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:464",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] does not show menus when arg already provided",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:473] does not show menus when arg already provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:473",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] resolves function-based choices with a default provider/model context",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:484] resolves function-based choices with a default provider/model context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:484",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] uses configured model catalog reasoning for /think arg menus",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:542] uses configured model catalog reasoning for /think arg menus",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:542",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] uses configured model compat for /think arg menus",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:579] uses configured model compat for /think arg menus",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:579",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts] does not show menus when args were provided as raw text only",
+TEST_CASE("v4.29 [src/auto-reply/commands-registry.test.ts:613] does not show menus when args were provided as raw text only",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/commands-registry.test.ts:613",
                "upstream it() block #24",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] prefers index.js over legacy entry.js when both exist in the same dist directory",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:48] prefers index.js over legacy entry.js when both exist in the same dist directory",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] keeps entry.js when index.js is missing",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:66] keeps entry.js when index.js is missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] uses realpath-resolved dist entry when running via npx shim",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:90] uses realpath-resolved dist entry when running via npx shim",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] prefers symlinked path over realpath for stable service config",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:113] prefers symlinked path over realpath for stable service config",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] falls back to node_modules package dist when .bin path is not resolved",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:135] falls back to node_modules package dist when .bin path is not resolved",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:135",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] uses src/entry.ts for bun dev mode",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:158] uses src/entry.ts for bun dev mode",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] uses an executable wrapper when provided",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:182] uses an executable wrapper when provided",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/program-args.test.ts] rejects a non-executable wrapper file",
+TEST_CASE("v4.29 [src/daemon/program-args.test.ts:196] rejects a non-executable wrapper file",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/program-args.test.ts:196",
                "upstream it() block #7",

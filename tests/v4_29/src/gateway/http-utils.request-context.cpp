@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] uses normalized x-openclaw-message-channel when enabled",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:19] uses normalized x-openclaw-message-channel when enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] uses default messageChannel when header support is disabled",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:31] uses default messageChannel when header support is disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] includes session prefix and user in generated session key",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:43] includes session prefix and user in generated session key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] drops self-asserted scopes for bearer-authenticated requests",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:57] drops self-asserted scopes for bearer-authenticated requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] keeps declared scopes for non-bearer HTTP requests",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:69] keeps declared scopes for non-bearer HTTP requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:69",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] keeps declared scopes when auth mode is not shared-secret even if auth headers are forwarded",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:80] keeps declared scopes when auth mode is not shared-secret even if auth headers are forwarded",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:80",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] drops declared scopes when request auth resolved to a shared-secret method",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:92] drops declared scopes when request auth resolved to a shared-secret method",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] requires operator.admin on a trusted HTTP scope-bearing request",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:106] requires operator.admin on a trusted HTTP scope-bearing request",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:106",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] returns false for bearer requests even with operator.admin in headers",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:115] returns false for bearer requests even with operator.admin in headers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:115",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] restores default operator scopes for shared-secret bearer auth",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:129] restores default operator scopes for shared-secret bearer auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:129",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] keeps declared scopes for trusted HTTP identity-bearing requests",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:148] keeps declared scopes for trusted HTTP identity-bearing requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:148",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] treats shared-secret bearer auth as owner on the compat surface",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:161] treats shared-secret bearer auth as owner on the compat surface",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:161",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts] still requires operator.admin for trusted scope-bearing requests",
+TEST_CASE("v4.29 [src/gateway/http-utils.request-context.test.ts:173] still requires operator.admin for trusted scope-bearing requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-utils.request-context.test.ts:173",
                "upstream it() block #12",

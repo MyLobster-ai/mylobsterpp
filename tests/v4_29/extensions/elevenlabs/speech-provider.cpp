@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/elevenlabs/speech-provider.test.ts] exposes the current ElevenLabs TTS model catalog",
+TEST_CASE("v4.29 [extensions/elevenlabs/speech-provider.test.ts:5] exposes the current ElevenLabs TTS model catalog",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/speech-provider.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/speech-provider.test.ts] validates ElevenLabs voice ID length and character rules",
+TEST_CASE("v4.29 [extensions/elevenlabs/speech-provider.test.ts:13] validates ElevenLabs voice ID length and character rules",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/speech-provider.test.ts:13",
                "upstream it() block #1",

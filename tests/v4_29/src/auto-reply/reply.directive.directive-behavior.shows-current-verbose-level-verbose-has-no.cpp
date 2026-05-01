@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] reports current directive defaults when no arguments are provided",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:73] reports current directive defaults when no arguments are provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] treats /fast status like the no-argument status query",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:138] treats /fast status like the no-argument status query",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:138",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] enforces per-agent elevated restrictions and status visibility",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:160] enforces per-agent elevated restrictions and status visibility",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:160",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] applies per-agent allowlist requirements before allowing elevated",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:176] applies per-agent allowlist requirements before allowing elevated",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:176",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] handles runtime warning, invalid level, and multi-directive elevated inputs",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:198] handles runtime warning, invalid level, and multi-directive elevated inputs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:198",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] persists queue overrides and reset behavior",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:226] persists queue overrides and reset behavior",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] shows current trace level and persists trace directives",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:262] shows current trace level and persists trace directives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:262",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] blocks /trace for non-owners without delegated gateway scope",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:287] blocks /trace for non-owners without delegated gateway scope",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:287",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts] allows /trace for delegated gateway clients with operator.admin",
+TEST_CASE("v4.29 [src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:296] allows /trace for delegated gateway clients with operator.admin",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply.directive.directive-behavior.shows-current-verbose-level-verbose-has-no.test.ts:296",
                "upstream it() block #8",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.skill-dedupe.test.ts] defaults to enabled when unset",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.skill-dedupe.test.ts:10] defaults to enabled when unset",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.skill-dedupe.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.skill-dedupe.test.ts] uses global session default when channel value is unset",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.skill-dedupe.test.ts:19] uses global session default when channel value is unset",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.skill-dedupe.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.skill-dedupe.test.ts] uses channel value to override global session default",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/provider.skill-dedupe.test.ts:28] uses channel value to override global session default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/provider.skill-dedupe.test.ts:28",
                "upstream it() block #2",

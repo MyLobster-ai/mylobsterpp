@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts] marks inter-session prompt text as non-user-authored",
+TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts:5] marks inter-session prompt text as non-user-authored",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/input-provenance.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts] moves an existing inter-session marker back to the top after prompt decoration",
+TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts:21] moves an existing inter-session marker back to the top after prompt decoration",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/input-provenance.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts] rewraps a foreign literal marker that is missing the generated envelope",
+TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts:38] rewraps a foreign literal marker that is missing the generated envelope",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/input-provenance.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts] leaves external-user text unchanged",
+TEST_CASE("v4.29 [src/sessions/input-provenance.test.ts:56] leaves external-user text unchanged",
           "[v4_29][parity_gap][sessions]") {
     PARITY_GAP("src/sessions/input-provenance.test.ts:56",
                "upstream it() block #3",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime/gateway-request-scope.test.ts] reuses AsyncLocalStorage across reloaded module instances",
+TEST_CASE("v4.29 [src/plugins/runtime/gateway-request-scope.test.ts:52] reuses AsyncLocalStorage across reloaded module instances",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/gateway-request-scope.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/gateway-request-scope.test.ts] attaches plugin id to the active scope",
+TEST_CASE("v4.29 [src/plugins/runtime/gateway-request-scope.test.ts:62] attaches plugin id to the active scope",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/gateway-request-scope.test.ts:62",
                "upstream it() block #1",

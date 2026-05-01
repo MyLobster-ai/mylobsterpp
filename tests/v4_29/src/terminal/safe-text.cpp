@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/terminal/safe-text.test.ts] removes C1 control characters",
+TEST_CASE("v4.29 [src/terminal/safe-text.test.ts:5] removes C1 control characters",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/safe-text.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/safe-text.test.ts] strips cursor and erase ANSI sequences",
+TEST_CASE("v4.29 [src/terminal/safe-text.test.ts:9] strips cursor and erase ANSI sequences",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/safe-text.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/safe-text.test.ts] escapes line controls while preserving printable text",
+TEST_CASE("v4.29 [src/terminal/safe-text.test.ts:13] escapes line controls while preserving printable text",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/safe-text.test.ts:13",
                "upstream it() block #2",

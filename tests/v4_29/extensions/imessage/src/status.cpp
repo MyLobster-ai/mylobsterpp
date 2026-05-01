@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] refuses to spawn imsg rpc in test environments",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:36] refuses to spawn imsg rpc in test environments",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] does not inherit configured state from a sibling account",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:46] does not inherit configured state from a sibling account",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] uses configured defaultAccount for omitted setup status cliPath",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:69] uses configured defaultAccount for omitted setup status cliPath",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] does not inherit configured state from a sibling when defaultAccount is named",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:90] does not inherit configured state from a sibling when defaultAccount is named",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] setup status lines use the selected account cliPath",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:112] setup status lines use the selected account cliPath",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] marks unknown rpc subcommand as fatal",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:148] marks unknown rpc subcommand as fatal",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts] status probe uses account-scoped cliPath and dbPath",
+TEST_CASE("v4.29 [extensions/imessage/src/status.test.ts:162] status probe uses account-scoped cliPath and dbPath",
           "[v4_29][parity_gap][imessage]") {
     PARITY_GAP("extensions/imessage/src/status.test.ts:162",
                "upstream it() block #6",

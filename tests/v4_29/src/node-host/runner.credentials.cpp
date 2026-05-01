@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] does not inherit gateway.remote token in local mode",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:39] does not inherit gateway.remote token in local mode",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] ignores unresolved gateway.remote token refs in local mode",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:53] ignores unresolved gateway.remote token refs in local mode",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] resolves remote token SecretRef values",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:75] resolves remote token SecretRef values",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] prefers OPENCLAW_GATEWAY_TOKEN over configured refs",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:91] prefers OPENCLAW_GATEWAY_TOKEN over configured refs",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] throws when a configured remote token ref cannot resolve",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:107] throws when a configured remote token ref cannot resolve",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] does not resolve remote password refs when token auth is already available",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:124] does not resolve remote password refs when token auth is already available",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:124",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] exits for terminal credential pauses so service supervisors can restart",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:157] exits for terminal credential pauses so service supervisors can restart",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:157",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts] keeps pairing pauses visible without exiting foreground approval flow",
+TEST_CASE("v4.29 [src/node-host/runner.credentials.test.ts:180] keeps pairing pauses visible without exiting foreground approval flow",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/runner.credentials.test.ts:180",
                "upstream it() block #7",

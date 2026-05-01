@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts] records feedback for an allowlisted DM sender",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts:169] records feedback for an allowlisted DM sender",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.feedback-authz.test.ts:169",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts] keeps DM feedback allowed when team route allowlists exist",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts:205] keeps DM feedback allowed when team route allowlists exist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.feedback-authz.test.ts:205",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts] does not record feedback for a DM sender outside allowFrom",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts:246] does not record feedback for a DM sender outside allowFrom",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.feedback-authz.test.ts:246",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts] does not trigger reflection for a group sender outside groupAllowFrom",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler.feedback-authz.test.ts:272] does not trigger reflection for a group sender outside groupAllowFrom",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler.feedback-authz.test.ts:272",
                "upstream it() block #3",

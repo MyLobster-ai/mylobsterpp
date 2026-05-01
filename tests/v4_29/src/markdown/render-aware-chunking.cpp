@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/markdown/render-aware-chunking.test.ts] prefers word boundaries when escaping shrinks the render budget",
+TEST_CASE("v4.29 [src/markdown/render-aware-chunking.test.ts:23] prefers word boundaries when escaping shrinks the render budget",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/render-aware-chunking.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/render-aware-chunking.test.ts] preserves formatting when a rendered chunk is re-split",
+TEST_CASE("v4.29 [src/markdown/render-aware-chunking.test.ts:37] preserves formatting when a rendered chunk is re-split",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/render-aware-chunking.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/markdown/render-aware-chunking.test.ts] checks exact candidates instead of assuming rendered length is monotonic",
+TEST_CASE("v4.29 [src/markdown/render-aware-chunking.test.ts:53] checks exact candidates instead of assuming rendered length is monotonic",
           "[v4_29][parity_gap][markdown]") {
     PARITY_GAP("src/markdown/render-aware-chunking.test.ts:53",
                "upstream it() block #2",

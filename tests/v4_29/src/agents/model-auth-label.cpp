@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts] does not include token value in label for token profiles",
+TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts:49] does not include token value in label for token profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth-label.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts] does not include api-key value in label for api-key profiles",
+TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts:75] does not include api-key value in label for api-key profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth-label.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts] shows oauth type with profile label",
+TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts:101] shows oauth type with profile label",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth-label.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts] shows codex cli auth for codex provider without auth profiles",
+TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts:123] shows codex cli auth for codex provider without auth profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth-label.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts] can skip external auth profile overlays for status labels",
+TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts:145] can skip external auth profile overlays for status labels",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth-label.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts] resolves env labels with config and workspace scope",
+TEST_CASE("v4.29 [src/agents/model-auth-label.test.ts:169] resolves env labels with config and workspace scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-auth-label.test.ts:169",
                "upstream it() block #5",

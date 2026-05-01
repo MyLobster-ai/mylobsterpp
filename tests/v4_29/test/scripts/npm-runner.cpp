@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] anchors npm staging to the active node toolchain when npm-cli.js exists",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:6] anchors npm staging to the active node toolchain when npm-cli.js exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] anchors Windows npm staging to the adjacent npm-cli.js without a shell",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:27] anchors Windows npm staging to the adjacent npm-cli.js without a shell",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] uses an adjacent npm.exe on Windows without a shell",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:48] uses an adjacent npm.exe on Windows without a shell",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] wraps an adjacent npm.cmd via cmd.exe without enabling shell mode",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:67] wraps an adjacent npm.cmd via cmd.exe without enabling shell mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] escapes caret semver specs when invoking npm.cmd through cmd.exe",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:88] escapes caret semver specs when invoking npm.cmd through cmd.exe",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] prefixes PATH with the active node dir when falling back to bare npm",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:109] prefixes PATH with the active node dir when falling back to bare npm",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:109",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts] fails closed on Windows when no toolchain-local npm CLI exists",
+TEST_CASE("v4.29 [test/scripts/npm-runner.test.ts:129] fails closed on Windows when no toolchain-local npm CLI exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/npm-runner.test.ts:129",
                "upstream it() block #6",

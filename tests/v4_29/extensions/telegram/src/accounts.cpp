@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] falls back to the first configured account when accountId is omitted",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:53] falls back to the first configured account when accountId is omitted",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] uses TELEGRAM_BOT_TOKEN when default account config is missing",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:67] uses TELEGRAM_BOT_TOKEN when default account config is missing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] prefers default config token over TELEGRAM_BOT_TOKEN",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:81] prefers default config token over TELEGRAM_BOT_TOKEN",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does not fall back when accountId is explicitly provided",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:95] does not fall back when accountId is explicitly provided",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] formats debug logs with inspect-style output when debug env is enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:110] formats debug logs with inspect-style output when debug env is enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:110",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] warns when accounts.default is missing in multi-account setup (#32137)",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:138] warns when accounts.default is missing in multi-account setup (#32137)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:138",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does not warn when accounts.default exists",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:152] does not warn when accounts.default exists",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:152",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does not warn when defaultAccount is explicitly set",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:165] does not warn when defaultAccount is explicitly set",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:165",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does not warn when only one non-default account is configured",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:179] does not warn when only one non-default account is configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:179",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] warns only once per process lifetime",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:192] warns only once per process lifetime",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:192",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] prefers channels.telegram.defaultAccount when it matches a configured account",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:211] prefers channels.telegram.defaultAccount when it matches a configured account",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:211",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] normalizes channels.telegram.defaultAccount before lookup",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:224] normalizes channels.telegram.defaultAccount before lookup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:224",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] falls back when channels.telegram.defaultAccount is not configured",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:237] falls back when channels.telegram.defaultAccount is not configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:237",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] prefers accounts.default allowlists over top-level for default account",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:252] prefers accounts.default allowlists over top-level for default account",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:252",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] falls back to top-level allowlists for named account without overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:276] falls back to top-level allowlists for named account without overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:276",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does not inherit default account allowlists for named account when top-level is absent",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:296] does not inherit default account allowlists for named account when top-level is absent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:296",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] inherits top-level policy fallback for named accounts",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:321] inherits top-level policy fallback for named accounts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:321",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] keeps top-level policy fallback when auth lives in accounts.default",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:357] keeps top-level policy fallback when auth lives in accounts.default",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:357",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] drops account wildcard DM access when top-level allowFrom is restrictive",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:382] drops account wildcard DM access when top-level allowFrom is restrictive",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:382",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] keeps explicit account allowlist entries while dropping a conflicting wildcard",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:408] keeps explicit account allowlist entries while dropping a conflicting wildcard",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:408",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] requires both sendMessage and poll actions",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:432] requires both sendMessage and poll actions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:432",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] returns enabled only when both actions are enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:441] returns enabled only when both actions are enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:441",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] uses configured defaultAccount when telegram action gate accountId is omitted",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:450] uses configured defaultAccount when telegram action gate accountId is omitted",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:450",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] inherits channel-level groups in single-account setup",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:501] inherits channel-level groups in single-account setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:501",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does NOT inherit channel-level groups to secondary account in multi-account setup",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:519] does NOT inherit channel-level groups to secondary account in multi-account setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:519",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] does NOT inherit channel-level groups to default account in multi-account setup",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:528] does NOT inherit channel-level groups to default account in multi-account setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:528",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] uses account-level groups even in multi-account setup",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:537] uses account-level groups even in multi-account setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:537",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] account-level groups takes priority over channel-level in single-account setup",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:546] account-level groups takes priority over channel-level in single-account setup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:546",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] uses per-account network overrides for Telegram media downloads",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:557] uses per-account network overrides for Telegram media downloads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:557",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts] falls back to top-level Telegram media settings when account override is absent",
+TEST_CASE("v4.29 [extensions/telegram/src/accounts.test.ts:593] falls back to top-level Telegram media settings when account override is absent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/accounts.test.ts:593",
                "upstream it() block #29",

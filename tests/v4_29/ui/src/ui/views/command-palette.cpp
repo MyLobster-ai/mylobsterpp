@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts] builds slash items from the live runtime command list",
+TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts:79] builds slash items from the live runtime command list",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/command-palette.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts] matches localized base item labels and descriptions",
+TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts:124] matches localized base item labels and descriptions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/command-palette.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts] renders a labelled modal combobox with listbox options",
+TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts:140] renders a labelled modal combobox with listbox options",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/command-palette.test.ts:140",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts] traps Tab on the combobox and restores focus on Escape",
+TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts:171] traps Tab on the combobox and restores focus on Escape",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/command-palette.test.ts:171",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts] does not toggle twice when Escape is followed by dialog cancel",
+TEST_CASE("v4.29 [ui/src/ui/views/command-palette.test.ts:206] does not toggle twice when Escape is followed by dialog cancel",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/command-palette.test.ts:206",
                "upstream it() block #4",

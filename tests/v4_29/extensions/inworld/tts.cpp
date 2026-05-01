@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] maps Inworld voice metadata into speech voice options",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:53] maps Inworld voice metadata into speech voice options",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] throws on API errors with response body",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:106] throws on API errors with response body",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] filters out voices with empty voiceId",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:114] filters out voices with empty voiceId",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] returns empty array when no voices present",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:132] returns empty array when no voices present",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] passes language filter as query parameter",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:139] passes language filter as query parameter",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] releases the guarded dispatcher after success",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:147] releases the guarded dispatcher after success",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:147",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] concatenates base64 audio chunks from streaming response",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:164] concatenates base64 audio chunks from streaming response",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] throws on HTTP errors with response body",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:184] throws on HTTP errors with response body",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:184",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] throws on in-stream errors",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:192] throws on in-stream errors",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:192",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] throws on empty audio response",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:203] throws on empty audio response",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:203",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] throws descriptive error on non-JSON line in stream",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:212] throws descriptive error on non-JSON line in stream",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:212",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] sends correct request body with defaults",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:220] sends correct request body with defaults",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:220",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] includes temperature and sampleRateHertz when provided",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:244] includes temperature and sampleRateHertz when provided",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:244",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] uses custom base URL",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:268] uses custom base URL",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:268",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] skips empty lines in streaming response",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:286] skips empty lines in streaming response",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:286",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] releases the guarded dispatcher after success",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:295] releases the guarded dispatcher after success",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:295",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/inworld/tts.test.ts] releases the guarded dispatcher after failure",
+TEST_CASE("v4.29 [extensions/inworld/tts.test.ts:306] releases the guarded dispatcher after failure",
           "[v4_29][parity_gap][inworld]") {
     PARITY_GAP("extensions/inworld/tts.test.ts:306",
                "upstream it() block #16",

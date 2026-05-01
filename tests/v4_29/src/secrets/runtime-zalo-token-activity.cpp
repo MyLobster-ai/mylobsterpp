@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts] treats top-level Zalo botToken refs as active even when tokenFile is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts:12] treats top-level Zalo botToken refs as active even when tokenFile is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-zalo-token-activity.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts] treats account-level Zalo botToken refs as active even when tokenFile is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts:35] treats account-level Zalo botToken refs as active even when tokenFile is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-zalo-token-activity.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts] treats top-level Zalo botToken refs as active for non-default accounts without overrides",
+TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts:65] treats top-level Zalo botToken refs as active for non-default accounts without overrides",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-zalo-token-activity.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts] treats channels.zalo.accounts.default.botToken refs as active",
+TEST_CASE("v4.29 [src/secrets/runtime-zalo-token-activity.test.ts:92] treats channels.zalo.accounts.default.botToken refs as active",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-zalo-token-activity.test.ts:92",
                "upstream it() block #3",

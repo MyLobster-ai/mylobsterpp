@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] sanitizes session ids in default export directory names",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:188] sanitizes session ids in default export directory names",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:188",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] refuses to write into an existing output directory",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:205] refuses to write into an existing output directory",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:205",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] does not synthesize prompt files from export-time fallbacks",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:222] does not synthesize prompt files from export-time fallbacks",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:222",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] preserves numeric transcript timestamps",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:243] preserves numeric transcript timestamps",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:243",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] rejects oversized runtime trajectory files",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:268] rejects oversized runtime trajectory files",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:268",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] rejects oversized session transcript files before export",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:288] rejects oversized session transcript files before export",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:288",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] skips malformed-but-valid runtime json rows before sorting",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:305] skips malformed-but-valid runtime json rows before sorting",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:305",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] uses the recorded runtime pointer before current environment overrides",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:338] uses the recorded runtime pointer before current environment overrides",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:338",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] ignores runtime pointers that do not look like this session",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:409] ignores runtime pointers that do not look like this session",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:409",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] does not fall back to runtime pointer targets that are not regular files",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:452] does not fall back to runtime pointer targets that are not regular files",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:452",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] counts expanded transcript events when enforcing the total event limit",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:498] counts expanded transcript events when enforcing the total event limit",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:498",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] skips runtime events for other sessions",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:515] skips runtime events for other sessions",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:515",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] redacts non-workspace paths in strings that also contain workspace paths",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:548] redacts non-workspace paths in strings that also contain workspace paths",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:548",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/export.test.ts] exports merged runtime and transcript events plus convenience files",
+TEST_CASE("v4.29 [src/trajectory/export.test.ts:602] exports merged runtime and transcript events plus convenience files",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/export.test.ts:602",
                "upstream it() block #13",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] returns null when no music-generation config or auth-backed provider is available",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:132] returns null when no music-generation config or auth-backed provider is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] registers when music-generation config is present",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:137] registers when music-generation config is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:137",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] generates tracks, saves them, and emits MEDIA paths without a session-backed detach",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:151] generates tracks, saves them, and emits MEDIA paths without a session-backed detach",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] starts background generation and wakes the session with MEDIA lines",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:233] starts background generation and wakes the session with MEDIA lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:233",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] lists provider capabilities",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:332] lists provider capabilities",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:332",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] warns when optional provider overrides are ignored",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:373] warns when optional provider overrides are ignored",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:373",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] surfaces normalized durations from runtime metadata",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:457] surfaces normalized durations from runtime metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:457",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts] passes web_fetch SSRF policy when loading reference images",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-tool.test.ts:520] passes web_fetch SSRF policy when loading reference images",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-tool.test.ts:520",
                "upstream it() block #7",

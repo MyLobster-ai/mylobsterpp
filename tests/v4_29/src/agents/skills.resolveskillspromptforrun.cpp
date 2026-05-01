@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts] prefers snapshot prompt when available",
+TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts:7] prefers snapshot prompt when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.resolveskillspromptforrun.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts] builds prompt from entries when snapshot is missing",
+TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts:14] builds prompt from entries when snapshot is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.resolveskillspromptforrun.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts] keeps legacy entries with disableModelInvocation hidden when exposure metadata is absent",
+TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts:33] keeps legacy entries with disableModelInvocation hidden when exposure metadata is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.resolveskillspromptforrun.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts] inherits agents.defaults.skills when rebuilding prompt for an agent",
+TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts:54] inherits agents.defaults.skills when rebuilding prompt for an agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.resolveskillspromptforrun.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts] uses agents.list[].skills as a full replacement for defaults",
+TEST_CASE("v4.29 [src/agents/skills.resolveskillspromptforrun.test.ts:94] uses agents.list[].skills as a full replacement for defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.resolveskillspromptforrun.test.ts:94",
                "upstream it() block #4",

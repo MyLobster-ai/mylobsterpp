@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/reply-policy.test.ts] consumes implicit single-use replies once",
+TEST_CASE("v4.29 [src/infra/outbound/reply-policy.test.ts:5] consumes implicit single-use replies once",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/reply-policy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/reply-policy.test.ts] keeps explicit replies reusable even in single-use modes",
+TEST_CASE("v4.29 [src/infra/outbound/reply-policy.test.ts:15] keeps explicit replies reusable even in single-use modes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/reply-policy.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/reply-policy.test.ts] keeps all-mode replies reusable",
+TEST_CASE("v4.29 [src/infra/outbound/reply-policy.test.ts:25] keeps all-mode replies reusable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/reply-policy.test.ts:25",
                "upstream it() block #2",

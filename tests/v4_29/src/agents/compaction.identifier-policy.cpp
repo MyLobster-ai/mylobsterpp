@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts] defaults to strict identifier preservation",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts:5] defaults to strict identifier preservation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-policy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts] can disable identifier preservation with off policy",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts:13] can disable identifier preservation with off policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-policy.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts] supports custom identifier instructions",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts:20] supports custom identifier instructions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-policy.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts] falls back to strict text when custom policy is missing instructions",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts:30] falls back to strict text when custom policy is missing instructions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-policy.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts] keeps custom focus text when identifier policy is off",
+TEST_CASE("v4.29 [src/agents/compaction.identifier-policy.test.ts:38] keeps custom focus text when identifier policy is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/compaction.identifier-policy.test.ts:38",
                "upstream it() block #4",

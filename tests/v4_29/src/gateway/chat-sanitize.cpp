@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] removes message_id hint lines from user messages",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:5] removes message_id hint lines from user messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] removes message_id hint lines from text content arrays",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:14] removes message_id hint lines from text content arrays",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] does not strip inline message_id text that is part of a line",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:25] does not strip inline message_id text that is part of a line",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] does not strip assistant messages",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:34] does not strip assistant messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] defensively strips inbound metadata blocks from non-user messages",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:43] defensively strips inbound metadata blocks from non-user messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] removes inbound un-bracketed conversation info blocks from user messages",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:53] removes inbound un-bracketed conversation info blocks from user messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:53",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] removes all inbound metadata blocks before user text",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:63] removes all inbound metadata blocks before user text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:63",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] strips metadata-like blocks even when not a prefix",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:74] strips metadata-like blocks even when not a prefix",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:74",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts] strips trailing untrusted context metadata suffix blocks",
+TEST_CASE("v4.29 [src/gateway/chat-sanitize.test.ts:84] strips trailing untrusted context metadata suffix blocks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/chat-sanitize.test.ts:84",
                "upstream it() block #8",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] defaults to partial when telegram streaming is unset",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:7] defaults to partial when telegram streaming is unset",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] prefers explicit streaming boolean",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:12] prefers explicit streaming boolean",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] maps legacy streamMode values",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:17] maps legacy streamMode values",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] maps unified progress mode to partial on Telegram",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:23] maps unified progress mode to partial on Telegram",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:23",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] uses smaller defaults than block streaming",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:29] uses smaller defaults than block streaming",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:29",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] clamps to telegram.textChunkLimit",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:38] clamps to telegram.textChunkLimit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:38",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts] supports per-account overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.helpers.test.ts:50] supports per-account overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.helpers.test.ts:50",
                "upstream it() block #6",

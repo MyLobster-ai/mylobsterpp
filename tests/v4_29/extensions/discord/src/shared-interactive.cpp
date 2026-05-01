@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts] maps shared buttons and selects into Discord component blocks",
+TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts:8] maps shared buttons and selects into Discord component blocks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/shared-interactive.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts] preserves authored shared text blocks around controls",
+TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts:47] preserves authored shared text blocks around controls",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/shared-interactive.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts] preserves URL-only buttons as Discord link buttons",
+TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts:71] preserves URL-only buttons as Discord link buttons",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/shared-interactive.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts] splits long shared button rows to stay within Discord action limits",
+TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts:91] splits long shared button rows to stay within Discord action limits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/shared-interactive.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts] does not duplicate presentation text when appending controls",
+TEST_CASE("v4.29 [extensions/discord/src/shared-interactive.test.ts:128] does not duplicate presentation text when appending controls",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/shared-interactive.test.ts:128",
                "upstream it() block #4",

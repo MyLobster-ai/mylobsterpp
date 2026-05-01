@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.deprecated-cli-profiles.test.ts] skips provider loading when config has no legacy OAuth profiles",
+TEST_CASE("v4.29 [src/commands/doctor-auth.deprecated-cli-profiles.test.ts:66] skips provider loading when config has no legacy OAuth profiles",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.deprecated-cli-profiles.test.ts:66",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.deprecated-cli-profiles.test.ts] repairs provider-owned legacy OAuth profile ids",
+TEST_CASE("v4.29 [src/commands/doctor-auth.deprecated-cli-profiles.test.ts:76] repairs provider-owned legacy OAuth profile ids",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.deprecated-cli-profiles.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-auth.deprecated-cli-profiles.test.ts] strips provider-controlled terminal escapes from repair prompts",
+TEST_CASE("v4.29 [src/commands/doctor-auth.deprecated-cli-profiles.test.ts:156] strips provider-controlled terminal escapes from repair prompts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-auth.deprecated-cli-profiles.test.ts:156",
                "upstream it() block #2",

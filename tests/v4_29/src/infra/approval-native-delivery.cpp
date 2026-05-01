@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts] prefers the origin surface when configured and available",
+TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts:15] prefers the origin surface when configured and available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-delivery.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts] falls back to approver DMs when origin delivery is unavailable",
+TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts:44] falls back to approver DMs when origin delivery is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-delivery.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts] requests an origin redirect notice when DM-only delivery has an origin context",
+TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts:77] requests an origin redirect notice when DM-only delivery has an origin context",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-delivery.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts] dedupes duplicate origin and DM targets when both surfaces converge",
+TEST_CASE("v4.29 [src/infra/approval-native-delivery.test.ts:115] dedupes duplicate origin and DM targets when both surfaces converge",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-delivery.test.ts:115",
                "upstream it() block #3",

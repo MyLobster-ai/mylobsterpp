@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects the canonical OAuth snake_case code",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:16] detects the canonical OAuth snake_case code",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects mixed-case variants",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:20] detects mixed-case variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects OpenAI-style natural-language variants",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:25] detects OpenAI-style natural-language variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects full JSON-wrapped 401 payloads",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:38] detects full JSON-wrapped 401 payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects when message is a plain string (non-Error throw)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:48] detects when message is a plain string (non-Error throw)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects when message is wrapped via Error.cause (single level)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:52] detects when message is wrapped via Error.cause (single level)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:52",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects when message is wrapped in a multi-level cause chain",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:60] detects when message is wrapped in a multi-level cause chain",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:60",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] detects when cause is a bare string (no Error wrapper)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:67] detects when cause is a bare string (no Error wrapper)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:67",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] still matches when the marker phrase is embedded in a longer message",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:72] still matches when the marker phrase is embedded in a longer message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:72",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] returns false for unrelated auth errors",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:82] returns false for unrelated auth errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:82",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] returns false for null/undefined/non-stringable values",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:89] returns false for null/undefined/non-stringable values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:89",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] returns false for an empty error message",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:96] returns false for an empty error message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:96",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] always detects the marker when embedded at random positions with noise",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:102] always detects the marker when embedded at random positions with noise",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:102",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts] never yields a false positive on marker-free random messages",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth-refresh-error.test.ts:120] never yields a false positive on marker-free random messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth-refresh-error.test.ts:120",
                "upstream it() block #13",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts] resolves store and transcript paths from the target session agent",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts:136] resolves store and transcript paths from the target session agent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-session.test.ts:136",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts] prefers the active command storePath over the default target-agent store",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts:148] prefers the active command storePath over the default target-agent store",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-session.test.ts:148",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts] uses the target store entry even when the wrapper sessionEntry is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts:172] uses the target store entry even when the wrapper sessionEntry is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-session.test.ts:172",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts] injects scripts and session data through the real export template",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts:196] injects scripts and session data through the real export template",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-session.test.ts:196",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts] preserves replacement text with dollar sequences",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-session.test.ts:223] preserves replacement text with dollar sequences",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-session.test.ts:223",
                "upstream it() block #4",

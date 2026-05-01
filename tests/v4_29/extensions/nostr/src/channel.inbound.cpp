@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.inbound.test.ts] issues a pairing reply before decrypt for unknown senders",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.inbound.test.ts:110] issues a pairing reply before decrypt for unknown senders",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.inbound.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/channel.inbound.test.ts] routes allowed DMs through the standard reply pipeline",
+TEST_CASE("v4.29 [extensions/nostr/src/channel.inbound.test.ts:137] routes allowed DMs through the standard reply pipeline",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/channel.inbound.test.ts:137",
                "upstream it() block #1",

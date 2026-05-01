@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/llm-slug-generator.test.ts] keeps the helper default timeout when no agent timeout is configured",
+TEST_CASE("v4.29 [src/hooks/llm-slug-generator.test.ts:33] keeps the helper default timeout when no agent timeout is configured",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/llm-slug-generator.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/llm-slug-generator.test.ts] honors configured agent timeoutSeconds for slow local providers",
+TEST_CASE("v4.29 [src/hooks/llm-slug-generator.test.ts:48] honors configured agent timeoutSeconds for slow local providers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/llm-slug-generator.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/llm-slug-generator.test.ts] infers provider metadata for bare configured agent models",
+TEST_CASE("v4.29 [src/hooks/llm-slug-generator.test.ts:68] infers provider metadata for bare configured agent models",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/llm-slug-generator.test.ts:68",
                "upstream it() block #2",

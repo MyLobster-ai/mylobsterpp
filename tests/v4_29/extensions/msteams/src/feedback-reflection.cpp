@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] builds a well-formed custom event",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:17] builds a well-formed custom event",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] omits comment when not provided",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:35] omits comment when not provided",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] includes the thumbed-down response",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:50] includes the thumbed-down response",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] truncates long responses",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:60] truncates long responses",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] includes user comment when provided",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:70] includes user comment when provided",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] works without optional params",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:79] works without optional params",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:79",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] parses strict JSON output",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:87] parses strict JSON output",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:87",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] parses JSON inside markdown fences",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:99] parses JSON inside markdown fences",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:99",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] falls back to internal-only learning when parsing fails",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:111] falls back to internal-only learning when parsing fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:111",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] allows first reflection",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:125] allows first reflection",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:125",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] blocks reflection within cooldown",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:129] blocks reflection within cooldown",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:129",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] allows reflection after cooldown expires",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:134] allows reflection after cooldown expires",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:134",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] tracks sessions independently",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:142] tracks sessions independently",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:142",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] keeps longer custom cooldown entries during pruning",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:148] keeps longer custom cooldown entries during pruning",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:148",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] returns empty array when file doesn",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:170] returns empty array when file doesn",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:170",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] reads existing learnings",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:176] reads existing learnings",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:176",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] keeps distinct session keys isolated across the filename persistence boundary",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:186] keeps distinct session keys isolated across the filename persistence boundary",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:186",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts] reads and migrates legacy sanitized session learning files",
+TEST_CASE("v4.29 [extensions/msteams/src/feedback-reflection.test.ts:204] reads and migrates legacy sanitized session learning files",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/feedback-reflection.test.ts:204",
                "upstream it() block #17",

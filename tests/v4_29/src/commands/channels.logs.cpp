@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/channels.logs.test.ts] filters external plugin channel logs from the persisted manifest registry",
+TEST_CASE("v4.29 [src/commands/channels.logs.test.ts:68] filters external plugin channel logs from the persisted manifest registry",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.logs.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.logs.test.ts] falls back to the latest rolling log when the configured rolling file is missing",
+TEST_CASE("v4.29 [src/commands/channels.logs.test.ts:91] falls back to the latest rolling log when the configured rolling file is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.logs.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.logs.test.ts] prefers the configured rolling log when it exists",
+TEST_CASE("v4.29 [src/commands/channels.logs.test.ts:125] prefers the configured rolling log when it exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.logs.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.logs.test.ts] does not fall back to rolling logs for a missing custom log file",
+TEST_CASE("v4.29 [src/commands/channels.logs.test.ts:145] does not fall back to rolling logs for a missing custom log file",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.logs.test.ts:145",
                "upstream it() block #3",

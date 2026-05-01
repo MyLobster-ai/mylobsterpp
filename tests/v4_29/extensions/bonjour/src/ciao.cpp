@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] classifies ciao cancellation rejections separately from side effects",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:6] classifies ciao cancellation rejections separately from side effects",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] classifies ciao interface assertions separately from side effects",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:13] classifies ciao interface assertions separately from side effects",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] classifies ciao interface assertions using changed wording",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:24] classifies ciao interface assertions using changed wording",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] classifies ciao netmask assertions separately from side effects",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:35] classifies ciao netmask assertions separately from side effects",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses ciao announcement cancellation rejections",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:52] suppresses ciao announcement cancellation rejections",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses ciao probing cancellation rejections",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:58] suppresses ciao probing cancellation rejections",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses wrapped ciao cancellation rejections",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:62] suppresses wrapped ciao cancellation rejections",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:62",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses aggregate ciao assertion rejections",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:73] suppresses aggregate ciao assertion rejections",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:73",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses lower-case string cancellation reasons too",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:90] suppresses lower-case string cancellation reasons too",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:90",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses ciao interface assertion rejections as non-fatal",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:94] suppresses ciao interface assertion rejections as non-fatal",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:94",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses ciao netmask assertion errors as non-fatal",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:103] suppresses ciao netmask assertion errors as non-fatal",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:103",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] classifies networkInterfaces SystemError failures (restricted sandboxes)",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:114] classifies networkInterfaces SystemError failures (restricted sandboxes)",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:114",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] suppresses networkInterfaces failures wrapped in cause chains",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:126] suppresses networkInterfaces failures wrapped in cause chains",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:126",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts] keeps unrelated rejections visible",
+TEST_CASE("v4.29 [extensions/bonjour/src/ciao.test.ts:135] keeps unrelated rejections visible",
           "[v4_29][parity_gap][bonjour]") {
     PARITY_GAP("extensions/bonjour/src/ciao.test.ts:135",
                "upstream it() block #13",

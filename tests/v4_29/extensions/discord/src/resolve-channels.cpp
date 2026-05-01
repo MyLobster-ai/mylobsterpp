@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] resolves guild/channel by name",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:69] resolves guild/channel by name",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] resolves channel id to guild",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:95] resolves channel id to guild",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] resolves guildId/channelId entries via channel lookup",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:118] resolves guildId/channelId entries via channel lookup",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] reports unresolved when channel id belongs to a different guild",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:135] reports unresolved when channel id belongs to a different guild",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] resolves numeric channel id when guild is specified by name",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:156] resolves numeric channel id when guild is specified by name",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:156",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] marks invalid numeric channelId as unresolved without aborting batch",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:178] marks invalid numeric channelId as unresolved without aborting batch",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:178",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] treats 403 channel lookup as unresolved without aborting batch",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:215] treats 403 channel lookup as unresolved without aborting batch",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:215",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] falls back to name matching when numeric channel name is not a valid ID",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:252] falls back to name matching when numeric channel name is not a valid ID",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:252",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] does not fall back to name matching when channel lookup returns 403",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:263] does not fall back to name matching when channel lookup returns 403",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:263",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] does not fall back to name matching when channel payload is malformed",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:271] does not fall back to name matching when channel payload is malformed",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:271",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] resolves guild: prefixed id as guild (not channel)",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:280] resolves guild: prefixed id as guild (not channel)",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:280",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts] bare numeric guild id is misrouted as channel id (regression)",
+TEST_CASE("v4.29 [extensions/discord/src/resolve-channels.test.ts:304] bare numeric guild id is misrouted as channel id (regression)",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/resolve-channels.test.ts:304",
                "upstream it() block #11",

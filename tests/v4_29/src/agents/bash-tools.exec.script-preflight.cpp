@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] recognizes direct and package-runner channel login commands before execution",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:71] recognizes direct and package-runner channel login commands before execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] blocks interactive channel login commands from exec",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:83] blocks interactive channel login commands from exec",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] blocks shell env var injection tokens in python scripts before execution",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:100] blocks shell env var injection tokens in python scripts before execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] blocks obvious shell-as-js output before node execution",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:126] blocks obvious shell-as-js output before node execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] blocks shell env var injection when script path is quoted",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:149] blocks shell env var injection when script path is quoted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates in-workdir scripts whose names start with ",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:164] validates in-workdir scripts whose names start with ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:164",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates in-workdir symlinked script entrypoints",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:179] validates in-workdir symlinked script entrypoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:179",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates scripts under literal tilde directories in workdir",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:196] validates scripts under literal tilde directories in workdir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:196",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates python scripts when interpreter is prefixed with env",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:212] validates python scripts when interpreter is prefixed with env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:212",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates python scripts when interpreter is prefixed with path-qualified env",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:227] validates python scripts when interpreter is prefixed with path-qualified env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:227",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates node scripts when interpreter is prefixed with env",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:242] validates node scripts when interpreter is prefixed with env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:242",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates the first positional python script operand when extra args follow",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:257] validates the first positional python script operand when extra args follow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:257",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates python script operand even when trailing option values look like scripts",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:272] validates python script operand even when trailing option values look like scripts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:272",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates the first positional node script operand when extra args follow",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:287] validates the first positional node script operand when extra args follow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:287",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] still resolves node script when --require consumes a preceding .js option value",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:302] still resolves node script when --require consumes a preceding .js option value",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:302",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates node --require preload modules before a benign entry script",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:317] validates node --require preload modules before a benign entry script",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:317",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates node --require preload modules when no entry script is provided",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:332] validates node --require preload modules when no entry script is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:332",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates node --import preload modules when no entry script is provided",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:346] validates node --import preload modules when no entry script is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:346",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates node --require preload modules even when -e is present",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:360] validates node --require preload modules even when -e is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:360",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] validates node --import preload modules even when -e is present",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:374] validates node --import preload modules even when -e is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:374",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] skips script-file preflight in yolo host mode",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:388] skips script-file preflight in yolo host mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:388",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] runs heredoc-backed node commands in yolo host mode",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:412] runs heredoc-backed node commands in yolo host mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:412",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] skips preflight file reads for script paths outside the workdir",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:428] skips preflight file reads for script paths outside the workdir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:428",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] does not trust a swapped script pathname between validation and read",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:444] does not trust a swapped script pathname between validation and read",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:444",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] handles pre-open symlink swaps without surfacing preflight errors",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:450] handles pre-open symlink swaps without surfacing preflight errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:450",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] opens preflight script reads with O_NONBLOCK to avoid FIFO stalls",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:456] opens preflight script reads with O_NONBLOCK to avoid FIFO stalls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:456",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] preserves windows-style python relative path separators during script extraction",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:544] preserves windows-style python relative path separators during script extraction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:544",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] preserves windows-style node relative path separators during script extraction",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:558] preserves windows-style node relative path separators during script extraction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:558",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] preserves windows-style python absolute drive paths during script extraction",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:572] preserves windows-style python absolute drive paths during script extraction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:572",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] preserves windows-style nested relative path separators during script extraction",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:588] preserves windows-style nested relative path separators during script extraction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:588",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts] does not hang on long commands with VAR=value assignments and whitespace-heavy text",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec.script-preflight.test.ts:605] does not hang on long commands with VAR=value assignments and whitespace-heavy text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec.script-preflight.test.ts:605",
                "upstream it() block #30",

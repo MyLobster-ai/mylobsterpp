@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] caps timer delay to 60s for far-future schedules",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:34] caps timer delay to 60s for far-future schedules",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] re-arms timer without hot-looping when a run is already in progress",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:71] re-arms timer without hot-looping when a run is already in progress",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] #24355: one-shot job retries then succeeds",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:93] #24355: one-shot job retries then succeeds",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] #24355: one-shot job disabled after max transient retries",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:174] #24355: one-shot job disabled after max transient retries",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:174",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] #24355: one-shot job respects cron.retry config",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:217] #24355: one-shot job respects cron.retry config",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:217",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] #24355: one-shot job retries status-only 529 failures when retryOn only includes overloaded",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:263] #24355: one-shot job retries status-only 529 failures when retryOn only includes overloaded",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:263",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] #38822: one-shot job retries Bedrock too-many-tokens-per-day errors",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:309] #38822: one-shot job retries Bedrock too-many-tokens-per-day errors",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:309",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] #24355: one-shot job disabled immediately on permanent error",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:362] #24355: one-shot job disabled immediately on permanent error",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:362",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] prevents spin loop when cron job completes within the scheduled second (#17821)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:398] prevents spin loop when cron job completes within the scheduled second (#17821)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:398",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] enforces a minimum refire gap for second-granularity cron schedules (#17821)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:439] enforces a minimum refire gap for second-granularity cron schedules (#17821)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:439",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] treats timeoutSeconds=0 as no timeout for isolated agentTurn jobs",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:474] treats timeoutSeconds=0 as no timeout for isolated agentTurn jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:474",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] does not time out agentTurn jobs at the default 10-minute safety window",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:521] does not time out agentTurn jobs at the default 10-minute safety window",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:521",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] aborts isolated runs when cron timeout fires",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:573] aborts isolated runs when cron timeout fires",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:573",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] does not spend isolated execution timeout while waiting for the runner lane (#41783)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:618] does not spend isolated execution timeout while waiting for the runner lane (#41783)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:618",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] suppresses isolated follow-up side effects after timeout",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:686] suppresses isolated follow-up side effects after timeout",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:686",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] applies timeoutSeconds to startup catch-up isolated executions",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:735] applies timeoutSeconds to startup catch-up isolated executions",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:735",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] respects abort signals while retrying one-shot main-session wake-now heartbeat runs",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:780] respects abort signals while retrying one-shot main-session wake-now heartbeat runs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:780",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] finishes recurring wake-now main jobs quickly when the main lane is busy (#58833)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:830] finishes recurring wake-now main jobs quickly when the main lane is busy (#58833)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:830",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] retries cron schedule computation from the next second when the first attempt returns undefined (#17821)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:882] retries cron schedule computation from the next second when the first attempt returns undefined (#17821)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:882",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] records per-job start time and duration for batched due jobs",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:910] records per-job start time and duration for batched due jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:910",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] honors cron maxConcurrentRuns for due jobs",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:955] honors cron maxConcurrentRuns for due jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:955",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] finalizes a successful isolated job that removes itself during execution",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1023] finalizes a successful isolated job that removes itself during execution",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1023",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] keeps missing-job discard semantics for failed isolated outcomes",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1087] keeps missing-job discard semantics for failed isolated outcomes",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1087",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] outer cron timeout fires at configured timeoutSeconds, not at 1/3 (#29774)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1132] outer cron timeout fires at configured timeoutSeconds, not at 1/3 (#29774)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1132",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] cleans up timed-out isolated runs even when the runner ignores abort",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1216] cleans up timed-out isolated runs even when the runner ignores abort",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1216",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] keeps state updates when cron next-run computation throws after a successful run (#30905)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1296] keeps state updates when cron next-run computation throws after a successful run (#30905)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1296",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] keeps state updates when cron next-run computation throws on error path (#30905)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1334] keeps state updates when cron next-run computation throws on error path (#30905)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1334",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] does not synthesize a 2s retry when cron schedule computation returns undefined (#66019)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1373] does not synthesize a 2s retry when cron schedule computation returns undefined (#66019)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1373",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] does not synthesize backoff retries when cron schedule computation returns undefined (#66019)",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1414] does not synthesize backoff retries when cron schedule computation returns undefined (#66019)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1414",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts] force run preserves ",
+TEST_CASE("v4.29 [src/cron/service/timer.regression.test.ts:1456] force run preserves ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/timer.regression.test.ts:1456",
                "upstream it() block #29",

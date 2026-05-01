@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] defaults probes on and accepts common opt-out values",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:18] defaults probes on and accepts common opt-out values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] builds a text file read probe",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:34] builds a text file read probe",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] builds a stricter file read retry probe",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:42] builds a stricter file read retry probe",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] builds an image probe with native image content",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:49] builds an image probe with native image content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] extracts assistant text blocks only",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:57] extracts assistant text blocks only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] detects image input support from model metadata",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:69] detects image input support from model metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:69",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] skips known stale extra probe routes",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:74] skips known stale extra probe routes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] skips known stale file probe routes",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:89] skips known stale file probe routes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:89",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] skips known stale image probe routes",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:143] skips known stale image probe routes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:143",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts] matches expected probe replies",
+TEST_CASE("v4.29 [src/agents/live-model-turn-probes.test.ts:176] matches expected probe replies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-turn-probes.test.ts:176",
                "upstream it() block #9",

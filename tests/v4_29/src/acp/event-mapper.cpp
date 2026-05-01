@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/event-mapper.test.ts] enforces the global node visit cap across nested structures",
+TEST_CASE("v4.29 [src/acp/event-mapper.test.ts:5] enforces the global node visit cap across nested structures",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/event-mapper.test.ts:5",
                "upstream it() block #0",

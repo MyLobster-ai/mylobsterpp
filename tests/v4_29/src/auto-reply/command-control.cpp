@@ -5,299 +5,299 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] uses explicit owner allowlist when allowFrom is wildcard",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:128] uses explicit owner allowlist when allowFrom is wildcard",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:128",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] rejects wildcard channel senders when the plugin enforces owner-only commands",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:163] rejects wildcard channel senders when the plugin enforces owner-only commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:163",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] allows channel-validated native commands when plugin owner enforcement has no owner allowlist",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:205] allows channel-validated native commands when plugin owner enforcement has no owner allowlist",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:205",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] uses explicit owner allowlist when allowFrom is empty",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:248] uses explicit owner allowlist when allowFrom is empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:248",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] uses owner allowlist override from context when configured",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:281] uses owner allowlist override from context when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:281",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] suppresses inherited owner status when the context forbids it",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:316] suppresses inherited owner status when the context forbids it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:316",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not infer a provider from channel allowlists for webchat command contexts",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:337] does not infer a provider from channel allowlists for webchat command contexts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:337",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not apply channel-prefixed owner wildcards to webchat command contexts",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:359] does not apply channel-prefixed owner wildcards to webchat command contexts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:359",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not apply channel-prefixed owner identities to webchat command contexts",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:380] does not apply channel-prefixed owner identities to webchat command contexts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:380",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] applies channel-prefixed owner identities to matching providers",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:401] applies channel-prefixed owner identities to matching providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:401",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not apply channel-prefixed owner wildcards to mismatched providers",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:421] does not apply channel-prefixed owner wildcards to mismatched providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:421",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] preserves external channel command auth in mixed webchat contexts",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:441] preserves external channel command auth in mixed webchat contexts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:441",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] falls back to channel allowFrom when provider allowlist resolution throws",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:463] falls back to channel allowFrom when provider allowlist resolution throws",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:463",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] uses commands.allowFrom global list when configured",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:523] uses commands.allowFrom global list when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:523",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] ignores commandAuthorized when commands.allowFrom is configured",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:533] ignores commandAuthorized when commands.allowFrom is configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:533",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] uses commands.allowFrom provider-specific list over global",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:543] uses commands.allowFrom provider-specific list over global",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:543",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] falls back to channel allowFrom when commands.allowFrom not set",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:588] falls back to channel allowFrom when commands.allowFrom not set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:588",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] allows all senders when commands.allowFrom includes wildcard",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:609] allows all senders when commands.allowFrom includes wildcard",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:609",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not treat conversation ids in From as sender identities",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:635] does not treat conversation ids in From as sender identities",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:635",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] still falls back to From for direct messages when sender fields are absent",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:659] still falls back to From for direct messages when sender fields are absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:659",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not fall back to conversation-shaped From when chat type is missing",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:684] does not fall back to conversation-shaped From when chat type is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:684",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] normalizes Discord commands.allowFrom prefixes and mentions",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:708] normalizes Discord commands.allowFrom prefixes and mentions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:708",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] fails closed when provider inference hits unresolved SecretRef allowlists",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:749] fails closed when provider inference hits unresolved SecretRef allowlists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:749",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] preserves provider resolution errors when inferred fallback allowFrom is empty",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:782] preserves provider resolution errors when inferred fallback allowFrom is empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:782",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] fails closed for global commands.allowFrom when inference errors drop every provider",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:811] fails closed for global commands.allowFrom when inference errors drop every provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:811",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not let an unrelated provider resolution error poison inferred commands.allowFrom",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:836] does not let an unrelated provider resolution error poison inferred commands.allowFrom",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:836",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] preserves default-account allowFrom on SecretRef fallback",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:865] preserves default-account allowFrom on SecretRef fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:865",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] treats undefined allowFrom as an open channel, not a resolution failure",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:897] treats undefined allowFrom as an open channel, not a resolution failure",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:897",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not log raw resolution messages from thrown allowFrom errors",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:917] does not log raw resolution messages from thrown allowFrom errors",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:917",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] grants senderIsOwner for internal channel with operator.admin scope",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:946] grants senderIsOwner for internal channel with operator.admin scope",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:946",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not grant senderIsOwner for internal channel without admin scope",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:961] does not grant senderIsOwner for internal channel without admin scope",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:961",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] does not grant senderIsOwner for external channel even with admin scope",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:976] does not grant senderIsOwner for external channel even with admin scope",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:976",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] requires slash for send policy",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:994] requires slash for send policy",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:994",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] requires slash for activation",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1009] requires slash for activation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1009",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] treats bare commands as non-control",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1026] treats bare commands as non-control",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1026",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] respects disabled config/debug commands",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1048] respects disabled config/debug commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1048",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] requires commands to be the full message",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1054] requires commands to be the full message",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1054",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] detects inline command tokens",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1061] detects inline command tokens",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1061",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] ignores telegram commands addressed to other bots",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1069] ignores telegram commands addressed to other bots",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1069",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] detects commands wrapped in inbound metadata blocks",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1082] detects commands wrapped in inbound metadata blocks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1082",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] detects /new command after metadata prefix",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1094] detects /new command after metadata prefix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1094",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts] detects /status command after timestamp + metadata prefix",
+TEST_CASE("v4.29 [src/auto-reply/command-control.test.ts:1106] detects /status command after timestamp + metadata prefix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/command-control.test.ts:1106",
                "upstream it() block #41",

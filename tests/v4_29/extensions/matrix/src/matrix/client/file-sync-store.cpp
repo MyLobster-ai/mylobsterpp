@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] persists sync data so restart resumes from the saved cursor",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:79] persists sync data so restart resumes from the saved cursor",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] claims current-token storage ownership when sync state is persisted",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:103] claims current-token storage ownership when sync state is persisted",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] only treats sync state as restart-safe after a clean shutdown persist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:128] only treats sync state as restart-safe after a clean shutdown persist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] clears the clean-shutdown marker once fresh sync data arrives",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:147] clears the clean-shutdown marker once fresh sync data arrives",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:147",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] coalesces background persistence until the debounce window elapses",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:167] coalesces background persistence until the debounce window elapses",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:167",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] waits for an in-flight persist when shutdown flush runs",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:200] waits for an in-flight persist when shutdown flush runs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:200",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] persists client options alongside sync state",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:226] persists client options alongside sync state",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:226",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts] loads legacy raw sync payloads from bot-storage.json",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/file-sync-store.test.ts:237] loads legacy raw sync payloads from bot-storage.json",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/file-sync-store.test.ts:237",
                "upstream it() block #7",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] returns plugins with non-advanced uiHints",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:37] returns plugins with non-advanced uiHints",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] excludes plugins with no uiHints",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:54] excludes plugins with no uiHints",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] excludes sensitive fields from promptable hints",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:60] excludes sensitive fields from promptable hints",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] excludes plugins where all fields are advanced",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:75] excludes plugins where all fields are advanced",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] sorts results alphabetically by name",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:86] sorts results alphabetically by name",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] returns plugins with at least one unconfigured field",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:97] returns plugins with at least one unconfigured field",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:97",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] excludes plugins where all fields are configured",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:123] excludes plugins where all fields are configured",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:123",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] treats empty string as unconfigured",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:146] treats empty string as unconfigured",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:146",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] returns empty when no plugins have uiHints",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:168] returns empty when no plugins have uiHints",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:168",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] treats dotted uiHint paths as configured when nested config exists",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:177] treats dotted uiHint paths as configured when nested config exists",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:177",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] allows skipping plugin setup from the multiselect prompt",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:222] allows skipping plugin setup from the multiselect prompt",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:222",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] writes dotted uiHint values into nested plugin config",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:279] writes dotted uiHint values into nested plugin config",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:279",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts] coerces integer schema fields from text input",
+TEST_CASE("v4.29 [src/wizard/setup.plugin-config.test.ts:340] coerces integer schema fields from text input",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/setup.plugin-config.test.ts:340",
                "upstream it() block #12",

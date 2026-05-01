@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] preserves plugin-only allowlists instead of silently stripping them",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:42] preserves plugin-only allowlists instead of silently stripping them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] warns about unknown allowlist entries",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:60] warns about unknown allowlist entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] suppresses built-in profile warnings for unavailable gated core tools",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:79] suppresses built-in profile warnings for unavailable gated core tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] still warns for profile steps when explicit alsoAllow entries are present",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:88] still warns for profile steps when explicit alsoAllow entries are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] still warns for explicit allowlists that mention unavailable gated core tools",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:102] still warns for explicit allowlists that mention unavailable gated core tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] default profile steps suppress unavailable baseline profile entries",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:116] default profile steps suppress unavailable baseline profile entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:116",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] dedupes identical unknown-allowlist warnings across repeated runs",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:133] dedupes identical unknown-allowlist warnings across repeated runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:133",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] bounds the warning dedupe cache so new warnings still surface",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:155] bounds the warning dedupe cache so new warnings still surface",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] evicts the oldest warning when the dedupe cache is full",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:190] evicts the oldest warning when the dedupe cache is full",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:190",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] applies allowlist filtering when core tools are explicitly listed",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:236] applies allowlist filtering when core tools are explicitly listed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:236",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts] applies deny filtering after allow filtering",
+TEST_CASE("v4.29 [src/agents/tool-policy-pipeline.test.ts:253] applies deny filtering after allow filtering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-policy-pipeline.test.ts:253",
                "upstream it() block #10",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts] defaults to false when no provider or account flag is set",
+TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts:5] defaults to false when no provider or account flag is set",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/dangerous-name-matching.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts] inherits the provider break-glass flag when the account is unset",
+TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts:9] inherits the provider break-glass flag when the account is unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/dangerous-name-matching.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts] lets an account override the provider flag back to false",
+TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts:17] lets an account override the provider flag back to false",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/dangerous-name-matching.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts] lets an account opt in when the provider flag is false",
+TEST_CASE("v4.29 [src/config/dangerous-name-matching.test.ts:26] lets an account opt in when the provider flag is false",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/dangerous-name-matching.test.ts:26",
                "upstream it() block #3",

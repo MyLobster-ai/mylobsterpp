@@ -5,292 +5,292 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not load session store runtime on module import",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:258] does not load session store runtime on module import",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:258",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] passes approved elevated defaults to the runner",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:264] passes approved elevated defaults to the runner",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:264",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] propagates non-visible assistant silence for group runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:289] propagates non-visible assistant silence for group runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:289",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] keeps empty-assistant silence disabled for direct runs by default",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:305] keeps empty-assistant silence disabled for direct runs by default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:305",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not borrow target-session silence for native commands sent from direct chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:377] does not borrow target-session silence for native commands sent from direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:377",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] allows media-only prompts and preserves thread context in queued followups",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:413] allows media-only prompts and preserves thread context in queued followups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:413",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] keeps thread history context on follow-up turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:424] keeps thread history context on follow-up turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:424",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] falls back to thread starter context on follow-up turns when history is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:438] falls back to thread starter context on follow-up turns when history is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:438",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] prefers thread history over thread starter on follow-up turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:473] prefers thread history over thread starter on follow-up turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:473",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not duplicate thread starter text with a plain-text prelude",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:508] does not duplicate thread starter text with a plain-text prelude",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:508",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] returns the empty-body reply when there is no text and no media",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:549] returns the empty-body reply when there is no text and no media",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:549",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] still skips metadata-only turns when inbound context adds chat_id",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:571] still skips metadata-only turns when inbound context adds chat_id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:571",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] allows pending inbound history to trigger a bare mention turn",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:605] allows pending inbound history to trigger a bare mention turn",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:605",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not treat blank pending inbound history as user input",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:651] does not treat blank pending inbound history as user input",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:651",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] allows webchat pure-image turns when image content is carried outside MediaPath",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:689] allows webchat pure-image turns when image content is carried outside MediaPath",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:689",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not send a standalone reset notice for reply-producing /new turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:732] does not send a standalone reset notice for reply-producing /new turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:732",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] keeps /reset soft tails even when the bare reset prompt is empty",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:755] keeps /reset soft tails even when the bare reset prompt is empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:755",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not emit a reset notice when /new is attempted during gateway drain",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:787] does not emit a reset notice when /new is attempted during gateway drain",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:787",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not register a reply operation before auth setup succeeds",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:801] does not register a reply operation before auth setup succeeds",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:801",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] waits for the previous active run to clear before registering a new reply operation",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:818] waits for the previous active run to clear before registering a new reply operation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:818",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] interrupts embedded-only active runs even without a reply operation",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:832] interrupts embedded-only active runs even without a reply operation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:832",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] rechecks same-session ownership after async prep before registering a new reply operation",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:860] rechecks same-session ownership after async prep before registering a new reply operation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:860",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] re-resolves auth profile after waiting for a prior run",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:901] re-resolves auth profile after waiting for a prior run",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:901",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] re-resolves same-session ownership after session-id rotation during async prep",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:948] re-resolves same-session ownership after session-id rotation during async prep",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:948",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] continues when the original owner clears before an unrelated run appears",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1005] continues when the original owner clears before an unrelated run appears",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1005",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] re-drains system events after waiting behind an active run",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1038] re-drains system events after waiting behind an active run",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1038",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] keeps heartbeat prompts out of visible transcript prompt",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1072] keeps heartbeat prompts out of visible transcript prompt",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1072",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] uses persisted Discord chat metadata for system-event CLI static prompt identity",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1103] uses persisted Discord chat metadata for system-event CLI static prompt identity",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1103",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] uses a non-empty transcript marker while keeping bare reset startup instructions out of visible transcript prompt",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1159] uses a non-empty transcript marker while keeping bare reset startup instructions out of visible transcript prompt",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1159",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] keeps reset user notes visible while hiding startup instructions",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1197] keeps reset user notes visible while hiding startup instructions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1197",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] uses inbound origin channel for run messageProvider",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1237] uses inbound origin channel for run messageProvider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1237",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] prefers Provider over Surface when origin channel is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1266] prefers Provider over Surface when origin channel is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1266",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] uses the effective session account for followup originatingAccountId when AccountId is omitted",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1297] uses the effective session account for followup originatingAccountId when AccountId is omitted",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1297",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] passes suppressTyping through typing mode resolution",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1328] passes suppressTyping through typing mode resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1328",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] routes queued system events into user prompt text, not system prompt context",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1343] routes queued system events into user prompt text, not system prompt context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1343",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] downgrades sender ownership when drained system events include untrusted lines",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1354] downgrades sender ownership when drained system events include untrusted lines",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1354",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] keeps sender ownership when drained system events are trusted",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1366] keeps sender ownership when drained system events are trusted",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1366",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not downgrade sender ownership when trusted event text contains the untrusted marker",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1376] does not downgrade sender ownership when trusted event text contains the untrusted marker",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1376",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] preserves first-token think hint when system events are prepended",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1388] preserves first-token think hint when system events are prepended",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1388",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] carries system events into followupRun.prompt for deferred turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1413] carries system events into followupRun.prompt for deferred turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1413",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts] does not strip think-hint token from deferred queue body",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.media-only.test.ts:1425] does not strip think-hint token from deferred queue body",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.media-only.test.ts:1425",
                "upstream it() block #40",

@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] strips MEDIA: prefix before reading local file (including whitespace variants)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:135] strips MEDIA: prefix before reading local file (including whitespace variants)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:135",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] compresses large local images under the provided cap",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:143] compresses large local images under the provided cap",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:143",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] optimizes images when options object omits optimizeImages",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:154] optimizes images when options object omits optimizeImages",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:154",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] allows callers to disable optimization via options object",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:164] allows callers to disable optimization via options object",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:164",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] sniffs mime before extension when loading local files",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:173] sniffs mime before extension when loading local files",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:173",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] includes URL + status in fetch errors",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:180] includes URL + status in fetch errors",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:180",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] blocks SSRF URLs before fetch",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:198] blocks SSRF URLs before fetch",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:198",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] respects maxBytes for raw URL fetches",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:222] respects maxBytes for raw URL fetches",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:222",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] keeps raw mode when options object sets optimizeImages true",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:238] keeps raw mode when options object sets optimizeImages true",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:238",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] uses content-disposition filename when available",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:250] uses content-disposition filename when available",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:250",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] preserves GIF from URL without JPEG conversion",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:279] preserves GIF from URL without JPEG conversion",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:279",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] preserves PNG alpha when under the cap",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:303] preserves PNG alpha when under the cap",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:303",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] falls back to JPEG when PNG alpha cannot fit under cap",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:312] falls back to JPEG when PNG alpha cannot fit under cap",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:312",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] rejects local paths outside allowed roots",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:322] rejects local paths outside allowed roots",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:322",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] allows local paths under an explicit root",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:329] allows local paths under an explicit root",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:329",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] rejects remote-host file URLs before filesystem checks",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:336] rejects remote-host file URLs before filesystem checks",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:336",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] accepts win32 dev=0 stat mismatch for local file loads",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:351] accepts win32 dev=0 stat mismatch for local file loads",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:351",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] rejects Windows network paths before filesystem checks",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:375] rejects Windows network paths before filesystem checks",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:375",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] requires readFile override for localRoots bypass",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:392] requires readFile override for localRoots bypass",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:392",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] allows any path when localRoots is ",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:407] allows any path when localRoots is ",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:407",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] rejects filesystem root entries in localRoots",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:416] rejects filesystem root entries in localRoots",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:416",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] allows default OpenClaw state workspace and sandbox roots",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:424] allows default OpenClaw state workspace and sandbox roots",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:424",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] rejects default OpenClaw state per-agent workspace-* roots without explicit local roots",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:451] rejects default OpenClaw state per-agent workspace-* roots without explicit local roots",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:451",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts] allows per-agent workspace-* paths with explicit local roots",
+TEST_CASE("v4.29 [extensions/whatsapp/src/media.test.ts:463] allows per-agent workspace-* paths with explicit local roots",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/media.test.ts:463",
                "upstream it() block #23",

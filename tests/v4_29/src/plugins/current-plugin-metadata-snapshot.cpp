@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts] returns the current snapshot only for matching config policy and workspace",
+TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts:62] returns the current snapshot only for matching config policy and workspace",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/current-plugin-metadata-snapshot.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts] rejects a workspace-scoped snapshot when the caller does not provide workspace scope",
+TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts:82] rejects a workspace-scoped snapshot when the caller does not provide workspace scope",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/current-plugin-metadata-snapshot.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts] rejects a current snapshot when plugin load paths change",
+TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts:90] rejects a current snapshot when plugin load paths change",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/current-plugin-metadata-snapshot.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts] keeps source-policy compatibility when storing an auto-enabled runtime config",
+TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts:103] keeps source-policy compatibility when storing an auto-enabled runtime config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/current-plugin-metadata-snapshot.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts] clears the current snapshot",
+TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts:116] clears the current snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/current-plugin-metadata-snapshot.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts] clears the current snapshot when the persisted installed index changes",
+TEST_CASE("v4.29 [src/plugins/current-plugin-metadata-snapshot.test.ts:123] clears the current snapshot when the persisted installed index changes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/current-plugin-metadata-snapshot.test.ts:123",
                "upstream it() block #5",

@@ -5,313 +5,313 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] detects short-term daily memory paths",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:70] detects short-term daily memory paths",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] records short-term recall for notes stored in a memory/ subdirectory",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:88] records short-term recall for notes stored in a memory/ subdirectory",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] records short-term recall for notes stored in spaced and Unicode memory subdirectories",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:115] records short-term recall for notes stored in spaced and Unicode memory subdirectories",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] ignores dream report paths when recording short-term recalls",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:156] ignores dream report paths when recording short-term recalls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] ignores prefixed dream report paths when recording short-term recalls",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:181] ignores prefixed dream report paths when recording short-term recalls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:181",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] ignores contaminated dreaming snippets when recording short-term recalls",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:206] ignores contaminated dreaming snippets when recording short-term recalls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:206",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] ignores bullet-prefixed dreaming snippets when recording short-term recalls",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:233] ignores bullet-prefixed dreaming snippets when recording short-term recalls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:233",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] keeps ordinary snippets that only quote dreaming prompt markers",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:265] keeps ordinary snippets that only quote dreaming prompt markers",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:265",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] records recalls and ranks candidates with weighted scores",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:295] records recalls and ranks candidates with weighted scores",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:295",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] serializes concurrent recall writes so counts are not lost",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:356] serializes concurrent recall writes so counts are not lost",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:356",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] uses default thresholds for promotion",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:389] uses default thresholds for promotion",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:389",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] lets repeated dreaming-only daily signals clear the default promotion gates",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:411] lets repeated dreaming-only daily signals clear the default promotion gates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:411",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] lets grounded durable evidence satisfy default deep thresholds",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:485] lets grounded durable evidence satisfy default deep thresholds",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:485",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] removes grounded-only staged entries without deleting mixed live entries",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:542] removes grounded-only staged entries without deleting mixed live entries",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:542",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] rewards spaced recalls as consolidation instead of only raw count",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:607] rewards spaced recalls as consolidation instead of only raw count",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:607",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] lets recency half-life tune the temporal score",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:654] lets recency half-life tune the temporal score",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:654",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] boosts deep ranking when light/rem phase signals reinforce a candidate",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:697] boosts deep ranking when light/rem phase signals reinforce a candidate",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:697",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] weights fresh phase signals more than stale ones",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:793] weights fresh phase signals more than stale ones",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:793",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] reconciles existing promotion markers instead of appending duplicates",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:869] reconciles existing promotion markers instead of appending duplicates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:869",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] filters out candidates older than maxAgeDays during ranking",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:936] filters out candidates older than maxAgeDays during ranking",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:936",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] treats negative threshold overrides as invalid and keeps defaults",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:967] treats negative threshold overrides as invalid and keeps defaults",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:967",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] enforces default thresholds during apply even when candidates are passed directly",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:994] enforces default thresholds during apply even when candidates are passed directly",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:994",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] does not rank contaminated dreaming snippets from an existing short-term store",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1032] does not rank contaminated dreaming snippets from an existing short-term store",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1032",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] treats diff-prefixed dreaming snippets as contaminated",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1080] treats diff-prefixed dreaming snippets as contaminated",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1080",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] treats bracket-prefixed dreaming snippets as contaminated",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1088] treats bracket-prefixed dreaming snippets as contaminated",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1088",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] does not treat ordinary candidate notes with daily-memory evidence as contaminated",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1096] does not treat ordinary candidate notes with daily-memory evidence as contaminated",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1096",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] treats transcript-style dreaming prompt echoes as contaminated",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1104] treats transcript-style dreaming prompt echoes as contaminated",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1104",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] skips direct candidates that exceed maxAgeDays during apply",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1112] skips direct candidates that exceed maxAgeDays during apply",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1112",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] does not append contaminated dreaming snippets during direct apply",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1159] does not append contaminated dreaming snippets during direct apply",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1159",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] applies promotion candidates to MEMORY.md and marks them promoted",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1206] applies promotion candidates to MEMORY.md and marks them promoted",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1206",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] does not re-append candidates that were promoted in a prior run",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1276] does not re-append candidates that were promoted in a prior run",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1276",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] rehydrates moved snippets from the live daily note before promotion",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1337] rehydrates moved snippets from the live daily note before promotion",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1337",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] prefers the nearest matching snippet when the same text appears multiple times",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1382] prefers the nearest matching snippet when the same text appears multiple times",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1382",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] rehydrates legacy basename-only short-term paths from the memory directory",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1430] rehydrates legacy basename-only short-term paths from the memory directory",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1430",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] skips promotion when the live daily note no longer contains the snippet",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1475] skips promotion when the live daily note no longer contains the snippet",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1475",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] uses dreaming timezone for recall-day bucketing and promotion headers",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1514] uses dreaming timezone for recall-day bucketing and promotion headers",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1514",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] audits and repairs invalid store metadata plus stale locks",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1560] audits and repairs invalid store metadata plus stale locks",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1560",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] repairs empty recall-store files without throwing",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1623] repairs empty recall-store files without throwing",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1623",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] does not rewrite an already normalized healthy recall store",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1639] does not rewrite an already normalized healthy recall store",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1639",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] waits for an active short-term lock before repairing",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1685] waits for an active short-term lock before repairing",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1685",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] downgrades lock inspection failures into audit issues",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1726] downgrades lock inspection failures into audit issues",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1726",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] reports concept tag script coverage for multilingual recalls",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1754] reports concept tag script coverage for multilingual recalls",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1754",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] extracts stable concept tags from snippets and paths",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1796] extracts stable concept tags from snippets and paths",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1796",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts] extracts multilingual concept tags across latin and cjk snippets",
+TEST_CASE("v4.29 [extensions/memory-core/src/short-term-promotion.test.ts:1805] extracts multilingual concept tags across latin and cjk snippets",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/short-term-promotion.test.ts:1805",
                "upstream it() block #43",

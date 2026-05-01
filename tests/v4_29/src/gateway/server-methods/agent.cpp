@@ -5,481 +5,481 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] preserves ACP metadata from the current stored session entry",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:415] preserves ACP metadata from the current stored session entry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:415",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] keeps stored group metadata when a trusted group session receives caller-supplied selectors",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:451] keeps stored group metadata when a trusted group session receives caller-supplied selectors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:451",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] persists first-turn group selectors for a trusted new group session",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:511] persists first-turn group selectors for a trusted new group session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:511",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] tags newly-created plugin runtime sessions with the plugin owner",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:563] tags newly-created plugin runtime sessions with the plugin owner",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:563",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not claim stale pre-existing sessions for plugin runtime cleanup",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:604] does not claim stale pre-existing sessions for plugin runtime cleanup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:604",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] forwards provider and model overrides for admin-scoped callers",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:651] forwards provider and model overrides for admin-scoped callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:651",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] forwards explicit ACP turn source markers",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:681] forwards explicit ACP turn source markers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:681",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] rejects provider and model overrides for write-scoped callers",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:702] rejects provider and model overrides for write-scoped callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:702",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] forwards provider and model overrides when internal override authorization is set",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:737] forwards provider and model overrides when internal override authorization is set",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:737",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] preserves cliSessionIds from existing session entry",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:771] preserves cliSessionIds from existing session entry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:771",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] reactivates completed subagent sessions and broadcasts send updates",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:785] reactivates completed subagent sessions and broadcasts send updates",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:785",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] includes live session setting metadata in agent send events",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:872] includes live session setting metadata in agent send events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:872",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] injects a timestamp into the message passed to agentCommand",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:962] injects a timestamp into the message passed to agentCommand",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:962",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] marks inter-session agent messages at the gateway boundary without timestamping them",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:983] marks inter-session agent messages at the gateway boundary without timestamping them",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:983",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] keeps model-run gateway prompts undecorated and forwards raw-run flags",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1011] keeps model-run gateway prompts undecorated and forwards raw-run flags",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1011",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] respects explicit bestEffortDeliver=false for main session runs",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1091] respects explicit bestEffortDeliver=false for main session runs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1091",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] downgrades to session-only when bestEffortDeliver=true and no external channel is configured",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1113] downgrades to session-only when bestEffortDeliver=true and no external channel is configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1113",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] rejects public spawned-run metadata fields",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1157] rejects public spawned-run metadata fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1157",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] accepts music generation internal events",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1237] accepts music generation internal events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1237",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not create task rows for inter-session completion wakes",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1275] does not create task rows for inter-session completion wakes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1275",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] only forwards workspaceDir for spawned sessions with stored workspace inheritance",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1316] only forwards workspaceDir for spawned sessions with stored workspace inheritance",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1316",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] keeps origin messageChannel as webchat while delivery channel uses last session channel",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1345] keeps origin messageChannel as webchat while delivery channel uses last session channel",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1345",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] terminalizes successful async gateway agent runs in the shared task registry",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1393] terminalizes successful async gateway agent runs in the shared task registry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1393",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] terminalizes failed async gateway agent runs in the shared task registry",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1419] terminalizes failed async gateway agent runs in the shared task registry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1419",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] preserves aborted async gateway agent runs as timed out",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1446] preserves aborted async gateway agent runs as timed out",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1446",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] classifies aborted async gateway agent rejections as timed out",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1482] classifies aborted async gateway agent rejections as timed out",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1482",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not overwrite operator-cancelled async gateway agent tasks after late completion",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1519] does not overwrite operator-cancelled async gateway agent tasks after late completion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1519",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not let --agent force the agent main session when --session-id is provided",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1568] does not let --agent force the agent main session when --session-id is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1568",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] treats whitespace sessionId as absent before resolving the agent session key",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1596] treats whitespace sessionId as absent before resolving the agent session key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1596",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] rolls stale gateway agent sessions even when updatedAt was recently touched",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1624] rolls stale gateway agent sessions even when updatedAt was recently touched",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1624",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not let explicit sessionId bypass stale gateway session freshness",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1684] does not let explicit sessionId bypass stale gateway session freshness",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1684",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not forward a non-main agent id with canonical global session keys",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1745] does not forward a non-main agent id with canonical global session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1745",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] dispatches async gateway agent task creation through the detached task runtime seam",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1785] dispatches async gateway agent task creation through the detached task runtime seam",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1785",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] routes voice wake trigger to configured session target",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1842] routes voice wake trigger to configured session target",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1842",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] ignores voice wake session route targeting unknown agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1884] ignores voice wake session route targeting unknown agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1884",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] applies default voice wake route when trigger field is present but empty",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1927] applies default voice wake route when trigger field is present but empty",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1927",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] trims whitespace-only delivery fields before disabling voice wake auto-routing",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:1974] trims whitespace-only delivery fields before disabling voice wake auto-routing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:1974",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not auto-route voice wake requests with an explicit session key",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2023] does not auto-route voice wake requests with an explicit session key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2023",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not auto-route voice wake requests with another agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2070] does not auto-route voice wake requests with another agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2070",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] treats explicit sessionId as an opt-out for voice wake auto-routing",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2117] treats explicit sessionId as an opt-out for voice wake auto-routing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2117",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] handles missing cliSessionIds gracefully",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2165] handles missing cliSessionIds gracefully",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2165",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] prunes legacy main alias keys when writing a canonical session entry",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2174] prunes legacy main alias keys when writing a canonical session entry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2174",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] handles bare /new by resetting the same session and sending reset greeting prompt",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2219] handles bare /new by resetting the same session and sending reset greeting prompt",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2219",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] prepends runtime-loaded startup memory to bare /new agent runs",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2245] prepends runtime-loaded startup memory to bare /new agent runs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2245",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] uses shared bootstrap reset wording for bare /new when workspace bootstrap is pending",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2284] uses shared bootstrap reset wording for bare /new when workspace bootstrap is pending",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2284",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] resolves bare /new bootstrap state from the effective spawned workspace",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2316] resolves bare /new bootstrap state from the effective spawned workspace",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2316",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] suppresses full bootstrap wording for bare /new on subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2373] suppresses full bootstrap wording for bare /new on subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2373",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] uses /reset suffix as the post-reset message and still injects timestamp",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2507] uses /reset suffix as the post-reset message and still injects timestamp",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2507",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] uses request model override when resolving bare /new bootstrap file access",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2534] uses request model override when resolving bare /new bootstrap file access",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2534",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] rejects malformed agent session keys early in agent handler",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2579] rejects malformed agent session keys early in agent handler",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2579",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] rejects /reset for write-scoped gateway callers",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2600] rejects /reset for write-scoped gateway callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2600",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] rejects malformed session keys in agent.identity.get",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2628] rejects malformed session keys in agent.identity.get",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2628",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] redacts unsafe avatar sources in agent.identity.get",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2645] redacts unsafe avatar sources in agent.identity.get",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2645",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] drops forged groupId on non-group session before writing session entry",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2703] drops forged groupId on non-group session before writing session entry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2703",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] preserves groupId when session key encodes matching group membership",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2708] preserves groupId when session key encodes matching group membership",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2708",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] clears a previously forged groupId from the session entry on reconnection",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2717] clears a previously forged groupId from the session entry on reconnection",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2717",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] trusts groupId when spawnedBy session key encodes the matching group",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2727] trusts groupId when spawnedBy session key encodes the matching group",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2727",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] registers an abort controller into chatAbortControllers for an agent run",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2750] registers an abort controller into chatAbortControllers for an agent run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2750",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] yields after the accepted ack before dispatching heavy agent work",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2780] yields after the accepted ack before dispatching heavy agent work",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2780",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] uses the explicit no-timeout agent expiry instead of the chat 24h cap",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2818] uses the explicit no-timeout agent expiry instead of the chat 24h cap",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2818",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] sets the maintenance expiry to the configured agent timeout, not the 24h chat default",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2840] sets the maintenance expiry to the configured agent timeout, not the 24h chat default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2840",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] chat.abort by runId aborts the agent run",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2872] chat.abort by runId aborts the agent run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2872",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] keeps the sessions.abort wait snapshot after late agent completion",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2914] keeps the sessions.abort wait snapshot after late agent completion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2914",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] chat.abort without runId aborts the active agent run for the sessionKey",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:2977] chat.abort without runId aborts the active agent run for the sessionKey",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:2977",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] removes the chatAbortControllers entry after the run completes successfully",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:3014] removes the chatAbortControllers entry after the run completes successfully",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:3014",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] removes the chatAbortControllers entry after the run errors",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:3038] removes the chatAbortControllers entry after the run errors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:3038",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] removes the chatAbortControllers entry if pre-dispatch reactivation fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:3059] removes the chatAbortControllers entry if pre-dispatch reactivation fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:3059",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts] does not overwrite or evict a pre-existing chatAbortControllers entry with the same runId",
+TEST_CASE("v4.29 [src/gateway/server-methods/agent.test.ts:3100] does not overwrite or evict a pre-existing chatAbortControllers entry with the same runId",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/agent.test.ts:3100",
                "upstream it() block #67",

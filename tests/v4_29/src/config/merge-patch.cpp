@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/merge-patch.test.ts] replaces arrays by default",
+TEST_CASE("v4.29 [src/config/merge-patch.test.ts:22] replaces arrays by default",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.test.ts] merges object arrays by id when enabled",
+TEST_CASE("v4.29 [src/config/merge-patch.test.ts:33] merges object arrays by id when enabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.test.ts] merges by id even when patch entries lack id (appends them)",
+TEST_CASE("v4.29 [src/config/merge-patch.test.ts:55] merges by id even when patch entries lack id (appends them)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.test.ts] does not destroy agents list when patching a single agent by id",
+TEST_CASE("v4.29 [src/config/merge-patch.test.ts:85] does not destroy agents list when patching a single agent by id",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.test.ts] keeps existing id entries when patch mixes id and primitive entries",
+TEST_CASE("v4.29 [src/config/merge-patch.test.ts:123] keeps existing id entries when patch mixes id and primitive entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.test.ts] falls back to replacement for non-id arrays even when enabled",
+TEST_CASE("v4.29 [src/config/merge-patch.test.ts:160] falls back to replacement for non-id arrays even when enabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.test.ts:160",
                "upstream it() block #5",

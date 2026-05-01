@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts] should enable hooks when user selects them",
+TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts:137] should enable hooks when user selects them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-hooks.test.ts:137",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts] should not enable hooks when user skips",
+TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts:165] should not enable hooks when user skips",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-hooks.test.ts:165",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts] should handle no eligible hooks",
+TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts:174] should handle no eligible hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-hooks.test.ts:174",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts] should preserve existing hooks config when enabled",
+TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts:188] should preserve existing hooks config when enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-hooks.test.ts:188",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts] should preserve existing config when user skips",
+TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts:210] should preserve existing config when user skips",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-hooks.test.ts:210",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts] should show informative notes to user",
+TEST_CASE("v4.29 [src/commands/onboard-hooks.test.ts:223] should show informative notes to user",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-hooks.test.ts:223",
                "upstream it() block #5",

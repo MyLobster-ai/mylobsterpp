@@ -5,250 +5,250 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns text unchanged when under limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:100] returns text unchanged when under limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] truncates text that exceeds limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:105] truncates text that exceeds limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] preserves at least MIN_KEEP_CHARS (2000) when the budget allows it",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:112] preserves at least MIN_KEEP_CHARS (2000) when the budget allows it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] tries to break at newline boundary",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:118] tries to break at newline boundary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] supports custom suffix and min keep chars",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:136] supports custom suffix and min keep chars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] sums all text blocks in tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:148] sums all text blocks in tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns zero for non-toolResult messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:165] returns zero for non-toolResult messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:165",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] truncates with a custom suffix",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:171] truncates with a custom suffix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:171",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] scales with context window size",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:194] scales with context window size",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:194",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] exports the live cap through both constant names",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:200] exports the live cap through both constant names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:200",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] caps at HARD_MAX_TOOL_RESULT_CHARS for very large windows",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:205] caps at HARD_MAX_TOOL_RESULT_CHARS for very large windows",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:205",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] caps 128K contexts at the live tool-result ceiling",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:210] caps 128K contexts at the live tool-result ceiling",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:210",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] supports a higher configured hard cap",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:215] supports a higher configured hard cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:215",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] resolves per-agent tool-result cap overrides",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:220] resolves per-agent tool-result cap overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:220",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns false for small tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:240] returns false for small tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:240",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns true for oversized tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:245] returns true for oversized tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:245",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] honors an explicit higher maxChars override",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:250] honors an explicit higher maxChars override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:250",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns false for non-toolResult messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:255] returns false for non-toolResult messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:255",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns true for individually oversized tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:262] returns true for individually oversized tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:262",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns true for aggregate medium tool results that exceed the shared budget",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:269] returns true for aggregate medium tool results that exceed the shared budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:269",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] reports no reducible budget when tool results are already small",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:283] reports no reducible budget when tool results are already small",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:283",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] estimates reducible chars for aggregate medium tool-result tails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:295] estimates reducible chars for aggregate medium tool-result tails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:295",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] counts aggregate savings on top of oversized savings in a single pass",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:314] counts aggregate savings on top of oversized savings in a single pass",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:314",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] lets tiny caps drive aggregate recovery estimates without the old floor",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:336] lets tiny caps drive aggregate recovery estimates without the old floor",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:336",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] returns unchanged messages when nothing is oversized",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:358] returns unchanged messages when nothing is oversized",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:358",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] truncates oversized tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:372] truncates oversized tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:372",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] preserves non-toolResult messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:391] preserves non-toolResult messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:391",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] handles multiple oversized tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:402] handles multiple oversized tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:402",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] readably truncates aggregate medium tool results in a session file",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:423] readably truncates aggregate medium tool results in a session file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:423",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] prefers truncating newer aggregate tool-result entries before older larger ones",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:479] prefers truncating newer aggregate tool-result entries before older larger ones",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:479",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] allows persisted-session recovery truncation to shrink below the old 2k floor",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:519] allows persisted-session recovery truncation to shrink below the old 2k floor",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:519",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] combines oversized and aggregate recovery truncation in the same session rewrite",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:545] combines oversized and aggregate recovery truncation in the same session rewrite",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:545",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] lets aggregate recovery honor a tiny explicit cap during persisted rewrite",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:577] lets aggregate recovery honor a tiny explicit cap during persisted rewrite",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:577",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] preserves error content at the tail when present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:616] preserves error content at the tail when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:616",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts] uses simple head truncation when tail has no important content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-truncation.test.ts:628] uses simple head truncation when tail has no important content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-truncation.test.ts:628",
                "upstream it() block #34",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts] returns original text for non-payload replies",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts:12] returns original text for non-payload replies",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/payload.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts] parses a media payload",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts:18] parses a media payload",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/payload.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts] rejects malformed or incomplete payloads",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts:34] rejects malformed or incomplete payloads",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/payload.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts] round-trips cron reminder payloads through the stored format",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts:42] round-trips cron reminder payloads through the stored format",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/payload.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts] reports cron decode errors without throwing",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/payload.test.ts:59] reports cron decode errors without throwing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/payload.test.ts:59",
                "upstream it() block #4",

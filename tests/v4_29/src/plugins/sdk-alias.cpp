@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] resolves source extension-api aliases through the wider source extension family",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:508] resolves source extension-api aliases through the wider source extension family",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:508",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] derives plugin-sdk subpaths from package exports",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:543] derives plugin-sdk subpaths from package exports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:543",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] adds private qa plugin-sdk subpaths for trusted local checkouts when enabled",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:560] adds private qa plugin-sdk subpaths for trusted local checkouts when enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:560",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] does not reuse a non-private cached subpath list after private qa gets enabled",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:595] does not reuse a non-private cached subpath list after private qa gets enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:595",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] builds plugin-sdk aliases from the module being loaded, not the loader location",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:677] builds plugin-sdk aliases from the module being loaded, not the loader location",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:677",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] adds private qa plugin-sdk aliases for source plugins when enabled",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:712] adds private qa plugin-sdk aliases for source plugins when enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:712",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] applies explicit dist resolution to plugin-sdk subpath aliases too",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:763] applies explicit dist resolution to plugin-sdk subpath aliases too",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:763",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] falls back to source plugin-sdk subpath aliases when dist chunks are stale",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:780] falls back to source plugin-sdk subpath aliases when dist chunks are stale",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:780",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] builds source plugin-sdk subpath aliases through the wider source extension family",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:809] builds source plugin-sdk subpath aliases through the wider source extension family",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:809",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] resolves plugin-sdk aliases for user-installed plugins via the running openclaw argv hint",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:829] resolves plugin-sdk aliases for user-installed plugins via the running openclaw argv hint",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:829",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] resolves plugin-sdk aliases for user-installed plugins via moduleUrl hint",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:852] resolves plugin-sdk aliases for user-installed plugins via moduleUrl hint",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:852",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] configures the plugin loader jiti boundary to prefer native dist modules",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:915] configures the plugin loader jiti boundary to prefer native dist modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:915",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] uses transpiled Jiti loads for source TypeScript plugin entries",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:925] uses transpiled Jiti loads for source TypeScript plugin entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:925",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] disables native Jiti loads under Bun even for built JavaScript entries",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:932] disables native Jiti loads under Bun even for built JavaScript entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:932",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] enables native Jiti loads on Windows for built JavaScript entries",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:955] enables native Jiti loads on Windows for built JavaScript entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:955",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] keeps plugin loader dist shortcuts on native Jiti on Windows for JS entries",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:975] keeps plugin loader dist shortcuts on native Jiti on Windows for JS entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:975",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] prefers native jiti for bundled plugin dist .js modules, keeps .ts on aliased path",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1001] prefers native jiti for bundled plugin dist .js modules, keeps .ts on aliased path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1001",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] keeps plugin loader Jiti cache keys stable across alias insertion order",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1023] keeps plugin loader Jiti cache keys stable across alias insertion order",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1023",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] returns plugin loader Jiti config with stable cache keys",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1043] returns plugin loader Jiti config with stable cache keys",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1043",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] scopes plugin loader Jiti config by plugin-sdk resolution",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1060] scopes plugin loader Jiti config by plugin-sdk resolution",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1060",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] detects bundled plugin extension paths across source and dist roots",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1098] detects bundled plugin extension paths across source and dist roots",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1098",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] normalizes Windows alias targets before handing them to Jiti",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1119] normalizes Windows alias targets before handing them to Jiti",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1119",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] loads source runtime shims through the non-native Jiti boundary",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1138] loads source runtime shims through the non-native Jiti boundary",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1138",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] returns the same object reference for identical effective context",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1214] returns the same object reference for identical effective context",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1214",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] returns different references for different modulePath inputs",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1229] returns different references for different modulePath inputs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1229",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] returns different references when pluginSdkResolution differs",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1252] returns different references when pluginSdkResolution differs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1252",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] returns different references when argv1 differs",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1267] returns different references when argv1 differs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1267",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] does not reuse a public alias map after private qa aliases are enabled",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1282] does not reuse a public alias map after private qa aliases are enabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1282",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] does not reuse a development alias map in production mode",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1308] does not reuse a development alias map in production mode",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1308",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] memoized result has identical content to a freshly computed map",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1332] memoized result has identical content to a freshly computed map",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1332",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] pre-normalizes and marks alias maps for Jiti",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1354] pre-normalizes and marks alias maps for Jiti",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1354",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] applies Jiti alias-target normalization before caching",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1370] applies Jiti alias-target normalization before caching",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1370",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts] does not attach an empty alias map",
+TEST_CASE("v4.29 [src/plugins/sdk-alias.test.ts:1382] does not attach an empty alias map",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/sdk-alias.test.ts:1382",
                "upstream it() block #32",

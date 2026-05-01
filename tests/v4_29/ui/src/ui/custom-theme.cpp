@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] normalizes tweakcn share links and raw registry links",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:101] normalizes tweakcn share links and raw registry links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] extracts theme ids from copied tweakcn editor URLs and pasted text",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:128] extracts theme ids from copied tweakcn editor URLs and pasted text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] maps a tweakcn payload into a normalized imported theme record",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:157] maps a tweakcn payload into a normalized imported theme record",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:157",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] fetches tweakcn themes with bounded no-redirect requests",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:168] fetches tweakcn themes with bounded no-redirect requests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:168",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] rejects oversized tweakcn theme responses before parsing",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:188] rejects oversized tweakcn theme responses before parsing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] rejects tweakcn theme responses without a bounded body stream",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:199] rejects tweakcn theme responses without a bounded body stream",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] rejects redirected tweakcn import responses",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:209] rejects redirected tweakcn import responses",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:209",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] rejects CSS tokens that can escape variables or trigger external requests",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:220] rejects CSS tokens that can escape variables or trigger external requests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:220",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] validates imported font families without regex backtracking",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:257] validates imported font families without regex backtracking",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:257",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] builds stable CSS blocks for custom dark and light themes",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:278] builds stable CSS blocks for custom dark and light themes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:278",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] throws when stored custom theme tokens are missing",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:287] throws when stored custom theme tokens are missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:287",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] parses stored imported themes and rejects malformed records",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:295] parses stored imported themes and rejects malformed records",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:295",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts] syncs the managed custom theme style tag in the document head",
+TEST_CASE("v4.29 [ui/src/ui/custom-theme.test.ts:302] syncs the managed custom theme style tag in the document head",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/custom-theme.test.ts:302",
                "upstream it() block #12",

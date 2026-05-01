@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts] records inbound and outbound traffic in cursor order",
+TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts:5] records inbound and outbound traffic in cursor order",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/bus-state.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts] creates threads and mutates message state",
+TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts:27] creates threads and mutates message state",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/bus-state.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts] waits for a text match and rejects on timeout",
+TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts:68] waits for a text match and rejects on timeout",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/bus-state.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts] keeps account-scoped cursor waits blocked on unrelated account traffic",
+TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts:95] keeps account-scoped cursor waits blocked on unrelated account traffic",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/bus-state.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts] wakes default-account cursor waits when accountId is omitted",
+TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts:124] wakes default-account cursor waits when accountId is omitted",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/bus-state.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts] preserves inline attachments and lets search match attachment metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/bus-state.test.ts:139] preserves inline attachments and lets search match attachment metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/bus-state.test.ts:139",
                "upstream it() block #5",

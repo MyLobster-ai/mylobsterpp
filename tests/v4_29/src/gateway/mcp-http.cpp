@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] passes session, account, and message channel headers into shared tool resolution",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:121] passes session, account, and message channel headers into shared tool resolution",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] adds empty properties for object schemas that omit properties",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:153] adds empty properties for object schemas that omit properties",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:153",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] derives senderIsOwner from the loopback bearer token",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:190] derives senderIsOwner from the loopback bearer token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:190",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] ignores spoofed owner headers when the bearer token is non-owner scoped",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:233] ignores spoofed owner headers when the bearer token is non-owner scoped",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:233",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] filters owner-only tools from non-owner tool lists",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:260] filters owner-only tools from non-owner tool lists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:260",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] keeps owner-only tools available to owner loopback callers",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:314] keeps owner-only tools available to owner loopback callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:314",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] does not execute owner-only tools for non-owner callers",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:358] does not execute owner-only tools for non-owner callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:358",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] honors before-tool-call hook blocks before loopback tool execution",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:408] honors before-tool-call hook blocks before loopback tool execution",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:408",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] forwards the request abort signal to loopback tool execution",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:465] forwards the request abort signal to loopback tool execution",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:465",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] tracks the active runtime only while the server is running",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:510] tracks the active runtime only while the server is running",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:510",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] starts the loopback server lazily and reuses the same singleton",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:522] starts the loopback server lazily and reuses the same singleton",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:522",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] returns 401 when the bearer token is missing",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:535] returns 401 when the bearer token is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:535",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] returns 415 when the content type is not JSON",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:545] returns 415 when the content type is not JSON",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:545",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] rejects cross-origin browser requests before auth",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:557] rejects cross-origin browser requests before auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:557",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] rejects non-loopback origins even without fetch metadata",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:572] rejects non-loopback origins even without fetch metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:572",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] allows loopback browser origins for local clients",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:586] allows loopback browser origins for local clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:586",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] allows same-origin browser requests from loopback clients",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:602] allows same-origin browser requests from loopback clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:602",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] allows cross-site fetch metadata when both ends are loopback (localhost ↔ 127.0.0.1)",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:619] allows cross-site fetch metadata when both ends are loopback (localhost ↔ 127.0.0.1)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:619",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts] builds a server entry with env-driven headers",
+TEST_CASE("v4.29 [src/gateway/mcp-http.test.ts:644] builds a server entry with env-driven headers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/mcp-http.test.ts:644",
                "upstream it() block #18",

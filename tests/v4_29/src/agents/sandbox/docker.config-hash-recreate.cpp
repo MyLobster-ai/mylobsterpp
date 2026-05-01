@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker.config-hash-recreate.test.ts] recreates shared container when array-order change alters hash",
+TEST_CASE("v4.29 [src/agents/sandbox/docker.config-hash-recreate.test.ts:194] recreates shared container when array-order change alters hash",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker.config-hash-recreate.test.ts:194",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker.config-hash-recreate.test.ts] applies custom binds after workspace mounts so overlapping binds can override",
+TEST_CASE("v4.29 [src/agents/sandbox/docker.config-hash-recreate.test.ts:255] applies custom binds after workspace mounts so overlapping binds can override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker.config-hash-recreate.test.ts:255",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker.config-hash-recreate.test.ts] stamps the mount format version label on created containers",
+TEST_CASE("v4.29 [src/agents/sandbox/docker.config-hash-recreate.test.ts:317] stamps the mount format version label on created containers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker.config-hash-recreate.test.ts:317",
                "upstream it() block #2",

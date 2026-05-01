@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] invokes a tool and returns {ok:true,result}",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:407] invokes a tool and returns {ok:true,result}",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:407",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] opts direct gateway tool invocation into gateway subagent binding",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:429] opts direct gateway tool invocation into gateway subagent binding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:429",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] keeps plugin tools enabled for non-core tool invokes",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:437] keeps plugin tools enabled for non-core tool invokes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:437",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] blocks tool execution when before_tool_call rejects the invoke",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:450] blocks tool execution when before_tool_call rejects the invoke",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:450",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] accepts shared-secret bearer auth on the HTTP tools surface",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:473] accepts shared-secret bearer auth on the HTTP tools surface",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:473",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] threads senderIsOwner into tool creation before owner-only filtering",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:486] threads senderIsOwner into tool creation before owner-only filtering",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:486",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] uses before_tool_call adjusted params for HTTP tool execution",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:508] uses before_tool_call adjusted params for HTTP tool execution",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:508",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] supports tools.alsoAllow in profile and implicit modes",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:525] supports tools.alsoAllow in profile and implicit modes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:525",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] routes tools invoke before plugin HTTP handlers",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:549] routes tools invoke before plugin HTTP handlers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:549",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] returns 404 when denylisted or blocked by tools.profile",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:564] returns 404 when denylisted or blocked by tools.profile",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:564",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] denies sessions_spawn via HTTP even when agent policy allows",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:592] denies sessions_spawn via HTTP even when agent policy allows",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:592",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] propagates message target/thread headers into tools context for sessions_spawn",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:618] propagates message target/thread headers into tools context for sessions_spawn",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:618",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] denies sessions_send via HTTP gateway",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:645] denies sessions_send via HTTP gateway",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:645",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] denies gateway tool via HTTP",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:656] denies gateway tool via HTTP",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:656",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] allows gateway tool via HTTP when explicitly enabled in gateway.tools.allow",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:667] allows gateway tool via HTTP when explicitly enabled in gateway.tools.allow",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:667",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] treats gateway.tools.deny as higher priority than gateway.tools.allow",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:683] treats gateway.tools.deny as higher priority than gateway.tools.allow",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:683",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] uses the configured main session key when sessionKey is missing or main",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:698] uses the configured main session key when sessionKey is missing or main",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:698",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] maps tool input/auth errors to 400/403 and unexpected execution errors to 500",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:728] maps tool input/auth errors to 400/403 and unexpected execution errors to 500",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:728",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] passes deprecated format alias through invoke payloads even when schema omits it",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:770] passes deprecated format alias through invoke payloads even when schema omits it",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:770",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] requires operator.write scope for HTTP tool invocation",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:784] requires operator.write scope for HTTP tool invocation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:784",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] treats shared-secret bearer auth as full operator access on /tools/invoke",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:810] treats shared-secret bearer auth as full operator access on /tools/invoke",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:810",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] applies owner-only tool policy on the HTTP path",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:823] applies owner-only tool policy on the HTTP path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:823",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] treats shared-secret bearer auth as owner on /tools/invoke",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:842] treats shared-secret bearer auth as owner on /tools/invoke",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:842",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] extends the HTTP deny list to high-risk execution and file tools",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:863] extends the HTTP deny list to high-risk execution and file tools",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:863",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts] falls back to plugin-backed tools when a cataloged core tool has no core implementation",
+TEST_CASE("v4.29 [src/gateway/tools-invoke-http.test.ts:891] falls back to plugin-backed tools when a cataloged core tool has no core implementation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/tools-invoke-http.test.ts:891",
                "upstream it() block #24",

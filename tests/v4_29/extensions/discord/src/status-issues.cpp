@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/status-issues.test.ts] reports disabled message content intent and unresolved channel ids",
+TEST_CASE("v4.29 [extensions/discord/src/status-issues.test.ts:6] reports disabled message content intent and unresolved channel ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/status-issues.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/status-issues.test.ts] reports channel permission failures with match metadata",
+TEST_CASE("v4.29 [extensions/discord/src/status-issues.test.ts:39] reports channel permission failures with match metadata",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/status-issues.test.ts:39",
                "upstream it() block #1",

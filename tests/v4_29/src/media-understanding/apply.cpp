@@ -5,320 +5,320 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] sets Transcript and replaces Body when audio transcription succeeds",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:332] sets Transcript and replaces Body when audio transcription succeeds",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:332",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips file blocks for text-like audio when transcription succeeds",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:350] skips file blocks for text-like audio when transcription succeeds",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:350",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] keeps caption for command parsing when audio has user text",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:368] keeps caption for command parsing when audio has user text",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:368",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] handles URL-only attachments for audio transcription",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:389] handles URL-only attachments for audio transcription",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:389",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] transcribes WhatsApp audio with parameterized MIME despite casing/whitespace",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:428] transcribes WhatsApp audio with parameterized MIME despite casing/whitespace",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:428",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] injects a placeholder transcript when URL-only audio is too small",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:462] injects a placeholder transcript when URL-only audio is too small",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:462",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] injects a placeholder transcript when local-path audio is too small",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:518] injects a placeholder transcript when local-path audio is too small",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:518",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips audio transcription when attachment exceeds maxBytes",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:563] skips audio transcription when attachment exceeds maxBytes",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:563",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] falls back to CLI model when provider fails",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:593] falls back to CLI model when provider fails",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:593",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] reads parakeet-mlx transcript from output-dir txt file",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:636] reads parakeet-mlx transcript from output-dir txt file",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:636",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] falls back to stdout for parakeet-mlx when output format is not txt",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:674] falls back to stdout for parakeet-mlx when output format is not txt",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:674",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] auto-detects sherpa for audio when binary and model files are available",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:712] auto-detects sherpa for audio when binary and model files are available",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:712",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] auto-detects whisper-cli when sherpa is unavailable",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:743] auto-detects whisper-cli when sherpa is unavailable",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:743",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] transcodes non-wav audio before auto-detected whisper-cli runs",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:772] transcodes non-wav audio before auto-detected whisper-cli runs",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:772",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips audio auto-detect when no supported binaries or provider keys are available",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:832] skips audio auto-detect when no supported binaries or provider keys are available",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:832",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] uses CLI image understanding and preserves caption for commands",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:864] uses CLI image understanding and preserves caption for commands",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:864",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] uses shared media models list when capability config is missing",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:910] uses shared media models list when capability config is missing",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:910",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] uses active model when enabled and models are missing",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:950] uses active model when enabled and models are missing",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:950",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips audio STT for attachments marked transcribed by channel preflight",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:987] skips audio STT for attachments marked transcribed by channel preflight",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:987",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] handles multiple audio attachments when attachment mode is all",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1032] handles multiple audio attachments when attachment mode is all",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1032",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] adds placeholder for tooSmall audio while preserving real transcript for valid audio",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1075] adds placeholder for tooSmall audio while preserving real transcript for valid audio",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1075",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] orders mixed media outputs as image, audio, video",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1125] orders mixed media outputs as image, audio, video",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1125",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] orders synthetic too-small audio output between image and video",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1184] orders synthetic too-small audio output between image and video",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1184",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] treats text-like attachments as CSV (comma wins over tabs)",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1246] treats text-like attachments as CSV (comma wins over tabs)",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1246",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] infers TSV when tabs are present without commas",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1263] infers TSV when tabs are present without commas",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1263",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] treats cp1252-like attachments as text",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1280] treats cp1252-like attachments as text",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1280",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips binary audio attachments that are not text-like",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1297] skips binary audio attachments that are not text-like",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1297",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips archive container attachments with +zip MIME types",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1313] skips archive container attachments with +zip MIME types",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1313",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] does not coerce binary control-byte payloads into text/plain",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1332] does not coerce binary control-byte payloads into text/plain",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1332",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] does not trust text file extensions when the buffer starts with a ZIP signature",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1347] does not trust text file extensions when the buffer starts with a ZIP signature",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1347",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] does not coerce real ZIP local headers into text/plain when UTF-16 guessing misfires",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1362] does not coerce real ZIP local headers into text/plain when UTF-16 guessing misfires",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1362",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] does not coerce ZIP central-directory headers into text/plain",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1381] does not coerce ZIP central-directory headers into text/plain",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1381",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] does not coerce empty ZIP end-of-central-directory headers into text/plain",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1399] does not coerce empty ZIP end-of-central-directory headers into text/plain",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1399",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] keeps utf16 text attachments eligible for extraction",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1416] keeps utf16 text attachments eligible for extraction",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1416",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] does not reclassify PDF attachments as text/plain",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1432] does not reclassify PDF attachments as text/plain",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1432",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] respects configured allowedMimes for text-like attachments",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1451] respects configured allowedMimes for text-like attachments",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1451",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] escapes XML special characters in filenames to prevent injection",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1468] escapes XML special characters in filenames to prevent injection",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1468",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] escapes file block content to prevent structure injection",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1491] escapes file block content to prevent structure injection",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1491",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] normalizes MIME types to prevent attribute injection",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1510] normalizes MIME types to prevent attribute injection",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1510",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] handles path traversal attempts in filenames safely",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1531] handles path traversal attempts in filenames safely",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1531",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] forces BodyForCommands when only file blocks are added",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1551] forces BodyForCommands when only file blocks are added",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1551",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] wraps extracted file text as untrusted external content",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1568] wraps extracted file text as untrusted external content",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1568",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] handles files with non-ASCII Unicode filenames",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1587] handles files with non-ASCII Unicode filenames",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1587",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] skips binary application/vnd office attachments even when bytes look printable",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1603] skips binary application/vnd office attachments even when bytes look printable",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1603",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.test.ts] keeps vendor +json attachments eligible for text extraction",
+TEST_CASE("v4.29 [src/media-understanding/apply.test.ts:1650] keeps vendor +json attachments eligible for text extraction",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.test.ts:1650",
                "upstream it() block #44",

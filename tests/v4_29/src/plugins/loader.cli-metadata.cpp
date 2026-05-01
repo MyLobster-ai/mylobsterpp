@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] suppresses trust warning logs during CLI metadata loads",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:29] suppresses trust warning logs during CLI metadata loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] passes validated plugin config into non-activating CLI metadata loads",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:74] passes validated plugin config into non-activating CLI metadata loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] uses the real channel entry in cli-metadata mode for CLI metadata capture",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:137] uses the real channel entry in cli-metadata mode for CLI metadata capture",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:137",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] skips bundled channel full entries that do not provide a dedicated cli-metadata entry",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:243] skips bundled channel full entries that do not provide a dedicated cli-metadata entry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:243",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] prefers bundled channel cli-metadata entries over full channel entries",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:310] prefers bundled channel cli-metadata entries over full channel entries",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:310",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] skips bundled non-channel full entries that do not provide a dedicated cli-metadata entry",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:395] skips bundled non-channel full entries that do not provide a dedicated cli-metadata entry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:395",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] collects channel CLI metadata during full plugin loads",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:461] collects channel CLI metadata during full plugin loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:461",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] collects channel CLI metadata during discovery plugin loads",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:557] collects channel CLI metadata during discovery plugin loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:557",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] sets bundled channel runtime before discovery CLI metadata registration",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:664] sets bundled channel runtime before discovery CLI metadata registration",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:664",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] sanitizes plugin CLI descriptor descriptions and rejects unsafe command names",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:745] sanitizes plugin CLI descriptor descriptions and rejects unsafe command names",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:745",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] rejects async plugin registration when collecting CLI metadata",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:799] rejects async plugin registration when collecting CLI metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:799",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] applies memory slot gating to non-bundled CLI metadata loads",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:837] applies memory slot gating to non-bundled CLI metadata loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:837",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts] re-evaluates memory slot gating after resolving exported plugin kind",
+TEST_CASE("v4.29 [src/plugins/loader.cli-metadata.test.ts:890] re-evaluates memory slot gating after resolving exported plugin kind",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/loader.cli-metadata.test.ts:890",
                "upstream it() block #12",

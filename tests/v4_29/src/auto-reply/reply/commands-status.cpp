@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] counts ended orchestrators with active descendants as active",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:121] counts ended orchestrators with active descendants as active",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] dedupes stale rows in the verbose subagent status summary",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:151] dedupes stale rows in the verbose subagent status summary",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:151",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] does not count a child session that moved to a newer parent in the old parent",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:182] does not count a child session that moved to a newer parent in the old parent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] counts controller-owned runs even when the latest child requester differs",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:235] counts controller-owned runs even when the latest child requester differs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:235",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] includes active and total task counts for the current session",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:253] includes active and total task counts for the current session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:253",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] hides stale completed task rows from the session task line",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:276] hides stale completed task rows from the session task line",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:276",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] shows a recent failure when no active tasks remain",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:306] shows a recent failure when no active tasks remain",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:306",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] does not leak internal runtime context through the task status line",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:327] does not leak internal runtime context through the task status line",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:327",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] truncates long task titles and details in the session task line",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:355] truncates long task titles and details in the session task line",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:355",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] prefers failure context over newer success context when showing recent failures",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:378] prefers failure context over newer success context when showing recent failures",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:378",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] falls back to same-agent task counts without details when the current session has none",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:413] falls back to same-agent task counts without details when the current session has none",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:413",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] uses transcript usage fallback in /status output",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:441] uses transcript usage fallback in /status output",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:441",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] shows the effective non-PI embedded harness in /status",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:486] shows the effective non-PI embedded harness in /status",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:486",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] uses workspace-scoped auth evidence in /status auth labels",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:526] uses workspace-scoped auth evidence in /status auth labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:526",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts] keeps /status on a session-pinned PI harness after config changes",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-status.test.ts:603] keeps /status on a session-pinned PI harness after config changes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-status.test.ts:603",
                "upstream it() block #14",

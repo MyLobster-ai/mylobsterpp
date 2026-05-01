@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] filters app self-reactions",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:266] filters app self-reactions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:266",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] filters Typing reactions",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:277] filters Typing reactions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:277",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] fails closed when bot open_id is unavailable",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:288] fails closed when bot open_id is unavailable",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:288",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] drops reactions when reactionNotifications is off",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:298] drops reactions when reactionNotifications is off",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:298",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] filters reactions on non-bot messages",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:323] filters reactions on non-bot messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:323",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] allows non-bot reactions when reactionNotifications is all",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:328] allows non-bot reactions when reactionNotifications is all",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:328",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] drops unverified reactions when sender verification times out",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:342] drops unverified reactions when sender verification times out",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:342",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] uses event chat context when provided",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:358] uses event chat context when provided",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:358",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] falls back to reacted message chat_id when event chat_id is absent",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:384] falls back to reacted message chat_id when event chat_id is absent",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:384",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] falls back to sender p2p chat when lookup returns empty chat_id",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:394] falls back to sender p2p chat when lookup returns empty chat_id",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:394",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] drops reactions without chat context when lookup does not provide chat_type",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:404] drops reactions without chat context when lookup does not provide chat_type",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:404",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] drops reactions when event chat_type is invalid and lookup cannot recover it",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:412] drops reactions when event chat_type is invalid and lookup cannot recover it",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:412",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] logs and drops reactions when lookup throws",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:424] logs and drops reactions when lookup throws",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:424",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] stops the Feishu thread binding manager when the monitor exits",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:454] stops the Feishu thread binding manager when the monitor exits",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:454",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] stops the Feishu thread binding manager when setup fails before transport starts",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:473] stops the Feishu thread binding manager when setup fails before transport starts",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:473",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] keeps bot mention when per-message mention keys collide across non-forward messages",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:513] keeps bot mention when per-message mention keys collide across non-forward messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:513",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] passes prefetched botName through to handleFeishuMessage",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:541] passes prefetched botName through to handleFeishuMessage",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:541",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] does not synthesize mention-forward intent across separate messages",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:571] does not synthesize mention-forward intent across separate messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:571",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] preserves bot mention signal when the latest merged message has no mentions",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:600] preserves bot mention signal when the latest merged message has no mentions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:600",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] excludes previously processed retries from combined debounce text",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:625] excludes previously processed retries from combined debounce text",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:625",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] uses latest fresh message id when debounce batch ends with stale retry",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:651] uses latest fresh message id when debounce batch ends with stale retry",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:651",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] releases early event dedupe when debounced dispatch fails",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:677] releases early event dedupe when debounced dispatch fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:677",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts] drops duplicate inbound events before they re-enter the debounce pipeline",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.reaction.test.ts:702] drops duplicate inbound events before they re-enter the debounce pipeline",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.reaction.test.ts:702",
                "upstream it() block #22",

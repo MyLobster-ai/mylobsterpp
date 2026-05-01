@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] validates W3C trace ids, span ids, and trace flags",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:26] validates W3C trace ids, span ids, and trace flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] parses and formats traceparent values",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:38] parses and formats traceparent values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] rejects malformed traceparent values",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:55] rejects malformed traceparent values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] rejects oversized traceparent values before parsing",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:64] rejects oversized traceparent values before parsing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] continues future-version traceparents from the first four fields",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:70] continues future-version traceparents from the first four fields",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] creates a normalized context from explicit fields or traceparent",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:78] creates a normalized context from explicit fields or traceparent",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:78",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] generates valid non-zero ids for fallback contexts",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:98] generates valid non-zero ids for fallback contexts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:98",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] creates child contexts without retaining parent references or self-parenting",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:106] creates child contexts without retaining parent references or self-parenting",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:106",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] freezes a defensive trace context copy",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:126] freezes a defensive trace context copy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:126",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] carries active trace context across async work and restores outer scopes",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:139] carries active trace context across async work and restores outer scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:139",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts] creates child trace contexts from the active request scope",
+TEST_CASE("v4.29 [src/infra/diagnostic-trace-context.test.ts:163] creates child trace contexts from the active request scope",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-trace-context.test.ts:163",
                "upstream it() block #10",

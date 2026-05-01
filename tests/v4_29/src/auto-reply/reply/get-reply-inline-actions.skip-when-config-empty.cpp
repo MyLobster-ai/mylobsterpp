@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] skips whatsapp replies when config is empty and From !== To",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:164] skips whatsapp replies when config is empty and From !== To",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:164",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] forwards agentDir into handleCommands",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:180] forwards agentDir into handleCommands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:180",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] prefers the target session entry when routing inline commands into handleCommands",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:217] prefers the target session entry when routing inline commands into handleCommands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:217",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] does not run command handlers after replying to an inline status-only turn",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:264] does not run command handlers after replying to an inline status-only turn",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:264",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] preserves storePath when routing inline status through the shared status builder",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:278] preserves storePath when routing inline status through the shared status builder",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:278",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] prefers the target session entry when routing inline status through the shared status builder",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:290] prefers the target session entry when routing inline status through the shared status builder",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:290",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] does not continue into the agent after a mention-wrapped inline status-only turn",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:340] does not continue into the agent after a mention-wrapped inline status-only turn",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:340",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] continues into the agent when mention-wrapped inline status leaves real text",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:378] continues into the agent when mention-wrapped inline status leaves real text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:378",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] skips stale queued messages that are at or before the /stop cutoff",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:419] skips stale queued messages that are at or before the /stop cutoff",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:419",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] clears /stop cutoff when a newer message arrives",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:449] clears /stop cutoff when a newer message arrives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:449",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] prefers the target session entry for inline /stop cutoff checks",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:491] prefers the target session entry for inline /stop cutoff checks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:491",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] rewrites Claude bundle markdown commands into a native agent prompt",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:528] rewrites Claude bundle markdown commands into a native agent prompt",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:528",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] passes requesterAgentIdOverride into inline tool runtimes",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:576] passes requesterAgentIdOverride into inline tool runtimes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:576",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts] passes senderIsOwner into inline tool runtimes before owner-only filtering",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:635] passes senderIsOwner into inline tool runtimes before owner-only filtering",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-inline-actions.skip-when-config-empty.test.ts:635",
                "upstream it() block #13",

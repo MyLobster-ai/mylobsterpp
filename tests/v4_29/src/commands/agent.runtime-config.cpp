@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts] sets runtime snapshots from source config before embedded agent run",
+TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts:90] sets runtime snapshots from source config before embedded agent run",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.runtime-config.test.ts:90",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts] includes channel secret targets when delivery is requested",
+TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts:166] includes channel secret targets when delivery is requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.runtime-config.test.ts:166",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts] skips command secret resolution when no relevant SecretRef values exist",
+TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts:190] skips command secret resolution when no relevant SecretRef values exist",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.runtime-config.test.ts:190",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts] derives a fresh session from --to",
+TEST_CASE("v4.29 [src/commands/agent.runtime-config.test.ts:202] derives a fresh session from --to",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.runtime-config.test.ts:202",
                "upstream it() block #3",

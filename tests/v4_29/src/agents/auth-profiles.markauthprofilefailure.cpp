@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] does not overwrite fresher on-disk credentials with a stale runtime snapshot",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:77] does not overwrite fresher on-disk credentials with a stale runtime snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] disables billing failures for ~5 hours by default",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:142] disables billing failures for ~5 hours by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:142",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] honors per-provider billing backoff overrides",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:158] honors per-provider billing backoff overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:158",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] keeps persisted cooldownUntil unchanged across mid-window retries",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:182] keeps persisted cooldownUntil unchanged across mid-window retries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:182",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] records overloaded failures in the cooldown bucket",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:208] records overloaded failures in the cooldown bucket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:208",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] disables auth_permanent failures for ~10 minutes by default",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:224] disables auth_permanent failures for ~10 minutes by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:224",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] honors auth_permanent backoff overrides",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:244] honors auth_permanent backoff overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:244",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] resets backoff counters outside the failure window",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:268] resets backoff counters outside the failure window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] resets error count when previous cooldown has expired to prevent escalation",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:308] resets error count when previous cooldown has expired to prevent escalation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:308",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] does not persist cooldown windows for OpenRouter profiles",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:356] does not persist cooldown windows for OpenRouter profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:356",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts] applies stepped backoff with a 5-min cap",
+TEST_CASE("v4.29 [src/agents/auth-profiles.markauthprofilefailure.test.ts:381] applies stepped backoff with a 5-min cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.markauthprofilefailure.test.ts:381",
                "upstream it() block #10",

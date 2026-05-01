@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts] maps agentMeta.usage to OpenAI prompt/completion/total fields",
+TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts:7] maps agentMeta.usage to OpenAI prompt/completion/total fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openai-http.usage.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts] falls back to agentMeta.lastCallUsage when agentMeta.usage is missing",
+TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts:23] falls back to agentMeta.lastCallUsage when agentMeta.usage is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openai-http.usage.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts] falls back to agentMeta.lastCallUsage when agentMeta.usage is all zero",
+TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts:39] falls back to agentMeta.lastCallUsage when agentMeta.usage is all zero",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openai-http.usage.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts] returns zeros when both agentMeta.usage and lastCallUsage are absent",
+TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts:56] returns zeros when both agentMeta.usage and lastCallUsage are absent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openai-http.usage.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts] returns zeros when the result has no meta at all",
+TEST_CASE("v4.29 [src/gateway/openai-http.usage.test.ts:66] returns zeros when the result has no meta at all",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openai-http.usage.test.ts:66",
                "upstream it() block #4",

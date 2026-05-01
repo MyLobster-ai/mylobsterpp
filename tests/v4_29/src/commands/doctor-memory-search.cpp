@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when local provider is set with no explicit modelPath (default model fallback)",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:188] does not warn when local provider is set with no explicit modelPath (default model fallback)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:188",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] warns when local provider with default model but gateway probe reports not ready",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:200] warns when local provider with default model but gateway probe reports not ready",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:200",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when local provider with default model and gateway probe is ready",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:217] does not warn when local provider with default model and gateway probe is ready",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:217",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not treat an inconclusive gateway timeout as local embeddings not ready",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:231] does not treat an inconclusive gateway timeout as local embeddings not ready",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:231",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when local provider has an explicit hf: modelPath",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:249] does not warn when local provider has an explicit hf: modelPath",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not emit provider guidance when no memory runtime is active",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:261] does not emit provider guidance when no memory runtime is active",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:261",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when QMD backend is active",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:279] does not warn when QMD backend is active",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] warns when QMD backend is active but the qmd binary is unavailable",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:297] warns when QMD backend is active but the qmd binary is unavailable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:297",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when remote apiKey is configured for explicit provider",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:319] does not warn when remote apiKey is configured for explicit provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:319",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] treats SecretRef remote apiKey as configured for explicit provider",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:323] treats SecretRef remote apiKey as configured for explicit provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:323",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn in auto mode when remote apiKey is configured",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:338] does not warn in auto mode when remote apiKey is configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:338",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] treats SecretRef remote apiKey as configured in auto mode",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:342] treats SecretRef remote apiKey as configured in auto mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:342",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] resolves provider auth from the default agent directory",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:357] resolves provider auth from the default agent directory",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:357",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] resolves mistral auth for explicit mistral embedding provider",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:379] resolves mistral auth for explicit mistral embedding provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:379",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn for lmstudio when gateway probe is ready",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:401] does not warn for lmstudio when gateway probe is ready",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:401",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn for ollama when gateway probe is ready without CLI API key",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:415] does not warn for ollama when gateway probe is ready without CLI API key",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:415",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] warns for ollama when gateway probe reports embeddings are not ready",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:430] warns for ollama when gateway probe reports embeddings are not ready",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:430",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] warns when lmstudio gateway probe reports embeddings are not ready",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:446] warns when lmstudio gateway probe reports embeddings are not ready",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:446",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when key-optional provider (lmstudio) probe was skipped (skipped: true)",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:462] does not warn when key-optional provider (lmstudio) probe was skipped (skipped: true)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:462",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when key-optional provider (ollama) probe was skipped (skipped: true)",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:481] does not warn when key-optional provider (ollama) probe was skipped (skipped: true)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:481",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] warns for key-optional provider (lmstudio) when gateway probe timed out",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:496] warns for key-optional provider (lmstudio) when gateway probe timed out",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:496",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] notes when gateway probe reports embeddings ready and CLI API key is missing",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:519] notes when gateway probe reports embeddings ready and CLI API key is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:519",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] uses model configure hint when gateway probe is unavailable and API key is missing",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:534] uses model configure hint when gateway probe is unavailable and API key is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:534",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] warns in auto mode when no local modelPath and no API keys are configured",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:555] warns in auto mode when no local modelPath and no API keys are configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:555",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not probe unrelated embedding providers in auto mode",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:573] does not probe unrelated embedding providers in auto mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:573",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] skips auth-profile probing in auto mode when no auth store exists",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:598] skips auth-profile probing in auto mode when no auth store exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:598",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] uses runtime-derived env var hints for explicit providers",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:613] uses runtime-derived env var hints for explicit providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:613",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] uses runtime-derived env var hints in auto mode",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:627] uses runtime-derived env var hints in auto mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:627",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] does not warn when only lowercase memory.md exists",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:640] does not warn when only lowercase memory.md exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:640",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] notes recall-store audit problems with doctor guidance",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:684] notes recall-store audit problems with doctor guidance",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:684",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] runs memory recall repair during doctor --fix",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:723] runs memory recall repair during doctor --fix",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:723",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] runs dreaming artifact repair during doctor --fix",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:764] runs dreaming artifact repair during doctor --fix",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:764",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] returns active workspace and no legacy dirs",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:808] returns active workspace and no legacy dirs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:808",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts] explains split-brain when both root memory files exist",
+TEST_CASE("v4.29 [src/commands/doctor-memory-search.test.ts:817] explains split-brain when both root memory files exist",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-memory-search.test.ts:817",
                "upstream it() block #33",

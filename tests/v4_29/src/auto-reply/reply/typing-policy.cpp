@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts] forces heartbeat policy for heartbeat runs",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts:5] forces heartbeat policy for heartbeat runs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-policy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts] forces internal webchat policy",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts:16] forces internal webchat policy",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-policy.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts] forces system event policy for routed turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts:27] forces system event policy for routed turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-policy.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts] preserves requested policy for regular user turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts:39] preserves requested policy for regular user turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-policy.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts] respects explicit suppressTyping",
+TEST_CASE("v4.29 [src/auto-reply/reply/typing-policy.test.ts:50] respects explicit suppressTyping",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/typing-policy.test.ts:50",
                "upstream it() block #4",

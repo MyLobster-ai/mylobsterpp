@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] fetches $value endpoint when contentBytes is null but item.id exists",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:108] fetches $value endpoint when contentBytes is null but item.id exists",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] skips hosted content when contentBytes is null and id is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:135] skips hosted content when contentBytes is null and id is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:135",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] skips $value content when Content-Length exceeds maxBytes",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:151] skips $value content when Content-Length exceeds maxBytes",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] uses inline contentBytes when available instead of $value",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:181] uses inline contentBytes when available instead of $value",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:181",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] adds the OpenClaw User-Agent to guarded Graph attachment fetches",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:203] adds the OpenClaw User-Agent to guarded Graph attachment fetches",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:203",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] adds the OpenClaw User-Agent to Graph shares downloads for reference attachments",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:223] adds the OpenClaw User-Agent to Graph shares downloads for reference attachments",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] does NOT call the nonexistent ${messageUrl}/attachments sub-resource",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:273] does NOT call the nonexistent ${messageUrl}/attachments sub-resource",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:273",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] sources reference attachments from the message body",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:302] sources reference attachments from the message body",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:302",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] logs a debug event when the message fetch throws instead of swallowing it",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:338] logs a debug event when the message fetch throws instead of swallowing it",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:338",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] logs a debug event when the message fetch returns non-ok",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:366] logs a debug event when the message fetch returns non-ok",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:366",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts] logs a debug event when token acquisition fails",
+TEST_CASE("v4.29 [extensions/msteams/src/attachments/graph.test.ts:393] logs a debug event when token acquisition fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/attachments/graph.test.ts:393",
                "upstream it() block #10",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/openclaw.plugin.test.ts] keeps removed Codex CLI import auth choice as a deprecated browser-login alias",
+TEST_CASE("v4.29 [extensions/openai/openclaw.plugin.test.ts:56] keeps removed Codex CLI import auth choice as a deprecated browser-login alias",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openclaw.plugin.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/openclaw.plugin.test.ts] labels OpenAI API key and Codex auth choices without stale mixed OAuth wording",
+TEST_CASE("v4.29 [extensions/openai/openclaw.plugin.test.ts:64] labels OpenAI API key and Codex auth choices without stale mixed OAuth wording",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openclaw.plugin.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/openclaw.plugin.test.ts] keeps auth choice copy aligned with provider wizard metadata",
+TEST_CASE("v4.29 [extensions/openai/openclaw.plugin.test.ts:101] keeps auth choice copy aligned with provider wizard metadata",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/openclaw.plugin.test.ts:101",
                "upstream it() block #2",

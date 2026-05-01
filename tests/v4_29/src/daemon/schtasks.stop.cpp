@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts] kills lingering verified gateway listeners after schtasks stop",
+TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts:111] kills lingering verified gateway listeners after schtasks stop",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.stop.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts] force-kills remaining busy port listeners when the first stop pass does not free the port",
+TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts:127] force-kills remaining busy port listeners when the first stop pass does not free the port",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.stop.test.ts:127",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts] falls back to inspected gateway listeners when sync verification misses on Windows",
+TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts:151] falls back to inspected gateway listeners when sync verification misses on Windows",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.stop.test.ts:151",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts] kills lingering verified gateway listeners and waits for port release before restart",
+TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts:171] kills lingering verified gateway listeners and waits for port release before restart",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.stop.test.ts:171",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts] throws when /Run fails during restart",
+TEST_CASE("v4.29 [src/daemon/schtasks.stop.test.ts:190] throws when /Run fails during restart",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.stop.test.ts:190",
                "upstream it() block #4",

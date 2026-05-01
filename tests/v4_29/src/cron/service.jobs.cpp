@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] clears delivery when switching to main session",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:54] clears delivery when switching to main session",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] keeps webhook delivery when switching to main session",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:67] keeps webhook delivery when switching to main session",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] applies explicit delivery patches",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:78] applies explicit delivery patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] applies explicit delivery patches for custom session targets",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:107] applies explicit delivery patches for custom session targets",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] merges delivery.accountId from patch and preserves existing",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:130] merges delivery.accountId from patch and preserves existing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:130",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] persists agentTurn payload.lightContext updates when editing existing jobs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:152] persists agentTurn payload.lightContext updates when editing existing jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:152",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] persists agentTurn payload.fallbacks updates when editing existing jobs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:177] persists agentTurn payload.fallbacks updates when editing existing jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:177",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] persists agentTurn payload.toolsAllow updates when editing existing jobs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:202] persists agentTurn payload.toolsAllow updates when editing existing jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:202",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] clears agentTurn payload.toolsAllow when patch requests null",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:227] clears agentTurn payload.toolsAllow when patch requests null",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:227",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] applies payload.lightContext when replacing payload kind via patch",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:252] applies payload.lightContext when replacing payload kind via patch",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:252",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] carries payload.fallbacks when replacing payload kind via patch",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:274] carries payload.fallbacks when replacing payload kind via patch",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:274",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] carries payload.toolsAllow when replacing payload kind via patch",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:296] carries payload.toolsAllow when replacing payload kind via patch",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:296",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] trims webhook delivery target URLs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:340] trims webhook delivery target URLs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:340",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] rejects failureDestination on main jobs without webhook delivery mode",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:352] rejects failureDestination on main jobs without webhook delivery mode",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:352",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] validates and trims webhook failureDestination target URLs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:369] validates and trims webhook failureDestination target URLs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:369",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] preserves raw channel delivery targets for plugin-owned validation",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:397] preserves raw channel delivery targets for plugin-owned validation",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:397",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] allows isolated session job for non-default agents",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:468] allows isolated session job for non-default agents",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:468",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] rejects custom session targets with path separators",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:483] rejects custom session targets with path separators",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:483",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] rejects failureDestination on main jobs without webhook delivery mode",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:497] rejects failureDestination on main jobs without webhook delivery mode",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:497",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] rejects patching to a custom session target with path separators",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:549] rejects patching to a custom session target with path separators",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:549",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] defaults top-of-hour cron jobs to 5m stagger",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:565] defaults top-of-hour cron jobs to 5m stagger",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:565",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] keeps exact schedules when staggerMs is explicitly 0",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:581] keeps exact schedules when staggerMs is explicitly 0",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:581",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] preserves existing stagger when editing cron expression without stagger",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:597] preserves existing stagger when editing cron expression without stagger",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:597",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] applies default stagger when switching from every to top-of-hour cron",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:623] applies default stagger when switching from every to top-of-hour cron",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:623",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] defaults delivery to { mode: ",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:652] defaults delivery to { mode: ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:652",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] preserves explicit delivery for isolated agentTurn jobs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:665] preserves explicit delivery for isolated agentTurn jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:665",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] does not set delivery for main systemEvent jobs without explicit delivery",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:679] does not set delivery for main systemEvent jobs without explicit delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:679",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] uses legacy systemEvent message text without throwing",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:692] uses legacy systemEvent message text without throwing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:692",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.jobs.test.ts] backfills missing every anchorMs for legacy loaded jobs",
+TEST_CASE("v4.29 [src/cron/service.jobs.test.ts:708] backfills missing every anchorMs for legacy loaded jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.jobs.test.ts:708",
                "upstream it() block #28",

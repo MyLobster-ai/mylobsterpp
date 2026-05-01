@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] returns an empty snapshot when skills dirs are missing",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:102] returns an empty snapshot when skills dirs are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] omits disable-model-invocation skills from the prompt",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:111] omits disable-model-invocation skills from the prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] keeps prompt output aligned with buildWorkspaceSkillsPrompt",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:133] keeps prompt output aligned with buildWorkspaceSkillsPrompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] truncates the skills prompt when it exceeds the configured char budget",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:178] truncates the skills prompt when it exceeds the configured char budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:178",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] uses agents.list[].skills as a full replacement for inherited defaults",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:200] uses agents.list[].skills as a full replacement for inherited defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] limits discovery for nested repo-style skills roots (dir/skills/*)",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:227] limits discovery for nested repo-style skills roots (dir/skills/*)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:227",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] skips skills whose SKILL.md exceeds maxSkillFileBytes",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:260] skips skills whose SKILL.md exceeds maxSkillFileBytes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:260",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] detects nested skills roots beyond the first 25 entries",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:292] detects nested skills roots beyond the first 25 entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:292",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts] enforces maxSkillFileBytes for root-level SKILL.md",
+TEST_CASE("v4.29 [src/agents/skills.buildworkspaceskillsnapshot.test.ts:328] enforces maxSkillFileBytes for root-level SKILL.md",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.buildworkspaceskillsnapshot.test.ts:328",
                "upstream it() block #8",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/channel-contract-surface-guardrails.test.ts] keeps ${entry.path} free of moved channel-specific secret wiring",
+TEST_CASE("v4.29 [src/secrets/channel-contract-surface-guardrails.test.ts:96] keeps ${entry.path} free of moved channel-specific secret wiring",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/channel-contract-surface-guardrails.test.ts:96",
                "upstream it() block #0",

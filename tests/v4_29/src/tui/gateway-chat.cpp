@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] throws when url override is missing explicit credentials",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:139] throws when url override is missing explicit credentials",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:139",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] carries configured handshake timeout to the TUI client connection",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:174] carries configured handshake timeout to the TUI client connection",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:174",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] uses config auth token for local mode when both config and env tokens are set",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:187] uses config auth token for local mode when both config and env tokens are set",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:187",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] falls back to OPENCLAW_GATEWAY_TOKEN when config token is missing",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:196] falls back to OPENCLAW_GATEWAY_TOKEN when config token is missing",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:196",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] uses local password auth when gateway.auth.mode is unset and password-only is configured",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:205] uses local password auth when gateway.auth.mode is unset and password-only is configured",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:205",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] keeps normal TUI local password mode env precedence by default",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:220] keeps normal TUI local password mode env precedence by default",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:220",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] uses configured local password for setup-launched TUI despite stale gateway password env",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:237] uses configured local password for setup-launched TUI despite stale gateway password env",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:237",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] still resolves env SecretRefs for setup-launched TUI config auth",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:260] still resolves env SecretRefs for setup-launched TUI config auth",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:260",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] fails when both local token and password are configured but gateway.auth.mode is unset",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:288] fails when both local token and password are configured but gateway.auth.mode is unset",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:288",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] resolves env-template config auth token from referenced env var",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:304] resolves env-template config auth token from referenced env var",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:304",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] fails with guidance when env-template config auth token is unresolved",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:323] fails with guidance when env-template config auth token is unresolved",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:323",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] prefers OPENCLAW_GATEWAY_PASSWORD over remote password fallback",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:336] prefers OPENCLAW_GATEWAY_PASSWORD over remote password fallback",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:336",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] resolves exec-backed SecretRef token for local mode",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:388] resolves exec-backed SecretRef token for local mode",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:388",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] resolves only token SecretRef when gateway.auth.mode is token",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:418] resolves only token SecretRef when gateway.auth.mode is token",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:418",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] resolves only password SecretRef when gateway.auth.mode is password",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:445] resolves only password SecretRef when gateway.auth.mode is password",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:445",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] marks loopback local connections for insecure operator ui auth when enabled",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:472] marks loopback local connections for insecure operator ui auth when enabled",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:472",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] preserves insecure local operator ui auth when a loopback url override is provided",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:490] preserves insecure local operator ui auth when a loopback url override is provided",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:490",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] identifies the TUI as a tui client and skips device identity on insecure local ui paths",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:518] identifies the TUI as a tui client and skips device identity on insecure local ui paths",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:518",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts] retries startup-unavailable chat history until the gateway finishes booting",
+TEST_CASE("v4.29 [src/tui/gateway-chat.test.ts:544] retries startup-unavailable chat history until the gateway finishes booting",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/gateway-chat.test.ts:544",
                "upstream it() block #18",

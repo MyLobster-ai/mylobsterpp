@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] waits for CDP readiness after launching to avoid follow-up PortInUseError races (#21149)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:59] waits for CDP readiness after launching to avoid follow-up PortInUseError races (#21149)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] stops launched chrome when CDP readiness never arrives",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:74] stops launched chrome when CDP readiness never arrives",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] uses configured local CDP readiness timeout after launching",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:93] uses configured local CDP readiness timeout after launching",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] deduplicates concurrent lazy-start calls to prevent PortInUseError",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:109] deduplicates concurrent lazy-start calls to prevent PortInUseError",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] deduplicates concurrent lazy-start calls across fresh profile contexts",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:124] deduplicates concurrent lazy-start calls across fresh profile contexts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] passes request-local headless override to initial launch",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:141] passes request-local headless override to initial launch",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:141",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] passes request-local headless override to the owned restart path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:156] passes request-local headless override to the owned restart path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] does not share inflight lazy-start promises across different headless overrides",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:185] does not share inflight lazy-start promises across different headless overrides",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:185",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] clears the concurrent lazy-start guard after launch failure",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:202] clears the concurrent lazy-start guard after launch failure",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:202",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] cools down repeated managed Chrome launch failures across route contexts",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:223] cools down repeated managed Chrome launch failures across route contexts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:223",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] allows one managed Chrome launch attempt after the cooldown expires",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:248] allows one managed Chrome launch attempt after the cooldown expires",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:248",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] reuses a pre-existing loopback browser after an initial short probe miss",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:269] reuses a pre-existing loopback browser after an initial short probe miss",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:269",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] explains attachOnly for externally managed loopback CDP services",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:296] explains attachOnly for externally managed loopback CDP services",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:296",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] retries remote CDP websocket reachability once before failing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:319] retries remote CDP websocket reachability once before failing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:319",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] treats attachOnly loopback CDP as local control with remote-class probe timeouts",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:363] treats attachOnly loopback CDP as local control with remote-class probe timeouts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:363",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] resolves for attachOnly loopback profile with a bare ws:// cdpUrl when CDP is reachable (#68027)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:390] resolves for attachOnly loopback profile with a bare ws:// cdpUrl when CDP is reachable (#68027)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:390",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts] redacts credentials in remote CDP availability errors",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:428] redacts credentials in remote CDP availability errors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.ensure-browser-available.waits-for-cdp-ready.test.ts:428",
                "upstream it() block #16",

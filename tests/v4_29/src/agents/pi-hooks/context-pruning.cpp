@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] mode off disables pruning",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:174] mode off disables pruning",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:174",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] does not touch tool results after the last N assistants",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:179] does not touch tool results after the last N assistants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:179",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] never prunes tool results before the first user message",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:219] never prunes tool results before the first user message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:219",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] hard-clear removes eligible tool results before cutoff",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:249] hard-clear removes eligible tool results before cutoff",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:249",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] accounts for CJK Extension B text when deciding whether to prune",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:272] accounts for CJK Extension B text when deciding whether to prune",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:272",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] uses contextWindow override when ctx.model is missing",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:300] uses contextWindow override when ctx.model is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:300",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] reads per-session settings from registry",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:313] reads per-session settings from registry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:313",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] cache-ttl prunes once and resets the ttl window",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:335] cache-ttl prunes once and resets the ttl window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:335",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] respects tools allow/deny (deny wins; wildcards supported)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:366] respects tools allow/deny (deny wins; wildcards supported)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:366",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] replaces image blocks in tool results during soft trim",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:391] replaces image blocks in tool results during soft trim",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:391",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] soft-trims across block boundaries",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:413] soft-trims across block boundaries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:413",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts] soft-trims oversized tool results and preserves head/tail with a note",
+TEST_CASE("v4.29 [src/agents/pi-hooks/context-pruning.test.ts:440] soft-trims oversized tool results and preserves head/tail with a note",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/context-pruning.test.ts:440",
                "upstream it() block #11",

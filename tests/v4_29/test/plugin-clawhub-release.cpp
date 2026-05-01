@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] ignores shared release-tooling changes",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:42] ignores shared release-tooling changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] requires the ClawHub external plugin contract",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:53] requires the ClawHub external plugin contract",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] rejects unsafe extension directory names",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:63] rejects unsafe extension directory names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] requires a version bump when a publishable plugin changes",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:75] requires a version bump when a publishable plugin changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] does not require a version bump for the first ClawHub opt-in",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:106] does not require a version bump for the first ClawHub opt-in",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] does not require a version bump for shared release-tooling changes",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:156] does not require a version bump for shared release-tooling changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] selects all publishable plugins when shared release tooling changes",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:171] selects all publishable plugins when shared release tooling changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:171",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] selects all publishable plugins when the shared setup action changes",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:186] selects all publishable plugins when the shared setup action changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:186",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] skips versions that already exist on ClawHub",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:220] skips versions that already exist on ClawHub",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:220",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts] rejects unsafe git refs",
+TEST_CASE("v4.29 [test/plugin-clawhub-release.test.ts:240] rejects unsafe git refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/plugin-clawhub-release.test.ts:240",
                "upstream it() block #9",

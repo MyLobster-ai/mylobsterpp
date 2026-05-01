@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-host.test.ts] returns null when socket credentials are missing",
+TEST_CASE("v4.29 [src/infra/exec-host.test.ts:16] returns null when socket credentials are missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-host.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-host.test.ts] builds an exec payload and forwards the default timeout",
+TEST_CASE("v4.29 [src/infra/exec-host.test.ts:34] builds an exec payload and forwards the default timeout",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-host.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-host.test.ts] accepts only exec response messages and maps malformed matches to null",
+TEST_CASE("v4.29 [src/infra/exec-host.test.ts:81] accepts only exec response messages and maps malformed matches to null",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-host.test.ts:81",
                "upstream it() block #2",

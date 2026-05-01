@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/errors.test.ts] suppresses transport-classified malformed streaming fragments",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/errors.test.ts:14] suppresses transport-classified malformed streaming fragments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/errors.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/errors.test.ts] does not suppress unclassified JSON.parse text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/errors.test.ts:21] does not suppress unclassified JSON.parse text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/errors.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/errors.test.ts] keeps non-streaming provider request-validation syntax diagnostics",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers/errors.test.ts:30] keeps non-streaming provider request-validation syntax diagnostics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers/errors.test.ts:30",
                "upstream it() block #2",

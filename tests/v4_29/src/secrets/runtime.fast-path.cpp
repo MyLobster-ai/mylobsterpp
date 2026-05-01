@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts] skips heavy resolver loading when config and auth stores have no SecretRefs",
+TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts:52] skips heavy resolver loading when config and auth stores have no SecretRefs",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.fast-path.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts] uses the fast path when web fetch only configures runtime limits",
+TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts:79] uses the fast path when web fetch only configures runtime limits",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.fast-path.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts] uses the fast path when web fetch is explicitly disabled",
+TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts:108] uses the fast path when web fetch is explicitly disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.fast-path.test.ts:108",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts] uses the resolver path when an auth profile store contains a SecretRef",
+TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts:130] uses the resolver path when an auth profile store contains a SecretRef",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.fast-path.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts] keeps explicit web fetch provider config on the resolver path",
+TEST_CASE("v4.29 [src/secrets/runtime.fast-path.test.ts:152] keeps explicit web fetch provider config on the resolver path",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime.fast-path.test.ts:152",
                "upstream it() block #4",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] pins the first successful load in memory until the snapshot is cleared",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:28] pins the first successful load in memory until the snapshot is cleared",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] returns the source snapshot when runtime snapshot is active",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:48] returns the source snapshot when runtime snapshot is active",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] tracks snapshot metadata and cache keys across runtime refreshes",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:76] tracks snapshot metadata and cache keys across runtime refreshes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] selects runtime config only when input still matches the runtime source",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:96] selects runtime config only when input still matches the runtime source",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] clears runtime source snapshot when runtime snapshot is cleared",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:144] clears runtime source snapshot when runtime snapshot is cleared",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] refreshes both snapshots from disk after a write when source + runtime snapshots exist",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:152] refreshes both snapshots from disk after a write when source + runtime snapshots exist",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:152",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] refreshes a plain runtime snapshot after writes without restoring a source snapshot",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:201] refreshes a plain runtime snapshot after writes without restoring a source snapshot",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:201",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] keeps the last-known-good runtime snapshot active while specialized refresh is pending",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:223] keeps the last-known-good runtime snapshot active while specialized refresh is pending",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:223",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts] notifies registered write listeners with committed runtime snapshots",
+TEST_CASE("v4.29 [src/config/runtime-snapshot.test.ts:296] notifies registered write listeners with committed runtime snapshots",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-snapshot.test.ts:296",
                "upstream it() block #8",

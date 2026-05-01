@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/timer-delay.test.ts] clamps to Node",
+TEST_CASE("v4.29 [src/utils/timer-delay.test.ts:9] clamps to Node",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/timer-delay.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/timer-delay.test.ts] respects custom minimums",
+TEST_CASE("v4.29 [src/utils/timer-delay.test.ts:13] respects custom minimums",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/timer-delay.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/timer-delay.test.ts] falls back to the minimum for non-finite input",
+TEST_CASE("v4.29 [src/utils/timer-delay.test.ts:18] falls back to the minimum for non-finite input",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/timer-delay.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/timer-delay.test.ts] arms setTimeout with the clamped delay",
+TEST_CASE("v4.29 [src/utils/timer-delay.test.ts:25] arms setTimeout with the clamped delay",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/timer-delay.test.ts:25",
                "upstream it() block #3",

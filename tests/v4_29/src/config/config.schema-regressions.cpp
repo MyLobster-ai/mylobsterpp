@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts memorySearch fallback ",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:5] accepts memorySearch fallback ",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts memorySearch provider ",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:19] accepts memorySearch provider ",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts memorySearch provider ",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:33] accepts memorySearch provider ",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts memorySearch.qmd.extraCollections",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:47] accepts memorySearch.qmd.extraCollections",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts agents.list[].memorySearch.qmd.extraCollections",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:65] accepts agents.list[].memorySearch.qmd.extraCollections",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts agents.defaults.startupContext overrides",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:86] accepts agents.defaults.startupContext overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] rejects oversized agents.defaults.startupContext overrides",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:105] rejects oversized agents.defaults.startupContext overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:105",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts agents.defaults and agents.list contextLimits overrides",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:120] accepts agents.defaults and agents.list contextLimits overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:120",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts agents.defaults.compaction.truncateAfterCompaction",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:148] accepts agents.defaults.compaction.truncateAfterCompaction",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:148",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts string values for agents defaults model inputs",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:162] accepts string values for agents defaults model inputs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:162",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts pdf default model and limits",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:175] accepts pdf default model and limits",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:175",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] rejects non-positive pdf limits",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:192] rejects non-positive pdf limits",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:192",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts browser.extraArgs for proxy and custom flags",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:209] accepts browser.extraArgs for proxy and custom flags",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:209",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts browser local startup timeout settings",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:219] accepts browser local startup timeout settings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:219",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] rejects out-of-range browser local startup timeout settings",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:230] rejects out-of-range browser local startup timeout settings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:230",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] rejects browser.extraArgs with non-array value",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:241] rejects browser.extraArgs with non-array value",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:241",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts browser.tabCleanup overrides",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:251] accepts browser.tabCleanup overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:251",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] rejects browser.tabCleanup.sweepMinutes when not positive",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:266] rejects browser.tabCleanup.sweepMinutes when not positive",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:266",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] rejects unknown keys under browser.tabCleanup",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:278] rejects unknown keys under browser.tabCleanup",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:278",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts tools.media.asyncCompletion.directSend",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:290] accepts tools.media.asyncCompletion.directSend",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:290",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts] accepts discovery.wideArea.domain for unicast DNS-SD",
+TEST_CASE("v4.29 [src/config/config.schema-regressions.test.ts:303] accepts discovery.wideArea.domain for unicast DNS-SD",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.schema-regressions.test.ts:303",
                "upstream it() block #20",

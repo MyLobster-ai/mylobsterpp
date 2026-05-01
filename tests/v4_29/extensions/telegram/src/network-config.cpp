@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts] defaults to enable on Node 22",
+TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts:97] defaults to enable on Node 22",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-config.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts] returns null when no decision applies",
+TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts:102] returns null when no decision applies",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-config.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts] memoizes WSL2 detection across repeated defaults",
+TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts:147] memoizes WSL2 detection across repeated defaults",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-config.test.ts:147",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts] defaults to ipv4first on Node 22",
+TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts:223] defaults to ipv4first on Node 22",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-config.test.ts:223",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts] returns null when no dns decision applies",
+TEST_CASE("v4.29 [extensions/telegram/src/network-config.test.ts:228] returns null when no dns decision applies",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/network-config.test.ts:228",
                "upstream it() block #4",

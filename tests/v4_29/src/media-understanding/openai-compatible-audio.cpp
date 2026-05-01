@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/openai-compatible-audio.test.ts] adds hidden attribution headers on the native OpenAI audio host",
+TEST_CASE("v4.29 [src/media-understanding/openai-compatible-audio.test.ts:11] adds hidden attribution headers on the native OpenAI audio host",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/openai-compatible-audio.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/openai-compatible-audio.test.ts] does not add hidden attribution headers on custom OpenAI-compatible hosts",
+TEST_CASE("v4.29 [src/media-understanding/openai-compatible-audio.test.ts:31] does not add hidden attribution headers on custom OpenAI-compatible hosts",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/openai-compatible-audio.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/openai-compatible-audio.test.ts] remaps AAC uploads to an M4A filename before submitting the form",
+TEST_CASE("v4.29 [src/media-understanding/openai-compatible-audio.test.ts:52] remaps AAC uploads to an M4A filename before submitting the form",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/openai-compatible-audio.test.ts:52",
                "upstream it() block #2",

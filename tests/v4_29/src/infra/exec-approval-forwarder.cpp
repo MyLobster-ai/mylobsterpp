@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] forwards to session target and resolves",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:332] forwards to session target and resolves",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:332",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] forwards to explicit targets and expires",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:358] forwards to explicit targets and expires",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:358",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] deduplicates session and explicit approval targets through normalized route identity",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:370] deduplicates session and explicit approval targets through normalized route identity",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:370",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] calls outbound beforeDeliverPayload before exec approval delivery",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:396] calls outbound beforeDeliverPayload before exec approval delivery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:396",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] skips telegram forwarding when telegram exec approvals handler is enabled",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:436] skips telegram forwarding when telegram exec approvals handler is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:436",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] attaches shared interactive approval buttons in forwarded fallback payloads",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:477] attaches shared interactive approval buttons in forwarded fallback payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:477",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] stores exec metadata on generic forwarded fallback payloads",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:536] stores exec metadata on generic forwarded fallback payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:536",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] formats single-line commands as inline code",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:561] formats single-line commands as inline code",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:561",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] omits allow-always from forwarded fallback text when ask=always",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:573] omits allow-always from forwarded fallback text when ask=always",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:573",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] returns false when forwarding is disabled",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:609] returns false when forwarding is disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:609",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts] can forward resolved notices without pending cache when request payload is present",
+TEST_CASE("v4.29 [src/infra/exec-approval-forwarder.test.ts:649] can forward resolved notices without pending cache when request payload is present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approval-forwarder.test.ts:649",
                "upstream it() block #10",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] maps live provider backend ids to owning plugin ids",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:36] maps live provider backend ids to owning plugin ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] honors gateway live provider filters too",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:48] honors gateway live provider filters too",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] keeps explicit plugin-id filters when no owning provider plugin exists",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:60] keeps explicit plugin-id filters when no owning provider plugin exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] maps live provider backend ids through plugin metadata cli backend owners",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:72] maps live provider backend ids through plugin metadata cli backend owners",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] normalizes mixed-case backend ids through plugin metadata owners",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:94] normalizes mixed-case backend ids through plugin metadata owners",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] normalizes provider aliases through plugin metadata owners",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:115] normalizes provider aliases through plugin metadata owners",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] scopes normal startup discovery to requested provider owners",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:136] scopes normal startup discovery to requested provider owners",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:136",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts] maps scoped startup provider aliases through model catalog owners",
+TEST_CASE("v4.29 [src/agents/models-config.providers.live-filter.test.ts:155] maps scoped startup provider aliases through model catalog owners",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.live-filter.test.ts:155",
                "upstream it() block #7",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-workspace.test.ts] ignores lowercase-only root memory for automatic repair",
+TEST_CASE("v4.29 [src/commands/doctor-workspace.test.ts:35] ignores lowercase-only root memory for automatic repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-workspace.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-workspace.test.ts] merges true split-brain root memory files into MEMORY.md",
+TEST_CASE("v4.29 [src/commands/doctor-workspace.test.ts:52] merges true split-brain root memory files into MEMORY.md",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-workspace.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-workspace.test.ts] warns and repairs split-brain root memory through workspace doctor helpers",
+TEST_CASE("v4.29 [src/commands/doctor-workspace.test.ts:78] warns and repairs split-brain root memory through workspace doctor helpers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-workspace.test.ts:78",
                "upstream it() block #2",

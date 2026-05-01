@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/delivery-queue-runtime.test.ts] injects the lazy outbound deliver runtime when no deliver fn is provided",
+TEST_CASE("v4.29 [src/plugin-sdk/delivery-queue-runtime.test.ts:39] injects the lazy outbound deliver runtime when no deliver fn is provided",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/delivery-queue-runtime.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/delivery-queue-runtime.test.ts] preserves an explicit deliver fn without loading the lazy runtime",
+TEST_CASE("v4.29 [src/plugin-sdk/delivery-queue-runtime.test.ts:55] preserves an explicit deliver fn without loading the lazy runtime",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/delivery-queue-runtime.test.ts:55",
                "upstream it() block #1",

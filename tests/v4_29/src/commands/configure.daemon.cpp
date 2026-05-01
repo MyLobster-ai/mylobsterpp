@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts] does not serialize SecretRef token into service environment",
+TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts:95] does not serialize SecretRef token into service environment",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.daemon.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts] blocks install when token SecretRef is unresolved",
+TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts:107] blocks install when token SecretRef is unresolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.daemon.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts] continues daemon install flow when service status probe throws",
+TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts:128] continues daemon install flow when service status probe throws",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.daemon.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts] rethrows install probe failures that are not the known non-fatal Linux systemd cases",
+TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts:143] rethrows install probe failures that are not the known non-fatal Linux systemd cases",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.daemon.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts] continues the WSL2 daemon install flow when service status probe reports systemd unavailability",
+TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts:158] continues the WSL2 daemon install flow when service status probe reports systemd unavailability",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.daemon.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts] shows restart scheduled when a loaded service defers restart handoff",
+TEST_CASE("v4.29 [src/commands/configure.daemon.test.ts:173] shows restart scheduled when a loaded service defers restart handoff",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.daemon.test.ts:173",
                "upstream it() block #5",

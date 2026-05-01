@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] suppresses NO_REPLY text before any Slack API call",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:10] suppresses NO_REPLY text before any Slack API call",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] suppresses NO_REPLY with surrounding whitespace",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:22] suppresses NO_REPLY with surrounding whitespace",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] does not suppress substantive text containing NO_REPLY",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:34] does not suppress substantive text containing NO_REPLY",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] does not suppress NO_REPLY when blocks are attached",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:45] does not suppress NO_REPLY when blocks are attached",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] keeps 4205-character text in a single Slack post by default",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:60] keeps 4205-character text in a single Slack post by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] splits oversized fallback text through the normal Slack sender",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:79] splits oversized fallback text through the normal Slack sender",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:79",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] posts blocks with fallback text when message is empty",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:98] posts blocks with fallback text when message is empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:98",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] derives fallback text from image blocks",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:118] derives fallback text from image blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:118",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] derives fallback text from video blocks",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:134] derives fallback text from video blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:134",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] derives fallback text from file blocks",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:158] derives fallback text from file blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:158",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] caps long fallback text while preserving blocks",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:174] caps long fallback text while preserving blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:174",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] rejects blocks combined with mediaUrl",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:204] rejects blocks combined with mediaUrl",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:204",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] rejects empty blocks arrays from runtime callers",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:218] rejects empty blocks arrays from runtime callers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:218",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] rejects blocks arrays above Slack max count",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:231] rejects blocks arrays above Slack max count",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:231",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts] rejects blocks missing type from runtime callers",
+TEST_CASE("v4.29 [extensions/slack/src/send.blocks.test.ts:245] rejects blocks missing type from runtime callers",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/send.blocks.test.ts:245",
                "upstream it() block #14",

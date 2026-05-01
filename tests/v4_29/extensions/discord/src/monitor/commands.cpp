@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts] defaults ephemeral to true when undefined",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts:5] defaults ephemeral to true when undefined",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/commands.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts] defaults ephemeral to true when not explicitly false",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts:10] defaults ephemeral to true when not explicitly false",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/commands.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts] sets ephemeral to false when explicitly false",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts:15] sets ephemeral to false when explicitly false",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/commands.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts] keeps ephemeral true when explicitly true",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/commands.test.ts:20] keeps ephemeral true when explicitly true",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/commands.test.ts:20",
                "upstream it() block #3",

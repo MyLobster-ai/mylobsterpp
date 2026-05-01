@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts] returns empty when no configured catalog entries",
+TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts:9] returns empty when no configured catalog entries",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/index.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts] returns configured catalog entries from config",
+TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts:17] returns configured catalog entries from config",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/index.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts] registers all DeepInfra-backed OpenClaw provider surfaces",
+TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts:54] registers all DeepInfra-backed OpenClaw provider surfaces",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/index.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts] returns true for anthropic/* proxied models",
+TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts:70] returns true for anthropic/* proxied models",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/index.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts] returns true regardless of modelId case",
+TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts:82] returns true regardless of modelId case",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/index.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts] returns false for non-anthropic models",
+TEST_CASE("v4.29 [extensions/deepinfra/index.test.ts:98] returns false for non-anthropic models",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/index.test.ts:98",
                "upstream it() block #5",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] KILOCODE_BASE_URL points to kilo openrouter endpoint",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:25] KILOCODE_BASE_URL points to kilo openrouter endpoint",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] KILOCODE_DEFAULT_MODEL_REF includes provider prefix",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:29] KILOCODE_DEFAULT_MODEL_REF includes provider prefix",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] KILOCODE_DEFAULT_MODEL_ID is kilo/auto",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:33] KILOCODE_DEFAULT_MODEL_ID is kilo/auto",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] returns correct model shape",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:39] returns correct model shape",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] registers kilocode provider with correct baseUrl and api",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:52] registers kilocode provider with correct baseUrl and api",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] includes the default model in the provider model list",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:60] includes the default model in the provider model list",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:60",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] surfaces the full Kilo model catalog",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:69] surfaces the full Kilo model catalog",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:69",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] appends missing catalog models to existing Kilo provider config",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:78] appends missing catalog models to existing Kilo provider config",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:78",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] sets Kilo Gateway alias in agent default models",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:96] sets Kilo Gateway alias in agent default models",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:96",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] preserves existing alias if already set",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:103] preserves existing alias if already set",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:103",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] does not change the default model selection",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:118] does not change the default model selection",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:118",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] sets kilocode as the default model",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:132] sets kilocode as the default model",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:132",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] resolves KILOCODE_API_KEY from env",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:144] resolves KILOCODE_API_KEY from env",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:144",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts] returns null when KILOCODE_API_KEY is not set",
+TEST_CASE("v4.29 [extensions/kilocode/onboard.test.ts:158] returns null when KILOCODE_API_KEY is not set",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/onboard.test.ts:158",
                "upstream it() block #13",

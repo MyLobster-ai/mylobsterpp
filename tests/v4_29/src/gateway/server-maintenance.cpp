@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] does not schedule recursive media cleanup unless ttl is configured",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:69] does not schedule recursive media cleanup unless ttl is configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] runs startup media cleanup and repeats it hourly",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:83] runs startup media cleanup and repeats it hourly",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] broadcasts tick keepalives without dropIfSlow",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:107] broadcasts tick keepalives without dropIfSlow",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] skips overlapping media cleanup runs",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:126] skips overlapping media cleanup runs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] keeps stale buffers for active runs that still have abort controllers",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:160] keeps stale buffers for active runs that still have abort controllers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:160",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] sweeps orphaned stale buffers once the abort controller is gone",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:182] sweeps orphaned stale buffers once the abort controller is gone",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts] clears deltaLastBroadcastLen when aborted runs age out",
+TEST_CASE("v4.29 [src/gateway/server-maintenance.test.ts:203] clears deltaLastBroadcastLen when aborted runs age out",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-maintenance.test.ts:203",
                "upstream it() block #6",

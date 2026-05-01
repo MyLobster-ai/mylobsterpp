@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] returns credentials on successful oauth login",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:93] returns credentials on successful oauth login",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] passes through Pi-provided authorize URLs without mutation",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:108] passes through Pi-provided authorize URLs without mutation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] preserves authorize urls that omit scope",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:130] preserves authorize urls that omit scope",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] preserves slash-terminated authorize paths too",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:145] preserves slash-terminated authorize paths too",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] reports oauth errors and rethrows",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:162] reports oauth errors and rethrows",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] explains OpenAI unsupported region token exchange failures",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:184] explains OpenAI unsupported region token exchange failures",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:184",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] passes manual code input hook for remote oauth flows",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:206] passes manual code input hook for remote oauth flows",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:206",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] waits briefly before prompting for manual input after the local browser flow starts",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:223] waits briefly before prompting for manual input after the local browser flow starts",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:223",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] clears the local manual fallback timer when browser callback settles first",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:261] clears the local manual fallback timer when browser callback settles first",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:261",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] continues OAuth flow on non-certificate preflight failures",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:280] continues OAuth flow on non-certificate preflight failures",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:280",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] fails fast on TLS certificate preflight failures before starting OAuth login",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:297] fails fast on TLS certificate preflight failures before starting OAuth login",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:297",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] prompts for manual input immediately when the local callback flow never starts",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:327] prompts for manual input immediately when the local callback flow never starts",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:327",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] suppresses the local manual prompt when oauth settles just after the fallback deadline",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:359] suppresses the local manual prompt when oauth settles just after the fallback deadline",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:359",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts] rewrites callback validation failures with a stable internal code",
+TEST_CASE("v4.29 [src/plugins/provider-openai-codex-oauth.test.ts:386] rewrites callback validation failures with a stable internal code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-openai-codex-oauth.test.ts:386",
                "upstream it() block #13",

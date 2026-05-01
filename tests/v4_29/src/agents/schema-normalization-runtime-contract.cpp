@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts] keeps HTTP Responses and WebSocket strict decisions aligned for the same tool set",
+TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts:16] keeps HTTP Responses and WebSocket strict decisions aligned for the same tool set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema-normalization-runtime-contract.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts] normalizes parameter-free tool schemas to the same strict-compatible object shape for HTTP Responses and WebSocket",
+TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts:29] normalizes parameter-free tool schemas to the same strict-compatible object shape for HTTP Responses and WebSocket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema-normalization-runtime-contract.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts] keeps provider-prepared parameter-free schemas strict-compatible across HTTP Responses and WebSocket",
+TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts:45] keeps provider-prepared parameter-free schemas strict-compatible across HTTP Responses and WebSocket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema-normalization-runtime-contract.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts] passes prepared executable schemas through compaction-triggered Responses requests",
+TEST_CASE("v4.29 [src/agents/schema-normalization-runtime-contract.test.ts:67] passes prepared executable schemas through compaction-triggered Responses requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/schema-normalization-runtime-contract.test.ts:67",
                "upstream it() block #3",

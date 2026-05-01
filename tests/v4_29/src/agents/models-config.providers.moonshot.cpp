@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.moonshot.test.ts] uses explicit CN baseUrl when provided",
+TEST_CASE("v4.29 [src/agents/models-config.providers.moonshot.test.ts:60] uses explicit CN baseUrl when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.moonshot.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.moonshot.test.ts] keeps streaming usage opt-in unset before the final compat pass",
+TEST_CASE("v4.29 [src/agents/models-config.providers.moonshot.test.ts:76] keeps streaming usage opt-in unset before the final compat pass",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.moonshot.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.moonshot.test.ts] includes moonshot when MOONSHOT_API_KEY is configured",
+TEST_CASE("v4.29 [src/agents/models-config.providers.moonshot.test.ts:92] includes moonshot when MOONSHOT_API_KEY is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.moonshot.test.ts:92",
                "upstream it() block #2",

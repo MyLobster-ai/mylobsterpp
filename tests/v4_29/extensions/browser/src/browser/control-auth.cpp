@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts] should skip auto-generation in test mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts:17] should skip auto-generation in test mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts] should skip auto-generation in test mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts:34] should skip auto-generation in test mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts] should skip auto-generation in test mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts:47] should skip auto-generation in test mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts] should return existing token if configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts:60] should return existing token if configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts] should skip auto-generation in test environment",
+TEST_CASE("v4.29 [extensions/browser/src/browser/control-auth.test.ts:79] should skip auto-generation in test environment",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/control-auth.test.ts:79",
                "upstream it() block #4",

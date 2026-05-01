@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] warns when multiple named accounts are configured without default selection",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:6] warns when multiple named accounts are configured without default selection",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] does not warn for a single named account without default",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:24] does not warn for a single named account without default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] does not warn when accounts.default exists",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:38] does not warn when accounts.default exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] does not warn when defaultAccount points to a configured account",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:53] does not warn when defaultAccount points to a configured account",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] normalizes defaultAccount before validating configured account ids",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:69] normalizes defaultAccount before validating configured account ids",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:69",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] warns when defaultAccount is invalid for configured accounts",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:85] warns when defaultAccount is invalid for configured accounts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:85",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts] warns across channels that support account maps",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:104] warns across channels that support account maps",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.missing-explicit-default-account.test.ts:104",
                "upstream it() block #6",

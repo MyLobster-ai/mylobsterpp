@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] prefers canonical provider config over the cli alias",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:91] prefers canonical provider config over the cli alias",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:91",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] passes text through stdin when args omit the text template",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:108] passes text through stdin when args omit the text template",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] uses template args and stdout output when no output file is produced",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:134] uses template args and stdout output when no output file is produced",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:134",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] converts non-opus output for voice-note targets",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:159] converts non-opus output for voice-note targets",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:159",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] converts stdout WAV to the requested audio-file format",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:184] converts stdout WAV to the requested audio-file format",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] converts CLI output to raw telephony PCM",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:208] converts CLI output to raw telephony PCM",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:208",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts] can synthesize through a real local CLI fixture and ffmpeg",
+TEST_CASE("v4.29 [extensions/tts-local-cli/speech-provider.test.ts:234] can synthesize through a real local CLI fixture and ffmpeg",
           "[v4_29][parity_gap][tts-local-cli]") {
     PARITY_GAP("extensions/tts-local-cli/speech-provider.test.ts:234",
                "upstream it() block #6",

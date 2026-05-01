@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] defers channel hot reload until active work drains",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:437] defers channel hot reload until active work drains",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:437",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] uses the configured timeout when active work does not drain before channel reload",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:484] uses the configured timeout when active work does not drain before channel reload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:484",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] waits indefinitely for channel hot reload when deferral timeout is 0 or omitted",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:533] waits indefinitely for channel hot reload when deferral timeout is 0 or omitted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:533",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] applies hot reload actions and emits restart signal",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:627] applies hot reload actions and emits restart signal",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:627",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] uses the default restart deferral timeout when config omits deferralTimeoutMs",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:727] uses the default restart deferral timeout when config omits deferralTimeoutMs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:727",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] emits one-shot degraded and recovered system events during secret reload transitions",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:771] emits one-shot degraded and recovered system events during secret reload transitions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:771",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] clears the model catalog cache on model-related hot reloads",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:818] clears the model catalog cache on model-related hot reloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:818",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] disposes cached MCP runtimes on MCP config hot reloads",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:851] disposes cached MCP runtimes on MCP config hot reloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:851",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] serves secrets.reload immediately after startup without race failures",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:882] serves secrets.reload immediately after startup without race failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:882",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] keeps last-known-good snapshot active when secrets.reload fails over RPC",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:900] keeps last-known-good snapshot active when secrets.reload fails over RPC",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:900",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] keeps last-known-good auth snapshot active when gateway auth token exec reload fails",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:945] keeps last-known-good auth snapshot active when gateway auth token exec reload fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:945",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] uses refreshed gateway auth for new websocket connects after secrets reload",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:1049] uses refreshed gateway auth for new websocket connects after secrets reload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:1049",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.reload.test.ts] lists configured agents via agents.list RPC",
+TEST_CASE("v4.29 [src/gateway/server.reload.test.ts:1167] lists configured agents via agents.list RPC",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.reload.test.ts:1167",
                "upstream it() block #12",

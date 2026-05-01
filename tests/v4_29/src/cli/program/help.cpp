@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/help.test.ts] adds root help hint and marks commands with subcommands",
+TEST_CASE("v4.29 [src/cli/program/help.test.ts:111] adds root help hint and marks commands with subcommands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/help.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/help.test.ts] includes banner and docs/examples in root help output",
+TEST_CASE("v4.29 [src/cli/program/help.test.ts:123] includes banner and docs/examples in root help output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/help.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/help.test.ts] prints version and exits immediately when version flags are present",
+TEST_CASE("v4.29 [src/cli/program/help.test.ts:134] prints version and exits immediately when version flags are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/help.test.ts:134",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/help.test.ts] prints version and exits immediately without commit metadata",
+TEST_CASE("v4.29 [src/cli/program/help.test.ts:139] prints version and exits immediately without commit metadata",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/help.test.ts:139",
                "upstream it() block #3",

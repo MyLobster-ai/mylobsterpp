@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] runs startup plugin auto-enable against source config without persisting runtime defaults",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:177] runs startup plugin auto-enable against source config without persisting runtime defaults",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:177",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] preserves empty model allowlist entries through startup auto-enable writes",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:247] preserves empty model allowlist entries through startup auto-enable writes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:247",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] restores last-known-good config before startup validation",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:364] restores last-known-good config before startup validation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:364",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] keeps startup validation loud when last-known-good recovery is unavailable",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:402] keeps startup validation loud when last-known-good recovery is unavailable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:402",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] rejects legacy config entries in Nix mode before recovery",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:420] rejects legacy config entries in Nix mode before recovery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:420",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] continues startup in degraded mode for plugin-local startup invalidity",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:467] continues startup in degraded mode for plugin-local startup invalidity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:467",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] keeps mixed plugin and core startup invalidity fatal",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:531] keeps mixed plugin and core startup invalidity fatal",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:531",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] skips providers with stale model api enum values during startup",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:589] skips providers with stale model api enum values during startup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:589",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts] strips a valid JSON suffix when last-known-good recovery is unavailable",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.recovery.test.ts:661] strips a valid JSON suffix when last-known-good recovery is unavailable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.recovery.test.ts:661",
                "upstream it() block #8",

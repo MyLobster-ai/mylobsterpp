@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] disconnects active clients after removing a paired device",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:118] disconnects active clients after removing a paired device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:118",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] does not disconnect clients when device removal fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:134] does not disconnect clients when device removal fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] rejects removing another device from a non-admin device session",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:148] rejects removing another device from a non-admin device session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] treats normalized device ids as self-owned for paired device removal",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:165] treats normalized device ids as self-owned for paired device removal",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] disconnects active clients after revoking a device token",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:183] disconnects active clients after revoking a device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] allows admin-scoped callers to revoke another device",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:211] allows admin-scoped callers to revoke another device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] treats normalized device ids as self-owned for token revocation",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:236] treats normalized device ids as self-owned for token revocation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] disconnects active clients after rotating a device token",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:261] disconnects active clients after rotating a device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:261",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] treats normalized device ids as self-owned for token rotation",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:304] treats normalized device ids as self-owned for token rotation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:304",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] omits rotated tokens when an admin rotates another device token",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:338] omits rotated tokens when an admin rotates another device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:338",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] rejects rotating a token for a role that was never approved",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:369] rejects rotating a token for a role that was never approved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:369",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] does not disconnect clients when token revocation fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:403] does not disconnect clients when token revocation fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:403",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] filters pairing list to the caller device for non-admin device sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:420] filters pairing list to the caller device for non-admin device sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:420",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] preserves the full pairing list for admin device sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:469] preserves the full pairing list for admin device sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:469",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] preserves the full pairing list for non-device operator sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:520] preserves the full pairing list for non-device operator sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:520",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] preserves the full pairing list for shared-auth sessions carrying a device identity",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:553] preserves the full pairing list for shared-auth sessions carrying a device identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:553",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] rejects approving another device from a non-admin device session",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:592] rejects approving another device from a non-admin device session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:592",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] allows approving the caller device from a non-admin device session",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:615] allows approving the caller device from a non-admin device session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:615",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] rejects rejecting another device from a non-admin device session",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:659] rejects rejecting another device from a non-admin device session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:659",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] allows rejecting the caller device from a non-admin device session",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:684] allows rejecting the caller device from a non-admin device session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:684",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts] allows admins to reject another device",
+TEST_CASE("v4.29 [src/gateway/server-methods/devices.test.ts:714] allows admins to reject another device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/devices.test.ts:714",
                "upstream it() block #20",

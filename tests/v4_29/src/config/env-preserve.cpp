@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] restores a simple ${VAR} reference when value matches",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:11] restores a simple ${VAR} reference when value matches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] keeps new value when caller intentionally changed it",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:18] keeps new value when caller intentionally changed it",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles nested objects",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:25] handles nested objects",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] preserves new keys not in parsed",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:53] preserves new keys not in parsed",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles non-env-var strings (no restoration needed)",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:60] handles non-env-var strings (no restoration needed)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles arrays",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:67] handles arrays",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles null/undefined parsed gracefully",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:74] handles null/undefined parsed gracefully",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles missing env var (cannot verify match)",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:80] handles missing env var (cannot verify match)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles composite template strings like prefix-${VAR}-suffix",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:89] handles composite template strings like prefix-${VAR}-suffix",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:89",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles type mismatches between incoming and parsed",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:96] handles type mismatches between incoming and parsed",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:96",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] does not restore when parsed value has no env var pattern",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:104] does not restore when parsed value has no env var pattern",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:104",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] does not incorrectly restore when env var value changed between read and write",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:114] does not incorrectly restore when env var value changed between read and write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:114",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] correctly restores when env var value hasn",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:128] correctly restores when env var value hasn",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:128",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] does not restore when env snapshot differs from live env (TOCTOU fix)",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:138] does not restore when env snapshot differs from live env (TOCTOU fix)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:138",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] handles $${VAR} escape sequence (literal ${VAR} in output)",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:153] handles $${VAR} escape sequence (literal ${VAR} in output)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:153",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/env-preserve.test.ts] does not confuse $${VAR} escape with ${VAR} substitution",
+TEST_CASE("v4.29 [src/config/env-preserve.test.ts:165] does not confuse $${VAR} escape with ${VAR} substitution",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/env-preserve.test.ts:165",
                "upstream it() block #15",

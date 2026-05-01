@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts] detects state dir under iCloud Drive",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts:9] detects state dir under iCloud Drive",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.cloud-storage.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts] detects state dir under Library/CloudStorage",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts:30] detects state dir under Library/CloudStorage",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.cloud-storage.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts] detects cloud-synced target when state dir resolves via symlink",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts:44] detects cloud-synced target when state dir resolves via symlink",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.cloud-storage.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts] ignores cloud-synced symlink prefix when resolved target is local",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts:67] ignores cloud-synced symlink prefix when resolved target is local",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.cloud-storage.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts] anchors cloud detection to OS homedir when OPENCLAW_HOME is overridden",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts:87] anchors cloud detection to OS homedir when OPENCLAW_HOME is overridden",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.cloud-storage.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts] returns null outside darwin",
+TEST_CASE("v4.29 [src/commands/doctor-state-integrity.cloud-storage.test.ts:111] returns null outside darwin",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-state-integrity.cloud-storage.test.ts:111",
                "upstream it() block #5",

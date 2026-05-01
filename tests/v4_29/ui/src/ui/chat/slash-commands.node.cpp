@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] parses commands with an optional colon separator",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:15] parses commands with an optional colon separator",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] still parses space-delimited commands",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:30] still parses space-delimited commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] parses fast commands",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:37] parses fast commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] keeps /status on the agent path",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:44] keeps /status on the agent path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] includes shared /tools with shared arg hints",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:53] includes shared /tools with shared arg hints",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] parses slash aliases through the shared registry",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:67] parses slash aliases through the shared registry",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] keeps canonical long-form slash names as the primary menu command",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:84] keeps canonical long-form slash names as the primary menu command",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:84",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] keeps a single local /steer entry with the control-ui metadata",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:95] keeps a single local /steer entry with the control-ui metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:95",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] keeps focus as a local slash command",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:107] keeps focus as a local slash command",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:107",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] refreshes runtime commands from commands.list so docks, plugins, and direct skills appear",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:114] refreshes runtime commands from commands.list so docks, plugins, and direct skills appear",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:114",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] does not let remote commands collide with reserved local commands",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:172] does not let remote commands collide with reserved local commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:172",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] drops remote commands with unsafe identifiers before they reach the palette/parser",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:211] drops remote commands with unsafe identifiers before they reach the palette/parser",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:211",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] caps remote command payload size and long metadata before it reaches UI state",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:248] caps remote command payload size and long metadata before it reaches UI state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:248",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] requests the gateway default agent when no explicit agentId is available",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:296] requests the gateway default agent when no explicit agentId is available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:296",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] falls back safely when the gateway returns malformed command payload shapes",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:322] falls back safely when the gateway returns malformed command payload shapes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:322",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts] ignores stale refresh responses and keeps the latest command set",
+TEST_CASE("v4.29 [ui/src/ui/chat/slash-commands.node.test.ts:372] ignores stale refresh responses and keeps the latest command set",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/slash-commands.node.test.ts:372",
                "upstream it() block #15",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts] passes resolved cfg to sendMessageMSTeams for text sends",
+TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts:40] passes resolved cfg to sendMessageMSTeams for text sends",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/outbound.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts] passes resolved cfg and media roots for media sends",
+TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts:62] passes resolved cfg and media roots for media sends",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/outbound.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts] passes resolved cfg to sendPollMSTeams and stores poll metadata",
+TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts:88] passes resolved cfg to sendPollMSTeams and stores poll metadata",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/outbound.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts] chunks outbound text without requiring MSTeams runtime initialization",
+TEST_CASE("v4.29 [extensions/msteams/src/outbound.test.ts:122] chunks outbound text without requiring MSTeams runtime initialization",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/outbound.test.ts:122",
                "upstream it() block #3",

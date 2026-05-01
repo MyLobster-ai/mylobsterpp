@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] registers Xiaomi MiMo as a speech provider",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:15] registers Xiaomi MiMo as a speech provider",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] returns true when apiKey is in provider config",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:31] returns true when apiKey is in provider config",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] returns false when no apiKey is available",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:37] returns false when no apiKey is available",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] returns true when XIAOMI_API_KEY env var is set",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:42] returns true when XIAOMI_API_KEY env var is set",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] reads providers.xiaomi settings",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:49] reads providers.xiaomi settings",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] accepts the mimo provider config alias",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:74] accepts the mimo provider config alias",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] handles voice, model, style, and format tokens",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:96] handles voice, model, style, and format tokens",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:96",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] warns on invalid format",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:114] warns on invalid format",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:114",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] makes the Xiaomi chat completions TTS call and decodes audio",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:134] makes the Xiaomi chat completions TTS call and decodes audio",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:134",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] transcodes Xiaomi output to Opus for voice-note targets",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:176] transcodes Xiaomi output to Opus for voice-note targets",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:176",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] throws when API key is missing",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:206] throws when API key is missing",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:206",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts] throws when the API response has no audio data",
+TEST_CASE("v4.29 [extensions/xiaomi/speech-provider.test.ts:226] throws when the API response has no audio data",
           "[v4_29][parity_gap][xiaomi]") {
     PARITY_GAP("extensions/xiaomi/speech-provider.test.ts:226",
                "upstream it() block #11",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] returns 401 when auth fails",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:112] returns 401 when auth fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:112",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] returns 404 when the session key is not in the session store",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:119] returns 404 when the session key is not in the session store",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] kills a matching session via the admin kill helper using the canonical key",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:138] kills a matching session via the admin kill helper using the canonical key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] returns killed=false when the target exists but nothing was stopped",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:161] returns killed=false when the target exists but nothing was stopped",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] rejects local bearer-auth kills without a trusted admin scope surface",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:180] rejects local bearer-auth kills without a trusted admin scope surface",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:180",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] does not trust x-openclaw-scopes on shared-secret bearer auth",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:194] does not trust x-openclaw-scopes on shared-secret bearer auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] rejects remote bearer-auth kills without requester ownership",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:214] rejects remote bearer-auth kills without requester ownership",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:214",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] rejects remote kills without requester ownership or an authorized token",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:230] rejects remote kills without requester ownership or an authorized token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:230",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] uses requester ownership checks when a requester session header is provided without admin bypass",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:245] uses requester ownership checks when a requester session header is provided without admin bypass",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:245",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] uses the newest child-session row for requester-owned kills when stale rows still exist",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:274] uses the newest child-session row for requester-owned kills when stale rows still exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:274",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts] rejects bearer-auth requester kills without a trusted write scope surface",
+TEST_CASE("v4.29 [src/gateway/session-kill-http.test.ts:304] rejects bearer-auth requester kills without a trusted write scope surface",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-kill-http.test.ts:304",
                "upstream it() block #10",

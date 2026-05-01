@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/channel-options.test.ts] uses precomputed startup metadata when available",
+TEST_CASE("v4.29 [src/cli/channel-options.test.ts:29] uses precomputed startup metadata when available",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/channel-options.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/channel-options.test.ts] falls back to core channel order when metadata is missing",
+TEST_CASE("v4.29 [src/cli/channel-options.test.ts:37] falls back to core channel order when metadata is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/channel-options.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/channel-options.test.ts] ignores external catalog env during CLI bootstrap",
+TEST_CASE("v4.29 [src/cli/channel-options.test.ts:45] ignores external catalog env during CLI bootstrap",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/channel-options.test.ts:45",
                "upstream it() block #2",

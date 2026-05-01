@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] covers schedule updates and payload patching",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:17] covers schedule updates and payload patching",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] repairs isolated every jobs missing createdAtMs and sets nextWakeAtMs",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:63] repairs isolated every jobs missing createdAtMs and sets nextWakeAtMs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] does not rewrite unchanged stores during startup",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:104] does not rewrite unchanged stores during startup",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] repairs missing nextRunAtMs on non-schedule updates without touching other jobs",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:133] repairs missing nextRunAtMs on non-schedule updates without touching other jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:133",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] does not advance unrelated due jobs when updating another job",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:157] does not advance unrelated due jobs when updating another job",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] treats persisted jobs with missing enabled as enabled during update()",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:196] treats persisted jobs with missing enabled as enabled during update()",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:196",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] treats persisted due jobs with missing enabled as runnable",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:228] treats persisted due jobs with missing enabled as runnable",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:228",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] rejects invalid cron schedule updates without mutating disabled jobs",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:263] rejects invalid cron schedule updates without mutating disabled jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:263",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] keeps telegram delivery target writeback after manual cron.run",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:318] keeps telegram delivery target writeback after manual cron.run",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:318",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts] #13845: one-shot jobs with terminal statuses do not re-fire on restart",
+TEST_CASE("v4.29 [src/cron/service.issue-regressions.test.ts:364] #13845: one-shot jobs with terminal statuses do not re-fire on restart",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-regressions.test.ts:364",
                "upstream it() block #9",

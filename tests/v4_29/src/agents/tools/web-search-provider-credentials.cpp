@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts] uses configured literal credentials before ambient env fallback",
+TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts:6] uses configured literal credentials before ambient env fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search-provider-credentials.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts] resolves configured env SecretRefs",
+TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts:18] resolves configured env SecretRefs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search-provider-credentials.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts] does not override missing env SecretRefs with ambient env fallback",
+TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts:34] does not override missing env SecretRefs with ambient env fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search-provider-credentials.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts] does not override non-env SecretRefs with ambient env fallback",
+TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts:53] does not override non-env SecretRefs with ambient env fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search-provider-credentials.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts] falls back to ambient env when no credential is configured",
+TEST_CASE("v4.29 [src/agents/tools/web-search-provider-credentials.test.ts:69] falls back to ambient env when no credential is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-search-provider-credentials.test.ts:69",
                "upstream it() block #4",

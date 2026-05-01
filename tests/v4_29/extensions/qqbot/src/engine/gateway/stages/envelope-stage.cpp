@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] returns empty string when no replyTo",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:32] returns empty string when no replyTo",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] wraps a quoted body in begin/end tags",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:36] wraps a quoted body in begin/end tags",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] uses a fallback line when body is missing",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:43] uses a fallback line when body is missing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] returns empty string when every list is empty",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:50] returns empty string when every list is empty",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] renders images / voice / asr when present",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:61] renders images / voice / asr when present",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] returns undefined when no prompts exist",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:77] returns undefined when no prompts exist",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:77",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] joins accountSystemInstruction + introHint + behaviorPrompt",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:81] joins accountSystemInstruction + introHint + behaviorPrompt",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:81",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] skips undefined parts cleanly",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:89] skips undefined parts cleanly",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:89",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] separates local from remote image URLs",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:108] separates local from remote image URLs",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:108",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] defaults missing media type to image/png",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:119] defaults missing media type to image/png",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:119",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] dedupes voice paths and URLs",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:130] dedupes voice paths and URLs",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:130",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts] flags ASR fallback when transcriptSources contains ",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:142] flags ASR fallback when transcriptSources contains ",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/envelope-stage.test.ts:142",
                "upstream it() block #11",

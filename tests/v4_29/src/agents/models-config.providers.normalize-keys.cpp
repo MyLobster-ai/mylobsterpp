@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] trims provider keys so image models remain discoverable for custom providers",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:46] trims provider keys so image models remain discoverable for custom providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] keeps the latest provider config when duplicate keys only differ by whitespace",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:76] keeps the latest provider config when duplicate keys only differ by whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] replaces resolved env var value with env var name to prevent plaintext persistence",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:113] replaces resolved env var value with env var name to prevent plaintext persistence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] normalizes SecretRef-managed provider apiKey values to env markers",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:156] normalizes SecretRef-managed provider apiKey values to env markers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] reads provider apiKey markers from auth-profiles env refs",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:182] reads provider apiKey markers from auth-profiles env refs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:182",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] normalizes SecretRef-backed provider headers to non-secret marker values",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:226] normalizes SecretRef-backed provider headers to non-secret marker values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] ignores non-object provider entries during source-managed enforcement",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:252] ignores non-object provider entries during source-managed enforcement",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:252",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts] canonicalizes LM Studio baseUrl after merge-style explicit overwrite",
+TEST_CASE("v4.29 [src/agents/models-config.providers.normalize-keys.test.ts:286] canonicalizes LM Studio baseUrl after merge-style explicit overwrite",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.normalize-keys.test.ts:286",
                "upstream it() block #7",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts] returns enabled with default prompt when configs are undefined",
+TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts:16] returns enabled with default prompt when configs are undefined",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/auto-topic-label.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts] prefers direct config over account config",
+TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts:21] prefers direct config over account config",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/auto-topic-label.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts] falls back to default prompt for empty object prompt",
+TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts:31] falls back to default prompt for empty object prompt",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/auto-topic-label.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts] delegates to the generic conversation label helper with telegram max length",
+TEST_CASE("v4.29 [extensions/telegram/src/auto-topic-label.test.ts:40] delegates to the generic conversation label helper with telegram max length",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/auto-topic-label.test.ts:40",
                "upstream it() block #3",

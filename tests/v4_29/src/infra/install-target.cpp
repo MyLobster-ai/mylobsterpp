@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/install-target.test.ts] creates the base dir and returns early for invalid install ids",
+TEST_CASE("v4.29 [src/infra/install-target.test.ts:28] creates the base dir and returns early for invalid install ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-target.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-target.test.ts] returns canonical boundary errors for Error and non-Error throws",
+TEST_CASE("v4.29 [src/infra/install-target.test.ts:50] returns canonical boundary errors for Error and non-Error throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-target.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-target.test.ts] returns the resolved target path on success",
+TEST_CASE("v4.29 [src/infra/install-target.test.ts:80] returns the resolved target path on success",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-target.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-target.test.ts] blocks only install mode when the target already exists",
+TEST_CASE("v4.29 [src/infra/install-target.test.ts:101] blocks only install mode when the target already exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-target.test.ts:101",
                "upstream it() block #3",

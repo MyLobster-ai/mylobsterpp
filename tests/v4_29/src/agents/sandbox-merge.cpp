@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] resolves sandbox scope deterministically",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:12] resolves sandbox scope deterministically",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] merges sandbox docker env and ulimits (agent wins)",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:19] merges sandbox docker env and ulimits (agent wins)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] resolves sandbox docker GPU passthrough with agent precedence",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:39] resolves sandbox docker GPU passthrough with agent precedence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] resolves docker binds and shared-scope override behavior",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:62] resolves docker binds and shared-scope override behavior",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] applies per-agent browser and prune overrides (ignored under shared scope)",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:125] applies per-agent browser and prune overrides (ignored under shared scope)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:125",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] merges sandbox ssh settings and ignores agent overrides under shared scope",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:157] merges sandbox ssh settings and ignores agent overrides under shared scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:157",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts] defaults sandbox backend to docker",
+TEST_CASE("v4.29 [src/agents/sandbox-merge.test.ts:192] defaults sandbox backend to docker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-merge.test.ts:192",
                "upstream it() block #6",

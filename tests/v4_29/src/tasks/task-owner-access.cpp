@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts] returns owner-scoped tasks for owner and child-session lookups",
+TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts:40] returns owner-scoped tasks for owner and child-session lookups",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-owner-access.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts] denies cross-owner task reads",
+TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts:67] denies cross-owner task reads",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-owner-access.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts] requires an exact owner-key match",
+TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts:100] requires an exact owner-key match",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-owner-access.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts] does not expose system-owned tasks through owner-scoped readers",
+TEST_CASE("v4.29 [src/tasks/task-owner-access.test.ts:120] does not expose system-owned tasks through owner-scoped readers",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-owner-access.test.ts:120",
                "upstream it() block #3",

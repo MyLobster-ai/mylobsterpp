@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] reuses the same browser across renders and closes it after the idle window",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:49] reuses the same browser across renders and closes it after the idle window",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] renders PDF output when format is pdf",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:108] renders PDF output when format is pdf",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] fails fast when PDF render exceeds size limits",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:135] fails fast when PDF render exceeds size limits",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:135",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] fails fast when maxPixels is still exceeded at scale 1",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:172] fails fast when maxPixels is still exceeded at scale 1",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:172",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] uses live runtime tool config through the registered tool factory",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:195] uses live runtime tool config through the registered tool factory",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:195",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] uses live runtime viewer-access config through the registered HTTP handler",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:327] uses live runtime viewer-access config through the registered HTTP handler",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:327",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts] fails closed for remote viewer access when the live diffs plugin entry is removed",
+TEST_CASE("v4.29 [extensions/diffs/src/browser.test.ts:474] fails closed for remote viewer access when the live diffs plugin entry is removed",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/browser.test.ts:474",
                "upstream it() block #6",

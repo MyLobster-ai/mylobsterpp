@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts] exposes enabled bundle hook dirs as plugin-managed hook entries",
+TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts:101] exposes enabled bundle hook dirs as plugin-managed hook entries",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/plugin-hooks.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts] loads and executes enabled bundle hooks through the internal hook loader",
+TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts:118] loads and executes enabled bundle hooks through the internal hook loader",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/plugin-hooks.test.ts:118",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts] skips disabled bundle hooks",
+TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts:129] skips disabled bundle hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/plugin-hooks.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts] does not treat Claude hooks.json bundles as OpenClaw hook packs",
+TEST_CASE("v4.29 [src/hooks/plugin-hooks.test.ts:138] does not treat Claude hooks.json bundles as OpenClaw hook packs",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/plugin-hooks.test.ts:138",
                "upstream it() block #3",

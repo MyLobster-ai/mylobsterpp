@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts] keeps the browser tool returned by plugin resolution",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts:20] keeps the browser tool returned by plugin resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.browser-plugin.integration.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts] omits the browser tool when plugin resolution returns no browser tool",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts:51] omits the browser tool when plugin resolution returns no browser tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.browser-plugin.integration.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts] forwards fsPolicy into plugin tool context",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts:73] forwards fsPolicy into plugin tool context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.browser-plugin.integration.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts] forwards gateway subagent binding to plugin resolution",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts:123] forwards gateway subagent binding to plugin resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.browser-plugin.integration.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts] does not pass a stale active snapshot as plugin runtime config for a resolved run config",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts:143] does not pass a stale active snapshot as plugin runtime config for a resolved run config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.browser-plugin.integration.test.ts:143",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts] exposes a live runtime config getter to plugin tool factories",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.browser-plugin.integration.test.ts:196] exposes a live runtime config getter to plugin tool factories",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.browser-plugin.integration.test.ts:196",
                "upstream it() block #5",

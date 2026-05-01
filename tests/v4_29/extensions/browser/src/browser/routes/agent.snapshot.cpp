@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] returns original targetId when old target still exists (no swap)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:11] returns original targetId when old target still exists (no swap)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] resolves new targetId when old target is gone (renderer swap)",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:23] resolves new targetId when old target is gone (renderer swap)",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] prefers non-stale targetId when multiple tabs share the URL",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:32] prefers non-stale targetId when multiple tabs share the URL",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] retries and resolves targetId when first listTabs has no URL match",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:46] retries and resolves targetId when first listTabs has no URL match",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] falls back to original targetId when no match found after retry",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:66] falls back to original targetId when no match found after retry",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] falls back to single remaining tab when no URL match after retry",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:80] falls back to single remaining tab when no URL match after retry",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:80",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] falls back to original targetId when listTabs throws",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:91] falls back to original targetId when listTabs throws",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:91",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts] keeps the old target when multiple replacement candidates still match after retry",
+TEST_CASE("v4.29 [extensions/browser/src/browser/routes/agent.snapshot.test.ts:102] keeps the old target when multiple replacement candidates still match after retry",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/routes/agent.snapshot.test.ts:102",
                "upstream it() block #7",

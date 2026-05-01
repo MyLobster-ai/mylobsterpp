@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] prefers explicit package spec overrides",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:84] prefers explicit package spec overrides",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] resolves global roots and package roots from runner output",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:100] resolves global roots and package roots from runner output",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] maps main and explicit install specs for global installs",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:121] maps main and explicit install specs for global installs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] defaults corepack download prompts off for global install env",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:139] defaults corepack download prompts off for global install env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:139",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] classifies main and raw install specs separately from registry selectors",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:153] classifies main and raw install specs separately from registry selectors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:153",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] detects install managers from resolved roots and on-disk presence",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:169] detects install managers from resolved roots and on-disk presence",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:169",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] prefers the owning npm prefix when PATH npm points at a different global root",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:203] prefers the owning npm prefix when PATH npm points at a different global root",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:203",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] does not infer npm ownership from path shape alone when the owning npm binary is absent",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:268] does not infer npm ownership from path shape alone when the owning npm binary is absent",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] prefers npm.cmd for win32-style global npm roots",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:292] prefers npm.cmd for win32-style global npm roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:292",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] builds install argv and npm fallback argv",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:329] builds install argv and npm fallback argv",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:329",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] builds npm staged install argv with an explicit prefix",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:372] builds npm staged install argv with an explicit prefix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:372",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] resolves npm prefix layouts for normal global roots",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:398] resolves npm prefix layouts for normal global roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:398",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] cleans only renamed package directories",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:412] cleans only renamed package directories",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:412",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] checks installed dist against the packaged inventory",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:432] checks installed dist against the packaged inventory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:432",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] ignores bundled plugin install stages during installed dist verification",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:460] ignores bundled plugin install stages during installed dist verification",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:460",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] does not require private QA sidecars when the inventory is missing",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:487] does not require private QA sidecars when the inventory is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:487",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] fails closed on newer installs when the inventory is missing",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:495] fails closed on newer installs when the inventory is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:495",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] rejects invalid inventory files during global verify",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:508] rejects invalid inventory files during global verify",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:508",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] verifies legacy sidecars for installed bundled plugins without inventory",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:527] verifies legacy sidecars for installed bundled plugins without inventory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:527",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] still enforces critical sidecars when the inventory omits them",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:538] still enforces critical sidecars when the inventory omits them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:538",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/update-global.test.ts] ignores stale metadata for non-packaged private QA plugins during inventory verify",
+TEST_CASE("v4.29 [src/infra/update-global.test.ts:553] ignores stale metadata for non-packaged private QA plugins during inventory verify",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/update-global.test.ts:553",
                "upstream it() block #20",

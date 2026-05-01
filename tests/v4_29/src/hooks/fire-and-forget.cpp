@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/fire-and-forget.test.ts] logs rejection errors as sanitized single-line messages",
+TEST_CASE("v4.29 [src/hooks/fire-and-forget.test.ts:5] logs rejection errors as sanitized single-line messages",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/fire-and-forget.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/fire-and-forget.test.ts] does not log for resolved tasks",
+TEST_CASE("v4.29 [src/hooks/fire-and-forget.test.ts:18] does not log for resolved tasks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/fire-and-forget.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/fire-and-forget.test.ts] limits queued fire-and-forget hooks",
+TEST_CASE("v4.29 [src/hooks/fire-and-forget.test.ts:27] limits queued fire-and-forget hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/fire-and-forget.test.ts:27",
                "upstream it() block #2",

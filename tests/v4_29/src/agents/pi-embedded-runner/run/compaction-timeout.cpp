@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] flags compaction timeout consistently for internal and external timeout sources",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:35] flags compaction timeout consistently for internal and external timeout sources",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] does not flag when timeout is false",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:50] does not flag when timeout is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] extends the first run timeout reached during compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:60] extends the first run timeout reached during compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] aborts after compaction grace has already been used",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:70] aborts after compaction grace has already been used",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] aborts immediately when no compaction is active",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:80] aborts immediately when no compaction is active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] adds one compaction grace window to the run timeout budget",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:90] adds one compaction grace window to the run timeout budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:90",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] uses pre-compaction snapshot when compaction timeout occurs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:99] uses pre-compaction snapshot when compaction timeout occurs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:99",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts] falls back to current snapshot when pre-compaction snapshot is unavailable",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:114] falls back to current snapshot when pre-compaction snapshot is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-timeout.test.ts:114",
                "upstream it() block #7",

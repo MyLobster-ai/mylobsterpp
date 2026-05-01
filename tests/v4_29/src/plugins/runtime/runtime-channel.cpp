@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts] registers, resolves, watches, and unregisters contexts",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts:5] registers, resolves, watches, and unregisters contexts",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-channel.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts] auto-disposes registrations when the abort signal fires",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts:60] auto-disposes registrations when the abort signal fires",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-channel.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts] does not register contexts when the abort signal is already aborted",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts:83] does not register contexts when the abort signal is already aborted",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-channel.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts] isolates watcher exceptions so registration and disposal still complete",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts:114] isolates watcher exceptions so registration and disposal still complete",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-channel.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts] auto-disposes when a watcher aborts during the registered event",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-channel.test.ts:180] auto-disposes when a watcher aborts during the registered event",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-channel.test.ts:180",
                "upstream it() block #4",

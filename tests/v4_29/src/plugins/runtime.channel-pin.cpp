@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts] returns the active registry when not pinned",
+TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts:93] returns the active registry when not pinned",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime.channel-pin.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts] preserves pinned channel registry across setActivePluginRegistry calls",
+TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts:99] preserves pinned channel registry across setActivePluginRegistry calls",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime.channel-pin.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts] re-pin invalidates cached channel lookups",
+TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts:107] re-pin invalidates cached channel lookups",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime.channel-pin.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts] requireActivePluginChannelRegistry creates a registry when none exists",
+TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts:163] requireActivePluginChannelRegistry creates a registry when none exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime.channel-pin.test.ts:163",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts] resetPluginRuntimeStateForTest clears channel pin",
+TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts:170] resetPluginRuntimeStateForTest clears channel pin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime.channel-pin.test.ts:170",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts] loadChannelOutboundAdapter resolves from pinned registry after active registry replacement",
+TEST_CASE("v4.29 [src/plugins/runtime.channel-pin.test.ts:178] loadChannelOutboundAdapter resolves from pinned registry after active registry replacement",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime.channel-pin.test.ts:178",
                "upstream it() block #5",

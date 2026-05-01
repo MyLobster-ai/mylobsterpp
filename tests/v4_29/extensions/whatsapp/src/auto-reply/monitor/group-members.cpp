@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts] normalizes member phone numbers before storing",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:5] normalizes member phone numbers before storing",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts] ignores incomplete member values",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:13] ignores incomplete member values",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts] deduplicates participants and appends named roster members",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:24] deduplicates participants and appends named roster members",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts] falls back to sender when no participants or roster are available",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:38] falls back to sender when no participants or roster are available",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts] returns undefined when no members can be resolved",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:48] returns undefined when no members can be resolved",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-members.test.ts:48",
                "upstream it() block #4",

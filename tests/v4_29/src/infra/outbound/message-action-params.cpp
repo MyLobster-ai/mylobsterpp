@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] skips plugin media discovery when args only use standard action params",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:33] skips plugin media discovery when args only use standard action params",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] discovers plugin media params when args include an extension-owned field",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:50] discovers plugin media params when args include an extension-owned field",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] prefers sandbox media policy when sandbox roots are non-blank",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:75] prefers sandbox media policy when sandbox roots are non-blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] preserves explicit any local roots for host read opt-ins",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:99] preserves explicit any local roots for host read opt-ins",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] collects host media source hints from the shared media-source key set",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:209] collects host media source hints from the shared media-source key set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:209",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] uses mediaUrl and fileUrl aliases when inferring attachment filenames",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:366] uses mediaUrl and fileUrl aliases when inferring attachment filenames",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:366",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts] falls back to extension-based attachment names for remote-host file URLs",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-params.test.ts:394] falls back to extension-based attachment names for remote-host file URLs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-params.test.ts:394",
                "upstream it() block #6",

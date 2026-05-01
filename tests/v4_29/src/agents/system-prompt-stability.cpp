@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts] returns identical results for same inputs across multiple calls",
+TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts:17] returns identical results for same inputs across multiple calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-stability.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts] returns consistent ordering across calls",
+TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts:75] returns consistent ordering across calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-stability.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts] maintains consistency even with missing files",
+TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts:102] maintains consistency even with missing files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-stability.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts] maintains consistency across concurrent loads",
+TEST_CASE("v4.29 [src/agents/system-prompt-stability.test.ts:134] maintains consistency across concurrent loads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt-stability.test.ts:134",
                "upstream it() block #3",

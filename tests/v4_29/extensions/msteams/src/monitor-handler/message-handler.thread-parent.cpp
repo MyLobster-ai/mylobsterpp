@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] enqueues a Replying to @sender system event on the first thread reply",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:75] enqueues a Replying to @sender system event on the first thread reply",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] caches parent fetches across thread replies in the same session",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:96] caches parent fetches across thread replies in the same session",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] does not re-enqueue the same parent context within the same session",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:111] does not re-enqueue the same parent context within the same session",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] does not enqueue parent context when allowlist visibility blocks the parent sender",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:128] does not enqueue parent context when allowlist visibility blocks the parent sender",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] handles Graph failure gracefully without throwing or emitting a parent event",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:164] handles Graph failure gracefully without throwing or emitting a parent event",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:164",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] does not fetch parent for DM replyToId",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:180] does not fetch parent for DM replyToId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:180",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts] does not fetch parent for top-level channel messages without replyToId",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:206] does not fetch parent for top-level channel messages without replyToId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-parent.test.ts:206",
                "upstream it() block #6",

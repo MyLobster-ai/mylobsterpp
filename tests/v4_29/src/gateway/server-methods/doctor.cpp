@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns gateway embedding probe status for the default agent",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:190] returns gateway embedding probe status for the default agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:190",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] does not live-probe embedding readiness by default",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:236] does not live-probe embedding readiness by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:236",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns cached embedding readiness without a live probe",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:261] returns cached embedding readiness without a live probe",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:261",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns unavailable when memory manager is missing",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:293] returns unavailable when memory manager is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:293",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns probe failure when manager probe throws",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:305] returns probe failure when manager probe throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:305",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] includes dreaming counts and managed cron status when workspace data is available",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:322] includes dreaming counts and managed cron status when workspace data is available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:322",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] falls back to the manager workspace when no configured dreaming workspaces resolve",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:599] falls back to the manager workspace when no configured dreaming workspaces resolve",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:599",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] reads dreaming config from the selected memory slot plugin",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:667] reads dreaming config from the selected memory slot plugin",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:667",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] merges workspace store errors when multiple workspace stores are unreadable",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:722] merges workspace store errors when multiple workspace stores are unreadable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:722",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] clears grounded-only staged short-term entries without touching the diary",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:826] clears grounded-only staged short-term entries without touching the diary",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:826",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] repairs contaminated dreaming artifacts for control-ui callers",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:850] repairs contaminated dreaming artifacts for control-ui callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:850",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] dedupes exact dream diary duplicates for control-ui callers",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:884] dedupes exact dream diary duplicates for control-ui callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:884",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] reads DREAMS.md when present",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:924] reads DREAMS.md when present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:924",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] reads lowercase dreams.md when present",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:949] reads lowercase dreams.md when present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:949",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns not-found payload when no dream diary exists",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:974] returns not-found payload when no dream diary exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:974",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] backfills the dream diary from workspace memory files",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:995] backfills the dream diary from workspace memory files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:995",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] no-ops backfill when the workspace has no daily memory files",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1048] no-ops backfill when the workspace has no daily memory files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1048",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] resets only backfilled dream diary entries",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1073] resets only backfilled dream diary entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1073",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns an empty preview payload for an empty workspace",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1158] returns an empty preview payload for an empty workspace",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1158",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] maps REM preview and deep candidates into the payload",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1197] maps REM preview and deep candidates into the payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1197",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] invokes grounded preview when grounded=true and daily files exist",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1262] invokes grounded preview when grounded=true and daily files exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1262",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] passes bounded grounded and REM preview limits to the shared harness",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1294] passes bounded grounded and REM preview limits to the shared harness",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1294",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] maps requested empty grounded preview into an empty payload",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1308] maps requested empty grounded preview into an empty payload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1308",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] returns an error payload when the recall store read fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1322] returns an error payload when the recall store read fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1322",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] caps deep candidates and reports truncated when the store exceeds the limit",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1340] caps deep candidates and reports truncated when the store exceeds the limit",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1340",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts] clamps caller-supplied limit within [1, REM_HARNESS_MAX_CANDIDATE_LIMIT]",
+TEST_CASE("v4.29 [src/gateway/server-methods/doctor.test.ts:1382] clamps caller-supplied limit within [1, REM_HARNESS_MAX_CANDIDATE_LIMIT]",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/doctor.test.ts:1382",
                "upstream it() block #25",

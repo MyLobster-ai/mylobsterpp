@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/session-target.test.ts] extracts and trims persistent session targets",
+TEST_CASE("v4.29 [src/cron/session-target.test.ts:10] extracts and trims persistent session targets",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-target.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-target.test.ts] rejects unsafe persistent session targets",
+TEST_CASE("v4.29 [src/cron/session-target.test.ts:16] rejects unsafe persistent session targets",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-target.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-target.test.ts] prefers sessionTarget over creator sessionKey for delivery",
+TEST_CASE("v4.29 [src/cron/session-target.test.ts:22] prefers sessionTarget over creator sessionKey for delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-target.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-target.test.ts] falls back to trimmed creator sessionKey for delivery",
+TEST_CASE("v4.29 [src/cron/session-target.test.ts:31] falls back to trimmed creator sessionKey for delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-target.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/session-target.test.ts] uses cron failure session fallback when no delivery session exists",
+TEST_CASE("v4.29 [src/cron/session-target.test.ts:40] uses cron failure session fallback when no delivery session exists",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/session-target.test.ts:40",
                "upstream it() block #4",

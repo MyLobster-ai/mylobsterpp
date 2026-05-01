@@ -5,229 +5,229 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] formats pi-style truncation wording with a count",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:147] formats pi-style truncation wording with a count",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:147",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] passes through unchanged context when under the per-tool and total budget",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:153] passes through unchanged context when under the per-tool and total budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:153",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] does not preemptively overflow large non-tool context that is still under the high-water mark",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:162] does not preemptively overflow large non-tool context that is still under the high-water mark",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:162",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] returns a cloned guarded context so original oversized tool output stays visible",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:171] returns a cloned guarded context so original oversized tool output stays visible",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:171",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] wraps an existing transformContext and guards the transformed output",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:184] wraps an existing transformContext and guards the transformed output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] handles legacy role=tool string outputs with pi-style truncation wording",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:200] handles legacy role=tool string outputs with pi-style truncation wording",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:200",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] drops oversized tool-result details when truncating once",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:211] drops oversized tool-result details when truncating once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:211",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] throws a preemptive overflow when total context still exceeds the high-water mark",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:226] throws a preemptive overflow when total context still exceeds the high-water mark",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] throws instead of rewriting older tool results under aggregate pressure",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:239] throws instead of rewriting older tool results under aggregate pressure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:239",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] does not special-case the latest read result before throwing under aggregate pressure",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:256] does not special-case the latest read result before throwing under aggregate pressure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:256",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] supports model-window-specific truncation for large but otherwise valid tool results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:271] supports model-window-specific truncation for large but otherwise valid tool results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:271",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] raises a structured mid-turn precheck signal after a new tool result overflows",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:284] raises a structured mid-turn precheck signal after a new tool result overflows",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:284",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] does not run mid-turn precheck when no new tool result was appended",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:309] does not run mid-turn precheck when no new tool result was appended",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:309",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] uses compact_only route when mid-turn overflow is not reducible by tool truncation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:323] uses compact_only route when mid-turn overflow is not reducible by tool truncation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:323",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] returns early when the current messages match the pre-prompt baseline",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:458] returns early when the current messages match the pre-prompt baseline",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:458",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] processes the first call when messages already exceed the pre-prompt baseline",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:471] processes the first call when messages already exceed the pre-prompt baseline",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:471",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] passes runtimeContext through loop-hook afterTurn calls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:487] passes runtimeContext through loop-hook afterTurn calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:487",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] passes loop messages and the prompt fence into the runtimeContext callback",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:516] passes loop messages and the prompt fence into the runtimeContext callback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:516",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] calls afterTurn and assemble when new messages are appended after the first call",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:535] calls afterTurn and assemble when new messages are appended after the first call",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:535",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] advances the fence across multiple iterations",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:554] advances the fence across multiple iterations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:554",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] skips afterTurn and assemble when messages have not changed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:573] skips afterTurn and assemble when messages have not changed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:573",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] returns the assembled view when its length differs from the source",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:587] returns the assembled view when its length differs from the source",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:587",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] returns the assembled view when the engine rewrites content without changing count",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:603] returns the assembled view when the engine rewrites content without changing count",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:603",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] returns the source when the engine returns the same array reference",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:620] returns the source when the engine returns the same array reference",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:620",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] does not mutate the source messages array",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:630] does not mutate the source messages array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:630",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] ingests new messages in batches when afterTurn is absent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:648] ingests new messages in batches when afterTurn is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:648",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] falls back to per-message ingest when ingestBatch is absent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:668] falls back to per-message ingest when ingestBatch is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:668",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] falls through to source messages when engine.afterTurn throws",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:686] falls through to source messages when engine.afterTurn throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:686",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] falls through to source messages when engine.assemble throws",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:700] falls through to source messages when engine.assemble throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:700",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] invokes any pre-existing transformContext before the engine sees messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:714] invokes any pre-existing transformContext before the engine sees messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:714",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] restores the previous transformContext when the returned dispose is called",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:733] restores the previous transformContext when the returned dispose is called",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:733",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts] returns the cached assembled view on unchanged iterations instead of raw source",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:744] returns the cached assembled view on unchanged iterations instead of raw source",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/tool-result-context-guard.test.ts:744",
                "upstream it() block #31",

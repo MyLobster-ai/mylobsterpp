@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts] appends thread suffix to session key for channel thread replies",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:7] appends thread suffix to session key for channel thread replies",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts] does not append thread suffix for top-level channel messages",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:18] does not append thread suffix for top-level channel messages",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts] produces different session keys for different threads in the same channel",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:29] produces different session keys for different threads in the same channel",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts] does not affect DM session keys",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:46] does not affect DM session keys",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts] does not affect group chat session keys",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:56] does not affect group chat session keys",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts] prefers conversation message id over replyToId for deep channel replies",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:66] prefers conversation message id over replyToId for deep channel replies",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/message-handler.thread-session.test.ts:66",
                "upstream it() block #5",

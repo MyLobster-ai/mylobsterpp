@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] registers for session change events",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:45] registers for session change events",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] deletes multiple sessions and refreshes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:57] deletes multiple sessions and refreshes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] returns empty array when user cancels",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:89] returns empty array when user cancels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] returns partial results when some deletes fail",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:100] returns partial results when some deletes fail",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] returns empty array when already loading",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:124] returns empty array when already loading",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] queues refreshes requested during delete without releasing mutation loading",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:134] queues refreshes requested during delete without releasing mutation loading",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:134",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] coalesces overlapping refreshes instead of dropping the latest request",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:185] coalesces overlapping refreshes instead of dropping the latest request",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:185",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] refreshes expanded checkpoint cards when the row summary changes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:239] refreshes expanded checkpoint cards when the row summary changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] updates fresh context usage from websocket event payloads",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:327] updates fresh context usage from websocket event payloads",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:327",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts] clears old token totals when the gateway marks the measurement stale",
+TEST_CASE("v4.29 [ui/src/ui/controllers/sessions.test.ts:367] clears old token totals when the gateway marks the measurement stale",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/sessions.test.ts:367",
                "upstream it() block #9",

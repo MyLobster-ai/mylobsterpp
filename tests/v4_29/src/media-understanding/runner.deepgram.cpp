@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/runner.deepgram.test.ts] merges provider options, headers, and baseUrl overrides",
+TEST_CASE("v4.29 [src/media-understanding/runner.deepgram.test.ts:17] merges provider options, headers, and baseUrl overrides",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runner.deepgram.test.ts:17",
                "upstream it() block #0",

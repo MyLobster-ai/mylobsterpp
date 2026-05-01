@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] collapses default config, credentials, and workspace into the state backup root",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:97] collapses default config, credentials, and workspace into the state backup root",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] orders coverage checks by canonical path so symlinked workspaces do not duplicate state",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:121] orders coverage checks by canonical path so symlinked workspaces do not duplicate state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:121",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] creates an archive with a manifest and external workspace payload",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:150] creates an archive with a manifest and external workspace payload",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] rejects output paths that would be created inside a backed-up directory",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:266] rejects output paths that would be created inside a backed-up directory",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:266",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] rejects symlinked output paths even when intermediate directories do not exist yet",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:280] rejects symlinked output paths even when intermediate directories do not exist yet",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:280",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] falls back to the home directory when cwd is inside a backed-up source tree",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:305] falls back to the home directory when cwd is inside a backed-up source tree",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:305",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] allows dry-run preview even when the target archive already exists",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:345] allows dry-run preview even when the target archive already exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:345",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] handles invalid config according to backup scope",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:375] handles invalid config according to backup scope",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:375",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.test.ts] backs up only the active config file when --only-config is requested",
+TEST_CASE("v4.29 [src/commands/backup.test.ts:398] backs up only the active config file when --only-config is requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.test.ts:398",
                "upstream it() block #8",

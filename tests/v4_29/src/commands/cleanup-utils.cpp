@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts] resolves inside-state flags and workspace dirs",
+TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts:13] resolves inside-state flags and workspace dirs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/cleanup-utils.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts] does not mutate when already set",
+TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts:40] does not mutate when already set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/cleanup-utils.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts] normalizes legacy models",
+TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts:47] normalizes legacy models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/cleanup-utils.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts] removes state and only linked paths outside state",
+TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts:70] removes state and only linked paths outside state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/cleanup-utils.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts] removes every workspace directory",
+TEST_CASE("v4.29 [src/commands/cleanup-utils.test.ts:93] removes every workspace directory",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/cleanup-utils.test.ts:93",
                "upstream it() block #4",

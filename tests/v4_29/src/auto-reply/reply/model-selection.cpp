@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] skips full catalog loading for ordinary allowlist-backed turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:41] skips full catalog loading for ordinary allowlist-backed turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] uses the implicit model default when no global thinking default is configured",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:78] uses the implicit model default when no global thinking default is configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] hydrates runtime catalog metadata when the configured allowlist entry lacks reasoning",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:112] hydrates runtime catalog metadata when the configured allowlist entry lacks reasoning",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] prefers per-agent thinkingDefault over model and global defaults",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:149] prefers per-agent thinkingDefault over model and global defaults",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] loads the full catalog for explicit model directives",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:184] loads the full catalog for explicit model directives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] prefers provider-qualified cache keys over bare model ids",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:211] prefers provider-qualified cache keys over bare model ids",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] inherits parent override from explicit parentSessionKey",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:304] inherits parent override from explicit parentSessionKey",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:304",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] derives parent key from topic session suffix",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:324] derives parent key from topic session suffix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:324",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] prefers child override over parent",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:343] prefers child override over parent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:343",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] ignores parent override when disallowed",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:367] ignores parent override when disallowed",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:367",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] applies stored override when heartbeat override was not resolved",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:394] applies stored override when heartbeat override was not resolved",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:394",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] skips stored override when heartbeat override was resolved",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:401] skips stored override when heartbeat override was resolved",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:401",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] applies session modelOverride when set",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:432] applies session modelOverride when set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:432",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] falls back to default when no modelOverride is set",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:444] falls back to default when no modelOverride is set",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:444",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] respects modelOverride even when session model field differs",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:451] respects modelOverride even when session model field differs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:451",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] uses default provider when providerOverride is not set but modelOverride is",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:467] uses default provider when providerOverride is not set but modelOverride is",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:467",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] splits legacy combined modelOverride when providerOverride is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:478] splits legacy combined modelOverride when providerOverride is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:478",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] normalizes deprecated xai beta session overrides before allowlist checks",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:489] normalizes deprecated xai beta session overrides before allowlist checks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:489",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] clears disallowed model overrides and falls back to the default",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:528] clears disallowed model overrides and falls back to the default",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:528",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] keeps allowed legacy combined session overrides after normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:565] keeps allowed legacy combined session overrides after normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:565",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] preserves auto-failover overrides across turns until reset",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:636] preserves auto-failover overrides across turns until reset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:636",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] still clears disallowed auto-failover overrides through allowlist validation",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:651] still clears disallowed auto-failover overrides through allowlist validation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:651",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] keeps pre-loaded fallback provider/model for an auto-failover override",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:688] keeps pre-loaded fallback provider/model for an auto-failover override",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:688",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] preserves a user-selected override across turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:715] preserves a user-selected override across turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:715",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] preserves a legacy override with no modelOverrideSource (treated as user)",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:730] preserves a legacy override with no modelOverrideSource (treated as user)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:730",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] does not touch an auto-failover override inherited from a parent session",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:745] does not touch an auto-failover override inherited from a parent session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:745",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] returns on when catalog model has reasoning true",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:783] returns on when catalog model has reasoning true",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:783",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts] returns off when catalog model has no reasoning",
+TEST_CASE("v4.29 [src/auto-reply/reply/model-selection.test.ts:800] returns off when catalog model has no reasoning",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/model-selection.test.ts:800",
                "upstream it() block #27",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] triggers Graph fallback when HTML contains <attachment> tags",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:38] triggers Graph fallback when HTML contains <attachment> tags",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] does NOT trigger Graph fallback for mention-only HTML (no <attachment> tags)",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:59] does NOT trigger Graph fallback for mention-only HTML (no <attachment> tags)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] does NOT trigger Graph fallback when no attachments are text/html",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:81] does NOT trigger Graph fallback when no attachments are text/html",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] does NOT trigger Graph fallback when direct download succeeds",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:99] does NOT trigger Graph fallback when direct download succeeds",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] forwards log through to downloadMSTeamsGraphMedia for diagnostics",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:118] forwards log through to downloadMSTeamsGraphMedia for diagnostics",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] routes ",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:155] routes ",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:155",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] skips the Graph fallback entirely for ",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:189] skips the Graph fallback entirely for ",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:189",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] does NOT call the Bot Framework endpoint for Graph-compatible ",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:214] does NOT call the Bot Framework endpoint for Graph-compatible ",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:214",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] skips BF DM attachment fetch entirely when HTML has no <attachment> tags",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:235] skips BF DM attachment fetch entirely when HTML has no <attachment> tags",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:235",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts] logs when serviceUrl is missing for a BF DM with HTML content",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor-handler/inbound-media.test.ts:258] logs when serviceUrl is missing for a BF DM with HTML content",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor-handler/inbound-media.test.ts:258",
                "upstream it() block #9",

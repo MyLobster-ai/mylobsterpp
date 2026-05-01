@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts] returns immediately with a stopping message and fires killProcessTree",
+TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts:84] returns immediately with a stopping message and fires killProcessTree",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/bash-command.stop.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts] includes the full session ID so the user can poll after starting a new job",
+TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts:96] includes the full session ID so the user can poll after starting a new job",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/bash-command.stop.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts] does not call markExited synchronously (defers to supervisor lifecycle)",
+TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts:106] does not call markExited synchronously (defers to supervisor lifecycle)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/bash-command.stop.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts] returns no-running-job when session is not found",
+TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts:116] returns no-running-job when session is not found",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/bash-command.stop.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts] fails stop when session has no pid",
+TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts:126] fails stop when session has no pid",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/bash-command.stop.test.ts:126",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts] uses the canonical target session for elevated sandbox explanation",
+TEST_CASE("v4.29 [src/auto-reply/reply/bash-command.stop.test.ts:138] uses the canonical target session for elevated sandbox explanation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/bash-command.stop.test.ts:138",
                "upstream it() block #5",

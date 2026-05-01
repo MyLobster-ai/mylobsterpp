@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] rejects unsafe session IDs",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:24] rejects unsafe session IDs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] resolves transcript path inside an explicit sessions dir",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:37] resolves transcript path inside an explicit sessions dir",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] falls back to derived path when sessionFile is outside known agent sessions dirs",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:44] falls back to derived path when sessionFile is outside known agent sessions dirs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] ignores multi-store sentinel paths when deriving session file options",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:55] ignores multi-store sentinel paths when deriving session file options",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] accepts symlink-alias session paths that resolve under the sessions dir",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:62] accepts symlink-alias session paths that resolve under the sessions dir",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] falls back when sessionFile is a symlink that escapes sessions dir",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:81] falls back when sessionFile is a symlink that escapes sessions dir",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:81",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] does not use dm fallback for group/thread types",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:108] does not use dm fallback for group/thread types",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:108",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] defaults to daily resets at 4am local time",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:124] defaults to daily resets at 4am local time",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:124",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] treats idleMinutes=0 as never expiring by inactivity",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:135] treats idleMinutes=0 as never expiring by inactivity",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:135",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] uses sessionStartedAt, not updatedAt, for daily reset freshness",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:153] uses sessionStartedAt, not updatedAt, for daily reset freshness",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:153",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] uses lastInteractionAt, not updatedAt, for idle reset freshness",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:168] uses lastInteractionAt, not updatedAt, for idle reset freshness",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:168",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] falls back to sessionStartedAt, not updatedAt, for legacy idle freshness",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:187] falls back to sessionStartedAt, not updatedAt, for legacy idle freshness",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:187",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] does not let future legacy updatedAt values keep daily sessions fresh",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:206] does not let future legacy updatedAt values keep daily sessions fresh",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:206",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] does not let future legacy updatedAt values keep idle sessions fresh",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:220] does not let future legacy updatedAt values keep idle sessions fresh",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:220",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] falls back to the JSONL session header for legacy session start time",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:240] falls back to the JSONL session header for legacy session start time",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:240",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] serializes concurrent updateSessionStore calls without data loss",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:303] serializes concurrent updateSessionStore calls without data loss",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:303",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] skips session store disk writes when payload is unchanged",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:325] skips session store disk writes when payload is unchanged",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:325",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] multiple consecutive errors do not permanently poison the queue",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:343] multiple consecutive errors do not permanently poison the queue",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:343",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] clears stale runtime provider when model is patched without provider",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:368] clears stale runtime provider when model is patched without provider",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:368",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] caps future updatedAt values at the session merge boundary",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:384] caps future updatedAt values at the session merge boundary",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:384",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] caps future updatedAt values while preserving activity",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:400] caps future updatedAt values while preserving activity",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:400",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] normalizes orphan modelProvider fields at store write boundary",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:414] normalizes orphan modelProvider fields at store write boundary",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:414",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] preserves ACP metadata when replacing a session entry wholesale",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:434] preserves ACP metadata when replacing a session entry wholesale",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:434",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] allows explicit ACP metadata removal through the ACP session helper",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:467] allows explicit ACP metadata removal through the ACP session helper",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:467",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] persists fallback topic transcript paths for sessions without sessionFile",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:504] persists fallback topic transcript paths for sessions without sessionFile",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:504",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] creates and persists entry when session is not yet present",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:536] creates and persists entry when session is not yet present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:536",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts] rotates to a new transcript path when sessionId changes on the same session key",
+TEST_CASE("v4.29 [src/config/sessions/sessions.test.ts:557] rotates to a new transcript path when sessionId changes on the same session key",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/sessions.test.ts:557",
                "upstream it() block #26",

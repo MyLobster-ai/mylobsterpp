@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts] authorizes when allowFrom uses qqbot: prefix and senderId is the bare id",
+TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts:43] authorizes when allowFrom uses qqbot: prefix and senderId is the bare id",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/command-auth.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts] authorizes when qqbot: prefix is mixed case",
+TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts:47] authorizes when qqbot: prefix is mixed case",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/command-auth.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts] denies a sender not in the qqbot:-prefixed allowFrom list",
+TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts:51] denies a sender not in the qqbot:-prefixed allowFrom list",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/command-auth.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts] authorizes any sender when allowFrom is empty (open)",
+TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts:55] authorizes any sender when allowFrom is empty (open)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/command-auth.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts] authorizes any sender when allowFrom contains wildcard *",
+TEST_CASE("v4.29 [extensions/qqbot/src/command-auth.test.ts:59] authorizes any sender when allowFrom contains wildcard *",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/command-auth.test.ts:59",
                "upstream it() block #4",

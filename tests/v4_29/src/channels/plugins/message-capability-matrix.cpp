@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts] exposes Slack presentation when configured",
+TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts:130] exposes Slack presentation when configured",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-capability-matrix.test.ts:130",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts] forwards Telegram action capabilities through the channel wrapper",
+TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts:153] forwards Telegram action capabilities through the channel wrapper",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-capability-matrix.test.ts:153",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts] exposes configured channel capabilities only when required credentials are present",
+TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts:172] exposes configured channel capabilities only when required credentials are present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-capability-matrix.test.ts:172",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts] keeps Zalo actions on the empty capability set",
+TEST_CASE("v4.29 [src/channels/plugins/message-capability-matrix.test.ts:236] keeps Zalo actions on the empty capability set",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/message-capability-matrix.test.ts:236",
                "upstream it() block #3",

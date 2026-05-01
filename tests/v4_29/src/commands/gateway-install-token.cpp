@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] uses plaintext gateway.auth.token when configured",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:89] uses plaintext gateway.auth.token when configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] validates SecretRef token but does not persist resolved plaintext",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:105] validates SecretRef token but does not persist resolved plaintext",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] returns unavailable reason when token SecretRef is unresolved in token mode",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:125] returns unavailable reason when token SecretRef is unresolved in token mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] returns unavailable reason when token and password are both configured and mode is unset",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:142] returns unavailable reason when token and password are both configured and mode is unset",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] auto-generates token when no source exists and auto-generation is enabled",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:165] auto-generates token when no source exists and auto-generation is enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] persists auto-generated token when requested",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:182] persists auto-generated token when requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] drops generated plaintext when config changes to SecretRef before persist",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:212] drops generated plaintext when config changes to SecretRef before persist",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] does not auto-generate when inferred mode has password SecretRef configured",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:245] does not auto-generate when inferred mode has password SecretRef configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:245",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] passes the install env through to gateway auth resolution",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:272] passes the install env through to gateway auth resolution",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:272",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts] skips token SecretRef resolution when token auth is not required",
+TEST_CASE("v4.29 [src/commands/gateway-install-token.test.ts:304] skips token SecretRef resolution when token auth is not required",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-install-token.test.ts:304",
                "upstream it() block #9",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/embeddings.test.ts] returns no provider in auto mode when all candidates are skippable setup failures",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/embeddings.test.ts:88] returns no provider in auto mode when all candidates are skippable setup failures",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/embeddings.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/embeddings.test.ts] still throws missing credentials for an explicit provider request",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/embeddings.test.ts:100] still throws missing credentials for an explicit provider request",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/embeddings.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/embeddings.test.ts] continues auto-selection after a skippable setup failure",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/embeddings.test.ts:108] continues auto-selection after a skippable setup failure",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/embeddings.test.ts:108",
                "upstream it() block #2",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] does not preload configured channel plugins for the lean JSON path",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:53] does not preload configured channel plugins for the lean JSON path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] keeps resolved and source channel configs available without loading runtime plugins",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:62] keeps resolved and source channel configs available without loading runtime plugins",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] skips plugin compatibility loading even when configured channels are present",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:93] skips plugin compatibility loading even when configured channels are present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] keeps the fast JSON summary off the channel plugin summary path",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:101] keeps the fast JSON summary off the channel plugin summary path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] skips memory inspection for the lean status --json fast path",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:111] skips memory inspection for the lean status --json fast path",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:111",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] restores memory inspection when --all is requested",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:124] restores memory inspection when --all is requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:124",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts] skips gateway and update probes on cold-start status --json",
+TEST_CASE("v4.29 [src/commands/status.scan.fast-json.test.ts:142] skips gateway and update probes on cold-start status --json",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.fast-json.test.ts:142",
                "upstream it() block #6",

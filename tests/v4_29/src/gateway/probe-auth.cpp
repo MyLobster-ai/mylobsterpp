@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] returns probe auth credentials when available",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:23] returns probe auth credentials when available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] returns warning and empty auth when token SecretRef is unresolved",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:44] returns warning and empty auth when token SecretRef is unresolved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] does not fall through to remote token when local token SecretRef is unresolved",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:60] does not fall through to remote token when local token SecretRef is unresolved",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] does not fall through to remote credentials for local probes",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:80] does not fall through to remote credentials for local probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] ignores unresolved local token SecretRef in remote mode when remote-only auth is requested",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:104] ignores unresolved local token SecretRef in remote mode when remote-only auth is requested",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:104",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] falls back to local probe mode when remote mode is configured without remote url",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:137] falls back to local probe mode when remote mode is configured without remote url",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:137",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] keeps remote probe mode when remote url is configured",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:151] keeps remote probe mode when remote url is configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:151",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] resolves env SecretRef token via async secret-inputs path",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:170] resolves env SecretRef token via async secret-inputs path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:170",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] returns empty auth without warning for gateway.remote SecretRefs in local probes",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:198] returns empty auth without warning for gateway.remote SecretRefs in local probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:198",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] returns warning and empty auth when SecretRef cannot be resolved via async path",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:227] returns warning and empty auth when SecretRef cannot be resolved via async path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:227",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts] resolves local probe SecretRef values before shared credential selection",
+TEST_CASE("v4.29 [src/gateway/probe-auth.test.ts:253] resolves local probe SecretRef values before shared credential selection",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe-auth.test.ts:253",
                "upstream it() block #10",

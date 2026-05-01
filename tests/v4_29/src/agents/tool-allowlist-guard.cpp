@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts] fails closed when explicit allowlists resolve to no callable tools",
+TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts:8] fails closed when explicit allowlists resolve to no callable tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-allowlist-guard.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts] fails closed for runtime toolsAllow when tools are disabled",
+TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts:20] fails closed for runtime toolsAllow when tools are disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-allowlist-guard.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts] fails closed when the selected model cannot use requested tools",
+TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts:32] fails closed when the selected model cannot use requested tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-allowlist-guard.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts] allows text-only runs without explicit allowlists",
+TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts:43] allows text-only runs without explicit allowlists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-allowlist-guard.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts] allows explicit allowlists when at least one callable tool remains",
+TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts:53] allows explicit allowlists when at least one callable tool remains",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-allowlist-guard.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts] keeps source labels for config and runtime allowlists",
+TEST_CASE("v4.29 [src/agents/tool-allowlist-guard.test.ts:63] keeps source labels for config and runtime allowlists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-allowlist-guard.test.ts:63",
                "upstream it() block #5",

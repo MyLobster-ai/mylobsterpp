@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/runtime-import-side-effects.contract.test.ts] keeps markdown table defaults lazy and memoized after import",
+TEST_CASE("v4.29 [src/plugins/contracts/runtime-import-side-effects.contract.test.ts:67] keeps markdown table defaults lazy and memoized after import",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/runtime-import-side-effects.contract.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/runtime-import-side-effects.contract.test.ts] keeps hot runtime imports cold",
+TEST_CASE("v4.29 [src/plugins/contracts/runtime-import-side-effects.contract.test.ts:81] keeps hot runtime imports cold",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/runtime-import-side-effects.contract.test.ts:81",
                "upstream it() block #1",

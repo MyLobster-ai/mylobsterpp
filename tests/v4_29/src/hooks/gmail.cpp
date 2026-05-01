@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] builds default hook url",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:57] builds default hook url",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] parses topic path",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:63] parses topic path",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] resolves runtime config with defaults",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:71] resolves runtime config with defaults",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] builds watch serve log args without secrets",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:83] builds watch serve log args without secrets",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] fails without hook token",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:114] fails without hook token",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] defaults serve path to / when tailscale is enabled",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:130] defaults serve path to / when tailscale is enabled",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] keeps the default public path when serve path is explicit",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:135] keeps the default public path when serve path is explicit",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:135",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] keeps custom public path when serve path is set",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:143] keeps custom public path when serve path is set",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:143",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/gmail.test.ts] keeps serve path when tailscale target is set",
+TEST_CASE("v4.29 [src/hooks/gmail.test.ts:151] keeps serve path when tailscale target is set",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/gmail.test.ts:151",
                "upstream it() block #8",

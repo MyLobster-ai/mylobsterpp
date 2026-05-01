@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] saveSessionStore prunes stale entries on write",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:114] saveSessionStore prunes stale entries on write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] archives transcript files for stale sessions pruned on write",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:128] archives transcript files for stale sessions pruned on write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] removes trajectory sidecars for stale sessions pruned on write",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:157] removes trajectory sidecars for stale sessions pruned on write",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:157",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] cleans up archived transcripts older than the prune window",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:214] cleans up archived transcripts older than the prune window",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:214",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] cleans up reset archives using resetArchiveRetention",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:250] cleans up reset archives using resetArchiveRetention",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:250",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] saveSessionStore skips enforcement when maintenance mode is warn",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:283] saveSessionStore skips enforcement when maintenance mode is warn",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:283",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] loadSessionStore prunes stale entries from oversized stores by default",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:304] loadSessionStore prunes stale entries from oversized stores by default",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:304",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] loadSessionStore caps oversized stores by default",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:327] loadSessionStore caps oversized stores by default",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:327",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] loadSessionStore batches entry-count cleanup until the high-water mark",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:351] loadSessionStore batches entry-count cleanup until the high-water mark",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:351",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] loadSessionStore caps production-sized stores once they reach the high-water mark",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:370] loadSessionStore caps production-sized stores once they reach the high-water mark",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:370",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] updateSessionStore batches cap-hit maintenance instead of pruning every new session",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:391] updateSessionStore batches cap-hit maintenance instead of pruning every new session",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:391",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] loadSessionStore honors configured maxEntries without an explicit override",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:416] loadSessionStore honors configured maxEntries without an explicit override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:416",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] loadSessionStore honors configured warn mode without an explicit override",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:438] loadSessionStore honors configured warn mode without an explicit override",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:438",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] archives transcript files for entries evicted by maxEntries capping",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:463] archives transcript files for entries evicted by maxEntries capping",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:463",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] does not archive external transcript paths when capping entries",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:489] does not archive external transcript paths when capping entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:489",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] enforces maxDiskBytes with oldest-first session eviction",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:517] enforces maxDiskBytes with oldest-first session eviction",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:517",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] uses projected sessions.json size to avoid over-eviction",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:549] uses projected sessions.json size to avoid over-eviction",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:549",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] does not create rotation backups for hot oversized store writes",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:580] does not create rotation backups for hot oversized store writes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:580",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] does not create rotation backups for destructive maintenance rewrites",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:617] does not create rotation backups for destructive maintenance rewrites",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:617",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts] never deletes transcripts outside the agent sessions directory during budget cleanup",
+TEST_CASE("v4.29 [src/config/sessions/store.pruning.integration.test.ts:657] never deletes transcripts outside the agent sessions directory during budget cleanup",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.pruning.integration.test.ts:657",
                "upstream it() block #19",

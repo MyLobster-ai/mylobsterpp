@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts] dispatches discord keys through the provider normalizer",
+TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts:8] dispatches discord keys through the provider normalizer",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/explicit-session-key-normalization.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts] infers the provider from From when explicit provider fields are absent",
+TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts:22] infers the provider from From when explicit provider fields are absent",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/explicit-session-key-normalization.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts] uses Provider when Surface is absent",
+TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts:35] uses Provider when Surface is absent",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/explicit-session-key-normalization.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts] lowercases and passes through unknown providers unchanged",
+TEST_CASE("v4.29 [src/config/sessions/explicit-session-key-normalization.test.ts:48] lowercases and passes through unknown providers unchanged",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/explicit-session-key-normalization.test.ts:48",
                "upstream it() block #3",

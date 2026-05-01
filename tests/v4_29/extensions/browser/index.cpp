@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] exposes static browser metadata on the plugin definition",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:83] exposes static browser metadata on the plugin definition",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:83",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] bundles the browser automation skill with the plugin",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:94] bundles the browser automation skill with the plugin",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] keeps browser tool registration synchronous while loading runtime on execute",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:104] keeps browser tool registration synchronous while loading runtime on execute",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] registers CLI descriptors and lazy-loads the lightweight browser CLI",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:134] registers CLI descriptors and lazy-loads the lightweight browser CLI",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] registers browser.request as an admin gateway method and lazy-loads handler",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:157] registers browser.request as an admin gateway method and lazy-loads handler",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] lazy-loads node host and audit runtime handlers",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:171] lazy-loads node host and audit runtime handlers",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] lazy-loads the browser service on start",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:179] lazy-loads the browser service on start",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:179",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/index.test.ts] declares setup auto-enable reasons for browser config surfaces",
+TEST_CASE("v4.29 [extensions/browser/index.test.ts:191] declares setup auto-enable reasons for browser config surfaces",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/index.test.ts:191",
                "upstream it() block #7",

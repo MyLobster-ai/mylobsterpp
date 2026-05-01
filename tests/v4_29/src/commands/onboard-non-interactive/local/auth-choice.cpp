@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] resolves plugin provider auth before builtin custom-provider handling",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:36] resolves plugin provider auth before builtin custom-provider handling",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] fails with manifest-owned replacement guidance for deprecated auth choices",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:54] fails with manifest-owned replacement guidance for deprecated auth choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] escapes deprecated auth choice guidance for terminal output",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:77] escapes deprecated auth choice guidance for terminal output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] stores custom provider env refs through the local auth-choice seam",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:100] stores custom provider env refs through the local auth-choice seam",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] marks non-interactive custom provider models as image-capable when requested",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:140] marks non-interactive custom provider models as image-capable when requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] infers image-capable non-interactive custom provider models by known model id",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:163] infers image-capable non-interactive custom provider models by known model id",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts] honors explicit text-only override for known custom vision models",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.test.ts:185] honors explicit text-only override for known custom vision models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.test.ts:185",
                "upstream it() block #6",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts] resolves bootstrap pending from the canonical workspace instead of a copied sandbox",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:8] resolves bootstrap pending from the canonical workspace instead of a copied sandbox",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts] falls back to limited bootstrap wording when a primary run cannot read files",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:32] falls back to limited bootstrap wording when a primary run cannot read files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts] appends BOOTSTRAP.md contents to the user prompt prefix for full bootstrap turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:48] appends BOOTSTRAP.md contents to the user prompt prefix for full bootstrap turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts] does not append BOOTSTRAP.md contents for limited bootstrap turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:61] does not append BOOTSTRAP.md contents for limited bootstrap turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.bootstrap-routing.test.ts:61",
                "upstream it() block #3",

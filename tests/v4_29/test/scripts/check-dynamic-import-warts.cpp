@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts] flags runtime static plus dynamic imports of the same module",
+TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts:5] flags runtime static plus dynamic imports of the same module",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-dynamic-import-warts.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts] ignores type-only static imports",
+TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts:20] ignores type-only static imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-dynamic-import-warts.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts] flags repeated direct dynamic imports",
+TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts:30] flags repeated direct dynamic imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-dynamic-import-warts.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts] ignores cached loader patterns",
+TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts:47] ignores cached loader patterns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-dynamic-import-warts.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts] flags direct dynamic imports inside execute paths",
+TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts:58] flags direct dynamic imports inside execute paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-dynamic-import-warts.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts] allows execute paths that call cached loaders",
+TEST_CASE("v4.29 [test/scripts/check-dynamic-import-warts.test.ts:77] allows execute paths that call cached loaders",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-dynamic-import-warts.test.ts:77",
                "upstream it() block #5",

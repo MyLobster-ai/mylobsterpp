@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts] normalizes conversation ids consistently",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts:38] normalizes conversation ids consistently",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store.shared.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts] upserts, lists, removes, and resolves users by both AAD and Bot Framework ids",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts:57] upserts, lists, removes, and resolves users by both AAD and Bot Framework ids",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store.shared.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts] preserves existing timezone when upsert omits timezone",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts:135] preserves existing timezone when upsert omits timezone",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store.shared.test.ts:135",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts] preserves graphChatId across upserts that omit it",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts:158] preserves graphChatId across upserts that omit it",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store.shared.test.ts:158",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts] prefers the freshest personal conversation for repeated upserts of the same user",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store.shared.test.ts:182] prefers the freshest personal conversation for repeated upserts of the same user",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store.shared.test.ts:182",
                "upstream it() block #4",

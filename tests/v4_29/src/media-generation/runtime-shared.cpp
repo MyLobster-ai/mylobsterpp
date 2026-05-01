@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] appends auth-backed provider defaults after explicit refs by default",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:28] appends auth-backed provider defaults after explicit refs by default",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] auto-detects auth-backed provider defaults when no explicit media model is configured",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:73] auto-detects auth-backed provider defaults when no explicit media model is configured",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] orders auto-detected provider defaults by canonical aliases",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:98] orders auto-detected provider defaults by canonical aliases",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:98",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] disables implicit provider expansion when mediaGenerationAutoProviderFallback=false",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:132] disables implicit provider expansion when mediaGenerationAutoProviderFallback=false",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] treats an explicit model override as exact-only",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:157] treats an explicit model override as exact-only",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] derives reduced aspect ratios from size strings",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:186] derives reduced aspect ratios from size strings",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:186",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] maps unsupported sizes to the closest supported size",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:191] maps unsupported sizes to the closest supported size",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:191",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] maps unsupported aspect ratios to the closest supported aspect ratio",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:200] maps unsupported aspect ratios to the closest supported aspect ratio",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:200",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] maps unsupported resolutions to the closest supported resolution",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:209] maps unsupported resolutions to the closest supported resolution",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:209",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts] clamps durations to the closest supported max",
+TEST_CASE("v4.29 [src/media-generation/runtime-shared.test.ts:218] clamps durations to the closest supported max",
           "[v4_29][parity_gap][media-generation]") {
     PARITY_GAP("src/media-generation/runtime-shared.test.ts:218",
                "upstream it() block #9",

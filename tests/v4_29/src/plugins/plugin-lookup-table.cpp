@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts] builds owner maps and startup ids from one installed manifest registry",
+TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts:111] builds owner maps and startup ids from one installed manifest registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-lookup-table.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts] derives startup ids from a provided metadata snapshot without reloading manifests",
+TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts:202] derives startup ids from a provided metadata snapshot without reloading manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-lookup-table.test.ts:202",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts] rebuilds when a provided metadata snapshot has a stale plugin policy",
+TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts:251] rebuilds when a provided metadata snapshot has a stale plugin policy",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-lookup-table.test.ts:251",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts] rebuilds when a provided metadata snapshot has stale plugin inventory",
+TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts:306] rebuilds when a provided metadata snapshot has stale plugin inventory",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-lookup-table.test.ts:306",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts] rebuilds when a provided metadata snapshot has stale plugin paths",
+TEST_CASE("v4.29 [src/plugins/plugin-lookup-table.test.ts:372] rebuilds when a provided metadata snapshot has stale plugin paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-lookup-table.test.ts:372",
                "upstream it() block #4",

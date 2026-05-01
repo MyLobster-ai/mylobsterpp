@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts] unwraps npm cmd shims to a direct node entrypoint",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts:60] unwraps npm cmd shims to a direct node entrypoint",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/qmd-process.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts] fails closed when a Windows cmd shim cannot be resolved without shell execution",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts:90] fails closed when a Windows cmd shim cannot be resolved without shell execution",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/qmd-process.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts] keeps bare commands bare when no Windows wrapper exists on PATH",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts:108] keeps bare commands bare when no Windows wrapper exists on PATH",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/qmd-process.test.ts:108",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts] returns available when the qmd process spawns successfully",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts:126] returns available when the qmd process spawns successfully",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/qmd-process.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts] returns unavailable when the qmd process cannot be spawned",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts:139] returns unavailable when the qmd process cannot be spawned",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/qmd-process.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts] does not treat close-before-spawn as a successful availability probe",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/qmd-process.test.ts:152] does not treat close-before-spawn as a successful availability probe",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/qmd-process.test.ts:152",
                "upstream it() block #5",

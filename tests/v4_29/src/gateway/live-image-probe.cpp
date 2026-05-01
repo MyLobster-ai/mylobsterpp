@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/live-image-probe.test.ts] leaves room for the unclipped bottom CAT label",
+TEST_CASE("v4.29 [src/gateway/live-image-probe.test.ts:5] leaves room for the unclipped bottom CAT label",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/live-image-probe.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/live-image-probe.test.ts] renders a small solid-color probe attachment",
+TEST_CASE("v4.29 [src/gateway/live-image-probe.test.ts:13] renders a small solid-color probe attachment",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/live-image-probe.test.ts:13",
                "upstream it() block #1",

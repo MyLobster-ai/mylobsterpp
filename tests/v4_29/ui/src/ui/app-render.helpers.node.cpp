@@ -5,334 +5,334 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies main session (bare ",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:98] identifies main session (bare ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:98",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies main session (agent:main:main)",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:102] identifies main session (agent:main:main)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies subagent sessions",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:109] identifies subagent sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies cron sessions",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:116] identifies cron sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies direct chat with known channel",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:127] identifies direct chat with known channel",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:127",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies direct chat with telegram",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:134] identifies direct chat with telegram",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:134",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies group chat with known channel",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:141] identifies group chat with known channel",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:141",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] capitalises unknown channels in direct/group patterns",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:148] capitalises unknown channels in direct/group patterns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:148",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] identifies channel-prefixed legacy keys",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:155] identifies channel-prefixed legacy keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] handles bare channel name as key",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:166] handles bare channel name as key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:166",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns raw key for unknown patterns",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:173] returns raw key for unknown patterns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:173",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefers the paired device token when present",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:182] prefers the paired device token when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:182",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefers the explicit gateway token when present",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:192] prefers the explicit gateway token when present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:192",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] falls back to the shared password when token is blank",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:202] falls back to the shared password when token is blank",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:202",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns null when neither auth secret is available",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:212] returns null when neither auth secret is available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:212",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:230] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:230",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:234] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:234",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:238] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:238",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:242] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:242",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] parses direct chat key with channel",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:246] parses direct chat key with channel",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:246",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] parses channel-prefixed legacy key",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:252] parses channel-prefixed legacy key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:252",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns raw key for unknown patterns",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:256] returns raw key for unknown patterns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:256",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns parsed fallback when row has no label or displayName",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:262] returns parsed fallback when row has no label or displayName",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:262",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns parsed fallback when displayName matches key",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:268] returns parsed fallback when displayName matches key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:268",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns parsed fallback when label matches key",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:274] returns parsed fallback when label matches key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:274",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] uses label alone when available",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:278] uses label alone when available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:278",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] falls back to displayName when label is absent",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:287] falls back to displayName when label is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:287",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefers label over displayName when both are present",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:296] prefers label over displayName when both are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:296",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] ignores whitespace-only label and falls back to displayName",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:305] ignores whitespace-only label and falls back to displayName",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:305",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] uses parsed fallback when whitespace-only label and no displayName",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:314] uses parsed fallback when whitespace-only label and no displayName",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:314",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] trims label and displayName",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:320] trims label and displayName",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:320",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefixes subagent label with Subagent:",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:329] prefixes subagent label with Subagent:",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:329",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefixes subagent displayName with Subagent:",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:338] prefixes subagent displayName with Subagent:",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:338",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefixes cron label with Cron:",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:347] prefixes cron label with Cron:",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:347",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefixes cron displayName with Cron:",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:356] prefixes cron displayName with Cron:",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:356",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] does not double-prefix cron labels that already include Cron:",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:365] does not double-prefix cron labels that already include Cron:",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:365",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] does not double-prefix subagent display names that already include Subagent:",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:374] does not double-prefix subagent display names that already include Subagent:",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:374",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] does not prefix non-typed sessions with labels",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:383] does not prefix non-typed sessions with labels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:383",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns true for cron: prefixed keys",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:394] returns true for cron: prefixed keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:394",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] returns false for non-cron keys",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:401] returns false for non-cron keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:401",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] prefers grouped session labels over display names",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:409] prefers grouped session labels over display names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:409",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] keeps scoped fallbacks for active grouped sessions without useful row metadata",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:429] keeps scoped fallbacks for active grouped sessions without useful row metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:429",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] disambiguates duplicate grouped labels with scoped suffixes",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:443] disambiguates duplicate grouped labels with scoped suffixes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:443",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] uses agent group labels to keep duplicate main sessions unique",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:467] uses agent group labels to keep duplicate main sessions unique",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:467",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] refreshes the chat avatar after clearing session-scoped state",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:497] refreshes the chat avatar after clearing session-scoped state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:497",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] restores queued messages when switching back to their session",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:570] restores queued messages when switching back to their session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:570",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts] does not force agentId=main for plain session keys",
+TEST_CASE("v4.29 [ui/src/ui/app-render.helpers.node.test.ts:614] does not force agentId=main for plain session keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-render.helpers.node.test.ts:614",
                "upstream it() block #46",

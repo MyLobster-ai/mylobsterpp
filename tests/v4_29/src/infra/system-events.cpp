@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] does not leak session-scoped events into main",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:47] does not leak session-scoped events into main",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] requires an explicit session key",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:68] requires an explicit session key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] returns false for consecutive duplicate events",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:72] returns false for consecutive duplicate events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] normalizes context keys when checking for context changes",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:80] normalizes context keys when checking for context changes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] returns cloned event entries and resets duplicate suppression after drain",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:94] returns cloned event entries and resets duplicate suppression after drain",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] consumes only the inspected prefix and leaves later queued events intact",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:113] consumes only the inspected prefix and leaves later queued events intact",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] matches consumed delivery contexts through normalized route identity",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:123] matches consumed delivery contexts through normalized route identity",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:123",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] resolves the newest effective delivery context from queued events",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:140] resolves the newest effective delivery context from queued events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:140",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] keeps only the newest 20 queued events",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:172] keeps only the newest 20 queued events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:172",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] shares queued events across duplicate module instances",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:183] shares queued events across duplicate module instances",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:183",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] filters heartbeat/noise lines, returning undefined",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:203] filters heartbeat/noise lines, returning undefined",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:203",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] prefixes every line of a multi-line event",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:214] prefixes every line of a multi-line event",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:214",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] formats untrusted events with an explicit untrusted prefix",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:227] formats untrusted events with an explicit untrusted prefix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:227",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-events.test.ts] scrubs node last-input suffix",
+TEST_CASE("v4.29 [src/infra/system-events.test.ts:238] scrubs node last-input suffix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-events.test.ts:238",
                "upstream it() block #13",

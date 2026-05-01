@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts] returns static catalog in test environment",
+TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts:60] returns static catalog in test environment",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/provider-models.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts] fetches DeepInfra",
+TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts:67] fetches DeepInfra",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/provider-models.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts] skips non-LLM rows without metadata and deduplicates ids",
+TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts:96] skips non-LLM rows without metadata and deduplicates ids",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/provider-models.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts] uses fallback defaults for sparse metadata",
+TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts:115] uses fallback defaults for sparse metadata",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/provider-models.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts] falls back to the static catalog on network errors",
+TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts:142] falls back to the static catalog on network errors",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/provider-models.test.ts:142",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts] caches successful discovery responses only",
+TEST_CASE("v4.29 [extensions/deepinfra/provider-models.test.ts:151] caches successful discovery responses only",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/provider-models.test.ts:151",
                "upstream it() block #5",

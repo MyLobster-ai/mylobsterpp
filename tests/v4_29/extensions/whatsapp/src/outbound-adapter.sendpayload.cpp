@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] trims leading whitespace for direct text sends",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:5] trims leading whitespace for direct text sends",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] uses the same final sanitizer stack for direct text sends",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:23] uses the same final sanitizer stack for direct text sends",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] trims leading whitespace for direct media captions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:53] trims leading whitespace for direct media captions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] trims leading whitespace for sendPayload text and caption delivery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:74] trims leading whitespace for sendPayload text and caption delivery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] preserves audioAsVoice from payload media sends",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:108] preserves audioAsVoice from payload media sends",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:108",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] drops blank mediaUrls before sending payload media",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:130] drops blank mediaUrls before sending payload media",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] skips whitespace-only text payloads",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:155] skips whitespace-only text payloads",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:155",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] suppresses routed error payloads",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:170] suppresses routed error payloads",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:170",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts] sanitizes HTML-only text to whitespace-only payload",
+TEST_CASE("v4.29 [extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:185] sanitizes HTML-only text to whitespace-only payload",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/outbound-adapter.sendpayload.test.ts:185",
                "upstream it() block #8",

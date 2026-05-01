@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts] uses runtime VERSION when OPENCLAW_VERSION is not set",
+TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts:47] uses runtime VERSION when OPENCLAW_VERSION is not set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.version.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts] prefers OPENCLAW_VERSION over runtime VERSION",
+TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts:57] prefers OPENCLAW_VERSION over runtime VERSION",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.version.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts] still prefers runtime VERSION over OPENCLAW_SERVICE_VERSION when OPENCLAW_VERSION is blank",
+TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts:68] still prefers runtime VERSION over OPENCLAW_SERVICE_VERSION when OPENCLAW_VERSION is blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.version.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts] still prefers runtime VERSION over npm_package_version when service markers are blank",
+TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts:79] still prefers runtime VERSION over npm_package_version when service markers are blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.version.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts] uses runtime VERSION when OPENCLAW_VERSION and OPENCLAW_SERVICE_VERSION are blank",
+TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts:90] uses runtime VERSION when OPENCLAW_VERSION and OPENCLAW_SERVICE_VERSION are blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.version.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts] falls back to hostname when self-presence LAN discovery throws",
+TEST_CASE("v4.29 [src/infra/system-presence.version.test.ts:101] falls back to hostname when self-presence LAN discovery throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.version.test.ts:101",
                "upstream it() block #5",

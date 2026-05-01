@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] re-enables startup-gated methods after post-attach sidecars start",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:230] re-enables startup-gated methods after post-attach sidecars start",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:230",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] keeps the qmd memory backend lazy by default",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:256] keeps the qmd memory backend lazy by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:256",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] starts the qmd memory backend when startup refresh is immediate",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:276] starts the qmd memory backend when startup refresh is immediate",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:276",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] defers qmd memory backend startup refresh until the idle delay elapses",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:290] defers qmd memory backend startup refresh until the idle delay elapses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] waits for sidecars by default before returning",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:327] waits for sidecars by default before returning",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:327",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] continues channel startup when primary model prewarm hangs",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:355] continues channel startup when primary model prewarm hangs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:355",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] starts channels without waiting for primary model prewarm completion",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:384] starts channels without waiting for primary model prewarm completion",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:384",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] keeps startup-gated methods unavailable while sidecars are still resuming",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:439] keeps startup-gated methods unavailable while sidecars are still resuming",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:439",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] dispatches registered gateway startup internal hooks without configured hook packs",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:476] dispatches registered gateway startup internal hooks without configured hook packs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:476",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] waits for a healthy ACP runtime backend before startup identity reconcile",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:522] waits for a healthy ACP runtime backend before startup identity reconcile",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:522",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] passes typed gateway_start context with config, workspace dir, and a live cron getter",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:562] passes typed gateway_start context with config, workspace dir, and a live cron getter",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:562",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] does not resolve the global hook runner when no gateway_start hooks are registered",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:617] does not resolve the global hook runner when no gateway_start hooks are registered",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:617",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts] resolves gateway_start cron from the live runtime getter before deps fallback",
+TEST_CASE("v4.29 [src/gateway/server-startup-post-attach.test.ts:630] resolves gateway_start cron from the live runtime getter before deps fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-post-attach.test.ts:630",
                "upstream it() block #12",

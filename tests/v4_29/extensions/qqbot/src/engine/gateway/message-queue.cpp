@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] returns the single message unchanged",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:19] returns the single message unchanged",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] joins content with sender prefix per line",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:25] joins content with sender prefix per line",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] takes messageId / msgIdx / timestamp from the last message",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:35] takes messageId / msgIdx / timestamp from the last message",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] takes refMsgIdx from the first message",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:45] takes refMsgIdx from the first message",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] concatenates attachments in order",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:53] concatenates attachments in order",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] deduplicates mentions by member/user openid",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:68] deduplicates mentions by member/user openid",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:68",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] flags merged turn as @bot when ANY source was GROUP_AT_MESSAGE_CREATE",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:76] flags merged turn as @bot when ANY source was GROUP_AT_MESSAGE_CREATE",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:76",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] keeps last eventType when no @bot event was present",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:84] keeps last eventType when no @bot event was present",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:84",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] marks as bot only when every source is a bot",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:92] marks as bot only when every source is a bot",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:92",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] uses group peerId for group messages",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:106] uses group peerId for group messages",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:106",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] uses dm peerId for c2c messages",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:111] uses dm peerId for c2c messages",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:111",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] enqueue without processor still drains (no-op when fn is null)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:123] enqueue without processor still drains (no-op when fn is null)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:123",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] group overflow evicts a bot message first (eviction is synchronous)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:134] group overflow evicts a bot message first (eviction is synchronous)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:134",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] group overflow drops bot messages first (via processor)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:162] group overflow drops bot messages first (via processor)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:162",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] clearUserQueue drops buffered items before drain runs",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:206] clearUserQueue drops buffered items before drain runs",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:206",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] merges multiple normal group messages into one processor call",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:230] merges multiple normal group messages into one processor call",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:230",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts] processes slash commands independently from regular messages",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/message-queue.test.ts:260] processes slash commands independently from regular messages",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/message-queue.test.ts:260",
                "upstream it() block #16",

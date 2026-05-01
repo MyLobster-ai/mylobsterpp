@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts] returns false for local loopback config",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts:15] returns false for local loopback config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-source.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts] returns true for config-driven remote urls even if loopback-tunneled",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts:19] returns true for config-driven remote urls even if loopback-tunneled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-source.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts] returns true for env and cli overrides",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts:27] returns true for env and cli overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-source.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts] returns true for remote fallback/misconfigured cases that did not use local loopback source",
+TEST_CASE("v4.29 [src/gateway/android-node.capabilities.policy-source.test.ts:34] returns true for remote fallback/misconfigured cases that did not use local loopback source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/android-node.capabilities.policy-source.test.ts:34",
                "upstream it() block #3",

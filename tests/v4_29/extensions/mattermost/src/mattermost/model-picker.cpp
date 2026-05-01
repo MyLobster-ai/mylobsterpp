@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] resolves bare /model and /models entry points",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:30] resolves bare /model and /models entry points",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] builds the allowed model refs set",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:40] builds the allowed model refs set",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] renders the summary view with a browse button",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:51] renders the summary view with a browse button",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] trims accidental model spacing in Mattermost current-model text",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:63] trims accidental model spacing in Mattermost current-model text",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] renders providers and models with Telegram-style navigation",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:72] renders providers and models with Telegram-style navigation",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] renders unique alphanumeric action ids per button",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:95] renders unique alphanumeric action ids per button",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:95",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] parses signed picker contexts",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:109] parses signed picker contexts",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:109",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts] falls back to the routed agent default model when no override is stored",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/model-picker.test.ts:129] falls back to the routed agent default model when no override is stored",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/model-picker.test.ts:129",
                "upstream it() block #7",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] collects streamed assistant deltas for the active turn",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:5] collects streamed assistant deltas for the active turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] uses completed agent message items when deltas are absent",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:26] uses completed agent message items when deltas are absent",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] ignores notifications for other threads or turns",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:47] ignores notifications for other threads or turns",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] ignores unscoped deltas once the active turn is known",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:75] ignores unscoped deltas once the active turn is known",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] does not complete from unscoped turn completion once the active turn is known",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:96] does not complete from unscoped turn completion once the active turn is known",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] rejects failed turns with the app-server error message",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:126] rejects failed turns with the app-server error message",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:126",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts] times out when the app-server never completes the turn",
+TEST_CASE("v4.29 [extensions/codex/src/conversation-turn-collector.test.ts:142] times out when the app-server never completes the turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/conversation-turn-collector.test.ts:142",
                "upstream it() block #6",

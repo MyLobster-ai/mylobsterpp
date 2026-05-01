@@ -5,460 +5,460 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] defaults to enabled with loopback defaults and lobster-orange color",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:43] defaults to enabled with loopback defaults and lobster-orange color",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] derives default ports from OPENCLAW_GATEWAY_PORT when unset",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:79] derives default ports from OPENCLAW_GATEWAY_PORT when unset",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] derives default ports from gateway.port when env is unset",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:91] derives default ports from gateway.port when env is unset",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] supports overriding the local CDP auto-allocation range start",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:103] supports overriding the local CDP auto-allocation range start",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] rejects cdpPortRangeStart values that overflow the CDP range window",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:113] rejects cdpPortRangeStart values that overflow the CDP range window",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] normalizes hex colors",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:119] normalizes hex colors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:119",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] supports custom remote CDP timeouts",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:126] supports custom remote CDP timeouts",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:126",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] supports custom browser tab cleanup policy",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:137] supports custom browser tab cleanup policy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:137",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] expands tilde-prefixed executablePath with the OS home directory",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:154] expands tilde-prefixed executablePath with the OS home directory",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:154",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] keeps non-tilde executablePath values unchanged after trimming",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:162] keeps non-tilde executablePath values unchanged after trimming",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:162",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] normalizes blank executablePath to undefined",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:170] normalizes blank executablePath to undefined",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:170",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] expands a bare ~ executablePath to the OS home directory",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:178] expands a bare ~ executablePath to the OS home directory",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:178",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] does not expand executablePath values where ~ is not the home prefix",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:203] does not expand executablePath values where ~ is not the home prefix",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:203",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] normalizes invalid browser tab cleanup numbers to defaults",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:211] normalizes invalid browser tab cleanup numbers to defaults",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:211",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] falls back to default color for invalid hex",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:227] falls back to default color for invalid hex",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:227",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] treats non-loopback cdpUrl as remote",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:234] treats non-loopback cdpUrl as remote",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:234",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] supports explicit CDP URLs for the default profile",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:242] supports explicit CDP URLs for the default profile",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:242",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] uses profile cdpUrl when provided",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:252] uses profile cdpUrl when provided",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:252",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] inherits attachOnly from global browser config when profile override is not set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:265] inherits attachOnly from global browser config when profile override is not set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:265",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] allows profile attachOnly to override global browser attachOnly",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:277] allows profile attachOnly to override global browser attachOnly",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:277",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] inherits headless from global browser config when profile override is not set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:289] inherits headless from global browser config when profile override is not set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:289",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] allows profile headless to override global browser headless",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:301] allows profile headless to override global browser headless",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:301",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] allows profile headless=false to override global browser headless=true",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:313] allows profile headless=false to override global browser headless=true",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:313",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] falls back to headless for local managed Linux profiles without display",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:332] falls back to headless for local managed Linux profiles without display",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:332",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] does not apply the no-display fallback to remote CDP profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:344] does not apply the no-display fallback to remote CDP profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:344",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] lets explicit profile headless=false beat the Linux no-display fallback",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:360] lets explicit profile headless=false beat the Linux no-display fallback",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:360",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] lets explicit global headless=false beat the Linux no-display fallback",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:377] lets explicit global headless=false beat the Linux no-display fallback",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:377",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] lets OPENCLAW_BROWSER_HEADLESS override profile/global config",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:389] lets OPENCLAW_BROWSER_HEADLESS override profile/global config",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:389",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] lets request-local headless override beat env and profile/global config",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:405] lets request-local headless override beat env and profile/global config",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:405",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] returns an actionable error only when headed mode is explicitly selected",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:423] returns an actionable error only when headed mode is explicitly selected",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:423",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] uses defaults for local launch and post-launch readiness windows",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:449] uses defaults for local launch and post-launch readiness windows",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:449",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] accepts custom local startup timeout values",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:456] accepts custom local startup timeout values",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:456",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] clamps oversized local startup timeout values",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:466] clamps oversized local startup timeout values",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:466",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] inherits executablePath from global browser config when profile override is not set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:477] inherits executablePath from global browser config when profile override is not set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:477",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] allows profile executablePath to override global browser executablePath",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:489] allows profile executablePath to override global browser executablePath",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:489",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] falls back to global executablePath when profile executablePath is blank",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:505] falls back to global executablePath when profile executablePath is blank",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:505",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] uses base protocol for profiles with only cdpPort",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:521] uses base protocol for profiles with only cdpPort",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:521",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] preserves wss:// cdpUrl with query params for the default profile",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:533] preserves wss:// cdpUrl with query params for the default profile",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:533",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] preserves loopback direct WebSocket cdpUrl for explicit profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:544] preserves loopback direct WebSocket cdpUrl for explicit profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:544",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] prefers cdpPort over stale WebSocket devtools cdpUrl when both are set",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:559] prefers cdpPort over stale WebSocket devtools cdpUrl when both are set",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:559",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] preserves profile host when dropping stale devtools WS path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:578] preserves profile host when dropping stale devtools WS path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:578",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] rejects unsupported protocols",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:596] rejects unsupported protocols",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:596",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] defaults extraArgs to empty array when not provided",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:602] defaults extraArgs to empty array when not provided",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:602",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] passes through valid extraArgs strings",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:607] passes through valid extraArgs strings",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:607",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] filters out empty strings and whitespace-only entries from extraArgs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:614] filters out empty strings and whitespace-only entries from extraArgs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:614",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] filters out non-string entries from extraArgs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:621] filters out non-string entries from extraArgs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:621",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] defaults extraArgs to empty array when set to non-array",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:628] defaults extraArgs to empty array when set to non-array",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:628",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] resolves browser SSRF policy when configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:635] resolves browser SSRF policy when configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:635",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] defaults browser SSRF policy to strict mode when unset",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:650] defaults browser SSRF policy to strict mode when unset",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:650",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] supports explicit strict mode by disabling private network access",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:655] supports explicit strict mode by disabling private network access",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:655",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] preserves legacy explicit strict mode from allowPrivateNetwork=false",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:664] preserves legacy explicit strict mode from allowPrivateNetwork=false",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:664",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] keeps allowlist-only browser SSRF policy strict by default",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:673] keeps allowlist-only browser SSRF policy strict by default",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:673",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] keeps configured profile cdpUrls out of the shared browser SSRF policy",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:686] keeps configured profile cdpUrls out of the shared browser SSRF policy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:686",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] resolves existing-session profiles without cdpPort or cdpUrl",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:698] resolves existing-session profiles without cdpPort or cdpUrl",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:698",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] expands tilde-prefixed userDataDir for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:719] expands tilde-prefixed userDataDir for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:719",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] resolves Chrome MCP command, args, and endpoint URL for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:738] resolves Chrome MCP command, args, and endpoint URL for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:738",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] preserves direct websocket cdpUrl for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:761] preserves direct websocket cdpUrl for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:761",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] sets usesChromeMcp only for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:779] sets usesChromeMcp only for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:779",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] defaults to openclaw profile when defaultProfile is not configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:798] defaults to openclaw profile when defaultProfile is not configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:798",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] keeps openclaw default when headless=true",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:806] keeps openclaw default when headless=true",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:806",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] keeps openclaw default when noSandbox=true",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:813] keeps openclaw default when noSandbox=true",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:813",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] keeps openclaw default when both headless and noSandbox are true",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:820] keeps openclaw default when both headless and noSandbox are true",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:820",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] explicit defaultProfile config overrides defaults in headless mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:828] explicit defaultProfile config overrides defaults in headless mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:828",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] explicit defaultProfile config overrides defaults in noSandbox mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:836] explicit defaultProfile config overrides defaults in noSandbox mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:836",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts] allows custom profile as default even in headless mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/config.test.ts:844] allows custom profile as default even in headless mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/config.test.ts:844",
                "upstream it() block #64",

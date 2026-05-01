@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] matches extractText output",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:10] matches extractText output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] returns consistent output for repeated calls",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:18] returns consistent output for repeated calls",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] strips assistant relevant-memories scaffolding",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:27] strips assistant relevant-memories scaffolding",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] prefers final_answer assistant text over commentary text",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:46] prefers final_answer assistant text over commentary text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] does not render commentary-only assistant text",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:66] does not render commentary-only assistant text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] strips internal runtime context blocks from user text",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:81] strips internal runtime context blocks from user text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:81",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] matches extractThinking output",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:104] matches extractThinking output",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:104",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts] returns consistent output for repeated calls",
+TEST_CASE("v4.29 [ui/src/ui/chat/message-extract.test.ts:112] returns consistent output for repeated calls",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/message-extract.test.ts:112",
                "upstream it() block #7",

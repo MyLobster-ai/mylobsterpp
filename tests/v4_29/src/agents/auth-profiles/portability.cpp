@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/portability.test.ts] copies static credentials but skips OAuth refresh tokens by default",
+TEST_CASE("v4.29 [src/agents/auth-profiles/portability.test.ts:9] copies static credentials but skips OAuth refresh tokens by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/portability.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/portability.test.ts] allows provider-owned OAuth profiles to opt in explicitly",
+TEST_CASE("v4.29 [src/agents/auth-profiles/portability.test.ts:43] allows provider-owned OAuth profiles to opt in explicitly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/portability.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/portability.test.ts] lets static credentials opt out",
+TEST_CASE("v4.29 [src/agents/auth-profiles/portability.test.ts:59] lets static credentials opt out",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/portability.test.ts:59",
                "upstream it() block #2",

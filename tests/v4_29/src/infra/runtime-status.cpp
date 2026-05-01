@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/runtime-status.test.ts] falls back to unknown when status is missing",
+TEST_CASE("v4.29 [src/infra/runtime-status.test.ts:5] falls back to unknown when status is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-status.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-status.test.ts] includes pid, distinct state, and non-empty details",
+TEST_CASE("v4.29 [src/infra/runtime-status.test.ts:10] includes pid, distinct state, and non-empty details",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-status.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-status.test.ts] trims distinct state and detail text before formatting",
+TEST_CASE("v4.29 [src/infra/runtime-status.test.ts:21] trims distinct state and detail text before formatting",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-status.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-status.test.ts] omits duplicate state text and falsy pid values",
+TEST_CASE("v4.29 [src/infra/runtime-status.test.ts:31] omits duplicate state text and falsy pid values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-status.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/runtime-status.test.ts] drops whitespace-only state and detail entries",
+TEST_CASE("v4.29 [src/infra/runtime-status.test.ts:49] drops whitespace-only state and detail entries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/runtime-status.test.ts:49",
                "upstream it() block #4",

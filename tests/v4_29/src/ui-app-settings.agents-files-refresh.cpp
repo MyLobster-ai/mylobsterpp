@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/ui-app-settings.agents-files-refresh.test.ts] loads agent files when the active agents panel is files",
+TEST_CASE("v4.29 [src/ui-app-settings.agents-files-refresh.test.ts:111] loads agent files when the active agents panel is files",
           "[v4_29][parity_gap][ui-app-settings.agents-files-refresh.test.ts]") {
     PARITY_GAP("src/ui-app-settings.agents-files-refresh.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/ui-app-settings.agents-files-refresh.test.ts] does not load agent files on non-files panels",
+TEST_CASE("v4.29 [src/ui-app-settings.agents-files-refresh.test.ts:119] does not load agent files on non-files panels",
           "[v4_29][parity_gap][ui-app-settings.agents-files-refresh.test.ts]") {
     PARITY_GAP("src/ui-app-settings.agents-files-refresh.test.ts:119",
                "upstream it() block #1",

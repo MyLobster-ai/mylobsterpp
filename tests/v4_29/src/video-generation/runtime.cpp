@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] generates videos through the active video-generation provider",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:56] generates videos through the active video-generation provider",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] auto-detects and falls through to another configured video-generation provider by default",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:109] auto-detects and falls through to another configured video-generation provider by default",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:109",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] forwards providerOptions to providers that declare the matching schema",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:150] forwards providerOptions to providers that declare the matching schema",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] passes providerOptions through to providers that do not declare any schema",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:171] passes providerOptions through to providers that do not declare any schema",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:171",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] skips candidates that explicitly declare an empty providerOptions schema",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:188] skips candidates that explicitly declare an empty providerOptions schema",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] skips candidates that declare a providerOptions schema missing the requested key",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:214] skips candidates that declare a providerOptions schema missing the requested key",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:214",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] skips candidates when providerOptions values do not match the declared type",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:237] skips candidates when providerOptions values do not match the declared type",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:237",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] falls over from a provider with explicitly empty providerOptions schema to one that has it",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:260] falls over from a provider with explicitly empty providerOptions schema to one that has it",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:260",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] skips providers that cannot satisfy reference audio inputs and falls back",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:300] skips providers that cannot satisfy reference audio inputs and falls back",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:300",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] forwards mixed image, video, and audio references when explicitly supported",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:346] forwards mixed image, video, and audio references when explicitly supported",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:346",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] fails when every candidate is skipped for unsupported reference audio inputs",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:400] fails when every candidate is skipped for unsupported reference audio inputs",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:400",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] skips providers whose hard duration cap is below the request and falls back",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:422] skips providers whose hard duration cap is below the request and falls back",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:422",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] fails when every candidate is skipped for exceeding hard duration caps",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:468] fails when every candidate is skipped for exceeding hard duration caps",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:468",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] rejects provider results that contain undeliverable assets",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:494] rejects provider results that contain undeliverable assets",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:494",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] lists runtime video-generation providers through the provider registry",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:519] lists runtime video-generation providers through the provider registry",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:519",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] normalizes requested durations to supported provider values",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:543] normalizes requested durations to supported provider values",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:543",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] ignores unsupported optional overrides per provider",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:591] ignores unsupported optional overrides per provider",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:591",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] uses mode-specific capabilities for image-to-video requests",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:656] uses mode-specific capabilities for image-to-video requests",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:656",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/runtime.test.ts] builds a generic config hint without hardcoded provider ids",
+TEST_CASE("v4.29 [src/video-generation/runtime.test.ts:725] builds a generic config hint without hardcoded provider ids",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/runtime.test.ts:725",
                "upstream it() block #18",

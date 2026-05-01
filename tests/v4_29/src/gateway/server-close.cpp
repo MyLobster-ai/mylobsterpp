@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] completes a clean shutdown with a ShutdownResult",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:131] completes a clean shutdown with a ShutdownResult",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:131",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] emits gateway shutdown and pre-restart hooks",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:144] emits gateway shutdown and pre-restart hooks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] continues shutdown and records a warning when gateway shutdown hook stalls",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:169] continues shutdown and records a warning when gateway shutdown hook stalls",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] continues restart shutdown and records a warning when gateway pre-restart hook stalls",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:195] continues restart shutdown and records a warning when gateway pre-restart hook stalls",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:195",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] records subsystem shutdown warnings without aborting later cleanup",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:216] records subsystem shutdown warnings without aborting later cleanup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] unsubscribes lifecycle listeners and disposes bundle runtimes during shutdown",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:249] unsubscribes lifecycle listeners and disposes bundle runtimes during shutdown",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:249",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] starts bundle MCP and LSP runtime disposal concurrently",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:271] starts bundle MCP and LSP runtime disposal concurrently",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:271",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] continues shutdown and records a warning when bundle MCP runtime disposal hangs",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:299] continues shutdown and records a warning when bundle MCP runtime disposal hangs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:299",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] continues shutdown and records a warning when bundle LSP runtime disposal hangs",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:316] continues shutdown and records a warning when bundle LSP runtime disposal hangs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:316",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] terminates lingering websocket clients when websocket close exceeds the grace window",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:333] terminates lingering websocket clients when websocket close exceeds the grace window",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:333",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] continues shutdown when websocket close hangs without tracked clients",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:360] continues shutdown when websocket close hangs without tracked clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:360",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] records a warning when a websocket client close throws",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:385] records a warning when a websocket client close throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:385",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] records a warning when HTTP server close fails",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:404] records a warning when HTTP server close fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:404",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] forces lingering HTTP connections closed and records a timeout warning",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:419] forces lingering HTTP connections closed and records a timeout warning",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:419",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] fails shutdown when http server close still hangs after force close",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:452] fails shutdown when http server close still hangs after force close",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:452",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] labels warnings for multiple HTTP servers with their index",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:474] labels warnings for multiple HTTP servers with their index",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:474",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] ignores unbound http servers during shutdown",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:495] ignores unbound http servers during shutdown",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:495",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-close.test.ts] broadcasts normalized shutdown metadata",
+TEST_CASE("v4.29 [src/gateway/server-close.test.ts:515] broadcasts normalized shutdown metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-close.test.ts:515",
                "upstream it() block #17",

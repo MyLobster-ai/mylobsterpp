@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/allowlist.test.ts] matches full user IDs and prefixes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/allowlist.test.ts:5] matches full user IDs and prefixes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/allowlist.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/allowlist.test.ts] ignores display names and localparts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/allowlist.test.ts:29] ignores display names and localparts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/allowlist.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/allowlist.test.ts] matches wildcard",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/allowlist.test.ts:37] matches wildcard",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/allowlist.test.ts:37",
                "upstream it() block #2",

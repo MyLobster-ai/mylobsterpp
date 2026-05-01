@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] continues processing other jobs when one has a malformed schedule",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:60] continues processing other jobs when one has a malformed schedule",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] logs a warning for the first schedule error",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:85] logs a warning for the first schedule error",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] auto-disables job after 3 consecutive schedule errors",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:105] auto-disables job after 3 consecutive schedule errors",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] clears scheduleErrorCount when schedule computation succeeds",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:129] clears scheduleErrorCount when schedule computation succeeds",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:129",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] does not modify disabled jobs",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:145] does not modify disabled jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] increments error count on each failed computation",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:161] increments error count on each failed computation",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:161",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] stores error message in lastError",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:176] stores error message in lastError",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:176",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts] records a clear schedule error when cron expr is missing",
+TEST_CASE("v4.29 [src/cron/service/jobs.schedule-error-isolation.test.ts:190] records a clear schedule error when cron expr is missing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/jobs.schedule-error-isolation.test.ts:190",
                "upstream it() block #7",

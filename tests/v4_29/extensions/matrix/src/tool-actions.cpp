@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] parses snake_case vote params and forwards normalized selectors",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:74] parses snake_case vote params and forwards normalized selectors",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] rejects missing poll ids",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:105] rejects missing poll ids",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] accepts messageId as a pollId alias for poll votes",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:118] accepts messageId as a pollId alias for poll votes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes account-scoped opts to add reactions",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:137] passes account-scoped opts to add reactions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:137",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes account-scoped opts to remove reactions",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:156] passes account-scoped opts to remove reactions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:156",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes account-scoped opts and limit to reaction listing",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:177] passes account-scoped opts and limit to reaction listing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:177",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes account-scoped opts to message sends",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:201] passes account-scoped opts to message sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:201",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] accepts media-only message sends",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:225] accepts media-only message sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:225",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] accepts shared media aliases and voice-send flags",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:248] accepts shared media aliases and voice-send flags",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:248",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes mediaLocalRoots to profile updates",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:273] passes mediaLocalRoots to profile updates",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:273",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes account-scoped opts to pin listing",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:295] passes account-scoped opts to pin listing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:295",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] passes account-scoped opts to member and room info actions",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:312] passes account-scoped opts to member and room info actions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:312",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] persists self-profile updates through the shared profile helper",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:346] persists self-profile updates through the shared profile helper",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:346",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] accepts local avatar paths for self-profile updates",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:374] accepts local avatar paths for self-profile updates",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:374",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts] respects account-scoped action overrides when gating direct tool actions",
+TEST_CASE("v4.29 [extensions/matrix/src/tool-actions.test.ts:394] respects account-scoped action overrides when gating direct tool actions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/tool-actions.test.ts:394",
                "upstream it() block #14",

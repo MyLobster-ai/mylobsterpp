@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] routes ${testCase.name} text-only announce delivery through the outbound adapter",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:278] routes ${testCase.name} text-only announce delivery through the outbound adapter",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:278",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] collapses Discord text-only announce delivery to the final assistant text",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:294] collapses Discord text-only announce delivery to the final assistant text",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:294",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] preserves multi-payload text-only announce delivery for ${testCase.name} even when final assistant text exists",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:318] preserves multi-payload text-only announce delivery for ${testCase.name} even when final assistant text exists",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:318",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] routes forum-topic telegram targets through the correct delivery path",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:354] routes forum-topic telegram targets through the correct delivery path",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:354",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] preserves explicit supergroup topic targets for cron announce delivery",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:366] preserves explicit supergroup topic targets for cron announce delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:366",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] delivers only the final assistant-visible text to forum-topic telegram targets",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:378] delivers only the final assistant-visible text to forum-topic telegram targets",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:378",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] routes plain telegram targets through the correct delivery path",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:395] routes plain telegram targets through the correct delivery path",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:395",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts] delivers only the final assistant-visible text to plain telegram targets",
+TEST_CASE("v4.29 [src/cron/isolated-agent.direct-delivery-core-channels.test.ts:406] delivers only the final assistant-visible text to plain telegram targets",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.direct-delivery-core-channels.test.ts:406",
                "upstream it() block #7",

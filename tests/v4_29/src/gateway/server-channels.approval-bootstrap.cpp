@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-channels.approval-bootstrap.test.ts] starts and stops the shared approval bootstrap with the channel lifecycle",
+TEST_CASE("v4.29 [src/gateway/server-channels.approval-bootstrap.test.ts:122] starts and stops the shared approval bootstrap with the channel lifecycle",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-channels.approval-bootstrap.test.ts:122",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-channels.approval-bootstrap.test.ts] continues account startup when approval bootstrap startup fails",
+TEST_CASE("v4.29 [src/gateway/server-channels.approval-bootstrap.test.ts:191] continues account startup when approval bootstrap startup fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-channels.approval-bootstrap.test.ts:191",
                "upstream it() block #1",

@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] extracts a simple 2-column table",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:14] extracts a simple 2-column table",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] extracts multiple tables",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:37] extracts multiple tables",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] handles tables with alignment markers",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:57] handles tables with alignment markers",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] returns empty when no tables present",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:69] returns empty when no tables present",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] extracts code blocks across language/no-language/multiple variants",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:80] extracts code blocks across language/no-language/multiple variants",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] extracts markdown links",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:122] extracts markdown links",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] strips inline markdown marker variants",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:135] strips inline markdown marker variants",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:135",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] preserves underscores inside words",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:151] preserves underscores inside words",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:151",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] still strips proper italic _text_",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:157] still strips proper italic _text_",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:157",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] strips italic between underscored words",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:163] strips italic between underscored words",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:163",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] preserves underscores inside non-Latin words",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:167] preserves underscores inside non-Latin words",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:167",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] strips standalone italic between non-Latin words",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:173] strips standalone italic between non-Latin words",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:173",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] handles complex markdown",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:177] handles complex markdown",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:177",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] replaces empty cells with placeholders",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:200] replaces empty cells with placeholders",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:200",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] strips bold markers and applies weight for fully bold cells",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:216] strips bold markers and applies weight for fully bold cells",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:216",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] creates a code card with language label",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:237] creates a code card with language label",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:237",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] creates a code card without language",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:246] creates a code card without language",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:246",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] truncates very long code",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:255] truncates very long code",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:255",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] processes text with code blocks",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:269] processes text with code blocks",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:269",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] handles mixed content",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:286] handles mixed content",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:286",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] handles plain text unchanged",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:317] handles plain text unchanged",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:317",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] detects supported markdown patterns",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:328] detects supported markdown patterns",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:328",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts] returns false for plain text",
+TEST_CASE("v4.29 [extensions/line/src/markdown-to-line.test.ts:345] returns false for plain text",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/markdown-to-line.test.ts:345",
                "upstream it() block #22",

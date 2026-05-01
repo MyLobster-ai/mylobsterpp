@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts] switches between idle and abort actions",
+TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts:41] switches between idle and abort actions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/run-controls.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts] queues draft text while an active run is abortable",
+TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts:100] queues draft text while an active run is abortable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/run-controls.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts] keeps Stop clickable while disconnected when a run is abortable",
+TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts:124] keeps Stop clickable while disconnected when a run is abortable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/run-controls.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts] renders compaction and fallback indicators while they are fresh",
+TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts:147] renders compaction and fallback indicators while they are fresh",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/run-controls.test.ts:147",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts] renders only for fresh high current usage",
+TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts:237] renders only for fresh high current usage",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/run-controls.test.ts:237",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts] renders, dismisses, and styles BTW side results outside transcript history",
+TEST_CASE("v4.29 [ui/src/ui/chat/run-controls.test.ts:323] renders, dismisses, and styles BTW side results outside transcript history",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/run-controls.test.ts:323",
                "upstream it() block #5",

@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] returns empty string for missing/empty input",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:13] returns empty string for missing/empty input",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] collapses to MEDIA:{source} when a path/url is present",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:18] collapses to MEDIA:{source} when a path/url is present",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] inlines voice transcript only for voice attachments",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:27] inlines voice transcript only for voice attachments",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] falls back to bracketed tags when no source is available",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:40] falls back to bracketed tags when no source is available",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] joins multiple entries with newline in inline mode",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:52] joins multiple entries with newline in inline mode",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] produces the same body as inline for non-voice attachments",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:65] produces the same body as inline for non-voice attachments",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:65",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] produces the same body as inline for voice without transcriptSource",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:78] produces the same body as inline for voice without transcriptSource",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:78",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] appends ",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:91] appends ",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:91",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] omits the source suffix when transcriptSource is missing (both modes identical)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:109] omits the source suffix when transcriptSource is missing (both modes identical)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] joins with space in ref mode",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:116] joins with space in ref mode",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:116",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] exposes the transcript-source labels table",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:132] exposes the transcript-source labels table",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:132",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] uses the single canonical keyword ",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:139] uses the single canonical keyword ",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:139",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] uses the single canonical type label ",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:153] uses the single canonical type label ",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:153",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] respects a custom separator",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:167] respects a custom separator",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:167",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts] returns the emptyFallback when input is empty",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/attachment-tags.test.ts:179] returns the emptyFallback when input is empty",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/attachment-tags.test.ts:179",
                "upstream it() block #14",

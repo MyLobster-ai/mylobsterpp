@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts] creates a sourceable env file and JSON description",
+TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts:19] creates a sourceable env file and JSON description",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-test-state.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts] renders a Docker-friendly shell snippet",
+TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts:78] renders a Docker-friendly shell snippet",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-test-state.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts] renders a reusable Docker shell function",
+TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts:112] renders a reusable Docker shell function",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-test-state.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts] keeps onboard Docker temp homes on the shared test-state helper",
+TEST_CASE("v4.29 [test/scripts/openclaw-test-state.test.ts:147] keeps onboard Docker temp homes on the shared test-state helper",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-test-state.test.ts:147",
                "upstream it() block #3",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-subpaths.test.ts] keeps browser profile helpers available on the narrow subpath",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-subpaths.test.ts:11] keeps browser profile helpers available on the narrow subpath",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-subpaths.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-subpaths.test.ts] parses and redacts CDP urls on the dedicated CDP subpath",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-subpaths.test.ts:17] parses and redacts CDP urls on the dedicated CDP subpath",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-subpaths.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/browser-subpaths.test.ts] resolves browser control auth on the dedicated auth subpath",
+TEST_CASE("v4.29 [src/plugin-sdk/browser-subpaths.test.ts:23] resolves browser control auth on the dedicated auth subpath",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/browser-subpaths.test.ts:23",
                "upstream it() block #2",

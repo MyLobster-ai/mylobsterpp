@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/policy.test.ts] treats ACP + ACP dispatch as enabled by default",
+TEST_CASE("v4.29 [src/acp/policy.test.ts:15] treats ACP + ACP dispatch as enabled by default",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/policy.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/policy.test.ts] reports ACP disabled state when acp.enabled is false",
+TEST_CASE("v4.29 [src/acp/policy.test.ts:22] reports ACP disabled state when acp.enabled is false",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/policy.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/policy.test.ts] reports dispatch-disabled state when dispatch gate is false",
+TEST_CASE("v4.29 [src/acp/policy.test.ts:34] reports dispatch-disabled state when dispatch gate is false",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/policy.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/policy.test.ts] allows explicit ACP turns when only dispatch is disabled",
+TEST_CASE("v4.29 [src/acp/policy.test.ts:48] allows explicit ACP turns when only dispatch is disabled",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/policy.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/policy.test.ts] blocks explicit ACP turns when ACP is disabled",
+TEST_CASE("v4.29 [src/acp/policy.test.ts:61] blocks explicit ACP turns when ACP is disabled",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/policy.test.ts:61",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/policy.test.ts] applies allowlist filtering for ACP agents",
+TEST_CASE("v4.29 [src/acp/policy.test.ts:73] applies allowlist filtering for ACP agents",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/policy.test.ts:73",
                "upstream it() block #5",

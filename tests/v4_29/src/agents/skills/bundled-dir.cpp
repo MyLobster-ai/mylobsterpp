@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills/bundled-dir.test.ts] returns OPENCLAW_BUNDLED_SKILLS_DIR override when set",
+TEST_CASE("v4.29 [src/agents/skills/bundled-dir.test.ts:21] returns OPENCLAW_BUNDLED_SKILLS_DIR override when set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/bundled-dir.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/bundled-dir.test.ts] resolves bundled skills under a flattened dist layout",
+TEST_CASE("v4.29 [src/agents/skills/bundled-dir.test.ts:27] resolves bundled skills under a flattened dist layout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/bundled-dir.test.ts:27",
                "upstream it() block #1",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] returns redacted talk config for read scope",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:177] returns redacted talk config for read scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:177",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] rejects invalid talk.config params",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:214] rejects invalid talk.config params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:214",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] requires operator.talk.secrets for includeSecrets",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:224] requires operator.talk.secrets for includeSecrets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:224",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] returns Talk SecretRef payloads that satisfy the protocol schema",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:250] returns Talk SecretRef payloads that satisfy the protocol schema",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:250",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] preserves configured Talk provider data when plugin-owned defaults exist",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:280] preserves configured Talk provider data when plugin-owned defaults exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:280",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] does not throw when SecretRef apiKey flows through a strict provider resolver",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:327] does not throw when SecretRef apiKey flows through a strict provider resolver",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:327",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] does not pollute Object.prototype when messages.tts.providers contains a __proto__ key",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:408] does not pollute Object.prototype when messages.tts.providers contains a __proto__ key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:408",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts] returns canonical provider talk payloads",
+TEST_CASE("v4.29 [src/gateway/server.talk-config.test.ts:484] returns canonical provider talk payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-config.test.ts:484",
                "upstream it() block #7",

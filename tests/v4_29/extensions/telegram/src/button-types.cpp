@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/button-types.test.ts] drops buttons whose callback payload exceeds Telegram limits",
+TEST_CASE("v4.29 [extensions/telegram/src/button-types.test.ts:8] drops buttons whose callback payload exceeds Telegram limits",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/button-types.test.ts:8",
                "upstream it() block #0",

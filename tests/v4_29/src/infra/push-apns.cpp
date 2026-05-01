@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends alert pushes with alert headers and payload",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:80] sends alert pushes with alert headers and payload",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends background wake pushes with silent payload semantics",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:119] sends background wake pushes with silent payload semantics",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends exec approval alert pushes with generic modal-only metadata",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:161] sends exec approval alert pushes with generic modal-only metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends exec approval cleanup pushes as silent background notifications",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:212] sends exec approval cleanup pushes as silent background notifications",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] parses direct send failures and clamps sub-second timeouts",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:247] parses direct send failures and clamps sub-second timeouts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:247",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] fails closed before sending when direct registrations carry invalid topics",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:279] fails closed before sending when direct registrations carry invalid topics",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:279",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] defaults background wake reason when not provided",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:304] defaults background wake reason when not provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:304",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends relay alert pushes and falls back to the stored token debug suffix",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:332] sends relay alert pushes and falls back to the stored token debug suffix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:332",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends relay background pushes and falls back to the relay handle suffix",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:381] sends relay background pushes and falls back to the relay handle suffix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:381",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.test.ts] sends relay exec approval alerts with generic modal-only metadata",
+TEST_CASE("v4.29 [src/infra/push-apns.test.ts:430] sends relay exec approval alerts with generic modal-only metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.test.ts:430",
                "upstream it() block #9",

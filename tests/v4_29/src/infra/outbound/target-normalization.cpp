@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] trims raw target input",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:47] trims raw target input",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] uses the cached target normalizer until the plugin registry version changes",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:81] uses the cached target normalizer until the plugin registry version changes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] returns undefined when the provider normalizer resolves to an empty value",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:105] returns undefined when the provider normalizer resolves to an empty value",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] returns undefined for blank input",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:118] returns undefined for blank input",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] returns raw and normalized values",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:122] returns raw and normalized values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:122",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] uses plugin looksLikeId when available",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:138] uses plugin looksLikeId when available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:138",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] returns undefined when requireIdLike is set and the target is not id-like",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:170] returns undefined when requireIdLike is set and the target is not id-like",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:170",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] invokes the plugin resolver with normalized input and defaults source",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:190] invokes the plugin resolver with normalized input and defaults source",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:190",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] builds stable signatures from resolver hint and looksLikeId source",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:235] builds stable signatures from resolver hint and looksLikeId source",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:235",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts] changes when resolver metadata changes",
+TEST_CASE("v4.29 [src/infra/outbound/target-normalization.test.ts:260] changes when resolver metadata changes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-normalization.test.ts:260",
                "upstream it() block #9",

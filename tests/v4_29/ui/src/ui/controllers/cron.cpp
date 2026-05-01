@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] loads model suggestions from the configured model view",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:62] loads model suggestions from the configured model view",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:62",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] normalizes stale announce mode when session/payload no longer support announce",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:83] normalizes stale announce mode when session/payload no longer support announce",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] keeps announce mode when isolated agentTurn supports announce",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:94] keeps announce mode when isolated agentTurn supports announce",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] forwards webhook delivery in cron.add payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:105] forwards webhook delivery in cron.add payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] forwards sessionKey and delivery accountId in cron.add payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:148] forwards sessionKey and delivery accountId in cron.add payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:148",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] omits delivery.channel when the form still uses the ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:188] omits delivery.channel when the form still uses the ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:188",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] forwards lightContext in cron payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:230] forwards lightContext in cron payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:230",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] sends delivery: { mode: ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:267] sends delivery: { mode: ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:267",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] sends delivery: { mode: ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:308] sends delivery: { mode: ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:308",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] does not submit stale announce delivery when unsupported",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:352] does not submit stale announce delivery when unsupported",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:352",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] submits cron.update when editing an existing job",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:401] submits cron.update when editing an existing job",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:401",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] sends empty delivery.accountId in cron.update to clear persisted account routing",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:454] sends empty delivery.accountId in cron.update to clear persisted account routing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:454",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] maps a cron job into editable form fields",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:515] maps a cron job into editable form fields",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:515",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] keeps implicit announce delivery implicit when editing a job that shows ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:552] keeps implicit announce delivery implicit when editing a job that shows ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:552",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] sends delivery.channel=",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:600] sends delivery.channel=",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:600",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] includes model/thinking/stagger/bestEffort in cron.update patch",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:643] includes model/thinking/stagger/bestEffort in cron.update patch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:643",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] sends lightContext=false in cron.update when clearing prior light-context setting",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:694] sends lightContext=false in cron.update when clearing prior light-context setting",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:694",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] includes custom failureAlert fields in cron.update patch",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:750] includes custom failureAlert fields in cron.update patch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:750",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] includes failure alert mode/accountId in cron.update patch",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:798] includes failure alert mode/accountId in cron.update patch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:798",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] keeps implicit failure alert delivery implicit when editing a job that shows ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:842] keeps implicit failure alert delivery implicit when editing a job that shows ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:842",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] sends failureAlert.channel=",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:895] sends failureAlert.channel=",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:895",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] omits failureAlert.cooldownMs when custom cooldown is left blank",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:939] omits failureAlert.cooldownMs when custom cooldown is left blank",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:939",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] includes failureAlert=false when disabled per job",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:988] includes failureAlert=false when disabled per job",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:988",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] maps cron stagger, model, thinking, and best effort into form",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1023] maps cron stagger, model, thinking, and best effort into form",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1023",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] maps failureAlert overrides into form fields",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1056] maps failureAlert overrides into form fields",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1056",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] validates key cron form errors",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1088] validates key cron form errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1088",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] blocks add/update submit when validation errors exist",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1107] blocks add/update submit when validation errors exist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1107",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] canceling edit resets form to defaults and clears edit mode",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1123] canceling edit resets form to defaults and clears edit mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1123",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] cloning a job switches to create mode and applies copy naming",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1149] cloning a job switches to create mode and applies copy naming",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1149",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] submits cron.add after cloning",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1181] submits cron.add after cloning",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1181",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] loads paged jobs with query/filter/sort params",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1222] loads paged jobs with query/filter/sort params",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1222",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] loads and appends paged run history",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1257] loads and appends paged run history",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1257",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts] runs cron job in due mode when requested",
+TEST_CASE("v4.29 [ui/src/ui/controllers/cron.test.ts:1292] runs cron job in due mode when requested",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/cron.test.ts:1292",
                "upstream it() block #32",

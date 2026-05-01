@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts] treats explicit empty plugin scopes as scoped-empty",
+TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts:57] treats explicit empty plugin scopes as scoped-empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-resolution-candidates.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts] keeps scoped plugins with no declared web candidates scoped-empty",
+TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts:68] keeps scoped plugins with no declared web candidates scoped-empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-resolution-candidates.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts] keeps origin filters with no declared web candidates scoped-empty",
+TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts:83] keeps origin filters with no declared web candidates scoped-empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-resolution-candidates.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts] derives provider candidates from a single manifest-registry read",
+TEST_CASE("v4.29 [src/plugins/web-provider-resolution-candidates.test.ts:106] derives provider candidates from a single manifest-registry read",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-resolution-candidates.test.ts:106",
                "upstream it() block #3",

@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] returns true when appId + appPassword + tenantId are provided in config",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:48] returns true when appId + appPassword + tenantId are provided in config",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] returns false when appPassword is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:53] returns false when appPassword is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] returns false when no config is given and no env vars set",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:58] returns false when no config is given and no env vars set",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] resolves secret credentials from config",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:62] resolves secret credentials from config",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] resolves secret credentials from env vars",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:73] resolves secret credentials from env vars",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] returns undefined when appPassword is missing",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:86] returns undefined when appPassword is missing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:86",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] hasConfigured returns true when certificate path is provided",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:96] hasConfigured returns true when certificate path is provided",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:96",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] hasConfigured returns false when neither cert nor MI is provided",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:106] hasConfigured returns false when neither cert nor MI is provided",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:106",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] resolves federated credentials with certificate from config",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:111] resolves federated credentials with certificate from config",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:111",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] resolves federated credentials from env vars",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:131] resolves federated credentials from env vars",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:131",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] resolves managed identity from config",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:154] resolves managed identity from config",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:154",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] resolves system-assigned managed identity (no clientId)",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:174] resolves system-assigned managed identity (no clientId)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:174",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] hasConfigured returns true for managed identity via env",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:193] hasConfigured returns true for managed identity via env",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:193",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] config useManagedIdentity=false overrides env MSTEAMS_USE_MANAGED_IDENTITY=true",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:201] config useManagedIdentity=false overrides env MSTEAMS_USE_MANAGED_IDENTITY=true",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:201",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] defaults to secret when authType is absent",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:222] defaults to secret when authType is absent",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:222",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] explicit authType=secret behaves same as absent",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:229] explicit authType=secret behaves same as absent",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:229",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] reads string and object token forms",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:247] reads string and object token forms",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:247",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts] returns null for unsupported token payloads",
+TEST_CASE("v4.29 [extensions/msteams/src/token.test.ts:253] returns null for unsupported token payloads",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/token.test.ts:253",
                "upstream it() block #17",

@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] builds a real comment-turn prompt for add_comment notices",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:210] builds a real comment-turn prompt for add_comment notices",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:210",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] parses bot mentions plus current and referenced document links from comment content",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:244] parses bot mentions plus current and referenced document links from comment content",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:244",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] preserves whole-document comment metadata for downstream delivery mode selection",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:349] preserves whole-document comment metadata for downstream delivery mode selection",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:349",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] builds a whole-comment timeline and highlights the nearest bot-authored follow-up",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:368] builds a whole-comment timeline and highlights the nearest bot-authored follow-up",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:368",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] treats replies with missing user_id as user-authored even when bot id hints are missing",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:531] treats replies with missing user_id as user-authored even when bot id hints are missing",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:531",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] does not trust whole-comment metadata from a mismatched batch_query item",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:639] does not trust whole-comment metadata from a mismatched batch_query item",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:639",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] preserves sender user_id for downstream allowlist checks",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:658] preserves sender user_id for downstream allowlist checks",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:658",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] falls back to the replies API to resolve add_reply text",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:681] falls back to the replies API to resolve add_reply text",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:681",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] retries comment reply lookup when the requested reply is not immediately visible",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:718] retries comment reply lookup when the requested reply is not immediately visible",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:718",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] ignores self-authored comment notices",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:775] ignores self-authored comment notices",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:775",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] skips comment notices when bot open_id is unavailable",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:792] skips comment notices when bot open_id is unavailable",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:792",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] dispatches comment notices through handleFeishuCommentEvent",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:819] dispatches comment notices through handleFeishuCommentEvent",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:819",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] serializes same-document comment notices before invoking handleFeishuCommentEvent",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:837] serializes same-document comment notices before invoking handleFeishuCommentEvent",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:837",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] drops duplicate comment events before dispatch",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:883] drops duplicate comment events before dispatch",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:883",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] records generic comment-handler failures so replay stays closed",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:892] records generic comment-handler failures so replay stays closed",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:892",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts] releases comment replay without recording when failure is explicitly retryable",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.comment.test.ts:914] releases comment replay without recording when failure is explicitly retryable",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.comment.test.ts:914",
                "upstream it() block #15",

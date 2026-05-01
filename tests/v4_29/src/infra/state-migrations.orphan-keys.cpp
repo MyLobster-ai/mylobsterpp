@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] renames orphaned raw key to canonical form",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:51] renames orphaned raw key to canonical form",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] keeps most recently updated entry when both orphan and canonical exist",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:68] keeps most recently updated entry when both orphan and canonical exist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] skips stores that are already fully canonical",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:84] skips stores that are already fully canonical",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] handles missing store files gracefully",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:98] handles missing store files gracefully",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] is idempotent — running twice produces same result",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:107] is idempotent — running twice produces same result",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] preserves legitimate agent:main:* keys in shared stores with both main and non-main agents",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:124] preserves legitimate agent:main:* keys in shared stores with both main and non-main agents",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:124",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] lets the main agent claim bare main aliases in shared stores",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:148] lets the main agent claim bare main aliases in shared stores",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:148",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts] no-ops when default agentId is main and mainKey is main",
+TEST_CASE("v4.29 [src/infra/state-migrations.orphan-keys.test.ts:166] no-ops when default agentId is main and mainKey is main",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.orphan-keys.test.ts:166",
                "upstream it() block #7",

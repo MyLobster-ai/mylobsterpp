@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts] switches the current session route with the canonical dock command",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts:78] switches the current session route with the canonical dock command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-dock.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts] accepts generated underscore aliases such as Telegram native /dock_discord",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts:94] accepts generated underscore aliases such as Telegram native /dock_discord",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-dock.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts] does not claim unrelated slash commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts:104] does not claim unrelated slash commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-dock.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts] returns an identityLinks hint when no linked target exists",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts:110] returns an identityLinks hint when no linked target exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-dock.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts] fails closed when no session entry can be persisted",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts:124] fails closed when no session entry can be persisted",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-dock.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts] ignores dock commands when text command handling is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-dock.test.ts:137] ignores dock commands when text command handling is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-dock.test.ts:137",
                "upstream it() block #5",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] allows loopback binding with non-loopback trusted proxies",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:99] allows loopback binding with non-loopback trusted proxies",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] defaults to auto (0.0.0.0) inside a container with auth configured",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:264] defaults to auto (0.0.0.0) inside a container with auth configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:264",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] rejects container auto-bind with auth but without allowedOrigins (origin check preserved)",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:279] rejects container auto-bind with auth but without allowedOrigins (origin check preserved)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:279",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] rejects container auto-bind without auth (security invariant preserved)",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:290] rejects container auto-bind without auth (security invariant preserved)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] respects explicit loopback config even inside a container",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:301] respects explicit loopback config even inside a container",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:301",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] falls back to loopback inside a container when tailscale serve is enabled",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:311] falls back to loopback inside a container when tailscale serve is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:311",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] falls back to loopback inside a container when tailscale funnel is enabled",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:328] falls back to loopback inside a container when tailscale funnel is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:328",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts] respects explicit lan config inside a container (requires auth)",
+TEST_CASE("v4.29 [src/gateway/server-runtime-config.test.ts:343] respects explicit lan config inside a container (requires auth)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-runtime-config.test.ts:343",
                "upstream it() block #7",

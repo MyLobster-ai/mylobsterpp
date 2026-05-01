@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] groups repo files by stable product area",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:16] groups repo files by stable product area",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] supports folder and top-level grouping modes",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:24] supports folder and top-level grouping modes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] aggregates file durations by group and config",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:34] aggregates file durations by group and config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] compares grouped reports by group, file, config, and run metrics",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:77] compares grouped reports by group, file, config, and run metrics",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] parses repeatable config and passthrough args",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:168] parses repeatable config and passthrough args",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:168",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] parses compare mode",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:189] parses compare mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:189",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts] keeps raw Vitest reports scoped to the output file stem",
+TEST_CASE("v4.29 [test/scripts/test-group-report.test.ts:209] keeps raw Vitest reports scoped to the output file stem",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/test-group-report.test.ts:209",
                "upstream it() block #6",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.integration.test.ts] runs the plugin-owned memory status command with staged CLI metadata",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-process.integration.test.ts:16] runs the plugin-owned memory status command with staged CLI metadata",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-process.integration.test.ts:16",
                "upstream it() block #0",

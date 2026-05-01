@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables sanitizeToolCallIds for Anthropic provider",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:218] enables sanitizeToolCallIds for Anthropic provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:218",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables sanitizeToolCallIds for Google provider",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:228] enables sanitizeToolCallIds for Google provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:228",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables sanitizeToolCallIds for Mistral provider",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:241] enables sanitizeToolCallIds for Mistral provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:241",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] disables sanitizeToolCallIds for OpenAI provider",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:250] disables sanitizeToolCallIds for OpenAI provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:250",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables strict tool call id sanitization for openai-completions APIs",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:263] enables strict tool call id sanitization for openai-completions APIs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:263",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables user-turn merge for strict OpenAI-compatible providers",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:273] enables user-turn merge for strict OpenAI-compatible providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:273",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] strips historical reasoning for Gemma 4 on OpenAI-compatible providers",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:284] strips historical reasoning for Gemma 4 on OpenAI-compatible providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:284",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] falls back to unowned transport defaults when no owning plugin exists",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:300] falls back to unowned transport defaults when no owning plugin exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:300",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] preserves thinking blocks for newer Claude models in unowned Anthropic transport fallback",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:304] preserves thinking blocks for newer Claude models in unowned Anthropic transport fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:304",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] preserves transport defaults when a runtime plugin has not adopted replay hooks",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:330] preserves transport defaults when a runtime plugin has not adopted replay hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:330",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] uses provider-owned Anthropic replay policy for MiniMax transports",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:334] uses provider-owned Anthropic replay policy for MiniMax transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:334",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] uses provider-owned OpenAI-compatible replay policy for MiniMax portal completions",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:347] uses provider-owned OpenAI-compatible replay policy for MiniMax portal completions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:347",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables Anthropic-compatible policies for Bedrock provider",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:363] enables Anthropic-compatible policies for Bedrock provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:363",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] allows immutable provider-owned thinking replay for anthropic-compatible native replay policies",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:430] allows immutable provider-owned thinking replay for anthropic-compatible native replay policies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:430",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] allows immutable provider-owned thinking replay for bedrock claude replay policies",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:444] allows immutable provider-owned thinking replay for bedrock claude replay policies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:444",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] does not allow immutable provider-owned thinking replay for github-copilot claude models",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:458] does not allow immutable provider-owned thinking replay for github-copilot claude models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:458",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] does not allow immutable provider-owned thinking replay for openrouter models on openai replay",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:472] does not allow immutable provider-owned thinking replay for openrouter models on openai replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:472",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] does not allow immutable provider-owned thinking replay for strict openai-compatible replay",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:486] does not allow immutable provider-owned thinking replay for strict openai-compatible replay",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:486",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] enables turn-ordering and assistant-merge for strict OpenAI-compatible providers (#38962)",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:500] enables turn-ordering and assistant-merge for strict OpenAI-compatible providers (#38962)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:500",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts] keeps OpenRouter on its existing turn-validation path",
+TEST_CASE("v4.29 [src/agents/transcript-policy.test.ts:511] keeps OpenRouter on its existing turn-validation path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.test.ts:511",
                "upstream it() block #19",

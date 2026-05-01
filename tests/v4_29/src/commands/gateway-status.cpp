@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] prints human output by default",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:289] prints human output by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:289",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] prints a structured JSON envelope when --json is set",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:300] prints a structured JSON envelope when --json is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:300",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] omits discovery wsUrl when only TXT hints are present",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:315] omits discovery wsUrl when only TXT hints are present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:315",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] keeps status output working when tailnet discovery throws",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:336] keeps status output working when tailnet discovery throws",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:336",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] treats missing-scope RPC probe failures as degraded but reachable",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:354] treats missing-scope RPC probe failures as degraded but reachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:354",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] suppresses unresolved SecretRef auth warnings when probe is reachable",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:413] suppresses unresolved SecretRef auth warnings when probe is reachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:413",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] surfaces unresolved SecretRef auth diagnostics when probe fails",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:429] surfaces unresolved SecretRef auth diagnostics when probe fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:429",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] does not resolve local token SecretRef when OPENCLAW_GATEWAY_TOKEN is set",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:483] does not resolve local token SecretRef when OPENCLAW_GATEWAY_TOKEN is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:483",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] does not resolve local password SecretRef in token mode",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:516] does not resolve local password SecretRef in token mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:516",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] resolves env-template gateway.auth.token before probing targets",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:556] resolves env-template gateway.auth.token before probing targets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:556",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] emits stable SecretRef auth configuration booleans in --json output",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:600] emits stable SecretRef auth configuration booleans in --json output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:600",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] supports SSH tunnel targets",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:692] supports SSH tunnel targets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:692",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] uses local TLS target strategy and fingerprint for local loopback probes",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:714] uses local TLS target strategy and fingerprint for local loopback probes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:714",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] warns when local TLS is enabled but the certificate fingerprint cannot be loaded",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:738] warns when local TLS is enabled but the certificate fingerprint cannot be loaded",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:738",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] passes the full caller timeout through to local loopback probes",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:777] passes the full caller timeout through to local loopback probes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:777",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] uses configured handshake timeout as the default local probe budget",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:797] uses configured handshake timeout as the default local probe budget",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:797",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] keeps inactive local loopback probes on the short timeout in remote mode",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:819] keeps inactive local loopback probes on the short timeout in remote mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:819",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] does not infer ssh-auto targets from TXT-only discovery metadata",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:840] does not infer ssh-auto targets from TXT-only discovery metadata",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:840",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] infers ssh-auto targets from resolved discovery hosts",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:856] infers ssh-auto targets from resolved discovery hosts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:856",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] infers SSH target from gateway.remote.url and ssh config",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:874] infers SSH target from gateway.remote.url and ssh config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:874",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] falls back to host-only when USER is missing and ssh config is unavailable",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:900] falls back to host-only when USER is missing and ssh config is unavailable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:900",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/gateway-status.test.ts] keeps explicit SSH identity even when ssh config provides one",
+TEST_CASE("v4.29 [src/commands/gateway-status.test.ts:918] keeps explicit SSH identity even when ssh config provides one",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/gateway-status.test.ts:918",
                "upstream it() block #21",

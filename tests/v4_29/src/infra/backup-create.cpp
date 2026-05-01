@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/backup-create.test.ts] excludes dependency trees only under state extensions",
+TEST_CASE("v4.29 [src/infra/backup-create.test.ts:112] excludes dependency trees only under state extensions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/backup-create.test.ts:112",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/backup-create.test.ts] normalizes Windows path separators",
+TEST_CASE("v4.29 [src/infra/backup-create.test.ts:123] normalizes Windows path separators",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/backup-create.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/backup-create.test.ts] omits installed plugin node_modules from the real archive while keeping plugin files",
+TEST_CASE("v4.29 [src/infra/backup-create.test.ts:134] omits installed plugin node_modules from the real archive while keeping plugin files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/backup-create.test.ts:134",
                "upstream it() block #2",

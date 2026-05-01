@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] preserves an empty terminal turn for OpenClaw-owned fallback classification",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:98] preserves an empty terminal turn for OpenClaw-owned fallback classification",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:98",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] preserves exact NO_REPLY as assistant text instead of classifying in the adapter",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:113] preserves exact NO_REPLY as assistant text instead of classifying in the adapter",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] preserves reasoning-only terminal turns for OpenClaw-owned fallback classification",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:138] preserves reasoning-only terminal turns for OpenClaw-owned fallback classification",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] preserves planning-only terminal turns for OpenClaw-owned fallback classification",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:176] preserves planning-only terminal turns for OpenClaw-owned fallback classification",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:176",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] preserves tool side-effect telemetry so fallback can stay disabled",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:220] preserves tool side-effect telemetry so fallback can stay disabled",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:220",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] keeps exact NO_REPLY classified as an intentional silent terminal reply",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:317] keeps exact NO_REPLY classified as an intentional silent terminal reply",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:317",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts] keeps tool side effects classified as non-fallback terminal outcomes",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:340] keeps tool side effects classified as non-fallback terminal outcomes",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/outcome-fallback-runtime-contract.test.ts:340",
                "upstream it() block #6",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/http-registry.test.ts] registers route and unregisters it",
+TEST_CASE("v4.29 [src/plugins/http-registry.test.ts:88] registers route and unregisters it",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/http-registry.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/http-registry.test.ts] returns noop unregister when path is missing",
+TEST_CASE("v4.29 [src/plugins/http-registry.test.ts:110] returns noop unregister when path is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/http-registry.test.ts:110",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/http-registry.test.ts] replaces stale route on same path when replaceExisting=true",
+TEST_CASE("v4.29 [src/plugins/http-registry.test.ts:127] replaces stale route on same path when replaceExisting=true",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/http-registry.test.ts:127",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/http-registry.test.ts] rejects mixed-auth overlapping routes",
+TEST_CASE("v4.29 [src/plugins/http-registry.test.ts:182] rejects mixed-auth overlapping routes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/http-registry.test.ts:182",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/http-registry.test.ts] uses the pinned route registry when the active registry changes later",
+TEST_CASE("v4.29 [src/plugins/http-registry.test.ts:208] uses the pinned route registry when the active registry changes later",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/http-registry.test.ts:208",
                "upstream it() block #4",

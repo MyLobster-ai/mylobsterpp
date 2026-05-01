@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.implicit.discovery-scope.test.ts] passes startup provider scopes as plugin owner filters",
+TEST_CASE("v4.29 [src/agents/models-config.providers.implicit.discovery-scope.test.ts:73] passes startup provider scopes as plugin owner filters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.implicit.discovery-scope.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.implicit.discovery-scope.test.ts] can keep startup discovery on provider discovery entries only",
+TEST_CASE("v4.29 [src/agents/models-config.providers.implicit.discovery-scope.test.ts:102] can keep startup discovery on provider discovery entries only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.implicit.discovery-scope.test.ts:102",
                "upstream it() block #1",

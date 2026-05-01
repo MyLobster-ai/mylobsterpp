@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] fails fast on unmarked config overrides in strict fast-test mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:65] fails fast on unmarked config overrides in strict fast-test mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] skips getRuntimeConfig, workspace bootstrap, and session bootstrap for marked test configs",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:72] skips getRuntimeConfig, workspace bootstrap, and session bootstrap for marked test configs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] still merges partial config overrides against getRuntimeConfig()",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:99] still merges partial config overrides against getRuntimeConfig()",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] marks configs through withFastReplyConfig()",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:122] marks configs through withFastReplyConfig()",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:122",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] uses native command target session keys during fast bootstrap",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:133] uses native command target session keys during fast bootstrap",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:133",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] maps explicit gateway origin into command context",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:150] maps explicit gateway origin into command context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:150",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] keeps the existing session for /reset newline soft during fast bootstrap",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:174] keeps the existing session for /reset newline soft during fast bootstrap",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:174",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts] keeps the existing session for /reset: soft during fast bootstrap",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.fast-path.test.ts:207] keeps the existing session for /reset: soft during fast bootstrap",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.fast-path.test.ts:207",
                "upstream it() block #7",

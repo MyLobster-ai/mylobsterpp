@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts] expands raw ids to both prefixed candidates",
+TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts:11] expands raw ids to both prefixed candidates",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/group-keys.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts] preserves prefixed ids while also checking the raw id",
+TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts:15] preserves prefixed ids while also checking the raw id",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/group-keys.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts] matches raw, prefixed, and wildcard group config entries",
+TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts:22] matches raw, prefixed, and wildcard group config entries",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/group-keys.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts] resolves the effective account-scoped groups map",
+TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts:42] resolves the effective account-scoped groups map",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/group-keys.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts] matches raw and prefixed LINE group keys for requireMention",
+TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts:73] matches raw and prefixed LINE group keys for requireMention",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/group-keys.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts] uses account-scoped prefixed LINE group config for requireMention",
+TEST_CASE("v4.29 [extensions/line/src/group-keys.test.ts:99] uses account-scoped prefixed LINE group config for requireMention",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/group-keys.test.ts:99",
                "upstream it() block #5",

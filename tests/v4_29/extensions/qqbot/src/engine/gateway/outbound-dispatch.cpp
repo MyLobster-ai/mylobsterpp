@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/outbound-dispatch.test.ts] marks voice-only inbound as audio without adding voice paths to MediaPaths",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/outbound-dispatch.test.ts:184] marks voice-only inbound as audio without adding voice paths to MediaPaths",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/outbound-dispatch.test.ts:184",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/outbound-dispatch.test.ts] synthesizes plain audioAsVoice text as a QQ voice reply",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/outbound-dispatch.test.ts:205] synthesizes plain audioAsVoice text as a QQ voice reply",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/outbound-dispatch.test.ts:205",
                "upstream it() block #1",

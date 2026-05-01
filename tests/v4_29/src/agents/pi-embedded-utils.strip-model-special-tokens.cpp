@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts] strips tokens and inserts space between adjacent words",
+TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:8] strips tokens and inserts space between adjacent words",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts] strips full-width pipe variants (DeepSeek U+FF5C)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:12] strips full-width pipe variants (DeepSeek U+FF5C)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts] does not strip normal angle brackets or HTML",
+TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:16] does not strip normal angle brackets or HTML",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:16",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts] passes through text without tokens unchanged",
+TEST_CASE("v4.29 [src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:21] passes through text without tokens unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-utils.strip-model-special-tokens.test.ts:21",
                "upstream it() block #3",

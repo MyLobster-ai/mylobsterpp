@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.response-prefix-template.test.ts] resolves responsePrefix model-selection variables before alert delivery",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.response-prefix-template.test.ts:89] resolves responsePrefix model-selection variables before alert delivery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.response-prefix-template.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.response-prefix-template.test.ts] uses the resolved responsePrefix when suppressing prefixed HEARTBEAT_OK replies",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.response-prefix-template.test.ts:103] uses the resolved responsePrefix when suppressing prefixed HEARTBEAT_OK replies",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.response-prefix-template.test.ts:103",
                "upstream it() block #1",

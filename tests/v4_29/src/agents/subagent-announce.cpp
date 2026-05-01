@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts] suppresses ANNOUNCE_SKIP delivery while still deleting the child session",
+TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts:258] suppresses ANNOUNCE_SKIP delivery while still deleting the child session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.test.ts:258",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts] keeps lifecycle hooks enabled when deleting a completed session-mode child session",
+TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts:288] keeps lifecycle hooks enabled when deleting a completed session-mode child session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.test.ts:288",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts] uses origin.provider for channel-specific queue settings in active announce delivery",
+TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts:319] uses origin.provider for channel-specific queue settings in active announce delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.test.ts:319",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts] keeps completion direct announce session-only when requester origin is webchat",
+TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts:366] keeps completion direct announce session-only when requester origin is webchat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.test.ts:366",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts] keeps nested subagent completion announces channel-less in session-only mode",
+TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts:404] keeps nested subagent completion announces channel-less in session-only mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.test.ts:404",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts] falls back to stored delivery target when mocked completion origins omit to",
+TEST_CASE("v4.29 [src/agents/subagent-announce.test.ts:440] falls back to stored delivery target when mocked completion origins omit to",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.test.ts:440",
                "upstream it() block #5",

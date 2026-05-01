@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job exposes the expected top-level fields",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:33] job exposes the expected top-level fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] patch exposes the expected top-level fields",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:52] patch exposes the expected top-level fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.schedule exposes kind, at, everyMs, anchorMs, expr, tz, staggerMs",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:71] job.schedule exposes kind, at, everyMs, anchorMs, expr, tz, staggerMs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] marks staggerMs as cron-only in both job and patch schedule schemas",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:77] marks staggerMs as cron-only in both job and patch schedule schemas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] describes cron expressions as local wall-clock time in the supplied timezone",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:85] describes cron expressions as local wall-clock time in the supplied timezone",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.delivery exposes mode, channel, to, threadId, bestEffort, accountId, failureDestination",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:105] job.delivery exposes mode, channel, to, threadId, bestEffort, accountId, failureDestination",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:105",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.payload exposes kind, text, message, model, thinking and extras",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:119] job.payload exposes kind, text, message, model, thinking and extras",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:119",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.payload includes fallbacks",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:136] job.payload includes fallbacks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:136",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] patch.payload exposes agentTurn fallback overrides",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:140] patch.payload exposes agentTurn fallback overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:140",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.failureAlert exposes after, channel, to, cooldownMs, includeSkipped, mode, accountId",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:157] job.failureAlert exposes after, channel, to, cooldownMs, includeSkipped, mode, accountId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:157",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.failureAlert uses plain object type for OpenAPI 3.0 compat",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:163] job.failureAlert uses plain object type for OpenAPI 3.0 compat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:163",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] job.agentId and job.sessionKey use plain string type for OpenAPI 3.0 compat",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:178] job.agentId and job.sessionKey use plain string type for OpenAPI 3.0 compat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:178",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] patch.payload.toolsAllow uses plain array type for OpenAPI 3.0 compat",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:190] patch.payload.toolsAllow uses plain array type for OpenAPI 3.0 compat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:190",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts] serialized schema contains no type-array or not/const keywords",
+TEST_CASE("v4.29 [src/agents/tools/cron-tool.schema.test.ts:204] serialized schema contains no type-array or not/const keywords",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/cron-tool.schema.test.ts:204",
                "upstream it() block #13",

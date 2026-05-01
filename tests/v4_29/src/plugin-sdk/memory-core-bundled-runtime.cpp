@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts] keeps the bundled memory facade cold until a helper is used",
+TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts:54] keeps the bundled memory facade cold until a helper is used",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/memory-core-bundled-runtime.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts] delegates doctor and embedding helpers through the bundled public surfaces",
+TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts:65] delegates doctor and embedding helpers through the bundled public surfaces",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/memory-core-bundled-runtime.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts] delegates filterRecallEntriesWithinLookback through the bundled api surface",
+TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts:85] delegates filterRecallEntriesWithinLookback through the bundled api surface",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/memory-core-bundled-runtime.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts] delegates previewRemHarness through the bundled api surface",
+TEST_CASE("v4.29 [src/plugin-sdk/memory-core-bundled-runtime.test.ts:101] delegates previewRemHarness through the bundled api surface",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/memory-core-bundled-runtime.test.ts:101",
                "upstream it() block #3",

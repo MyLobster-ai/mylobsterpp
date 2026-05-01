@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] rewrites supported Grok models to fast variants when fast mode is enabled",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:69] rewrites supported Grok models to fast variants when fast mode is enabled",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] leaves unsupported or disabled models unchanged",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:88] leaves unsupported or disabled models unchanged",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] composes the xai provider stream chain from extra params",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:93] composes the xai provider stream chain from extra params",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] strips unsupported strict and reasoning controls from tool payloads",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:105] strips unsupported strict and reasoning controls from tool payloads",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] strips unsupported reasoning controls from xai payloads",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:129] strips unsupported reasoning controls from xai payloads",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:129",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] moves image-bearing tool results out of function_call_output payloads",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:142] moves image-bearing tool results out of function_call_output payloads",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] replays source-based input_image parts from tool results",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:182] replays source-based input_image parts from tool results",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] keeps multiple tool outputs contiguous before replaying collected images",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:228] keeps multiple tool outputs contiguous before replaying collected images",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:228",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/stream.test.ts] drops image blocks and uses fallback text for models without image input",
+TEST_CASE("v4.29 [extensions/xai/stream.test.ts:290] drops image blocks and uses fallback text for models without image input",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/stream.test.ts:290",
                "upstream it() block #8",

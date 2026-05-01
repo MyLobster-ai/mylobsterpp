@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] uses the first github-copilot profile when env tokens are missing",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:42] uses the first github-copilot profile when env tokens are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] does not override explicit github-copilot provider config",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:68] does not override explicit github-copilot provider config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] passes explicit provider config to implicit discovery so plugins can skip duplicates",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:99] passes explicit provider config to implicit discovery so plugins can skip duplicates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] keeps a non-empty existing models.json baseUrl when merge mode regenerates the provider",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:147] keeps a non-empty existing models.json baseUrl when merge mode regenerates the provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:147",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] uses tokenRef env var when github-copilot profile omits plaintext token",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:196] uses tokenRef env var when github-copilot profile omits plaintext token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:196",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] writes an implicit github-copilot provider discovered from a token exchange",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:222] writes an implicit github-copilot provider discovered from a token exchange",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:222",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts] writes default github-copilot baseUrl when the token exchange fails",
+TEST_CASE("v4.29 [src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:233] writes default github-copilot baseUrl when the token exchange fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.uses-first-github-copilot-profile-env-tokens.test.ts:233",
                "upstream it() block #6",

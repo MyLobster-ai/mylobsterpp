@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] returns plaintext gateway.auth.token when configured",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:13] returns plaintext gateway.auth.token when configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] resolves SecretRef-backed gateway.auth.token",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:28] resolves SecretRef-backed gateway.auth.token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] resolves env-template gateway.auth.token via SecretRef resolution",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:54] resolves env-template gateway.auth.token via SecretRef resolution",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] falls back to OPENCLAW_GATEWAY_TOKEN when SecretRef is unresolved",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:76] falls back to OPENCLAW_GATEWAY_TOKEN when SecretRef is unresolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] falls back to OPENCLAW_GATEWAY_TOKEN when SecretRef resolves to empty",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:102] falls back to OPENCLAW_GATEWAY_TOKEN when SecretRef resolves to empty",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] returns unavailableReason when SecretRef is unresolved without env fallback",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:129] returns unavailableReason when SecretRef is unresolved without env fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:129",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] requires token when auth mode is token",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:156] requires token when auth mode is token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:156",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] does not require token when auth mode is password",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:170] does not require token when auth mode is password",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:170",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] requires token in inferred mode when password env exists only in shell",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:184] requires token in inferred mode when password env exists only in shell",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:184",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] does not require token in inferred mode when password is configured",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:202] does not require token in inferred mode when password is configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:202",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] does not require token in inferred mode when password env is configured in config",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:225] does not require token in inferred mode when password env is configured in config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:225",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] does not require token in inferred mode when password env exists in state-dir .env",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:242] does not require token in inferred mode when password env exists in state-dir .env",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:242",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts] requires token in inferred mode when no password candidate exists",
+TEST_CASE("v4.29 [src/commands/doctor-gateway-auth-token.test.ts:260] requires token in inferred mode when no password candidate exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-gateway-auth-token.test.ts:260",
                "upstream it() block #12",

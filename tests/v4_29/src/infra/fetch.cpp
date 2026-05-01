@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] adds duplex for requests with a body",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:69] adds duplex for requests with a body",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] adds duplex when the input Request already carries the body",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:78] adds duplex when the input Request already carries the body",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] preserves an existing duplex init field",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:87] preserves an existing duplex init field",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] converts foreign abort signals to native controllers",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:100] converts foreign abort signals to native controllers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] does not emit an extra unhandled rejection when wrapped fetch rejects",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:118] does not emit an extra unhandled rejection when wrapped fetch rejects",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] preserves original rejection when listener cleanup throws",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:145] preserves original rejection when listener cleanup throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:145",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] skips listener cleanup when foreign signal is already aborted",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:183] skips listener cleanup when foreign signal is already aborted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:183",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] passes through foreign signal-like objects without addEventListener",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:201] passes through foreign signal-like objects without addEventListener",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:201",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] passes through native AbortSignal instances unchanged",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:215] passes through native AbortSignal instances unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:215",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] passes through foreign signals unchanged when AbortController is unavailable",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:225] passes through foreign signals unchanged when AbortController is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:225",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] returns the same function when called with an already wrapped fetch",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:245] returns the same function when called with an already wrapped fetch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:245",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] keeps preconnect bound to the original fetch implementation",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:253] keeps preconnect bound to the original fetch implementation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:253",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] exposes a no-op preconnect when the source fetch has none",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:272] exposes a no-op preconnect when the source fetch has none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:272",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/fetch.test.ts] returns undefined when neither an explicit nor global fetch exists",
+TEST_CASE("v4.29 [src/infra/fetch.test.ts:283] returns undefined when neither an explicit nor global fetch exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/fetch.test.ts:283",
                "upstream it() block #13",

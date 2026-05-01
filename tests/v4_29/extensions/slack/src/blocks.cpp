@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] prefers header text",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:10] prefers header text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] uses image alt text",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:18] uses image alt text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] uses generic defaults for file and unknown blocks",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:26] uses generic defaults for file and unknown blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] returns undefined when blocks are missing",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:39] returns undefined when blocks are missing",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] accepts blocks arrays",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:44] accepts blocks arrays",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:44",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] accepts JSON blocks strings",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:49] accepts JSON blocks strings",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:49",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] rejects invalid block payloads",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:56] rejects invalid block payloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:56",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] returns empty object for missing or invalid values",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:94] returns empty object for missing or invalid values",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:94",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] parses known metadata fields",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:100] parses known metadata fields",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:100",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] encodes only known non-empty fields",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:121] encodes only known non-empty fields",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:121",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts] throws when encoded payload exceeds Slack metadata limit",
+TEST_CASE("v4.29 [extensions/slack/src/blocks.test.ts:138] throws when encoded payload exceeds Slack metadata limit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/blocks.test.ts:138",
                "upstream it() block #10",

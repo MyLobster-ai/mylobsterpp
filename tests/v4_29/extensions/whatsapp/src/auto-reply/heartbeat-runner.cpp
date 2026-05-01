@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] supports manual override body dry-run without sending",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:129] supports manual override body dry-run without sending",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:129",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] sends HEARTBEAT_OK when reply is empty and showOk is enabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:135] sends HEARTBEAT_OK when reply is empty and showOk is enabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:135",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] injects a cron-style Current time line into the heartbeat prompt",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:147] injects a cron-style Current time line into the heartbeat prompt",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:147",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] treats heartbeat token-only replies as ok-token and preserves session updatedAt",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:160] treats heartbeat token-only replies as ok-token and preserves session updatedAt",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:160",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] skips sending alerts when showAlerts is disabled but still emits a skipped event",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:174] skips sending alerts when showAlerts is disabled but still emits a skipped event",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] emits failed events when sending throws and rethrows the error",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:186] emits failed events when sending throws and rethrows the error",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:186",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts] redacts recipient and omits body preview in heartbeat logs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:197] redacts recipient and omits body preview in heartbeat logs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/heartbeat-runner.test.ts:197",
                "upstream it() block #6",

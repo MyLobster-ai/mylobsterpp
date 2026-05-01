@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] prefers configured api keys and resolves grok scoped defaults",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:21] prefers configured api keys and resolves grok scoped defaults",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] uses config apiKey when provided",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:27] uses config apiKey when provided",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] returns undefined when no apiKey is available",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:33] returns undefined when no apiKey is available",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] resolves env SecretRefs without requiring a runtime snapshot",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:39] resolves env SecretRefs without requiring a runtime snapshot",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] merges canonical plugin config into the tool search config",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:55] merges canonical plugin config into the tool search config",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:55",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] treats unresolved non-env SecretRefs as missing credentials instead of using env fallback",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:81] treats unresolved non-env SecretRefs as missing credentials instead of using env fallback",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:81",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] offers plugin-owned xSearch setup after Grok is selected",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:115] offers plugin-owned xSearch setup after Grok is selected",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:115",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] keeps explicit xSearch disablement untouched during provider-owned setup",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:155] keeps explicit xSearch disablement untouched during provider-owned setup",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:155",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] reuses the plugin web search api key for provider auth fallback",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:190] reuses the plugin web search api key for provider auth fallback",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:190",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] reuses the legacy grok web search api key for provider auth fallback",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:211] reuses the legacy grok web search api key for provider auth fallback",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:211",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] returns a managed marker for SecretRef-backed plugin auth fallback",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:230] returns a managed marker for SecretRef-backed plugin auth fallback",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:230",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] uses default model when not specified",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:251] uses default model when not specified",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:251",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] uses config model when provided",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:256] uses config model when provided",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:256",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] normalizes deprecated grok 4.20 beta model ids to GA ids",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:262] normalizes deprecated grok 4.20 beta model ids to GA ids",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:262",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] defaults inlineCitations to false",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:275] defaults inlineCitations to false",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:275",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] respects inlineCitations config",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:280] respects inlineCitations config",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:280",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] builds wrapped payloads with optional inline citations",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:285] builds wrapped payloads with optional inline citations",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:285",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] extracts content from Responses API message blocks",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:307] extracts content from Responses API message blocks",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:307",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] extracts url_citation annotations from content blocks",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:320] extracts url_citation annotations from content blocks",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:320",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] falls back to deprecated output_text",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:343] falls back to deprecated output_text",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:343",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] returns undefined text when no content found",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:349] returns undefined text when no content found",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:349",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] extracts output_text blocks directly in output array",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:355] extracts output_text blocks directly in output array",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:355",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] publishes the newer Grok fast and code models in the bundled catalog",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:372] publishes the newer Grok fast and code models in the bundled catalog",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:372",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] publishes Grok 4.20 reasoning and non-reasoning models",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:388] publishes Grok 4.20 reasoning and non-reasoning models",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:388",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] keeps older Grok aliases resolving with current limits",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:402] keeps older Grok aliases resolving with current limits",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:402",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] publishes the remaining Grok 3 family that Pi still carries",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:417] publishes the remaining Grok 3 family that Pi still carries",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:417",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] marks current Grok families as modern while excluding multi-agent ids",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:432] marks current Grok families as modern while excluding multi-agent ids",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:432",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] builds forward-compatible runtime models for newer Grok ids",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:439] builds forward-compatible runtime models for newer Grok ids",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:439",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/web-search.test.ts] refuses the unsupported multi-agent endpoint ids",
+TEST_CASE("v4.29 [extensions/xai/web-search.test.ts:507] refuses the unsupported multi-agent endpoint ids",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/web-search.test.ts:507",
                "upstream it() block #28",

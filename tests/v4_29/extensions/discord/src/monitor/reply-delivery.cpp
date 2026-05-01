@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts] bridges regular replies to shared outbound with Discord runtime deps",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts:71] bridges regular replies to shared outbound with Discord runtime deps",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/reply-delivery.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts] passes resolved Discord formatting options as explicit delivery options",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts:108] passes resolved Discord formatting options as explicit delivery options",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/reply-delivery.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts] passes media roots and explicit off-mode payload reply tags to shared outbound",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts:147] passes media roots and explicit off-mode payload reply tags to shared outbound",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/reply-delivery.test.ts:147",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts] bridges Discord voice sends through the outbound dependency bag",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts:177] bridges Discord voice sends through the outbound dependency bag",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/reply-delivery.test.ts:177",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts] rewrites bound thread replies to parent target plus thread id and persona",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/reply-delivery.test.ts:201] rewrites bound thread replies to parent target plus thread id and persona",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/reply-delivery.test.ts:201",
                "upstream it() block #4",

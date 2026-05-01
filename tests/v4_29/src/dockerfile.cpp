@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] uses full bookworm for build stages and slim bookworm for runtime",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:16] uses full bookworm for build stages and slim bookworm for runtime",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] installs CA certificates in the slim runtime stage",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:33] installs CA certificates in the slim runtime stage",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] installs optional browser dependencies after pnpm install",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:50] installs optional browser dependencies after pnpm install",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] verifies matrix-sdk-crypto native addons without hardcoded pnpm virtual-store paths",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:64] verifies matrix-sdk-crypto native addons without hardcoded pnpm virtual-store paths",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] copies postinstall helper imports before pnpm install",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:77] copies postinstall helper imports before pnpm install",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] prunes runtime dependencies after the build stage",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:96] prunes runtime dependencies after the build stage",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:96",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] keeps package manager patch files in runtime images",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:116] keeps package manager patch files in runtime images",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:116",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] does not override bundled plugin discovery in runtime images",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:128] does not override bundled plugin discovery in runtime images",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:128",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] normalizes plugin and agent paths permissions in image layers",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:134] normalizes plugin and agent paths permissions in image layers",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:134",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] Docker GPG fingerprint awk uses correct quoting for OPENCLAW_SANDBOX=1 build",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:143] Docker GPG fingerprint awk uses correct quoting for OPENCLAW_SANDBOX=1 build",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:143",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] keeps runtime pnpm available",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:149] keeps runtime pnpm available",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:149",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/dockerfile.test.ts] pre-creates the OpenClaw home before switching to the node user",
+TEST_CASE("v4.29 [src/dockerfile.test.ts:157] pre-creates the OpenClaw home before switching to the node user",
           "[v4_29][parity_gap][dockerfile.test.ts]") {
     PARITY_GAP("src/dockerfile.test.ts:157",
                "upstream it() block #11",

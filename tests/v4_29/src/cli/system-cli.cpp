@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/system-cli.test.ts] runs system event with default wake mode and text output",
+TEST_CASE("v4.29 [src/cli/system-cli.test.ts:44] runs system event with default wake mode and text output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/system-cli.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/system-cli.test.ts] prints JSON for event when --json is enabled",
+TEST_CASE("v4.29 [src/cli/system-cli.test.ts:56] prints JSON for event when --json is enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/system-cli.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/system-cli.test.ts] handles invalid wake mode as runtime error",
+TEST_CASE("v4.29 [src/cli/system-cli.test.ts:64] handles invalid wake mode as runtime error",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/system-cli.test.ts:64",
                "upstream it() block #2",

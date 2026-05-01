@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] returns bot identity when credentials are configured",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:29] returns bot identity when credentials are configured",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] returns null when credentials are not configured",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:44] returns null when credentials are not configured",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] lists peers and groups from config",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:54] lists peers and groups from config",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] normalizes spaced allowlist and dm entries",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:105] normalizes spaced allowlist and dm entries",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] builds direct routes for explicit user targets",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:136] builds direct routes for explicit user targets",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] builds channel routes for thread conversations and strips suffix metadata",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:154] builds channel routes for thread conversations and strips suffix metadata",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:154",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] returns group routes for non-user, non-channel conversations",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:172] returns group routes for non-user, non-channel conversations",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:172",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts] returns null when the target cannot be normalized",
+TEST_CASE("v4.29 [extensions/msteams/src/channel.directory.test.ts:190] returns null when the target cannot be normalized",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/channel.directory.test.ts:190",
                "upstream it() block #7",

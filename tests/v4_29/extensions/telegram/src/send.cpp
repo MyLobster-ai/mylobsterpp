@@ -5,516 +5,516 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] records and retrieves sent messages",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:110] records and retrieves sent messages",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] handles string chat IDs",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:122] handles string chat IDs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:122",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] clears cache",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:128] clears cache",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps sent-message ownership across restart",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:136] keeps sent-message ownership across restart",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:136",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps expired custom-store cleanup away from the default store",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:157] keeps expired custom-store cleanup away from the default store",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps default and custom stores isolated while both are loaded",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:178] keeps default and custom stores isolated while both are loaded",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:178",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] shares sent-message state across distinct module instances",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:196] shares sent-message state across distinct module instances",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:196",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] normalizes keyboard inputs",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:221] normalizes keyboard inputs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:221",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] sends typing to the resolved chat and topic",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:302] sends typing to the resolved chat and topic",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:302",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] pins and unpins Telegram messages",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:323] pins and unpins Telegram messages",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:323",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] honors Telegram pin notification requests",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:351] honors Telegram pin notification requests",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:351",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] renames a Telegram forum topic",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:373] renames a Telegram forum topic",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:373",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] edits a Telegram forum topic name and icon via the shared helper",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:394] edits a Telegram forum topic name and icon via the shared helper",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:394",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] strips topic suffixes before editing a Telegram forum topic",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:418] strips topic suffixes before editing a Telegram forum topic",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:418",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] rejects empty topic edits",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:440] rejects empty topic edits",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:440",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] applies timeoutSeconds config precedence",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:456] applies timeoutSeconds config precedence",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:456",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] normalizes full Telegram bot endpoint apiRoot before send clients reach grammY",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:495] normalizes full Telegram bot endpoint apiRoot before send clients reach grammY",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:495",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] falls back to plain text when Telegram rejects HTML and preserves send params",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:520] falls back to plain text when Telegram rejects HTML and preserves send params",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:520",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps link_preview_options disabled for both html and plain-text fallback",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:600] keeps link_preview_options disabled for both html and plain-text fallback",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:600",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] fails when Telegram text send returns no message_id",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:647] fails when Telegram text send returns no message_id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:647",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] fails when Telegram media send returns no message_id",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:664] fails when Telegram media send returns no message_id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:664",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] uses native fetch for BAN compatibility when api is omitted",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:683] uses native fetch for BAN compatibility when api is omitted",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:683",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] normalizes chat ids with internal prefixes",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:709] normalizes chat ids with internal prefixes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:709",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] resolves t.me targets to numeric chat ids via getChat",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:729] resolves t.me targets to numeric chat ids via getChat",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:729",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] fails clearly when a legacy target cannot be resolved",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:760] fails clearly when a legacy target cannot be resolved",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:760",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] includes thread params in media messages",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:775] includes thread params in media messages",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:775",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] splits long captions into media + text messages when text exceeds 1024 chars",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:806] splits long captions into media + text messages when text exceeds 1024 chars",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:806",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] uses caption when text is within 1024 char limit",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:845] uses caption when text is within 1024 char limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:845",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] renders markdown in media captions",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:880] renders markdown in media captions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:880",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] sends video notes when requested and regular videos otherwise",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:911] sends video notes when requested and regular videos otherwise",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:911",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] passes probed dimensions to regular video sends",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:982] passes probed dimensions to regular video sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:982",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] does not probe video dimensions for video notes",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1016] does not probe video dimensions for video notes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1016",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] applies reply markup and thread options to split video-note sends",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1049] applies reply markup and thread options to split video-note sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1049",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries pre-connect send errors and honors retry_after when present",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1131] retries pre-connect send errors and honors retry_after when present",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1131",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries wrapped pre-connect HttpError sends",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1164] retries wrapped pre-connect HttpError sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1164",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] does not retry on non-transient errors",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1199] does not retry on non-transient errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1199",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] does not retry generic grammY failed-after envelopes for non-idempotent sends",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1217] does not retry generic grammY failed-after envelopes for non-idempotent sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1217",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] sends GIF media as animation",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1239] sends GIF media as animation",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1239",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] sends images as documents when metadata dimensions are unavailable",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1361] sends images as documents when metadata dimensions are unavailable",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1361",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps regular document sends on the default Telegram params",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1396] keeps regular document sends on the default Telegram params",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1396",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] routes audio media to sendAudio/sendVoice based on voice compatibility",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1426] routes audio media to sendAudio/sendVoice based on voice compatibility",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1426",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps message_thread_id for forum/private/group sends",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1548] keeps message_thread_id for forum/private/group sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1548",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries sends without message_thread_id on thread-not-found",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1594] retries sends without message_thread_id on thread-not-found",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1594",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] does not retry on non-retriable thread/chat errors",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1641] does not retry on non-retriable thread/chat errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1641",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] sets disable_notification when silent is true",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1691] sets disable_notification when silent is true",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1691",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps disable_notification on plain-text fallback when silent is true",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1714] keeps disable_notification on plain-text fallback when silent is true",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1714",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] parses message_thread_id from recipient string (telegram:group:...:topic:...)",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1740] parses message_thread_id from recipient string (telegram:group:...:topic:...)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1740",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries media sends without message_thread_id when thread is missing",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1762] retries media sends without message_thread_id when thread is missing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1762",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] defaults outbound media uploads to 100MB",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1802] defaults outbound media uploads to 100MB",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1802",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] uses configured telegram mediaMaxMb for outbound uploads",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1831] uses configured telegram mediaMaxMb for outbound uploads",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1831",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] chunks long html-mode text and keeps buttons on the last chunk only",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1868] chunks long html-mode text and keeps buttons on the last chunk only",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1868",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] preserves caller plain-text fallback across chunked html parse retries",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1900] preserves caller plain-text fallback across chunked html parse retries",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1900",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] keeps malformed leading ampersands on the chunked plain-text fallback path",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1930] keeps malformed leading ampersands on the chunked plain-text fallback path",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1930",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] cuts over to plain text when fallback text needs more chunks than html",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:1961] cuts over to plain text when fallback text needs more chunks than html",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:1961",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] resolves legacy telegram targets before reacting",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2029] resolves legacy telegram targets before reacting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2029",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] throws error when fileId is blank",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2095] throws error when fileId is blank",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2095",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries sticker sends without message_thread_id when thread is missing",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2103] retries sticker sends without message_thread_id when thread is missing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2103",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] fails when sticker send returns no message_id",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2131] fails when sticker send returns no message_id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2131",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] does not retry generic grammY failed envelopes for sticker sends",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2149] does not retry generic grammY failed envelopes for sticker sends",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2149",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries rate-limited sticker sends and honors retry_after",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2169] retries rate-limited sticker sends and honors retry_after",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2169",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] includes reply_to_message_id for threaded replies",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2204] includes reply_to_message_id for threaded replies",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2204",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] uses native reply parameters for direct quote sends without trimming the quote",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2261] uses native reply parameters for direct quote sends without trimming the quote",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2261",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] omits invalid reply_to_message_id values before calling Telegram",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2289] omits invalid reply_to_message_id values before calling Telegram",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2289",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] wraps chat-not-found with actionable context",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2335] wraps chat-not-found with actionable context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2335",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] wraps membership-related 403 errors with actionable context and original detail",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2374] wraps membership-related 403 errors with actionable context and original detail",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2374",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] treats ",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2482] treats ",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2482",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries editMessageTelegram on Telegram 5xx errors",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2498] retries editMessageTelegram on Telegram 5xx errors",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2498",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] disables link previews when linkPreview is false",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2514] disables link previews when linkPreview is false",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2514",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] propagates gateway client scopes when resolving legacy poll targets",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2535] propagates gateway client scopes when resolving legacy poll targets",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2535",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] maps durationSeconds to open_period",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2562] maps durationSeconds to open_period",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2562",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] retries without message_thread_id on thread-not-found",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2582] retries without message_thread_id on thread-not-found",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2582",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] rejects durationHours for Telegram polls",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2615] rejects durationHours for Telegram polls",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2615",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts] fails when poll send returns no message_id",
+TEST_CASE("v4.29 [extensions/telegram/src/send.test.ts:2629] fails when poll send returns no message_id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/send.test.ts:2629",
                "upstream it() block #72",

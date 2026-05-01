@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] flags git update when behind upstream",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:29] flags git update when behind upstream",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] flags registry update when latest version is newer",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:53] flags registry update when latest version is newer",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] renders git status and registry summary without duplicating up to date",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:69] renders git status and registry summary without duplicating up to date",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] renders synced git installs with a single up to date label",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:97] renders synced git installs with a single up to date label",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] renders package-manager mode with explicit up-to-date state",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:125] renders package-manager mode with explicit up-to-date state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:125",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] renders package-manager mode with registry error",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:143] renders package-manager mode with registry error",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:143",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] returns null when no update is available",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:161] returns null when no update is available",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:161",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.update.test.ts] renders git and registry update details",
+TEST_CASE("v4.29 [src/commands/status.update.test.ts:171] renders git and registry update details",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.update.test.ts:171",
                "upstream it() block #7",

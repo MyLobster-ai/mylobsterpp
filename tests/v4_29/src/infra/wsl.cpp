@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] reads /proc/version for sync WSL detection when env vars are absent",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:77] reads /proc/version for sync WSL detection when env vars are absent",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] returns false when sync detection cannot read /proc/version",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:83] returns false when sync detection cannot read /proc/version",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] returns false for WSL2 sync when WSL is detected but no WSL2 markers exist",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:99] returns false for WSL2 sync when WSL is detected but no WSL2 markers exist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] returns false for sync detection on non-linux platforms",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:105] returns false for sync detection on non-linux platforms",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] caches async WSL detection until reset",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:112] caches async WSL detection until reset",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] short-circuits async detection from WSL env vars without reading osrelease",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:125] short-circuits async detection from WSL env vars without reading osrelease",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:125",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] returns false when async WSL detection cannot read osrelease",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:132] returns false when async WSL detection cannot read osrelease",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:132",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/wsl.test.ts] returns false for async detection on non-linux platforms without reading osrelease",
+TEST_CASE("v4.29 [src/infra/wsl.test.ts:137] returns false for async detection on non-linux platforms without reading osrelease",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/wsl.test.ts:137",
                "upstream it() block #7",

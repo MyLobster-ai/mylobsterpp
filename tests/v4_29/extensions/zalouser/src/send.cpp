@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] keeps plain text literal by default",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:48] keeps plain text literal by default",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] formats markdown text when markdown mode is enabled",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:67] formats markdown text when markdown mode is enabled",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] formats image captions in markdown mode",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:88] formats image captions in markdown mode",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] does not keep the raw markdown caption as a media fallback after formatting",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:112] does not keep the raw markdown caption as a media fallback after formatting",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:112",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] rechunks normalized markdown text before sending to avoid transport truncation",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:136] rechunks normalized markdown text before sending to avoid transport truncation",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] preserves text styles when splitting long formatted markdown",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:156] preserves text styles when splitting long formatted markdown",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] preserves formatted text and styles when newline chunk mode splits after parsing",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:193] preserves formatted text and styles when newline chunk mode splits after parsing",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:193",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] respects an explicit text chunk limit when splitting formatted markdown",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:236] respects an explicit text chunk limit when splitting formatted markdown",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:236",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] sends overflow markdown captions as follow-up text after the media message",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:277] sends overflow markdown captions as follow-up text after the media message",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:277",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] delegates link helper to JS transport",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:316] delegates link helper to JS transport",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:316",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] delegates typing helper to JS transport",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:331] delegates typing helper to JS transport",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:331",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] delegates reaction helper to JS transport",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:340] delegates reaction helper to JS transport",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:340",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts] delegates delivered+seen helpers to JS transport",
+TEST_CASE("v4.29 [extensions/zalouser/src/send.test.ts:364] delegates delivered+seen helpers to JS transport",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/send.test.ts:364",
                "upstream it() block #12",

@@ -5,495 +5,495 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] preserves existing config keys when setting a new value",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:197] preserves existing config keys when setting a new value",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:197",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] does not inject runtime defaults into the written config",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:223] does not inject runtime defaults into the written config",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:223",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] writes agents.defaults.videoGenerationModel.primary without disturbing sibling defaults",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:254] writes agents.defaults.videoGenerationModel.primary without disturbing sibling defaults",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:254",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects plugin install record config updates",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:285] rejects plugin install record config updates",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:285",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects protected model map replacement unless explicitly requested",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:306] rejects protected model map replacement unless explicitly requested",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:306",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] merges protected model map values with --merge",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:335] merges protected model map values with --merge",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:335",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] merges provider model arrays by id with --merge",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:364] merges provider model arrays by id with --merge",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:364",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] drops gateway.auth.password when switching mode to token",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:398] drops gateway.auth.password when switching mode to token",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:398",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] drops gateway.auth.token when switching mode to password",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:427] drops gateway.auth.token when switching mode to password",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:427",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] applies mode-based credential cleanup using the final batch result",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:454] applies mode-based credential cleanup using the final batch result",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:454",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] redacts sensitive values",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:488] redacts sensitive values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:488",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] prints success and exits 0 when config is valid",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:505] prints success and exits 0 when config is valid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:505",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] prints issues and exits 1 when config is invalid",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:518] prints issues and exits 1 when config is invalid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:518",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] returns machine-readable JSON with --json for invalid config",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:539] returns machine-readable JSON with --json for invalid config",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:539",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] preserves allowed-values metadata in --json output",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:553] preserves allowed-values metadata in --json output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:553",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] prints file-not-found and exits 1 when config file is missing",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:580] prints file-not-found and exits 1 when config file is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:580",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] prints the generated JSON schema as plain text",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:603] prints the generated JSON schema as plain text",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:603",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] falls back cleanly when best-effort schema loading returns channel-only data",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:648] falls back cleanly when best-effort schema loading returns channel-only data",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:648",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] falls back to raw string when parsing fails and strict mode is off",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:683] falls back to raw string when parsing fails and strict mode is off",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:683",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] throws when strict parsing is enabled via --strict-json",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:694] throws when strict parsing is enabled via --strict-json",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:694",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] keeps --json as a strict parsing alias",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:703] keeps --json as a strict parsing alias",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:703",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects JSON5-only object syntax when strict parsing is enabled",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:712] rejects JSON5-only object syntax when strict parsing is enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:712",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] accepts --strict-json with batch mode and applies batch payload",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:721] accepts --strict-json with batch mode and applies batch payload",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:721",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] shows --strict-json and keeps --json as a legacy alias in help",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:738] shows --strict-json and keeps --json as a legacy alias in help",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:738",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] supports SecretRef builder mode without requiring a value argument",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:771] supports SecretRef builder mode without requiring a value argument",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:771",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails early when unsupported mutable paths are assigned SecretRef objects (builder mode)",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:798] fails early when unsupported mutable paths are assigned SecretRef objects (builder mode)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:798",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails early when parent-object writes include unsupported SecretRef objects",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:825] fails early when parent-object writes include unsupported SecretRef objects",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:825",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] supports provider builder mode under secrets.providers.<alias>",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:848] supports provider builder mode under secrets.providers.<alias>",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:848",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] runs resolvability checks in builder dry-run mode without writing",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:877] runs resolvability checks in builder dry-run mode without writing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:877",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] requires schema validation in JSON dry-run mode",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:915] requires schema validation in JSON dry-run mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:915",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails dry-run when unsupported mutable paths receive SecretRef objects in value/json mode",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:938] fails dry-run when unsupported mutable paths receive SecretRef objects in value/json mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:938",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] aggregates policy failures across batch entries",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:967] aggregates policy failures across batch entries",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:967",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] does not duplicate policy errors in --dry-run --json mode for parent-object writes",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:990] does not duplicate policy errors in --dry-run --json mode for parent-object writes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:990",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] logs a dry-run note when value mode performs no validation checks",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1025] logs a dry-run note when value mode performs no validation checks",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1025",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] supports batch mode for refs/providers in dry-run",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1045] supports batch mode for refs/providers in dry-run",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1045",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] skips exec SecretRef resolvability checks in dry-run by default",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1068] skips exec SecretRef resolvability checks in dry-run by default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1068",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] allows exec SecretRef resolvability checks in dry-run when --allow-exec is set",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1105] allows exec SecretRef resolvability checks in dry-run when --allow-exec is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1105",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects --allow-exec without --dry-run",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1149] rejects --allow-exec without --dry-run",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1149",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails dry-run when skipped exec refs use an unconfigured provider",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1165] fails dry-run when skipped exec refs use an unconfigured provider",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1165",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails dry-run when skipped exec refs use a provider with mismatched source",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1195] fails dry-run when skipped exec refs use a provider with mismatched source",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1195",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] writes sibling SecretRef paths when target uses sibling-ref shape",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1231] writes sibling SecretRef paths when target uses sibling-ref shape",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1231",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects mixing ref-builder and provider-builder flags",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1264] rejects mixing ref-builder and provider-builder flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1264",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects mixing batch mode with builder flags",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1286] rejects mixing batch mode with builder flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1286",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] supports batch-file mode",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1309] supports batch-file mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1309",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] batch-file nested leaf updates preserve agents defaults and list siblings",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1329] batch-file nested leaf updates preserve agents defaults and list siblings",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1329",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects malformed batch-file payloads",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1380] rejects malformed batch-file payloads",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1380",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] patches config from one object in one write",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1399] patches config from one object in one write",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1399",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] preserves empty object values in config patch",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1477] preserves empty object values in config patch",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1477",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] treats empty object config patches as recursive merges",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1513] treats empty object config patches as recursive merges",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1513",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] dry-runs config patch and resolves changed SecretRefs",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1542] dry-runs config patch and resolves changed SecretRefs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1542",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] schema-validates SecretRef-only config patch operations",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1581] schema-validates SecretRef-only config patch operations",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1581",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] dry-runs nested SecretRefs inside config patch replacements",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1625] dry-runs nested SecretRefs inside config patch replacements",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1625",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects config patch --json without dry-run",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1684] rejects config patch --json without dry-run",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1684",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] supports replace-path and null deletes in config patch",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1694] supports replace-path and null deletes in config patch",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1694",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects unused config patch replace paths",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1765] rejects unused config patch replace paths",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1765",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects malformed batch entries with mixed operation keys",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1806] rejects malformed batch entries with mixed operation keys",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1806",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails dry-run when a builder-assigned SecretRef is unresolved",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1821] fails dry-run when a builder-assigned SecretRef is unresolved",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1821",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] emits structured JSON for --dry-run --json success",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1853] emits structured JSON for --dry-run --json success",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1853",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] emits skipped exec metadata for --dry-run --json success",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1898] emits skipped exec metadata for --dry-run --json success",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1898",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] emits structured JSON for --dry-run --json failure",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1942] emits structured JSON for --dry-run --json failure",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1942",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] keeps distinct resolvability failures when messages are identical but refs differ",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:1983] keeps distinct resolvability failures when messages are identical but refs differ",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:1983",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] aggregates schema and resolvability failures in --dry-run --json mode",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2023] aggregates schema and resolvability failures in --dry-run --json mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2023",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails dry-run when provider updates make existing refs unresolvable",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2060] fails dry-run when provider updates make existing refs unresolvable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2060",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] fails dry-run for nested provider edits that make existing refs unresolvable",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2103] fails dry-run for nested provider edits that make existing refs unresolvable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2103",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects blocked prototype-key segments for config get",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2155] rejects blocked prototype-key segments for config get",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2155",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects blocked prototype-key segments for config set",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2164] rejects blocked prototype-key segments for config set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2164",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] rejects blocked prototype-key segments for config unset",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2173] rejects blocked prototype-key segments for config unset",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2173",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] preserves existing config keys when unsetting a value",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2184] preserves existing config keys when unsetting a value",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2184",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] prints the active config file path",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2216] prints the active config file path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2216",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/config-cli.test.ts] handles config file path with home directory",
+TEST_CASE("v4.29 [src/cli/config-cli.test.ts:2226] handles config file path with home directory",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/config-cli.test.ts:2226",
                "upstream it() block #69",

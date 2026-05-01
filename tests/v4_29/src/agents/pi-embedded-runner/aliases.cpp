@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/aliases.test.ts] keeps neutral embedded-agent aliases bound to the PI compatibility exports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/aliases.test.ts:12] keeps neutral embedded-agent aliases bound to the PI compatibility exports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/aliases.test.ts:12",
                "upstream it() block #0",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] returns undefined when exec state is fully inherited and elevated is off",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:12] returns undefined when exec state is fully inherited and elevated is off",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] includes current exec defaults and warns against stale denial assumptions",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:20] includes current exec defaults and warns against stale denial assumptions",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] still reports elevated state when exec overrides are inherited",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:38] still reports elevated state when exec overrides are inherited",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] warns when auto-approved full access is unavailable",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:49] warns when auto-approved full access is unavailable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] treats direct and dm chat types as direct prompt policy context",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:64] treats direct and dm chat types as direct prompt policy context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:64",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] treats group and channel chat types as group prompt policy context",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:75] treats group and channel chat types as group prompt policy context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:75",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] does not override a native cross-session target policy with the source chat type",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:85] does not override a native cross-session target policy with the source chat type",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:85",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] uses the inbound session key when session context was rewritten to the target",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:98] uses the inbound session key when session context was rewritten to the target",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:98",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] rebuilds missing system-event chat metadata from the persisted session entry",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:114] rebuilds missing system-event chat metadata from the persisted session entry",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:114",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] keeps normal user turns on their live chat metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:162] keeps normal user turns on their live chat metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:162",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts] does not overwrite explicit system-event chat metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-run.exec-hint.test.ts:182] does not overwrite explicit system-event chat metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-run.exec-hint.test.ts:182",
                "upstream it() block #10",

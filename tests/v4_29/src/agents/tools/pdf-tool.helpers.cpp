@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] parses a single page number",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:36] parses a single page number",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] parses a page range",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:40] parses a page range",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] parses comma-separated pages and ranges",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:44] parses comma-separated pages and ranges",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] clamps to maxPages",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:48] clamps to maxPages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] deduplicates and sorts",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:52] deduplicates and sorts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] throws on invalid page number",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:56] throws on invalid page number",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:56",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] throws on invalid range (start > end)",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:60] throws on invalid range (start > end)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:60",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] throws on zero page number",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:64] throws on zero page number",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:64",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] throws on negative page number",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:68] throws on negative page number",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:68",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] handles empty parts gracefully",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:72] handles empty parts gracefully",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:72",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] returns true for anthropic",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:78] returns true for anthropic",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:78",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] returns true for google",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:82] returns true for google",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:82",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] returns false for openai",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:86] returns false for openai",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:86",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] returns false for minimax",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:90] returns false for minimax",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:90",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] is case-insensitive",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:94] is case-insensitive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:94",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] resolvePdfInputs requires at least one pdf reference",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:101] resolvePdfInputs requires at least one pdf reference",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:101",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] resolvePdfInputs deduplicates pdf and pdfs entries",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:105] resolvePdfInputs deduplicates pdf and pdfs entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:105",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] resolvePdfToolMaxTokens respects model limit",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:114] resolvePdfToolMaxTokens respects model limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:114",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] coercePdfModelConfig reads primary and fallbacks",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:120] coercePdfModelConfig reads primary and fallbacks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:120",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] coercePdfAssistantText returns trimmed text",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:137] coercePdfAssistantText returns trimmed text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:137",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts] coercePdfAssistantText throws clear error for failed model output",
+TEST_CASE("v4.29 [src/agents/tools/pdf-tool.helpers.test.ts:151] coercePdfAssistantText throws clear error for failed model output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/pdf-tool.helpers.test.ts:151",
                "upstream it() block #20",

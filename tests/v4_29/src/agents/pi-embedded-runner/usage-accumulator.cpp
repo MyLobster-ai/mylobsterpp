@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] accumulates usage across multiple API calls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:46] accumulates usage across multiple API calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] stores the exact final call snapshot",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:56] stores the exact final call snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] ignores undefined or zero-only usage",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:66] ignores undefined or zero-only usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] returns undefined for an empty accumulator",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:83] returns undefined for an empty accumulator",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] returns accumulated totals for billing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:87] returns accumulated totals for billing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] omits zero fields",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:118] omits zero fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:118",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] returns the exact final call snapshot",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:133] returns the exact final call snapshot",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:133",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] returns undefined for an empty accumulator",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:145] returns undefined for an empty accumulator",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:145",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] prefers raw assistant usage when present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:151] prefers raw assistant usage when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:151",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] falls back to the accumulator when assistant usage is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:181] falls back to the accumulator when assistant usage is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:181",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] falls back when assistant usage exists but is unusable",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:193] falls back when assistant usage exists but is unusable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:193",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts] keeps an explicit zero-usage raw snapshot instead of falling back",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/usage-accumulator.test.ts:205] keeps an explicit zero-usage raw snapshot instead of falling back",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/usage-accumulator.test.ts:205",
                "upstream it() block #11",

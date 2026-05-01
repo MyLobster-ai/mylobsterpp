@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-nextcloud-talk-file-precedence.test.ts] treats top-level Nextcloud Talk botSecret and apiPassword refs as active when file paths are configured",
+TEST_CASE("v4.29 [src/secrets/runtime-nextcloud-talk-file-precedence.test.ts:12] treats top-level Nextcloud Talk botSecret and apiPassword refs as active when file paths are configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-nextcloud-talk-file-precedence.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-nextcloud-talk-file-precedence.test.ts] treats account-level Nextcloud Talk botSecret and apiPassword refs as active when file paths are configured",
+TEST_CASE("v4.29 [src/secrets/runtime-nextcloud-talk-file-precedence.test.ts:47] treats account-level Nextcloud Talk botSecret and apiPassword refs as active when file paths are configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-nextcloud-talk-file-precedence.test.ts:47",
                "upstream it() block #1",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/plugin-update-unchanged-docker.test.ts] seeds current plugin install ledger state before checking config stability",
+TEST_CASE("v4.29 [test/scripts/plugin-update-unchanged-docker.test.ts:9] seeds current plugin install ledger state before checking config stability",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-update-unchanged-docker.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/plugin-update-unchanged-docker.test.ts] bounds the update command and prints diagnostics on hangs",
+TEST_CASE("v4.29 [test/scripts/plugin-update-unchanged-docker.test.ts:24] bounds the update command and prints diagnostics on hangs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/plugin-update-unchanged-docker.test.ts:24",
                "upstream it() block #1",

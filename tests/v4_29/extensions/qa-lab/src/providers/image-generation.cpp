@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts] uses the selected mock provider for mock-openai image generation",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts:5] uses the selected mock provider for mock-openai image generation",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/image-generation.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts] preserves already-allowed plugins when configuring image generation",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts:17] preserves already-allowed plugins when configuring image generation",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/image-generation.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts] uses the selected mock provider for AIMock image generation",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts:33] uses the selected mock provider for AIMock image generation",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/image-generation.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts] enables the live image provider plugin without replacing live model config",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/image-generation.test.ts:45] enables the live image provider plugin without replacing live model config",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/image-generation.test.ts:45",
                "upstream it() block #3",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] generates image buffers from the Gemini generateContent API",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:51] generates image buffers from the Gemini generateContent API",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] accepts OAuth JSON auth and inline_data responses",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:121] accepts OAuth JSON auth and inline_data responses",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:121",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] sends reference images and explicit resolution for edit flows",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:176] sends reference images and explicit resolution for edit flows",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:176",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] forwards explicit aspect ratio without forcing a default when size is omitted",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:226] forwards explicit aspect ratio without forcing a default when size is omitted",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:226",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] disables DNS pinning for Google image generation requests",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:261] disables DNS pinning for Google image generation requests",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:261",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] honors configured private-network opt-in for Google image generation",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:281] honors configured private-network opt-in for Google image generation",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:281",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] normalizes a configured bare Google host to the v1beta API root",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:311] normalizes a configured bare Google host to the v1beta API root",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:311",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] strips a configured /openai suffix before calling the native Gemini image API",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:338] strips a configured /openai suffix before calling the native Gemini image API",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:338",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] prefers scoped configured Gemini API keys over environment fallbacks",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:365] prefers scoped configured Gemini API keys over environment fallbacks",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:365",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts] falls back to the default Gemini model when unset or blank",
+TEST_CASE("v4.29 [extensions/google/image-generation-provider.test.ts:373] falls back to the default Gemini model when unset or blank",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/image-generation-provider.test.ts:373",
                "upstream it() block #9",

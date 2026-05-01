@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts] registers a Claude migration provider",
+TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts:19] registers a Claude migration provider",
           "[v4_29][parity_gap][migrate-claude]") {
     PARITY_GAP("extensions/migrate-claude/provider.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts] rejects missing Claude sources before planning",
+TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts:25] rejects missing Claude sources before planning",
           "[v4_29][parity_gap][migrate-claude]") {
     PARITY_GAP("extensions/migrate-claude/provider.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts] plans project memory, MCP servers, commands, skills, and manual review items",
+TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts:37] plans project memory, MCP servers, commands, skills, and manual review items",
           "[v4_29][parity_gap][migrate-claude]") {
     PARITY_GAP("extensions/migrate-claude/provider.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts] applies project imports without reading global Claude state",
+TEST_CASE("v4.29 [extensions/migrate-claude/provider.test.ts:93] applies project imports without reading global Claude state",
           "[v4_29][parity_gap][migrate-claude]") {
     PARITY_GAP("extensions/migrate-claude/provider.test.ts:93",
                "upstream it() block #3",

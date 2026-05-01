@@ -5,404 +5,404 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] strips payload-level legacy delivery hints from live input",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:80] strips payload-level legacy delivery hints from live input",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] trims agentId and drops null",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:97] trims agentId and drops null",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:97",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] trims sessionKey and drops blanks",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:129] trims sessionKey and drops blanks",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] strips top-level legacy delivery hints from live input",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:153] strips top-level legacy delivery hints from live input",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:153",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] canonicalizes delivery.channel casing",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:189] canonicalizes delivery.channel casing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:189",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] coerces ISO schedule.at to normalized ISO (UTC)",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:203] coerces ISO schedule.at to normalized ISO (UTC)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:203",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] coerces schedule.atMs string to schedule.at (UTC)",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:207] coerces schedule.atMs string to schedule.at (UTC)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] migrates legacy schedule.cron into schedule.expr",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:211] migrates legacy schedule.cron into schedule.expr",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:211",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] defaults cron stagger for recurring top-of-hour schedules",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:223] defaults cron stagger for recurring top-of-hour schedules",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:223",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves explicit exact cron schedule",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:233] preserves explicit exact cron schedule",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:233",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] defaults deleteAfterRun for one-shot schedules",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:243] defaults deleteAfterRun for one-shot schedules",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:243",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] normalizes delivery mode and channel",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:259] normalizes delivery mode and channel",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:259",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] normalizes delivery accountId and strips blanks",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:273] normalizes delivery accountId and strips blanks",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:273",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] normalizes delivery threadId and preserves numeric values",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:288] normalizes delivery threadId and preserves numeric values",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:288",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] strips empty accountId from delivery",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:314] strips empty accountId from delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:314",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] normalizes webhook delivery mode and target URL",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:328] normalizes webhook delivery mode and target URL",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:328",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] does not default explicit mode-less delivery objects to announce",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:347] does not default explicit mode-less delivery objects to announce",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:347",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] defaults isolated agentTurn delivery to announce",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:368] defaults isolated agentTurn delivery to announce",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:368",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] migrates legacy isolation settings to announce delivery",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:377] migrates legacy isolation settings to announce delivery",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:377",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] infers payload kind/session target and name for message-only jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:394] infers payload kind/session target and name for message-only jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:394",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] normalizes flat legacy cron job rows",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:408] normalizes flat legacy cron job rows",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:408",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] maps top-level model/thinking/timeout into payload for legacy add params",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:440] maps top-level model/thinking/timeout into payload for legacy add params",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:440",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] promotes implicit text payloads with agentTurn hints for create jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:461] promotes implicit text payloads with agentTurn hints for create jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:461",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] promotes legacy top-level text with agentTurn hints for create jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:483] promotes legacy top-level text with agentTurn hints for create jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:483",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves timeoutSeconds=0 for no-timeout agentTurn payloads",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:506] preserves timeoutSeconds=0 for no-timeout agentTurn payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:506",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves fractional timeoutSeconds for short agentTurn deadlines",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:518] preserves fractional timeoutSeconds for short agentTurn deadlines",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:518",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves empty toolsAllow lists for create jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:529] preserves empty toolsAllow lists for create jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:529",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] prunes agentTurn-only payload fields from systemEvent create jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:547] prunes agentTurn-only payload fields from systemEvent create jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:547",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] prunes schedule fields that do not belong to at schedules for create jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:571] prunes schedule fields that do not belong to at schedules for create jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:571",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] prunes staggerMs from every schedules for create jobs",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:599] prunes staggerMs from every schedules for create jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:599",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] coerces sessionTarget and wakeMode casing",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:623] coerces sessionTarget and wakeMode casing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:623",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] strips invalid delivery mode from partial delivery objects",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:636] strips invalid delivery mode from partial delivery objects",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:636",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] resolves current sessionTarget to a persistent session when context is available",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:649] resolves current sessionTarget to a persistent session when context is available",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:649",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] falls back current sessionTarget to isolated without context",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:663] falls back current sessionTarget to isolated without context",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:663",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves custom session ids with a session: prefix",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:674] preserves custom session ids with a session: prefix",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:674",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] rejects custom session ids with path separators",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:685] rejects custom session ids with path separators",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:685",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] infers agentTurn payloads from top-level model-only patch hints",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:704] infers agentTurn payloads from top-level model-only patch hints",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:704",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] infers agentTurn kind for model-only payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:714] infers agentTurn kind for model-only payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:714",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] promotes implicit text payloads with agentTurn hints for patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:726] promotes implicit text payloads with agentTurn hints for patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:726",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] promotes legacy top-level text with agentTurn hints for patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:743] promotes legacy top-level text with agentTurn hints for patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:743",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] infers agentTurn kind for lightContext-only payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:760] infers agentTurn kind for lightContext-only payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:760",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] maps top-level fallback lists into agentTurn payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:772] maps top-level fallback lists into agentTurn payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:772",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] maps top-level toolsAllow lists into agentTurn payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:782] maps top-level toolsAllow lists into agentTurn payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:782",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves empty fallback lists so patches can disable fallbacks",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:793] preserves empty fallback lists so patches can disable fallbacks",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:793",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves empty toolsAllow lists so patches can disable all tools",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:805] preserves empty toolsAllow lists so patches can disable all tools",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:805",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] infers agentTurn kind for fallback-only payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:818] infers agentTurn kind for fallback-only payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:818",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] does not infer agentTurn kind for malformed fallback-only payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:830] does not infer agentTurn kind for malformed fallback-only payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:830",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] infers agentTurn kind for toolsAllow-only payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:843] infers agentTurn kind for toolsAllow-only payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:843",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] does not infer agentTurn kind for malformed toolsAllow-only payload patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:856] does not infer agentTurn kind for malformed toolsAllow-only payload patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:856",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves null toolsAllow so patches can clear the allow-list",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:869] preserves null toolsAllow so patches can clear the allow-list",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:869",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] does not infer agentTurn kind for delivery-only legacy hints",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:881] does not infer agentTurn kind for delivery-only legacy hints",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:881",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] preserves null sessionKey patches and trims string values",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:894] preserves null sessionKey patches and trims string values",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:894",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] normalizes cron stagger values in patch schedules",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:906] normalizes cron stagger values in patch schedules",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:906",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] strips legacy patch threadId hints from live input",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:915] strips legacy patch threadId hints from live input",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:915",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] prunes agentTurn-only payload fields from systemEvent patch payloads",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:927] prunes agentTurn-only payload fields from systemEvent patch payloads",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:927",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] prunes schedule fields that do not belong to at schedules for patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:947] prunes schedule fields that do not belong to at schedules for patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:947",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/normalize.test.ts] prunes staggerMs from every schedules for patches",
+TEST_CASE("v4.29 [src/cron/normalize.test.ts:968] prunes staggerMs from every schedules for patches",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/normalize.test.ts:968",
                "upstream it() block #56",

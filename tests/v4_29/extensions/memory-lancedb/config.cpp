@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts] accepts dreaming in the manifest schema and preserves it in runtime parsing",
+TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts:11] accepts dreaming in the manifest schema and preserves it in runtime parsing",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/config.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts] accepts provider-backed embedding config without a plugin apiKey",
+TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts:40] accepts provider-backed embedding config without a plugin apiKey",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/config.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts] rejects empty embedding config in the manifest schema and runtime parser",
+TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts:64] rejects empty embedding config in the manifest schema and runtime parser",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/config.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts] rejects empty embedding providers",
+TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts:87] rejects empty embedding providers",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/config.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts] still rejects unrelated unknown top-level config keys",
+TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts:98] still rejects unrelated unknown top-level config keys",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/config.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts] rejects non-object dreaming values in runtime parsing",
+TEST_CASE("v4.29 [extensions/memory-lancedb/config.test.ts:112] rejects non-object dreaming values in runtime parsing",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/config.test.ts:112",
                "upstream it() block #5",

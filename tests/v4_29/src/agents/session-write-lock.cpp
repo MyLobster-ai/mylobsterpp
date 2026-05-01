@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] reuses locks across symlinked session paths",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:143] reuses locks across symlinked session paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:143",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] keeps the lock file until the last release",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:173] keeps the lock file until the last release",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:173",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] does not reenter locks by default in the same process",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:194] does not reenter locks by default in the same process",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:194",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] does not reenter locks by default through symlinked session paths",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:204] does not reenter locks by default through symlinked session paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:204",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] allows a new default lock acquisition after the held lock is released",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:216] allows a new default lock acquisition after the held lock is released",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] reclaims stale lock files",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:229] reclaims stale lock files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:229",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] does not reclaim fresh malformed lock files during contention",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:246] does not reclaim fresh malformed lock files during contention",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:246",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] reclaims payload-less orphan lock files after the short init grace",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:262] reclaims payload-less orphan lock files after the short init grace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:262",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] reclaims malformed lock files once they are old enough",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:279] reclaims malformed lock files once they are old enough",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:279",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] watchdog releases stale in-process locks",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:291] watchdog releases stale in-process locks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:291",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] removes lock files during process-exit cleanup",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:322] removes lock files during process-exit cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:322",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] derives max hold from timeout plus grace",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:333] derives max hold from timeout plus grace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:333",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] clamps max hold for effectively no-timeout runs",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:338] clamps max hold for effectively no-timeout runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:338",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] cleans stale .jsonl lock files in sessions directories",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:346] cleans stale .jsonl lock files in sessions directories",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:346",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] removes held locks on termination signals",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:404] removes held locks on termination signals",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:404",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] reclaims lock files with recycled PIDs",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:435] reclaims lock files with recycled PIDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:435",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] reclaims orphan lock files without starttime when PID matches current process",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:449] reclaims orphan lock files without starttime when PID matches current process",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:449",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] does not reclaim active in-process lock files without starttime",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:459] does not reclaim active in-process lock files without starttime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:459",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] does not reclaim active in-process lock files with malformed starttime",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:463] does not reclaim active in-process lock files with malformed starttime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:463",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] registers cleanup for SIGQUIT and SIGABRT",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:467] registers cleanup for SIGQUIT and SIGABRT",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:467",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] cleans up locks on SIGINT without removing other handlers",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:471] cleans up locks on SIGINT without removing other handlers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:471",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] cleans up locks on exit",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:505] cleans up locks on exit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:505",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] does not accumulate exit listeners across reset cycles",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:515] does not accumulate exit listeners across reset cycles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:515",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts] keeps other signal listeners registered",
+TEST_CASE("v4.29 [src/agents/session-write-lock.test.ts:528] keeps other signal listeners registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-write-lock.test.ts:528",
                "upstream it() block #23",

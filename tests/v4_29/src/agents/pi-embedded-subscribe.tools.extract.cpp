@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.extract.test.ts] uses channel as provider for message tool",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.extract.test.ts:27] uses channel as provider for message tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.extract.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.extract.test.ts] prefers provider when both provider and channel are set",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.extract.test.ts:39] prefers provider when both provider and channel are set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.extract.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.extract.test.ts] accepts target alias when to is omitted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.extract.test.ts:52] accepts target alias when to is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.extract.test.ts:52",
                "upstream it() block #2",

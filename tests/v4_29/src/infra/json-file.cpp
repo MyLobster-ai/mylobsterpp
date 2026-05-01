@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/json-file.test.ts] creates parent dirs, writes a trailing newline, and loads the saved object",
+TEST_CASE("v4.29 [src/infra/json-file.test.ts:80] creates parent dirs, writes a trailing newline, and loads the saved object",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-file.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-file.test.ts] writes through a sibling temp file before replacing the destination",
+TEST_CASE("v4.29 [src/infra/json-file.test.ts:117] writes through a sibling temp file before replacing the destination",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-file.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-file.test.ts] falls back to copy when rename-based overwrite fails",
+TEST_CASE("v4.29 [src/infra/json-file.test.ts:178] falls back to copy when rename-based overwrite fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-file.test.ts:178",
                "upstream it() block #2",

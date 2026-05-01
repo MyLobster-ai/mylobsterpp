@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts] returns the version from the nearest matching package.json",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts:52] returns the version from the nearest matching package.json",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/plugin-version.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts] skips package.json files whose name field does not match",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts:67] skips package.json files whose name field does not match",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/plugin-version.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts] ignores manifests with unrelated name and returns unknown when no match is found",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts:88] ignores manifests with unrelated name and returns unknown when no match is found",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/plugin-version.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts] returns unknown when no package.json exists above the start directory",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts:103] returns unknown when no package.json exists above the start directory",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/plugin-version.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts] returns unknown when the matching manifest lacks a version field",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts:113] returns unknown when the matching manifest lacks a version field",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/plugin-version.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts] tolerates a malformed package.json and keeps walking",
+TEST_CASE("v4.29 [extensions/qqbot/src/bridge/plugin-version.test.ts:128] tolerates a malformed package.json and keeps walking",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/bridge/plugin-version.test.ts:128",
                "upstream it() block #5",

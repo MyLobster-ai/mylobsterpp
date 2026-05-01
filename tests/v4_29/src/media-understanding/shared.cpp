@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] keeps default per-call timeouts when no operation timeout is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:50] keeps default per-call timeouts when no operation timeout is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] clamps per-call timeouts to the remaining operation deadline",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:58] clamps per-call timeouts to the remaining operation deadline",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] throws once the operation deadline has expired",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:72] throws once the operation deadline has expired",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] clamps poll waits to the remaining operation deadline",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:88] clamps poll waits to the remaining operation deadline",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] polls provider status JSON until a payload is complete",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:113] polls provider status JSON until a payload is complete",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] throws provider failure messages while polling status JSON",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:143] throws provider failure messages while polling status JSON",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:143",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] preserves explicit caller headers but protects attribution headers",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:172] preserves explicit caller headers but protects attribution headers",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:172",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] uses the fallback base URL without enabling private-network access",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:200] uses the fallback base URL without enabling private-network access",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:200",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] allows callers to preserve custom-base detection before URL normalization",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:216] allows callers to preserve custom-base detection before URL normalization",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:216",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] surfaces dispatcher policy for explicit proxy and mTLS transport overrides",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:235] surfaces dispatcher policy for explicit proxy and mTLS transport overrides",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:235",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] fails fast when no base URL can be resolved",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:269] fails fast when no base URL can be resolved",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:269",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] caps streamed error bodies instead of buffering the whole response",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:280] caps streamed error bodies instead of buffering the whole response",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:280",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] applies a default timeout when callers omit one",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:306] applies a default timeout when callers omit one",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:306",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] sanitizes auditContext before passing it to the SSRF guard",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:323] sanitizes auditContext before passing it to the SSRF guard",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:323",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] passes configured explicit proxy policy through the SSRF guard",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:342] passes configured explicit proxy policy through the SSRF guard",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:342",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] forwards explicit pinDns overrides to JSON requests",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:370] forwards explicit pinDns overrides to JSON requests",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:370",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] forwards explicit pinDns overrides to transcription requests",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:392] forwards explicit pinDns overrides to transcription requests",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:392",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] does not set a guarded fetch mode when no HTTP proxy env is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:414] does not set a guarded fetch mode when no HTTP proxy env is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:414",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] auto-selects trusted env proxy mode when HTTP proxy env is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:429] auto-selects trusted env proxy mode when HTTP proxy env is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:429",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] respects an explicit mode from the caller when HTTP proxy env is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:451] respects an explicit mode from the caller when HTTP proxy env is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:451",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] auto-upgrades transcription requests to trusted env proxy when proxy env is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:470] auto-upgrades transcription requests to trusted env proxy when proxy env is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:470",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] forwards an explicit mode override through postJsonRequest even when proxy env is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:492] forwards an explicit mode override through postJsonRequest even when proxy env is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:492",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] forwards an explicit mode override through postTranscriptionRequest even when proxy env is configured",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:515] forwards an explicit mode override through postTranscriptionRequest even when proxy env is configured",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:515",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] does not auto-upgrade when only ALL_PROXY is configured (HTTP(S) proxy gate)",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:538] does not auto-upgrade when only ALL_PROXY is configured (HTTP(S) proxy gate)",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:538",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] does not auto-upgrade when caller passes explicit dispatcherPolicy",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:562] does not auto-upgrade when caller passes explicit dispatcherPolicy",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:562",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/shared.test.ts] does not auto-upgrade when target URL matches NO_PROXY",
+TEST_CASE("v4.29 [src/media-understanding/shared.test.ts:588] does not auto-upgrade when target URL matches NO_PROXY",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/shared.test.ts:588",
                "upstream it() block #25",

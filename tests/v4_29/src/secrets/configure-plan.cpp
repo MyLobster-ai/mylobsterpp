@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts] builds configure candidates from supported configure targets",
+TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts:16] builds configure candidates from supported configure targets",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/configure-plan.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts] collects provider upserts and deletes",
+TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts:38] collects provider upserts and deletes",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/configure-plan.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts] discovers auth-profiles candidates for the selected agent scope",
+TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts:61] discovers auth-profiles candidates for the selected agent scope",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/configure-plan.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts] captures existing refs for prefilled configure prompts",
+TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts:91] captures existing refs for prefilled configure prompts",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/configure-plan.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts] marks normalized alias paths as derived when not authored directly",
+TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts:147] marks normalized alias paths as derived when not authored directly",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/configure-plan.test.ts:147",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts] reports configure change presence and builds deterministic plan shape",
+TEST_CASE("v4.29 [src/secrets/configure-plan.test.ts:171] reports configure change presence and builds deterministic plan shape",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/configure-plan.test.ts:171",
                "upstream it() block #5",

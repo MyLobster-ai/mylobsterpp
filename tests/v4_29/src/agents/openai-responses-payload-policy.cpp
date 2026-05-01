@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] forces store for native OpenAI responses payloads but keeps disable mode for transport defaults",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:9] forces store for native OpenAI responses payloads but keeps disable mode for transport defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] couples native Responses server compaction to provider-managed store",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:35] couples native Responses server compaction to provider-managed store",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] strips store and prompt cache for proxy-like responses routes when requested",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:62] strips store and prompt cache for proxy-like responses routes when requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] keeps disabled reasoning payloads on native OpenAI responses models that support none",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:88] keeps disabled reasoning payloads on native OpenAI responses models that support none",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] strips disabled reasoning payloads on native OpenAI responses models that do not support none",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:116] strips disabled reasoning payloads on native OpenAI responses models that do not support none",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] strips disabled reasoning payloads for proxy-like OpenAI responses routes",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:141] strips disabled reasoning payloads for proxy-like OpenAI responses routes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:141",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts] emits store false for native OpenAI Codex responses disable mode",
+TEST_CASE("v4.29 [src/agents/openai-responses-payload-policy.test.ts:163] emits store false for native OpenAI Codex responses disable mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openai-responses-payload-policy.test.ts:163",
                "upstream it() block #6",

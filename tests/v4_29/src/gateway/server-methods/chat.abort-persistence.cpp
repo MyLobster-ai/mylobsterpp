@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts] persists run-scoped abort partial with rpc metadata and idempotency",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts:84] persists run-scoped abort partial with rpc metadata and idempotency",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.abort-persistence.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts] persists session-scoped abort partials with rpc metadata",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts:146] persists session-scoped abort partials with rpc metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.abort-persistence.test.ts:146",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts] persists /stop partials with stop-command metadata",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts:197] persists /stop partials with stop-command metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.abort-persistence.test.ts:197",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts] skips run-scoped transcript persistence when partial text is blank",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.abort-persistence.test.ts:243] skips run-scoped transcript persistence when partial text is blank",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.abort-persistence.test.ts:243",
                "upstream it() block #3",

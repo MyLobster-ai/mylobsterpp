@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agent.acp.test.ts] routes ACP sessions and preserves exact transcript text",
+TEST_CASE("v4.29 [src/commands/agent.acp.test.ts:344] routes ACP sessions and preserves exact transcript text",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.acp.test.ts:344",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.acp.test.ts] streams ACP visible text deltas",
+TEST_CASE("v4.29 [src/commands/agent.acp.test.ts:369] streams ACP visible text deltas",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.acp.test.ts:369",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.acp.test.ts] fails closed for ACP-shaped session keys missing ACP metadata",
+TEST_CASE("v4.29 [src/commands/agent.acp.test.ts:381] fails closed for ACP-shaped session keys missing ACP metadata",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.acp.test.ts:381",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.acp.test.ts] blocks ACP turns when disabled by policy",
+TEST_CASE("v4.29 [src/commands/agent.acp.test.ts:422] blocks ACP turns when disabled by policy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.acp.test.ts:422",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.acp.test.ts] blocks ACP turns when ACP agent is disallowed by policy",
+TEST_CASE("v4.29 [src/commands/agent.acp.test.ts:431] blocks ACP turns when ACP agent is disallowed by policy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.acp.test.ts:431",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.acp.test.ts] allows ACP turns for kimi when policy allowlists kimi",
+TEST_CASE("v4.29 [src/commands/agent.acp.test.ts:456] allows ACP turns for kimi when policy allowlists kimi",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.acp.test.ts:456",
                "upstream it() block #5",

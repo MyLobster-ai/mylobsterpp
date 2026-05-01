@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] keeps core, plugin runtime, plugin-sdk, bundled root plugins, and bundled hooks in one dist graph",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:72] keeps core, plugin runtime, plugin-sdk, bundled root plugins, and bundled hooks in one dist graph",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] keeps gateway lifecycle lazy runtime behind one stable dist entry",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:101] keeps gateway lifecycle lazy runtime behind one stable dist entry",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] routes gateway run-loop lifecycle imports through the stable runtime boundary",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:111] routes gateway run-loop lifecycle imports through the stable runtime boundary",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] emits staged bundled plugins as separate extension graphs",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:119] emits staged bundled plugins as separate extension graphs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:119",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] does not emit plugin-sdk or hooks from a separate dist graph",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:140] does not emit plugin-sdk or hooks from a separate dist graph",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] externalizes staged bundled plugin runtime dependencies",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:153] externalizes staged bundled plugin runtime dependencies",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] suppresses unresolved imports from extension source",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:167] suppresses unresolved imports from extension source",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:167",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts] keeps unresolved imports outside extension source visible",
+TEST_CASE("v4.29 [src/infra/tsdown-config.test.ts:183] keeps unresolved imports outside extension source visible",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tsdown-config.test.ts:183",
                "upstream it() block #7",

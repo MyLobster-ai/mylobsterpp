@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts] replaces attachments[].content with __OPENCLAW_REDACTED__",
+TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts:31] replaces attachments[].content with __OPENCLAW_REDACTED__",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-transcript-repair.attachments.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts] redacts attachments content from tool input payloads too",
+TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts:46] redacts attachments content from tool input payloads too",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-transcript-repair.attachments.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts] replaces non-content attachment payload fields with a minimal redacted stub",
+TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts:78] replaces non-content attachment payload fields with a minimal redacted stub",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-transcript-repair.attachments.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts] redacts ACP-only routing fields from arguments and input payloads",
+TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts:123] redacts ACP-only routing fields from arguments and input payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-transcript-repair.attachments.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts] redacts ACP-only routing fields with non-string payloads",
+TEST_CASE("v4.29 [src/agents/session-transcript-repair.attachments.test.ts:171] redacts ACP-only routing fields with non-string payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/session-transcript-repair.attachments.test.ts:171",
                "upstream it() block #4",

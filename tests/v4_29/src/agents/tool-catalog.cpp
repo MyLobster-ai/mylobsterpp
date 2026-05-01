@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tool-catalog.test.ts] includes code_execution, web_search, x_search, web_fetch, and update_plan in the coding profile policy",
+TEST_CASE("v4.29 [src/agents/tool-catalog.test.ts:5] includes code_execution, web_search, x_search, web_fetch, and update_plan in the coding profile policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-catalog.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-catalog.test.ts] includes bundle MCP tools in coding and messaging profile policies",
+TEST_CASE("v4.29 [src/agents/tool-catalog.test.ts:19] includes bundle MCP tools in coding and messaging profile policies",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-catalog.test.ts:19",
                "upstream it() block #1",

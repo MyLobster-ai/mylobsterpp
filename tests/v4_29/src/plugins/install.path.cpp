@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/install.path.test.ts] runs before_install for plain file plugins with file provenance metadata",
+TEST_CASE("v4.29 [src/plugins/install.path.test.ts:163] runs before_install for plain file plugins with file provenance metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.path.test.ts:163",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.path.test.ts] blocks plain file installs when the scanner finds dangerous code patterns",
+TEST_CASE("v4.29 [src/plugins/install.path.test.ts:218] blocks plain file installs when the scanner finds dangerous code patterns",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.path.test.ts:218",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.path.test.ts] allows plain file installs with dangerous code patterns when forced unsafe install is set",
+TEST_CASE("v4.29 [src/plugins/install.path.test.ts:239] allows plain file installs with dangerous code patterns when forced unsafe install is set",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.path.test.ts:239",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.path.test.ts] blocks hardlink alias overwrites when installing a plain file plugin",
+TEST_CASE("v4.29 [src/plugins/install.path.test.ts:263] blocks hardlink alias overwrites when installing a plain file plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.path.test.ts:263",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.path.test.ts] installs Claude bundles from an archive path",
+TEST_CASE("v4.29 [src/plugins/install.path.test.ts:317] installs Claude bundles from an archive path",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.path.test.ts:317",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.path.test.ts] prefers native package installs over bundle installs for dual-format archives",
+TEST_CASE("v4.29 [src/plugins/install.path.test.ts:342] prefers native package installs over bundle installs for dual-format archives",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.path.test.ts:342",
                "upstream it() block #5",

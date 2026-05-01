@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] blocks concurrent acquisition until release",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:172] blocks concurrent acquisition until release",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:172",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] treats recycled linux pid as stale when start time mismatches",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:191] treats recycled linux pid as stale when start time mismatches",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:191",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] keeps lock on linux when proc access fails unless stale",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:213] keeps lock on linux when proc access fails unless stale",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:213",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] keeps lock when fs.stat fails until payload is stale",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:229] keeps lock when fs.stat fails until payload is stale",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:229",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] treats lock as stale when owner pid is alive but configured port is free",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:249] treats lock as stale when owner pid is alive but configured port is free",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] keeps lock when configured port is busy and owner pid is alive",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:267] keeps lock when configured port is busy and owner pid is alive",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:267",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] returns null when multi-gateway override is enabled",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:287] returns null when multi-gateway override is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:287",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] returns null in test env unless allowInTests is set",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:296] returns null in test env unless allowInTests is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:296",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] wraps unexpected fs errors as GatewayLockError",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:305] wraps unexpected fs errors as GatewayLockError",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:305",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] clears stale lock on win32 when process cmdline is not a gateway",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:317] clears stale lock on win32 when process cmdline is not a gateway",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:317",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] keeps lock on win32 when process cmdline is a gateway",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:338] keeps lock on win32 when process cmdline is a gateway",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:338",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] falls back to unknown on win32 when cmdline reader returns null",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:362] falls back to unknown on win32 when cmdline reader returns null",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:362",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] clears stale lock on darwin when process cmdline is not a gateway",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:382] clears stale lock on darwin when process cmdline is not a gateway",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:382",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts] keeps lock on darwin when process cmdline is a gateway",
+TEST_CASE("v4.29 [src/infra/gateway-lock.test.ts:403] keeps lock on darwin when process cmdline is a gateway",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/gateway-lock.test.ts:403",
                "upstream it() block #13",

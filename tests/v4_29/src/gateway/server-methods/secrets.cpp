@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] responds with warning count on successful reload",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:68] responds with warning count on successful reload",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] returns unavailable when reload fails",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:77] returns unavailable when reload fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] resolves requested command secret assignments from the active snapshot",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:93] resolves requested command secret assignments from the active snapshot",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] rejects invalid secrets.resolve params",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:131] rejects invalid secrets.resolve params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] rejects secrets.resolve params when targetIds entries are not strings",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:149] rejects secrets.resolve params when targetIds entries are not strings",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] rejects unknown secrets.resolve target ids",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:170] rejects unknown secrets.resolve target ids",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:170",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts] returns unavailable when secrets.resolve handler returns an invalid payload shape",
+TEST_CASE("v4.29 [src/gateway/server-methods/secrets.test.ts:191] returns unavailable when secrets.resolve handler returns an invalid payload shape",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/secrets.test.ts:191",
                "upstream it() block #6",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts] records trusted run metrics without raw diagnostic identifiers",
+TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts:13] records trusted run metrics without raw diagnostic identifiers",
           "[v4_29][parity_gap][diagnostics-prometheus]") {
     PARITY_GAP("extensions/diagnostics-prometheus/src/service.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts] drops untrusted plugin-emitted diagnostic events",
+TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts:46] drops untrusted plugin-emitted diagnostic events",
           "[v4_29][parity_gap][diagnostics-prometheus]") {
     PARITY_GAP("extensions/diagnostics-prometheus/src/service.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts] redacts and bounds label values",
+TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts:66] redacts and bounds label values",
           "[v4_29][parity_gap][diagnostics-prometheus]") {
     PARITY_GAP("extensions/diagnostics-prometheus/src/service.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts] caps metric series growth and reports dropped series",
+TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts:90] caps metric series growth and reports dropped series",
           "[v4_29][parity_gap][diagnostics-prometheus]") {
     PARITY_GAP("extensions/diagnostics-prometheus/src/service.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts] subscribes to internal diagnostics and renders scrape text",
+TEST_CASE("v4.29 [extensions/diagnostics-prometheus/src/service.test.ts:115] subscribes to internal diagnostics and renders scrape text",
           "[v4_29][parity_gap][diagnostics-prometheus]") {
     PARITY_GAP("extensions/diagnostics-prometheus/src/service.test.ts:115",
                "upstream it() block #4",

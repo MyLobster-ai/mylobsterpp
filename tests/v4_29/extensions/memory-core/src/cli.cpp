@@ -5,341 +5,341 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints vector status when available",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:216] prints vector status when available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:216",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] resolves configured memory SecretRefs through gateway snapshot",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:249] resolves configured memory SecretRefs through gateway snapshot",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:249",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs gateway secret diagnostics for non-json status output",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:281] logs gateway secret diagnostics for non-json status output",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:281",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] documents memory help examples",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:291] documents memory help examples",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:291",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints vector error when unavailable",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:312] prints vector error when unavailable",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:312",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints embeddings status when deep",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:336] prints embeddings status when deep",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:336",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints recall-store audit details during status",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:354] prints recall-store audit details during status",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:354",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] repairs invalid recall metadata and stale locks with status --fix",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:387] repairs invalid recall metadata and stale locks with status --fix",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:387",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] shows the fix hint only before --fix has been run",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:446] shows the fix hint only before --fix has been run",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:446",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] repairs contaminated dreaming artifacts during status --fix",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:477] repairs contaminated dreaming artifacts during status --fix",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:477",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] enables verbose logging with --verbose",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:521] enables verbose logging with --verbose",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:521",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs close failure after status",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:534] logs close failure after status",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:534",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] reindexes on status --index",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:544] reindexes on status --index",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:544",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] closes manager after index",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:569] closes manager after index",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:569",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] warns on stderr when index completes without sqlite-vec embeddings",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:587] warns on stderr when index completes without sqlite-vec embeddings",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:587",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs qmd index file path and size after index",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:614] logs qmd index file path and size after index",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:614",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] surfaces qmd audit details in status output",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:630] surfaces qmd audit details in status output",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:630",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] fails index when qmd db file is empty",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:660] fails index when qmd db file is empty",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:660",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs close failures without failing the command",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:678] logs close failures without failing the command",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:678",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs close failure after search",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:689] logs close failure after search",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:689",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] closes manager after search error",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:708] closes manager after search error",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:708",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints status json output when requested",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:724] prints status json output when requested",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:724",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] routes gateway secret diagnostics to stderr for json status output",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:745] routes gateway secret diagnostics to stderr for json status output",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:745",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs default message when memory manager is missing",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:762] logs default message when memory manager is missing",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:762",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] logs backend unsupported message when index has no sync",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:771] logs backend unsupported message when index has no sync",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:771",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints no matches for empty search results",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:785] prints no matches for empty search results",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:785",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] accepts --query for memory search",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:807] accepts --query for memory search",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:807",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prefers --query when positional and flag are both provided",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:825] prefers --query when positional and flag are both provided",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:825",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] fails when neither positional query nor --query is provided",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:841] fails when neither positional query nor --query is provided",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:841",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints search results as json when requested",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:852] prints search results as json when requested",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:852",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints no candidates when promote has no short-term recall data",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:878] prints no candidates when promote has no short-term recall data",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:878",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints promote candidates as json",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:895] prints promote candidates as json",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:895",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] explains a specific promote candidate as json",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:941] explains a specific promote candidate as json",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:941",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] previews rem harness output as json",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:973] previews rem harness output as json",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:973",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] previews rem harness output from a historical daily file path",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1012] previews rem harness output from a historical daily file path",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1012",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] previews grounded rem output from a historical daily file path",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1054] previews grounded rem output from a historical daily file path",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1054",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] writes grounded rem backfill entries into DREAMS.md",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1105] writes grounded rem backfill entries into DREAMS.md",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1105",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] treats a missing historical path as a controlled empty-source error",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1139] treats a missing historical path as a controlled empty-source error",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1139",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] stages grounded durable candidates into the live short-term store",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1157] stages grounded durable candidates into the live short-term store",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1157",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] rolls back grounded staged short-term entries without touching diary rollback",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1189] rolls back grounded staged short-term entries without touching diary rollback",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1189",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prefers persistence-relevant evidence over narrated operational logs in grounded what happened",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1222] prefers persistence-relevant evidence over narrated operational logs in grounded what happened",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1222",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] suppresses monitoring-heavy operational days instead of promoting alert sludge",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1272] suppresses monitoring-heavy operational days instead of promoting alert sludge",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1272",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] splits multi-fact person lines into atomic grounded candidates",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1324] splits multi-fact person lines into atomic grounded candidates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1324",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] does not split hyphenated words into malformed grounded candidates",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1384] does not split hyphenated words into malformed grounded candidates",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1384",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] rolls back grounded rem backfill entries from DREAMS.md",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1422] rolls back grounded rem backfill entries from DREAMS.md",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1422",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] applies top promote candidates into MEMORY.md",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1467] applies top promote candidates into MEMORY.md",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1467",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] prints conceptual promotion signals",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1529] prints conceptual promotion signals",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1529",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts] records short-term recall entries from memory search hits",
+TEST_CASE("v4.29 [extensions/memory-core/src/cli.test.ts:1604] records short-term recall entries from memory search hits",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/cli.test.ts:1604",
                "upstream it() block #47",

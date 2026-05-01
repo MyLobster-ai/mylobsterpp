@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts] passes a browser override validator to the lazy service loader",
+TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts:40] passes a browser override validator to the lazy service loader",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/plugin-service.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts] rejects unsafe browser override specifiers",
+TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts:49] rejects unsafe browser override specifiers",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/plugin-service.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts] defaults to enabled",
+TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts:68] defaults to enabled",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/plugin-service.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts] respects explicit plugin disablement",
+TEST_CASE("v4.29 [extensions/browser/src/plugin-service.test.ts:72] respects explicit plugin disablement",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/plugin-service.test.ts:72",
                "upstream it() block #3",

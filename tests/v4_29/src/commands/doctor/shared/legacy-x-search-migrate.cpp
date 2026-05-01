@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts] moves only legacy x_search auth into the xai plugin config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts:9] moves only legacy x_search auth into the xai plugin config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-x-search-migrate.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts] keeps explicit plugin-owned auth when migrating legacy x_search config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts:39] keeps explicit plugin-owned auth when migrating legacy x_search config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-x-search-migrate.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts] moves legacy x_search SecretRefs into the xai plugin auth slot unchanged",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts:83] moves legacy x_search SecretRefs into the xai plugin auth slot unchanged",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-x-search-migrate.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts] does nothing for knob-only x_search config without a legacy apiKey",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts:119] does nothing for knob-only x_search config without a legacy apiKey",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-x-search-migrate.test.ts:119",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts] lists legacy x_search paths",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-x-search-migrate.test.ts:138] lists legacy x_search paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-x-search-migrate.test.ts:138",
                "upstream it() block #4",

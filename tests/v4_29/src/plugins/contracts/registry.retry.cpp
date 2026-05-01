@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts] retries provider loads after a transient plugin-scoped runtime error",
+TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts:44] retries provider loads after a transient plugin-scoped runtime error",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/registry.retry.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts] retries web search provider loads after a transient plugin-scoped runtime error",
+TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts:100] retries web search provider loads after a transient plugin-scoped runtime error",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/registry.retry.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts] reuses the single registered provider contract for paired manifest alias ids",
+TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts:169] reuses the single registered provider contract for paired manifest alias ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/registry.retry.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts] uses provider public artifacts before falling back to the bundled runtime registry",
+TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts:207] uses provider public artifacts before falling back to the bundled runtime registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/registry.retry.test.ts:207",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts] uses web search public artifacts before falling back to the bundled runtime registry",
+TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts:262] uses web search public artifacts before falling back to the bundled runtime registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/registry.retry.test.ts:262",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts] retries web fetch provider loads after a transient plugin-scoped runtime error",
+TEST_CASE("v4.29 [src/plugins/contracts/registry.retry.test.ts:308] retries web fetch provider loads after a transient plugin-scoped runtime error",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/registry.retry.test.ts:308",
                "upstream it() block #5",

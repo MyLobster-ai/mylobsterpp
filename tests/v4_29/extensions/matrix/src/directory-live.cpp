@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] passes accountId to peer directory auth resolution",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:50] passes accountId to peer directory auth resolution",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] passes accountId to group directory auth resolution",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:61] passes accountId to group directory auth resolution",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] passes dispatcherPolicy through to the live directory client",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:72] passes dispatcherPolicy through to the live directory client",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] returns no peer results for empty query without resolving auth",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:101] returns no peer results for empty query without resolving auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] returns no group results for empty query without resolving auth",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:112] returns no group results for empty query without resolving auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] preserves query casing when searching the Matrix user directory",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:123] preserves query casing when searching the Matrix user directory",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:123",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] accepts prefixed fully qualified user ids without hitting Matrix",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:143] accepts prefixed fully qualified user ids without hitting Matrix",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:143",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] resolves prefixed room aliases through the hardened Matrix HTTP client",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:158] resolves prefixed room aliases through the hardened Matrix HTTP client",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts] accepts prefixed room ids without additional Matrix lookups",
+TEST_CASE("v4.29 [extensions/matrix/src/directory-live.test.ts:185] accepts prefixed room ids without additional Matrix lookups",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/directory-live.test.ts:185",
                "upstream it() block #8",

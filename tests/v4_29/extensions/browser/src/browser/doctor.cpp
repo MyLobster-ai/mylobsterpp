@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts] reports stopped managed browsers as launchable diagnostics",
+TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts:5] reports stopped managed browsers as launchable diagnostics",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/doctor.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts] fails when Chrome MCP attach is not ready",
+TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts:41] fails when Chrome MCP attach is not ready",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/doctor.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts] keeps managed launch warnings non-fatal",
+TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts:73] keeps managed launch warnings non-fatal",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/doctor.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts] reports Linux no-display fallback without a display warning",
+TEST_CASE("v4.29 [extensions/browser/src/browser/doctor.test.ts:110] reports Linux no-display fallback without a display warning",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/doctor.test.ts:110",
                "upstream it() block #3",

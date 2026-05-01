@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] splits large files across multiple embedding batches",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:21] splits large files across multiple embedding batches",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] keeps small files in a single embedding batch",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:29] keeps small files in a single embedding batch",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] filters empty chunks before embedding",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:40] filters empty chunks before embedding",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] retries transient rate limit and 5xx errors",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:46] retries transient rate limit and 5xx errors",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] retries too-many-tokens-per-day errors",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:74] retries too-many-tokens-per-day errors",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] classifies oversized structured-input errors",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:99] classifies oversized structured-input errors",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts] caps retry jittered delays",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-embedding-policy.test.ts:109] caps retry jittered delays",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-embedding-policy.test.ts:109",
                "upstream it() block #6",

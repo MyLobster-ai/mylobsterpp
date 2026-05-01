@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.core.test.ts] accepts SecretRef botSecret and apiPassword at top-level",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.core.test.ts:11] accepts SecretRef botSecret and apiPassword at top-level",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/channel.core.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.core.test.ts] accepts SecretRef botSecret and apiPassword on account",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.core.test.ts:21] accepts SecretRef botSecret and apiPassword on account",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/channel.core.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.core.test.ts] normalizes trimmed DM allowlist prefixes to lowercase ids",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.core.test.ts:43] normalizes trimmed DM allowlist prefixes to lowercase ids",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/channel.core.test.ts:43",
                "upstream it() block #2",

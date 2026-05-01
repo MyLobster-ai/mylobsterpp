@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] defaults to the current working directory",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:46] defaults to the current working directory",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] keeps relative paths inside the repo root",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:50] keeps relative paths inside the repo root",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] runs inline pipelines through the embedded runtime",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:62] runs inline pipelines through the embedded runtime",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] detects workflow files and parses argsJson",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:103] detects workflow files and parses argsJson",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] returns a parse error when workflow args are invalid JSON",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:146] returns a parse error when workflow args are invalid JSON",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:146",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] throws when the embedded runtime returns an error envelope",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:176] throws when the embedded runtime returns an error envelope",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:176",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] fails closed when the embedded runtime requests unsupported input",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:204] fails closed when the embedded runtime requests unsupported input",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:204",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] routes resume through the embedded runtime",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:235] routes resume through the embedded runtime",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:235",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] forwards approvalId through resume when token is absent",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:277] forwards approvalId through resume when token is absent",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:277",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] passes approvalId through the normalized needs_approval envelope",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:309] passes approvalId through the normalized needs_approval envelope",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:309",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] loads the embedded runtime once per runner",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:353] loads the embedded runtime once per runner",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:353",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] installs an Ajv content cache before loading the embedded runtime",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:393] installs an Ajv content cache before loading the embedded runtime",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:393",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] deduplicates content-identical schema compilation in the installed Lobster runtime",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:420] deduplicates content-identical schema compilation in the installed Lobster runtime",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:420",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] falls back to the installed package core file when the core export is unavailable",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:440] falls back to the installed package core file when the core export is unavailable",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:440",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] requires a pipeline for run",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:494] requires a pipeline for run",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:494",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] requires token and approve for resume",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:512] requires token and approve for resume",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:512",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts] aborts long-running embedded work",
+TEST_CASE("v4.29 [extensions/lobster/src/lobster-runner.test.ts:541] aborts long-running embedded work",
           "[v4_29][parity_gap][lobster]") {
     PARITY_GAP("extensions/lobster/src/lobster-runner.test.ts:541",
                "upstream it() block #16",

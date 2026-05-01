@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts] skips plugin registry work when config has no plugin blocker surfaces",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts:10] skips plugin registry work when config has no plugin blocker surfaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-plugin-blockers.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts] still evaluates configured channels when plugins are disabled globally",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts:29] still evaluates configured channels when plugins are disabled globally",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-plugin-blockers.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts] ignores ambient channel env when reporting plugin blockers",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts:66] ignores ambient channel env when reporting plugin blockers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-plugin-blockers.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts] does not report a disabled bundled owner when a configured external plugin owns the channel",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts:110] does not report a disabled bundled owner when a configured external plugin owns the channel",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-plugin-blockers.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts] still reports the disabled bundled owner when an external channel owner is not trusted",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-plugin-blockers.test.ts:159] still reports the disabled bundled owner when an external channel owner is not trusted",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-plugin-blockers.test.ts:159",
                "upstream it() block #4",

@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] does not reject completion when task finalization throws",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:135] does not reject completion when task finalization throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:135",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] does not reject cleanup give-up when task delivery status update throws",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:174] does not reject cleanup give-up when task delivery status update throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:174",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] cleans up tracked browser sessions before subagent cleanup flow",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:214] cleans up tracked browser sessions before subagent cleanup flow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:214",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] retires bundle MCP runtimes when run-mode cleanup completes",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:246] retires bundle MCP runtimes when run-mode cleanup completes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:246",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] keeps bundle MCP runtimes warm for persistent session-mode cleanup",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:272] keeps bundle MCP runtimes warm for persistent session-mode cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:272",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] enriches registered-run outcomes with persisted timing before cleanup",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:294] enriches registered-run outcomes with persisted timing before cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:294",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] persists timing when a preexisting outcome matches without timing",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:336] persists timing when a preexisting outcome matches without timing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:336",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] does not wait for a completion reply when the run does not expect one",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:365] does not wait for a completion reply when the run does not expect one",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:365",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] does not freeze stale reply text for terminal error outcomes",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:398] does not freeze stale reply text for terminal error outcomes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:398",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] does not re-run announce flow after completion was already delivered",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:433] does not re-run announce flow after completion was already delivered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:433",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] emits ended hook while retrying cleanup after completion was already delivered",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:470] emits ended hook while retrying cleanup after completion was already delivered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:470",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] produces valid cleanupCompletedAt on give-up path when completionAnnouncedAt is undefined",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:502] produces valid cleanupCompletedAt on give-up path when completionAnnouncedAt is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:502",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] continues cleanup when delivery-status persistence throws after announce delivery",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:528] continues cleanup when delivery-status persistence throws after announce delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:528",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] persists the concrete announce delivery error when cleanup gives up",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:572] persists the concrete announce delivery error when cleanup gives up",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:572",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts] skips browser cleanup when steer restart suppresses cleanup flow",
+TEST_CASE("v4.29 [src/agents/subagent-registry-lifecycle.test.ts:648] skips browser cleanup when steer restart suppresses cleanup flow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-lifecycle.test.ts:648",
                "upstream it() block #14",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts] normalizes the OpenClaw compatibility block for external plugins",
+TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts:10] normalizes the OpenClaw compatibility block for external plugins",
           "[v4_29][parity_gap][plugin-package-contract]") {
     PARITY_GAP("packages/plugin-package-contract/src/index.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts] falls back to install.minHostVersion and package version when compatible",
+TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts:33] falls back to install.minHostVersion and package version when compatible",
           "[v4_29][parity_gap][plugin-package-contract]") {
     PARITY_GAP("packages/plugin-package-contract/src/index.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts] lists the required external code-plugin fields",
+TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts:53] lists the required external code-plugin fields",
           "[v4_29][parity_gap][plugin-package-contract]") {
     PARITY_GAP("packages/plugin-package-contract/src/index.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts] reports missing required fields with stable field paths",
+TEST_CASE("v4.29 [packages/plugin-package-contract/src/index.test.ts:60] reports missing required fields with stable field paths",
           "[v4_29][parity_gap][plugin-package-contract]") {
     PARITY_GAP("packages/plugin-package-contract/src/index.test.ts:60",
                "upstream it() block #3",

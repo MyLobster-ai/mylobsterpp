@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] registers the expected adapter metadata",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:81] registers the expected adapter metadata",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:81",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] picks text-embedding-3-small when available",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:88] picks text-embedding-3-small when available",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] matches embedding-capable models when supported_endpoints is missing or malformed",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:106] matches embedding-capable models when supported_endpoints is missing or malformed",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] strips the provider prefix from a user-selected model",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:121] strips the provider prefix from a user-selected model",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] throws when the user-selected model is unavailable",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:137] throws when the user-selected model is unavailable",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:137",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] throws when discovery finds no embedding models",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:153] throws when discovery finds no embedding models",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] wraps invalid discovery JSON as a setup error",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:164] wraps invalid discovery JSON as a setup error",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] honors remote overrides when creating the provider",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:182] honors remote overrides when creating the provider",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:182",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] includes provider, baseUrl, and model in runtime cache data",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:216] includes provider, baseUrl, and model in runtime cache data",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:216",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts] treats token parsing and discovery failures as auto-fallback errors",
+TEST_CASE("v4.29 [extensions/github-copilot/embeddings.test.ts:236] treats token parsing and discovery failures as auto-fallback errors",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/embeddings.test.ts:236",
                "upstream it() block #9",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] rejects blank file paths",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:41] rejects blank file paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] reads and trims a regular secret file",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:47] reads and trims a regular secret file",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] writes a private file with owner-only permissions",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:195] writes a private file with owner-only permissions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:195",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] rejects symlinked target files",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:217] rejects symlinked target files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:217",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] rejects symlinked path components",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:235] rejects symlinked path components",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:235",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] tightens an existing world-readable directory before writing secrets",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:250] tightens an existing world-readable directory before writing secrets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:250",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/secret-file.test.ts] rejects a parent directory symlink before it can escape the private root",
+TEST_CASE("v4.29 [src/infra/secret-file.test.ts:265] rejects a parent directory symlink before it can escape the private root",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/secret-file.test.ts:265",
                "upstream it() block #6",

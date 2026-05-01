@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] allows absolute https URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:12] allows absolute https URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] allows relative URLs resolved against the current origin",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:18] allows relative URLs resolved against the current origin",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] allows blob URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:24] allows blob URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] allows data image URLs when enabled",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:30] allows data image URLs when enabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects non-image data URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:38] rejects non-image data URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects SVG data image URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:46] rejects SVG data image URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:46",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects base64-encoded SVG data image URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:58] rejects base64-encoded SVG data image URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:58",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects data image URLs unless explicitly enabled",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:70] rejects data image URLs unless explicitly enabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:70",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects javascript URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:74] rejects javascript URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:74",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects file URLs",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:78] rejects file URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:78",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] rejects empty values",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:82] rejects empty values",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:82",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts] nulls opener when window.open returns a proxy-like object",
+TEST_CASE("v4.29 [ui/src/ui/open-external-url.test.ts:88] nulls opener when window.open returns a proxy-like object",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/open-external-url.test.ts:88",
                "upstream it() block #11",

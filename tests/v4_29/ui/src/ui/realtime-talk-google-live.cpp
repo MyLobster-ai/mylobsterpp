@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] requests ArrayBuffer frames and decodes binary setup messages",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:188] requests ArrayBuffer frames and decodes binary setup messages",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:188",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] decodes Blob setup messages",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:200] decodes Blob setup messages",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:200",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] stops queued output when Google Live sends interruption",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:210] stops queued output when Google Live sends interruption",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:210",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] ignores late WebSocket events after stop",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:232] ignores late WebSocket events after stop",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] does not revive Talk status after stop while a tool consult settles",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:247] does not revive Talk status after stop while a tool consult settles",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:247",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] only preserves the allowlisted Google Live endpoint and appends the ephemeral token",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:291] only preserves the allowlisted Google Live endpoint and appends the ephemeral token",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:291",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts] rejects attacker-controlled Google Live WebSocket URLs",
+TEST_CASE("v4.29 [ui/src/ui/realtime-talk-google-live.test.ts:303] rejects attacker-controlled Google Live WebSocket URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/realtime-talk-google-live.test.ts:303",
                "upstream it() block #6",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.integration.test.ts] registers real webhook handler with resolved account config and enforces allowlist",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.integration.test.ts:45] registers real webhook handler with resolved account config and enforces allowlist",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.integration.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/channel.integration.test.ts] isolates same user_id across different accounts",
+TEST_CASE("v4.29 [extensions/synology-chat/src/channel.integration.test.ts:99] isolates same user_id across different accounts",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/channel.integration.test.ts:99",
                "upstream it() block #1",

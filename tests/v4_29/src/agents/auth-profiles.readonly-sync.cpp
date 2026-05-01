@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles.readonly-sync.test.ts] overlays runtime-only external auth without writing auth-profiles.json in read-only mode",
+TEST_CASE("v4.29 [src/agents/auth-profiles.readonly-sync.test.ts:43] overlays runtime-only external auth without writing auth-profiles.json in read-only mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles.readonly-sync.test.ts:43",
                "upstream it() block #0",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] parses valid ports and falls back for invalid values",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:105] parses valid ports and falls back for invalid values",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:105",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] updates top-level dm policy and allowlist",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:113] updates top-level dm policy and allowlist",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] setup status honors the selected named account",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:133] setup status honors the selected named account",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] setup status honors the configured default account",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:159] setup status honors the configured default account",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:159",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] stores nickserv and account config patches on the scoped account",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:185] stores nickserv and account config patches on the scoped account",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:185",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] normalizes allowlist groups and handles non-allowlist policies",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:227] normalizes allowlist groups and handles non-allowlist policies",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:227",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] validates required input and applies normalized account config",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:271] validates required input and applies normalized account config",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:271",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] configures host and nick via setup prompts",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:329] configures host and nick via setup prompts",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] writes DM allowFrom to top-level config for non-default account prompts",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:383] writes DM allowFrom to top-level config for non-default account prompts",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:383",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts] keeps startAccount pending until abort, then stops the monitor",
+TEST_CASE("v4.29 [extensions/irc/src/setup.test.ts:424] keeps startAccount pending until abort, then stops the monitor",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/setup.test.ts:424",
                "upstream it() block #9",

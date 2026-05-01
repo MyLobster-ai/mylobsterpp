@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] leaves url undefined so callGateway can use config",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:41] leaves url undefined so callGateway can use config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] accepts allowlisted gatewayUrl overrides (SSRF hardening)",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:46] accepts allowlisted gatewayUrl overrides (SSRF hardening)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] uses OPENCLAW_GATEWAY_TOKEN for allowlisted local overrides",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:63] uses OPENCLAW_GATEWAY_TOKEN for allowlisted local overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] falls back to config gateway.auth.token when env is unset for local overrides",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:70] falls back to config gateway.auth.token when env is unset for local overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] uses gateway.remote.token for allowlisted remote overrides",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:80] uses gateway.remote.token for allowlisted remote overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] does not leak local env/config tokens to remote overrides",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:94] does not leak local env/config tokens to remote overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] ignores unresolved local token SecretRef for strict remote overrides",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:108] ignores unresolved local token SecretRef for strict remote overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:108",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] explicit gatewayToken overrides fallback token resolution",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:129] explicit gatewayToken overrides fallback token resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:129",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] uses least-privilege write scope for write methods",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:146] uses least-privilege write scope for write methods",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:146",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] uses admin scope only for admin methods",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:157] uses admin scope only for admin methods",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:157",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] allows explicit scope overrides for dynamic callers",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:168] allows explicit scope overrides for dynamic callers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:168",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] default-denies unknown methods by sending no scopes",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:184] default-denies unknown methods by sending no scopes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:184",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts] rejects non-allowlisted overrides (SSRF hardening)",
+TEST_CASE("v4.29 [src/agents/tools/gateway.test.ts:195] rejects non-allowlisted overrides (SSRF hardening)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway.test.ts:195",
                "upstream it() block #12",

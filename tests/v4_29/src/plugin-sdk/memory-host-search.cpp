@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/memory-host-search.test.ts] delegates active manager lookup to the lazy runtime module",
+TEST_CASE("v4.29 [src/plugin-sdk/memory-host-search.test.ts:26] delegates active manager lookup to the lazy runtime module",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/memory-host-search.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/memory-host-search.test.ts] delegates runtime cleanup to the lazy runtime module",
+TEST_CASE("v4.29 [src/plugin-sdk/memory-host-search.test.ts:35] delegates runtime cleanup to the lazy runtime module",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/memory-host-search.test.ts:35",
                "upstream it() block #1",

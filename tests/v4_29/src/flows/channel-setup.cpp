@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] preloads configured external plugins from the trusted catalog boundary",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:223] preloads configured external plugins from the trusted catalog boundary",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:223",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] keeps trusted workspace overrides eligible during preload",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:248] keeps trusted workspace overrides eligible during preload",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:248",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] defers status and setup-plugin loads until a channel is selected",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:276] defers status and setup-plugin loads until a channel is selected",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:276",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] keeps already-active setup plugins in the deferred picker without registry fallback",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:302] keeps already-active setup plugins in the deferred picker without registry fallback",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:302",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] uses an active deferred setup plugin without enabling config on selection",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:339] uses an active deferred setup plugin without enabling config on selection",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:339",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] loads the selected bundled catalog plugin without writing explicit plugin enablement",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:406] loads the selected bundled catalog plugin without writing explicit plugin enablement",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:406",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] returns to quickstart selection when install-on-demand is skipped",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:500] returns to quickstart selection when install-on-demand is skipped",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:500",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] does not load or re-enable an explicitly disabled channel when selected lazily",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:584] does not load or re-enable an explicitly disabled channel when selected lazily",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:584",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.test.ts] honors global plugin disablement before lazy channel setup loads plugins",
+TEST_CASE("v4.29 [src/flows/channel-setup.test.ts:631] honors global plugin disablement before lazy channel setup loads plugins",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.test.ts:631",
                "upstream it() block #8",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key-isolation.test.ts] uses a run-scoped key for embedded isolated cron execution",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key-isolation.test.ts:22] uses a run-scoped key for embedded isolated cron execution",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key-isolation.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key-isolation.test.ts] keeps explicit session-bound cron execution on the requested session key",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key-isolation.test.ts:57] keeps explicit session-bound cron execution on the requested session key",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key-isolation.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key-isolation.test.ts] uses a run-scoped key for CLI isolated cron execution",
+TEST_CASE("v4.29 [src/cron/isolated-agent/run.session-key-isolation.test.ts:86] uses a run-scoped key for CLI isolated cron execution",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/run.session-key-isolation.test.ts:86",
                "upstream it() block #2",

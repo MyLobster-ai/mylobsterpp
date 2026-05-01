@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts] accepts valid file secret ref ids",
+TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts:15] accepts valid file secret ref ids",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/ref-contract.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts] rejects invalid file secret ref ids",
+TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts:21] rejects invalid file secret ref ids",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/ref-contract.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts] accepts valid exec secret ref ids",
+TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts:29] accepts valid exec secret ref ids",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/ref-contract.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts] rejects invalid exec secret ref ids",
+TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts:36] rejects invalid exec secret ref ids",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/ref-contract.test.ts:36",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts] reports traversal segment failures separately",
+TEST_CASE("v4.29 [src/secrets/ref-contract.test.ts:43] reports traversal segment failures separately",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/ref-contract.test.ts:43",
                "upstream it() block #4",

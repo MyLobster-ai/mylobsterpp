@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate input_image with url source",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:31] should validate input_image with url source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate input_image with base64 source",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:44] should validate input_image with base64 source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate input_image with HEIC base64 source",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:58] should validate input_image with HEIC base64 source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should reject input_image with invalid mime type",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:72] should reject input_image with invalid mime type",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate input_file with url source",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:86] should validate input_file with url source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate input_file with base64 source",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:99] should validate input_file with base64 source",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate tool definition in flat Responses API format",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:114] should validate tool definition in flat Responses API format",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:114",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should reject wrapped Chat Completions format (function: {...} wrapper)",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:132] should reject wrapped Chat Completions format (function: {...} wrapper)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:132",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should reject tool definition without name",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:145] should reject tool definition without name",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:145",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate request with input_image",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:158] should validate request with input_image",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:158",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate request with client tools",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:186] should validate request with client tools",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:186",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate assistant message phase metadata",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:216] should validate assistant message phase metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:216",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should reject phase metadata on non-assistant messages",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:238] should reject phase metadata on non-assistant messages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:238",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate request with function_call_output for turn-based tools",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:255] should validate request with function_call_output for turn-based tools",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:255",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate complete turn-based tool flow",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:271] should validate complete turn-based tool flow",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:271",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate assistant output item phase metadata",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:311] should validate assistant output item phase metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:311",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should validate response with function_call output",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:325] should validate response with function_call output",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:325",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should convert function_call_output to tool entry",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:340] should convert function_call_output to tool entry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:340",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] should handle mixed message and function_call_output items",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:353] should handle mixed message and function_call_output items",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:353",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts] wraps extracted input_file text as untrusted content without the long warning block",
+TEST_CASE("v4.29 [src/gateway/openresponses-parity.test.ts:380] wraps extracted input_file text as untrusted content without the long warning block",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/openresponses-parity.test.ts:380",
                "upstream it() block #19",

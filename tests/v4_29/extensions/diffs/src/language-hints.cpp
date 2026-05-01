@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] keeps supported languages",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:9] keeps supported languages",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] drops invalid languages and falls back to text",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:16] drops invalid languages and falls back to text",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] keeps valid languages when invalid hints are mixed in",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:20] keeps valid languages when invalid hints are mixed in",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] rewrites stale patch payload language overrides to plain text",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:28] rewrites stale patch payload language overrides to plain text",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:28",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] keeps valid hydrated languages and only downgrades invalid sides",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:60] keeps valid hydrated languages and only downgrades invalid sides",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] rewrites blank explicit language overrides to plain text",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:101] rewrites blank explicit language overrides to plain text",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts] does not inject text when a valid file language is the only supported hint",
+TEST_CASE("v4.29 [extensions/diffs/src/language-hints.test.ts:138] does not inject text when a valid file language is the only supported hint",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/language-hints.test.ts:138",
                "upstream it() block #6",

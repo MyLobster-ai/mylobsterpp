@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] returns immediately when the abort signal is already canceled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:495] returns immediately when the abort signal is already canceled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:495",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] publishes disconnected startup status and connected sync status without failing the monitor",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:507] publishes disconnected startup status and connected sync status without failing the monitor",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:507",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] re-arms the healthy-sync milestone across reconnect transitions",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:540] re-arms the healthy-sync milestone across reconnect transitions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:540",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] contains room-message handler rejections inside monitor task tracking",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:590] contains room-message handler rejections inside monitor task tracking",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:590",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] fails the channel task when Matrix sync emits an unexpected fatal error",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:632] fails the channel task when Matrix sync emits an unexpected fatal error",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:632",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] marks early startup failures as error before the monitor loop starts",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:655] marks early startup failures as error before the monitor loop starts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:655",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] releases the prepared client when startup fails before later resources exist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:683] releases the prepared client when startup fails before later resources exist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:683",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] aborts stalled startup promptly and releases the shared client without persist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:704] aborts stalled startup promptly and releases the shared client without persist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:704",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] aborts during startup maintenance and releases the shared client without persist",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:738] aborts during startup maintenance and releases the shared client without persist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:738",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] registers Matrix thread bindings before starting the client",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:769] registers Matrix thread bindings before starting the client",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:769",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] resolves text chunk limit for the effective Matrix account",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:781] resolves text chunk limit for the effective Matrix account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:781",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] starts monitoring without waiting for best-effort deviceId backfill",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:791] starts monitoring without waiting for best-effort deviceId backfill",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:791",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] cleans up thread bindings and shared clients when startup fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:811] cleans up thread bindings and shared clients when startup fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:811",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] disables cold-start backlog dropping only when sync state is cleanly persisted",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:823] disables cold-start backlog dropping only when sync state is cleanly persisted",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:823",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] stops sync, drains decryptions, then waits for in-flight handlers before persisting",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:834] stops sync, drains decryptions, then waits for in-flight handlers before persisting",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:834",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] wires recent-invite promotion to fail closed when room metadata is unresolved",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:902] wires recent-invite promotion to fail closed when room metadata is unresolved",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:902",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] wires recent-invite promotion to reject named rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:919] wires recent-invite promotion to reject named rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:919",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] wires recent-invite promotion to reject wildcard-configured rooms",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:937] wires recent-invite promotion to reject wildcard-configured rooms",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:937",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts] treats unresolved room metadata as indeterminate for local promotion revalidation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/index.test.ts:958] treats unresolved room metadata as indeterminate for local promotion revalidation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/index.test.ts:958",
                "upstream it() block #18",

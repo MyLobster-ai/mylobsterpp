@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts] describes configured Slack message actions without loading channel runtime",
+TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts:7] describes configured Slack message actions without loading channel runtime",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/message-tools.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts] honors account-scoped action gates",
+TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts:24] honors account-scoped action gates",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/message-tools.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts] includes file actions when message actions are enabled",
+TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts:47] includes file actions when message actions are enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/message-tools.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts] honors the selected Slack account during discovery",
+TEST_CASE("v4.29 [extensions/slack/src/message-tools.test.ts:64] honors the selected Slack account during discovery",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/message-tools.test.ts:64",
                "upstream it() block #3",

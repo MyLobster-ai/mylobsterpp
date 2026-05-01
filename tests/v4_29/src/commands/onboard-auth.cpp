@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] writes auth-profiles.json under OPENCLAW_AGENT_DIR when set",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:102] writes auth-profiles.json under OPENCLAW_AGENT_DIR when set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] writes OAuth credentials to all sibling agent dirs when syncSiblingAgents=true",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:128] writes OAuth credentials to all sibling agent dirs when syncSiblingAgents=true",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:128",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] writes OAuth credentials only to target dir by default",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:165] writes OAuth credentials only to target dir by default",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:165",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] syncs siblings from explicit agentDir outside OPENCLAW_STATE_DIR",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:197] syncs siblings from explicit agentDir outside OPENCLAW_STATE_DIR",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:197",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] handles plaintext, ref mode, and inline env-ref provider keys",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:268] handles plaintext, ref mode, and inline env-ref provider keys",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:268",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] stores provider-specific env refs and metadata in ref mode",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:333] stores provider-specific env refs and metadata in ref mode",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:333",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] writes to OPENCLAW_AGENT_DIR when set",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:396] writes to OPENCLAW_AGENT_DIR when set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:396",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] promotes the newly selected profile to the front of auth.order",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:418] promotes the newly selected profile to the front of auth.order",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:418",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] creates provider order when switching from legacy oauth to api_key without explicit order",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:438] creates provider order when switching from legacy oauth to api_key without explicit order",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:438",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] repairs aliased auth.order keys instead of duplicating them",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:457] repairs aliased auth.order keys instead of duplicating them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:457",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] merges split canonical and aliased auth.order entries for the same provider",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:479] merges split canonical and aliased auth.order entries for the same provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:479",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] keeps implicit round-robin when no mixed provider modes are present",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:505] keeps implicit round-robin when no mixed provider modes are present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:505",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts] stores display metadata without overloading email",
+TEST_CASE("v4.29 [src/commands/onboard-auth.test.ts:524] stores display metadata without overloading email",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.test.ts:524",
                "upstream it() block #12",

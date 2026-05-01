@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/terminal/links.test.ts] prepends the docs root when given a relative path",
+TEST_CASE("v4.29 [src/terminal/links.test.ts:5] prepends the docs root when given a relative path",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/links.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/links.test.ts] preserves an absolute http url",
+TEST_CASE("v4.29 [src/terminal/links.test.ts:10] preserves an absolute http url",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/links.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/links.test.ts] treats whitespace-only path like an empty path and falls back to docs root",
+TEST_CASE("v4.29 [src/terminal/links.test.ts:15] treats whitespace-only path like an empty path and falls back to docs root",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/links.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/links.test.ts] does not crash when path is undefined (regression: #67076, #67074)",
+TEST_CASE("v4.29 [src/terminal/links.test.ts:20] does not crash when path is undefined (regression: #67076, #67074)",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/links.test.ts:20",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/links.test.ts] does not crash when path is null",
+TEST_CASE("v4.29 [src/terminal/links.test.ts:26] does not crash when path is null",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/links.test.ts:26",
                "upstream it() block #4",

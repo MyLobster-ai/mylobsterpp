@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts] hydrates flat legacy cron rows before recomputing next runs",
+TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts:33] hydrates flat legacy cron rows before recomputing next runs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/store.load-missing-session-target.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts] defaults missing sessionTarget to ",
+TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts:68] defaults missing sessionTarget to ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/store.load-missing-session-target.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts] defaults missing sessionTarget to ",
+TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts:91] defaults missing sessionTarget to ",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/store.load-missing-session-target.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts] assertSupportedJobSpec throws a clear error when sessionTarget is missing",
+TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts:114] assertSupportedJobSpec throws a clear error when sessionTarget is missing",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/store.load-missing-session-target.test.ts:114",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts] warns once per jobId across repeated forceReload cycles",
+TEST_CASE("v4.29 [src/cron/service/store.load-missing-session-target.test.ts:121] warns once per jobId across repeated forceReload cycles",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service/store.load-missing-session-target.test.ts:121",
                "upstream it() block #4",

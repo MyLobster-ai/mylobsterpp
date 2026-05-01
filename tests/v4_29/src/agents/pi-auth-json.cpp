@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] writes openai-codex oauth credentials into auth.json for pi-coding-agent discovery",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:35] writes openai-codex oauth credentials into auth.json for pi-coding-agent discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] writes api_key credentials into auth.json",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:62] writes api_key credentials into auth.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] writes token credentials as api_key into auth.json",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:83] writes token credentials as api_key into auth.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] syncs multiple providers at once",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:104] syncs multiple providers at once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:104",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] skips profiles with empty keys",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:137] skips profiles with empty keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:137",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] skips expired token credentials",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:152] skips expired token credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:152",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] normalizes provider ids when writing auth.json keys",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:168] normalizes provider ids when writing auth.json keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:168",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] preserves existing auth.json entries not in auth-profiles",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:187] preserves existing auth.json entries not in auth-profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:187",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts] treats malformed existing provider entries as stale and replaces them",
+TEST_CASE("v4.29 [src/agents/pi-auth-json.test.ts:212] treats malformed existing provider entries as stale and replaces them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-auth-json.test.ts:212",
                "upstream it() block #8",

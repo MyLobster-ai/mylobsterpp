@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/store-read.test.ts] returns an empty store for malformed or non-object JSON",
+TEST_CASE("v4.29 [src/config/sessions/store-read.test.ts:8] returns an empty store for malformed or non-object JSON",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store-read.test.ts:8",
                "upstream it() block #0",

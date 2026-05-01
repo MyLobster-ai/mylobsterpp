@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts] wraps startup secret activation failures without emitting reload state events",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts:80] wraps startup secret activation failures without emitting reload state events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.secrets.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts] does not emit degraded or recovered events for warning-only secret reloads",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts:108] does not emit degraded or recovered events for warning-only secret reloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.secrets.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts] prunes channel refs from startup secret preflight when channels are skipped",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts:211] prunes channel refs from startup secret preflight when channels are skipped",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.secrets.test.ts:211",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts] honors startup auth overrides before secret preflight gating",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts:251] honors startup auth overrides before secret preflight gating",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.secrets.test.ts:251",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts] skips inactive gateway auth secret preflight when auth has plain strings",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts:301] skips inactive gateway auth secret preflight when auth has plain strings",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.secrets.test.ts:301",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts] uses gateway auth strings resolved during startup preflight for bootstrap auth",
+TEST_CASE("v4.29 [src/gateway/server-startup-config.secrets.test.ts:333] uses gateway auth strings resolved during startup preflight for bootstrap auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-startup-config.secrets.test.ts:333",
                "upstream it() block #5",

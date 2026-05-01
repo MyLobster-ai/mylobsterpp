@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] stages workspace-relative media through shared outbound attachment loading",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:40] stages workspace-relative media through shared outbound attachment loading",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] maps sandbox-relative media back to the host sandbox workspace before staging",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:66] maps sandbox-relative media back to the host sandbox workspace before staging",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops sandbox-mapped media when staging fails instead of retrying the workspace fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:99] drops sandbox-mapped media when staging fails instead of retrying the workspace fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops host file URLs when no sandbox mapping applies",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:128] drops host file URLs when no sandbox mapping applies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops host file URLs even when sandbox exists",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:146] drops host file URLs even when sandbox exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:146",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops absolute host-local media paths when sandbox mapping fails",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:168] drops absolute host-local media paths when sandbox mapping fails",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] stages absolute workspace media paths so the PR scenario now works",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:190] stages absolute workspace media paths so the PR scenario now works",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:190",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] prefers channel account media limits when staging reply attachments",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:213] prefers channel account media limits when staging reply attachments",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:213",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops workspace-relative media paths that escape the agent workspace",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:246] drops workspace-relative media paths that escape the agent workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops sandbox-relative media paths that escape both sandbox and workspace",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:264] drops sandbox-relative media paths that escape both sandbox and workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:264",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] keeps managed generated media under the shared media root",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:286] keeps managed generated media under the shared media root",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:286",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] keeps managed outbound media under the shared media root with sandbox mapping",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:305] keeps managed outbound media under the shared media root with sandbox mapping",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:305",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops managed outbound media symlinks escaping the shared media root without sandbox mapping",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:328] drops managed outbound media symlinks escaping the shared media root without sandbox mapping",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:328",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] drops host-local media when shared outbound attachment policy rejects it",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:363] drops host-local media when shared outbound attachment policy rejects it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:363",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] keeps reply text and appends a warning when all reply media is dropped",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:383] keeps reply text and appends a warning when all reply media is dropped",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:383",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] returns a warning-only text reply when media-only output is dropped upstream",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:403] returns a warning-only text reply when media-only output is dropped upstream",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:403",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] threads requester context into shared outbound media access",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:422] threads requester context into shared outbound media access",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:422",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts] passes absolute local media sources into shared outbound media access",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-media-paths.test.ts:460] passes absolute local media sources into shared outbound media access",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-media-paths.test.ts:460",
                "upstream it() block #17",

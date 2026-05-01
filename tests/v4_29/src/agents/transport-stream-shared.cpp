@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts] sanitizes unpaired surrogate code units",
+TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts:11] sanitizes unpaired surrogate code units",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-stream-shared.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts] preserves non-empty sanitized tool payload text",
+TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts:28] preserves non-empty sanitized tool payload text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-stream-shared.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts] merges transport headers in source order",
+TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts:35] merges transport headers in source order",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-stream-shared.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts] finalizes successful transport streams",
+TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts:50] finalizes successful transport streams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-stream-shared.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts] marks transport stream failures and runs cleanup",
+TEST_CASE("v4.29 [src/agents/transport-stream-shared.test.ts:68] marks transport stream failures and runs cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transport-stream-shared.test.ts:68",
                "upstream it() block #4",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts] keeps public probe aligned with base contract",
+TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts:12] keeps public probe aligned with base contract",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/directory-contract.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts] lists peers/groups from config",
+TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts:16] lists peers/groups from config",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/directory-contract.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts] keeps directories readable when tokens are unresolved SecretRefs",
+TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts:38] keeps directories readable when tokens are unresolved SecretRefs",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/directory-contract.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts] applies query and limit filtering for config-backed directories",
+TEST_CASE("v4.29 [extensions/slack/src/directory-contract.test.ts:59] applies query and limit filtering for config-backed directories",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/directory-contract.test.ts:59",
                "upstream it() block #3",

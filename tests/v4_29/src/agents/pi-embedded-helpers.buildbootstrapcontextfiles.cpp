@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] creates transcript files with restrictive permissions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:34] creates transcript files with restrictive permissions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] keeps missing markers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:49] keeps missing markers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] skips empty or whitespace-only content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:58] skips empty or whitespace-only content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] truncates large bootstrap content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:62] truncates large bootstrap content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] fits the rendered truncation marker inside the per-file budget",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:91] fits the rendered truncation marker inside the per-file budget",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] keeps bootstrap bytes in tiny per-file budgets when the marker is longer than the limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:104] keeps bootstrap bytes in tiny per-file budgets when the marker is longer than the limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] keeps at least one bootstrap byte when only the compact marker fits",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:120] keeps at least one bootstrap byte when only the compact marker fits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:120",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] keeps content under the default limit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:135] keeps content under the default limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:135",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] keeps total injected bootstrap characters under the new default total cap",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:143] keeps total injected bootstrap characters under the new default total cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:143",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] caps total injected bootstrap characters when totalMaxChars is configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:152] caps total injected bootstrap characters when totalMaxChars is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:152",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] enforces strict total cap even when truncation markers are present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:161] enforces strict total cap even when truncation markers are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:161",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] skips bootstrap injection when remaining total budget is too small",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:174] skips bootstrap injection when remaining total budget is too small",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:174",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] keeps missing markers under small total budgets",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:183] keeps missing markers under small total budgets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:183",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] skips files with missing or invalid paths and emits warnings",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:193] skips files with missing or invalid paths and emits warnings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:193",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] return defaults when unset",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:248] return defaults when unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:248",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] use configured values when valid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:254] use configured values when valid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:254",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] fall back when values are invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:263] fall back when values are invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:263",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] defaults to once",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:274] defaults to once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:274",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] accepts explicit valid modes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:280] accepts explicit valid modes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:280",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts] falls back to default for invalid values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:293] falls back to default for invalid values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.buildbootstrapcontextfiles.test.ts:293",
                "upstream it() block #19",

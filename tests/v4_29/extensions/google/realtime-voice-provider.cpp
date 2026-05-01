@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] normalizes provider config and cfg model-provider key fallback",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:68] normalizes provider config and cfg model-provider key fallback",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] connects with Google Live setup config and tool declarations",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:115] connects with Google Live setup config and tool declarations",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] omits zero temperature for native audio responses",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:217] omits zero temperature for native audio responses",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:217",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] creates constrained browser sessions for Google Live Talk",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:233] creates constrained browser sessions for Google Live Talk",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:233",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] waits for setup completion before draining audio and firing ready",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:315] waits for setup completion before draining audio and firing ready",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:315",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] marks the Google audio stream complete after sustained telephony silence",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:342] marks the Google audio stream complete after sustained telephony silence",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:342",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] accepts PCM16 24 kHz audio without the telephony mu-law hop",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:374] accepts PCM16 24 kHz audio without the telephony mu-law hop",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:374",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] can disable automatic VAD for manual activity signaling experiments",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:399] can disable automatic VAD for manual activity signaling experiments",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:399",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] sends text prompts as ordered client turns",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:421] sends text prompts as ordered client turns",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:421",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] converts Google PCM output to mu-law audio",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:441] converts Google PCM output to mu-law audio",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:441",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] can keep Google PCM output as PCM16 24 kHz audio",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:473] can keep Google PCM output as PCM16 24 kHz audio",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:473",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] does not forward Google thought text as assistant transcript",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:505] does not forward Google thought text as assistant transcript",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:505",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] forwards Live API tool calls and submits matching function responses",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:528] forwards Live API tool calls and submits matching function responses",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:528",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] keeps Google Live consult calls open after continuing tool responses",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:566] keeps Google Live consult calls open after continuing tool responses",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:566",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] does not send malformed Live API tool responses without a matching call name",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:615] does not send malformed Live API tool responses without a matching call name",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:615",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts] reports Google Live tool response send failures without losing the call name",
+TEST_CASE("v4.29 [extensions/google/realtime-voice-provider.test.ts:638] reports Google Live tool response send failures without losing the call name",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/realtime-voice-provider.test.ts:638",
                "upstream it() block #15",

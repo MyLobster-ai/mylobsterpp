@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts] blocks open DMs without allowlist wildcard entries",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts:23] blocks open DMs without allowlist wildcard entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-auth.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts] marks command auth true when sender is allowlisted",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts:30] marks command auth true when sender is allowlisted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-auth.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts] blocks open DMs when configured allowlist does not match",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts:37] blocks open DMs when configured allowlist does not match",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-auth.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts] returns pairing decision and unauthorized command auth for unknown senders",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts:53] returns pairing decision and unauthorized command auth for unknown senders",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-auth.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts] authorizes sender from pairing-store allowlist entries",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts:68] authorizes sender from pairing-store allowlist entries",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-auth.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts] keeps open DM blocked without wildcard even when access groups are disabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/dm-command-auth.test.ts:83] keeps open DM blocked without wildcard even when access groups are disabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/dm-command-auth.test.ts:83",
                "upstream it() block #5",

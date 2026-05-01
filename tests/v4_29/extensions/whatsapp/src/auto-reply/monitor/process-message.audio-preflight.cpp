@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] replaces <media:audio> body with transcript when transcription succeeds",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:213] replaces <media:audio> body with transcript when transcription succeeds",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:213",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] falls back to <media:audio> placeholder when transcription fails",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:245] falls back to <media:audio> placeholder when transcription fails",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:245",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] falls back to <media:audio> placeholder when transcription returns undefined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:259] falls back to <media:audio> placeholder when transcription returns undefined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:259",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] does not call transcribeFirstAudio when mediaType is not audio",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:273] does not call transcribeFirstAudio when mediaType is not audio",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:273",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] does not call transcribeFirstAudio when body is not <media:audio>",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:281] does not call transcribeFirstAudio when body is not <media:audio>",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:281",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] does not call transcribeFirstAudio when mediaPath is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:287] does not call transcribeFirstAudio when mediaPath is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:287",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] does not call transcribeFirstAudio when msg.mediaType is absent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:293] does not call transcribeFirstAudio when msg.mediaType is absent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:293",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] does not use transcript body for command detection",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:307] does not use transcript body for command detection",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:307",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] uses preflightAudioTranscript when provided, skipping transcribeFirstAudio",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:325] uses preflightAudioTranscript when provided, skipping transcribeFirstAudio",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:325",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] does not send a duplicate ack when caller already sent it",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:346] does not send a duplicate ack when caller already sent it",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:346",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] removes caller-provided ack after a successful visible reply",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:357] removes caller-provided ack after a successful visible reply",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:357",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] removes internally sent ack after a successful visible reply",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:369] removes internally sent ack after a successful visible reply",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:369",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] keeps ack when no visible reply was delivered",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:380] keeps ack when no visible reply was delivered",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:380",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] keeps ack when the ack send failed",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:391] keeps ack when the ack send failed",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:391",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts] skips internal STT when preflightAudioTranscript is null (failed preflight sentinel)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:404] skips internal STT when preflightAudioTranscript is null (failed preflight sentinel)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/process-message.audio-preflight.test.ts:404",
                "upstream it() block #14",

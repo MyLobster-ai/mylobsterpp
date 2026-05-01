@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime.test.ts] copies files when Windows rejects runtime overlay symlinks",
+TEST_CASE("v4.29 [test/scripts/stage-bundled-plugin-runtime.test.ts:21] copies files when Windows rejects runtime overlay symlinks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/stage-bundled-plugin-runtime.test.ts:21",
                "upstream it() block #0",

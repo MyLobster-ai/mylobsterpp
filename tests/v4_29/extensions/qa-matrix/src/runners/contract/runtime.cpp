@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] prints Matrix QA progress by default for non-interactive runs",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:77] prints Matrix QA progress by default for non-interactive runs",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] normalizes the Matrix QA hard timeout env",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:93] normalizes the Matrix QA hard timeout env",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] normalizes the Matrix QA canary timeout env",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:109] normalizes the Matrix QA canary timeout env",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] injects a temporary Matrix account into the QA gateway config",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:127] injects a temporary Matrix account into the QA gateway config",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:127",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] derives Matrix DM + multi-room config from provisioned topology",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:200] derives Matrix DM + multi-room config from provisioned topology",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] records default and per-scenario Matrix config snapshots in the summary",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:267] records default and per-scenario Matrix config snapshots in the summary",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:267",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] preserves negative-scenario artifacts in the Matrix summary",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:383] preserves negative-scenario artifacts in the Matrix summary",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:383",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] keeps failing Matrix scenario details and timings complete in summary + report output",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:439] keeps failing Matrix scenario details and timings complete in summary + report output",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:439",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] groups Matrix scenario execution by gateway config while preserving tail scenarios",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:513] groups Matrix scenario execution by gateway config while preserving tail scenarios",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:513",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] uses the scenario timeout for post-restart Matrix readiness",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:537] uses the scenario timeout for post-restart Matrix readiness",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:537",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] retries Matrix gateway config patches after a stale config hash",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:545] retries Matrix gateway config patches after a stale config hash",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:545",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] treats only connected, healthy Matrix accounts as ready",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:594] treats only connected, healthy Matrix accounts as ready",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:594",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] waits past not-ready Matrix status snapshots until the account is really ready",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:613] waits past not-ready Matrix status snapshots until the account is really ready",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:613",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts] fails readiness when the Matrix account never reaches a healthy connected state",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/runners/contract/runtime.test.ts:639] fails readiness when the Matrix account never reaches a healthy connected state",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/runners/contract/runtime.test.ts:639",
                "upstream it() block #13",

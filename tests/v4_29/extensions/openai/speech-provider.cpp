@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] normalizes provider-owned speech config from raw provider config",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:51] normalizes provider-owned speech config from raw provider config",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] parses OpenAI directive tokens against the resolved base url",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:82] parses OpenAI directive tokens against the resolved base url",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] preserves talk responseFormat overrides",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:119] preserves talk responseFormat overrides",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] maps Talk speak params onto OpenAI speech overrides",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:145] maps Talk speak params onto OpenAI speech overrides",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] maps persona prompt fields to instructions when instructions are unset",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:165] maps persona prompt fields to instructions when instructions are unset",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] uses wav for Groq-compatible OpenAI TTS endpoints",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:199] uses wav for Groq-compatible OpenAI TTS endpoints",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts] honors explicit responseFormat overrides and clears voice-note compatibility when not opus",
+TEST_CASE("v4.29 [extensions/openai/speech-provider.test.ts:221] honors explicit responseFormat overrides and clears voice-note compatibility when not opus",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/speech-provider.test.ts:221",
                "upstream it() block #6",

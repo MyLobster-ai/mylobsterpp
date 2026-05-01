@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/stable-node-path.test.ts] returns non-cellar paths unchanged",
+TEST_CASE("v4.29 [src/infra/stable-node-path.test.ts:8] returns non-cellar paths unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/stable-node-path.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/stable-node-path.test.ts] prefers the Homebrew opt symlink for default and versioned formulas",
+TEST_CASE("v4.29 [src/infra/stable-node-path.test.ts:12] prefers the Homebrew opt symlink for default and versioned formulas",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/stable-node-path.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/stable-node-path.test.ts] falls back to the bin symlink for the default formula, otherwise original path",
+TEST_CASE("v4.29 [src/infra/stable-node-path.test.ts:29] falls back to the bin symlink for the default formula, otherwise original path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/stable-node-path.test.ts:29",
                "upstream it() block #2",

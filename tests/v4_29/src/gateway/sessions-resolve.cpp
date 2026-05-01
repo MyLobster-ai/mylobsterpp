@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts] hides canonical keys that fail the spawnedBy visibility filter",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts:81] hides canonical keys that fail the spawnedBy visibility filter",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve.test.ts:81",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts] re-checks migrated legacy keys through the same visibility filter",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts:101] re-checks migrated legacy keys through the same visibility filter",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts] rejects sessions belonging to a deleted agent (key-based lookup)",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts:134] rejects sessions belonging to a deleted agent (key-based lookup)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve.test.ts:134",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts] rejects non-alias agent:main sessions when main is no longer configured",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts:161] rejects non-alias agent:main sessions when main is no longer configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts] rejects sessions belonging to a deleted agent (sessionId-based lookup)",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts:187] rejects sessions belonging to a deleted agent (sessionId-based lookup)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve.test.ts:187",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts] rejects sessions belonging to a deleted agent (label-based lookup)",
+TEST_CASE("v4.29 [src/gateway/sessions-resolve.test.ts:212] rejects sessions belonging to a deleted agent (label-based lookup)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-resolve.test.ts:212",
                "upstream it() block #5",

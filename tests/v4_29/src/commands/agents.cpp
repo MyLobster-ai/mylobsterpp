@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] buildAgentSummaries includes default + configured agents",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:13] buildAgentSummaries includes default + configured agents",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentConfig merges updates",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:59] applyAgentConfig merges updates",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentConfig merges identity with existing",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:80] applyAgentConfig merges identity with existing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentConfig skips identity when not provided",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:98] applyAgentConfig skips identity when not provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentBindings skips duplicates and reports conflicts",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:113] applyAgentBindings skips duplicates and reports conflicts",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentBindings upgrades channel-only binding to account-specific binding for same agent",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:144] applyAgentBindings upgrades channel-only binding to account-specific binding for same agent",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:144",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentBindings treats role-based bindings as distinct routes",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:172] applyAgentBindings treats role-based bindings as distinct routes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:172",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] applyAgentBindings keeps distinct bindings when persisted match fields contain pipes",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:203] applyAgentBindings keeps distinct bindings when persisted match fields contain pipes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:203",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] removeAgentBindings does not remove role-based bindings when removing channel-level routes",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:232] removeAgentBindings does not remove role-based bindings when removing channel-level routes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:232",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agents.test.ts] pruneAgentConfig removes agent, bindings, and allowlist entries",
+TEST_CASE("v4.29 [src/commands/agents.test.ts:281] pruneAgentConfig removes agent, bindings, and allowlist entries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.test.ts:281",
                "upstream it() block #9",

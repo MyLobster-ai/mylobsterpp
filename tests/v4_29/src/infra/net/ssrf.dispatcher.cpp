@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] uses pinned lookup without overriding global family policy",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:65] uses pinned lookup without overriding global family policy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] preserves caller transport hints while overriding lookup",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:88] preserves caller transport hints while overriding lookup",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] applies stream timeouts to pinned direct dispatchers",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:116] applies stream timeouts to pinned direct dispatchers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] replaces the pinned lookup when a dispatcher override hostname is provided",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:137] replaces the pinned lookup when a dispatcher override hostname is provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:137",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] keeps the override bound to the matching hostname only",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:149] keeps the override bound to the matching hostname only",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] rejects pinned override addresses that violate SSRF policy",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:163] rejects pinned override addresses that violate SSRF policy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] keeps env proxy route while pinning the direct no-proxy path",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:186] keeps env proxy route while pinning the direct no-proxy path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:186",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] keeps explicit proxy routing intact",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:216] keeps explicit proxy routing intact",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:216",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts] applies stream timeouts to explicit proxy dispatchers",
+TEST_CASE("v4.29 [src/infra/net/ssrf.dispatcher.test.ts:242] applies stream timeouts to explicit proxy dispatchers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/ssrf.dispatcher.test.ts:242",
                "upstream it() block #8",

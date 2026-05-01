@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] deletes cached credentials when present",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:67] deletes cached credentials when present",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] removes oauth.json too when not using legacy auth dir",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:77] removes oauth.json too when not using legacy auth dir",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] no-ops when nothing to delete",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:88] no-ops when nothing to delete",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] keeps shared oauth.json when using legacy auth dir",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:95] keeps shared oauth.json when using legacy auth dir",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] does not delete custom auth directories outside the OpenClaw auth root",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:113] does not delete custom auth directories outside the OpenClaw auth root",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] does not delete through symlinked auth dirs inside the OpenClaw auth root",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:130] does not delete through symlinked auth dirs inside the OpenClaw auth root",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts] does not delete through intermediate symlinks inside the OpenClaw auth root",
+TEST_CASE("v4.29 [extensions/whatsapp/src/logout.test.ts:145] does not delete through intermediate symlinks inside the OpenClaw auth root",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/logout.test.ts:145",
                "upstream it() block #6",

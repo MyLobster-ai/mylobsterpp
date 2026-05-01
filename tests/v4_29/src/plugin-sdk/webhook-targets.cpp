@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] normalizes the path and unregisters cleanly",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:54] normalizes the path and unregisters cleanly",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] runs first/last path lifecycle hooks only at path boundaries",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:68] runs first/last path lifecycle hooks only at path boundaries",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] does not register target when first-path hook throws",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:105] does not register target when first-path hook throws",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] registers plugin route on first target and removes it on last target",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:123] registers plugin route on first target and removes it on last target",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] returns false when request path has no registered targets",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:188] returns false when request path has no registered targets",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] runs handler when targets resolve and method passes",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:201] runs handler when targets resolve and method passes",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:201",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] releases in-flight slot when handler throws",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:216] releases in-flight slot when handler throws",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:216",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] sets 405 for non-POST requests",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:239] sets 405 for non-POST requests",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] returns matched target",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:293] returns matched target",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:293",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts] returns matched target synchronously",
+TEST_CASE("v4.29 [src/plugin-sdk/webhook-targets.test.ts:332] returns matched target synchronously",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/webhook-targets.test.ts:332",
                "upstream it() block #9",

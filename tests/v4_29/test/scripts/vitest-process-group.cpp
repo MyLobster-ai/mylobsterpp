@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts] uses detached process groups on non-Windows hosts",
+TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts:10] uses detached process groups on non-Windows hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-process-group.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts] targets the process group on Unix and the direct pid on Windows",
+TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts:16] targets the process group on Unix and the direct pid on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-process-group.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts] forwards signals to the computed target and ignores cleanup races",
+TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts:26] forwards signals to the computed target and ignores cleanup races",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-process-group.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts] installs and removes process cleanup listeners",
+TEST_CASE("v4.29 [test/scripts/vitest-process-group.test.ts:67] installs and removes process cleanup listeners",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-process-group.test.ts:67",
                "upstream it() block #3",

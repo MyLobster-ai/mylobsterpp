@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts] wraps external hook content by default",
+TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts:21] wraps external hook content by default",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.hook-content-wrapping.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts] wraps normalized webhook hook content using preserved provenance",
+TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts:36] wraps normalized webhook hook content using preserved provenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.hook-content-wrapping.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts] uses hooks.gmail.model for normalized Gmail hook provenance",
+TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts:56] uses hooks.gmail.model for normalized Gmail hook provenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.hook-content-wrapping.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts] keeps hooks.gmail unsafe-content opt-out for normalized Gmail hook provenance",
+TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts:83] keeps hooks.gmail unsafe-content opt-out for normalized Gmail hook provenance",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.hook-content-wrapping.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts] skips external content wrapping when hooks.gmail opts out",
+TEST_CASE("v4.29 [src/cron/isolated-agent.hook-content-wrapping.test.ts:109] skips external content wrapping when hooks.gmail opts out",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent.hook-content-wrapping.test.ts:109",
                "upstream it() block #4",

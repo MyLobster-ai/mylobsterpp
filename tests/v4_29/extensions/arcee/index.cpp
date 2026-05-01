@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] registers Arcee AI with direct and OpenRouter auth choices",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:11] registers Arcee AI with direct and OpenRouter auth choices",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] stores the OpenRouter onboarding path under the OpenRouter auth profile",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:36] stores the OpenRouter onboarding path under the OpenRouter auth profile",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] keeps direct Arcee auth env candidates separate from OpenRouter",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:74] keeps direct Arcee auth env candidates separate from OpenRouter",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] builds the direct Arcee AI model catalog",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:81] builds the direct Arcee AI model catalog",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:81",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] builds the OpenRouter-backed Arcee AI model catalog",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:97] builds the OpenRouter-backed Arcee AI model catalog",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] normalizes Arcee OpenRouter models to vendor-prefixed runtime ids",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:117] normalizes Arcee OpenRouter models to vendor-prefixed runtime ids",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/arcee/index.test.ts] canonicalizes stale OpenRouter /v1 config and transport metadata",
+TEST_CASE("v4.29 [extensions/arcee/index.test.ts:149] canonicalizes stale OpenRouter /v1 config and transport metadata",
           "[v4_29][parity_gap][arcee]") {
     PARITY_GAP("extensions/arcee/index.test.ts:149",
                "upstream it() block #6",

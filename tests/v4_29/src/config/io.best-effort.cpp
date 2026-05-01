@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/io.best-effort.test.ts] reuses valid snapshots while preserving load-time defaults",
+TEST_CASE("v4.29 [src/config/io.best-effort.test.ts:10] reuses valid snapshots while preserving load-time defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.best-effort.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/io.best-effort.test.ts] preserves the authored source config without load-time defaults",
+TEST_CASE("v4.29 [src/config/io.best-effort.test.ts:42] preserves the authored source config without load-time defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/io.best-effort.test.ts:42",
                "upstream it() block #1",

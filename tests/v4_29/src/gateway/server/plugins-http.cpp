@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] keeps unauthenticated plugin routes off operator runtime scopes",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:136] keeps unauthenticated plugin routes off operator runtime scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:136",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] preserves gateway-authenticated plugin route runtime scopes from request auth",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:148] preserves gateway-authenticated plugin route runtime scopes from request auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:148",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] returns false when no routes are registered",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:161] returns false when no routes are registered",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] handles exact route matches",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:172] handles exact route matches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:172",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] prefers exact matches before prefix matches",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:189] prefers exact matches before prefix matches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:189",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] supports route fallthrough when handler returns false",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:211] supports route fallthrough when handler returns false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] fails closed when a matched gateway route reaches dispatch without auth",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:231] fails closed when a matched gateway route reaches dispatch without auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:231",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] allows gateway route fallthrough only after gateway auth succeeds",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:240] allows gateway route fallthrough only after gateway auth succeeds",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:240",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] fails closed when gateway route dispatch lacks caller scopes",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:250] fails closed when gateway route dispatch lacks caller scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:250",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] matches canonicalized route variants",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:259] matches canonicalized route variants",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:259",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] falls back to the provided registry when the pinned route registry is empty",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:276] falls back to the provided registry when the pinned route registry is empty",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] handles routes registered into the pinned startup registry after the active registry changes",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:300] handles routes registered into the pinned startup registry after the active registry changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:300",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] prefers the pinned route registry over a stale explicit registry",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:334] prefers the pinned route registry over a stale explicit registry",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:334",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] logs and responds with 500 when a route throws",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:370] logs and responds with 500 when a route throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:370",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] detects registered route paths",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:401] detects registered route paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:401",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] matches canonicalized variants of registered route paths",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:409] matches canonicalized variants of registered route paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:409",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] enforces auth for protected and gateway-auth routes",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:418] enforces auth for protected and gateway-auth routes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:418",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts] enforces auth when any overlapping matched route requires gateway auth",
+TEST_CASE("v4.29 [src/gateway/server/plugins-http.test.ts:433] enforces auth when any overlapping matched route requires gateway auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/plugins-http.test.ts:433",
                "upstream it() block #17",

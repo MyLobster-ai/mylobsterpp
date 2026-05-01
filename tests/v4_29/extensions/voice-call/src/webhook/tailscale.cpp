@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts] reads dns and node id from tailscale status json",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts:61] reads dns and node id from tailscale status json",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/tailscale.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts] returns null for failing or invalid status responses",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts:91] returns null for failing or invalid status responses",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/tailscale.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts] treats missing tailscale binary as unavailable instead of leaking spawn errors",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts:99] treats missing tailscale binary as unavailable instead of leaking spawn errors",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/tailscale.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts] sets up and cleans up exposure routes with the selected mode",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts:105] sets up and cleans up exposure routes with the selected mode",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/tailscale.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts] returns null when setup cannot resolve dns or route activation fails",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts:145] returns null when setup cannot resolve dns or route activation fails",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/tailscale.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts] maps config modes to serve or funnel and skips off",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook/tailscale.test.ts:172] maps config modes to serve or funnel and skips off",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook/tailscale.test.ts:172",
                "upstream it() block #5",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.thread-binding.test.ts] passes forum topic messages through the route seam and uses the bound session",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.thread-binding.test.ts:74] passes forum topic messages through the route seam and uses the bound session",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.thread-binding.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.thread-binding.test.ts] treats named-account bound conversations as explicit route matches",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.thread-binding.test.ts:101] treats named-account bound conversations as explicit route matches",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.thread-binding.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.thread-binding.test.ts] passes dm messages through the route seam and uses the bound session",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.thread-binding.test.ts:128] passes dm messages through the route seam and uses the bound session",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.thread-binding.test.ts:128",
                "upstream it() block #2",

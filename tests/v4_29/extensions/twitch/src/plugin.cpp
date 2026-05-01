@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/twitch/src/plugin.test.ts] normalizes trimmed twitch user prefixes in allow entries",
+TEST_CASE("v4.29 [extensions/twitch/src/plugin.test.ts:6] normalizes trimmed twitch user prefixes in allow entries",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/plugin.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/plugin.test.ts] uses the resolved account ID for multi-account configs",
+TEST_CASE("v4.29 [extensions/twitch/src/plugin.test.ts:13] uses the resolved account ID for multi-account configs",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/plugin.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/twitch/src/plugin.test.ts] uses configured defaultAccount for omitted-account plugin resolution",
+TEST_CASE("v4.29 [extensions/twitch/src/plugin.test.ts:49] uses configured defaultAccount for omitted-account plugin resolution",
           "[v4_29][parity_gap][twitch]") {
     PARITY_GAP("extensions/twitch/src/plugin.test.ts:49",
                "upstream it() block #2",

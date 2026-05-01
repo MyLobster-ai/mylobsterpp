@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.recall-tracking.test.ts] records only surfaced results after qmd clamp",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.recall-tracking.test.ts:46] records only surfaced results after qmd clamp",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.recall-tracking.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.recall-tracking.test.ts] does not block tool results on slow best-effort recall writes",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.recall-tracking.test.ts:92] does not block tool results on slow best-effort recall writes",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.recall-tracking.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/tools.recall-tracking.test.ts] passes the resolved dreaming timezone into recall tracking",
+TEST_CASE("v4.29 [extensions/memory-core/src/tools.recall-tracking.test.ts:140] passes the resolved dreaming timezone into recall tracking",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/tools.recall-tracking.test.ts:140",
                "upstream it() block #2",

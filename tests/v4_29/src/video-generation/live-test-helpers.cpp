@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] parses provider filters and treats empty/all as unfiltered",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:14] parses provider filters and treats empty/all as unfiltered",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] parses provider model overrides by provider id",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:20] parses provider model overrides by provider id",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] collects configured models from primary and fallbacks",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:31] collects configured models from primary and fallbacks",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] uses an empty auth store when live env keys should override stale profiles",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:51] uses an empty auth store when live env keys should override stale profiles",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] keeps profile-store mode when requested or when no live keys exist",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:63] keeps profile-store mode when requested or when no live keys exist",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] redacts live API keys for diagnostics",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:78] redacts live API keys for diagnostics",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:78",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] runs buffer-backed video-to-video only for supported providers/models",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:84] runs buffer-backed video-to-video only for supported providers/models",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:84",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts] runs buffer-backed image-to-video only for providers that accept bundled image inputs",
+TEST_CASE("v4.29 [src/video-generation/live-test-helpers.test.ts:129] runs buffer-backed image-to-video only for providers that accept bundled image inputs",
           "[v4_29][parity_gap][video-generation]") {
     PARITY_GAP("src/video-generation/live-test-helpers.test.ts:129",
                "upstream it() block #7",

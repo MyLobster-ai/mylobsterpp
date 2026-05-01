@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/system-presence.test.ts] dedupes entries across sources by case-insensitive instanceId key",
+TEST_CASE("v4.29 [src/infra/system-presence.test.ts:10] dedupes entries across sources by case-insensitive instanceId key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.test.ts] merges roles and scopes for the same device",
+TEST_CASE("v4.29 [src/infra/system-presence.test.ts:41] merges roles and scopes for the same device",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.test.ts] parses node presence text and normalizes the update key",
+TEST_CASE("v4.29 [src/infra/system-presence.test.ts:64] parses node presence text and normalizes the update key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.test.ts] drops blank role and scope entries while keeping fallback text",
+TEST_CASE("v4.29 [src/infra/system-presence.test.ts:83] drops blank role and scope entries while keeping fallback text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-presence.test.ts] prunes stale non-self entries after TTL",
+TEST_CASE("v4.29 [src/infra/system-presence.test.ts:100] prunes stale non-self entries after TTL",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-presence.test.ts:100",
                "upstream it() block #4",

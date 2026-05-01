@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/trajectory/metadata.test.ts] redacts harness argv and local paths with the support redaction rules",
+TEST_CASE("v4.29 [src/trajectory/metadata.test.ts:32] redacts harness argv and local paths with the support redaction rules",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/metadata.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/metadata.test.ts] captures redacted config plus active plugin and skill inventory",
+TEST_CASE("v4.29 [src/trajectory/metadata.test.ts:73] captures redacted config plus active plugin and skill inventory",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/metadata.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/metadata.test.ts] captures final artifact summaries for export sidecars",
+TEST_CASE("v4.29 [src/trajectory/metadata.test.ts:170] captures final artifact summaries for export sidecars",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/metadata.test.ts:170",
                "upstream it() block #2",

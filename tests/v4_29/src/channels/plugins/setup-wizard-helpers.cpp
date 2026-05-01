@@ -5,586 +5,586 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] re-prompts without token until all ids are parseable",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:308] re-prompts without token until all ids are parseable",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:308",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] re-prompts when token resolution returns unresolved entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:330] re-prompts when token resolution returns unresolved entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:330",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] re-prompts when resolver throws before succeeding",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:347] re-prompts when resolver throws before succeeding",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:347",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] applies parsed ids without token resolution",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:369] applies parsed ids without token resolution",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:369",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] uses resolver when token is present",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:390] uses resolver when token is present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:390",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] resolves the account before delegating to the shared prompt flow",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:412] resolves the account before delegating to the shared prompt flow",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:412",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns use-env action when plaintext mode selects env fallback",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:511] returns use-env action when plaintext mode selects env fallback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:511",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns ref + resolved value when external env ref is selected",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:530] returns ref + resolved value when external env ref is selected",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:530",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns keep action when ref mode keeps an existing configured ref",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:558] returns keep action when ref mode keeps an existing configured ref",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:558",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes env selection as an empty patch on target account",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:580] writes env selection as an empty patch on target account",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:580",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes provided token under requested key",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:594] writes provided token under requested key",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:594",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes parsed allowFrom values to default account channel config",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:609] writes parsed allowFrom values to default account channel config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:609",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes parsed values to non-default account allowFrom",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:637] writes parsed values to non-default account allowFrom",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:637",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] uses parser validation from the prompt validate callback",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:670] uses parser validation from the prompt validate callback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:670",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] applies parsed allowFrom values through the provided writer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:702] applies parsed allowFrom values through the provided writer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:702",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] can merge parsed values with existing entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:752] can merge parsed values with existing entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:752",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] supports computed default account ids and optional notes",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:783] supports computed default account ids and optional notes",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:783",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] builds a top-level parsed allowFrom prompt",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:833] builds a top-level parsed allowFrom prompt",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:833",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] builds a nested parsed allowFrom prompt",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:854] builds a nested parsed allowFrom prompt",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:854",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] emits summary lines for resolved and unresolved entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:876] emits summary lines for resolved and unresolved entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:876",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] skips note output when there is nothing to report",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:893] skips note output when there is nothing to report",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:893",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] formats lookup failures consistently",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:904] formats lookup failures consistently",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:904",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes allowFrom on default account channel config",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:919] writes allowFrom on default account channel config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:919",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes allowFrom on nested non-default account config",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:943] writes allowFrom on nested non-default account config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:943",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] patches root channel config for default account",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:970] patches root channel config for default account",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:970",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] patches nested account config and preserves existing enabled flag",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:992] patches nested account config and preserves existing enabled flag",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:992",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] moves single-account config into default account when patching non-default",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1020] moves single-account config into default account when patching non-default",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1020",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] supports imessage/signal account-scoped channel patches",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1053] supports imessage/signal account-scoped channel patches",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1053",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] updates enabled and keeps existing channel fields",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1088] updates enabled and keeps existing channel fields",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1088",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] creates missing channel config with enabled state",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1103] creates missing channel config with enabled state",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1103",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] patches discord root config and defaults dm.enabled to true",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1110] patches discord root config and defaults dm.enabled to true",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1110",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] preserves explicit dm.enabled=false for slack",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1128] preserves explicit dm.enabled=false for slack",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1128",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] adds wildcard allowFrom for open policy using legacy dm allowFrom fallback",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1150] adds wildcard allowFrom for open policy using legacy dm allowFrom fallback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1150",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] sets policy without changing allowFrom when not open",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1172] sets policy without changing allowFrom when not open",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1172",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes allowFrom through legacy dm patching",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1192] writes allowFrom through legacy dm patching",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1192",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes group policy on default account config",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1204] writes group policy on default account config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1204",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes group policy on nested non-default account",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1215] writes group policy on nested non-default account",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1215",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] adds wildcard allowFrom when setting dmPolicy=open",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1228] adds wildcard allowFrom when setting dmPolicy=open",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1228",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] sets dmPolicy without changing allowFrom for non-open policies",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1248] sets dmPolicy without changing allowFrom for non-open policies",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1248",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] supports telegram channel dmPolicy updates",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1268] supports telegram channel dmPolicy updates",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1268",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] adds wildcard allowFrom for open policy",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1289] adds wildcard allowFrom for open policy",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1289",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] supports custom allowFrom lookup callback",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1308] supports custom allowFrom lookup callback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1308",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes allowFrom and can force enabled state",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1330] writes allowFrom and can force enabled state",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1330",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes groupPolicy and can force enabled state",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1343] writes groupPolicy and can force enabled state",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1343",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] clears requested fields before applying a patch",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1356] clears requested fields before applying a patch",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1356",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] clears requested nested fields before applying a patch",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1379] clears requested nested fields before applying a patch",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1379",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] creates a reusable dm policy definition",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1405] creates a reusable dm policy definition",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1405",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] reuses the shared top-level dmPolicy writer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1439] reuses the shared top-level dmPolicy writer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1439",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes nested allowFrom and can force enabled state",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1460] writes nested allowFrom and can force enabled state",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1460",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] adds wildcard allowFrom for open policy inside a nested section",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1475] adds wildcard allowFrom for open policy inside a nested section",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1475",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] creates a reusable nested dm policy definition",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1500] creates a reusable nested dm policy definition",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1500",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] reuses the shared nested dmPolicy writer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1536] reuses the shared nested dmPolicy writer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1536",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] reuses the shared nested allowFrom writer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1550] reuses the shared nested allowFrom writer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1550",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] reuses the shared top-level allowFrom writer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1564] reuses the shared top-level allowFrom writer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1564",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] reads nested legacy dm policy and writes top-level compat fields",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1577] reads nested legacy dm policy and writes top-level compat fields",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1577",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] honors named-account dm policy state and paths",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1612] honors named-account dm policy state and paths",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1612",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] reuses the shared top-level groupPolicy writer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1663] reuses the shared top-level groupPolicy writer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1663",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] writes account-scoped allowlist dm config",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1676] writes account-scoped allowlist dm config",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1676",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns resolved values when lookup succeeds",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1690] returns resolved values when lookup succeeds",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1690",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] notes lookup failure and returns the fallback",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1704] notes lookup failure and returns the fallback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1704",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] builds an account-scoped allowFrom section with shared apply wiring",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1722] builds an account-scoped allowFrom section with shared apply wiring",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1722",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] builds a parsed allowFrom section with default local resolution",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1755] builds a parsed allowFrom section with default local resolution",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1755",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] builds group access with shared setPolicy and fallback lookup notes",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1792] builds group access with shared setPolicy and fallback lookup notes",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1792",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] splits comma/newline/semicolon input and trims blanks",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1845] splits comma/newline/semicolon input and trims blanks",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1845",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] maps entries and de-duplicates parsed values",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1851] maps entries and de-duplicates parsed values",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1851",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns parser errors and clears parsed entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1864] returns parser errors and clears parsed entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1864",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] preserves wildcard and delegates non-wildcard entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1877] preserves wildcard and delegates non-wildcard entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1877",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns parser errors for non-wildcard entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1887] returns parser errors for non-wildcard entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1887",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns unresolved entries when token is missing",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1900] returns unresolved entries when token is missing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1900",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] delegates to the resolver when token exists",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1915] delegates to the resolver when token exists",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1915",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] maps parsed ids into resolved/unresolved entries",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1933] maps parsed ids into resolved/unresolved entries",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1933",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] parses mention ids",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1947] parses mention ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1947",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] parses prefixed ids and normalizes result",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1958] parses prefixed ids and normalizes result",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1958",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns null for blank or invalid input",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1970] returns null for blank or invalid input",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1970",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] normalizes values, preserves wildcard, and removes duplicates",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1991] normalizes values, preserves wildcard, and removes duplicates",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1991",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] trims and de-duplicates without a normalizer",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:1999] trims and de-duplicates without a normalizer",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:1999",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] returns the shared status fields without status lines by default",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2005] returns the shared status fields without status lines by default",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2005",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] builds the default status line plus extra lines when requested",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2025] builds the default status line plus extra lines when requested",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2025",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] normalizes provided account ids",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2045] normalizes provided account ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2045",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] falls back to default account id when input is blank",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2054] falls back to default account id when input is blank",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2054",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] uses normalized override without prompting",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2065] uses normalized override without prompting",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2065",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] uses default account when override is missing and prompting disabled",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2078] uses default account when override is missing and prompting disabled",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2078",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts] prompts for account id when prompting is enabled and no override is provided",
+TEST_CASE("v4.29 [src/channels/plugins/setup-wizard-helpers.test.ts:2090] prompts for account id when prompting is enabled and no override is provided",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-wizard-helpers.test.ts:2090",
                "upstream it() block #82",

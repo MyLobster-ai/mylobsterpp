@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] keeps captioned media-bearing block replies buffered when block streaming is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:16] keeps captioned media-bearing block replies buffered when block streaming is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] sends media-only block replies when block streaming is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:48] sends media-only block replies when block streaming is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] keeps text-only block replies buffered when block streaming is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:88] keeps text-only block replies buffered when block streaming is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] trims leading whitespace in block-streamed replies",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:108] trims leading whitespace in block-streamed replies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:108",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] suppresses implicit current-message threading for block replies when reply threading denies it",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:138] suppresses implicit current-message threading for block replies when reply threading denies it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:138",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] parses media directives in block replies before path normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:170] parses media directives in block replies before path normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:170",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] parses lowercase media directives in block replies before path normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:184] parses lowercase media directives in block replies before path normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:184",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] does not mark plain replies as explicit reply_to_current opt-outs",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:198] does not mark plain replies as explicit reply_to_current opt-outs",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:198",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] passes normalized media block replies through media path normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:208] passes normalized media block replies through media path normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:208",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts] preserves reply payload metadata across block-reply normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-delivery.test.ts:244] preserves reply payload metadata across block-reply normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-delivery.test.ts:244",
                "upstream it() block #9",

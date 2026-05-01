@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts] flags deprecated runtime config calls in production plugin code",
+TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts:35] flags deprecated runtime config calls in production plugin code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/config-boundary-guard.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts] flags loadConfig in runtime channel action helpers only",
+TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts:56] flags loadConfig in runtime channel action helpers only",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/config-boundary-guard.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts] flags broad config-runtime barrel imports in production code",
+TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts:79] flags broad config-runtime barrel imports in production code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/config-boundary-guard.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts] flags broad config-runtime test mocks outside compat guard fixtures",
+TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts:102] flags broad config-runtime test mocks outside compat guard fixtures",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/config-boundary-guard.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts] allows narrow config SDK subpaths in production code",
+TEST_CASE("v4.29 [src/plugins/contracts/config-boundary-guard.test.ts:115] allows narrow config SDK subpaths in production code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/config-boundary-guard.test.ts:115",
                "upstream it() block #4",

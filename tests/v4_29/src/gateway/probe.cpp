@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] clamps probe timeout to timer-safe bounds",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:193] clamps probe timeout to timer-safe bounds",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:193",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] waits for event-loop readiness before connecting",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:198] waits for event-loop readiness before connecting",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:198",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] fails before connecting when event-loop readiness consumes the initial probe budget",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:211] fails before connecting when event-loop readiness consumes the initial probe budget",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:211",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] connects with operator.read scope",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:242] connects with operator.read scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:242",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] keeps device identity enabled for remote probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:269] keeps device identity enabled for remote probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:269",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] does not create or attach a device identity for first-time authenticated probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:279] does not create or attach a device identity for first-time authenticated probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:279",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] reuses cached device identity for unauthenticated loopback probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:292] reuses cached device identity for unauthenticated loopback probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:292",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] keeps device identity disabled for first-time unauthenticated loopback probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:301] keeps device identity disabled for first-time unauthenticated loopback probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:301",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] skips detail RPCs for lightweight reachability probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:312] skips detail RPCs for lightweight reachability probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:312",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] keeps device identity enabled for authenticated lightweight probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:324] keeps device identity enabled for authenticated lightweight probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:324",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] falls back to token/password auth when device identity cannot be persisted",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:337] falls back to token/password auth when device identity cannot be persisted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:337",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] fetches only presence for presence-only probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:356] fetches only presence for presence-only probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:356",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] passes through tls fingerprints for secure daemon probes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:370] passes through tls fingerprints for secure daemon probes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:370",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] surfaces immediate close failures before the probe timeout",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:382] surfaces immediate close failures before the probe timeout",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:382",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] reports write-capable auth when hello-ok scopes include operator.write",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:401] reports write-capable auth when hello-ok scopes include operator.write",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:401",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] keeps capability unknown when hello-ok omits auth metadata",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:420] keeps capability unknown when hello-ok omits auth metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:420",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] reports connect-only only when hello-ok explicitly includes empty auth metadata",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:437] reports connect-only only when hello-ok explicitly includes empty auth metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:437",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] prefers the structured connect error over the generic close reason",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:454] prefers the structured connect error over the generic close reason",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:454",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/probe.test.ts] keeps probing through internally retried startup-unavailable handshakes",
+TEST_CASE("v4.29 [src/gateway/probe.test.ts:471] keeps probing through internally retried startup-unavailable handshakes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/probe.test.ts:471",
                "upstream it() block #18",

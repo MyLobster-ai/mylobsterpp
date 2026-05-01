@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/command-rpc.test.ts] formats unsupported control methods from JSON-RPC error codes",
+TEST_CASE("v4.29 [extensions/codex/src/command-rpc.test.ts:6] formats unsupported control methods from JSON-RPC error codes",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/command-rpc.test.ts:6",
                "upstream it() block #0",

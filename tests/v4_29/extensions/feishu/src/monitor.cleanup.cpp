@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts] closes the websocket client when the monitor aborts",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts:47] closes the websocket client when the monitor aborts",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.cleanup.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts] retries with backoff after websocket start rejects",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts:83] retries with backoff after websocket start rejects",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.cleanup.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts] redacts websocket close errors during abort cleanup",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts:139] redacts websocket close errors during abort cleanup",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.cleanup.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts] closes targeted websocket clients during stop cleanup",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts:175] closes targeted websocket clients during stop cleanup",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.cleanup.test.ts:175",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts] closes all websocket clients during global stop cleanup",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.cleanup.test.ts:198] closes all websocket clients during global stop cleanup",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.cleanup.test.ts:198",
                "upstream it() block #4",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-config.test.ts] reads config from the runtime snapshot for current and deprecated loadConfig",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-config.test.ts:36] reads config from the runtime snapshot for current and deprecated loadConfig",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-config.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-config.test.ts] routes deprecated writeConfigFile through replaceConfigFile with afterWrite",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-config.test.ts:49] routes deprecated writeConfigFile through replaceConfigFile with afterWrite",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-config.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/runtime-config.test.ts] preserves explicit afterWrite intent for deprecated writeConfigFile",
+TEST_CASE("v4.29 [src/plugins/runtime/runtime-config.test.ts:65] preserves explicit afterWrite intent for deprecated writeConfigFile",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/runtime-config.test.ts:65",
                "upstream it() block #2",

@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] applies bootstrap hook overrides",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:100] applies bootstrap hook overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] drops malformed hook files with missing/invalid paths",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:109] drops malformed hook files with missing/invalid paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:109",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] dedupes hook-injected bootstrap paths relative to the workspace",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:126] dedupes hook-injected bootstrap paths relative to the workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:126",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns context files for hook-adjusted bootstrap files",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:150] returns context files for hook-adjusted bootstrap files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:150",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] keeps BOOTSTRAP.md available in shared injected context for non-attempt consumers",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:162] keeps BOOTSTRAP.md available in shared injected context for non-attempt consumers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] uses heartbeat-only bootstrap files in lightweight heartbeat mode",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:174] uses heartbeat-only bootstrap files in lightweight heartbeat mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:174",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] keeps bootstrap context empty in lightweight cron mode",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:189] keeps bootstrap context empty in lightweight cron mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:189",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] drops HEARTBEAT.md for non-heartbeat runs when the heartbeat prompt section is disabled",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:202] drops HEARTBEAT.md for non-heartbeat runs when the heartbeat prompt section is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:202",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] drops HEARTBEAT.md for non-heartbeat runs when the heartbeat cadence is disabled",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:222] drops HEARTBEAT.md for non-heartbeat runs when the heartbeat cadence is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:222",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] keeps HEARTBEAT.md for actual heartbeat runs even when the prompt section is disabled",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:242] keeps HEARTBEAT.md for actual heartbeat runs even when the prompt section is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:242",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false when session file does not exist",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:276] returns false when session file does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false for empty session files",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:280] returns false for empty session files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:280",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false for header-only session files",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:286] returns false for header-only session files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:286",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false when no assistant turn has been flushed yet",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:292] returns false when no assistant turn has been flushed yet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:292",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false for assistant turns without a recorded full bootstrap marker",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:305] returns false for assistant turns without a recorded full bootstrap marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:305",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns true when a full bootstrap completion marker exists",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:319] returns true when a full bootstrap completion marker exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:319",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false when compaction happened after the last assistant turn",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:336] returns false when compaction happened after the last assistant turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:336",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns true when a later full bootstrap marker happens after compaction",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:353] returns true when a later full bootstrap marker happens after compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:353",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] ignores malformed JSON lines",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:377] ignores malformed JSON lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:377",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] finds a recent full bootstrap marker even when the scan starts mid-file",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:394] finds a recent full bootstrap marker even when the scan starts mid-file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:394",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns false for symbolic links",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:412] returns false for symbolic links",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:412",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] deduplicates repeated warnings for the same session and message",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:430] deduplicates repeated warnings for the same session and message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:430",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] keeps warnings distinct across sessions",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:445] keeps warnings distinct across sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:445",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] keeps warnings distinct across workspaces with the same session",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:465] keeps warnings distinct across workspaces with the same session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:465",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] defaults to always when config is missing",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:489] defaults to always when config is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:489",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] defaults to always when the setting is omitted",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:493] defaults to always when the setting is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:493",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts] returns the configured continuation-skip mode",
+TEST_CASE("v4.29 [src/agents/bootstrap-files.test.ts:497] returns the configured continuation-skip mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bootstrap-files.test.ts:497",
                "upstream it() block #26",

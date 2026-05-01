@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] executes plugin commands from the real registry through the native Discord command path",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:368] executes plugin commands from the real registry through the native Discord command path",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:368",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] round-trips Discord native aliases through the real plugin registry",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:380] round-trips Discord native aliases through the real plugin registry",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:380",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] blocks unauthorized Discord senders before requireAuth:false plugin commands execute",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:392] blocks unauthorized Discord senders before requireAuth:false plugin commands execute",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:392",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] rejects group DM slash commands outside dm.groupChannels before dispatch",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:458] rejects group DM slash commands outside dm.groupChannels before dispatch",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:458",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] executes matched plugin commands directly without invoking the agent dispatcher",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:494] executes matched plugin commands directly without invoking the agent dispatcher",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:494",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] forwards Discord thread metadata into direct plugin command execution",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:532] forwards Discord thread metadata into direct plugin command execution",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:532",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] preserves fetched thread parent metadata when interaction parentId getter throws",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:602] preserves fetched thread parent metadata when interaction parentId getter throws",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:602",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] routes native slash commands through configured ACP Discord channel bindings",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:685] routes native slash commands through configured ACP Discord channel bindings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:685",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] falls back to the routed slash and channel session keys when no bound session exists",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:707] falls back to the routed slash and channel session keys when no bound session exists",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:707",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] routes Discord DM native slash commands through configured ACP bindings",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:787] routes Discord DM native slash commands through configured ACP bindings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:787",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] does not bypass configured ACP readiness for Discord /new",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:807] does not bypass configured ACP readiness for Discord /new",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:807",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts] allows recovery commands through configured ACP bindings even when ensure fails",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:840] allows recovery commands through configured ACP bindings even when ensure fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/native-command.plugin-dispatch.test.ts:840",
                "upstream it() block #11",

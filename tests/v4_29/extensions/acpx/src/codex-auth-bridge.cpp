@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] installs an isolated Codex ACP wrapper without synthesizing auth from canonical OpenClaw OAuth",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:79] installs an isolated Codex ACP wrapper without synthesizing auth from canonical OpenClaw OAuth",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] keeps generated wrappers usable when chmod is rejected by the state filesystem",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:118] keeps generated wrappers usable when chmod is rejected by the state filesystem",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:118",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] falls back to the current Codex ACP package range when the local adapter is unavailable",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:143] falls back to the current Codex ACP package range when the local adapter is unavailable",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:143",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] falls back to the patched Claude ACP package when the local adapter is unavailable",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:164] falls back to the patched Claude ACP package when the local adapter is unavailable",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:164",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] uses the bundled Codex ACP dependency by default when it is installed",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:186] uses the bundled Codex ACP dependency by default when it is installed",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] uses the bundled Claude ACP dependency by default when it is installed",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:206] uses the bundled Claude ACP dependency by default when it is installed",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:206",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] launches the locally installed Codex ACP bin with isolated CODEX_HOME",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:226] launches the locally installed Codex ACP bin with isolated CODEX_HOME",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:226",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] launches the locally installed Claude ACP bin without going through npm",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:256] launches the locally installed Claude ACP bin without going through npm",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:256",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] does not copy source Codex auth",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:289] does not copy source Codex auth",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:289",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] normalizes an explicitly configured Codex ACP command to the local wrapper",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:333] normalizes an explicitly configured Codex ACP command to the local wrapper",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:333",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] normalizes an explicitly configured Claude ACP npx command to the local wrapper",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:374] normalizes an explicitly configured Claude ACP npx command to the local wrapper",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:374",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] leaves a custom Claude agent command alone",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:401] leaves a custom Claude agent command alone",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:401",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts] does not normalize custom Claude commands that only mention the package name",
+TEST_CASE("v4.29 [extensions/acpx/src/codex-auth-bridge.test.ts:424] does not normalize custom Claude commands that only mention the package name",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/src/codex-auth-bridge.test.ts:424",
                "upstream it() block #12",

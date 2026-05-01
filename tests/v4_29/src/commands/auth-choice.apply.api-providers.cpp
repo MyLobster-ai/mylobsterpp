@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.api-providers.test.ts] maps token provider auth through plugin token methods",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.api-providers.test.ts:43] maps token provider auth through plugin token methods",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.api-providers.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.api-providers.test.ts] maps apiKey provider auth through plugin api key methods and aliases",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.api-providers.test.ts:59] maps apiKey provider auth through plugin api key methods and aliases",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.api-providers.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.api-providers.test.ts] leaves the auth choice unchanged when no matching provider method exists",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.api-providers.test.ts:76] leaves the auth choice unchanged when no matching provider method exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.api-providers.test.ts:76",
                "upstream it() block #2",

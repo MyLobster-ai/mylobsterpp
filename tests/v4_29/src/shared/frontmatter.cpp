@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] normalizeStringList handles strings, arrays, and non-list values",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:15] normalizeStringList handles strings, arrays, and non-list values",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] getFrontmatterString extracts strings only",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:21] getFrontmatterString extracts strings only",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] parseFrontmatterBool respects explicit values and fallback",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:26] parseFrontmatterBool respects explicit values and fallback",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] resolveOpenClawManifestBlock reads current manifest keys and custom metadata fields",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:33] resolveOpenClawManifestBlock reads current manifest keys and custom metadata fields",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] resolveOpenClawManifestBlock reads legacy manifest keys",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:52] resolveOpenClawManifestBlock reads legacy manifest keys",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] resolveOpenClawManifestBlock prefers current manifest keys over legacy keys",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:62] resolveOpenClawManifestBlock prefers current manifest keys over legacy keys",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] resolveOpenClawManifestBlock returns undefined for invalid input",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:73] resolveOpenClawManifestBlock returns undefined for invalid input",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:73",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] normalizes manifest requirement and os lists",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:85] normalizes manifest requirement and os lists",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:85",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] parses and applies install common fields",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:108] parses and applies install common fields",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:108",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] prefers explicit kind, ignores invalid common fields, and leaves missing ones untouched",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:147] prefers explicit kind, ignores invalid common fields, and leaves missing ones untouched",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:147",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/frontmatter.test.ts] maps install entries through the parser and filters rejected specs",
+TEST_CASE("v4.29 [src/shared/frontmatter.test.ts:181] maps install entries through the parser and filters rejected specs",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/frontmatter.test.ts:181",
                "upstream it() block #10",

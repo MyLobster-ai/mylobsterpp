@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] DEEPINFRA_BASE_URL points to deepinfra openai endpoint",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:25] DEEPINFRA_BASE_URL points to deepinfra openai endpoint",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] DEEPINFRA_DEFAULT_MODEL_REF includes provider prefix",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:29] DEEPINFRA_DEFAULT_MODEL_REF includes provider prefix",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] DEEPINFRA_DEFAULT_MODEL_ID is deepseek-ai/DeepSeek-V3.2",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:33] DEEPINFRA_DEFAULT_MODEL_ID is deepseek-ai/DeepSeek-V3.2",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] does not set provider models (discovery populates them at runtime)",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:39] does not set provider models (discovery populates them at runtime)",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] sets DeepInfra alias on the provided model ref",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:44] sets DeepInfra alias on the provided model ref",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:44",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] attaches the alias to a non-default model ref when provided",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:51] attaches the alias to a non-default model ref when provided",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] preserves existing alias if already set",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:58] preserves existing alias if already set",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:58",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] does not change the default model selection",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:73] does not change the default model selection",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:73",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] sets the provided model ref as the primary default",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:87] sets the provided model ref as the primary default",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:87",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] sets the DeepInfra alias on the provided ref",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:94] sets the DeepInfra alias on the provided ref",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:94",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] honors a fallback ref when discovery picked a non-default model",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:100] honors a fallback ref when discovery picked a non-default model",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:100",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] resolves DEEPINFRA_API_KEY from env",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:113] resolves DEEPINFRA_API_KEY from env",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:113",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] returns null when DEEPINFRA_API_KEY is not set",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:127] returns null when DEEPINFRA_API_KEY is not set",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:127",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts] resolves the deepinfra api key via resolveApiKeyForProvider",
+TEST_CASE("v4.29 [extensions/deepinfra/onboard.test.ts:139] resolves the deepinfra api key via resolveApiKeyForProvider",
           "[v4_29][parity_gap][deepinfra]") {
     PARITY_GAP("extensions/deepinfra/onboard.test.ts:139",
                "upstream it() block #13",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] preloads LM Studio model before inference using model context window",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:119] preloads LM Studio model before inference using model context window",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:119",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] prefers model contextTokens over contextWindow for preload requests",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:144] prefers model contextTokens over contextWindow for preload requests",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:144",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] continues inference when preload fails",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:169] continues inference when preload fails",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] dedupes concurrent preload requests for the same model and context",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:202] dedupes concurrent preload requests for the same model and context",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:202",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] skips preload on the second attempt while the failure backoff is active",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:266] skips preload on the second attempt while the failure backoff is active",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:266",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] retries preload once the cooldown expires",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:317] retries preload once the cooldown expires",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:317",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] forces supportsUsageInStreaming compat before calling the underlying stream",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:373] forces supportsUsageInStreaming compat before calling the underlying stream",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:373",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] promotes standalone bracketed local-model tool text to a structured tool call",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:418] promotes standalone bracketed local-model tool text to a structured tool call",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:418",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts] passes through bracketed text when the tool is not registered",
+TEST_CASE("v4.29 [extensions/lmstudio/src/stream.test.ts:473] passes through bracketed text when the tool is not registered",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/stream.test.ts:473",
                "upstream it() block #8",

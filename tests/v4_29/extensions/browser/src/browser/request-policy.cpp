@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts] matches exact URLs",
+TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts:29] matches exact URLs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/request-policy.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts] matches substring patterns without wildcards",
+TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts:34] matches substring patterns without wildcards",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/request-policy.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts] matches glob patterns",
+TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts:40] matches glob patterns",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/request-policy.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts] rejects empty patterns",
+TEST_CASE("v4.29 [extensions/browser/src/browser/request-policy.test.ts:46] rejects empty patterns",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/request-policy.test.ts:46",
                "upstream it() block #3",

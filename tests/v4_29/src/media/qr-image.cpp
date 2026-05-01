@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/qr-image.test.ts] delegates PNG rendering to qrcode",
+TEST_CASE("v4.29 [src/media/qr-image.test.ts:41] delegates PNG rendering to qrcode",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/qr-image.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/qr-image.test.ts] uses the default PNG rendering options",
+TEST_CASE("v4.29 [src/media/qr-image.test.ts:52] uses the default PNG rendering options",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/qr-image.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/qr-image.test.ts] floors finite PNG rendering options before delegating",
+TEST_CASE("v4.29 [src/media/qr-image.test.ts:61] floors finite PNG rendering options before delegating",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/qr-image.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/qr-image.test.ts] rejects non-PNG qrcode data URLs",
+TEST_CASE("v4.29 [src/media/qr-image.test.ts:82] rejects non-PNG qrcode data URLs",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/qr-image.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/qr-image.test.ts] formats QR PNG data URLs",
+TEST_CASE("v4.29 [src/media/qr-image.test.ts:89] formats QR PNG data URLs",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/qr-image.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/qr-image.test.ts] writes QR PNGs to a scoped temp file",
+TEST_CASE("v4.29 [src/media/qr-image.test.ts:96] writes QR PNGs to a scoped temp file",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/qr-image.test.ts:96",
                "upstream it() block #5",

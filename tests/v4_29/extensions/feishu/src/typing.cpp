@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns true for HTTP 429 (AxiosError shape)",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:5] returns true for HTTP 429 (AxiosError shape)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns true for Feishu quota exceeded code 99991403",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:10] returns true for Feishu quota exceeded code 99991403",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns true for Feishu rate limit code 99991400",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:15] returns true for Feishu rate limit code 99991400",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns true for SDK error with code 429",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:20] returns true for SDK error with code 429",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:20",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns true for SDK error with top-level code 99991403",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:25] returns true for SDK error with top-level code 99991403",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:25",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns false for other HTTP errors (e.g. 500)",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:30] returns false for other HTTP errors (e.g. 500)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:30",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns false for non-rate-limit Feishu codes",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:35] returns false for non-rate-limit Feishu codes",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:35",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns false for generic Error",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:40] returns false for generic Error",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:40",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns false for null",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:44] returns false for null",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:44",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns false for undefined",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:48] returns false for undefined",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:48",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns false for string",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:52] returns false for string",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:52",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns true for 429 even without data",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:56] returns true for 429 even without data",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:56",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns backoff code for response with quota exceeded code",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:63] returns backoff code for response with quota exceeded code",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:63",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns backoff code for response with rate limit code",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:68] returns backoff code for response with rate limit code",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:68",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns backoff code for response with code 429",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:73] returns backoff code for response with code 429",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:73",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns undefined for successful response (code 0)",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:78] returns undefined for successful response (code 0)",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:78",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns undefined for other error codes",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:83] returns undefined for other error codes",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:83",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns undefined for null",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:88] returns undefined for null",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:88",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns undefined for undefined",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:92] returns undefined for undefined",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:92",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] returns undefined for response without code field",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:96] returns undefined for response without code field",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:96",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] is detected by isFeishuBackoffError via .code property",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:103] is detected by isFeishuBackoffError via .code property",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:103",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] is detected for rate limit code 99991400",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:108] is detected for rate limit code 99991400",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:108",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] has correct name and message",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:113] has correct name and message",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:113",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] is an instance of Error",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:120] is an instance of Error",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:120",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts] survives catch-and-rethrow pattern",
+TEST_CASE("v4.29 [extensions/feishu/src/typing.test.ts:125] survives catch-and-rethrow pattern",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/typing.test.ts:125",
                "upstream it() block #24",

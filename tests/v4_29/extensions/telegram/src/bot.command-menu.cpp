@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.command-menu.test.ts] merges custom commands with native commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.command-menu.test.ts:77] merges custom commands with native commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.command-menu.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.command-menu.test.ts] ignores custom commands that collide with native commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.command-menu.test.ts:122] ignores custom commands that collide with native commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.command-menu.test.ts:122",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot.command-menu.test.ts] registers custom commands when native commands are disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot.command-menu.test.ts:177] registers custom commands when native commands are disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot.command-menu.test.ts:177",
                "upstream it() block #2",

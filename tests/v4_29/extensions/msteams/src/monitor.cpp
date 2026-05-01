@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts] applies default timeouts and header clamp",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts:40] applies default timeouts and header clamp",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts] applies explicit webhook timeout values",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts:55] applies explicit webhook timeout values",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts] clamps headers timeout when explicit value exceeds request timeout",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts:74] clamps headers timeout when explicit value exceeds request timeout",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts] drops slow-body webhook requests within configured inactivity timeout",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.test.ts:93] drops slow-body webhook requests within configured inactivity timeout",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.test.ts:93",
                "upstream it() block #3",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/message-action-discovery-input.test.ts] maps sender and routing scope into message-action discovery context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/message-action-discovery-input.test.ts:5] maps sender and routing scope into message-action discovery context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/message-action-discovery-input.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/message-action-discovery-input.test.ts] normalizes nullable routing fields to undefined",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/message-action-discovery-input.test.ts:34] normalizes nullable routing fields to undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/message-action-discovery-input.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/message-action-discovery-input.test.ts] preserves owner authorization for downstream channel action gating",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/message-action-discovery-input.test.ts:63] preserves owner authorization for downstream channel action gating",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/message-action-discovery-input.test.ts:63",
                "upstream it() block #2",

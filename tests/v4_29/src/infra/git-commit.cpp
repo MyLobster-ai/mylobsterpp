@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] resolves commit metadata from the caller module root instead of the caller cwd",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:80] resolves commit metadata from the caller module root instead of the caller cwd",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] prefers live git metadata over stale build info in a real checkout",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:113] prefers live git metadata over stale build info in a real checkout",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] caches build-info fallback results per resolved search directory",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:134] caches build-info fallback results per resolved search directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:134",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] caches package.json fallback results per resolved search directory",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:149] caches package.json fallback results per resolved search directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] treats invalid moduleUrl inputs as a fallback hint instead of throwing",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:178] treats invalid moduleUrl inputs as a fallback hint instead of throwing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:178",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] does not walk out of the openclaw package into a host repo",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:194] does not walk out of the openclaw package into a host repo",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] caches git lookups per resolved search directory",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:229] caches git lookups per resolved search directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:229",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] reads packed refs from the common git dir for worktree-style checkouts",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:245] reads packed refs from the common git dir for worktree-style checkouts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:245",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] caches deterministic null results per resolved search directory",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:263] caches deterministic null results per resolved search directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:263",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] caches caught null fallback results per resolved search directory",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:279] caches caught null fallback results per resolved search directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:279",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] formats env-provided commit strings consistently",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:319] formats env-provided commit strings consistently",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:319",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] rejects unsafe HEAD refs and accepts valid refs",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:331] rejects unsafe HEAD refs and accepts valid refs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:331",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] resolves refs from the git commondir in worktree layouts",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:355] resolves refs from the git commondir in worktree layouts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:355",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/git-commit.test.ts] reads full HEAD refs before parsing long branch names",
+TEST_CASE("v4.29 [src/infra/git-commit.test.ts:373] reads full HEAD refs before parsing long branch names",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/git-commit.test.ts:373",
                "upstream it() block #13",

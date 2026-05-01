@@ -5,229 +5,229 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] accepts valid 64-char hex key",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:13] accepts valid 64-char hex key",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] accepts lowercase hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:19] accepts lowercase hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] accepts uppercase hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:24] accepts uppercase hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] accepts mixed case hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:29] accepts mixed case hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:29",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] trims whitespace",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:35] trims whitespace",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:35",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] trims newlines",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:40] trims newlines",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:40",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects 63-char hex (too short)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:45] rejects 63-char hex (too short)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:45",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects 65-char hex (too long)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:51] rejects 65-char hex (too long)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:51",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects non-hex characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:57] rejects non-hex characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:57",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects empty string",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:62] rejects empty string",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:62",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects whitespace-only string",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:66] rejects whitespace-only string",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:66",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects key with 0x prefix",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:70] rejects key with 0x prefix",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:70",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects invalid nsec (wrong checksum)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:78] rejects invalid nsec (wrong checksum)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:78",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects npub (wrong type)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:83] rejects npub (wrong type)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:83",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] accepts valid 64-char hex pubkey",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:92] accepts valid 64-char hex pubkey",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:92",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] accepts uppercase hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:96] accepts uppercase hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:96",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects 63-char hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:101] rejects 63-char hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:101",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects 65-char hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:106] rejects 65-char hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:106",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects non-hex characters",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:111] rejects non-hex characters",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:111",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects invalid npub",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:118] rejects invalid npub",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:118",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects nsec (wrong type)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:122] rejects nsec (wrong type)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:122",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects empty string",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:128] rejects empty string",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:128",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] handles whitespace-padded input",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:132] handles whitespace-padded input",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:132",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] lowercases hex pubkey",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:140] lowercases hex pubkey",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:140",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] trims whitespace",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:146] trims whitespace",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:146",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] rejects invalid hex",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:150] rejects invalid hex",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:150",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] derives public key from hex private key",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:157] derives public key from hex private key",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:157",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] derives consistent public key",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:163] derives consistent public key",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:163",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] throws for invalid private key",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:169] throws for invalid private key",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:169",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] converts hex pubkey to npub format",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:175] converts hex pubkey to npub format",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:175",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] produces consistent output",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:180] produces consistent output",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:180",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts] normalizes uppercase hex first",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-bus.test.ts:186] normalizes uppercase hex first",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-bus.test.ts:186",
                "upstream it() block #31",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/pairing/setup-code.test.ts] normalizes bare publicUrl host ports for setup code payloads",
+TEST_CASE("v4.29 [src/pairing/setup-code.test.ts:210] normalizes bare publicUrl host ports for setup code payloads",
           "[v4_29][parity_gap][pairing]") {
     PARITY_GAP("src/pairing/setup-code.test.ts:210",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/pairing/setup-code.test.ts] rejects invalid gateway.remote.url before falling back to bind-derived setup urls",
+TEST_CASE("v4.29 [src/pairing/setup-code.test.ts:225] rejects invalid gateway.remote.url before falling back to bind-derived setup urls",
           "[v4_29][parity_gap][pairing]") {
     PARITY_GAP("src/pairing/setup-code.test.ts:225",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/pairing/setup-code.test.ts] allows lan bind cleartext setup urls for mobile pairing",
+TEST_CASE("v4.29 [src/pairing/setup-code.test.ts:537] allows lan bind cleartext setup urls for mobile pairing",
           "[v4_29][parity_gap][pairing]") {
     PARITY_GAP("src/pairing/setup-code.test.ts:537",
                "upstream it() block #2",

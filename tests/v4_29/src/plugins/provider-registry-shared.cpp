@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-registry-shared.test.ts] normalizes provider ids case-insensitively",
+TEST_CASE("v4.29 [src/plugins/provider-registry-shared.test.ts:5] normalizes provider ids case-insensitively",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-registry-shared.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-registry-shared.test.ts] indexes providers by id and alias",
+TEST_CASE("v4.29 [src/plugins/provider-registry-shared.test.ts:10] indexes providers by id and alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-registry-shared.test.ts:10",
                "upstream it() block #1",

@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] parses user mention and prefixes",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:16] parses user mention and prefixes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] parses channel targets",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:32] parses channel targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] accepts numeric ids when a default kind is provided",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:46] accepts numeric ids when a default kind is provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] rejects invalid parse targets",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:54] rejects invalid parse targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] guides ambiguous numeric recipients with all supported explicit formats",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:66] guides ambiguous numeric recipients with all supported explicit formats",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] strips channel: prefix and accepts raw ids",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:74] strips channel: prefix and accepts raw ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] rejects user targets",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:79] rejects user targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:79",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] returns a resolved user for usernames",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:92] returns a resolved user for usernames",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:92",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] falls back to parsing when lookup misses",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:102] falls back to parsing when lookup misses",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:102",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] does not call directory lookup for explicit user ids",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:109] does not call directory lookup for explicit user ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:109",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] treats bare numeric ids in allowFrom as users even when channels are the default",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:117] treats bare numeric ids in allowFrom as users even when channels are the default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:117",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] uses legacy dm.allowFrom when disambiguating bare numeric ids",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:137] uses legacy dm.allowFrom when disambiguating bare numeric ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:137",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] prefers top-level allowFrom over legacy dm.allowFrom for bare numeric ids",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:155] prefers top-level allowFrom over legacy dm.allowFrom for bare numeric ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:155",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] uses account legacy dm.allowFrom before inherited root allowFrom for bare numeric ids",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:174] uses account legacy dm.allowFrom before inherited root allowFrom for bare numeric ids",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:174",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] caches username lookups under the configured default account when accountId is omitted",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:196] caches username lookups under the configured default account when accountId is omitted",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:196",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] defaults raw numeric ids to channels",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:225] defaults raw numeric ids to channels",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:225",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] prefers channel policy, then guild policy, with sender-specific overrides",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:231] prefers channel policy, then guild policy, with sender-specific overrides",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:231",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts] honors account-scoped guild and channel overrides",
+TEST_CASE("v4.29 [extensions/discord/src/targets.test.ts:302] honors account-scoped guild and channel overrides",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/targets.test.ts:302",
                "upstream it() block #17",

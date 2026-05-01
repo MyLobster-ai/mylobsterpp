@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts] detects the test fast-path env toggle",
+TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts:24] detects the test fast-path env toggle",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.config-shared.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts] treats missing config as cold-start when fast-path bypass is disabled",
+TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts:34] treats missing config as cold-start when fast-path bypass is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.config-shared.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts] skips read/resolve on fast-json cold-start outside tests",
+TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts:38] skips read/resolve on fast-json cold-start outside tests",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.config-shared.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts] still reads and resolves during tests even when the config path is missing",
+TEST_CASE("v4.29 [src/commands/status.scan.config-shared.test.ts:63] still reads and resolves during tests even when the config path is missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.scan.config-shared.test.ts:63",
                "upstream it() block #3",

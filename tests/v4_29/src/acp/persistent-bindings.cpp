@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] resolves discord channel ACP binding from top-level typed bindings",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:458] resolves discord channel ACP binding from top-level typed bindings",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:458",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] falls back to parent discord channel when conversation is a thread id",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:475] falls back to parent discord channel when conversation is a thread id",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:475",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] prefers direct discord thread binding over parent channel fallback",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:491] prefers direct discord thread binding over parent channel fallback",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:491",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] prefers sender-scoped Feishu bindings over topic inheritance",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:511] prefers sender-scoped Feishu bindings over topic inheritance",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:511",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] prefers exact account binding over wildcard for the same discord conversation",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:539] prefers exact account binding over wildcard for the same discord conversation",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:539",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] returns null when no top-level ACP binding matches the conversation",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:556] returns null when no top-level ACP binding matches the conversation",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:556",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] resolves telegram forum topic bindings using canonical conversation ids",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:571] resolves telegram forum topic bindings using canonical conversation ids",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:571",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] skips telegram non-group topic configs",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:601] skips telegram non-group topic configs",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:601",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] resolves Feishu DM bindings using direct peer ids",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:618] resolves Feishu DM bindings using direct peer ids",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:618",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] resolves Feishu DM bindings using user_id fallback peer ids",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:638] resolves Feishu DM bindings using user_id fallback peer ids",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:638",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] resolves Feishu topic bindings with parent chat ids",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:658] resolves Feishu topic bindings with parent chat ids",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:658",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] inherits configured Feishu topic bindings for sender-scoped topic conversations",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:680] inherits configured Feishu topic bindings for sender-scoped topic conversations",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:680",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] rejects non-matching Feishu topic roots",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:703] rejects non-matching Feishu topic roots",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:703",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] rejects Feishu non-topic group ACP bindings",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:722] rejects Feishu non-topic group ACP bindings",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:722",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] applies agent runtime ACP defaults for bound conversations",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:740] applies agent runtime ACP defaults for bound conversations",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:740",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] derives configured binding cwd from an explicit agent workspace",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:777] derives configured binding cwd from an explicit agent workspace",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:777",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] maps a configured discord binding session key back to its spec",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:798] maps a configured discord binding session key back to its spec",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:798",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] returns null for unknown session keys",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:814] returns null for unknown session keys",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:814",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] prefers exact account ACP settings over wildcard when session keys collide",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:822] prefers exact account ACP settings over wildcard when session keys collide",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:822",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] maps a configured Feishu user_id DM binding session key back to its spec",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:841] maps a configured Feishu user_id DM binding session key back to its spec",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:841",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] is deterministic for the same conversation binding",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:868] is deterministic for the same conversation binding",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:868",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] keeps an existing ready session when configured binding omits cwd",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:888] keeps an existing ready session when configured binding omits cwd",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:888",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] reinitializes a ready session when binding config explicitly sets mismatched cwd",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:905] reinitializes a ready session when binding config explicitly sets mismatched cwd",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:905",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] reinitializes a matching session when the stored ACP session is in error state",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:930] reinitializes a matching session when the stored ACP session is in error state",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:930",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] initializes ACP session with runtime agent override when provided",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:950] initializes ACP session with runtime agent override when provided",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:950",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] treats configured bindings without ACP metadata as already reset",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:972] treats configured bindings without ACP metadata as already reset",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:972",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] clears existing configured ACP sessions and lets the next turn recreate them",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:1003] clears existing configured ACP sessions and lets the next turn recreate them",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:1003",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] recreates the bound session on the next ensure after an in-place reset",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:1048] recreates the bound session on the next ensure after an in-place reset",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:1048",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] clears configured harness agent sessions during in-place reset",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:1106] clears configured harness agent sessions during in-place reset",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:1106",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts] clears configured ACP agent overrides even when metadata omits the agent",
+TEST_CASE("v4.29 [src/acp/persistent-bindings.test.ts:1145] clears configured ACP agent overrides even when metadata omits the agent",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/persistent-bindings.test.ts:1145",
                "upstream it() block #29",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] maps UTC quarter-hour buckets to correct hours in UTC mode",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:60] maps UTC quarter-hour buckets to correct hours in UTC mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] aggregates multiple quarter-hour buckets into the same hour in UTC mode",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:89] aggregates multiple quarter-hour buckets into the same hour in UTC mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] shifts UTC quarter-hour buckets to local timezone in local mode",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:104] shifts UTC quarter-hour buckets to local timezone in local mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] wraps correctly for negative local timezone (UTC-8)",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:126] wraps correctly for negative local timezone (UTC-8)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] wraps correctly for positive local timezone near midnight (UTC+8, late quarter)",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:144] wraps correctly for positive local timezone near midnight (UTC+8, late quarter)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] returns empty array when no sessions have errors",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:162] returns empty array when no sessions have errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:162",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] returns empty array when sessions have no message counts",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:171] returns empty array when sessions have no message counts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:171",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] limits results to at most 5 entries sorted by error rate",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:194] limits results to at most 5 entries sorted by error rate",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:194",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] aggregates across multiple sessions",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:214] aggregates across multiple sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:214",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts] falls back to proportional allocation when utcQuarterHourMessageCounts is absent",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-metrics.test.ts:230] falls back to proportional allocation when utcQuarterHourMessageCounts is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-metrics.test.ts:230",
                "upstream it() block #9",

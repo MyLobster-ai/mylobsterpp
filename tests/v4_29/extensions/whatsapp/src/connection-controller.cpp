@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts] closes the socket when open fails before listener creation",
+TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts:75] closes the socket when open fails before listener creation",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/connection-controller.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts] lets createWaSocket own the auth barrier before opening a socket",
+TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts:99] lets createWaSocket own the auth barrier before opening a socket",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/connection-controller.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts] keeps the previous registered controller until a replacement listener is ready",
+TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts:117] keeps the previous registered controller until a replacement listener is ready",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/connection-controller.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts] tracks real websocket frame activity in the connection snapshot",
+TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts:181] tracks real websocket frame activity in the connection snapshot",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/connection-controller.test.ts:181",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts] forces reconnect on transport stall before the long app-silence window",
+TEST_CASE("v4.29 [extensions/whatsapp/src/connection-controller.test.ts:230] forces reconnect on transport stall before the long app-silence window",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/connection-controller.test.ts:230",
                "upstream it() block #4",

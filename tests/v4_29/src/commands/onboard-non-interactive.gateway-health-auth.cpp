@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway-health-auth.test.ts] resolves file SecretRefs for the local onboarding health probe without persisting plaintext",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway-health-auth.test.ts:39] resolves file SecretRefs for the local onboarding health probe without persisting plaintext",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway-health-auth.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway-health-auth.test.ts] does not fall back to stale OPENCLAW_GATEWAY_TOKEN when a SecretRef is unresolved",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway-health-auth.test.ts:71] does not fall back to stale OPENCLAW_GATEWAY_TOKEN when a SecretRef is unresolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway-health-auth.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway-health-auth.test.ts] resolves password auth for the local onboarding health probe",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive.gateway-health-auth.test.ts:102] resolves password auth for the local onboarding health probe",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive.gateway-health-auth.test.ts:102",
                "upstream it() block #2",

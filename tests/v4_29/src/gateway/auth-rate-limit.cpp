@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] allows requests when no failures have been recorded",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:36] allows requests when no failures have been recorded",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] decrements remaining count after each failure",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:44] decrements remaining count after each failure",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] blocks the IP once maxAttempts is reached",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:52] blocks the IP once maxAttempts is reached",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] treats blank scopes as the default scope",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:63] treats blank scopes as the default scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] unblocks after the lockout period expires",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:73] unblocks after the lockout period expires",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] does not extend lockout when failures are recorded while already locked",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:91] does not extend lockout when failures are recorded while already locked",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:91",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] expires old failures outside the window",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:112] expires old failures outside the window",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:112",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] tracks IPs independently",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:130] tracks IPs independently",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:130",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] treats ipv4 and ipv4-mapped ipv6 forms as the same client",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:141] treats ipv4 and ipv4-mapped ipv6 forms as the same client",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:141",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] tracks synthetic browser-origin limiter keys independently",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:157] tracks synthetic browser-origin limiter keys independently",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:157",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] rate-limits loopback when exemptLoopback is false",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:172] rate-limits loopback when exemptLoopback is false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:172",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] clears tracking state when reset is called",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:185] clears tracking state when reset is called",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:185",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] reset only clears the requested scope for an IP",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:196] reset only clears the requested scope for an IP",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:196",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] prune removes stale entries",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:210] prune removes stale entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:210",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] prune keeps entries that are still locked out",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:225] prune keeps entries that are still locked out",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:225",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] normalizes undefined IP to ",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:243] normalizes undefined IP to ",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:243",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] normalizes empty-string IP to ",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:251] normalizes empty-string IP to ",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:251",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts] dispose clears all entries",
+TEST_CASE("v4.29 [src/gateway/auth-rate-limit.test.ts:260] dispose clears all entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/auth-rate-limit.test.ts:260",
                "upstream it() block #17",

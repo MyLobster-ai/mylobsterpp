@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns true for personal chat with non-image",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:15] returns true for personal chat with non-image",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns true for personal chat with large image",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:26] returns true for personal chat with large image",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns false for personal chat with small image",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:37] returns false for personal chat with small image",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns false for group chat with large non-image",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:48] returns false for group chat with large non-image",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns false for channel with large non-image",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:59] returns false for channel with large non-image",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:59",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] handles case-insensitive conversation type",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:70] handles case-insensitive conversation type",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:70",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns false when conversationType is undefined",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:90] returns false when conversationType is undefined",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:90",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns true for personal chat when contentType is undefined (non-image)",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:101] returns true for personal chat when contentType is undefined (non-image)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:101",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns true for personal chat with file exactly at threshold",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:112] returns true for personal chat with file exactly at threshold",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:112",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] returns false for personal chat with file just below threshold",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:123] returns false for personal chat with file just below threshold",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:123",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] creates activity with consent card attachment",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:146] creates activity with consent card attachment",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:146",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] stores pending upload with correct data",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:166] stores pending upload with correct data",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:166",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] uses default description when not provided",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:186] uses default description when not provided",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:186",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] uses provided description",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:203] uses provided description",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:203",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] includes uploadId in consent card context",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:221] includes uploadId in consent card context",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:221",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] handles media without contentType",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:238] handles media without contentType",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:238",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] stores uploads, exposes them by id, and tracks count",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:263] stores uploads, exposes them by id, and tracks count",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:263",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] removes uploads explicitly and ignores empty ids",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:282] removes uploads explicitly and ignores empty ids",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:282",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] expires uploads by ttl even if the timeout callback has not been observed yet",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:297] expires uploads by ttl even if the timeout callback has not been observed yet",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:297",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts] clears all uploads for test cleanup",
+TEST_CASE("v4.29 [extensions/msteams/src/file-consent-helpers.test.ts:310] clears all uploads for test cleanup",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/file-consent-helpers.test.ts:310",
                "upstream it() block #19",

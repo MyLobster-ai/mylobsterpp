@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] skips when no desired profile values are provided",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:23] skips when no desired profile values are provided",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] updates display name when desired name differs",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:37] updates display name when desired name differs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] does not update when name and avatar already match",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:57] does not update when name and avatar already match",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] converts http avatar URL by uploading and then updates profile avatar",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:77] converts http avatar URL by uploading and then updates profile avatar",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:77",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] uploads avatar media from a local path and then updates profile avatar",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:108] uploads avatar media from a local path and then updates profile avatar",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:108",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] rejects unsupported avatar URL schemes",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:136] rejects unsupported avatar URL schemes",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts] recognizes supported avatar sources",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/profile.test.ts:148] recognizes supported avatar sources",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/profile.test.ts:148",
                "upstream it() block #6",

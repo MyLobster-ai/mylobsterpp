@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts] threads plugin metadata snapshots into implicit provider discovery",
+TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts:79] threads plugin metadata snapshots into implicit provider discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.applies-config-env-vars.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts] threads workspace scope into implicit provider discovery",
+TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts:107] threads workspace scope into implicit provider discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.applies-config-env-vars.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts] threads startup provider discovery scope into implicit provider discovery",
+TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts:128] threads startup provider discovery scope into implicit provider discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.applies-config-env-vars.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts] threads plugin metadata snapshots through models.json planning",
+TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts:161] threads plugin metadata snapshots through models.json planning",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.applies-config-env-vars.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts] uses config env.vars entries for implicit provider discovery without mutating process.env",
+TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts:191] uses config env.vars entries for implicit provider discovery without mutating process.env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.applies-config-env-vars.test.ts:191",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts] does not overwrite already-set host env vars while ensuring models.json",
+TEST_CASE("v4.29 [src/agents/models-config.applies-config-env-vars.test.ts:206] does not overwrite already-set host env vars while ensuring models.json",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.applies-config-env-vars.test.ts:206",
                "upstream it() block #5",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] offers env shortcut for non-default account when scoped env vars are present",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:28] offers env shortcut for non-default account when scoped env vars are present",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] routes env-shortcut add-account flow through Matrix invite auto-join setup",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:72] routes env-shortcut add-account flow through Matrix invite auto-join setup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] promotes legacy top-level Matrix config before adding a named account",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:119] promotes legacy top-level Matrix config before adding a named account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] reuses an existing raw default-like key during onboarding promotion when defaultAccount is unset",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:152] reuses an existing raw default-like key during onboarding promotion when defaultAccount is unset",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:152",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] includes device env var names in auth help text",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:206] includes device env var names in auth help text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:206",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] prompts for private-network access when onboarding an internal http homeserver",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:233] prompts for private-network access when onboarding an internal http homeserver",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:233",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] preserves SecretRef access tokens when keeping existing credentials",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:271] preserves SecretRef access tokens when keeping existing credentials",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:271",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] resolves status using the overridden Matrix account",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:305] resolves status using the overridden Matrix account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:305",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] writes allowlists and room access to the selected Matrix account",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:330] writes allowlists and room access to the selected Matrix account",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:330",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] clears Matrix invite auto-join allowlists when switching auto-join off",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:380] clears Matrix invite auto-join allowlists when switching auto-join off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:380",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] re-prompts Matrix invite auto-join allowlists until entries are stable invite targets",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:411] re-prompts Matrix invite auto-join allowlists until entries are stable invite targets",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:411",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] reports account-scoped DM config keys for named accounts",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:448] reports account-scoped DM config keys for named accounts",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:448",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] reports configured when only the effective default Matrix account is configured",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:475] reports configured when only the effective default Matrix account is configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:475",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts] asks for defaultAccount when multiple named Matrix accounts exist",
+TEST_CASE("v4.29 [extensions/matrix/src/onboarding.test.ts:496] asks for defaultAccount when multiple named Matrix accounts exist",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/onboarding.test.ts:496",
                "upstream it() block #13",

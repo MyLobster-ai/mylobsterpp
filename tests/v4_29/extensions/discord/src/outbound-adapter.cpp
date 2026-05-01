@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] normalizes bare numeric IDs to channel: prefix",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:22] normalizes bare numeric IDs to channel: prefix",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] passes through channel: prefixed targets",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:29] passes through channel: prefixed targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] passes through user: prefixed targets",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:33] passes through user: prefixed targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] passes through channel name strings",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:37] passes through channel name strings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] returns error for empty target",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:41] returns error for empty target",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:41",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] returns error for undefined target",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:45] returns error for undefined target",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:45",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] trims whitespace",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:49] trims whitespace",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:49",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] normalizes bare IDs in allowFrom to user: targets",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:53] normalizes bare IDs in allowFrom to user: targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:53",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] routes text sends to thread target when threadId is provided",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:66] routes text sends to thread target when threadId is provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:66",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] sanitizes internal runtime scaffolding before Discord delivery",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:82] sanitizes internal runtime scaffolding before Discord delivery",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:82",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] uses allowFrom to disambiguate bare numeric DM delivery targets",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:91] uses allowFrom to disambiguate bare numeric DM delivery targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:91",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] preserves Discord-native angle markup while stripping internal scaffolding",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:103] preserves Discord-native angle markup while stripping internal scaffolding",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:103",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] forwards explicit formatting options to Discord text sends",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:114] forwards explicit formatting options to Discord text sends",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:114",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] uses webhook persona delivery for bound thread text replies",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:170] uses webhook persona delivery for bound thread text replies",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:170",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] falls back to bot send for silent delivery on bound threads",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:217] falls back to bot send for silent delivery on bound threads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:217",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] falls back to bot send when webhook send fails",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:238] falls back to bot send when webhook send fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:238",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] routes poll sends to thread target when threadId is provided",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:258] routes poll sends to thread target when threadId is provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:258",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] routes audioAsVoice payloads through the Discord voice send helper",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:287] routes audioAsVoice payloads through the Discord voice send helper",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:287",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] keeps replyToId on every internal audioAsVoice send when replyToMode is all",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:334] keeps replyToId on every internal audioAsVoice send when replyToMode is all",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:334",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] preserves explicit audioAsVoice payload replies when replyToMode is off",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:360] preserves explicit audioAsVoice payload replies when replyToMode is off",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:360",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] sends video captions as text before a media-only video follow-up",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:386] sends video captions as text before a media-only video follow-up",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:386",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] touches bound thread activity after shared outbound delivery succeeds",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:414] touches bound thread activity after shared outbound delivery succeeds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:414",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] sends component payload media sequences with the component message first",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:436] sends component payload media sequences with the component message first",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:436",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] keeps replyToId on every internal component media send when replyToMode is all",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:502] keeps replyToId on every internal component media send when replyToMode is all",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:502",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] preserves explicit component payload replies when replyToMode is off",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:544] preserves explicit component payload replies when replyToMode is off",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:544",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] uses explicit maxLinesPerMessage in its adapter chunker",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:586] uses explicit maxLinesPerMessage in its adapter chunker",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:586",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] renders channelData Discord components on payload sends",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:594] renders channelData Discord components on payload sends",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:594",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] neutralizes approval mentions only for approval payloads",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:623] neutralizes approval mentions only for approval payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:623",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] uses a single implicit reply for chunked approval payload fallbacks",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:649] uses a single implicit reply for chunked approval payload fallbacks",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:649",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts] leaves non-approval mentions unchanged",
+TEST_CASE("v4.29 [extensions/discord/src/outbound-adapter.test.ts:677] leaves non-approval mentions unchanged",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/outbound-adapter.test.ts:677",
                "upstream it() block #29",

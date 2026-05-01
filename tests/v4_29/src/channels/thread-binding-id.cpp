@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/thread-binding-id.test.ts] returns the conversation id for matching account-prefixed binding ids",
+TEST_CASE("v4.29 [src/channels/thread-binding-id.test.ts:5] returns the conversation id for matching account-prefixed binding ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/thread-binding-id.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/thread-binding-id.test.ts] returns undefined when binding id is missing or account prefix does not match",
+TEST_CASE("v4.29 [src/channels/thread-binding-id.test.ts:14] returns undefined when binding id is missing or account prefix does not match",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/thread-binding-id.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/thread-binding-id.test.ts] trims whitespace and rejects empty ids after the account prefix",
+TEST_CASE("v4.29 [src/channels/thread-binding-id.test.ts:29] trims whitespace and rejects empty ids after the account prefix",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/thread-binding-id.test.ts:29",
                "upstream it() block #2",

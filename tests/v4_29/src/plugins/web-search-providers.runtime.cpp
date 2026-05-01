@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] loads bundled providers through the plugin loader in alphabetical order",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:373] loads bundled providers through the plugin loader in alphabetical order",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:373",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] loads manifest-declared web-search providers in setup mode",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:380] loads manifest-declared web-search providers in setup mode",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:380",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] loads plugin web-search providers from the auto-enabled config snapshot",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:394] loads plugin web-search providers from the auto-enabled config snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:394",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] scopes plugin loading to manifest-declared web-search candidates",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:415] scopes plugin loading to manifest-declared web-search candidates",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:415",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] uses the active registry workspace for candidate discovery and snapshot loads when workspaceDir is omitted",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:421] uses the active registry workspace for candidate discovery and snapshot loads when workspaceDir is omitted",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:421",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] reuses a compatible active registry for snapshot resolution when config is provided",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:450] reuses a compatible active registry for snapshot resolution when config is provided",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:450",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] inherits workspaceDir from the active registry for compatible web-search snapshot reuse",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:464] inherits workspaceDir from the active registry for compatible web-search snapshot reuse",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:464",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] uses the inherited active workspace for each web-search resolution",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:480] uses the inherited active workspace for each web-search resolution",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:480",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] resolves current config contents when config changes in place",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:501] resolves current config contents when config changes in place",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:501",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] resolves current env contents when env changes in place",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:515] resolves current env contents when env changes in place",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:515",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts] does not reuse snapshot provider loads across host Vitest env changes",
+TEST_CASE("v4.29 [src/plugins/web-search-providers.runtime.test.ts:529] does not reuse snapshot provider loads across host Vitest env changes",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-search-providers.runtime.test.ts:529",
                "upstream it() block #10",

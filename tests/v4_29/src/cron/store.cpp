@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] uses OPENCLAW_HOME for tilde expansion",
+TEST_CASE("v4.29 [src/cron/store.test.ts:73] uses OPENCLAW_HOME for tilde expansion",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] returns empty store when file does not exist",
+TEST_CASE("v4.29 [src/cron/store.test.ts:83] returns empty store when file does not exist",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] throws when store contains invalid JSON",
+TEST_CASE("v4.29 [src/cron/store.test.ts:89] throws when store contains invalid JSON",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] accepts JSON5 syntax when loading an existing cron store",
+TEST_CASE("v4.29 [src/cron/store.test.ts:96] accepts JSON5 syntax when loading an existing cron store",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:96",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] loads split cron state synchronously for task reconciliation",
+TEST_CASE("v4.29 [src/cron/store.test.ts:128] loads split cron state synchronously for task reconciliation",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] compares split state identity for flat legacy cron rows",
+TEST_CASE("v4.29 [src/cron/store.test.ts:141] compares split state identity for flat legacy cron rows",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:141",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] does not create a backup file when saving unchanged content",
+TEST_CASE("v4.29 [src/cron/store.test.ts:194] does not create a backup file when saving unchanged content",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:194",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] backs up previous content before replacing the store",
+TEST_CASE("v4.29 [src/cron/store.test.ts:204] backs up previous content before replacing the store",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:204",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] skips backup files for runtime-only state churn",
+TEST_CASE("v4.29 [src/cron/store.test.ts:223] skips backup files for runtime-only state churn",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:223",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] drops stale split runtime nextRunAtMs when schedule identity changes across restart",
+TEST_CASE("v4.29 [src/cron/store.test.ts:260] drops stale split runtime nextRunAtMs when schedule identity changes across restart",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:260",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] drops stale split runtime nextRunAtMs in sync loads when schedule identity changes",
+TEST_CASE("v4.29 [src/cron/store.test.ts:281] drops stale split runtime nextRunAtMs in sync loads when schedule identity changes",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:281",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] keeps state separate for custom store paths without a json suffix",
+TEST_CASE("v4.29 [src/cron/store.test.ts:302] keeps state separate for custom store paths without a json suffix",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:302",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] recreates a missing state sidecar without rewriting unchanged config",
+TEST_CASE("v4.29 [src/cron/store.test.ts:334] recreates a missing state sidecar without rewriting unchanged config",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:334",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] recreates a missing config file without rewriting unchanged state",
+TEST_CASE("v4.29 [src/cron/store.test.ts:358] recreates a missing config file without rewriting unchanged state",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:358",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] migrates legacy inline state into the state sidecar",
+TEST_CASE("v4.29 [src/cron/store.test.ts:383] migrates legacy inline state into the state sidecar",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:383",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] ignores array-shaped state sidecars when migrating legacy inline state",
+TEST_CASE("v4.29 [src/cron/store.test.ts:407] ignores array-shaped state sidecars when migrating legacy inline state",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:407",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] treats a corrupt state sidecar as absent",
+TEST_CASE("v4.29 [src/cron/store.test.ts:445] treats a corrupt state sidecar as absent",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:445",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] propagates unreadable state sidecar errors",
+TEST_CASE("v4.29 [src/cron/store.test.ts:460] propagates unreadable state sidecar errors",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:460",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] sanitizes invalid updatedAtMs values from the state sidecar",
+TEST_CASE("v4.29 [src/cron/store.test.ts:484] sanitizes invalid updatedAtMs values from the state sidecar",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:484",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] persists and round-trips a store file",
+TEST_CASE("v4.29 [src/cron/store.test.ts:560] persists and round-trips a store file",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:560",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] retries rename on EBUSY then succeeds",
+TEST_CASE("v4.29 [src/cron/store.test.ts:567] retries rename on EBUSY then succeeds",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:567",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/store.test.ts] falls back to copyFile on EPERM (Windows)",
+TEST_CASE("v4.29 [src/cron/store.test.ts:597] falls back to copyFile on EPERM (Windows)",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/store.test.ts:597",
                "upstream it() block #21",

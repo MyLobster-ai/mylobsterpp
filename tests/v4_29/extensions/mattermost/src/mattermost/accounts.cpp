@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] prefers channels.mattermost.defaultAccount when it matches a configured account",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:10] prefers channels.mattermost.defaultAccount when it matches a configured account",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] normalizes channels.mattermost.defaultAccount before lookup",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:26] normalizes channels.mattermost.defaultAccount before lookup",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] falls back when channels.mattermost.defaultAccount is missing",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:41] falls back when channels.mattermost.defaultAccount is missing",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] uses configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:59] uses configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] uses the configured mode for channel and group messages",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:80] uses the configured mode for channel and group messages",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] keeps direct messages off even when replyToMode is enabled",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:94] keeps direct messages off even when replyToMode is enabled",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] defaults to off when replyToMode is unset",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:107] defaults to off when replyToMode is unset",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts] preserves shared commands config when an account overrides one commands field",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/accounts.test.ts:112] preserves shared commands config when an account overrides one commands field",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/accounts.test.ts:112",
                "upstream it() block #7",

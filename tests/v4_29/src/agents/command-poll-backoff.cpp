@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns 5s for first poll",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:13] returns 5s for first poll",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns 10s for second poll",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:17] returns 10s for second poll",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns 30s for third poll",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:21] returns 30s for third poll",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns 60s for fourth and subsequent polls (capped)",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:25] returns 60s for fourth and subsequent polls (capped)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:25",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns 5s on first no-output poll",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:34] returns 5s on first no-output poll",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:34",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] increments count and increases backoff on consecutive no-output polls",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:45] increments count and increases backoff on consecutive no-output polls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:45",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] resets count when poll returns new output",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:61] resets count when poll returns new output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:61",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] tracks different commands independently",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:79] tracks different commands independently",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:79",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns undefined for untracked command",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:96] returns undefined for untracked command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:96",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] returns current backoff for tracked command",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:105] returns current backoff for tracked command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:105",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] removes command from tracking",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:120] removes command from tracking",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:120",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] is safe to call on untracked command",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:134] is safe to call on untracked command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:134",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] removes polls older than maxAge",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:146] removes polls older than maxAge",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:146",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts] handles empty state gracefully",
+TEST_CASE("v4.29 [src/agents/command-poll-backoff.test.ts:163] handles empty state gracefully",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command-poll-backoff.test.ts:163",
                "upstream it() block #13",

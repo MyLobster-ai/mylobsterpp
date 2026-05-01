@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] does not announce successful deliver:false hook results",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:92] does not announce successful deliver:false hook results",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:92",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] marks non-ok deliver:false status events as untrusted and sanitizes hook names",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:118] marks non-ok deliver:false status events as untrusted and sanitizes hook names",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:118",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] announces skipped deliver:false hook results as non-ok status events",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:139] announces skipped deliver:false hook results as non-ok status events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] routes explicit-agent non-ok status events to the target agent main session",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:160] routes explicit-agent non-ok status events to the target agent main session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:160",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] does not announce hook results after delivery was already attempted",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:178] does not announce hook results after delivery was already attempted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:178",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] marks error events as untrusted and sanitizes hook names",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:197] marks error events as untrusted and sanitizes hook names",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:197",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts] routes explicit-agent error events to the target agent main session",
+TEST_CASE("v4.29 [src/gateway/server/hooks.agent-trust.test.ts:214] routes explicit-agent error events to the target agent main session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/hooks.agent-trust.test.ts:214",
                "upstream it() block #6",

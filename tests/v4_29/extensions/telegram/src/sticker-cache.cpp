@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns null for unknown ID",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:32] returns null for unknown ID",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns cached sticker after cacheSticker",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:37] returns cached sticker after cacheSticker",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns null after backing store is cleared",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:53] returns null after backing store is cleared",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] adds entry to cache",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:71] adds entry to cache",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] updates existing entry",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:86] updates existing entry",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] finds stickers by description substring",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:146] finds stickers by description substring",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:146",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] finds stickers by emoji",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:152] finds stickers by emoji",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:152",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] finds stickers by set name",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:158] finds stickers by set name",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] respects limit parameter",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:164] respects limit parameter",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:164",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] ranks exact matches higher",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:169] ranks exact matches higher",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:169",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns empty array for no matches",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:176] returns empty array for no matches",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:176",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] is case insensitive",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:181] is case insensitive",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:181",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] matches multiple words",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:186] matches multiple words",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:186",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns empty array when cache is empty",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:194] returns empty array when cache is empty",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:194",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns all cached stickers",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:199] returns all cached stickers",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:199",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns count 0 when cache is empty",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:219] returns count 0 when cache is empty",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:219",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts] returns correct stats with cached stickers",
+TEST_CASE("v4.29 [extensions/telegram/src/sticker-cache.test.ts:226] returns correct stats with cached stickers",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/sticker-cache.test.ts:226",
                "upstream it() block #16",

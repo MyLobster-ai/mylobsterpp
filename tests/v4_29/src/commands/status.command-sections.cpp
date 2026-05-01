@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts] formats security audit lines with finding caps and follow-up commands",
+TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts:16] formats security audit lines with finding caps and follow-up commands",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-sections.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts] builds verbose sessions rows and empty fallback rows",
+TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts:57] builds verbose sessions rows and empty fallback rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-sections.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts] maps health channel detail lines into status rows",
+TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts:115] maps health channel detail lines into status rows",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-sections.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts] builds footer lines from update and reachability state",
+TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts:140] builds footer lines from update and reachability state",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-sections.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts] builds plugin compatibility lines and pairing recovery guidance",
+TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts:161] builds plugin compatibility lines and pairing recovery guidance",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-sections.test.ts:161",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts] builds system event rows and health columns",
+TEST_CASE("v4.29 [src/commands/status.command-sections.test.ts:197] builds system event rows and health columns",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-sections.test.ts:197",
                "upstream it() block #5",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] routes Google Generative AI custom providers to the google policy artifact",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:5] routes Google Generative AI custom providers to the google policy artifact",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] routes model-level Google Generative AI providers to the google policy artifact",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:15] routes model-level Google Generative AI providers to the google policy artifact",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] routes google-antigravity to the google policy artifact",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:35] routes google-antigravity to the google policy artifact",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] routes google-vertex to the google policy artifact",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:44] routes google-vertex to the google policy artifact",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] does not throw when runtime provider models is an object map",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:53] does not throw when runtime provider models is an object map",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] does not throw when runtime provider models is undefined",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:62] does not throw when runtime provider models is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts] falls through to the provider key when runtime provider models is non-array",
+TEST_CASE("v4.29 [src/agents/models-config.providers.policy.lookup.test.ts:71] falls through to the provider key when runtime provider models is non-array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.policy.lookup.test.ts:71",
                "upstream it() block #6",

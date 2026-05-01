@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts] returns false when path does not match",
+TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts:33] returns false when path does not match",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-endpoint-helpers.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts] returns undefined and replies when method is not POST",
+TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts:46] returns undefined and replies when method is not POST",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-endpoint-helpers.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts] returns undefined when auth fails",
+TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts:62] returns undefined when auth fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-endpoint-helpers.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts] returns body when auth succeeds and JSON parsing succeeds",
+TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts:76] returns body when auth succeeds and JSON parsing succeeds",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-endpoint-helpers.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts] returns undefined and replies when required operator scope is missing",
+TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts:96] returns undefined and replies when required operator scope is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-endpoint-helpers.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts] uses a custom operator scope resolver when provided",
+TEST_CASE("v4.29 [src/gateway/http-endpoint-helpers.test.ts:142] uses a custom operator scope resolver when provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/http-endpoint-helpers.test.ts:142",
                "upstream it() block #5",

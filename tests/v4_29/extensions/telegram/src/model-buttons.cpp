@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] parses supported callback variants",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:15] parses supported callback variants",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] returns null for unsupported callback variants",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:41] returns null for unsupported callback variants",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] returns explicit provider selections unchanged",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:58] returns explicit provider selections unchanged",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] resolves compact callbacks when exactly one provider matches",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:70] resolves compact callbacks when exactly one provider matches",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] returns ambiguous result when zero or multiple providers match",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:82] returns ambiguous result when zero or multiple providers match",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] uses standard callback when under limit and compact callback when needed",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:114] uses standard callback when under limit and compact callback when needed",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] returns null when even compact callback exceeds Telegram limit",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:124] returns null when even compact callback exceeds Telegram limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:124",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] lays out providers in two-column rows",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:131] lays out providers in two-column rows",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:131",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] shows back button for empty models",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:184] shows back button for empty models",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:184",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] renders model rows and optional current-model indicator",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:196] renders model rows and optional current-model indicator",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:196",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] uses modelNames for display text when provided",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:231] uses modelNames for display text when provided",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:231",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] falls back to model ID when modelNames does not contain an entry",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:253] falls back to model ID when modelNames does not contain an entry",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:253",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] uses provider-scoped modelNames keys to avoid cross-provider collisions",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:266] uses provider-scoped modelNames keys to avoid cross-provider collisions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:266",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] does not mark same-id models from other providers as current",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:291] does not mark same-id models from other providers as current",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:291",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] renders pagination controls for first, middle, and last pages",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:305] renders pagination controls for first, middle, and last pages",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:305",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] keeps short display IDs untouched and truncates overly long IDs",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:343] keeps short display IDs untouched and truncates overly long IDs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:343",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] uses compact selection callback when provider/model callback exceeds 64 bytes",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:376] uses compact selection callback when provider/model callback exceeds 64 bytes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:376",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] returns browse providers button",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:390] returns browse providers button",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:390",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] returns default page size",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:400] returns default page size",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:400",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] calculates pages correctly",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:406] calculates pages correctly",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:406",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] uses custom page size",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:415] uses custom page size",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:415",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] handles 100+ models with pagination",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:422] handles 100+ models with pagination",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:422",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] all callback_data stays within 64-byte limit",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:450] all callback_data stays within 64-byte limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:450",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts] skips models that would exceed callback_data limit",
+TEST_CASE("v4.29 [extensions/telegram/src/model-buttons.test.ts:474] skips models that would exceed callback_data limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/model-buttons.test.ts:474",
                "upstream it() block #23",

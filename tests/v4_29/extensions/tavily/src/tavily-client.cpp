@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-client.test.ts] runTavilySearch sends X-Client-Source: openclaw",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-client.test.ts:44] runTavilySearch sends X-Client-Source: openclaw",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-client.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tavily/src/tavily-client.test.ts] runTavilyExtract sends X-Client-Source: openclaw",
+TEST_CASE("v4.29 [extensions/tavily/src/tavily-client.test.ts:52] runTavilyExtract sends X-Client-Source: openclaw",
           "[v4_29][parity_gap][tavily]") {
     PARITY_GAP("extensions/tavily/src/tavily-client.test.ts:52",
                "upstream it() block #1",

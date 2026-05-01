@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts] lists reactions in stable decision order",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts:16] lists reactions in stable decision order",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-reactions.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts] builds a compact reaction hint",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts:24] builds a compact reaction hint",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-reactions.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts] resolves a registered approval anchor event back to an approval decision",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts:30] resolves a registered approval anchor event back to an approval decision",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-reactions.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts] ignores reactions that are not allowed on the registered approval anchor event",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts:70] ignores reactions that are not allowed on the registered approval anchor event",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-reactions.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts] stops resolving reactions after the approval anchor event is unregistered",
+TEST_CASE("v4.29 [extensions/matrix/src/approval-reactions.test.ts:87] stops resolving reactions after the approval anchor event is unregistered",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/approval-reactions.test.ts:87",
                "upstream it() block #4",

@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] forces BuildKit for centralized Docker builds",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:51] forces BuildKit for centralized Docker builds",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps shell-script Docker builds behind the helper",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:63] keeps shell-script Docker builds behind the helper",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] lets Testbox fall back to building when a reused Docker image is missing",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:73] lets Testbox fall back to building when a reused Docker image is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] preserves pnpm lookup paths for scheduled Docker child lanes",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:95] preserves pnpm lookup paths for scheduled Docker child lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] runs release installer E2E against the npm beta tag",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:106] runs release installer E2E against the npm beta tag",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] times and parallelizes release installer E2E agent turns after gateway startup",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:117] times and parallelizes release installer E2E agent turns after gateway startup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps package acceptance plugin coverage offline-capable",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:134] keeps package acceptance plugin coverage offline-capable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:134",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] allows plugin update smoke to tolerate config metadata migrations",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:145] allows plugin update smoke to tolerate config metadata migrations",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:145",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] caps package acceptance legacy compatibility at 2026.4.25",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:157] caps package acceptance legacy compatibility at 2026.4.25",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:157",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps bundled plugin install/uninstall sweep chunkable",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:202] keeps bundled plugin install/uninstall sweep chunkable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:202",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] passes installer tag env to bash, not curl",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:218] passes installer tag env to bash, not curl",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:218",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps installer E2E agent turns out of the interactive bootstrap ritual",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:229] keeps installer E2E agent turns out of the interactive bootstrap ritual",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:229",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps installer E2E tool smokes in isolated sessions",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:238] keeps installer E2E tool smokes in isolated sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:238",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps OpenAI web search smoke on one gateway agent connection",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:247] keeps OpenAI web search smoke on one gateway agent connection",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:247",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts] keeps ClawHub plugin Docker smoke hermetic by default",
+TEST_CASE("v4.29 [test/scripts/docker-build-helper.test.ts:261] keeps ClawHub plugin Docker smoke hermetic by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/docker-build-helper.test.ts:261",
                "upstream it() block #14",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts] parses mxc URIs",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts:25] parses mxc URIs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/event-helpers.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts] builds HTTP errors from JSON and plain text payloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts:33] builds HTTP errors from JSON and plain text payloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/event-helpers.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts] serializes Matrix events and resolves state key from available sources",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts:43] serializes Matrix events and resolves state key from available sources",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/event-helpers.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts] serializes current content by default for read APIs",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts:80] serializes current content by default for read APIs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/event-helpers.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts] can serialize original content for inbound trigger filtering",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/sdk/event-helpers.test.ts:90] can serialize original content for inbound trigger filtering",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/sdk/event-helpers.test.ts:90",
                "upstream it() block #4",

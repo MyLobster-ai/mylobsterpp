@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.lifecycle.test.ts] stays active until aborted",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.lifecycle.test.ts:198] stays active until aborted",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.lifecycle.test.ts:198",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.lifecycle.test.ts] rejects startup when webhook port is already in use",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.lifecycle.test.ts:221] rejects startup when webhook port is already in use",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.lifecycle.test.ts:221",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/monitor.lifecycle.test.ts] runs JWT validation before JSON body parsing",
+TEST_CASE("v4.29 [extensions/msteams/src/monitor.lifecycle.test.ts:234] runs JWT validation before JSON body parsing",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/monitor.lifecycle.test.ts:234",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mistral/media-understanding-provider.test.ts] has expected provider metadata",
+TEST_CASE("v4.29 [extensions/mistral/media-understanding-provider.test.ts:11] has expected provider metadata",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/media-understanding-provider.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/media-understanding-provider.test.ts] uses Mistral base URL by default",
+TEST_CASE("v4.29 [extensions/mistral/media-understanding-provider.test.ts:17] uses Mistral base URL by default",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/media-understanding-provider.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mistral/media-understanding-provider.test.ts] allows overriding baseUrl",
+TEST_CASE("v4.29 [extensions/mistral/media-understanding-provider.test.ts:32] allows overriding baseUrl",
           "[v4_29][parity_gap][mistral]") {
     PARITY_GAP("extensions/mistral/media-understanding-provider.test.ts:32",
                "upstream it() block #2",

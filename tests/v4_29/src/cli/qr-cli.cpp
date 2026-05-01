@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] prints setup code only when requested",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:181] prints setup code only when requested",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:181",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] renders ASCII QR by default",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:201] renders ASCII QR by default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:201",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] fails fast for insecure remote mobile pairing setup urls",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:220] fails fast for insecure remote mobile pairing setup urls",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:220",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] allows private LAN IP cleartext setup urls",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:236] allows private LAN IP cleartext setup urls",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:236",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] allows android emulator cleartext override urls",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:250] allows android emulator cleartext override urls",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:250",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] rejects invalid override urls before printing setup codes",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:263] rejects invalid override urls before printing setup codes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:263",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] accepts --token override when config has no auth",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:279] accepts --token override when config has no auth",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] skips local password SecretRef resolution when --token override is provided",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:292] skips local password SecretRef resolution when --token override is provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:292",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] resolves local gateway auth password SecretRefs before setup code generation",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:304] resolves local gateway auth password SecretRefs before setup code generation",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:304",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] uses OPENCLAW_GATEWAY_PASSWORD without resolving local password SecretRef",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:318] uses OPENCLAW_GATEWAY_PASSWORD without resolving local password SecretRef",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:318",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] does not resolve local password SecretRef when auth mode is token",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:332] does not resolve local password SecretRef when auth mode is token",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:332",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] resolves local password SecretRef when auth mode is inferred",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:347] resolves local password SecretRef when auth mode is inferred",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:347",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] fails when token and password SecretRefs are both configured with inferred mode",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:361] fails when token and password SecretRefs are both configured with inferred mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:361",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] exits with error when gateway config is not pairable",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:385] exits with error when gateway config is not pairable",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:385",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] uses gateway.remote.url when --remote is set (ignores device-pair publicUrl)",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:399] uses gateway.remote.url when --remote is set (ignores device-pair publicUrl)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:399",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] rejects invalid gateway.remote.url before printing remote setup codes",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:416] rejects invalid gateway.remote.url before printing remote setup codes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:416",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] logs remote secret diagnostics in non-json output mode",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:433] logs remote secret diagnostics in non-json output mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:433",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] routes remote secret diagnostics to stderr for setup-code-only output",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:449] routes remote secret diagnostics to stderr for setup-code-only output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:449",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] routes remote secret diagnostics to stderr for json output",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:486] routes remote secret diagnostics to stderr for json output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:486",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] errors when --remote is set but no remote URL is configured",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:505] errors when --remote is set but no remote URL is configured",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:505",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/qr-cli.test.ts] supports --remote with tailscale serve when remote token ref resolves",
+TEST_CASE("v4.29 [src/cli/qr-cli.test.ts:520] supports --remote with tailscale serve when remote token ref resolves",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/qr-cli.test.ts:520",
                "upstream it() block #20",

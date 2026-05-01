@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-contract-testing.test.ts] asserts shared channel turn dispatch visibility",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-contract-testing.test.ts:5] asserts shared channel turn dispatch visibility",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-contract-testing.test.ts:5",
                "upstream it() block #0",

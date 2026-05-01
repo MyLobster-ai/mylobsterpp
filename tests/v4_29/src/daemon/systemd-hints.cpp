@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts] matches systemd unavailable error details",
+TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts:6] matches systemd unavailable error details",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-hints.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts] renders WSL2-specific recovery hints",
+TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts:26] renders WSL2-specific recovery hints",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-hints.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts] renders generic Linux recovery hints outside WSL",
+TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts:34] renders generic Linux recovery hints outside WSL",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-hints.test.ts:34",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts] adds headless recovery hints only for user bus/session failures",
+TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts:41] adds headless recovery hints only for user bus/session failures",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-hints.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts] skips headless recovery hints when container context is known",
+TEST_CASE("v4.29 [src/daemon/systemd-hints.test.ts:50] skips headless recovery hints when container context is known",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-hints.test.ts:50",
                "upstream it() block #4",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/logging-max-file-bytes.test.ts] accepts a positive maxFileBytes",
+TEST_CASE("v4.29 [src/config/logging-max-file-bytes.test.ts:5] accepts a positive maxFileBytes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/logging-max-file-bytes.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/logging-max-file-bytes.test.ts] rejects non-positive maxFileBytes",
+TEST_CASE("v4.29 [src/config/logging-max-file-bytes.test.ts:14] rejects non-positive maxFileBytes",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/logging-max-file-bytes.test.ts:14",
                "upstream it() block #1",

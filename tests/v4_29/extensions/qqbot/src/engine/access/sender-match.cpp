@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] uppercases and strips qqbot: prefix",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:9] uppercases and strips qqbot: prefix",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] trims whitespace",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:14] trims whitespace",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] returns empty string for non-string input",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:18] returns empty string for non-string input",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] accepts numeric input",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:24] accepts numeric input",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:24",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] normalizes all entries and drops empty ones",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:30] normalizes all entries and drops empty ones",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] returns empty array for undefined/null",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:34] returns empty array for undefined/null",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:34",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] matches wildcard regardless of sender",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:41] matches wildcard regardless of sender",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:41",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] matches case-insensitive with qqbot: prefix",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:46] matches case-insensitive with qqbot: prefix",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:46",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] returns false on empty allowlist",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:53] returns false on empty allowlist",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:53",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts] returns false for empty sender against non-wildcard list",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/sender-match.test.ts:57] returns false for empty sender against non-wildcard list",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/sender-match.test.ts:57",
                "upstream it() block #9",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn runs cleanup flow after subagent completion",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:207] sessions_spawn runs cleanup flow after subagent completion",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:207",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] gives native child agent startup enough gateway request time",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:272] gives native child agent startup enough gateway request time",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:272",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn retires bundle MCP runtime when run-mode cleanup completes",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:298] sessions_spawn retires bundle MCP runtime when run-mode cleanup completes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:298",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn runs cleanup via lifecycle events",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:348] sessions_spawn runs cleanup via lifecycle events",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:348",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn deletes session when cleanup=delete via agent.wait",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:415] sessions_spawn deletes session when cleanup=delete via agent.wait",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:415",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn records timeout when agent.wait returns timeout",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:470] sessions_spawn records timeout when agent.wait returns timeout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:470",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn uses the target agent",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:507] sessions_spawn uses the target agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:507",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts] sessions_spawn announces with requester accountId",
+TEST_CASE("v4.29 [src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:537] sessions_spawn announces with requester accountId",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/openclaw-tools.subagents.sessions-spawn.lifecycle.test.ts:537",
                "upstream it() block #7",

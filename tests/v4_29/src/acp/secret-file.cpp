@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/secret-file.test.ts] keeps the shared secret-file limit",
+TEST_CASE("v4.29 [src/acp/secret-file.test.ts:5] keeps the shared secret-file limit",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/secret-file.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/secret-file.test.ts] exposes the hardened secret reader",
+TEST_CASE("v4.29 [src/acp/secret-file.test.ts:9] exposes the hardened secret reader",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/secret-file.test.ts:9",
                "upstream it() block #1",

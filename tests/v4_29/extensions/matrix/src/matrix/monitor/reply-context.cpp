@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] summarizes reply events from body text",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:7] summarizes reply events from body text",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] truncates long reply bodies",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:22] truncates long reply bodies",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] handles media-only reply events",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:39] handles media-only reply events",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] summarizes poll start events from poll content",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:54] summarizes poll start events from poll content",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] resolves and caches reply context",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:60] resolves and caches reply context",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] returns empty context when event fetch fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:101] returns empty context when event fetch fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:101",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] returns empty context for redacted events",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:120] returns empty context for redacted events",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:120",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] does not cache fetch failures so retries can succeed",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:149] does not cache fetch failures so retries can succeed",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:149",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] falls back to senderId when display name resolution fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:193] falls back to senderId when display name resolution fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:193",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts] uses LRU eviction — recently accessed entries survive over older ones",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/reply-context.test.ts:225] uses LRU eviction — recently accessed entries survive over older ones",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/reply-context.test.ts:225",
                "upstream it() block #9",

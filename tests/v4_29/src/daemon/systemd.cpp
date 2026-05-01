@@ -5,369 +5,369 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns true when systemctl --user succeeds",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:134] returns true when systemctl --user succeeds",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false when systemd user bus is unavailable",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:141] returns false when systemd user bus is unavailable",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:141",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns true when systemd is degraded but still reachable",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:154] returns true when systemd is degraded but still reachable",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:154",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] falls back to machine user scope when --user bus is unavailable",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:162] falls back to machine user scope when --user bus is unavailable",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:162",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] does not fall back to machine scope when --user fails with permission denied",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:180] does not fall back to machine scope when --user fails with permission denied",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:180",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] does not fall back to direct --user when machine scope fails under sudo",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:197] does not fall back to direct --user when machine scope fails under sudo",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:197",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] does not let preserved USER suppress sudo-to-root machine scope",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:215] does not let preserved USER suppress sudo-to-root machine scope",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:215",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] does not let stale SUDO_USER override a sudo-u target user scope",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:232] does not let stale SUDO_USER override a sudo-u target user scope",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:232",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false when systemctl is not present",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:252] returns false when systemctl is not present",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:252",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false without calling systemctl when the managed unit file is missing",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:262] returns false without calling systemctl when the managed unit file is missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:262",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] calls systemctl is-enabled when systemctl is present",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:273] calls systemctl is-enabled when systemctl is present",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:273",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false when systemctl reports disabled",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:282] returns false when systemctl reports disabled",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:282",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false for the WSL2 Ubuntu 24.04 wrapper-only is-enabled failure",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:292] returns false for the WSL2 Ubuntu 24.04 wrapper-only is-enabled failure",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:292",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false when is-enabled cannot connect to the user bus without machine fallback",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:307] returns false when is-enabled cannot connect to the user bus without machine fallback",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:307",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false when both direct and machine-scope is-enabled checks report bus unavailability",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:325] returns false when both direct and machine-scope is-enabled checks report bus unavailability",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:325",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] throws when generic wrapper errors report infrastructure failures",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:352] throws when generic wrapper errors report infrastructure failures",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:352",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] throws when systemctl is-enabled fails for non-state errors",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:367] throws when systemctl is-enabled fails for non-state errors",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:367",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] returns false when systemctl is-enabled exits with code 4 (not-found)",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:389] returns false when systemctl is-enabled exits with code 4 (not-found)",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:389",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] checks user-scoped units through the user systemd manager",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:411] checks user-scoped units through the user systemd manager",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:411",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] checks system-scoped units without the user manager",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:422] checks system-scoped units without the user manager",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:422",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] matches wrapper-only WSL install probe failures",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:435] matches wrapper-only WSL install probe failures",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:435",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] matches bus-unavailable install probe failures",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:443] matches bus-unavailable install probe failures",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:443",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] does not match real infrastructure failures",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:451] does not match real infrastructure failures",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:451",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] parses active state details",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:461] parses active state details",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:461",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] rejects pid and exit status values with junk suffixes",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:477] rejects pid and exit status values with junk suffixes",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:477",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] splits on whitespace outside quotes",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:536] splits on whitespace outside quotes",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:536",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] supports systemd-style backslash escaping",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:546] supports systemd-style backslash escaping",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:546",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] supports schtasks-style escaped quotes while preserving other backslashes",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:554] supports schtasks-style escaped quotes while preserving other backslashes",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:554",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] preserves quoted arguments",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:570] preserves quoted arguments",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:570",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] loads OPENCLAW_GATEWAY_TOKEN from EnvironmentFile",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:587] loads OPENCLAW_GATEWAY_TOKEN from EnvironmentFile",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:587",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] lets EnvironmentFile override inline Environment values",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:598] lets EnvironmentFile override inline Environment values",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:598",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] ignores missing optional EnvironmentFile entries",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:614] ignores missing optional EnvironmentFile entries",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:614",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] keeps parsing when non-optional EnvironmentFile entries are missing",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:618] keeps parsing when non-optional EnvironmentFile entries are missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:618",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] supports multiple EnvironmentFile entries and quoted paths",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:622] supports multiple EnvironmentFile entries and quoted paths",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:622",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] resolves relative EnvironmentFile paths from the unit directory",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:648] resolves relative EnvironmentFile paths from the unit directory",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:648",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] parses EnvironmentFile content with comments and quoted values",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:677] parses EnvironmentFile content with comments and quoted values",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:677",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] writes dotenv-backed values to a separate env file and keeps inline env minimal",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:750] writes dotenv-backed values to a separate env file and keeps inline env minimal",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:750",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] keeps inline overrides out of the generated env file",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:787] keeps inline overrides out of the generated env file",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:787",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] activates the OPENCLAW_SYSTEMD_UNIT override during install",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:847] activates the OPENCLAW_SYSTEMD_UNIT override during install",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:847",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] retries enable after reloading again when systemd cannot see the written unit yet",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:884] retries enable after reloading again when systemd cannot see the written unit yet",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:884",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] falls back to machine user scope when install activation hits a no-medium user bus failure",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:930] falls back to machine user scope when install activation hits a no-medium user bus failure",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:930",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] uses the sudo-u target user for install activation machine-scope retry",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:975] uses the sudo-u target user for install activation machine-scope retry",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:975",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] surfaces install activation user-bus failures as systemd unavailable errors",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1020] surfaces install activation user-bus failures as systemd unavailable errors",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1020",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] disables the OPENCLAW_SYSTEMD_UNIT override during uninstall",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1061] disables the OPENCLAW_SYSTEMD_UNIT override during uninstall",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1061",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] stops the resolved user unit",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1095] stops the resolved user unit",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1095",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] allows stop when systemd status is degraded but available",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1111] allows stop when systemd status is degraded but available",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1111",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] restarts a profile-specific user unit",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1131] restarts a profile-specific user unit",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1131",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] surfaces stop failures with systemctl detail",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1141] surfaces stop failures with systemctl detail",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1141",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] throws the user-bus error before stop when systemd is unavailable",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1158] throws the user-bus error before stop when systemd is unavailable",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1158",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] targets the sudo caller",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1178] targets the sudo caller",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1178",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] keeps direct --user scope when SUDO_USER is root",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1192] keeps direct --user scope when SUDO_USER is root",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1192",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd.test.ts] falls back to machine user scope for restart when user bus env is missing",
+TEST_CASE("v4.29 [src/daemon/systemd.test.ts:1205] falls back to machine user scope for restart when user bus env is missing",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd.test.ts:1205",
                "upstream it() block #51",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] registers OpenRouter speech alongside model and media providers",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:14] registers OpenRouter speech alongside model and media providers",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] includes Kimi K2.6 in the bundled catalog",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:29] includes Kimi K2.6 in the bundled catalog",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] does not include retired stealth models in the bundled catalog",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:35] does not include retired stealth models in the bundled catalog",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] keeps stale Hunter Alpha configs out of OpenRouter proxy reasoning",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:41] keeps stale Hunter Alpha configs out of OpenRouter proxy reasoning",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] owns passthrough-gemini replay policy for Gemini-backed models",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:47] owns passthrough-gemini replay policy for Gemini-backed models",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:47",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] owns native reasoning output mode",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:61] owns native reasoning output mode",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:61",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] canonicalizes stale OpenRouter /v1 config and runtime metadata",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:73] canonicalizes stale OpenRouter /v1 config and runtime metadata",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:73",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] injects provider routing into compat before applying stream wrappers",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:141] injects provider routing into compat before applying stream wrappers",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:141",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openrouter/index.test.ts] does not inject OpenRouter reasoning for Hunter Alpha",
+TEST_CASE("v4.29 [extensions/openrouter/index.test.ts:183] does not inject OpenRouter reasoning for Hunter Alpha",
           "[v4_29][parity_gap][openrouter]") {
     PARITY_GAP("extensions/openrouter/index.test.ts:183",
                "upstream it() block #8",

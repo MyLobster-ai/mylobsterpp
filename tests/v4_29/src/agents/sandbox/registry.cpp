@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] normalizes legacy registry entries on read",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:170] normalizes legacy registry entries on read",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:170",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] keeps both container updates under concurrent writes",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:192] keeps both container updates under concurrent writes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:192",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] prevents concurrent container remove/update from resurrecting deleted entries",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:208] prevents concurrent container remove/update from resurrecting deleted entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:208",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] keeps both browser updates under concurrent writes",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:224] keeps both browser updates under concurrent writes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:224",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] prevents concurrent browser remove/update from resurrecting deleted entries",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:240] prevents concurrent browser remove/update from resurrecting deleted entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:240",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] fails fast when registry files are malformed during update",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:256] fails fast when registry files are malformed during update",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:256",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts] fails fast when registry entries are invalid during update",
+TEST_CASE("v4.29 [src/agents/sandbox/registry.test.ts:263] fails fast when registry entries are invalid during update",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/registry.test.ts:263",
                "upstream it() block #6",

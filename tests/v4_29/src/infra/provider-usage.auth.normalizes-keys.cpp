@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] strips embedded CR/LF from env keys",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:442] strips embedded CR/LF from env keys",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:442",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] accepts z-ai env alias and normalizes embedded CR/LF",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:458] accepts z-ai env alias and normalizes embedded CR/LF",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:458",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] prefers ZAI_API_KEY over the z-ai alias when both are set",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:468] prefers ZAI_API_KEY over the z-ai alias when both are set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:468",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] prefers MINIMAX_CODE_PLAN_KEY over MINIMAX_API_KEY",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:479] prefers MINIMAX_CODE_PLAN_KEY over MINIMAX_API_KEY",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:479",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] accepts MINIMAX_CODING_API_KEY as a coding-plan alias",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:490] accepts MINIMAX_CODING_API_KEY as a coding-plan alias",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:490",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] strips embedded CR/LF from stored auth profiles (token + api_key)",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:500] strips embedded CR/LF from stored auth profiles (token + api_key)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:500",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] returns injected auth values unchanged",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:516] returns injected auth values unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:516",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] falls back to legacy .pi auth file for zai keys even after os.homedir() is primed",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:524] falls back to legacy .pi auth file for zai keys even after os.homedir() is primed",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:524",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] uses config api keys when env and profiles are missing",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:569] uses config api keys when env and profiles are missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:569",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] returns no auth when providers have no configured credentials",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:605] returns no auth when providers have no configured credentials",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:605",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] uses zai api_key auth profiles when env and config are missing",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:612] uses zai api_key auth profiles when env and config are missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:612",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] ignores invalid legacy z-ai auth files",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:624] ignores invalid legacy z-ai auth files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:624",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] discovers oauth provider from config but skips mismatched profile providers",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:634] discovers oauth provider from config but skips mismatched profile providers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:634",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] skips providers without oauth-compatible profiles",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:662] skips providers without oauth-compatible profiles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:662",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] skips oauth profiles that resolve without an api key and uses later profiles",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:674] skips oauth profiles that resolve without an api key and uses later profiles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:674",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] skips api_key entries in oauth token resolution order",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:697] skips api_key entries in oauth token resolution order",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:697",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] ignores marker-backed config keys for provider usage auth resolution",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:715] ignores marker-backed config keys for provider usage auth resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:715",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts] keeps all-caps plaintext config keys eligible for provider usage auth resolution",
+TEST_CASE("v4.29 [src/infra/provider-usage.auth.normalizes-keys.test.ts:720] keeps all-caps plaintext config keys eligible for provider usage auth resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.auth.normalizes-keys.test.ts:720",
                "upstream it() block #17",

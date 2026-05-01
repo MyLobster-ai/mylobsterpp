@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] keeps Slack directives in text for direct agent deliveries",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:100] keeps Slack directives in text for direct agent deliveries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] renders response prefix templates with the selected runtime model",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:123] renders response prefix templates with the selected runtime model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] keeps Slack options text intact for local preview when delivery is disabled",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:153] keeps Slack options text intact for local preview when delivery is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:153",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] normalizes reply-media paths before outbound delivery",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:183] normalizes reply-media paths before outbound delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] threads agentId into the normalizer when sessionKey is unresolved",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:218] threads agentId into the normalizer when sessionKey is unresolved",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:218",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] keeps LINE directive-only replies intact for local preview when delivery is disabled",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:233] keeps LINE directive-only replies intact for local preview when delivery is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:233",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/delivery.test.ts] merges result metadata overrides into JSON output and returned results",
+TEST_CASE("v4.29 [src/agents/command/delivery.test.ts:267] merges result metadata overrides into JSON output and returned results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/delivery.test.ts:267",
                "upstream it() block #6",

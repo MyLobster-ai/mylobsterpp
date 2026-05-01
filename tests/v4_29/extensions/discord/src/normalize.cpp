@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts] normalizes bare messaging target ids to channel targets",
+TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts:9] normalizes bare messaging target ids to channel targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/normalize.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts] keeps explicit outbound targets and rejects missing recipients",
+TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts:13] keeps explicit outbound targets and rejects missing recipients",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/normalize.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts] treats bare outbound IDs listed in allowFrom as DM targets",
+TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts:30] treats bare outbound IDs listed in allowFrom as DM targets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/normalize.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts] detects Discord-style target identifiers",
+TEST_CASE("v4.29 [extensions/discord/src/normalize.test.ts:49] detects Discord-style target identifiers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/normalize.test.ts:49",
                "upstream it() block #3",

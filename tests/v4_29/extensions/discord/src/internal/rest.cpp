@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] tracks queued requests and enforces maxQueueSize",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:11] tracks queued requests and enforces maxQueueSize",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] runs independent route buckets concurrently",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:42] runs independent route buckets concurrently",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] prunes idle route buckets and mappings after Discord bucket remapping",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:83] prunes idle route buckets and mappings after Discord bucket remapping",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] waits for a learned bucket reset before dispatching the next request",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:102] waits for a learned bucket reset before dispatching the next request",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:102",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] preserves Discord error codes on rate limit errors",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:156] preserves Discord error codes on rate limit errors",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:156",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] tracks invalid requests and exposes bucket scheduler metrics",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:178] tracks invalid requests and exposes bucket scheduler metrics",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:178",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] serializes message multipart uploads with payload_json",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:201] serializes message multipart uploads with payload_json",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:201",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts] serializes form multipart uploads for sticker-style endpoints",
+TEST_CASE("v4.29 [extensions/discord/src/internal/rest.test.ts:224] serializes form multipart uploads for sticker-style endpoints",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/rest.test.ts:224",
                "upstream it() block #7",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts] defers a missing mention without storing placeholder history",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts:63] defers a missing mention without storing placeholder history",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts] accepts voice transcript text that satisfies mention gating",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts:75] accepts voice transcript text that satisfies mention gating",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts] stores transcript text instead of the audio placeholder when mention is still missing",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts:88] stores transcript text instead of the audio placeholder when mention is still missing",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply/monitor/group-gating.audio-preflight.test.ts:88",
                "upstream it() block #2",

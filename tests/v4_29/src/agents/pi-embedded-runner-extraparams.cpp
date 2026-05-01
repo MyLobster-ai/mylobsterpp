@@ -5,859 +5,859 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] passes agentDir and workspaceDir to provider stream wrappers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:483] passes agentDir and workspaceDir to provider stream wrappers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:483",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] disables thinking for MiniMax anthropic-messages payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:659] disables thinking for MiniMax anthropic-messages payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:659",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips xai Responses reasoning payload fields",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:683] strips xai Responses reasoning payload fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:683",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips disabled reasoning payloads for native OpenAI responses models that do not support none",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:706] strips disabled reasoning payloads for native OpenAI responses models that do not support none",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:706",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps OpenAI Responses web_search compatible when thinking is minimal",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:738] keeps OpenAI Responses web_search compatible when thinking is minimal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:738",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips disabled reasoning payloads for proxied OpenAI responses routes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:768] strips disabled reasoning payloads for proxied OpenAI responses routes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:768",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects parallel_tool_calls for openai-completions payloads when configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:795] injects parallel_tool_calls for openai-completions payloads when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:795",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] uses canonical model config keys for provider-prefixed model ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:822] uses canonical model config keys for provider-prefixed model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:822",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps legacy double-prefixed model config fallback for provider-prefixed model ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:849] keeps legacy double-prefixed model config fallback for provider-prefixed model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:849",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips store from proxied openai-completions payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:876] strips store from proxied openai-completions payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:876",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps store untouched for native openai-completions payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:895] keeps store untouched for native openai-completions payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:895",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] merges extra_body into openai-completions payloads before proxy store stripping",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:914] merges extra_body into openai-completions payloads before proxy store stripping",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:914",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] forwards chat_template_kwargs params as top-level openai-completions payload fields",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:949] forwards chat_template_kwargs params as top-level openai-completions payload fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:949",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] warns and skips invalid chat_template_kwargs params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:986] warns and skips invalid chat_template_kwargs params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:986",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] warns and skips invalid extra_body params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1023] warns and skips invalid extra_body params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1023",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] flattens pure text OpenAI completions message arrays for string-only compat models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1055] flattens pure text OpenAI completions message arrays for string-only compat models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1055",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects parallel_tool_calls for openai-responses payloads when configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1103] injects parallel_tool_calls for openai-responses payloads when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1103",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects parallel_tool_calls for openai-codex-responses payloads when configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1131] injects parallel_tool_calls for openai-codex-responses payloads when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1131",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips function.strict for xai providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1159] strips function.strict for xai providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1159",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps function.strict for non-xai providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1173] keeps function.strict for non-xai providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1173",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects parallel_tool_calls for azure-openai-responses payloads when configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1187] injects parallel_tool_calls for azure-openai-responses payloads when configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1187",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject parallel_tool_calls for unsupported APIs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1215] does not inject parallel_tool_calls for unsupported APIs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1215",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets runtime override win across alias styles for parallel_tool_calls",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1242] lets runtime override win across alias styles for parallel_tool_calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1242",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets null runtime override suppress inherited parallel_tool_calls injection",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1272] lets null runtime override suppress inherited parallel_tool_calls injection",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1272",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] warns and skips invalid parallel_tool_calls values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1302] warns and skips invalid parallel_tool_calls values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1302",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] normalizes thinking=off to null for SiliconFlow Pro models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1335] normalizes thinking=off to null for SiliconFlow Pro models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1335",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps thinking=off unchanged for non-Pro SiliconFlow model IDs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1366] keeps thinking=off unchanged for non-Pro SiliconFlow model IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1366",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps anthropic tool payloads native for Kimi",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1397] keeps anthropic tool payloads native for Kimi",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1397",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not rewrite anthropic tool schema for non-kimi endpoints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1448] does not rewrite anthropic tool schema for non-kimi endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1448",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] uses explicit compat metadata for anthropic tool payload normalization",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1489] uses explicit compat metadata for anthropic tool payload normalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1489",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets provider-owned wrappers normalize anthropic tool payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1531] lets provider-owned wrappers normalize anthropic tool payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1531",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] sanitizes invalid Atproxy Gemini negative thinking budgets",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1581] sanitizes invalid Atproxy Gemini negative thinking budgets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1581",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] rewrites Gemini 3 thinkingBudget to thinkingLevel",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1642] rewrites Gemini 3 thinkingBudget to thinkingLevel",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1642",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] rewrites Gemma 4 thinkingBudget to a supported Google thinkingLevel",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1678] rewrites Gemma 4 thinkingBudget to a supported Google thinkingLevel",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1678",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves Gemma 4 thinking off instead of rewriting thinkingBudget=0 to MINIMAL",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1715] preserves Gemma 4 thinking off instead of rewriting thinkingBudget=0 to MINIMAL",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1715",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves explicit Gemma 4 thinking level when thinkingBudget=0",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1746] preserves explicit Gemma 4 thinking level when thinkingBudget=0",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1746",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] passes configured websocket transport through stream options",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1780] passes configured websocket transport through stream options",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1780",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] passes configured websocket transport through stream options for openai-codex gpt-5.4",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1810] passes configured websocket transport through stream options for openai-codex gpt-5.4",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1810",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves maxTokens: 0 in shared extra params for providers that forward it",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1840] preserves maxTokens: 0 in shared extra params for providers that forward it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1840",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] defaults Codex transport to auto (WebSocket-first)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1870] defaults Codex transport to auto (WebSocket-first)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1870",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] defaults OpenAI transport to auto without websocket warm-up",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1887] defaults OpenAI transport to auto without websocket warm-up",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1887",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects GPT-5 default parallel tool calls and low verbosity for OpenAI Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1905] injects GPT-5 default parallel tool calls and low verbosity for OpenAI Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1905",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects GPT-5 default parallel tool calls for Codex Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1921] injects GPT-5 default parallel tool calls for Codex Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1921",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects native Codex web_search for direct openai-codex Responses models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1937] injects native Codex web_search for direct openai-codex Responses models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1937",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject duplicate native Codex web_search tools",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:1981] does not inject duplicate native Codex web_search tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:1981",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps payload unchanged when Codex native search is inactive",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2009] keeps payload unchanged when Codex native search is inactive",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2009",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets runtime options override OpenAI default transport",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2037] lets runtime options override OpenAI default transport",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2037",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] allows disabling OpenAI websocket warm-up via model params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2054] allows disabling OpenAI websocket warm-up via model params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2054",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets runtime options override configured OpenAI websocket warm-up",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2084] lets runtime options override configured OpenAI websocket warm-up",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2084",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] allows forcing Codex transport to SSE",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2116] allows forcing Codex transport to SSE",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2116",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets runtime options override configured transport",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2146] lets runtime options override configured transport",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2146",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] falls back to Codex default transport when configured value is invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2176] falls back to Codex default transport when configured value is invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2176",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] returns prepared Codex transport defaults for runtime sessions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2206] returns prepared Codex transport defaults for runtime sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2206",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] composes transport extra-param hooks after provider preparation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2216] composes transport extra-param hooks after provider preparation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2216",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] passes explicit settings transport to transport extra-param hooks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2262] passes explicit settings transport to transport extra-param hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2262",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] applies transport hook parallel_tool_calls patches to request payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2304] applies transport hook parallel_tool_calls patches to request payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2304",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] uses prepared transport when session settings did not explicitly set one",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2328] uses prepared transport when session settings did not explicitly set one",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2328",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps explicit session transport over prepared OpenAI defaults",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2346] keeps explicit session transport over prepared OpenAI defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2346",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] resolves explicit settings transport from the active session transport",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2364] resolves explicit settings transport from the active session transport",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2364",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips prototype pollution keys from extra params overrides",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2385] strips prototype pollution keys from extra params overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2385",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps Anthropic Bedrock models eligible for provider-side caching",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2405] keeps Anthropic Bedrock models eligible for provider-side caching",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2405",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] passes through explicit cacheRetention for Anthropic Bedrock models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2423] passes through explicit cacheRetention for Anthropic Bedrock models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2423",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] passes through explicit cacheRetention for custom anthropic-messages providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2454] passes through explicit cacheRetention for custom anthropic-messages providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2454",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] adds Anthropic 1M beta header when context1m is enabled for Opus/Sonnet",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2502] adds Anthropic 1M beta header when context1m is enabled for Opus/Sonnet",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2502",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not add Anthropic 1M beta header when context1m is not enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2530] does not add Anthropic 1M beta header when context1m is not enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2530",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] skips context1m beta for OAuth tokens but preserves OAuth-required betas",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2543] skips context1m beta for OAuth tokens but preserves OAuth-required betas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2543",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] merges existing anthropic-beta headers with configured betas",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2587] merges existing anthropic-beta headers with configured betas",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2587",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] ignores context1m for non-Opus/Sonnet Anthropic models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2607] ignores context1m for non-Opus/Sonnet Anthropic models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2607",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] forces store=true for direct OpenAI Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2617] forces store=true for direct OpenAI Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2617",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] forces store=true for azure-openai provider with openai-responses API (#42800)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2631] forces store=true for azure-openai provider with openai-responses API (#42800)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2631",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips disabled OpenAI reasoning payloads on native Responses models that do not support none",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2645] strips disabled OpenAI reasoning payloads on native Responses models that do not support none",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2645",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips disabled Azure OpenAI Responses reasoning payloads for models that do not support none",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2663] strips disabled Azure OpenAI Responses reasoning payloads for models that do not support none",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2663",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects configured OpenAI service_tier into Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2681] injects configured OpenAI service_tier into Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2681",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects configured OpenAI text verbosity into Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2708] injects configured OpenAI text verbosity into Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2708",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects configured text verbosity into Codex Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2735] injects configured text verbosity into Codex Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2735",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves caller-provided payload.text keys when injecting text verbosity",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2768] preserves caller-provided payload.text keys when injecting text verbosity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2768",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves caller-provided payload.text.verbosity for OpenAI Responses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2804] preserves caller-provided payload.text.verbosity for OpenAI Responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2804",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects configured OpenAI service_tier into Codex Responses payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2837] injects configured OpenAI service_tier into Codex Responses payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2837",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves caller-provided service_tier values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2864] preserves caller-provided service_tier values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2864",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] warns and skips invalid OpenAI text verbosity values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2895] warns and skips invalid OpenAI text verbosity values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2895",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets null runtime override suppress inherited text verbosity injection",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2928] lets null runtime override suppress inherited text verbosity injection",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2928",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] ignores OpenAI text verbosity params for non-OpenAI providers without warning",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2958] ignores OpenAI text verbosity params for non-OpenAI providers without warning",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2958",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] maps fast mode to priority service_tier for direct OpenAI Responses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:2992] maps fast mode to priority service_tier for direct OpenAI Responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:2992",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves caller-provided OpenAI payload fields when fast mode is enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3024] preserves caller-provided OpenAI payload fields when fast mode is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3024",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] maps MiniMax /fast to the matching highspeed model",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3046] maps MiniMax /fast to the matching highspeed model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3046",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] maps MiniMax M2.7 /fast to the matching highspeed model",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3062] maps MiniMax M2.7 /fast to the matching highspeed model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3062",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps explicit MiniMax highspeed models unchanged when /fast is off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3078] keeps explicit MiniMax highspeed models unchanged when /fast is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3078",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] maps xAI /fast to the current Grok fast model",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3094] maps xAI /fast to the current Grok fast model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3094",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps explicit xAI fast models unchanged when /fast is off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3110] keeps explicit xAI fast models unchanged when /fast is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3110",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects service_tier=auto for Anthropic fast mode on direct API-key models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3126] injects service_tier=auto for Anthropic fast mode on direct API-key models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3126",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects service_tier=standard_only for Anthropic fast mode off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3142] injects service_tier=standard_only for Anthropic fast mode off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3142",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves caller-provided Anthropic service_tier values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3158] preserves caller-provided Anthropic service_tier values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3158",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] injects configured Anthropic service_tier into direct Anthropic payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3176] injects configured Anthropic service_tier into direct Anthropic payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3176",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject configured Anthropic service_tier into OAuth-authenticated Anthropic payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3204] does not inject configured Anthropic service_tier into OAuth-authenticated Anthropic payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3204",
                "upstream it() block #93",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not warn for valid Anthropic serviceTier values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3235] does not warn for valid Anthropic serviceTier values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3235",
                "upstream it() block #94",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] accepts snake_case Anthropic service_tier params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3270] accepts snake_case Anthropic service_tier params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3270",
                "upstream it() block #95",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] lets explicit Anthropic service_tier override fast mode defaults",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3288] lets explicit Anthropic service_tier override fast mode defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3288",
                "upstream it() block #96",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject explicit Anthropic service_tier for OAuth auth even when fast mode is enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3317] does not inject explicit Anthropic service_tier for OAuth auth even when fast mode is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3317",
                "upstream it() block #97",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject Anthropic fast mode service_tier for OAuth auth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3349] does not inject Anthropic fast mode service_tier for OAuth auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3349",
                "upstream it() block #98",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject Anthropic standard_only service_tier for OAuth auth when fastMode is false",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3368] does not inject Anthropic standard_only service_tier for OAuth auth when fastMode is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3368",
                "upstream it() block #99",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject Anthropic fast mode service_tier for proxied base URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3387] does not inject Anthropic fast mode service_tier for proxied base URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3387",
                "upstream it() block #100",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject explicit Anthropic service_tier for proxied base URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3403] does not inject explicit Anthropic service_tier for proxied base URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3403",
                "upstream it() block #101",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] maps fast mode to priority service_tier for openai-codex responses",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3421] maps fast mode to priority service_tier for openai-codex responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3421",
                "upstream it() block #102",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject service_tier for non-openai providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3441] does not inject service_tier for non-openai providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3441",
                "upstream it() block #103",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject service_tier for proxied openai base URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3468] does not inject service_tier for proxied openai base URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3468",
                "upstream it() block #104",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not inject service_tier for openai provider routed to Azure base URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3495] does not inject service_tier for openai provider routed to Azure base URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3495",
                "upstream it() block #105",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] warns and skips service_tier injection for invalid serviceTier values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3522] warns and skips service_tier injection for invalid serviceTier values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3522",
                "upstream it() block #106",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not warn for valid OpenAI serviceTier values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3557] does not warn for valid OpenAI serviceTier values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3557",
                "upstream it() block #107",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not force store for OpenAI Responses routed through non-OpenAI base URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3591] does not force store for OpenAI Responses routed through non-OpenAI base URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3591",
                "upstream it() block #108",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not force store for OpenAI Responses when baseUrl is empty",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3605] does not force store for OpenAI Responses when baseUrl is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3605",
                "upstream it() block #109",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips store from payload for models that declare supportsStore=false",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3619] strips store from payload for models that declare supportsStore=false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3619",
                "upstream it() block #110",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips store from payload for non-OpenAI responses providers with supportsStore=false",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3640] strips store from payload for non-OpenAI responses providers with supportsStore=false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3640",
                "upstream it() block #111",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps existing context_management when stripping store for supportsStore=false models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3661] keeps existing context_management when stripping store for supportsStore=false models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3661",
                "upstream it() block #112",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] auto-injects OpenAI Responses context_management compaction for direct OpenAI models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3687] auto-injects OpenAI Responses context_management compaction for direct OpenAI models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3687",
                "upstream it() block #113",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] does not auto-inject OpenAI Responses context_management for Azure by default",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3707] does not auto-inject OpenAI Responses context_management for Azure by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3707",
                "upstream it() block #114",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] allows explicitly enabling OpenAI Responses context_management compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3721] allows explicitly enabling OpenAI Responses context_management compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3721",
                "upstream it() block #115",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] preserves existing context_management payload values",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3754] preserves existing context_management payload values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3754",
                "upstream it() block #116",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] allows disabling OpenAI Responses context_management compaction via model params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3772] allows disabling OpenAI Responses context_management compaction via model params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3772",
                "upstream it() block #117",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] strips prompt cache fields for non-OpenAI openai-responses endpoints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3836] strips prompt cache fields for non-OpenAI openai-responses endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3836",
                "upstream it() block #118",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps prompt cache fields for direct OpenAI openai-responses endpoints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3856] keeps prompt cache fields for direct OpenAI openai-responses endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3856",
                "upstream it() block #119",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps prompt cache fields for direct Azure OpenAI azure-openai-responses endpoints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3876] keeps prompt cache fields for direct Azure OpenAI azure-openai-responses endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3876",
                "upstream it() block #120",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts] keeps prompt cache fields when openai-responses baseUrl is omitted",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams.test.ts:3896] keeps prompt cache fields when openai-responses baseUrl is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams.test.ts:3896",
                "upstream it() block #121",

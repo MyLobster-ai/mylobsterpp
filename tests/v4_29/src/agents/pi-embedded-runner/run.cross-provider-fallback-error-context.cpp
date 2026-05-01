@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.cross-provider-fallback-error-context.test.ts] uses the current attempt assistant for fallback errors instead of stale session history",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.cross-provider-fallback-error-context.test.ts:94] uses the current attempt assistant for fallback errors instead of stale session history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.cross-provider-fallback-error-context.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.cross-provider-fallback-error-context.test.ts] falls back to the session assistant when compaction removes the current attempt slice",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.cross-provider-fallback-error-context.test.ts:126] falls back to the session assistant when compaction removes the current attempt slice",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.cross-provider-fallback-error-context.test.ts:126",
                "upstream it() block #1",

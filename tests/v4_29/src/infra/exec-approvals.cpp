@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] satisfies allowlist on exact match",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:36] satisfies allowlist on exact match",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] satisfies allowlist via safe bins",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:64] satisfies allowlist via safe bins",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] satisfies allowlist via auto-allow skills",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:96] satisfies allowlist via auto-allow skills",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] does not satisfy auto-allow skills for explicit relative paths",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:120] does not satisfy auto-allow skills for explicit relative paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:120",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] does not satisfy auto-allow skills when command resolution is missing",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:144] does not satisfy auto-allow skills when command resolution is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] returns empty segment details for chain misses",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:167] returns empty segment details for chain misses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:167",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts] aggregates segment satisfaction across chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals.test.ts:195] aggregates segment satisfaction across chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals.test.ts:195",
                "upstream it() block #6",

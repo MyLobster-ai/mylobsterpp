@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts] holds the first preview until minInitialChars is reached",
+TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts:6] holds the first preview until minInitialChars is reached",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/draft-stream.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts] sends a reply preview, then edits the same message on later flushes",
+TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts:26] sends a reply preview, then edits the same message on later flushes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/draft-stream.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts] suppresses mentions in preview creates and edits",
+TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts:60] suppresses mentions in preview creates and edits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/draft-stream.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts] stops previewing and warns once text exceeds the configured limit",
+TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts:91] stops previewing and warns once text exceeds the configured limit",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/draft-stream.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts] discardPending keeps an existing preview but ignores later updates",
+TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts:114] discardPending keeps an existing preview but ignores later updates",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/draft-stream.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts] seal keeps an existing preview and cancels pending final overwrites",
+TEST_CASE("v4.29 [extensions/discord/src/draft-stream.test.ts:138] seal keeps an existing preview and cancels pending final overwrites",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/draft-stream.test.ts:138",
                "upstream it() block #5",

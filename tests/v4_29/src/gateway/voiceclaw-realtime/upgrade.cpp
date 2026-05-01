@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts] keeps the realtime websocket payload cap aligned with gateway clients",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts:29] keeps the realtime websocket payload cap aligned with gateway clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/upgrade.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts] accepts the realtime path without the generic gateway websocket handler",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts:33] accepts the realtime path without the generic gateway websocket handler",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/upgrade.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts] closes idle realtime sockets that never send session.config",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts:62] closes idle realtime sockets that never send session.config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/upgrade.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts] uses gateway.handshakeTimeoutMs for idle realtime sockets",
+TEST_CASE("v4.29 [src/gateway/voiceclaw-realtime/upgrade.test.ts:79] uses gateway.handshakeTimeoutMs for idle realtime sockets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/voiceclaw-realtime/upgrade.test.ts:79",
                "upstream it() block #3",

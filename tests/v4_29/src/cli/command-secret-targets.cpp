@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] keeps static qr remote targets out of the registry path",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:64] keeps static qr remote targets out of the registry path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] keeps static model targets out of the registry path",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:69] keeps static model targets out of the registry path",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] includes memorySearch remote targets for agent runtime commands",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:76] includes memorySearch remote targets for agent runtime commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] includes channel targets for agent runtime when delivery needs them",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:85] includes channel targets for agent runtime when delivery needs them",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] includes gateway auth and channel targets for security audit",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:91] includes gateway auth and channel targets for security audit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] scopes channel targets to the requested channel",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:100] scopes channel targets to the requested channel",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:100",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] does not coerce missing accountId to default when channel is scoped",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:111] does not coerce missing accountId to default when channel is scoped",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:111",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] scopes allowed paths to channel globals + selected account",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:133] scopes allowed paths to channel globals + selected account",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:133",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts] keeps account-scoped allowedPaths as an empty set when scoped target paths are absent",
+TEST_CASE("v4.29 [src/cli/command-secret-targets.test.ts:160] keeps account-scoped allowedPaths as an empty set when scoped target paths are absent",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-secret-targets.test.ts:160",
                "upstream it() block #8",

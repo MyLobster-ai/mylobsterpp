@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] returns the default path when input is empty",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:10] returns the default path when input is empty",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] ensures a leading slash",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:15] ensures a leading slash",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] routes requests to a registered handler",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:30] routes requests to a registered handler",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] returns false when no handler matches",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:48] returns false when no handler matches",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] logs and ignores duplicate registrations",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:57] logs and ignores duplicate registrations",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] preserves registered handlers across module reloads",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:89] preserves registered handlers across module reloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:89",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts] recreates the shared registry if the global slot is corrupted",
+TEST_CASE("v4.29 [extensions/slack/src/http/registry.test.ts:109] recreates the shared registry if the global slot is corrupted",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/http/registry.test.ts:109",
                "upstream it() block #6",

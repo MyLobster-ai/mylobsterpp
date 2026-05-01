@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] edits the original interaction response after defer",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:25] edits the original interaction response after defer",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] uses with_components for Components V2 follow-ups",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:49] uses with_components for Components V2 follow-ups",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] uses with_components when editing deferred Components V2 replies",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:81] uses with_components when editing deferred Components V2 replies",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] edits the original component message after acknowledge",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:113] edits the original component message after acknowledge",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] rejects malformed interaction payloads at the boundary",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:142] rejects malformed interaction payloads at the boundary",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:142",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] preserves guild member user identity fields",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:151] preserves guild member user identity fields",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:151",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] reads submitted fields from Components V2 label wrappers",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:185] reads submitted fields from Components V2 label wrappers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:185",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] acknowledges modal submits as message updates",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:210] acknowledges modal submits as message updates",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:210",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts] edits the original modal source message after acknowledge",
+TEST_CASE("v4.29 [extensions/discord/src/internal/interactions.test.ts:229] edits the original modal source message after acknowledge",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/internal/interactions.test.ts:229",
                "upstream it() block #8",

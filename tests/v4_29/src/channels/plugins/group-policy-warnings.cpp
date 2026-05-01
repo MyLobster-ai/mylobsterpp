@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] composes warning collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:32] composes warning collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] projects warning collector inputs",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:42] projects warning collector inputs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] projects cfg-only warning collector inputs",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:51] projects cfg-only warning collector inputs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] projects cfg+accountId warning collector inputs",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:64] projects cfg+accountId warning collector inputs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:64",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] projects account-only warning collector inputs",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:80] projects account-only warning collector inputs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] projects account+cfg warning collector inputs",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:89] projects account+cfg warning collector inputs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:89",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds conditional warning collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:107] builds conditional warning collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:107",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] composes account-scoped warning collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:117] composes account-scoped warning collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:117",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds base open-policy warning",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:136] builds base open-policy warning",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:136",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds restrict-senders warning",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:148] builds restrict-senders warning",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:148",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds no-route-allowlist warning",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:161] builds no-route-allowlist warning",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:161",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds configure-route-allowlist warning",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:175] builds configure-route-allowlist warning",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:175",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] collects restrict-senders warning only for open policy",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:188] collects restrict-senders warning only for open policy",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:188",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] resolves allowlist-provider runtime policy before collecting restrict-senders warnings",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:210] resolves allowlist-provider runtime policy before collecting restrict-senders warnings",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:210",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] passes resolved allowlist-provider policy into the warning collector",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:251] passes resolved allowlist-provider policy into the warning collector",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:251",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] passes resolved open-provider policy into the warning collector",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:279] passes resolved open-provider policy into the warning collector",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:279",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] collects route allowlist warning variants",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:312] collects route allowlist warning variants",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:312",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] collects configured-route warning variants",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:345] collects configured-route warning variants",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:345",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds account-aware allowlist-provider restrict-senders collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:377] builds account-aware allowlist-provider restrict-senders collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:377",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds config-aware allowlist-provider collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:404] builds config-aware allowlist-provider collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:404",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds account-aware route-allowlist collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:430] builds account-aware route-allowlist collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:430",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds account-aware configured-route collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:469] builds account-aware configured-route collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:469",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds config-aware open-provider collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:506] builds config-aware open-provider collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:506",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds account-aware simple open warning collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:524] builds account-aware simple open warning collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:524",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts] builds direct account-aware open-policy restrict-senders collectors",
+TEST_CASE("v4.29 [src/channels/plugins/group-policy-warnings.test.ts:553] builds direct account-aware open-policy restrict-senders collectors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/group-policy-warnings.test.ts:553",
                "upstream it() block #24",

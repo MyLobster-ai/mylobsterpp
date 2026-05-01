@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] prefers the main conversation body",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:10] prefers the main conversation body",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] falls back to captions when conversation text is missing",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:17] falls back to captions when conversation text is missing",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] handles document captions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:24] handles document captions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] extracts WhatsApp contact cards",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:31] extracts WhatsApp contact cards",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] prefers FN over N in WhatsApp vcards",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:65] prefers FN over N in WhatsApp vcards",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] normalizes tel: prefixes in WhatsApp vcards",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:81] normalizes tel: prefixes in WhatsApp vcards",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:81",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] trims and skips empty WhatsApp vcard phones",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:96] trims and skips empty WhatsApp vcard phones",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:96",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] extracts multiple WhatsApp contact cards",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:113] extracts multiple WhatsApp contact cards",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:113",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] counts empty WhatsApp contact cards in array summaries",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:164] counts empty WhatsApp contact cards in array summaries",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:164",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] keeps prompt-like contact card fields out of the message body",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:186] keeps prompt-like contact card fields out of the message body",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:186",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] summarizes empty WhatsApp contact cards with a count",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:218] summarizes empty WhatsApp contact cards with a count",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:218",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] unwraps view-once v2 extension messages",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:227] unwraps view-once v2 extension messages",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:227",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] returns placeholders for media-only payloads",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:236] returns placeholders for media-only payloads",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:236",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] extracts WhatsApp location messages",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:249] extracts WhatsApp location messages",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:249",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts] extracts WhatsApp live location messages",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound.test.ts:272] extracts WhatsApp live location messages",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound.test.ts:272",
                "upstream it() block #14",

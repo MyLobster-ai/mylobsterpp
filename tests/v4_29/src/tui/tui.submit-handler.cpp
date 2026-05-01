@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] routes lines starting with ! to handleBangLine",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:9] routes lines starting with ! to handleBangLine",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] treats a lone ! as a normal message",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:20] treats a lone ! as a normal message",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] does not treat leading whitespace before ! as a bang command",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:30] does not treat leading whitespace before ! as a bang command",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] trims normal messages before sending and adding to history",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:40] trims normal messages before sending and adding to history",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] preserves internal newlines for multiline messages",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:49] preserves internal newlines for multiline messages",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] coalesces rapid single-line submits into one multiline submit when enabled",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:62] coalesces rapid single-line submits into one multiline submit when enabled",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:62",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] passes through immediately when disabled",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:88] passes through immediately when disabled",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:88",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] enables fallback on Windows Git Bash env",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:105] enables fallback on Windows Git Bash env",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:105",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] enables fallback on macOS iTerm",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:116] enables fallback on macOS iTerm",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:116",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] enables fallback on macOS Terminal.app",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:127] enables fallback on macOS Terminal.app",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:127",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts] disables fallback outside Windows",
+TEST_CASE("v4.29 [src/tui/tui.submit-handler.test.ts:138] disables fallback outside Windows",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui.submit-handler.test.ts:138",
                "upstream it() block #10",

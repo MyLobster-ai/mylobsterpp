@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts] treats session_status as mutating only when model override is provided",
+TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts:11] treats session_status as mutating only when model override is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-mutation.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts] builds stable fingerprints for mutating calls and omits read-only calls",
+TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts:21] builds stable fingerprints for mutating calls and omits read-only calls",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-mutation.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts] treats coding-tool path aliases as the same stable target",
+TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts:40] treats coding-tool path aliases as the same stable target",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-mutation.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts] exposes mutation state for downstream payload rendering",
+TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts:56] exposes mutation state for downstream payload rendering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-mutation.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts] matches tool actions by fingerprint and fails closed on asymmetric data",
+TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts:70] matches tool actions by fingerprint and fails closed on asymmetric data",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-mutation.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts] keeps legacy name-only mutating heuristics for payload fallback",
+TEST_CASE("v4.29 [src/agents/tool-mutation.test.ts:91] keeps legacy name-only mutating heuristics for payload fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tool-mutation.test.ts:91",
                "upstream it() block #5",

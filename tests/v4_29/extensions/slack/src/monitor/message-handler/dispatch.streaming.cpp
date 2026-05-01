@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] is enabled for partial mode when native streaming is on",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:13] is enabled for partial mode when native streaming is on",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] is disabled outside partial mode or when native streaming is off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:17] is disabled outside partial mode or when native streaming is off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] resolves the recipient team through users.info",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:26] resolves the recipient team through users.info",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] falls back to profile.team when users.info omits user.team_id",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:49] falls back to profile.team when users.info omits user.team_id",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] falls back to the monitor team when users.info cannot resolve a team",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:66] falls back to the monitor team when users.info cannot resolve a team",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:66",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] falls back to the monitor team when no user id is available",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:83] falls back to the monitor team when no user id is available",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:83",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] treats repeated text payloads on the same thread as duplicates",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:99] treats repeated text payloads on the same thread as duplicates",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:99",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] keeps explicit reply targets distinct from the shared thread target",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:109] keeps explicit reply targets distinct from the shared thread target",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:109",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] keeps distinct dispatch kinds separate for identical payloads",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:127] keeps distinct dispatch kinds separate for identical payloads",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:127",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] stays off-thread when replyToMode=off and message is not in a thread",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:139] stays off-thread when replyToMode=off and message is not in a thread",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:139",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] uses first-reply thread when replyToMode=first",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:149] uses first-reply thread when replyToMode=first",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:149",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] uses the message timestamp for top-level channel replies when replyToMode=all",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:159] uses the message timestamp for top-level channel replies when replyToMode=all",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:159",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] uses the existing incoming thread regardless of replyToMode",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:170] uses the existing incoming thread regardless of replyToMode",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:170",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] stays on for room messages when streaming mode is enabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:182] stays on for room messages when streaming mode is enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:182",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] stays off for top-level DMs without a reply thread",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:191] stays off for top-level DMs without a reply thread",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:191",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] allows DM preview when the reply is threaded",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:200] allows DM preview when the reply is threaded",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:200",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] keeps top-level DMs off even when replyToMode would create a reply thread",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:210] keeps top-level DMs off even when replyToMode would create a reply thread",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:210",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] stays off when preview streaming is disabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:230] stays off when preview streaming is disabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:230",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] stays off when native streaming is active",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:239] stays off when native streaming is active",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:239",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] turns on only for preview-only paths",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:248] turns on only for preview-only paths",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:248",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] disables block streaming when native Slack streaming is active",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:259] disables block streaming when native Slack streaming is active",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:259",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] disables block streaming when draft preview streaming is active",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:269] disables block streaming when draft preview streaming is active",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:269",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] respects explicit block streaming config when preview streaming is inactive",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:279] respects explicit block streaming config when preview streaming is inactive",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:279",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts] leaves block streaming policy unset when no channel override exists",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:296] leaves block streaming policy unset when no channel override exists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/dispatch.streaming.test.ts:296",
                "upstream it() block #23",

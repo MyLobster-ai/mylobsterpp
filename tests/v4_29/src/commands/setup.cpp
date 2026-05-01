@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/setup.test.ts] writes gateway.mode=local on first run",
+TEST_CASE("v4.29 [src/commands/setup.test.ts:31] writes gateway.mode=local on first run",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/setup.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/setup.test.ts] adds gateway.mode=local to an existing config without overwriting workspace",
+TEST_CASE("v4.29 [src/commands/setup.test.ts:51] adds gateway.mode=local to an existing config without overwriting workspace",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/setup.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/setup.test.ts] treats non-object config roots as empty config",
+TEST_CASE("v4.29 [src/commands/setup.test.ts:87] treats non-object config roots as empty config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/setup.test.ts:87",
                "upstream it() block #2",

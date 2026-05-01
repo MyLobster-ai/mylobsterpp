@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts] materializes inline ssh auth data into a temp config",
+TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts:30] materializes inline ssh auth data into a temp config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/ssh.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts] normalizes CRLF and escaped-newline private keys before writing temp files",
+TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts:58] normalizes CRLF and escaped-newline private keys before writing temp files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/ssh.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts] normalizes mixed real and escaped newlines in private keys",
+TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts:79] normalizes mixed real and escaped newlines in private keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/ssh.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts] wraps remote exec commands with env and workdir",
+TEST_CASE("v4.29 [src/agents/sandbox/ssh.test.ts:100] wraps remote exec commands with env and workdir",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/ssh.test.ts:100",
                "upstream it() block #3",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts] maps direct and group dm channel types",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts:5] maps direct and group dm channel types",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts] maps private channels to group",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts:10] maps private channels to group",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts] keeps public channels and unknown values as channel",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts:15] keeps public channels and unknown values as channel",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.channel-kind.test.ts:15",
                "upstream it() block #2",

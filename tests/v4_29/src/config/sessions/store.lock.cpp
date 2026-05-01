@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/sessions/store.lock.test.ts] derives session lock hold time from the store lock timeout",
+TEST_CASE("v4.29 [src/config/sessions/store.lock.test.ts:25] derives session lock hold time from the store lock timeout",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.lock.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/sessions/store.lock.test.ts] leaves the session lock hold time unset when store locking has no timeout",
+TEST_CASE("v4.29 [src/config/sessions/store.lock.test.ts:38] leaves the session lock hold time unset when store locking has no timeout",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/sessions/store.lock.test.ts:38",
                "upstream it() block #1",

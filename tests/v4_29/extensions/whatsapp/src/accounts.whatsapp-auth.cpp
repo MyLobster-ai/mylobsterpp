@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts] returns false when no auth exists",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:31] returns false when no auth exists",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts] returns true when legacy auth exists",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:35] returns true when legacy auth exists",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts] returns true when non-default auth exists",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:40] returns true when non-default auth exists",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts] includes authDir overrides",
+TEST_CASE("v4.29 [extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:45] includes authDir overrides",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/accounts.whatsapp-auth.test.ts:45",
                "upstream it() block #3",

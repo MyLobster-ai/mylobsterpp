@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts] filters paired nodes by active node token instead of sticky historical roles",
+TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts:10] filters paired nodes by active node token instead of sticky historical roles",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-catalog.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts] builds one merged node view for paired and live state",
+TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts:58] builds one merged node view for paired and live state",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-catalog.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts] surfaces node-pair metadata even when the node is offline",
+TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts:146] surfaces node-pair metadata even when the node is offline",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-catalog.test.ts:146",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts] uses the newest durable last-seen source for offline nodes",
+TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts:208] uses the newest durable last-seen source for offline nodes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-catalog.test.ts:208",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts] prefers the live command surface for connected nodes",
+TEST_CASE("v4.29 [src/gateway/node-catalog.test.ts:256] prefers the live command surface for connected nodes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/node-catalog.test.ts:256",
                "upstream it() block #4",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts] write path key matches resolveSessionStoreKey read-back",
+TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts:31] write path key matches resolveSessionStoreKey read-back",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.session-roundtrip.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts] write path key matches gateway canonical main session key",
+TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts:51] write path key matches gateway canonical main session key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.session-roundtrip.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts] cron session key matches gateway canonical main session key",
+TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts:75] cron session key matches gateway canonical main session key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.session-roundtrip.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts] group keys bypass main-alias canonicalization",
+TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts:93] group keys bypass main-alias canonicalization",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.session-roundtrip.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts] write and gateway canonical keys match when agent is main",
+TEST_CASE("v4.29 [src/infra/state-migrations.session-roundtrip.test.ts:118] write and gateway canonical keys match when agent is main",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/state-migrations.session-roundtrip.test.ts:118",
                "upstream it() block #4",

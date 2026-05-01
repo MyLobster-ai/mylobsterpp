@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/memory-embedding-provider.contract.test.ts] rejects non-memory plugins that did not declare the capability contract",
+TEST_CASE("v4.29 [src/plugins/contracts/memory-embedding-provider.contract.test.ts:9] rejects non-memory plugins that did not declare the capability contract",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/memory-embedding-provider.contract.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/memory-embedding-provider.contract.test.ts] allows non-memory plugins that declare the capability contract",
+TEST_CASE("v4.29 [src/plugins/contracts/memory-embedding-provider.contract.test.ts:37] allows non-memory plugins that declare the capability contract",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/memory-embedding-provider.contract.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/memory-embedding-provider.contract.test.ts] records the owning memory plugin id for registered adapters",
+TEST_CASE("v4.29 [src/plugins/contracts/memory-embedding-provider.contract.test.ts:62] records the owning memory plugin id for registered adapters",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/memory-embedding-provider.contract.test.ts:62",
                "upstream it() block #2",

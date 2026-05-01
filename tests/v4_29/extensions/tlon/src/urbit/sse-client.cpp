@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] sends subscriptions added after connect",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:27] sends subscriptions added after connect",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] queues subscriptions before connect",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:59] queues subscriptions before connect",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] normalizes cookie when updating",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:83] normalizes cookie when updating",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] handles simple cookie values",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:92] handles simple cookie values",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] has autoReconnect enabled by default",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:102] has autoReconnect enabled by default",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] can disable autoReconnect via options",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:107] can disable autoReconnect via options",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] stores onReconnect callback",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:114] stores onReconnect callback",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:114",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] resets reconnect attempts on successful connect",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:122] resets reconnect attempts on successful connect",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:122",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] tracks lastHeardEventId and ackThreshold",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:154] tracks lastHeardEventId and ackThreshold",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:154",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] generates unique channel ID",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:167] generates unique channel ID",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:167",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] normalizes cookie in constructor",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:174] normalizes cookie in constructor",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:174",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] sets default reconnection parameters",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:183] sets default reconnection parameters",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:183",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts] allows overriding reconnection parameters",
+TEST_CASE("v4.29 [extensions/tlon/src/urbit/sse-client.test.ts:191] allows overriding reconnection parameters",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/urbit/sse-client.test.ts:191",
                "upstream it() block #12",

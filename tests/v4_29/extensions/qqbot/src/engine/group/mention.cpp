@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns true when mentions contains is_you",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:11] returns true when mentions contains is_you",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns true for GROUP_AT_MESSAGE_CREATE even without mentions",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:15] returns true for GROUP_AT_MESSAGE_CREATE even without mentions",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] matches by mentionPatterns regex",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:19] matches by mentionPatterns regex",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:19",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns false when no signal matches",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:25] returns false when no signal matches",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:25",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] ignores invalid regex patterns gracefully",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:36] ignores invalid regex patterns gracefully",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:36",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] matches case-insensitively",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:41] matches case-insensitively",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:41",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] skips empty patterns",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:45] skips empty patterns",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:45",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns false when everything is empty",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:49] returns false when everything is empty",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:49",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] detects mentions array",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:55] detects mentions array",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:55",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] detects mention tags in text",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:59] detects mention tags in text",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:59",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns false when nothing mentioned",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:64] returns false when nothing mentioned",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:64",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] removes self-mention tag",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:71] removes self-mention tag",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:71",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] replaces other-user tag with @nickname",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:77] replaces other-user tag with @nickname",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:77",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] falls back to username when nickname missing",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:83] falls back to username when nickname missing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:83",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] leaves unknown mentions untouched",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:89] leaves unknown mentions untouched",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:89",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] handles <@!openid> variant",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:94] handles <@!openid> variant",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:94",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns the original text when no mentions array is provided",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:100] returns the original text when no mentions array is provided",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:100",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] escapes regex meta-characters in openid",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:105] escapes regex meta-characters in openid",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:105",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns false when refMsgIdx is missing",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:115] returns false when refMsgIdx is missing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:115",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns true when the referenced entry is a bot message",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:119] returns true when the referenced entry is a bot message",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:119",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns false when ref entry exists but is not a bot",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:128] returns false when ref entry exists but is not a bot",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:128",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts] returns false when ref entry is missing",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/mention.test.ts:137] returns false when ref entry is missing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/mention.test.ts:137",
                "upstream it() block #21",

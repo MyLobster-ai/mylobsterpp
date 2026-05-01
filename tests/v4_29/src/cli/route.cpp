@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] skips config guard for routed status --json commands",
+TEST_CASE("v4.29 [src/cli/route.test.ts:79] skips config guard for routed status --json commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] does not pass suppressDoctorStdout for routed non-json commands",
+TEST_CASE("v4.29 [src/cli/route.test.ts:86] does not pass suppressDoctorStdout for routed non-json commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] keeps logs routed to stderr for routed --json commands",
+TEST_CASE("v4.29 [src/cli/route.test.ts:96] keeps logs routed to stderr for routed --json commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] routes command-run logs to stderr for config-guard-skipping --json routes",
+TEST_CASE("v4.29 [src/cli/route.test.ts:116] routes command-run logs to stderr for config-guard-skipping --json routes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:116",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] does not route logs to stderr during plugin loading without --json",
+TEST_CASE("v4.29 [src/cli/route.test.ts:131] does not route logs to stderr during plugin loading without --json",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] routes status when root options precede the command",
+TEST_CASE("v4.29 [src/cli/route.test.ts:149] routes status when root options precede the command",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:149",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] respects OPENCLAW_HIDE_BANNER for routed commands",
+TEST_CASE("v4.29 [src/cli/route.test.ts:165] respects OPENCLAW_HIDE_BANNER for routed commands",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:165",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/route.test.ts] falls back before bootstrap when the route cannot parse the argv",
+TEST_CASE("v4.29 [src/cli/route.test.ts:173] falls back before bootstrap when the route cannot parse the argv",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/route.test.ts:173",
                "upstream it() block #7",

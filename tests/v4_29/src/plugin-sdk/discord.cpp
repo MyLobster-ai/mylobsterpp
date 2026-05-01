@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/discord.test.ts] exports the @openclaw/discord 2026.3.13 import surface",
+TEST_CASE("v4.29 [src/plugin-sdk/discord.test.ts:78] exports the @openclaw/discord 2026.3.13 import surface",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/discord.test.ts:78",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/discord.test.ts] forwards Discord component helpers through the facade",
+TEST_CASE("v4.29 [src/plugin-sdk/discord.test.ts:120] forwards Discord component helpers through the facade",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/discord.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/discord.test.ts] fills runtime config for Discord subagent auto-bind calls without cfg",
+TEST_CASE("v4.29 [src/plugin-sdk/discord.test.ts:154] fills runtime config for Discord subagent auto-bind calls without cfg",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/discord.test.ts:154",
                "upstream it() block #2",

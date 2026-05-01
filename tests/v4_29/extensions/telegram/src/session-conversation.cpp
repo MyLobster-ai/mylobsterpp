@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/session-conversation.test.ts] owns topic session parsing and parent fallback candidates",
+TEST_CASE("v4.29 [extensions/telegram/src/session-conversation.test.ts:5] owns topic session parsing and parent fallback candidates",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/session-conversation.test.ts:5",
                "upstream it() block #0",

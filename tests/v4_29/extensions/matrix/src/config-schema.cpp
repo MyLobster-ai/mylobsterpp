@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts SecretRef accessToken at top-level",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:5] accepts SecretRef accessToken at top-level",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts SecretRef password at top-level",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:13] accepts SecretRef password at top-level",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts dm threadReplies overrides",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:22] accepts dm threadReplies overrides",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts dm sessionScope overrides",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:34] accepts dm sessionScope overrides",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts room-level account assignments",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:46] accepts room-level account assignments",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:46",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts legacy room-level account assignments",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:64] accepts legacy room-level account assignments",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:64",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts quiet Matrix streaming mode",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:82] accepts quiet Matrix streaming mode",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:82",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts] accepts Matrix streaming preview tool progress config",
+TEST_CASE("v4.29 [extensions/matrix/src/config-schema.test.ts:91] accepts Matrix streaming preview tool progress config",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/config-schema.test.ts:91",
                "upstream it() block #7",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts] keeps consecutive user messages from different senders in separate groups",
+TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts:28] keeps consecutive user messages from different senders in separate groups",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/build-chat-items.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts] attaches lifted canvas previews to the nearest assistant turn",
+TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts:50] attaches lifted canvas previews to the nearest assistant turn",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/build-chat-items.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts] does not lift generic view handles from non-canvas payloads",
+TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts:94] does not lift generic view handles from non-canvas payloads",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/build-chat-items.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts] lifts streamed canvas toolresult blocks into the assistant bubble",
+TEST_CASE("v4.29 [ui/src/ui/chat/build-chat-items.test.ts:133] lifts streamed canvas toolresult blocks into the assistant bubble",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat/build-chat-items.test.ts:133",
                "upstream it() block #3",

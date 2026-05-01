@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] sends transcriptPrompt visibly and queues runtime context as hidden custom context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:139] sends transcriptPrompt visibly and queues runtime context as hidden custom context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:139",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] marks inter-session transcriptPrompt before submitting the visible prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:209] marks inter-session transcriptPrompt before submitting the visible prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:209",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] submits runtime-only context through system prompt without visible prompt",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:246] submits runtime-only context through system prompt without visible prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:246",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] skips blank visible prompts with replay history before provider submission",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:287] skips blank visible prompts with replay history before provider submission",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:287",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] keeps gateway model runs independent from agent context and session history",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:325] keeps gateway model runs independent from agent context and session history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:325",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] forwards sessionKey to bootstrap, assemble, and afterTurn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:397] forwards sessionKey to bootstrap, assemble, and afterTurn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:397",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] resolves bootstrap context before acquiring the session write lock",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:415] resolves bootstrap context before acquiring the session write lock",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:415",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] forwards modelId to assemble",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:436] forwards modelId to assemble",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:436",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] forwards availableTools and citationsMode to assemble",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:450] forwards availableTools and citationsMode to assemble",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:450",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] lets non-legacy engines opt into the active memory prompt helper",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:468] lets non-legacy engines opt into the active memory prompt helper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:468",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] forwards sessionKey to ingestBatch when afterTurn is absent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:503] forwards sessionKey to ingestBatch when afterTurn is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:503",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] forwards sessionKey to per-message ingest when ingestBatch is absent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:517] forwards sessionKey to per-message ingest when ingestBatch is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:517",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] forwards silentExpected to the embedded subscription",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:537] forwards silentExpected to the embedded subscription",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:537",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] skips maintenance when afterTurn fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:569] skips maintenance when afterTurn fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:569",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] runs startup maintenance for existing sessions even without bootstrap()",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:583] runs startup maintenance for existing sessions even without bootstrap()",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:583",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] builds prompt-cache retention, last-call usage, and cache-touch metadata",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:604] builds prompt-cache retention, last-call usage, and cache-touch metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:604",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] omits prompt-cache metadata when no cache data is available",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:632] omits prompt-cache metadata when no cache data is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:632",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] does not reuse a prior turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:636] does not reuse a prior turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:636",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] derives live loop prompt-cache info from the current attempt assistant",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:661] derives live loop prompt-cache info from the current attempt assistant",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:661",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] falls back to the persisted cache touch when loop usage has no cache metrics",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:695] falls back to the persisted cache touch when loop usage has no cache metrics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:695",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] derives a live cache touch timestamp for final afterTurn usage snapshots",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:725] derives a live cache touch timestamp for final afterTurn usage snapshots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:725",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] threads prompt-cache break observations into afterTurn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:743] threads prompt-cache break observations into afterTurn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:743",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] skips maintenance when ingestBatch fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:775] skips maintenance when ingestBatch fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:775",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] releases the session lock even when teardown cleanup throws",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:792] releases the session lock even when teardown cleanup throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:792",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] uses the resolved contextTokenBudget before model contextWindow",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:833] uses the resolved contextTokenBudget before model contextWindow",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:833",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] keeps mid-turn precheck out of the context-engine-owned compaction hook",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:873] keeps mid-turn precheck out of the context-engine-owned compaction hook",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:873",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts] recovers when Pi persists the mid-turn precheck as an assistant error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:900] recovers when Pi persists the mid-turn precheck as an assistant error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.spawn-workspace.context-engine.test.ts:900",
                "upstream it() block #26",

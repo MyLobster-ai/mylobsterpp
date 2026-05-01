@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts] returns ok when OpenAI auth endpoint is reachable",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts:12] returns ok when OpenAI auth endpoint is reachable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts] classifies TLS trust failures from fetch cause code",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts:20] classifies TLS trust failures from fetch cause code",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts] keeps generic TLS transport failures in network classification",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts:36] keeps generic TLS transport failures in network classification",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts] includes remediation commands for TLS failures",
+TEST_CASE("v4.29 [src/commands/oauth-tls-preflight.test.ts:56] includes remediation commands for TLS failures",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/oauth-tls-preflight.test.ts:56",
                "upstream it() block #3",

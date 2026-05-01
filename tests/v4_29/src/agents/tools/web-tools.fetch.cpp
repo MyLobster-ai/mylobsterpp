@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] wraps fetched text with external content markers",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:166] wraps fetched text with external content markers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:166",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] enforces maxChars after wrapping",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:195] enforces maxChars after wrapping",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:195",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] honors maxChars even when wrapper overhead exceeds limit",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:219] honors maxChars even when wrapper overhead exceeds limit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:219",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] decodes response bytes with a charset from Content-Type",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:234] decodes response bytes with a charset from Content-Type",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] decodes HTML using a meta http-equiv charset before extraction",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:255] decodes HTML using a meta http-equiv charset before extraction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:255",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] ignores charset text in unrelated meta content",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:288] ignores charset text in unrelated meta content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:288",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] caps response bytes and does not hang on endless streams",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:311] caps response bytes and does not hang on endless streams",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:311",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] keeps DNS pinning for untrusted web_fetch URLs even when HTTP_PROXY is configured",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:334] keeps DNS pinning for untrusted web_fetch URLs even when HTTP_PROXY is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:334",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] falls back to a configured provider when readability returns no content",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:359] falls back to a configured provider when readability returns no content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:359",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] throws when readability is disabled and firecrawl is unavailable",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:386] throws when readability is disabled and firecrawl is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:386",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] throws when readability is empty and the provider fallback yields no content",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:404] throws when readability is empty and the provider fallback yields no content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:404",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] falls back to basic HTML cleanup after readability and before giving up",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:432] falls back to basic HTML cleanup after readability and before giving up",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:432",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] uses the provider fallback when direct fetch fails",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:454] uses the provider fallback when direct fetch fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:454",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] wraps external content and clamps oversized maxChars",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:483] wraps external content and clamps oversized maxChars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:483",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] strips and truncates HTML from error responses",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:506] strips and truncates HTML from error responses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:506",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] strips HTML errors when content-type is missing",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:533] strips HTML errors when content-type is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:533",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts] surfaces provider fallback errors when direct fetch throws",
+TEST_CASE("v4.29 [src/agents/tools/web-tools.fetch.test.ts:554] surfaces provider fallback errors when direct fetch throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-tools.fetch.test.ts:554",
                "upstream it() block #16",

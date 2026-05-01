@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] formats unknown errors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:11] formats unknown errors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] classifies auth errors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:16] classifies auth errors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] classifies ContentStreamNotAllowed as permanent instead of auth",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:21] classifies ContentStreamNotAllowed as permanent instead of auth",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] classifies throttling errors and parses retry-after",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:40] classifies throttling errors and parses retry-after",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] classifies transient errors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:48] classifies transient errors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] classifies permanent 4xx errors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:55] classifies permanent 4xx errors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:55",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] provides actionable hints for common cases",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:62] provides actionable hints for common cases",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:62",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] returns true for revoked proxy TypeError",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:74] returns true for revoked proxy TypeError",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:74",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] returns false for non-TypeError errors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:83] returns false for non-TypeError errors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:83",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] returns false for unrelated TypeErrors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:87] returns false for unrelated TypeErrors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:87",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] returns false for non-error values",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:91] returns false for non-error values",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:91",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] returns primary result when no error occurs",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:98] returns primary result when no error occurs",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:98",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] uses fallback when proxy-revoked TypeError is thrown",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:107] uses fallback when proxy-revoked TypeError is thrown",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:107",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts] rethrows non-revoked errors",
+TEST_CASE("v4.29 [extensions/msteams/src/errors.test.ts:121] rethrows non-revoked errors",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/errors.test.ts:121",
                "upstream it() block #13",

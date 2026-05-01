@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts] preserves Unicode letters and numbers in wiki slugs",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts:11] preserves Unicode letters and numbers in wiki slugs",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/markdown.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts] keeps ASCII behavior unchanged",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts:17] keeps ASCII behavior unchanged",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/markdown.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts] retains combining marks so distinct titles do not collapse",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts:22] retains combining marks so distinct titles do not collapse",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/markdown.test.ts:22",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts] caps long Unicode slugs to a safe filename byte length",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts:28] caps long Unicode slugs to a safe filename byte length",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/markdown.test.ts:28",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts] caps composed wiki page filenames to a safe path-component length",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts:39] caps composed wiki page filenames to a safe path-component length",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/markdown.test.ts:39",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts] normalizes agent-facing people wiki metadata",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/markdown.test.ts:50] normalizes agent-facing people wiki metadata",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/markdown.test.ts:50",
                "upstream it() block #5",

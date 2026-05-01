@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts] finds direct window.open calls",
+TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts:5] finds direct window.open calls",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-raw-window-open.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts] finds globalThis.open calls",
+TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts:14] finds globalThis.open calls",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-raw-window-open.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts] ignores mentions in strings and comments",
+TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts:23] ignores mentions in strings and comments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-raw-window-open.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts] handles parenthesized and asserted window references",
+TEST_CASE("v4.29 [test/scripts/check-no-raw-window-open.test.ts:31] handles parenthesized and asserted window references",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-no-raw-window-open.test.ts:31",
                "upstream it() block #3",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] queued -> thinking -> tool -> done -> clear",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:43] queued -> thinking -> tool -> done -> clear",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] queued -> error -> restoreInitial",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:75] queued -> error -> restoreInitial",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] restoreInitial clears stall timers without re-adding queued emoji",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:97] restoreInitial clears stall timers without re-adding queued emoji",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] restoreInitial still applies initial emoji when it is only debounced",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:120] restoreInitial still applies initial emoji when it is only debounced",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:120",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] restoreInitial re-applies initial emoji after an in-flight debounced transition",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:147] restoreInitial re-applies initial emoji after an in-flight debounced transition",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:147",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] does nothing when disabled",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:184] does nothing when disabled",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:184",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts] coding tool resolves to coding emoji",
+TEST_CASE("v4.29 [src/channels/status-reactions.slack-lifecycle.test.ts:200] coding tool resolves to coding emoji",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/status-reactions.slack-lifecycle.test.ts:200",
                "upstream it() block #6",

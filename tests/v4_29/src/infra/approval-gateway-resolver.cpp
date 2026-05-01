@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts] routes exec approvals through exec.approval.resolve",
+TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts:21] routes exec approvals through exec.approval.resolve",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-gateway-resolver.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts] routes plugin approvals through plugin.approval.resolve",
+TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts:44] routes plugin approvals through plugin.approval.resolve",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-gateway-resolver.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts] falls back to plugin.approval.resolve only for not-found exec approvals when enabled",
+TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts:58] falls back to plugin.approval.resolve only for not-found exec approvals when enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-gateway-resolver.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts] does not fall back for non-not-found exec approval failures",
+TEST_CASE("v4.29 [src/infra/approval-gateway-resolver.test.ts:77] does not fall back for non-not-found exec approval failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-gateway-resolver.test.ts:77",
                "upstream it() block #3",

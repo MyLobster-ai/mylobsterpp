@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] aborts restart when config is invalid",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:75] aborts restart when config is invalid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] blocks restart from an older binary when config was written by a newer one",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:87] blocks restart from an older binary when config was written by a newer one",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] proceeds with restart when config is valid",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:100] proceeds with restart when config is valid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] proceeds with restart when config file does not exist",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:109] proceeds with restart when config file does not exist",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] proceeds with restart when snapshot read throws",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:118] proceeds with restart when snapshot read throws",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:118",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] aborts start when config is invalid",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:142] aborts start when config is invalid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] aborts before not-loaded start recovery when config is invalid",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:154] aborts before not-loaded start recovery when config is invalid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:154",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] proceeds with start when config is valid",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:176] proceeds with start when config is valid",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:176",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts] blocks stop from an older binary when config was written by a newer one",
+TEST_CASE("v4.29 [src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:199] blocks stop from an older binary when config was written by a newer one",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/lifecycle-core.config-guard.test.ts:199",
                "upstream it() block #8",

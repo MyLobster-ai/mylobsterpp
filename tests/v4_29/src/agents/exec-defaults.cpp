@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] does not advertise node routing when exec host is pinned to gateway",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:15] does not advertise node routing when exec host is pinned to gateway",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] does not advertise node routing when exec host is auto and sandbox is available",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:30] does not advertise node routing when exec host is auto and sandbox is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] keeps node routing available when exec host is auto without sandbox",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:49] keeps node routing available when exec host is auto without sandbox",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] honors session-level exec host overrides",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:68] honors session-level exec host overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] uses host approval defaults for gateway when exec policy is unset",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:87] uses host approval defaults for gateway when exec policy is unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:87",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] keeps sandbox deny by default when auto resolves to sandbox",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:107] keeps sandbox deny by default when auto resolves to sandbox",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts] blocks node advertising in helper calls when sandbox is available",
+TEST_CASE("v4.29 [src/agents/exec-defaults.test.ts:127] blocks node advertising in helper calls when sandbox is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/exec-defaults.test.ts:127",
                "upstream it() block #6",

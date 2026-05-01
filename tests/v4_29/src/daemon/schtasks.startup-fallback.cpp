@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] falls back to a Startup-folder launcher when schtasks create is denied",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:194] falls back to a Startup-folder launcher when schtasks create is denied",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:194",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] falls back to a Startup-folder launcher when schtasks create hangs",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:219] falls back to a Startup-folder launcher when schtasks create hangs",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:219",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] falls back to a Startup-folder launcher when schtasks availability is slow",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:232] falls back to a Startup-folder launcher when schtasks availability is slow",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:232",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] launches through the Startup-style launcher when schtasks /Run is accepted but never starts the task",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:247] launches through the Startup-style launcher when schtasks /Run is accepted but never starts the task",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:247",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] does not relaunch the task script when schtasks shows startup progress after /Run",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:258] does not relaunch the task script when schtasks shows startup progress after /Run",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:258",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] does not relaunch the task script when the scheduled task process is already starting",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:283] does not relaunch the task script when the scheduled task process is already starting",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:283",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] reports a fallback-launched gateway as running even when schtasks still says not-yet-run",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:327] reports a fallback-launched gateway as running even when schtasks still says not-yet-run",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:327",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] does not trust an unverified busy port when schtasks still says not-yet-run",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:345] does not trust an unverified busy port when schtasks still says not-yet-run",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:345",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] treats an installed Startup-folder launcher as loaded",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:367] treats an installed Startup-folder launcher as loaded",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:367",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] reports runtime from the gateway listener when using the Startup fallback",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:376] reports runtime from the gateway listener when using the Startup fallback",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:376",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] restarts the Startup fallback by killing the current pid and relaunching the entry",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:394] restarts the Startup fallback by killing the current pid and relaunching the entry",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:394",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] relaunches the task script when restart sees a scheduled-task run no-op",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:418] relaunches the task script when restart sees a scheduled-task run no-op",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:418",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts] kills the Startup fallback runtime even when the CLI env omits the gateway port",
+TEST_CASE("v4.29 [src/daemon/schtasks.startup-fallback.test.ts:449] kills the Startup fallback runtime even when the CLI env omits the gateway port",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.startup-fallback.test.ts:449",
                "upstream it() block #12",

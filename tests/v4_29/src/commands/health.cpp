@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/health.test.ts] outputs JSON from gateway",
+TEST_CASE("v4.29 [src/commands/health.test.ts:64] outputs JSON from gateway",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.test.ts] passes explicit gateway credentials through to the gateway call",
+TEST_CASE("v4.29 [src/commands/health.test.ts:100] passes explicit gateway credentials through to the gateway call",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.test.ts] formats per-account probe timings",
+TEST_CASE("v4.29 [src/commands/health.test.ts:128] formats per-account probe timings",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.test.ts] formats statusState without inferring from linked",
+TEST_CASE("v4.29 [src/commands/health.test.ts:164] formats statusState without inferring from linked",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.test.ts:164",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.test.ts] keeps non-rich output stable",
+TEST_CASE("v4.29 [src/commands/health.test.ts:183] keeps non-rich output stable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/health.test.ts] formats gateway connection details as indented key/value lines",
+TEST_CASE("v4.29 [src/commands/health.test.ts:190] formats gateway connection details as indented key/value lines",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/health.test.ts:190",
                "upstream it() block #5",

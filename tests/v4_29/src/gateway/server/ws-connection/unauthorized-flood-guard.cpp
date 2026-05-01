@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts] suppresses repeated unauthorized responses and closes after threshold",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:6] suppresses repeated unauthorized responses and closes after threshold",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts] resets counters",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:34] resets counters",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts] detects unauthorized role responses",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:51] detects unauthorized role responses",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts] ignores non-role authorization errors",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:57] ignores non-role authorization errors",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/unauthorized-flood-guard.test.ts:57",
                "upstream it() block #3",

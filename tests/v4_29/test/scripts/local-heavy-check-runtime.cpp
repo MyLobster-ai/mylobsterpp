@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] reenables local heavy-check policy for local wrapper entrypoints",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:38] reenables local heavy-check policy for local wrapper entrypoints",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] preserves local-check disablement in CI",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:49] preserves local-check disablement in CI",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] tightens local tsgo runs on constrained hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:63] tightens local tsgo runs on constrained hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] skips declaration transforms for no-emit tsgo checks",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:80] skips declaration transforms for no-emit tsgo checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] keeps explicit tsgo flags and Go env overrides intact when throttled",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:86] keeps explicit tsgo flags and Go env overrides intact when throttled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:86",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] keeps explicit tsgo declaration flags intact",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:110] keeps explicit tsgo declaration flags intact",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:110",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] defaults local tsgo to full-speed mode on roomy hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:119] defaults local tsgo to full-speed mode on roomy hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:119",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] uses the configured local tsgo build info file",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:133] uses the configured local tsgo build info file",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:133",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] avoids incremental cache reuse for ad hoc tsgo runs",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:152] avoids incremental cache reuse for ad hoc tsgo runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:152",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] allows forcing the throttled tsgo policy on roomy hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:162] allows forcing the throttled tsgo policy on roomy hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:162",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] allows forcing full-speed tsgo runs on roomy hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:185] allows forcing full-speed tsgo runs on roomy hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:185",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] skips the heavy-check lock for tsgo metadata commands",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:205] skips the heavy-check lock for tsgo metadata commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:205",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] keeps the heavy-check lock for real tsgo runs",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:214] keeps the heavy-check lock for real tsgo runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:214",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] allows forcing the tsgo lock back on",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:219] allows forcing the tsgo lock back on",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:219",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] serializes local oxlint runs onto one thread on constrained hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:228] serializes local oxlint runs onto one thread on constrained hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:228",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] defaults local oxlint to one thread on roomy hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:241] defaults local oxlint to one thread on roomy hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:241",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] honors an explicit oxlint thread count",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:254] honors an explicit oxlint thread count",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:254",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] allows forcing full-speed oxlint runs on roomy hosts",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:267] allows forcing full-speed oxlint runs on roomy hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:267",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] skips the heavy-check lock for explicit oxlint file targets",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:285] skips the heavy-check lock for explicit oxlint file targets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:285",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] skips the heavy-check lock for oxlint metadata commands",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:295] skips the heavy-check lock for oxlint metadata commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:295",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] keeps the heavy-check lock for directory targets and broad oxlint runs",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:305] keeps the heavy-check lock for directory targets and broad oxlint runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:305",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] allows forcing the oxlint lock back on",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:316] allows forcing the oxlint lock back on",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:316",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] reclaims stale local heavy-check locks from dead pids",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:328] reclaims stale local heavy-check locks from dead pids",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:328",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts] cleans up stale legacy test locks when acquiring the shared heavy-check lock",
+TEST_CASE("v4.29 [test/scripts/local-heavy-check-runtime.test.ts:357] cleans up stale legacy test locks when acquiring the shared heavy-check lock",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/local-heavy-check-runtime.test.ts:357",
                "upstream it() block #23",

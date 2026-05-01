@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts] renders catalog provenance and effective runtime tools",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:33] renders catalog provenance and effective runtime tools",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts] shows fallback warning when runtime catalog fails",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:117] shows fallback warning when runtime catalog fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts] closes expanded tool rows when the parent group collapses",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:133] closes expanded tool rows when the parent group collapses",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts] keeps the access toggle inside the collapsed tool summary",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:183] keeps the access toggle inside the collapsed tool summary",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts] uses section-level plugin provenance for tool details",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:222] uses section-level plugin provenance for tool details",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:222",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts] opens the collapsed group and tool row from a live tool chip",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:264] opens the collapsed group and tool row from a live tool chip",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-panels-tools-skills.browser.test.ts:264",
                "upstream it() block #5",

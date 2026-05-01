@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts] calls the in-process gateway cli helper without mutating process.env",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts:24] calls the in-process gateway cli helper without mutating process.env",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-rpc-client.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts] wraps request failures with gateway logs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts:66] wraps request failures with gateway logs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-rpc-client.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts] rejects new requests after stop",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts:79] rejects new requests after stop",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-rpc-client.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts] does not serialize requests across different gateway clients",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts:93] does not serialize requests across different gateway clients",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-rpc-client.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts] still serializes requests within the same gateway client",
+TEST_CASE("v4.29 [extensions/qa-lab/src/gateway-rpc-client.test.ts:145] still serializes requests within the same gateway client",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/gateway-rpc-client.test.ts:145",
                "upstream it() block #4",

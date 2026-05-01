@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/trajectory/cleanup.test.ts] removes adjacent trajectory sidecars for a deleted session",
+TEST_CASE("v4.29 [src/trajectory/cleanup.test.ts:35] removes adjacent trajectory sidecars for a deleted session",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/cleanup.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/cleanup.test.ts] skips removed sessions still referenced by surviving store rows",
+TEST_CASE("v4.29 [src/trajectory/cleanup.test.ts:58] skips removed sessions still referenced by surviving store rows",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/cleanup.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/trajectory/cleanup.test.ts] only removes external pointer targets that prove they belong to the session",
+TEST_CASE("v4.29 [src/trajectory/cleanup.test.ts:81] only removes external pointer targets that prove they belong to the session",
           "[v4_29][parity_gap][trajectory]") {
     PARITY_GAP("src/trajectory/cleanup.test.ts:81",
                "upstream it() block #2",

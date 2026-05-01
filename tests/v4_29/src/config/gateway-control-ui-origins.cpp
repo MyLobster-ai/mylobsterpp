@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts] seeds Fly-style runtime bind and port when config is empty",
+TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts:5] seeds Fly-style runtime bind and port when config is empty",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/gateway-control-ui-origins.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts] uses runtime bind before config bind to match gateway startup precedence",
+TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts:20] uses runtime bind before config bind to match gateway startup precedence",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/gateway-control-ui-origins.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts] uses runtime loopback before config non-loopback and avoids seeding",
+TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts:33] uses runtime loopback before config non-loopback and avoids seeding",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/gateway-control-ui-origins.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts] uses runtime port before config port to match gateway startup precedence",
+TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts:46] uses runtime port before config port to match gateway startup precedence",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/gateway-control-ui-origins.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts] keeps container fallback when runtime and config bind are unset",
+TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts:58] keeps container fallback when runtime and config bind are unset",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/gateway-control-ui-origins.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts] does not overwrite explicit allowed origins",
+TEST_CASE("v4.29 [src/config/gateway-control-ui-origins.test.ts:68] does not overwrite explicit allowed origins",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/gateway-control-ui-origins.test.ts:68",
                "upstream it() block #5",

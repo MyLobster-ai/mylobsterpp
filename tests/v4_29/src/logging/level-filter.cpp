@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] returns false for all levels when configured as silent",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:44] returns false for all levels when configured as silent",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] passes only fatal when configured as fatal",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:54] passes only fatal when configured as fatal",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] passes fatal and error when configured as error",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:64] passes fatal and error when configured as error",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] passes fatal, error, warn, info when configured as info",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:74] passes fatal, error, warn, info when configured as info",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] passes all levels when configured as trace",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:84] passes all levels when configured as trace",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:84",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] never treats silent as an emittable file level",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:94] never treats silent as an emittable file level",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] child logger inherits parent minLevel when no level is specified",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:101] child logger inherits parent minLevel when no level is specified",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:101",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] child logger uses its own level when explicitly specified",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:107] child logger uses its own level when explicitly specified",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:107",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] child logger does not default to minLevel=0 (allow-all) when no level given",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:113] child logger does not default to minLevel=0 (allow-all) when no level given",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/level-filter.test.ts] pino child logger propagates the parent minLevel",
+TEST_CASE("v4.29 [src/logging/level-filter.test.ts:120] pino child logger propagates the parent minLevel",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/level-filter.test.ts:120",
                "upstream it() block #9",

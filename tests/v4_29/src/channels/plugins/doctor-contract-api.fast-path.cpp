@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/doctor-contract-api.fast-path.test.ts] prefers the explicit doctor contract artifact for bundled channels",
+TEST_CASE("v4.29 [src/channels/plugins/doctor-contract-api.fast-path.test.ts:45] prefers the explicit doctor contract artifact for bundled channels",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/doctor-contract-api.fast-path.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/doctor-contract-api.fast-path.test.ts] treats empty explicit doctor contract rules as authoritative",
+TEST_CASE("v4.29 [src/channels/plugins/doctor-contract-api.fast-path.test.ts:61] treats empty explicit doctor contract rules as authoritative",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/doctor-contract-api.fast-path.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/doctor-contract-api.fast-path.test.ts] uses the explicit Telegram doctor contract artifact",
+TEST_CASE("v4.29 [src/channels/plugins/doctor-contract-api.fast-path.test.ts:77] uses the explicit Telegram doctor contract artifact",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/doctor-contract-api.fast-path.test.ts:77",
                "upstream it() block #2",

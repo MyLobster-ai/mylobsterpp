@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts:21] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-surface.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts:42] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-surface.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts] writes open policy state to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts:49] writes open policy state to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-surface.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts] uses configured defaultAccount for omitted setup configured state",
+TEST_CASE("v4.29 [extensions/discord/src/setup-surface.test.ts:74] uses configured defaultAccount for omitted setup configured state",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-surface.test.ts:74",
                "upstream it() block #3",

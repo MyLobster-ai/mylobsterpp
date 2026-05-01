@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts] resolves plugin STT config and falls back to provider credentials",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts:12] resolves plugin STT config and falls back to provider credentials",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/stt.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts] falls back to framework audio model config when plugin STT is disabled",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts:39] falls back to framework audio model config when plugin STT is disabled",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/stt.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts] returns null when no usable STT credentials are configured",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts:63] returns null when no usable STT credentials are configured",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/stt.test.ts:63",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts] posts audio to OpenAI-compatible transcription endpoint",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/stt.test.ts:70] posts audio to OpenAI-compatible transcription endpoint",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/stt.test.ts:70",
                "upstream it() block #3",

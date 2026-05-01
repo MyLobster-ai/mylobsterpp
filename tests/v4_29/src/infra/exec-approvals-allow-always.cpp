@@ -5,271 +5,271 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] returns direct executable paths for non-shell segments",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:185] returns direct executable paths for non-shell segments",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:185",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] does not persist interpreter-like executables for allow-always",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:205] does not persist interpreter-like executables for allow-always",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:205",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] persists benign awk interpreters when strict inline-eval is enabled",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:225] persists benign awk interpreters when strict inline-eval is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:225",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] keeps Windows strict inline-eval interpreter approvals argv-bound",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:254] keeps Windows strict inline-eval interpreter approvals argv-bound",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:254",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] keeps inline awk programs out of allow-always persistence in strict inline-eval mode",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:299] keeps inline awk programs out of allow-always persistence in strict inline-eval mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:299",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] unwraps shell wrappers and persists the inner executable instead",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:318] unwraps shell wrappers and persists the inner executable instead",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:318",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] extracts all inner binaries from shell chains and deduplicates",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:346] extracts all inner binaries from shell chains and deduplicates",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:346",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] persists shell script paths for wrapper invocations without inline commands",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:374] persists shell script paths for wrapper invocations without inline commands",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:374",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] matches persisted shell script paths through dispatch wrappers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:400] matches persisted shell script paths through dispatch wrappers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:400",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects shell rc and init-file options as persisted or allowlisted script paths",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:414] rejects shell rc and init-file options as persisted or allowlisted script paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:414",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects shell rc and init-file equals options as persisted or allowlisted script paths",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:427] rejects shell rc and init-file equals options as persisted or allowlisted script paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:427",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects shell-wrapper positional argv carriers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:440] rejects shell-wrapper positional argv carriers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:440",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects exec positional argv carriers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:450] rejects exec positional argv carriers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:450",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects positional argv carriers when $0 is single-quoted",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:460] rejects positional argv carriers when $0 is single-quoted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:460",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects positional argv carriers when exec is separated from $0 by a newline",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:470] rejects positional argv carriers when exec is separated from $0 by a newline",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:470",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects positional argv carriers when inline command contains extra shell operations",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:481] rejects positional argv carriers when inline command contains extra shell operations",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:481",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] does not treat inline shell commands as persisted script paths",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:510] does not treat inline shell commands as persisted script paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:510",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] does not treat stdin shell mode as a persisted script path",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:524] does not treat stdin shell mode as a persisted script path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:524",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] does not persist broad shell binaries when no inner command can be derived",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:538] does not persist broad shell binaries when no inner command can be derived",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:538",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] detects shell wrappers even when unresolved executableName is a full path",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:558] detects shell wrappers even when unresolved executableName is a full path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:558",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] unwraps known dispatch wrappers before shell wrappers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:585] unwraps known dispatch wrappers before shell wrappers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:585",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] unwraps time wrappers and persists the inner executable instead",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:613] unwraps time wrappers and persists the inner executable instead",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:613",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] unwraps busybox/toybox shell applets and persists inner executables",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:641] unwraps busybox/toybox shell applets and persists inner executables",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:641",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] fails closed for unsupported busybox/toybox applets",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:672] fails closed for unsupported busybox/toybox applets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:672",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] fails closed for unresolved dispatch wrappers",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:699] fails closed for unresolved dispatch wrappers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:699",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for busybox shell applets",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:719] prevents allow-always bypass for busybox shell applets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:719",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for caffeinate wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:737] prevents allow-always bypass for caffeinate wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:737",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for dispatch-wrapper + shell-wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:754] prevents allow-always bypass for dispatch-wrapper + shell-wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:754",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for sandbox-exec wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:771] prevents allow-always bypass for sandbox-exec wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:771",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for time wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:789] prevents allow-always bypass for time wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:789",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for macOS dispatch-wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:806] prevents allow-always bypass for macOS dispatch-wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:806",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for awk interpreters",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:830] prevents allow-always bypass for awk interpreters",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:830",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for shell-carried awk interpreters",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:866] prevents allow-always bypass for shell-carried awk interpreters",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:866",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] prevents allow-always bypass for script wrapper chains",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:894] prevents allow-always bypass for script wrapper chains",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:894",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] does not persist comment-tailed payload paths that never execute",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:911] does not persist comment-tailed payload paths that never execute",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:911",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects positional carrier when carried executable is a dispatch wrapper",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:928] rejects positional carrier when carried executable is a dispatch wrapper",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:928",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] rejects positional carrier when carried executable is a shell wrapper",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:956] rejects positional carrier when carried executable is a shell wrapper",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:956",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts] allows positional carriers for unknown carried executables when explicitly allowlisted",
+TEST_CASE("v4.29 [src/infra/exec-approvals-allow-always.test.ts:984] allows positional carriers for unknown carried executables when explicitly allowlisted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-allow-always.test.ts:984",
                "upstream it() block #37",

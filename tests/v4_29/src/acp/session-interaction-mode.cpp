@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns interactive when entry is undefined",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:12] returns interactive when entry is undefined",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns parent-owned-background for persistent sessions with spawnedBy set",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:16] returns parent-owned-background for persistent sessions with spawnedBy set",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns interactive for persistent ACP sessions without parent linkage",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:25] returns interactive for persistent ACP sessions without parent linkage",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns parent-owned-background for oneshot sessions with spawnedBy set",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:33] returns parent-owned-background for oneshot sessions with spawnedBy set",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns parent-owned-background for oneshot sessions with parentSessionKey set",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:42] returns parent-owned-background for oneshot sessions with parentSessionKey set",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns interactive for a oneshot session without any parent linkage",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:51] returns interactive for a oneshot session without any parent linkage",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns true when requester matches spawnedBy",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:67] returns true when requester matches spawnedBy",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:67",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns true when requester matches parentSessionKey",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:76] returns true when requester matches parentSessionKey",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:76",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns false when requester is a different session (not the parent)",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:85] returns false when requester is a different session (not the parent)",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:85",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns false when requester key is missing",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:89] returns false when requester key is missing",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:89",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] returns true when target is parent-owned persistent ACP session",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:94] returns true when target is parent-owned persistent ACP session",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:94",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts] delegates to isParentOwnedBackgroundAcpSession for target-only checks",
+TEST_CASE("v4.29 [src/acp/session-interaction-mode.test.ts:103] delegates to isParentOwnedBackgroundAcpSession for target-only checks",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-interaction-mode.test.ts:103",
                "upstream it() block #11",

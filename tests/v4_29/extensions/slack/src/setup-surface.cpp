@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts] prompts to enable interactive replies for newly configured Slack accounts",
+TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts:31] prompts to enable interactive replies for newly configured Slack accounts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/setup-surface.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts] auto-enables interactive replies for quickstart defaults without prompting",
+TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts:55] auto-enables interactive replies for quickstart defaults without prompting",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/setup-surface.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts] reads the named-account DM policy instead of the channel root",
+TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts:79] reads the named-account DM policy instead of the channel root",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/setup-surface.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts] reports account-scoped config keys for named accounts",
+TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts:101] reports account-scoped config keys for named accounts",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/setup-surface.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts] writes open policy state to the named account and preserves inherited allowFrom with ",
+TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts:108] writes open policy state to the named account and preserves inherited allowFrom with ",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/setup-surface.test.ts:108",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts] uses configured defaultAccount for omitted setup configured state",
+TEST_CASE("v4.29 [extensions/slack/src/setup-surface.test.ts:134] uses configured defaultAccount for omitted setup configured state",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/setup-surface.test.ts:134",
                "upstream it() block #5",

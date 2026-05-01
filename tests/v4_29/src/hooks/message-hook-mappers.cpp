@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] derives canonical inbound context with body precedence and group metadata",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:88] derives canonical inbound context with body precedence and group metadata",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] supports explicit content/messageId overrides",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:100] supports explicit content/messageId overrides",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] preserves multi-attachment arrays for inbound claim metadata",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:110] preserves multi-attachment arrays for inbound claim metadata",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] maps canonical inbound context to plugin/internal received payloads",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:145] maps canonical inbound context to plugin/internal received payloads",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] passes frozen trace copies to inbound claim and sent plugin hooks",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:216] passes frozen trace copies to inbound claim and sent plugin hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] uses channel plugin claim resolvers for grouped conversations",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:249] uses channel plugin claim resolvers for grouped conversations",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:249",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] uses channel plugin claim resolvers for direct-message conversations",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:279] uses channel plugin claim resolvers for direct-message conversations",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] maps transcribed and preprocessed internal payloads",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:310] maps transcribed and preprocessed internal payloads",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:310",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts] maps sent context consistently for plugin/internal hooks",
+TEST_CASE("v4.29 [src/hooks/message-hook-mappers.test.ts:325] maps sent context consistently for plugin/internal hooks",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/message-hook-mappers.test.ts:325",
                "upstream it() block #8",

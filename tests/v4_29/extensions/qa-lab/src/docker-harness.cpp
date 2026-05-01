@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/docker-harness.test.ts] writes compose, env, config, and workspace scaffold files",
+TEST_CASE("v4.29 [extensions/qa-lab/src/docker-harness.test.ts:16] writes compose, env, config, and workspace scaffold files",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/docker-harness.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/docker-harness.test.ts] builds the reusable QA image with bundled QA extensions",
+TEST_CASE("v4.29 [extensions/qa-lab/src/docker-harness.test.ts:103] builds the reusable QA image with bundled QA extensions",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/docker-harness.test.ts:103",
                "upstream it() block #1",

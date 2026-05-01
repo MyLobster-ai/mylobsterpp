@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] auto-selects the first registered provider when streaming.provider is unset",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:162] auto-selects the first registered provider when streaming.provider is unset",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] uses forwarded IPs only when forwarding trust is explicitly enabled",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:232] uses forwarded IPs only when forwarding trust is explicitly enabled",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:232",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] does not trust forwarded IPs when only allowedHosts is configured",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:251] does not trust forwarded IPs when only allowedHosts is configured",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:251",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] ignores spoofed forwarded IPs from untrusted remotes",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:271] ignores spoofed forwarded IPs from untrusted remotes",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:271",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] walks the forwarded chain from the right to support trusted multi-proxy deployments",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:291] walks the forwarded chain from the right to support trusted multi-proxy deployments",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:291",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] ignores forwarded IPs when no trusted proxy is configured",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:310] ignores forwarded IPs when no trusted proxy is configured",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:310",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] matches trusted proxies when the remote uses an IPv4-mapped form",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:331] matches trusted proxies when the remote uses an IPv4-mapped form",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:331",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] ends calls older than staleCallReaperSeconds",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:454] ends calls older than staleCallReaperSeconds",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:454",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] skips calls that are younger than the threshold",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:463] skips calls that are younger than the threshold",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:463",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] does not run when staleCallReaperSeconds is disabled",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:472] does not run when staleCallReaperSeconds is disabled",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:472",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] does not reap calls that reached the answered state",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:490] does not reap calls that reached the answered state",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:490",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] rejects lookalike webhook paths that only match by prefix",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:505] rejects lookalike webhook paths that only match by prefix",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:505",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] acknowledges replayed webhook requests and skips event side effects",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:538] acknowledges replayed webhook requests and skips event side effects",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:538",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] returns realtime TwiML for replayed inbound twilio webhooks",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:573] returns realtime TwiML for replayed inbound twilio webhooks",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:573",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] rejects non-allowlisted inbound realtime calls before creating a stream token",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:682] rejects non-allowlisted inbound realtime calls before creating a stream token",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:682",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] creates a realtime stream only for allowlisted inbound callers",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:734] creates a realtime stream only for allowlisted inbound callers",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:734",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] passes verified request key from verifyWebhook into parseWebhookEvent",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:786] passes verified request key from verifyWebhook into parseWebhookEvent",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:786",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] rejects requests when verification succeeds without a request key",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:835] rejects requests when verification succeeds without a request key",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:835",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] rejects missing signature headers before reading the request body",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:859] rejects missing signature headers before reading the request body",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:859",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] uses the shared pre-auth body cap before verification",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:886] uses the shared pre-auth body cap before verification",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:886",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] limits concurrent pre-auth requests per source IP",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:914] limits concurrent pre-auth requests per source IP",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:914",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] limits missing remote addresses with a shared fallback bucket",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:973] limits missing remote addresses with a shared fallback bucket",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:973",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] preserves explicit empty provider response bodies",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1049] preserves explicit empty provider response bodies",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1049",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] returns existing URL when start() is called twice without stop()",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1075] returns existing URL when start() is called twice without stop()",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1075",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] supports concurrent start() calls without double-binding the port",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1095] supports concurrent start() calls without double-binding the port",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1095",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] can start again after stop()",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1110] can start again after stop()",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1110",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] stop() is safe to call when server was never started",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1125] stop() is safe to call when server was never started",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1125",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] ignores stale stream disconnects after reconnect and only hangs up on current stream disconnect",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1144] ignores stale stream disconnects after reconnect and only hangs up on current stream disconnect",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1144",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] suppresses barge-in clear while outbound conversation initial message is pending",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1234] suppresses barge-in clear while outbound conversation initial message is pending",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1234",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts] keeps barge-in clear enabled for inbound calls",
+TEST_CASE("v4.29 [extensions/voice-call/src/webhook.test.ts:1316] keeps barge-in clear enabled for inbound calls",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/webhook.test.ts:1316",
                "upstream it() block #29",

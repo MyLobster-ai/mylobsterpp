@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/daemon-install.test.ts] does not pass plaintext token for SecretRef-managed install",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/daemon-install.test.ts:56] does not pass plaintext token for SecretRef-managed install",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/daemon-install.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/daemon-install.test.ts] aborts with actionable error when SecretRef is unresolved",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/daemon-install.test.ts:83] aborts with actionable error when SecretRef is unresolved",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/daemon-install.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/daemon-install.test.ts] returns a skipped result when Linux user systemd is unavailable",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/daemon-install.test.ts:105] returns a skipped result when Linux user systemd is unavailable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/daemon-install.test.ts:105",
                "upstream it() block #2",

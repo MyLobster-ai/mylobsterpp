@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts] maps deprecated provider and twilio.from fields into canonical config",
+TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts:12] maps deprecated provider and twilio.from fields into canonical config",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config-compat.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts] moves legacy streaming OpenAI fields into streaming.providers.openai",
+TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts:25] moves legacy streaming OpenAI fields into streaming.providers.openai",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config-compat.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts] reports doctor-oriented legacy issues and warnings",
+TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts:55] reports doctor-oriented legacy issues and warnings",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config-compat.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts] returns doctor migration change lines",
+TEST_CASE("v4.29 [extensions/voice-call/src/config-compat.test.ts:104] returns doctor migration change lines",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config-compat.test.ts:104",
                "upstream it() block #3",

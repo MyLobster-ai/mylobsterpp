@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/status/status-message.test.ts] shows fast mode when enabled",
+TEST_CASE("v4.29 [src/status/status-message.test.ts:5] shows fast mode when enabled",
           "[v4_29][parity_gap][status]") {
     PARITY_GAP("src/status/status-message.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/status/status-message.test.ts] hides fast mode when disabled",
+TEST_CASE("v4.29 [src/status/status-message.test.ts:9] hides fast mode when disabled",
           "[v4_29][parity_gap][status]") {
     PARITY_GAP("src/status/status-message.test.ts:9",
                "upstream it() block #1",

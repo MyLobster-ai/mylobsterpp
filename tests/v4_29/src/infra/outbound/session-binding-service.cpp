@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] normalizes conversation refs and infers current placement",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:88] normalizes conversation refs and infers current placement",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:88",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] supports explicit child placement when adapter advertises it",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:122] supports explicit child placement when adapter advertises it",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:122",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] returns structured errors when adapter is unavailable",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:146] returns structured errors when adapter is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:146",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] returns structured errors for unsupported placement",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:162] returns structured errors for unsupported placement",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:162",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] returns structured errors when adapter bind fails",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:194] returns structured errors when adapter bind fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:194",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] reports adapter capabilities for command preflight messaging",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:218] reports adapter capabilities for command preflight messaging",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:218",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] falls back to generic current-conversation bindings for registered channels",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:254] falls back to generic current-conversation bindings for registered channels",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:254",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] supports registered plugin channels through the generic current-conversation path",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:342] supports registered plugin channels through the generic current-conversation path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:342",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] does not advertise generic plugin bindings from a stale global registry when the active channel registry is empty",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:396] does not advertise generic plugin bindings from a stale global registry when the active channel registry is empty",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:396",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] keeps the newest live adapter authoritative until it unregisters",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:440] keeps the newest live adapter authoritative until it unregisters",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:440",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts] shares registered adapters across duplicate module instances",
+TEST_CASE("v4.29 [src/infra/outbound/session-binding-service.test.ts:502] shares registered adapters across duplicate module instances",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/session-binding-service.test.ts:502",
                "upstream it() block #10",

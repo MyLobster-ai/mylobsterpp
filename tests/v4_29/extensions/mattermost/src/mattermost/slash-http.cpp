@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts] rejects non-POST methods",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts:82] rejects non-POST methods",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts] rejects malformed payloads",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts:99] rejects malformed payloads",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts] fails closed when no command tokens are registered",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts:115] fails closed when no command tokens are registered",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.test.ts:115",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts] rejects unknown command tokens",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts:125] rejects unknown command tokens",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts] returns 408 when the request body stalls",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/slash-http.test.ts:135] returns 408 when the request body stalls",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/slash-http.test.ts:135",
                "upstream it() block #4",

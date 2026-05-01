@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts] loads snapshots for copilot gemini codex and xiaomi",
+TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts:26] loads snapshots for copilot gemini codex and xiaomi",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.load.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts] returns empty provider list when auth resolves to none",
+TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts:96] returns empty provider list when auth resolves to none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.load.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts] returns unsupported provider snapshots for unknown provider ids",
+TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts:102] returns unsupported provider snapshots for unknown provider ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.load.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts] filters errors that are marked as ignored",
+TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts:113] filters errors that are marked as ignored",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.load.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts] throws when fetch is unavailable",
+TEST_CASE("v4.29 [src/infra/provider-usage.load.test.ts:136] throws when fetch is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/provider-usage.load.test.ts:136",
                "upstream it() block #4",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] normalizes LM Studio base URLs",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:83] normalizes LM Studio base URLs",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:83",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] marks configured LM Studio endpoints as trusted private-network model targets",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:94] marks configured LM Studio endpoints as trusted private-network model targets",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:94",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] resolves reasoning capability for supported and unsupported options",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:125] resolves reasoning capability for supported and unsupported options",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:125",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] maps LM Studio native reasoning options into OpenAI-compatible effort compat",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:149] maps LM Studio native reasoning options into OpenAI-compatible effort compat",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] discovers llm models and maps metadata",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:183] discovers llm models and maps metadata",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] skips model load when already loaded",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:271] skips model load when already loaded",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:271",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] reloads model when requested context length exceeds the loaded window",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:287] reloads model when requested context length exceeds the loaded window",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:287",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] reloads model to the clamped default target when already loaded below the default window",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:306] reloads model to the clamped default target when already loaded below the default window",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:306",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] loads model with clamped context length and merged headers",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:324] loads model with clamped context length and merged headers",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:324",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] uses requested context length when provided for model load",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:360] uses requested context length when provided for model load",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:360",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts] throws when model discovery fails",
+TEST_CASE("v4.29 [extensions/lmstudio/src/models.test.ts:375] throws when model discovery fails",
           "[v4_29][parity_gap][lmstudio]") {
     PARITY_GAP("extensions/lmstudio/src/models.test.ts:375",
                "upstream it() block #10",

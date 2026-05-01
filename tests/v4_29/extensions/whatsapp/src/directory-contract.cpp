@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/directory-contract.test.ts] lists peers/groups from config",
+TEST_CASE("v4.29 [extensions/whatsapp/src/directory-contract.test.ts:13] lists peers/groups from config",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/directory-contract.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/directory-contract.test.ts] applies query and limit filtering for config-backed directories",
+TEST_CASE("v4.29 [extensions/whatsapp/src/directory-contract.test.ts:39] applies query and limit filtering for config-backed directories",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/directory-contract.test.ts:39",
                "upstream it() block #1",

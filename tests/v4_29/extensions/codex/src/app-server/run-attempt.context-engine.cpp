@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts] bootstraps and assembles non-legacy context before the Codex turn starts",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts:209] bootstraps and assembles non-legacy context before the Codex turn starts",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.context-engine.test.ts:209",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts] calls afterTurn with the mirrored transcript and runs turn maintenance",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts:270] calls afterTurn with the mirrored transcript and runs turn maintenance",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.context-engine.test.ts:270",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts] reloads mirrored history after bootstrap mutates the session transcript",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts:305] reloads mirrored history after bootstrap mutates the session transcript",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.context-engine.test.ts:305",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts] logs assemble failures as a formatted message instead of the raw error object",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts:362] logs assemble failures as a formatted message instead of the raw error object",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.context-engine.test.ts:362",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts] falls back to ingestBatch and skips turn maintenance on prompt failure",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/run-attempt.context-engine.test.ts:397] falls back to ingestBatch and skips turn maintenance on prompt failure",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/run-attempt.context-engine.test.ts:397",
                "upstream it() block #4",

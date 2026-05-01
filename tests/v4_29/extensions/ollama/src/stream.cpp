@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] includes thinking block when response has thinking field",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:38] includes thinking block when response has thinking field",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] includes thinking block when response has reasoning field",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:49] includes thinking block when response has reasoning field",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] prefers thinking over reasoning when both are present",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:60] prefers thinking over reasoning when both are present",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] omits thinking block when no thinking or reasoning field",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:70] omits thinking block when no thinking or reasoning field",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] omits thinking block when thinking field is empty",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:79] omits thinking block when thinking field is empty",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:79",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] emits thinking_start, thinking_delta, and thinking_end events for thinking content",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:133] emits thinking_start, thinking_delta, and thinking_end events for thinking content",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:133",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] streams without thinking events when no thinking content is present",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:197] streams without thinking events when no thinking content is present",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:197",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts] uses generic stream timeout for Ollama request timeout",
+TEST_CASE("v4.29 [extensions/ollama/src/stream.test.ts:229] uses generic stream timeout for Ollama request timeout",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/stream.test.ts:229",
                "upstream it() block #7",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] classifies interpreter-like safe bin ",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:35] classifies interpreter-like safe bin ",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] lists interpreter-like bins from a mixed set",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:40] lists interpreter-like bins from a mixed set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] merges and normalizes safe-bin profile fixtures",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:54] merges and normalizes safe-bin profile fixtures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] computes unprofiled interpreter entries separately from custom profiled bins",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:78] computes unprofiled interpreter entries separately from custom profiled bins",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] prefers local safe bins over global ones when both are configured",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:94] prefers local safe bins over global ones when both are configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] merges explicit safe-bin trusted dirs from global and local config",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:107] merges explicit safe-bin trusted dirs from global and local config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] does not trust package-manager bin dirs unless explicitly configured",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:123] does not trust package-manager bin dirs unless explicitly configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:123",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts] emits runtime warning when explicitly trusted dir is writable",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-runtime-policy.test.ts:137] emits runtime warning when explicitly trusted dir is writable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-runtime-policy.test.ts:137",
                "upstream it() block #7",

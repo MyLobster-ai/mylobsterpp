@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts] sessions.reset emits internal command hook with reason",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts:21] sessions.reset emits internal command hook with reason",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-hooks.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts] sessions.reset emits before_reset hook with transcript context",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts:69] sessions.reset emits before_reset hook with transcript context",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-hooks.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts] sessions.reset emits enriched session_end and session_start hooks",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts:120] sessions.reset emits enriched session_end and session_start hooks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-hooks.test.ts:120",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts] sessions.reset returns unavailable when active run does not stop",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts:186] sessions.reset returns unavailable when active run does not stop",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-hooks.test.ts:186",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts] sessions.reset emits before_reset for the entry actually reset under the store lock",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-hooks.test.ts:217] sessions.reset emits before_reset for the entry actually reset under the store lock",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-hooks.test.ts:217",
                "upstream it() block #4",

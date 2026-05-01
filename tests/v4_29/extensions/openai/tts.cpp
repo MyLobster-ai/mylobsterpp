@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] accepts all valid OpenAI voices including newer additions",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:39] accepts all valid OpenAI voices including newer additions",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] rejects invalid voice names",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:48] rejects invalid voice names",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] treats the default endpoint with trailing slash as the default endpoint",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:56] treats the default endpoint with trailing slash as the default endpoint",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] matches the supported model set and rejects unsupported values",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:62] matches the supported model set and rejects unsupported values",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] treats the default endpoint with trailing slash as the default endpoint",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:82] treats the default endpoint with trailing slash as the default endpoint",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] keeps instructions only for gpt-4o-mini-tts variants",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:88] keeps instructions only for gpt-4o-mini-tts variants",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:88",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] preserves instructions for custom OpenAI-compatible TTS endpoints",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:100] preserves instructions for custom OpenAI-compatible TTS endpoints",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:100",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] adds OpenClaw attribution headers to native OpenAI speech requests",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:114] adds OpenClaw attribution headers to native OpenAI speech requests",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:114",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] sends instructions to custom OpenAI-compatible endpoints",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:144] sends instructions to custom OpenAI-compatible endpoints",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:144",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] omits instructions for unsupported models on the official OpenAI endpoint",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:172] omits instructions for unsupported models on the official OpenAI endpoint",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:172",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] includes parsed provider detail and request id for JSON API errors",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:198] includes parsed provider detail and request id for JSON API errors",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:198",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] falls back to raw body text when the error body is non-JSON",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:235] falls back to raw body text when the error body is non-JSON",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:235",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] caps streamed non-JSON error reads instead of consuming full response bodies",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:254] caps streamed non-JSON error reads instead of consuming full response bodies",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:254",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] records TTS exchanges in debug proxy capture mode",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:279] records TTS exchanges in debug proxy capture mode",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:279",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/tts.test.ts] does not double-capture TTS exchanges when the global fetch patch is installed",
+TEST_CASE("v4.29 [extensions/openai/tts.test.ts:327] does not double-capture TTS exchanges when the global fetch patch is installed",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/tts.test.ts:327",
                "upstream it() block #14",

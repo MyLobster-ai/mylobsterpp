@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/vitest-unit-paths.test.ts] accepts unit-config package tests",
+TEST_CASE("v4.29 [test/vitest-unit-paths.test.ts:6] accepts unit-config package tests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-paths.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-unit-paths.test.ts] rejects files excluded from the unit config",
+TEST_CASE("v4.29 [test/vitest-unit-paths.test.ts:10] rejects files excluded from the unit config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-unit-paths.test.ts:10",
                "upstream it() block #1",

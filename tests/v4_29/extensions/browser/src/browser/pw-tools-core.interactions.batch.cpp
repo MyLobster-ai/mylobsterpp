@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.batch.test.ts] propagates evaluate timeouts through batched execution",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.batch.test.ts:50] propagates evaluate timeouts through batched execution",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.batch.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.batch.test.ts] supports resize and close inside a batch",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.interactions.batch.test.ts:68] supports resize and close inside a batch",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.interactions.batch.test.ts:68",
                "upstream it() block #1",

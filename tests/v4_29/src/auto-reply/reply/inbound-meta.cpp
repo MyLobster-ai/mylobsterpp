@@ -5,257 +5,257 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes stable routing fields and omits chat ids",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:72] includes stable routing fields and omits chat ids",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:72",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] keeps task-scoped chat ids out of the system prompt for cache stability",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:92] keeps task-scoped chat ids out of the system prompt for cache stability",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] does not include per-turn message identifiers (cache stability)",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:114] does not include per-turn message identifiers (cache stability)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] does not include per-turn flags in system metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:134] does not include per-turn flags in system metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] omits sender_id when blank",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:152] omits sender_id when blank",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:152",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes Slack mrkdwn response format hints for Slack chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:167] includes Slack mrkdwn response format hints for Slack chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:167",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] omits response format hints for non-Slack chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:223] omits response format hints for non-Slack chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:223",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] omits conversation label block for direct chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:238] omits conversation label block for direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:238",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] hides message identifiers for direct webchat chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:247] hides message identifiers for direct webchat chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:247",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes message identifiers for direct external-channel chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:258] includes message identifiers for direct external-channel chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:258",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes message identifiers for direct chats when channel is inferred from Provider",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:276] includes message identifiers for direct chats when channel is inferred from Provider",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:276",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] does not treat group chats as direct based on sender id",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:287] does not treat group chats as direct based on sender id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:287",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] keeps conversation label for group chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:301] keeps conversation label for group chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:301",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] renders group subject and participants as untrusted metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:311] renders group subject and participants as untrusted metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:311",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes topic_name for forum chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:323] includes topic_name for forum chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:323",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes sender identifier in conversation info",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:337] includes sender identifier in conversation info",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:337",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] prefers SenderName in conversation info sender identity",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:347] prefers SenderName in conversation info sender identity",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:347",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes sender metadata block for direct chats",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:358] includes sender metadata block for direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:358",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes formatted timestamp in conversation info when provided",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:370] includes formatted timestamp in conversation info when provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:370",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] honors envelope user timezone for conversation timestamps",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:381] honors envelope user timezone for conversation timestamps",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:381",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] omits invalid timestamps instead of throwing",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:400] omits invalid timestamps instead of throwing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:400",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes message_id in conversation info",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:419] includes message_id in conversation info",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:419",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] prefers MessageSid when both MessageSid and MessageSidFull are present",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:429] prefers MessageSid when both MessageSid and MessageSidFull are present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:429",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] falls back to MessageSidFull when MessageSid is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:441] falls back to MessageSidFull when MessageSid is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:441",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes reply_to_id in conversation info",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:453] includes reply_to_id in conversation info",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:453",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes sender_id in conversation info",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:464] includes sender_id in conversation info",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:464",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] includes dynamic per-turn flags in conversation info",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:475] includes dynamic per-turn flags in conversation info",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:475",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] trims sender_id in conversation info",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:494] trims sender_id in conversation info",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:494",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] falls back to SenderId when sender phone is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:505] falls back to SenderId when sender phone is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:505",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] strips null bytes from serialized untrusted metadata blocks",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:515] strips null bytes from serialized untrusted metadata blocks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:515",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] keeps fenced json delimiters while neutralizing markdown fence tokens in content",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:554] keeps fenced json delimiters while neutralizing markdown fence tokens in content",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:554",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] renders location fields through untrusted metadata JSON",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:569] renders location fields through untrusted metadata JSON",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:569",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] renders arbitrary structured objects through untrusted metadata JSON",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:591] renders arbitrary structured objects through untrusted metadata JSON",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:591",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] omits forwarded metadata blocks unless ForwardedFrom is present",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:618] omits forwarded metadata blocks unless ForwardedFrom is present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:618",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] truncates oversized untrusted strings before serializing them into prompt context",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:640] truncates oversized untrusted strings before serializing them into prompt context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:640",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts] caps serialized inbound history to the most recent bounded tail",
+TEST_CASE("v4.29 [src/auto-reply/reply/inbound-meta.test.ts:652] caps serialized inbound history to the most recent bounded tail",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/inbound-meta.test.ts:652",
                "upstream it() block #35",

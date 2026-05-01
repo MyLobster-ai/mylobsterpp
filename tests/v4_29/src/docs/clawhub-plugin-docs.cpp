@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/docs/clawhub-plugin-docs.test.ts] keeps the canonical plugin-publish snippets contract-valid",
+TEST_CASE("v4.29 [src/docs/clawhub-plugin-docs.test.ts:29] keeps the canonical plugin-publish snippets contract-valid",
           "[v4_29][parity_gap][docs]") {
     PARITY_GAP("src/docs/clawhub-plugin-docs.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docs/clawhub-plugin-docs.test.ts] does not tell plugin authors to use bare clawhub publish",
+TEST_CASE("v4.29 [src/docs/clawhub-plugin-docs.test.ts:48] does not tell plugin authors to use bare clawhub publish",
           "[v4_29][parity_gap][docs]") {
     PARITY_GAP("src/docs/clawhub-plugin-docs.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docs/clawhub-plugin-docs.test.ts] keeps the canonical package snippet embedded in the primary plugin docs",
+TEST_CASE("v4.29 [src/docs/clawhub-plugin-docs.test.ts:55] keeps the canonical package snippet embedded in the primary plugin docs",
           "[v4_29][parity_gap][docs]") {
     PARITY_GAP("src/docs/clawhub-plugin-docs.test.ts:55",
                "upstream it() block #2",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts] sessions.create stores dashboard session model and parent linkage, and creates a transcript",
+TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts:13] sessions.create stores dashboard session model and parent linkage, and creates a transcript",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.create.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts] sessions.create accepts an explicit key for persistent dashboard sessions",
+TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts:80] sessions.create accepts an explicit key for persistent dashboard sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.create.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts] sessions.create scopes the main alias to the requested agent",
+TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts:103] sessions.create scopes the main alias to the requested agent",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.create.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts] sessions.create preserves global and unknown sentinel keys",
+TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts:131] sessions.create preserves global and unknown sentinel keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.create.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts] sessions.create rejects unknown parentSessionKey",
+TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts:176] sessions.create rejects unknown parentSessionKey",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.create.test.ts:176",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts] sessions.create can start the first agent turn from an initial task",
+TEST_CASE("v4.29 [src/gateway/server.sessions.create.test.ts:190] sessions.create can start the first agent turn from an initial task",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.create.test.ts:190",
                "upstream it() block #5",

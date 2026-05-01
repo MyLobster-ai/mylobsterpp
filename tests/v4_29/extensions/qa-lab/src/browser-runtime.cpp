@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts] sends normalized browser.request payloads through the gateway",
+TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts:19] sends normalized browser.request payloads through the gateway",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/browser-runtime.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts] opens tabs through the browser proxy",
+TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts:52] opens tabs through the browser proxy",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/browser-runtime.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts] captures snapshots with query options",
+TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts:77] captures snapshots with query options",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/browser-runtime.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts] runs browser act requests through /act",
+TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts:106] runs browser act requests through /act",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/browser-runtime.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts] waits until browser control reports a ready profile",
+TEST_CASE("v4.29 [extensions/qa-lab/src/browser-runtime.test.ts:140] waits until browser control reports a ready profile",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/browser-runtime.test.ts:140",
                "upstream it() block #4",

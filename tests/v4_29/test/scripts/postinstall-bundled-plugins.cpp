@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] recognizes direct invocation through symlinked temp prefixes",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:89] recognizes direct invocation through symlinked temp prefixes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] clears global npm config before nested installs",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:125] clears global npm config before nested installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] uses package-manager-neutral runtime install args with npm config env",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:138] uses package-manager-neutral runtime install args with npm config env",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] does not install bundled plugin deps outside of source checkouts by default",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:163] does not install bundled plugin deps outside of source checkouts by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:163",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] prunes Node versioned compile cache dirs during package postinstall",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:185] prunes Node versioned compile cache dirs during package postinstall",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:185",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] keeps pruning sibling compile cache dirs after one removal fails",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:230] keeps pruning sibling compile cache dirs after one removal fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:230",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] prunes source-checkout bundled plugin node_modules",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:260] prunes source-checkout bundled plugin node_modules",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:260",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] keeps source-checkout prune non-fatal",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:291] keeps source-checkout prune non-fatal",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:291",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] honors disable env before source-checkout pruning",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:316] honors disable env before source-checkout pruning",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:316",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] migrates the plugin registry during postinstall from built dist contracts",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:333] migrates the plugin registry during postinstall from built dist contracts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:333",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] surfaces deprecated plugin registry migration break-glass warnings",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:375] surfaces deprecated plugin registry migration break-glass warnings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:375",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] keeps plugin registry postinstall migration non-fatal when dist entries are unavailable",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:398] keeps plugin registry postinstall migration non-fatal when dist entries are unavailable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:398",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] honors plugin registry postinstall migration disable env",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:414] honors plugin registry postinstall migration disable env",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:414",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] does not disable plugin registry migration for falsey env flag strings",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:434] does not disable plugin registry migration for falsey env flag strings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:434",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] prunes stale dist files from packaged installs",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:461] prunes stale dist files from packaged installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:461",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] keeps imported dist chunks even when inventory is stale",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:481] keeps imported dist chunks even when inventory is stale",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:481",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] prunes stale private QA files without restoring compat sidecars",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:503] prunes stale private QA files without restoring compat sidecars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:503",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] keeps packaged postinstall non-fatal when the dist inventory is missing",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:542] keeps packaged postinstall non-fatal when the dist inventory is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:542",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] keeps packaged postinstall non-fatal when the dist inventory is invalid",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:562] keeps packaged postinstall non-fatal when the dist inventory is invalid",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:562",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] rejects symlinked dist roots in packaged installs",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:584] rejects symlinked dist roots in packaged installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:584",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] rejects symlink entries in packaged dist trees",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:602] rejects symlink entries in packaged dist trees",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:602",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] ignores staged bundled plugin node_modules when pruning packaged dist",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:632] ignores staged bundled plugin node_modules when pruning packaged dist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:632",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] unlinks stale files instead of recursive pruning them",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:683] unlinks stale files instead of recursive pruning them",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:683",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] runs nested local installs with sanitized env when the sentinel package is missing",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:717] runs nested local installs with sanitized env when the sentinel package is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:717",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] skips reinstall when the bundled sentinel package already exists",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:745] skips reinstall when the bundled sentinel package already exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:745",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] reinstalls bundled runtime deps when optional native children are missing",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:771] reinstalls bundled runtime deps when optional native children are missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:771",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] does not reinstall when only another platform optional native child is missing",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:791] does not reinstall when only another platform optional native child is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:791",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] discovers bundled plugin runtime deps from extension manifests",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:810] discovers bundled plugin runtime deps from extension manifests",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:810",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] merges duplicate bundled runtime deps across plugins",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:841] merges duplicate bundled runtime deps across plugins",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:841",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] installs missing bundled plugin runtime deps during global installs",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:866] installs missing bundled plugin runtime deps during global installs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:866",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] installs only missing bundled plugin runtime deps",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:899] installs only missing bundled plugin runtime deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:899",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] installs bundled plugin deps when npm location is global",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:936] installs bundled plugin deps when npm location is global",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:936",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] prunes only bundled plugin package node_modules in source checkouts",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:963] prunes only bundled plugin package node_modules in source checkouts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:963",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts] skips symlink entries when pruning source-checkout bundled plugin node_modules",
+TEST_CASE("v4.29 [test/scripts/postinstall-bundled-plugins.test.ts:983] skips symlink entries when pruning source-checkout bundled plugin node_modules",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/postinstall-bundled-plugins.test.ts:983",
                "upstream it() block #33",

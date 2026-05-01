@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/command-config.test.ts] returns assignments from the active runtime snapshot for configured refs",
+TEST_CASE("v4.29 [src/secrets/command-config.test.ts:11] returns assignments from the active runtime snapshot for configured refs",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/command-config.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/command-config.test.ts] throws when configured refs are unresolved in the snapshot",
+TEST_CASE("v4.29 [src/secrets/command-config.test.ts:35] throws when configured refs are unresolved in the snapshot",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/command-config.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/command-config.test.ts] skips unresolved refs that are marked inactive by runtime warnings",
+TEST_CASE("v4.29 [src/secrets/command-config.test.ts:53] skips unresolved refs that are marked inactive by runtime warnings",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/command-config.test.ts:53",
                "upstream it() block #2",

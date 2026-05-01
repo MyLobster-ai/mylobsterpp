@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] is disabled by default",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:118] is disabled by default",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:118",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] uses the same truthy env parsing for deferred fallback",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:124] uses the same truthy env parsing for deferred fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] resolves timeout from env with default fallback",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:130] resolves timeout from env with default fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:130",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] skips when already has all expected keys",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:140] skips when already has all expected keys",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] imports missing expected keys even when another expected key already exists",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:157] imports missing expected keys even when another expected key already exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] treats explicitly empty env vars as intentional overrides",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:188] treats explicitly empty env vars as intentional overrides",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:188",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] imports expected keys without overriding existing env",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:206] imports expected keys without overriding existing env",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:206",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] reuses the cached login-shell env probe across repeated fallback reads",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:239] reuses the cached login-shell env probe across repeated fallback reads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] tracks last applied keys across success, skip, and failure paths",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:273] tracks last applied keys across success, skip, and failure paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:273",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] resolves PATH via login shell and caches it",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:324] resolves PATH via login shell and caches it",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:324",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] returns null on shell env read failure and caches null",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:337] returns null on shell env read failure and caches null",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:337",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] returns null when login shell PATH is blank",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:352] returns null when login shell PATH is blank",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:352",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] falls back to /bin/sh when SHELL is non-absolute",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:365] falls back to /bin/sh when SHELL is non-absolute",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:365",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] falls back to /bin/sh when SHELL points to an untrusted path",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:372] falls back to /bin/sh when SHELL points to an untrusted path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:372",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] falls back to /bin/sh when SHELL is absolute but not registered in /etc/shells",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:379] falls back to /bin/sh when SHELL is absolute but not registered in /etc/shells",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:379",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] uses SHELL when it is explicitly registered in /etc/shells",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:388] uses SHELL when it is explicitly registered in /etc/shells",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:388",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] sanitizes startup-related env vars before shell fallback exec",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:402] sanitizes startup-related env vars before shell fallback exec",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:402",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] sanitizes startup-related env vars before login-shell PATH probe",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:422] sanitizes startup-related env vars before login-shell PATH probe",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:422",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/shell-env.test.ts] returns null without invoking shell on win32",
+TEST_CASE("v4.29 [src/infra/shell-env.test.ts:442] returns null without invoking shell on win32",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/shell-env.test.ts:442",
                "upstream it() block #18",

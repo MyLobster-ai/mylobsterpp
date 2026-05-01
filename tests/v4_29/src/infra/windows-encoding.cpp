@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts] parses code pages from chcp output text",
+TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts:9] parses code pages from chcp output text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-encoding.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts] decodes GBK output on Windows when UTF-8 is invalid and code page is known",
+TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts:15] decodes GBK output on Windows when UTF-8 is invalid and code page is known",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-encoding.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts] prefers valid UTF-8 output on Windows even when the console code page is legacy",
+TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts:27] prefers valid UTF-8 output on Windows even when the console code page is legacy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-encoding.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts] keeps multibyte Windows codepage characters intact across chunk boundaries",
+TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts:39] keeps multibyte Windows codepage characters intact across chunk boundaries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-encoding.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts] replays buffered UTF-8 lead bytes when split GBK output falls back to the console code page",
+TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts:51] replays buffered UTF-8 lead bytes when split GBK output falls back to the console code page",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-encoding.test.ts:51",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts] keeps split valid UTF-8 output on the UTF-8 path for streaming decode",
+TEST_CASE("v4.29 [src/infra/windows-encoding.test.ts:62] keeps split valid UTF-8 output on the UTF-8 path for streaming decode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/windows-encoding.test.ts:62",
                "upstream it() block #5",

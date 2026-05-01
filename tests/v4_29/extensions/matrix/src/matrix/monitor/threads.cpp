@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts] keeps sessions flat when threadReplies is off",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts:5] keeps sessions flat when threadReplies is off",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/threads.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts] uses the inbound thread root when replies arrive inside an existing thread",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts:18] uses the inbound thread root when replies arrive inside an existing thread",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/threads.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts] keeps top-level inbound messages flat when threadReplies is inbound",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts:31] keeps top-level inbound messages flat when threadReplies is inbound",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/threads.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts] uses the triggering message as the thread id when threadReplies is always",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts:43] uses the triggering message as the thread id when threadReplies is always",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/threads.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts] lets dm.threadReplies override room threading behavior",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/threads.test.ts:55] lets dm.threadReplies override room threading behavior",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/threads.test.ts:55",
                "upstream it() block #4",

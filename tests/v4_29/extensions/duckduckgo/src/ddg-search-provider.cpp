@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] exposes keyless metadata and enables the plugin in config",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:28] exposes keyless metadata and enables the plugin in config",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] maps generic tool arguments into DuckDuckGo search params",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:42] maps generic tool arguments into DuckDuckGo search params",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] reads region from plugin config and normalizes empty values away",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:74] reads region from plugin config and normalizes empty values away",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] defaults safeSearch to moderate and accepts strict and off",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:108] defaults safeSearch to moderate and accepts strict and off",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:108",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] decodes direct and redirect urls plus common html entities",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:144] decodes direct and redirect urls plus common html entities",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] parses results when href appears before class",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:156] parses results when href appears before class",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts] detects bot challenge pages without flagging ordinary result snippets",
+TEST_CASE("v4.29 [extensions/duckduckgo/src/ddg-search-provider.test.ts:180] detects bot challenge pages without flagging ordinary result snippets",
           "[v4_29][parity_gap][duckduckgo]") {
     PARITY_GAP("extensions/duckduckgo/src/ddg-search-provider.test.ts:180",
                "upstream it() block #6",

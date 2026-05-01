@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] captures mutable runtime operands in approval plans",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:601] captures mutable runtime operands in approval plans",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:601",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] captures mutable shell script operands in approval plans",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:626] captures mutable shell script operands in approval plans",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:626",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] allows shell payloads that invoke absolute-path native binaries",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:637] allows shell payloads that invoke absolute-path native binaries",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:637",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] keeps fail-closed behavior for relative native-binary shell payloads",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:654] keeps fail-closed behavior for relative native-binary shell payloads",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:654",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] keeps fail-closed behavior for writable absolute native-binary shell payloads",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:671] keeps fail-closed behavior for writable absolute native-binary shell payloads",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:671",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] keeps fail-closed behavior for owner-controlled read-only absolute binaries",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:688] keeps fail-closed behavior for owner-controlled read-only absolute binaries",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:688",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] keeps fail-closed behavior for symlinked binaries with writable targets",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:709] keeps fail-closed behavior for symlinked binaries with writable targets",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:709",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] keeps fail-closed behavior for mutable or ambiguous shell payload files",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:737] keeps fail-closed behavior for mutable or ambiguous shell payload files",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:737",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] keeps fail-closed behavior when the shell payload probe stops seeing a file",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:764] keeps fail-closed behavior when the shell payload probe stops seeing a file",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:764",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] rejects unsafe runtime invocation forms",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:796] rejects unsafe runtime invocation forms",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:796",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] detects rewritten script operands for pnpm dlx approval plans",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:811] detects rewritten script operands for pnpm dlx approval plans",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:811",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] does not bind pnpm dlx shell-mode commands to a mutable file operand",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:850] does not bind pnpm dlx shell-mode commands to a mutable file operand",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:850",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] allows pnpm dlx package binaries that do not bind mutable local files",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:867] allows pnpm dlx package binaries that do not bind mutable local files",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:867",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] treats -- as the end of pnpm dlx option parsing",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:909] treats -- as the end of pnpm dlx option parsing",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:909",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts] captures the real shell script operand after value-taking shell flags",
+TEST_CASE("v4.29 [src/node-host/invoke-system-run-plan.test.ts:932] captures the real shell script operand after value-taking shell flags",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke-system-run-plan.test.ts:932",
                "upstream it() block #14",

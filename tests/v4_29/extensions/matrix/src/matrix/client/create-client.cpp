@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts] persists storage metadata by default",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts:57] persists storage metadata by default",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/create-client.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts] derives ssrfPolicy from allowPrivateNetwork when no explicit policy is provided",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts:89] derives ssrfPolicy from allowPrivateNetwork when no explicit policy is provided",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/create-client.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts] prefers explicit ssrfPolicy over allowPrivateNetwork",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts:107] prefers explicit ssrfPolicy over allowPrivateNetwork",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/create-client.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts] leaves ssrfPolicy undefined when allowPrivateNetwork is falsy and no explicit policy",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts:127] leaves ssrfPolicy undefined when allowPrivateNetwork is falsy and no explicit policy",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/create-client.test.ts:127",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts] skips persistent storage wiring when persistence is disabled",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client/create-client.test.ts:144] skips persistent storage wiring when persistence is disabled",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client/create-client.test.ts:144",
                "upstream it() block #4",

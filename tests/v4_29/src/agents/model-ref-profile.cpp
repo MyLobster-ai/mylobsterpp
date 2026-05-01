@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] returns trimmed model when no profile suffix exists",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:5] returns trimmed model when no profile suffix exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] splits trailing @profile suffix",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:11] splits trailing @profile suffix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] keeps @-prefixed path segments in model ids",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:18] keeps @-prefixed path segments in model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] supports trailing profile override after @-prefixed path segments",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:24] supports trailing profile override after @-prefixed path segments",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:24",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] keeps openrouter preset paths without profile override",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:31] keeps openrouter preset paths without profile override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:31",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] supports openrouter preset profile overrides",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:37] supports openrouter preset profile overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:37",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] does not split when suffix after @ contains slash",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:44] does not split when suffix after @ contains slash",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:44",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] uses first @ after last slash for email-based auth profiles",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:50] uses first @ after last slash for email-based auth profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:50",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] keeps @YYYYMMDD version suffixes in model ids",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:57] keeps @YYYYMMDD version suffixes in model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:57",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] supports auth profiles after @YYYYMMDD version suffixes",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:63] supports auth profiles after @YYYYMMDD version suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:63",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] keeps @q* quant suffixes in model ids",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:70] keeps @q* quant suffixes in model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:70",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] supports auth profiles after @q* quant suffixes",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:76] supports auth profiles after @q* quant suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:76",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] keeps @iq* importance-quantization suffixes in model ids",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:83] keeps @iq* importance-quantization suffixes in model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:83",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] supports auth profiles after @iq* quant suffixes",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:92] supports auth profiles after @iq* quant suffixes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:92",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts] keeps @4bit/@8bit quant suffixes in model ids",
+TEST_CASE("v4.29 [src/agents/model-ref-profile.test.ts:99] keeps @4bit/@8bit quant suffixes in model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-ref-profile.test.ts:99",
                "upstream it() block #14",

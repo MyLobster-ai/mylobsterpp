@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.tools-alsoAllow.test.ts] rejects tools.allow + tools.alsoAllow together",
+TEST_CASE("v4.29 [src/config/config.tools-alsoAllow.test.ts:7] rejects tools.allow + tools.alsoAllow together",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.tools-alsoAllow.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.tools-alsoAllow.test.ts] rejects agents.list[].tools.allow + alsoAllow together",
+TEST_CASE("v4.29 [src/config/config.tools-alsoAllow.test.ts:21] rejects agents.list[].tools.allow + alsoAllow together",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.tools-alsoAllow.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.tools-alsoAllow.test.ts] allows profile + alsoAllow",
+TEST_CASE("v4.29 [src/config/config.tools-alsoAllow.test.ts:42] allows profile + alsoAllow",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.tools-alsoAllow.test.ts:42",
                "upstream it() block #2",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/device-auth-store.test.ts] stores and loads device auth tokens under the configured state dir",
+TEST_CASE("v4.29 [src/infra/device-auth-store.test.ts:23] stores and loads device auth tokens under the configured state dir",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-auth-store.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-auth-store.test.ts] returns null for missing, invalid, or mismatched stores",
+TEST_CASE("v4.29 [src/infra/device-auth-store.test.ts:61] returns null for missing, invalid, or mismatched stores",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-auth-store.test.ts:61",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/device-auth-store.test.ts] clears only the requested role and leaves unrelated tokens intact",
+TEST_CASE("v4.29 [src/infra/device-auth-store.test.ts:80] clears only the requested role and leaves unrelated tokens intact",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/device-auth-store.test.ts:80",
                "upstream it() block #2",

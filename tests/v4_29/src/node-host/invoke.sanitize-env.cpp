@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] ignores PATH overrides",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:8] ignores PATH overrides",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] blocks dangerous env keys/prefixes",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:15] blocks dangerous env keys/prefixes",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] blocks dangerous override-only env keys",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:37] blocks dangerous override-only env keys",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] drops dangerous inherited env keys even without overrides",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:48] drops dangerous inherited env keys even without overrides",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] preserves inherited non-portable Windows-style env keys",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:56] preserves inherited non-portable Windows-style env keys",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] parses code pages from chcp output text",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:65] parses code pages from chcp output text",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:65",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] decodes GBK output on Windows when code page is known",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:71] decodes GBK output on Windows when code page is known",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:71",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] omits optional fields when null/undefined",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:95] omits optional fields when null/undefined",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:95",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] includes payloadJSON when provided",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:106] includes payloadJSON when provided",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:106",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts] includes payload when provided",
+TEST_CASE("v4.29 [src/node-host/invoke.sanitize-env.test.ts:115] includes payload when provided",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/invoke.sanitize-env.test.ts:115",
                "upstream it() block #9",

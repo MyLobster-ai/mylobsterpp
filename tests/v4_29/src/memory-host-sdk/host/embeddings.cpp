@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts] normalizes local embeddings and resolves the default local model",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts:39] normalizes local embeddings and resolves the default local model",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/embeddings.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts] passes default contextSize (4096) to createEmbeddingContext when not configured",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts:57] passes default contextSize (4096) to createEmbeddingContext when not configured",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/embeddings.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts] passes configured contextSize to createEmbeddingContext",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts:72] passes configured contextSize to createEmbeddingContext",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/embeddings.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts] passes ",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts:88] passes ",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/embeddings.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts] trims explicit local model paths and cache directories",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/embeddings.test.ts:104] trims explicit local model paths and cache directories",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/embeddings.test.ts:104",
                "upstream it() block #4",

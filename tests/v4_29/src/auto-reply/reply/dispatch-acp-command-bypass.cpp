@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns false for plain-text ACP turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:16] returns false for plain-text ACP turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for ACP slash commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:27] returns true for ACP slash commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for native ACP slash commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:39] returns true for native ACP slash commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns false for ACP slash commands addressed to another bot",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:52] returns false for ACP slash commands addressed to another bot",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:52",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for local status commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:64] returns true for local status commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:64",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for local unfocus commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:76] returns true for local unfocus commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:76",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for ACP reset-tail slash commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:88] returns true for ACP reset-tail slash commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:88",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for bare ACP reset slash commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:101] returns true for bare ACP reset slash commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:101",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns false for unrelated slash commands when text commands are disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:113] returns false for unrelated slash commands when text commands are disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:113",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for ACP slash commands when text commands are disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:131] returns true for ACP slash commands when text commands are disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:131",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns false for local status commands when text commands are disabled on text-native surfaces",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:149] returns false for local status commands when text commands are disabled on text-native surfaces",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:149",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for native local status commands when text commands are disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:180] returns true for native local status commands when text commands are disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:180",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns false for unauthorized bang-prefixed commands",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:198] returns false for unauthorized bang-prefixed commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:198",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns false for bang-prefixed commands when text commands are disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:211] returns false for bang-prefixed commands when text commands are disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:211",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts] returns true for authorized bang-prefixed commands when text commands are enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:230] returns true for authorized bang-prefixed commands when text commands are enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/dispatch-acp-command-bypass.test.ts:230",
                "upstream it() block #14",

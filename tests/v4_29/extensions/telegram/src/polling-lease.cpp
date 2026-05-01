@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts] refuses an active duplicate poller for the same bot token",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts:12] refuses an active duplicate poller for the same bot token",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-lease.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts] allows concurrent pollers for different bot tokens",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts:28] allows concurrent pollers for different bot tokens",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-lease.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts] waits for an aborting same-token poller before acquiring",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts:44] waits for an aborting same-token poller before acquiring",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-lease.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts] does not let stale release clear a replacement lease",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-lease.test.ts:68] does not let stale release clear a replacement lease",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-lease.test.ts:68",
                "upstream it() block #3",

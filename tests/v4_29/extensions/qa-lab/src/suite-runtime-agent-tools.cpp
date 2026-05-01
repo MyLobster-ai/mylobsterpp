@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts] finds a skill by exact name",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:67] finds a skill by exact name",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts] writes a workspace skill under the gateway workspace",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:72] writes a workspace skill under the gateway workspace",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts] routes generic transport actions through the payload extractor",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:85] routes generic transport actions through the payload extractor",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts] calls plugin-tools MCP through the resolved node executable",
+TEST_CASE("v4.29 [extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:102] calls plugin-tools MCP through the resolved node executable",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/suite-runtime-agent-tools.test.ts:102",
                "upstream it() block #3",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts] prefers shared memory corpus guidance when memory tools are available",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts:21] prefers shared memory corpus guidance when memory tools are available",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/prompt-section.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts] stays empty when no wiki or memory-adjacent tools are registered",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts:31] stays empty when no wiki or memory-adjacent tools are registered",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/prompt-section.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts] can append a compact compiled digest snapshot when enabled",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts:35] can append a compact compiled digest snapshot when enabled",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/prompt-section.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts] keeps the digest snapshot disabled by default",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts:83] keeps the digest snapshot disabled by default",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/prompt-section.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts] stabilizes digest prompt ordering for prompt-cache-friendly output",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/prompt-section.test.ts:103] stabilizes digest prompt ordering for prompt-cache-friendly output",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/prompt-section.test.ts:103",
                "upstream it() block #4",

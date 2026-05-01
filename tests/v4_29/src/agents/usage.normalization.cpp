@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] normalizes Anthropic-style snake_case usage",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:5] normalizes Anthropic-style snake_case usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] normalizes OpenAI-style prompt/completion usage",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:22] normalizes OpenAI-style prompt/completion usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] normalizes llama.cpp completion timings",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:37] normalizes llama.cpp completion timings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] clamps negative and fractional usage counts to safe integers",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:53] clamps negative and fractional usage counts to safe integers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:53",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] caps extremely large usage counts at Number.MAX_SAFE_INTEGER",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:70] caps extremely large usage counts at Number.MAX_SAFE_INTEGER",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:70",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] returns undefined for empty usage objects",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:84] returns undefined for empty usage objects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:84",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] guards against empty/zero usage overwrites",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:88] guards against empty/zero usage overwrites",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:88",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] does not clamp derived session total tokens to the context window",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:97] does not clamp derived session total tokens to the context window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:97",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] uses prompt tokens when within context window",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:111] uses prompt tokens when within context window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:111",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts] prefers explicit prompt token overrides",
+TEST_CASE("v4.29 [src/agents/usage.normalization.test.ts:125] prefers explicit prompt token overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.normalization.test.ts:125",
                "upstream it() block #9",

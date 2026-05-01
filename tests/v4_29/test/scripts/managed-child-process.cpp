@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/managed-child-process.test.ts] maps forwarded signals to shell-compatible exit codes",
+TEST_CASE("v4.29 [test/scripts/managed-child-process.test.ts:13] maps forwarded signals to shell-compatible exit codes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/managed-child-process.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/managed-child-process.test.ts] kills the managed child process group when the runner is terminated",
+TEST_CASE("v4.29 [test/scripts/managed-child-process.test.ts:19] kills the managed child process group when the runner is terminated",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/managed-child-process.test.ts:19",
                "upstream it() block #1",

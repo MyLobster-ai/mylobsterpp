@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] registers apply synthesis and writes a synthesis page",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:145] registers apply synthesis and writes a synthesis page",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:145",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] registers apply metadata and preserves the page body",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:175] registers apply metadata and preserves the page body",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:175",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] runs wiki doctor and sets a non-zero exit code when warnings exist",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:235] runs wiki doctor and sets a non-zero exit code when warnings exist",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] routes active bridge status and doctor through the gateway",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:253] routes active bridge status and doctor through the gateway",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:253",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] sanitizes gateway status text output without changing JSON output",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:303] sanitizes gateway status text output without changing JSON output",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:303",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] rejects malformed gateway responses before rendering",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:360] rejects malformed gateway responses before rendering",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:360",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] rejects oversized gateway strings before rendering",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:375] rejects oversized gateway strings before rendering",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:375",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] truncates gateway status text output after rendering",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:397] truncates gateway status text output after rendering",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:397",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] routes active bridge imports through the gateway and keeps disabled bridge imports local",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:427] routes active bridge imports through the gateway and keeps disabled bridge imports local",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:427",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts] imports ChatGPT exports with dry-run, apply, and rollback",
+TEST_CASE("v4.29 [extensions/memory-wiki/src/cli.test.ts:472] imports ChatGPT exports with dry-run, apply, and rollback",
           "[v4_29][parity_gap][memory-wiki]") {
     PARITY_GAP("extensions/memory-wiki/src/cli.test.ts:472",
                "upstream it() block #9",

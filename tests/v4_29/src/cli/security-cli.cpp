@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/security-cli.test.ts] runs audit with read-only SecretRef resolution and prints JSON diagnostics",
+TEST_CASE("v4.29 [src/cli/security-cli.test.ts:93] runs audit with read-only SecretRef resolution and prints JSON diagnostics",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/security-cli.test.ts:93",
                "upstream it() block #0",

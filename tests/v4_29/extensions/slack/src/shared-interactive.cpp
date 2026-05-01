@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] renders shared interactive blocks in authored order",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:5] renders shared interactive blocks in authored order",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] truncates Slack render strings to Block Kit limits",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:34] truncates Slack render strings to Block Kit limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] preserves original callback payloads for round-tripping",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:56] preserves original callback payloads for round-tripping",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] drops Slack select options with values beyond Block Kit limits",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:86] drops Slack select options with values beyond Block Kit limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] omits Slack select blocks when every option value exceeds Block Kit limits",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:107] omits Slack select blocks when every option value exceeds Block Kit limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] caps Slack static selects at the Block Kit option limit",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:120] caps Slack static selects at the Block Kit option limit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:120",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] drops value-only Slack buttons with values beyond Block Kit limits",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:141] drops value-only Slack buttons with values beyond Block Kit limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:141",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] drops Slack button URLs beyond Block Kit limits",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:167] drops Slack button URLs beyond Block Kit limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] caps Slack actions blocks at the Block Kit element limit",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:195] caps Slack actions blocks at the Block Kit element limit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:195",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] preserves URL-only buttons as Slack link buttons",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:216] preserves URL-only buttons as Slack link buttons",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:216",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts] maps supported button styles to Slack Block Kit styles",
+TEST_CASE("v4.29 [extensions/slack/src/shared-interactive.test.ts:239] maps supported button styles to Slack Block Kit styles",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/shared-interactive.test.ts:239",
                "upstream it() block #10",

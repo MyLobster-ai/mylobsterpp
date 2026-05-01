@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] embeds string and array inputs",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:93] embeds string and array inputs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] supports base64 encoding and agent-scoped auth/config resolution",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:139] supports base64 encoding and agent-scoped auth/config resolution",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:139",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] rejects invalid input shapes",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:159] rejects invalid input shapes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:159",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] ignores narrower declared scopes for shared-secret bearer auth",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:169] ignores narrower declared scopes for shared-secret bearer auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:169",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] allows requests with an empty declared scopes header",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:184] allows requests with an empty declared scopes header",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:184",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] allows requests when the operator scopes header is missing",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:199] allows requests when the operator scopes header is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] rejects invalid agent targets",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:218] rejects invalid agent targets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:218",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] rejects disallowed x-openclaw-model provider overrides",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:231] rejects disallowed x-openclaw-model provider overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:231",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] rejects oversized batches",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:247] rejects oversized batches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:247",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts] sanitizes provider failures",
+TEST_CASE("v4.29 [src/gateway/embeddings-http.test.ts:260] sanitizes provider failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/embeddings-http.test.ts:260",
                "upstream it() block #9",

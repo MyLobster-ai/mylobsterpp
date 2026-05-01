@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] tracks missing and stale dist files",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:17] tracks missing and stale dist files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] keeps npm-omitted dist artifacts out of the inventory",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:42] keeps npm-omitted dist artifacts out of the inventory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] ignores runtime-created install staging dirs during installed dist verification",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:176] ignores runtime-created install staging dirs during installed dist verification",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:176",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] matches install-stage paths case-insensitively across path segments",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:214] matches install-stage paths case-insensitively across path segments",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:214",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] rejects pre-populated install-stage debris at publish time",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:240] rejects pre-populated install-stage debris at publish time",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:240",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] rejects mixed-case install-stage debris on case-sensitive release builders",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:278] rejects mixed-case install-stage debris on case-sensitive release builders",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:278",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] treats a missing dist/extensions tree as no staging debris",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:326] treats a missing dist/extensions tree as no staging debris",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:326",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] fails closed when the inventory is missing",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:334] fails closed when the inventory is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:334",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts] rejects symlinked dist entries",
+TEST_CASE("v4.29 [src/infra/package-dist-inventory.test.ts:343] rejects symlinked dist entries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/package-dist-inventory.test.ts:343",
                "upstream it() block #8",

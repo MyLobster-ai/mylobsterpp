@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/jsonl-socket.test.ts] ignores malformed and non-accepted lines until one is accepted",
+TEST_CASE("v4.29 [src/infra/jsonl-socket.test.ts:29] ignores malformed and non-accepted lines until one is accepted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/jsonl-socket.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/jsonl-socket.test.ts] half-closes the write side after sending the request line",
+TEST_CASE("v4.29 [src/infra/jsonl-socket.test.ts:59] half-closes the write side after sending the request line",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/jsonl-socket.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/jsonl-socket.test.ts] returns null on timeout and on socket errors",
+TEST_CASE("v4.29 [src/infra/jsonl-socket.test.ts:94] returns null on timeout and on socket errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/jsonl-socket.test.ts:94",
                "upstream it() block #2",

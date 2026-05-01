@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/read-capability.test.ts] preserves caller-provided workspaceDir from mediaAccess",
+TEST_CASE("v4.29 [src/media/read-capability.test.ts:14] preserves caller-provided workspaceDir from mediaAccess",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/read-capability.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/read-capability.test.ts] prefers explicit workspaceDir over mediaAccess.workspaceDir",
+TEST_CASE("v4.29 [src/media/read-capability.test.ts:23] prefers explicit workspaceDir over mediaAccess.workspaceDir",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/read-capability.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/read-capability.test.ts] does not enable host reads when sender group policy denies read",
+TEST_CASE("v4.29 [src/media/read-capability.test.ts:33] does not enable host reads when sender group policy denies read",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/read-capability.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/read-capability.test.ts] keeps host reads enabled when sender group policy allows read",
+TEST_CASE("v4.29 [src/media/read-capability.test.ts:66] keeps host reads enabled when sender group policy allows read",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/read-capability.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/read-capability.test.ts] keeps host reads enabled when no group policy applies",
+TEST_CASE("v4.29 [src/media/read-capability.test.ts:97] keeps host reads enabled when no group policy applies",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/read-capability.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/read-capability.test.ts] keeps host reads enabled for DM sender when no group context exists",
+TEST_CASE("v4.29 [src/media/read-capability.test.ts:111] keeps host reads enabled for DM sender when no group context exists",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/read-capability.test.ts:111",
                "upstream it() block #5",

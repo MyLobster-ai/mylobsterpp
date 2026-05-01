@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] prefers index.js before legacy entry.js",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:13] prefers index.js before legacy entry.js",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] prefers dist/index.js over dist/entry.js when both exist",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:24] prefers dist/index.js over dist/entry.js when both exist",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] falls back to dist/entry.js when index.js is missing",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:37] falls back to dist/entry.js when index.js is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] prepares package update restarts when the service is installed but stopped",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:48] prepares package update restarts when the service is installed but stopped",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] does not install a new service for package updates when no service exists",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:58] does not install a new service for package updates when no service exists",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] keeps non-package updates tied to the loaded service state",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:68] keeps non-package updates tied to the loaded service state",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:68",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] never restarts package updates through the pre-update process",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:87] never restarts package updates through the pre-update process",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:87",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts] keeps the in-process restart path for non-package updates",
+TEST_CASE("v4.29 [src/cli/update-cli/update-command.test.ts:93] keeps the in-process restart path for non-package updates",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/update-cli/update-command.test.ts:93",
                "upstream it() block #7",

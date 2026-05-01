@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/sequential-queue.test.ts] serializes tasks for the same key",
+TEST_CASE("v4.29 [extensions/feishu/src/sequential-queue.test.ts:13] serializes tasks for the same key",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/sequential-queue.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/sequential-queue.test.ts] allows different keys to run concurrently",
+TEST_CASE("v4.29 [extensions/feishu/src/sequential-queue.test.ts:37] allows different keys to run concurrently",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/sequential-queue.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/sequential-queue.test.ts] does not leak unhandled rejections when a queued task fails",
+TEST_CASE("v4.29 [extensions/feishu/src/sequential-queue.test.ts:65] does not leak unhandled rejections when a queued task fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/sequential-queue.test.ts:65",
                "upstream it() block #2",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] returns the initial transport when not dirty",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:38] returns the initial transport when not dirty",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] closes the stale transport when a dirty rebuild replaces it",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:51] closes the stale transport when a dirty rebuild replaces it",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] does not close when dirty rebuild keeps the same transport instance",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:71] does not close when dirty rebuild keeps the same transport instance",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] dispose() closes the currently-held transport and blocks until close resolves",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:88] dispose() closes the currently-held transport and blocks until close resolves",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:88",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] dispose() is idempotent and safe with no transport",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:109] dispose() is idempotent and safe with no transport",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:109",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] dispose() swallows errors thrown by transport.close()",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:115] dispose() swallows errors thrown by transport.close()",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] acquireForNextCycle() returns undefined after dispose()",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:128] acquireForNextCycle() returns undefined after dispose()",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:128",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts] clears the dirty flag even when no factory is configured",
+TEST_CASE("v4.29 [extensions/telegram/src/polling-transport-state.test.ts:144] clears the dirty flag even when no factory is configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/polling-transport-state.test.ts:144",
                "upstream it() block #7",

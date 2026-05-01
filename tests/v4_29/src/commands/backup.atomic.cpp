@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/backup.atomic.test.ts] does not leave a partial final archive behind when tar creation fails",
+TEST_CASE("v4.29 [src/commands/backup.atomic.test.ts:58] does not leave a partial final archive behind when tar creation fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.atomic.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.atomic.test.ts] does not overwrite an archive created after readiness checks complete",
+TEST_CASE("v4.29 [src/commands/backup.atomic.test.ts:79] does not overwrite an archive created after readiness checks complete",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.atomic.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/backup.atomic.test.ts] falls back to exclusive copy when hard-link publication is unsupported",
+TEST_CASE("v4.29 [src/commands/backup.atomic.test.ts:107] falls back to exclusive copy when hard-link publication is unsupported",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/backup.atomic.test.ts:107",
                "upstream it() block #2",

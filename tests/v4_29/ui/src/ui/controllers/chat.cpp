@@ -5,299 +5,299 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] returns null when payload is missing",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:75] returns null when payload is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] returns null when sessionKey does not match",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:80] returns null when sessionKey does not match",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] returns null for delta from another run",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:90] returns null for delta from another run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] ignores NO_REPLY delta updates",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:107] ignores NO_REPLY delta updates",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] appends final payload from another run without clearing active stream",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:124] appends final payload from another run without clearing active stream",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:124",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] drops NO_REPLY final payload from another run without clearing active stream",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:148] drops NO_REPLY final payload from another run without clearing active stream",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] replaces the stream when a delta snapshot gets shorter",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:173] replaces the stream when a delta snapshot gets shorter",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:173",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] returns final for another run when payload has no message",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:192] returns final for another run when payload has no message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:192",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps active stream for unowned final payloads",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:204] keeps active stream for unowned final payloads",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:204",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps active stream while appending unowned assistant finals",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:218] keeps active stream while appending unowned assistant finals",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:218",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] persists streamed text when final event carries no message",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:253] persists streamed text when final event carries no message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:253",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] does not persist empty or whitespace-only stream on final",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:283] does not persist empty or whitespace-only stream on final",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:283",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] does not persist null stream on final with no message",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:301] does not persist null stream on final with no message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:301",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] prefers final payload message over streamed text",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:317] prefers final payload message over streamed text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:317",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] appends final payload message from own run before clearing stream state",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:340] appends final payload message from own run before clearing stream state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:340",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] processes aborted from own run and keeps partial assistant message",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:364] processes aborted from own run and keeps partial assistant message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:364",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] falls back to streamed partial when aborted payload message is invalid",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:396] falls back to streamed partial when aborted payload message is invalid",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:396",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] falls back to streamed partial when aborted payload has non-assistant role",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:428] falls back to streamed partial when aborted payload has non-assistant role",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:428",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] processes aborted from own run without message and empty stream",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:459] processes aborted from own run without message and empty stream",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:459",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] drops NO_REPLY final payload from another run",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:485] drops NO_REPLY final payload from another run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:485",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] drops NO_REPLY final payload from own run",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:495] drops NO_REPLY final payload from own run",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:495",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] does not persist NO_REPLY stream text on final without message",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:544] does not persist NO_REPLY stream text on final without message",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:544",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] does not persist NO_REPLY stream text on abort",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:561] does not persist NO_REPLY stream text on abort",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:561",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps user messages containing NO_REPLY text",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:579] keeps user messages containing NO_REPLY text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:579",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps assistant message when text field has real reply but content is NO_REPLY",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:601] keeps assistant message when text field has real reply but content is NO_REPLY",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:601",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] filters legacy silent assistant messages from history",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:626] filters legacy silent assistant messages from history",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:626",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps assistant message when text field has real content but content is NO_REPLY",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:656] keeps assistant message when text field has real content but content is NO_REPLY",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:656",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] filters the synthetic transcript-repair tool result from history",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:672] filters the synthetic transcript-repair tool result from history",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:672",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps a user message even if it matches the synthetic repair text",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:707] keeps a user message even if it matches the synthetic repair text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:707",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] does not start a second chat.send while the first send is awaiting ack",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:734] does not start a second chat.send while the first send is awaiting ack",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:734",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] serializes non-image chat attachments as files",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:756] serializes non-image chat attachments as files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:756",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] serializes attachments from the side payload store without copying data URLs into chat state",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:803] serializes attachments from the side payload store without copying data URLs into chat state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:803",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] formats structured non-auth connect failures for chat send",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:841] formats structured non-auth connect failures for chat send",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:841",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] formats structured non-auth connect failures for chat abort",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:871] formats structured non-auth connect failures for chat abort",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:871",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] retries retryable startup unavailability before showing history",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:898] retries retryable startup unavailability before showing history",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:898",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] filters assistant NO_REPLY messages and keeps user NO_REPLY messages",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:941] filters assistant NO_REPLY messages and keeps user NO_REPLY messages",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:941",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] filters heartbeat acknowledgements and internal-only user messages",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:970] filters heartbeat acknowledgements and internal-only user messages",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:970",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps local optimistic tail messages when history reload returns a stale snapshot",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:1003] keeps local optimistic tail messages when history reload returns a stale snapshot",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:1003",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] keeps local optimistic messages when history reload returns empty",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:1035] keeps local optimistic messages when history reload returns empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:1035",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] does not duplicate optimistic tail messages after history catches up",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:1062] does not duplicate optimistic tail messages after history catches up",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:1062",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] shows a targeted message when chat history is unauthorized",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:1092] shows a targeted message when chat history is unauthorized",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:1092",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts] ignores stale history responses after switching sessions",
+TEST_CASE("v4.29 [ui/src/ui/controllers/chat.test.ts:1115] ignores stale history responses after switching sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/chat.test.ts:1115",
                "upstream it() block #41",

@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] blocks group messages when groupPolicy is disabled",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:392] blocks group messages when groupPolicy is disabled",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:392",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] blocks group messages when allowlist is empty",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:424] blocks group messages when allowlist is empty",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:424",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] allows group messages when sender is in groupAllowFrom",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:440] allows group messages when sender is in groupAllowFrom",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:440",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] blocks group sender not in groupAllowFrom even when sender is paired in DM store",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:478] blocks group sender not in groupAllowFrom even when sender is paired in DM store",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:478",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] blocks group messages without sender id when groupPolicy is allowlist",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:514] blocks group messages without sender id when groupPolicy is allowlist",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:514",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] does not authorize group messages from DM pairing-store entries when group allowlist is empty",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:548] does not authorize group messages from DM pairing-store entries when group allowlist is empty",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:548",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] blocks group messages when wildcard group config disables groups",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:580] blocks group messages when wildcard group config disables groups",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:580",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] scopes DM pairing requests to accountId",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:612] scopes DM pairing requests to accountId",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:612",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] does not authorize DM senders from another account",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:650] does not authorize DM senders from another account",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:650",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] deduplicates replayed webhook events by webhookEventId before processing",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:698] deduplicates replayed webhook events by webhookEventId before processing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:698",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] skips concurrent redeliveries while the first event is still processing",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:716] skips concurrent redeliveries while the first event is still processing",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:716",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] mirrors in-flight retryable replay failures so concurrent duplicates also fail",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:739] mirrors in-flight retryable replay failures so concurrent duplicates also fail",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:739",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] deduplicates redeliveries by LINE message id when webhookEventId changes",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:763] deduplicates redeliveries by LINE message id when webhookEventId changes",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:763",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] deduplicates postback redeliveries by webhookEventId when replyToken changes",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:814] deduplicates postback redeliveries by webhookEventId when replyToken changes",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:814",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] skips group messages by default when requireMention is not configured",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:865] skips group messages by default when requireMention is not configured",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:865",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] records unmentioned group messages as pending history",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:885] records unmentioned group messages as pending history",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:885",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] skips group messages without mention when requireMention is set",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:914] skips group messages without mention when requireMention is set",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:914",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] processes group messages with bot mention when requireMention is set",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:935] processes group messages with bot mention when requireMention is set",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:935",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] processes group messages with @all mention when requireMention is set",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:964] processes group messages with @all mention when requireMention is set",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:964",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] does not apply requireMention gating to DM messages",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:981] does not apply requireMention gating to DM messages",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:981",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] allows non-text group messages through when requireMention is set (cannot detect mention)",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:1002] allows non-text group messages through when requireMention is set (cannot detect mention)",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:1002",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] does not bypass mention gating when non-bot mention is present with control command",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:1018] does not bypass mention gating when non-bot mention is present with control command",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:1018",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] keeps replay cache committed after a non-retryable event failure",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:1045] keeps replay cache committed after a non-retryable event failure",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:1045",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts] reopens replay after an explicit retryable event failure",
+TEST_CASE("v4.29 [extensions/line/src/bot-handlers.test.ts:1069] reopens replay after an explicit retryable event failure",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-handlers.test.ts:1069",
                "upstream it() block #23",

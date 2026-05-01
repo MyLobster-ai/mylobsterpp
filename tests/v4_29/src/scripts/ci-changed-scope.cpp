@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] fails safe when no paths are provided",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:61] fails safe when no paths are provided",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps all lanes off for docs-only changes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:73] keeps all lanes off for docs-only changes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] enables node lane for node-relevant files",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:85] enables node lane for node-relevant files",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps node lane off for native-only changes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:97] keeps node lane off for native-only changes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] does not force macOS for generated protocol model-only changes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:129] does not force macOS for generated protocol model-only changes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:129",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] enables node lane for non-native non-doc files by fallback",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:143] enables node lane for non-native non-doc files by fallback",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:143",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps windows lane off for non-runtime GitHub metadata files",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:165] keeps windows lane off for non-runtime GitHub metadata files",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:165",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] runs Python skill tests when skills change",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:177] runs Python skill tests when skills change",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:177",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] runs Python skill tests when shared Python config changes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:189] runs Python skill tests when shared Python config changes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:189",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps native platform lanes scoped when the CI workflow changes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:201] keeps native platform lanes scoped when the CI workflow changes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:201",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] runs Windows only for Windows-relevant changes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:213] runs Windows only for Windows-relevant changes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:213",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] runs changed-smoke for install and packaging surfaces",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:288] runs changed-smoke for install and packaging surfaces",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:288",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] runs changed-smoke for Docker-covered core runtime surfaces",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:399] runs changed-smoke for Docker-covered core runtime surfaces",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:399",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] splits install smoke into fast and full scopes",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:447] splits install smoke into fast and full scopes",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:447",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps changed-smoke off for runtime-surface tests",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:478] keeps changed-smoke off for runtime-surface tests",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:478",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] runs control-ui locale check only for control-ui i18n surfaces",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:499] runs control-ui locale check only for control-ui i18n surfaces",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:499",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] identifies plugin contract helper changes as fast Node-only CI scope",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:521] identifies plugin contract helper changes as fast Node-only CI scope",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:521",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] identifies CI routing changes as fast Node-only CI scope",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:541] identifies CI routing changes as fast Node-only CI scope",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:541",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps broad source changes on the full Node CI scope",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:557] keeps broad source changes on the full Node CI scope",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:557",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] treats base and head as literal git args",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:570] treats base and head as literal git args",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:570",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts] keeps direct CLI preflight empty diffs as no-op scope",
+TEST_CASE("v4.29 [src/scripts/ci-changed-scope.test.ts:586] keeps direct CLI preflight empty diffs as no-op scope",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/ci-changed-scope.test.ts:586",
                "upstream it() block #20",

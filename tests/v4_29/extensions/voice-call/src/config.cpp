@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] passes validation when credentials come from config or environment",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:46] passes validation when credentials come from config or environment",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] passes validation with mixed config and env vars",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:83] passes validation with mixed config and env vars",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] resolves the Twilio from number from environment",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:95] resolves the Twilio from number from environment",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:95",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] fails validation when required twilio credentials are missing",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:109] fails validation when required twilio credentials are missing",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] fails validation when apiKey is missing everywhere",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:130] fails validation when apiKey is missing everywhere",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:130",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] requires a public key unless signature verification is skipped",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:143] requires a public key unless signature verification is skipped",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:143",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] fails validation when authId is missing everywhere",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:173] fails validation when authId is missing everywhere",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:173",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] skips validation when enabled is false",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:188] skips validation when enabled is false",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:188",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] rejects disabled inbound policy for realtime mode",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:200] rejects disabled inbound policy for realtime mode",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:200",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] rejects enabling realtime and streaming together",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:213] rejects enabling realtime and streaming together",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:213",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] enables the pre-answer stale call reaper by default",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:230] enables the pre-answer stale call reaper by default",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:230",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] fills nested runtime defaults from a partial config boundary",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:238] fills nested runtime defaults from a partial config boundary",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:238",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] derives the realtime stream path from a custom webhook path",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:259] derives the realtime stream path from a custom webhook path",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:259",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] accepts partial nested TTS overrides and preserves nested objects",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:271] accepts partial nested TTS overrides and preserves nested objects",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:271",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] preserves configured realtime instructions without env indirection",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:302] preserves configured realtime instructions without env indirection",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:302",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] leaves responseModel unset so voice responses can inherit runtime defaults",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:317] leaves responseModel unset so voice responses can inherit runtime defaults",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:317",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts] preserves the configured voice response agent id",
+TEST_CASE("v4.29 [extensions/voice-call/src/config.test.ts:326] preserves the configured voice response agent id",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/config.test.ts:326",
                "upstream it() block #16",

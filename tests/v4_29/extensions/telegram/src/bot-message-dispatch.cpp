@@ -5,726 +5,726 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] streams drafts in private threads and forwards thread id",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:401] streams drafts in private threads and forwards thread id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:401",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] skips answer draft preview for same-chat selected quotes",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:450] skips answer draft preview for same-chat selected quotes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:450",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] passes native quote candidates for current message replies",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:482] passes native quote candidates for current message replies",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:482",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] passes native quote candidates for explicit reply targets",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:517] passes native quote candidates for explicit reply targets",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:517",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not build native quote candidates when reply mode is off",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:549] does not build native quote candidates when reply mode is off",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:549",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps answer draft preview for selected quotes when reply mode is off",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:572] keeps answer draft preview for selected quotes when reply mode is off",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:572",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] passes same-chat quoted reply target id with Telegram quote text",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:600] passes same-chat quoted reply target id with Telegram quote text",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:600",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not pass a native quote target for external replies",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:633] does not pass a native quote target for external replies",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:633",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not inject approval buttons in local dispatch once the monitor owns approvals",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:664] does not inject approval buttons in local dispatch once the monitor owns approvals",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:664",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] uses 30-char preview debounce for legacy block stream mode",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:706] uses 30-char preview debounce for legacy block stream mode",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:706",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] streams Telegram tool progress by default when preview streaming is active",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:727] streams Telegram tool progress by default when preview streaming is active",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:727",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] suppresses Telegram tool progress when explicitly disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:750] suppresses Telegram tool progress when explicitly disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:750",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] suppresses default tool progress messages when answer preview streaming is off",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:775] suppresses default tool progress messages when answer preview streaming is off",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:775",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps Telegram tool progress links inside code formatting",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:794] keeps Telegram tool progress links inside code formatting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:794",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] bounds Telegram tool progress markdown preview formatting",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:820] bounds Telegram tool progress markdown preview formatting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:820",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not let Telegram tool progress backticks break out of code formatting",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:844] does not let Telegram tool progress backticks break out of code formatting",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:844",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps block streaming enabled when account config enables it",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:865] keeps block streaming enabled when account config enables it",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:865",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] sends error replies silently when silentErrorReplies is enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:888] sends error replies silently when silentErrorReplies is enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:888",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps error replies notifying by default",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:908] keeps error replies notifying by default",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:908",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps fallback replies silent after an error reply is skipped",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:925] keeps fallback replies silent after an error reply is skipped",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:925",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps block streaming enabled when session reasoning level is on",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:948] keeps block streaming enabled when session reasoning level is on",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:948",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] streams reasoning draft updates even when answer stream mode is off",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:981] streams reasoning draft updates even when answer stream mode is off",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:981",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not expose reasoning preview callbacks unless session reasoning is stream",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1008] does not expose reasoning preview callbacks unless session reasoning is stream",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1008",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not overwrite finalized preview when additional final payloads are sent",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1027] does not overwrite finalized preview when additional final payloads are sent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1027",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] emits only the internal message:sent hook when a final answer stays in preview",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1059] emits only the internal message:sent hook when a final answer stays in preview",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1059",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps streamed preview visible when final text regresses after a tool warning",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1091] keeps streamed preview visible when final text regresses after a tool warning",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1091",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] forces new message when assistant message restarts",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1151] forces new message when assistant message restarts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1151",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] materializes boundary preview and keeps it when no matching final arrives",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1170] materializes boundary preview and keeps it when no matching final arrives",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1170",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] waits for queued boundary rotation before final lane delivery",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1195] waits for queued boundary rotation before final lane delivery",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1195",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] preserves pre-rotation skip until queued message-start callbacks flush",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1239] preserves pre-rotation skip until queued message-start callbacks flush",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1239",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not double-rotate when assistant_message_start arrives after final delivery drains",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1277] does not double-rotate when assistant_message_start arrives after final delivery drains",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1277",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] clears active preview even when an unrelated boundary archive exists",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1315] clears active preview even when an unrelated boundary archive exists",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1315",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] queues late partials behind async boundary materialization",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1342] queues late partials behind async boundary materialization",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1342",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] sends final-only text without creating a synthetic preview before real partials",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1380] sends final-only text without creating a synthetic preview before real partials",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1380",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not force new message on first assistant message start",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1419] does not force new message on first assistant message start",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1419",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] rotates before a late second-message partial so finalized preview is not overwritten",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1441] rotates before a late second-message partial so finalized preview is not overwritten",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1441",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not skip message-start rotation when pre-rotation did not force a new message",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1485] does not skip message-start rotation when pre-rotation did not force a new message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1485",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not trigger late pre-rotation mid-message after an explicit assistant message start",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1538] does not trigger late pre-rotation mid-message after an explicit assistant message start",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1538",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not rotate the streamed preview when compaction retries replay the same assistant message",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1568] does not rotate the streamed preview when compaction retries replay the same assistant message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1568",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] clears the compaction replay skip after the retried message finalizes",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1602] clears the compaction replay skip after the retried message finalizes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1602",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] preserves the compaction replay flag until queued retry callbacks flush",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1644] preserves the compaction replay flag until queued retry callbacks flush",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1644",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps the existing preview when the retried answer only arrives as final text",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1675] keeps the existing preview when the retried answer only arrives as final text",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1675",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps the transient preview when a local exec approval prompt is suppressed after compaction",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1707] keeps the transient preview when a local exec approval prompt is suppressed after compaction",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1707",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] rotates after a visible tool payload lands between compaction and the next assistant message",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1766] rotates after a visible tool payload lands between compaction and the next assistant message",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1766",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] finalizes multi-message assistant stream to matching preview messages in order",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1807] finalizes multi-message assistant stream to matching preview messages in order",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1807",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] maps finals correctly when first preview id resolves after message boundary",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1857] maps finals correctly when first preview id resolves after message boundary",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1857",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps the active preview when an archived final edit target is missing",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1923] keeps the active preview when an archived final edit target is missing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1923",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] still finalizes the active preview after an archived final edit is retained",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:1980] still finalizes the active preview after an archived final edit is retained",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:1980",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] clears the active preview when a later final falls back after archived retain",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2048] clears the active preview when a later final falls back after archived retain",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2048",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps finalized text preview when the next assistant message is media-only",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2123] keeps finalized text preview when the next assistant message is media-only",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2123",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] maps finals correctly when archived preview id arrives during final flush",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2166] maps finals correctly when archived preview id arrives during final flush",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2166",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] splits reasoning lane only when a later reasoning block starts",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2235] splits reasoning lane only when a later reasoning block starts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2235",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] queues reasoning-end split decisions behind queued reasoning deltas",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2259] queues reasoning-end split decisions behind queued reasoning deltas",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2259",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] cleans superseded reasoning previews after lane rotation",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2285] cleans superseded reasoning previews after lane rotation",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2285",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not split reasoning lane on reasoning end without a later reasoning block",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2329] does not split reasoning lane on reasoning end without a later reasoning block",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2329",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] suppresses reasoning-only final payloads when reasoning level is off",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2350] suppresses reasoning-only final payloads when reasoning level is off",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2350",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not resend suppressed reasoning-only text through raw fallback",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2382] does not resend suppressed reasoning-only text through raw fallback",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2382",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] uses message preview transport for all DM lanes when streaming is active",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2422] uses message preview transport for all DM lanes when streaming is active",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2422",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] finalizes DM answer preview in place without materializing or sending a duplicate",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2450] finalizes DM answer preview in place without materializing or sending a duplicate",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2450",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps reasoning and answer streaming in separate preview lanes",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2482] keeps reasoning and answer streaming in separate preview lanes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2482",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not edit reasoning preview bubble with final answer when no assistant partial arrived yet",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2506] does not edit reasoning preview bubble with final answer when no assistant partial arrived yet",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2506",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not duplicate reasoning final after reasoning end",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2528] does not duplicate reasoning final after reasoning end",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2528",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] updates reasoning preview for reasoning block payloads instead of sending duplicates",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2570] updates reasoning preview for reasoning block payloads instead of sending duplicates",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2570",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps DM reasoning block updates in preview flow without sending duplicates",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2613] keeps DM reasoning block updates in preview flow without sending duplicates",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2613",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] falls back to normal send when DM reasoning preview has no message id",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2671] falls back to normal send when DM reasoning preview has no message id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2671",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] routes think-tag partials to reasoning lane and keeps answer lane clean",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2709] routes think-tag partials to reasoning lane and keeps answer lane clean",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2709",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] routes unmatched think partials to reasoning lane without leaking answer lane",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2738] routes unmatched think partials to reasoning lane without leaking answer lane",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2738",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps reasoning preview message when reasoning is streamed but final is answer-only",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2774] keeps reasoning preview message when reasoning is streamed but final is answer-only",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2774",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] splits think-tag final payload into reasoning and answer lanes",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2808] splits think-tag final payload into reasoning and answer lanes",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2808",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not edit preview message when final payload is an error",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2844] does not edit preview message when final payload is an error",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2844",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] finalizes explicit failed-action replies without a standalone warning delivery",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2873] finalizes explicit failed-action replies without a standalone warning delivery",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2873",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] clears preview for error-only finals",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2900] clears preview for error-only finals",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2900",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] clears preview after media final delivery",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2916] clears preview after media final delivery",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2916",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] clears stale preview when response is NO_REPLY",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2930] clears stale preview when response is NO_REPLY",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2930",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] falls back when all finals are skipped and clears preview",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2943] falls back when all finals are skipped and clears preview",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2943",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] rewrites a no-visible-response DM turn through silent-reply fallback",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:2966] rewrites a no-visible-response DM turn through silent-reply fallback",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:2966",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not add silent-reply fallback after visible block delivery",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3003] does not add silent-reply fallback after visible block delivery",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3003",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps no-visible-response group turns silent when policy allows silence",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3042] keeps no-visible-response group turns silent when policy allows silence",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3042",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] sends fallback and clears preview when deliver throws (dispatcher swallows error)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3084] sends fallback and clears preview when deliver throws (dispatcher swallows error)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3084",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] sends fallback in off mode when deliver throws",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3114] sends fallback in off mode when deliver throws",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3114",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] handles error block + response final — error delivered, response finalizes preview",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3142] handles error block + response final — error delivered, response finalizes preview",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3142",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] cleans up preview even when fallback delivery throws (double failure)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3176] cleans up preview even when fallback delivery throws (double failure)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3176",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] sends error fallback and clears preview when dispatcher throws",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3202] sends error fallback and clears preview when dispatcher throws",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3202",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] supports concurrent dispatches with independent previews",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3223] supports concurrent dispatches with independent previews",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3223",
                "upstream it() block #83",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] ignores stale answer finalization after an abort dispatch supersedes the same session",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3255] ignores stale answer finalization after an abort dispatch supersedes the same session",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3255",
                "upstream it() block #84",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] discards hidden short partials instead of flushing a stale preview after abort",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3333] discards hidden short partials instead of flushing a stale preview after abort",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3333",
                "upstream it() block #85",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] suppresses stale replies when abort lands during async pre-dispatch work",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3407] suppresses stale replies when abort lands during async pre-dispatch work",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3407",
                "upstream it() block #86",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] releases the abort fence when pre-dispatch setup throws",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3474] releases the abort fence when pre-dispatch setup throws",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3474",
                "upstream it() block #87",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps older answer finalization when abort targets a different session",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3497] keeps older answer finalization when abort targets a different session",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3497",
                "upstream it() block #88",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] finalizes stale status reactions when an abort supersedes the same session",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3575] finalizes stale status reactions when an abort supersedes the same session",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3575",
                "upstream it() block #89",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] keeps an existing preview when abort arrives during queued draft-lane cleanup",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3674] keeps an existing preview when abort arrives during queued draft-lane cleanup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3674",
                "upstream it() block #90",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] ignores stale answer finalization when abort targets the session via CommandTargetSessionKey",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3759] ignores stale answer finalization when abort targets the session via CommandTargetSessionKey",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3759",
                "upstream it() block #91",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] swallows post-connect network timeout on preview edit to prevent duplicate messages",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3838] swallows post-connect network timeout on preview edit to prevent duplicate messages",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3838",
                "upstream it() block #92",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] falls back to sendPayload on pre-connect error during final edit",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3865] falls back to sendPayload on pre-connect error during final edit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3865",
                "upstream it() block #93",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] falls back when Telegram reports the current final edit target missing",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3892] falls back when Telegram reports the current final edit target missing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3892",
                "upstream it() block #94",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] shows compacting reaction during auto-compaction and resumes thinking",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3917] shows compacting reaction during auto-compaction and resumes thinking",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3917",
                "upstream it() block #95",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] does not supersede the same session for unauthorized abort-looking commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:3954] does not supersede the same session for unauthorized abort-looking commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:3954",
                "upstream it() block #96",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] uses configured doneHoldMs when clearing Telegram status reactions after reply",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:4031] uses configured doneHoldMs when clearing Telegram status reactions after reply",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:4031",
                "upstream it() block #97",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] restores the initial Telegram status reaction after reply when removeAckAfterReply is disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:4071] restores the initial Telegram status reaction after reply when removeAckAfterReply is disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:4071",
                "upstream it() block #98",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] uses configured errorHoldMs to clear Telegram status reactions after an error fallback",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:4094] uses configured errorHoldMs to clear Telegram status reactions after an error fallback",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:4094",
                "upstream it() block #99",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] restores the initial Telegram status reaction after an error when no final reply is sent",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:4135] restores the initial Telegram status reaction after an error when no final reply is sent",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:4135",
                "upstream it() block #100",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] restores the initial Telegram status reaction after an error fallback when removeAckAfterReply is disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:4176] restores the initial Telegram status reaction after an error fallback when removeAckAfterReply is disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:4176",
                "upstream it() block #101",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts] uses resolved DM config for auto-topic-label overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-dispatch.test.ts:4199] uses resolved DM config for auto-topic-label overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-dispatch.test.ts:4199",
                "upstream it() block #102",

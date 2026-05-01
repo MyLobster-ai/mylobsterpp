@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts] defaults to a non-activating validate snapshot",
+TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts:45] defaults to a non-activating validate snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/metadata-registry-loader.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts] forwards explicit manifest-only requests",
+TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts:69] forwards explicit manifest-only requests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/metadata-registry-loader.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts] forwards an explicit logger through metadata snapshots",
+TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts:83] forwards an explicit logger through metadata snapshots",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/metadata-registry-loader.test.ts:83",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts] preserves explicit empty plugin scopes on metadata snapshots",
+TEST_CASE("v4.29 [src/plugins/runtime/metadata-registry-loader.test.ts:106] preserves explicit empty plugin scopes on metadata snapshots",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/runtime/metadata-registry-loader.test.ts:106",
                "upstream it() block #3",

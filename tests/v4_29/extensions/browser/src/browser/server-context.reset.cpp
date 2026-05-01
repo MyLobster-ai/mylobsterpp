@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.reset.test.ts] rejects remote non-extension profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.reset.test.ts:57] rejects remote non-extension profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.reset.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.reset.test.ts] stops local browser, closes playwright connection, and trashes profile dir",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.reset.test.ts:71] stops local browser, closes playwright connection, and trashes profile dir",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.reset.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.reset.test.ts] forces playwright disconnect when loopback cdp is occupied by non-owned process",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-context.reset.test.ts:104] forces playwright disconnect when loopback cdp is occupied by non-owned process",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-context.reset.test.ts:104",
                "upstream it() block #2",

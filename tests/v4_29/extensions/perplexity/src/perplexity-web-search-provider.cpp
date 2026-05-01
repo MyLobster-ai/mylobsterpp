@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] infers provider routing from api key prefixes",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:12] infers provider routing from api key prefixes",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] resolves base url from auth source and request model by transport",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:18] resolves base url from auth source and request model by transport",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] chooses direct search_api transport only for direct base urls without legacy overrides",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:36] chooses direct search_api transport only for direct base urls without legacy overrides",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] prefers explicit baseUrl over key-based defaults",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:50] prefers explicit baseUrl over key-based defaults",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] resolves OpenRouter env auth and transport",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:56] resolves OpenRouter env auth and transport",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] uses native Search API for direct Perplexity when no legacy overrides exist",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:73] uses native Search API for direct Perplexity when no legacy overrides exist",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] switches direct Perplexity to chat completions when model override is configured",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:86] switches direct Perplexity to chat completions when model override is configured",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:86",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts] treats unrecognized configured keys as direct Perplexity by default",
+TEST_CASE("v4.29 [extensions/perplexity/src/perplexity-web-search-provider.test.ts:102] treats unrecognized configured keys as direct Perplexity by default",
           "[v4_29][parity_gap][perplexity]") {
     PARITY_GAP("extensions/perplexity/src/perplexity-web-search-provider.test.ts:102",
                "upstream it() block #7",

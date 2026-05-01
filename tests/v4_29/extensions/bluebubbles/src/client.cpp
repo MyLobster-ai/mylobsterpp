@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] mode 1: user opts in → { allowPrivateNetwork: true } for any hostname",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:53] mode 1: user opts in → { allowPrivateNetwork: true } for any hostname",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] mode 2: private hostname + no opt-out → narrow allowlist { allowedHostnames: [host] }",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:63] mode 2: private hostname + no opt-out → narrow allowlist { allowedHostnames: [host] }",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] mode 2: localhost + no opt-out → narrow allowlist keeps BB reachable without full opt-in",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:72] mode 2: localhost + no opt-out → narrow allowlist keeps BB reachable without full opt-in",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] mode 2: public hostname + no opt-in → narrow allowlist for the public host",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:80] mode 2: public hostname + no opt-in → narrow allowlist for the public host",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:80",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] mode 3: private hostname + explicit opt-out → {} (guarded default-deny, honors the opt-out) (aisle #68234)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:89] mode 3: private hostname + explicit opt-out → {} (guarded default-deny, honors the opt-out) (aisle #68234)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] mode 3: unparseable baseUrl → {} (fail-safe guarded, never bypass)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:102] mode 3: unparseable baseUrl → {} (fail-safe guarded, never bypass)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:102",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] never returns undefined ssrfPolicy — every mode is guarded (aisle #68234 invariant)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:111] never returns undefined ssrfPolicy — every mode is guarded (aisle #68234 invariant)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:111",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] blueBubblesQueryStringAuth sets ?password= on URL",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:135] blueBubblesQueryStringAuth sets ?password= on URL",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:135",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] blueBubblesHeaderAuth sets the auth header and leaves URL clean",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:144] blueBubblesHeaderAuth sets the auth header and leaves URL clean",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:144",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] blueBubblesHeaderAuth accepts a custom header name",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:153] blueBubblesHeaderAuth accepts a custom header name",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:153",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] auth runs on every request made through the client",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:161] auth runs on every request made through the client",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:161",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] swapping to header auth at factory level keeps URL clean",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:175] swapping to header auth at factory level keeps URL clean",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:175",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] header-auth headers flow through requestMultipart (Greptile #68234 P1)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:189] header-auth headers flow through requestMultipart (Greptile #68234 P1)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:189",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] header-auth headers flow through downloadAttachment fetchImpl (Greptile #68234 P1)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:212] header-auth headers flow through downloadAttachment fetchImpl (Greptile #68234 P1)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:212",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] threads the same resolved policy to the SSRF guard on every call",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:240] threads the same resolved policy to the SSRF guard on every call",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:240",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] private hostname auto-allows (mode 1) without explicit opt-in — preserves existing behavior",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:269] private hostname auto-allows (mode 1) without explicit opt-in — preserves existing behavior",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:269",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] applies full-open policy when user opts into private networks",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:292] applies full-open policy when user opts into private networks",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:292",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] uses the same SSRF policy as every other client request (no asymmetric {} fallback)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:320] uses the same SSRF policy as every other client request (no asymmetric {} fallback)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:320",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] sends the reaction payload with the correct shape and method",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:351] sends the reaction payload with the correct shape and method",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:351",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] threads the client",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:381] threads the client",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:381",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] threads the client",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:403] threads the client",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:403",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] throws when attachment guid is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:432] throws when attachment guid is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:432",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] surfaces max_bytes error with clear message",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:442] surfaces max_bytes error with clear message",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:442",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] fetches and extracts attachment metadata",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:465] fetches and extracts attachment metadata",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:465",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] returns [] on non-ok response rather than throwing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:489] returns [] on non-ok response rather than throwing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:489",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] returns the same instance for the same accountId + baseUrl",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:503] returns the same instance for the same accountId + baseUrl",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:503",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] returns a different instance after invalidate",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:514] returns a different instance after invalidate",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:514",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] cache entry is keyed so different serverUrls cannot collide",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:526] cache entry is keyed so different serverUrls cannot collide",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:526",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] different authStrategy for the same account + credential rebuilds the client (Greptile #68234 P2)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:539] different authStrategy for the same account + credential rebuilds the client (Greptile #68234 P2)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:539",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] private-network config changes rebuild the client without explicit invalidation",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:556] private-network config changes rebuild the client without explicit invalidation",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:556",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] throws when serverUrl is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:578] throws when serverUrl is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:578",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] throws when password is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:582] throws when password is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:582",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts] is a BlueBubblesClient instance and exposes read-only policy",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/client.test.ts:588] is a BlueBubblesClient instance and exposes read-only policy",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/client.test.ts:588",
                "upstream it() block #32",

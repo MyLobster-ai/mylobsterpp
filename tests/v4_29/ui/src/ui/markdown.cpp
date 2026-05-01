@@ -5,453 +5,453 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] strips scripts and unsafe links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:9] strips scripts and unsafe links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links www.example.com",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:26] links www.example.com",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links www.example.com with path, query, and fragment",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:32] links www.example.com with path, query, and fragment",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links www.example.com with port",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:37] links www.example.com with port",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links www.localhost and other single-label hosts",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:42] links www.localhost and other single-label hosts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links Unicode/IDN domains like www.münich.de",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:47] links Unicode/IDN domains like www.münich.de",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:47",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links www.foo_bar.example.com with underscores",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:59] links www.foo_bar.example.com with underscores",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:59",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] strips trailing punctuation from links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:64] strips trailing punctuation from links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:64",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] strips entity-like suffixes per GFM spec",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:74] strips entity-like suffixes per GFM spec",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:74",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] handles quotes with balance checking",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:85] handles quotes with balance checking",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:85",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does NOT link www. domains starting with non-ASCII",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:101] does NOT link www. domains starting with non-ASCII",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:101",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] handles balanced parentheses in URLs",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:110] handles balanced parentheses in URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:110",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] stops at < character",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:115] stops at < character",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:115",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does NOT link bare domains without www",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:127] does NOT link bare domains without www",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:127",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does NOT link filenames with TLD-like extensions",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:133] does NOT link filenames with TLD-like extensions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:133",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does NOT link IP addresses",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:139] does NOT link IP addresses",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:139",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] keeps adjacent trailing CJK text outside www auto-links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:145] keeps adjacent trailing CJK text outside www auto-links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:145",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] keeps Japanese text outside www auto-links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:152] keeps Japanese text outside www auto-links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:152",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links https:// URLs",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:160] links https:// URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:160",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links http:// URLs",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:165] links http:// URLs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:165",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] links email addresses",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:170] links email addresses",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:170",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] keeps adjacent trailing CJK text outside https:// auto-links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:175] keeps adjacent trailing CJK text outside https:// auto-links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:175",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] keeps CJK text outside https:// links with path",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:182] keeps CJK text outside https:// links with path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:182",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves mid-URL CJK in https:// links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:188] preserves mid-URL CJK in https:// links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:188",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves percent-encoded CJK inside URLs when no raw CJK present",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:195] preserves percent-encoded CJK inside URLs when no raw CJK present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:195",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does NOT rewrite explicit markdown links with CJK display text",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:204] does NOT rewrite explicit markdown links with CJK display text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:204",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves mailto: scheme when trimming CJK from email links",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:210] preserves mailto: scheme when trimming CJK from email links",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:210",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] escapes HTML tags as text",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:220] escapes HTML tags as text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:220",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] strips script tags",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:228] strips script tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:228",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] escapes inline HTML tags",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:234] escapes inline HTML tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:234",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders task list checkboxes",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:242] renders task list checkboxes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:242",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders links inside task items",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:251] renders links inside task items",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:251",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] escapes HTML injection in task items",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:256] escapes HTML injection in task items",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:256",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] escapes details/summary injection in task items",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:262] escapes details/summary injection in task items",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:262",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] flattens remote images to alt text",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:270] flattens remote images to alt text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:270",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves markdown formatting in alt text",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:276] preserves markdown formatting in alt text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:276",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves code formatting in alt text",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:281] preserves code formatting in alt text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:281",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves base64 data URI images (#15437)",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:286] preserves base64 data URI images (#15437)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:286",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] uses fallback label for unlabeled images",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:293] uses fallback label for unlabeled images",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:293",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders fenced code blocks",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:301] renders fenced code blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:301",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders indented code blocks",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:308] renders indented code blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:308",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] includes copy button",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:315] includes copy button",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:315",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] keeps localized copy labels fresh after locale changes",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:321] keeps localized copy labels fresh after locale changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:321",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] collapses JSON code blocks",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:338] collapses JSON code blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:338",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders strikethrough",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:347] renders strikethrough",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:347",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders tables surrounded by text",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:352] renders tables surrounded by text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:352",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders basic markdown",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:370] renders basic markdown",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:370",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders headings",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:376] renders headings",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:376",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders blockquotes",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:382] renders blockquotes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:382",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders lists",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:387] renders lists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:387",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] blocks javascript: in links via DOMPurify",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:395] blocks javascript: in links via DOMPurify",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:395",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] shows alt text for javascript: images",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:402] shows alt text for javascript: images",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:402",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] shows alt text for vbscript: and file: images",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:411] shows alt text for vbscript: and file: images",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:411",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders non-image data: URIs as inert links (marked.js compat)",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:421] renders non-image data: URIs as inert links (marked.js compat)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:421",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does not auto-link bare file:// URIs",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:429] does not auto-link bare file:// URIs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:429",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] strips href from explicit file:// links via DOMPurify",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:436] strips href from explicit file:// links via DOMPurify",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:436",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does not throw on deeply nested emphasis markers (#36213)",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:445] does not throw on deeply nested emphasis markers (#36213)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:445",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does not throw on deeply nested brackets (#36213)",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:454] does not throw on deeply nested brackets (#36213)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:454",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] does not hang on backtick + bracket ReDoS pattern",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:459] does not hang on backtick + bracket ReDoS pattern",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:459",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] uses plain text fallback for oversized content",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:489] uses plain text fallback for oversized content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:489",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] preserves indentation in plain text fallback",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:499] preserves indentation in plain text fallback",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:499",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] caches oversized fallback results",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:507] caches oversized fallback results",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:507",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] falls back to escaped text if md.render throws (#36213)",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:517] falls back to escaped text if md.render throws (#36213)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:517",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts] renders sanitized markdown content",
+TEST_CASE("v4.29 [ui/src/ui/markdown.test.ts:535] renders sanitized markdown content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/markdown.test.ts:535",
                "upstream it() block #63",

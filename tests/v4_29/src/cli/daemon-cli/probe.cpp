@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] uses lightweight token-only probing for daemon status",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:45] uses lightweight token-only probing for daemon status",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] uses a real status RPC when requireRpc is enabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:87] uses a real status RPC when requireRpc is enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] forwards configured handshake timeout to the connect probe and status RPC",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:141] forwards configured handshake timeout to the connect probe and status RPC",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:141",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] falls back to read-only when the status RPC succeeds but the auth probe is inconclusive",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:178] falls back to read-only when the status RPC succeeds but the auth probe is inconclusive",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:178",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] surfaces probe close details when the handshake fails",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:210] surfaces probe close details when the handshake fails",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:210",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] prefers the close reason over a generic timeout when both are present",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:223] prefers the close reason over a generic timeout when both are present",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] keeps actionable probe errors when the close reason stays generic",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:236] keeps actionable probe errors when the close reason stays generic",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:236",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts] surfaces status RPC errors when requireRpc is enabled",
+TEST_CASE("v4.29 [src/cli/daemon-cli/probe.test.ts:257] surfaces status RPC errors when requireRpc is enabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/probe.test.ts:257",
                "upstream it() block #7",

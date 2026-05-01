@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/elevenlabs/config-compat.test.ts] moves legacy talk fields into talk.providers.elevenlabs",
+TEST_CASE("v4.29 [extensions/elevenlabs/config-compat.test.ts:11] moves legacy talk fields into talk.providers.elevenlabs",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/config-compat.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/config-compat.test.ts] reads ELEVENLABS_API_KEY from profile when env is missing",
+TEST_CASE("v4.29 [extensions/elevenlabs/config-compat.test.ts:38] reads ELEVENLABS_API_KEY from profile when env is missing",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/config-compat.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/elevenlabs/config-compat.test.ts] prefers ELEVENLABS_API_KEY env over profile",
+TEST_CASE("v4.29 [extensions/elevenlabs/config-compat.test.ts:56] prefers ELEVENLABS_API_KEY env over profile",
           "[v4_29][parity_gap][elevenlabs]") {
     PARITY_GAP("extensions/elevenlabs/config-compat.test.ts:56",
                "upstream it() block #2",

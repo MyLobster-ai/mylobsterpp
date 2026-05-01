@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts] resolves configured ACP bindings from an already loaded channel plugin",
+TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts:94] resolves configured ACP bindings from an already loaded channel plugin",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-bindings.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts] resolves configured ACP bindings from canonical conversation refs",
+TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts:110] resolves configured ACP bindings from canonical conversation refs",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-bindings.test.ts:110",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts] primes compiled ACP bindings from the already loaded channel registry",
+TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts:138] primes compiled ACP bindings from the already loaded channel registry",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-bindings.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts] resolves wildcard binding session keys from the compiled registry",
+TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts:166] resolves wildcard binding session keys from the compiled registry",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-bindings.test.ts:166",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts] does not perform late plugin discovery when a channel plugin is unavailable",
+TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts:187] does not perform late plugin discovery when a channel plugin is unavailable",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-bindings.test.ts:187",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts] uses the current loaded channel plugin on each resolve",
+TEST_CASE("v4.29 [src/channels/plugins/acp-bindings.test.ts:198] uses the current loaded channel plugin on each resolve",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-bindings.test.ts:198",
                "upstream it() block #5",

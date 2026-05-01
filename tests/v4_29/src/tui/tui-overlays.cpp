@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-overlays.test.ts] routes overlays through the TUI overlay stack",
+TEST_CASE("v4.29 [src/tui/tui-overlays.test.ts:14] routes overlays through the TUI overlay stack",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-overlays.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-overlays.test.ts] restores focus when closing without an overlay",
+TEST_CASE("v4.29 [src/tui/tui-overlays.test.ts:47] restores focus when closing without an overlay",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-overlays.test.ts:47",
                "upstream it() block #1",

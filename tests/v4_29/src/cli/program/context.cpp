@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/context.test.ts] builds program context from version and resolved channel options",
+TEST_CASE("v4.29 [src/cli/program/context.test.ts:15] builds program context from version and resolved channel options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/context.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/context.test.ts] handles empty channel options",
+TEST_CASE("v4.29 [src/cli/program/context.test.ts:27] handles empty channel options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/context.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/context.test.ts] does not resolve channel options before access",
+TEST_CASE("v4.29 [src/cli/program/context.test.ts:39] does not resolve channel options before access",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/context.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/context.test.ts] reuses one channel option resolution across all getters",
+TEST_CASE("v4.29 [src/cli/program/context.test.ts:45] reuses one channel option resolution across all getters",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/context.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/context.test.ts] reads program version without resolving channel options",
+TEST_CASE("v4.29 [src/cli/program/context.test.ts:54] reads program version without resolving channel options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/context.test.ts:54",
                "upstream it() block #4",

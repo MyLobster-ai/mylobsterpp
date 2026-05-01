@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/dedupe.test.ts] ignores blank cache keys",
+TEST_CASE("v4.29 [src/infra/dedupe.test.ts:5] ignores blank cache keys",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dedupe.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dedupe.test.ts] keeps entries indefinitely when ttlMs is zero or negative",
+TEST_CASE("v4.29 [src/infra/dedupe.test.ts:14] keeps entries indefinitely when ttlMs is zero or negative",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dedupe.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dedupe.test.ts] touches duplicate reads so the newest key survives max-size pruning",
+TEST_CASE("v4.29 [src/infra/dedupe.test.ts:24] touches duplicate reads so the newest key survives max-size pruning",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dedupe.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dedupe.test.ts] clears itself when maxSize floors to zero",
+TEST_CASE("v4.29 [src/infra/dedupe.test.ts:37] clears itself when maxSize floors to zero",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dedupe.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/dedupe.test.ts] supports explicit reset",
+TEST_CASE("v4.29 [src/infra/dedupe.test.ts:45] supports explicit reset",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/dedupe.test.ts:45",
                "upstream it() block #4",

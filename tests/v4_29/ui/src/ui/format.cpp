@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:10] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:14] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:18] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:18",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:22] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:22",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:26] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:26",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:30] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:30",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns ",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:34] returns ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:34",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] strips <think>…</think> segments",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:41] strips <think>…</think> segments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:41",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] strips <thinking>…</thinking> segments",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:46] strips <thinking>…</thinking> segments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:46",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] keeps text when tags are unpaired",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:51] keeps text when tags are unpaired",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:51",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] drops malformed reasoning before orphan close tags when final text follows",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:56] drops malformed reasoning before orphan close tags when final text follows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:56",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns original text when no tags exist",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:62] returns original text when no tags exist",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:62",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] strips <final>…</final> segments",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:66] strips <final>…</final> segments",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:66",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] strips mixed <think> and <final> tags",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:71] strips mixed <think> and <final> tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:71",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] handles incomplete <final tag gracefully",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:76] handles incomplete <final tag gracefully",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:76",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] strips <relevant-memories> blocks",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:83] strips <relevant-memories> blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:83",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] keeps relevant-memories tags in fenced code blocks",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:95] keeps relevant-memories tags in fenced code blocks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:95",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] hides unfinished <relevant-memories> block tails",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:108] hides unfinished <relevant-memories> block tails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:108",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] stringifies plain objects without throwing",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:115] stringifies plain objects without throwing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:115",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] falls back to object tags for non-serializable values",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:119] falls back to object tags for non-serializable values",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:119",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] formats symbols without relying on object coercion",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:125] formats symbols without relying on object coercion",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:125",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] parses a standard agent session key",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:131] parses a standard agent session key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:131",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] parses account ids containing separators",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:139] parses account ids containing separators",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:139",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/format.test.ts] returns null for non-agent or malformed keys",
+TEST_CASE("v4.29 [ui/src/ui/format.test.ts:147] returns null for non-agent or malformed keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/format.test.ts:147",
                "upstream it() block #23",

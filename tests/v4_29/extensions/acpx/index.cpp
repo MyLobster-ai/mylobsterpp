@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/acpx/index.test.ts] registers the runtime service and reply_dispatch hook",
+TEST_CASE("v4.29 [extensions/acpx/index.test.ts:44] registers the runtime service and reply_dispatch hook",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/index.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/index.test.ts] preserves the ACP reply_dispatch runtime path through the registered hook",
+TEST_CASE("v4.29 [extensions/acpx/index.test.ts:63] preserves the ACP reply_dispatch runtime path through the registered hook",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/index.test.ts:63",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/acpx/index.test.ts] declares setup auto-enable reasons for ACPX-owned ACP config",
+TEST_CASE("v4.29 [extensions/acpx/index.test.ts:110] declares setup auto-enable reasons for ACPX-owned ACP config",
           "[v4_29][parity_gap][acpx]") {
     PARITY_GAP("extensions/acpx/index.test.ts:110",
                "upstream it() block #2",

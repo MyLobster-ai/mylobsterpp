@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] loads the source-checkout runtime wrapper through native ESM import",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:197] loads the source-checkout runtime wrapper through native ESM import",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:197",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] loads the packaged runtime wrapper without recursing through the stable root alias",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:209] loads the packaged runtime wrapper without recursing through the stable root alias",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:209",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] builds scoped and unscoped plugin-sdk aliases for the wrapper jiti loader",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:235] builds scoped and unscoped plugin-sdk aliases for the wrapper jiti loader",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:235",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] resolves extension-api aliases through the same source extension family",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:244] resolves extension-api aliases through the same source extension family",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:244",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] keeps wrapper plugin-sdk aliases deterministic and ignores unsafe subpaths",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:258] keeps wrapper plugin-sdk aliases deterministic and ignores unsafe subpaths",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:258",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] ignores nearby untrusted openclaw package stubs when resolving the wrapper root",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:292] ignores nearby untrusted openclaw package stubs when resolving the wrapper root",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:292",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts] treats string bin hints case-insensitively when trusting wrapper package roots",
+TEST_CASE("v4.29 [extensions/matrix/src/plugin-entry.runtime.test.ts:326] treats string bin hints case-insensitively when trusting wrapper package roots",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/plugin-entry.runtime.test.ts:326",
                "upstream it() block #6",

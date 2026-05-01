@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.core-send.test.ts] promotes caption to message for media sends when message is empty",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.core-send.test.ts:12] promotes caption to message for media sends when message is empty",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.core-send.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.core-send.test.ts] does not misclassify send as poll when zero-valued poll params are present",
+TEST_CASE("v4.29 [src/infra/outbound/message-action-runner.core-send.test.ts:67] does not misclassify send as poll when zero-valued poll params are present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/message-action-runner.core-send.test.ts:67",
                "upstream it() block #1",

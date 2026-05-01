@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts] flags stale running, lost, and missing cleanup tasks",
+TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts:22] flags stale running, lost, and missing cleanup tasks",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.audit.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts] summarizes findings by severity and code",
+TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts:55] summarizes findings by severity and code",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.audit.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts] downgrades retained lost tasks with future cleanupAfter to warnings",
+TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts:86] downgrades retained lost tasks with future cleanupAfter to warnings",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.audit.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts] does not double-report lost tasks as missing cleanup",
+TEST_CASE("v4.29 [src/tasks/task-registry.audit.test.ts:118] does not double-report lost tasks as missing cleanup",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.audit.test.ts:118",
                "upstream it() block #3",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/version.test.ts] parses stable, correction, and beta forms",
+TEST_CASE("v4.29 [src/config/version.test.ts:10] parses stable, correction, and beta forms",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] rejects invalid versions",
+TEST_CASE("v4.29 [src/config/version.test.ts:41] rejects invalid versions",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] treats correction publishes as newer than the base stable release",
+TEST_CASE("v4.29 [src/config/version.test.ts:48] treats correction publishes as newer than the base stable release",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] treats stable as newer than beta and compares beta identifiers",
+TEST_CASE("v4.29 [src/config/version.test.ts:54] treats stable as newer than beta and compares beta identifiers",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] treats same-base stable and correction versions as one family",
+TEST_CASE("v4.29 [src/config/version.test.ts:62] treats same-base stable and correction versions as one family",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] skips same-base stable families",
+TEST_CASE("v4.29 [src/config/version.test.ts:71] skips same-base stable families",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:71",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] skips same-base correction publishes even when current is a prerelease",
+TEST_CASE("v4.29 [src/config/version.test.ts:76] skips same-base correction publishes even when current is a prerelease",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:76",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] skips same-base prerelease configs when current is newer",
+TEST_CASE("v4.29 [src/config/version.test.ts:80] skips same-base prerelease configs when current is newer",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:80",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/version.test.ts] warns when the touched config is newer",
+TEST_CASE("v4.29 [src/config/version.test.ts:84] warns when the touched config is newer",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/version.test.ts:84",
                "upstream it() block #8",

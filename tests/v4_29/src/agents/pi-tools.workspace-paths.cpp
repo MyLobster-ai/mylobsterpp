@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] resolves relative read/write/edit paths against workspaceDir even after cwd changes",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:57] resolves relative read/write/edit paths against workspaceDir even after cwd changes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] allows deletion edits with empty newText",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:95] allows deletion edits with empty newText",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] supports multi-edit edits[] payloads",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:119] supports multi-edit edits[] payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] defaults exec cwd to workspaceDir when workdir is omitted",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:148] defaults exec cwd to workspaceDir when workdir is omitted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] lets exec workdir override the workspace default",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:155] lets exec workdir override the workspace default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:155",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] rejects @-prefixed absolute paths outside workspace when workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:169] rejects @-prefixed absolute paths outside workspace when workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:169",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] rejects hardlinked file aliases when workspaceOnly is enabled",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:182] rejects hardlinked file aliases when workspaceOnly is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts] uses sandbox workspace for relative read/write/edit",
+TEST_CASE("v4.29 [src/agents/pi-tools.workspace-paths.test.ts:224] uses sandbox workspace for relative read/write/edit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.workspace-paths.test.ts:224",
                "upstream it() block #7",

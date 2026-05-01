@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] does not sandbox the agent main session in non-main mode",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:66] does not sandbox the agent main session in non-main mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:66",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] does not create a sandbox workspace for the agent main session in non-main mode",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:85] does not create a sandbox workspace for the agent main session in non-main mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] does not touch sandbox backends for cron or sub-agent sessions when sandbox mode is off",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:104] does not touch sandbox backends for cron or sub-agent sessions when sandbox mode is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] treats main session aliases as main in non-main mode",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:156] treats main session aliases as main in non-main mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] resolves a registered non-docker backend",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:200] resolves a registered non-docker backend",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] passes the resolved browser SSRF policy to sandbox browser setup",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:247] passes the resolved browser SSRF policy to sandbox browser setup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:247",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts] requests skill sync for read-only sandbox workspaces",
+TEST_CASE("v4.29 [src/agents/sandbox.resolveSandboxContext.test.ts:301] requests skill sync for read-only sandbox workspaces",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox.resolveSandboxContext.test.ts:301",
                "upstream it() block #6",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] parses comma, whitespace, and hash-prefixed PR lists",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:34] parses comma, whitespace, and hash-prefixed PR lists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] parses hunk ranges from unified diffs",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:38] parses hunk ranges from unified diffs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] allows duplicate closure with overlapping hunks even without an explicit issue ref",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:51] allows duplicate closure with overlapping hunks even without an explicit issue ref",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] allows duplicate closure with a shared issue ref even when hunks drift",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:93] allows duplicate closure with a shared issue ref even when hunks drift",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] refuses candidates without shared issue or overlapping hunks",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:131] refuses candidates without shared issue or overlapping hunks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] dry-runs through gh reads without mutating",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:155] dry-runs through gh reads without mutating",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:155",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts] applies labels, comment, and close commands for close actions",
+TEST_CASE("v4.29 [test/scripts/close-duplicate-prs-after-merge.test.ts:207] applies labels, comment, and close commands for close actions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/close-duplicate-prs-after-merge.test.ts:207",
                "upstream it() block #6",

@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] does not run before the grace period",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:160] does not run before the grace period",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:160",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] runs health check after grace period",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:168] runs health check after grace period",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:168",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] accepts timing.monitorStartupGraceMs",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:175] accepts timing.monitorStartupGraceMs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:175",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips healthy channels (running + connected)",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:183] skips healthy channels (running + connected)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips disabled channels",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:195] skips disabled channels",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:195",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips unconfigured channels",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:209] skips unconfigured channels",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:209",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips manually stopped channels",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:218] skips manually stopped channels",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:218",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips channels with health monitor disabled globally for that account",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:230] skips channels with health monitor disabled globally for that account",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:230",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] still restarts enabled accounts when another account on the same channel is disabled",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:242] still restarts enabled accounts when another account on the same channel is disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:242",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts a stuck channel (running but not connected)",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:277] restarts a stuck channel (running but not connected)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:277",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips restart when channel is busy with active runs",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:298] skips restart when channel is busy with active runs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:298",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts busy channels when run activity is stale",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:317] restarts busy channels when run activity is stale",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:317",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts disconnected channels when busy flags are inherited from a prior lifecycle",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:323] restarts disconnected channels when busy flags are inherited from a prior lifecycle",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:323",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips recently-started channels while they are still connecting",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:329] skips recently-started channels while they are still connecting",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:329",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] respects custom per-channel startup grace",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:345] respects custom per-channel startup grace",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:345",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts a stopped channel that gave up (reconnectAttempts >= 10)",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:364] restarts a stopped channel that gave up (reconnectAttempts >= 10)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:364",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts a channel that stopped unexpectedly (not running, not manual)",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:379] restarts a channel that stopped unexpectedly (not running, not manual)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:379",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] treats missing enabled/configured flags as managed accounts",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:391] treats missing enabled/configured flags as managed accounts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:391",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] applies cooldown — skips recently restarted channels for 2 cycles",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:405] applies cooldown — skips recently restarted channels for 2 cycles",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:405",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] caps at 3 health-monitor restarts per channel per hour",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:422] caps at 3 health-monitor restarts per channel per hour",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:422",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] counts failed restart attempts toward cooldown and hourly caps",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:440] counts failed restart attempts toward cooldown and hourly caps",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:440",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] runs checks single-flight when restart work is still in progress",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:465] runs checks single-flight when restart work is still in progress",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:465",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] stops cleanly",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:492] stops cleanly",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:492",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] stops via abort signal",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:500] stops via abort signal",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:500",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] treats running channels without a connected field as healthy",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:510] treats running channels without a connected field as healthy",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:510",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts a channel with no transport activity past the stale threshold",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:524] restarts a channel with no transport activity past the stale threshold",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:524",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips channels with recent transport activity",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:535] skips channels with recent transport activity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:535",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips channels still within the startup grace window for stale detection",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:546] skips channels still within the startup grace window for stale detection",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:546",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] restarts a channel with no transport activity since connect past the stale threshold",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:557] restarts a channel with no transport activity since connect past the stale threshold",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:557",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] skips connected channels that do not report transport liveness",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:568] skips connected channels that do not report transport liveness",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:568",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts] respects custom staleEventThresholdMs",
+TEST_CASE("v4.29 [src/gateway/channel-health-monitor.test.ts:585] respects custom staleEventThresholdMs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/channel-health-monitor.test.ts:585",
                "upstream it() block #30",

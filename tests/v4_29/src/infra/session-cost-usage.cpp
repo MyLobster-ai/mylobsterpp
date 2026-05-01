@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] aggregates daily totals with log cost and pricing fallback",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:37] aggregates daily totals with log cost and pricing fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] ignores compaction checkpoint transcript snapshots in daily totals and discovery",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:131] ignores compaction checkpoint transcript snapshots in daily totals and discovery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:131",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] summarizes a single session file",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:179] summarizes a single session file",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:179",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] captures message counts, tool usage, and model usage",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:212] captures message counts, tool usage, and model usage",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] does not exclude sessions with mtime after endMs during discovery",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:291] does not exclude sessions with mtime after endMs during discovery",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:291",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] counts reset and deleted transcripts in global usage summary, but excludes bak archives",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:311] counts reset and deleted transcripts in global usage summary, but excludes bak archives",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:311",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] discovers reset and deleted transcripts as usage sessions",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:376] discovers reset and deleted transcripts as usage sessions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:376",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] deduplicates discovered sessions by sessionId and keeps the newest archive",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:411] deduplicates discovered sessions by sessionId and keeps the newest archive",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:411",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] prefers the active transcript over archives during discovery dedupe",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:455] prefers the active transcript over archives during discovery dedupe",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:455",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] falls back to archived reset transcripts for per-session detail queries",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:496] falls back to archived reset transcripts for per-session detail queries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:496",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] uses the candidate session directory for archived fallback lookups",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:528] uses the candidate session directory for archived fallback lookups",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:528",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] picks the newest archive by timestamp when reset and deleted archives coexist",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:567] picks the newest archive by timestamp when reset and deleted archives coexist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:567",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] resolves non-main absolute sessionFile using explicit agentId for cost summary",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:609] resolves non-main absolute sessionFile using explicit agentId for cost summary",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:609",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] resolves non-main absolute sessionFile using explicit agentId for timeseries",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:651] resolves non-main absolute sessionFile using explicit agentId for timeseries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:651",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] resolves non-main absolute sessionFile using explicit agentId for logs",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:689] resolves non-main absolute sessionFile using explicit agentId for logs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:689",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] strips inbound and untrusted metadata blocks from session usage logs",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:726] strips inbound and untrusted metadata blocks from session usage logs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:726",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] buckets hourly message counts into UTC quarter-hour slots",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:768] buckets hourly message counts into UTC quarter-hour slots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:768",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] returns undefined utcQuarterHourMessageCounts when session has no messages",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:835] returns undefined utcQuarterHourMessageCounts when session has no messages",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:835",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts] preserves totals and cumulative values when downsampling timeseries",
+TEST_CASE("v4.29 [src/infra/session-cost-usage.test.ts:845] preserves totals and cumulative values when downsampling timeseries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/session-cost-usage.test.ts:845",
                "upstream it() block #18",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] uses undici fetch with ProxyAgent dispatcher",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:87] uses undici fetch with ProxyAgent dispatcher",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:87",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] reuses the same ProxyAgent across calls",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:102] reuses the same ProxyAgent across calls",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:102",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns the trimmed proxy url from proxy fetch wrappers",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:118] returns the trimmed proxy url from proxy fetch wrappers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns undefined for plain fetch functions or blank metadata",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:124] returns undefined for plain fetch functions or blank metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns undefined when no proxy env vars are set",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:150] returns undefined when no proxy env vars are set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:150",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns proxy fetch using EnvHttpProxyAgent when HTTPS_PROXY is set",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:154] returns proxy fetch using EnvHttpProxyAgent when HTTPS_PROXY is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:154",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns proxy fetch when HTTP_PROXY is set",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:171] returns proxy fetch when HTTP_PROXY is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:171",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns proxy fetch when lowercase https_proxy is set",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:183] returns proxy fetch when lowercase https_proxy is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:183",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns proxy fetch when lowercase http_proxy is set",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:194] returns proxy fetch when lowercase http_proxy is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:194",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns proxy fetch when ALL_PROXY is set",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:208] returns proxy fetch when ALL_PROXY is set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:208",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts] returns undefined when EnvHttpProxyAgent constructor throws",
+TEST_CASE("v4.29 [src/infra/net/proxy-fetch.test.ts:223] returns undefined when EnvHttpProxyAgent constructor throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/net/proxy-fetch.test.ts:223",
                "upstream it() block #10",

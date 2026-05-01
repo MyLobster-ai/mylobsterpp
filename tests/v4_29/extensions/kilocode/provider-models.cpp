@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] returns static catalog in test environment",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:83] returns static catalog in test environment",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:83",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] static catalog has correct defaults for kilo/auto",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:89] static catalog has correct defaults for kilo/auto",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] parses gateway models with correct pricing conversion",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:103] parses gateway models with correct pricing conversion",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] falls back to static catalog on network error",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:136] falls back to static catalog on network error",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:136",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] falls back to static catalog on HTTP error",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:145] falls back to static catalog on HTTP error",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] ensures kilo/auto is present even when API doesn",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:157] ensures kilo/auto is present even when API doesn",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:157",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] detects text-only models without image modality",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:172] detects text-only models without image modality",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:172",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts] keeps a later valid duplicate when an earlier entry is malformed",
+TEST_CASE("v4.29 [extensions/kilocode/provider-models.test.ts:194] keeps a later valid duplicate when an earlier entry is malformed",
           "[v4_29][parity_gap][kilocode]") {
     PARITY_GAP("extensions/kilocode/provider-models.test.ts:194",
                "upstream it() block #7",

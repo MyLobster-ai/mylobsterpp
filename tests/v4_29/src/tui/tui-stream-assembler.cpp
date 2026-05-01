@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts] keeps thinking before content even when thinking arrives later",
+TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts:63] keeps thinking before content even when thinking arrives later",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-stream-assembler.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts] omits thinking when showThinking is false",
+TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts:72] omits thinking when showThinking is false",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-stream-assembler.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts] falls back to streamed text on empty final payload",
+TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts:82] falls back to streamed text on empty final payload",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-stream-assembler.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts] falls back to event error message when final payload has no renderable text",
+TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts:89] falls back to event error message when final payload has no renderable text",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-stream-assembler.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts] returns null when delta text is unchanged",
+TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts:101] returns null when delta text is unchanged",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-stream-assembler.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts] keeps streamed delta text when incoming tool boundary drops a block",
+TEST_CASE("v4.29 [src/tui/tui-stream-assembler.test.ts:109] keeps streamed delta text when incoming tool boundary drops a block",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/tui-stream-assembler.test.ts:109",
                "upstream it() block #5",

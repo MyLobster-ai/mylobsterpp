@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts] lists normalized setup account ids plus the implicit default account",
+TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts:10] lists normalized setup account ids plus the implicit default account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-account-state.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts] resolves setup account config when account key casing differs from normalized id",
+TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts:25] resolves setup account config when account key casing differs from normalized id",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-account-state.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts] uses configured defaultAccount for omitted setup account resolution",
+TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts:45] uses configured defaultAccount for omitted setup account resolution",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-account-state.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts] treats explicit blank account tokens as missing without falling back",
+TEST_CASE("v4.29 [extensions/discord/src/setup-account-state.test.ts:70] treats explicit blank account tokens as missing without falling back",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/setup-account-state.test.ts:70",
                "upstream it() block #3",

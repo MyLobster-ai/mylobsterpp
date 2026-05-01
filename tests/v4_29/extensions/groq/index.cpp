@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/groq/index.test.ts] maps Groq Qwen 3 reasoning to provider-native none/default values",
+TEST_CASE("v4.29 [extensions/groq/index.test.ts:7] maps Groq Qwen 3 reasoning to provider-native none/default values",
           "[v4_29][parity_gap][groq]") {
     PARITY_GAP("extensions/groq/index.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/groq/index.test.ts] keeps GPT-OSS reasoning on the Groq low/medium/high contract",
+TEST_CASE("v4.29 [extensions/groq/index.test.ts:20] keeps GPT-OSS reasoning on the Groq low/medium/high contract",
           "[v4_29][parity_gap][groq]") {
     PARITY_GAP("extensions/groq/index.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/groq/index.test.ts] contributes compat only for Groq OpenAI-compatible chat models",
+TEST_CASE("v4.29 [extensions/groq/index.test.ts:27] contributes compat only for Groq OpenAI-compatible chat models",
           "[v4_29][parity_gap][groq]") {
     PARITY_GAP("extensions/groq/index.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/groq/index.test.ts] registers Groq model and media providers",
+TEST_CASE("v4.29 [extensions/groq/index.test.ts:42] registers Groq model and media providers",
           "[v4_29][parity_gap][groq]") {
     PARITY_GAP("extensions/groq/index.test.ts:42",
                "upstream it() block #3",

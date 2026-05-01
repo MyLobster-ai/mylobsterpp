@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] keeps Barnacle-owned labels documented and ClawHub spelled correctly",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:190] keeps Barnacle-owned labels documented and ClawHub spelled correctly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:190",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] labels docs-only discoverability churn without closing it",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:204] labels docs-only discoverability churn without closing it",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:204",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not treat template boilerplate as behavior evidence for test-only churn",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:218] does not treat template boilerplate as behavior evidence for test-only churn",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:218",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] uses linked issues as context and suppresses low-signal docs labels",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:228] uses linked issues as context and suppresses low-signal docs labels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:228",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] warns on broad high-surface PRs instead of auto-closing them as dirty",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:238] warns on broad high-surface PRs instead of auto-closing them as dirty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:238",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] suppresses dirty-candidate when the PR has concrete behavior context",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:249] suppresses dirty-candidate when the PR has concrete behavior context",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:249",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not classify a linked core plugin auto-enable fix as an external plugin candidate",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:266] does not classify a linked core plugin auto-enable fix as an external plugin candidate",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:266",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not mutate maintainer-authored PRs",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:290] does not mutate maintainer-authored PRs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:290",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] leaves stale Barnacle labels alone on maintainer-authored PRs",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:317] leaves stale Barnacle labels alone on maintainer-authored PRs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:317",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not mutate maintainer-authored issues",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:347] does not mutate maintainer-authored issues",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:347",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not action close labels on maintainer-authored issues",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:369] does not action close labels on maintainer-authored issues",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:369",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not respond to maintainer comments on contributor items",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:397] does not respond to maintainer comments on contributor items",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:397",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] does not close automation PRs for the active PR limit",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:430] does not close automation PRs for the active PR limit",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:430",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] still adds candidate labels to broad contributor PRs",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:471] still adds candidate labels to broad contributor PRs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:471",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] actions manually applied candidate labels",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:496] actions manually applied candidate labels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:496",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] keeps bot-applied candidate labels passive",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:519] keeps bot-applied candidate labels passive",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:519",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts] actions existing candidate labels when a maintainer adds trigger-response",
+TEST_CASE("v4.29 [test/scripts/barnacle-auto-response.test.ts:538] actions existing candidate labels when a maintainer adds trigger-response",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/barnacle-auto-response.test.ts:538",
                "upstream it() block #16",

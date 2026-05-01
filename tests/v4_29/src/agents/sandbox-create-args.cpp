@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] includes hardening and resource flags",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:41] includes hardening and resource flags",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] preserves the OpenClaw exec marker when strict env sanitization is enabled",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:140] preserves the OpenClaw exec marker when strict env sanitization is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:140",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] emits Docker GPU passthrough as a separate argument",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:167] emits Docker GPU passthrough as a separate argument",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:167",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] emits -v flags for safe custom binds",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:182] emits -v flags for safe custom binds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:182",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] omits -v flags when binds is empty or undefined",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:256] omits -v flags when binds is empty or undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:256",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] blocks bind sources outside runtime allowlist roots",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:288] blocks bind sources outside runtime allowlist roots",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:288",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] allows bind sources outside runtime allowlist with explicit override",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:301] allows bind sources outside runtime allowlist with explicit override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:301",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] blocks reserved /workspace target bind mounts by default",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:314] blocks reserved /workspace target bind mounts by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:314",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] allows reserved /workspace target bind mounts with explicit dangerous override",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:319] allows reserved /workspace target bind mounts with explicit dangerous override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:319",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts] allows container namespace join with explicit dangerous override",
+TEST_CASE("v4.29 [src/agents/sandbox-create-args.test.ts:331] allows container namespace join with explicit dangerous override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox-create-args.test.ts:331",
                "upstream it() block #9",

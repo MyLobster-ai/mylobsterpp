@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts] labels hooks list output",
+TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts:63] labels hooks list output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/hooks-cli.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts] labels hooks status output",
+TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts:69] labels hooks status output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/hooks-cli.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts] labels plugin-managed hooks with plugin id",
+TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts:74] labels plugin-managed hooks with plugin id",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/hooks-cli.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts] shows plugin-managed details in hook info",
+TEST_CASE("v4.29 [src/cli/hooks-cli.test.ts:81] shows plugin-managed details in hook info",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/hooks-cli.test.ts:81",
                "upstream it() block #3",

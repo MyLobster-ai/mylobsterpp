@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/node-list-parse.test.ts] parses node.list payloads",
+TEST_CASE("v4.29 [src/shared/node-list-parse.test.ts:5] parses node.list payloads",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-list-parse.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-list-parse.test.ts] parses node.pair.list payloads",
+TEST_CASE("v4.29 [src/shared/node-list-parse.test.ts:12] parses node.pair.list payloads",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-list-parse.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-list-parse.test.ts] preserves valid pairing arrays when the sibling field is malformed",
+TEST_CASE("v4.29 [src/shared/node-list-parse.test.ts:41] preserves valid pairing arrays when the sibling field is malformed",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-list-parse.test.ts:41",
                "upstream it() block #2",

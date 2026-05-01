@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] defaults to minimal reaction guidance when reactions are available",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:61] defaults to minimal reaction guidance when reactions are available",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] omits reaction guidance when WhatsApp is not configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:73] omits reaction guidance when WhatsApp is not configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] returns minimal reaction guidance when configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:82] returns minimal reaction guidance when configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] omits reaction guidance when WhatsApp reactions are disabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:95] omits reaction guidance when WhatsApp reactions are disabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] omits reaction guidance when reactionLevel disables agent reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:108] omits reaction guidance when reactionLevel disables agent reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:108",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] advertises react when agent reactions are enabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:121] advertises react when agent reactions are enabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:121",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] returns null when WhatsApp is not configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:136] returns null when WhatsApp is not configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:136",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] omits react when reactionLevel disables agent reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:142] omits react when reactionLevel disables agent reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:142",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] uses the active account reactionLevel for discovery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:157] uses the active account reactionLevel for discovery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:157",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] keeps react in global discovery when any account enables agent reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:178] keeps react in global discovery when any account enables agent reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:178",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts] omits react in global discovery when only disabled accounts enable agent reactions",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-actions.test.ts:197] omits react in global discovery when only disabled accounts enable agent reactions",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-actions.test.ts:197",
                "upstream it() block #10",

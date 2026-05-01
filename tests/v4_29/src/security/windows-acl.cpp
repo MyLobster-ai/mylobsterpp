@@ -5,306 +5,306 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns DOMAIN\\\\USERNAME when both are present",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:94] returns DOMAIN\\\\USERNAME when both are present",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns just USERNAME when USERDOMAIN is not present",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:99] returns just USERNAME when USERDOMAIN is not present",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:99",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] trims whitespace from values",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:104] trims whitespace from values",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] falls back to os.userInfo when USERNAME is empty",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:109] falls back to os.userInfo when USERNAME is empty",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] parses standard icacls output",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:119] parses standard icacls output",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] parses entries with inheritance flags",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:136] parses entries with inheritance flags",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:136",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] filters out DENY entries",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:145] filters out DENY entries",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] skips status messages",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:152] skips status messages",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:152",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] skips localized (non-English) status lines that have no parenthesised token",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:161] skips localized (non-English) status lines that have no parenthesised token",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:161",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] parses SID-format principals",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:171] parses SID-format principals",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:171",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] ignores malformed ACL lines that contain ",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:181] ignores malformed ACL lines that contain ",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:181",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] handles quoted target paths",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:188] handles quoted target paths",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:188",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] skips entries with parentheses but no colon separator (line 190)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:194] skips entries with parentheses but no colon separator (line 190)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:194",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] skips entries where all tokens are inherit flags (line 207)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:202] skips entries where all tokens are inherit flags (line 207)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:202",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies trusted principals",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:227] classifies trusted principals",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:227",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies world principals",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:238] classifies world principals",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:238",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies current user as trusted",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:259] classifies current user as trusted",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:259",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies unknown principals as group",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:266] classifies unknown principals as group",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:266",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] full scenario: SYSTEM SID + owner SID only → no findings",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:387] full scenario: SYSTEM SID + owner SID only → no findings",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:387",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns parsed ACL entries on success",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:414] returns parsed ACL entries on success",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:414",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies *S-1-5-18 (SID form of SYSTEM from /sid) as trusted",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:430] classifies *S-1-5-18 (SID form of SYSTEM from /sid) as trusted",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:430",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] resolves current user SID via whoami when USERSID is missing",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:451] resolves current user SID via whoami when USERSID is missing",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:451",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns error state on exec failure",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:476] returns error state on exec failure",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:476",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] combines stdout and stderr for parsing",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:487] combines stdout and stderr for parsing",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:487",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns null SID and continues when whoami throws (line 277)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:499] returns null SID and continues when whoami throws (line 277)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:499",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] uses SystemRoot for Windows system commands when available",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:522] uses SystemRoot for Windows system commands when available",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:522",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns ",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:554] returns ",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:554",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns ",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:566] returns ",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:566",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] formats untrusted entries",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:585] formats untrusted entries",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:585",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] generates command for files",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:615] generates command for files",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:615",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] generates command for directories with inheritance flags",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:626] generates command for directories with inheritance flags",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:626",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] uses system username when env is empty (falls back to os.userInfo)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:635] uses system username when env is empty (falls back to os.userInfo)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:635",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns structured command object",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:649] returns structured command object",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:649",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns command with system username when env is empty (falls back to os.userInfo)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:661] returns command with system username when env is empty (falls back to os.userInfo)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:661",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] includes display string matching formatIcaclsResetCommand",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:674] includes display string matching formatIcaclsResetCommand",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:674",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] world SIDs in USERSID env are not added to trusted set",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:687] world SIDs in USERSID env are not added to trusted set",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:687",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] returns null when no username can be resolved (line 348)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:705] returns null when no username can be resolved (line 348)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:705",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies French SYSTEM (AUTORITE NT\\\\Système) as trusted",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:716] classifies French SYSTEM (AUTORITE NT\\\\Système) as trusted",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:716",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies German SYSTEM (NT-AUTORITÄT\\\\SYSTEM) as trusted",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:720] classifies German SYSTEM (NT-AUTORITÄT\\\\SYSTEM) as trusted",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:720",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies Spanish SYSTEM (AUTORIDAD NT\\\\SYSTEM) as trusted",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:724] classifies Spanish SYSTEM (AUTORIDAD NT\\\\SYSTEM) as trusted",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:724",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] classifies principal with diacritic not in TRUSTED_BASE but matching stripped suffix (line 145)",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:728] classifies principal with diacritic not in TRUSTED_BASE but matching stripped suffix (line 145)",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:728",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] French Windows full scenario: user + Système only → no untrusted",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:735] French Windows full scenario: user + Système only → no untrusted",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:735",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/windows-acl.test.ts] uses *S-1-5-18 instead of SYSTEM in reset command",
+TEST_CASE("v4.29 [src/security/windows-acl.test.ts:749] uses *S-1-5-18 instead of SYSTEM in reset command",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/windows-acl.test.ts:749",
                "upstream it() block #42",

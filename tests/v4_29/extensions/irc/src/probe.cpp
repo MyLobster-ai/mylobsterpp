@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/irc/src/probe.test.ts] returns a configuration error when the IRC account is incomplete",
+TEST_CASE("v4.29 [extensions/irc/src/probe.test.ts:31] returns a configuration error when the IRC account is incomplete",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/probe.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/probe.test.ts] returns latency and quits the probe client on success",
+TEST_CASE("v4.29 [extensions/irc/src/probe.test.ts:51] returns latency and quits the probe client on success",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/probe.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/probe.test.ts] formats non-Error probe failures into the returned error field",
+TEST_CASE("v4.29 [extensions/irc/src/probe.test.ts:85] formats non-Error probe failures into the returned error field",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/probe.test.ts:85",
                "upstream it() block #2",

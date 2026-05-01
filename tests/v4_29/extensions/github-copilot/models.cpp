@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] includes claude-opus-4.7",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:70] includes claude-opus-4.7",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] includes claude-sonnet-4.6",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:75] includes claude-sonnet-4.6",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] includes claude-sonnet-4.5",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:79] includes claude-sonnet-4.5",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] returns a mutable copy",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:83] returns a mutable copy",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:83",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] builds a valid definition for claude-sonnet-4.6",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:92] builds a valid definition for claude-sonnet-4.6",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:92",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] trims whitespace from model id",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:98] trims whitespace from model id",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:98",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] throws on empty model id",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:104] throws on empty model id",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:104",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] returns undefined for empty modelId",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:112] returns undefined for empty modelId",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:112",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] returns undefined when model is already in registry",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:117] returns undefined when model is already in registry",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:117",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] clones gpt-5.2-codex template for gpt-5.4",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:124] clones gpt-5.2-codex template for gpt-5.4",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:124",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] clones gpt-5.3-codex template for gpt-5.3-codex when not in registry",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:142] clones gpt-5.3-codex template for gpt-5.3-codex when not in registry",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:142",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] prefers gpt-5.3-codex as template source over gpt-5.2-codex for gpt-5.4",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:160] prefers gpt-5.3-codex as template source over gpt-5.2-codex for gpt-5.4",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:160",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] falls through to synthetic catch-all when codex template is missing",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:186] falls through to synthetic catch-all when codex template is missing",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:186",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] creates synthetic model for arbitrary unknown model ID",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:192] creates synthetic model for arbitrary unknown model ID",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:192",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] infers reasoning=true for o1/o3 model IDs",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:201] infers reasoning=true for o1/o3 model IDs",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:201",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] infers reasoning=true for Codex model IDs",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:209] infers reasoning=true for Codex model IDs",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:209",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] sets reasoning=false for non-reasoning model IDs including mid-string o1/o3",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:217] sets reasoning=false for non-reasoning model IDs including mid-string o1/o3",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:217",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] returns HTTP errors for failed requests",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:234] returns HTTP errors for failed requests",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:234",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] parses premium/chat usage from remaining percentages",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:242] parses premium/chat usage from remaining percentages",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:242",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] defaults missing snapshot values and clamps invalid remaining percentages",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:266] defaults missing snapshot values and clamps invalid remaining percentages",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:266",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] returns an empty window list when quota snapshots are missing",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:285] returns an empty window list when quota snapshots are missing",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:285",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] derives baseUrl from token",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:313] derives baseUrl from token",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:313",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] uses cache when token is still valid",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:322] uses cache when token is still valid",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:322",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts] fetches and stores token when cache is missing",
+TEST_CASE("v4.29 [extensions/github-copilot/models.test.ts:345] fetches and stores token when cache is missing",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/models.test.ts:345",
                "upstream it() block #23",

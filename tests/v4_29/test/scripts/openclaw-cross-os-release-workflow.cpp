@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-workflow.test.ts] runs the TypeScript release harness through the Windows-safe wrapper",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-workflow.test.ts:8] runs the TypeScript release harness through the Windows-safe wrapper",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-workflow.test.ts:8",
                "upstream it() block #0",

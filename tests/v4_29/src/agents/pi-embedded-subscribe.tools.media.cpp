@@ -5,285 +5,285 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] returns empty array for null/undefined",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:10] returns empty array for null/undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] returns empty array for non-object",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:15] returns empty array for non-object",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts structured details.media without content blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:20] extracts structured details.media without content blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] returns empty array when content has no text or image blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:34] returns empty array when content has no text or image blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:34",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts structured media with audioAsVoice",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:38] extracts structured media with audioAsVoice",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts audioAsVoice from text MEDIA directives",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:54] extracts audioAsVoice from text MEDIA directives",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:54",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] keeps audioAsVoice when the tag and MEDIA path are in separate text blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:67] keeps audioAsVoice when the tag and MEDIA path are in separate text blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:67",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts structured media trust markers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:81] extracts structured media trust markers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:81",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts MEDIA: path from text content block",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:97] extracts MEDIA: path from text content block",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:97",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts MEDIA: path with extra text in the block",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:108] extracts MEDIA: path with extra text in the block",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:108",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts multiple MEDIA: paths from different text blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:115] extracts multiple MEDIA: paths from different text blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:115",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] falls back to details.path when image content exists but no MEDIA: text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:125] falls back to details.path when image content exists but no MEDIA: text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:125",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] returns empty array when image content exists but no MEDIA: and no details.path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:138] returns empty array when image content exists but no MEDIA: and no details.path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:138",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not fall back to details.path when MEDIA: paths are found",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:149] does not fall back to details.path when MEDIA: paths are found",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:149",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] handles backtick-wrapped MEDIA: paths",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:161] handles backtick-wrapped MEDIA: paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:161",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] ignores null/undefined items in content array",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:168] ignores null/undefined items in content array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:168",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] returns empty array for text-only results without MEDIA:",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:175] returns empty array for text-only results without MEDIA:",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:175",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] ignores details.path when no image content exists",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:182] ignores details.path when no image content exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:182",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] handles details.path with whitespace",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:191] handles details.path with whitespace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:191",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] skips empty details.path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:199] skips empty details.path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:199",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not match <media:audio> placeholder as a MEDIA: token",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:207] does not match <media:audio> placeholder as a MEDIA: token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:207",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not match <media:image> placeholder as a MEDIA: token",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:219] does not match <media:image> placeholder as a MEDIA: token",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:219",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not match other media placeholder variants",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:226] does not match other media placeholder variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:226",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not match mid-line MEDIA: in documentation text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:240] does not match mid-line MEDIA: in documentation text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:240",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not treat malformed MEDIA:-prefixed prose as a file path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:252] does not treat malformed MEDIA:-prefixed prose as a file path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:252",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] still extracts MEDIA: at line start after other text lines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:264] still extracts MEDIA: at line start after other text lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:264",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts indented MEDIA: line",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:276] extracts indented MEDIA: line",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:276",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts valid MEDIA: line while ignoring <media:audio> on another line",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:283] extracts valid MEDIA: line while ignoring <media:audio> on another line",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:283",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] extracts multiple MEDIA: lines from a single text block",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:295] extracts multiple MEDIA: lines from a single text block",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:295",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] trusts image_generate local MEDIA paths",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:307] trusts image_generate local MEDIA paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:307",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] trusts music_generate local MEDIA paths",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:311] trusts music_generate local MEDIA paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:311",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] trusts video_generate local MEDIA paths",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:315] trusts video_generate local MEDIA paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:315",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] trusts bundled plugin tool local MEDIA paths",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:319] trusts bundled plugin tool local MEDIA paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:319",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] blocks trusted-media aliases that are not exact registered built-ins",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:323] blocks trusted-media aliases that are not exact registered built-ins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:323",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] keeps local media for exact registered built-in tool names",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:332] keeps local media for exact registered built-in tool names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:332",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] keeps local media for bundled plugin tool names registered in this run",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:343] keeps local media for bundled plugin tool names registered in this run",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:343",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] strips local media for plugin-name collisions when the plugin is not registered",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:357] strips local media for plugin-name collisions when the plugin is not registered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:357",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] still allows remote media for colliding aliases",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:368] still allows remote media for colliding aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:368",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] does not trust local MEDIA paths for MCP-provenance results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:379] does not trust local MEDIA paths for MCP-provenance results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:379",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts] still allows remote MEDIA urls for MCP-provenance results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.tools.media.test.ts:390] still allows remote MEDIA urls for MCP-provenance results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.tools.media.test.ts:390",
                "upstream it() block #39",

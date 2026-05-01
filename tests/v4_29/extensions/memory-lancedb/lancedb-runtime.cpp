@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts] reads dependency from source-layout sibling manifest",
+TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts:15] reads dependency from source-layout sibling manifest",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/lancedb-runtime.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts] falls back to dist/extensions memory-lancedb manifest for flattened bundles",
+TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts:30] falls back to dist/extensions memory-lancedb manifest for flattened bundles",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/lancedb-runtime.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts] walks parent directories to support nested dist chunk paths",
+TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts:53] walks parent directories to support nested dist chunk paths",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/lancedb-runtime.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts] throws when no candidate package manifest declares @lancedb/lancedb",
+TEST_CASE("v4.29 [extensions/memory-lancedb/lancedb-runtime.test.ts:74] throws when no candidate package manifest declares @lancedb/lancedb",
           "[v4_29][parity_gap][memory-lancedb]") {
     PARITY_GAP("extensions/memory-lancedb/lancedb-runtime.test.ts:74",
                "upstream it() block #3",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/archive-staging.test.ts] accepts real destination directories and returns their real path",
+TEST_CASE("v4.29 [src/infra/archive-staging.test.ts:17] accepts real destination directories and returns their real path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive-staging.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive-staging.test.ts] creates in-destination parent directories for file outputs",
+TEST_CASE("v4.29 [src/infra/archive-staging.test.ts:47] creates in-destination parent directories for file outputs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive-staging.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive-staging.test.ts] cleans up staged archive directories after success and failure",
+TEST_CASE("v4.29 [src/infra/archive-staging.test.ts:99] cleans up staged archive directories after success and failure",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive-staging.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive-staging.test.ts] builds a typed archive symlink traversal error",
+TEST_CASE("v4.29 [src/infra/archive-staging.test.ts:166] builds a typed archive symlink traversal error",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive-staging.test.ts:166",
                "upstream it() block #3",

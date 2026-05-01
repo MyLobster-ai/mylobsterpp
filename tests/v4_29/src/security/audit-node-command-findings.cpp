@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/security/audit-node-command-findings.test.ts] evaluates ineffective gateway.nodes.denyCommands entries",
+TEST_CASE("v4.29 [src/security/audit-node-command-findings.test.ts:23] evaluates ineffective gateway.nodes.denyCommands entries",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-node-command-findings.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-node-command-findings.test.ts] does not flag valid dangerous gateway.nodes.denyCommands entries as ineffective",
+TEST_CASE("v4.29 [src/security/audit-node-command-findings.test.ts:88] does not flag valid dangerous gateway.nodes.denyCommands entries as ineffective",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-node-command-findings.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/security/audit-node-command-findings.test.ts] evaluates dangerous gateway.nodes.allowCommands findings",
+TEST_CASE("v4.29 [src/security/audit-node-command-findings.test.ts:100] evaluates dangerous gateway.nodes.allowCommands findings",
           "[v4_29][parity_gap][security]") {
     PARITY_GAP("src/security/audit-node-command-findings.test.ts:100",
                "upstream it() block #2",

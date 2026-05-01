@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] appends missing default models to existing provider models",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:31] appends missing default models to existing provider models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] preserves existing agent model entries when adding provider models",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:62] preserves existing agent model entries when adding provider models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] merges model catalogs without duplicating existing model ids",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:97] merges model catalogs without duplicating existing model ids",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] supports single default model convenience wrapper",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:124] supports single default model convenience wrapper",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] preserves explicit aliases when adding provider alias presets",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:139] preserves explicit aliases when adding provider alias presets",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:139",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] applies default-model presets with alias and primary model",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:153] applies default-model presets with alias and primary model",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:153",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts] applies catalog presets with alias and merged catalog models",
+TEST_CASE("v4.29 [src/commands/onboard-auth.config-shared.test.ts:178] applies catalog presets with alias and merged catalog models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-auth.config-shared.test.ts:178",
                "upstream it() block #6",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts] renders title and styled text as markdown",
+TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts:5] renders title and styled text as markdown",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/post.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts] renders links and mentions",
+TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts:32] renders links and mentions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/post.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts] inserts image placeholders and collects image keys",
+TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts:56] inserts image placeholders and collects image keys",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/post.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts] supports locale wrappers",
+TEST_CASE("v4.29 [extensions/feishu/src/post.test.ts:76] supports locale wrappers",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/post.test.ts:76",
                "upstream it() block #3",

@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns original body on first attempt (isFallbackRetry=false)",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:17] returns original body on first attempt (isFallbackRetry=false)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] prepends recovery prefix to original body on fallback retry with existing session history",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:26] prepends recovery prefix to original body on fallback retry with existing session history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] preserves original body for fallback retry when session has no history (subagent spawn)",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:36] preserves original body for fallback retry when session has no history (subagent spawn)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] preserves original body for fallback retry when sessionHasHistory is undefined",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:46] preserves original body for fallback retry when sessionHasHistory is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns original body on first attempt regardless of sessionHasHistory",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:55] returns original body on first attempt regardless of sessionHasHistory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:55",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] preserves original body on fallback retry without history",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:73] preserves original body on fallback retry without history",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:73",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] prepends priorContextPrelude before the retry marker on fallback retry",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:83] prepends priorContextPrelude before the retry marker on fallback retry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:83",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] emits the retry prompt with prelude even when sessionHasHistory is false (claude-cli case)",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:96] emits the retry prompt with prelude even when sessionHasHistory is false (claude-cli case)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:96",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] ignores empty/whitespace priorContextPrelude",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:109] ignores empty/whitespace priorContextPrelude",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] does not prepend prelude on non-fallback first attempts",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:120] does not prepend prelude on non-fallback first attempts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:120",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns empty string when seed has neither summary nor turns",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:133] returns empty string when seed has neither summary nor turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:133",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] emits summary alone when no turns are available",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:137] emits summary alone when no turns are available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:137",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] formats user/assistant turns and tags tool blocks with compact hints",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:148] formats user/assistant turns and tags tool blocks with compact hints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:148",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] truncates an oversized summary instead of dropping it silently",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:182] truncates an oversized summary instead of dropping it silently",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:182",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] drops oldest turns first when the budget cannot fit all of them",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:193] drops oldest turns first when the budget cannot fit all of them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:193",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] keeps the recent turn window contiguous when an adjacent turn is oversized",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:204] keeps the recent turn window contiguous when an adjacent turn is oversized",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:204",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns empty string when no sessionId is provided",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:223] returns empty string when no sessionId is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:223",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns empty string when the Claude session file does not exist",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:228] returns empty string when the Claude session file does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:228",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] reads a real Claude JSONL fixture and emits a labeled prelude end-to-end",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:242] reads a real Claude JSONL fixture and emits a labeled prelude end-to-end",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:242",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns false for undefined sessionFile",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:293] returns false for undefined sessionFile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:293",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns false when session file does not exist",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:297] returns false when session file does not exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:297",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns false when session file is empty",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:301] returns false when session file is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:301",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns false when session file has only user message (no assistant flush)",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:307] returns false when session file has only user message (no assistant flush)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:307",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns true when session file has assistant message (flushed)",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:317] returns true when session file has assistant message (flushed)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:317",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns true when session file has spaced JSON (role : assistant)",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:327] returns true when session file has spaced JSON (role : assistant)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:327",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns true when assistant message appears after large user content",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:337] returns true when assistant message appears after large user content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:337",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns false when session file is a symbolic link",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:353] returns false when session file is a symbolic link",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:353",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns false when the Claude project transcript is missing or empty",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:385] returns false when the Claude project transcript is missing or empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:385",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] returns true when the Claude project transcript has an assistant message",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:402] returns true when the Claude project transcript has an assistant message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:402",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] rejects path-like session ids instead of escaping the Claude projects tree",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:422] rejects path-like session ids instead of escaping the Claude projects tree",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:422",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] preserves cumulative raw snapshots after stripping a glued NO_REPLY prefix",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:434] preserves cumulative raw snapshots after stripping a glued NO_REPLY prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:434",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] keeps append-only deltas working after stripping a glued NO_REPLY prefix",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:451] keeps append-only deltas working after stripping a glued NO_REPLY prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:451",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] preserves punctuation-start text that begins with NO_REPLY-like content",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:465] preserves punctuation-start text that begins with NO_REPLY-like content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:465",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts] buffers chunked NO_REPLY prefixes before emitting visible text",
+TEST_CASE("v4.29 [src/agents/command/attempt-execution.test.ts:476] buffers chunked NO_REPLY prefixes before emitting visible text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/command/attempt-execution.test.ts:476",
                "upstream it() block #33",

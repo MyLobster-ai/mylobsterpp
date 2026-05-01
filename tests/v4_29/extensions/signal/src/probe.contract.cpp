@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/probe.contract.test.ts] keeps public probe aligned with base contract",
+TEST_CASE("v4.29 [extensions/signal/src/probe.contract.test.ts:6] keeps public probe aligned with base contract",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/probe.contract.test.ts:6",
                "upstream it() block #0",

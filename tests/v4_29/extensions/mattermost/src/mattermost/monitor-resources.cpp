@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-resources.test.ts] downloads media, preserves auth headers, and infers media kind",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-resources.test.ts:35] downloads media, preserves auth headers, and infers media kind",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-resources.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-resources.test.ts] caches channel and user lookups and falls back to empty picker props",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-resources.test.ts:81] caches channel and user lookups and falls back to empty picker props",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-resources.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-resources.test.ts] proxies typing indicators to the mattermost client helper",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor-resources.test.ts:133] proxies typing indicators to the mattermost client helper",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor-resources.test.ts:133",
                "upstream it() block #2",

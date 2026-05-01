@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts] bounds bootstrap handoff scopes by role",
+TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts:10] bounds bootstrap handoff scopes by role",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-bootstrap-profile.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts] bounds bootstrap handoff scopes across profile roles",
+TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts:27] bounds bootstrap handoff scopes across profile roles",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-bootstrap-profile.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts] normalizes issued handoff profiles to the bootstrap allowlist",
+TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts:40] normalizes issued handoff profiles to the bootstrap allowlist",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-bootstrap-profile.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts] bootstrap handoff operator allowlist stays aligned with pairing setup profile",
+TEST_CASE("v4.29 [src/shared/device-bootstrap-profile.test.ts:59] bootstrap handoff operator allowlist stays aligned with pairing setup profile",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/device-bootstrap-profile.test.ts:59",
                "upstream it() block #3",

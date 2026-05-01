@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] writes quoted set assignments and escapes metacharacters",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:66] writes quoted set assignments and escapes metacharacters",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:66",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] rejects line breaks in command arguments, env vars, and descriptions",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:135] rejects line breaks in command arguments, env vars, and descriptions",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:135",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] uses /Create when the task does not exist yet",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:167] uses /Create when the task does not exist yet",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:167",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] falls back to /Create when /Change fails on an existing task",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:179] falls back to /Create when /Change fails on an existing task",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:179",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] throws when /Run fails after updating an existing task",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:192] throws when /Run fails after updating an existing task",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:192",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] throws when /Run fails after creating a new task",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:211] throws when /Run fails after creating a new task",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] does not persist a frozen PATH snapshot into the generated task script",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:230] does not persist a frozen PATH snapshot into the generated task script",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:230",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts] exposes Windows task script env values as inline for managed-env drift audit",
+TEST_CASE("v4.29 [src/daemon/schtasks.install.test.ts:248] exposes Windows task script env values as inline for managed-env drift audit",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/schtasks.install.test.ts:248",
                "upstream it() block #7",

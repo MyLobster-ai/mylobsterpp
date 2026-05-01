@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] blocks localhost hostnames before fetch/firecrawl",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:94] blocks localhost hostnames before fetch/firecrawl",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] blocks private IP literals without DNS",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:105] blocks private IP literals without DNS",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] blocks when DNS resolves to private addresses",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:117] blocks when DNS resolves to private addresses",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] blocks redirects to private hosts",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:132] blocks redirects to private hosts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] allows public hosts",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:146] allows public hosts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:146",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] allows RFC2544 benchmark-range URLs only when web_fetch ssrfPolicy opts in",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:159] allows RFC2544 benchmark-range URLs only when web_fetch ssrfPolicy opts in",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:159",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts] allows IPv6 unique-local DNS answers only when web_fetch ssrfPolicy opts in",
+TEST_CASE("v4.29 [src/agents/tools/web-fetch.ssrf.test.ts:182] allows IPv6 unique-local DNS answers only when web_fetch ssrfPolicy opts in",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-fetch.ssrf.test.ts:182",
                "upstream it() block #6",

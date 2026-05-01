@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/web-provider-runtime-shared.test.ts] preserves explicit empty scopes in runtime-compatible web provider loads",
+TEST_CASE("v4.29 [src/plugins/web-provider-runtime-shared.test.ts:69] preserves explicit empty scopes in runtime-compatible web provider loads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-runtime-shared.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-provider-runtime-shared.test.ts] preserves explicit empty scopes in direct runtime web provider resolution",
+TEST_CASE("v4.29 [src/plugins/web-provider-runtime-shared.test.ts:101] preserves explicit empty scopes in direct runtime web provider resolution",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-runtime-shared.test.ts:101",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-provider-runtime-shared.test.ts] preserves explicit scopes when config is omitted in direct runtime resolution",
+TEST_CASE("v4.29 [src/plugins/web-provider-runtime-shared.test.ts:133] preserves explicit scopes when config is omitted in direct runtime resolution",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-provider-runtime-shared.test.ts:133",
                "upstream it() block #2",

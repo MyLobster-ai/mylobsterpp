@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/defaults.test.ts] skips provider defaults when agent defaults are absent",
+TEST_CASE("v4.29 [src/config/defaults.test.ts:32] skips provider defaults when agent defaults are absent",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/defaults.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/defaults.test.ts] skips provider defaults when agent defaults have no Anthropic auth signal",
+TEST_CASE("v4.29 [src/config/defaults.test.ts:47] skips provider defaults when agent defaults have no Anthropic auth signal",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/defaults.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/defaults.test.ts] uses anthropic provider defaults when agent defaults and auth signal exist",
+TEST_CASE("v4.29 [src/config/defaults.test.ts:58] uses anthropic provider defaults when agent defaults and auth signal exist",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/defaults.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/defaults.test.ts] defaults ackReactionScope without deriving other message fields",
+TEST_CASE("v4.29 [src/config/defaults.test.ts:84] defaults ackReactionScope without deriving other message fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/defaults.test.ts:84",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/defaults.test.ts] fills missing agent concurrency defaults",
+TEST_CASE("v4.29 [src/config/defaults.test.ts:106] fills missing agent concurrency defaults",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/defaults.test.ts:106",
                "upstream it() block #4",

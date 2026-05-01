@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts] disables tls when config is absent or disabled",
+TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts:68] disables tls when config is absent or disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/gateway.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts] loads existing cert, key, and optional ca files",
+TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts:79] loads existing cert, key, and optional ca files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/gateway.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts] fails closed when cert/key are missing and auto generation is disabled",
+TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts:113] fails closed when cert/key are missing and auto generation is disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/gateway.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts] reports load failures for invalid pem files",
+TEST_CASE("v4.29 [src/infra/tls/gateway.test.ts:134] reports load failures for invalid pem files",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/gateway.test.ts:134",
                "upstream it() block #3",

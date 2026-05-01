@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/sessions.test.ts] renders a tabular view with token percentages",
+TEST_CASE("v4.29 [src/commands/sessions.test.ts:27] renders a tabular view with token percentages",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions.test.ts] shows placeholder rows when tokens are missing",
+TEST_CASE("v4.29 [src/commands/sessions.test.ts:54] shows placeholder rows when tokens are missing",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions.test.ts] exports freshness metadata in JSON output",
+TEST_CASE("v4.29 [src/commands/sessions.test.ts:74] exports freshness metadata in JSON output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions.test.ts] shows preserved stale totals in JSON output",
+TEST_CASE("v4.29 [src/commands/sessions.test.ts:109] shows preserved stale totals in JSON output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions.test.ts] applies --active filtering in JSON output",
+TEST_CASE("v4.29 [src/commands/sessions.test.ts:132] applies --active filtering in JSON output",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions.test.ts:132",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sessions.test.ts] rejects invalid --active values",
+TEST_CASE("v4.29 [src/commands/sessions.test.ts:157] rejects invalid --active values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sessions.test.ts:157",
                "upstream it() block #5",

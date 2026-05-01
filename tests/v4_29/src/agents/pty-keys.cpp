@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodeKeySequence maps common keys and modifiers",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:12] encodeKeySequence maps common keys and modifiers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodeKeySequence uses CSI sequences in normal cursor key mode (default)",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:29] encodeKeySequence uses CSI sequences in normal cursor key mode (default)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodeKeySequence uses CSI sequences in explicit normal cursor key mode",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:51] encodeKeySequence uses CSI sequences in explicit normal cursor key mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodeKeySequence uses SS3 sequences in application cursor key mode",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:72] encodeKeySequence uses SS3 sequences in application cursor key mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodeKeySequence applies xterm modifiers to arrows in application mode",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:94] encodeKeySequence applies xterm modifiers to arrows in application mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodeKeySequence supports hex + literal with warnings",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:107] encodeKeySequence supports hex + literal with warnings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] encodePaste wraps bracketed sequences by default",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:117] encodePaste wraps bracketed sequences by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:117",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] stripDsrRequests removes cursor queries and counts them",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:123] stripDsrRequests removes cursor queries and counts them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:123",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pty-keys.test.ts] buildCursorPositionResponse returns CPR sequence",
+TEST_CASE("v4.29 [src/agents/pty-keys.test.ts:130] buildCursorPositionResponse returns CPR sequence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pty-keys.test.ts:130",
                "upstream it() block #8",

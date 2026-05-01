@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] distinguishes canonical dotted IPv4 from legacy forms",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:22] distinguishes canonical dotted IPv4 from legacy forms",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] matches both IPv4 and IPv6 CIDRs",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:30] matches both IPv4 and IPv6 CIDRs",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] extracts embedded IPv4 for transition prefixes",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:39] extracts embedded IPv4 for transition prefixes",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] treats blocked IPv6 classes as private/internal",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:59] treats blocked IPv6 classes as private/internal",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] normalizes canonical IP strings and loopback detection",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:71] normalizes canonical IP strings and loopback detection",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:71",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] parses loose legacy IPv4 literals that canonical parsing rejects",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:78] parses loose legacy IPv4 literals that canonical parsing rejects",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:78",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] classifies RFC1918 and carrier-grade-nat IPv4 ranges",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:84] classifies RFC1918 and carrier-grade-nat IPv4 ranges",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:84",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] blocks special-use IPv4 ranges while allowing optional RFC2544 benchmark addresses",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:91] blocks special-use IPv4 ranges while allowing optional RFC2544 benchmark addresses",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:91",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] blocks IPv6 unique-local addresses by default and exempts them on opt-in (#74351)",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:108] blocks IPv6 unique-local addresses by default and exempts them on opt-in (#74351)",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:108",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/ip.test.ts] opt-in unique-local exemption does NOT bleed into other special-use IPv6 ranges (#74351)",
+TEST_CASE("v4.29 [src/shared/net/ip.test.ts:129] opt-in unique-local exemption does NOT bleed into other special-use IPv6 ranges (#74351)",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/ip.test.ts:129",
                "upstream it() block #9",

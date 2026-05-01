@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] starts empty",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:32] starts empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] returns undefined for an unknown id",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:37] returns undefined for an unknown id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] registers and retrieves a provider",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:42] registers and retrieves a provider",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] tracks ownerPluginId",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:49] tracks ownerPluginId",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] lists registered provider ids",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:58] lists registered provider ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] lists registered entries with owner metadata",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:65] lists registered entries with owner metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:65",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] supports multiple providers",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:77] supports multiple providers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:77",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] calls summarize and returns expected result",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:88] calls summarize and returns expected result",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:88",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] overwrites when re-registering the same id",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:97] overwrites when re-registering the same id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:97",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] clear removes all providers",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:110] clear removes all providers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:110",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] restore replaces current entries with snapshot",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:120] restore replaces current entries with snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:120",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts] restore with empty array clears everything",
+TEST_CASE("v4.29 [src/plugins/compaction-provider.test.ts:139] restore with empty array clears everything",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compaction-provider.test.ts:139",
                "upstream it() block #11",

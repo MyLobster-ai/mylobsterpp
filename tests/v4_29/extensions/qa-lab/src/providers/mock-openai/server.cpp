@@ -5,432 +5,432 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] serves health and streamed responses",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:89] serves health and streamed responses",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] turns a short approval into a kickoff-task read",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:124] turns a short approval into a kickoff-task read",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:124",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] emits deterministic text deltas for generic streaming QA prompts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:190] emits deterministic text deltas for generic streaming QA prompts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:190",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] plans deterministic tool-progress reads from prompt paths",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:246] plans deterministic tool-progress reads from prompt paths",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:246",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] requires deterministic tool-progress error prompts to observe a failed tool",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:270] requires deterministic tool-progress error prompts to observe a failed tool",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:270",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] uses the latest user prompt path for tool-progress plans",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:322] uses the latest user prompt path for tool-progress plans",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:322",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] prefers path-like refs over generic quoted keys in prompts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:353] prefers path-like refs over generic quoted keys in prompts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:353",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] drives the Lobster Invaders write flow and memory recall responses",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:395] drives the Lobster Invaders write flow and memory recall responses",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:395",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] keeps remember prompts prose-only even when they mention repo cleanup",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:475] keeps remember prompts prose-only even when they mention repo cleanup",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:475",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] drives repo-contract followthrough as read-read-read-write-then-report",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:511] drives repo-contract followthrough as read-read-read-write-then-report",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:511",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] drives the compaction retry mutating tool parity flow",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:618] drives the compaction retry mutating tool parity flow",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:618",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] supports exact reply memory prompts and embeddings requests",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:689] supports exact reply memory prompts and embeddings requests",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:689",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] requests non-threaded subagent handoff for QA channel runs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:745] requests non-threaded subagent handoff for QA channel runs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:745",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] emits explicitly requested sessions_spawn tool calls",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:782] emits explicitly requested sessions_spawn tool calls",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:782",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] records planned sessions_spawn arguments for forked-context QA assertions",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:807] records planned sessions_spawn arguments for forked-context QA assertions",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:807",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] drives yielded-parent subagent fallback QA through sessions_spawn and sessions_yield",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:833] drives yielded-parent subagent fallback QA through sessions_spawn and sessions_yield",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:833",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] returns no visible announce output for the direct fallback QA marker",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:881] returns no visible announce output for the direct fallback QA marker",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:881",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] surfaces sessions_spawn tool errors instead of echoing child-task tokens",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:902] surfaces sessions_spawn tool errors instead of echoing child-task tokens",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:902",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] does not echo child-task tokens after sessions_spawn accepts the request",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:938] does not echo child-task tokens after sessions_spawn accepts the request",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:938",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] lets child subagent prompts finish with an exact token",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:975] lets child subagent prompts finish with an exact token",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:975",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] plans memory tools and serves mock image generations",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:993] plans memory tools and serves mock image generations",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:993",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] supports advanced QA memory and subagent recovery prompts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1054] supports advanced QA memory and subagent recovery prompts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1054",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] completes subagent fanout from a continuation turn without tool output",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1425] completes subagent fanout from a continuation turn without tool output",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1425",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] does not let fanout completion state hijack child worker replies",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1502] does not let fanout completion state hijack child worker replies",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1502",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] keeps subagent fanout state isolated per mock server instance",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1576] keeps subagent fanout state isolated per mock server instance",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1576",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] answers heartbeat prompts without spawning extra subagents",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1620] answers heartbeat prompts without spawning extra subagents",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1620",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] returns exact markers for visible and hot-installed skills",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1660] returns exact markers for visible and hot-installed skills",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1660",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] uses the latest exact marker directive from conversation history",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1728] uses the latest exact marker directive from conversation history",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1728",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] uses exact marker directives from request context when the latest user text is generic",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1777] uses exact marker directives from request context when the latest user text is generic",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1777",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] uses image generation directives from request context when the latest user text is generic",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1826] uses image generation directives from request context when the latest user text is generic",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1826",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] records image inputs and describes attached images",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1900] records image inputs and describes attached images",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1900",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] recognizes OpenAI-compatible image_url parts as image inputs",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1950] recognizes OpenAI-compatible image_url parts as image inputs",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1950",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] handles deeply nested image input shapes without recursive traversal failure",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:1996] handles deeply nested image input shapes without recursive traversal failure",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:1996",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] describes reattached generated images in the roundtrip flow",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2040] describes reattached generated images in the roundtrip flow",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2040",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] ignores stale tool output from prior turns when planning the current turn",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2084] ignores stale tool output from prior turns when planning the current turn",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2084",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] returns continuity language after the model-switch reread completes",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2125] returns continuity language after the model-switch reread completes",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2125",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] returns NO_REPLY for unmentioned group chatter",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2174] returns NO_REPLY for unmentioned group chatter",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2174",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] advertises Anthropic claude-opus-4-6 baseline model on /v1/models",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2213] advertises Anthropic claude-opus-4-6 baseline model on /v1/models",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2213",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] dispatches an Anthropic /v1/messages read tool call for source discovery prompts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2230] dispatches an Anthropic /v1/messages read tool call for source discovery prompts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2230",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] preserves Anthropic /v1/messages declared tools for explicit sessions_spawn prompts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2284] preserves Anthropic /v1/messages declared tools for explicit sessions_spawn prompts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2284",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] dispatches Anthropic /v1/messages tool_result follow-ups through the shared scenario logic",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2338] dispatches Anthropic /v1/messages tool_result follow-ups through the shared scenario logic",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2338",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] places tool_result after the parent user message even in mixed-content turns",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2409] places tool_result after the parent user message even in mixed-content turns",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2409",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] streams Anthropic /v1/messages tool_use responses as SSE",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2500] streams Anthropic /v1/messages tool_use responses as SSE",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2500",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] streams Anthropic /v1/messages tool_result follow-ups as text deltas",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2541] streams Anthropic /v1/messages tool_result follow-ups as text deltas",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2541",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] keeps Anthropic remember prompts on the prose branch even when system text mentions HEARTBEAT",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2600] keeps Anthropic remember prompts on the prose branch even when system text mentions HEARTBEAT",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2600",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] prefers the prompt-local exact reply directive over heartbeat context",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2643] prefers the prompt-local exact reply directive over heartbeat context",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2643",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] rejects malformed Anthropic /v1/messages JSON with an invalid_request_error",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2689] rejects malformed Anthropic /v1/messages JSON with an invalid_request_error",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2689",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] defaults empty-string Anthropic /v1/messages model to claude-opus-4-6",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2714] defaults empty-string Anthropic /v1/messages model to claude-opus-4-6",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2714",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] scripts a reasoning-only recovery sequence after a replay-safe read",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2752] scripts a reasoning-only recovery sequence after a replay-safe read",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2752",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] scripts the GPT-5.5 thinking visibility switch prompts",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2819] scripts the GPT-5.5 thinking visibility switch prompts",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2819",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] keeps the reasoning-only side-effect path ready for no-auto-retry QA coverage",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2867] keeps the reasoning-only side-effect path ready for no-auto-retry QA coverage",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2867",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] scripts an empty-response recovery sequence after a replay-safe read",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2901] scripts an empty-response recovery sequence after a replay-safe read",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2901",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] can keep emitting empty GPT turns when the single retry budget should exhaust",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:2957] can keep emitting empty GPT turns when the single retry budget should exhaust",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:2957",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] tags prefix-qualified openai models",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3000] tags prefix-qualified openai models",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3000",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] tags prefix-qualified anthropic models",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3006] tags prefix-qualified anthropic models",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3006",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] tags bare model names by prefix",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3012] tags bare model names by prefix",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3012",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] handles case drift and whitespace",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3021] handles case drift and whitespace",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3021",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] falls through to unknown for unrecognized providers",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3026] falls through to unknown for unrecognized providers",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3026",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] records providerVariant on /debug/last-request for openai requests",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3035] records providerVariant on /debug/last-request for openai requests",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3035",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] records providerVariant=anthropic on /v1/messages requests",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3062] records providerVariant=anthropic on /v1/messages requests",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3062",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts] records providerVariant=unknown for unrecognized models",
+TEST_CASE("v4.29 [extensions/qa-lab/src/providers/mock-openai/server.test.ts:3089] records providerVariant=unknown for unrecognized models",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/providers/mock-openai/server.test.ts:3089",
                "upstream it() block #60",

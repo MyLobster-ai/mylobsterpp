@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/target-registry.test.ts] supports filtered discovery by target ids",
+TEST_CASE("v4.29 [src/secrets/target-registry.test.ts:15] supports filtered discovery by target ids",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry.test.ts] resolves config targets by exact path including sibling ref metadata",
+TEST_CASE("v4.29 [src/secrets/target-registry.test.ts:33] resolves config targets by exact path including sibling ref metadata",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry.test.ts] returns null when no config target path matches",
+TEST_CASE("v4.29 [src/secrets/target-registry.test.ts:41] returns null when no config target path matches",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry.test.ts] derives bundled web provider api key target paths from plugin manifests",
+TEST_CASE("v4.29 [src/secrets/target-registry.test.ts:47] derives bundled web provider api key target paths from plugin manifests",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/target-registry.test.ts] derives bundled plugin SecretInput contract target paths from plugin manifests",
+TEST_CASE("v4.29 [src/secrets/target-registry.test.ts:76] derives bundled plugin SecretInput contract target paths from plugin manifests",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/target-registry.test.ts:76",
                "upstream it() block #4",

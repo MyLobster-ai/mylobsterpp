@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] exports dangerouslyAllowNameMatching in the JSON schema",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:68] exports dangerouslyAllowNameMatching in the JSON schema",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:68",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] keeps the schema open for plugin-specific passthrough fields",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:77] keeps the schema open for plugin-specific passthrough fields",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] isolates direct-message sessions by account and user",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:81] isolates direct-message sessions by account and user",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] configures token and incoming webhook for the default account",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:105] configures token and incoming webhook for the default account",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] records allowed user ids when setup forces allowFrom",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:123] records allowed user ids when setup forces allowFrom",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] lists no accounts when the channel is missing",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:142] lists no accounts when the channel is missing",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:142",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] lists the default account when base config has a token",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:147] lists the default account when base config has a token",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:147",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] lists the default account when env provides a token",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:152] lists the default account when env provides a token",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:152",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] lists named and default accounts together",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:158] lists named and default accounts together",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:158",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] returns full defaults for empty config",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:174] returns full defaults for empty config",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:174",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] uses env var fallbacks",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:188] uses env var fallbacks",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:188",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] lets config and account overrides win over env/base config",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:202] lets config and account overrides win over env/base config",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:202",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] inherits dangerous name matching from base config unless explicitly disabled",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:231] inherits dangerous name matching from base config unless explicitly disabled",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:231",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] tracks inherited webhook paths and opt-in inheritance",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:251] tracks inherited webhook paths and opt-in inheritance",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:251",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] parses allowedUserIds strings, arrays, and rate limits",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:283] parses allowedUserIds strings, arrays, and rate limits",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:283",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] validates tokens strictly",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:307] validates tokens strictly",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:307",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] enforces allowlists and DM policy decisions",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:315] enforces allowlists and DM policy decisions",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:315",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] sanitizes prompt injection markers and long inputs",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:343] sanitizes prompt injection markers and long inputs",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:343",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts] rate limits per user and caps tracked state",
+TEST_CASE("v4.29 [extensions/synology-chat/src/core.test.ts:358] rate limits per user and caps tracked state",
           "[v4_29][parity_gap][synology-chat]") {
     PARITY_GAP("extensions/synology-chat/src/core.test.ts:358",
                "upstream it() block #18",

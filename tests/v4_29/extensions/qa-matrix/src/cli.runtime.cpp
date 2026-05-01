@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts] rejects non-env credential sources for the disposable Matrix lane",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts:35] rejects non-env credential sources for the disposable Matrix lane",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.runtime.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts] passes through default env credential source options",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts:43] passes through default env credential source options",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.runtime.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts] reuses a run-node output log instead of installing a nested tee",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts:76] reuses a run-node output log instead of installing a nested tee",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.runtime.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts] preserves the Matrix QA failure when output log cleanup also fails",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/cli.runtime.test.ts:104] preserves the Matrix QA failure when output log cleanup also fails",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/cli.runtime.test.ts:104",
                "upstream it() block #3",

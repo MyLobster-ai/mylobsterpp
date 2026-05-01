@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] defaults to main/default when no bindings exist",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:101] defaults to main/default when no bindings exist",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] route binding session dmScope isolates selected direct peers without changing agent",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:141] route binding session dmScope isolates selected direct peers without changing agent",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:141",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] coerces numeric peer ids to stable session keys",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:414] coerces numeric peer ids to stable session keys",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:414",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] missing accountId in binding matches default account only",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:554] missing accountId in binding matches default account only",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:554",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] thread inherits binding from parent channel when no direct match",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:724] thread inherits binding from parent channel when no direct match",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:724",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] direct peer binding wins over parent peer binding",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:734] direct peer binding wins over parent peer binding",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:734",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] parent peer binding wins over guild binding",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:747] parent peer binding wins over guild binding",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:747",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] peer.id=* matches any direct peer and routes to the bound agent",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1029] peer.id=* matches any direct peer and routes to the bound agent",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1029",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] peer.id=* does not match group peers when kind is direct",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1054] peer.id=* does not match group peers when kind is direct",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1054",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] exact peer binding wins over wildcard peer binding",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1078] exact peer binding wins over wildcard peer binding",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1078",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] wildcard peer binding wins over default fallback for unmatched peers",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1110] wildcard peer binding wins over default fallback for unmatched peers",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1110",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] group wildcard peer matches any group peer",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1142] group wildcard peer matches any group peer",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1142",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] does not rescan full bindings across distinct channel/account cache entries (#36915)",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1168] does not rescan full bindings across distinct channel/account cache entries (#36915)",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1168",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/routing/resolve-route.test.ts] uses indexed channel/account bindings without per-route scans",
+TEST_CASE("v4.29 [src/routing/resolve-route.test.ts:1217] uses indexed channel/account bindings without per-route scans",
           "[v4_29][parity_gap][routing]") {
     PARITY_GAP("src/routing/resolve-route.test.ts:1217",
                "upstream it() block #13",

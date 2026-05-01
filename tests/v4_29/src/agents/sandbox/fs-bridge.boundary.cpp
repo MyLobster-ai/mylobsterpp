@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] blocks writes into read-only bind mounts",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:18] blocks writes into read-only bind mounts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] allows mkdirp for existing in-boundary subdirectories",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:33] allows mkdirp for existing in-boundary subdirectories",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] allows mkdirp when boundary open reports io for an existing directory",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:37] allows mkdirp when boundary open reports io for an existing directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] rejects mkdirp when target exists as a file",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:41] rejects mkdirp when target exists as a file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] rejects pre-existing host symlink escapes before docker exec",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:62] rejects pre-existing host symlink escapes before docker exec",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:62",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] rejects pre-existing host hardlink escapes before docker exec",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:82] rejects pre-existing host hardlink escapes before docker exec",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts] rejects missing files before any docker read command runs",
+TEST_CASE("v4.29 [src/agents/sandbox/fs-bridge.boundary.test.ts:110] rejects missing files before any docker read command runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/fs-bridge.boundary.test.ts:110",
                "upstream it() block #6",

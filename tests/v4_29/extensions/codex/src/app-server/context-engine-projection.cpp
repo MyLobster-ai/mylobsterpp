@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts] produces stable output for identical inputs",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts:14] produces stable output for identical inputs",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/context-engine-projection.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts] drops a duplicate trailing current prompt from assembled history",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts:30] drops a duplicate trailing current prompt from assembled history",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/context-engine-projection.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts] preserves role order and falls back to the raw prompt for empty history",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts:46] preserves role order and falls back to the raw prompt for empty history",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/context-engine-projection.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts] frames projected history as reference data and omits tool payloads",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts:67] frames projected history as reference data and omits tool payloads",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/context-engine-projection.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts] bounds oversized text context",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/context-engine-projection.test.ts:94] bounds oversized text context",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/context-engine-projection.test.ts:94",
                "upstream it() block #4",

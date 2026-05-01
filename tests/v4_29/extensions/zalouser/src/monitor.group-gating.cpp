@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] skips unmentioned group messages when requireMention=true",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:471] skips unmentioned group messages when requireMention=true",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:471",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] blocks mentioned group messages by default when groupPolicy is omitted",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:475] blocks mentioned group messages by default when groupPolicy is omitted",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:475",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] fails closed when requireMention=true but mention detection is unavailable",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:503] fails closed when requireMention=true but mention detection is unavailable",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:503",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] dispatches explicitly-mentioned group messages and marks WasMentioned",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:511] dispatches explicitly-mentioned group messages and marks WasMentioned",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:511",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] allows authorized control commands to bypass mention gating",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:529] allows authorized control commands to bypass mention gating",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:529",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] passes long markdown replies through once so formatting happens before chunking",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:541] passes long markdown replies through once so formatting happens before chunking",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:541",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] uses commandContent for mention-prefixed control commands",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:577] uses commandContent for mention-prefixed control commands",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:577",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] allows group control commands when only allowFrom is configured",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:591] allows group control commands when only allowFrom is configured",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:591",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] blocks routed allowlist groups without an explicit group sender allowlist",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:604] blocks routed allowlist groups without an explicit group sender allowlist",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:604",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] blocks group messages when sender is not in groupAllowFrom",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:633] blocks group messages when sender is not in groupAllowFrom",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:633",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] does not accept a different group id by matching only the mutable group name by default",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:659] does not accept a different group id by matching only the mutable group name by default",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:659",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] accepts mutable group-name matches only when dangerouslyAllowNameMatching is enabled",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:663] accepts mutable group-name matches only when dangerouslyAllowNameMatching is enabled",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:663",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] allows group control commands when sender is in groupAllowFrom",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:672] allows group control commands when sender is in groupAllowFrom",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:672",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] routes DM messages with direct peer kind",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:686] routes DM messages with direct peer kind",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:686",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] reuses the legacy DM session key when only the old group-shaped session exists",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:705] reuses the legacy DM session key when only the old group-shaped session exists",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:705",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] skips pairing store read for open DM control commands",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:715] skips pairing store read for open DM control commands",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:715",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] skips pairing store read for open DM non-command messages",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:736] skips pairing store read for open DM non-command messages",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:736",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts] includes skipped group messages as InboundHistory on the next processed message",
+TEST_CASE("v4.29 [extensions/zalouser/src/monitor.group-gating.test.ts:757] includes skipped group messages as InboundHistory on the next processed message",
           "[v4_29][parity_gap][zalouser]") {
     PARITY_GAP("extensions/zalouser/src/monitor.group-gating.test.ts:757",
                "upstream it() block #17",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/message-merge-strategy.test.ts] resolves the default orphan trailing user prompt strategy",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/message-merge-strategy.test.ts:17] resolves the default orphan trailing user prompt strategy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/message-merge-strategy.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/message-merge-strategy.test.ts] allows tests to override and restore the active strategy",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/message-merge-strategy.test.ts:36] allows tests to override and restore the active strategy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/message-merge-strategy.test.ts:36",
                "upstream it() block #1",

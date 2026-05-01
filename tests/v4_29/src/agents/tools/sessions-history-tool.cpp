@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-history-tool.test.ts] redacts recalled session text even when log redaction is disabled",
+TEST_CASE("v4.29 [src/agents/tools/sessions-history-tool.test.ts:60] redacts recalled session text even when log redaction is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-history-tool.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-history-tool.test.ts] applies custom redaction patterns to recalled session text",
+TEST_CASE("v4.29 [src/agents/tools/sessions-history-tool.test.ts:72] applies custom redaction patterns to recalled session text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-history-tool.test.ts:72",
                "upstream it() block #1",

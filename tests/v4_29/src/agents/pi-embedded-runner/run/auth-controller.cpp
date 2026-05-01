@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] applies runtime request overrides on the first auth exchange",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:150] applies runtime request overrides on the first auth exchange",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:150",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] rejects privileged runtime transport overrides on the first auth exchange",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:201] rejects privileged runtime transport overrides on the first auth exchange",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:201",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] ignores stale scheduled refresh results after auth profile rotation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:267] ignores stale scheduled refresh results after auth profile rotation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:267",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] injects runtime auth when prepareProviderRuntimeAuth resolves credentials",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:384] injects runtime auth when prepareProviderRuntimeAuth resolves credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:384",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] injects sentinel when prepareProviderRuntimeAuth returns no apiKey",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:415] injects sentinel when prepareProviderRuntimeAuth returns no apiKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:415",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] clears any stale refresh timer before sentinel injection",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:438] clears any stale refresh timer before sentinel injection",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:438",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts] injects sentinel when prepareProviderRuntimeAuth throws",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/auth-controller.test.ts:474] injects sentinel when prepareProviderRuntimeAuth throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/auth-controller.test.ts:474",
                "upstream it() block #6",

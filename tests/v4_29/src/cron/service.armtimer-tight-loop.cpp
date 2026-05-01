@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts] enforces a minimum delay when the next wake time is in the past",
+TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts:77] enforces a minimum delay when the next wake time is in the past",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.armtimer-tight-loop.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts] does not add extra delay when the next wake time is in the future",
+TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts:106] does not add extra delay when the next wake time is in the future",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.armtimer-tight-loop.test.ts:106",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts] keeps a maintenance wake armed when enabled jobs have no nextRunAtMs",
+TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts:144] keeps a maintenance wake armed when enabled jobs have no nextRunAtMs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.armtimer-tight-loop.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts] breaks the onTimer→armTimer hot-loop with stuck runningAtMs",
+TEST_CASE("v4.29 [src/cron/service.armtimer-tight-loop.test.ts:181] breaks the onTimer→armTimer hot-loop with stuck runningAtMs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.armtimer-tight-loop.test.ts:181",
                "upstream it() block #3",

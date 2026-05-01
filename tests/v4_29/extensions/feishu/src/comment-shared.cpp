@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-shared.test.ts] does not resolve doc-like paths with short tokens",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-shared.test.ts:139] does not resolve doc-like paths with short tokens",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-shared.test.ts:139",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/comment-shared.test.ts] keeps raw external urls in text but excludes unresolved links from structured references",
+TEST_CASE("v4.29 [extensions/feishu/src/comment-shared.test.ts:152] keeps raw external urls in text but excludes unresolved links from structured references",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/comment-shared.test.ts:152",
                "upstream it() block #1",

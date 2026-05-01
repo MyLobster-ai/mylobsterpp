@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts] keeps memory clean for status-only managers after prior indexing",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts:11] keeps memory clean for status-only managers after prior indexing",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-status-state.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts] marks status-only managers dirty when no prior index metadata exists",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts:21] marks status-only managers dirty when no prior index metadata exists",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-status-state.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts] reports the requested provider before provider initialization",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts:31] reports the requested provider before provider initialization",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-status-state.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts] reports fts-only mode when initialization finished without a provider",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts:46] reports fts-only mode when initialization finished without a provider",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-status-state.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts] uses one aggregation query for status counts and source breakdowns",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager-status-state.test.ts:61] uses one aggregation query for status counts and source breakdowns",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager-status-state.test.ts:61",
                "upstream it() block #4",

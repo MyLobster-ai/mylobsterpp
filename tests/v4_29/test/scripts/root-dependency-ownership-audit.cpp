@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] captures require.resolve package lookups used by runtime shims and bundled plugins",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:33] captures require.resolve package lookups used by runtime shims and bundled plugins",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] resolves simple string constants used by lazy runtime imports",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:44] resolves simple string constants used by lazy runtime imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] treats root-dist bundled runtime imports as localizable extension deps",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:66] treats root-dist bundled runtime imports as localizable extension deps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] treats scripts and tests as dev-only candidates",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:79] treats scripts and tests as dev-only candidates",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:79",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] treats extension-only deps as localizable when no root mirror exists",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:91] treats extension-only deps as localizable when no root mirror exists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:91",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] treats src-owned deps as core runtime",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:104] treats src-owned deps as core runtime",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] treats unreferenced deps as removal candidates",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:116] treats unreferenced deps as removal candidates",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:116",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] catches dependencies mirrored at root but only imported by one extension",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:130] catches dependencies mirrored at root but only imported by one extension",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:130",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] classifies root dependencies referenced through constant dynamic imports",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:155] classifies root dependencies referenced through constant dynamic imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:155",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts] fails only extension-owned root dependencies",
+TEST_CASE("v4.29 [test/scripts/root-dependency-ownership-audit.test.ts:204] fails only extension-owned root dependencies",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/root-dependency-ownership-audit.test.ts:204",
                "upstream it() block #9",

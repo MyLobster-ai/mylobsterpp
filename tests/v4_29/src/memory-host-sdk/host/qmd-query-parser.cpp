@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] parses clean qmd JSON output",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:5] parses clean qmd JSON output",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] extracts embedded result arrays from noisy stdout",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:16] extracts embedded result arrays from noisy stdout",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] preserves explicit qmd line metadata when present",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:27] preserves explicit qmd line metadata when present",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] maps single-line qmd line metadata onto both line bounds",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:43] maps single-line qmd line metadata onto both line bounds",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:43",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] treats plain-text no-results from stderr as an empty result set",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:55] treats plain-text no-results from stderr as an empty result set",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:55",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] treats prefixed no-results marker output as an empty result set",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:60] treats prefixed no-results marker output as an empty result set",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:60",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] does not treat arbitrary non-marker text as no-results output",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:65] does not treat arbitrary non-marker text as no-results output",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:65",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts] throws when stdout cannot be interpreted as qmd JSON",
+TEST_CASE("v4.29 [src/memory-host-sdk/host/qmd-query-parser.test.ts:71] throws when stdout cannot be interpreted as qmd JSON",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("src/memory-host-sdk/host/qmd-query-parser.test.ts:71",
                "upstream it() block #7",

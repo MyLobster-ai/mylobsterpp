@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] exits 0 on SIGTERM after graceful close",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:264] exits 0 on SIGTERM after graceful close",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:264",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] treats SIGTERM with a restart intent as a draining restart",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:282] treats SIGTERM with a restart intent as a draining restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:282",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] restarts after SIGUSR1 even when drain times out, and resets runtime state for the new iteration",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:335] restarts after SIGUSR1 even when drain times out, and resets runtime state for the new iteration",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:335",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] uses the default restart drain timeout when config omits deferralTimeoutMs",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:451] uses the default restart drain timeout when config omits deferralTimeoutMs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:451",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] routes external SIGUSR1 through the restart scheduler before draining",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:476] routes external SIGUSR1 through the restart scheduler before draining",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:476",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] waits for active runtime-deps installs before restart close",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:498] waits for active runtime-deps installs before restart close",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:498",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] releases the lock before exiting on spawned restart",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:538] releases the lock before exiting on spawned restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:538",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] waits briefly before exiting on launchd supervised restart",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:570] waits briefly before exiting on launchd supervised restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:570",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] forwards lockPort to initial and restart lock acquisitions",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:598] forwards lockPort to initial and restart lock acquisitions",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:598",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] exits when lock reacquire fails during in-process restart fallback",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:637] exits when lock reacquire fails during in-process restart fallback",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:637",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] hard-respawns update restarts and exits only after the replacement becomes healthy",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:666] hard-respawns update restarts and exits only after the replacement becomes healthy",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:666",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] probes the configured gateway host for update respawn health",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:694] probes the configured gateway host for update respawn health",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:694",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] marks update respawn failures and falls back to in-process restart",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:725] marks update respawn failures and falls back to in-process restart",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:725",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] prefers resolved service host over TXT hints",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:765] prefers resolved service host over TXT hints",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:765",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] prefers resolved service port over TXT gatewayPort",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:776] prefers resolved service port over TXT gatewayPort",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:776",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts] fails closed when resolve data is missing",
+TEST_CASE("v4.29 [src/cli/gateway-cli/run-loop.test.ts:786] fails closed when resolve data is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/gateway-cli/run-loop.test.ts:786",
                "upstream it() block #15",

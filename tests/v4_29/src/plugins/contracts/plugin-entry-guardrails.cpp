@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] keeps bundled extension entry modules off direct definePluginEntry imports from core",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:243] keeps bundled extension entry modules off direct definePluginEntry imports from core",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:243",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] does not advertise runtime helper sidecars as bundled plugin entry extensions",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:261] does not advertise runtime helper sidecars as bundled plugin entry extensions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:261",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] keeps bundled production contract barrels off test-only imports and re-exports",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:286] keeps bundled production contract barrels off test-only imports and re-exports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:286",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] follows relative import edges while scanning guarded contract graphs",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:298] follows relative import edges while scanning guarded contract graphs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:298",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] guards contract-style production artifacts beyond the legacy allowlist",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:313] guards contract-style production artifacts beyond the legacy allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:313",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] flags test-support directory hops in guarded contract graphs",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:321] flags test-support directory hops in guarded contract graphs",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:321",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts] detects aliased definePluginEntry imports from core",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-entry-guardrails.test.ts:332] detects aliased definePluginEntry imports from core",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-entry-guardrails.test.ts:332",
                "upstream it() block #6",

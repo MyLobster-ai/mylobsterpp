@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts] emits structured log records through diagnostics",
+TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts:36] emits structured log records through diagnostics",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-log-events.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts] uses active request trace context for unbound log records",
+TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts:68] uses active request trace context for unbound log records",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-log-events.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts] redacts and bounds internal log records before diagnostic emission",
+TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts:91] redacts and bounds internal log records before diagnostic emission",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-log-events.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts] drops sensitive, blocked, and excess log attribute keys without copying large objects",
+TEST_CASE("v4.29 [src/logging/diagnostic-log-events.test.ts:137] drops sensitive, blocked, and excess log attribute keys without copying large objects",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-log-events.test.ts:137",
                "upstream it() block #3",

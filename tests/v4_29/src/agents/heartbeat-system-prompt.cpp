@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts] omits the heartbeat section when disabled in defaults",
+TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts:5] omits the heartbeat section when disabled in defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/heartbeat-system-prompt.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts] omits the heartbeat section when the default cadence is disabled",
+TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts:23] omits the heartbeat section when the default cadence is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/heartbeat-system-prompt.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts] omits the heartbeat section when the default-agent override disables cadence",
+TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts:41] omits the heartbeat section when the default-agent override disables cadence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/heartbeat-system-prompt.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts] omits the heartbeat section when only a non-default agent has explicit heartbeat config",
+TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts:67] omits the heartbeat section when only a non-default agent has explicit heartbeat config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/heartbeat-system-prompt.test.ts:67",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts] honors default-agent overrides for the prompt text",
+TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts:89] honors default-agent overrides for the prompt text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/heartbeat-system-prompt.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts] does not inject the heartbeat section for non-default agents",
+TEST_CASE("v4.29 [src/agents/heartbeat-system-prompt.test.ts:115] does not inject the heartbeat section for non-default agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/heartbeat-system-prompt.test.ts:115",
                "upstream it() block #5",

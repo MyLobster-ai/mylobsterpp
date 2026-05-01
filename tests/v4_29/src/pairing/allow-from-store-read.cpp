@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/pairing/allow-from-store-read.test.ts] merges scoped and legacy entries for the default account",
+TEST_CASE("v4.29 [src/pairing/allow-from-store-read.test.ts:57] merges scoped and legacy entries for the default account",
           "[v4_29][parity_gap][pairing]") {
     PARITY_GAP("src/pairing/allow-from-store-read.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/pairing/allow-from-store-read.test.ts] keeps non-default account reads scoped",
+TEST_CASE("v4.29 [src/pairing/allow-from-store-read.test.ts:78] keeps non-default account reads scoped",
           "[v4_29][parity_gap][pairing]") {
     PARITY_GAP("src/pairing/allow-from-store-read.test.ts:78",
                "upstream it() block #1",

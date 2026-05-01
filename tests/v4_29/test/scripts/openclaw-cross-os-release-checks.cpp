@@ -5,355 +5,355 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps dashboard smoke patient enough for cold packaged gateway startup",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:66] keeps dashboard smoke patient enough for cold packaged gateway startup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:66",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps gateway RPC status probes patient enough for live release startup",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:71] keeps gateway RPC status probes patient enough for live release startup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] accepts OK agent output from the captured log when stdout is empty",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:80] accepts OK agent output from the captured log when stdout is empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] retries transient bundled runtime deps staging failures during agent turns",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:101] retries transient bundled runtime deps staging failures during agent turns",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] allows cross-OS provider smoke models to use faster CI overrides",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:136] allows cross-OS provider smoke models to use faster CI overrides",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps release smoke plugin allowlists focused on agent-turn essentials",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:150] keeps release smoke plugin allowlists focused on agent-turn essentials",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:150",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps cross-OS live smoke agent turns on minimal thinking",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:160] keeps cross-OS live smoke agent turns on minimal thinking",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:160",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] treats explicit empty-string args as values instead of boolean flags",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:171] treats explicit empty-string args as values instead of boolean flags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:171",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] detects release refs and keeps branch refs out of release-only logic",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:178] detects release refs and keeps branch refs out of release-only logic",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:178",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] normalizes full Git refs before suite and update decisions",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:187] normalizes full Git refs before suite and update decisions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:187",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] skips the dev-update suite for immutable release refs",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:205] skips the dev-update suite for immutable release refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:205",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] skips dev-update for non-main branch validation refs",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:213] skips dev-update for non-main branch validation refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:213",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps dev-update enabled for main validation refs",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:221] keeps dev-update enabled for main validation refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:221",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] skips dev-update for pinned commit refs",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:230] skips dev-update for pinned commit refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:230",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] builds a suite-aware runner matrix with the beefy Windows default",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:238] builds a suite-aware runner matrix with the beefy Windows default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:238",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] can rebuild the Windows PATH with or without current-process entries",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:275] can rebuild the Windows PATH with or without current-process entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:275",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] prefers the freshly installed Windows CLI under npm",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:284] prefers the freshly installed Windows CLI under npm",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:284",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps Windows dev-update toolchain checks compatible with setup-node PATH shims",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:298] keeps Windows dev-update toolchain checks compatible with setup-node PATH shims",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:298",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] prefers workflow-injected runner override env names over legacy ones",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:309] prefers workflow-injected runner override env names over legacy ones",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:309",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] falls back to legacy runner override env names when workflow vars are blank",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:326] falls back to legacy runner override env names when workflow vars are blank",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:326",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] serves installer scripts as UTF-8 text and package payloads as binary",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:343] serves installer scripts as UTF-8 text and package payloads as binary",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:343",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] uses the published installer URLs for native installer lanes",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:349] uses the published installer URLs for native installer lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:349",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] uses managed gateway services only on native Windows runners",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:355] uses managed gateway services only on native Windows runners",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:355",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] skips workspace bootstrap during release onboarding",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:361] skips workspace bootstrap during release onboarding",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:361",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps the Windows installer runtime on the manual gateway after managed lifecycle checks",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:389] keeps the Windows installer runtime on the manual gateway after managed lifecycle checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:389",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] stops the managed gateway before the manual fallback only on Windows",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:396] stops the managed gateway before the manual fallback only on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:396",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] skips daemon health during installed onboarding only on native Windows",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:402] skips daemon health during installed onboarding only on native Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:402",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] runs the installed browser override import smoke only on native Windows",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:408] runs the installed browser override import smoke only on native Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:408",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] normalizes Windows installed CLI paths to the cmd shim",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:431] normalizes Windows installed CLI paths to the cmd shim",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:431",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] normalizes generic Windows PowerShell shims to cmd shims",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:444] normalizes generic Windows PowerShell shims to cmd shims",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:444",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] derives the installed prefix from resolved CLI paths",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:456] derives the installed prefix from resolved CLI paths",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:456",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] resolves Linux npm package roots when the CLI is a user-local shim",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:468] resolves Linux npm package roots when the CLI is a user-local shim",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:468",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] detects whether a managed gateway listener is still reachable on loopback",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:498] detects whether a managed gateway listener is still reachable on loopback",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:498",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] writes Discord smoke config using the strict guild channel schema",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:518] writes Discord smoke config using the strict guild channel schema",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:518",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] keeps the dev-update lane for main only",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:531] keeps the dev-update lane for main only",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:531",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] verifies main dev updates against the prepared source sha when available",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:540] verifies main dev updates against the prepared source sha when available",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:540",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] drops the bundled plugin postinstall disable flag for real updater calls",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:556] drops the bundled plugin postinstall disable flag for real updater calls",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:556",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] accepts a successful packaged update followed by the old self-swapped process import miss",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:569] accepts a successful packaged update followed by the old self-swapped process import miss",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:569",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] rejects packaged update failures before the candidate package lands",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:587] rejects packaged update failures before the candidate package lands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:587",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] rejects packaged update failures with unsuccessful update steps",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:605] rejects packaged update failures with unsuccessful update steps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:605",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] only treats pinned baseline specs as exact installer version assertions",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:623] only treats pinned baseline specs as exact installer version assertions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:623",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] reads an installed baseline version without requiring build metadata",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:630] reads an installed baseline version without requiring build metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:630",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] treats missing package scripts as optional in older refs",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:653] treats missing package scripts as optional in older refs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:653",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] rejects bundled runtime-deps staging debris before candidate inventory generation",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:674] rejects bundled runtime-deps staging debris before candidate inventory generation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:674",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] omits local build metadata from candidate package inventories",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:698] omits local build metadata from candidate package inventories",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:698",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] accepts a git main dev-channel update status payload",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:725] accepts a git main dev-channel update status payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:725",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] accepts a git dev-channel payload for a requested non-main branch",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:743] accepts a git dev-channel payload for a requested non-main branch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:743",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] accepts a git dev-channel payload pinned to a prepared source sha",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:763] accepts a git dev-channel payload pinned to a prepared source sha",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:763",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] accepts uppercase requested commit shas when update status reports lowercase",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:783] accepts uppercase requested commit shas when update status reports lowercase",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:783",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts] rejects update status payloads that are not on dev/main git",
+TEST_CASE("v4.29 [test/scripts/openclaw-cross-os-release-checks.test.ts:802] rejects update status payloads that are not on dev/main git",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/openclaw-cross-os-release-checks.test.ts:802",
                "upstream it() block #49",

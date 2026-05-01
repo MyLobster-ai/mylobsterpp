@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] suppresses pairing replies for historical DMs on connect",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:82] suppresses pairing replies for historical DMs on connect",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] sends pairing replies for live DMs",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:90] sends pairing replies for live DMs",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:90",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] uses account-level dmPolicy instead of channel-level (#8736)",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:100] uses account-level dmPolicy instead of channel-level (#8736)",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] inherits channel-level dmPolicy when account-level dmPolicy is unset",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:125] inherits channel-level dmPolicy when account-level dmPolicy is unset",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:125",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] does not merge persisted pairing approvals in allowlist mode",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:148] does not merge persisted pairing approvals in allowlist mode",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:148",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] always allows same-phone DMs even when allowFrom is restrictive",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:172] always allows same-phone DMs even when allowFrom is restrictive",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:172",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] does not broaden self-chat mode to every paired DM when allowFrom is empty",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:209] does not broaden self-chat mode to every paired DM when allowFrom is empty",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:209",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts] treats same-phone DMs as self-chat only when explicitly configured",
+TEST_CASE("v4.29 [extensions/whatsapp/src/inbound/access-control.test.ts:237] treats same-phone DMs as self-chat only when explicitly configured",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/inbound/access-control.test.ts:237",
                "upstream it() block #7",

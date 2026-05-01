@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts] buildFtsQuery tokenizes and AND-joins",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts:5] buildFtsQuery tokenizes and AND-joins",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/hybrid.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts] bm25RankToScore is monotonic and clamped",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts:13] bm25RankToScore is monotonic and clamped",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/hybrid.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts] bm25RankToScore preserves FTS5 BM25 relevance ordering",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts:20] bm25RankToScore preserves FTS5 BM25 relevance ordering",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/hybrid.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts] mergeHybridResults unions by id and combines weighted scores",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts:31] mergeHybridResults unions by id and combines weighted scores",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/hybrid.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts] mergeHybridResults prefers keyword snippet when ids overlap",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/hybrid.test.ts:70] mergeHybridResults prefers keyword snippet when ids overlap",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/hybrid.test.ts:70",
                "upstream it() block #4",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] applies defaults",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:6] applies defaults",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] accepts remote mode",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:23] accepts remote mode",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] rejects relative remote paths",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:27] rejects relative remote paths",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:27",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] rejects remote paths outside managed sandbox roots",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:35] rejects remote paths outside managed sandbox roots",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] normalizes managed sandbox subpaths",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:43] normalizes managed sandbox subpaths",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] rejects unknown mode",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:57] rejects unknown mode",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:57",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts] keeps the runtime json schema in sync with the manifest config schema",
+TEST_CASE("v4.29 [extensions/openshell/src/config.test.ts:65] keeps the runtime json schema in sync with the manifest config schema",
           "[v4_29][parity_gap][openshell]") {
     PARITY_GAP("extensions/openshell/src/config.test.ts:65",
                "upstream it() block #6",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] renders and patches provider-owned thinking ids",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:69] renders and patches provider-owned thinking ids",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] labels inherited thinking with the resolved session default",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:113] labels inherited thinking with the resolved session default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:113",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] keeps legacy binary thinking labels patching canonical ids",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:139] keeps legacy binary thinking labels patching canonical ids",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] shows agent identity name and emoji for matching session keys",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:173] shows agent identity name and emoji for matching session keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:173",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] keeps raw keys when identity data is unavailable",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:202] keeps raw keys when identity data is unavailable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:202",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] keeps raw keys for inherited identity object properties",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:223] keeps raw keys for inherited identity object properties",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:223",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] filters rows by agent identity name",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:244] filters rows by agent identity name",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:244",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts] keeps session selects stable and deselects only the current page",
+TEST_CASE("v4.29 [ui/src/ui/views/sessions.test.ts:281] keeps session selects stable and deselects only the current page",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/sessions.test.ts:281",
                "upstream it() block #7",

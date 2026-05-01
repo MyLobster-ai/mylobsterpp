@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts] normalizes route fragments away",
+TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts:35] normalizes route fragments away",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/docs-link-audit.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts] resolves redirects that land on anchored sections",
+TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts:42] resolves redirects that land on anchored sections",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/docs-link-audit.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts] sanitizes docs.json to English-only route targets",
+TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts:54] sanitizes docs.json to English-only route targets",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/docs-link-audit.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts] builds an English-only docs tree for anchor audits",
+TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts:99] builds an English-only docs tree for anchor audits",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/docs-link-audit.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts] uses Mintlify through pnpm dlx for anchor validation",
+TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts:150] uses Mintlify through pnpm dlx for anchor validation",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/docs-link-audit.test.ts:150",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts] wraps Mintlify with Node 22 when the current Node is too new",
+TEST_CASE("v4.29 [src/scripts/docs-link-audit.test.ts:185] wraps Mintlify with Node 22 when the current Node is too new",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/docs-link-audit.test.ts:185",
                "upstream it() block #5",

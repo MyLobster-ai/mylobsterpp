@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts] waits for the next download and atomically finalizes explicit output paths",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:149] waits for the next download and atomically finalizes explicit output paths",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:149",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts] marks explicit download waiters as owning the next download until cleanup",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:180] marks explicit download waiters as owning the next download until cleanup",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:180",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts] clicks a ref and atomically finalizes explicit download paths",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:204] clicks a ref and atomically finalizes explicit download paths",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:204",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts] uses preferred tmp dir when waiting for download without explicit path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:276] uses preferred tmp dir when waiting for download without explicit path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:276",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts] sanitizes suggested download filenames to prevent traversal escapes",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:293] sanitizes suggested download filenames to prevent traversal escapes",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:293",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts] waits for a matching response and returns its body",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:308] waits for a matching response and returns its body",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.waits-next-download-saves-it.test.ts:308",
                "upstream it() block #5",

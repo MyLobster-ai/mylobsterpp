@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts] returns ltr for null and empty input",
+TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts:5] returns ltr for null and empty input",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/text-direction.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts] detects rtl when first significant char is rtl script",
+TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts:10] detects rtl when first significant char is rtl script",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/text-direction.test.ts:10",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts] detects ltr when first significant char is ltr",
+TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts:15] detects ltr when first significant char is ltr",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/text-direction.test.ts:15",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts] skips punctuation and markdown prefix characters before detection",
+TEST_CASE("v4.29 [ui/src/ui/text-direction.test.ts:19] skips punctuation and markdown prefix characters before detection",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/text-direction.test.ts:19",
                "upstream it() block #3",

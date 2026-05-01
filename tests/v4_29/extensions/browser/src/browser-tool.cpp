@@ -5,341 +5,341 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] warns agents about existing-session act timeout limits",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:315] warns agents about existing-session act timeout limits",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:315",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] applies the default ai snapshot limit",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:328] applies the default ai snapshot limit",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:328",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] respects an explicit maxChars override",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:340] respects an explicit maxChars override",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:340",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] skips the default when maxChars is explicitly zero",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:358] skips the default when maxChars is explicitly zero",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:358",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] lists profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:374] lists profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:374",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] uses a longer default timeout for existing-session profile status through node proxy",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:384] uses a longer default timeout for existing-session profile status through node proxy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:384",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] passes top-level timeoutMs through to existing-session open",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:406] passes top-level timeoutMs through to existing-session open",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:406",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] passes top-level timeoutMs through to close without targetId",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:425] passes top-level timeoutMs through to close without targetId",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:425",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] passes refs mode through to browser snapshot",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:443] passes refs mode through to browser snapshot",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:443",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] uses config snapshot defaults when mode is not provided",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:461] uses config snapshot defaults when mode is not provided",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:461",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] does not apply config snapshot defaults to explicit ai snapshots",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:476] does not apply config snapshot defaults to explicit ai snapshots",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:476",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] does not apply config snapshot defaults to aria snapshots",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:489] does not apply config snapshot defaults to aria snapshots",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:489",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] keeps profile=user off the sandbox browser when no node is selected",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:507] keeps profile=user off the sandbox browser when no node is selected",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:507",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] keeps custom existing-session profiles off the sandbox browser too",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:527] keeps custom existing-session profiles off the sandbox browser too",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:527",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] rejects profile=",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:547] rejects profile=",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:547",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] lets the server choose snapshot format when the user does not request one",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:563] lets the server choose snapshot format when the user does not request one",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:563",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] routes to node proxy when target=node",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:580] routes to node proxy when target=node",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:580",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] returns a browser doctor report on host",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:599] returns a browser doctor report on host",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:599",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] routes browser doctor through the node proxy",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:608] routes browser doctor through the node proxy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:608",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] passes screenshot timeoutMs to the host browser client",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:629] passes screenshot timeoutMs to the host browser client",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:629",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] passes screenshot timeoutMs through the node browser proxy",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:647] passes screenshot timeoutMs through the node browser proxy",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:647",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] uses the screenshot default timeout for node browser proxy requests",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:680] uses the screenshot default timeout for node browser proxy requests",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:680",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] falls back to role refs when a node snapshot cannot provide aria refs",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:709] falls back to role refs when a node snapshot cannot provide aria refs",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:709",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] gives node.invoke extra slack beyond the default proxy timeout",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:763] gives node.invoke extra slack beyond the default proxy timeout",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:763",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] keeps sandbox bridge url when node proxy is available",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:789] keeps sandbox bridge url when node proxy is available",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:789",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] routes profile=user through the node proxy when one is available",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:801] routes profile=user through the node proxy when one is available",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:801",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] falls back to the host for profile=user when node discovery errors",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:826] falls back to the host for profile=user when node discovery errors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:826",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] preserves configured node pins when profile=user node discovery errors",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:841] preserves configured node pins when profile=user node discovery errors",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:841",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] allows profile=",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:860] allows profile=",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:860",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] allows profile=",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:885] allows profile=",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:885",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] keeps profile=",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:910] keeps profile=",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:910",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] accepts url alias for open",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:929] accepts url alias for open",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:929",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] tracks opened tabs when session context is available",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:940] tracks opened tabs when session context is available",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:940",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] touches tracked tabs for direct tab activity",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:957] touches tracked tabs for direct tab activity",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:957",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] accepts url alias for navigate",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:979] accepts url alias for navigate",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:979",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] keeps targetUrl required error label when both params are missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:997] keeps targetUrl required error label when both params are missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:997",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] untracks explicit tab close for tracked sessions",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1005] untracks explicit tab close for tracked sessions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1005",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] accepts flattened act params for backward compatibility",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1029] accepts flattened act params for backward compatibility",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1029",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] prefers request payload when both request and flattened fields are present",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1053] prefers request payload when both request and flattened fields are present",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1053",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] applies configured browser action timeout when act timeout is omitted",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1077] applies configured browser action timeout when act timeout is omitted",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1077",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] does not inject unsupported action timeout for existing-session type actions",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1100] does not inject unsupported action timeout for existing-session type actions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1100",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] passes configured act timeout through node proxy with transport slack",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1129] passes configured act timeout through node proxy with transport slack",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1129",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] returns image + text when labels are requested",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1162] returns image + text when labels are requested",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1162",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] wraps aria snapshots as external content",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1204] wraps aria snapshots as external content",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1204",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] wraps tabs output as external content",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1245] wraps tabs output as external content",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1245",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] wraps console output as external content",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1290] wraps console output as external content",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1290",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] retries safe user-browser act once without targetId when exactly one tab remains",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1328] retries safe user-browser act once without targetId when exactly one tab remains",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1328",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts] does not retry mutating user-browser act requests without targetId",
+TEST_CASE("v4.29 [extensions/browser/src/browser-tool.test.ts:1361] does not retry mutating user-browser act requests without targetId",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser-tool.test.ts:1361",
                "upstream it() block #47",

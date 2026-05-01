@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses the recipient id for WhatsApp without origin routing metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:42] uses the recipient id for WhatsApp without origin routing metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] falls back to To for WhatsApp when From is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:58] falls back to To for WhatsApp when From is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses the recipient id for other channels",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:73] uses the recipient id for other channels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses raw signal direct targets for tool context without provider-specific normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:89] uses raw signal direct targets for tool context without provider-specific normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] keeps raw signal group ids for tool context",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:106] keeps raw signal group ids for tool context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses chat_id for iMessage direct chats without provider-specific normalization",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:124] uses chat_id for iMessage direct chats without provider-specific normalization",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:124",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses chat_id for iMessage groups",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:141] uses chat_id for iMessage groups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:141",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses raw Slack channel ids without implicit thread context",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:158] uses raw Slack channel ids without implicit thread context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] uses Slack plugin threading context when the plugin registry is active",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:175] uses Slack plugin threading context when the plugin registry is active",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:175",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] sets replyToId to currentMessageId even without [[reply_to_current]] tag",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:199] sets replyToId to currentMessageId even without [[reply_to_current]] tag",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:199",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] threads only first payload when mode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:210] threads only first payload when mode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:210",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] threads only first payload when mode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:222] threads only first payload when mode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:222",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] can disable implicit reply threading for the current turn",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:235] can disable implicit reply threading for the current turn",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:235",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] still honors explicit reply tags when implicit reply threading is disabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:247] still honors explicit reply tags when implicit reply threading is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:247",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] threads all payloads when mode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:259] threads all payloads when mode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:259",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] strips replyToId when mode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:271] strips replyToId when mode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:271",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] does not bypass off mode for Slack when reply is implicit",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:282] does not bypass off mode for Slack when reply is implicit",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:282",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] keeps explicit tags for Slack when off mode allows explicit tags",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:294] keeps explicit tags for Slack when off mode allows explicit tags",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:294",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] keeps explicit tags for Telegram when off mode is enabled",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:307] keeps explicit tags for Telegram when off mode is enabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:307",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] resolves [[reply_to_current]] to currentMessageId when replyToMode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:320] resolves [[reply_to_current]] to currentMessageId when replyToMode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:320",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] resolves [[reply_to:<id>]] to explicit id when replyToMode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:335] resolves [[reply_to:<id>]] to explicit id when replyToMode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:335",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] prefers explicit reply_to over reply_to_current when both tags are present",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:347] prefers explicit reply_to over reply_to_current when both tags are present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:347",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] sets replyToId via implicit threading when replyToMode is ",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:359] sets replyToId via implicit threading when replyToMode is ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:359",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] resolves labels from label, task, or fallback",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:385] resolves labels from label, task, or fallback",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:385",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] formats run labels with truncation",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:393] formats run labels with truncation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:393",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] sanitizes leaked internal runtime context from formatted run labels",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:401] sanitizes leaked internal runtime context from formatted run labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:401",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] sorts subagent runs by newest start/created time",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:416] sorts subagent runs by newest start/created time",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:416",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] formats run status from outcome and timestamps",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:426] formats run status from outcome and timestamps",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:426",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts] formats duration compact for seconds and minutes",
+TEST_CASE("v4.29 [src/auto-reply/reply/reply-plumbing.test.ts:434] formats duration compact for seconds and minutes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/reply-plumbing.test.ts:434",
                "upstream it() block #28",

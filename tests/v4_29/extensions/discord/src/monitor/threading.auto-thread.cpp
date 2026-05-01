@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] skips auto-thread if channelType is GuildForum",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:63] skips auto-thread if channelType is GuildForum",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:63",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] skips auto-thread if channelType is GuildMedia",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:71] skips auto-thread if channelType is GuildMedia",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] skips auto-thread if channelType is GuildVoice",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:79] skips auto-thread if channelType is GuildVoice",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] skips auto-thread if channelType is GuildStageVoice",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:87] skips auto-thread if channelType is GuildStageVoice",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] creates auto-thread if channelType is GuildText",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:95] creates auto-thread if channelType is GuildText",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] uses configured autoArchiveDuration",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:104] uses configured autoArchiveDuration",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] accepts numeric autoArchiveDuration",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:117] accepts numeric autoArchiveDuration",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:117",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] defaults to 60 when autoArchiveDuration not set",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:130] defaults to 60 when autoArchiveDuration not set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:130",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] renames created thread when generated mode is enabled",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:141] renames created thread when generated mode is enabled",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:141",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] does not block thread creation while title summary is pending",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:182] does not block thread creation while title summary is pending",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:182",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] uses channel-specific thread override for generated title model",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:208] uses channel-specific thread override for generated title model",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:208",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] falls back to parent channel override for generated title model",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:241] falls back to parent channel override for generated title model",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:241",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] skips summarization when cfg or agentId is missing",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:274] skips summarization when cfg or agentId is missing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:274",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] does not rename when autoThreadName is not set",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:286] does not rename when autoThreadName is not set",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:286",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] does not rename when generated title sanitizes to fallback thread name",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:298] does not rename when generated title sanitizes to fallback thread name",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:298",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts] skips thread creation when autoThread is false",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/threading.auto-thread.test.ts:318] skips thread creation when autoThread is false",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/threading.auto-thread.test.ts:318",
                "upstream it() block #15",

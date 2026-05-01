@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts] injects a custom fetch into RequestClient when a Discord proxy is configured",
+TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts:31] injects a custom fetch into RequestClient when a Discord proxy is configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.proxy.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts] does not inject fetch when no proxy is configured",
+TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts:51] does not inject fetch when no proxy is configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.proxy.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts] falls back to direct fetch when the Discord proxy URL is invalid",
+TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts:68] falls back to direct fetch when the Discord proxy URL is invalid",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.proxy.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts] falls back to direct fetch when the Discord proxy URL is remote",
+TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts:87] falls back to direct fetch when the Discord proxy URL is remote",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.proxy.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts] accepts IPv6 loopback Discord proxy URLs",
+TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts:106] accepts IPv6 loopback Discord proxy URLs",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.proxy.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts] serializes multipart media with undici-compatible FormData for proxy fetches",
+TEST_CASE("v4.29 [extensions/discord/src/client.proxy.test.ts:125] serializes multipart media with undici-compatible FormData for proxy fetches",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.proxy.test.ts:125",
                "upstream it() block #5",

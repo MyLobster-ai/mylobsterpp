@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.heartbeat-ok-summary-suppressed.test.ts] does not enqueue HEARTBEAT_OK as a system event to the main session",
+TEST_CASE("v4.29 [src/cron/service.heartbeat-ok-summary-suppressed.test.ts:61] does not enqueue HEARTBEAT_OK as a system event to the main session",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.heartbeat-ok-summary-suppressed.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.heartbeat-ok-summary-suppressed.test.ts] does not revive legacy main-session relay for real cron summaries",
+TEST_CASE("v4.29 [src/cron/service.heartbeat-ok-summary-suppressed.test.ts:89] does not revive legacy main-session relay for real cron summaries",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.heartbeat-ok-summary-suppressed.test.ts:89",
                "upstream it() block #1",

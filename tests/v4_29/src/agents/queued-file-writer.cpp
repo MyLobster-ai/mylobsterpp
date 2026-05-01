@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts] keeps append flags usable when O_NOFOLLOW is unavailable",
+TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts:22] keeps append flags usable when O_NOFOLLOW is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/queued-file-writer.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts] creates log files with restrictive permissions",
+TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts:32] creates log files with restrictive permissions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/queued-file-writer.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts] refuses to append through a symlink",
+TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts:44] refuses to append through a symlink",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/queued-file-writer.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts] refuses to append through a symlinked parent directory",
+TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts:58] refuses to append through a symlinked parent directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/queued-file-writer.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts] stops appending when the configured file cap is reached",
+TEST_CASE("v4.29 [src/agents/queued-file-writer.test.ts:72] stops appending when the configured file cap is reached",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/queued-file-writer.test.ts:72",
                "upstream it() block #4",

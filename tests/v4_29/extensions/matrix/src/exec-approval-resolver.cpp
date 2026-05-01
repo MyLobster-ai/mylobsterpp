@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/exec-approval-resolver.test.ts] submits exec approval resolutions through the shared gateway resolver",
+TEST_CASE("v4.29 [extensions/matrix/src/exec-approval-resolver.test.ts:17] submits exec approval resolutions through the shared gateway resolver",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/exec-approval-resolver.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/exec-approval-resolver.test.ts] passes plugin approval ids through unchanged",
+TEST_CASE("v4.29 [extensions/matrix/src/exec-approval-resolver.test.ts:37] passes plugin approval ids through unchanged",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/exec-approval-resolver.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/exec-approval-resolver.test.ts] recognizes structured approval-not-found errors",
+TEST_CASE("v4.29 [extensions/matrix/src/exec-approval-resolver.test.ts:57] recognizes structured approval-not-found errors",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/exec-approval-resolver.test.ts:57",
                "upstream it() block #2",

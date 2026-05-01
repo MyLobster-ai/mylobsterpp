@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts] prefers workspace skills over managed skills",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts:46] prefers workspace skills over managed skills",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts] gates by bins, config, and always",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts:85] gates by bins, config, and always",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts] uses skillKey for config lookups",
+TEST_CASE("v4.29 [src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts:160] uses skillKey for config lookups",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.build-workspace-skills-prompt.prefers-workspace-skills-managed-skills.test.ts:160",
                "upstream it() block #2",

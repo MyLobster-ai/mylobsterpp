@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts] passes thinking-off intent through the provider runtime wrapper seam",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts:40] passes thinking-off intent through the provider runtime wrapper seam",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts] does not apply the plugin wrapper for other providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts:65] does not apply the plugin wrapper for other providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts] does not apply the plugin wrapper when thinkingLevel is not off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts:84] does not apply the plugin wrapper when thinkingLevel is not off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/extra-params.provider-runtime.test.ts:84",
                "upstream it() block #2",

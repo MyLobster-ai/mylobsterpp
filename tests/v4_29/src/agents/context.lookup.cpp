@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] returns configured model context window on first lookup",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:121] returns configured model context window on first lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:121",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] returns sync config overrides for read-only callers",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:136] returns sync config overrides for read-only callers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:136",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] prefers config contextTokens over contextWindow on first lookup",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:153] prefers config contextTokens over contextWindow on first lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:153",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] rehydrates config-backed cache entries after module reload when runtime config survives",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:168] rehydrates config-backed cache entries after module reload when runtime config survives",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:168",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] only warms eagerly for real openclaw startup commands that need model metadata",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:200] only warms eagerly for real openclaw startup commands that need model metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] retries config loading after backoff when an initial load fails",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:237] retries config loading after backoff when an initial load fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:237",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] returns the smaller window when the same bare model id is discovered under multiple providers",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:270] returns the smaller window when the same bare model id is discovered under multiple providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:270",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel returns discovery value when provider-qualified entry exists in cache",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:283] resolveContextTokensForModel returns discovery value when provider-qualified entry exists in cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:283",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel returns configured override via direct config scan (beats discovery)",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:305] resolveContextTokensForModel returns configured override via direct config scan (beats discovery)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:305",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel honors configured overrides when provider keys use mixed case",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:324] resolveContextTokensForModel honors configured overrides when provider keys use mixed case",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:324",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel: config direct scan prevents OpenRouter qualified key collision for Google provider",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:338] resolveContextTokensForModel: config direct scan prevents OpenRouter qualified key collision for Google provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:338",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel prefers exact provider key over alias-normalized match",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:366] resolveContextTokensForModel prefers exact provider key over alias-normalized match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:366",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel(model-only) does not apply config scan for inferred provider",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:400] resolveContextTokensForModel(model-only) does not apply config scan for inferred provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:400",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel(model-only) does not force 1M for inferred anthropic opus 4.7 ids",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:431] resolveContextTokensForModel(model-only) does not force 1M for inferred anthropic opus 4.7 ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:431",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel: qualified key beats bare min when provider is explicit (original #35976 fix)",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:446] resolveContextTokensForModel: qualified key beats bare min when provider is explicit (original #35976 fix)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:446",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/context.lookup.test.ts] resolveContextTokensForModel normalizes explicit provider aliases before config lookup",
+TEST_CASE("v4.29 [src/agents/context.lookup.test.ts:470] resolveContextTokensForModel normalizes explicit provider aliases before config lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/context.lookup.test.ts:470",
                "upstream it() block #15",

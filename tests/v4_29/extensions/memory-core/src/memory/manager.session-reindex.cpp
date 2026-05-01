@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.session-reindex.test.ts] keeps session syncing enabled for full reindexes triggered from session-start/watch",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.session-reindex.test.ts:5] keeps session syncing enabled for full reindexes triggered from session-start/watch",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.session-reindex.test.ts:5",
                "upstream it() block #0",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts] is a no-op after removing the Chrome extension relay path",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts:31] is a no-op after removing the Chrome extension relay path",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-lifecycle.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts] stops all known profiles and ignores per-profile failures",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts:42] stops all known profiles and ignores per-profile failures",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-lifecycle.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts] stops tracked runtime browsers even when the profile no longer resolves",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts:68] stops tracked runtime browsers even when the profile no longer resolves",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-lifecycle.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts] warns when profile enumeration fails",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server-lifecycle.test.ts:101] warns when profile enumeration fails",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server-lifecycle.test.ts:101",
                "upstream it() block #3",

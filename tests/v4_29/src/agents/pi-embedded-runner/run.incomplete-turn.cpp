@@ -5,586 +5,586 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] warns before retrying when an incomplete turn already sent a message",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:51] warns before retrying when an incomplete turn already sent a message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] synthesizes a silent cron payload from a trailing current-attempt NO_REPLY tool result",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:81] synthesizes a silent cron payload from a trailing current-attempt NO_REPLY tool result",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not reuse an older NO_REPLY tool result without current-attempt tool activity",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:110] does not reuse an older NO_REPLY tool result without current-attempt tool activity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats exact NO_REPLY tool output as a quiet cron success when the final assistant is empty",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:142] treats exact NO_REPLY tool output as a quiet cron success when the final assistant is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] uses explicit agentId without a session key before surfacing the strict-agentic blocked state",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:188] uses explicit agentId without a session key before surfacing the strict-agentic blocked state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] emits explicit replayInvalid + blocked liveness state at the strict-agentic blocked exit",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:233] emits explicit replayInvalid + blocked liveness state at the strict-agentic blocked exit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:233",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] auto-activates strict-agentic for unconfigured GPT-5 openai runs and surfaces the blocked state",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:273] auto-activates strict-agentic for unconfigured GPT-5 openai runs and surfaces the blocked state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:273",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] respects explicit default contract opt-out on GPT-5 openai runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:309] respects explicit default contract opt-out on GPT-5 openai runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:309",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects replay-safe planning-only GPT turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:347] detects replay-safe planning-only GPT turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:347",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries reasoning-only GPT turns with a visible-answer continuation instruction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:362] retries reasoning-only GPT turns with a visible-answer continuation instruction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:362",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] returns NO_REPLY without retrying reasoning-only assistant turns when silence is allowed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:410] returns NO_REPLY without retrying reasoning-only assistant turns when silence is allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:410",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry or warn on reasoning-only turns when a messaging tool already delivered",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:451] does not retry or warn on reasoning-only turns when a messaging tool already delivered",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:451",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry reasoning-only turns when the assistant ended in error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:485] does not retry reasoning-only turns when the assistant ended in error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:485",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry reasoning-only turns for non-strict-agentic providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:519] does not retry reasoning-only turns for non-strict-agentic providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:519",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries generic empty GPT turns with a visible-answer continuation instruction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:555] retries generic empty GPT turns with a visible-answer continuation instruction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:555",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries zero-token empty Claude stop turns with a visible-answer continuation instruction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:595] retries zero-token empty Claude stop turns with a visible-answer continuation instruction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:595",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries empty openai-compatible stop turns even when the backend reports output tokens",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:649] retries empty openai-compatible stop turns even when the backend reports output tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:649",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] surfaces an error after exhausting empty-response retries",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:718] surfaces an error after exhausting empty-response retries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:718",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] surfaces an error after exhausting reasoning-only retries without a visible answer",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:748] surfaces an error after exhausting reasoning-only retries without a visible answer",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:748",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects structured bullet-only plans with intent cues as planning-only GPT turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:788] detects structured bullet-only plans with intent cues as planning-only GPT turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:788",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not misclassify ordinary bullet summaries as planning-only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:805] does not misclassify ordinary bullet summaries as planning-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:805",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not treat a bare plan heading as planning-only without an intent cue",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:820] does not treat a bare plan heading as planning-only without an intent cue",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:820",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry planning-only detection after tool activity",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:835] does not retry planning-only detection after tool activity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:835",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry planning-only detection after an item has started",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:854] does not retry planning-only detection after an item has started",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:854",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats update_plan as non-progress for planning-only retry detection",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:874] treats update_plan as non-progress for planning-only retry detection",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:874",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] allows one retry by default and two retries for strict-agentic runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:895] allows one retry by default and two retries for strict-agentic runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:895",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects short execution approval prompts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:902] detects short execution approval prompts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:902",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects short execution approvals across requested locales",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:908] detects short execution approvals across requested locales",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:908",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] adds an ack-turn fast-path instruction for GPT action turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:918] adds an ack-turn fast-path instruction for GPT action turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:918",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] applies the planning-only retry guard to prefixed GPT-5 ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:928] applies the planning-only retry guard to prefixed GPT-5 ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:928",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] applies the ack-turn fast path to broadened GPT-5-family ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:943] applies the ack-turn fast path to broadened GPT-5-family ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:943",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] applies the ack-turn fast path to Gemini action turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:953] applies the ack-turn fast path to Gemini action turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:953",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] extracts structured steps from planning-only narration",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:963] extracts structured steps from planning-only narration",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:963",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] marks incomplete-turn retries as replay-invalid abandoned runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:974] marks incomplete-turn retries as replay-invalid abandoned runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:974",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats missing replay metadata as replay-invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:998] treats missing replay metadata as replay-invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:998",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects reasoning-only GPT turns from signed thinking blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1005] detects reasoning-only GPT turns from signed thinking blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1005",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects reasoning-only Gemini turns from signed thinking blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1032] detects reasoning-only Gemini turns from signed thinking blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1032",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not apply planning-only or ack fast paths to Ollama runs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1059] does not apply planning-only or ack fast paths to Ollama runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1059",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries signed reasoning-only Ollama turns with a visible-answer continuation instruction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1080] retries signed reasoning-only Ollama turns with a visible-answer continuation instruction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1080",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries unsigned-thinking Ollama turns via the empty-response path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1107] retries unsigned-thinking Ollama turns via the empty-response path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1107",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries generic empty Ollama turns without visible text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1134] retries generic empty Ollama turns without visible text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1134",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries generic empty OpenAI-compatible turns from custom endpoints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1156] retries generic empty OpenAI-compatible turns from custom endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1156",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry clean zero-token Ollama stop turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1180] does not retry clean zero-token Ollama stop turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1180",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats exact NO_REPLY as a deliberate silent assistant reply",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1203] treats exact NO_REPLY as a deliberate silent assistant reply",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1203",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] suppresses the incomplete-turn warning after committed messaging text delivery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1231] suppresses the incomplete-turn warning after committed messaging text delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1231",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] suppresses the incomplete-turn warning after committed messaging delivery before end_turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1253] suppresses the incomplete-turn warning after committed messaging delivery before end_turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1253",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] suppresses the incomplete-turn warning after committed media-only messaging delivery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1281] suppresses the incomplete-turn warning after committed media-only messaging delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1281",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] suppresses the incomplete-turn warning after committed messaging delivery even when the provider errored",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1303] suppresses the incomplete-turn warning after committed messaging delivery even when the provider errored",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1303",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] still surfaces the incomplete-turn warning when no messaging delivery was committed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1326] still surfaces the incomplete-turn warning when no messaging delivery was committed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1326",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not treat empty committed messaging arrays as user-visible delivery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1348] does not treat empty committed messaging arrays as user-visible delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1348",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats committed messaging media as user-visible delivery",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1357] treats committed messaging media as user-visible delivery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1357",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats committed messaging text as replay-invalid side effect metadata",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1366] treats committed messaging text as replay-invalid side effect metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1366",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats committed messaging media as replay-invalid side effect metadata",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1377] treats committed messaging media as replay-invalid side effect metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1377",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] leaves committed delivery plus tool errors to the tool-error payload path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1388] leaves committed delivery plus tool errors to the tool-error payload path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1388",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry reasoning-only GPT turns after side effects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1415] does not retry reasoning-only GPT turns after side effects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1415",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry reasoning-only GPT turns when the assistant ended in error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1444] does not retry reasoning-only GPT turns when the assistant ended in error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1444",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry reasoning-only GPT turns when visible assistant text already exists",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1471] does not retry reasoning-only GPT turns when visible assistant text already exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1471",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects empty openai-compatible stop turns with non-zero output usage",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1502] detects empty openai-compatible stop turns with non-zero output usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1502",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects generic empty GPT turns without visible text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1526] detects generic empty GPT turns without visible text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1526",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats clean empty assistant turns as silent only when the caller allows it",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1549] treats clean empty assistant turns as silent only when the caller allows it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1549",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] treats reasoning-only assistant turns as silent only when the caller allows it",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1581] treats reasoning-only assistant turns as silent only when the caller allows it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1581",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not treat error or side-effect empty turns as silent",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1619] does not treat error or side-effect empty turns as silent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1619",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] returns NO_REPLY without retrying clean empty assistant turns when silence is allowed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1663] returns NO_REPLY without retrying clean empty assistant turns when silence is allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1663",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] keeps retrying and surfacing clean empty assistant turns without the silence flag",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1695] keeps retrying and surfacing clean empty assistant turns without the silence flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1695",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects generic empty Gemini turns without visible text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1722] detects generic empty Gemini turns without visible text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1722",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry generic empty GPT turns after side effects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1744] does not retry generic empty GPT turns after side effects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1744",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] marks compaction-timeout retries as paused and replay-invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1767] marks compaction-timeout retries as paused and replay-invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1767",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not strict-agentic retry casual Discord status chatter",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1784] does not strict-agentic retry casual Discord status chatter",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1784",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] detects replay-safe planning-only Gemini turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1813] detects replay-safe planning-only Gemini turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1813",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not enable incomplete-turn recovery for non-Gemini Google models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1828] does not enable incomplete-turn recovery for non-Gemini Google models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1828",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not misclassify a direct answer that says ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1843] does not misclassify a direct answer that says ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1843",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries when exactly 1 non-plan tool call plus ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1888] retries when exactly 1 non-plan tool call plus ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1888",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] retries when exactly 1 non-plan tool call plus planning prose is detected",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1900] retries when exactly 1 non-plan tool call plus planning prose is detected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1900",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 2+ non-plan tool calls are present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1912] does not retry when 2+ non-plan tool calls are present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1912",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 1 tool call plus completion language is present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1924] does not retry when 1 tool call plus completion language is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1924",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 1 tool call plus ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1936] does not retry when 1 tool call plus ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1936",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 1 tool call plus an answer-style summary is present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1948] does not retry when 1 tool call plus an answer-style summary is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1948",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 1 tool call plus a future-tense description is present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1963] does not retry when 1 tool call plus a future-tense description is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1963",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 1 safe tool call is followed by answer prose joined with ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1978] does not retry when 1 safe tool call is followed by answer prose joined with ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1978",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when 1 tool call plus a bare ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1990] does not retry when 1 tool call plus a bare ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:1990",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when the lone tool call already had side effects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:2002] does not retry when the lone tool call already had side effects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:2002",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry when the lone tool call is unclassified",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:2014] does not retry when the lone tool call is unclassified",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:2014",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts] does not retry single-action narration on casual non-task chat",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:2026] does not retry single-action narration on casual non-task chat",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run.incomplete-turn.test.ts:2026",
                "upstream it() block #82",

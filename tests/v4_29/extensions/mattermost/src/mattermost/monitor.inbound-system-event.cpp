@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.inbound-system-event.test.ts] does not enqueue regular user posts as system events",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/monitor.inbound-system-event.test.ts:356] does not enqueue regular user posts as system events",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/monitor.inbound-system-event.test.ts:356",
                "upstream it() block #0",

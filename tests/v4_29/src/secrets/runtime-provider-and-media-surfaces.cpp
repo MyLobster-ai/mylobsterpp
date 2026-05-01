@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] resolves file refs via configured file provider",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:65] resolves file refs via configured file provider",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] fails when file provider payload is not a JSON object",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:125] fails when file provider payload is not a JSON object",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] resolves shared media model request refs when capability blocks are omitted",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:160] resolves shared media model request refs when capability blocks are omitted",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:160",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] treats shared media model request refs as inactive when their capabilities are disabled",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:201] treats shared media model request refs as inactive when their capabilities are disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:201",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] resolves shared media model request refs from inferred provider capabilities",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:219] resolves shared media model request refs from inferred provider capabilities",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:219",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] treats shared media model request refs as inactive when inferred capabilities are disabled",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:270] treats shared media model request refs as inactive when inferred capabilities are disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:270",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] treats section media model request refs as inactive when model capabilities exclude the section",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:298] treats section media model request refs as inactive when model capabilities exclude the section",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:298",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts] treats defaults memorySearch ref as inactive when all enabled agents disable memorySearch",
+TEST_CASE("v4.29 [src/secrets/runtime-provider-and-media-surfaces.test.ts:340] treats defaults memorySearch ref as inactive when all enabled agents disable memorySearch",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-provider-and-media-surfaces.test.ts:340",
                "upstream it() block #7",

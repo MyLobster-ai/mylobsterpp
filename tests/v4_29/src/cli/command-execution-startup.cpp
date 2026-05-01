@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts] resolves startup context from argv and mode",
+TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts:28] resolves startup context from argv and mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-execution-startup.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts] skips local plugin bootstrap for JSON gateway agent calls",
+TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts:53] skips local plugin bootstrap for JSON gateway agent calls",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-execution-startup.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts] routes logs to stderr and emits banner only when allowed",
+TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts:84] routes logs to stderr and emits banner only when allowed",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-execution-startup.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts] forwards startup policy into bootstrap defaults and overrides",
+TEST_CASE("v4.29 [src/cli/command-execution-startup.test.ts:115] forwards startup policy into bootstrap defaults and overrides",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/command-execution-startup.test.ts:115",
                "upstream it() block #3",

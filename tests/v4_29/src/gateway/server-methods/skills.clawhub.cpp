@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts] installs a ClawHub skill through skills.install",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts:48] installs a ClawHub skill through skills.install",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.clawhub.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts] forwards dangerous override for local skill installs",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts:92] forwards dangerous override for local skill installs",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.clawhub.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts] updates ClawHub skills through skills.update",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts:138] updates ClawHub skills through skills.update",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.clawhub.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts] rejects ClawHub skills.update requests without slug or all",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.clawhub.test.ts:191] rejects ClawHub skills.update requests without slug or all",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.clawhub.test.ts:191",
                "upstream it() block #3",

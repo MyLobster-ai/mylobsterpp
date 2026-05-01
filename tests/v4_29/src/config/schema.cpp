@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] exports schema + hints",
+TEST_CASE("v4.29 [src/config/schema.test.ts:95] exports schema + hints",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] includes MCP SSE header schema under mcp.servers entries",
+TEST_CASE("v4.29 [src/config/schema.test.ts:120] includes MCP SSE header schema under mcp.servers entries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] merges plugin ui hints",
+TEST_CASE("v4.29 [src/config/schema.test.ts:140] merges plugin ui hints",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:140",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] does not re-mark existing non-sensitive token-like fields",
+TEST_CASE("v4.29 [src/config/schema.test.ts:151] does not re-mark existing non-sensitive token-like fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:151",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] merges plugin + channel schemas",
+TEST_CASE("v4.29 [src/config/schema.test.ts:157] merges plugin + channel schemas",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] looks up plugin config paths for slash-delimited plugin ids",
+TEST_CASE("v4.29 [src/config/schema.test.ts:182] looks up plugin config paths for slash-delimited plugin ids",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] adds heartbeat target hints with dynamic channels",
+TEST_CASE("v4.29 [src/config/schema.test.ts:208] adds heartbeat target hints with dynamic channels",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:208",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] caches merged schemas for identical plugin/channel metadata",
+TEST_CASE("v4.29 [src/config/schema.test.ts:218] caches merged schemas for identical plugin/channel metadata",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:218",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] derives security/auth tags for credential paths",
+TEST_CASE("v4.29 [src/config/schema.test.ts:227] derives security/auth tags for credential paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:227",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] derives tools/performance tags for web fetch timeout paths",
+TEST_CASE("v4.29 [src/config/schema.test.ts:233] derives tools/performance tags for web fetch timeout paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:233",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] accepts web fetch readability and firecrawl config in the runtime zod schema",
+TEST_CASE("v4.29 [src/config/schema.test.ts:239] accepts web fetch readability and firecrawl config in the runtime zod schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:239",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] accepts experimental tool flags in the runtime zod schema",
+TEST_CASE("v4.29 [src/config/schema.test.ts:269] accepts experimental tool flags in the runtime zod schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:269",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] accepts web fetch maxResponseBytes in the runtime zod schema",
+TEST_CASE("v4.29 [src/config/schema.test.ts:282] accepts web fetch maxResponseBytes in the runtime zod schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:282",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] accepts WhatsApp Web Baileys socket timing in the runtime zod schema",
+TEST_CASE("v4.29 [src/config/schema.test.ts:294] accepts WhatsApp Web Baileys socket timing in the runtime zod schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:294",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] accepts web fetch ssrfPolicy in the runtime zod schema",
+TEST_CASE("v4.29 [src/config/schema.test.ts:312] accepts web fetch ssrfPolicy in the runtime zod schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:312",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] rejects allowPrivateNetwork on media-understanding request config",
+TEST_CASE("v4.29 [src/config/schema.test.ts:330] rejects allowPrivateNetwork on media-understanding request config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:330",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] rejects unknown keys inside web fetch firecrawl config",
+TEST_CASE("v4.29 [src/config/schema.test.ts:350] rejects unknown keys inside web fetch firecrawl config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:350",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] keeps tags in the allowed taxonomy",
+TEST_CASE("v4.29 [src/config/schema.test.ts:365] keeps tags in the allowed taxonomy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:365",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] covers core/built-in config paths with tags",
+TEST_CASE("v4.29 [src/config/schema.test.ts:379] covers core/built-in config paths with tags",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:379",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] looks up a config schema path with immediate child summaries",
+TEST_CASE("v4.29 [src/config/schema.test.ts:394] looks up a config schema path with immediate child summaries",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:394",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] returns a shallow lookup schema without nested composition keywords",
+TEST_CASE("v4.29 [src/config/schema.test.ts:407] returns a shallow lookup schema without nested composition keywords",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:407",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] matches wildcard ui hints for concrete lookup paths",
+TEST_CASE("v4.29 [src/config/schema.test.ts:420] matches wildcard ui hints for concrete lookup paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:420",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] normalizes bracketed lookup paths",
+TEST_CASE("v4.29 [src/config/schema.test.ts:431] normalizes bracketed lookup paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:431",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] matches ui hints that use empty array brackets",
+TEST_CASE("v4.29 [src/config/schema.test.ts:437] matches ui hints that use empty array brackets",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:437",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] uses the indexed tuple item schema for positional array lookups",
+TEST_CASE("v4.29 [src/config/schema.test.ts:444] uses the indexed tuple item schema for positional array lookups",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:444",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] rejects prototype-chain lookup segments",
+TEST_CASE("v4.29 [src/config/schema.test.ts:466] rejects prototype-chain lookup segments",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:466",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] rejects overly deep lookup paths",
+TEST_CASE("v4.29 [src/config/schema.test.ts:472] rejects overly deep lookup paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:472",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.test.ts] returns null for missing config schema paths",
+TEST_CASE("v4.29 [src/config/schema.test.ts:499] returns null for missing config schema paths",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.test.ts:499",
                "upstream it() block #27",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/register.message.test.ts] registers message command and wires all message sub-registrars with shared helpers",
+TEST_CASE("v4.29 [src/cli/program/register.message.test.ts:95] registers message command and wires all message sub-registrars with shared helpers",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.message.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.message.test.ts] shows command help when root message command is invoked",
+TEST_CASE("v4.29 [src/cli/program/register.message.test.ts:122] shows command help when root message command is invoked",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.message.test.ts:122",
                "upstream it() block #1",

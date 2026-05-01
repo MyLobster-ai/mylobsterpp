@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/runtime-schema.test.ts] merges manifest plugin metadata for valid configs",
+TEST_CASE("v4.29 [src/config/runtime-schema.test.ts:178] merges manifest plugin metadata for valid configs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-schema.test.ts:178",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-schema.test.ts] falls back to bundled channel metadata when config is invalid",
+TEST_CASE("v4.29 [src/config/runtime-schema.test.ts:202] falls back to bundled channel metadata when config is invalid",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-schema.test.ts:202",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-schema.test.ts] uses manifest metadata instead of booting plugin runtime",
+TEST_CASE("v4.29 [src/config/runtime-schema.test.ts:229] uses manifest metadata instead of booting plugin runtime",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-schema.test.ts:229",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-schema.test.ts] reuses the current gateway plugin metadata snapshot for config schema requests",
+TEST_CASE("v4.29 [src/config/runtime-schema.test.ts:247] reuses the current gateway plugin metadata snapshot for config schema requests",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-schema.test.ts:247",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-schema.test.ts] does not activate or replace the active plugin registry across repeated schema loads (regression guard for #54816)",
+TEST_CASE("v4.29 [src/config/runtime-schema.test.ts:296] does not activate or replace the active plugin registry across repeated schema loads (regression guard for #54816)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-schema.test.ts:296",
                "upstream it() block #4",

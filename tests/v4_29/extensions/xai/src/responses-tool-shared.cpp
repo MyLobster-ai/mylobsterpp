@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts] builds the shared xAI Responses tool body",
+TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts:5] builds the shared xAI Responses tool body",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/responses-tool-shared.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts] falls back to annotation citations when the API omits top-level citations",
+TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts:21] falls back to annotation citations when the API omits top-level citations",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/responses-tool-shared.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts] prefers explicit top-level citations when present",
+TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts:43] prefers explicit top-level citations when present",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/responses-tool-shared.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts] includes inline citations only when enabled",
+TEST_CASE("v4.29 [extensions/xai/src/responses-tool-shared.test.ts:55] includes inline citations only when enabled",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/src/responses-tool-shared.test.ts:55",
                "upstream it() block #3",

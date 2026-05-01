@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/uninstall.test.ts] recommends creating a backup before removing state or workspaces",
+TEST_CASE("v4.29 [src/commands/uninstall.test.ts:18] recommends creating a backup before removing state or workspaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/uninstall.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/uninstall.test.ts] does not recommend backup for service-only uninstall",
+TEST_CASE("v4.29 [src/commands/uninstall.test.ts:29] does not recommend backup for service-only uninstall",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/uninstall.test.ts:29",
                "upstream it() block #1",

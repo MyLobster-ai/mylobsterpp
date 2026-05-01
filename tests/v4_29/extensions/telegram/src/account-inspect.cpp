@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/account-inspect.test.ts] resolves default env SecretRef templates in read-only status paths",
+TEST_CASE("v4.29 [extensions/telegram/src/account-inspect.test.ts:10] resolves default env SecretRef templates in read-only status paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/account-inspect.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/account-inspect.test.ts] respects env provider allowlists in read-only status paths",
+TEST_CASE("v4.29 [extensions/telegram/src/account-inspect.test.ts:27] respects env provider allowlists in read-only status paths",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/account-inspect.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/account-inspect.test.ts] does not read env values for non-env providers",
+TEST_CASE("v4.29 [extensions/telegram/src/account-inspect.test.ts:55] does not read env values for non-env providers",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/account-inspect.test.ts:55",
                "upstream it() block #2",

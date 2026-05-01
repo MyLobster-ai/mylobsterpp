@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] uses normalized main key and global alias for global scope",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:38] uses normalized main key and global alias for global scope",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] falls back to per-sender defaults",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:50] falls back to per-sender defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] uses session.mainKey over any legacy routing sessions key",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:58] uses session.mainKey over any legacy routing sessions key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] maps alias and main key to display main",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:73] maps alias and main key to display main",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] maps input main to alias for internal routing",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:85] maps input main to alias for internal routing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] maps current to requester session key",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:94] maps current to requester session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] preserves literal current when no requester key is provided",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:105] preserves literal current when no requester key is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:105",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] maps interactive client ids to the requester session",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:111] maps interactive client ids to the requester session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:111",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] detects session ids",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:129] detects session ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:129",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] detects canonical session key families",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:134] detects canonical session key families",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:134",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] treats non-keys as session-id candidates",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:144] treats non-keys as session-id candidates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:144",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] requires spawned-session verification only for sandboxed key-based cross-session access",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:153] requires spawned-session verification only for sandboxed key-based cross-session access",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:153",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] returns true immediately when spawned-session verification is not required",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:188] returns true immediately when spawned-session verification is not required",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:188",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] does not hide an exact spawned target behind the sessions.list visibility cap",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:207] does not hide an exact spawned target behind the sessions.list visibility cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:207",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] prefers a literal current session key before alias fallback",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:236] prefers a literal current session key before alias fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:236",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] prefers a literal current sessionId before alias fallback",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:262] prefers a literal current sessionId before alias fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:262",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] skips literal current key lookup when spawned visibility is restricted",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:298] skips literal current key lookup when spawned visibility is restricted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:298",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts] treats the TUI client label as the requester session",
+TEST_CASE("v4.29 [src/agents/tools/sessions-resolution.test.ts:325] treats the TUI client label as the requester session",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/sessions-resolution.test.ts:325",
                "upstream it() block #17",

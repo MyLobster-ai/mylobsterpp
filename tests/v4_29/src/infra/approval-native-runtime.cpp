@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts] dedupes converged prepared targets",
+TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts:24] dedupes converged prepared targets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-runtime.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts] continues after per-target delivery failures",
+TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts:76] continues after per-target delivery failures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-runtime.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts] passes the resolved approval kind and pending content through native delivery hooks",
+TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts:112] passes the resolved approval kind and pending content through native delivery hooks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-runtime.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts] runs expiration through the shared runtime factory",
+TEST_CASE("v4.29 [src/infra/approval-native-runtime.test.ts:213] runs expiration through the shared runtime factory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-native-runtime.test.ts:213",
                "upstream it() block #3",

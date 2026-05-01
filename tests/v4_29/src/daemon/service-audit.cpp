@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags bun runtime",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:65] flags bun runtime",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags version-managed node paths",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:79] flags version-managed node paths",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] accepts Linux minimal PATH with user directories",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:103] accepts Linux minimal PATH with user directories",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] accepts Linux fnm aliases/default without requiring the legacy current symlink",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:123] accepts Linux fnm aliases/default without requiring the legacy current symlink",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:123",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] accepts Linux fnm current symlink without requiring aliases/default",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:145] accepts Linux fnm current symlink without requiring aliases/default",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] reads gateway service ports from split and equals-form arguments",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:167] reads gateway service ports from split and equals-form arguments",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:167",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags gateway service port drift from the expected config port",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:180] flags gateway service port drift from the expected config port",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:180",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] accepts gateway service ports that match the expected config port",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:201] accepts gateway service ports that match the expected config port",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:201",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags gateway token mismatch when service token is stale",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:215] flags gateway token mismatch when service token is stale",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:215",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags embedded service token even when it matches config token",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:223] flags embedded service token even when it matches config token",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:223",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] does not flag token issues when service token is not embedded",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:231] does not flag token issues when service token is not embedded",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:231",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] does not treat EnvironmentFile-backed tokens as embedded",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:238] does not treat EnvironmentFile-backed tokens as embedded",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:238",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] treats tokens present inline and in EnvironmentFile as embedded",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:249] treats tokens present inline and in EnvironmentFile as embedded",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:249",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags inline managed service env values from the service key list",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:260] flags inline managed service env values from the service key list",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:260",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags inline managed values expected by the current install plan for old services",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:276] flags inline managed values expected by the current install plan for old services",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:276",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] does not flag managed env values loaded from EnvironmentFile",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:287] does not flag managed env values loaded from EnvironmentFile",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:287",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags managed env values present inline even when an EnvironmentFile overrides them",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:301] flags managed env values present inline even when an EnvironmentFile overrides them",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:301",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags inline proxy environment values embedded in the service",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:315] flags inline proxy environment values embedded in the service",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:315",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags lowercase inline proxy environment values using portable key names",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:332] flags lowercase inline proxy environment values using portable key names",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:332",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] does not flag proxy values loaded only from EnvironmentFile",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:345] does not flag proxy values loaded only from EnvironmentFile",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:345",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] flags proxy values present inline even when an EnvironmentFile overrides them",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:358] flags proxy values present inline even when an EnvironmentFile overrides them",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:358",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when both tokens are undefined",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:373] returns null when both tokens are undefined",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:373",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when both tokens are empty strings",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:378] returns null when both tokens are empty strings",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:378",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when tokens match",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:383] returns null when tokens match",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:383",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when tokens match but service token has trailing newline",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:388] returns null when tokens match but service token has trailing newline",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:388",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when tokens match but have surrounding whitespace",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:393] returns null when tokens match but have surrounding whitespace",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:393",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when both tokens have different whitespace padding",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:398] returns null when both tokens have different whitespace padding",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:398",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] detects drift when config has token but service has different token",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:406] detects drift when config has token but service has different token",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:406",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when config has token but service has no token",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:413] returns null when config has token but service has no token",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:413",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/service-audit.test.ts] returns null when service has token but config does not",
+TEST_CASE("v4.29 [src/daemon/service-audit.test.ts:418] returns null when service has token but config does not",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/service-audit.test.ts:418",
                "upstream it() block #29",

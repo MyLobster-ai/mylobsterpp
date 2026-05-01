@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should display containers",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:101] should display containers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should display browsers when --browser flag is set",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:117] should display browsers when --browser flag is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:117",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should show warning when image mismatches detected",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:128] should show warning when image mismatches detected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:128",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should display message when no containers found",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:139] should display message when no containers found",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:139",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should output JSON format",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:147] should output JSON format",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:147",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should handle errors gracefully",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:163] should handle errors gracefully",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should error if no filter is specified",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:183] should error if no filter is specified",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:183",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should error if multiple filters specified",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:192] should error if multiple filters specified",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:192",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should filter by session",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:206] should filter by session",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:206",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should filter by agent (exact + subkeys)",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:220] should filter by agent (exact + subkeys)",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:220",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should remove all when --all flag set",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:236] should remove all when --all flag set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:236",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should handle browsers when --browser flag set",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:245] should handle browsers when --browser flag set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:245",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should require confirmation without --force",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:264] should require confirmation without --force",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:264",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should cancel when user declines",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:274] should cancel when user declines",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:274",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should cancel on clack cancel symbol",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:281] should cancel on clack cancel symbol",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:281",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should skip confirmation with --force",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:288] should skip confirmation with --force",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:288",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should show message when no containers match",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:299] should show message when no containers match",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:299",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should handle removal errors and exit with code 1",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:306] should handle removal errors and exit with code 1",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:306",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/sandbox.test.ts] should display success message",
+TEST_CASE("v4.29 [src/commands/sandbox.test.ts:322] should display success message",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/sandbox.test.ts:322",
                "upstream it() block #18",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/security-audit.test.ts] flags slash commands without a channel users allowlist",
+TEST_CASE("v4.29 [extensions/slack/src/security-audit.test.ts:54] flags slash commands without a channel users allowlist",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/security-audit.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/security-audit.test.ts] flags slash commands when access-group enforcement is disabled",
+TEST_CASE("v4.29 [extensions/slack/src/security-audit.test.ts:67] flags slash commands when access-group enforcement is disabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/security-audit.test.ts:67",
                "upstream it() block #1",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] fails closed when groupPolicy=allowlist and groups are missing",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:10] fails closed when groupPolicy=allowlist and groups are missing",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] allows configured groups when groupPolicy=allowlist",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:29] allows configured groups when groupPolicy=allowlist",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] blocks all groups when groupPolicy=disabled",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:51] blocks all groups when groupPolicy=disabled",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] respects account-scoped groupPolicy overrides",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:72] respects account-scoped groupPolicy overrides",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] allows groups when groupPolicy=allowlist with hasGroupAllowFrom but no groups",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:97] allows groups when groupPolicy=allowlist with hasGroupAllowFrom but no groups",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] still fails closed when groupPolicy=allowlist without groups or groupAllowFrom",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:117] still fails closed when groupPolicy=allowlist without groups or groupAllowFrom",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:117",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] can default explicitly configured groups to no mention for channels that opt in",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:137] can default explicitly configured groups to no mention for channels that opt in",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:137",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] matches typed sender IDs",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:171] matches typed sender IDs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:171",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] does not allow senderName collisions to match id keys",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:183] does not allow senderName collisions to match id keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:183",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] treats untyped legacy keys as senderId only",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:198] treats untyped legacy keys as senderId only",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:198",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] matches username keys only against senderUsername",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:225] matches username keys only against senderUsername",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:225",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] matches e164 and name only when explicitly typed",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:249] matches e164 and name only when explicitly typed",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:249",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] prefers id over username over name",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:262] prefers id over username over name",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:262",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/group-policy.test.ts] emits one deprecation warning per legacy key",
+TEST_CASE("v4.29 [src/config/group-policy.test.ts:277] emits one deprecation warning per legacy key",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/group-policy.test.ts:277",
                "upstream it() block #13",

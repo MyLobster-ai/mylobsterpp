@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.summary.test.ts] includes runtimeVersion in the status payload",
+TEST_CASE("v4.29 [src/commands/status.summary.test.ts:137] includes runtimeVersion in the status payload",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.summary.test.ts:137",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.summary.test.ts] skips channel summary imports when no channels are configured",
+TEST_CASE("v4.29 [src/commands/status.summary.test.ts:147] skips channel summary imports when no channels are configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.summary.test.ts:147",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.summary.test.ts] skips channel summary imports when explicitly disabled",
+TEST_CASE("v4.29 [src/commands/status.summary.test.ts:161] skips channel summary imports when explicitly disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.summary.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.summary.test.ts] does not trigger async context warmup while building status summaries",
+TEST_CASE("v4.29 [src/commands/status.summary.test.ts:171] does not trigger async context warmup while building status summaries",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.summary.test.ts:171",
                "upstream it() block #3",

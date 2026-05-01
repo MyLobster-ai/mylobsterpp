@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] treats missing bundled discovery results as empty",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:112] treats missing bundled discovery results as empty",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:112",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] loads real bundled channel entry contracts from the source tree",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:131] loads real bundled channel entry contracts from the source tree",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:131",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] fills sparse bundled channel plugin metadata from package metadata",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:156] fills sparse bundled channel plugin metadata from package metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:156",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] uses the active bundled plugin root override for channel entry loading",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:227] uses the active bundled plugin root override for channel entry loading",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:227",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] treats direct bundled plugin-tree overrides as scan roots",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:299] treats direct bundled plugin-tree overrides as scan roots",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:299",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] partitions bundled channel lazy caches by active bundled root without re-importing",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:374] partitions bundled channel lazy caches by active bundled root without re-importing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:374",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] loads setup-entry feature plugins without loading the main channel entry",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:481] loads setup-entry feature plugins without loading the main channel entry",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:481",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] does not load bundled setup entries through external staged runtime deps during discovery",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:569] does not load bundled setup entries through external staged runtime deps during discovery",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:569",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] does not load bundled runtime entries through external staged runtime deps during discovery",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:655] does not load bundled runtime entries through external staged runtime deps during discovery",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:655",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] swallows and caches bundled plugin and setup load failures",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:752] swallows and caches bundled plugin and setup load failures",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:752",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] caches undefined bundled plugin loads as unavailable",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:841] caches undefined bundled plugin loads as unavailable",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:841",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps channel entrypoints on the dedicated entry-contract SDK surface",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:888] keeps channel entrypoints on the dedicated entry-contract SDK surface",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:888",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps setup-entry legacy feature hints mirrored in package metadata",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:900] keeps setup-entry legacy feature hints mirrored in package metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:900",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps staged runtime-dependency setup entries on setup-only plugin barrels",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:927] keeps staged runtime-dependency setup entries on setup-only plugin barrels",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:927",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps bundled channel entrypoints free of static src imports",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:955] keeps bundled channel entrypoints free of static src imports",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:955",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps channel implementations off the broad core SDK surface",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:963] keeps channel implementations off the broad core SDK surface",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:963",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps plugin-sdk channel-core free of chat metadata bootstrap imports",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:985] keeps plugin-sdk channel-core free of chat metadata bootstrap imports",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:985",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps bundled hot runtime barrels off the broad core SDK surface",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:992] keeps bundled hot runtime barrels off the broad core SDK surface",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:992",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps runtime helper surfaces off bootstrap-registry",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:1004] keeps runtime helper surfaces off bootstrap-registry",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:1004",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps extension-shared off the broad runtime barrel",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:1017] keeps extension-shared off the broad runtime barrel",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:1017",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps bundled doctor surfaces off the broad runtime barrel",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:1023] keeps bundled doctor surfaces off the broad runtime barrel",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:1023",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] breaks reentrant bundled channel discovery cycles with an empty fallback",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:1039] breaks reentrant bundled channel discovery cycles with an empty fallback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:1039",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts] keeps private src runtime barrels from forwarding to parent runtime barrels that export local plugins",
+TEST_CASE("v4.29 [src/channels/plugins/bundled.shape-guard.test.ts:1124] keeps private src runtime barrels from forwarding to parent runtime barrels that export local plugins",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled.shape-guard.test.ts:1124",
                "upstream it() block #22",

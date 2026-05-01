@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts] merges safe nested overrides",
+TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts:65] merges safe nested overrides",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/telephony-tts.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts] blocks top-level __proto__ keys",
+TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts:75] blocks top-level __proto__ keys",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/telephony-tts.test.ts:75",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts] blocks nested __proto__ keys",
+TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts:86] blocks nested __proto__ keys",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/telephony-tts.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts] logs fallback metadata when telephony TTS uses a fallback provider",
+TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts:97] logs fallback metadata when telephony TTS uses a fallback provider",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/telephony-tts.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts] exposes configured timeoutMs as synthesisTimeoutMs",
+TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts:120] exposes configured timeoutMs as synthesisTimeoutMs",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/telephony-tts.test.ts:120",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts] keeps the telephony timeout default when timeoutMs is not configured",
+TEST_CASE("v4.29 [extensions/voice-call/src/telephony-tts.test.ts:135] keeps the telephony timeout default when timeoutMs is not configured",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/telephony-tts.test.ts:135",
                "upstream it() block #5",

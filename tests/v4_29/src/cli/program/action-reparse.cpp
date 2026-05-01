@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts] uses action command name + args as fallback argv",
+TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts:26] uses action command name + args as fallback argv",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/action-reparse.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts] falls back to action args without command name when action has no name",
+TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts:47] falls back to action args without command name when action has no name",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/action-reparse.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts] preserves explicit parent command options in fallback argv",
+TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts:66] preserves explicit parent command options in fallback argv",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/action-reparse.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts] uses program root when action command is missing",
+TEST_CASE("v4.29 [src/cli/program/action-reparse.test.ts:87] uses program root when action command is missing",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/action-reparse.test.ts:87",
                "upstream it() block #3",

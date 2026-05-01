@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/document-extractor-public-artifacts.test.ts] isolates a throwing factory when another extractor factory succeeds",
+TEST_CASE("v4.29 [src/plugins/document-extractor-public-artifacts.test.ts:23] isolates a throwing factory when another extractor factory succeeds",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/document-extractor-public-artifacts.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/document-extractor-public-artifacts.test.ts] surfaces initialization failure when every matching factory throws",
+TEST_CASE("v4.29 [src/plugins/document-extractor-public-artifacts.test.ts:42] surfaces initialization failure when every matching factory throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/document-extractor-public-artifacts.test.ts:42",
                "upstream it() block #1",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts] re-exports the shared wrapper composer",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts:41] re-exports the shared wrapper composer",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-stream.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts] re-exports shared helper wrappers",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts:45] re-exports shared helper wrappers",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-stream.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts] applies wrappers left to right",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts:50] applies wrappers left to right",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-stream.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts] returns the original stream when no wrappers are provided",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts:75] returns the original stream when no wrappers are provided",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-stream.test.ts:75",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts] covers the stream family matrix",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts:82] covers the stream family matrix",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-stream.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts] exposes canonical stream hook constants for reused families",
+TEST_CASE("v4.29 [src/plugin-sdk/provider-stream.test.ts:294] exposes canonical stream hook constants for reused families",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/provider-stream.test.ts:294",
                "upstream it() block #5",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts] rejects inbound calls with missing caller ID when allowlist enabled",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts:5] rejects inbound calls with missing caller ID when allowlist enabled",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager.inbound-allowlist.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts] rejects inbound calls with anonymous caller ID when allowlist enabled",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts:27] rejects inbound calls with anonymous caller ID when allowlist enabled",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager.inbound-allowlist.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts] rejects inbound calls that only match allowlist suffixes",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts:50] rejects inbound calls that only match allowlist suffixes",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager.inbound-allowlist.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts] rejects duplicate inbound events with a single hangup call",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts:73] rejects duplicate inbound events with a single hangup call",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager.inbound-allowlist.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts] retries rejected inbound hangup after a transient provider failure",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts:106] retries rejected inbound hangup after a transient provider failure",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager.inbound-allowlist.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts] accepts inbound calls that exactly match the allowlist",
+TEST_CASE("v4.29 [extensions/voice-call/src/manager.inbound-allowlist.test.ts:157] accepts inbound calls that exactly match the allowlist",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/manager.inbound-allowlist.test.ts:157",
                "upstream it() block #5",

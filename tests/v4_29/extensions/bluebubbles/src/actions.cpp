@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns empty array when account is not enabled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:96] returns empty array when account is not enabled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:96",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns empty array when account is not configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:104] returns empty array when account is not configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns react action when enabled and configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:112] returns react action when enabled and configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] excludes react action when reactions are gated off",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:126] excludes react action when reactions are gated off",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] honors account-scoped action gates during discovery",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:144] honors account-scoped action gates during discovery",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] hides private-api actions when private API is disabled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:166] hides private-api actions when private API is disabled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:166",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns true for react action",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:194] returns true for react action",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:194",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns true for all supported actions",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:198] returns true for all supported actions",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:198",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns false for unsupported actions",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:212] returns false for unsupported actions",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:212",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] extracts send params from sendMessage action",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:219] extracts send params from sendMessage action",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:219",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns null for non-sendMessage action",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:233] returns null for non-sendMessage action",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:233",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] returns null when to is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:240] returns null when to is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:240",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] maps upload-file to the attachment runtime using canonical naming",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:249] maps upload-file to the attachment runtime using canonical naming",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:249",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] throws for unsupported actions",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:279] throws for unsupported actions",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:279",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] throws when emoji is missing for react action",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:298] throws when emoji is missing for react action",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:298",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] throws a private-api error for private-only actions when disabled",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:317] throws a private-api error for private-only actions when disabled",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:317",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] throws when messageId is missing",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:337] throws when messageId is missing",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:337",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] throws when chatGuid cannot be resolved",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:356] throws when chatGuid cannot be resolved",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:356",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] sends reaction successfully with chatGuid",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:377] sends reaction successfully with chatGuid",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:377",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] sends reaction removal successfully",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:397] sends reaction removal successfully",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:397",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] resolves chatGuid from to parameter",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:416] resolves chatGuid from to parameter",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:416",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] passes partIndex when provided",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:446] passes partIndex when provided",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:446",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] uses toolContext currentChannelId when no explicit target is provided",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:474] uses toolContext currentChannelId when no explicit target is provided",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:474",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] resolves short messageId before reacting",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:510] resolves short messageId before reacting",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:510",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] propagates short-id errors from the resolver",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:549] propagates short-id errors from the resolver",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:549",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] accepts message param for edit action",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:577] accepts message param for edit action",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:577",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] accepts message/target aliases for sendWithEffect",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:601] accepts message/target aliases for sendWithEffect",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:601",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] passes asVoice through sendAttachment",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:632] passes asVoice through sendAttachment",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:632",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] throws when buffer is missing for setGroupIcon",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:666] throws when buffer is missing for setGroupIcon",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:666",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] sets group icon successfully with chatGuid and buffer",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:686] sets group icon successfully with chatGuid and buffer",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:686",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts] uses default filename when not provided for setGroupIcon",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/actions.test.ts:723] uses default filename when not provided for setGroupIcon",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/actions.test.ts:723",
                "upstream it() block #30",

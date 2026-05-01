@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts] creates cached content from the system prompt and strips that prompt from live requests",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts:108] creates cached content from the system prompt and strips that prompt from live requests",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/google-prompt-cache.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts] reuses a persisted cache entry without creating a second cache",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts:180] reuses a persisted cache entry without creating a second cache",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/google-prompt-cache.test.ts:180",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts] refreshes an about-to-expire cache entry instead of creating a new one",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts:222] refreshes an about-to-expire cache entry instead of creating a new one",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/google-prompt-cache.test.ts:222",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts] stays out of the way when cachedContent is already configured explicitly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/google-prompt-cache.test.ts:281] stays out of the way when cachedContent is already configured explicitly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/google-prompt-cache.test.ts:281",
                "upstream it() block #3",

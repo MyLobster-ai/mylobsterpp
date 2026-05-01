@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps bundled-capability-metadata confined to contract/test inventory",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:219] keeps bundled-capability-metadata confined to contract/test inventory",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:219",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps the bundled contract inventory out of non-test runtime code",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:234] keeps the bundled contract inventory out of non-test runtime code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:234",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps core tests off bundled extension deep imports",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:242] keeps core tests off bundled extension deep imports",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:242",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps plugin contract tests off bundled path helpers unless the test is explicitly about paths",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:252] keeps plugin contract tests off bundled path helpers unless the test is explicitly about paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:252",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps channel production code off bundled-plugin-metadata helpers",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:269] keeps channel production code off bundled-plugin-metadata helpers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:269",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps contract loaders off hand-built bundled extension paths",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:277] keeps contract loaders off hand-built bundled extension paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:277",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps bundled plugin production code off legacy before_agent_start hooks",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:289] keeps bundled plugin production code off legacy before_agent_start hooks",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:289",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps bundled plugin typed hook registrations on an explicit allowlist",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:295] keeps bundled plugin typed hook registrations on an explicit allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:295",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps bundled plugin typed hook names on an explicit allowlist",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:301] keeps bundled plugin typed hook names on an explicit allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:301",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps bundled plugin production code off raw registerHook calls",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:312] keeps bundled plugin production code off raw registerHook calls",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:312",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps long-lived bundled hook handlers on live runtime config lookups",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:318] keeps long-lived bundled hook handlers on live runtime config lookups",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:318",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps live provider config surfaces on runtime config lookups",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:330] keeps live provider config surfaces on runtime config lookups",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:330",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts] keeps long-lived bundled hook handlers off startup-only registration gates",
+TEST_CASE("v4.29 [src/plugins/contracts/boundary-invariants.test.ts:342] keeps long-lived bundled hook handlers off startup-only registration gates",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/boundary-invariants.test.ts:342",
                "upstream it() block #12",

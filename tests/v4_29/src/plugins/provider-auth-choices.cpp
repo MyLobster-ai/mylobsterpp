@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] flattens manifest auth choices",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:94] flattens manifest auth choices",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] can exclude untrusted workspace plugin auth choices during onboarding resolution",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:204] can exclude untrusted workspace plugin auth choices during onboarding resolution",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:204",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] derives generic auth choices from descriptor-safe setup provider auth methods",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:271] derives generic auth choices from descriptor-safe setup provider auth methods",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:271",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] sanitizes setup provider auth descriptors before deriving prompt labels",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:311] sanitizes setup provider auth descriptors before deriving prompt labels",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:311",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] uses setup provider auth methods when no setup entry exists",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:350] uses setup provider auth methods when no setup entry exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:350",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] keeps setup-entry providers on explicit manifest or runtime auth choices",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:377] keeps setup-entry providers on explicit manifest or runtime auth choices",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:377",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] does not duplicate explicit provider auth choices with setup auth methods",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:397] does not duplicate explicit provider auth choices with setup auth methods",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:397",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] prefers bundled auth-choice handlers when choice IDs collide across origins",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:442] prefers bundled auth-choice handlers when choice IDs collide across origins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:442",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] prefers trusted config auth-choice handlers over bundled collisions",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:497] prefers trusted config auth-choice handlers over bundled collisions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:497",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts] resolves api-key choices through manifest-owned provider auth aliases",
+TEST_CASE("v4.29 [src/plugins/provider-auth-choices.test.ts:552] resolves api-key choices through manifest-owned provider auth aliases",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-auth-choices.test.ts:552",
                "upstream it() block #9",

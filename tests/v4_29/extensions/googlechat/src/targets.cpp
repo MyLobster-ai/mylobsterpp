@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] normalizes provider prefixes",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:102] normalizes provider prefixes",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] normalizes email targets to users/<email>",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:108] normalizes email targets to users/<email>",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] preserves space targets",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:113] preserves space targets",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] detects user and space targets",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:120] detects user and space targets",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:120",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] uses generic channel group policy helpers",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:128] uses generic channel group policy helpers",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:128",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] matches raw email entries only when dangerous name matching is enabled",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:150] matches raw email entries only when dangerous name matching is enabled",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:150",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] does not treat users/<email> entries as email allowlist (deprecated form)",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:155] does not treat users/<email> entries as email allowlist (deprecated form)",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:155",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] still matches user id entries",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:161] still matches user id entries",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:161",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] rejects non-matching raw email entries",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:165] rejects non-matching raw email entries",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:165",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] rejects when content-length exceeds max bytes",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:179] rejects when content-length exceeds max bytes",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:179",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] rejects when streamed payload exceeds max bytes",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:193] rejects when streamed payload exceeds max bytes",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:193",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] adds messageReplyOption when sending to an existing thread",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:220] adds messageReplyOption when sending to an existing thread",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:220",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] does not set messageReplyOption for non-thread sends",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:238] does not set messageReplyOption for non-thread sends",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:238",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] injects a scoped transporter into GoogleAuth access-token clients",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:267] injects a scoped transporter into GoogleAuth access-token clients",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:267",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] accepts Google Chat app-url tokens from the Chat issuer",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:306] accepts Google Chat app-url tokens from the Chat issuer",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:306",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] rejects add-on tokens when no principal binding is configured",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:333] rejects add-on tokens when no principal binding is configured",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:333",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] accepts add-on tokens only when the bound principal matches",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:353] accepts add-on tokens only when the bound principal matches",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:353",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] rejects add-on tokens when the bound principal does not match",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:371] rejects add-on tokens when the bound principal does not match",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:371",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts] fetches Chat certs through the guarded fetch for project-number tokens",
+TEST_CASE("v4.29 [extensions/googlechat/src/targets.test.ts:392] fetches Chat certs through the guarded fetch for project-number tokens",
           "[v4_29][parity_gap][googlechat]") {
     PARITY_GAP("extensions/googlechat/src/targets.test.ts:392",
                "upstream it() block #18",

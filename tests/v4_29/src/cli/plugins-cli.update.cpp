@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] shows the dangerous unsafe install override in update help",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:43] shows the dangerous unsafe install override in update help",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] updates tracked hook packs through plugins update",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:56] updates tracked hook packs through plugins update",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] exits when update is called without id and without --all",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:118] exits when update is called without id and without --all",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] reports no tracked plugins or hook packs when update --all has empty install records",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:131] reports no tracked plugins or hook packs when update --all has empty install records",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:131",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] passes dangerous force unsafe install to plugin updates",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:145] passes dangerous force unsafe install to plugin updates",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:145",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] writes updated config when updater reports changes",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:174] writes updated config when updater reports changes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:174",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] exits non-zero when a plugin update reports an error after persisting successes",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:231] exits non-zero when a plugin update reports an error after persisting successes",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:231",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts] exits non-zero when a hook pack update reports an error",
+TEST_CASE("v4.29 [src/cli/plugins-cli.update.test.ts:289] exits non-zero when a hook pack update reports an error",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/plugins-cli.update.test.ts:289",
                "upstream it() block #7",

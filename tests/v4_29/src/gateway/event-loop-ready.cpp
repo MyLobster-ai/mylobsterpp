@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/event-loop-ready.test.ts] resolves ready after consecutive low-drift timer checks",
+TEST_CASE("v4.29 [src/gateway/event-loop-ready.test.ts:9] resolves ready after consecutive low-drift timer checks",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/event-loop-ready.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/event-loop-ready.test.ts] resolves not-ready when the readiness deadline expires",
+TEST_CASE("v4.29 [src/gateway/event-loop-ready.test.ts:29] resolves not-ready when the readiness deadline expires",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/event-loop-ready.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/event-loop-ready.test.ts] clears pending readiness timers when aborted",
+TEST_CASE("v4.29 [src/gateway/event-loop-ready.test.ts:49] clears pending readiness timers when aborted",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/event-loop-ready.test.ts:49",
                "upstream it() block #2",

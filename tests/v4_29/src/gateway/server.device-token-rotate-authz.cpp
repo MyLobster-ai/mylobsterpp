@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] rejects a device-token caller rotating or revoking another device",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:132] rejects a device-token caller rotating or revoking another device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:132",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] allows an admin-scoped caller to rotate and revoke another device",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:172] allows an admin-scoped caller to rotate and revoke another device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:172",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] rejects shared-token callers rotating or revoking above their session scopes",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:212] rejects shared-token callers rotating or revoking above their session scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:212",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] rejects rotating an admin-approved device token above the caller session scopes",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:258] rejects rotating an admin-approved device token above the caller session scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:258",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] blocks the pairing-token to admin-node-invoke escalation chain",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:294] blocks the pairing-token to admin-node-invoke escalation chain",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:294",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] returns the same public deny for unknown devices and caller scope failures",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:348] returns the same public deny for unknown devices and caller scope failures",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:348",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts] rejects rotating a token for an unapproved role on an existing paired device",
+TEST_CASE("v4.29 [src/gateway/server.device-token-rotate-authz.test.ts:388] rejects rotating a token for an unapproved role on an existing paired device",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.device-token-rotate-authz.test.ts:388",
                "upstream it() block #6",

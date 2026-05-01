@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] uses prefs overrides without loading speech providers",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:51] uses prefs overrides without loading speech providers",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] reports auto provider when tts is on without an explicit provider",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:86] reports auto provider when tts is on without an explicit provider",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] reports per-agent TTS overrides",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:107] reports per-agent TTS overrides",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] reports per-agent persona provider over global persona",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:141] reports per-agent persona provider over global persona",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] reports configured OpenAI TTS model, voice, and sanitized custom endpoint",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:179] reports configured OpenAI TTS model, voice, and sanitized custom endpoint",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:179",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] omits default OpenAI endpoint details from status",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:214] omits default OpenAI endpoint details from status",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:214",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] reports merged per-agent provider metadata",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:245] reports merged per-agent provider metadata",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:245",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] uses provider metadata for local provider prefs overrides",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:291] uses provider metadata for local provider prefs overrides",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:291",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tts/status-config.test.ts] derives the default prefs path from OPENCLAW_CONFIG_PATH when set",
+TEST_CASE("v4.29 [src/tts/status-config.test.ts:335] derives the default prefs path from OPENCLAW_CONFIG_PATH when set",
           "[v4_29][parity_gap][tts]") {
     PARITY_GAP("src/tts/status-config.test.ts:335",
                "upstream it() block #8",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] keeps Telegram bind approval callback_data within Telegram",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:444] keeps Telegram bind approval callback_data within Telegram",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:444",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] requires a fresh approval again after allow-once is consumed",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:458] requires a fresh approval again after allow-once is consumed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:458",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] persists always-allow by plugin root plus channel/account only",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:473] persists always-allow by plugin root plus channel/account only",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:473",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] shares pending bind approvals across duplicate module instances",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:498] shares pending bind approvals across duplicate module instances",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:498",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] shares persistent approvals across duplicate module instances",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:527] shares persistent approvals across duplicate module instances",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:527",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] does not share persistent approvals across plugin roots even with the same plugin id",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:563] does not share persistent approvals across plugin roots even with the same plugin id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:563",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] persists detachHint on approved plugin bindings",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:601] persists detachHint on approved plugin bindings",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:601",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] persists plugin-owned binding data on approved plugin bindings",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:626] persists plugin-owned binding data on approved plugin bindings",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:626",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] returns and detaches only bindings owned by the requesting plugin root",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:773] returns and detaches only bindings owned by the requesting plugin root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:773",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts] refuses to claim a conversation already bound by core",
+TEST_CASE("v4.29 [src/plugins/conversation-binding.test.ts:838] refuses to claim a conversation already bound by core",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/conversation-binding.test.ts:838",
                "upstream it() block #9",

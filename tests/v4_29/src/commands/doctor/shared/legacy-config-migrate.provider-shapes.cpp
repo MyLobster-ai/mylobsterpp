@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] moves messages.tts.<provider> keys into messages.tts.providers",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:24] moves messages.tts.<provider> keys into messages.tts.providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] moves legacy edge provider aliases into microsoft tts config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:51] moves legacy edge provider aliases into microsoft tts config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] moves legacy tts enabled toggles to auto mode in known config locations",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:86] moves legacy tts enabled toggles to auto mode in known config locations",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] moves plugins.entries.voice-call.config.tts.<provider> keys into providers",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:168] moves plugins.entries.voice-call.config.tts.<provider> keys into providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:168",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] moves voice-call legacy edge provider aliases into microsoft tts config",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:206] moves voice-call legacy edge provider aliases into microsoft tts config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:206",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] does not migrate legacy tts provider keys for unknown plugin ids",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:247] does not migrate legacy tts provider keys for unknown plugin ids",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:247",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts] does not migrate extension-owned talk legacy fields during config-load migration",
+TEST_CASE("v4.29 [src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:269] does not migrate extension-owned talk legacy fields during config-load migration",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/legacy-config-migrate.provider-shapes.test.ts:269",
                "upstream it() block #6",

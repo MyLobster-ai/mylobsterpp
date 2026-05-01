@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.state.test.ts] records shared-secret failures even when an explicit device token is also present",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.state.test.ts:15] records shared-secret failures even when an explicit device token is also present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.state.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.state.test.ts] does not apply shared-secret lockouts to explicit device-token-only handshakes",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.state.test.ts:45] does not apply shared-secret lockouts to explicit device-token-only handshakes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.state.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.state.test.ts] resets the shared-secret limiter after device-token auth succeeds",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.state.test.ts:81] resets the shared-secret limiter after device-token auth succeeds",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.state.test.ts:81",
                "upstream it() block #2",

@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] wraps .cmd commands via cmd.exe in runCommandWithTimeout",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:158] wraps .cmd commands via cmd.exe in runCommandWithTimeout",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:158",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] wraps corepack.cmd via cmd.exe in runCommandWithTimeout",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:176] wraps corepack.cmd via cmd.exe in runCommandWithTimeout",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:176",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] keeps child exitCode when close reports null on Windows npm shims",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:201] keeps child exitCode when close reports null on Windows npm shims",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:201",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] spawns node + npm-cli.js for npm argv to avoid direct .cmd execution",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:215] spawns node + npm-cli.js for npm argv to avoid direct .cmd execution",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:215",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] falls back to npm.cmd when npm-cli.js is unavailable",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:243] falls back to npm.cmd when npm-cli.js is unavailable",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:243",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] waits for Windows exitCode settlement after close reports null",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:271] waits for Windows exitCode settlement after close reports null",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:271",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] treats shimmed Windows commands without a reported exit code as success when they close cleanly",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:290] treats shimmed Windows commands without a reported exit code as success when they close cleanly",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:290",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] treats shimmed Windows commands without a reported exit code as success even when child.killed is true",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:294] treats shimmed Windows commands without a reported exit code as success even when child.killed is true",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:294",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] uses cmd.exe wrapper with windowsVerbatimArguments in runExec for .cmd shims",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:298] uses cmd.exe wrapper with windowsVerbatimArguments in runExec for .cmd shims",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:298",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] sets windowsHide on direct runExec invocations too",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:322] sets windowsHide on direct runExec invocations too",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:322",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] sets windowsHide on direct runCommandWithTimeout invocations too",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:350] sets windowsHide on direct runCommandWithTimeout invocations too",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:350",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] decodes GBK stdout and stderr from runExec on Windows",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:373] decodes GBK stdout and stderr from runExec on Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:373",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] prefers valid UTF-8 stdout from runExec on Windows",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:400] prefers valid UTF-8 stdout from runExec on Windows",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:400",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/exec.windows.test.ts] decodes spawn stdout once so GBK characters split across chunks survive",
+TEST_CASE("v4.29 [src/process/exec.windows.test.ts:423] decodes spawn stdout once so GBK characters split across chunks survive",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/exec.windows.test.ts:423",
                "upstream it() block #13",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts] quotes arguments with whitespace",
+TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts:5] quotes arguments with whitespace",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-unit.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts] renders control-group kill mode for child-process cleanup",
+TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts:15] renders control-group kill mode for child-process cleanup",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-unit.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts] rejects environment values with line breaks",
+TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts:30] rejects environment values with line breaks",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-unit.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts] renders EnvironmentFile entries before inline Environment values",
+TEST_CASE("v4.29 [src/daemon/systemd-unit.test.ts:42] renders EnvironmentFile entries before inline Environment values",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/systemd-unit.test.ts:42",
                "upstream it() block #3",

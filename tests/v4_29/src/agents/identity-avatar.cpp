@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] resolves local avatar from config when inside workspace",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:58] resolves local avatar from config when inside workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] rejects avatars outside the workspace",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:79] rejects avatars outside the workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] falls back to IDENTITY.md when config has no avatar",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:105] falls back to IDENTITY.md when config has no avatar",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] returns missing for non-existent local avatar files",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:126] returns missing for non-existent local avatar files",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:126",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] redacts unsafe public avatar sources",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:146] redacts unsafe public avatar sources",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:146",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] rejects local avatars larger than max bytes",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:190] rejects local avatars larger than max bytes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:190",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] accepts remote and data avatars",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:210] accepts remote and data avatars",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] resolves local avatar from ui.assistant.avatar when no agents.list identity is set",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:233] resolves local avatar from ui.assistant.avatar when no agents.list identity is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:233",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] ui.assistant.avatar ignored without includeUiOverride (outbound callers)",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:247] ui.assistant.avatar ignored without includeUiOverride (outbound callers)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:247",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] ui.assistant.avatar takes priority over agents.list identity.avatar with includeUiOverride",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:254] ui.assistant.avatar takes priority over agents.list identity.avatar with includeUiOverride",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:254",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] prefers non-default agent avatar over ui.assistant.avatar with includeUiOverride",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:260] prefers non-default agent avatar over ui.assistant.avatar with includeUiOverride",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:260",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] falls back to ui.assistant.avatar for non-default agents without their own avatar",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:286] falls back to ui.assistant.avatar for non-default agents without their own avatar",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:286",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts] ui.assistant.avatar takes priority over IDENTITY.md avatar with includeUiOverride",
+TEST_CASE("v4.29 [src/agents/identity-avatar.test.ts:311] ui.assistant.avatar takes priority over IDENTITY.md avatar with includeUiOverride",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/identity-avatar.test.ts:311",
                "upstream it() block #12",

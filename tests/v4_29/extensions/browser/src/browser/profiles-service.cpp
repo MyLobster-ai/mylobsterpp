@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] allocates next local port for new profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:74] allocates next local port for new profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] falls back to derived CDP range when resolved CDP range is missing",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:86] falls back to derived CDP range when resolved CDP range is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] allocates from configured cdpPortRangeStart for new local profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:109] allocates from configured cdpPortRangeStart for new local profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] accepts per-profile cdpUrl for remote Chrome",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:121] accepts per-profile cdpUrl for remote Chrome",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] rejects private-network cdpUrl when strict SSRF mode is enabled",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:151] rejects private-network cdpUrl when strict SSRF mode is enabled",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] creates existing-session profiles as attach-only local entries",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:175] creates existing-session profiles as attach-only local entries",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:175",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] rejects driver=existing-session when cdpUrl is provided",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:210] rejects driver=existing-session when cdpUrl is provided",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:210",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] creates existing-session profiles with an explicit userDataDir",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:226] creates existing-session profiles with an explicit userDataDir",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] rejects userDataDir for non-existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:252] rejects userDataDir for non-existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:252",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] deletes remote profiles without stopping or removing local data",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:271] deletes remote profiles without stopping or removing local data",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:271",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] deletes local profiles and moves data to Trash",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:297] deletes local profiles and moves data to Trash",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:297",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts] deletes existing-session profiles without touching local browser data",
+TEST_CASE("v4.29 [extensions/browser/src/browser/profiles-service.test.ts:327] deletes existing-session profiles without touching local browser data",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/profiles-service.test.ts:327",
                "upstream it() block #11",

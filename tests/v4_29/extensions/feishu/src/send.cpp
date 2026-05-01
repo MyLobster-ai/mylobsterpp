@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] sends text without requiring Feishu runtime text helpers",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:100] sends text without requiring Feishu runtime text helpers",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] extracts text content from interactive card elements",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:134] extracts text content from interactive card elements",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] falls through empty interactive card element arrays and locale variants",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:171] falls through empty interactive card element arrays and locale variants",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:171",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] falls back to post-format content when interactive card elements are empty",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:220] falls back to post-format content when interactive card elements are empty",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:220",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] extracts text content from post messages",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:260] extracts text content from post messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:260",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] returns text placeholder instead of raw JSON for unsupported message types",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:297] returns text placeholder instead of raw JSON for unsupported message types",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:297",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] supports single-object response shape from Feishu API",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:329] supports single-object response shape from Feishu API",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:329",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] reuses the same content parsing for thread history messages",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:357] reuses the same content parsing for thread history messages",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:357",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] patches post content for text edits",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:438] patches post content for text edits",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:438",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] patches interactive content for card edits",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:473] patches interactive content for card edits",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:473",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] accepts supported Feishu templates",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:493] accepts supported Feishu templates",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:493",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] drops unsupported free-form identity themes",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:497] drops unsupported free-form identity themes",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:497",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] uses schema-2.0 width config instead of legacy wide screen mode",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:503] uses schema-2.0 width config instead of legacy wide screen mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:503",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] falls back to blue when the header template is unsupported",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:517] falls back to blue when the header template is unsupported",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:517",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts] uses schema-2.0 width config instead of legacy wide screen mode",
+TEST_CASE("v4.29 [extensions/feishu/src/send.test.ts:537] uses schema-2.0 width config instead of legacy wide screen mode",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/send.test.ts:537",
                "upstream it() block #14",

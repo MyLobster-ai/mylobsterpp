@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] describes provider-owned stream paths explicitly",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:31] describes provider-owned stream paths explicitly",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] describes default OpenAI fallback shaping",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:46] describes default OpenAI fallback shaping",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] describes default Codex fallback shaping",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:60] describes default Codex fallback shaping",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] keeps custom session streams labeled as custom",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:74] keeps custom session streams labeled as custom",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:74",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] prefers the resolved run api key over a later authStorage lookup",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:90] prefers the resolved run api key over a later authStorage lookup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] still routes supported streamSimple fallbacks through boundary-aware transports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:105] still routes supported streamSimple fallbacks through boundary-aware transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:105",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] routes Codex responses fallbacks through boundary-aware transports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:120] routes Codex responses fallbacks through boundary-aware transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:120",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] routes GitHub Copilot fallbacks through boundary-aware transports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:135] routes GitHub Copilot fallbacks through boundary-aware transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:135",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] injects the resolved run api key into provider-owned stream functions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:150] injects the resolved run api key into provider-owned stream functions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:150",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] forwards the run abort signal into provider-owned stream functions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:178] forwards the run abort signal into provider-owned stream functions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:178",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] does not overwrite an explicit provider-owned stream signal",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:202] does not overwrite an explicit provider-owned stream signal",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:202",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] injects the resolved run api key into the boundary-aware Codex Responses fallback",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:228] injects the resolved run api key into the boundary-aware Codex Responses fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:228",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] falls back to authStorage when no resolved api key is available for boundary-aware fallback",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:249] falls back to authStorage when no resolved api key is available for boundary-aware fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:249",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] forwards the run abort signal into the boundary-aware fallback when callers omit one",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:273] forwards the run abort signal into the boundary-aware fallback when callers omit one",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:273",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] does not overwrite an explicit signal on the boundary-aware fallback path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:295] does not overwrite an explicit signal on the boundary-aware fallback path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:295",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] forwards the run signal on the sync boundary-aware fallback path without auth credentials",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:320] forwards the run signal on the sync boundary-aware fallback path without auth credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:320",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts] does not strip cache boundary markers on the boundary-aware fallback path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/stream-resolution.test.ts:341] does not strip cache boundary markers on the boundary-aware fallback path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/stream-resolution.test.ts:341",
                "upstream it() block #16",

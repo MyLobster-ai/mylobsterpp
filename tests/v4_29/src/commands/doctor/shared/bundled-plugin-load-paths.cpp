@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] detects legacy bundled plugin paths that still point at source extensions",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:48] detects legacy bundled plugin paths that still point at source extensions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] removes legacy bundled paths during doctor repair",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:74] removes legacy bundled paths during doctor repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:74",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] removes current packaged bundled paths during doctor repair",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:96] removes current packaged bundled paths during doctor repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] derives legacy paths from the bundled directory name instead of plugin id",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:106] derives legacy paths from the bundled directory name instead of plugin id",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:106",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] matches legacy bundled paths with a trailing slash",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:132] matches legacy bundled paths with a trailing slash",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:132",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] removes dist-runtime bundled paths",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:143] removes dist-runtime bundled paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:143",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] preserves non-string path entries when repairing legacy bundled paths",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:154] preserves non-string path entries when repairing legacy bundled paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:154",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] formats a doctor hint for legacy bundled plugin paths",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:167] formats a doctor hint for legacy bundled plugin paths",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts] ignores bundled plugins that already resolve to source extensions",
+TEST_CASE("v4.29 [src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:190] ignores bundled plugins that already resolve to source extensions",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/bundled-plugin-load-paths.test.ts:190",
                "upstream it() block #8",

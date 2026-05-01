@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts] uses reply token for all chunks when possible",
+TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts:24] uses reply token for all chunks when possible",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/reply-chunks.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts] attaches quick replies to a single reply chunk",
+TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts:62] attaches quick replies to a single reply chunk",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/reply-chunks.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts] replies with up to five chunks before pushing the rest",
+TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts:91] replies with up to five chunks before pushing the rest",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/reply-chunks.test.ts:91",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts] falls back to push flow when replying fails",
+TEST_CASE("v4.29 [extensions/line/src/reply-chunks.test.ts:139] falls back to push flow when replying fails",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/reply-chunks.test.ts:139",
                "upstream it() block #3",

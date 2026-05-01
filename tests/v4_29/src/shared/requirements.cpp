@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] resolveMissingBins respects local+remote",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:14] resolveMissingBins respects local+remote",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] resolveMissingAnyBins requires at least one",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:24] resolveMissingAnyBins requires at least one",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] resolveMissingOs allows remote platform",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:46] resolveMissingOs allows remote platform",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] resolveMissingEnv uses predicate",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:59] resolveMissingEnv uses predicate",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] buildConfigChecks includes status",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:65] buildConfigChecks includes status",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] evaluateRequirementsFromMetadata derives required+missing",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:74] evaluateRequirementsFromMetadata derives required+missing",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:74",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] evaluateRequirements reports config checks and all missing categories directly",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:93] evaluateRequirements reports config checks and all missing categories directly",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:93",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] clears missing requirements when always is true but preserves config checks",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:126] clears missing requirements when always is true but preserves config checks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:126",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] evaluateRequirementsFromMetadataWithRemote wires remote predicates and platforms through",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:147] evaluateRequirementsFromMetadataWithRemote wires remote predicates and platforms through",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:147",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/requirements.test.ts] evaluateRequirementsFromMetadata defaults missing metadata to empty requirements",
+TEST_CASE("v4.29 [src/shared/requirements.test.ts:176] evaluateRequirementsFromMetadata defaults missing metadata to empty requirements",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/requirements.test.ts:176",
                "upstream it() block #9",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts] accepts blockStreaming: true",
+TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts:11] accepts blockStreaming: true",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/block-streaming-config.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts] accepts blockStreaming: false",
+TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts:22] accepts blockStreaming: false",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/block-streaming-config.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts] accepts config without blockStreaming (optional)",
+TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts:33] accepts config without blockStreaming (optional)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/block-streaming-config.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts] accepts blockStreaming alongside blockStreamingCoalesce",
+TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts:41] accepts blockStreaming alongside blockStreamingCoalesce",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/block-streaming-config.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts] rejects non-boolean blockStreaming",
+TEST_CASE("v4.29 [extensions/msteams/src/block-streaming-config.test.ts:54] rejects non-boolean blockStreaming",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/block-streaming-config.test.ts:54",
                "upstream it() block #4",

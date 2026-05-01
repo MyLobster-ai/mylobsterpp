@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/crestodian/crestodian.test.ts] uses the assistant planner only to choose typed operations",
+TEST_CASE("v4.29 [src/crestodian/crestodian.test.ts:34] uses the assistant planner only to choose typed operations",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/crestodian.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/crestodian/crestodian.test.ts] keeps deterministic parsing ahead of the assistant planner",
+TEST_CASE("v4.29 [src/crestodian/crestodian.test.ts:67] keeps deterministic parsing ahead of the assistant planner",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/crestodian.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/crestodian/crestodian.test.ts] starts interactive Crestodian in the TUI shell",
+TEST_CASE("v4.29 [src/crestodian/crestodian.test.ts:92] starts interactive Crestodian in the TUI shell",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/crestodian.test.ts:92",
                "upstream it() block #2",

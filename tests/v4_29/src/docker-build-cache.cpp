@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] keeps the root dependency layer independent from scripts changes",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:48] keeps the root dependency layer independent from scripts changes",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] uses pnpm cache mounts in Dockerfiles that install repo dependencies",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:59] uses pnpm cache mounts in Dockerfiles that install repo dependencies",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] uses apt cache mounts in Dockerfiles that install system packages",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:75] uses apt cache mounts in Dockerfiles that install system packages",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] does not leave empty shell continuation lines in sandbox-common",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:87] does not leave empty shell continuation lines in sandbox-common",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] does not leave blank lines after shell continuation markers",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:95] does not leave blank lines after shell continuation markers",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] keeps the shared e2e image on the packaged tarball install path",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:105] keeps the shared e2e image on the packaged tarball install path",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:105",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] copies manifests before install in the qr-import image",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:118] copies manifests before install in the qr-import image",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:118",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/docker-build-cache.test.ts] copies .npmrc before install in the cleanup smoke image",
+TEST_CASE("v4.29 [src/docker-build-cache.test.ts:146] copies .npmrc before install in the cleanup smoke image",
           "[v4_29][parity_gap][docker-build-cache.test.ts]") {
     PARITY_GAP("src/docker-build-cache.test.ts:146",
                "upstream it() block #7",

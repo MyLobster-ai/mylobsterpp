@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] normalizes legacy plugin ids to their merged bundled plugin id",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:134] normalizes legacy plugin ids to their merged bundled plugin id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] reuses the bundled alias scan during one config normalization",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:158] reuses the bundled alias scan during one config normalization",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:158",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] does not bypass allowlists for non-bundled plugins that reuse a channel id",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:233] does not bypass allowlists for non-bundled plugins that reuse a channel id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:233",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] distinguishes explicit enablement from auto activation",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:244] distinguishes explicit enablement from auto activation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:244",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] preserves explicit selection even when plugins are globally disabled",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:283] preserves explicit selection even when plugins are globally disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:283",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] marks bundled default-enabled plugins as default activation",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:312] marks bundled default-enabled plugins as default activation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:312",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] keeps allowlists authoritative over explicit bundled plugin enablement",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:329] keeps allowlists authoritative over explicit bundled plugin enablement",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:329",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] lets explicit bundled channel activation bypass the allowlist",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:358] lets explicit bundled channel activation bypass the allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:358",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] keeps denylist authoritative over explicit bundled channel activation",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:387] keeps denylist authoritative over explicit bundled channel activation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:387",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] does not let auto-enable reasons bypass the allowlist",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:416] does not let auto-enable reasons bypass the allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:416",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] preserves activation when only the effective config enables a bundled plugin",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:441] preserves activation when only the effective config enables a bundled plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:441",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] treats an explicitly selected workspace context engine as explicit activation",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:472] treats an explicitly selected workspace context engine as explicit activation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:472",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] does not let the default memory slot auto-enable an untrusted workspace plugin",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:577] does not let the default memory slot auto-enable an untrusted workspace plugin",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:577",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] keeps an explicitly selected workspace context engine enabled when omitted from plugins.allow",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:591] keeps an explicitly selected workspace context engine enabled when omitted from plugins.allow",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:591",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] disables a memory-only plugin when slot points elsewhere",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:607] disables a memory-only plugin when slot points elsewhere",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:607",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] keeps a dual-kind plugin enabled when memory slot points elsewhere",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:617] keeps a dual-kind plugin enabled when memory slot points elsewhere",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:617",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] selects a dual-kind plugin when it owns the memory slot",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:628] selects a dual-kind plugin when it owns the memory slot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:628",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] keeps a dual-kind plugin enabled when memory slot is null",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:639] keeps a dual-kind plugin enabled when memory slot is null",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:639",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/config-state.test.ts] disables a memory-only plugin when memory slot is null",
+TEST_CASE("v4.29 [src/plugins/config-state.test.ts:649] disables a memory-only plugin when memory slot is null",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/config-state.test.ts:649",
                "upstream it() block #18",

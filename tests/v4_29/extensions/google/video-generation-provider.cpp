@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:42] declares explicit mode capabilities",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] submits generation and returns inline video bytes",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:46] submits generation and returns inline video bytes",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] strips /v1beta suffix from configured baseUrl before passing to GoogleGenAI SDK",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:107] strips /v1beta suffix from configured baseUrl before passing to GoogleGenAI SDK",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] downloads MLDev direct video uri responses without routing through the Files API",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:146] downloads MLDev direct video uri responses without routing through the Files API",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:146",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] falls back to REST predictLongRunning when text-only SDK video generation returns 404",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:193] falls back to REST predictLongRunning when text-only SDK video generation returns 404",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:193",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] does not fall back to REST when SDK video generation with reference inputs returns 404",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:255] does not fall back to REST when SDK video generation with reference inputs returns 404",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:255",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] does NOT strip /v1beta when it appears mid-path (end-anchor proof)",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:279] does NOT strip /v1beta when it appears mid-path (end-anchor proof)",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] passes baseUrl unchanged when no /v1beta suffix is present",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:316] passes baseUrl unchanged when no /v1beta suffix is present",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:316",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] rejects mixed image and video inputs",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:355] rejects mixed image and video inputs",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:355",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts] rounds unsupported durations to the nearest Veo value",
+TEST_CASE("v4.29 [extensions/google/video-generation-provider.test.ts:375] rounds unsupported durations to the nearest Veo value",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/video-generation-provider.test.ts:375",
                "upstream it() block #9",

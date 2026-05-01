@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/json-utf8-bytes.test.ts] returns exact JSON byte length for serializable values",
+TEST_CASE("v4.29 [src/infra/json-utf8-bytes.test.ts:55] returns exact JSON byte length for serializable values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-utf8-bytes.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-utf8-bytes.test.ts] stops once the byte limit is exceeded",
+TEST_CASE("v4.29 [src/infra/json-utf8-bytes.test.ts:89] stops once the byte limit is exceeded",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-utf8-bytes.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/json-utf8-bytes.test.ts] returns only own enumerable keys up to the limit",
+TEST_CASE("v4.29 [src/infra/json-utf8-bytes.test.ts:108] returns only own enumerable keys up to the limit",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/json-utf8-bytes.test.ts:108",
                "upstream it() block #2",

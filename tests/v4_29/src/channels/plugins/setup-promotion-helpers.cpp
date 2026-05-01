@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts] keeps static single-account migration keys cheap",
+TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts:29] keeps static single-account migration keys cheap",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-promotion-helpers.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts] skips bundled setup promotion without a manifest feature",
+TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts:46] skips bundled setup promotion without a manifest feature",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-promotion-helpers.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts] loads bundled setup only for non-static migration keys",
+TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts:69] loads bundled setup only for non-static migration keys",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-promotion-helpers.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts] honors loaded plugin named-account filters without bundled fallback",
+TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts:86] honors loaded plugin named-account filters without bundled fallback",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-promotion-helpers.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts] loads bundled setup for named-account filters before registry bootstrap",
+TEST_CASE("v4.29 [src/channels/plugins/setup-promotion-helpers.test.ts:108] loads bundled setup for named-account filters before registry bootstrap",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/setup-promotion-helpers.test.ts:108",
                "upstream it() block #4",

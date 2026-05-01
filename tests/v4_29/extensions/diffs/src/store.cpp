@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] creates and retrieves an artifact",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:28] creates and retrieves an artifact",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] expires artifacts after the ttl",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:53] expires artifacts after the ttl",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] updates the stored file path",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:71] updates the stored file path",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] rejects file paths that escape the store root",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:85] rejects file paths that escape the store root",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] rejects tampered html metadata paths outside the store root",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:98] rejects tampered html metadata paths outside the store root",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] creates standalone file artifacts with managed metadata",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:114] creates standalone file artifacts with managed metadata",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] expires standalone file artifacts using ttl metadata",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:130] expires standalone file artifacts using ttl metadata",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:130",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] supports image path aliases for backward compatibility",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:149] supports image path aliases for backward compatibility",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:149",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] allocates PDF file paths when format is pdf",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:167] allocates PDF file paths when format is pdf",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:167",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] throttles cleanup sweeps across repeated artifact creation",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:181] throttles cleanup sweeps across repeated artifact creation",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:181",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] serves a stored diff document",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:243] serves a stored diff document",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:243",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] rejects invalid tokens",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:253] rejects invalid tokens",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:253",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] rejects malformed artifact ids before reading from disk",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:263] rejects malformed artifact ids before reading from disk",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:263",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] serves the shared viewer asset",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:278] serves the shared viewer asset",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:278",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] serves the shared viewer runtime asset",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:294] serves the shared viewer runtime asset",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:294",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts] rate-limits repeated remote misses",
+TEST_CASE("v4.29 [extensions/diffs/src/store.test.ts:389] rate-limits repeated remote misses",
           "[v4_29][parity_gap][diffs]") {
     PARITY_GAP("extensions/diffs/src/store.test.ts:389",
                "upstream it() block #15",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] rejects invalid file operands",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:70] rejects invalid file operands",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:70",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] normalizes, filters, and sorts env keys before hashing",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:86] normalizes, filters, and sorts env keys before hashing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] returns a null hash when no usable env entries remain",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:106] returns a null hash when no usable env entries remain",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] includes Windows-compatible override keys in env binding",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:121] includes Windows-compatible override keys in env binding",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] normalizes argv and metadata into a binding",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:136] normalizes argv and metadata into a binding",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] accepts exact matches",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:237] accepts exact matches",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:237",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts] reports env keys with request mismatches",
+TEST_CASE("v4.29 [src/infra/system-run-approval-binding.test.ts:281] reports env keys with request mismatches",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-binding.test.ts:281",
                "upstream it() block #6",

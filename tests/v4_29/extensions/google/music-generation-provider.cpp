@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:30] declares explicit mode capabilities",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] submits generation and returns inline audio bytes plus lyrics",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:34] submits generation and returns inline audio bytes plus lyrics",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] strips /v1beta suffix from configured baseUrl before passing to GoogleGenAI SDK",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:85] strips /v1beta suffix from configured baseUrl before passing to GoogleGenAI SDK",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] does NOT strip /v1beta when it appears mid-path (end-anchor proof)",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:132] does NOT strip /v1beta when it appears mid-path (end-anchor proof)",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] passes baseUrl unchanged when no /v1beta suffix is present",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:172] passes baseUrl unchanged when no /v1beta suffix is present",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:172",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] does not set baseUrl when none is configured",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:214] does not set baseUrl when none is configured",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:214",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts] rejects unsupported wav output on clip model",
+TEST_CASE("v4.29 [extensions/google/music-generation-provider.test.ts:250] rejects unsupported wav output on clip model",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/music-generation-provider.test.ts:250",
                "upstream it() block #6",

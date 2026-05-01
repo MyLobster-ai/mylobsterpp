@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.clamps-timeoutms-scrollintoview.test.ts] clamps timeoutMs for scrollIntoView",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.clamps-timeoutms-scrollintoview.test.ts:12] clamps timeoutMs for scrollIntoView",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.clamps-timeoutms-scrollintoview.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.clamps-timeoutms-scrollintoview.test.ts] rewrites covered/hidden errors into interactable hints",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.clamps-timeoutms-scrollintoview.test.ts:84] rewrites covered/hidden errors into interactable hints",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.clamps-timeoutms-scrollintoview.test.ts:84",
                "upstream it() block #1",

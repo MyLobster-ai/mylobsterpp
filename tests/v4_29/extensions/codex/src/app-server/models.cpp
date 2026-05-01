@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/models.test.ts] lists app-server models through the typed helper",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/models.test.ts:53] lists app-server models through the typed helper",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/models.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/models.test.ts] lists all app-server model pages through one client",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/models.test.ts:115] lists all app-server model pages through one client",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/models.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/models.test.ts] marks all-model listing truncated after the page cap",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/models.test.ts:196] marks all-model listing truncated after the page cap",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/models.test.ts:196",
                "upstream it() block #2",

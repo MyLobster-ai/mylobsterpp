@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts] blocks unsupported non-network URLs before page lookup",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:34] blocks unsupported non-network URLs before page lookup",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts] navigates valid network URLs with clamped timeout",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:52] navigates valid network URLs with clamped timeout",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts] reconnects and retries once when navigation detaches frame",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:85] reconnects and retries once when navigation detaches frame",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:85",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts] blocks private intermediate redirect hops during navigation",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:115] blocks private intermediate redirect hops during navigation",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-tools-core.snapshot.navigate-guard.test.ts:115",
                "upstream it() block #3",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] returns an agent model override when default model application is deferred",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:196] returns an agent model override when default model application is deferred",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:196",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] keeps provider config patches when default model application is deferred",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:217] keeps provider config patches when default model application is deferred",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:217",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] applies the default model and runs provider post-setup hooks",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:304] applies the default model and runs provider post-setup hooks",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:304",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] uses manifest-owned setup providers without loading the broad provider runtime",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:335] uses manifest-owned setup providers without loading the broad provider runtime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:335",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] installs a missing provider plugin and retries setup resolution",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:373] installs a missing provider plugin and retries setup resolution",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:373",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] does not persist plugin enablement when install is skipped",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:400] does not persist plugin enablement when install is skipped",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:400",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] preserves install config when the chosen provider still cannot resolve after install",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:410] preserves install config when the chosen provider still cannot resolve after install",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:410",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] merges provider config patches and emits provider notes",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:431] merges provider config patches and emits provider notes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:431",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] replaces provider-owned default model maps during auth migrations",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:515] replaces provider-owned default model maps during auth migrations",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:515",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] returns an agent-scoped override for plugin auth choices when default model application is deferred",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:576] returns an agent-scoped override for plugin auth choices when default model application is deferred",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:576",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts] stops early when the plugin is disabled in config",
+TEST_CASE("v4.29 [src/commands/auth-choice.apply.plugin-provider.test.ts:614] stops early when the plugin is disabled in config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/auth-choice.apply.plugin-provider.test.ts:614",
                "upstream it() block #10",

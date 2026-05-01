@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] returns available for non-empty string values",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:9] returns available for non-empty string values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] returns configured_unavailable for unresolved refs in inspect mode",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:22] returns configured_unavailable for unresolved refs in inspect mode",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] uses explicit refValue in inspect mode",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:36] uses explicit refValue in inspect mode",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] returns missing when no value or ref is configured",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:51] returns missing when no value or ref is configured",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] throws for unresolved refs in strict mode",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:65] throws for unresolved refs in strict mode",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] keeps strict unresolved-ref behavior",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:76] keeps strict unresolved-ref behavior",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:76",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts] parses legacy env marker strings without making them valid SecretInput strings",
+TEST_CASE("v4.29 [src/config/types.secrets.resolution.test.ts:87] parses legacy env marker strings without making them valid SecretInput strings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/types.secrets.resolution.test.ts:87",
                "upstream it() block #6",

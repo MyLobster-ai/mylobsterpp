@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts] merges registered and declared capability fallback adapters",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts:45] merges registered and declared capability fallback adapters",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-provider-runtime.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts] falls back to declared capability adapters when the registry is cold",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts:60] falls back to declared capability adapters when the registry is cold",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-provider-runtime.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts] uses a configured provider api as the memory adapter owner",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts:76] uses a configured provider api as the memory adapter owner",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-provider-runtime.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts] uses registered adapters through a configured provider api",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts:107] uses registered adapters through a configured provider api",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-provider-runtime.test.ts:107",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts] prefers registered adapters over declared capability fallback adapters with the same id",
+TEST_CASE("v4.29 [src/plugins/memory-embedding-provider-runtime.test.ts:127] prefers registered adapters over declared capability fallback adapters with the same id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/memory-embedding-provider-runtime.test.ts:127",
                "upstream it() block #4",

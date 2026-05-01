@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/tts-capabilities.test.ts] reads voice delivery behavior from channel plugin capabilities",
+TEST_CASE("v4.29 [src/channels/plugins/tts-capabilities.test.ts:30] reads voice delivery behavior from channel plugin capabilities",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/tts-capabilities.test.ts:30",
                "upstream it() block #0",

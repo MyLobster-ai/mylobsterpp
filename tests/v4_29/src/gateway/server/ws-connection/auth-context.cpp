@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] keeps shared-secret mismatch when fallback device-token check fails",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:89] keeps shared-secret mismatch when fallback device-token check fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] reports explicit device-token mismatches as device_token_mismatch",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:111] reports explicit device-token mismatches as device_token_mismatch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] accepts valid device tokens and marks auth method as device-token",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:129] accepts valid device tokens and marks auth method as device-token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] accepts valid bootstrap tokens before device-token fallback",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:143] accepts valid bootstrap tokens before device-token fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] reports invalid bootstrap tokens when no device token fallback is available",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:160] reports invalid bootstrap tokens when no device token fallback is available",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:160",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] returns rate-limited auth result without verifying device token",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:181] returns rate-limited auth result without verifying device token",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:181",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] still verifies the device token when only the shared-secret path is rate-limited",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:195] still verifies the device token when only the shared-secret path is rate-limited",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:195",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] prefers a valid bootstrap token over an already successful shared auth path",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:213] prefers a valid bootstrap token over an already successful shared auth path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:213",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts] keeps the original successful auth path when bootstrap validation fails",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/auth-context.test.ts:226] keeps the original successful auth path when bootstrap validation fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/auth-context.test.ts:226",
                "upstream it() block #8",

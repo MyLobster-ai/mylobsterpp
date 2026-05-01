@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] attaches provider ids to inline models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:6] attaches provider ids to inline models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] inherits baseUrl from provider when model does not specify it",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:30] inherits baseUrl from provider when model does not specify it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] inherits api from provider when model does not specify it",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:44] inherits api from provider when model does not specify it",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] model-level api takes precedence over provider-level api",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:59] model-level api takes precedence over provider-level api",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] inherits both baseUrl and api from provider config",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:74] inherits both baseUrl and api from provider config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] normalizes bare Google API hosts for custom Google Generative AI providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:94] normalizes bare Google API hosts for custom Google Generative AI providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:94",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] merges provider-level headers into inline models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:113] merges provider-level headers into inline models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:113",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] merges provider request headers into inline models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:129] merges provider request headers into inline models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:129",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] keeps inline provider transport overrides once the llm transport adapter is available",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:149] keeps inline provider transport overrides once the llm transport adapter is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:149",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] omits headers when neither provider nor model specifies them",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:172] omits headers when neither provider nor model specifies them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:172",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts] drops SecretRef marker headers in inline provider models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/model.inline-provider.test.ts:186] drops SecretRef marker headers in inline provider models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/model.inline-provider.test.ts:186",
                "upstream it() block #10",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] shares runtime slots for the same plugin id",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:6] shares runtime slots for the same plugin id",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] keeps different plugin ids isolated",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:25] keeps different plugin ids isolated",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] keeps legacy string callers isolated per store",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:43] keeps legacy string callers isolated per store",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] still supports explicit custom store keys",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:58] still supports explicit custom store keys",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] rejects empty plugin ids",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:74] rejects empty plugin ids",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] treats falsy runtime values as initialized",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:83] treats falsy runtime values as initialized",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:83",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts] shares runtime slots across duplicate module instances when plugin id matches",
+TEST_CASE("v4.29 [src/plugin-sdk/runtime-store.test.ts:95] shares runtime slots across duplicate module instances when plugin id matches",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/runtime-store.test.ts:95",
                "upstream it() block #6",

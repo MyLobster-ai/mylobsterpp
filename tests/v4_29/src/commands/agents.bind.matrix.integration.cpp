@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agents.bind.matrix.integration.test.ts] uses matrix plugin binding resolver when accountId is omitted",
+TEST_CASE("v4.29 [src/commands/agents.bind.matrix.integration.test.ts:22] uses matrix plugin binding resolver when accountId is omitted",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agents.bind.matrix.integration.test.ts:22",
                "upstream it() block #0",

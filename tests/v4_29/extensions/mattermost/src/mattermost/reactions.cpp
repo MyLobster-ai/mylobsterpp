@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts] adds reactions by calling /users/me then POST /reactions",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts:36] adds reactions by calling /users/me then POST /reactions",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reactions.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts] returns a Result error when add reaction API call fails",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts:49] returns a Result error when add reaction API call fails",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reactions.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts] removes reactions by calling /users/me then DELETE /users/:id/posts/:postId/reactions/:emoji",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts:66] removes reactions by calling /users/me then DELETE /users/:id/posts/:postId/reactions/:emoji",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reactions.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts] caches the bot user id across reaction mutations",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reactions.test.ts:79] caches the bot user id across reaction mutations",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reactions.test.ts:79",
                "upstream it() block #3",

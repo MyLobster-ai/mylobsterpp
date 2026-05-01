@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts] drops leading blank lines but preserves intentional indentation",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts:32] drops leading blank lines but preserves intentional indentation",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-outbound.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts] keeps XML sanitizer normalization idempotent",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts:42] keeps XML sanitizer normalization idempotent",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-outbound.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts] drops whitespace-only text after XML sanitizer removal",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts:58] drops whitespace-only text after XML sanitizer removal",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-outbound.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts] sanitizes XML tool payloads before plain HTML stripping",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts:72] sanitizes XML tool payloads before plain HTML stripping",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-outbound.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts] preserves indentation for live text sends",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts:88] preserves indentation for live text sends",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-outbound.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts] preserves indentation for payload delivery",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel-outbound.test.ts:104] preserves indentation for payload delivery",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel-outbound.test.ts:104",
                "upstream it() block #5",

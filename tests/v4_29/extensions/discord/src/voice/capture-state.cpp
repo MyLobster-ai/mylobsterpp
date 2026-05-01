@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/capture-state.test.ts] increments generations per speaker",
+TEST_CASE("v4.29 [extensions/discord/src/voice/capture-state.test.ts:11] increments generations per speaker",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/capture-state.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/capture-state.test.ts] clears active speaker state before destroying a finalized capture",
+TEST_CASE("v4.29 [extensions/discord/src/voice/capture-state.test.ts:21] clears active speaker state before destroying a finalized capture",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/capture-state.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/voice/capture-state.test.ts] lets a pending finalize be canceled for the same generation",
+TEST_CASE("v4.29 [extensions/discord/src/voice/capture-state.test.ts:40] lets a pending finalize be canceled for the same generation",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/voice/capture-state.test.ts:40",
                "upstream it() block #2",

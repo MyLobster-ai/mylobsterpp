@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] rejects dmPolicy=",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:19] rejects dmPolicy=",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] accepts dmPolicy=",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:28] accepts dmPolicy=",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] defaults dm/group policy",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:37] defaults dm/group policy",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] accepts historyLimit",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:47] accepts historyLimit",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] accepts textChunkLimit",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:56] accepts textChunkLimit",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:56",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] accepts accountUuid for loop protection",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:68] accepts accountUuid for loop protection",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:68",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] accepts top-level group overrides",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:74] accepts top-level group overrides",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] accepts per-account group overrides",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:87] accepts per-account group overrides",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:87",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts] rejects unknown keys in group entries",
+TEST_CASE("v4.29 [extensions/signal/src/config-schema.test.ts:101] rejects unknown keys in group entries",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/config-schema.test.ts:101",
                "upstream it() block #8",

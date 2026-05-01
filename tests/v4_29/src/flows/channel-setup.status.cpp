@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] sorts channels alphabetically by picker label",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:97] sorts channels alphabetically by picker label",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] does not invent hints before status has been collected",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:136] does not invent hints before status has been collected",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:136",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] combines real status and disabled hints when available",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:160] combines real status and disabled hints when available",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:160",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] sanitizes picker labels and hints before terminal rendering",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:183] sanitizes picker labels and hints before terminal rendering",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] sanitizes the picker fallback label when metadata sanitizes to empty",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:205] sanitizes the picker fallback label when metadata sanitizes to empty",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:205",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] sanitizes channel labels in status note lines",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:226] sanitizes channel labels in status note lines",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:226",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] sanitizes channel metadata before primer notes",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:248] sanitizes channel metadata before primer notes",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:248",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts] sanitizes channel metadata before selection notes",
+TEST_CASE("v4.29 [src/flows/channel-setup.status.test.ts:276] sanitizes channel metadata before selection notes",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/channel-setup.status.test.ts:276",
                "upstream it() block #7",

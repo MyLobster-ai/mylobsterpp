@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] advances a queued run through start and completion",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:174] advances a queued run through start and completion",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:174",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] records progress, failure, and delivery status through the executor",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:211] records progress, failure, and delivery status through the executor",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:211",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] persists explicit task kind metadata on created runs",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:252] persists explicit task kind metadata on created runs",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:252",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] auto-creates a one-task flow and keeps it synced with task status",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:279] auto-creates a one-task flow and keeps it synced with task status",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:279",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] does not auto-create one-task flows for non-returning bookkeeping runs",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:318] does not auto-create one-task flows for non-returning bookkeeping runs",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:318",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] records blocked metadata on one-task flows and reuses the same flow for queued retries",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:336] records blocked metadata on one-task flows and reuses the same flow for queued retries",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:336",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] cancels active tasks linked to a managed TaskFlow",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:410] cancels active tasks linked to a managed TaskFlow",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:410",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] runs child tasks under managed TaskFlows",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:455] runs child tasks under managed TaskFlows",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:455",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] refuses to add child tasks once cancellation is requested on a managed TaskFlow",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:497] refuses to add child tasks once cancellation is requested on a managed TaskFlow",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:497",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] sets cancel intent before child tasks settle and finalizes later",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:531] sets cancel intent before child tasks settle and finalizes later",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:531",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] denies cross-owner flow cancellation through the owner-scoped wrapper",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:588] denies cross-owner flow cancellation through the owner-scoped wrapper",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:588",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] denies cross-owner managed TaskFlow child spawning through the owner-scoped wrapper",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:614] denies cross-owner managed TaskFlow child spawning through the owner-scoped wrapper",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:614",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] cancels active ACP child tasks",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:640] cancels active ACP child tasks",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:640",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] dispatches detached task cancellation through the registered runtime",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:657] dispatches detached task cancellation through the registered runtime",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:657",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] falls back to the legacy canceller when the registered runtime declines task ownership",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:683] falls back to the legacy canceller when the registered runtime declines task ownership",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:683",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] does not fall back when the registered runtime claims task ownership",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:715] does not fall back when the registered runtime claims task ownership",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:715",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] cancels active subagent child tasks",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:756] cancels active subagent child tasks",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:756",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] routes TaskFlow cancellation through the registered detached runtime",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:794] routes TaskFlow cancellation through the registered detached runtime",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:794",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-executor.test.ts] scopes run-id updates to the matching runtime and session",
+TEST_CASE("v4.29 [src/tasks/task-executor.test.ts:842] scopes run-id updates to the matching runtime and session",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-executor.test.ts:842",
                "upstream it() block #18",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/binaries.test.ts] passes through when the binary exists",
+TEST_CASE("v4.29 [src/infra/binaries.test.ts:7] passes through when the binary exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/binaries.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/binaries.test.ts] logs and exits when the binary is missing",
+TEST_CASE("v4.29 [src/infra/binaries.test.ts:25] logs and exits when the binary is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/binaries.test.ts:25",
                "upstream it() block #1",

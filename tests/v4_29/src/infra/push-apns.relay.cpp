@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] returns a missing-config error when no relay base URL is configured",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:47] returns a missing-config error when no relay base URL is configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] lets env overrides win and clamps tiny timeout values",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:55] lets env overrides win and clamps tiny timeout values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] allows loopback http URLs for alternate truthy env values",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:82] allows loopback http URLs for alternate truthy env values",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] signs relay payloads and forwards the request through the injected sender",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:132] signs relay payloads and forwards the request through the injected sender",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] does not follow relay redirects",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:200] does not follow relay redirects",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] falls back to fetch status when the relay body is not JSON",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:220] falls back to fetch status when the relay body is not JSON",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:220",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts] normalizes relay JSON response fields",
+TEST_CASE("v4.29 [src/infra/push-apns.relay.test.ts:238] normalizes relay JSON response fields",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/push-apns.relay.test.ts:238",
                "upstream it() block #6",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] should return the key if translation is missing",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:46] should return the key if translation is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:46",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] should return the correct English translation",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:50] should return the correct English translation",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] should replace parameters correctly",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:54] should replace parameters correctly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] should fallback to English if key is missing in another locale",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:58] should fallback to English if key is missing in another locale",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] loads translations even when setting the same locale again",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:67] loads translations even when setting the same locale again",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] loads saved non-English locale on startup",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:79] loads saved non-English locale on startup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:79",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] skips node localStorage accessors that warn without a storage file",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:92] skips node localStorage accessors that warn without a storage file",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] keeps the version label available in shipped locales",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:108] keeps the version label available in shipped locales",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:108",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] keeps newly exposed locales from shipping as English fallback bundles",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:129] keeps newly exposed locales from shipping as English fallback bundles",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:129",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts] keeps shipped locales structurally aligned with English",
+TEST_CASE("v4.29 [ui/src/i18n/test/translate.test.ts:142] keeps shipped locales structurally aligned with English",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/i18n/test/translate.test.ts:142",
                "upstream it() block #9",

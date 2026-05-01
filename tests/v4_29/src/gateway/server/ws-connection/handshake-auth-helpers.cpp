@@ -5,194 +5,194 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] pins browser-origin loopback clients to the synthetic rate-limit ip",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:27] pins browser-origin loopback clients to the synthetic rate-limit ip",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] falls back to the legacy synthetic ip when the browser origin is invalid",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:45] falls back to the legacy synthetic ip when the browser origin is invalid",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] recommends device-token retry only for shared-token mismatch with device identity",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:54] recommends device-token retry only for shared-token mismatch with device identity",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] treats explicit device-token mismatch as credential update guidance",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:68] treats explicit device-token mismatch as credential update guidance",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:68",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] allows silent local pairing for not-paired, scope-upgrade and role-upgrade",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:82] allows silent local pairing for not-paired, scope-upgrade and role-upgrade",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:82",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] rejects silent role-upgrade for remote clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:129] rejects silent role-upgrade for remote clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:129",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] classifies direct local requests ahead of any Docker CLI fallback",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:141] classifies direct local requests ahead of any Docker CLI fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:141",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] classifies Docker-published loopback Control UI as browser-container-local",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:162] classifies Docker-published loopback Control UI as browser-container-local",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:162",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] keeps Docker-published non-loopback Control UI origins remote",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:197] keeps Docker-published non-loopback Control UI origins remote",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:197",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] keeps non-Control-UI clients remote for browser-container-local conditions",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:246] keeps non-Control-UI clients remote for browser-container-local conditions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:246",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] classifies CLI loopback/private-host connects as cli_container_local only with shared auth",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:268] classifies CLI loopback/private-host connects as cli_container_local only with shared auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:268",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] classifies non-CLI Docker-published loopback clients as shared_secret_loopback_local when auth is token/password",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:325] classifies non-CLI Docker-published loopback clients as shared_secret_loopback_local when auth is token/password",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:325",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] skips backend self-pairing only for direct-local backend clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:346] skips backend self-pairing only for direct-local backend clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:346",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] does not skip backend self-pairing for CLI clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:418] does not skip backend self-pairing for CLI clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:418",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] rejects pairing bypass when browser origin header is present",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:436] rejects pairing bypass when browser origin header is present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:436",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] classifies non-CLI loopback + shared-secret clients as shared_secret_loopback_local",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:454] classifies non-CLI loopback + shared-secret clients as shared_secret_loopback_local",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:454",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] keeps non-CLI loopback clients remote without shared-secret auth",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:475] keeps non-CLI loopback clients remote without shared-secret auth",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:475",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] keeps shared-secret loopback clients remote when forwarded headers were present",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:531] keeps shared-secret loopback clients remote when forwarded headers were present",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:531",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] allows silent scope-upgrade, role-upgrade, and metadata-upgrade for shared_secret_loopback_local",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:553] allows silent scope-upgrade, role-upgrade, and metadata-upgrade for shared_secret_loopback_local",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:553",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] allows silent metadata-upgrade for direct local native app clients without browser origin",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:586] allows silent metadata-upgrade for direct local native app clients without browser origin",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:586",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] still requires approval for direct local node metadata-upgrade",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:599] still requires approval for direct local node metadata-upgrade",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:599",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] allows silent metadata-upgrade for cli_container_local CLI clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:611] allows silent metadata-upgrade for cli_container_local CLI clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:611",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] allows silent metadata-upgrade for shared_secret_loopback_local CLI clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:623] allows silent metadata-upgrade for shared_secret_loopback_local CLI clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:623",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] still requires approval for metadata-upgrade from remote clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:635] still requires approval for metadata-upgrade from remote clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:635",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] still requires approval for metadata-upgrade from browser_container_local (Control UI)",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:647] still requires approval for metadata-upgrade from browser_container_local (Control UI)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:647",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] still requires approval for direct local Browser or Control UI metadata-upgrade",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:659] still requires approval for direct local Browser or Control UI metadata-upgrade",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:659",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts] prefers cli_container_local over shared_secret_loopback_local for CLI clients",
+TEST_CASE("v4.29 [src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:681] prefers cli_container_local over shared_secret_loopback_local for CLI clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server/ws-connection/handshake-auth-helpers.test.ts:681",
                "upstream it() block #26",

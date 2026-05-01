@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] keeps old active tasks active without maintenance reconciliation",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:30] keeps old active tasks active without maintenance reconciliation",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] filters tasks whose cleanupAfter has expired",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:46] filters tasks whose cleanupAfter has expired",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:46",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] truncates long task titles and details",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:61] truncates long task titles and details",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] strips leaked internal runtime context from task details",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:78] strips leaked internal runtime context from task details",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] sanitizes task titles before truncation",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:93] sanitizes task titles before truncation",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] falls back to sanitized terminal summary when the error strips empty",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:107] falls back to sanitized terminal summary when the error strips empty",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] redacts raw exec denial detail from terminal task status",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:123] redacts raw exec denial detail from terminal task status",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:123",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-status.test.ts] sanitizes free-form task status text for reuse in other surfaces",
+TEST_CASE("v4.29 [src/tasks/task-status.test.ts:133] sanitizes free-form task status text for reuse in other surfaces",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-status.test.ts:133",
                "upstream it() block #7",

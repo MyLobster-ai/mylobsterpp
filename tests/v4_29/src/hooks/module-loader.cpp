@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/module-loader.test.ts] builds a file URL without cache-busting by default",
+TEST_CASE("v4.29 [src/hooks/module-loader.test.ts:7] builds a file URL without cache-busting by default",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/module-loader.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/module-loader.test.ts] adds a cache-busting query when requested",
+TEST_CASE("v4.29 [src/hooks/module-loader.test.ts:12] adds a cache-busting query when requested",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/module-loader.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/module-loader.test.ts] resolves explicit function exports",
+TEST_CASE("v4.29 [src/hooks/module-loader.test.ts:23] resolves explicit function exports",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/module-loader.test.ts:23",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/module-loader.test.ts] falls back through named exports when no explicit export is provided",
+TEST_CASE("v4.29 [src/hooks/module-loader.test.ts:32] falls back through named exports when no explicit export is provided",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/module-loader.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/module-loader.test.ts] returns undefined when export exists but is not callable",
+TEST_CASE("v4.29 [src/hooks/module-loader.test.ts:41] returns undefined when export exists but is not callable",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/module-loader.test.ts:41",
                "upstream it() block #4",

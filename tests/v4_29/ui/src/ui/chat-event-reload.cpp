@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts] returns false for non-final events",
+TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts:5] returns false for non-final events",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-event-reload.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts] returns true when final event has no message payload",
+TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts:16] returns true when final event has no message payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-event-reload.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts] returns false when final event includes renderable assistant payload",
+TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts:26] returns false when final event includes renderable assistant payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-event-reload.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts] returns false when final event includes a legacy assistant text payload without role",
+TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts:37] returns false when final event includes a legacy assistant text payload without role",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-event-reload.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts] returns true when final event includes legacy silent assistant payload",
+TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts:48] returns true when final event includes legacy silent assistant payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-event-reload.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts] returns true when final event message role is non-assistant",
+TEST_CASE("v4.29 [ui/src/ui/chat-event-reload.test.ts:73] returns true when final event message role is non-assistant",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-event-reload.test.ts:73",
                "upstream it() block #5",

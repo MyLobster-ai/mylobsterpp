@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] derives thread-aware outbound session routes from explicit thread targets",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:130] derives thread-aware outbound session routes from explicit thread targets",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:130",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] recovers thread-aware outbound session routes from currentSessionKey",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:145] recovers thread-aware outbound session routes from currentSessionKey",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:145",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] does not recover currentSessionKey threads for shared dmScope ",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:161] does not recover currentSessionKey threads for shared dmScope ",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] roundtrips inbound DM traffic through the qa bus",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:177] roundtrips inbound DM traffic through the qa bus",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:177",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] stages inbound image attachments into agent media payload",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:200] stages inbound image attachments into agent media payload",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:200",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] exposes thread and message actions against the qa bus",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:255] exposes thread and message actions against the qa bus",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:255",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts] routes the advertised send action to the qa bus",
+TEST_CASE("v4.29 [extensions/qa-channel/src/channel.test.ts:354] routes the advertised send action to the qa bus",
           "[v4_29][parity_gap][qa-channel]") {
     PARITY_GAP("extensions/qa-channel/src/channel.test.ts:354",
                "upstream it() block #6",

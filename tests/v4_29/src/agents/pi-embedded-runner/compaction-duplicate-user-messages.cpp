@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts] drops identical long user messages inside the duplicate window",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts:8] drops identical long user messages inside the duplicate window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts] keeps short repeated acknowledgements and distant repeats",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts:31] keeps short repeated acknowledgements and distant repeats",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts] collects duplicate transcript entry ids from active branch entries",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts:52] collects duplicate transcript entry ids from active branch entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-duplicate-user-messages.test.ts:52",
                "upstream it() block #2",

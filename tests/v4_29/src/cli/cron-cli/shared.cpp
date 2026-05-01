@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] handles job with undefined sessionTarget (#9649)",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:52] handles job with undefined sessionTarget (#9649)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] handles job with defined sessionTarget",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:69] handles job with defined sessionTarget",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] tolerates malformed rows in human-readable output",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:81] tolerates malformed rows in human-readable output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows stagger label for cron schedules",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:97] shows stagger label for cron schedules",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows dash for unset agentId instead of default",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:112] shows dash for unset agentId instead of default",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:112",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows Model column with payload.model for agentTurn jobs",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:130] shows Model column with payload.model for agentTurn jobs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows delivery preview when provided",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:146] shows delivery preview when provided",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:146",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows dash in Model column for systemEvent jobs",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:172] shows dash in Model column for systemEvent jobs",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:172",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows dash in Model column for agentTurn jobs without model override",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:185] shows dash in Model column for agentTurn jobs without model override",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:185",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows explicit agentId when set",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:199] shows explicit agentId when set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:199",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] shows exact label for cron schedules with stagger disabled",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:215] shows exact label for cron schedules with stagger disabled",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:215",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] falls back to a generic channel placeholder when no plugins are loaded",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:232] falls back to a generic channel placeholder when no plugins are loaded",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:232",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] lists discovered channel plugin ids when plugins are available",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:237] lists discovered channel plugin ids when plugins are available",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:237",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] returns undefined for empty input",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:254] returns undefined for empty input",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:254",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] keeps gateway-provided preview entries",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:260] keeps gateway-provided preview entries",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:260",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts] drops malformed preview entries",
+TEST_CASE("v4.29 [src/cli/cron-cli/shared.test.ts:270] drops malformed preview entries",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli/shared.test.ts:270",
                "upstream it() block #15",

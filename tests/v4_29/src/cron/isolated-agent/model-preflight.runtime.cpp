@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts] skips network checks for cloud provider URLs",
+TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts:29] skips network checks for cloud provider URLs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/model-preflight.runtime.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts] treats any HTTP response from a local OpenAI-compatible endpoint as reachable",
+TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts:50] treats any HTTP response from a local OpenAI-compatible endpoint as reachable",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/model-preflight.runtime.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts] marks unreachable local Ollama endpoints unavailable and caches the result",
+TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts:78] marks unreachable local Ollama endpoints unavailable and caches the result",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/model-preflight.runtime.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts] retries an unavailable endpoint after the cache ttl",
+TEST_CASE("v4.29 [src/cron/isolated-agent/model-preflight.runtime.test.ts:128] retries an unavailable endpoint after the cache ttl",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/model-preflight.runtime.test.ts:128",
                "upstream it() block #3",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts] keeps the repair enabled for kimi providers on anthropic-messages",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:51] keeps the repair enabled for kimi providers on anthropic-messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts] enables the repair for openai-completions even when the provider is not kimi",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:60] enables the repair for openai-completions even when the provider is not kimi",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts] does not enable the repair for unrelated non-kimi transports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:69] does not enable the repair for unrelated non-kimi transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts] keeps kimi providers off on non-anthropic non-openai-completions transports",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:78] keeps kimi providers off on non-anthropic non-openai-completions transports",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts] repairs fragmented OpenAI-compatible function-call args before tool execution",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:89] repairs fragmented OpenAI-compatible function-call args before tool execution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-argument-repair.test.ts:89",
                "upstream it() block #4",

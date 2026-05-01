@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/string-normalization.test.ts] normalizes mixed allow-list entries",
+TEST_CASE("v4.29 [src/shared/string-normalization.test.ts:10] normalizes mixed allow-list entries",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-normalization.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-normalization.test.ts] normalizes mixed allow-list entries to lowercase",
+TEST_CASE("v4.29 [src/shared/string-normalization.test.ts:20] normalizes mixed allow-list entries to lowercase",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-normalization.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-normalization.test.ts] normalizes slug-like labels while preserving supported symbols",
+TEST_CASE("v4.29 [src/shared/string-normalization.test.ts:24] normalizes slug-like labels while preserving supported symbols",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-normalization.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-normalization.test.ts] collapses repeated separators and trims leading/trailing punctuation",
+TEST_CASE("v4.29 [src/shared/string-normalization.test.ts:32] collapses repeated separators and trims leading/trailing punctuation",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-normalization.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-normalization.test.ts] normalizes @/# prefixed slugs used by channel allowlists",
+TEST_CASE("v4.29 [src/shared/string-normalization.test.ts:37] normalizes @/# prefixed slugs used by channel allowlists",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-normalization.test.ts:37",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/string-normalization.test.ts] strips repeated prefixes and collapses separator-only results",
+TEST_CASE("v4.29 [src/shared/string-normalization.test.ts:44] strips repeated prefixes and collapses separator-only results",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/string-normalization.test.ts:44",
                "upstream it() block #5",

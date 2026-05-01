@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/cron-protocol-conformance.test.ts] ui + swift include all cron delivery modes from gateway schema",
+TEST_CASE("v4.29 [src/cron/cron-protocol-conformance.test.ts:64] ui + swift include all cron delivery modes from gateway schema",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/cron-protocol-conformance.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/cron-protocol-conformance.test.ts] cron status shape matches gateway fields in UI + Swift",
+TEST_CASE("v4.29 [src/cron/cron-protocol-conformance.test.ts:88] cron status shape matches gateway fields in UI + Swift",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/cron-protocol-conformance.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/cron-protocol-conformance.test.ts] cron job state schema keeps the full failover reason set",
+TEST_CASE("v4.29 [src/cron/cron-protocol-conformance.test.ts:102] cron job state schema keeps the full failover reason set",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/cron-protocol-conformance.test.ts:102",
                "upstream it() block #2",

@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] fast-path: returns same string when no sentinels present",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:48] fast-path: returns same string when no sentinels present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] fast-path: returns empty string unchanged",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:53] fast-path: returns empty string unchanged",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips a single Conversation info block",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:57] strips a single Conversation info block",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:57",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips multiple chained metadata blocks",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:62] strips multiple chained metadata blocks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips Replied message block leaving user message intact",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:67] strips Replied message block leaving user message intact",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips all six known sentinel types",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:72] strips all six known sentinel types",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] handles metadata block with no user text after it",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:87] handles metadata block with no user text after it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:87",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] preserves message containing json fences that are not metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:91] preserves message containing json fences that are not metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:91",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] preserves leading newlines in user content after stripping",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:96] preserves leading newlines in user content after stripping",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:96",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] preserves leading spaces in user content after stripping",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:101] preserves leading spaces in user content after stripping",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:101",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips trailing Untrusted context metadata suffix blocks",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:106] strips trailing Untrusted context metadata suffix blocks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:106",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] does not strip plain user text that starts with untrusted context words",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:111] does not strip plain user text that starts with untrusted context words",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:111",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips a leading active-memory prompt prefix block from visible user text",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:117] strips a leading active-memory prompt prefix block from visible user text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:117",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips an active-memory prompt prefix block even when earlier text precedes it",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:122] strips an active-memory prompt prefix block even when earlier text precedes it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:122",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] does not strip active-memory lookalike user text without exact tag lines",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:129] does not strip active-memory lookalike user text without exact tag lines",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:129",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips a leading active-memory prompt prefix block from leading-only history views",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:136] strips a leading active-memory prompt prefix block from leading-only history views",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:136",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips an active-memory prompt prefix block from leading-only history views even when earlier text precedes it",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:141] strips an active-memory prompt prefix block from leading-only history views even when earlier text precedes it",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:141",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] does not strip lookalike sentinel lines with extra text",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:148] does not strip lookalike sentinel lines with extra text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:148",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] does not strip sentinel text when json fence is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:157] does not strip sentinel text when json fence is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:157",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] ignores metadata blocks whose json decodes to a non-object",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:164] ignores metadata blocks whose json decodes to a non-object",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:164",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips a leading injected timestamp prefix",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:176] strips a leading injected timestamp prefix",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:176",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips timestamp prefix with UTC timezone",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:180] strips timestamp prefix with UTC timezone",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:180",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] leaves non timestamp brackets alone",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:186] leaves non timestamp brackets alone",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:186",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips timestamp prefix and inbound metadata blocks together",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:190] strips timestamp prefix and inbound metadata blocks together",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:190",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips a timestamp prefix that remains after removing metadata blocks",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:200] strips a timestamp prefix that remains after removing metadata blocks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:200",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] returns the sender label block when present",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:212] returns the sender label block when present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:212",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] falls back to conversation sender when sender block is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:217] falls back to conversation sender when sender block is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:217",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] returns null when inbound sender metadata is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:222] returns null when inbound sender metadata is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:222",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] restores neutralized fence tokens when extracting sender labels",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:226] restores neutralized fence tokens when extracting sender labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:226",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts] strips generated inbound metadata blocks that contain fence-like payload text",
+TEST_CASE("v4.29 [src/auto-reply/reply/strip-inbound-meta.test.ts:238] strips generated inbound metadata blocks that contain fence-like payload text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/strip-inbound-meta.test.ts:238",
                "upstream it() block #29",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] returns pack errors without invoking installer",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:80] returns pack errors without invoking installer",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] rejects unsupported npm specs before packing",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:96] rejects unsupported npm specs before packing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] returns resolution metadata and installer result on success",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:114] returns resolution metadata and installer result on success",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:114",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] proceeds when integrity drift callback accepts drift",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:130] proceeds when integrity drift callback accepts drift",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:130",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] aborts when integrity drift callback rejects drift",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:149] aborts when integrity drift callback rejects drift",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:149",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] warns and aborts on drift when no callback is configured",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:166] warns and aborts on drift when no callback is configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:166",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] returns installer failures to callers for domain-specific handling",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:187] returns installer failures to callers for domain-specific handling",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:187",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] rejects prerelease resolutions unless explicitly requested",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:200] rejects prerelease resolutions unless explicitly requested",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:200",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] allows prerelease resolutions when explicitly requested by tag",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:227] allows prerelease resolutions when explicitly requested by tag",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:227",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] passes archive path and installer params to installFromArchive",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:256] passes archive path and installer params to installFromArchive",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:256",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] returns top-level flow errors unchanged",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:291] returns top-level flow errors unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:291",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] returns install errors unchanged",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:300] returns install errors unchanged",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:300",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts] attaches npm metadata to successful install results",
+TEST_CASE("v4.29 [src/infra/npm-pack-install.test.ts:314] attaches npm metadata to successful install results",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/npm-pack-install.test.ts:314",
                "upstream it() block #12",

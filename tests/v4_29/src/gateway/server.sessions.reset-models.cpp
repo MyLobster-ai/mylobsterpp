@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts] sessions.reset recomputes model from defaults instead of stale runtime model",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts:13] sessions.reset recomputes model from defaults instead of stale runtime model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-models.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts] sessions.reset preserves legacy explicit model overrides without modelOverrideSource",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts:53] sessions.reset preserves legacy explicit model overrides without modelOverrideSource",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-models.test.ts:53",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts] sessions.reset clears fallback-pinned model overrides and restores the selected model",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts:108] sessions.reset clears fallback-pinned model overrides and restores the selected model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-models.test.ts:108",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts] sessions.reset follows the updated default after an auto fallback pinned an older default",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts:161] sessions.reset follows the updated default after an auto fallback pinned an older default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-models.test.ts:161",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts] sessions.reset preserves spawned session ownership metadata",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-models.test.ts:214] sessions.reset preserves spawned session ownership metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-models.test.ts:214",
                "upstream it() block #4",

@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] matches the runtime metadata snapshot",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:203] matches the runtime metadata snapshot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:203",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] matches the checked-in runtime sidecar path baseline",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:215] matches the checked-in runtime sidecar path baseline",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:215",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] excludes non-packaged QA sidecars from the packaged runtime sidecar baseline",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:224] excludes non-packaged QA sidecars from the packaged runtime sidecar baseline",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:224",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] captures setup-entry metadata for bundled channel plugins",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:232] captures setup-entry metadata for bundled channel plugins",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps Slack",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:251] keeps Slack",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:251",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps Slack",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:258] keeps Slack",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:258",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps Telegram",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:269] keeps Telegram",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:269",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps Discord",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:279] keeps Discord",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:279",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] loads tlon channel config metadata from the lightweight schema surface",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:289] loads tlon channel config metadata from the lightweight schema surface",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:289",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps bundled persisted-auth metadata on channel package manifests",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:297] keeps bundled persisted-auth metadata on channel package manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:297",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps Matrix",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:311] keeps Matrix",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:311",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps bundled configured-state metadata on channel package manifests",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:318] keeps bundled configured-state metadata on channel package manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:318",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] excludes test-only public surface artifacts",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:357] excludes test-only public surface artifacts",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:357",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps config schemas on all bundled plugin manifests",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:363] keeps config schemas on all bundled plugin manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:363",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] declares explicit startup activation on all bundled plugin manifests",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:369] declares explicit startup activation on all bundled plugin manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:369",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] keeps empty-config Gateway startup narrower than declared startup sidecars",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:384] keeps empty-config Gateway startup narrower than declared startup sidecars",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:384",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] prefers built generated paths when present and falls back to source paths",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:422] prefers built generated paths when present and falls back to source paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:422",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] resolves plugin-local generated entry paths when the plugin dir is provided",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:436] resolves plugin-local generated entry paths when the plugin dir is provided",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:436",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] scans direct plugin-tree overrides and resolves generated paths from that scan dir",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:458] scans direct plugin-tree overrides and resolves generated paths from that scan dir",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:458",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] reflects bundled manifest edits on the next metadata read",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:495] reflects bundled manifest edits on the next metadata read",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:495",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] prefers direct scan-dir overrides over nested dist artifacts within the same override root",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:524] prefers direct scan-dir overrides over nested dist artifacts within the same override root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:524",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] resolves bundled repo entry paths from dist before workspace source",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:551] resolves bundled repo entry paths from dist before workspace source",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:551",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] merges runtime channel schema metadata with manifest-owned channel config fields",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:588] merges runtime channel schema metadata with manifest-owned channel config fields",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:588",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] captures top-level public surface artifacts without duplicating the primary entrypoints",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:663] captures top-level public surface artifacts without duplicating the primary entrypoints",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:663",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] loads channel config metadata from built public surfaces in dist-only roots",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:705] loads channel config metadata from built public surfaces in dist-only roots",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:705",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts] does not probe broad runtime public surfaces for channel config metadata",
+TEST_CASE("v4.29 [src/plugins/bundled-plugin-metadata.test.ts:780] does not probe broad runtime public surfaces for channel config metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-plugin-metadata.test.ts:780",
                "upstream it() block #25",

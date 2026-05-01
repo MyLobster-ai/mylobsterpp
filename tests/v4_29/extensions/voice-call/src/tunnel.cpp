@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] checks ngrok availability from the version command exit code",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:55] checks ngrok availability from the version command exit code",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:55",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] treats ngrok spawn failures as unavailable",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:64] treats ngrok spawn failures as unavailable",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] starts ngrok and appends the webhook path to the public URL",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:72] starts ngrok and appends the webhook path to the public URL",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] sets ngrok auth token before starting the tunnel",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:89] sets ngrok auth token before starting the tunnel",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] rejects ngrok startup errors from stderr",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:113] rejects ngrok startup errors from stderr",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] starts Tailscale serve using the resolved tailnet DNS name",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:122] starts Tailscale serve using the resolved tailnet DNS name",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:122",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] rejects Tailscale tunnel startup when the DNS name is unavailable",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:145] rejects Tailscale tunnel startup when the DNS name is unavailable",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts] dispatches tunnel providers from config",
+TEST_CASE("v4.29 [extensions/voice-call/src/tunnel.test.ts:154] dispatches tunnel providers from config",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/tunnel.test.ts:154",
                "upstream it() block #7",

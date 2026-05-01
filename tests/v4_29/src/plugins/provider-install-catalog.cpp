@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts] merges manifest auth-choice metadata with registry install metadata",
+TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts:69] merges manifest auth-choice metadata with registry install metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-install-catalog.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts] prefers durable install records over package-authored install intent",
+TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts:163] prefers durable install records over package-authored install intent",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-install-catalog.test.ts:163",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts] does not expose untrusted global package install intent without an install record",
+TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts:252] does not expose untrusted global package install intent without an install record",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-install-catalog.test.ts:252",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts] skips untrusted workspace package install metadata when the plugin is disabled",
+TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts:306] skips untrusted workspace package install metadata when the plugin is disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-install-catalog.test.ts:306",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts] surfaces provider-index install metadata when the provider plugin is not installed",
+TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts:362] surfaces provider-index install metadata when the provider plugin is not installed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-install-catalog.test.ts:362",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts] keeps provider-index entries hidden when the plugin is already installed",
+TEST_CASE("v4.29 [src/plugins/provider-install-catalog.test.ts:424] keeps provider-index entries hidden when the plugin is already installed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-install-catalog.test.ts:424",
                "upstream it() block #5",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-tools.deferred-followup-guidance.test.ts] keeps cron-specific guidance when cron survives filtering",
+TEST_CASE("v4.29 [src/agents/pi-tools.deferred-followup-guidance.test.ts:19] keeps cron-specific guidance when cron survives filtering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.deferred-followup-guidance.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-tools.deferred-followup-guidance.test.ts] drops cron-specific guidance when cron is unavailable",
+TEST_CASE("v4.29 [src/agents/pi-tools.deferred-followup-guidance.test.ts:28] drops cron-specific guidance when cron is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-tools.deferred-followup-guidance.test.ts:28",
                "upstream it() block #1",

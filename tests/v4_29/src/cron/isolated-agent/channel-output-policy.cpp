@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/channel-output-policy.test.ts] reads final visible text preference from the channel plugin",
+TEST_CASE("v4.29 [src/cron/isolated-agent/channel-output-policy.test.ts:38] reads final visible text preference from the channel plugin",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/channel-output-policy.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/isolated-agent/channel-output-policy.test.ts] lets channel plugins format current tool context targets",
+TEST_CASE("v4.29 [src/cron/isolated-agent/channel-output-policy.test.ts:47] lets channel plugins format current tool context targets",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/isolated-agent/channel-output-policy.test.ts:47",
                "upstream it() block #1",

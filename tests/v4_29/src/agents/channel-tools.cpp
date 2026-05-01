@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/channel-tools.test.ts] skips crashing plugins and logs once",
+TEST_CASE("v4.29 [src/agents/channel-tools.test.ts:47] skips crashing plugins and logs once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/channel-tools.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/channel-tools.test.ts] does not infer poll actions from outbound adapters when action discovery omits them",
+TEST_CASE("v4.29 [src/agents/channel-tools.test.ts:56] does not infer poll actions from outbound adapters when action discovery omits them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/channel-tools.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/channel-tools.test.ts] normalizes channel aliases before listing supported actions",
+TEST_CASE("v4.29 [src/agents/channel-tools.test.ts:87] normalizes channel aliases before listing supported actions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/channel-tools.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/channel-tools.test.ts] uses unified message tool discovery",
+TEST_CASE("v4.29 [src/agents/channel-tools.test.ts:114] uses unified message tool discovery",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/channel-tools.test.ts:114",
                "upstream it() block #3",

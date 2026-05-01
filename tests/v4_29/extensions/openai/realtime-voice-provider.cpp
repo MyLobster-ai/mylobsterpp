@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts] adds OpenClaw attribution headers to native realtime websocket requests",
+TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts:98] adds OpenClaw attribution headers to native realtime websocket requests",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-voice-provider.test.ts:98",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts] returns browser-safe OpenClaw attribution headers for native WebRTC offers",
+TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts:119] returns browser-safe OpenClaw attribution headers for native WebRTC offers",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-voice-provider.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts] normalizes provider-owned voice settings from raw provider config",
+TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts:168] normalizes provider-owned voice settings from raw provider config",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-voice-provider.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts] waits for session.updated before draining audio and firing onReady",
+TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts:194] waits for session.updated before draining audio and firing onReady",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-voice-provider.test.ts:194",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts] can request PCM16 24 kHz realtime audio for Chrome command-pair bridges",
+TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts:235] can request PCM16 24 kHz realtime audio for Chrome command-pair bridges",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-voice-provider.test.ts:235",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts] settles cleanly when closed before the websocket opens",
+TEST_CASE("v4.29 [extensions/openai/realtime-voice-provider.test.ts:260] settles cleanly when closed before the websocket opens",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-voice-provider.test.ts:260",
                "upstream it() block #5",

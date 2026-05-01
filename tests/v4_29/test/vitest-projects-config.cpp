@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] defines the native root project list for all non-live Vitest lanes",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:40] defines the native root project list for all non-live Vitest lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] disables vite env-file loading for vitest lanes",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:44] disables vite env-file loading for vitest lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps root projects on their expected pool defaults",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:49] keeps root projects on their expected pool defaults",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] honors explicit worker caps in CI vitest lanes",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:63] honors explicit worker caps in CI vitest lanes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:63",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps contract shards on the non-isolated fork runner by default",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:96] keeps contract shards on the non-isolated fork runner by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:96",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] gives contract project configs unique names",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:103] gives contract project configs unique names",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:103",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] narrows the contracts lane to targeted contract files",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:119] narrows the contracts lane to targeted contract files",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:119",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] intersects contract include-file shards with the config family",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:132] intersects contract include-file shards with the config family",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:132",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps the root ui lane aligned with the shared jsdom setup",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:151] keeps the root ui lane aligned with the shared jsdom setup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:151",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps the unit-ui shard aligned with the shared jsdom setup",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:162] keeps the unit-ui shard aligned with the shared jsdom setup",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:162",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps the unit lane on the non-isolated runner by default",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:171] keeps the unit lane on the non-isolated runner by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:171",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps the unit-fast lane on shared workers without the reset-heavy runner",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:177] keeps the unit-fast lane on shared workers without the reset-heavy runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:177",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-projects-config.test.ts] keeps the bundled lane on thread workers with the non-isolated runner",
+TEST_CASE("v4.29 [test/vitest-projects-config.test.ts:183] keeps the bundled lane on thread workers with the non-isolated runner",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-projects-config.test.ts:183",
                "upstream it() block #12",

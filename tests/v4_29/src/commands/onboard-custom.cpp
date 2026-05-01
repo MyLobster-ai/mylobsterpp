@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] handles openai flow and saves alias",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:97] handles openai flow and saves alias",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] skips the image-input prompt for known custom vision models",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:111] skips the image-input prompt for known custom vision models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] prompts for custom model image support when the model is unknown",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:124] prompts for custom model image support when the model is unknown",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] defaults custom setup to the native Ollama base URL",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:141] defaults custom setup to the native Ollama base URL",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] retries when verification fails",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:158] retries when verification fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] detects openai compatibility when unknown",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:170] detects openai compatibility when unknown",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:170",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] re-prompts base url when unknown detection fails",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:181] re-prompts base url when unknown detection fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:181",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts] aborts verification after timeout",
+TEST_CASE("v4.29 [src/commands/onboard-custom.test.ts:203] aborts verification after timeout",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom.test.ts:203",
                "upstream it() block #7",

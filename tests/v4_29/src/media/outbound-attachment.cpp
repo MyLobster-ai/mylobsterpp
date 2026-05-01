@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/outbound-attachment.test.ts] preserves the loaded file name when staging outbound media",
+TEST_CASE("v4.29 [src/media/outbound-attachment.test.ts:17] preserves the loaded file name when staging outbound media",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/outbound-attachment.test.ts:17",
                "upstream it() block #0",

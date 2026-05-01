@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] returns 404 when compat endpoints are disabled",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:14] returns 404 when compat endpoints are disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] returns detailed readiness payload for local /ready requests",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:37] returns detailed readiness payload for local /ready requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] returns only readiness state for unauthenticated remote /ready requests",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:59] returns only readiness state for unauthenticated remote /ready requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:59",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] returns detailed readiness payload for authenticated remote /ready requests",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:85] returns detailed readiness payload for authenticated remote /ready requests",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:85",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] re-resolves auth for remote /ready requests after shared auth rotation",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:116] re-resolves auth for remote /ready requests after shared auth rotation",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] hides readiness details when trusted-proxy auth violates browser origin policy",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:175] hides readiness details when trusted-proxy auth violates browser origin policy",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:175",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] returns typed internal error payload when readiness evaluation throws",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:226] returns typed internal error payload when readiness evaluation throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:226",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] keeps /healthz shallow even when readiness checker reports failing channels",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:246] keeps /healthz shallow even when readiness checker reports failing channels",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:246",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] serves /healthz before loading gateway config",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:268] serves /healthz before loading gateway config",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:268",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] serves probes before stalled request stages",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:289] serves probes before stalled request stages",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:289",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts] reflects readiness status on HEAD /readyz without a response body",
+TEST_CASE("v4.29 [src/gateway/server-http.probe.test.ts:324] reflects readiness status on HEAD /readyz without a response body",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-http.probe.test.ts:324",
                "upstream it() block #10",

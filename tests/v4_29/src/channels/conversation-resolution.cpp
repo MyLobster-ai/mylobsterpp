@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] uses the runtime command resolver, plugin default account, and placement hint",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:41] uses the runtime command resolver, plugin default account, and placement hint",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] can skip placement hints for callers that do not consume them",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:80] can skip placement hints for callers that do not consume them",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:80",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] applies provider-owned self-parent defaults in one core path",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:113] applies provider-owned self-parent defaults in one core path",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:113",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] falls back from command context to channel-prefixed parent plus explicit thread",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:140] falls back from command context to channel-prefixed parent plus explicit thread",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] normalizes numeric command thread ids through the shared route contract",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:165] normalizes numeric command thread ids through the shared route contract",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:165",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] uses the runtime inbound resolver and preserves provider canonical ids",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:190] uses the runtime inbound resolver and preserves provider canonical ids",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:190",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] keeps Matrix room casing when the channel resolver returns a child thread",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:224] keeps Matrix room casing when the channel resolver returns a child thread",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:224",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] does not fall through when a channel explicitly rejects an inbound target",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:256] does not fall through when a channel explicitly rejects an inbound target",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:256",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] falls back from inbound context to channel-prefixed parent plus explicit thread",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:273] falls back from inbound context to channel-prefixed parent plus explicit thread",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:273",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] normalizes numeric inbound thread ids through the shared route contract",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:298] normalizes numeric inbound thread ids through the shared route contract",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:298",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts] resolves placement from runtime plugin metadata",
+TEST_CASE("v4.29 [src/channels/conversation-resolution.test.ts:323] resolves placement from runtime plugin metadata",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/conversation-resolution.test.ts:323",
                "upstream it() block #10",

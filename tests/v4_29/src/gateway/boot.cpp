@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] skips when BOOT.md is missing",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:95] skips when BOOT.md is missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:95",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] returns failed when BOOT.md cannot be read",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:105] returns failed when BOOT.md cannot be read",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] runs agent command when BOOT.md exists",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:129] runs agent command when BOOT.md exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:129",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] returns failed when agent command throws",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:151] returns failed when agent command throws",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:151",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] uses per-agent session key when agentId is provided",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:162] uses per-agent session key when agentId is provided",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] generates new session ID when no existing session exists",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:177] generates new session ID when no existing session exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:177",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] uses a fresh boot session ID even when main session mapping already exists",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:196] uses a fresh boot session ID even when main session mapping already exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:196",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] restores the original main session mapping after the boot run",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:226] restores the original main session mapping after the boot run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:226",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/boot.test.ts] removes a boot-created main-session mapping when none existed before",
+TEST_CASE("v4.29 [src/gateway/boot.test.ts:249] removes a boot-created main-session mapping when none existed before",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/boot.test.ts:249",
                "upstream it() block #8",

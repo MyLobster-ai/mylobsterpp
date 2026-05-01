@@ -5,215 +5,215 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] normalizes cache fields from provider response",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:12] normalizes cache fields from provider response",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] normalizes cache fields from alternate naming",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:28] normalizes cache fields from alternate naming",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] handles cache_read and cache_write naming variants",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:44] handles cache_read and cache_write naming variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] handles Moonshot/Kimi cached_tokens field",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:59] handles Moonshot/Kimi cached_tokens field",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] handles Kimi K2 prompt_tokens_details.cached_tokens field",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:76] handles Kimi K2 prompt_tokens_details.cached_tokens field",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] handles OpenAI Responses input_tokens_details.cached_tokens field",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:93] handles OpenAI Responses input_tokens_details.cached_tokens field",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:93",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] clamps negative input to zero (pre-subtracted cached_tokens > prompt_tokens)",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:109] clamps negative input to zero (pre-subtracted cached_tokens > prompt_tokens)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:109",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] clamps negative prompt_tokens alias to zero",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:126] clamps negative prompt_tokens alias to zero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:126",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns undefined when no valid fields are provided",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:140] returns undefined when no valid fields are provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:140",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] handles undefined input",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:145] handles undefined input",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:145",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] uses max(component sum, aggregate total) when breakdown is partial",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:152] uses max(component sum, aggregate total) when breakdown is partial",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:152",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] uses component sum when it exceeds aggregate total",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:161] uses component sum when it exceeds aggregate total",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:161",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] uses aggregate total when only total is present",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:175] uses aggregate total when only total is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:175",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns zeros for undefined usage",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:184] returns zeros for undefined usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:184",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] raises total_tokens with aggregate when cache write is excluded from prompt sum",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:192] raises total_tokens with aggregate when cache write is excluded from prompt sum",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:192",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] clamps negative completion before deriving total_tokens",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:207] clamps negative completion before deriving total_tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:207",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] preserves aggregate total when components are partially negative",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:220] preserves aggregate total when components are partially negative",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:220",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns true when cache read is nonzero",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:236] returns true when cache read is nonzero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:236",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns true when cache write is nonzero",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:241] returns true when cache write is nonzero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:241",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns true when both cache fields are nonzero",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:246] returns true when both cache fields are nonzero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:246",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns false when cache fields are zero",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:251] returns false when cache fields are zero",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:251",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns false for undefined usage",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:256] returns false for undefined usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:256",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] includes cache tokens in prompt total",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:262] includes cache tokens in prompt total",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:262",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] handles missing cache fields",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:272] handles missing cache fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:272",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] returns undefined for empty usage",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:280] returns undefined for empty usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:280",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] prefers explicit prompt snapshot over provider usage",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:287] prefers explicit prompt snapshot over provider usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:287",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] falls back to last-call prompt usage before accumulated usage",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:297] falls back to last-call prompt usage before accumulated usage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:297",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] falls back to accumulated usage when no prompt snapshot exists",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:306] falls back to accumulated usage when no prompt snapshot exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:306",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] includes cache tokens in total calculation",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:316] includes cache tokens in total calculation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:316",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/usage.test.ts] prefers promptTokens override over derived total",
+TEST_CASE("v4.29 [src/agents/usage.test.ts:328] prefers promptTokens override over derived total",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/usage.test.ts:328",
                "upstream it() block #29",

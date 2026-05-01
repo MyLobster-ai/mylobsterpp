@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] resolves env refs via implicit default env provider",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:165] resolves env refs via implicit default env provider",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:165",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] rejects misconfigured provider source mismatches",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:436] rejects misconfigured provider source mismatches",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:436",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] rejects invalid exec ids before provider resolution",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:455] rejects invalid exec ids before provider resolution",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:455",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] strips UTF-8 BOM from file provider payload before JSON parse",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:468] strips UTF-8 BOM from file provider payload before JSON parse",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:468",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] strips UTF-8 BOM from file provider singleValue mode",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:490] strips UTF-8 BOM from file provider singleValue mode",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:490",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] fails closed on Windows when file provider ACL source is unknown",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:511] fails closed on Windows when file provider ACL source is unknown",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:511",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] allows trusted file provider opt-out when Windows ACL source is unknown",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:538] allows trusted file provider opt-out when Windows ACL source is unknown",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:538",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/resolve.test.ts] fails closed on Windows when exec provider ACL source is unknown",
+TEST_CASE("v4.29 [src/secrets/resolve.test.ts:564] fails closed on Windows when exec provider ACL source is unknown",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/resolve.test.ts:564",
                "upstream it() block #7",

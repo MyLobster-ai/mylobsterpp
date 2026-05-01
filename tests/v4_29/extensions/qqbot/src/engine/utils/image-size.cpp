@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] passes maxBytes, maxRedirects, ssrfPolicy, and headers",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:44] passes maxBytes, maxRedirects, ssrfPolicy, and headers",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] threads caller abort signal through requestInit",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:66] threads caller abort signal through requestInit",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null when adapter.fetchMedia throws for loopback",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:79] returns null when adapter.fetchMedia throws for loopback",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:79",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null when adapter.fetchMedia throws for IPv6 loopback",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:87] returns null when adapter.fetchMedia throws for IPv6 loopback",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null when adapter.fetchMedia throws for link-local/metadata",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:95] returns null when adapter.fetchMedia throws for link-local/metadata",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null when adapter.fetchMedia throws for RFC1918 addresses",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:103] returns null when adapter.fetchMedia throws for RFC1918 addresses",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:103",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null on http error from adapter.fetchMedia",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:111] returns null on http error from adapter.fetchMedia",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:111",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns parsed dimensions for a valid PNG",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:121] returns parsed dimensions for a valid PNG",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:121",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null when the buffer is not a recognized image format",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:132] returns null when the buffer is not a recognized image format",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:132",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] parses PNG dimensions",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:146] parses PNG dimensions",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:146",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null for unrecognized data",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:151] returns null for unrecognized data",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:151",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts] returns null for empty buffer",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/utils/image-size.test.ts:155] returns null for empty buffer",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/utils/image-size.test.ts:155",
                "upstream it() block #11",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/audio-transcode.test.ts] writes input audio, runs ffmpeg for 48k mono Opus, and cleans temp files",
+TEST_CASE("v4.29 [src/media/audio-transcode.test.ts:20] writes input audio, runs ffmpeg for 48k mono Opus, and cleans temp files",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/audio-transcode.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/audio-transcode.test.ts] sanitizes unsafe input extensions",
+TEST_CASE("v4.29 [src/media/audio-transcode.test.ts:55] sanitizes unsafe input extensions",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/audio-transcode.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/audio-transcode.test.ts] keeps temp prefixes and output names inside the preferred temp root",
+TEST_CASE("v4.29 [src/media/audio-transcode.test.ts:74] keeps temp prefixes and output names inside the preferred temp root",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/audio-transcode.test.ts:74",
                "upstream it() block #2",

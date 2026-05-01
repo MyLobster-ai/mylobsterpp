@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts] does not crash when register throws",
+TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts:73] does not crash when register throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-graceful-init-failure.test.ts:73",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts] keeps loading other plugins after one register failure",
+TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts:82] keeps loading other plugins after one register failure",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-graceful-init-failure.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts] records failed register metadata",
+TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts:97] records failed register metadata",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-graceful-init-failure.test.ts:97",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts] records validation failures before register",
+TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts:117] records validation failures before register",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-graceful-init-failure.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts] logs a startup summary grouped by failure phase",
+TEST_CASE("v4.29 [src/plugins/plugin-graceful-init-failure.test.ts:131] logs a startup summary grouped by failure phase",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-graceful-init-failure.test.ts:131",
                "upstream it() block #4",

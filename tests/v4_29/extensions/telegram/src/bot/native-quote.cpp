@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts] uses a Telegram-safe prefix and preserves leading whitespace",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts:5] uses a Telegram-safe prefix and preserves leading whitespace",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/native-quote.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts] does not split UTF-16 surrogate pairs at the quote cap",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts:20] does not split UTF-16 surrogate pairs at the quote cap",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/native-quote.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts] slices entities to the quoted prefix",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts:29] slices entities to the quoted prefix",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/native-quote.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts] omits blank quote candidates",
+TEST_CASE("v4.29 [extensions/telegram/src/bot/native-quote.test.ts:49] omits blank quote candidates",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot/native-quote.test.ts:49",
                "upstream it() block #3",

@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] does not clobber form edits while dirty",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:59] does not clobber form edits while dirty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] updates config form when clean",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:78] updates config form when clean",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:78",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] sets configRawOriginal when clean for change detection",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:90] sets configRawOriginal when clean for change detection",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] preserves configRawOriginal when dirty",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:103] preserves configRawOriginal when dirty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] keeps the draft base hash when preserving dirty edits across refreshes",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:121] keeps the draft base hash when preserving dirty edits across refreshes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:121",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] discards dirty form edits when explicitly requested",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:145] discards dirty form edits when explicitly requested",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:145",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] forces form mode when the snapshot does not include raw text",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:174] forces form mode when the snapshot does not include raw text",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:174",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] passes explicit reload mode through to snapshot application",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:191] passes explicit reload mode through to snapshot application",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:191",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] seeds from snapshot when form is null",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:213] seeds from snapshot when form is null",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:213",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] keeps raw in sync while editing the form",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:231] keeps raw in sync while editing the form",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:231",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] clears dirty when a form edit returns to the original value",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:247] clears dirty when a form edit returns to the original value",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:247",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] ignores preset staging before a config snapshot is ready",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:266] ignores preset staging before a config snapshot is ready",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:266",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] stages preset changes without dropping unrelated config",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:284] stages preset changes without dropping unrelated config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:284",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] stays clean when the staged preset already matches the saved config",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:325] stays clean when the staged preset already matches the saved config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:325",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] restores the original form and raw config snapshot",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:357] restores the original form and raw config snapshot",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:357",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] preserves an intentionally empty original raw config",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:378] preserves an intentionally empty original raw config",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:378",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] finds explicit agent entries",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:401] finds explicit agent entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:401",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] creates an agent override entry when editing an inherited agent",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:414] creates an agent override entry when editing an inherited agent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:414",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] reuses the existing agent entry instead of duplicating it",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:441] reuses the existing agent entry instead of duplicating it",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:441",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] reuses an agent entry that already exists in the pending form state",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:461] reuses an agent entry that already exists in the pending form state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:461",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] sets default via agents.list[].default instead of agents.defaultId",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:482] sets default via agents.list[].default instead of agents.defaultId",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:482",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] does not stage agents.defaultId when the target agent is absent",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:506] does not stage agents.defaultId when the target agent is absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:506",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] sends config.apply with raw and session key",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:528] sends config.apply with raw and session key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:528",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] coerces schema-typed values before config.apply in form mode",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:550] coerces schema-typed values before config.apply in form mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:550",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] submits the original draft base hash after a dirty config refresh",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:594] submits the original draft base hash after a dirty config refresh",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:594",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] coerces schema-typed values before config.set in form mode",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:623] coerces schema-typed values before config.set in form mode",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:623",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] skips coercion when schema is not an object",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:659] skips coercion when schema is not an object",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:659",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] sends update.run with session key",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:684] sends update.run with session key",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:684",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] surfaces update errors returned in response payload",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:698] surfaces update errors returned in response payload",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:698",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] surfaces skipped updates with actionable guidance",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:716] surfaces skipped updates with actionable guidance",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:716",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts] stores the expected post-update version when update.run succeeds",
+TEST_CASE("v4.29 [ui/src/ui/controllers/config.test.ts:733] stores the expected post-update version when update.run succeeds",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/config.test.ts:733",
                "upstream it() block #30",

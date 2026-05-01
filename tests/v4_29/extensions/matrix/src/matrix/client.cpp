@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] uses the hardened client request path for password login and persists deviceId",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:75] uses the hardened client request path for password login and persists deviceId",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] surfaces password login errors when account credentials are invalid",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:126] surfaces password login errors when account credentials are invalid",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:126",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] uses cached matching credentials when access token is not configured",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:157] uses cached matching credentials when access token is not configured",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:157",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] uses cached matching credentials for env-backed named accounts without fresh auth",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:192] uses cached matching credentials for env-backed named accounts without fresh auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:192",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] rejects embedded credentials in Matrix homeserver URLs",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:229] rejects embedded credentials in Matrix homeserver URLs",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:229",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] falls back to config deviceId when cached credentials are missing it",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:244] falls back to config deviceId when cached credentials are missing it",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:244",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] carries the private-network opt-in through Matrix auth resolution",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:281] carries the private-network opt-in through Matrix auth resolution",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:281",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] resolves token-only non-default account userId from whoami instead of inheriting the base user",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:303] resolves token-only non-default account userId from whoami instead of inheriting the base user",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:303",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] uses named-account password auth instead of inheriting the base access token",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:335] uses named-account password auth instead of inheriting the base access token",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:335",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] resolves missing whoami identity fields for token auth",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:385] resolves missing whoami identity fields for token auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:385",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] retries token whoami when startup auth hits a transient network error",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:417] retries token whoami when startup auth hits a transient network error",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:417",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] does not call whoami when token auth already has a userId and only deviceId is missing",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:452] does not call whoami when token auth already has a userId and only deviceId is missing",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:452",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] retries password login when startup auth hits a transient network error",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:482] retries password login when startup auth hits a transient network error",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:482",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] best-effort backfills a missing deviceId after startup",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:519] best-effort backfills a missing deviceId after startup",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:519",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] skips deviceId backfill when auth already includes it",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:560] skips deviceId backfill when auth already includes it",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:560",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] fails before saving repaired credentials when storage metadata repair fails",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:579] fails before saving repaired credentials when storage metadata repair fails",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:579",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] skips stale deviceId backfill writes after newer credentials take over",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:600] skips stale deviceId backfill writes after newer credentials take over",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:600",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] skips persistence when startup backfill is aborted before whoami resolves",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:628] skips persistence when startup backfill is aborted before whoami resolves",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:628",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] resolves configured accessToken SecretRefs during Matrix auth",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:662] resolves configured accessToken SecretRefs during Matrix auth",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:662",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] does not resolve inactive password SecretRefs when scoped token auth wins",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:709] does not resolve inactive password SecretRefs when scoped token auth wins",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:709",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] uses config deviceId with cached credentials when token is loaded from cache",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:754] uses config deviceId with cached credentials when token is loaded from cache",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:754",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts] falls back to the sole configured account when no global homeserver is set",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/client.test.ts:786] falls back to the sole configured account when no global homeserver is set",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/client.test.ts:786",
                "upstream it() block #21",

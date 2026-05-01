@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts] falls back to explicit request params for non-node hosts",
+TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts:52] falls back to explicit request params for non-node hosts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-context.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts] parses legacy prepared payloads via top-level fallback command text",
+TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts:77] parses legacy prepared payloads via top-level fallback command text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-context.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts] rejects legacy payloads missing argv or command text",
+TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts:100] rejects legacy payloads missing argv or command text",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-context.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts] returns request validation errors from command fallback",
+TEST_CASE("v4.29 [src/infra/system-run-approval-context.test.ts:166] returns request validation errors from command fallback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/system-run-approval-context.test.ts:166",
                "upstream it() block #3",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/acp/session-mapper.test.ts] prefers explicit sessionLabel over sessionKey",
+TEST_CASE("v4.29 [src/acp/session-mapper.test.ts:26] prefers explicit sessionLabel over sessionKey",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-mapper.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/acp/session-mapper.test.ts] lets meta sessionKey override default label",
+TEST_CASE("v4.29 [src/acp/session-mapper.test.ts:42] lets meta sessionKey override default label",
           "[v4_29][parity_gap][acp]") {
     PARITY_GAP("src/acp/session-mapper.test.ts:42",
                "upstream it() block #1",

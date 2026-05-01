@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-legacy-config-migrate.test.ts] prefers bundled channel doctor contract normalizers before plugin registry fallback",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-legacy-config-migrate.test.ts:38] prefers bundled channel doctor contract normalizers before plugin registry fallback",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-legacy-config-migrate.test.ts:38",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor/shared/channel-legacy-config-migrate.test.ts] normalizes legacy private-network aliases exposed through bundled contract surfaces",
+TEST_CASE("v4.29 [src/commands/doctor/shared/channel-legacy-config-migrate.test.ts:84] normalizes legacy private-network aliases exposed through bundled contract surfaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor/shared/channel-legacy-config-migrate.test.ts:84",
                "upstream it() block #1",

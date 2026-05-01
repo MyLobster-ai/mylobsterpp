@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] allows anthropic",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:31] allows anthropic",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] allows moonshot and zai providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:35] allows moonshot and zai providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] is case-insensitive for native providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:40] is case-insensitive for native providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] allows openrouter cache-ttl models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:45] allows openrouter cache-ttl models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] rejects unsupported providers and models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:53] rejects unsupported providers and models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:53",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] allows direct Google Gemini cache-ttl models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:58] allows direct Google Gemini cache-ttl models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:58",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] rejects non-cacheable Google model families",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:67] rejects non-cacheable Google model families",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:67",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] allows custom anthropic-messages providers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:73] allows custom anthropic-messages providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:73",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] allows anthropic Bedrock models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:79] allows anthropic Bedrock models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:79",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] returns the latest matching timestamp for the active provider/model",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:91] returns the latest matching timestamp for the active provider/model",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:91",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts] ignores unscoped cache-ttl entries when a context filter is requested",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/cache-ttl.test.ts:123] ignores unscoped cache-ttl entries when a context filter is requested",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/cache-ttl.test.ts:123",
                "upstream it() block #10",

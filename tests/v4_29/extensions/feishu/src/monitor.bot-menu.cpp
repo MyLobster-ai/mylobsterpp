@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts] opens the quick-action launcher card at the webhook/event layer",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts:71] opens the quick-action launcher card at the webhook/event layer",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.bot-menu.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts] does not block bot-menu handling on quick-action launcher send",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts:92] does not block bot-menu handling on quick-action launcher send",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.bot-menu.test.ts:92",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts] falls back to the legacy /menu synthetic message path for unrelated bot menu keys",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts:118] falls back to the legacy /menu synthetic message path for unrelated bot menu keys",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.bot-menu.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts] falls back to the legacy /menu path when launcher rendering fails",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts:135] falls back to the legacy /menu path when launcher rendering fails",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.bot-menu.test.ts:135",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts] reopens replay for explicit retryable fallback failures",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.bot-menu.test.ts:155] reopens replay for explicit retryable fallback failures",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.bot-menu.test.ts:155",
                "upstream it() block #4",

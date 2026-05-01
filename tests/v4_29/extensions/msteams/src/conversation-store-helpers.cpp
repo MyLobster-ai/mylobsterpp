@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] returns null for empty id",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:29] returns null for empty id",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] returns null when no entries match",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:33] returns null when no entries match",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] returns a personal DM conversation by aadObjectId",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:38] returns a personal DM conversation by aadObjectId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] returns a personal DM conversation by user.id",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:50] returns a personal DM conversation by user.id",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] does NOT return a channel conversation for a user lookup (#54520)",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:63] does NOT return a channel conversation for a user lookup (#54520)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] does NOT return a groupChat conversation for a user lookup (#54520)",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:79] does NOT return a groupChat conversation for a user lookup (#54520)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:79",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] prefers personal DM over channel even when channel is more recent (#54520)",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:92] prefers personal DM over channel even when channel is more recent (#54520)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] prefers personal DM over groupChat even when groupChat is more recent",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:113] prefers personal DM over groupChat even when groupChat is more recent",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:113",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] prefers the freshest personal DM when multiple exist",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:132] prefers the freshest personal DM when multiple exist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:132",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] falls back to unknown-type entries when no personal conversations exist",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:151] falls back to unknown-type entries when no personal conversations exist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:151",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] prefers personal over unknown-type entries",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:165] prefers personal over unknown-type entries",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:165",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts] does NOT fall back to channel/group when no personal or unknown entries exist",
+TEST_CASE("v4.29 [extensions/msteams/src/conversation-store-helpers.test.ts:184] does NOT fall back to channel/group when no personal or unknown entries exist",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/conversation-store-helpers.test.ts:184",
                "upstream it() block #11",

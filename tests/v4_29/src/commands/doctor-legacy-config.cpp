@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts] preserves telegram boolean streaming aliases as-is",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts:34] preserves telegram boolean streaming aliases as-is",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts] preserves discord boolean streaming aliases as-is",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts:48] preserves discord boolean streaming aliases as-is",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts] preserves explicit discord streaming=false as-is",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts:62] preserves explicit discord streaming=false as-is",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts] preserves discord streamMode when legacy config resolves to off",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts:76] preserves discord streamMode when legacy config resolves to off",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts] preserves slack boolean streaming aliases as-is",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts:93] preserves slack boolean streaming aliases as-is",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.test.ts:93",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts] removes legacy browser relay bind host and migrates extension profiles",
+TEST_CASE("v4.29 [src/commands/doctor-legacy-config.test.ts:114] removes legacy browser relay bind host and migrates extension profiles",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-legacy-config.test.ts:114",
                "upstream it() block #5",

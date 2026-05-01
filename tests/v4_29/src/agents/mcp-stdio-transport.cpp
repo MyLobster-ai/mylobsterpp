@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts] starts stdio MCP servers in a disposable process group on POSIX",
+TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts:32] starts stdio MCP servers in a disposable process group on POSIX",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/mcp-stdio-transport.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts] kills the process tree when graceful stdio close does not exit",
+TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts:79] kills the process tree when graceful stdio close does not exit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/mcp-stdio-transport.test.ts:79",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts] does not kill the process tree when graceful stdio close exits",
+TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts:99] does not kill the process tree when graceful stdio close exits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/mcp-stdio-transport.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts] sends and receives JSON-RPC messages over stdio",
+TEST_CASE("v4.29 [src/agents/mcp-stdio-transport.test.ts:118] sends and receives JSON-RPC messages over stdio",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/mcp-stdio-transport.test.ts:118",
                "upstream it() block #3",

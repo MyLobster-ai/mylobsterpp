@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts] prefers metadata emoji and homepage when present",
+TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts:5] prefers metadata emoji and homepage when present",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/entry-metadata.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts] keeps metadata precedence even when metadata values are blank",
+TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts:17] keeps metadata precedence even when metadata values are blank",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/entry-metadata.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts] falls back through frontmatter homepage aliases and drops blanks",
+TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts:26] falls back through frontmatter homepage aliases and drops blanks",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/entry-metadata.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts] does not fall back once frontmatter homepage aliases are present but blank",
+TEST_CASE("v4.29 [src/shared/entry-metadata.test.ts:50] does not fall back once frontmatter homepage aliases are present but blank",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/entry-metadata.test.ts:50",
                "upstream it() block #3",

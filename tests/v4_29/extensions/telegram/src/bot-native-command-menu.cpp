@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] caps menu entries to Telegram limit",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:37] caps menu entries to Telegram limit",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] shortens descriptions before dropping commands to fit Telegram payload budget",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:56] shortens descriptions before dropping commands to fit Telegram payload budget",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] drops tail commands only when minimal descriptions still cannot fit the payload budget",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:77] drops tail commands only when minimal descriptions still cannot fit the payload budget",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] validates plugin command specs and reports conflicts",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:97] validates plugin command specs and reports conflicts",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] normalizes hyphenated plugin command names",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:122] normalizes hyphenated plugin command names",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:122",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] ignores malformed plugin specs without crashing",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:132] ignores malformed plugin specs without crashing",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:132",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] deletes stale commands before setting new menu",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:153] deletes stale commands before setting new menu",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:153",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] produces a stable hash regardless of command order (#32017)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:177] produces a stable hash regardless of command order (#32017)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:177",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] produces different hashes for different command lists (#32017)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:186] produces different hashes for different command lists (#32017)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:186",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] skips sync when command hash is unchanged (#32017)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:192] skips sync when command hash is unchanged (#32017)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:192",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] does not reuse cached hash across different bot identities",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:229] does not reuse cached hash across different bot identities",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:229",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] does not cache empty-menu hash when deleteMyCommands fails",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:257] does not cache empty-menu hash when deleteMyCommands fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:257",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts] retries with fewer commands on BOT_COMMANDS_TOO_MUCH",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-command-menu.test.ts:287] retries with fewer commands on BOT_COMMANDS_TOO_MUCH",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-command-menu.test.ts:287",
                "upstream it() block #12",

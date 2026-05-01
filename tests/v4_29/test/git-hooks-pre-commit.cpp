@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts] does not treat staged filenames as git-add flags (e.g. --all)",
+TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts:61] does not treat staged filenames as git-add flags (e.g. --all)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/git-hooks-pre-commit.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts] does not run the changed-scope check for non-doc staged changes",
+TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts:83] does not run the changed-scope check for non-doc staged changes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/git-hooks-pre-commit.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts] does not re-add staged paths that are ignored by the current .gitignore",
+TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts:106] does not re-add staged paths that are ignored by the current .gitignore",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/git-hooks-pre-commit.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts] ignores FAST_COMMIT because the hook is already formatting-only",
+TEST_CASE("v4.29 [test/git-hooks-pre-commit.test.ts:130] ignores FAST_COMMIT because the hook is already formatting-only",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/git-hooks-pre-commit.test.ts:130",
                "upstream it() block #3",

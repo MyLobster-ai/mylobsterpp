@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts] captures stage duration and elapsed time",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:9] captures stage duration and elapsed time",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts] warns only for very slow stage summaries by default",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:28] warns only for very slow stage summaries by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts] supports custom warning thresholds",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:44] supports custom warning thresholds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts] formats summaries compactly for logs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:56] formats summaries compactly for logs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt-stage-timing.test.ts:56",
                "upstream it() block #3",

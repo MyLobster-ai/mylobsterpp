@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] adds cron-specific deferred follow-up guidance only when cron is available",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:625] adds cron-specific deferred follow-up guidance only when cron is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:625",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] backgrounds after yield and can be polled",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:666] backgrounds after yield and can be polled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:666",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] supports explicit background and derives session name from the command",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:692] supports explicit background and derives session name from the command",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:692",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] scopes process sessions by scopeKey",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:711] scopes process sessions by scopeKey",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:711",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] treats non-zero exits as completed and appends exit code",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:733] treats non-zero exits as completed and appends exit code",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:733",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] enqueues a system event when a backgrounded exec exits",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:755] enqueues a system event when a backgrounded exec exits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:755",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] preserves the origin delivery context on background exec completion events",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:772] preserves the origin delivery context on background exec completion events",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:772",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] scopes notifyOnExit heartbeat wake to the exec session key",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:798] scopes notifyOnExit heartbeat wake to the exec session key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:798",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] keeps notifyOnExit heartbeat wake unscoped for non-agent session keys",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:805] keeps notifyOnExit heartbeat wake unscoped for non-agent session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:805",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] prepends configured path entries",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:817] prepends configured path entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:817",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] returns PATH when key is uppercase",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:843] returns PATH when key is uppercase",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:843",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] returns Path when key is mixed-case (Windows style)",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:847] returns Path when key is mixed-case (Windows style)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:847",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] returns PATH as default when no PATH-like key exists",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:851] returns PATH as default when no PATH-like key exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:851",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] prefers uppercase PATH when both PATH and Path exist",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:855] prefers uppercase PATH when both PATH and Path exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:855",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] prepends to Path key on Windows-style env (no uppercase PATH)",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:861] prepends to Path key on Windows-style env (no uppercase PATH)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:861",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] preserves all existing entries when prepending via Path key",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:870] preserves all existing entries when prepending via Path key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:870",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] respects requireExisting option with Path key",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:887] respects requireExisting option with Path key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:887",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] does not invoke onUpdate after the session is backgrounded",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:900] does not invoke onUpdate after the session is backgrounded",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:900",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] does not invoke onUpdate after the foreground exec process exits",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:927] does not invoke onUpdate after the foreground exec process exits",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:927",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.test.ts] suppresses onUpdate after abort signal fires",
+TEST_CASE("v4.29 [src/agents/bash-tools.test.ts:942] suppresses onUpdate after abort signal fires",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.test.ts:942",
                "upstream it() block #19",

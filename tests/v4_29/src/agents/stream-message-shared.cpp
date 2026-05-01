@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/stream-message-shared.test.ts] never returns an empty content array",
+TEST_CASE("v4.29 [src/agents/stream-message-shared.test.ts:14] never returns an empty content array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/stream-message-shared.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/stream-message-shared.test.ts] places only the sentinel in content and never echoes the raw error text",
+TEST_CASE("v4.29 [src/agents/stream-message-shared.test.ts:23] places only the sentinel in content and never echoes the raw error text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/stream-message-shared.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/stream-message-shared.test.ts] uses the same sentinel when errorMessage is blank",
+TEST_CASE("v4.29 [src/agents/stream-message-shared.test.ts:38] uses the same sentinel when errorMessage is blank",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/stream-message-shared.test.ts:38",
                "upstream it() block #2",

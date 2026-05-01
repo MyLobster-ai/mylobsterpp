@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns null for empty/default profiles",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:17] returns null for empty/default profiles",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns trimmed custom profiles",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:25] returns trimmed custom profiles",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:25",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns default label when no profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:32] returns default label when no profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns profile-specific label when profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:38] returns profile-specific label when profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns default service name when no profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:45] returns default service name when no profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns profile-specific service name when profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:51] returns profile-specific service name when profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns default task name when no profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:58] returns default task name when no profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:58",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns profile-specific task name when profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:64] returns profile-specific task name when profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:64",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns empty string when no profile is set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:71] returns empty string when no profile is set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:71",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns empty string for default profiles",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:75] returns empty string for default profiles",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:75",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns a hyphenated suffix for custom profiles",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:80] returns a hyphenated suffix for custom profiles",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:80",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] trims whitespace from profiles",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:84] trims whitespace from profiles",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:84",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] returns default description when no profile/version",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:90] returns default description when no profile/version",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:90",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] includes profile when set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:94] includes profile when set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:94",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] includes version when set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:100] includes version when set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:100",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] includes profile and version when set",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:106] includes profile and version when set",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:106",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] prefers explicit description override",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:114] prefers explicit description override",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:114",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] resolves version from explicit environment map",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:123] resolves version from explicit environment map",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:123",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/daemon/constants.test.ts] includes known pre-rebrand gateway unit names",
+TEST_CASE("v4.29 [src/daemon/constants.test.ts:134] includes known pre-rebrand gateway unit names",
           "[v4_29][parity_gap][daemon]") {
     PARITY_GAP("src/daemon/constants.test.ts:134",
                "upstream it() block #18",

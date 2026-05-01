@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] defaults groups and channels to message-tool-only delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:49] defaults groups and channels to message-tool-only delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] honors config and explicit requested mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:65] honors config and explicit requested mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] allows message-tool-only delivery for any source chat via global config",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:81] allows message-tool-only delivery for any source chat via global config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] lets group/channel config override the global visible reply mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:89] lets group/channel config override the global visible reply mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] treats native commands as explicit replies in groups",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:103] treats native commands as explicit replies in groups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] falls back to automatic when message tool is unavailable",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:113] falls back to automatic when message tool is unavailable",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:113",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] keeps message-tool-only delivery when message tool availability is unknown",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:139] keeps message-tool-only delivery when message tool availability is unknown",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:139",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] allows direct automatic delivery without suppressing typing",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:158] allows direct automatic delivery without suppressing typing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] suppresses automatic source delivery for default group turns without suppressing typing",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:177] suppresses automatic source delivery for default group turns without suppressing typing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:177",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] keeps native command replies visible in groups",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:196] keeps native command replies visible in groups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:196",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] keeps configured automatic group delivery visible",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:212] keeps configured automatic group delivery visible",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:212",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] supports explicit message-tool-only delivery for direct chats without suppressing typing",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:228] supports explicit message-tool-only delivery for direct chats without suppressing typing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:228",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] lets sendPolicy deny suppress delivery and typing",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:246] lets sendPolicy deny suppress delivery and typing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:246",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] keeps explicit typing suppression separate from delivery suppression",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:264] keeps explicit typing suppression separate from delivery suppression",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:264",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] keeps ACP child user delivery suppression separate from source delivery",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:281] keeps ACP child user delivery suppression separate from source delivery",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:281",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts] keeps delivery automatic when message-tool-only mode cannot send visibly",
+TEST_CASE("v4.29 [src/auto-reply/reply/source-reply-delivery-mode.test.ts:298] keeps delivery automatic when message-tool-only mode cannot send visibly",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/source-reply-delivery-mode.test.ts:298",
                "upstream it() block #15",

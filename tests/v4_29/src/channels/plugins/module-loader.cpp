@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts] prefers compiled bundled dist output when present",
+TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts:31] prefers compiled bundled dist output when present",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/module-loader.test.ts:31",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts] keeps dist-runtime path when compiled bundled output is absent",
+TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts:41] keeps dist-runtime path when compiled bundled output is absent",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/module-loader.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts] resolves plugin module candidates and picks the first existing extension",
+TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts:48] resolves plugin module candidates and picks the first existing extension",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/module-loader.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts] detects JavaScript module paths case-insensitively",
+TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts:66] detects JavaScript module paths case-insensitively",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/module-loader.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts] uses native require for eligible JavaScript modules before falling back to Jiti",
+TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts:72] uses native require for eligible JavaScript modules before falling back to Jiti",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/module-loader.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts] creates the runtime-supported Jiti boundary for Windows dist loads",
+TEST_CASE("v4.29 [src/channels/plugins/module-loader.test.ts:97] creates the runtime-supported Jiti boundary for Windows dist loads",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/module-loader.test.ts:97",
                "upstream it() block #5",

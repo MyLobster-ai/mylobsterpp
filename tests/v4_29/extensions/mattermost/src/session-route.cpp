@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts] builds direct-message routes for user targets",
+TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts:5] builds direct-message routes for user targets",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/session-route.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts] builds threaded channel routes for channel targets",
+TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts:23] builds threaded channel routes for channel targets",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/session-route.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts] recovers channel thread routes from currentSessionKey",
+TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts:44] recovers channel thread routes from currentSessionKey",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/session-route.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts] keeps explicit replyToId ahead of recovered currentSessionKey thread",
+TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts:60] keeps explicit replyToId ahead of recovered currentSessionKey thread",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/session-route.test.ts:60",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts] does not recover currentSessionKey threads for shared dmScope ",
+TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts:76] does not recover currentSessionKey threads for shared dmScope ",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/session-route.test.ts:76",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts] returns null when the target is empty after normalization",
+TEST_CASE("v4.29 [extensions/mattermost/src/session-route.test.ts:92] returns null when the target is empty after normalization",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/session-route.test.ts:92",
                "upstream it() block #5",

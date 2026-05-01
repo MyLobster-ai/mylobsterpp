@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] restarts login once on status 515 and completes",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:104] restarts login once on status 515 and completes",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:104",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] clears auth and reports a relink message when WhatsApp is logged out",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:132] clears auth and reports a relink message when WhatsApp is logged out",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] turns unexpected login cleanup failures into a normal login error",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:153] turns unexpected login cleanup failures into a normal login error",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:153",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] returns an unstable-auth result when creds flush does not settle",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:173] returns an unstable-auth result when creds flush does not settle",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:173",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] reports a recovered linked session when socket bootstrap restores auth without a QR",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:185] reports a recovered linked session when socket bootstrap restores auth without a QR",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:185",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] surfaces the latest QR after the socket rotates it",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:212] surfaces the latest QR after the socket rotates it",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:212",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] does not short-circuit on an existing QR when the waiter has no current QR image",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:245] does not short-circuit on an existing QR when the waiter has no current QR image",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:245",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] returns a terminal login result before a stale QR refresh",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:268] returns a terminal login result before a stale QR refresh",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:268",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] returns a terminal result when an older replaced waiter resolves without state",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:315] returns a terminal result when an older replaced waiter resolves without state",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:315",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] keeps an active login reusable while a rotated QR image renders",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:362] keeps an active login reusable while a rotated QR image renders",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:362",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] deduplicates initial QR rendering while the start path awaits the same image",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:407] deduplicates initial QR rendering while the start path awaits the same image",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:407",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts] returns the same rotated QR to concurrent waiters that share the same current image",
+TEST_CASE("v4.29 [extensions/whatsapp/src/login-qr.test.ts:436] returns the same rotated QR to concurrent waiters that share the same current image",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/login-qr.test.ts:436",
                "upstream it() block #11",

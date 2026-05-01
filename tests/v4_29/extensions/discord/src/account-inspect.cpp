@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts] prefers account token over channel token and strips Bot prefix",
+TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts:10] prefers account token over channel token and strips Bot prefix",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/account-inspect.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts] reports configured_unavailable for unresolved configured secret input",
+TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts:33] reports configured_unavailable for unresolved configured secret input",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/account-inspect.test.ts:33",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts] does not fall back when account token key exists but is missing",
+TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts:55] does not fall back when account token key exists but is missing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/account-inspect.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts] falls back to channel token when account token is absent",
+TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts:78] falls back to channel token when account token is absent",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/account-inspect.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts] allows env token only for default account",
+TEST_CASE("v4.29 [extensions/discord/src/account-inspect.test.ts:99] allows env token only for default account",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/account-inspect.test.ts:99",
                "upstream it() block #4",

@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] normalizes queries and escapes OData apostrophes",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:154] normalizes queries and escapes OData apostrophes",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:154",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] fetches Graph JSON and surfaces Graph errors with response text",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:160] fetches Graph JSON and surfaces Graph errors with response text",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:160",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] posts Graph JSON to v1 and beta roots and treats empty mutation responses as undefined",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:192] posts Graph JSON to v1 and beta roots and treats empty mutation responses as undefined",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:192",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] surfaces POST and DELETE graph failures with method-specific labels",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:238] surfaces POST and DELETE graph failures with method-specific labels",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:238",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] resolves Graph tokens through the SDK auth provider",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:265] resolves Graph tokens through the SDK auth provider",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:265",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] fails when credentials or access tokens are unavailable",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:274] fails when credentials or access tokens are unavailable",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:274",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] builds encoded Graph paths for teams and channels",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:286] builds encoded Graph paths for teams and channels",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:286",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] returns no graph users for blank queries",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:306] returns no graph users for blank queries",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:306",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] uses exact mail or UPN lookup for email-like graph user queries",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:312] uses exact mail or UPN lookup for email-like graph user queries",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:312",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] uses displayName search with eventual consistency and default top handling",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:324] uses displayName search with eventual consistency and default top handling",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:324",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] single page, no nextLink",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:366] single page, no nextLink",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:366",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] multiple pages with nextLink chain",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:379] multiple pages with nextLink chain",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:379",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] truncation at maxPages",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:410] truncation at maxPages",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:410",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] findOne early exit",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:431] findOne early exit",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:431",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] findOne with no match (exhausted)",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:468] findOne with no match (exhausted)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:468",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] findOne with no match (truncated)",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:482] findOne with no match (truncated)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:482",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts] empty first page",
+TEST_CASE("v4.29 [extensions/msteams/src/graph.test.ts:504] empty first page",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph.test.ts:504",
                "upstream it() block #16",

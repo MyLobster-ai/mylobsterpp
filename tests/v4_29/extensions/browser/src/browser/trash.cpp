@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] moves paths to a reserved user trash container without invoking a PATH-resolved command",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:37] moves paths to a reserved user trash container without invoking a PATH-resolved command",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] uses the resolved trash directory for reserved destinations",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:58] uses the resolved trash directory for reserved destinations",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] refuses to trash filesystem roots",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:84] refuses to trash filesystem roots",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] refuses to trash paths outside allowed roots",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:90] refuses to trash paths outside allowed roots",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:90",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] refuses to use a symlinked trash directory",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:98] refuses to use a symlinked trash directory",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:98",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] falls back to copy and remove when rename crosses filesystems",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:114] falls back to copy and remove when rename crosses filesystems",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] retries copy fallback when the copy destination is created concurrently",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:136] retries copy fallback when the copy destination is created concurrently",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:136",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts] retries with the same timestamp when the destination is created concurrently",
+TEST_CASE("v4.29 [extensions/browser/src/browser/trash.test.ts:182] retries with the same timestamp when the destination is created concurrently",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/trash.test.ts:182",
                "upstream it() block #7",

@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] uses thread session key for dm topics",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:67] uses thread session key for dm topics",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] uses the main session key when no thread id",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:82] uses the main session key when no thread id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:82",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] ignores message_thread_id for regular groups (not forums)",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:105] ignores message_thread_id for regular groups (not forums)",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] keeps same session for regular group with and without message_thread_id",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:124] keeps same session for regular group with and without message_thread_id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] uses topic session for forum groups with message_thread_id",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:148] uses topic session for forum groups with message_thread_id",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:148",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] surfaces topic name from reply_to_message forum metadata",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:164] surfaces topic name from reply_to_message forum metadata",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:164",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] handles forum messages without session runtime overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:182] handles forum messages without session runtime overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] reloads topic name from disk after cache reset",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:205] reloads topic name from disk after cache reset",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:205",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] persists topic names through the default session runtime path",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:251] persists topic names through the default session runtime path",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:251",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts] isolates dm sessions by sender id when chat id differs",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-message-context.dm-threads.test.ts:301] isolates dm sessions by sender id when chat id differs",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-message-context.dm-threads.test.ts:301",
                "upstream it() block #9",

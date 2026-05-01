@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/ui.test.ts] enables shell for Windows command launchers that require cmd.exe",
+TEST_CASE("v4.29 [test/scripts/ui.test.ts:9] enables shell for Windows command launchers that require cmd.exe",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ui.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ui.test.ts] does not enable shell for non-shell launchers",
+TEST_CASE("v4.29 [test/scripts/ui.test.ts:16] does not enable shell for non-shell launchers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ui.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ui.test.ts] quotes Windows shell launcher paths before passing them to spawn",
+TEST_CASE("v4.29 [test/scripts/ui.test.ts:21] quotes Windows shell launcher paths before passing them to spawn",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ui.test.ts:21",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ui.test.ts] allows safe forwarded args when shell mode is required on Windows",
+TEST_CASE("v4.29 [test/scripts/ui.test.ts:31] allows safe forwarded args when shell mode is required on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ui.test.ts:31",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ui.test.ts] rejects dangerous forwarded args when shell mode is required on Windows",
+TEST_CASE("v4.29 [test/scripts/ui.test.ts:37] rejects dangerous forwarded args when shell mode is required on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ui.test.ts:37",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/ui.test.ts] does not reject args on non-windows platforms",
+TEST_CASE("v4.29 [test/scripts/ui.test.ts:46] does not reject args on non-windows platforms",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/ui.test.ts:46",
                "upstream it() block #5",

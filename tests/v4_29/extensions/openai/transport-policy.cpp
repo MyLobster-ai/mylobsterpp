@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts] builds native turn state for direct OpenAI routes",
+TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts:29] builds native turn state for direct OpenAI routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/transport-policy.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts] skips turn state for proxy-like OpenAI routes",
+TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts:56] skips turn state for proxy-like OpenAI routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/transport-policy.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts] returns websocket session headers and cooldown for native routes",
+TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts:70] returns websocket session headers and cooldown for native routes",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/transport-policy.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts] treats Azure routes as native OpenAI-family transports",
+TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts:87] treats Azure routes as native OpenAI-family transports",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/transport-policy.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts] treats ChatGPT Codex backend routes as native OpenAI-family transports",
+TEST_CASE("v4.29 [extensions/openai/transport-policy.test.ts:108] treats ChatGPT Codex backend routes as native OpenAI-family transports",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/transport-policy.test.ts:108",
                "upstream it() block #4",

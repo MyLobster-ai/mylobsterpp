@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts] injects a strict empty --mcp-config overlay for bundle-MCP-enabled backends without servers",
+TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts:15] injects a strict empty --mcp-config overlay for bundle-MCP-enabled backends without servers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/bundle-mcp.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts] injects a merged --mcp-config overlay for bundle-MCP-enabled backends",
+TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts:44] injects a merged --mcp-config overlay for bundle-MCP-enabled backends",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/bundle-mcp.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts] loads workspace bundle MCP plugins from the configured workspace root",
+TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts:64] loads workspace bundle MCP plugins from the configured workspace root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/bundle-mcp.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts] merges loopback overlay config with bundle MCP servers",
+TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts:121] merges loopback overlay config with bundle MCP servers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/bundle-mcp.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts] preserves extra env values alongside generated MCP config",
+TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts:148] preserves extra env values alongside generated MCP config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/bundle-mcp.test.ts:148",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts] leaves args untouched when bundle MCP is disabled",
+TEST_CASE("v4.29 [src/agents/cli-runner/bundle-mcp.test.ts:176] leaves args untouched when bundle MCP is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner/bundle-mcp.test.ts:176",
                "upstream it() block #5",

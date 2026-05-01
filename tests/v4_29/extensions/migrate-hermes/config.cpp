@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/config.test.ts] plans provider, MCP, skill, and memory plugin config as plugin-owned items",
+TEST_CASE("v4.29 [extensions/migrate-hermes/config.test.ts:18] plans provider, MCP, skill, and memory plugin config as plugin-owned items",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/config.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/config.test.ts] applies mapped config items through the migration runtime config writer",
+TEST_CASE("v4.29 [extensions/migrate-hermes/config.test.ts:115] applies mapped config items through the migration runtime config writer",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/config.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/migrate-hermes/config.test.ts] uses the provider runtime for CLI-applied config items",
+TEST_CASE("v4.29 [extensions/migrate-hermes/config.test.ts:179] uses the provider runtime for CLI-applied config items",
           "[v4_29][parity_gap][migrate-hermes]") {
     PARITY_GAP("extensions/migrate-hermes/config.test.ts:179",
                "upstream it() block #2",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/argv.test.ts] extracts command path while skipping known root option values",
+TEST_CASE("v4.29 [src/cli/argv.test.ts:231] extracts command path while skipping known root option values",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/argv.test.ts:231",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/argv.test.ts] extracts routed config get positionals with interleaved root options",
+TEST_CASE("v4.29 [src/cli/argv.test.ts:250] extracts routed config get positionals with interleaved root options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/argv.test.ts:250",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/argv.test.ts] extracts routed config unset positionals with interleaved root options",
+TEST_CASE("v4.29 [src/cli/argv.test.ts:262] extracts routed config unset positionals with interleaved root options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/argv.test.ts:262",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/argv.test.ts] returns null when routed command sees unknown options",
+TEST_CASE("v4.29 [src/cli/argv.test.ts:273] returns null when routed command sees unknown options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/argv.test.ts:273",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/argv.test.ts] parses verbose flags",
+TEST_CASE("v4.29 [src/cli/argv.test.ts:352] parses verbose flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/argv.test.ts:352",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/argv.test.ts] builds parse argv from fallback args",
+TEST_CASE("v4.29 [src/cli/argv.test.ts:459] builds parse argv from fallback args",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/argv.test.ts:459",
                "upstream it() block #5",

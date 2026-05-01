@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] rejects webhook mode without verificationToken",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:97] rejects webhook mode without verificationToken",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] rejects webhook mode without encryptKey",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:111] rejects webhook mode without encryptKey",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:111",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] refuses to start the webhook transport without encryptKey",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:124] refuses to start the webhook transport without encryptKey",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:124",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] returns 415 for POST requests without json content type",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:151] returns 415 for POST requests without json content type",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:151",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] rejects oversized unsigned webhook bodies with 413 before signature verification",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:174] rejects oversized unsigned webhook bodies with 413 before signature verification",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] drops slow-body webhook requests within the tightened pre-auth timeout",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:197] drops slow-body webhook requests within the tightened pre-auth timeout",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:197",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] rate limits webhook burst traffic with 429",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:216] rate limits webhook burst traffic with 429",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:216",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] caps tracked webhook rate-limit keys to prevent unbounded growth",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:246] caps tracked webhook rate-limit keys to prevent unbounded growth",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:246",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts] prunes stale webhook rate-limit state after window elapses",
+TEST_CASE("v4.29 [extensions/feishu/src/monitor.webhook-security.test.ts:254] prunes stale webhook rate-limit state after window elapses",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/monitor.webhook-security.test.ts:254",
                "upstream it() block #8",

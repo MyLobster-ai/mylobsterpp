@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] formats token counts",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:41] formats token counts",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] formats USD values",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:50] formats USD values",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] resolves model cost config and estimates usage cost",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:56] resolves model cost config and estimates usage cost",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] returns undefined when model pricing is not configured",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:93] returns undefined when model pricing is not configured",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:93",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] prefers models.json pricing over openclaw config and cached pricing",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:109] prefers models.json pricing over openclaw config and cached pricing",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:109",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] falls back to openclaw config pricing when models.json is absent",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:168] falls back to openclaw config pricing when models.json is absent",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] falls back to cached gateway pricing when no configured cost exists",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:206] falls back to cached gateway pricing when no configured cost exists",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:206",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] can skip plugin-backed model normalization for display-only cost lookup",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:228] can skip plugin-backed model normalization for display-only cost lookup",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:228",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] uses flat pricing when tieredPricing is absent",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:263] uses flat pricing when tieredPricing is absent",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:263",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] estimates cost with single-tier tiered pricing (equivalent to flat)",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:272] estimates cost with single-tier tiered pricing (equivalent to flat)",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:272",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] uses the matching context tier instead of blending lower tiers",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:285] uses the matching context tier instead of blending lower tiers",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:285",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] estimates cost with three tiers — volcengine-style pricing",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:303] estimates cost with three tiers — volcengine-style pricing",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:303",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] uses first tier rates for output when input is zero",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:324] uses first tier rates for output when input is zero",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:324",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] falls back to flat pricing when tieredPricing is empty array",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:339] falls back to flat pricing when tieredPricing is empty array",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:339",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] bills overflow input tokens at last tier rate when input exceeds max range",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:354] bills overflow input tokens at last tier rate when input exceeds max range",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:354",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] bills overflow at last tier when only a single small-range tier exists (e.g. <30K)",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:374] bills overflow at last tier when only a single small-range tier exists (e.g. <30K)",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:374",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] supports open-ended range [start] in tiered pricing (greater-than syntax)",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:390] supports open-ended range [start] in tiered pricing (greater-than syntax)",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:390",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] uses declared tier ranges instead of sequential widths",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:407] uses declared tier ranges instead of sequential widths",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:407",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] bills malformed tier gaps at a whole-request fallback tier",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:422] bills malformed tier gaps at a whole-request fallback tier",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:422",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] normalizes open-ended range from models.json ([start] and [start, -1])",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:437] normalizes open-ended range from models.json ([start] and [start, -1])",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:437",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] resolves tiered pricing from models.json",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:500] resolves tiered pricing from models.json",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:500",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils/usage-format.test.ts] resolves tiered pricing from cached gateway (LiteLLM)",
+TEST_CASE("v4.29 [src/utils/usage-format.test.ts:548] resolves tiered pricing from cached gateway (LiteLLM)",
           "[v4_29][parity_gap][utils]") {
     PARITY_GAP("src/utils/usage-format.test.ts:548",
                "upstream it() block #21",

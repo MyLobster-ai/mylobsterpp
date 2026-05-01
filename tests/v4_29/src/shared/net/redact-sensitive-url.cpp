@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] redacts userinfo and sensitive query params from valid URLs",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:12] redacts userinfo and sensitive query params from valid URLs",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] treats query param names case-insensitively",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:18] treats query param names case-insensitively",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] keeps non-sensitive URLs unchanged",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:24] keeps non-sensitive URLs unchanged",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] redacts invalid URL-like strings",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:32] redacts invalid URL-like strings",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:32",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] redacts protocol URLs that are too malformed to parse",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:38] redacts protocol URLs that are too malformed to parse",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:38",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] matches the auth-oriented query params used by MCP SSE config redaction",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:48] matches the auth-oriented query params used by MCP SSE config redaction",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:48",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] recognizes config paths that may embed URL secrets",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:60] recognizes config paths that may embed URL secrets",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:60",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] recognizes cdpUrl config paths as sensitive (browser CDP URLs can embed credentials)",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:66] recognizes cdpUrl config paths as sensitive (browser CDP URLs can embed credentials)",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:66",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts] uses an explicit url-secret hint tag",
+TEST_CASE("v4.29 [src/shared/net/redact-sensitive-url.test.ts:72] uses an explicit url-secret hint tag",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/net/redact-sensitive-url.test.ts:72",
                "upstream it() block #8",

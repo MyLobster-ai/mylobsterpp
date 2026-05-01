@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves repo root from src argv1",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:99] resolves repo root from src argv1",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves repo root by traversing up (dist argv1)",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:107] resolves repo root by traversing up (dist argv1)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves dist control-ui index path for dist argv1",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:116] resolves dist control-ui index path for dist argv1",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves dist control-ui index path for symlinked argv1 via realpath",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:124] resolves dist control-ui index path for symlinked argv1 via realpath",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:124",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] uses resolveOpenClawPackageRoot when available",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:136] uses resolveOpenClawPackageRoot when available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] falls back to package.json name matching when root resolution fails",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:147] falls back to package.json name matching when root resolution fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:147",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] returns null when fallback package name does not match",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:157] returns null when fallback package name does not match",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:157",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] reports health for missing + existing dist assets",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:165] reports health for missing + existing dist assets",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:165",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves control-ui root from override file or directory",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:181] resolves control-ui root from override file or directory",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:181",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves control-ui root for dist bundle argv1 and moduleUrl candidates",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:194] resolves control-ui root for dist bundle argv1 and moduleUrl candidates",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:194",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] prefers packaged app Control UI assets in Contents/Resources",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:213] prefers packaged app Control UI assets in Contents/Resources",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:213",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] resolves control-ui root for symlinked argv1 via realpath",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:223] resolves control-ui root for symlinked argv1 via realpath",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:223",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] detects package-proven control-ui roots",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:235] detects package-proven control-ui roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:235",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts] does not treat fallback roots as package-proven",
+TEST_CASE("v4.29 [src/infra/control-ui-assets.test.ts:251] does not treat fallback roots as package-proven",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/control-ui-assets.test.ts:251",
                "upstream it() block #13",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] uses live origin context for normal providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:13] uses live origin context for normal providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] does not use persisted fallbacks for normal providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:40] does not use persisted fallbacks for normal providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] prefers live origin context for exec-event replies",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:62] prefers live origin context for exec-event replies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] falls back to deliveryContext for exec-event replies",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:89] falls back to deliveryContext for exec-event replies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] falls back to legacy last route fields for exec-event replies",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:111] falls back to legacy last route fields for exec-event replies",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:111",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] fills partial exec-event route from persisted context",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:128] fills partial exec-event route from persisted context",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts] recognizes persisted-delivery event providers",
+TEST_CASE("v4.29 [src/auto-reply/reply/effective-reply-route.test.ts:153] recognizes persisted-delivery event providers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/effective-reply-route.test.ts:153",
                "upstream it() block #6",

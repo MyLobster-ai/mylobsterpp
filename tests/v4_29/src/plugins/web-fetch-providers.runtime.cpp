@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] falls back to the plugin loader when no compatible active registry exists",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:128] falls back to the plugin loader when no compatible active registry exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:128",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] loads manifest-declared web-fetch providers in setup mode without the plugin loader",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:137] loads manifest-declared web-fetch providers in setup mode without the plugin loader",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:137",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] does not force a fresh snapshot load when the same web-provider load is already in flight",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:149] does not force a fresh snapshot load when the same web-provider load is already in flight",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:149",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] reuses a compatible active registry for snapshot resolution when config is provided",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:176] reuses a compatible active registry for snapshot resolution when config is provided",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:176",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] inherits workspaceDir from the active registry for compatible web-fetch snapshot reuse",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:212] inherits workspaceDir from the active registry for compatible web-fetch snapshot reuse",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:212",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] uses the active registry workspace for candidate discovery when workspaceDir is omitted",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:248] uses the active registry workspace for candidate discovery when workspaceDir is omitted",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:248",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts] resolves web-fetch providers for each active registry workspace",
+TEST_CASE("v4.29 [src/plugins/web-fetch-providers.runtime.test.ts:278] resolves web-fetch providers for each active registry workspace",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/web-fetch-providers.runtime.test.ts:278",
                "upstream it() block #6",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts] matches targets by channel and account",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts:10] matches targets by channel and account",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-client-helpers.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts] normalizes the requested channel id before matching targets",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts:45] normalizes the requested channel id before matching targets",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-client-helpers.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts] requires explicit enablement when approvers exist",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts:80] requires explicit enablement when approvers exist",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-client-helpers.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts] reuses shared client, auth, and request-filter logic",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts:111] reuses shared client, auth, and request-filter logic",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-client-helpers.test.ts:111",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts] supports local prompt suppression without requiring the client to be enabled",
+TEST_CASE("v4.29 [src/plugin-sdk/approval-client-helpers.test.ts:152] supports local prompt suppression without requiring the client to be enabled",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/approval-client-helpers.test.ts:152",
                "upstream it() block #4",

@@ -5,222 +5,222 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists thinkingLevel=off (does not clear)",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:114] persists thinkingLevel=off (does not clear)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:114",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] clears thinkingLevel when patch sets null",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:123] clears thinkingLevel when patch sets null",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:123",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists reasoningLevel=off (does not clear)",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:136] persists reasoningLevel=off (does not clear)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:136",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] clears reasoningLevel when patch sets null",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:145] clears reasoningLevel when patch sets null",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists fastMode=false (does not clear)",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:158] persists fastMode=false (does not clear)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists fastMode=true",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:167] persists fastMode=true",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:167",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] clears fastMode when patch sets null",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:176] clears fastMode when patch sets null",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:176",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists verboseLevel=full",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:189] persists verboseLevel=full",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:189",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects invalid verboseLevel values with all valid choices in the error",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:198] rejects invalid verboseLevel values with all valid choices in the error",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:198",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists elevatedLevel=off (does not clear)",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:205] persists elevatedLevel=off (does not clear)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:205",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] persists elevatedLevel=on",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:214] persists elevatedLevel=on",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:214",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] clears elevatedLevel when patch sets null",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:223] clears elevatedLevel when patch sets null",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:223",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects invalid elevatedLevel values",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:236] rejects invalid elevatedLevel values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:236",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] clears auth overrides when model patch changes",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:243] clears auth overrides when model patch changes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:243",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] marks explicit model patches as pending live model switches",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:271] marks explicit model patches as pending live model switches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:271",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] marks model reset patches as pending live model switches",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:297] marks model reset patches as pending live model switches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:297",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] sets spawnDepth for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:346] sets spawnDepth for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:346",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] validates thinking patches with live catalog reasoning metadata",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:356] validates thinking patches with live catalog reasoning metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:356",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] accepts xhigh thinking patches from configured catalog compat",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:403] accepts xhigh thinking patches from configured catalog compat",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:403",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] sets spawnedBy for ACP sessions",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:432] sets spawnedBy for ACP sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:432",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] sets spawnedWorkspaceDir for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:445] sets spawnedWorkspaceDir for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:445",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] sets spawnDepth for ACP sessions",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:458] sets spawnDepth for ACP sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:458",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects spawnDepth on non-subagent sessions",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:468] rejects spawnDepth on non-subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:468",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects spawnedWorkspaceDir on non-subagent sessions",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:475] rejects spawnedWorkspaceDir on non-subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:475",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] normalizes exec/send/group patches",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:482] normalizes exec/send/group patches",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:482",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects invalid execHost values",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:504] rejects invalid execHost values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:504",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects invalid sendPolicy values",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:511] rejects invalid sendPolicy values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:511",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] rejects invalid groupActivation values",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:518] rejects invalid groupActivation values",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:518",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] allows target agent own model for subagent session even when missing from global allowlist",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:525] allows target agent own model for subagent session even when missing from global allowlist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:525",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] allows target agent subagents.model for subagent session even when missing from global allowlist",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:536] allows target agent subagents.model for subagent session even when missing from global allowlist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:536",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts] allows global defaults.subagents.model for subagent session even when missing from global allowlist",
+TEST_CASE("v4.29 [src/gateway/sessions-patch.test.ts:547] allows global defaults.subagents.model for subagent session even when missing from global allowlist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/sessions-patch.test.ts:547",
                "upstream it() block #30",

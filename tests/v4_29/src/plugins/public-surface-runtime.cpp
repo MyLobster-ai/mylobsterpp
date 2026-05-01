@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts] exports the canonical public surface source extension list",
+TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts:28] exports the canonical public surface source extension list",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-runtime.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts] resolves source public surfaces from the shared extension list",
+TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts:39] resolves source public surfaces from the shared extension list",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-runtime.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts] falls back from package dist overrides to the source extension tree",
+TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts:54] falls back from package dist overrides to the source extension tree",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-runtime.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts] allows plugin-local nested artifact paths",
+TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts:73] allows plugin-local nested artifact paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-runtime.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts] rejects artifact paths that escape the plugin root",
+TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts:80] rejects artifact paths that escape the plugin root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-runtime.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts] rejects bundled plugin directory traversal",
+TEST_CASE("v4.29 [src/plugins/public-surface-runtime.test.ts:101] rejects bundled plugin directory traversal",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/public-surface-runtime.test.ts:101",
                "upstream it() block #5",

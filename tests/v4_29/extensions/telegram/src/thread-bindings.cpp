@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] registers a telegram binding adapter and binds current conversations",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:91] registers a telegram binding adapter and binds current conversations",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:91",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] rejects child placement when conversationId is a bare topic ID with no group context",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:120] rejects child placement when conversationId is a bare topic ID with no group context",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] rejects child placement when parentConversationId is also a bare topic ID",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:143] rejects child placement when parentConversationId is also a bare topic ID",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:143",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] shares binding state across distinct module instances",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:167] shares binding state across distinct module instances",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:167",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] updates lifecycle windows by session key",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:216] updates lifecycle windows by session key",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] does not persist lifecycle updates when manager persistence is disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:260] does not persist lifecycle updates when manager persistence is disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:260",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] persists unbinds before restart so removed bindings do not come back",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:301] persists unbinds before restart so removed bindings do not come back",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:301",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] cleans up stale ACP bindings before restart routing can reuse them",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:337] cleans up stale ACP bindings before restart routing can reuse them",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:337",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] keeps plugin-owned bindings when ACP cleanup runs on startup",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:391] keeps plugin-owned bindings when ACP cleanup runs on startup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:391",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] keeps ACP bindings when the session store cannot be read during startup cleanup",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:425] keeps ACP bindings when the session store cannot be read during startup cleanup",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:425",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] flushes pending lifecycle update persists before test reset",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:467] flushes pending lifecycle update persists before test reset",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:467",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts] does not leak unhandled rejections when a persist write fails",
+TEST_CASE("v4.29 [extensions/telegram/src/thread-bindings.test.ts:508] does not leak unhandled rejections when a persist write fails",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/thread-bindings.test.ts:508",
                "upstream it() block #11",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts] prefers env keyRef marker over runtime plaintext for persistence",
+TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:37] prefers env keyRef marker over runtime plaintext for persistence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts] uses non-env marker for non-env keyRef cloudflare profiles",
+TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:59] uses non-env marker for non-env keyRef cloudflare profiles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts] keeps Cloudflare gateway metadata and apiKey from the same auth profile",
+TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:75] keeps Cloudflare gateway metadata and apiKey from the same auth profile",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:75",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts] prefers the runtime env marker over stored profile secrets",
+TEST_CASE("v4.29 [src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:91] prefers the runtime env marker over stored profile secrets",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.providers.cloudflare-ai-gateway.test.ts:91",
                "upstream it() block #3",

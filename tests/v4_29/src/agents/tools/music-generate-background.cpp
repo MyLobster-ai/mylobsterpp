@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts] creates a running task with queued progress text",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts:34] creates a running task with queued progress text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-background.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts] records task progress updates",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts:62] records task progress updates",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-background.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts] queues a completion event by default when direct send is disabled",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts:80] queues a completion event by default when direct send is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-background.test.ts:80",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts] delivers completed music directly to the requester channel when enabled",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts:99] delivers completed music directly to the requester channel when enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-background.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts] falls back to a music-generation completion event when direct delivery fails",
+TEST_CASE("v4.29 [src/agents/tools/music-generate-background.test.ts:125] falls back to a music-generation completion event when direct delivery fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/music-generate-background.test.ts:125",
                "upstream it() block #4",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts] resolves direct reply runs before early helpers read config",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts:136] resolves direct reply runs before early helpers read config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts:136",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts] passes the derived runtime-policy key to pre-run maintenance",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts:175] passes the derived runtime-policy key to pre-run maintenance",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts:175",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts] does not resolve secrets before the enqueue-followup queue path",
+TEST_CASE("v4.29 [src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts:204] does not resolve secrets before the enqueue-followup queue path",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/agent-runner-direct-runtime-config.test.ts:204",
                "upstream it() block #2",

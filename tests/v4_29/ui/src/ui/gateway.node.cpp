@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] requests the full control ui operator scope bundle on connect",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:227] requests the full control ui operator scope bundle on connect",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:227",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] prefers explicit shared auth over cached device tokens",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:239] prefers explicit shared auth over cached device tokens",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:239",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] sends explicit shared token on insecure first connect without cached device fallback",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:256] sends explicit shared token on insecure first connect without cached device fallback",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:256",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] sends explicit shared password on insecure first connect without cached device fallback",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:276] sends explicit shared password on insecure first connect without cached device fallback",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:276",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] uses cached device tokens only when no explicit shared auth is provided",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:296] uses cached device tokens only when no explicit shared auth is provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:296",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] ignores cached operator device tokens that do not include read access",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:311] ignores cached operator device tokens that do not include read access",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:311",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] retries once with device token after token mismatch when shared token is explicit",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:332] retries once with device token after token mismatch when shared token is explicit",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:332",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] retries startup-unavailable connect responses without terminal callbacks",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:360] retries startup-unavailable connect responses without terminal callbacks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:360",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] treats IPv6 loopback as trusted for bounded device-token retry",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:401] treats IPv6 loopback as trusted for bounded device-token retry",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:401",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] continues reconnecting on first token mismatch when no retry was attempted",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:412] continues reconnecting on first token mismatch when no retry was attempted",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:412",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] cancels a queued connect send when stopped before the timeout fires",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:443] cancels a queued connect send when stopped before the timeout fires",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:443",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] does not send stale connect frames on a replacement socket",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:463] does not send stale connect frames on a replacement socket",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:463",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] cancels a scheduled reconnect when stopped before the retry fires",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:513] cancels a scheduled reconnect when stopped before the retry fires",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:513",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] does not auto-reconnect on AUTH_TOKEN_MISSING",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:533] does not auto-reconnect on AUTH_TOKEN_MISSING",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:533",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] clears stale stored device tokens and does not reconnect on AUTH_DEVICE_TOKEN_MISMATCH",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:562] clears stale stored device tokens and does not reconnect on AUTH_DEVICE_TOKEN_MISMATCH",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:562",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] allows a bounded retry for trusted loopback endpoints",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:602] allows a bounded retry for trusted loopback endpoints",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:602",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts] blocks the retry after the one-shot budget is spent",
+TEST_CASE("v4.29 [ui/src/ui/gateway.node.test.ts:620] blocks the retry after the one-shot budget is spent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/gateway.node.test.ts:620",
                "upstream it() block #16",

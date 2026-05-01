@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/utils.test.ts] creates nested directory",
+TEST_CASE("v4.29 [src/utils.test.ts:16] creates nested directory",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] resolves after delay using fake timers",
+TEST_CASE("v4.29 [src/utils.test.ts:26] resolves after delay using fake timers",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] prefers ~/.openclaw when legacy dir is missing",
+TEST_CASE("v4.29 [src/utils.test.ts:39] prefers ~/.openclaw when legacy dir is missing",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:39",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] expands OPENCLAW_STATE_DIR using the provided env",
+TEST_CASE("v4.29 [src/utils.test.ts:48] expands OPENCLAW_STATE_DIR using the provided env",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] falls back to the config file directory when only OPENCLAW_CONFIG_PATH is set",
+TEST_CASE("v4.29 [src/utils.test.ts:57] falls back to the config file directory when only OPENCLAW_CONFIG_PATH is set",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] prefers OPENCLAW_HOME over HOME",
+TEST_CASE("v4.29 [src/utils.test.ts:68] prefers OPENCLAW_HOME over HOME",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:68",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] uses $OPENCLAW_HOME prefix when OPENCLAW_HOME is set",
+TEST_CASE("v4.29 [src/utils.test.ts:80] uses $OPENCLAW_HOME prefix when OPENCLAW_HOME is set",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:80",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] uses $OPENCLAW_HOME replacement when OPENCLAW_HOME is set",
+TEST_CASE("v4.29 [src/utils.test.ts:94] uses $OPENCLAW_HOME replacement when OPENCLAW_HOME is set",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:94",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] expands ~ to home dir",
+TEST_CASE("v4.29 [src/utils.test.ts:110] expands ~ to home dir",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:110",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] expands ~/ to home dir",
+TEST_CASE("v4.29 [src/utils.test.ts:114] expands ~/ to home dir",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:114",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] resolves relative paths",
+TEST_CASE("v4.29 [src/utils.test.ts:120] resolves relative paths",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:120",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] prefers OPENCLAW_HOME for tilde expansion",
+TEST_CASE("v4.29 [src/utils.test.ts:124] prefers OPENCLAW_HOME for tilde expansion",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:124",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] uses the provided env for tilde expansion",
+TEST_CASE("v4.29 [src/utils.test.ts:134] uses the provided env for tilde expansion",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:134",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] keeps blank paths blank",
+TEST_CASE("v4.29 [src/utils.test.ts:143] keeps blank paths blank",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:143",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/utils.test.ts] returns empty string for undefined/null input",
+TEST_CASE("v4.29 [src/utils.test.ts:148] returns empty string for undefined/null input",
           "[v4_29][parity_gap][utils.test.ts]") {
     PARITY_GAP("src/utils.test.ts:148",
                "upstream it() block #14",

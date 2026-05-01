@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/agent.session.test.ts] creates a stable session key for explicit session-id-only runs",
+TEST_CASE("v4.29 [src/commands/agent.session.test.ts:69] creates a stable session key for explicit session-id-only runs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.session.test.ts:69",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.session.test.ts] uses the resumed session agent scope when sessionId resolves to another agent store",
+TEST_CASE("v4.29 [src/commands/agent.session.test.ts:81] uses the resumed session agent scope when sessionId resolves to another agent store",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.session.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.session.test.ts] resolves duplicate cross-agent sessionIds deterministically",
+TEST_CASE("v4.29 [src/commands/agent.session.test.ts:93] resolves duplicate cross-agent sessionIds deterministically",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.session.test.ts:93",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.session.test.ts] uses origin.provider for channel-specific session reset overrides",
+TEST_CASE("v4.29 [src/commands/agent.session.test.ts:122] uses origin.provider for channel-specific session reset overrides",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.session.test.ts:122",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/agent.session.test.ts] forwards resolved outbound session context when resuming by sessionId",
+TEST_CASE("v4.29 [src/commands/agent.session.test.ts:148] forwards resolved outbound session context when resuming by sessionId",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/agent.session.test.ts:148",
                "upstream it() block #4",

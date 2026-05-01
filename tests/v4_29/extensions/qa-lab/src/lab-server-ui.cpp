@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts] detects basic UI asset content types",
+TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts:21] detects basic UI asset content types",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/lab-server-ui.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts] renders the missing-ui placeholder html",
+TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts:28] renders the missing-ui placeholder html",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/lab-server-ui.test.ts:28",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts] hashes built UI assets and changes when bundle contents change",
+TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts:33] hashes built UI assets and changes when bundle contents change",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/lab-server-ui.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts] never resolves sibling files outside the UI dist root",
+TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts:58] never resolves sibling files outside the UI dist root",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/lab-server-ui.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts] rejects malformed percent-encoded UI asset paths",
+TEST_CASE("v4.29 [extensions/qa-lab/src/lab-server-ui.test.ts:78] rejects malformed percent-encoded UI asset paths",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/lab-server-ui.test.ts:78",
                "upstream it() block #4",

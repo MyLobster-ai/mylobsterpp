@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts] allows when policy is open",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts:5] allows when policy is open",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts] blocks when policy is disabled",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts:15] blocks when policy is disabled",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts] blocks allowlist when empty",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts:25] blocks allowlist when empty",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.test.ts:25",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts] allows allowlist when sender matches",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts:35] allows allowlist when sender matches",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts] allows allowlist wildcard",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts:45] allows allowlist wildcard",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts] allows allowlist when uuid sender matches",
+TEST_CASE("v4.29 [extensions/signal/src/monitor.test.ts:55] allows allowlist when uuid sender matches",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/monitor.test.ts:55",
                "upstream it() block #5",

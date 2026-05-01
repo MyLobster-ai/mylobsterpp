@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/client.test.ts] uses explicit token without resolving config token SecretRefs",
+TEST_CASE("v4.29 [extensions/discord/src/client.test.ts:9] uses explicit token without resolving config token SecretRefs",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.test.ts] keeps account retry config when explicit token is provided",
+TEST_CASE("v4.29 [extensions/discord/src/client.test.ts:29] keeps account retry config when explicit token is provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/client.test.ts] still throws when no explicit token is provided and config token is unresolved",
+TEST_CASE("v4.29 [extensions/discord/src/client.test.ts:61] still throws when no explicit token is provided and config token is unresolved",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/client.test.ts:61",
                "upstream it() block #2",

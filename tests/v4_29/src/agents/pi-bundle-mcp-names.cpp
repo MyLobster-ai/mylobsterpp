@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-names.test.ts] sanitizes and disambiguates server names",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-names.test.ts:10] sanitizes and disambiguates server names",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-names.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-names.test.ts] builds provider-safe tool names and avoids collisions",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-names.test.ts:17] builds provider-safe tool names and avoids collisions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-names.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-names.test.ts] truncates overlong tool names while keeping the server prefix",
+TEST_CASE("v4.29 [src/agents/pi-bundle-mcp-names.test.ts:28] truncates overlong tool names while keeping the server prefix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-bundle-mcp-names.test.ts:28",
                "upstream it() block #2",

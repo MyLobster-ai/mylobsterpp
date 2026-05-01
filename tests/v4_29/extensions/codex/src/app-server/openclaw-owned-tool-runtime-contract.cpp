@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] wraps unwrapped dynamic tools with before/after tool hooks",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:28] wraps unwrapped dynamic tools with before/after tool hooks",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] runs tool_result middleware before after_tool_call observes the result",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:100] runs tool_result middleware before after_tool_call observes the result",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:100",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] fails closed when before_tool_call blocks a dynamic tool",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:167] fails closed when before_tool_call blocks a dynamic tool",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:167",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] reports dynamic tool execution errors through after_tool_call",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:224] reports dynamic tool execution errors through after_tool_call",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:224",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] records successful Codex messaging text, media, and target telemetry",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:272] records successful Codex messaging text, media, and target telemetry",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:272",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] records successful Codex media artifacts from tool results",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:332] records successful Codex media artifacts from tool results",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:332",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts] does not double-wrap dynamic tools that already have before_tool_call",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:380] does not double-wrap dynamic tools that already have before_tool_call",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/openclaw-owned-tool-runtime-contract.test.ts:380",
                "upstream it() block #6",

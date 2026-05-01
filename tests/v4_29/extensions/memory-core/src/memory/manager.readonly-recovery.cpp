@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] reopens sqlite and retries once when sync hits SQLITE_READONLY",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:160] reopens sqlite and retries once when sync hits SQLITE_READONLY",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:160",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] reopens sqlite and retries when readonly appears in error code",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:167] reopens sqlite and retries when readonly appears in error code",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:167",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] does not retry non-readonly sync errors",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:174] does not retry non-readonly sync errors",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:174",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] clears the degraded warning latch before retrying",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:189] clears the degraded warning latch before retrying",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:189",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] prefers reopened vector dims when metadata is available",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:202] prefers reopened vector dims when metadata is available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:202",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] sets busy_timeout on memory sqlite connections",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:216] sets busy_timeout on memory sqlite connections",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:216",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] queues targeted session files behind an in-flight sync",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:226] queues targeted session files behind an in-flight sync",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:226",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] merges repeated queued requests while the active sync is still running",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:252] merges repeated queued requests while the active sync is still running",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:252",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts] falls back to the active sync when no usable session files were queued",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:280] falls back to the active sync when no usable session files were queued",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/manager.readonly-recovery.test.ts:280",
                "upstream it() block #8",

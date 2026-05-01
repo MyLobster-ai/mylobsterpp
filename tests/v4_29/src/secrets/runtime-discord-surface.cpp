@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] fails when non-default Discord account inherits an unresolved top-level token ref",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:12] fails when non-default Discord account inherits an unresolved top-level token ref",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] treats top-level Discord token refs as inactive when account token is explicitly blank",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:38] treats top-level Discord token refs as inactive when account token is explicitly blank",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] treats Discord PluralKit token refs as inactive when PluralKit is disabled",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:70] treats Discord PluralKit token refs as inactive when PluralKit is disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] treats Discord voice TTS refs as inactive when voice is disabled",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:101] treats Discord voice TTS refs as inactive when voice is disabled",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] handles Discord nested inheritance for enabled and disabled accounts",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:167] handles Discord nested inheritance for enabled and disabled accounts",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:167",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] skips top-level Discord voice refs when all enabled accounts override nested voice config",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:271] skips top-level Discord voice refs when all enabled accounts override nested voice config",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:271",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts] fails when an enabled Discord account override has an unresolved nested ref",
+TEST_CASE("v4.29 [src/secrets/runtime-discord-surface.test.ts:334] fails when an enabled Discord account override has an unresolved nested ref",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-discord-surface.test.ts:334",
                "upstream it() block #6",

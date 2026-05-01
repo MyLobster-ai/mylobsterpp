@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] generates a token when the prompt returns undefined",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:102] generates a token when the prompt returns undefined",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] does not set password to literal ",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:112] does not set password to literal ",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:112",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] prompts for trusted-proxy configuration when trusted-proxy mode selected",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:123] prompts for trusted-proxy configuration when trusted-proxy mode selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:123",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] handles trusted-proxy with no optional fields",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:144] handles trusted-proxy with no optional fields",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:144",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] forces tailscale off when trusted-proxy is selected",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:158] forces tailscale off when trusted-proxy is selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:158",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] adds Tailscale origin to controlUi.allowedOrigins when tailscale serve is enabled",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:168] adds Tailscale origin to controlUi.allowedOrigins when tailscale serve is enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] adds Tailscale origin to controlUi.allowedOrigins when tailscale funnel is enabled",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:182] adds Tailscale origin to controlUi.allowedOrigins when tailscale funnel is enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:182",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] does not add Tailscale origin when getTailnetHostname fails",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:196] does not add Tailscale origin when getTailnetHostname fails",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:196",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] does not duplicate Tailscale origin if already present",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:207] does not duplicate Tailscale origin if already present",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:207",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] formats IPv6 Tailscale fallback addresses as valid HTTPS origins",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:229] formats IPv6 Tailscale fallback addresses as valid HTTPS origins",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:229",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts] stores gateway token as SecretRef when token source is ref",
+TEST_CASE("v4.29 [src/commands/configure.gateway.test.ts:242] stores gateway token as SecretRef when token source is ref",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway.test.ts:242",
                "upstream it() block #10",

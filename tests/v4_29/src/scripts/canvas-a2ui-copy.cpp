@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts] throws a helpful error when assets are missing",
+TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts:29] throws a helpful error when assets are missing",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/canvas-a2ui-copy.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts] skips missing assets when OPENCLAW_A2UI_SKIP_MISSING=1",
+TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts:37] skips missing assets when OPENCLAW_A2UI_SKIP_MISSING=1",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/canvas-a2ui-copy.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts] skips missing assets when OPENCLAW_SPARSE_PROFILE is set",
+TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts:46] skips missing assets when OPENCLAW_SPARSE_PROFILE is set",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/canvas-a2ui-copy.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts] copies bundled assets to dist",
+TEST_CASE("v4.29 [src/scripts/canvas-a2ui-copy.test.ts:55] copies bundled assets to dist",
           "[v4_29][parity_gap][scripts]") {
     PARITY_GAP("src/scripts/canvas-a2ui-copy.test.ts:55",
                "upstream it() block #3",

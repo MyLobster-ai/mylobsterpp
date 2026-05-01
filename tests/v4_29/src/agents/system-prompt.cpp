@@ -5,488 +5,488 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] formats owner section for plain, hash, and missing owner lists",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:13] formats owner section for plain, hash, and missing owner lists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] uses a stable, keyed HMAC when ownerDisplaySecret is provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:76] uses a stable, keyed HMAC when ownerDisplaySecret is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits extended sections in minimal prompt mode",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:101] omits extended sections in minimal prompt mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] can omit generic silent-reply guidance for channel-aware prompts",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:140] can omit generic silent-reply guidance for channel-aware prompts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes skills in minimal prompt mode when skillsPrompt is provided (cron regression)",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:151] includes skills in minimal prompt mode when skillsPrompt is provided (cron regression)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits skills in minimal prompt mode when skillsPrompt is absent",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:168] omits skills in minimal prompt mode when skillsPrompt is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:168",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] avoids the Claude subscription classifier wording in reply tag guidance",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:177] avoids the Claude subscription classifier wording in reply tag guidance",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:177",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits the heartbeat section when no heartbeat prompt is provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:188] omits the heartbeat section when no heartbeat prompt is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:188",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes safety guardrails in full prompts",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:200] includes safety guardrails in full prompts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:200",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes voice hint when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:214] includes voice hint when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:214",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] adds reasoning tag hint when enabled",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:224] adds reasoning tag hint when enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:224",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes a CLI quick reference section",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:235] includes a CLI quick reference section",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:235",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] points agents to config field docs and broader configuration docs",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:250] points agents to config field docs and broader configuration docs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:250",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] guides runtime completion events without exposing internal metadata",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:262] guides runtime completion events without exposing internal metadata",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:262",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] does not include embed guidance in the default global prompt",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:272] does not include embed guidance in the default global prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:272",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes embed guidance only for webchat sessions",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:281] includes embed guidance only for webchat sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:281",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] guides subagent workflows to avoid polling loops",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:305] guides subagent workflows to avoid polling loops",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:305",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] lists available tools when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:320] lists available tools when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:320",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] documents ACP sessions_spawn agent targeting requirements",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:332] documents ACP sessions_spawn agent targeting requirements",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:332",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] guides harness requests to ACP thread-bound spawns",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:346] guides harness requests to ACP thread-bound spawns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:346",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits ACP harness guidance when ACP is disabled",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:374] omits ACP harness guidance when ACP is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:374",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits ACP harness spawn guidance for sandboxed sessions and shows ACP block note",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:391] omits ACP harness spawn guidance for sandboxed sessions and shows ACP block note",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:391",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] preserves tool casing in the prompt",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:414] preserves tool casing in the prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:414",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes docs guidance when docsPath is provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:434] includes docs guidance when docsPath is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:434",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] falls back to public docs and GitHub source guidance when local docs are unavailable",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:452] falls back to public docs and GitHub source guidance when local docs are unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:452",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes workspace notes when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:464] includes workspace notes when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:464",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] keeps bootstrap instructions out of the privileged system prompt",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:473] keeps bootstrap instructions out of the privileged system prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:473",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] adds bootstrap-specific prelude text to the user prompt prefix when bootstrap is pending",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:484] adds bootstrap-specific prelude text to the user prompt prefix when bootstrap is pending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:484",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] shows timezone section for 12h, 24h, and timezone-only modes",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:498] shows timezone section for 12h, 24h, and timezone-only modes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:498",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] hints to use session_status for current date/time",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:535] hints to use session_status for current date/time",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:535",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] does NOT include a date or time in the system prompt (cache stability)",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:551] does NOT include a date or time in the system prompt (cache stability)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:551",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes model alias guidance when aliases are provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:570] includes model alias guidance when aliases are provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:570",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] adds ClaudeBot self-update guidance when gateway tool is available",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:584] adds ClaudeBot self-update guidance when gateway tool is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:584",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes skills guidance when skills prompt is present",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:600] includes skills guidance when skills prompt is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:600",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] appends available skills when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:613] appends available skills when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:613",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits skills section when no skills prompt is provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:624] omits skills section when no skills prompt is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:624",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] renders project context files when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:633] renders project context files when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:633",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] ignores context files with missing or blank paths",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:649] ignores context files with missing or blank paths",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:649",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] adds SOUL guidance when a soul file is present",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:666] adds SOUL guidance when a soul file is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:666",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits project context when no context files are injected",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:680] omits project context when no context files are injected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:680",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] summarizes the message tool when available",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:689] summarizes the message tool when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:689",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] gates sub-agent orchestration guidance on available tools",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:702] gates sub-agent orchestration guidance on available tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:702",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] reapplies provider prompt contributions",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:730] reapplies provider prompt contributions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:730",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes inline button style guidance when runtime supports inline buttons",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:748] includes inline button style guidance when runtime supports inline buttons",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:748",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] uses Slack interactive reply hints instead of generic inline button config guidance",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:762] uses Slack interactive reply hints instead of generic inline button config guidance",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:762",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] describes message-tool-only source delivery without requiring target",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:782] describes message-tool-only source delivery without requiring target",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:782",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] suppresses plain chat approval commands when inline approval UI is available",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:802] suppresses plain chat approval commands when inline approval UI is available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:802",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] suppresses plain chat approval commands for native approval channels",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:815] suppresses plain chat approval commands for native approval channels",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:815",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] keeps approval slug guidance separate from command previews",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:827] keeps approval slug guidance separate from command previews",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:827",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes runtime provider capabilities when present",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:844] includes runtime provider capabilities when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:844",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] canonicalizes runtime provider capabilities before rendering",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:857] canonicalizes runtime provider capabilities before rendering",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:857",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes agent id in runtime when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:871] includes agent id in runtime when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:871",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes reasoning visibility hint",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:887] includes reasoning visibility hint",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:887",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] builds runtime line with agent and channel details",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:898] builds runtime line with agent and channel details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:898",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] renders extra system prompt exactly once",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:927] renders extra system prompt exactly once",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:927",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] describes sandboxed runtime and elevated when allowed",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:937] describes sandboxed runtime and elevated when allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:937",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] does not advertise /elevated full when auto-approved full access is unavailable",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:964] does not advertise /elevated full when auto-approved full access is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:964",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] includes reaction guidance when provided",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:993] includes reaction guidance when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:993",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] keeps stable project context before volatile channel guidance for prefix-cache reuse",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1006] keeps stable project context before volatile channel guidance for prefix-cache reuse",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1006",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] uses friendly full bootstrap wording that is truthful about completion blockers",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1043] uses friendly full bootstrap wording that is truthful about completion blockers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1043",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] uses limited bootstrap wording for constrained user-facing runs",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1055] uses limited bootstrap wording for constrained user-facing runs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1055",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] returns nothing when bootstrap is not pending",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1065] returns nothing when bootstrap is not pending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1065",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] renders depth-1 orchestrator guidance, labels, and recovery notes",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1072] renders depth-1 orchestrator guidance, labels, and recovery notes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1072",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] keeps multiline and indented task text verbatim in the system prompt (#72019)",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1110] keeps multiline and indented task text verbatim in the system prompt (#72019)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1110",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits ACP spawning guidance when ACP is disabled",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1126] omits ACP spawning guidance when ACP is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1126",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits ACP spawning guidance by default",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1141] omits ACP spawning guidance by default",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1141",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] prefers native Codex commands over Codex ACP when available",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1154] prefers native Codex commands over Codex ACP when available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1154",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] renders depth-2 leaf guidance with parent orchestrator labels",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1170] renders depth-2 leaf guidance with parent orchestrator labels",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1170",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/system-prompt.test.ts] omits spawning guidance for depth-1 leaf agents",
+TEST_CASE("v4.29 [src/agents/system-prompt.test.ts:1185] omits spawning guidance for depth-1 leaf agents",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/system-prompt.test.ts:1185",
                "upstream it() block #68",

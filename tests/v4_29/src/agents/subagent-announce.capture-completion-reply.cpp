@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts] returns immediate assistant output from history without polling",
+TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts:5] returns immediate assistant output from history without polling",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.capture-completion-reply.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts] polls briefly and returns late tool output once available",
+TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts:21] polls briefly and returns late tool output once available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.capture-completion-reply.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts] returns undefined when no completion output arrives before retry window closes",
+TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts:43] returns undefined when no completion output arrives before retry window closes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.capture-completion-reply.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts] returns partial assistant progress when the latest assistant turn is tool-only",
+TEST_CASE("v4.29 [src/agents/subagent-announce.capture-completion-reply.test.ts:63] returns partial assistant progress when the latest assistant turn is tool-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-announce.capture-completion-reply.test.ts:63",
                "upstream it() block #3",

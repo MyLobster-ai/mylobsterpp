@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts] round-trips a credential snapshot",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts:40] round-trips a credential snapshot",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/credential-backup.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts] returns null when no backup exists",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts:49] returns null when no backup exists",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/credential-backup.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts] returns null when legacy backup belongs to a different accountId",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts:53] returns null when legacy backup belongs to a different accountId",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/credential-backup.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts] migrates legacy single-file backup to per-account path on load",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts:66] migrates legacy single-file backup to per-account path on load",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/credential-backup.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts] ignores empty appId/clientSecret on save",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/credential-backup.test.ts:83] ignores empty appId/clientSecret on save",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/credential-backup.test.ts:83",
                "upstream it() block #4",

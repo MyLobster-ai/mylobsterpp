@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] calls secrets.reload and prints human output",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:159] calls secrets.reload and prints human output",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:159",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] prints JSON when requested",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:172] prints JSON when requested",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:172",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] runs secrets audit and exits via check code",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:178] runs secrets audit and exits via check code",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:178",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] forwards --allow-exec to secrets audit",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:209] forwards --allow-exec to secrets audit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:209",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] runs secrets configure then apply when confirmed",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:237] runs secrets configure then apply when confirmed",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:237",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] forwards --agent to secrets configure",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:276] forwards --agent to secrets configure",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:276",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] forwards --allow-exec to secrets apply dry-run",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:289] forwards --allow-exec to secrets apply dry-run",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:289",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] forwards --allow-exec to secrets apply write mode",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:308] forwards --allow-exec to secrets apply write mode",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:308",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] does not print skipped-exec note when apply dry-run skippedExecRefs is zero",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:324] does not print skipped-exec note when apply dry-run skippedExecRefs is zero",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:324",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] does not print skipped-exec note when configure preflight skippedExecRefs is zero",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:337] does not print skipped-exec note when configure preflight skippedExecRefs is zero",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:337",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts] forwards --allow-exec to configure preflight and apply",
+TEST_CASE("v4.29 [src/cli/secrets-cli.test.ts:347] forwards --allow-exec to configure preflight and apply",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/secrets-cli.test.ts:347",
                "upstream it() block #10",

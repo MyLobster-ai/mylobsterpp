@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cron/service.issue-16156-list-skips-cron.test.ts] does not skip a cron job when list() is called while the job is past-due",
+TEST_CASE("v4.29 [src/cron/service.issue-16156-list-skips-cron.test.ts:32] does not skip a cron job when list() is called while the job is past-due",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-16156-list-skips-cron.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-16156-list-skips-cron.test.ts] does not skip a cron job when status() is called while the job is past-due",
+TEST_CASE("v4.29 [src/cron/service.issue-16156-list-skips-cron.test.ts:87] does not skip a cron job when status() is called while the job is past-due",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-16156-list-skips-cron.test.ts:87",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cron/service.issue-16156-list-skips-cron.test.ts] still fills missing nextRunAtMs via list() for enabled jobs",
+TEST_CASE("v4.29 [src/cron/service.issue-16156-list-skips-cron.test.ts:130] still fills missing nextRunAtMs via list() for enabled jobs",
           "[v4_29][parity_gap][cron]") {
     PARITY_GAP("src/cron/service.issue-16156-list-skips-cron.test.ts:130",
                "upstream it() block #2",

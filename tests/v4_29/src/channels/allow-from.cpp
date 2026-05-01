@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/allow-from.test.ts] merges, trims, and filters empty values",
+TEST_CASE("v4.29 [src/channels/allow-from.test.ts:10] merges, trims, and filters empty values",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allow-from.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allow-from.test.ts] prefers explicit group allowlist",
+TEST_CASE("v4.29 [src/channels/allow-from.test.ts:44] prefers explicit group allowlist",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allow-from.test.ts:44",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allow-from.test.ts] falls back to DM allowlist when group allowlist is unset/empty",
+TEST_CASE("v4.29 [src/channels/allow-from.test.ts:53] falls back to DM allowlist when group allowlist is unset/empty",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allow-from.test.ts:53",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allow-from.test.ts] can disable fallback to DM allowlist",
+TEST_CASE("v4.29 [src/channels/allow-from.test.ts:62] can disable fallback to DM allowlist",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allow-from.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allow-from.test.ts] returns the first non-undefined value",
+TEST_CASE("v4.29 [src/channels/allow-from.test.ts:74] returns the first non-undefined value",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allow-from.test.ts:74",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/allow-from.test.ts] supports per-channel empty-list defaults and wildcard/id matches",
+TEST_CASE("v4.29 [src/channels/allow-from.test.ts:81] supports per-channel empty-list defaults and wildcard/id matches",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/allow-from.test.ts:81",
                "upstream it() block #5",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] enables x_search when runtime config carries the shared xAI key",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:47] enables x_search when runtime config carries the shared xAI key",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] enables x_search when the xAI plugin web search key is configured",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:68] enables x_search when the xAI plugin web search key is configured",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] uses the xAI Responses x_search tool with structured filters",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:88] uses the xAI Responses x_search tool with structured filters",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:88",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] reuses the xAI plugin web search key for x_search requests",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:139] reuses the xAI plugin web search key for x_search requests",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:139",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] prefers the active runtime config for shared xAI keys",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:167] prefers the active runtime config for shared xAI keys",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:167",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] reuses the legacy grok web search key for x_search requests",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:208] reuses the legacy grok web search key for x_search requests",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:208",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] uses migrated runtime auth when the source config still carries legacy x_search apiKey",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:234] uses migrated runtime auth when the source config still carries legacy x_search apiKey",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:234",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/x-search.test.ts] rejects invalid date ordering before calling xAI",
+TEST_CASE("v4.29 [extensions/xai/x-search.test.ts:272] rejects invalid date ordering before calling xAI",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/x-search.test.ts:272",
                "upstream it() block #7",

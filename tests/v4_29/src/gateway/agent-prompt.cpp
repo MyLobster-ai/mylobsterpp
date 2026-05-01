@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts] returns empty for no entries",
+TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts:7] returns empty for no entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/agent-prompt.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts] returns current body when there is no history",
+TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts:11] returns current body when there is no history",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/agent-prompt.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts] extracts text from content-array body when there is no history",
+TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts:19] extracts text from content-array body when there is no history",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/agent-prompt.test.ts:19",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts] uses history context when there is history",
+TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts:37] uses history context when there is history",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/agent-prompt.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts] prefers last tool entry over assistant for current message",
+TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts:52] prefers last tool entry over assistant for current message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/agent-prompt.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts] normalizes content-array bodies in history and current message",
+TEST_CASE("v4.29 [src/gateway/agent-prompt.test.ts:68] normalizes content-array bodies in history and current message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/agent-prompt.test.ts:68",
                "upstream it() block #5",

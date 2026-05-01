@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] accepts token credentials when config mode is oauth",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:125] accepts token credentials when config mode is oauth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:125",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] rejects token credentials when config mode is api_key",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:150] rejects token credentials when config mode is api_key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:150",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] rejects credentials when provider does not match config",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:166] rejects credentials when provider does not match config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:166",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] accepts oauth credentials when config mode is token (bidirectional compat)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:181] accepts oauth credentials when config mode is token (bidirectional compat)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:181",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] accepts token credentials when expires is undefined",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:211] accepts token credentials when expires is undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:211",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] accepts token credentials when expires is in the future",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:230] accepts token credentials when expires is in the future",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:230",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] returns null for expired token credentials",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:250] returns null for expired token credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:250",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] returns null for token credentials when expires is 0",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:266] returns null for token credentials when expires is 0",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:266",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] returns null for token credentials when expires is invalid (NaN)",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:282] returns null for token credentials when expires is invalid (NaN)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:282",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] ignores blank api_key credentials",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:307] ignores blank api_key credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:307",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] resolves api_key keyRef from env",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:327] resolves api_key keyRef from env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:327",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] resolves token tokenRef from env",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:360] resolves token tokenRef from env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:360",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] resolves token tokenRef without inline token when expires is absent",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:373] resolves token tokenRef without inline token when expires is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:373",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] hard-fails when oauth mode is combined with token SecretRef input",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:386] hard-fails when oauth mode is combined with token SecretRef input",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:386",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] resolves inline ${ENV} api_key values",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:406] resolves inline ${ENV} api_key values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:406",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts] resolves inline ${ENV} token values",
+TEST_CASE("v4.29 [src/agents/auth-profiles/oauth.test.ts:439] resolves inline ${ENV} token values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/auth-profiles/oauth.test.ts:439",
                "upstream it() block #15",

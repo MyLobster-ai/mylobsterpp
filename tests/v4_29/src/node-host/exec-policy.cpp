@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] accepts known approval decisions",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:43] accepts known approval decisions",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] normalizes unknown approval decisions to null",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:48] normalizes unknown approval decisions to null",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] returns legacy allowlist miss message by default",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:55] returns legacy allowlist miss message by default",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:55",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] adds shell-wrapper guidance when wrappers are blocked",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:59] adds shell-wrapper guidance when wrappers are blocked",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] adds Windows shell-wrapper guidance when blocked by cmd.exe policy",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:67] adds Windows shell-wrapper guidance when blocked by cmd.exe policy",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:67",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] denies when security mode is deny",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:78] denies when security mode is deny",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:78",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] requires approval when ask policy requires it",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:86] requires approval when ask policy requires it",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:86",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] still requires approval when ask=always even with durable trust",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:94] still requires approval when ask=always even with durable trust",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:94",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] allows allowlist miss when explicit approval is provided",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:108] allows allowlist miss when explicit approval is provided",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:108",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] denies allowlist misses without approval",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:122] denies allowlist misses without approval",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:122",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] keeps POSIX shell wrapper decisions tied to allowlist analysis",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:130] keeps POSIX shell wrapper decisions tied to allowlist analysis",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:130",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] keeps Windows-specific guidance for cmd.exe wrappers",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:139] keeps Windows-specific guidance for cmd.exe wrappers",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:139",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] does not block Windows cmd.exe invocations without inline shell-wrapper transport",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:150] does not block Windows cmd.exe invocations without inline shell-wrapper transport",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:150",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts] allows execution when policy checks pass",
+TEST_CASE("v4.29 [src/node-host/exec-policy.test.ts:160] allows execution when policy checks pass",
           "[v4_29][parity_gap][node-host]") {
     PARITY_GAP("src/node-host/exec-policy.test.ts:160",
                "upstream it() block #13",

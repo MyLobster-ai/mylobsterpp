@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] rejects dmPolicy=",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:11] rejects dmPolicy=",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] accepts dmPolicy=",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:23] accepts dmPolicy=",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] defaults dm/group policy",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:32] defaults dm/group policy",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:32",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] accepts historyLimit overrides per account",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:42] accepts historyLimit overrides per account",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:42",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] accepts textChunkLimit",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:55] accepts textChunkLimit",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:55",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] accepts enabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:66] accepts enabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:66",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] keeps inherited account defaults unset at account scope",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:72] keeps inherited account defaults unset at account scope",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:72",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] accepts allowlist accounts inheriting allowFrom from accounts.default",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:96] accepts allowlist accounts inheriting allowFrom from accounts.default",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:96",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts] accepts allowlist accounts inheriting allowFrom from mixed-case accounts.Default",
+TEST_CASE("v4.29 [extensions/whatsapp/src/config-schema.test.ts:109] accepts allowlist accounts inheriting allowFrom from mixed-case accounts.Default",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/config-schema.test.ts:109",
                "upstream it() block #8",

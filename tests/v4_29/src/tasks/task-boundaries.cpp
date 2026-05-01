@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-boundaries.test.ts] keeps raw task lifecycle mutators behind task internals",
+TEST_CASE("v4.29 [src/tasks/task-boundaries.test.ts:52] keeps raw task lifecycle mutators behind task internals",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-boundaries.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-boundaries.test.ts] keeps direct task-flow-registry imports behind approved task-flow access seams",
+TEST_CASE("v4.29 [src/tasks/task-boundaries.test.ts:67] keeps direct task-flow-registry imports behind approved task-flow access seams",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-boundaries.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-boundaries.test.ts] keeps direct task-registry imports behind the approved task access seams",
+TEST_CASE("v4.29 [src/tasks/task-boundaries.test.ts:75] keeps direct task-registry imports behind the approved task access seams",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-boundaries.test.ts:75",
                "upstream it() block #2",

@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] returns 400 for non-object payloads",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:174] returns 400 for non-object payloads",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:174",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] rejects ambiguous routing when multiple targets match the same secret",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:196] rejects ambiguous routing when multiple targets match the same secret",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:196",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] returns 415 for non-json content-type",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:223] returns 415 for non-json content-type",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:223",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] deduplicates webhook replay for the same event origin",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:244] deduplicates webhook replay for the same event origin",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:244",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] allows a retry after processUpdate throws a retryable replay error",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:273] allows a retry after processUpdate throws a retryable replay error",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:273",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] keeps replay dedupe isolated per authenticated target",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:321] keeps replay dedupe isolated per authenticated target",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:321",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] does not collide replay dedupe across different chats",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:363] does not collide replay dedupe across different chats",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:363",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] does not collide replay dedupe across different senders in the same chat",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:396] does not collide replay dedupe across different senders in the same chat",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:396",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] does not throw when replay metadata is partially missing",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:429] does not throw when replay metadata is partially missing",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:429",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] keeps replay dedupe isolated when path/account values collide under colon-joined keys",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:461] keeps replay dedupe isolated when path/account values collide under colon-joined keys",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:461",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] keeps replay dedupe isolated across different webhook paths",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:508] keeps replay dedupe isolated across different webhook paths",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:508",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] downloads inbound image media from webhook photo_url and preserves display_name",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:547] downloads inbound image media from webhook photo_url and preserves display_name",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:547",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] returns 429 when per-path request rate exceeds threshold",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:594] returns 429 when per-path request rate exceeds threshold",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:594",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] does not grow status counters when query strings churn on unauthorized requests",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:611] does not grow status counters when query strings churn on unauthorized requests",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:611",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] rate limits authenticated requests even when query strings churn",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:641] rate limits authenticated requests even when query strings churn",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:641",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] rate limits unauthorized secret guesses before authentication succeeds",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:661] rate limits unauthorized secret guesses before authentication succeeds",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:661",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] does not let unauthorized floods rate-limit authenticated traffic from a different trusted forwarded client IP",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:681] does not let unauthorized floods rate-limit authenticated traffic from a different trusted forwarded client IP",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:681",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] still returns 401 before 415 when both secret and content-type are invalid",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:725] still returns 401 before 415 when both secret and content-type are invalid",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:725",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts] scopes DM pairing store reads and writes to accountId",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.webhook.test.ts:746] scopes DM pairing store reads and writes to accountId",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.webhook.test.ts:746",
                "upstream it() block #18",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps path aliases in a dedicated shared config",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:108] keeps path aliases in a dedicated shared config",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:108",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps every opt-in extension rooted inside its package and on the package sdk",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:120] keeps every opt-in extension rooted inside its package and on the package sdk",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:120",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps xai as the only opt-in extension with custom path overrides",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:138] keeps xai as the only opt-in extension with custom path overrides",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps xai",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:148] keeps xai",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:148",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps plugin-sdk package types generated from the package build, not a hand-maintained types bridge",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:153] keeps plugin-sdk package types generated from the package build, not a hand-maintained types bridge",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:153",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps memory-host-sdk as a private package-owned contract surface",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:236] keeps memory-host-sdk as a private package-owned contract surface",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:236",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts] keeps plugin-package-contract independent from core internals",
+TEST_CASE("v4.29 [src/plugins/contracts/extension-package-project-boundaries.test.ts:264] keeps plugin-package-contract independent from core internals",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/extension-package-project-boundaries.test.ts:264",
                "upstream it() block #6",

@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] fails closed when public key is missing and skipVerification is false",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:102] fails closed when public key is missing and skipVerification is false",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:102",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] allows requests when skipVerification is true (development only)",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:112] allows requests when skipVerification is true (development only)",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:112",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] fails when signature headers are missing (with public key configured)",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:122] fails when signature headers are missing (with public key configured)",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:122",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] verifies a valid signature with a raw Ed25519 public key (Base64)",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:132] verifies a valid signature with a raw Ed25519 public key (Base64)",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:132",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] verifies a valid signature with a DER SPKI public key (Base64)",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:144] verifies a valid signature with a DER SPKI public key (Base64)",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:144",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] returns replay status when the same signed request is seen twice",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:151] returns replay status when the same signed request is seen twice",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:151",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] uses verified request key for manager dedupe",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:174] uses verified request key for manager dedupe",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:174",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] maps call direction and phone numbers from Call Control callbacks",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:201] maps call direction and phone numbers from Call Control callbacks",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:201",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] reads transcription text from Telnyx transcription_data payloads",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:235] reads transcription text from Telnyx transcription_data payloads",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:235",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] answers inbound call-control legs with a deterministic command id",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:273] answers inbound call-control legs with a deterministic command id",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:273",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts] passes custom Telnyx voice ids to the speak action",
+TEST_CASE("v4.29 [extensions/voice-call/src/providers/telnyx.test.ts:306] passes custom Telnyx voice ids to the speak action",
           "[v4_29][parity_gap][voice-call]") {
     PARITY_GAP("extensions/voice-call/src/providers/telnyx.test.ts:306",
                "upstream it() block #10",

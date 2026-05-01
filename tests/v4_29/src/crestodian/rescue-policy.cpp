@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts] allows auto rescue for owner DMs in YOLO host posture with sandboxing off",
+TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts:15] allows auto rescue for owner DMs in YOLO host posture with sandboxing off",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/rescue-policy.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts] hard-denies rescue when sandboxing is active even if explicitly enabled",
+TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts:19] hard-denies rescue when sandboxing is active even if explicitly enabled",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/rescue-policy.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts] keeps auto rescue closed outside YOLO host posture",
+TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts:30] keeps auto rescue closed outside YOLO host posture",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/rescue-policy.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts] requires owner identity and direct messages by default",
+TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts:40] requires owner identity and direct messages by default",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/rescue-policy.test.ts:40",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts] allows explicit group rescue when ownerDmOnly is disabled",
+TEST_CASE("v4.29 [src/crestodian/rescue-policy.test.ts:51] allows explicit group rescue when ownerDmOnly is disabled",
           "[v4_29][parity_gap][crestodian]") {
     PARITY_GAP("src/crestodian/rescue-policy.test.ts:51",
                "upstream it() block #4",

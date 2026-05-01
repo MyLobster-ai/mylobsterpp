@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] routes group message replies to the group id",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:100] routes group message replies to the group id",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:100",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] routes group postback replies to the group id",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:119] routes group postback replies to the group id",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] routes room postback replies to the room id",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:133] routes room postback replies to the room id",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:133",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] resolves prefixed-only group config through the inbound message context",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:147] resolves prefixed-only group config through the inbound message context",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:147",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] resolves prefixed-only room config through the inbound message context",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:170] resolves prefixed-only room config through the inbound message context",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:170",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] keeps non-text message contexts fail-closed for command auth",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:193] keeps non-text message contexts fail-closed for command auth",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:193",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] sets CommandAuthorized=true when authorized",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:213] sets CommandAuthorized=true when authorized",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:213",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] sets CommandAuthorized=false when not authorized",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:227] sets CommandAuthorized=false when not authorized",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:227",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] sets CommandAuthorized on postback context",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:241] sets CommandAuthorized on postback context",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:241",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] group peer binding matches raw groupId without prefix (#21907)",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:254] group peer binding matches raw groupId without prefix (#21907)",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:254",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] room peer binding matches raw roomId without prefix (#21907)",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:292] room peer binding matches raw roomId without prefix (#21907)",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:292",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] normalizes LINE ACP binding conversation ids through the plugin bindings surface",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:330] normalizes LINE ACP binding conversation ids through the plugin bindings surface",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:330",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] normalizes canonical LINE targets through the plugin bindings surface",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:349] normalizes canonical LINE targets through the plugin bindings surface",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:349",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts] routes LINE conversations through active ACP session bindings",
+TEST_CASE("v4.29 [extensions/line/src/bot-message-context.test.ts:375] routes LINE conversations through active ACP session bindings",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/bot-message-context.test.ts:375",
                "upstream it() block #13",

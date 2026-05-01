@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] applies slot selection for each kind in a multi-kind array",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:195] applies slot selection for each kind in a multi-kind array",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:195",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] does not disable a dual-kind plugin that still owns another slot",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:222] does not disable a dual-kind plugin that still owns another slot",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:222",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] does not disable a dual-kind plugin that owns another slot via default",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:246] does not disable a dual-kind plugin that owns another slot via default",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:246",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] returns empty array for undefined",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:273] returns empty array for undefined",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:273",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] wraps a single kind in an array",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:277] wraps a single kind in an array",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:277",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] returns an array kind as-is",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:281] returns an array kind as-is",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:281",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] returns false for undefined kind",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:287] returns false for undefined kind",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:287",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] matches a single kind string",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:291] matches a single kind string",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:291",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] matches within a kind array",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:296] matches within a kind array",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:296",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] returns empty for undefined",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:303] returns empty for undefined",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:303",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] returns single slot key for single kind",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:307] returns single slot key for single kind",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:307",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] returns multiple slot keys for multi-kind",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:311] returns multiple slot keys for multi-kind",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:311",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] treats undefined as equal to undefined",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:320] treats undefined as equal to undefined",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:320",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] matches identical strings",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:324] matches identical strings",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:324",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] rejects different strings",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:328] rejects different strings",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:328",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] matches arrays in different order",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:332] matches arrays in different order",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:332",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] matches string against single-element array",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:336] matches string against single-element array",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:336",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/slots.test.ts] rejects mismatched lengths",
+TEST_CASE("v4.29 [src/plugins/slots.test.ts:340] rejects mismatched lengths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/slots.test.ts:340",
                "upstream it() block #17",

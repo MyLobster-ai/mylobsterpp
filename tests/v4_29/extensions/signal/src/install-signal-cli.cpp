@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] recognises .tar.gz",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:79] recognises .tar.gz",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:79",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] recognises .tgz",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:83] recognises .tgz",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:83",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] recognises .zip",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:87] recognises .zip",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] rejects signature files",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:91] rejects signature files",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] rejects unrelated files",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:95] rejects unrelated files",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] selects the Linux-native asset on x64",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:102] selects the Linux-native asset on x64",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:102",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] returns undefined on arm64 (triggers brew fallback)",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:109] returns undefined on arm64 (triggers brew fallback)",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:109",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] returns undefined on arm (32-bit)",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:114] returns undefined on arm (32-bit)",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:114",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] selects the macOS-native asset",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:121] selects the macOS-native asset",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:121",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] selects the macOS-native asset on x64",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:127] selects the macOS-native asset on x64",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:127",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] selects the Windows-native asset",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:135] selects the Windows-native asset",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:135",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] returns undefined for an empty asset list",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:144] returns undefined for an empty asset list",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:144",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] skips assets with missing name or url",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:148] skips assets with missing name or url",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:148",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] falls back to first archive for unknown platform",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:156] falls back to first archive for unknown platform",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:156",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] never selects .asc signature files",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:162] never selects .asc signature files",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:162",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] downloads through the SSRF guard with an explicit timeout",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:171] downloads through the SSRF guard with an explicit timeout",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:171",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] rejects declared archives above the download cap",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:192] rejects declared archives above the download cap",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:192",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] aborts streamed archives above the download cap and removes partial files",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:209] aborts streamed archives above the download cap and removes partial files",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:209",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] bounds the release metadata request with an explicit timeout",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:233] bounds the release metadata request with an explicit timeout",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:233",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] rejects zip slip path traversal",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:275] rejects zip slip path traversal",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:275",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] extracts zip archives",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:291] extracts zip archives",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:291",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts] extracts tar.gz archives",
+TEST_CASE("v4.29 [extensions/signal/src/install-signal-cli.test.ts:305] extracts tar.gz archives",
           "[v4_29][parity_gap][signal]") {
     PARITY_GAP("extensions/signal/src/install-signal-cli.test.ts:305",
                "upstream it() block #21",

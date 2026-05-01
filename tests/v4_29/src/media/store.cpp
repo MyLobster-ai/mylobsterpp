@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media/store.test.ts] copies local files and cleans old media",
+TEST_CASE("v4.29 [src/media/store.test.ts:441] copies local files and cleans old media",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/store.test.ts:441",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media/store.test.ts] prefers header mime extension when sniffed mime lacks mapping",
+TEST_CASE("v4.29 [src/media/store.test.ts:623] prefers header mime extension when sniffed mime lacks mapping",
           "[v4_29][parity_gap][media]") {
     PARITY_GAP("src/media/store.test.ts:623",
                "upstream it() block #1",

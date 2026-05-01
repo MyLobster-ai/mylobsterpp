@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/model-catalog/provider-index-planner.test.ts] builds preview rows from installable provider metadata",
+TEST_CASE("v4.29 [src/model-catalog/provider-index-planner.test.ts:5] builds preview rows from installable provider metadata",
           "[v4_29][parity_gap][model-catalog]") {
     PARITY_GAP("src/model-catalog/provider-index-planner.test.ts:5",
                "upstream it() block #0",

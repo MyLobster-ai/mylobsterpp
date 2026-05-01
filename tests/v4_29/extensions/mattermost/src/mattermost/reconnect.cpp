@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] retries after connectFn resolves (normal close)",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:21] retries after connectFn resolves (normal close)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] retries after connectFn throws (connection error)",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:40] retries after connectFn throws (connection error)",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] uses exponential backoff on consecutive errors, capped at maxDelayMs",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:64] uses exponential backoff on consecutive errors, capped at maxDelayMs",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] resets backoff after successful connection",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:89] resets backoff after successful connection",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] stops immediately when abort signal is pre-fired",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:119] stops immediately when abort signal is pre-fired",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] stops after current connection when abort fires mid-connection",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:129] stops after current connection when abort fires mid-connection",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:129",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] abort signal interrupts backoff sleep immediately",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:143] abort signal interrupts backoff sleep immediately",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:143",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] applies jitter to reconnect delay when configured",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:158] applies jitter to reconnect delay when configured",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:158",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts] supports strategy hook to stop reconnecting after failure",
+TEST_CASE("v4.29 [extensions/mattermost/src/mattermost/reconnect.test.ts:183] supports strategy hook to stop reconnecting after failure",
           "[v4_29][parity_gap][mattermost]") {
     PARITY_GAP("extensions/mattermost/src/mattermost/reconnect.test.ts:183",
                "upstream it() block #8",

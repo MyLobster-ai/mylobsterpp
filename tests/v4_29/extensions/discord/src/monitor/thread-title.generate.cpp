@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts] calls shared one-shot model prep with aws-sdk allowance",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts:56] calls shared one-shot model prep with aws-sdk allowance",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.generate.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts] passes model override refs into shared model prep",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts:95] passes model override refs into shared model prep",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.generate.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts] returns null when shared model prep cannot resolve selection",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts:112] returns null when shared model prep cannot resolve selection",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.generate.test.ts:112",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts] returns null when shared completion prep fails",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts:127] returns null when shared completion prep fails",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.generate.test.ts:127",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts] builds contextual prompt and forwards completion options",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts:147] builds contextual prompt and forwards completion options",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.generate.test.ts:147",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts] returns null when completion throws",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/thread-title.generate.test.ts:184] returns null when completion throws",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/thread-title.generate.test.ts:184",
                "upstream it() block #5",

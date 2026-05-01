@@ -5,250 +5,250 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] registers options handlers without losing app receiver binding",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:526] registers options handlers without losing app receiver binding",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:526",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] falls back to static menus when app.options() throws during registration",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:539] falls back to static menus when app.options() throws during registration",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:539",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] shows a button menu when required args are omitted",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:615] shows a button menu when required args are omitted",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:615",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] shows a static_select menu when choices exceed button row size",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:625] shows a static_select menu when choices exceed button row size",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:625",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] uses static_select when encoded values fit Slack option limits",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:634] uses static_select when encoded values fit Slack option limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:634",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] truncates button labels when static_select value limit would be exceeded",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:649] truncates button labels when static_select value limit would be exceeded",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:649",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] caps large button fallback menus to Slack",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:660] caps large button fallback menus to Slack",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:660",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] drops fallback buttons whose encoded values exceed Slack",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:672] drops fallback buttons whose encoded values exceed Slack",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:672",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] shows an overflow menu when choices fit compact range",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:690] shows an overflow menu when choices fit compact range",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:690",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] escapes mrkdwn characters in confirm dialog text",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:697] escapes mrkdwn characters in confirm dialog text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:697",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] truncates confirm dialog text when long args force button fallback",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:706] truncates confirm dialog text when long args force button fallback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:706",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] dispatches the command when a menu button is clicked",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:716] dispatches the command when a menu button is clicked",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:716",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] tracks accepted slash command activity",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:728] tracks accepted slash command activity",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:728",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] maps /agentstatus to /status when dispatching",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:739] maps /agentstatus to /status when dispatching",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:739",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] dispatches the command when a static_select option is chosen",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:744] dispatches the command when a static_select option is chosen",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:744",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] dispatches the command when an overflow option is chosen",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:756] dispatches the command when an overflow option is chosen",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:756",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] shows an external_select menu when choices exceed static_select options max",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:773] shows an external_select menu when choices exceed static_select options max",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:773",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] serves filtered options for external_select menus",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:787] serves filtered options for external_select menus",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:787",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] tracks accepted external_select option requests",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:809] tracks accepted external_select option requests",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:809",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] rejects external_select option requests without user identity",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:839] rejects external_select option requests without user identity",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:839",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] rejects menu clicks from other users",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:856] rejects menu clicks from other users",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:856",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] tracks accepted arg-menu actions",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:872] tracks accepted arg-menu actions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:872",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] falls back to postEphemeral with token when respond is unavailable",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:891] falls back to postEphemeral with token when respond is unavailable",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:891",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] treats malformed percent-encoding as an invalid button (no throw)",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:906] treats malformed percent-encoding as an invalid button (no throw)",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:906",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] drops mismatched slash payloads before dispatch",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1059] drops mismatched slash payloads before dispatch",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1059",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] allows unlisted channels when groupPolicy is open",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1076] allows unlisted channels when groupPolicy is open",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1076",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] blocks explicitly denied channels when groupPolicy is open",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1091] blocks explicitly denied channels when groupPolicy is open",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1091",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] blocks unlisted channels when groupPolicy is allowlist",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1103] blocks unlisted channels when groupPolicy is allowlist",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1103",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] fails closed when channel type lookup returns empty for channels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1117] fails closed when channel type lookup returns empty for channels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1117",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] still treats D-prefixed channel ids as DMs when lookup fails",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1129] still treats D-prefixed channel ids as DMs when lookup fails",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1129",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] computes CommandAuthorized for DM slash commands when dmPolicy is open",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1154] computes CommandAuthorized for DM slash commands when dmPolicy is open",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1154",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] classifies MPIM slash commands as group chat context",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1178] classifies MPIM slash commands as group chat context",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1178",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] enforces access-group gating when lookup fails for private channels",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1194] enforces access-group gating when lookup fails for private channels",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1194",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] calls recordSessionMetaFromInbound after dispatching a slash command",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1210] calls recordSessionMetaFromInbound after dispatching a slash command",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1210",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts] awaits session metadata persistence before dispatch",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/slash.test.ts:1225] awaits session metadata persistence before dispatch",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/slash.test.ts:1225",
                "upstream it() block #34",

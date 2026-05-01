@@ -5,166 +5,166 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] detects dev mode for src ts entrypoints",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:53] detects dev mode for src ts entrypoints",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] uses provided nodePath and returns plan",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:116] uses provided nodePath and returns plan",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:116",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] does not prepend ",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:139] does not prepend ",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] emits warnings when renderSystemNodeWarning returns one",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:156] emits warnings when renderSystemNodeWarning returns one",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] uses the state dir as the default macOS launchd working directory",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:177] uses the state dir as the default macOS launchd working directory",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:177",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] does not invent a working directory for non-macOS service installs",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:198] does not invent a working directory for non-macOS service installs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:198",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] passes OPENCLAW_WRAPPER through program args and managed service env",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:214] passes OPENCLAW_WRAPPER through program args and managed service env",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:214",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] tracks safe config env keys without embedding literal values",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:246] tracks safe config env keys without embedding literal values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:246",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] includes env SecretRef values from config into the service environment",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:287] includes env SecretRef values from config into the service environment",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:287",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] does not embed gateway auth SecretRef values into the service environment",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:313] does not embed gateway auth SecretRef values into the service environment",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:313",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] does not inline config env SecretRef values already backed by state-dir dotenv",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:339] does not inline config env SecretRef values already backed by state-dir dotenv",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:339",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] skips auth-profile store load when no auth-profile source exists",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:368] skips auth-profile store load when no auth-profile source exists",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:368",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] uses the provided authStore without probing auth-profile runtime",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:386] uses the provided authStore without probing auth-profile runtime",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:386",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] merges only portable auth-profile env refs into the service environment",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:417] merges only portable auth-profile env refs into the service environment",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:417",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] tracks .env vars with config while preserving service precedence",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:495] tracks .env vars with config while preserving service precedence",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:495",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] works when .env file does not exist",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:532] works when .env file does not exist",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:532",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] preserves safe custom vars from an existing service env and merges PATH",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:544] preserves safe custom vars from an existing service env and merges PATH",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:544",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] drops existing PATH entries that resolve through symlinks into temp dirs",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:586] drops existing PATH entries that resolve through symlinks into temp dirs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:586",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] drops workspace-derived PATH entries even when HOME equals the install cwd",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:625] drops workspace-derived PATH entries even when HOME equals the install cwd",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:625",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] drops keys that were previously tracked as managed service env",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:648] drops keys that were previously tracked as managed service env",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:648",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] drops legacy inline env values when the key is now managed by .env",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:677] drops legacy inline env values when the key is now managed by .env",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:677",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] does not embed auth-profile env refs when the key is already durable",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:703] does not embed auth-profile env refs when the key is already durable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:703",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts] returns platform-specific hints",
+TEST_CASE("v4.29 [src/commands/daemon-install-helpers.test.ts:739] returns platform-specific hints",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/daemon-install-helpers.test.ts:739",
                "upstream it() block #22",

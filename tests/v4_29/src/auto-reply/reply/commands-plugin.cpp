@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts] dispatches registered plugin commands with gateway scopes and session metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts:49] dispatches registered plugin commands with gateway scopes and session metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-plugin.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts] prefers the target session entry from sessionStore for plugin command metadata",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts:76] prefers the target session entry from sessionStore for plugin command metadata",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-plugin.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts] continues the agent without leaking continueAgent into the reply payload",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts:110] continues the agent without leaking continueAgent into the reply payload",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-plugin.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts] enforces requiredScopes through the command handler path",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-plugin.test.ts:134] enforces requiredScopes through the command handler path",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-plugin.test.ts:134",
                "upstream it() block #3",

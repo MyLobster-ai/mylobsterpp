@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts] rejects invalid params",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts:59] rejects invalid params",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-catalog.test.ts:59",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts] rejects unknown agent ids",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts:68] rejects unknown agent ids",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-catalog.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts] returns core groups including tts and excludes plugins when includePlugins=false",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts:77] returns core groups including tts and excludes plugins when includePlugins=false",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-catalog.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts] includes plugin groups with plugin metadata",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts:98] includes plugin groups with plugin metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-catalog.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts] summarizes plugin tool descriptions the same way as the effective inventory",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts:129] summarizes plugin tool descriptions the same way as the effective inventory",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-catalog.test.ts:129",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts] opts plugin tool catalog loads into gateway subagent binding",
+TEST_CASE("v4.29 [src/gateway/server-methods/tools-catalog.test.ts:152] opts plugin tool catalog loads into gateway subagent binding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/tools-catalog.test.ts:152",
                "upstream it() block #5",

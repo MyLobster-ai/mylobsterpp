@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts] ignores top-level dist-runtime extension dependency repairs",
+TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts:17] ignores top-level dist-runtime extension dependency repairs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-gateway-watch-regression.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts] keeps plugin runtime graph paths counted",
+TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts:26] keeps plugin runtime graph paths counted",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-gateway-watch-regression.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts] recognizes current and legacy gateway ready logs",
+TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts:35] recognizes current and legacy gateway ready logs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-gateway-watch-regression.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts] refreshes restored build stamps only for skip-build config mtime drift",
+TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts:41] refreshes restored build stamps only for skip-build config mtime drift",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-gateway-watch-regression.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts] refreshes runtime postbuild stamps after build stamps",
+TEST_CASE("v4.29 [test/scripts/check-gateway-watch-regression.test.ts:62] refreshes runtime postbuild stamps after build stamps",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-gateway-watch-regression.test.ts:62",
                "upstream it() block #4",

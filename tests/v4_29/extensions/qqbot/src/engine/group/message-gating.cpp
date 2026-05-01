@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] drops messages that @other users when enabled",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:33] drops messages that @other users when enabled",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] does NOT drop when the bot itself was @-ed",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:40] does NOT drop when the bot itself was @-ed",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] does NOT drop when implicitly mentioned via quote",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:47] does NOT drop when implicitly mentioned via quote",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] is inactive when ignoreOtherMentions is off",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:54] is inactive when ignoreOtherMentions is off",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] silently blocks an unauthorized /stop",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:64] silently blocks an unauthorized /stop",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:64",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] passes through when sender is authorized",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:71] passes through when sender is authorized",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:71",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] does not trigger when text commands are disabled",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:78] does not trigger when text commands are disabled",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:78",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] requires @bot when requireMention is on",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:93] requires @bot when requireMention is on",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:93",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] passes through when explicitly mentioned",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:99] passes through when explicitly mentioned",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:99",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] passes through on implicit mention",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:105] passes through on implicit mention",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:105",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] passes through when requireMention is off",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:113] passes through when requireMention is off",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:113",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] passes through when mention cannot be detected (DMs)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:118] passes through when mention cannot be detected (DMs)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:118",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] bypasses mention gate for an authorized control command",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:127] bypasses mention gate for an authorized control command",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:127",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] does NOT bypass when the command @-s another user",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:141] does NOT bypass when the command @-s another user",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:141",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] is a no-op when requireMention is off",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:154] is a no-op when requireMention is off",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:154",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] layer 1 wins over layer 2 (ignoreOtherMentions before block)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:169] layer 1 wins over layer 2 (ignoreOtherMentions before block)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:169",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts] layer 2 wins over layer 3 (unauthorized command before skip)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/group/message-gating.test.ts:181] layer 2 wins over layer 3 (unauthorized command before skip)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/group/message-gating.test.ts:181",
                "upstream it() block #16",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts] shows configured-but-unavailable credentials distinctly from not configured",
+TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts:194] shows configured-but-unavailable credentials distinctly from not configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.config-only-status-output.test.ts:194",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts] prefers resolved config snapshots when command-local secret resolution succeeds",
+TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts:204] prefers resolved config snapshots when command-local secret resolution succeeds",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.config-only-status-output.test.ts:204",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts] does not resolve raw source config for extension channels without inspectAccount",
+TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts:216] does not resolve raw source config for extension channels without inspectAccount",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.config-only-status-output.test.ts:216",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts] renders Slack HTTP signing-secret availability in config-only status",
+TEST_CASE("v4.29 [src/commands/channels.config-only-status-output.test.ts:228] renders Slack HTTP signing-secret availability in config-only status",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channels.config-only-status-output.test.ts:228",
                "upstream it() block #3",

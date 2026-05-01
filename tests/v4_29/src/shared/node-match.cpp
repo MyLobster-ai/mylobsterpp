@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] normalizes node keys by lowercasing and collapsing separators",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:5] normalizes node keys by lowercasing and collapsing separators",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] matches candidates by node id, remote ip, normalized name, and long prefix",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:11] matches candidates by node id, remote ip, normalized name, and long prefix",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] resolves unique matches and prefers a unique connected node",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:26] resolves unique matches and prefers a unique connected node",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] prefers the strongest match type before client heuristics",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:38] prefers the strongest match type before client heuristics",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] prefers a unique current OpenClaw client over a legacy clawdbot client",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:50] prefers a unique current OpenClaw client over a legacy clawdbot client",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:50",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] falls back to raw ambiguous matches when none of them are connected",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:72] falls back to raw ambiguous matches when none of them are connected",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:72",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] throws clear unknown and ambiguous node errors",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:84] throws clear unknown and ambiguous node errors",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:84",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] prints client ids in ambiguous-node errors when available",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:108] prints client ids in ambiguous-node errors when available",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:108",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/node-match.test.ts] lists remote ips in unknown-node errors when display names are missing",
+TEST_CASE("v4.29 [src/shared/node-match.test.ts:138] lists remote ips in unknown-node errors when display names are missing",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/node-match.test.ts:138",
                "upstream it() block #8",

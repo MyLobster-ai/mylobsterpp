@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts] returns plain content when no voice / no mentions",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:19] returns plain content when no voice / no mentions",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts] appends attachmentInfo after content",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:29] appends attachmentInfo after content",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts] interleaves voice transcripts on their own line",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:38] interleaves voice transcripts on their own line",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:38",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts] strips <@bot> mention tags in group chats",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:51] strips <@bot> mention tags in group chats",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts] replaces <@user> with @nickname in DMs",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:64] replaces <@user> with @nickname in DMs",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/gateway/stages/content-stage.test.ts:64",
                "upstream it() block #4",

@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] returns managed_only when native Codex search is disabled",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:27] returns managed_only when native Codex search is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] returns managed_only for non-eligible models",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:38] returns managed_only for non-eligible models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] activates for direct openai-codex when auth exists",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:49] activates for direct openai-codex when auth exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] falls back to managed_only when direct openai-codex auth is missing",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:70] falls back to managed_only when direct openai-codex auth is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] activates for api-compatible openai-codex-responses providers without separate Codex auth",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:81] activates for api-compatible openai-codex-responses providers without separate Codex auth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:81",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] keeps all search disabled when global web search is disabled",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:91] keeps all search disabled when global web search is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:91",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] omits the summary when global web search is disabled",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:113] omits the summary when global web search is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:113",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] normalizes optional config values",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:131] normalizes optional config values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:131",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] builds the native Responses web_search tool",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:164] builds the native Responses web_search tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:164",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] injects native web_search into provider payloads",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:193] injects native web_search into provider payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:193",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] does not inject a duplicate native web_search tool",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:204] does not inject a duplicate native web_search tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:204",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] suppresses managed web_search only when native Codex search is active",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:214] suppresses managed web_search only when native Codex search is active",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:214",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts] treats a default model with model-level openai-codex-responses api as relevant",
+TEST_CASE("v4.29 [src/agents/codex-native-web-search.test.ts:234] treats a default model with model-level openai-codex-responses api as relevant",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/codex-native-web-search.test.ts:234",
                "upstream it() block #12",

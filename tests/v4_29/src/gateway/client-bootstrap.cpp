@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts] maps override url sources only",
+TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts:22] maps override url sources only",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client-bootstrap.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts] passes cli override context into shared auth resolution",
+TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts:39] passes cli override context into shared auth resolution",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client-bootstrap.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts] does not mark config-derived urls as overrides",
+TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts:69] does not mark config-derived urls as overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client-bootstrap.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts] carries configured preauth handshake timeout for GatewayClient callers",
+TEST_CASE("v4.29 [src/gateway/client-bootstrap.test.ts:89] carries configured preauth handshake timeout for GatewayClient callers",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/client-bootstrap.test.ts:89",
                "upstream it() block #3",

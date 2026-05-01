@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts] keeps compatibility codes unique and lookup-safe",
+TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts:156] keeps compatibility codes unique and lookup-safe",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compat/registry.test.ts:156",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts] requires dated deprecation metadata for deprecated records",
+TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts:166] requires dated deprecation metadata for deprecated records",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compat/registry.test.ts:166",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts] keeps every record actionable",
+TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts:182] keeps every record actionable",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compat/registry.test.ts:182",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts] tracks known plugin-facing deprecated surfaces",
+TEST_CASE("v4.29 [src/plugins/compat/registry.test.ts:195] tracks known plugin-facing deprecated surfaces",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/compat/registry.test.ts:195",
                "upstream it() block #3",

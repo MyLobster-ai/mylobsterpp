@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts] merges extra fields into the normalized channel summary",
+TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts:193] merges extra fields into the normalized channel summary",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/status-helpers.test.ts:193",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts] builds account status when configured is computed outside resolver",
+TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts:244] builds account status when configured is computed outside resolver",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/status-helpers.test.ts:244",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts] merges computed extras after the shared fields",
+TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts:254] merges computed extras after the shared fields",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/status-helpers.test.ts:254",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts] defaults mode to webhook and keeps supplied extras",
+TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts:394] defaults mode to webhook and keeps supplied extras",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/status-helpers.test.ts:394",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts] uses source metadata from sanitized snapshots to pick the missing field",
+TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts:418] uses source metadata from sanitized snapshots to pick the missing field",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/status-helpers.test.ts:418",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts] returns runtime issues only for non-empty string lastError values",
+TEST_CASE("v4.29 [src/plugin-sdk/status-helpers.test.ts:450] returns runtime issues only for non-empty string lastError values",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/status-helpers.test.ts:450",
                "upstream it() block #5",

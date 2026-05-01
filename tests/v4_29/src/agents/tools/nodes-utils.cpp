@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts] falls back to most recently connected node when multiple non-Mac candidates exist",
+TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts:33] falls back to most recently connected node when multiple non-Mac candidates exist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-utils.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts] preserves local Mac preference when exactly one local Mac candidate exists",
+TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts:42] preserves local Mac preference when exactly one local Mac candidate exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-utils.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts] uses stable nodeId ordering when connectedAtMs is unavailable",
+TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts:51] uses stable nodeId ordering when connectedAtMs is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-utils.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts] falls back to node.pair.list only when node.list is unavailable",
+TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts:62] falls back to node.pair.list only when node.list is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-utils.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts] rethrows unexpected node.list failures without fallback",
+TEST_CASE("v4.29 [src/agents/tools/nodes-utils.test.ts:82] rethrows unexpected node.list failures without fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/nodes-utils.test.ts:82",
                "upstream it() block #4",

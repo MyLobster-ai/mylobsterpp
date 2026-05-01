@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/openclaw-prepack.test.ts] accepts prepared release artifacts",
+TEST_CASE("v4.29 [test/openclaw-prepack.test.ts:5] accepts prepared release artifacts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-prepack.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/openclaw-prepack.test.ts] reports missing build and control ui artifacts",
+TEST_CASE("v4.29 [test/openclaw-prepack.test.ts:14] reports missing build and control ui artifacts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/openclaw-prepack.test.ts:14",
                "upstream it() block #1",

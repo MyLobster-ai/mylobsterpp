@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts] CLI create prints the new meeting URL",
+TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts:101] CLI create prints the new meeting URL",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.create.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts] can create a Meet through browser fallback without joining when requested",
+TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts:143] can create a Meet through browser fallback without joining when requested",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.create.test.ts:143",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts] reports structured manual action when browser creation needs Google login",
+TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts:213] reports structured manual action when browser creation needs Google login",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.create.test.ts:213",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts] creates and joins a Meet through the create tool action by default",
+TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts:287] creates and joins a Meet through the create tool action by default",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.create.test.ts:287",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts] returns structured manual action from the create tool action",
+TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts:382] returns structured manual action from the create tool action",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.create.test.ts:382",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts] reuses an existing browser create tab instead of opening duplicates",
+TEST_CASE("v4.29 [extensions/google-meet/index.create.test.ts:447] reuses an existing browser create tab instead of opening duplicates",
           "[v4_29][parity_gap][google-meet]") {
     PARITY_GAP("extensions/google-meet/index.create.test.ts:447",
                "upstream it() block #5",

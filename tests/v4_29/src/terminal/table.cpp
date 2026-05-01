@@ -5,131 +5,131 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] prefers shrinking flex columns to avoid wrapping non-flex labels",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:16] prefers shrinking flex columns to avoid wrapping non-flex labels",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] expands flex columns to fill available width",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:30] expands flex columns to fill available width",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] wraps ANSI-colored cells without corrupting escape sequences",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:45] wraps ANSI-colored cells without corrupting escape sequences",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] resets ANSI styling on wrapped lines",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:70] resets ANSI styling on wrapped lines",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:70",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] trims leading spaces on wrapped ANSI-colored continuation lines",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:95] trims leading spaces on wrapped ANSI-colored continuation lines",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] respects explicit newlines in cell values",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:127] respects explicit newlines in cell values",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:127",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] keeps table borders aligned when cells contain wide emoji graphemes",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:144] keeps table borders aligned when cells contain wide emoji graphemes",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:144",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] consumes unsupported escape sequences without hanging",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:169] consumes unsupported escape sequences without hanging",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:169",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] falls back to ASCII borders on legacy Windows consoles",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:183] falls back to ASCII borders on legacy Windows consoles",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:183",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] keeps unicode borders on modern Windows terminals",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:201] keeps unicode borders on modern Windows terminals",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:201",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] preserves long filesystem paths without inserting spaces/newlines",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:221] preserves long filesystem paths without inserting spaces/newlines",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:221",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] preserves long urls without inserting spaces/newlines",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:229] preserves long urls without inserting spaces/newlines",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:229",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] preserves long file-like underscore tokens for copy safety",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:237] preserves long file-like underscore tokens for copy safety",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:237",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] still chunks generic long opaque tokens to avoid pathological line width",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:244] still chunks generic long opaque tokens to avoid pathological line width",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:244",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] wraps bullet lines while preserving bullet indentation",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:252] wraps bullet lines while preserving bullet indentation",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:252",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] preserves long Windows paths without inserting spaces/newlines",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:261] preserves long Windows paths without inserting spaces/newlines",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:261",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] preserves UNC paths without inserting spaces/newlines",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:268] preserves UNC paths without inserting spaces/newlines",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:268",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/terminal/table.test.ts] clamps bogus TTY columns before clack wraps note text",
+TEST_CASE("v4.29 [src/terminal/table.test.ts:274] clamps bogus TTY columns before clack wraps note text",
           "[v4_29][parity_gap][terminal]") {
     PARITY_GAP("src/terminal/table.test.ts:274",
                "upstream it() block #17",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/channel-contract-test-plan.test.ts] splits channel contracts into focused shards",
+TEST_CASE("v4.29 [test/scripts/channel-contract-test-plan.test.ts:18] splits channel contracts into focused shards",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/channel-contract-test-plan.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/channel-contract-test-plan.test.ts] covers every channel contract test exactly once",
+TEST_CASE("v4.29 [test/scripts/channel-contract-test-plan.test.ts:36] covers every channel contract test exactly once",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/channel-contract-test-plan.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/channel-contract-test-plan.test.ts] keeps registry-backed surface shards spread across checks",
+TEST_CASE("v4.29 [test/scripts/channel-contract-test-plan.test.ts:45] keeps registry-backed surface shards spread across checks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/channel-contract-test-plan.test.ts:45",
                "upstream it() block #2",

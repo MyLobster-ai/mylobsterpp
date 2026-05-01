@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/runtime-import.test.ts] converts Windows absolute import specifiers to file URLs",
+TEST_CASE("v4.29 [src/shared/runtime-import.test.ts:13] converts Windows absolute import specifiers to file URLs",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/runtime-import.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/runtime-import.test.ts] resolves runtime imports from Windows absolute base paths",
+TEST_CASE("v4.29 [src/shared/runtime-import.test.ts:27] resolves runtime imports from Windows absolute base paths",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/runtime-import.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/runtime-import.test.ts] resolves runtime imports from file URL base paths",
+TEST_CASE("v4.29 [src/shared/runtime-import.test.ts:37] resolves runtime imports from file URL base paths",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/runtime-import.test.ts:37",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/runtime-import.test.ts] resolves absolute Windows runtime import parts directly",
+TEST_CASE("v4.29 [src/shared/runtime-import.test.ts:47] resolves absolute Windows runtime import parts directly",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/runtime-import.test.ts:47",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/runtime-import.test.ts] keeps non-Windows import paths unchanged",
+TEST_CASE("v4.29 [src/shared/runtime-import.test.ts:57] keeps non-Windows import paths unchanged",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/runtime-import.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/shared/runtime-import.test.ts] imports with the normalized runtime specifier",
+TEST_CASE("v4.29 [src/shared/runtime-import.test.ts:65] imports with the normalized runtime specifier",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/runtime-import.test.ts:65",
                "upstream it() block #5",

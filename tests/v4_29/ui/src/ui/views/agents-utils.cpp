@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] inherits defaults when no entry fallbacks are configured",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:15] inherits defaults when no entry fallbacks are configured",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] prefers entry fallbacks over defaults",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:27] prefers entry fallbacks over defaults",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] keeps explicit empty entry fallback lists",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:40] keeps explicit empty entry fallback lists",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] collects defaults primary/fallbacks, alias map keys, and per-agent model entries",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:55] collects defaults primary/fallbacks, alias map keys, and per-agent model entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] returns empty array for invalid or missing config shape",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:89] returns empty array for invalid or missing config shape",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] sorts values using localeCompare without relying on Array.prototype.toSorted",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:99] sorts values using localeCompare without relying on Array.prototype.toSorted",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:99",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] accepts any iterable input, including sets",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:103] accepts any iterable input, including sets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:103",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] keeps base-mounted control UI logo paths absolute to the mount",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:109] keeps base-mounted control UI logo paths absolute to the mount",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:109",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] uses a route-relative fallback before basePath bootstrap finishes",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:114] uses a route-relative fallback before basePath bootstrap finishes",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:114",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] uses the bundled Molty png for assistant profile fallbacks",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:120] uses the bundled Molty png for assistant profile fallbacks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:120",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] rejects unsafe invisible controls in assistant text avatars",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:127] rejects unsafe invisible controls in assistant text avatars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:127",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] prefers a runtime avatar URL over non-URL identity avatars",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:136] prefers a runtime avatar URL over non-URL identity avatars",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:136",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] ignores remote http avatars so the control UI falls back to a local badge",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:149] ignores remote http avatars so the control UI falls back to a local badge",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:149",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] ignores protocol-relative avatars so the control UI cannot be tricked into a cross-origin fetch",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:157] ignores protocol-relative avatars so the control UI cannot be tricked into a cross-origin fetch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:157",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] returns null for initials or emoji avatar values without a URL",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:165] returns null for initials or emoji avatar values without a URL",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:165",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] accepts a blob: URL produced by an authenticated avatar fetch",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:172] accepts a blob: URL produced by an authenticated avatar fetch",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:172",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] falls back to the config-sanitized avatar when no blob candidate is present",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:180] falls back to the config-sanitized avatar when no blob candidate is present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:180",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] rejects remote URLs passed as the render candidate",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:188] rejects remote URLs passed as the render candidate",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:188",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] falls back to agent payload workspace/model when config form is unavailable",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:198] falls back to agent payload workspace/model when config form is unavailable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:198",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] uses configured defaults when agent-specific overrides are absent",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:221] uses configured defaults when agent-specific overrides are absent",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:221",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts] prefers per-agent configured identity over runtime global identity in agent panels",
+TEST_CASE("v4.29 [ui/src/ui/views/agents-utils.test.ts:245] prefers per-agent configured identity over runtime global identity in agent panels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/agents-utils.test.ts:245",
                "upstream it() block #20",

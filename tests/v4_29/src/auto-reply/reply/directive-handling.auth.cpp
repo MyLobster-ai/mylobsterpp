@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts] shows api-key (ref) for keyRef-only profiles in compact mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts:93] shows api-key (ref) for keyRef-only profiles in compact mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.auth.test.ts:93",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts] shows token (ref) for tokenRef-only profiles in compact mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts:108] shows token (ref) for tokenRef-only profiles in compact mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.auth.test.ts:108",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts] uses token:ref instead of token:missing in verbose mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts:119] uses token:ref instead of token:missing in verbose mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.auth.test.ts:119",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts] passes workspace scope to env auth labels",
+TEST_CASE("v4.29 [src/auto-reply/reply/directive-handling.auth.test.ts:131] passes workspace scope to env auth labels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/directive-handling.auth.test.ts:131",
                "upstream it() block #3",

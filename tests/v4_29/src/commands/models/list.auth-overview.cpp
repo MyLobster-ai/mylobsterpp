@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts] does not throw when token profile only has tokenRef",
+TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts:99] does not throw when token profile only has tokenRef",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.auth-overview.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts] reports the selected agent auth store when profiles are effective",
+TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts:119] reports the selected agent auth store when profiles are effective",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.auth-overview.test.ts:119",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts] reports the main auth store for inherited profiles",
+TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts:150] reports the main auth store for inherited profiles",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.auth-overview.test.ts:150",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts] renders marker-backed models.json auth as marker detail",
+TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts:181] renders marker-backed models.json auth as marker detail",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.auth-overview.test.ts:181",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts] keeps env-var-shaped models.json values masked to avoid accidental plaintext exposure",
+TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts:191] keeps env-var-shaped models.json values masked to avoid accidental plaintext exposure",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.auth-overview.test.ts:191",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts] treats env-var marker as usable only when the env key is currently resolvable",
+TEST_CASE("v4.29 [src/commands/models/list.auth-overview.test.ts:202] treats env-var marker as usable only when the env key is currently resolvable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.auth-overview.test.ts:202",
                "upstream it() block #5",

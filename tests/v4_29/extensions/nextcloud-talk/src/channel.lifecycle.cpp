@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.lifecycle.test.ts] keeps startAccount pending until abort, then stops the monitor",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.lifecycle.test.ts:56] keeps startAccount pending until abort, then stops the monitor",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/channel.lifecycle.test.ts:56",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.lifecycle.test.ts] stops immediately when startAccount receives an already-aborted signal",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/channel.lifecycle.test.ts:71] stops immediately when startAccount receives an already-aborted signal",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/channel.lifecycle.test.ts:71",
                "upstream it() block #1",

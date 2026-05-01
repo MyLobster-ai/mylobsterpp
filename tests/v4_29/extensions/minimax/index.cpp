@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] keeps native reasoning mode for MiniMax transports",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:28] keeps native reasoning mode for MiniMax transports",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] keeps MiniMax auth setup metadata aligned across regions",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:56] keeps MiniMax auth setup metadata aligned across regions",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] owns replay policy for Anthropic and OpenAI-compatible MiniMax transports",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:122] owns replay policy for Anthropic and OpenAI-compatible MiniMax transports",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:122",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] owns fast-mode stream wrapping for MiniMax transports",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:159] owns fast-mode stream wrapping for MiniMax transports",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:159",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] shares the provider hook bundle across MiniMax variants",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:216] shares the provider hook bundle across MiniMax variants",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:216",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] registers the bundled MiniMax web search provider",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:230] registers the bundled MiniMax web search provider",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:230",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] prefers minimax-portal oauth when resolving MiniMax usage auth",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:253] prefers minimax-portal oauth when resolving MiniMax usage auth",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:253",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/minimax/index.test.ts] writes api and authHeader into the MiniMax portal OAuth config patch",
+TEST_CASE("v4.29 [extensions/minimax/index.test.ts:279] writes api and authHeader into the MiniMax portal OAuth config patch",
           "[v4_29][parity_gap][minimax]") {
     PARITY_GAP("extensions/minimax/index.test.ts:279",
                "upstream it() block #7",

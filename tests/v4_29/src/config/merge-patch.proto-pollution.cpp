@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts] ignores __proto__ keys in patch",
+TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts:5] ignores __proto__ keys in patch",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.proto-pollution.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts] ignores constructor key in patch",
+TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts:16] ignores constructor key in patch",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.proto-pollution.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts] ignores prototype key in patch",
+TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts:24] ignores prototype key in patch",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.proto-pollution.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts] ignores __proto__ in nested patches",
+TEST_CASE("v4.29 [src/config/merge-patch.proto-pollution.test.ts:32] ignores __proto__ in nested patches",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/merge-patch.proto-pollution.test.ts:32",
                "upstream it() block #3",

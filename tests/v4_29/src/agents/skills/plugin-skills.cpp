@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts] rejects plugin skill paths that escape the plugin root",
+TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts:206] rejects plugin skill paths that escape the plugin root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/plugin-skills.test.ts:206",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts] rejects plugin skill symlinks that resolve outside plugin root",
+TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts:233] rejects plugin skill symlinks that resolve outside plugin root",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/plugin-skills.test.ts:233",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts] resolves Claude bundle command roots through the normal plugin skill path",
+TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts:264] resolves Claude bundle command roots through the normal plugin skill path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/plugin-skills.test.ts:264",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts] resolves enabled plugin skills through legacy manifest aliases",
+TEST_CASE("v4.29 [src/agents/skills/plugin-skills.test.ts:295] resolves enabled plugin skills through legacy manifest aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills/plugin-skills.test.ts:295",
                "upstream it() block #3",

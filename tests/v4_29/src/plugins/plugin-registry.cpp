@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] resolves relative plugin API paths against the plugin root",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:148] resolves relative plugin API paths against the plugin root",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:148",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] keeps absolute and home plugin API paths user-resolved",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:159] keeps absolute and home plugin API paths user-resolved",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:159",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] resolves cold plugin records and contribution owners without loading runtime",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:169] resolves cold plugin records and contribution owners without loading runtime",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:169",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] keeps disabled records inspectable while excluding owners by default",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:226] keeps disabled records inspectable while excluding owners by default",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:226",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] resolves contribution owners from a plugin lookup table without rereading manifests",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:264] resolves contribution owners from a plugin lookup table without rereading manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:264",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] normalizes plugin config ids through registry contribution aliases",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:313] normalizes plugin config ids through registry contribution aliases",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:313",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] normalizes plugin config ids from a provided manifest registry without rereading manifests",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:364] normalizes plugin config ids from a provided manifest registry without rereading manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:364",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] reads the persisted registry before deriving from discovered candidates",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:398] reads the persisted registry before deriving from discovered candidates",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:398",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] falls back to the derived registry when persisted source paths are missing",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:439] falls back to the derived registry when persisted source paths are missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:439",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] falls back to the derived registry when persisted bundled roots point at another checkout",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:467] falls back to the derived registry when persisted bundled roots point at another checkout",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:467",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] falls back to the derived registry when persisted policy is stale",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:503] falls back to the derived registry when persisted policy is stale",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:503",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] falls back to the derived registry when the persisted registry is missing",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:547] falls back to the derived registry when the persisted registry is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:547",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] derives fresh config-scoped registries when the persisted registry is missing",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:567] derives fresh config-scoped registries when the persisted registry is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:567",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] falls back to the derived registry when persisted reads are disabled",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:605] falls back to the derived registry when persisted reads are disabled",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:605",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] derives a fresh registry without dropping persisted install records",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:629] derives a fresh registry without dropping persisted install records",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:629",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] exposes explicit persisted registry inspect and refresh operations",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:665] exposes explicit persisted registry inspect and refresh operations",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:665",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts] preserves install records when refreshing the persisted registry",
+TEST_CASE("v4.29 [src/plugins/plugin-registry.test.ts:701] preserves install records when refreshing the persisted registry",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/plugin-registry.test.ts:701",
                "upstream it() block #16",

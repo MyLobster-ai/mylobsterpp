@@ -5,369 +5,369 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips final tags",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:18] strips final tags",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes role ordering errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:30] sanitizes role ordering errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:30",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes HTTP status errors with error hints",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:35] sanitizes HTTP status errors with error hints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes Ollama prompt-too-long payloads through the context-overflow path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:50] sanitizes Ollama prompt-too-long payloads through the context-overflow path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] does not rewrite billing error-shaped text without errorContext",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:73] does not rewrite billing error-shaped text without errorContext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:73",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] rewrites billing error-shaped text with errorContext",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:78] rewrites billing error-shaped text with errorContext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:78",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] rewrites exec denied payloads with errorContext",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:83] rewrites exec denied payloads with errorContext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:83",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes raw API error payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:91] sanitizes raw API error payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:91",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] does not rewrite unprefixed raw API payloads without explicit errorContext",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:98] does not rewrite unprefixed raw API payloads without explicit errorContext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:98",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes Codex error-prefixed API payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:103] sanitizes Codex error-prefixed API payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:103",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes Codex error-prefixed API payloads without explicit errorContext",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:111] sanitizes Codex error-prefixed API payloads without explicit errorContext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:111",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] keeps regular JSON examples intact without explicit errorContext",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:117] keeps regular JSON examples intact without explicit errorContext",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:117",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] preserves specialized context overflow guidance for raw API payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:122] preserves specialized context overflow guidance for raw API payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:122",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] preserves specialized context overflow guidance for Codex-prefixed API payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:130] preserves specialized context overflow guidance for Codex-prefixed API payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:130",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] returns a friendly message for rate limit errors in Error: prefixed payloads",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:138] returns a friendly message for rate limit errors in Error: prefixed payloads",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:138",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] returns a model-switch hint for OpenAI model capacity errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:144] returns a model-switch hint for OpenAI model capacity errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:144",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] returns a transport-specific message for prefixed ECONNREFUSED errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:155] returns a transport-specific message for prefixed ECONNREFUSED errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:155",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] sanitizes invalid streaming event order errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:172] sanitizes invalid streaming event order errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:172",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] preserves trailing whitespace and internal newlines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:206] preserves trailing whitespace and internal newlines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:206",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips tool-call replay placeholders without trimming visible text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:211] strips tool-call replay placeholders without trimming visible text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:211",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] keeps ordinary inline mentions of the replay placeholder",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:220] keeps ordinary inline mentions of the replay placeholder",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:220",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips marked internal runtime context blocks but keeps real reply text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:226] strips marked internal runtime context blocks but keeps real reply text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:226",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips copied inbound metadata blocks from user-facing assistant text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:244] strips copied inbound metadata blocks from user-facing assistant text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:244",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] does not leak internal context when untrusted child output includes delimiter tokens",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:270] does not leak internal context when untrusted child output includes delimiter tokens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:270",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] does not strip inline delimiter mentions that are not standalone marker lines",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:297] does not strip inline delimiter mentions that are not standalone marker lines",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:297",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] drops legacy unmarked internal runtime context when it leaks into user-facing text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:302] drops legacy unmarked internal runtime context when it leaks into user-facing text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:302",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips embedded legacy internal runtime context but preserves surrounding text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:314] strips embedded legacy internal runtime context but preserves surrounding text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:314",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips copied next-turn runtime context prefaces from user-facing text",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:343] strips copied next-turn runtime context prefaces from user-facing text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:343",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips copied runtime event prefaces when no visible text remains",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:358] strips copied runtime event prefaces when no visible text remains",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:358",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] does not strip ordinary text that merely mentions internal marker strings",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:367] does not strip ordinary text that merely mentions internal marker strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:367",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] does not strip text that starts with the legacy header phrase but is not the canonical block",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:376] does not strip text that starts with the legacy header phrase but is not the canonical block",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:376",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] tolerates non-string input without throwing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:387] tolerates non-string input without throwing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:387",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] returns non-array content unchanged",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:394] returns non-array content unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:394",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] removes msg_-prefixed thought_signature from content blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:400] removes msg_-prefixed thought_signature from content blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:400",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] preserves blocks without thought_signature",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:417] preserves blocks without thought_signature",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:417",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] handles mixed blocks with and without thought_signature",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:426] handles mixed blocks with and without thought_signature",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:426",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] handles empty array",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:440] handles empty array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:440",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] handles null/undefined blocks in array",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:443] handles null/undefined blocks in array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:443",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] keeps valid alphanumeric tool call IDs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:452] keeps valid alphanumeric tool call IDs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:452",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips underscores and hyphens",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:455] strips underscores and hyphens",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:455",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips invalid characters",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:459] strips invalid characters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:459",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips all non-alphanumeric characters",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:465] strips all non-alphanumeric characters",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:465",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] returns alphanumeric IDs with length 9",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:475] returns alphanumeric IDs with length 9",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:475",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] keeps reasoning signatures when followed by content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:503] keeps reasoning signatures when followed by content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:503",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] drops replayable reasoning when requested even with following content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:521] drops replayable reasoning when requested even with following content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:521",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] drops orphaned reasoning blocks without following content",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:541] drops orphaned reasoning blocks without following content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:541",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] drops object-form orphaned signatures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:560] drops object-form orphaned signatures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:560",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] keeps non-reasoning thinking signatures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:576] keeps non-reasoning thinking signatures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:576",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] is idempotent for orphaned reasoning cleanup",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:593] is idempotent for orphaned reasoning cleanup",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:593",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] strips fc ids when reasoning cannot be replayed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:646] strips fc ids when reasoning cannot be replayed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:646",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] keeps fc ids when replayable reasoning is present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:658] keeps fc ids when replayable reasoning is present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:658",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts] only rewrites tool results paired to the downgraded assistant turn",
+TEST_CASE("v4.29 [src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:667] only rewrites tool results paired to the downgraded assistant turn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-helpers.sanitizeuserfacingtext.test.ts:667",
                "upstream it() block #51",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts] uses live directory fallback and caches the result",
+TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts:84] uses live directory fallback and caches the result",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-resolver.test.ts:84",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts] skips directory lookup for direct ids",
+TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts:109] skips directory lookup for direct ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-resolver.test.ts:109",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts] lets plugins override id-like target resolution before falling back to raw ids",
+TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts:121] lets plugins override id-like target resolution before falling back to raw ids",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-resolver.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts] uses plugin chat-type inference for directory lookups and plugin fallback on miss",
+TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts:156] uses plugin chat-type inference for directory lookups and plugin fallback on miss",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-resolver.test.ts:156",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts] keeps plugin-owned id casing when resolver returns a normalized target",
+TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts:199] keeps plugin-owned id casing when resolver returns a normalized target",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-resolver.test.ts:199",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts] defers target display formatting to the plugin when available",
+TEST_CASE("v4.29 [src/infra/outbound/target-resolver.test.ts:223] defers target display formatting to the plugin when available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/target-resolver.test.ts:223",
                "upstream it() block #5",

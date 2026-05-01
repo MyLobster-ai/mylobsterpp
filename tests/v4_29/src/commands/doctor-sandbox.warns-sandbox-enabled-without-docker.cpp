@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts] warns when sandbox mode is enabled but Docker is not available",
+TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:74] warns when sandbox mode is enabled but Docker is not available",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts] warns when sandbox mode is ",
+TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:88] warns when sandbox mode is ",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:88",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts] does not warn when sandbox mode is off",
+TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:99] does not warn when sandbox mode is off",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts] does not warn when Docker is available",
+TEST_CASE("v4.29 [src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:106] does not warn when Docker is available",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-sandbox.warns-sandbox-enabled-without-docker.test.ts:106",
                "upstream it() block #3",

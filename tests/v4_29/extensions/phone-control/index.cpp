@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] arms sms.send as part of the writes group",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:110] arms sms.send as part of the writes group",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:110",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] blocks internal operator.write callers from mutating phone control",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:134] blocks internal operator.write callers from mutating phone control",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] allows external channel callers without operator.admin to mutate phone control",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:147] allows external channel callers without operator.admin to mutate phone control",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:147",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] allows external channel callers without operator.admin to disarm phone control",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:159] allows external channel callers without operator.admin to disarm phone control",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:159",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] regression: blocks non-webchat gateway callers with operator.write from arm/disarm",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:171] regression: blocks non-webchat gateway callers with operator.write from arm/disarm",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:171",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] allows internal operator.admin callers to mutate phone control",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:191] allows internal operator.admin callers to mutate phone control",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:191",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/phone-control/index.test.ts] allows external channel callers with operator.admin to disarm phone control",
+TEST_CASE("v4.29 [extensions/phone-control/index.test.ts:204] allows external channel callers with operator.admin to disarm phone control",
           "[v4_29][parity_gap][phone-control]") {
     PARITY_GAP("extensions/phone-control/index.test.ts:204",
                "upstream it() block #6",

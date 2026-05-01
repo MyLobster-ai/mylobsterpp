@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/fast-mode.test.ts] prefers session overrides",
+TEST_CASE("v4.29 [src/agents/fast-mode.test.ts:6] prefers session overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/fast-mode.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/fast-mode.test.ts] uses agent fastModeDefault when present",
+TEST_CASE("v4.29 [src/agents/fast-mode.test.ts:18] uses agent fastModeDefault when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/fast-mode.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/fast-mode.test.ts] falls back to model config when agent default is absent",
+TEST_CASE("v4.29 [src/agents/fast-mode.test.ts:36] falls back to model config when agent default is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/fast-mode.test.ts:36",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/fast-mode.test.ts] defaults to off when unset",
+TEST_CASE("v4.29 [src/agents/fast-mode.test.ts:57] defaults to off when unset",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/fast-mode.test.ts:57",
                "upstream it() block #3",

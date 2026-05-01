@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/npm-publish-plan.test.ts] does not require npm auth for dry-run preview commands",
+TEST_CASE("v4.29 [test/npm-publish-plan.test.ts:9] does not require npm auth for dry-run preview commands",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/npm-publish-plan.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/npm-publish-plan.test.ts] requires npm auth for real publishes that mirror dist-tags",
+TEST_CASE("v4.29 [test/npm-publish-plan.test.ts:22] requires npm auth for real publishes that mirror dist-tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/npm-publish-plan.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/npm-publish-plan.test.ts] does not require auth when there are no mirror dist-tags",
+TEST_CASE("v4.29 [test/npm-publish-plan.test.ts:35] does not require auth when there are no mirror dist-tags",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/npm-publish-plan.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/npm-publish-plan.test.ts] does not require auth when a publish already has npm auth",
+TEST_CASE("v4.29 [test/npm-publish-plan.test.ts:48] does not require auth when a publish already has npm auth",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/npm-publish-plan.test.ts:48",
                "upstream it() block #3",

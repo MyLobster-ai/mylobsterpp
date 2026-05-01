@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts] fails closed when auth bootstrap throws and no auth is configured",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts:94] fails closed when auth bootstrap throws and no auth is configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server.auth-fail-closed.test.ts:94",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts] fails closed when auth bootstrap resolves empty auth in production-like mode",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts:103] fails closed when auth bootstrap resolves empty auth in production-like mode",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server.auth-fail-closed.test.ts:103",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts] fails closed when password mode has no resolved password",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts:116] fails closed when password mode has no resolved password",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server.auth-fail-closed.test.ts:116",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts] fails closed when password mode drops an inactive token but has no password",
+TEST_CASE("v4.29 [extensions/browser/src/browser/server.auth-fail-closed.test.ts:128] fails closed when password mode drops an inactive token but has no password",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/server.auth-fail-closed.test.ts:128",
                "upstream it() block #3",

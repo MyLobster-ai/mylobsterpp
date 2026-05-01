@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts] does NOT echo when echoTranscript is false (default)",
+TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts:237] does NOT echo when echoTranscript is false (default)",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.echo-transcript.test.ts:237",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts] does NOT echo when echoTranscript is absent (default)",
+TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts:247] does NOT echo when echoTranscript is absent (default)",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.echo-transcript.test.ts:247",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts] echoes transcript with default format when echoTranscript is true",
+TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts:257] echoes transcript with default format when echoTranscript is true",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.echo-transcript.test.ts:257",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts] does NOT echo when there are no audio attachments",
+TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts:275] does NOT echo when there are no audio attachments",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.echo-transcript.test.ts:275",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts] does NOT echo when transcription fails",
+TEST_CASE("v4.29 [src/media-understanding/apply.echo-transcript.test.ts:302] does NOT echo when transcription fails",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/apply.echo-transcript.test.ts:302",
                "upstream it() block #4",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts] stays cold until the runtime seam is used",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts:35] stays cold until the runtime seam is used",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runtime.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts] loads the qa-lab runtime public surface through the generic seam",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts:43] loads the qa-lab runtime public surface through the generic seam",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runtime.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts] uses the source bundled tree for qa-lab runtime loading in private qa mode",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts:50] uses the source bundled tree for qa-lab runtime loading in private qa mode",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runtime.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts] reports the runtime as unavailable when the qa-lab surface is missing",
+TEST_CASE("v4.29 [src/plugin-sdk/qa-runtime.test.ts:59] reports the runtime as unavailable when the qa-lab surface is missing",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/qa-runtime.test.ts:59",
                "upstream it() block #3",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] returns undefined when no points match the range",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:50] returns undefined when no points match the range",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] aggregates tokens and cost for points within range",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:56] aggregates tokens and cost for points within range",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] handles reversed range (end < start)",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:68] handles reversed range (end < start)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] counts message types based on input/output presence",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:78] counts message types based on input/output presence",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] computes duration from first to last filtered point",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:90] computes duration from first to last filtered point",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:90",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] aggregates token types (input, output, cacheRead, cacheWrite)",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:98] aggregates token types (input, output, cacheRead, cacheWrite)",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:98",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] bar width ratio and max are reasonable",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:112] bar width ratio and max are reasonable",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:112",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts] bars fit within chart width for typical point counts",
+TEST_CASE("v4.29 [ui/src/ui/views/usage-render-details.test.ts:118] bars fit within chart width for typical point counts",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/views/usage-render-details.test.ts:118",
                "upstream it() block #7",

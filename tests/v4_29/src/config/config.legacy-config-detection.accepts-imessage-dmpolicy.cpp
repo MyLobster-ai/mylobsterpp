@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] accepts tools audio transcription without cli",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:32] accepts tools audio transcription without cli",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] rejects legacy agent.model string",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:37] rejects legacy agent.model string",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] rejects removed legacy provider sections",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:47] rejects removed legacy provider sections",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] preserves claude-cli auth profile mode during validation",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:57] preserves claude-cli auth profile mode during validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] rejects bindings[].match.provider without mutating the source",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:72] rejects bindings[].match.provider without mutating the source",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] rejects bindings[].match.accountID without mutating the source",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:83] rejects bindings[].match.accountID without mutating the source",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:83",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] accepts bindings[].comment during validation",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:94] accepts bindings[].comment during validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:94",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] rejects session.sendPolicy.rules[].match.provider without mutating the source",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:102] rejects session.sendPolicy.rules[].match.provider without mutating the source",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:102",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts] rejects messages.queue.byProvider without mutating the source",
+TEST_CASE("v4.29 [src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:120] rejects messages.queue.byProvider without mutating the source",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.legacy-config-detection.accepts-imessage-dmpolicy.test.ts:120",
                "upstream it() block #8",

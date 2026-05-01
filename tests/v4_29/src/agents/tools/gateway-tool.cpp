@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts] does not expose system-event continuations to the agent tool",
+TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts:81] does not expose system-event continuations to the agent tool",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway-tool.test.ts:81",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts] instructs agents to use continuationMessage when a restart still needs a reply",
+TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts:93] instructs agents to use continuationMessage when a restart still needs a reply",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway-tool.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts] writes an agentTurn continuation into the restart sentinel",
+TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts:102] writes an agentTurn continuation into the restart sentinel",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway-tool.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts] coerces legacy continuationKind inputs to an agentTurn",
+TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts:150] coerces legacy continuationKind inputs to an agentTurn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway-tool.test.ts:150",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts] defaults session-scoped restarts to a success continuation",
+TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts:176] defaults session-scoped restarts to a success continuation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway-tool.test.ts:176",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts] removes the prepared sentinel when restart emission is rejected",
+TEST_CASE("v4.29 [src/agents/tools/gateway-tool.test.ts:205] removes the prepared sentinel when restart emission is rejected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/gateway-tool.test.ts:205",
                "upstream it() block #5",

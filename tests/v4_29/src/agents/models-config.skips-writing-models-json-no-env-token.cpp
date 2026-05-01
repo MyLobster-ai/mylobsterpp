@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts] writes marker-backed defaults but skips env-gated providers when no env token or profile exists",
+TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:147] writes marker-backed defaults but skips env-gated providers when no env token or profile exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:147",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts] writes models.json for configured providers",
+TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:176] writes models.json for configured providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:176",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts] adds minimax provider when MINIMAX_API_KEY is set",
+TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:203] adds minimax provider when MINIMAX_API_KEY is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:203",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts] adds synthetic provider when SYNTHETIC_API_KEY is set",
+TEST_CASE("v4.29 [src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:214] adds synthetic provider when SYNTHETIC_API_KEY is set",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/models-config.skips-writing-models-json-no-env-token.test.ts:214",
                "upstream it() block #3",

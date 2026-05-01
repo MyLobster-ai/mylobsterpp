@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] creates a temp dir and always removes it after callback",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:103] creates a temp dir and always removes it after callback",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:103",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] packs spec and returns archive path using JSON output metadata",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:156] packs spec and returns archive path using JSON output metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:156",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] falls back to parsing final stdout line when npm json output is unavailable",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:195] falls back to parsing final stdout line when npm json output is unavailable",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:195",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] returns npm pack error details when command fails",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:212] returns npm pack error details when command fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:212",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] returns friendly error for 404 (package not on npm)",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:249] returns friendly error for 404 (package not on npm)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:249",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] returns explicit error when npm pack produces no archive name",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:265] returns explicit error when npm pack produces no archive name",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:265",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] parses scoped metadata from id-only json output even with npm notice prefix",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:279] parses scoped metadata from id-only json output even with npm notice prefix",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:279",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts] uses stdout fallback error text when stderr is empty",
+TEST_CASE("v4.29 [src/infra/install-source-utils.test.ts:303] uses stdout fallback error text when stderr is empty",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/install-source-utils.test.ts:303",
                "upstream it() block #7",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/approval-turn-source.test.ts] returns true when the initiating surface is enabled",
+TEST_CASE("v4.29 [src/infra/approval-turn-source.test.ts:24] returns true when the initiating surface is enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-turn-source.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-turn-source.test.ts] returns false when the initiating surface is disabled or unsupported",
+TEST_CASE("v4.29 [src/infra/approval-turn-source.test.ts:40] returns false when the initiating surface is disabled or unsupported",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-turn-source.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/approval-turn-source.test.ts] returns false when there is no turn-source channel",
+TEST_CASE("v4.29 [src/infra/approval-turn-source.test.ts:48] returns false when there is no turn-source channel",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/approval-turn-source.test.ts:48",
                "upstream it() block #2",

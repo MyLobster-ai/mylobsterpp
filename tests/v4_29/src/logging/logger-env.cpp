@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/logger-env.test.ts] applies a valid env override to both file and console levels",
+TEST_CASE("v4.29 [src/logging/logger-env.test.ts:48] applies a valid env override to both file and console levels",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-env.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/logger-env.test.ts] warns once and ignores invalid env values",
+TEST_CASE("v4.29 [src/logging/logger-env.test.ts:68] warns once and ignores invalid env values",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/logger-env.test.ts:68",
                "upstream it() block #1",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.web-auto-reply.last-route.test.ts] updates last-route for direct chats without senderE164",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.web-auto-reply.last-route.test.ts:116] updates last-route for direct chats without senderE164",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.web-auto-reply.last-route.test.ts:116",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.web-auto-reply.last-route.test.ts] updates last-route for group chats with account id",
+TEST_CASE("v4.29 [extensions/whatsapp/src/auto-reply.web-auto-reply.last-route.test.ts:148] updates last-route for group chats with account id",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/auto-reply.web-auto-reply.last-route.test.ts:148",
                "upstream it() block #1",

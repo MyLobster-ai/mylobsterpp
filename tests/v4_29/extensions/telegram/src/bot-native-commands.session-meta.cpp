@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] calls recordSessionMetaFromInbound after a native slash command",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:461] calls recordSessionMetaFromInbound after a native slash command",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:461",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] uses the target session model when building native argument menus",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:482] uses the target session model when building native argument menus",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:482",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] inherits the parent session model when building DM thread native argument menus",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:518] inherits the parent session model when building DM thread native argument menus",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:518",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] uses the configured default model instead of temporary auto fallback overrides",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:553] uses the configured default model instead of temporary auto fallback overrides",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:553",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] does not load the session store when a native argument menu is skipped",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:596] does not load the session store when a native argument menu is skipped",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:596",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] awaits session metadata persistence before dispatch",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:608] awaits session metadata persistence before dispatch",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:608",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] does not inject approval buttons for native command replies once the monitor owns approvals",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:630] does not inject approval buttons for native command replies once the monitor owns approvals",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:630",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] suppresses local structured exec approval replies for native commands",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:667] suppresses local structured exec approval replies for native commands",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:667",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] sends native command error replies silently when silentErrorReplies is enabled",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:705] sends native command error replies silently when silentErrorReplies is enabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:705",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] routes Telegram native commands through configured ACP topic bindings",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:736] routes Telegram native commands through configured ACP topic bindings",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:736",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] routes Telegram native commands through topic-specific agent sessions",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:774] routes Telegram native commands through topic-specific agent sessions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:774",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] does not mark paired Telegram DM allowlist entries as native group command owners",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:804] does not mark paired Telegram DM allowlist entries as native group command owners",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:804",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] authorizes paired Telegram DMs without marking them as owners",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:816] authorizes paired Telegram DMs without marking them as owners",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:816",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] routes Telegram native commands through bound topic sessions",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:840] routes Telegram native commands through bound topic sessions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:840",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] aborts native command dispatch when configured ACP topic binding cannot initialize",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:911] aborts native command dispatch when configured ACP topic binding cannot initialize",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:911",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] keeps /new blocked in ACP-bound Telegram topics when sender is unauthorized",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:944] keeps /new blocked in ACP-bound Telegram topics when sender is unauthorized",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:944",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts] keeps /new blocked for unbound Telegram topics when sender is unauthorized",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.session-meta.test.ts:971] keeps /new blocked for unbound Telegram topics when sender is unauthorized",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.session-meta.test.ts:971",
                "upstream it() block #16",

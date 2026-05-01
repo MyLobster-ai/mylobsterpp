@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] resolves persisted session overrides ahead of agent defaults",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:146] resolves persisted session overrides ahead of agent defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:146",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] prefers persisted session overrides ahead of stale runtime model fields",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:181] prefers persisted session overrides ahead of stale runtime model fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:181",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] splits legacy combined session overrides when providerOverride is missing",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:209] splits legacy combined session overrides when providerOverride is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:209",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] preserves provider when runtime model is a vendor-prefixed OpenRouter id",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:234] preserves provider when runtime model is a vendor-prefixed OpenRouter id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:234",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] keeps nested model ids under the persisted provider override",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:260] keeps nested model ids under the persisted provider override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:260",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] strips duplicated provider prefixes from persisted overrides",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:286] strips duplicated provider prefixes from persisted overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:286",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] routes normalized overrides back through persisted ref resolution",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:312] routes normalized overrides back through persisted ref resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:312",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] queues a live switch only when an active run was aborted",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:339] queues a live switch only when an active run was aborted",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:339",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] does not import the broad pi-embedded barrel on module load",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:358] does not import the broad pi-embedded barrel on module load",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:358",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] treats auth-profile-source changes as no-op when no auth profile is selected",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:364] treats auth-profile-source changes as no-op when no auth profile is selected",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:364",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] does not track persisted live selection when the run started on a transient model override",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:382] does not track persisted live selection when the run started on a transient model override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:382",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] returns the persisted selection when liveModelSwitchPending is true and model differs",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:400] returns the persisted selection when liveModelSwitchPending is true and model differs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:400",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] returns undefined when liveModelSwitchPending is false",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:421] returns undefined when liveModelSwitchPending is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:421",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] returns undefined when liveModelSwitchPending is true but models match",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:436] returns undefined when liveModelSwitchPending is true but models match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:436",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] clears the stale liveModelSwitchPending flag when models already match",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:452] clears the stale liveModelSwitchPending flag when models already match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:452",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] returns undefined when sessionKey is missing",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:477] returns undefined when sessionKey is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:477",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] calls updateSessionStore to clear the flag",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:487] calls updateSessionStore to clear the flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:487",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] deletes liveModelSwitchPending from the session entry",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:502] deletes liveModelSwitchPending from the session entry",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:502",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts] is a no-op when sessionKey is missing",
+TEST_CASE("v4.29 [src/agents/live-model-switch.test.ts:522] is a no-op when sessionKey is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/live-model-switch.test.ts:522",
                "upstream it() block #18",

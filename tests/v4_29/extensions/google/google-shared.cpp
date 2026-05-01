@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] preserves parameters when type is missing",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:18] preserves parameters when type is missing",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] keeps unsupported JSON Schema keywords intact",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:42] keeps unsupported JSON Schema keywords intact",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] keeps supported schema fields",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:92] keeps supported schema fields",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:92",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] keeps thinking blocks when provider/model match",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:165] keeps thinking blocks when provider/model match",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:165",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] keeps thought signatures for Claude models",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:188] keeps thought signatures for Claude models",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:188",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] does not merge consecutive user messages for Gemini",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:211] does not merge consecutive user messages for Gemini",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:211",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] does not merge consecutive user messages for non-Gemini Google models",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:219] does not merge consecutive user messages for non-Gemini Google models",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:219",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] does not merge consecutive model messages for Gemini",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:227] does not merge consecutive model messages for Gemini",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:227",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] handles user message after tool result without model response in between",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:246] handles user message after tool result without model response in between",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:246",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] ensures function call comes after user turn, not after model turn",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:291] ensures function call comes after user turn, not after model turn",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:291",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/google/google-shared.test.ts] strips tool call and response ids for google-gemini-cli",
+TEST_CASE("v4.29 [extensions/google/google-shared.test.ts:320] strips tool call and response ids for google-gemini-cli",
           "[v4_29][parity_gap][google]") {
     PARITY_GAP("extensions/google/google-shared.test.ts:320",
                "upstream it() block #10",

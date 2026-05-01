@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] returns undefined with no model config",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:5] returns undefined with no model config",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] applies default runtime params for OpenAI GPT-5 models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:15] applies default runtime params for OpenAI GPT-5 models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:15",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] returns params for exact provider/model key",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:29] returns params for exact provider/model key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] ignores unrelated model entries",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:55] ignores unrelated model entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:55",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] returns per-agent params when agentId matches",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:77] returns per-agent params when agentId matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:77",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] merges per-agent params over global model defaults",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:97] merges per-agent params over global model defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:97",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] preserves higher-precedence agent parallelToolCalls override across alias styles",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:130] preserves higher-precedence agent parallelToolCalls override across alias styles",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:130",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] canonicalizes text verbosity alias styles with agent override precedence",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:163] canonicalizes text verbosity alias styles with agent override precedence",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:163",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts] ignores per-agent params when agentId does not match",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner-extraparams-resolve.test.ts:198] ignores per-agent params when agentId does not match",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner-extraparams-resolve.test.ts:198",
                "upstream it() block #8",

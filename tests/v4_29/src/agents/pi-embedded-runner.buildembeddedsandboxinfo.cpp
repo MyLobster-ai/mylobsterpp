@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts] returns undefined when sandbox is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:44] returns undefined when sandbox is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts] maps sandbox context into prompt info",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:48] maps sandbox context into prompt info",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:48",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts] includes elevated info when allowed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:62] includes elevated info when allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts] keeps full-access unavailability truth when provided",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:89] keeps full-access unavailability truth when provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts] treats direct host runs with allowed elevation as full-access available",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:119] treats direct host runs with allowed elevation as full-access available",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts] keeps explicit runtime blocks even when host exec is allowed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:131] keeps explicit runtime blocks even when host exec is allowed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner.buildembeddedsandboxinfo.test.ts:131",
                "upstream it() block #5",

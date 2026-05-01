@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/operator-approvals-client.test.ts] waits for hello before running the callback and stops cleanly",
+TEST_CASE("v4.29 [src/gateway/operator-approvals-client.test.ts:74] waits for hello before running the callback and stops cleanly",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/operator-approvals-client.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/operator-approvals-client.test.ts] surfaces close failures before hello",
+TEST_CASE("v4.29 [src/gateway/operator-approvals-client.test.ts:96] surfaces close failures before hello",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/operator-approvals-client.test.ts:96",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/operator-approvals-client.test.ts] falls back to stop when stopAndWait rejects",
+TEST_CASE("v4.29 [src/gateway/operator-approvals-client.test.ts:110] falls back to stop when stopAndWait rejects",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/operator-approvals-client.test.ts:110",
                "upstream it() block #2",

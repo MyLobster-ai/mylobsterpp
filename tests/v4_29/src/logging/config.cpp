@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/config.test.ts] skips mutating config loads for config schema",
+TEST_CASE("v4.29 [src/logging/config.test.ts:34] skips mutating config loads for config schema",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/config.test.ts:34",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/config.test.ts] reads logging config directly from the active config path",
+TEST_CASE("v4.29 [src/logging/config.test.ts:42] reads logging config directly from the active config path",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/config.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/config.test.ts] supports JSON5 comments and trailing commas",
+TEST_CASE("v4.29 [src/logging/config.test.ts:58] supports JSON5 comments and trailing commas",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/config.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/config.test.ts] returns undefined for missing or malformed config files",
+TEST_CASE("v4.29 [src/logging/config.test.ts:71] returns undefined for missing or malformed config files",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/config.test.ts:71",
                "upstream it() block #3",

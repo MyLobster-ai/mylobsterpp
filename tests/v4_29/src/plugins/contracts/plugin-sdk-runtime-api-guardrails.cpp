@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts] keeps runtime api surfaces on an explicit export allowlist",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:291] keeps runtime api surfaces on an explicit export allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:291",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts] keeps bundled runtime api barrels off their own branded sdk facades",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:304] keeps bundled runtime api barrels off their own branded sdk facades",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:304",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts] keeps Slack",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:322] keeps Slack",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:322",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts] keeps Matrix",
+TEST_CASE("v4.29 [src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:339] keeps Matrix",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/plugin-sdk-runtime-api-guardrails.test.ts:339",
                "upstream it() block #3",

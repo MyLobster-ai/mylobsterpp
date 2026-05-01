@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/provider-capability-registry.test.ts] auto-registers config providers with image-capable models",
+TEST_CASE("v4.29 [src/media-understanding/provider-capability-registry.test.ts:16] auto-registers config providers with image-capable models",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-capability-registry.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/provider-capability-registry.test.ts] keeps plugin-owned capabilities ahead of config auto-registration",
+TEST_CASE("v4.29 [src/media-understanding/provider-capability-registry.test.ts:34] keeps plugin-owned capabilities ahead of config auto-registration",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/provider-capability-registry.test.ts:34",
                "upstream it() block #1",

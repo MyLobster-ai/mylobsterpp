@@ -5,320 +5,320 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] attaches the current session to an existing Codex thread",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:101] attaches the current session to an existing Codex thread",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] shows model ids from Codex app-server",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:134] shows model ids from Codex app-server",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:134",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] shows when Codex app-server model output is truncated",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:153] shows when Codex app-server model output is truncated",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:153",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] reports status unavailable when every Codex probe fails",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:174] reports status unavailable when every Codex probe fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:174",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] formats generated account/read responses",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:198] formats generated account/read responses",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:198",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] formats generated Amazon Bedrock account responses",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:222] formats generated Amazon Bedrock account responses",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:222",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] starts compaction for the attached Codex thread",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:240] starts compaction for the attached Codex thread",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:240",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] starts review with the generated app-server target shape",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:261] starts review with the generated app-server target shape",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:261",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] checks Codex Computer Use setup",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:282] checks Codex Computer Use setup",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:282",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] formats disabled installed Codex Computer Use plugins",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:305] formats disabled installed Codex Computer Use plugins",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:305",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] installs Codex Computer Use from command overrides",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:326] installs Codex Computer Use from command overrides",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:326",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] shows help when Computer Use option values are missing",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:351] shows help when Computer Use option values are missing",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:351",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] explains compaction when no Codex thread is attached",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:364] explains compaction when no Codex thread is attached",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:364",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] asks before sending diagnostics feedback for the attached Codex thread",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:374] asks before sending diagnostics feedback for the attached Codex thread",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:374",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] previews exec-approved diagnostics upload without exposing Codex ids",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:468] previews exec-approved diagnostics upload without exposing Codex ids",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:468",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] sends diagnostics feedback immediately after exec approval",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:506] sends diagnostics feedback immediately after exec approval",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:506",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] uploads all Codex diagnostics sessions and reports their channel/thread breakdown",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:557] uploads all Codex diagnostics sessions and reports their channel/thread breakdown",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:557",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] requires an owner for Codex diagnostics feedback uploads",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:660] requires an owner for Codex diagnostics feedback uploads",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:660",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] refuses diagnostics confirmations without a stable sender identity",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:684] refuses diagnostics confirmations without a stable sender identity",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:684",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] keeps diagnostics confirmation scoped to the requesting sender",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:703] keeps diagnostics confirmation scoped to the requesting sender",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:703",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] consumes diagnostics confirmations before async upload work",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:732] consumes diagnostics confirmations before async upload work",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:732",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] keeps diagnostics confirmation scoped to account and channel identity",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:791] keeps diagnostics confirmation scoped to account and channel identity",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:791",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] allows private-routed diagnostics confirmations from the owner DM",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:832] allows private-routed diagnostics confirmations from the owner DM",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:832",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] keeps diagnostics confirmation eviction scoped to account identity",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:887] keeps diagnostics confirmation eviction scoped to account identity",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:887",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] bounds diagnostics notes before upload",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:933] bounds diagnostics notes before upload",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:933",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] escapes diagnostics notes before showing approval text",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:961] escapes diagnostics notes before showing approval text",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:961",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] throttles repeated diagnostics uploads for the same thread",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:980] throttles repeated diagnostics uploads for the same thread",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:980",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] throttles diagnostics uploads across threads",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1016] throttles diagnostics uploads across threads",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1016",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] does not throttle diagnostics uploads across different account scopes",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1058] does not throttle diagnostics uploads across different account scopes",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1058",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] does not collide diagnostics cooldown scopes when ids contain delimiters",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1117] does not collide diagnostics cooldown scopes when ids contain delimiters",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1117",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] does not collide diagnostics cooldown scopes when long ids share a prefix",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1173] does not collide diagnostics cooldown scopes when long ids share a prefix",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1173",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] sanitizes diagnostics upload errors before showing them",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1229] sanitizes diagnostics upload errors before showing them",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1229",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] does not throttle diagnostics retries after upload failures",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1257] does not throttle diagnostics retries after upload failures",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1257",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] omits inline diagnostics resume commands for unsafe thread ids",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1307] omits inline diagnostics resume commands for unsafe thread ids",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1307",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] explains diagnostics when no Codex thread is attached",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1339] explains diagnostics when no Codex thread is attached",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1339",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] passes filters to Codex thread listing",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1352] passes filters to Codex thread listing",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1352",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] binds the current conversation to a Codex app-server thread",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1373] binds the current conversation to a Codex app-server thread",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1373",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] returns the binding approval reply when conversation bind needs approval",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1437] returns the binding approval reply when conversation bind needs approval",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1437",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] clears the Codex app-server thread binding when conversation bind fails",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1464] clears the Codex app-server thread binding when conversation bind fails",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1464",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] detaches the current conversation and clears the Codex app-server thread binding",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1493] detaches the current conversation and clears the Codex app-server thread binding",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1493",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] stops the active bound Codex turn",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1527] stops the active bound Codex turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1527",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] steers the active bound Codex turn",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1545] steers the active bound Codex turn",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1545",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] sets per-binding model, fast mode, and permissions",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1564] sets per-binding model, fast mode, and permissions",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1564",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] uses current plugin binding data for follow-up control commands",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1604] uses current plugin binding data for follow-up control commands",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1604",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts] describes active binding preferences",
+TEST_CASE("v4.29 [extensions/codex/src/commands.test.ts:1643] describes active binding preferences",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/commands.test.ts:1643",
                "upstream it() block #44",

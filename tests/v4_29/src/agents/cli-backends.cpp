@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] defaults codex-cli fresh sandboxing and config-pinned resume sandboxing",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:376] defaults codex-cli fresh sandboxing and config-pinned resume sandboxing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:376",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] deep-merges reliability watchdog overrides for codex",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:403] deep-merges reliability watchdog overrides for codex",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:403",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] returns plugin-owned live smoke metadata for claude",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:436] returns plugin-owned live smoke metadata for claude",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:436",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] returns plugin-owned live smoke metadata for codex",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:446] returns plugin-owned live smoke metadata for codex",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:446",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] returns plugin-owned live smoke metadata for gemini",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:456] returns plugin-owned live smoke metadata for gemini",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:456",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] derives bypassPermissions from OpenClaw",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:468] derives bypassPermissions from OpenClaw",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:468",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] keeps Claude permission mode unset when OpenClaw exec policy is not YOLO",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:500] keeps Claude permission mode unset when OpenClaw exec policy is not YOLO",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:500",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] derives Claude permission mode from per-agent exec policy when an agent id is known",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:512] derives Claude permission mode from per-agent exec policy when an agent id is known",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:512",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] uses existing exec policy and raw Claude args as permission overrides",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:540] uses existing exec policy and raw Claude args as permission overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:540",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] retains default claude safety args when only command is overridden",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:576] retains default claude safety args when only command is overridden",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:576",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] drops legacy skip-permissions overrides without inventing bypassPermissions under safe policy",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:614] drops legacy skip-permissions overrides without inventing bypassPermissions under safe policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:614",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] keeps explicit permission-mode overrides while removing legacy skip flag",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:646] keeps explicit permission-mode overrides while removing legacy skip flag",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:646",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] forces project or local setting-source overrides back to user-only",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:691] forces project or local setting-source overrides back to user-only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:691",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] falls back to user-only setting sources when a custom override leaves the flag without a value",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:731] falls back to user-only setting sources when a custom override leaves the flag without a value",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:731",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] drops malformed permission-mode overrides without adding bypassPermissions under safe policy",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:748] drops malformed permission-mode overrides without adding bypassPermissions under safe policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:748",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] leaves permission-mode unset when custom args omit it under safe policy",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:765] leaves permission-mode unset when custom args omit it under safe policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:765",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] keeps hardened clearEnv defaults when custom claude env overrides are merged",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:799] keeps hardened clearEnv defaults when custom claude env overrides are merged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:799",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] normalizes override-only claude-cli config when the plugin registry is absent",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:835] normalizes override-only claude-cli config when the plugin registry is absent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:835",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] uses Gemini CLI json args and existing-session resume mode",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:887] uses Gemini CLI json args and existing-session resume mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:887",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] uses Codex CLI bundle MCP config overrides",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:915] uses Codex CLI bundle MCP config overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:915",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-backends.test.ts] prefers the canonical backend key over legacy aliases when both are configured",
+TEST_CASE("v4.29 [src/agents/cli-backends.test.ts:932] prefers the canonical backend key over legacy aliases when both are configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-backends.test.ts:932",
                "upstream it() block #20",

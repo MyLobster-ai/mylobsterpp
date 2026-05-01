@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts] resolves sane reconnect defaults with clamps",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts:15] resolves sane reconnect defaults with clamps",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reconnect.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts] computes increasing backoff with jitter",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts:31] computes increasing backoff with jitter",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reconnect.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts] returns heartbeat default when unset",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts:40] returns heartbeat default when unset",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reconnect.test.ts:40",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts] sleepWithAbort rejects on abort",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reconnect.test.ts:45] sleepWithAbort rejects on abort",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reconnect.test.ts:45",
                "upstream it() block #3",

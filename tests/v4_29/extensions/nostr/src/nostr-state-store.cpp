@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] persists and reloads state across restarts",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:45] persists and reloads state across restarts",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] isolates state by accountId",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:68] isolates state by accountId",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] upgrades v1 bus state files on read",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:89] upgrades v1 bus state files on read",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] drops malformed recent event ids while keeping the state",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:113] drops malformed recent event ids while keeping the state",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] persists and reloads profile publish state",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:140] persists and reloads profile publish state",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:140",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] drops malformed relay results while keeping valid state fields",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:163] drops malformed relay results while keeping valid state fields",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:163",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] returns now for null state (fresh start)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:193] returns now for null state (fresh start)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:193",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] uses lastProcessedAt when available",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:198] uses lastProcessedAt when available",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:198",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] uses gatewayStartedAt when lastProcessedAt is null",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:208] uses gatewayStartedAt when lastProcessedAt is null",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:208",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] uses the max of both timestamps",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:218] uses the max of both timestamps",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:218",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts] falls back to now if both are null",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-state-store.test.ts:228] falls back to now if both are null",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-state-store.test.ts:228",
                "upstream it() block #10",

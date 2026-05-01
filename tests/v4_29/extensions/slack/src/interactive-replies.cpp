@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts] compiles inline Slack button directives into shared interactive blocks",
+TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts:5] compiles inline Slack button directives into shared interactive blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/interactive-replies.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts] compiles simple trailing Options lines into Slack buttons",
+TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts:34] compiles simple trailing Options lines into Slack buttons",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/interactive-replies.test.ts:34",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts] uses a Slack select when Options lines exceed button capacity",
+TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts:58] uses a Slack select when Options lines exceed button capacity",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/interactive-replies.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts] leaves complex Options lines as plain text",
+TEST_CASE("v4.29 [extensions/slack/src/interactive-replies.test.ts:86] leaves complex Options lines as plain text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/interactive-replies.test.ts:86",
                "upstream it() block #3",

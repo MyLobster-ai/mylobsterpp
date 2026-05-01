@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/browser-lifecycle-cleanup.test.ts] normalizes session keys before closing browser sessions",
+TEST_CASE("v4.29 [src/browser-lifecycle-cleanup.test.ts:16] normalizes session keys before closing browser sessions",
           "[v4_29][parity_gap][browser-lifecycle-cleanup.test.ts]") {
     PARITY_GAP("src/browser-lifecycle-cleanup.test.ts:16",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/browser-lifecycle-cleanup.test.ts] swallows browser cleanup failures",
+TEST_CASE("v4.29 [src/browser-lifecycle-cleanup.test.ts:32] swallows browser cleanup failures",
           "[v4_29][parity_gap][browser-lifecycle-cleanup.test.ts]") {
     PARITY_GAP("src/browser-lifecycle-cleanup.test.ts:32",
                "upstream it() block #1",

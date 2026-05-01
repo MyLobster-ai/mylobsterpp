@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] uses the server-qualified value when the active session provider is present",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:42] uses the server-qualified value when the active session provider is present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] falls back to the server-qualified value when catalog lookup fails",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:54] falls back to the server-qualified value when catalog lookup fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] normalizes cached bare overrides to the matching catalog option",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:65] normalizes cached bare overrides to the matching catalog option",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] prefers catalog provider matches over stale session providers",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:76] prefers catalog provider matches over stale session providers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] preserves already-qualified active-session models when the provider is stale and the catalog is empty",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:88] preserves already-qualified active-session models when the provider is stale and the catalog is empty",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:88",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] builds picker options without introducing a bare duplicate",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:104] builds picker options without introducing a bare duplicate",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:104",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] uses catalog names for the default label and matching picker options",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:118] uses catalog names for the default label and matching picker options",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:118",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] disambiguates duplicate friendly names in picker options and default labels",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:143] disambiguates duplicate friendly names in picker options and default labels",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:143",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts] falls back to id and provider when duplicate names share the same provider",
+TEST_CASE("v4.29 [ui/src/ui/chat-model-select-state.test.ts:178] falls back to id and provider when duplicate names share the same provider",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/chat-model-select-state.test.ts:178",
                "upstream it() block #8",

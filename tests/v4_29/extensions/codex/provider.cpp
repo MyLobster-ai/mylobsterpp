@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] maps Codex app-server models to a Codex provider catalog",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:36] maps Codex app-server models to a Codex provider catalog",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] keeps a static fallback catalog when discovery is disabled",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:81] keeps a static fallback catalog when discovery is disabled",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] uses live plugin config to re-enable discovery after startup disable",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:94] uses live plugin config to re-enable discovery after startup disable",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:94",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] pages through live discovery before building the provider catalog",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:140] pages through live discovery before building the provider catalog",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:140",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] reports discovery failures before using the fallback catalog",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:183] reports discovery failures before using the fallback catalog",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:183",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] keeps a static fallback catalog when live discovery is explicitly disabled by env",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:200] keeps a static fallback catalog when live discovery is explicitly disabled by env",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:200",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] closes the transient app-server client after live discovery",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:212] closes the transient app-server client after live discovery",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:212",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] does not close an active shared app-server client during live discovery",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:223] does not close an active shared app-server client during live discovery",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:223",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] resolves arbitrary Codex app-server model ids as text-only until discovered",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:239] resolves arbitrary Codex app-server model ids as text-only until discovered",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:239",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] keeps fallback Codex app-server models image-capable",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:257] keeps fallback Codex app-server models image-capable",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:257",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] treats o4 ids as reasoning-capable Codex models",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:272] treats o4 ids as reasoning-capable Codex models",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:272",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] declares synthetic auth because the harness owns Codex credentials",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:293] declares synthetic auth because the harness owns Codex credentials",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:293",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] exposes a lightweight provider-discovery entry for model list/status",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:303] exposes a lightweight provider-discovery entry for model list/status",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:303",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] adds the GPT-5 prompt overlay to Codex provider runs",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:322] adds the GPT-5 prompt overlay to Codex provider runs",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:322",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/provider.test.ts] does not add the GPT-5 prompt overlay to non-GPT-5 Codex provider runs",
+TEST_CASE("v4.29 [extensions/codex/provider.test.ts:340] does not add the GPT-5 prompt overlay to non-GPT-5 Codex provider runs",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/provider.test.ts:340",
                "upstream it() block #14",

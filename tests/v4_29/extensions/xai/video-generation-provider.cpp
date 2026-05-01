@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts:19] declares explicit mode capabilities",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/video-generation-provider.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts] creates, polls, and downloads a generated video",
+TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts:23] creates, polls, and downloads a generated video",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/video-generation-provider.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts] sends a single unroled image as xAI first-frame image-to-video",
+TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts:84] sends a single unroled image as xAI first-frame image-to-video",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/video-generation-provider.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts] sends reference_image roles through xAI reference_images mode",
+TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts:134] sends reference_image roles through xAI reference_images mode",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/video-generation-provider.test.ts:134",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts] rejects mixed xAI first-frame and reference-image roles",
+TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts:194] rejects mixed xAI first-frame and reference-image roles",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/video-generation-provider.test.ts:194",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts] routes video inputs to the extension endpoint when duration is set",
+TEST_CASE("v4.29 [extensions/xai/video-generation-provider.test.ts:214] routes video inputs to the extension endpoint when duration is set",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/video-generation-provider.test.ts:214",
                "upstream it() block #5",

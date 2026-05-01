@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/bundled-runtime-deps-drift.test.ts] every value-imported root-package dep in src/ is mirrored or owned by an extension",
+TEST_CASE("v4.29 [src/plugins/bundled-runtime-deps-drift.test.ts:158] every value-imported root-package dep in src/ is mirrored or owned by an extension",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-runtime-deps-drift.test.ts:158",
                "upstream it() block #0",

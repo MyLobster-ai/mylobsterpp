@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/channel-configured.test.ts] detects Telegram env configuration through the package metadata seam",
+TEST_CASE("v4.29 [src/config/channel-configured.test.ts:33] detects Telegram env configuration through the package metadata seam",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-configured.test.ts:33",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-configured.test.ts] detects Discord env configuration through the package metadata seam",
+TEST_CASE("v4.29 [src/config/channel-configured.test.ts:37] detects Discord env configuration through the package metadata seam",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-configured.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-configured.test.ts] detects Slack env configuration through the package metadata seam",
+TEST_CASE("v4.29 [src/config/channel-configured.test.ts:41] detects Slack env configuration through the package metadata seam",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-configured.test.ts:41",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-configured.test.ts] requires both IRC host and nick env vars through the package metadata seam",
+TEST_CASE("v4.29 [src/config/channel-configured.test.ts:45] requires both IRC host and nick env vars through the package metadata seam",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-configured.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-configured.test.ts] still falls back to generic config presence for channels without a custom hook",
+TEST_CASE("v4.29 [src/config/channel-configured.test.ts:55] still falls back to generic config presence for channels without a custom hook",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-configured.test.ts:55",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/channel-configured.test.ts] does not treat persisted Matrix credentials as configured channel state",
+TEST_CASE("v4.29 [src/config/channel-configured.test.ts:71] does not treat persisted Matrix credentials as configured channel state",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/channel-configured.test.ts:71",
                "upstream it() block #5",

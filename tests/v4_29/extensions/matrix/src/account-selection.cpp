@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] resolves configured account ids from non-canonical account keys",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:12] resolves configured account ids from non-canonical account keys",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] matches the default account against normalized Matrix account keys",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:27] matches the default account against normalized Matrix account keys",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] requires an explicit default when multiple Matrix accounts exist without one",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:44] requires an explicit default when multiple Matrix accounts exist without one",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:44",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] uses a named ",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:59] uses a named ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:59",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] finds the raw Matrix account entry by normalized account id",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:75] finds the raw Matrix account entry by normalized account id",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:75",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] discovers env-backed named Matrix accounts during enumeration",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:95] discovers env-backed named Matrix accounts during enumeration",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:95",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] uses the ",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:112] uses the ",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:112",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts] discovers default Matrix accounts backed only by global env vars",
+TEST_CASE("v4.29 [extensions/matrix/src/account-selection.test.ts:131] discovers default Matrix accounts backed only by global env vars",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/account-selection.test.ts:131",
                "upstream it() block #7",

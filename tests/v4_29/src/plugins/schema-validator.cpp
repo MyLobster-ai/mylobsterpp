@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/schema-validator.test.ts] can apply JSON Schema defaults while validating",
+TEST_CASE("v4.29 [src/plugins/schema-validator.test.ts:67] can apply JSON Schema defaults while validating",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/schema-validator.test.ts:67",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/schema-validator.test.ts] sanitizes terminal text while preserving structured fields",
+TEST_CASE("v4.29 [src/plugins/schema-validator.test.ts:243] sanitizes terminal text while preserving structured fields",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/schema-validator.test.ts:243",
                "upstream it() block #1",

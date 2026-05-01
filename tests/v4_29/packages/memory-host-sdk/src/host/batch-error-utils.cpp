@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts] returns the first top-level error message",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts:5] returns the first top-level error message",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-error-utils.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts] falls back to nested response error message",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts:14] falls back to nested response error message",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-error-utils.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts] accepts plain string response bodies",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts:20] accepts plain string response bodies",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-error-utils.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts] formats errors and non-error values",
+TEST_CASE("v4.29 [packages/memory-host-sdk/src/host/batch-error-utils.test.ts:28] formats errors and non-error values",
           "[v4_29][parity_gap][memory-host-sdk]") {
     PARITY_GAP("packages/memory-host-sdk/src/host/batch-error-utils.test.ts:28",
                "upstream it() block #3",

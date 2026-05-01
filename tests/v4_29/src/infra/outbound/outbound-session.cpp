@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-session.test.ts] rejects bare numeric GuildChat targets when the caller has no kind hint",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-session.test.ts:400] rejects bare numeric GuildChat targets when the caller has no kind hint",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-session.test.ts:400",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-session.test.ts] persists metadata in the owning session store for the route session key",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-session.test.ts:418] persists metadata in the owning session store for the route session key",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-session.test.ts:418",
                "upstream it() block #1",

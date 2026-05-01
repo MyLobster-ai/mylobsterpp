@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/contracts/bundled-extension-config-api-guardrails.test.ts] keeps ${entry.path} off the generic concrete-schema barrel",
+TEST_CASE("v4.29 [src/plugins/contracts/bundled-extension-config-api-guardrails.test.ts:48] keeps ${entry.path} off the generic concrete-schema barrel",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/contracts/bundled-extension-config-api-guardrails.test.ts:48",
                "upstream it() block #0",

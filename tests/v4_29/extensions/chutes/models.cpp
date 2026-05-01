@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] buildChutesModelDefinition returns config with required fields",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:53] buildChutesModelDefinition returns config with required fields",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] discoverChutesModels returns static catalog when accessToken is empty",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:66] discoverChutesModels returns static catalog when accessToken is empty",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] discoverChutesModels returns static catalog in test env by default",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:72] discoverChutesModels returns static catalog in test env by default",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] discoverChutesModels correctly maps API response when not in test env",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:78] discoverChutesModels correctly maps API response when not in test env",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:78",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] discoverChutesModels retries without auth on 401",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:107] discoverChutesModels retries without auth on 401",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:107",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] caches fallback static catalog for non-OK responses",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:156] caches fallback static catalog for non-OK responses",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:156",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] scopes discovery cache by access token",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:171] scopes discovery cache by access token",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:171",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] evicts oldest token entries when cache reaches max size",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:210] evicts oldest token entries when cache reaches max size",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:210",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] prunes expired token cache entries during subsequent discovery",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:223] prunes expired token cache entries during subsequent discovery",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:223",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/chutes/models.test.ts] does not cache 401 fallback under the failed token key",
+TEST_CASE("v4.29 [extensions/chutes/models.test.ts:239] does not cache 401 fallback under the failed token key",
           "[v4_29][parity_gap][chutes]") {
     PARITY_GAP("extensions/chutes/models.test.ts:239",
                "upstream it() block #9",

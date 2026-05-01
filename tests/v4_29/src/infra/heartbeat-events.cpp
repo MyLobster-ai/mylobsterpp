@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts] maps heartbeat statuses to indicator types",
+TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts:19] maps heartbeat statuses to indicator types",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-events.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts] stores the last event and timestamps emitted payloads",
+TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts:39] stores the last event and timestamps emitted payloads",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-events.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts] delivers events to listeners, isolates listener failures, and supports unsubscribe",
+TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts:50] delivers events to listeners, isolates listener failures, and supports unsubscribe",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-events.test.ts:50",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts] shares heartbeat state across duplicate module instances",
+TEST_CASE("v4.29 [src/infra/heartbeat-events.test.ts:70] shares heartbeat state across duplicate module instances",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-events.test.ts:70",
                "upstream it() block #3",

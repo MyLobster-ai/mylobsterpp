@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] waits for abort before resolving",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:162] waits for abort before resolving",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] registers an account target without replacing existing route ownership",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:188] registers an account target without replacing existing route ownership",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:188",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] stops immediately when signal is already aborted",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:213] stops immediately when signal is already aborted",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:213",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] returns immediately without abort signal and stop is idempotent",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:228] returns immediately without abort signal and stop is idempotent",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:228",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] records startup state under configured defaultAccount when accountId is omitted",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:242] records startup state under configured defaultAccount when accountId is omitted",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:242",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] dispatches shared-path webhook posts to the account matching the signature",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:272] dispatches shared-path webhook posts to the account matching the signature",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:272",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] rejects ambiguous shared-path webhook signatures",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:317] rejects ambiguous shared-path webhook signatures",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:317",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts] rejects webhook requests above the shared in-flight limit before body handling",
+TEST_CASE("v4.29 [extensions/line/src/monitor.lifecycle.test.ts:363] rejects webhook requests above the shared in-flight limit before body handling",
           "[v4_29][parity_gap][line]") {
     PARITY_GAP("extensions/line/src/monitor.lifecycle.test.ts:363",
                "upstream it() block #7",

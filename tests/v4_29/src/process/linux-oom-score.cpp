@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] wraps argv on linux with default env",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:14] wraps argv on linux with default env",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] returns argv unchanged on non-linux platforms",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:20] returns argv unchanged on non-linux platforms",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] respects the OPENCLAW_CHILD_OOM_SCORE_ADJ opt-out",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:28] respects the OPENCLAW_CHILD_OOM_SCORE_ADJ opt-out",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] skips wrap when /bin/sh is unavailable (distroless/scratch)",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:39] skips wrap when /bin/sh is unavailable (distroless/scratch)",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:39",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] does not double-wrap already-wrapped argv",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:43] does not double-wrap already-wrapped argv",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:43",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] returns empty argv unchanged",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:49] returns empty argv unchanged",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:49",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] skips wrap for command names that exec could parse as options",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:53] skips wrap for command names that exec could parse as options",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:53",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] returns command, args, and hardened env when wrap applies",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:59] returns command, args, and hardened env when wrap applies",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:59",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] preserves the spawn shape when wrap does not apply",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:72] preserves the spawn shape when wrap does not apply",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:72",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] strips shell-init keys when wrap applies",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:92] strips shell-init keys when wrap applies",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:92",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts] preserves baseEnv (including undefined) when wrap does not apply",
+TEST_CASE("v4.29 [src/process/linux-oom-score.test.ts:96] preserves baseEnv (including undefined) when wrap does not apply",
           "[v4_29][parity_gap][process]") {
     PARITY_GAP("src/process/linux-oom-score.test.ts:96",
                "upstream it() block #10",

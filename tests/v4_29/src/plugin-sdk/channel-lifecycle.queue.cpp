@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts] serializes work per key while allowing unrelated keys to run",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts:19] serializes work per key while allowing unrelated keys to run",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-lifecycle.queue.test.ts:19",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts] updates run status and routes async errors",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts:59] updates run status and routes async errors",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-lifecycle.queue.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts] contains reporting hook errors",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts:78] contains reporting hook errors",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-lifecycle.queue.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts] skips queued work after deactivation",
+TEST_CASE("v4.29 [src/plugin-sdk/channel-lifecycle.queue.test.ts:92] skips queued work after deactivation",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/channel-lifecycle.queue.test.ts:92",
                "upstream it() block #3",

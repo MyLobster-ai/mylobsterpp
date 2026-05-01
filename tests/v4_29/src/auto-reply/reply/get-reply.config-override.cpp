@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.config-override.test.ts] merges configOverride over fresh getRuntimeConfig()",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.config-override.test.ts:43] merges configOverride over fresh getRuntimeConfig()",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.config-override.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.config-override.test.ts] uses complete configOverride without reloading config",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply.config-override.test.ts:68] uses complete configOverride without reloading config",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply.config-override.test.ts:68",
                "upstream it() block #1",

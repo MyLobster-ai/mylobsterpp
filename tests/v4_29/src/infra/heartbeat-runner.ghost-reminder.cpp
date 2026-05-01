@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] does not use CRON_EVENT_PROMPT when only a HEARTBEAT_OK event is present",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:213] does not use CRON_EVENT_PROMPT when only a HEARTBEAT_OK event is present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:213",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] uses CRON_EVENT_PROMPT when an actionable cron event exists",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:230] uses CRON_EVENT_PROMPT when an actionable cron event exists",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:230",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] uses CRON_EVENT_PROMPT when cron events are mixed with heartbeat noise",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:242] uses CRON_EVENT_PROMPT when cron events are mixed with heartbeat noise",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:242",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] uses CRON_EVENT_PROMPT for tagged cron events on interval wake",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:255] uses CRON_EVENT_PROMPT for tagged cron events on interval wake",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:255",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] drains inspected cron events after a successful run so later heartbeats do not replay them",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:276] drains inspected cron events after a successful run so later heartbeats do not replay them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:276",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] uses an internal-only cron prompt when delivery target is none",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:326] uses an internal-only cron prompt when delivery target is none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:326",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] uses an internal-only exec prompt when delivery target is none",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:343] uses an internal-only exec prompt when delivery target is none",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:343",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] includes untrusted exec completion details in user-relay prompts",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:361] includes untrusted exec completion details in user-relay prompts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:361",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] classifies hook:wake exec completions as exec-event prompts",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:378] classifies hook:wake exec completions as exec-event prompts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:378",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] does not classify base-session hook:wake exec completions as exec-event prompts when isolated sessions are enabled",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:396] does not classify base-session hook:wake exec completions as exec-event prompts when isolated sessions are enabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:396",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] forces owner downgrade for untrusted hook:wake system events",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:415] forces owner downgrade for untrusted hook:wake system events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:415",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] forces owner downgrade for untrusted interval events",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:423] forces owner downgrade for untrusted interval events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:423",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] does not force owner downgrade for untrusted hook:wake events with isolated sessions",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:431] does not force owner downgrade for untrusted hook:wake events with isolated sessions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:431",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] does not force owner downgrade for isolated interval runs with only base-session untrusted events",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:440] does not force owner downgrade for isolated interval runs with only base-session untrusted events",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:440",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] routes wake-triggered heartbeat replies using queued system-event delivery context",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:449] routes wake-triggered heartbeat replies using queued system-event delivery context",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:449",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] does not reuse stale turn-source routing for isolated wake runs",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:509] does not reuse stale turn-source routing for isolated wake runs",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:509",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] keeps output-bearing exec-event delivery pinned to the original Telegram topic when session route drifts",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:553] keeps output-bearing exec-event delivery pinned to the original Telegram topic when session route drifts",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:553",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] suppresses metadata-only successful exec completions",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:620] suppresses metadata-only successful exec completions",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:620",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts] keeps Telegram topic routing for isolated scheduled heartbeats",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.ghost-reminder.test.ts:686] keeps Telegram topic routing for isolated scheduled heartbeats",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.ghost-reminder.test.ts:686",
                "upstream it() block #18",

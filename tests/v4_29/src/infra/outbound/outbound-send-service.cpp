@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards ctx.agentId to sendMessage on core outbound path",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:188] forwards ctx.agentId to sendMessage on core outbound path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:188",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards requesterSenderId to sendMessage on core outbound path",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:219] forwards requesterSenderId to sendMessage on core outbound path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:219",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards non-id requester sender fields to sendMessage on core outbound path",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:248] forwards non-id requester sender fields to sendMessage on core outbound path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:248",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards requester session context to sendMessage on core outbound path",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:281] forwards requester session context to sendMessage on core outbound path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:281",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards requesterSenderId into outbound media access resolution",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:315] forwards requesterSenderId into outbound media access resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:315",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards non-id requester sender fields into outbound media access resolution",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:327] forwards non-id requester sender fields into outbound media access resolution",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:327",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] keeps requester session channel authoritative for media policy",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:343] keeps requester session channel authoritative for media policy",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:343",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] uses requester account for media policy when session context is present",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:356] uses requester account for media policy when session context is present",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:356",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] falls back to destination account for media policy when requester account is missing",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:371] falls back to destination account for media policy when requester account is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:371",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] falls back to destination account when forwarding requester context to sendMessage",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:385] falls back to destination account when forwarding requester context to sendMessage",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:385",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] uses plugin poll action when available",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:416] uses plugin poll action when available",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:416",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] does not invoke shared poll parsing before plugin poll dispatch",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:438] does not invoke shared poll parsing before plugin poll dispatch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:438",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] passes agent-scoped media local roots to plugin dispatch",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:464] passes agent-scoped media local roots to plugin dispatch",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:464",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] passes concrete media sources when widening plugin dispatch roots",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:492] passes concrete media sources when widening plugin dispatch roots",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:492",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] passes mirror idempotency keys through plugin-handled sends",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:519] passes mirror idempotency keys through plugin-handled sends",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:519",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] falls back to message and media params for plugin-handled mirror writes",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:533] falls back to message and media params for plugin-handled mirror writes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:533",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] skips plugin dispatch during dry-run sends and forwards gateway + silent to sendMessage",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:549] skips plugin dispatch during dry-run sends and forwards gateway + silent to sendMessage",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:549",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] forwards poll args to sendPoll on core outbound path",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:592] forwards poll args to sendPoll on core outbound path",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:592",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts] skips plugin dispatch during dry-run polls and forwards durationHours + silent",
+TEST_CASE("v4.29 [src/infra/outbound/outbound-send-service.test.ts:639] skips plugin dispatch during dry-run polls and forwards durationHours + silent",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/outbound-send-service.test.ts:639",
                "upstream it() block #18",

@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] uses expanded max_tokens for openai verification probes",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:50] uses expanded max_tokens for openai verification probes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] uses azure responses-specific headers and body for openai verification probes",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:59] uses azure responses-specific headers and body for openai verification probes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] uses Azure Foundry chat-completions probes for services.ai URLs",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:76] uses Azure Foundry chat-completions probes for services.ai URLs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:76",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] uses expanded max_tokens for anthropic verification probes",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:95] uses expanded max_tokens for anthropic verification probes",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] produces azure-specific config for Azure OpenAI URLs with reasoning model",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:157] produces azure-specific config for Azure OpenAI URLs with reasoning model",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:157",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] keeps selected compatibility for Azure AI Foundry URLs",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:182] keeps selected compatibility for Azure AI Foundry URLs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:182",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] strips pre-existing deployment path from Azure URL in stored config",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:207] strips pre-existing deployment path from Azure URL in stored config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:207",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] re-onboard updates existing Azure provider instead of creating a duplicate",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:221] re-onboard updates existing Azure provider instead of creating a duplicate",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:221",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] renames provider id when a non-azure baseUrl differs",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:260] renames provider id when a non-azure baseUrl differs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:260",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] does not add azure fields for non-azure URLs",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:294] does not add azure fields for non-azure URLs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:294",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] adds image input for new non-azure custom models when requested",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:316] adds image input for new non-azure custom models when requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:316",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] infers image input for known non-azure custom vision models",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:329] infers image input for known non-azure custom vision models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:329",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] lets explicit text input override known non-azure custom vision inference",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:341] lets explicit text input override known non-azure custom vision inference",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:341",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] updates existing non-azure custom model input when image support is explicitly requested",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:354] updates existing non-azure custom model input when image support is explicitly requested",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:354",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] re-onboard preserves user-customized fields for non-azure models",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:370] re-onboard preserves user-customized fields for non-azure models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:370",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] preserves existing per-model thinking when already set for azure reasoning model",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:410] preserves existing per-model thinking when already set for azure reasoning model",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:410",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] parses required flags and defaults compatibility to openai",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:433] parses required flags and defaults compatibility to openai",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:433",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] parses custom image input opt-in",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:450] parses custom image input opt-in",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:450",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts] reports confidence for known text and unknown custom models",
+TEST_CASE("v4.29 [src/commands/onboard-custom-config.test.ts:504] reports confidence for known text and unknown custom models",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-custom-config.test.ts:504",
                "upstream it() block #18",

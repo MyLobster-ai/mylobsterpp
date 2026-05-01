@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts] adds OpenRouter attribution headers to stream options",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:35] adds OpenRouter attribution headers to stream options",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts] injects cache_control markers for declared OpenRouter Anthropic models on the default route",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:66] injects cache_control markers for declared OpenRouter Anthropic models on the default route",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:66",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts] does not inject cache_control markers for declared OpenRouter providers on custom proxy URLs",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:74] does not inject cache_control markers for declared OpenRouter providers on custom proxy URLs",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:74",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts] does not inject Anthropic cache_control markers for automatic OpenRouter DeepSeek cache models",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:82] does not inject Anthropic cache_control markers for automatic OpenRouter DeepSeek cache models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts] injects cache_control markers for native OpenRouter hosts behind custom provider ids",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:90] injects cache_control markers for native OpenRouter hosts behind custom provider ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/proxy-stream-wrappers.test.ts:90",
                "upstream it() block #4",

@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/index.test.ts] registers matrix CLI through a descriptor-backed lazy registrar",
+TEST_CASE("v4.29 [extensions/matrix/index.test.ts:28] registers matrix CLI through a descriptor-backed lazy registrar",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/index.test.ts:28",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/index.test.ts] keeps runtime bootstrap and CLI metadata out of setup-only registration",
+TEST_CASE("v4.29 [extensions/matrix/index.test.ts:65] keeps runtime bootstrap and CLI metadata out of setup-only registration",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/index.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/index.test.ts] wires CLI metadata through the bundled entry",
+TEST_CASE("v4.29 [extensions/matrix/index.test.ts:72] wires CLI metadata through the bundled entry",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/index.test.ts:72",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/index.test.ts] registers subagent lifecycle hooks during full runtime registration",
+TEST_CASE("v4.29 [extensions/matrix/index.test.ts:100] registers subagent lifecycle hooks during full runtime registration",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/index.test.ts:100",
                "upstream it() block #3",

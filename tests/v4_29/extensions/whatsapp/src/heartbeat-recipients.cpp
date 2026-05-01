@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] uses allowFrom store recipients when session recipients are ambiguous",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:64] uses allowFrom store recipients when session recipients are ambiguous",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:64",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] falls back to allowFrom when no session recipient is authorized",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:76] falls back to allowFrom when no session recipient is authorized",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] includes both session and allowFrom recipients when --all is set",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:84] includes both session and allowFrom recipients when --all is set",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] returns explicit --to recipient and source flag",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:95] returns explicit --to recipient and source flag",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:95",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] returns ambiguous session recipients when no allowFrom list exists",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:103] returns ambiguous session recipients when no allowFrom list exists",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:103",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] returns single session recipient when allowFrom is empty",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:115] returns single session recipient when allowFrom is empty",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:115",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] returns all authorized session recipients when allowFrom matches multiple",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:123] returns all authorized session recipients when allowFrom matches multiple",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:123",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] ignores session store when session scope is global",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:137] ignores session store when session scope is global",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:137",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] uses the requested account allowFrom config and pairing store",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:148] uses the requested account allowFrom config and pairing store",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:148",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts] uses configured defaultAccount allowFrom config and pairing store when accountId is omitted",
+TEST_CASE("v4.29 [extensions/whatsapp/src/heartbeat-recipients.test.ts:177] uses configured defaultAccount allowFrom config and pairing store when accountId is omitted",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/heartbeat-recipients.test.ts:177",
                "upstream it() block #9",

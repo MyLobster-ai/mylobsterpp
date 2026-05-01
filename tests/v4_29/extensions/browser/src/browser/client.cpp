@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] wraps connection failures with a sandbox hint",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:43] wraps connection failures with a sandbox hint",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:43",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] adds useful cancellation messaging for abort-like failures",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:56] adds useful cancellation messaging for abort-like failures",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:56",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] surfaces non-2xx responses with body text",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:61] surfaces non-2xx responses with body text",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:61",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] adds labels + efficient mode query params to snapshots",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:76] adds labels + efficient mode query params to snapshots",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] adds refs=aria to snapshots when requested",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:95] adds refs=aria to snapshots when requested",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:95",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] omits format when the caller wants server-side snapshot capability defaults",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:110] omits format when the caller wants server-side snapshot capability defaults",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:110",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] uses the expected endpoints + methods for common calls",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:125] uses the expected endpoints + methods for common calls",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:125",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts] gives browser act requests enough client timeout for long waits",
+TEST_CASE("v4.29 [extensions/browser/src/browser/client.test.ts:345] gives browser act requests enough client timeout for long waits",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/client.test.ts:345",
                "upstream it() block #7",

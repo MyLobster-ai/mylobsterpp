@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] applies owner allowlist when forceAllowFrom is enabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:162] applies owner allowlist when forceAllowFrom is enabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:162",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] supports disabled DM policy for separate-phone setup",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:175] supports disabled DM policy for separate-phone setup",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:175",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] normalizes allowFrom entries when list mode is selected",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:183] normalizes allowFrom entries when list mode is selected",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:183",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] throws a user-facing error instead of crashing when allowlist input is undefined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:189] throws a user-facing error instead of crashing when allowlist input is undefined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:189",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] enables allowlist self-chat mode for personal-phone setup",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:202] enables allowlist self-chat mode for personal-phone setup",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:202",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] throws a user-facing error instead of crashing when personal-phone input is undefined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:213] throws a user-facing error instead of crashing when personal-phone input is undefined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:213",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] forces wildcard allowFrom for open policy without allowFrom follow-up prompts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:225] forces wildcard allowFrom for open policy without allowFrom follow-up prompts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:225",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] surfaces accounts.default group warning paths for named accounts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:239] surfaces accounts.default group warning paths for named accounts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] surfaces mixed-case default-account group warning paths for named accounts",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:271] surfaces mixed-case default-account group warning paths for named accounts",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:271",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] writes default-account DM config into accounts.default for multi-account setups",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:303] writes default-account DM config into accounts.default for multi-account setups",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:303",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] updates an existing mixed-case default-account key during setup",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:331] updates an existing mixed-case default-account key during setup",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:331",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] runs WhatsApp login when not linked and user confirms linking",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:361] runs WhatsApp login when not linked and user confirms linking",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:361",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] skips relink note when already linked and relink is declined",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:374] skips relink note when already linked and relink is declined",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:374",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] shows follow-up login command note when not linked and linking is skipped",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:388] shows follow-up login command note when not linked and linking is skipped",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:388",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] heartbeat readiness uses configured defaultAccount for active listener checks",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:401] heartbeat readiness uses configured defaultAccount for active listener checks",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:401",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] heartbeat readiness returns unstable when auth state timing is unresolved",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:427] heartbeat readiness returns unstable when auth state timing is unresolved",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:427",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts] does not treat unstable auth as configured in generic plugin config checks",
+TEST_CASE("v4.29 [extensions/whatsapp/src/channel.setup.test.ts:449] does not treat unstable auth as configured in generic plugin config checks",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/channel.setup.test.ts:449",
                "upstream it() block #16",

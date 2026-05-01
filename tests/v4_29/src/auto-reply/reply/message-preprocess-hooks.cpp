@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts] emits transcribed and preprocessed events when transcript exists",
+TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts:32] emits transcribed and preprocessed events when transcript exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/message-preprocess-hooks.test.ts:32",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts] emits only preprocessed when transcript is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts:49] emits only preprocessed when transcript is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/message-preprocess-hooks.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts] skips hook emission in fast-test mode",
+TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts:66] skips hook emission in fast-test mode",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/message-preprocess-hooks.test.ts:66",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts] skips hook emission without session key",
+TEST_CASE("v4.29 [src/auto-reply/reply/message-preprocess-hooks.test.ts:80] skips hook emission without session key",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/message-preprocess-hooks.test.ts:80",
                "upstream it() block #3",

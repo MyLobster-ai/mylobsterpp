@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] searches ClawHub with query and limit",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:61] searches ClawHub with query and limit",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:61",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] searches without query (browse all)",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:98] searches without query (browse all)",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] returns error when ClawHub is unreachable",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:111] returns error when ClawHub is unreachable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] rejects limit below minimum",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:120] rejects limit below minimum",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:120",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] rejects limit above maximum",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:131] rejects limit above maximum",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:131",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] fetches detail for a valid slug",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:149] fetches detail for a valid slug",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:149",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] returns error when slug is not found",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:179] returns error when slug is not found",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:179",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] rejects missing slug",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:188] rejects missing slug",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:188",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts] rejects empty slug",
+TEST_CASE("v4.29 [src/gateway/server-methods/skills.search-detail.test.ts:196] rejects empty slug",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/skills.search-detail.test.ts:196",
                "upstream it() block #8",

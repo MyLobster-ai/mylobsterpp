@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts] blocks all group messages when policy is disabled",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts:5] blocks all group messages when policy is disabled",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.group-policy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts] blocks group messages on allowlist policy with empty allowlist",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts:20] blocks group messages on allowlist policy with empty allowlist",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.group-policy.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts] blocks sender not in group allowlist",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts:35] blocks sender not in group allowlist",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.group-policy.test.ts:35",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts] allows sender in group allowlist",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts:50] allows sender in group allowlist",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.group-policy.test.ts:50",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts] allows any sender with wildcard allowlist",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts:65] allows any sender with wildcard allowlist",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.group-policy.test.ts:65",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts] allows all group senders on open policy",
+TEST_CASE("v4.29 [extensions/zalo/src/monitor.group-policy.test.ts:80] allows all group senders on open policy",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/monitor.group-policy.test.ts:80",
                "upstream it() block #5",

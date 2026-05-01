@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts] uses the config path as the timing key for whole-config runs",
+TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts:13] uses the config path as the timing key for whole-config runs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-shard-timings.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts] uses the CI shard name for include-pattern timing keys",
+TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts:23] uses the CI shard name for include-pattern timing keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-shard-timings.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts] falls back to a stable include-pattern hash outside CI",
+TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts:33] falls back to a stable include-pattern hash outside CI",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-shard-timings.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts] persists include-pattern timing metadata",
+TEST_CASE("v4.29 [test/scripts/vitest-shard-timings.test.ts:49] persists include-pattern timing metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/vitest-shard-timings.test.ts:49",
                "upstream it() block #3",

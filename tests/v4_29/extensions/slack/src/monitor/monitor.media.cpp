@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts] returns cached thread starter without refetching within ttl",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts:24] returns cached thread starter without refetching within ttl",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.media.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts] expires stale cache entries and refetches after ttl",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts:42] expires stale cache entries and refetches after ttl",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.media.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts] does not cache empty starter text",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts:64] does not cache empty starter text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.media.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts] evicts oldest entries once cache exceeds bounded size",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/monitor.media.test.ts:85] evicts oldest entries once cache exceeds bounded size",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/monitor.media.test.ts:85",
                "upstream it() block #3",

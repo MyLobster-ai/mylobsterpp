@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-tool-support.test.ts] defaults to true when the model has no compat override",
+TEST_CASE("v4.29 [src/agents/model-tool-support.test.ts:5] defaults to true when the model has no compat override",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-tool-support.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-tool-support.test.ts] returns true when compat.supportsTools is true",
+TEST_CASE("v4.29 [src/agents/model-tool-support.test.ts:9] returns true when compat.supportsTools is true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-tool-support.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-tool-support.test.ts] returns false when compat.supportsTools is false",
+TEST_CASE("v4.29 [src/agents/model-tool-support.test.ts:13] returns false when compat.supportsTools is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-tool-support.test.ts:13",
                "upstream it() block #2",

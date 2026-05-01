@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.startup-websocket-race.test.ts] does not bind the websocket port until websocket handlers are attached",
+TEST_CASE("v4.29 [src/gateway/server.startup-websocket-race.test.ts:49] does not bind the websocket port until websocket handlers are attached",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.startup-websocket-race.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.startup-websocket-race.test.ts] accepts an immediate websocket connection once startup resolves",
+TEST_CASE("v4.29 [src/gateway/server.startup-websocket-race.test.ts:109] accepts an immediate websocket connection once startup resolves",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.startup-websocket-race.test.ts:109",
                "upstream it() block #1",

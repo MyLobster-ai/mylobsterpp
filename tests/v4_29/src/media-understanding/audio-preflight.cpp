@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/audio-preflight.test.ts] runs audio preflight in auto mode when audio config is absent",
+TEST_CASE("v4.29 [src/media-understanding/audio-preflight.test.ts:15] runs audio preflight in auto mode when audio config is absent",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/audio-preflight.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/audio-preflight.test.ts] skips audio preflight when audio config is explicitly disabled",
+TEST_CASE("v4.29 [src/media-understanding/audio-preflight.test.ts:34] skips audio preflight when audio config is explicitly disabled",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/audio-preflight.test.ts:34",
                "upstream it() block #1",

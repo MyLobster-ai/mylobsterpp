@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] declares the openai-codex alias for default-model ordering",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:20] declares the openai-codex alias for default-model ordering",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:20",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:26] declares explicit mode capabilities",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] uses JSON for text-only Sora requests",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:30] uses JSON for text-only Sora requests",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] uses JSON input_reference.image_url for image-to-video requests",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:87] uses JSON input_reference.image_url for image-to-video requests",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] honors configured baseUrl for video requests",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:141] honors configured baseUrl for video requests",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:141",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] uses multipart input_reference for video-to-video uploads",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:195] uses multipart input_reference for video-to-video uploads",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:195",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts] rejects multiple reference assets",
+TEST_CASE("v4.29 [extensions/openai/video-generation-provider.test.ts:239] rejects multiple reference assets",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/video-generation-provider.test.ts:239",
                "upstream it() block #6",

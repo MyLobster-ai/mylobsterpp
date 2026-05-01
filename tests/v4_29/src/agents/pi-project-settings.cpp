@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] defaults to sanitize",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:11] defaults to sanitize",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] accepts trusted and ignore modes",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:17] accepts trusted and ignore modes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] sanitize mode strips shell path + prefix but keeps other project settings",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:43] sanitize mode strips shell path + prefix but keeps other project settings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] ignore mode drops all project settings",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:56] ignore mode drops all project settings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:56",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] trusted mode keeps project settings as-is",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:69] trusted mode keeps project settings as-is",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:69",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] applies sanitized plugin settings before project settings",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:82] applies sanitized plugin settings before project settings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:82",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts] lets project Pi settings override bundle MCP defaults",
+TEST_CASE("v4.29 [src/agents/pi-project-settings.test.ts:99] lets project Pi settings override bundle MCP defaults",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-project-settings.test.ts:99",
                "upstream it() block #6",

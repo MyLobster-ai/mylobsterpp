@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts] drops orphaned tool results after strict id sanitization",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:6] drops orphaned tool results after strict id sanitization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts] keeps matched assistant and tool-result ids aligned",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:27] keeps matched assistant and tool-result ids aligned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:27",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts] synthesizes missing tool results after strict id sanitization",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:64] synthesizes missing tool results after strict id sanitization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts] synthesizes missing tool results when repair is enabled",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:105] synthesizes missing tool results when repair is enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts] keeps real tool results for aborted assistant spans",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:123] keeps real tool results for aborted assistant spans",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.tool-call-normalization.test.ts:123",
                "upstream it() block #4",

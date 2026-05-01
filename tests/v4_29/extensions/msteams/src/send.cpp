@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] loads media through shared helper and forwards mediaLocalRoots",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:194] loads media through shared helper and forwards mediaLocalRoots",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:194",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] sends with provided cfg even when Teams runtime text helpers are unavailable",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:231] sends with provided cfg even when Teams runtime text helpers are unavailable",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:231",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] uses graphChatId instead of conversationId when uploading to SharePoint",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:259] uses graphChatId instead of conversationId when uploading to SharePoint",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:259",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] falls back to conversationId when graphChatId is not available",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:295] falls back to conversationId when graphChatId is not available",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:295",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] calls continueConversation and updateActivity with correct params",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:334] calls continueConversation and updateActivity with correct params",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:334",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] throws a descriptive error when continueConversation fails",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:381] throws a descriptive error when continueConversation fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:381",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] calls continueConversation and deleteActivity with correct activityId",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:400] calls continueConversation and deleteActivity with correct activityId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:400",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] throws a descriptive error when continueConversation fails",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:442] throws a descriptive error when continueConversation fails",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:442",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts] passes the appId and proactive ref to continueConversation",
+TEST_CASE("v4.29 [extensions/msteams/src/send.test.ts:454] passes the appId and proactive ref to continueConversation",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/send.test.ts:454",
                "upstream it() block #8",

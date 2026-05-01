@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts] returns empty parts for blank captions",
+TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts:6] returns empty parts for blank captions",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/voice.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts] keeps short captions inline",
+TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts:13] keeps short captions inline",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/voice.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts] moves oversized captions into follow-up text",
+TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts:20] moves oversized captions into follow-up text",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/voice.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts] skips voice when wantsVoice is false",
+TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts:30] skips voice when wantsVoice is false",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/voice.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts] logs fallback for incompatible media",
+TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts:42] logs fallback for incompatible media",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/voice.test.ts:42",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts] keeps voice when compatible",
+TEST_CASE("v4.29 [extensions/telegram/src/voice.test.ts:56] keeps voice when compatible",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/voice.test.ts:56",
                "upstream it() block #5",

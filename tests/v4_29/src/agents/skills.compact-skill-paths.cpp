@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/skills.compact-skill-paths.test.ts] replaces home directory prefix with ~ in skill locations",
+TEST_CASE("v4.29 [src/agents/skills.compact-skill-paths.test.ts:37] replaces home directory prefix with ~ in skill locations",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.compact-skill-paths.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/skills.compact-skill-paths.test.ts] preserves paths outside home directory",
+TEST_CASE("v4.29 [src/agents/skills.compact-skill-paths.test.ts:54] preserves paths outside home directory",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/skills.compact-skill-paths.test.ts:54",
                "upstream it() block #1",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/bundled/boot-md/handler.gateway-startup.integration.test.ts] dispatches gateway:startup through internal hooks and runs BOOT for each configured agent scope",
+TEST_CASE("v4.29 [src/hooks/bundled/boot-md/handler.gateway-startup.integration.test.ts:35] dispatches gateway:startup through internal hooks and runs BOOT for each configured agent scope",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/boot-md/handler.gateway-startup.integration.test.ts:35",
                "upstream it() block #0",

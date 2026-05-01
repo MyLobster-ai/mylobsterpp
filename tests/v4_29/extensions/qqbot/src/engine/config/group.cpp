@@ -5,145 +5,145 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] returns defaults when no config exists",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:17] returns defaults when no config exists",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] falls back to wildcard when specific is missing",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:29] falls back to wildcard when specific is missing",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] specific overrides wildcard and defaults",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:52] specific overrides wildcard and defaults",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:52",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] historyLimit is clamped to >= 0 and floored",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:71] historyLimit is clamped to >= 0 and floored",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:71",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] non-finite historyLimit falls back to default",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:80] non-finite historyLimit falls back to default",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:80",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] invalid toolPolicy values are ignored",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:89] invalid toolPolicy values are ignored",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:89",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] reads groups from the named-account scope",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:100] reads groups from the named-account scope",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:100",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] uses the first 8 chars of openid when name is unset",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:119] uses the first 8 chars of openid when name is unset",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:119",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] prefers the configured name",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:123] prefers the configured name",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:123",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] returns the default prompt when nothing configured",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:132] returns the default prompt when nothing configured",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:132",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] prefers specific over wildcard",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:136] prefers specific over wildcard",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:136",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] defaults to false",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:151] defaults to false",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:151",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] honours wildcard override",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:155] honours wildcard override",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:155",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] returns [] when nothing configured",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:164] returns [] when nothing configured",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:164",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] reads global patterns",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:168] reads global patterns",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:168",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] agent-level overrides global",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:173] agent-level overrides global",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:173",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] filters non-string entries",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:184] filters non-string entries",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:184",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] returns merged config + name + mentionPatterns in one call",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:191] returns merged config + name + mentionPatterns in one call",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:191",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] falls back to the first 8 chars of the openid for name",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:211] falls back to the first 8 chars of the openid for name",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:211",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts] applies agent-level mentionPatterns over global",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/config/group.test.ts:219] applies agent-level mentionPatterns over global",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/config/group.test.ts:219",
                "upstream it() block #19",

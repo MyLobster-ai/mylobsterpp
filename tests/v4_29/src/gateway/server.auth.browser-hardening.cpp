@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] rejects trusted-proxy browser connects from origins outside the allowlist",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:147] rejects trusted-proxy browser connects from origins outside the allowlist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:147",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] accepts trusted-proxy browser connects from allowed origins",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:161] accepts trusted-proxy browser connects from allowed origins",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:161",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] clears scopes for trusted-proxy non-control-ui browser sessions",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:171] clears scopes for trusted-proxy non-control-ui browser sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:171",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] rejects non-local browser origins for non-control-ui clients",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:235] rejects non-local browser origins for non-control-ui clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:235",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] rejects browser-origin connects that claim to be tui clients",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:239] rejects browser-origin connects that claim to be tui clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:239",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] rate-limits browser-origin auth failures on loopback even when loopback exemption is enabled",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:250] rate-limits browser-origin auth failures on loopback even when loopback exemption is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:250",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] isolates loopback browser-origin auth lockouts per origin",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:277] isolates loopback browser-origin auth lockouts per origin",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:277",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] omits sensitive gateway paths from low-privilege hello-ok snapshots",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:316] omits sensitive gateway paths from low-privilege hello-ok snapshots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:316",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] does not silently auto-pair non-control-ui browser clients on loopback",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:348] does not silently auto-pair non-control-ui browser clients on loopback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:348",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts] rejects forged loopback origin for control-ui when proxy headers make client non-local",
+TEST_CASE("v4.29 [src/gateway/server.auth.browser-hardening.test.ts:384] rejects forged loopback origin for control-ui when proxy headers make client non-local",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.auth.browser-hardening.test.ts:384",
                "upstream it() block #9",

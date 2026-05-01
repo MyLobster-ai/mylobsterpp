@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts] treats a thrown edit as success when history readback already matches",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:35] treats a thrown edit as success when history readback already matches",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts] checks threaded replies via conversations.replies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:54] checks threaded replies via conversations.replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:54",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts] rethrows when readback does not match the expected final text",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:82] rethrows when readback does not match the expected final text",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:82",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts] requires matching blocks when finalizing a blocks-only edit",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:99] requires matching blocks when finalizing a blocks-only edit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:99",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts] matches truncated fallback text for long blocks-only edit readback",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:112] matches truncated fallback text for long blocks-only edit readback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/message-handler/preview-finalize.test.ts:112",
                "upstream it() block #4",

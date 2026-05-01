@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/tls/fingerprint.test.ts] strips sha256 prefixes and common separators",
+TEST_CASE("v4.29 [src/infra/tls/fingerprint.test.ts:5] strips sha256 prefixes and common separators",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/fingerprint.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tls/fingerprint.test.ts] handles blank, non-hex, and mixed punctuation input",
+TEST_CASE("v4.29 [src/infra/tls/fingerprint.test.ts:11] handles blank, non-hex, and mixed punctuation input",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/fingerprint.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/tls/fingerprint.test.ts] only strips the sha256 prefix at the start of the value",
+TEST_CASE("v4.29 [src/infra/tls/fingerprint.test.ts:17] only strips the sha256 prefix at the start of the value",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/tls/fingerprint.test.ts:17",
                "upstream it() block #2",

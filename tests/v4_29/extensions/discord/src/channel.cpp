@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] avoids local require calls for bundled-only sibling modules",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:109] avoids local require calls for bundled-only sibling modules",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:109",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] prefers final assistant text for text-only cron announce delivery",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:118] prefers final assistant text for text-only cron announce delivery",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:118",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] preserves normalized explicit Discord targets for delivery routing",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:122] preserves normalized explicit Discord targets for delivery routing",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:122",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] honors per-account replyToMode overrides",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:146] honors per-account replyToMode overrides",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:146",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] forwards full media send context to sendMessageDiscord",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:171] forwards full media send context to sendMessageDiscord",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:171",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] splits text and video into separate sends for attached outbound delivery",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:203] splits text and video into separate sends for attached outbound delivery",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:203",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] threads poll sends through the thread target",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:242] threads poll sends through the thread target",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:242",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] forwards heartbeat typing through the run config and attached target",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:276] forwards heartbeat typing through the run config and attached target",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:276",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] uses direct Discord probe helpers for status probes",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:300] uses direct Discord probe helpers for status probes",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:300",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] uses direct Discord startup helpers before monitoring",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:335] uses direct Discord startup helpers before monitoring",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:335",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] stagger starts later accounts in multi-bot setups",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:377] stagger starts later accounts in multi-bot setups",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:377",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] derives DM current conversation ids from direct sender context",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:415] derives DM current conversation ids from direct sender context",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:415",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] preserves user-prefixed current conversation ids for DM binds",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:429] preserves user-prefixed current conversation ids for DM binds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:429",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] preserves channel-prefixed current conversation ids for channel binds",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:440] preserves channel-prefixed current conversation ids for channel binds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:440",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] preserves channel-prefixed parent ids for thread binds",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:451] preserves channel-prefixed parent ids for thread binds",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:451",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] normalizes dm allowlist entries with trimmed prefixes and mentions",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:467] normalizes dm allowlist entries with trimmed prefixes and mentions",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:467",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts] uses plugin-owned group policy resolvers",
+TEST_CASE("v4.29 [extensions/discord/src/channel.test.ts:500] uses plugin-owned group policy resolvers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/channel.test.ts:500",
                "upstream it() block #16",

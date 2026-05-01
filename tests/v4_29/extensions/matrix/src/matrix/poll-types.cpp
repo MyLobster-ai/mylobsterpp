@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] parses legacy m.poll payloads",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:14] parses legacy m.poll payloads",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] preserves answer ids when parsing poll start content",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:31] preserves answer ids when parsing poll start content",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:31",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] caps invalid remote max selections to the available answer count",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:54] caps invalid remote max selections to the available answer count",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] preserves the requested multiselect cap instead of widening to all answers",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:72] preserves the requested multiselect cap instead of widening to all answers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:72",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] builds a poll response payload with a reference relation",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:85] builds a poll response payload with a reference relation",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:85",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] parses stable and unstable poll response answer ids",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:102] parses stable and unstable poll response answer ids",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:102",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] extracts poll relation targets",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:116] extracts poll relation targets",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:116",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] counts only the latest valid response from each sender",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:126] counts only the latest valid response from each sender",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:126",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts] formats disclosed poll results with vote totals",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/poll-types.test.ts:184] formats disclosed poll results with vote totals",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/poll-types.test.ts:184",
                "upstream it() block #8",

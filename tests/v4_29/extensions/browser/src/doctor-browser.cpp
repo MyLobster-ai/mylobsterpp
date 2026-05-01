@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] does nothing when Chrome MCP is not configured",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:5] does nothing when Chrome MCP is not configured",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] warns when managed browser profiles have no local executable",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:26] warns when managed browser profiles have no local executable",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:26",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] warns when managed browser launch needs display and no-sandbox adjustments",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:51] warns when managed browser launch needs display and no-sandbox adjustments",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:51",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] warns when Chrome MCP is configured but Chrome is missing",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:82] warns when Chrome MCP is configured but Chrome is missing",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] warns when detected Chrome is too old for Chrome MCP",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:102] warns when detected Chrome is too old for Chrome MCP",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:102",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] reports the detected Chrome version for existing-session profiles",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:128] reports the detected Chrome version for existing-session profiles",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:128",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts] skips Chrome auto-detection when profiles use explicit userDataDir",
+TEST_CASE("v4.29 [extensions/browser/src/doctor-browser.test.ts:157] skips Chrome auto-detection when profiles use explicit userDataDir",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/doctor-browser.test.ts:157",
                "upstream it() block #6",

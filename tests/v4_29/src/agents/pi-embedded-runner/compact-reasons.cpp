@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] replaces generic compaction cancellation with the safeguard reason",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:9] replaces generic compaction cancellation with the safeguard reason",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] preserves non-generic compaction failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:19] preserves non-generic compaction failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] classifies ",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:31] classifies ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] classifies safeguard messages as guard-blocked",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:37] classifies safeguard messages as guard-blocked",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] keeps unclassified provider errors in the stable unknown bucket",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:45] keeps unclassified provider errors in the stable unknown bucket",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] formats unknown reasons as single-token diagnostic detail",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:51] formats unknown reasons as single-token diagnostic detail",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:51",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] strips terminal escapes and log separators from unknown reasons",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:57] strips terminal escapes and log separators from unknown reasons",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:57",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] omits empty unknown reason detail",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:63] omits empty unknown reason detail",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:63",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts] limits unknown reason detail length",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact-reasons.test.ts:67] limits unknown reason detail length",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact-reasons.test.ts:67",
                "upstream it() block #8",

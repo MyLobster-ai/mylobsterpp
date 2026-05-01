@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] filters to active streaming text models and maps modalities",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:39] filters to active streaming text models and maps modalities",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:39",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] applies provider filter",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:95] applies provider filter",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:95",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] uses configured defaults for context and max tokens",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:106] uses configured defaults for context and max tokens",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:106",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] keeps the conservative fallback for unknown inference profiles",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:121] keeps the conservative fallback for unknown inference profiles",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:121",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] normalizes region-prefixed versioned model ids when resolving context windows",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:154] normalizes region-prefixed versioned model ids when resolving context windows",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:154",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] caches results when refreshInterval is enabled",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:184] caches results when refreshInterval is enabled",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:184",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] skips cache when refreshInterval is 0",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:193] skips cache when refreshInterval is 0",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:193",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] resolves the Bedrock config apiKey from AWS auth env vars",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:214] resolves the Bedrock config apiKey from AWS auth env vars",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:214",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] discovers inference profiles and inherits foundation model capabilities",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:232] discovers inference profiles and inherits foundation model capabilities",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:232",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] gracefully handles ListInferenceProfiles permission errors",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:332] gracefully handles ListInferenceProfiles permission errors",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:332",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] keeps matching inference profiles when provider filters are enabled",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:346] keeps matching inference profiles when provider filters are enabled",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:346",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] prefers backing model ARNs for application profiles with region-like ids",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:389] prefers backing model ARNs for application profiles with region-like ids",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:389",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] uses the resolved base model id for application-profile context fallback",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:431] uses the resolved base model id for application-profile context fallback",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:431",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] merges implicit Bedrock models into explicit provider overrides",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:463] merges implicit Bedrock models into explicit provider overrides",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:463",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] prefers plugin-owned discovery config and still honors legacy fallback",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:491] prefers plugin-owned discovery config and still honors legacy fallback",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:491",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts] resolves au. and apac. prefixes for regional inference profiles",
+TEST_CASE("v4.29 [extensions/amazon-bedrock/discovery.test.ts:537] resolves au. and apac. prefixes for regional inference profiles",
           "[v4_29][parity_gap][amazon-bedrock]") {
     PARITY_GAP("extensions/amazon-bedrock/discovery.test.ts:537",
                "upstream it() block #15",

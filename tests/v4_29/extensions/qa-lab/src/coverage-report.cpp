@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/coverage-report.test.ts] groups scenario coverage metadata by theme and surface",
+TEST_CASE("v4.29 [extensions/qa-lab/src/coverage-report.test.ts:6] groups scenario coverage metadata by theme and surface",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/coverage-report.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/coverage-report.test.ts] renders a compact markdown inventory",
+TEST_CASE("v4.29 [extensions/qa-lab/src/coverage-report.test.ts:19] renders a compact markdown inventory",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/coverage-report.test.ts:19",
                "upstream it() block #1",

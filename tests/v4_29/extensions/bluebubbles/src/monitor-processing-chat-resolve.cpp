@@ -5,89 +5,89 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] uses chat_id for group inbound when chatId is present",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:8] uses chat_id for group inbound when chatId is present",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] uses chat_identifier for group inbound when chatId missing but identifier present",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:18] uses chat_identifier for group inbound when chatId missing but identifier present",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:18",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] prefers chat_id over chat_identifier when both are present for a group",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:31] prefers chat_id over chat_identifier when both are present for a group",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] REFUSES sender-handle fallback for group inbound with no chat identifiers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:41] REFUSES sender-handle fallback for group inbound with no chat identifiers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] treats blank chatIdentifier as missing for group inbound",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:57] treats blank chatIdentifier as missing for group inbound",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:57",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] treats non-finite chatId as missing for group inbound",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:67] treats non-finite chatId as missing for group inbound",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:67",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] treats null chatId/chatIdentifier as missing for group inbound",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:77] treats null chatId/chatIdentifier as missing for group inbound",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:77",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] uses sender handle for DM inbound (the chat IS the conversation with that sender)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:87] uses sender handle for DM inbound (the chat IS the conversation with that sender)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:87",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] uses sender handle for DM inbound even when chatId is present (preserves prior behavior)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:97] uses sender handle for DM inbound even when chatId is present (preserves prior behavior)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:97",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] returns null for DM inbound with empty senderId",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:107] returns null for DM inbound with empty senderId",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:107",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] redacts BlueBubbles query auth and Authorization headers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:119] redacts BlueBubbles query auth and Authorization headers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:119",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts] strips control characters before logging",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:134] strips control characters before logging",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor-processing-chat-resolve.test.ts:134",
                "upstream it() block #11",

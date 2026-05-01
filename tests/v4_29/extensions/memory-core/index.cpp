@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] returns empty when no memory tools are available",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:12] returns empty when no memory tools are available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] describes the two-step flow when both memory tools are available",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:16] describes the two-step flow when both memory tools are available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] limits the guidance to memory_search when only search is available",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:30] limits the guidance to memory_search when only search is available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] limits the guidance to memory_get when only get is available",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:38] limits the guidance to memory_get when only get is available",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] includes citations-off instruction when citationsMode is off",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:45] includes citations-off instruction when citationsMode is off",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:45",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] replaces YYYY-MM-DD using user timezone and appends current time",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:66] replaces YYYY-MM-DD using user timezone and appends current time",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:66",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] does not append a duplicate current time line",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:92] does not append a duplicate current time line",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] defaults to safe prompts and gating values",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:115] defaults to safe prompts and gating values",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:115",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] respects disable flag",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:125] respects disable flag",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:125",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] carries configured memory flush model override",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:137] carries configured memory flush model override",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:137",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] falls back to defaults when numeric values are invalid",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:155] falls back to defaults when numeric values are invalid",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:155",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] parses forceFlushTranscriptBytes from byte-size strings",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:176] parses forceFlushTranscriptBytes from byte-size strings",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:176",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/index.test.ts] keeps overwrite guards in the default prompt",
+TEST_CASE("v4.29 [extensions/memory-core/index.test.ts:194] keeps overwrite guards in the default prompt",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/index.test.ts:194",
                "upstream it() block #12",

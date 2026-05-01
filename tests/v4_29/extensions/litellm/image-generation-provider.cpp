@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] declares litellm id and OpenAI-compatible size hints",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:65] declares litellm id and OpenAI-compatible size hints",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] defaults to the loopback proxy and allows private network for localhost",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:77] defaults to the loopback proxy and allows private network for localhost",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:77",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] honors configured baseUrl and keeps private-network off for public endpoints",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:102] honors configured baseUrl and keeps private-network off for public endpoints",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:102",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] forwards count and size overrides on generation requests",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:136] forwards count and size overrides on generation requests",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:136",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] routes to the edit endpoint when input images are provided",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:162] routes to the edit endpoint when input images are provided",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] throws a clear error when the API key is missing",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:188] throws a clear error when the API key is missing",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:188",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] forwards dispatcherPolicy from resolveProviderHttpRequestConfig to postJsonRequest",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:202] forwards dispatcherPolicy from resolveProviderHttpRequestConfig to postJsonRequest",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:202",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] auto-allows private network for loopback-style baseUrls",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:229] auto-allows private network for loopback-style baseUrls",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:229",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] requires explicit private-network opt-in for LAN and internal baseUrls",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:254] requires explicit private-network opt-in for LAN and internal baseUrls",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:254",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] honors explicit private-network opt-in for a LAN LiteLLM proxy",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:284] honors explicit private-network opt-in for a LAN LiteLLM proxy",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:284",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts] does not allow private network for public hosts that embed private strings in the URL",
+TEST_CASE("v4.29 [extensions/litellm/image-generation-provider.test.ts:316] does not allow private network for public hosts that embed private strings in the URL",
           "[v4_29][parity_gap][litellm]") {
     PARITY_GAP("extensions/litellm/image-generation-provider.test.ts:316",
                "upstream it() block #10",

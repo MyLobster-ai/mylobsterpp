@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts] treats agentCfg reasoningDefault as explicit for direct /status",
+TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts:87] treats agentCfg reasoningDefault as explicit for direct /status",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/command-status.runtime.test.ts:87",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts] allows configured reasoning defaults for authorized direct /status senders",
+TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts:107] allows configured reasoning defaults for authorized direct /status senders",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/command-status.runtime.test.ts:107",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts] hides configured reasoning defaults from unauthorized direct /status senders",
+TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts:146] hides configured reasoning defaults from unauthorized direct /status senders",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/command-status.runtime.test.ts:146",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts] hides session reasoning state from unauthorized direct /status senders",
+TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts:185] hides session reasoning state from unauthorized direct /status senders",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/command-status.runtime.test.ts:185",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts] allows session reasoning state for authorized direct /status senders",
+TEST_CASE("v4.29 [src/plugin-sdk/command-status.runtime.test.ts:219] allows session reasoning state for authorized direct /status senders",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/command-status.runtime.test.ts:219",
                "upstream it() block #4",

@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] filters silent replies",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:131] filters silent replies",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:131",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] does not filter non-exact silent reply prefixes",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:139] does not filter non-exact silent reply prefixes",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:139",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] splits media into separate messages by default",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:147] splits media into separate messages by default",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:147",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] supports inline media mode",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:155] supports inline media mode",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:155",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] chunks long text when enabled",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:163] chunks long text when enabled",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:163",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] sends thread messages via the provided context",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:246] sends thread messages via the provided context",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:246",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] sends top-level messages via continueConversation and strips activityId",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:268] sends top-level messages via continueConversation and strips activityId",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:268",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] preserves parsed mentions when appending OneDrive fallback file links",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:304] preserves parsed mentions when appending OneDrive fallback file links",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:304",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] retries thread sends on throttling (429)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:368] retries thread sends on throttling (429)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:368",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] retries full activity preparation when media upload fails transiently",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:395] retries full activity preparation when media upload fails transiently",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:395",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] does not retry thread sends on client errors (4xx)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:454] does not retry thread sends on client errors (4xx)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:454",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] falls back to proactive messaging when thread context is revoked",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:478] falls back to proactive messaging when thread context is revoked",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:478",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] falls back only for remaining thread messages after context revocation",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:497] falls back only for remaining thread messages after context revocation",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:497",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] reconstructs threaded conversation ID for channel revoke fallback",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:517] reconstructs threaded conversation ID for channel revoke fallback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:517",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] does not add thread suffix for group chat revoke fallback",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:531] does not add thread suffix for group chat revoke fallback",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:531",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] uses threadId instead of activityId for channel revoke fallback (#58030)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:545] uses threadId instead of activityId for channel revoke fallback (#58030)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:545",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] falls back to activityId when threadId is not set (backward compat)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:562] falls back to activityId when threadId is not set (backward compat)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:562",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] does not add thread suffix for top-level replyStyle even with threadId set",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:577] does not add thread suffix for top-level replyStyle even with threadId set",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:577",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] retries top-level sends on transient (5xx)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:622] retries top-level sends on transient (5xx)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:622",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] delivers all blocks in a multi-block reply via a single continueConversation call (#29379)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:651] delivers all blocks in a multi-block reply via a single continueConversation call (#29379)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:651",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] adds AI-generated entity to text messages",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:712] adds AI-generated entity to text messages",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:712",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] adds AI-generated entity to media-only messages",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:726] adds AI-generated entity to media-only messages",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:726",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] preserves mention entities alongside AI entity",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:738] preserves mention entities alongside AI entity",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:738",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] sets feedbackLoopEnabled in channelData when enabled",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:752] sets feedbackLoopEnabled in channelData when enabled",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:752",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] defaults feedbackLoopEnabled to false",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:767] defaults feedbackLoopEnabled to false",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:767",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] forwards top-level tenantId and aadObjectId onto the outbound reference",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:793] forwards top-level tenantId and aadObjectId onto the outbound reference",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:793",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] falls back to conversation.tenantId when no top-level tenantId is stored (legacy ref)",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:801] falls back to conversation.tenantId when no top-level tenantId is stored (legacy ref)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:801",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] omits tenantId and aadObjectId when neither source is available",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:819] omits tenantId and aadObjectId when neither source is available",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:819",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts] propagates tenantId/aadObjectId through sendMSTeamsMessages proactive path",
+TEST_CASE("v4.29 [extensions/msteams/src/messenger.test.ts:834] propagates tenantId/aadObjectId through sendMSTeamsMessages proactive path",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/messenger.test.ts:834",
                "upstream it() block #28",

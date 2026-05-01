@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/wizard/session.test.ts] steps progress in order",
+TEST_CASE("v4.29 [src/wizard/session.test.ts:13] steps progress in order",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/session.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/session.test.ts] invalid answers throw",
+TEST_CASE("v4.29 [src/wizard/session.test.ts:50] invalid answers throw",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/session.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/session.test.ts] cancel marks session and unblocks",
+TEST_CASE("v4.29 [src/wizard/session.test.ts:60] cancel marks session and unblocks",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/session.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/wizard/session.test.ts] does not lose terminal completion when the last answer finishes the runner immediately",
+TEST_CASE("v4.29 [src/wizard/session.test.ts:75] does not lose terminal completion when the last answer finishes the runner immediately",
           "[v4_29][parity_gap][wizard]") {
     PARITY_GAP("src/wizard/session.test.ts:75",
                "upstream it() block #3",

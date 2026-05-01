@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] allows legacy private QA inventory entries omitted from shipped tarballs through 2026.4.25",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:52] allows legacy private QA inventory entries omitted from shipped tarballs through 2026.4.25",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:52",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] rejects legacy private QA inventory omissions for newer packages",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:67] rejects legacy private QA inventory omissions for newer packages",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:67",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] still rejects non-legacy missing inventory entries",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:84] still rejects non-legacy missing inventory entries",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:84",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] rejects dist files that import missing relative chunks",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:97] rejects dist files that import missing relative chunks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:97",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] accepts dist files whose relative chunks are present",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:113] accepts dist files whose relative chunks are present",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] rejects imported dist chunks omitted from the postinstall inventory",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:130] rejects imported dist chunks omitted from the postinstall inventory",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:130",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] rejects missing Control UI assets",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:149] rejects missing Control UI assets",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:149",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] rejects local build metadata entries in package tarballs",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:167] rejects local build metadata entries in package tarballs",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:167",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts] allows local build metadata in already published legacy packages through 2026.4.26",
+TEST_CASE("v4.29 [test/scripts/check-openclaw-package-tarball.test.ts:189] allows local build metadata in already published legacy packages through 2026.4.26",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-openclaw-package-tarball.test.ts:189",
                "upstream it() block #8",

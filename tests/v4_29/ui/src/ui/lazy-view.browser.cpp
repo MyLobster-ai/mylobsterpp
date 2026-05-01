@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/lazy-view.browser.test.ts] renders a loading panel until the view module resolves",
+TEST_CASE("v4.29 [ui/src/ui/lazy-view.browser.test.ts:11] renders a loading panel until the view module resolves",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/lazy-view.browser.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/lazy-view.browser.test.ts] renders a recoverable error panel when a lazy module import fails",
+TEST_CASE("v4.29 [ui/src/ui/lazy-view.browser.test.ts:33] renders a recoverable error panel when a lazy module import fails",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/lazy-view.browser.test.ts:33",
                "upstream it() block #1",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/changelog-unreleased.test.ts] appends to the end of the requested unreleased section",
+TEST_CASE("v4.29 [src/infra/changelog-unreleased.test.ts:24] appends to the end of the requested unreleased section",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/changelog-unreleased.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/changelog-unreleased.test.ts] avoids duplicating an existing entry",
+TEST_CASE("v4.29 [src/infra/changelog-unreleased.test.ts:37] avoids duplicating an existing entry",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/changelog-unreleased.test.ts:37",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/changelog-unreleased.test.ts] throws when the unreleased section is missing",
+TEST_CASE("v4.29 [src/infra/changelog-unreleased.test.ts:46] throws when the unreleased section is missing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/changelog-unreleased.test.ts:46",
                "upstream it() block #2",

@@ -5,187 +5,187 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] loads and normalizes dreaming status from doctor.memory.status",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:58] loads and normalizes dreaming status from doctor.memory.status",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:58",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] preserves unknown phase state when status omits phase metadata",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:197] preserves unknown phase state when status omits phase metadata",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:197",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] loads and normalizes wiki import insights",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:229] loads and normalizes wiki import insights",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:229",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] falls back to config gating for wiki import insights when methods are not advertised",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:307] falls back to config gating for wiki import insights when methods are not advertised",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:307",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] skips wiki import insights when memory-wiki is not enabled",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:341] skips wiki import insights when memory-wiki is not enabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:341",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] skips wiki import insights when the gateway does not advertise the method",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:365] skips wiki import insights when the gateway does not advertise the method",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:365",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] loads and normalizes the wiki memory palace",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:401] loads and normalizes the wiki memory palace",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:401",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] falls back to config gating for wiki memory palace when methods are not advertised",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:477] falls back to config gating for wiki memory palace when methods are not advertised",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:477",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] skips wiki memory palace when memory-wiki is not enabled",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:512] skips wiki memory palace when memory-wiki is not enabled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:512",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] skips wiki memory palace when the gateway does not advertise the method",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:537] skips wiki memory palace when the gateway does not advertise the method",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:537",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] patches config to update global dreaming enablement",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:574] patches config to update global dreaming enablement",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:574",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] falls back to memory-core when selected memory slot is blank",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:624] falls back to memory-core when selected memory slot is blank",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:624",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] blocks dreaming patch when selected plugin config rejects unknown keys",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:656] blocks dreaming patch when selected plugin config rejects unknown keys",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:656",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] reads dreaming enabled state from the selected memory slot plugin",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:698] reads dreaming enabled state from the selected memory slot plugin",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:698",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] falls back to memory-core when selected memory slot is ",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:729] falls back to memory-core when selected memory slot is ",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:729",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] fails gracefully when config hash is missing",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:753] fails gracefully when config hash is missing",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:753",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] loads dream diary content",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:764] loads dream diary content",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:764",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] handles missing dream diary without error",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:780] handles missing dream diary without error",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:780",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] records dream diary request errors",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:794] records dream diary request errors",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:794",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] backfills and reloads dream diary state",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:804] backfills and reloads dream diary state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:804",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] resets and reloads dream diary state",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:872] resets and reloads dream diary state",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:872",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] clears grounded staged entries and reloads only dreaming status",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:897] clears grounded staged entries and reloads only dreaming status",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:897",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] repairs dreaming artifacts and reloads only dreaming status",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:920] repairs dreaming artifacts and reloads only dreaming status",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:920",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] dedupes dream diary entries and reloads diary plus status",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:958] dedupes dream diary entries and reloads diary plus status",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:958",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] copies the dreaming repair archive path",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:994] copies the dreaming repair archive path",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:994",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts] does not run repair when confirmation is cancelled",
+TEST_CASE("v4.29 [ui/src/ui/controllers/dreaming.test.ts:1013] does not run repair when confirmation is cancelled",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/controllers/dreaming.test.ts:1013",
                "upstream it() block #25",

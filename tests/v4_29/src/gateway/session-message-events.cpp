@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] includes spawned session ownership metadata on lifecycle sessions.changed events",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:141] includes spawned session ownership metadata on lifecycle sessions.changed events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:141",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] only sends transcript events to subscribed operator clients",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:190] only sends transcript events to subscribed operator clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:190",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] broadcasts appended transcript messages with the session key",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:249] broadcasts appended transcript messages with the session key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:249",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] includes live usage metadata on session.message and sessions.changed transcript events",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:290] includes live usage metadata on session.message and sessions.changed transcript events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] includes spawnedBy metadata on session.message and sessions.changed transcript events",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:364] includes spawnedBy metadata on session.message and sessions.changed transcript events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:364",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] includes route thread metadata on session.message and sessions.changed transcript events",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:459] includes route thread metadata on session.message and sessions.changed transcript events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:459",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] sessions.messages.subscribe only delivers transcript events for the requested session",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:516] sessions.messages.subscribe only delivers transcript events for the requested session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:516",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts] routes transcript-only updates to the freshest session owner when different sessionIds share a transcript path",
+TEST_CASE("v4.29 [src/gateway/session-message-events.test.ts:605] routes transcript-only updates to the freshest session owner when different sessionIds share a transcript path",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-message-events.test.ts:605",
                "upstream it() block #7",

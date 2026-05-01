@@ -5,208 +5,208 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] preserves invalid config for doctor repairs",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1358] preserves invalid config for doctor repairs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1358",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] does not warn on mutable account allowlists when dangerous name matching is inherited",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1372] does not warn on mutable account allowlists when dangerous name matching is inherited",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1372",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] does not warn about sender-based group allowlist for googlechat",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1388] does not warn about sender-based group allowlist for googlechat",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1388",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] shows first-time Telegram guidance without the old groupAllowFrom warning",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1409] shows first-time Telegram guidance without the old groupAllowFrom warning",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1409",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] shows account-scoped first-time Telegram guidance without the old groupAllowFrom warning",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1436] shows account-scoped first-time Telegram guidance without the old groupAllowFrom warning",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1436",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] shows plugin-blocked guidance instead of first-time Telegram guidance when telegram is explicitly disabled",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1469] shows plugin-blocked guidance instead of first-time Telegram guidance when telegram is explicitly disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1469",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] shows plugin-blocked guidance instead of first-time Telegram guidance when plugins are disabled globally",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1496] shows plugin-blocked guidance instead of first-time Telegram guidance when plugins are disabled globally",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1496",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] warns on mutable Zalouser group entries when dangerous name matching is disabled",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1519] warns on mutable Zalouser group entries when dangerous name matching is disabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1519",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] does not warn on mutable Zalouser group entries when dangerous name matching is enabled",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1538] does not warn on mutable Zalouser group entries when dangerous name matching is enabled",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1538",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] warns when imessage group allowlist is empty even if allowFrom is set",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1553] warns when imessage group allowlist is empty even if allowFrom is set",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1553",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] repairs generic legacy config surfaces in one pass",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1572] repairs generic legacy config surfaces in one pass",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1572",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] preserves commitments config on repair",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1618] preserves commitments config on repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1618",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] preserves discord streaming intent while stripping unsupported keys on repair",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1636] preserves discord streaming intent while stripping unsupported keys on repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1636",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] warns clearly about legacy channel streaming aliases and points to doctor --fix",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1686] warns clearly about legacy channel streaming aliases and points to doctor --fix",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1686",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] keeps discord streaming aliases on disk during repair so downgrades stay recoverable",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1738] keeps discord streaming aliases on disk during repair so downgrades stay recoverable",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1738",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] repairs legacy googlechat streamMode by removing it",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1787] repairs legacy googlechat streamMode by removing it",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1787",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] warns clearly about legacy nested channel allow aliases and points to doctor --fix",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1817] warns clearly about legacy nested channel allow aliases and points to doctor --fix",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1817",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] repairs legacy nested channel allow aliases on repair",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1882] repairs legacy nested channel allow aliases on repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1882",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] sanitizes config-derived doctor warnings and changes before logging",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1928] sanitizes config-derived doctor warnings and changes before logging",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1928",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] warns and continues when Telegram account inspection hits inactive SecretRef surfaces",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:1985] warns and continues when Telegram account inspection hits inactive SecretRef surfaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:1985",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] converts numeric discord ids to strings on repair",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2040] converts numeric discord ids to strings on repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2040",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] does not restore top-level allowFrom when config is intentionally default-account scoped",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2136] does not restore top-level allowFrom when config is intentionally default-account scoped",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2136",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] repairs open dmPolicy allowFrom variants with [",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2165] repairs open dmPolicy allowFrom variants with [",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2165",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] repairs dmPolicy=",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2211] repairs dmPolicy=",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2211",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] migrates legacy toolsBySender keys to typed id entries on repair",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2258] migrates legacy toolsBySender keys to typed id entries on repair",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2258",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] repairs legacy root runtime config surfaces in one pass",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2301] repairs legacy root runtime config surfaces in one pass",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2301",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] warns clearly about legacy config surfaces and points to doctor --fix",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2409] warns clearly about legacy config surfaces and points to doctor --fix",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2409",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] recovers from stale googlechat top-level allowFrom by repairing dm.allowFrom",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2522] recovers from stale googlechat top-level allowFrom by repairing dm.allowFrom",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2522",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts] does not report repeat talk provider normalization on consecutive repair runs",
+TEST_CASE("v4.29 [src/commands/doctor-config-flow.test.ts:2549] does not report repeat talk provider normalization on consecutive repair runs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-config-flow.test.ts:2549",
                "upstream it() block #28",

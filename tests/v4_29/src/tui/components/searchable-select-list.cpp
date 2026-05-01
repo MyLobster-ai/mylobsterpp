@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] renders all items when no filter is applied",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:82] renders all items when no filter is applied",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] does not truncate long labels on wide terminals when description is present",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:91] does not truncate long labels on wide terminals when description is present",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] does not show description layout at width 40 (boundary)",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:101] does not show description layout at width 40 (boundary)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:101",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] shows description layout at width 41 (boundary)",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:105] shows description layout at width 41 (boundary)",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:105",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] keeps ANSI-highlighted description rows within terminal width",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:109] keeps ANSI-highlighted description rows within terminal width",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:109",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] keeps model-search rows within width when filtering by m",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:127] keeps model-search rows within width when filtering by m",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:127",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] ignores ANSI escape codes in search matching",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:155] ignores ANSI escape codes in search matching",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:155",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] does not corrupt ANSI sequences when highlighting multiple tokens",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:165] does not corrupt ANSI sequences when highlighting multiple tokens",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:165",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] filters items when typing",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:177] filters items when typing",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:177",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] prioritizes exact substring matches over fuzzy matches",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:187] prioritizes exact substring matches over fuzzy matches",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:187",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] keeps exact label matches ahead of description matches",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:208] keeps exact label matches ahead of description matches",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:208",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] exact label match beats description match",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:219] exact label match beats description match",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:219",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] orders description matches by earliest index",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:237] orders description matches by earliest index",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:237",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] filters items with fuzzy matching",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:247] filters items with fuzzy matching",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:247",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] preserves fuzzy ranking when only fuzzy matches exist",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:257] preserves fuzzy ranking when only fuzzy matches exist",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:257",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] highlights matches in rendered output",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:270] highlights matches in rendered output",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:270",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] shows no match message when filter yields no results",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:279] shows no match message when filter yields no results",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:279",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] navigates with arrow keys",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:285] navigates with arrow keys",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:285",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] types j and k into search input instead of intercepting as vim navigation",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:297] types j and k into search input instead of intercepting as vim navigation",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:297",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] calls onSelect when enter is pressed",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:315] calls onSelect when enter is pressed",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:315",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts] calls onCancel when escape is pressed",
+TEST_CASE("v4.29 [src/tui/components/searchable-select-list.test.ts:329] calls onCancel when escape is pressed",
           "[v4_29][parity_gap][tui]") {
     PARITY_GAP("src/tui/components/searchable-select-list.test.ts:329",
                "upstream it() block #20",

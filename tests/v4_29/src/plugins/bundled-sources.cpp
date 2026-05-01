@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts] resolves bundled sources keyed by plugin id",
+TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts:147] resolves bundled sources keyed by plugin id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-sources.test.ts:147",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts] forwards an explicit env to bundled discovery helpers",
+TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts:208] forwards an explicit env to bundled discovery helpers",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-sources.test.ts:208",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts] marks bundled sources that require plugin config before activation",
+TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts:233] marks bundled sources that require plugin config before activation",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-sources.test.ts:233",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts] reuses a pre-resolved bundled map for repeated lookups",
+TEST_CASE("v4.29 [src/plugins/bundled-sources.test.ts:260] reuses a pre-resolved bundled map for repeated lookups",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/bundled-sources.test.ts:260",
                "upstream it() block #3",

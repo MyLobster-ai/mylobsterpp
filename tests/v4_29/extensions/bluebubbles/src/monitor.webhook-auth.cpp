@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rejects non-POST requests",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:368] rejects non-POST requests",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:368",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] accepts POST requests with valid JSON payload",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:372] accepts POST requests with valid JSON payload",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:372",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rejects requests with invalid JSON",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:377] rejects requests with invalid JSON",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:377",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] accepts URL-encoded payload wrappers",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:381] accepts URL-encoded payload wrappers",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:381",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] returns 408 when request body times out (Slow-Loris protection)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:389] returns 408 when request body times out (Slow-Loris protection)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:389",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rejects unauthorized requests before reading the body",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:403] rejects unauthorized requests before reading the body",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:403",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] authenticates via password query parameter",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:413] authenticates via password query parameter",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:413",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] authenticates via x-password header",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:417] authenticates via x-password header",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:417",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rejects unauthorized requests with wrong password",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:428] rejects unauthorized requests with wrong password",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:428",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rate limits repeated invalid password guesses from the same client",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:435] rate limits repeated invalid password guesses from the same client",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:435",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] keeps forwarded clients behind configured trusted proxies in separate auth buckets",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:468] keeps forwarded clients behind configured trusted proxies in separate auth buckets",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:468",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] keeps real-ip fallback clients behind trusted proxies in separate auth buckets",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:529] keeps real-ip fallback clients behind trusted proxies in separate auth buckets",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:529",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rejects ambiguous routing when multiple targets match the same password",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:591] rejects ambiguous routing when multiple targets match the same password",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:591",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] ignores targets without passwords when a password-authenticated target matches",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:601] ignores targets without passwords when a password-authenticated target matches",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:601",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] requires authentication for loopback requests when password is configured",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:611] requires authentication for loopback requests when password is configured",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:611",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] rejects targets without passwords for loopback and proxied-looking requests",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:617] rejects targets without passwords for loopback and proxied-looking requests",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:617",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] ignores unregistered webhook paths",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:628] ignores unregistered webhook paths",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:628",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] parses chatId when provided as a string (webhook variant)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:636] parses chatId when provided as a string (webhook variant)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:636",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts] extracts chatGuid from nested chat object fields (webhook variant)",
+TEST_CASE("v4.29 [extensions/bluebubbles/src/monitor.webhook-auth.test.ts:655] extracts chatGuid from nested chat object fields (webhook variant)",
           "[v4_29][parity_gap][bluebubbles]") {
     PARITY_GAP("extensions/bluebubbles/src/monitor.webhook-auth.test.ts:655",
                "upstream it() block #18",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts] allows DMs when policy is open with wildcard allowFrom",
+TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts:83] allows DMs when policy is open with wildcard allowFrom",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/dm-access.test.ts:83",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts] blocks non-allowlisted DMs when open policy has no wildcard",
+TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts:93] blocks non-allowlisted DMs when open policy has no wildcard",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/dm-access.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts] allows allowlisted DMs when open policy was constrained by a restrictive allowFrom",
+TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts:103] allows allowlisted DMs when open policy was constrained by a restrictive allowFrom",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/dm-access.test.ts:103",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts] blocks DMs when policy is disabled",
+TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts:113] blocks DMs when policy is disabled",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/dm-access.test.ts:113",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts] allows DMs for allowlisted senders under pairing policy",
+TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts:119] allows DMs for allowlisted senders under pairing policy",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/dm-access.test.ts:119",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts] issues a pairing challenge for unauthorized DMs under pairing policy",
+TEST_CASE("v4.29 [extensions/telegram/src/dm-access.test.ts:129] issues a pairing challenge for unauthorized DMs under pairing policy",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/dm-access.test.ts:129",
                "upstream it() block #5",

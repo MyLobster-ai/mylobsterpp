@@ -5,306 +5,306 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] formats redacted CLI resume diagnostics without exposing raw session ids",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:134] formats redacted CLI resume diagnostics without exposing raw session ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:134",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] does not inject hardcoded ",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:155] does not inject hardcoded ",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:155",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] includes the OpenClaw skills prompt in CLI system prompts",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:220] includes the OpenClaw skills prompt in CLI system prompts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:220",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] pipes Claude prompts over stdin instead of argv",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:241] pipes Claude prompts over stdin instead of argv",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:241",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] passes Claude system prompts through a file instead of argv",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:272] passes Claude system prompts through a file instead of argv",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:272",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] passes --session-id for new Claude sessions",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:307] passes --session-id for new Claude sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:307",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] passes OpenClaw skills to Claude as a session plugin",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:332] passes OpenClaw skills to Claude as a session plugin",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:332",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] injects skill env overrides into CLI child env and restores host env",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:413] injects skill env overrides into CLI child env and restores host env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:413",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] ignores legacy claudeSessionId on the compat wrapper",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:460] ignores legacy claudeSessionId on the compat wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:460",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] forwards senderIsOwner through the compat wrapper",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:478] forwards senderIsOwner through the compat wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:478",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] forwards channel context through the compat wrapper",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:494] forwards channel context through the compat wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:494",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] forwards static extra system prompt through the compat wrapper",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:510] forwards static extra system prompt through the compat wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:510",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] forwards cron jobId through the compat wrapper",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:526] forwards cron jobId through the compat wrapper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:526",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] runs CLI through supervisor and returns payload",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:542] runs CLI through supervisor and returns payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:542",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] passes Codex system prompts through model_instructions_file",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:591] passes Codex system prompts through model_instructions_file",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:591",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] cancels the managed CLI run when the abort signal fires",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:624] cancels the managed CLI run when the abort signal fires",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:624",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] streams Claude text deltas from stream-json stdout",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:686] streams Claude text deltas from stream-json stdout",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:686",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] reuses a Claude live session process across turns",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:758] reuses a Claude live session process across turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:758",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] defers prepared backend cleanup to the Claude live session lifecycle",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:862] defers prepared backend cleanup to the Claude live session lifecycle",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:862",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] accepts Claude live stream-json lines larger than 256 KiB",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:916] accepts Claude live stream-json lines larger than 256 KiB",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:916",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] reports Claude live session reply backends as streaming until the turn finishes",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:960] reports Claude live session reply backends as streaming until the turn finishes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:960",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] reuses a Claude live session when resumed turns omit the system prompt arg",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1030] reuses a Claude live session when resumed turns omit the system prompt arg",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1030",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] serializes concurrent Claude live session creation for the same key",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1092] serializes concurrent Claude live session creation for the same key",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1092",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] counts pending Claude live session creates against the session cap",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1160] counts pending Claude live session creates against the session cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1160",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] preserves Claude resume args when building live session argv",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1242] preserves Claude resume args when building live session argv",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1242",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] adds Claude stream-json output format when building live session argv",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1283] adds Claude stream-json output format when building live session argv",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1283",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] restarts Claude live sessions for env changes and fresh retries",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1313] restarts Claude live sessions for env changes and fresh retries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1313",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] ignores non-JSON stdout lines from Claude live sessions",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1407] ignores non-JSON stdout lines from Claude live sessions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1407",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] fails Claude live turns on is_error results",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1453] fails Claude live turns on is_error results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1453",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] fails when Claude exits before a live turn starts",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1502] fails when Claude exits before a live turn starts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1502",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] restarts the Claude live process after request abort",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1538] restarts the Claude live process after request abort",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1538",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] restarts Claude live sessions when selected skills change",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1638] restarts Claude live sessions when selected skills change",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1638",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] closes idle Claude live sessions after ten minutes",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1758] closes idle Claude live sessions after ten minutes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1758",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] does not surface stale stderr after a later Claude live exit",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1822] does not surface stale stderr after a later Claude live exit",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1822",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] surfaces nested Claude stream-json API errors instead of raw event output",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1927] surfaces nested Claude stream-json API errors instead of raw event output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1927",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] sanitizes dangerous backend env overrides before spawn",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1959] sanitizes dangerous backend env overrides before spawn",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1959",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] applies clearEnv after sanitizing backend env overrides",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:1989] applies clearEnv after sanitizing backend env overrides",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:1989",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] can preserve selected clearEnv keys for live CLI backend probes",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:2014] can preserve selected clearEnv keys for live CLI backend probes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:2014",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] keeps explicit backend env overrides even when clearEnv drops inherited values",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:2042] keeps explicit backend env overrides even when clearEnv drops inherited values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:2042",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] clears claude-cli provider-routing, auth, telemetry, and host-managed env",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:2066] clears claude-cli provider-routing, auth, telemetry, and host-managed env",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:2066",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] formats CLI auth env diagnostics as key names without secret values",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:2137] formats CLI auth env diagnostics as key names without secret values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:2137",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] prepends bootstrap warnings to the CLI prompt body",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:2160] prepends bootstrap warnings to the CLI prompt body",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:2160",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts] loads workspace bootstrap files into the Claude CLI system prompt",
+TEST_CASE("v4.29 [src/agents/cli-runner.spawn.test.ts:2197] loads workspace bootstrap files into the Claude CLI system prompt",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/cli-runner.spawn.test.ts:2197",
                "upstream it() block #42",

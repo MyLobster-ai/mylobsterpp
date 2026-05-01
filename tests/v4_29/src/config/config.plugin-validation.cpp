@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] reports missing plugin refs across entries and allowlist surfaces",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:215] reports missing plugin refs across entries and allowlist surfaces",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:215",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] warns instead of failing for stale channel config backed by missing plugin refs",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:249] warns instead of failing for stale channel config backed by missing plugin refs",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:249",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] keeps unknown channel typos fatal when there is no stale plugin evidence",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:282] keeps unknown channel typos fatal when there is no stale plugin evidence",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:282",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] uses persisted installed-plugin records as stale channel evidence",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:304] uses persisted installed-plugin records as stale channel evidence",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:304",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] warns with actionable guidance when a runtime command name is used in plugins.allow",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:347] warns with actionable guidance when a runtime command name is used in plugins.allow",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:347",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] does not fail validation for the implicit default memory slot when plugins config is explicit",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:376] does not fail validation for the implicit default memory slot when plugins config is explicit",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:376",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] warns for removed legacy plugin ids instead of failing validation",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:394] warns for removed legacy plugin ids instead of failing validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:394",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] warns for removed google gemini auth plugin ids instead of failing validation",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:400] warns for removed google gemini auth plugin ids instead of failing validation",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:400",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] does not auto-allow config-loaded overrides of bundled web search plugin ids",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:406] does not auto-allow config-loaded overrides of bundled web search plugin ids",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:406",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] surfaces plugin config diagnostics",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:433] surfaces plugin config diagnostics",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:433",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] does not require native config schemas for enabled bundle plugins",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:453] does not require native config schemas for enabled bundle plugins",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:453",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] accepts enabled manifestless Claude bundles without a native schema",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:466] accepts enabled manifestless Claude bundles without a native schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:466",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] surfaces allowed enum values for plugin config diagnostics",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:479] surfaces allowed enum values for plugin config diagnostics",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:479",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] accepts voice-call webhookSecurity and streaming guard config fields",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:500] accepts voice-call webhookSecurity and streaming guard config fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:500",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] accepts voice-call OpenAI TTS speed, instructions, and baseUrl config fields",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:531] accepts voice-call OpenAI TTS speed, instructions, and baseUrl config fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:531",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] accepts voice-call SecretRef credentials declared by the plugin schema",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:558] accepts voice-call SecretRef credentials declared by the plugin schema",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:558",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] rejects out-of-range voice-call OpenAI TTS speed values",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:590] rejects out-of-range voice-call OpenAI TTS speed values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:590",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] rejects out-of-range voice-call ElevenLabs voice settings",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:623] rejects out-of-range voice-call ElevenLabs voice settings",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:623",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] accepts known plugin ids and valid channel/heartbeat enums",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:658] accepts known plugin ids and valid channel/heartbeat enums",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:658",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] accepts plugin heartbeat targets",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:676] accepts plugin heartbeat targets",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:676",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] rejects unknown heartbeat targets",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:684] rejects unknown heartbeat targets",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:684",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts] rejects invalid heartbeat directPolicy values",
+TEST_CASE("v4.29 [src/config/config.plugin-validation.test.ts:700] rejects invalid heartbeat directPolicy values",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/config.plugin-validation.test.ts:700",
                "upstream it() block #21",

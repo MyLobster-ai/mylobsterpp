@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts] prints clear unsetenv instructions for token override",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:6] prints clear unsetenv instructions for token override",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts] does nothing when config has no gateway credentials",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:32] does nothing when config has no gateway credentials",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts] treats SecretRef-backed credentials as configured",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:43] treats SecretRef-backed credentials as configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts] does nothing on non-darwin platforms",
+TEST_CASE("v4.29 [src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:68] does nothing on non-darwin platforms",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/doctor-platform-notes.launchctl-env-overrides.test.ts:68",
                "upstream it() block #3",

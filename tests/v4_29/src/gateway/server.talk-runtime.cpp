@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts] allows extension speech providers through the talk setup",
+TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts:101] allows extension speech providers through the talk setup",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-runtime.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts] allows extension speech providers through talk.speak",
+TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts:152] allows extension speech providers through talk.speak",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-runtime.test.ts:152",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts] resolves talk voice aliases case-insensitively and forwards provider overrides",
+TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts:175] resolves talk voice aliases case-insensitively and forwards provider overrides",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-runtime.test.ts:175",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts] returns fallback-eligible details when talk provider is not configured",
+TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts:247] returns fallback-eligible details when talk provider is not configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-runtime.test.ts:247",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts] returns synthesis_failed details when the provider rejects synthesis",
+TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts:259] returns synthesis_failed details when the provider rejects synthesis",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-runtime.test.ts:259",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts] rejects empty audio results as invalid_audio_result",
+TEST_CASE("v4.29 [src/gateway/server.talk-runtime.test.ts:279] rejects empty audio results as invalid_audio_result",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.talk-runtime.test.ts:279",
                "upstream it() block #5",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] loads outbound media under OpenClaw control and returns a hosted URL",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:44] loads outbound media under OpenClaw control and returns a hosted URL",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] passes proxy-aware fetch options into hosted media downloads",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:59] passes proxy-aware fetch options into hosted media downloads",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] creates hosted media storage with private filesystem permissions",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:73] creates hosted media storage with private filesystem permissions",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] preserves the root webhook path when deriving the hosted media route",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:101] preserves the root webhook path when deriving the hosted media route",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:101",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] serves hosted media once when the route token matches",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:109] serves hosted media once when the route token matches",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:109",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] rejects hosted media requests with the wrong token",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:144] rejects hosted media requests with the wrong token",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:144",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts] rejects malformed hosted media ids before touching disk",
+TEST_CASE("v4.29 [extensions/zalo/src/outbound-media.test.ts:167] rejects malformed hosted media ids before touching disk",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/outbound-media.test.ts:167",
                "upstream it() block #6",

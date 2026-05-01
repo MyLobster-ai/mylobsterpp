@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts] sessions.reset aborts active runs and clears queues",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts:23] sessions.reset aborts active runs and clears queues",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-cleanup.test.ts:23",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts] sessions.reset closes ACP runtime handles for ACP sessions",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts:76] sessions.reset closes ACP runtime handles for ACP sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-cleanup.test.ts:76",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts] sessions.reset does not emit lifecycle events when key does not exist",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts:208] sessions.reset does not emit lifecycle events when key does not exist",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-cleanup.test.ts:208",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts] sessions.reset emits subagent targetKind for subagent sessions",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts:230] sessions.reset emits subagent targetKind for subagent sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-cleanup.test.ts:230",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts] sessions.reset directly unbinds thread bindings when hooks are unavailable",
+TEST_CASE("v4.29 [src/gateway/server.sessions.reset-cleanup.test.ts:266] sessions.reset directly unbinds thread bindings when hooks are unavailable",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server.sessions.reset-cleanup.test.ts:266",
                "upstream it() block #4",

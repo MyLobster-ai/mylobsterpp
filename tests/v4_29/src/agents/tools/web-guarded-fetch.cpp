@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/tools/web-guarded-fetch.test.ts] uses trusted SSRF policy for trusted web tools endpoints",
+TEST_CASE("v4.29 [src/agents/tools/web-guarded-fetch.test.ts:29] uses trusted SSRF policy for trusted web tools endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-guarded-fetch.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/tools/web-guarded-fetch.test.ts] keeps strict endpoint policy unchanged",
+TEST_CASE("v4.29 [src/agents/tools/web-guarded-fetch.test.ts:50] keeps strict endpoint policy unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/tools/web-guarded-fetch.test.ts:50",
                "upstream it() block #1",

@@ -5,593 +5,593 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] formats tool failures with meta and summary",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:204] formats tool failures with meta and summary",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:204",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] dedupes by toolCallId and handles empty output",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:233] dedupes by toolCallId and handles empty output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:233",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] caps the number of failures and adds overflow line",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:261] caps the number of failures and adds overflow line",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:261",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] omits section when there are no tool failures",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:277] omits section when there are no tool failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:277",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] caps file operations summary and reports omitted entries",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:296] caps file operations summary and reports omitted entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:296",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] caps final compaction summary with a truncation marker",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:314] caps final compaction summary with a truncation marker",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:314",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] preserves workspace critical rules suffix when capping",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:323] preserves workspace critical rules suffix when capping",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:323",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] preserves diagnostic sections (tool failures, file ops) when capping oversized body",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:336] preserves diagnostic sections (tool failures, file ops) when capping oversized body",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:336",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] keeps section separator when body ends without newline (e.g. buildStructuredFallbackSummary)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:351] keeps section separator when body ends without newline (e.g. buildStructuredFallbackSummary)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:351",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] keeps body prefix when truncation marker cannot fit (tiny budget)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:364] keeps body prefix when truncation marker cannot fit (tiny budget)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:364",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] preserves tail sections when suffix exceeds cap (workspace rules, diagnostics over preserved turns)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:374] preserves tail sections when suffix exceeds cap (workspace rules, diagnostics over preserved turns)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:374",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] returns BASE_CHUNK_RATIO for normal messages",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:396] returns BASE_CHUNK_RATIO for normal messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:396",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] reduces ratio when average message > 10% of context",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:411] reduces ratio when average message > 10% of context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:411",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] respects MIN_CHUNK_RATIO floor",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:427] respects MIN_CHUNK_RATIO floor",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:427",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] handles empty message array",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:437] handles empty message array",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:437",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] handles single huge message",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:442] handles single huge message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:442",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] returns false for small messages",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:457] returns false for small messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:457",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] returns true for messages > 50% of context",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:467] returns true for messages > 50% of context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:467",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] applies safety margin",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:479] applies safety margin",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:479",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] stores and retrieves config by session manager identity",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:498] stores and retrieves config by session manager identity",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:498",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] returns null for unknown session manager",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:505] returns null for unknown session manager",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:505",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] clears entry when value is null",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:510] clears entry when value is null",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:510",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] ignores non-object session managers",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:518] ignores non-object session managers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:518",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] isolates different session managers",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:525] isolates different session managers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:525",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] stores and retrieves model from runtime (fallback for compact.ts workflow)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:534] stores and retrieves model from runtime (fallback for compact.ts workflow)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:534",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] stores and retrieves contextWindowTokens from runtime",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:542] stores and retrieves contextWindowTokens from runtime",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:542",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] stores and retrieves combined runtime values",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:549] stores and retrieves combined runtime values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:549",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] consumes cancel reasons without dropping other runtime fields",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:565] consumes cancel reasons without dropping other runtime fields",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:565",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] clears cancel reason when set to undefined",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:575] clears cancel reason when set to undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:575",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] wires oversized safeguard runtime values when config validation is bypassed",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:583] wires oversized safeguard runtime values when config validation is bypassed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:583",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] preserves the most recent user/assistant messages",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:618] preserves the most recent user/assistant messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:618",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] drops orphaned tool results from preserved assistant turns",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:646] drops orphaned tool results from preserved assistant turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:646",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] includes preserved tool results in the preserved-turns section",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:705] includes preserved tool results in the preserved-turns section",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:705",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] formats preserved non-text messages with placeholders",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:741] formats preserved non-text messages with placeholders",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:741",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] keeps non-text placeholders for mixed-content preserved messages",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:759] keeps non-text placeholders for mixed-content preserved messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:759",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not add non-text placeholders for text-only content blocks",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:775] does not add non-text placeholders for text-only content blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:775",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] caps preserved tail when user turns are below preserve target",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:788] caps preserved tail when user turns are below preserve target",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:788",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] trim-starts preserved section when history summary is empty",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:850] trim-starts preserved section when history summary is empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:850",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not append empty summary sections",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:858] does not append empty summary sections",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:858",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] clamps preserve count into a safe range",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:863] clamps preserve count into a safe range",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:863",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] extracts opaque identifiers and audits summary quality",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:869] extracts opaque identifiers and audits summary quality",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:869",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] dedupes pure-hex identifiers across case variants",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:897] dedupes pure-hex identifiers across case variants",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:897",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] dedupes identifiers before applying the result cap",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:904] dedupes identifiers before applying the result cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:904",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] filters ordinary short numbers and trims wrapped punctuation",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:918] filters ordinary short numbers and trims wrapped punctuation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:918",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] fails quality audit when required sections are missing",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:933] fails quality audit when required sections are missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:933",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] requires exact section headings instead of substring matches",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:943] requires exact section headings instead of substring matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:943",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not enforce identifier retention when policy is off",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:964] does not enforce identifier retention when policy is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:964",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not force strict identifier retention for custom policy",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:986] does not force strict identifier retention for custom policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:986",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] matches pure-hex identifiers case-insensitively in retention checks",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1008] matches pure-hex identifiers case-insensitively in retention checks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1008",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] flags missing non-latin latest asks when summary omits them",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1030] flags missing non-latin latest asks when summary omits them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1030",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] accepts non-latin latest asks when summary reflects a shorter cjk phrase",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1052] accepts non-latin latest asks when summary reflects a shorter cjk phrase",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1052",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] rejects latest-ask overlap when only stopwords overlap",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1073] rejects latest-ask overlap when only stopwords overlap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1073",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] requires more than one meaningful overlap token for detailed asks",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1095] requires more than one meaningful overlap token for detailed asks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1095",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] clamps quality-guard retries into a safe range",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1117] clamps quality-guard retries into a safe range",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1117",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] builds structured instructions with required sections",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1123] builds structured instructions with required sections",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1123",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not force strict identifier retention when identifier policy is off",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1135] does not force strict identifier retention when identifier policy is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1135",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] threads custom identifier policy text into structured instructions",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1145] threads custom identifier policy text into structured instructions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1145",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] sanitizes untrusted custom instruction text before embedding",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1155] sanitizes untrusted custom instruction text before embedding",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1155",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] sanitizes custom identifier policy text before embedding",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1163] sanitizes custom identifier policy text before embedding",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1163",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] builds a structured fallback summary from legacy previous summary text",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1172] builds a structured fallback summary from legacy previous summary text",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1172",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] preserves an already-structured previous summary as-is",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1182] preserves an already-structured previous summary as-is",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1182",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] converts previous summaries into redistill input instead of update-prompt state",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1202] converts previous summaries into redistill input instead of update-prompt state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1202",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] restructures summaries with near-match headings instead of reusing them",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1216] restructures summaries with near-match headings instead of reusing them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1216",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not force policy-off marker in fallback exact identifiers section",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1238] does not force policy-off marker in fallback exact identifiers section",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1238",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] uses structured instructions when summarizing dropped history chunks",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1247] uses structured instructions when summarizing dropped history chunks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1247",
                "upstream it() block #64",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] adds Copilot IDE headers to built-in compaction summarization",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1304] adds Copilot IDE headers to built-in compaction summarization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1304",
                "upstream it() block #65",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not retry summaries unless quality guard is explicitly enabled",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1350] does not retry summaries unless quality guard is explicitly enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1350",
                "upstream it() block #66",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] retries when generated summary misses headings even if preserved turns contain them",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1398] retries when generated summary misses headings even if preserved turns contain them",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1398",
                "upstream it() block #67",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not treat preserved latest asks as satisfying overlap checks",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1495] does not treat preserved latest asks as satisfying overlap checks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1495",
                "upstream it() block #68",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] preserves split-turn and recent-turn suffixes when retry fallback is capped",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1581] preserves split-turn and recent-turn suffixes when retry fallback is capped",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1581",
                "upstream it() block #69",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] keeps required headings when all turns are preserved and history is carried forward",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1652] keeps required headings when all turns are preserved and history is carried forward",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1652",
                "upstream it() block #70",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] re-distills prior summaries on the LLM path instead of preserving them verbatim",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1710] re-distills prior summaries on the LLM path instead of preserving them verbatim",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1710",
                "upstream it() block #71",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] passes compaction instructions to providers and preserves suffix context",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1774] passes compaction instructions to providers and preserves suffix context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1774",
                "upstream it() block #72",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] uses runtime.model when ctx.model is undefined (compact.ts workflow)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1854] uses runtime.model when ctx.model is undefined (compact.ts workflow)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1854",
                "upstream it() block #73",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] cancels compaction when both ctx.model and runtime.model are undefined",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1885] cancels compaction when both ctx.model and runtime.model are undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1885",
                "upstream it() block #74",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] cancels compaction when there are no real messages to summarize",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1908] cancels compaction when there are no real messages to summarize",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1908",
                "upstream it() block #75",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] returns compaction result with structured fallback summary sections",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1941] returns compaction result with structured fallback summary sections",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1941",
                "upstream it() block #76",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] writes boundary again on repeated empty preparation (no cancel loop after new assistant message)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:1971] writes boundary again on repeated empty preparation (no cancel loop after new assistant message)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:1971",
                "upstream it() block #77",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not write boundary when turnPrefixMessages has real content (split-turn)",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:2011] does not write boundary when turnPrefixMessages has real content (split-turn)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:2011",
                "upstream it() block #78",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] continues when messages include real conversation content",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:2040] continues when messages include real conversation content",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:2040",
                "upstream it() block #79",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] treats tool results as real conversation only when linked to a meaningful user ask",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:2058] treats tool results as real conversation only when linked to a meaningful user ask",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:2058",
                "upstream it() block #80",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not treat assistant-only tool calls as meaningful conversation",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:2102] does not treat assistant-only tool calls as meaningful conversation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:2102",
                "upstream it() block #81",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] does not treat reasoning-only assistant blocks as meaningful conversation",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:2111] does not treat reasoning-only assistant blocks as meaningful conversation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:2111",
                "upstream it() block #82",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts] treats markup-wrapped heartbeat tokens as boilerplate",
+TEST_CASE("v4.29 [src/agents/pi-hooks/compaction-safeguard.test.ts:2127] treats markup-wrapped heartbeat tokens as boilerplate",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-hooks/compaction-safeguard.test.ts:2127",
                "upstream it() block #83",

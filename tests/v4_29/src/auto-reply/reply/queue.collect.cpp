@@ -5,159 +5,159 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] does not collect when destinations differ",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:14] does not collect when destinations differ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] collects when channel+destination match",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:57] collects when channel+destination match",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:57",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] carries image payloads across collected batches",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:98] carries image payloads across collected batches",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:98",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] splits collect batches when sender authorization changes",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:149] splits collect batches when sender authorization changes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:149",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] keeps one collect batch when authorization context matches",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:214] keeps one collect batch when authorization context matches",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:214",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] keeps one collect batch when only sender display fields drift",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:278] keeps one collect batch when only sender display fields drift",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:278",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] splits collect batches when exec context changes",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:343] splits collect batches when exec context changes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:343",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] uses the newest run within a matching authorization batch",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:409] uses the newest run within a matching authorization batch",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:409",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] delivers and clears summary-only collect drains after cross-channel items",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:470] delivers and clears summary-only collect drains after cross-channel items",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:470",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] preserves collect order when authorization changes more than once",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:526] preserves collect order when authorization changes more than once",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:526",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] collects Slack messages in same thread and preserves string thread id",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:583] collects Slack messages in same thread and preserves string thread id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:583",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] collects messages when numeric and string thread ids share the route key",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:625] collects messages when numeric and string thread ids share the route key",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:625",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] does not collect Slack messages when thread ids differ",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:669] does not collect Slack messages when thread ids differ",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:669",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] retries collect-mode batches without losing queued items",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:716] retries collect-mode batches without losing queued items",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:716",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] retries only the remaining collect auth groups after a partial failure",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:745] retries only the remaining collect auth groups after a partial failure",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:745",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] retries overflow summary delivery without losing dropped previews",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:822] retries overflow summary delivery without losing dropped previews",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:822",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] includes the overflow summary only in the first split auth group",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:851] includes the overflow summary only in the first split auth group",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:851",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] does not re-deliver overflow summary on partial auth group failure retry",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:935] does not re-deliver overflow summary on partial auth group failure retry",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:935",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] preserves routing metadata on overflow summary followups",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:1028] preserves routing metadata on overflow summary followups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:1028",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] changes when sender ownership changes",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:1078] changes when sender ownership changes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:1078",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] changes when exec defaults change",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:1095] changes when exec defaults change",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:1095",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts] does not change when only sender display fields change",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.collect.test.ts:1113] does not change when only sender display fields change",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.collect.test.ts:1113",
                "upstream it() block #21",

@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts] surfaces restore failures as task-flow audit findings",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts:51] surfaces restore failures as task-flow audit findings",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.audit.test.ts:51",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts] clears restore-failed findings after a clean reset and restore",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts:70] clears restore-failed findings after a clean reset and restore",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.audit.test.ts:70",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts] detects stuck managed flows and missing blocked tasks",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts:99] detects stuck managed flows and missing blocked tasks",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.audit.test.ts:99",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts] does not flag managed flows with active linked tasks as missing",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts:142] does not flag managed flows with active linked tasks as missing",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.audit.test.ts:142",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts] does not flag missing linked tasks before the flow is stale",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts:176] does not flag missing linked tasks before the flow is stale",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.audit.test.ts:176",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts] reports cancel-stuck before maintenance finalizes the flow",
+TEST_CASE("v4.29 [src/tasks/task-flow-registry.audit.test.ts:205] reports cancel-stuck before maintenance finalizes the flow",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-flow-registry.audit.test.ts:205",
                "upstream it() block #5",

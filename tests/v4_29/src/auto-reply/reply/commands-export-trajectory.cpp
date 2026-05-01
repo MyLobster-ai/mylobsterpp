@@ -5,110 +5,110 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] builds a trajectory bundle from the target session",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:169] builds a trajectory bundle from the target session",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:169",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] keeps user-named output paths inside the workspace trajectory export directory",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:188] keeps user-named output paths inside the workspace trajectory export directory",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:188",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects absolute output paths",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:202] rejects absolute output paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:202",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects home-relative output paths",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:213] rejects home-relative output paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:213",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] does not echo absolute session paths when the transcript is missing",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:224] does not echo absolute session paths when the transcript is missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:224",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects output paths redirected by a symlinked exports directory",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:238] rejects output paths redirected by a symlinked exports directory",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:238",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects default output paths redirected by a symlinked exports directory",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:253] rejects default output paths redirected by a symlinked exports directory",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:253",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects symlinked state directories before creating export folders",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:266] rejects symlinked state directories before creating export folders",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:266",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] requests per-run exec approval for trajectory exports",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:287] requests per-run exec approval for trajectory exports",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:287",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] uses the originating Telegram route for native trajectory export followups",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:327] uses the originating Telegram route for native trajectory export followups",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:327",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] keeps user-controlled export values out of the shell command",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:359] keeps user-controlled export values out of the shell command",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:359",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects oversized output paths before requesting exec approval",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:377] rejects oversized output paths before requesting exec approval",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:377",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] rejects oversized encoded export requests before requesting exec approval",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:389] rejects oversized encoded export requests before requesting exec approval",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:389",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] routes group trajectory export approval privately",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:401] routes group trajectory export approval privately",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:401",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts] fails closed in groups when no private owner route is available",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-export-trajectory.test.ts:434] fails closed in groups when no private owner route is available",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-export-trajectory.test.ts:434",
                "upstream it() block #14",

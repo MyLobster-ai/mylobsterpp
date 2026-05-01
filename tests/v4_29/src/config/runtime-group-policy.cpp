@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts] uses open fallback when provider config exists",
+TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts:49] uses open fallback when provider config exists",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-group-policy.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts] uses allowlist fallback when provider config exists",
+TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts:59] uses allowlist fallback when provider config exists",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-group-policy.test.ts:59",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts] returns channels.defaults.groupPolicy when present",
+TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts:69] returns channels.defaults.groupPolicy when present",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-group-policy.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts] logs only once per provider/account key",
+TEST_CASE("v4.29 [src/config/runtime-group-policy.test.ts:78] logs only once per provider/account key",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/runtime-group-policy.test.ts:78",
                "upstream it() block #3",

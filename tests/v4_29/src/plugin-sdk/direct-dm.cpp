@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts] resolves inbound DM access and command auth through one helper",
+TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts:48] resolves inbound DM access and command auth through one helper",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/direct-dm.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts] blocks open DMs unless the effective allowlist matches",
+TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts:73] blocks open DMs unless the effective allowlist matches",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/direct-dm.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts] creates a pre-crypto authorizer that issues pairing and blocks unknown senders",
+TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts:96] creates a pre-crypto authorizer that issues pairing and blocks unknown senders",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/direct-dm.test.ts:96",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts] builds a shared pre-crypto guard policy with partial overrides",
+TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts:141] builds a shared pre-crypto guard policy with partial overrides",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/direct-dm.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts] dispatches direct DMs through the standard route/session/reply pipeline",
+TEST_CASE("v4.29 [src/plugin-sdk/direct-dm.test.ts:156] dispatches direct DMs through the standard route/session/reply pipeline",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/direct-dm.test.ts:156",
                "upstream it() block #4",

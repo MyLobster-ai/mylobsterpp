@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts] publishes the env vars used by core api-key auto-detection",
+TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts:37] publishes the env vars used by core api-key auto-detection",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/implicit-provider.test.ts:37",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts] does not publish a provider when no API key is resolved",
+TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts:43] does not publish a provider when no API key is resolved",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/implicit-provider.test.ts:43",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts] publishes the Kimi provider when an API key is resolved",
+TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts:47] publishes the Kimi provider when an API key is resolved",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/implicit-provider.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts] uses explicit legacy kimi-coding baseUrl when provided",
+TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts:57] uses explicit legacy kimi-coding baseUrl when provided",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/implicit-provider.test.ts:57",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts] merges explicit legacy kimi-coding headers on top of the built-in user agent",
+TEST_CASE("v4.29 [extensions/kimi-coding/implicit-provider.test.ts:68] merges explicit legacy kimi-coding headers on top of the built-in user agent",
           "[v4_29][parity_gap][kimi-coding]") {
     PARITY_GAP("extensions/kimi-coding/implicit-provider.test.ts:68",
                "upstream it() block #4",

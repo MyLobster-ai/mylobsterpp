@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts] runs backup create with forwarded options",
+TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts:44] runs backup create with forwarded options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.backup.test.ts:44",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts] honors --no-include-workspace",
+TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts:60] honors --no-include-workspace",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.backup.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts] forwards --verify to backup create",
+TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts:71] forwards --verify to backup create",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.backup.test.ts:71",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts] forwards --only-config to backup create",
+TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts:82] forwards --only-config to backup create",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.backup.test.ts:82",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts] runs backup verify with forwarded options",
+TEST_CASE("v4.29 [src/cli/program/register.backup.test.ts:93] runs backup verify with forwarded options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/program/register.backup.test.ts:93",
                "upstream it() block #4",

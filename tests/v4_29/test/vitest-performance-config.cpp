@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] enables the filesystem module cache by default",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:5] enables the filesystem module cache by default",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] enables the filesystem module cache explicitly",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:13] enables the filesystem module cache explicitly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:13",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] passes through the filesystem module cache path when provided",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:28] passes through the filesystem module cache path when provided",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] disables the filesystem module cache by default on Windows",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:44] disables the filesystem module cache by default on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:44",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] still allows enabling the filesystem module cache explicitly on Windows",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:48] still allows enabling the filesystem module cache explicitly on Windows",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:48",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] allows disabling the filesystem module cache explicitly",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:63] allows disabling the filesystem module cache explicitly",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:63",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] enables import timing output and import breakdown reporting",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:74] enables import timing output and import breakdown reporting",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/vitest-performance-config.test.ts] uses RUNNER_OS to detect Windows even when the platform is not win32",
+TEST_CASE("v4.29 [test/vitest-performance-config.test.ts:92] uses RUNNER_OS to detect Windows even when the platform is not win32",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/vitest-performance-config.test.ts:92",
                "upstream it() block #7",

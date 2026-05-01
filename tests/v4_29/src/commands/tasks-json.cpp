@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/tasks-json.test.ts] lists task records with runtime and status filters",
+TEST_CASE("v4.29 [src/commands/tasks-json.test.ts:57] lists task records with runtime and status filters",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/tasks-json.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/tasks-json.test.ts] keeps audit JSON shape and combined task-flow sorting",
+TEST_CASE("v4.29 [src/commands/tasks-json.test.ts:96] keeps audit JSON shape and combined task-flow sorting",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/tasks-json.test.ts:96",
                "upstream it() block #1",

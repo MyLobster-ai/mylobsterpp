@@ -5,236 +5,236 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] bootstraps runtime plugins with the resolved workspace",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:170] bootstraps runtime plugins with the resolved workspace",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:170",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] forwards gateway subagent binding opt-in during compaction bootstrap",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:192] forwards gateway subagent binding opt-in during compaction bootstrap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:192",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] uses sandboxSessionKey only for compaction sandbox resolution",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:216] uses sandboxSessionKey only for compaction sandbox resolution",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:216",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] routes compaction through shared stream resolution and extra params",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:232] routes compaction through shared stream resolution and extra params",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:232",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] preserves full sender identity when building compaction tools",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:291] preserves full sender identity when building compaction tools",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:291",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] emits internal + plugin compaction hooks with counts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:312] emits internal + plugin compaction hooks with counts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:312",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] uses sessionId as hook session key fallback when sessionKey is missing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:358] uses sessionId as hook session key fallback when sessionKey is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:358",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] applies validated transcript before hooks even when it becomes empty",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:374] applies validated transcript before hooks even when it becomes empty",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:374",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] emits a transcript update after successful compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:398] emits a transcript update after successful compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:398",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] emits post-compaction side effects once for a rotated successor transcript",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:415] emits post-compaction side effects once for a rotated successor transcript",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:415",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] preserves tokensAfter when full-session context exceeds result.tokensBefore",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:458] preserves tokensAfter when full-session context exceeds result.tokensBefore",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:458",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] treats pre-compaction token estimation failures as a no-op sanity check",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:478] treats pre-compaction token estimation failures as a no-op sanity check",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:478",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] skips sync in await mode when postCompactionForce is false",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:505] skips sync in await mode when postCompactionForce is false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:505",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] awaits post-compaction memory sync in await mode when postCompactionForce is true",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:531] awaits post-compaction memory sync in await mode when postCompactionForce is true",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:531",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] skips post-compaction memory sync when the mode is off",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:560] skips post-compaction memory sync when the mode is off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:560",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] fires post-compaction memory sync without awaiting it in async mode",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:575] fires post-compaction memory sync without awaiting it in async mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:575",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] skips compaction when the transcript only contains boilerplate replies and tool output",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:610] skips compaction when the transcript only contains boilerplate replies and tool output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:610",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] skips compaction when the transcript only contains heartbeat boilerplate and reasoning blocks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:626] skips compaction when the transcript only contains heartbeat boilerplate and reasoning blocks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:626",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] does not treat assistant-only tool-call blocks as meaningful conversation",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:639] does not treat assistant-only tool-call blocks as meaningful conversation",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:639",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] counts tool output as real only when a meaningful user ask exists in the lookback window",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:648] counts tool output as real only when a meaningful user ask exists in the lookback window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:648",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] registers the Ollama api provider before compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:685] registers the Ollama api provider before compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:685",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] aborts in-flight compaction when the caller abort signal fires",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:717] aborts in-flight compaction when the caller abort signal fires",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:717",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] fires before_compaction with sentinel -1 and after_compaction on success",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:766] fires before_compaction with sentinel -1 and after_compaction on success",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:766",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] passes the rotated session id to engine-owned after_compaction hooks",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:799] passes the rotated session id to engine-owned after_compaction hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:799",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] emits a transcript update and post-compaction memory sync on the engine-owned path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:831] emits a transcript update and post-compaction memory sync on the engine-owned path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:831",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] runs maintain after successful compaction with a transcript rewrite helper",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:857] runs maintain after successful compaction with a transcript rewrite helper",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:857",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] resolves the effective compaction model before manual engine-owned compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:887] resolves the effective compaction model before manual engine-owned compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:887",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] passes resolved context-engine runtime context to harness compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:922] passes resolved context-engine runtime context to harness compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:922",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] does not fire after_compaction when compaction fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:959] does not fire after_compaction when compaction fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:959",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] does not duplicate transcript updates or sync in the wrapper when the engine delegates compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:978] does not duplicate transcript updates or sync in the wrapper when the engine delegates compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:978",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] reuses a delegated compaction successor transcript",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:1003] reuses a delegated compaction successor transcript",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:1003",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] rotates in the wrapper when a delegated result echoes the current transcript",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:1055] rotates in the wrapper when a delegated result echoes the current transcript",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:1055",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts] catches and logs hook exceptions without aborting compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compact.hooks.test.ts:1112] catches and logs hook exceptions without aborting compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compact.hooks.test.ts:1112",
                "upstream it() block #32",

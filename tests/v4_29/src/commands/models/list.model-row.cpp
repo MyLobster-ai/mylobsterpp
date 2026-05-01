@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/models/list.model-row.test.ts] keeps native context metadata and effective runtime context tokens distinct",
+TEST_CASE("v4.29 [src/commands/models/list.model-row.test.ts:17] keeps native context metadata and effective runtime context tokens distinct",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.model-row.test.ts:17",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/models/list.model-row.test.ts] marks models available from auth profiles without loading model discovery",
+TEST_CASE("v4.29 [src/commands/models/list.model-row.test.ts:34] marks models available from auth profiles without loading model discovery",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/models/list.model-row.test.ts:34",
                "upstream it() block #1",

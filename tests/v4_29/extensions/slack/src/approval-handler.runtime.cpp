@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts] renders only the allowed pending actions",
+TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts:15] renders only the allowed pending actions",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/approval-handler.runtime.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts] renders resolved updates without interactive blocks",
+TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts:71] renders resolved updates without interactive blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/approval-handler.runtime.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts] caps resolved update fallback text to Slack chat.update limits while preserving blocks",
+TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts:118] caps resolved update fallback text to Slack chat.update limits while preserving blocks",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/approval-handler.runtime.test.ts:118",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts] keeps pending metadata context within Slack Block Kit limits",
+TEST_CASE("v4.29 [extensions/slack/src/approval-handler.runtime.test.ts:190] keeps pending metadata context within Slack Block Kit limits",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/approval-handler.runtime.test.ts:190",
                "upstream it() block #3",

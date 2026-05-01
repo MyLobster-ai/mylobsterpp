@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] prepends active video task guidance ahead of hook system context",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:27] prepends active video task guidance ahead of hook system context",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] skips active video task guidance for non-user triggers",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:50] skips active video task guidance for non-user triggers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] skips empty prompt submissions without history or images",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:77] skips empty prompt submissions without history or images",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] skips blank visible user prompt submissions even when replay history exists",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:87] skips blank visible user prompt submissions even when replay history exists",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:87",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] allows text or image prompt submissions",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:97] allows text or image prompt submissions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] allows blank prompt on runtimeOnly turns",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:114] allows blank prompt on runtimeOnly turns",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] treats undefined runtimeOnly as a visible user submission",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:125] treats undefined runtimeOnly as a visible user submission",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:125",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] drains plugin next-turn injections at most once per runId across retry attempts",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:138] drains plugin next-turn injections at most once per runId across retry attempts",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:138",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] re-drains after the run-scoped cache is forgotten",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:176] re-drains after the run-scoped cache is forgotten",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:176",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts] drains every call when no runId is provided (no caching key)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:198] drains every call when no runId is provided (no caching key)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/attempt.prompt-helpers.test.ts:198",
                "upstream it() block #9",

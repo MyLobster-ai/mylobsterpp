@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] returns empty object when both are undefined",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:14] returns empty object when both are undefined",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] returns imported when local is undefined",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:19] returns imported when local is undefined",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:19",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] returns local when imported is undefined",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:29] returns local when imported is undefined",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:29",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] prefers local values over imported",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:38] prefers local values over imported",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:38",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] fills all missing fields from imported",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:58] fills all missing fields from imported",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:58",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] handles empty strings as falsy (prefers imported)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:85] handles empty strings as falsy (prefers imported)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:85",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts] handles null values in local (prefers imported)",
+TEST_CASE("v4.29 [extensions/nostr/src/nostr-profile-import.test.ts:103] handles null values in local (prefers imported)",
           "[v4_29][parity_gap][nostr]") {
     PARITY_GAP("extensions/nostr/src/nostr-profile-import.test.ts:103",
                "upstream it() block #6",

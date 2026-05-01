@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] requires direct exec target requests to use the closed host set",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:77] requires direct exec target requests to use the closed host set",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:77",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] treats exact-command allow-always approvals as durable trust",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:177] treats exact-command allow-always approvals as durable trust",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:177",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] treats fully allow-always-matched segments as durable trust",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:193] treats fully allow-always-matched segments as durable trust",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:193",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] marks policy-blocked segments as non-durable allowlist entries",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:206] marks policy-blocked segments as non-durable allowlist entries",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:206",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] explains stricter host security and ask precedence",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:257] explains stricter host security and ask precedence",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:257",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] uses the actual approvals path when reporting host sources",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:295] uses the actual approvals path when reporting host sources",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:295",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] does not let host ask=off suppress a stricter requested ask",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:322] does not let host ask=off suppress a stricter requested ask",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:322",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] clamps askFallback to the effective security",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:345] clamps askFallback to the effective security",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:345",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] skips malformed host fields when attributing their source",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:369] skips malformed host fields when attributing their source",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:369",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] ignores malformed non-string host fields when attributing their source",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:373] ignores malformed non-string host fields when attributing their source",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:373",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] does not credit mixed-case host fields that resolution ignores",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:377] does not credit mixed-case host fields that resolution ignores",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:377",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] attributes host policy to wildcard agent entries before defaults",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:381] attributes host policy to wildcard agent entries before defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:381",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] inherits requested agent policy from global tools.exec config",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:421] inherits requested agent policy from global tools.exec config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:421",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] reports askFallback from the OpenClaw default when approvals omit it",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:455] reports askFallback from the OpenClaw default when approvals omit it",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:455",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] collects global, configured-agent, and approvals-only agent scopes",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:471] collects global, configured-agent, and approvals-only agent scopes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:471",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] avoids a duplicate default-agent scope when main only appears in approvals",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:516] avoids a duplicate default-agent scope when main only appears in approvals",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:516",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts] keeps the default agent scope when main has an explicit exec override",
+TEST_CASE("v4.29 [src/infra/exec-approvals-policy.test.ts:548] keeps the default agent scope when main has an explicit exec override",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-approvals-policy.test.ts:548",
                "upstream it() block #16",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] generates images through the active image-generation provider",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:42] generates images through the active image-generation provider",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] uses configured image-generation timeout when the call omits timeoutMs",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:98] uses configured image-generation timeout when the call omits timeoutMs",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] auto-detects and falls through to another configured image-generation provider by default",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:139] auto-detects and falls through to another configured image-generation provider by default",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:139",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] drops unsupported provider geometry overrides and reports them",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:189] drops unsupported provider geometry overrides and reports them",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:189",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] filters image output hints by provider capabilities",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:254] filters image output hints by provider capabilities",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:254",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] drops unsupported image output hints and reports them",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:332] drops unsupported image output hints and reports them",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:332",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] maps requested size to the closest supported fallback geometry",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:388] maps requested size to the closest supported fallback geometry",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:388",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] lists runtime image-generation providers through the provider registry",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:460] lists runtime image-generation providers through the provider registry",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:460",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/image-generation/runtime.test.ts] builds a generic config hint without hardcoded provider ids",
+TEST_CASE("v4.29 [src/image-generation/runtime.test.ts:491] builds a generic config hint without hardcoded provider ids",
           "[v4_29][parity_gap][image-generation]") {
     PARITY_GAP("src/image-generation/runtime.test.ts:491",
                "upstream it() block #8",

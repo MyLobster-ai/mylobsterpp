@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] normalizes message events with thread metadata",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:5] normalizes message events with thread metadata",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] classifies Matrix notices separately from regular messages",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:49] classifies Matrix notices separately from regular messages",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] prefers m.new_content text for Matrix replacement events",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:70] prefers m.new_content text for Matrix replacement events",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:70",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] normalizes Matrix reaction events with target metadata",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:103] normalizes Matrix reaction events with target metadata",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:103",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] summarizes Matrix approval metadata without dumping full command text",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:136] summarizes Matrix approval metadata without dumping full command text",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:136",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] summarizes Matrix plugin approval metadata fields",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:173] summarizes Matrix plugin approval metadata fields",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:173",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] normalizes Matrix image messages with attachment metadata",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:214] normalizes Matrix image messages with attachment metadata",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:214",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] treats filename-like Matrix media bodies as attachment filenames",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:240] treats filename-like Matrix media bodies as attachment filenames",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:240",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] normalizes membership events with explicit membership kind",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:261] normalizes membership events with explicit membership kind",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:261",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts] classifies Matrix redactions without needing raw event inspection",
+TEST_CASE("v4.29 [extensions/qa-matrix/src/substrate/events.test.ts:283] classifies Matrix redactions without needing raw event inspection",
           "[v4_29][parity_gap][qa-matrix]") {
     PARITY_GAP("extensions/qa-matrix/src/substrate/events.test.ts:283",
                "upstream it() block #9",

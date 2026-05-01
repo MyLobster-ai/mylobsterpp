@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-config.test.ts] defaults local setup tool profile to coding",
+TEST_CASE("v4.29 [src/commands/onboard-config.test.ts:10] defaults local setup tool profile to coding",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-config.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-config.test.ts] sets secure dmScope default when unset",
+TEST_CASE("v4.29 [src/commands/onboard-config.test.ts:14] sets secure dmScope default when unset",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-config.test.ts:14",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-config.test.ts] preserves existing dmScope when already configured",
+TEST_CASE("v4.29 [src/commands/onboard-config.test.ts:24] preserves existing dmScope when already configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-config.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-config.test.ts] preserves explicit non-main dmScope values",
+TEST_CASE("v4.29 [src/commands/onboard-config.test.ts:35] preserves explicit non-main dmScope values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-config.test.ts:35",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-config.test.ts] preserves an explicit tools.profile when already configured",
+TEST_CASE("v4.29 [src/commands/onboard-config.test.ts:46] preserves an explicit tools.profile when already configured",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-config.test.ts:46",
                "upstream it() block #4",

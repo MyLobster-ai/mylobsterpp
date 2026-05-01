@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.test.ts] keeps the auth scrub list broader than the global secret env list",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.test.ts:10] keeps the auth scrub list broader than the global secret env list",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.test.ts:10",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.test.ts] omits env keys case-insensitively",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.test.ts:45] omits env keys case-insensitively",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.test.ts:45",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/provider-env-vars.test.ts] ignores prototype-chain keys when resolving provider env vars",
+TEST_CASE("v4.29 [src/secrets/provider-env-vars.test.ts:60] ignores prototype-chain keys when resolving provider env vars",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/provider-env-vars.test.ts:60",
                "upstream it() block #2",

@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] logs the resolved error message when run ends with assistant error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:65] logs the resolved error message when run ends with assistant error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:65",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] attaches raw provider error metadata and includes model/provider in console output",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:98] attaches raw provider error metadata and includes model/provider in console output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:98",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] sanitizes model and provider before writing consoleMessage",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:121] sanitizes model and provider before writing consoleMessage",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] redacts logged error text before emitting lifecycle events",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:145] redacts logged error text before emitting lifecycle events",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:145",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] logs runtime failure kind for missing-scope auth errors",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:174] logs runtime failure kind for missing-scope auth errors",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:174",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] omits raw HTML auth bodies from consoleMessage for HTML 403 auth failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:194] omits raw HTML auth bodies from consoleMessage for HTML 403 auth failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:194",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] keeps non-error run-end logging on debug only",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:218] keeps non-error run-end logging on debug only",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:218",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] surfaces replay-invalid paused lifecycle end state when present",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:227] surfaces replay-invalid paused lifecycle end state when present",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:227",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] derives abandoned lifecycle end state when replay-invalid work finished without a reply",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:245] derives abandoned lifecycle end state when replay-invalid work finished without a reply",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:245",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] marks incomplete tool-use lifecycle end state before runner finalization",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:267] marks incomplete tool-use lifecycle end state before runner finalization",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:267",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] keeps accumulated deterministic side effects from being marked abandoned",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:292] keeps accumulated deterministic side effects from being marked abandoned",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:292",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] flushes orphaned tool media as a media-only block reply",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:312] flushes orphaned tool media as a media-only block reply",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:312",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] preserves orphaned tool media when no block reply callback is configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:327] preserves orphaned tool media when no block reply callback is configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:327",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] emits orphaned tool media before the lifecycle end event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:339] emits orphaned tool media before the lifecycle end event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:339",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] resolves compaction wait before awaiting an async block reply flush",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:359] resolves compaction wait before awaiting an async block reply flush",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:359",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] resolves compaction wait before awaiting an async channel flush",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:381] resolves compaction wait before awaiting an async channel flush",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:381",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] runs the before-lifecycle callback before the lifecycle end event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:400] runs the before-lifecycle callback before the lifecycle end event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:400",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] runs an async before-lifecycle callback before the lifecycle end event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:423] runs an async before-lifecycle callback before the lifecycle end event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:423",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] still emits lifecycle terminal when sync before-lifecycle callback throws",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:448] still emits lifecycle terminal when sync before-lifecycle callback throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:448",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] still emits lifecycle terminal when async before-lifecycle callback rejects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:467] still emits lifecycle terminal when async before-lifecycle callback rejects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:467",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] emits lifecycle end after async channel flush completes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:484] emits lifecycle end after async channel flush completes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:484",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] emits lifecycle error after async channel flush completes",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:508] emits lifecycle error after async channel flush completes",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:508",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] emits lifecycle end when block reply flush rejects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:543] emits lifecycle end when block reply flush rejects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:543",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] emits lifecycle end when channel flush rejects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:556] emits lifecycle end when channel flush rejects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:556",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts] emits lifecycle end when block reply flush throws",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:569] emits lifecycle end when block reply flush throws",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.lifecycle.test.ts:569",
                "upstream it() block #24",

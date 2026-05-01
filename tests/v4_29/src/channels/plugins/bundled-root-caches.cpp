@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts] reads bundled channel ids from the active bundled root without re-importing",
+TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts:57] reads bundled channel ids from the active bundled root without re-importing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled-root-caches.test.ts:57",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts] reads bootstrap plugins from the active bundled root without re-importing",
+TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts:86] reads bootstrap plugins from the active bundled root without re-importing",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled-root-caches.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts] retries bootstrap plugin loading after an error",
+TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts:157] retries bootstrap plugin loading after an error",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled-root-caches.test.ts:157",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts] keeps plugin loading independent from bootstrap secrets loading errors",
+TEST_CASE("v4.29 [src/channels/plugins/bundled-root-caches.test.ts:193] keeps plugin loading independent from bootstrap secrets loading errors",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/bundled-root-caches.test.ts:193",
                "upstream it() block #3",

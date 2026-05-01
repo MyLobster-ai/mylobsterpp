@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/irc/src/inbound.policy.test.ts] keeps DM allowlist merged with pairing-store entries",
+TEST_CASE("v4.29 [extensions/irc/src/inbound.policy.test.ts:5] keeps DM allowlist merged with pairing-store entries",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/inbound.policy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/inbound.policy.test.ts] does not grant group access from pairing-store when explicit groupAllowFrom exists",
+TEST_CASE("v4.29 [extensions/irc/src/inbound.policy.test.ts:16] does not grant group access from pairing-store when explicit groupAllowFrom exists",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/inbound.policy.test.ts:16",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/irc/src/inbound.policy.test.ts] does not grant group access from pairing-store when groupAllowFrom is empty",
+TEST_CASE("v4.29 [extensions/irc/src/inbound.policy.test.ts:27] does not grant group access from pairing-store when groupAllowFrom is empty",
           "[v4_29][parity_gap][irc]") {
     PARITY_GAP("extensions/irc/src/inbound.policy.test.ts:27",
                "upstream it() block #2",

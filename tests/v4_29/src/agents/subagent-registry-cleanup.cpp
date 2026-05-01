@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts] defers completion-message cleanup while descendants are still pending",
+TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts:42] defers completion-message cleanup while descendants are still pending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-cleanup.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts] hard-expires completion-message cleanup when descendants never settle",
+TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts:51] hard-expires completion-message cleanup when descendants never settle",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-cleanup.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts] keeps regular expiry behavior for non-completion flows",
+TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts:60] keeps regular expiry behavior for non-completion flows",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-cleanup.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts] uses retry backoff for completion-message flows once descendants are settled",
+TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts:69] uses retry backoff for completion-message flows once descendants are settled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-cleanup.test.ts:69",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts] uses retry backoff for non-completion flows so cleanup can settle after announce failures",
+TEST_CASE("v4.29 [src/agents/subagent-registry-cleanup.test.ts:79] uses retry backoff for non-completion flows so cleanup can settle after announce failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/subagent-registry-cleanup.test.ts:79",
                "upstream it() block #4",

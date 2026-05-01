@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/provider-public-artifacts.test.ts] loads a lightweight bundled provider policy artifact smoke",
+TEST_CASE("v4.29 [src/plugins/provider-public-artifacts.test.ts:12] loads a lightweight bundled provider policy artifact smoke",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-public-artifacts.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/provider-public-artifacts.test.ts] loads provider policy surfaces without staging runtime deps",
+TEST_CASE("v4.29 [src/plugins/provider-public-artifacts.test.ts:29] loads provider policy surfaces without staging runtime deps",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/provider-public-artifacts.test.ts:29",
                "upstream it() block #1",

@@ -5,173 +5,173 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] creates a thread",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:89] creates a thread",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:89",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] creates forum threads with an initial message",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:104] creates forum threads with an initial message",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] creates media threads with provided content",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:121] creates media threads with provided content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:121",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] passes applied_tags for forum threads",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:141] passes applied_tags for forum threads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:141",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] omits applied_tags for non-forum threads",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:162] omits applied_tags for non-forum threads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:162",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] falls back when channel lookup is unavailable",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:179] falls back when channel lookup is unavailable",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:179",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] respects explicit thread type for standalone threads",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:192] respects explicit thread type for standalone threads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:192",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] sends initial message for non-forum threads with content",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:210] sends initial message for non-forum threads with content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:210",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] sends initial message for message-attached threads with content",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:238] sends initial message for message-attached threads with content",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:238",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] lists active threads by guild",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:265] lists active threads by guild",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:265",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] times out a member",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:272] times out a member",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:272",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] adds and removes roles",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:289] adds and removes roles",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:289",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] bans a member",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:299] bans a member",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:299",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] lists emojis for a guild",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:318] lists emojis for a guild",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:318",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] uploads emoji assets",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:331] uploads emoji assets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:331",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] uploads sticker assets",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:362] uploads sticker assets",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:362",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] sends sticker payloads",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:400] sends sticker payloads",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:400",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] sends polls with answers",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:427] sends polls with answers",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:427",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] retries on Discord rate limits",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:487] retries on Discord rate limits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:487",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] uses retry_after delays when rate limited",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:506] uses retry_after delays when rate limited",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:506",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] stops after max retry attempts",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:533] stops after max retry attempts",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:533",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] does not retry non-rate-limit errors",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:550] does not retry non-rate-limit errors",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:550",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] retries reactions on rate limits",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:560] retries reactions on rate limits",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:560",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts] retries media upload without duplicating overflow text",
+TEST_CASE("v4.29 [extensions/discord/src/send.creates-thread.test.ts:577] retries media upload without duplicating overflow text",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/send.creates-thread.test.ts:577",
                "upstream it() block #23",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker-backend.test.ts] matches ordinary sandbox runtimes against sandbox.docker.image",
+TEST_CASE("v4.29 [src/agents/sandbox/docker-backend.test.ts:60] matches ordinary sandbox runtimes against sandbox.docker.image",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker-backend.test.ts:60",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker-backend.test.ts] matches browser runtimes against sandbox.browser.image",
+TEST_CASE("v4.29 [src/agents/sandbox/docker-backend.test.ts:89] matches browser runtimes against sandbox.browser.image",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker-backend.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/docker-backend.test.ts] defaults docker-backed runtime matching to sandbox.docker.image when label kind is missing",
+TEST_CASE("v4.29 [src/agents/sandbox/docker-backend.test.ts:118] defaults docker-backed runtime matching to sandbox.docker.image when label kind is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/docker-backend.test.ts:118",
                "upstream it() block #2",

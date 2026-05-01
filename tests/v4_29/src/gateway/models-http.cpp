@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] serves /v1/models when compatibility endpoints are enabled",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:50] serves /v1/models when compatibility endpoints are enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] serves /v1/models/{id}",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:64] serves /v1/models/{id}",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:64",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] rejects operator scopes that lack read access",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:77] rejects operator scopes that lack read access",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] rejects requests with no declared operator scopes",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:89] rejects requests with no declared operator scopes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] rejects /v1/models/{id} without read access",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:101] rejects /v1/models/{id} without read access",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:101",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] rejects when disabled",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:120] rejects when disabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:120",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/models-http.test.ts] treats shared-secret bearer auth as full compat operator access",
+TEST_CASE("v4.29 [src/gateway/models-http.test.ts:133] treats shared-secret bearer auth as full compat operator access",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/models-http.test.ts:133",
                "upstream it() block #6",

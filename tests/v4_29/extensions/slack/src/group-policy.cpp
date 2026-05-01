@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/group-policy.test.ts] uses matched channel requireMention and wildcard fallback",
+TEST_CASE("v4.29 [extensions/slack/src/group-policy.test.ts:27] uses matched channel requireMention and wildcard fallback",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/group-policy.test.ts:27",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/group-policy.test.ts] resolves sender override, then channel tools, then wildcard tools",
+TEST_CASE("v4.29 [extensions/slack/src/group-policy.test.ts:32] resolves sender override, then channel tools, then wildcard tools",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/group-policy.test.ts:32",
                "upstream it() block #1",

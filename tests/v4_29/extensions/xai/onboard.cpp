@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/xai/onboard.test.ts] adds xAI provider with correct settings",
+TEST_CASE("v4.29 [extensions/xai/onboard.test.ts:14] adds xAI provider with correct settings",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/onboard.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/onboard.test.ts] merges xAI models and keeps existing provider overrides",
+TEST_CASE("v4.29 [extensions/xai/onboard.test.ts:23] merges xAI models and keeps existing provider overrides",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/onboard.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/onboard.test.ts] adds expected alias for the default model",
+TEST_CASE("v4.29 [extensions/xai/onboard.test.ts:47] adds expected alias for the default model",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/onboard.test.ts:47",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/xai/onboard.test.ts] preserves existing model fallbacks",
+TEST_CASE("v4.29 [extensions/xai/onboard.test.ts:52] preserves existing model fallbacks",
           "[v4_29][parity_gap][xai]") {
     PARITY_GAP("extensions/xai/onboard.test.ts:52",
                "upstream it() block #3",

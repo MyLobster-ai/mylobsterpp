@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-suppression.test.ts] uses manifest suppression",
+TEST_CASE("v4.29 [src/agents/model-suppression.test.ts:24] uses manifest suppression",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-suppression.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-suppression.test.ts] does not run deprecated runtime suppression hooks",
+TEST_CASE("v4.29 [src/agents/model-suppression.test.ts:41] does not run deprecated runtime suppression hooks",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-suppression.test.ts:41",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-suppression.test.ts] creates a reusable manifest resolver with normalized provider and model ids",
+TEST_CASE("v4.29 [src/agents/model-suppression.test.ts:58] creates a reusable manifest resolver with normalized provider and model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-suppression.test.ts:58",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-suppression.test.ts] does not call the manifest resolver for empty provider or model ids",
+TEST_CASE("v4.29 [src/agents/model-suppression.test.ts:85] does not call the manifest resolver for empty provider or model ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-suppression.test.ts:85",
                "upstream it() block #3",

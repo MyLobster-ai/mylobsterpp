@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] updates scheduling when config changes without restart",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:91] updates scheduling when config changes without restart",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:91",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] schedules every configured agent when only global heartbeat defaults exist",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:140] schedules every configured agent when only global heartbeat defaults exist",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:140",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] continues scheduling after runOnce throws an unhandled error",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:161] continues scheduling after runOnce throws an unhandled error",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:161",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] cleanup is idempotent and does not clear a newer runner",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:188] cleanup is idempotent and does not clear a newer runner",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:188",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] run() returns skipped when runner is stopped",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:227] run() returns skipped when runner is stopped",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:227",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] reschedules timer when runOnce returns requests-in-flight",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:241] reschedules timer when runOnce returns requests-in-flight",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:241",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] reschedules timer when runOnce returns cron-in-progress",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:265] reschedules timer when runOnce returns cron-in-progress",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:265",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] does not push nextDueMs forward on repeated requests-in-flight skips",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:286] does not push nextDueMs forward on repeated requests-in-flight skips",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:286",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] routes targeted wake requests to the requested agent/session",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:329] routes targeted wake requests to the requested agent/session",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:329",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] routes targeted wake requests to agents enabled by global defaults",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:356] routes targeted wake requests to agents enabled by global defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:356",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] merges targeted wake heartbeat overrides onto the agent heartbeat config",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:378] merges targeted wake heartbeat overrides onto the agent heartbeat config",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:378",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] clamps oversized scheduler delays so heartbeats do not fire in a tight loop (#71414)",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:419] clamps oversized scheduler delays so heartbeats do not fire in a tight loop (#71414)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:419",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts] does not fan out to unrelated agents for session-scoped exec wakes",
+TEST_CASE("v4.29 [src/infra/heartbeat-runner.scheduler.test.ts:437] does not fan out to unrelated agents for session-scoped exec wakes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/heartbeat-runner.scheduler.test.ts:437",
                "upstream it() block #12",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts] reads canonical baseUrl and trims whitespace",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts:5] reads canonical baseUrl and trims whitespace",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-base-url.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts] falls back to OpenAI SDK-style baseURL",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts:11] falls back to OpenAI SDK-style baseURL",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-base-url.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts] prefers canonical baseUrl over baseURL",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts:20] prefers canonical baseUrl over baseURL",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-base-url.test.ts:20",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts] ignores inherited baseUrl aliases",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts:30] ignores inherited baseUrl aliases",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-base-url.test.ts:30",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts] returns undefined for empty or missing values",
+TEST_CASE("v4.29 [extensions/ollama/src/provider-base-url.test.ts:37] returns undefined for empty or missing values",
           "[v4_29][parity_gap][ollama]") {
     PARITY_GAP("extensions/ollama/src/provider-base-url.test.ts:37",
                "upstream it() block #4",

@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] generates image buffers from the fal sync API",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:35] generates image buffers from the fal sync API",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] uses image-to-image endpoint and data-uri input for edits",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:115] uses image-to-image endpoint and data-uri input for edits",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] maps aspect ratio for text generation without forcing a square default",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:172] maps aspect ratio for text generation without forcing a square default",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:172",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] combines resolution and aspect ratio for text generation",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:221] combines resolution and aspect ratio for text generation",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:221",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] rejects multi-image edit requests for now",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:271] rejects multi-image edit requests for now",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:271",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] rejects aspect ratio overrides for the current edit endpoint",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:293] rejects aspect ratio overrides for the current edit endpoint",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:293",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] blocks private-network image download URLs through the SSRF guard",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:313] blocks private-network image download URLs through the SSRF guard",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:313",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts] does not auto-whitelist trusted private relay hosts from a configured baseUrl",
+TEST_CASE("v4.29 [extensions/fal/image-generation-provider.test.ts:356] does not auto-whitelist trusted private relay hosts from a configured baseUrl",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/image-generation-provider.test.ts:356",
                "upstream it() block #7",

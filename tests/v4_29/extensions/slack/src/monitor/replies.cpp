@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] passes identity to sendMessageSlack for text replies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:42] passes identity to sendMessageSlack for text replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] passes identity to sendMessageSlack for media replies",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:51] passes identity to sendMessageSlack for media replies",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:51",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] omits identity key when not provided",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:65] omits identity key when not provided",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:65",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] delivers block-only replies through to sendMessageSlack",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:73] delivers block-only replies through to sendMessageSlack",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] renders interactive replies into Slack blocks during delivery",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:114] renders interactive replies into Slack blocks during delivery",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:114",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] rejects replies when merged Slack blocks exceed the platform limit",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:154] rejects replies when merged Slack blocks exceed the platform limit",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:154",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] prefers explicit reply targets when reply tags are enabled",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:184] prefers explicit reply targets when reply tags are enabled",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:184",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] ignores explicit reply tags when replyToMode is off",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:194] ignores explicit reply tags when replyToMode is off",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:194",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] falls back to the planned reply thread when no explicit reply tag exists",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:204] falls back to the planned reply thread when no explicit reply tag exists",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:204",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] keeps legacy thread-stickiness for genuine replies when callers omit isThreadReply",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:218] keeps legacy thread-stickiness for genuine replies when callers omit isThreadReply",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:218",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] respects replyToMode for auto-created top-level thread_ts when callers omit isThreadReply",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:229] respects replyToMode for auto-created top-level thread_ts when callers omit isThreadReply",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:229",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] lets draft previews inspect first thread targets without consuming them",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:260] lets draft previews inspect first thread targets without consuming them",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:260",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts] keeps a 4205-character reply in a single slash response by default",
+TEST_CASE("v4.29 [extensions/slack/src/monitor/replies.test.ts:283] keeps a 4205-character reply in a single slash response by default",
           "[v4_29][parity_gap][slack]") {
     PARITY_GAP("extensions/slack/src/monitor/replies.test.ts:283",
                "upstream it() block #12",

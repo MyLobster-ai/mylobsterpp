@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts] forwards maxBytes and mediaLocalRoots to loadWebMedia",
+TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts:24] forwards maxBytes and mediaLocalRoots to loadWebMedia",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/outbound-media.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts] keeps options optional",
+TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts:42] keeps options optional",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/outbound-media.test.ts:42",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts] keeps local roots when host read capability is provided",
+TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts:54] keeps local roots when host read capability is provided",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/outbound-media.test.ts:54",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts] rejects host read capability without explicit local roots",
+TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts:76] rejects host read capability without explicit local roots",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/outbound-media.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts] allows explicit any opt-in for host read capability",
+TEST_CASE("v4.29 [src/plugin-sdk/outbound-media.test.ts:85] allows explicit any opt-in for host read capability",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/outbound-media.test.ts:85",
                "upstream it() block #4",

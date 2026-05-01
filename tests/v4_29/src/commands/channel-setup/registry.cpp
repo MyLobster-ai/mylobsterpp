@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/channel-setup/registry.test.ts] builds and caches adapters from the plugin setupWizard surface",
+TEST_CASE("v4.29 [src/commands/channel-setup/registry.test.ts:24] builds and caches adapters from the plugin setupWizard surface",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channel-setup/registry.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/channel-setup/registry.test.ts] passes through adapter-shaped setupWizard surfaces",
+TEST_CASE("v4.29 [src/commands/channel-setup/registry.test.ts:44] passes through adapter-shaped setupWizard surfaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/channel-setup/registry.test.ts:44",
                "upstream it() block #1",

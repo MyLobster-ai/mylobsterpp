@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] resolves explicit workspace values without fallback",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:8] resolves explicit workspace values without fallback",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] falls back to configured per-agent workspace when input is missing",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:20] falls back to configured per-agent workspace when input is missing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] falls back to default workspace for blank strings",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:42] falls back to default workspace for blank strings",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] falls back to built-in main workspace when config is unavailable",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:62] falls back to built-in main workspace when config is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:62",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] throws for malformed agent session keys",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:75] throws for malformed agent session keys",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:75",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] uses explicit agent id for per-agent fallback when config is unavailable",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:85] uses explicit agent id for per-agent fallback when config is unavailable",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:85",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] throws for malformed agent session keys even when config has a default agent",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:105] throws for malformed agent session keys even when config has a default agent",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:105",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/workspace-run.test.ts] treats non-agent legacy keys as default, not malformed",
+TEST_CASE("v4.29 [src/agents/workspace-run.test.ts:127] treats non-agent legacy keys as default, not malformed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/workspace-run.test.ts:127",
                "upstream it() block #7",

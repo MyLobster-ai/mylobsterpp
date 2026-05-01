@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/mcp-cli.test.ts] sets and shows a configured MCP server",
+TEST_CASE("v4.29 [src/cli/mcp-cli.test.ts:71] sets and shows a configured MCP server",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/mcp-cli.test.ts:71",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/mcp-cli.test.ts] fails when removing an unknown MCP server",
+TEST_CASE("v4.29 [src/cli/mcp-cli.test.ts:85] fails when removing an unknown MCP server",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/mcp-cli.test.ts:85",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/mcp-cli.test.ts] starts the channel bridge with parsed serve options",
+TEST_CASE("v4.29 [src/cli/mcp-cli.test.ts:97] starts the channel bridge with parsed serve options",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/mcp-cli.test.ts:97",
                "upstream it() block #2",

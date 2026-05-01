@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts] does not initialize configured ACP bindings for rejected messages",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:243] does not initialize configured ACP bindings for rejected messages",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:243",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts] initializes configured ACP bindings only after preflight accepts the message",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:264] initializes configured ACP bindings only after preflight accepts the message",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:264",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts] accepts plain messages in configured ACP-bound channels without a mention",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:287] accepts plain messages in configured ACP-bound channels without a mention",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:287",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts] hydrates empty guild message payloads from REST before ensuring configured ACP bindings",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:317] hydrates empty guild message payloads from REST before ensuring configured ACP bindings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:317",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts] hydrates sticker-only guild message payloads from REST before ensuring configured ACP bindings",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:341] hydrates sticker-only guild message payloads from REST before ensuring configured ACP bindings",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/message-handler.preflight.acp-bindings.test.ts:341",
                "upstream it() block #4",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] forwards accountId for send actions",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:47] forwards accountId for send actions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] forwards accountId for permissions actions",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:69] forwards accountId for permissions actions",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:69",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] forwards accountId for self-profile updates",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:90] forwards accountId for self-profile updates",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:90",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] rejects self-profile updates for non-owner callers",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:115] rejects self-profile updates for non-owner callers",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:115",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] rejects self-profile updates when owner status is unknown",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:135] rejects self-profile updates when owner status is unknown",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:135",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] forwards local avatar paths for self-profile updates",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:154] forwards local avatar paths for self-profile updates",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:154",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] forwards mediaLocalRoots for media sends",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:177] forwards mediaLocalRoots for media sends",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:177",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] allows media-only sends without requiring a message body",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:202] allows media-only sends without requiring a message body",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:202",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts] accepts shared media aliases and forwards voice-send intent",
+TEST_CASE("v4.29 [extensions/matrix/src/actions.account-propagation.test.ts:226] accepts shared media aliases and forwards voice-send intent",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/actions.account-propagation.test.ts:226",
                "upstream it() block #8",

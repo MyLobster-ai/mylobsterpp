@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/feishu/src/reasoning-preview.test.ts] enables previews only for stream reasoning sessions",
+TEST_CASE("v4.29 [extensions/feishu/src/reasoning-preview.test.ts:22] enables previews only for stream reasoning sessions",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/reasoning-preview.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/feishu/src/reasoning-preview.test.ts] returns false for missing sessions or load failures",
+TEST_CASE("v4.29 [extensions/feishu/src/reasoning-preview.test.ts:42] returns false for missing sessions or load failures",
           "[v4_29][parity_gap][feishu]") {
     PARITY_GAP("extensions/feishu/src/reasoning-preview.test.ts:42",
                "upstream it() block #1",

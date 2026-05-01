@@ -5,103 +5,103 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] preserves allowTailscale when switching to token",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:24] preserves allowTailscale when switching to token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] drops password when switching to token",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:38] drops password when switching to token",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] drops token when switching to password",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:56] drops token when switching to password",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:56",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] does not silently omit password when literal string is provided",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:66] does not silently omit password when literal string is provided",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:66",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] generates random token for missing, empty, and coerced-literal token inputs",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:75] generates random token for missing, empty, and coerced-literal token inputs",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:75",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] trims and preserves explicit token values",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:83] trims and preserves explicit token values",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:83",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] trims password values before storing them",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:92] trims password values before storing them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:92",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] keeps password mode valid even when the trimmed password becomes empty",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:101] keeps password mode valid even when the trimmed password becomes empty",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:101",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] preserves SecretRef tokens when token mode is selected",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:110] preserves SecretRef tokens when token mode is selected",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:110",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] builds trusted-proxy config with all options",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:127] builds trusted-proxy config with all options",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:127",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] builds trusted-proxy config with only userHeader",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:147] builds trusted-proxy config with only userHeader",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:147",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] preserves allowTailscale when switching to trusted-proxy",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:163] preserves allowTailscale when switching to trusted-proxy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:163",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] throws error when trusted-proxy mode lacks trustedProxy config",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:185] throws error when trusted-proxy mode lacks trustedProxy config",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:185",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts] drops token and password when switching to trusted-proxy",
+TEST_CASE("v4.29 [src/commands/configure.gateway-auth.test.ts:194] drops token and password when switching to trusted-proxy",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/configure.gateway-auth.test.ts:194",
                "upstream it() block #13",

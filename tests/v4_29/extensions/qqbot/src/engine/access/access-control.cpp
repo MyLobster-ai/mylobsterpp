@@ -5,117 +5,117 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] allows default-open DMs when allowFrom is omitted",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:7] allows default-open DMs when allowFrom is omitted",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:7",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] allows default-open DMs when allowFrom is explicitly empty",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:17] allows default-open DMs when allowFrom is explicitly empty",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] allows everyone with wildcard allowFrom",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:31] allows everyone with wildcard allowFrom",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] allows sender matching the allowlist",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:41] allows sender matching the allowlist",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:41",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] allows open mode when sender matches restrictive allowFrom",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:52] allows open mode when sender matches restrictive allowFrom",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:52",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] blocks sender not in allowlist",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:64] blocks sender not in allowlist",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:64",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] blocks DM when dmPolicy=disabled (even with wildcard)",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:74] blocks DM when dmPolicy=disabled (even with wildcard)",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:74",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] blocks DM with allowlist policy but empty allowlist",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:85] blocks DM with allowlist policy but empty allowlist",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:85",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] normalizes qqbot: prefix and case when matching",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:95] normalizes qqbot: prefix and case when matching",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:95",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] inherits allowFrom for group access when no groupAllowFrom is set",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:106] inherits allowFrom for group access when no groupAllowFrom is set",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:106",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] uses groupAllowFrom when explicitly provided",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:124] uses groupAllowFrom when explicitly provided",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:124",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] blocks when groupPolicy=disabled",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:134] blocks when groupPolicy=disabled",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:134",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] allows anyone when groupPolicy=open",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:145] allows anyone when groupPolicy=open",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:145",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] blocks when groupPolicy=allowlist but list is empty",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:156] blocks when groupPolicy=allowlist but list is empty",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:156",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] legacy allowFrom=[",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:168] legacy allowFrom=[",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:168",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts] legacy allowFrom=[",
+TEST_CASE("v4.29 [extensions/qqbot/src/engine/access/access-control.test.ts:183] legacy allowFrom=[",
           "[v4_29][parity_gap][qqbot]") {
     PARITY_GAP("extensions/qqbot/src/engine/access/access-control.test.ts:183",
                "upstream it() block #15",

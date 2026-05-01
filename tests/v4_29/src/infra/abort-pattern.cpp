@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts] controller.abort.bind(controller) aborts the signal",
+TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts:24] controller.abort.bind(controller) aborts the signal",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-pattern.test.ts:24",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts] bound abort works with setTimeout",
+TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts:32] bound abort works with setTimeout",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-pattern.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts] bindAbortRelay() preserves default AbortError reason when used as event listener",
+TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts:46] bindAbortRelay() preserves default AbortError reason when used as event listener",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-pattern.test.ts:46",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts] raw .abort.bind() leaks Event as reason — bindAbortRelay() does not",
+TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts:58] raw .abort.bind() leaks Event as reason — bindAbortRelay() does not",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-pattern.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts] removeEventListener works with saved bindAbortRelay() reference",
+TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts:75] removeEventListener works with saved bindAbortRelay() reference",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-pattern.test.ts:75",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts] bindAbortRelay() forwards abort through combined signals",
+TEST_CASE("v4.29 [src/infra/abort-pattern.test.ts:86] bindAbortRelay() forwards abort through combined signals",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/abort-pattern.test.ts:86",
                "upstream it() block #5",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] declares explicit mode capabilities",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:97] declares explicit mode capabilities",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:97",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] submits fal video jobs through the queue API and downloads the completed result",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:115] submits fal video jobs through the queue API and downloads the completed result",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:115",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] exposes Seedance 2 models",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:168] exposes Seedance 2 models",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:168",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] submits HeyGen video-agent requests without unsupported fal controls",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:184] submits HeyGen video-agent requests without unsupported fal controls",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:184",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] submits Seedance 2 requests with fal schema fields",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:221] submits Seedance 2 requests with fal schema fields",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:221",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] submits Seedance 2 image-to-video requests with a single image_url",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:265] submits Seedance 2 image-to-video requests with a single image_url",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:265",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] submits Seedance 2 reference-to-video requests with image, video, and audio URLs",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:294] submits Seedance 2 reference-to-video requests with image, video, and audio URLs",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:294",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] rejects video, audio, and multiple image references for non-reference fal models",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:362] rejects video, audio, and multiple image references for non-reference fal models",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:362",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts] rejects over-limit and audio-only Seedance reference-to-video requests",
+TEST_CASE("v4.29 [extensions/fal/video-generation-provider.test.ts:399] rejects over-limit and audio-only Seedance reference-to-video requests",
           "[v4_29][parity_gap][fal]") {
     PARITY_GAP("extensions/fal/video-generation-provider.test.ts:399",
                "upstream it() block #8",

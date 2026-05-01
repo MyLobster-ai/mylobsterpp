@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../parity.hpp"
 
-TEST_CASE("v4.29 [src/logger.test.ts] formats messages through runtime log/error",
+TEST_CASE("v4.29 [src/logger.test.ts:22] formats messages through runtime log/error",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] only logs debug when verbose is enabled",
+TEST_CASE("v4.29 [src/logger.test.ts:36] only logs debug when verbose is enabled",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:36",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] writes to configured log file at configured level",
+TEST_CASE("v4.29 [src/logger.test.ts:49] writes to configured log file at configured level",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] filters messages below configured level",
+TEST_CASE("v4.29 [src/logger.test.ts:61] filters messages below configured level",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:61",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] uses daily rolling log files and prunes old ones",
+TEST_CASE("v4.29 [src/logger.test.ts:72] uses daily rolling log files and prunes old ones",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:72",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] toggles verbose flag and logs when enabled",
+TEST_CASE("v4.29 [src/logger.test.ts:100] toggles verbose flag and logs when enabled",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:100",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] stores yes flag",
+TEST_CASE("v4.29 [src/logger.test.ts:112] stores yes flag",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:112",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logger.test.ts] keeps messages that do not start with the subsystem",
+TEST_CASE("v4.29 [src/logger.test.ts:134] keeps messages that do not start with the subsystem",
           "[v4_29][parity_gap][logger.test.ts]") {
     PARITY_GAP("src/logger.test.ts:134",
                "upstream it() block #7",

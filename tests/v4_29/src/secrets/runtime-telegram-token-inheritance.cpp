@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] fails when enabled channel surfaces contain unresolved refs",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:12] fails when enabled channel surfaces contain unresolved refs",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:12",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] fails when default Telegram account can inherit an unresolved top-level token ref",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:38] fails when default Telegram account can inherit an unresolved top-level token ref",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] treats top-level Telegram token as inactive when all enabled accounts override it",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:64] treats top-level Telegram token as inactive when all enabled accounts override it",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] treats Telegram account overrides as enabled when account.enabled is omitted",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:110] treats Telegram account overrides as enabled when account.enabled is omitted",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:110",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] treats top-level Telegram botToken refs as active when account botToken is blank",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:138] treats top-level Telegram botToken refs as active when account botToken is blank",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:138",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] treats Telegram webhookSecret refs as inactive when webhook mode is not configured",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:171] treats Telegram webhookSecret refs as inactive when webhook mode is not configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:171",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] treats Telegram top-level botToken refs as inactive when tokenFile is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:204] treats Telegram top-level botToken refs as inactive when tokenFile is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:204",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts] treats Telegram account botToken refs as inactive when account tokenFile is configured",
+TEST_CASE("v4.29 [src/secrets/runtime-telegram-token-inheritance.test.ts:233] treats Telegram account botToken refs as inactive when account tokenFile is configured",
           "[v4_29][parity_gap][secrets]") {
     PARITY_GAP("src/secrets/runtime-telegram-token-inheritance.test.ts:233",
                "upstream it() block #7",

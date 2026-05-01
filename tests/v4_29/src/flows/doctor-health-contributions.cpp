@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] repairs bundled runtime deps before channel-owned doctor paths can import runtimes",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:8] repairs bundled runtime deps before channel-owned doctor paths can import runtimes",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:8",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] runs plugin registry repair before final config writes",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:20] runs plugin registry repair before final config writes",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] checks command owner configuration before final config writes",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:26] checks command owner configuration before final config writes",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:26",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] skips doctor config writes under legacy update parents",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:33] skips doctor config writes under legacy update parents",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:33",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] keeps doctor writes outside legacy update writable",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:41] keeps doctor writes outside legacy update writable",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:41",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] keeps current update parents writable",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:49] keeps current update parents writable",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:49",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts] treats falsey update env values as normal writes",
+TEST_CASE("v4.29 [src/flows/doctor-health-contributions.test.ts:60] treats falsey update env values as normal writes",
           "[v4_29][parity_gap][flows]") {
     PARITY_GAP("src/flows/doctor-health-contributions.test.ts:60",
                "upstream it() block #6",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.policy.test.ts] uses images-only sanitization without tool-call id rewriting for OpenAI models",
+TEST_CASE("v4.29 [src/agents/transcript-policy.policy.test.ts:49] uses images-only sanitization without tool-call id rewriting for OpenAI models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.policy.test.ts:49",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/transcript-policy.policy.test.ts] uses strict9 tool-call sanitization for Mistral-family models",
+TEST_CASE("v4.29 [src/agents/transcript-policy.policy.test.ts:61] uses strict9 tool-call sanitization for Mistral-family models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/transcript-policy.policy.test.ts:61",
                "upstream it() block #1",

@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] honors trusted bundled plugin dir overrides under the package root",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:299] honors trusted bundled plugin dir overrides under the package root",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:299",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] falls back to package source surfaces when an override dir lacks a bundled plugin",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:329] falls back to package source surfaces when an override dir lacks a bundled plugin",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:329",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] keeps bundled facade loads disabled when bundled plugins are disabled",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:346] keeps bundled facade loads disabled when bundled plugins are disabled",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:346",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] shares loaded facade ids with facade-runtime",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:358] shares loaded facade ids with facade-runtime",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:358",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] uses the runtime-supported Jiti boundary for Windows dist facade loads",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:380] uses the runtime-supported Jiti boundary for Windows dist facade loads",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:380",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] loads built bundled sync public surfaces through staged runtime deps",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:417] loads built bundled sync public surfaces through staged runtime deps",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:417",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] loads built bundled async public surfaces through staged runtime deps",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:446] loads built bundled async public surfaces through staged runtime deps",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:446",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] breaks circular facade re-entry during module evaluation",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:469] breaks circular facade re-entry during module evaluation",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:469",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts] clears the cache on load failure so retries re-execute",
+TEST_CASE("v4.29 [src/plugin-sdk/facade-loader.test.ts:483] clears the cache on load failure so retries re-execute",
           "[v4_29][parity_gap][plugin-sdk]") {
     PARITY_GAP("src/plugin-sdk/facade-loader.test.ts:483",
                "upstream it() block #8",

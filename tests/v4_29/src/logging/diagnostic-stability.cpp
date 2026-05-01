@@ -5,68 +5,68 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] records a bounded payload-free projection of diagnostic events",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:25] records a bounded payload-free projection of diagnostic events",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:25",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] keeps stable reason codes but drops free-form reason text",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:71] keeps stable reason codes but drops free-form reason text",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:71",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] summarizes assembled context diagnostics without prompt text",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:100] summarizes assembled context diagnostics without prompt text",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] sanitizes tool and model diagnostic error categories",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:139] sanitizes tool and model diagnostic error categories",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:139",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] summarizes memory and large payload events",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:198] summarizes memory and large payload events",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:198",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] keeps the newest events when capacity is exceeded",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:255] keeps the newest events when capacity is exceeded",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:255",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] filters snapshots by type, sequence, and limit",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:276] filters snapshots by type, sequence, and limit",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:276",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] applies query filters to persisted snapshots without mutating the source",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:299] applies query filters to persisted snapshots without mutating the source",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:299",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts] normalizes external stability query params consistently",
+TEST_CASE("v4.29 [src/logging/diagnostic-stability.test.ts:344] normalizes external stability query params consistently",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/diagnostic-stability.test.ts:344",
                "upstream it() block #8",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts] loads plugin providers for provider-plugin auth choices",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:42] loads plugin providers for provider-plugin auth choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:42",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts] fails explicitly when a provider-plugin auth choice resolves to no trusted setup provider",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:81] fails explicitly when a provider-plugin auth choice resolves to no trusted setup provider",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:81",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts] fails explicitly when a non-prefixed auth choice resolves only with untrusted providers",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:104] fails explicitly when a non-prefixed auth choice resolves only with untrusted providers",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts] limits setup-provider resolution to owning plugin ids without pre-enabling them",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:152] limits setup-provider resolution to owning plugin ids without pre-enabling them",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:152",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts] filters untrusted workspace manifest choices when resolving inferred auth choices",
+TEST_CASE("v4.29 [src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:185] filters untrusted workspace manifest choices when resolving inferred auth choices",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/onboard-non-interactive/local/auth-choice.plugin-providers.test.ts:185",
                "upstream it() block #4",

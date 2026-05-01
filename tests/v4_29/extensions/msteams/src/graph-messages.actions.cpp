@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] pins a message in a chat via message@odata.bind body",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:26] pins a message in a chat via message@odata.bind body",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] rejects pinning a message in a channel on Graph v1.0",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:47] rejects pinning a message in a channel on Graph v1.0",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:47",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] unpins a message from a chat",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:60] unpins a message from a chat",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:60",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] rejects unpinning a message from a channel on Graph v1.0",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:76] rejects unpinning a message from a channel on Graph v1.0",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] sets a like reaction on a chat message",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:89] sets a like reaction on a chat message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:89",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] sets a reaction on a channel message",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:107] sets a reaction on a channel message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] normalizes reaction type to lowercase",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:125] normalizes reaction type to lowercase",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:125",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] passes through non-well-known reaction types (e.g. Unicode emoji)",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:142] passes through non-well-known reaction types (e.g. Unicode emoji)",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:142",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] rejects empty reaction type",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:162] rejects empty reaction type",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:162",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] resolves user: target through conversation store",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:173] resolves user: target through conversation store",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:173",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] removes a reaction from a chat message",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:197] removes a reaction from a chat message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:197",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] removes a reaction from a channel message",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:215] removes a reaction from a channel message",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:215",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts] rejects empty reaction type",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.actions.test.ts:233] rejects empty reaction type",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.actions.test.ts:233",
                "upstream it() block #12",

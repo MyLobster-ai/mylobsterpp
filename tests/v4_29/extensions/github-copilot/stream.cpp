@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts] adds Copilot headers and Anthropic cache markers for Claude payloads",
+TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts:18] adds Copilot headers and Anthropic cache markers for Claude payloads",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/stream.test.ts:18",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts] leaves non-Anthropic Copilot models untouched",
+TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts:86] leaves non-Anthropic Copilot models untouched",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/stream.test.ts:86",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts] adds Copilot headers, preserves reasoning IDs, and rewrites message IDs before payload send",
+TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts:104] adds Copilot headers, preserves reasoning IDs, and rewrites message IDs before payload send",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/stream.test.ts:104",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts] rewrites Copilot Responses IDs returned by an existing payload hook",
+TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts:157] rewrites Copilot Responses IDs returned by an existing payload hook",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/stream.test.ts:157",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts] adapts provider stream context without changing wrapper behavior",
+TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts:186] adapts provider stream context without changing wrapper behavior",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/stream.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts] does not claim provider transport before OpenClaw chooses one",
+TEST_CASE("v4.29 [extensions/github-copilot/stream.test.ts:208] does not claim provider transport before OpenClaw chooses one",
           "[v4_29][parity_gap][github-copilot]") {
     PARITY_GAP("extensions/github-copilot/stream.test.ts:208",
                "upstream it() block #5",

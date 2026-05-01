@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] lists only static import and export specifiers",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:47] lists only static import and export specifiers",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:47",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] allows a bootstrap graph with builtins and lazy external imports",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:58] allows a bootstrap graph with builtins and lazy external imports",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] reports external packages in the static bootstrap graph",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:77] reports external packages in the static bootstrap graph",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:77",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] reports missing gateway run chunk",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:89] reports missing gateway run chunk",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:89",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] reports cold static imports in the gateway run chunk",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:97] reports cold static imports in the gateway run chunk",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:97",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] reports transitive cold static imports from the gateway run chunk graph",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:107] reports transitive cold static imports from the gateway run chunk graph",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:107",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts] reports oversized gateway run chunks",
+TEST_CASE("v4.29 [test/scripts/check-cli-bootstrap-imports.test.ts:118] reports oversized gateway run chunks",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-cli-bootstrap-imports.test.ts:118",
                "upstream it() block #6",

@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] matches skill commands and parses args",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:156] matches skill commands and parses args",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:156",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] supports /skill with name argument",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:165] supports /skill with name argument",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:165",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] normalizes /skill lookup names",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:174] normalizes /skill lookup names",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:174",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] returns null for unknown commands",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:183] returns null for unknown commands",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:183",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] deduplicates by skillName across agents, keeping the first registration",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:193] deduplicates by skillName across agents, keeping the first registration",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:193",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] scopes to specific agents when agentIds is provided",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:213] scopes to specific agents when agentIds is provided",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:213",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] prevents cross-agent skill leakage when each agent has an allowlist",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:230] prevents cross-agent skill leakage when each agent has an allowlist",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:230",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] merges allowlists for agents that share one workspace",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:239] merges allowlists for agents that share one workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:239",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] deduplicates overlapping allowlists for shared workspace",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:251] deduplicates overlapping allowlists for shared workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:251",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] keeps workspace unrestricted when one co-tenant agent has no skills filter",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:272] keeps workspace unrestricted when one co-tenant agent has no skills filter",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:272",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] merges empty allowlist with non-empty allowlist for shared workspace",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:293] merges empty allowlist with non-empty allowlist for shared workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:293",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] uses inherited defaults for agents that share one workspace",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:312] uses inherited defaults for agents that share one workspace",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:312",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] does not inherit defaults when an agent sets an explicit empty skills list",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:335] does not inherit defaults when an agent sets an explicit empty skills list",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:335",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] skips agents with missing workspaces gracefully",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:357] skips agents with missing workspaces gracefully",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:357",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] inherits defaults when agentId is provided without an explicit skill filter",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:381] inherits defaults when agentId is provided without an explicit skill filter",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:381",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] keeps the first entry when multiple commands share a skillName",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:403] keeps the first entry when multiple commands share a skillName",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:403",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] matches skillName case-insensitively",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:414] matches skillName case-insensitively",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:414",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] passes through commands with an empty skillName",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:424] passes through commands with an empty skillName",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:424",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts] returns an empty array for empty input",
+TEST_CASE("v4.29 [src/auto-reply/skill-commands.test.ts:432] returns an empty array for empty input",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/skill-commands.test.ts:432",
                "upstream it() block #18",

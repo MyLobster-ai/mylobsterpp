@@ -5,355 +5,355 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] strips /v1 suffix from anthropic-messages baseUrl",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:99] strips /v1 suffix from anthropic-messages baseUrl",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:99",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] strips trailing /v1/ (with slash) from anthropic-messages baseUrl",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:105] strips trailing /v1/ (with slash) from anthropic-messages baseUrl",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:105",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] leaves anthropic-messages baseUrl without /v1 unchanged",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:111] leaves anthropic-messages baseUrl without /v1 unchanged",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:111",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] leaves baseUrl undefined unchanged for anthropic-messages",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:117] leaves baseUrl undefined unchanged for anthropic-messages",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:117",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] does not strip /v1 from non-anthropic-messages models",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:123] does not strip /v1 from non-anthropic-messages models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:123",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] strips /v1 from custom Anthropic proxy baseUrl",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:134] strips /v1 from custom Anthropic proxy baseUrl",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:134",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for z.ai models",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:145] forces supportsDeveloperRole off for z.ai models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:145",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for moonshot models",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:149] forces supportsDeveloperRole off for moonshot models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:149",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for custom moonshot-compatible endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:156] forces supportsDeveloperRole off for custom moonshot-compatible endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:156",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for DashScope provider ids",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:163] forces supportsDeveloperRole off for DashScope provider ids",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:163",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for DashScope-compatible endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:170] forces supportsDeveloperRole off for DashScope-compatible endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:170",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps supportsUsageInStreaming on for native Qwen endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:177] keeps supportsUsageInStreaming on for native Qwen endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:177",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps supportsUsageInStreaming on for DashScope-compatible endpoints regardless of provider id",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:184] keeps supportsUsageInStreaming on for DashScope-compatible endpoints regardless of provider id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:184",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps supportsUsageInStreaming on for Moonshot-native endpoints regardless of provider id",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:191] keeps supportsUsageInStreaming on for Moonshot-native endpoints regardless of provider id",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:191",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] leaves native api.openai.com model untouched",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:198] leaves native api.openai.com model untouched",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:198",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for Azure OpenAI (Chat Completions, not Responses API)",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:209] forces supportsDeveloperRole off for Azure OpenAI (Chat Completions, not Responses API)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:209",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for generic custom openai-completions provider",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:215] forces supportsDeveloperRole off for generic custom openai-completions provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:215",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsUsageInStreaming off for generic custom openai-completions provider",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:222] forces supportsUsageInStreaming off for generic custom openai-completions provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:222",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsStrictMode off for z.ai models",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:229] forces supportsStrictMode off for z.ai models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:229",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsStrictMode off for custom openai-completions provider",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:233] forces supportsStrictMode off for custom openai-completions provider",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:233",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for Qwen proxy via openai-completions",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:240] forces supportsDeveloperRole off for Qwen proxy via openai-completions",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:240",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] leaves openai-completions model with empty baseUrl untouched",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:247] leaves openai-completions model with empty baseUrl untouched",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:247",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] forces supportsDeveloperRole off for malformed baseUrl values",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:258] forces supportsDeveloperRole off for malformed baseUrl values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:258",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] respects explicit supportsDeveloperRole true on non-native endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:265] respects explicit supportsDeveloperRole true on non-native endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:265",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] respects explicit supportsUsageInStreaming true on non-native endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:276] respects explicit supportsUsageInStreaming true on non-native endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:276",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] preserves explicit supportsUsageInStreaming false on non-native endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:287] preserves explicit supportsUsageInStreaming false on non-native endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:287",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] still forces flags off when not explicitly set by user",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:298] still forces flags off when not explicitly set by user",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:298",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] respects explicit supportsStrictMode true on non-native endpoints",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:311] respects explicit supportsStrictMode true on non-native endpoints",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:311",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] does not mutate caller model when forcing supportsDeveloperRole off",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:322] does not mutate caller model when forcing supportsDeveloperRole off",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:322",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] does not override explicit compat false",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:339] does not override explicit compat false",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:339",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] leaves fully explicit non-native compat untouched",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:352] leaves fully explicit non-native compat untouched",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:352",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] preserves explicit usage compat when developer role is explicitly enabled",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:364] preserves explicit usage compat when developer role is explicitly enabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:364",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] uses provider runtime hooks before fallback heuristics",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:380] uses provider runtime hooks before fallback heuristics",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:380",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] includes plugin-advertised modern models",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:386] includes plugin-advertised modern models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:386",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] matches plugin-advertised modern models across canonical provider aliases",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:423] matches plugin-advertised modern models across canonical provider aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:423",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] excludes provider-declined modern models",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:432] excludes provider-declined modern models",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:432",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps modern higher-signal Claude families",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:442] keeps modern higher-signal Claude families",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:442",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] drops low-signal or old Claude variants even when provider marks them modern",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:453] drops low-signal or old Claude variants even when provider marks them modern",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:453",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps only curated Gemini routes in the default live matrix",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:465] keeps only curated Gemini routes in the default live matrix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:465",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps only GPT-5.2 OpenAI-family models in the default live matrix",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:490] keeps only GPT-5.2 OpenAI-family models in the default live matrix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:490",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] drops old MiniMax 2.1 models from the default live matrix",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:522] drops old MiniMax 2.1 models from the default live matrix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:522",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps only curated OpenRouter routes in the default live matrix",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:538] keeps only curated OpenRouter routes in the default live matrix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:538",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] drops GLM 4.x models from the default live matrix while keeping GLM 5",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:561] drops GLM 4.x models from the default live matrix while keeping GLM 5",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:561",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps only curated xAI routes in the default live matrix",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:595] keeps only curated xAI routes in the default live matrix",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:595",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] keeps DeepSeek V4 models in the default live matrix when the provider marks them modern",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:608] keeps DeepSeek V4 models in the default live matrix when the provider marks them modern",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:608",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] prefers curated Google replacements before fallback provider spread",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:620] prefers curated Google replacements before fallback provider spread",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:620",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] prioritizes DeepSeek V4 before later fallback providers",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:646] prioritizes DeepSeek V4 before later fallback providers",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:646",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] prioritizes Fireworks GLM 5 models over GLM 4.x fallback entries",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:668] prioritizes Fireworks GLM 5 models over GLM 4.x fallback entries",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:668",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] defaults modern live sweeps to the curated high-signal cap",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:691] defaults modern live sweeps to the curated high-signal cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:691",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/model-compat.test.ts] leaves explicit model lists uncapped unless a cap is provided",
+TEST_CASE("v4.29 [src/agents/model-compat.test.ts:699] leaves explicit model lists uncapped unless a cap is provided",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/model-compat.test.ts:699",
                "upstream it() block #49",

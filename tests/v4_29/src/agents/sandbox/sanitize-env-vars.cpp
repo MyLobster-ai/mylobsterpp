@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts] keeps normal env vars and blocks obvious credentials",
+TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts:5] keeps normal env vars and blocks obvious credentials",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/sanitize-env-vars.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts] blocks credentials even when suffix pattern matches",
+TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts:20] blocks credentials even when suffix pattern matches",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/sanitize-env-vars.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts] adds warnings for suspicious values",
+TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts:31] adds warnings for suspicious values",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/sanitize-env-vars.test.ts:31",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts] supports strict mode with explicit allowlist",
+TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts:45] supports strict mode with explicit allowlist",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/sanitize-env-vars.test.ts:45",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts] skips undefined values when sanitizing process-style env maps",
+TEST_CASE("v4.29 [src/agents/sandbox/sanitize-env-vars.test.ts:58] skips undefined values when sanitizing process-style env maps",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/sanitize-env-vars.test.ts:58",
                "upstream it() block #4",

@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/logging/console-settings.test.ts] does not recurse when loadConfig logs during resolution",
+TEST_CASE("v4.29 [src/logging/console-settings.test.ts:76] does not recurse when loadConfig logs during resolution",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/console-settings.test.ts:76",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/logging/console-settings.test.ts] skips config fallback during re-entrant resolution",
+TEST_CASE("v4.29 [src/logging/console-settings.test.ts:85] skips config fallback during re-entrant resolution",
           "[v4_29][parity_gap][logging]") {
     PARITY_GAP("src/logging/console-settings.test.ts:85",
                "upstream it() block #1",

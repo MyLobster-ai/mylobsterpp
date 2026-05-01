@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] times out and fires callback when compaction retry never resolves",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:45] times out and fires callback when compaction retry never resolves",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:45",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] keeps waiting while compaction remains in flight",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:60] keeps waiting while compaction remains in flight",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:60",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] times out after an idle timeout window",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:87] times out after an idle timeout window",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:87",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] does not time out when compaction retry resolves",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:109] does not time out when compaction retry resolves",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:109",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] propagates immediate waitForCompactionRetry failures",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:121] propagates immediate waitForCompactionRetry failures",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:121",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] handles waitForCompactionRetry rejection after timeout wins",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:137] handles waitForCompactionRetry rejection after timeout wins",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:137",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts] propagates abort errors from abortable and clears timer",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:161] propagates abort errors from abortable and clears timer",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/run/compaction-retry-aggregate-timeout.test.ts:161",
                "upstream it() block #6",

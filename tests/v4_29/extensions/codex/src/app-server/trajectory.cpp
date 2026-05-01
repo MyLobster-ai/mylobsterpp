@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts] keeps write flags usable when O_NOFOLLOW is unavailable",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts:26] keeps write flags usable when O_NOFOLLOW is unavailable",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/trajectory.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts] records by default unless explicitly disabled",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts:38] records by default unless explicitly disabled",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/trajectory.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts] sanitizes session ids when resolving an override directory",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts:73] sanitizes session ids when resolving an override directory",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/trajectory.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts] honors explicit disablement",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts:91] honors explicit disablement",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/trajectory.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts] refuses to append through a symlinked parent directory",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts:106] refuses to append through a symlinked parent directory",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/trajectory.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts] truncates events that exceed the runtime event byte limit",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/trajectory.test.ts:128] truncates events that exceed the runtime event byte limit",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/trajectory.test.ts:128",
                "upstream it() block #5",

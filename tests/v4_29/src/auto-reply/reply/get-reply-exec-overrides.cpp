@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-exec-overrides.test.ts] uses per-agent exec defaults when session and message are unset",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-exec-overrides.test.ts:22] uses per-agent exec defaults when session and message are unset",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-exec-overrides.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-exec-overrides.test.ts] prefers inline exec directives, then persisted session overrides, then agent defaults",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-exec-overrides.test.ts:32] prefers inline exec directives, then persisted session overrides, then agent defaults",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-exec-overrides.test.ts:32",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-exec-overrides.test.ts] uses persisted session exec fields for later turns",
+TEST_CASE("v4.29 [src/auto-reply/reply/get-reply-exec-overrides.test.ts:63] uses persisted session exec fields for later turns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/get-reply-exec-overrides.test.ts:63",
                "upstream it() block #2",

@@ -5,460 +5,460 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] registers tool-event recipients for clients advertising tool-events capability",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:527] registers tool-event recipients for clients advertising tool-events capability",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:527",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] does not register tool-event recipients without tool-events capability",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:566] does not register tool-event recipients without tool-events capability",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:566",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] persists agent-run audio replies emitted as media-bearing block payloads",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:589] persists agent-run audio replies emitted as media-bearing block payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:589",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] persists auto-TTS final media as audio-only so webchat does not duplicate assistant text",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:654] persists auto-TTS final media as audio-only so webchat does not duplicate assistant text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:654",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] keeps visible text on non-agent TTS final media because no model transcript exists",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:718] keeps visible text on non-agent TTS final media because no model transcript exists",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:718",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] renders image reply payloads as assistant image content instead of MEDIA text",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:769] renders image reply payloads as assistant image content instead of MEDIA text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:769",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] suppresses reasoning payloads from webchat transcript replies",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:794] suppresses reasoning payloads from webchat transcript replies",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:794",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.inject keeps message defined when directive tag is the only content",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:819] chat.inject keeps message defined when directive tag is the only content",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:819",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send non-streaming final keeps message defined for directive-only assistant text",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:848] chat.send non-streaming final keeps message defined for directive-only assistant text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:848",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] rejects oversized chat.send session keys before dispatch",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:870] rejects oversized chat.send session keys before dispatch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:870",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.inject strips external untrusted wrapper metadata from final payload text",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:898] chat.inject strips external untrusted wrapper metadata from final payload text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:898",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.inject broadcasts and routes on the canonical session key",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:921] chat.inject broadcasts and routes on the canonical session key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:921",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send non-streaming final strips external untrusted wrapper metadata from final payload text",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:957] chat.send non-streaming final strips external untrusted wrapper metadata from final payload text",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:957",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send non-streaming final broadcasts and routes on the canonical session key",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:971] chat.send non-streaming final broadcasts and routes on the canonical session key",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:971",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send broadcasts final replies for telegram-shaped session keys",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1001] chat.send broadcasts final replies for telegram-shaped session keys",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1001",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps explicit delivery routes for channel-scoped sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1031] chat.send keeps explicit delivery routes for channel-scoped sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1031",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps explicit delivery routes for Feishu channel-scoped sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1069] chat.send keeps explicit delivery routes for Feishu channel-scoped sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1069",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps explicit delivery routes for per-account channel-peer sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1104] chat.send keeps explicit delivery routes for per-account channel-peer sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1104",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps explicit delivery routes for legacy channel-peer sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1139] chat.send keeps explicit delivery routes for legacy channel-peer sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1139",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps explicit delivery routes for legacy thread sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1174] chat.send keeps explicit delivery routes for legacy thread sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1174",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send does not inherit external delivery context for shared main sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1212] chat.send does not inherit external delivery context for shared main sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1212",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send does not inherit external delivery context for UI clients on main sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1246] chat.send does not inherit external delivery context for UI clients on main sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1246",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send does not inherit external delivery context for UI clients on main sessions when deliver is enabled",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1287] chat.send does not inherit external delivery context for UI clients on main sessions when deliver is enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1287",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send inherits external delivery context for CLI clients on configured main sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1330] chat.send inherits external delivery context for CLI clients on configured main sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1330",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send falls back to origin provider metadata for configured main CLI delivery inheritance",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1373] chat.send falls back to origin provider metadata for configured main CLI delivery inheritance",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1373",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send falls back to origin thread metadata for configured main CLI delivery inheritance",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1413] chat.send falls back to origin thread metadata for configured main CLI delivery inheritance",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1413",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps configured main delivery inheritance when connect metadata omits client details",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1456] chat.send keeps configured main delivery inheritance when connect metadata omits client details",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1456",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send does not inherit external delivery context for non-channel custom sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1494] chat.send does not inherit external delivery context for non-channel custom sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1494",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send keeps replies on the internal surface when deliver is not enabled",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1529] chat.send keeps replies on the internal surface when deliver is not enabled",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1529",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send does not inherit external routes for webchat clients on channel-scoped sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1563] chat.send does not inherit external routes for webchat clients on channel-scoped sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1563",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send still inherits external routes for UI clients on channel-scoped sessions",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1608] chat.send still inherits external routes for UI clients on channel-scoped sessions",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1608",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] chat.send accepts admin-scoped synthetic originating routes without external delivery",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1651] chat.send accepts admin-scoped synthetic originating routes without external delivery",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1651",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] rejects synthetic originating routes when the caller lacks admin scope",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1683] rejects synthetic originating routes when the caller lacks admin scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1683",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] rejects reserved system provenance fields for non-ACP clients",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1710] rejects reserved system provenance fields for non-ACP clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1710",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] rejects forged ACP metadata when the caller lacks admin scope",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1736] rejects forged ACP metadata when the caller lacks admin scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1736",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] allows admin-scoped clients to inject system provenance without ACP metadata",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1773] allows admin-scoped clients to inject system provenance without ACP metadata",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1773",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] forwards gateway caller scopes into the dispatch context",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1813] forwards gateway caller scopes into the dispatch context",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1813",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] normalizes missing gateway caller scopes to an empty array before dispatch",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1835] normalizes missing gateway caller scopes to an empty array before dispatch",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1835",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] injects ACP system provenance into the agent-visible body",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1854] injects ACP system provenance into the agent-visible body",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1854",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] emits a user transcript update when chat.send starts an agent run",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1896] emits a user transcript update when chat.send starts an agent run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1896",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] adds persisted media paths to the user transcript update",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:1932] adds persisted media paths to the user transcript update",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:1932",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] persists non-image chat.send attachments as media refs without dispatch images",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2009] persists non-image chat.send attachments as media refs without dispatch images",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2009",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] preserves offloaded attachment media paths in transcript order",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2072] preserves offloaded attachment media paths in transcript order",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2072",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] skips transcript media notes for ACP bridge clients",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2141] skips transcript media notes for ACP bridge clients",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2141",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] waits for the user transcript update before final broadcast on non-agent attachment sends",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2195] waits for the user transcript update before final broadcast on non-agent attachment sends",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2195",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] preserves media-only final replies in the final broadcast message",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2237] preserves media-only final replies in the final broadcast message",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2237",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] strips NO_REPLY from transcript text when final replies only carry media",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2258] strips NO_REPLY from transcript text when final replies only carry media",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2258",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] preserves reply tags in transcript updates for media replies while stripping them from the broadcast",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2282] preserves reply tags in transcript updates for media replies while stripping them from the broadcast",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2282",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] does not persist sensitive image media into transcript updates",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2324] does not persist sensitive image media into transcript updates",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2324",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] sanitizes replyToId before emitting inline reply directives",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2364] sanitizes replyToId before emitting inline reply directives",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2364",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] routes text-only image offloads into media-understanding fields",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2390] routes text-only image offloads into media-understanding fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2390",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] keeps image attachments inline for configured custom vision models",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2440] keeps image attachments inline for configured custom vision models",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2440",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] keeps image attachments for text-only sessions bound to ACP",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2488] keeps image attachments for text-only sessions bound to ACP",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2488",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] resolves attachment image support from the session agent model",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2539] resolves attachment image support from the session agent model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2539",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] routes non-image offloaded refs into ctx.MediaPaths + MediaTypes for chat.send",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2607] routes non-image offloaded refs into ctx.MediaPaths + MediaTypes for chat.send",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2607",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] preserves sandbox-relative MediaPaths and stores workspace context for media-understanding",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2666] preserves sandbox-relative MediaPaths and stores workspace context for media-understanding",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2666",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] wraps stageSandboxMedia infrastructure errors as 5xx UNAVAILABLE and cleans up media-store files",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2714] wraps stageSandboxMedia infrastructure errors as 5xx UNAVAILABLE and cleans up media-store files",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2714",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] surfaces partial non-image staging failures as 5xx UNAVAILABLE",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2773] surfaces partial non-image staging failures as 5xx UNAVAILABLE",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2773",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] rejects sandbox-oversized non-image attachments as 4xx before staging",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2833] rejects sandbox-oversized non-image attachments as 4xx before staging",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2833",
                "upstream it() block #58",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] passes imageOrder for mixed inline and offloaded chat.send attachments",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2892] passes imageOrder for mixed inline and offloaded chat.send attachments",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2892",
                "upstream it() block #59",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] maps media offload failures to UNAVAILABLE in chat.send",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2938] maps media offload failures to UNAVAILABLE in chat.send",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2938",
                "upstream it() block #60",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] persists chat.send attachments one at a time",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:2981] persists chat.send attachments one at a time",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:2981",
                "upstream it() block #61",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] does not parse or offload attachments for stop commands",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:3029] does not parse or offload attachments for stop commands",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:3029",
                "upstream it() block #62",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] emits a user transcript update when chat.send completes without an agent run",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:3069] emits a user transcript update when chat.send completes without an agent run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:3069",
                "upstream it() block #63",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts] emits a user transcript update when chat.send fails before an agent run starts",
+TEST_CASE("v4.29 [src/gateway/server-methods/chat.directive-tags.test.ts:3100] emits a user transcript update when chat.send fails before an agent run starts",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-methods/chat.directive-tags.test.ts:3100",
                "upstream it() block #64",

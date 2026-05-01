@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/sandbox/manage.test.ts] compares browser runtimes against sandbox.browser.image",
+TEST_CASE("v4.29 [src/agents/sandbox/manage.test.ts:101] compares browser runtimes against sandbox.browser.image",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/manage.test.ts:101",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/sandbox/manage.test.ts] removes browser runtimes with BrowserImage config label kind",
+TEST_CASE("v4.29 [src/agents/sandbox/manage.test.ts:120] removes browser runtimes with BrowserImage config label kind",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/sandbox/manage.test.ts:120",
                "upstream it() block #1",

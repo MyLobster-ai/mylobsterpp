@@ -5,124 +5,124 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] stays disabled until configured",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:22] stays disabled until configured",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:22",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] reports an installed Computer Use MCP server from a registered marketplace",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:35] reports an installed Computer Use MCP server from a registered marketplace",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:35",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] reports an installed but disabled Computer Use plugin separately",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:64] reports an installed but disabled Computer Use plugin separately",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:64",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] does not register marketplace sources during status checks",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:86] does not register marketplace sources during status checks",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:86",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] fails closed when multiple marketplaces contain Computer Use",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:113] fails closed when multiple marketplaces contain Computer Use",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:113",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] installs Computer Use from a configured marketplace source",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:132] installs Computer Use from a configured marketplace source",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:132",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] re-enables an installed but disabled Computer Use plugin during install",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:166] re-enables an installed but disabled Computer Use plugin during install",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:166",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] fails closed when Computer Use is required but not installed",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:189] fails closed when Computer Use is required but not installed",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:189",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] skips setup writes when auto-install is already ready",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:205] skips setup writes when auto-install is already ready",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:205",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] uses setup writes when auto-install needs to install",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:234] uses setup writes when auto-install needs to install",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:234",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] auto-registers the bundled Codex app marketplace during auto-install",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:264] auto-registers the bundled Codex app marketplace during auto-install",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:264",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] allows auto-install from a configured local marketplace path",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:299] allows auto-install from a configured local marketplace path",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:299",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] requires an explicit install command for configured marketplace sources",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:327] requires an explicit install command for configured marketplace sources",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:327",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] fails closed when a configured marketplace name is not discovered",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:350] fails closed when a configured marketplace name is not discovered",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:350",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] fails closed instead of installing from a remote-only Codex marketplace",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:374] fails closed instead of installing from a remote-only Codex marketplace",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:374",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] waits for the default Codex marketplace during install",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:396] waits for the default Codex marketplace during install",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:396",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts] prefers the official Computer Use marketplace when multiple matches are present",
+TEST_CASE("v4.29 [extensions/codex/src/app-server/computer-use.test.ts:425] prefers the official Computer Use marketplace when multiple matches are present",
           "[v4_29][parity_gap][codex]") {
     PARITY_GAP("extensions/codex/src/app-server/computer-use.test.ts:425",
                "upstream it() block #16",

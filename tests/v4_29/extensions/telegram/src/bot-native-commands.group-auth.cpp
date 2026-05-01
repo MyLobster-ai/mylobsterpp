@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] authorizes native commands in groups when sender is in groupAllowFrom",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:40] authorizes native commands in groups when sender is in groupAllowFrom",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] does not authorize group native commands from the DM allowlist store",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:55] does not authorize group native commands from the DM allowlist store",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] authorizes native commands in groups from commands.allowFrom.telegram",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:69] authorizes native commands in groups from commands.allowFrom.telegram",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:69",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] uses commands.allowFrom.telegram as the sole auth source when configured",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:91] uses commands.allowFrom.telegram as the sole auth source when configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:91",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] keeps groupPolicy disabled enforced when commands.allowFrom is configured",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:115] keeps groupPolicy disabled enforced when commands.allowFrom is configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:115",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] keeps group chat allowlists enforced when commands.allowFrom is configured",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:148] keeps group chat allowlists enforced when commands.allowFrom is configured",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:148",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] rejects native commands in groups when sender is in neither allowlist",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:176] rejects native commands in groups when sender is in neither allowlist",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:176",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts] replies in the originating forum topic when auth is rejected",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-native-commands.group-auth.test.ts:193] replies in the originating forum topic when auth is rejected",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-native-commands.group-auth.test.ts:193",
                "upstream it() block #7",

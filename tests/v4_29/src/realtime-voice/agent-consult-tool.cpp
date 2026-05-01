@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts] normalizes shared tool arguments for browser chat forwarding",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts:14] normalizes shared tool arguments for browser chat forwarding",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-tool.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts] requires a non-empty question",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts:24] requires a non-empty question",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-tool.test.ts:24",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts] builds a reusable spoken consultant prompt with recent transcript",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts:30] builds a reusable spoken consultant prompt with recent transcript",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-tool.test.ts:30",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts] filters reasoning and error payloads from visible consult output",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts:49] filters reasoning and error payloads from visible consult output",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-tool.test.ts:49",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts] normalizes policy values and resolves shared tool exposure",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts:60] normalizes policy values and resolves shared tool exposure",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-tool.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts] keeps the shared consult tool ahead of custom realtime tools and dedupes by name",
+TEST_CASE("v4.29 [src/realtime-voice/agent-consult-tool.test.ts:81] keeps the shared consult tool ahead of custom realtime tools and dedupes by name",
           "[v4_29][parity_gap][realtime-voice]") {
     PARITY_GAP("src/realtime-voice/agent-consult-tool.test.ts:81",
                "upstream it() block #5",

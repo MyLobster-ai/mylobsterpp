@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] searches chat messages with query string",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:21] searches chat messages with query string",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:21",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] searches channel messages",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:55] searches channel messages",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:55",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] applies limit parameter",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:78] applies limit parameter",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:78",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] clamps limit to max 50",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:92] clamps limit to max 50",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:92",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] clamps limit to min 1",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:106] clamps limit to min 1",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:106",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] applies from filter",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:120] applies from filter",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:120",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] escapes single quotes in from filter",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:136] escapes single quotes in from filter",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:136",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] strips double quotes from query to prevent injection",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:151] strips double quotes from query to prevent injection",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:151",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] passes ConsistencyLevel: eventual header",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:166] passes ConsistencyLevel: eventual header",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:166",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] returns empty array when no messages match",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:182] returns empty array when no messages match",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:182",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts] resolves user: target through conversation store",
+TEST_CASE("v4.29 [extensions/msteams/src/graph-messages.search.test.ts:194] resolves user: target through conversation store",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/graph-messages.search.test.ts:194",
                "upstream it() block #10",

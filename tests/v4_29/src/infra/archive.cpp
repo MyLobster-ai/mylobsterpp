@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] rejects zip path traversal (zip slip)",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:166] rejects zip path traversal (zip slip)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:166",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] rejects zip entries that traverse pre-existing destination symlinks",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:182] rejects zip entries that traverse pre-existing destination symlinks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:182",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] does not clobber out-of-destination file when parent dir is symlink-rebound during zip extract",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:211] does not clobber out-of-destination file when parent dir is symlink-rebound during zip extract",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:211",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] rejects tar path traversal (zip slip)",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:290] rejects tar path traversal (zip slip)",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:290",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] rejects tar entries that traverse pre-existing destination symlinks",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:308] rejects tar entries that traverse pre-existing destination symlinks",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:308",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] rejects zip archives whose actual central directory exceeds the entry limit before parsing",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:378] rejects zip archives whose actual central directory exceeds the entry limit before parsing",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:378",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/archive.test.ts] rejects tar entries with absolute extraction paths",
+TEST_CASE("v4.29 [src/infra/archive.test.ts:399] rejects tar entries with absolute extraction paths",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/archive.test.ts:399",
                "upstream it() block #6",

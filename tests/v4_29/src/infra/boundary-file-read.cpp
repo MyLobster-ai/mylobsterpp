@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] recognizes the required sync fs surface",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:36] recognizes the required sync fs surface",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:36",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] maps sync boundary resolution into verified file opens",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:62] maps sync boundary resolution into verified file opens",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:62",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] returns validation errors when sync boundary resolution throws",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:109] returns validation errors when sync boundary resolution throws",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:109",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] guards against unexpected async sync-resolution results",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:129] guards against unexpected async sync-resolution results",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:129",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] awaits async boundary resolution before verifying the file",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:151] awaits async boundary resolution before verifying the file",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:151",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] maps async boundary resolution failures to validation errors",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:196] maps async boundary resolution failures to validation errors",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:196",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts] matches boundary file failures by reason with fallback support",
+TEST_CASE("v4.29 [src/infra/boundary-file-read.test.ts:214] matches boundary file failures by reason with fallback support",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/boundary-file-read.test.ts:214",
                "upstream it() block #6",

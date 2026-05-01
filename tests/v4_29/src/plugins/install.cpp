@@ -5,418 +5,418 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] installs scoped archives, rejects duplicate installs, and allows updates",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:623] installs scoped archives, rejects duplicate installs, and allows updates",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:623",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects native plugin zip archives without openclaw.plugin.json",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:675] rejects native plugin zip archives without openclaw.plugin.json",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:675",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] allows archive installs with dangerous code patterns when forced unsafe install is set",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:696] allows archive installs with dangerous code patterns when forced unsafe install is set",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:696",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] installs flat-root plugin archives from ClawHub-style downloads",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:728] installs flat-root plugin archives from ClawHub-style downloads",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:728",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects reserved archive package ids",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:748] rejects reserved archive package ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:748",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects packages without openclaw.extensions",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:757] rejects packages without openclaw.extensions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:757",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects legacy plugin package shape when openclaw.extensions is missing",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:770] rejects legacy plugin package shape when openclaw.extensions is missing",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:770",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects package installs when openclaw.extensions entries escape the package",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:805] rejects package installs when openclaw.extensions entries escape the package",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:805",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects package installs when no extension runtime entry exists",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:833] rejects package installs when no extension runtime entry exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:833",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] allows missing TypeScript source entries when an inferred built runtime entry exists",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:856] allows missing TypeScript source entries when an inferred built runtime entry exists",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:856",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects package installs when runtimeExtensions length does not match extensions",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:880] rejects package installs when runtimeExtensions length does not match extensions",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:880",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects package installs when an extension entry is a symlink escape",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:909] rejects package installs when an extension entry is a symlink escape",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:909",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] rejects package installs when an extension entry is a hardlinked alias",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:942] rejects package installs when an extension entry is a hardlinked alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:942",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when plugin contains dangerous code patterns",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:981] blocks package installs when plugin contains dangerous code patterns",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:981",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] allows package installs when dangerous scanner patterns are only in tests",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1008] allows package installs when dangerous scanner patterns are only in tests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1008",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] still scans declared package entrypoints when they live under test-looking paths",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1032] still scans declared package entrypoints when they live under test-looking paths",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1032",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when a package manifest declares a blocked dependency",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1058] blocks package installs when a package manifest declares a blocked dependency",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1058",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when a dependency aliases to a blocked package",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1088] blocks package installs when a dependency aliases to a blocked package",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1088",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when overrides alias to a blocked package",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1116] blocks package installs when overrides alias to a blocked package",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1116",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when a nested vendored package manifest declares a blocked dependency",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1148] blocks package installs when a nested vendored package manifest declares a blocked dependency",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1148",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when node_modules contains a blocked package directory without package.json",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1182] blocks package installs when node_modules contains a blocked package directory without package.json",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1182",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when node_modules contains a blocked package file alias",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1209] blocks package installs when node_modules contains a blocked package file alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1209",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when node_modules contains a blocked extensionless package file alias",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1236] blocks package installs when node_modules contains a blocked extensionless package file alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1236",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] does not block package installs for blocked-looking names outside node_modules",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1577] does not block package installs for blocked-looking names outside node_modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1577",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] does not block package installs for blocked package file aliases outside node_modules",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1599] does not block package installs for blocked package file aliases outside node_modules",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1599",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks package installs when a broad vendored tree contains a deeply nested blocked manifest",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1619] blocks package installs when a broad vendored tree contains a deeply nested blocked manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1619",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] fails package installs when manifest traversal exceeds the directory cap",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1668] fails package installs when manifest traversal exceeds the directory cap",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1668",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] fails package installs when manifest traversal exceeds the depth cap",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1696] fails package installs when manifest traversal exceeds the depth cap",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1696",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] reports all blocked dependencies from the same manifest",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1766] reports all blocked dependencies from the same manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1766",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] allows package installs with dangerous code patterns when forced unsafe install is set",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1796] allows package installs with dangerous code patterns when forced unsafe install is set",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1796",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] does not flag the real qa-matrix plugin as dangerous install code",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1828] does not flag the real qa-matrix plugin as dangerous install code",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1828",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] keeps blocked dependency package checks active when forced unsafe install is set",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1843] keeps blocked dependency package checks active when forced unsafe install is set",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1843",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks bundle installs when bundle contains dangerous code patterns",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1884] blocks bundle installs when bundle contains dangerous code patterns",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1884",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] allows bundle installs when dangerous scanner patterns are only in tests",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1901] allows bundle installs when dangerous scanner patterns are only in tests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1901",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks bundle installs when a vendored manifest declares a blocked dependency",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1919] blocks bundle installs when a vendored manifest declares a blocked dependency",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1919",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks bundle installs when a vendored manifest uses a blocked package name",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1952] blocks bundle installs when a vendored manifest uses a blocked package name",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1952",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks bundle installs when node_modules contains a blocked package directory without package.json",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:1981] blocks bundle installs when node_modules contains a blocked package directory without package.json",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:1981",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks bundle installs when node_modules contains a blocked package file alias",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2001] blocks bundle installs when node_modules contains a blocked package file alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2001",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks bundle installs when node_modules contains a blocked extensionless package file alias",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2021] blocks bundle installs when node_modules contains a blocked extensionless package file alias",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2021",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] surfaces plugin scanner findings from before_install",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2165] surfaces plugin scanner findings from before_install",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2165",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks plugin install when before_install rejects after builtin critical findings",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2228] blocks plugin install when before_install rejects after builtin critical findings",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2228",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] keeps before_install hook blocks even when dangerous force unsafe install is set",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2288] keeps before_install hook blocks even when dangerous force unsafe install is set",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2288",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] reports install mode to before_install when force-style update runs against a missing target",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2335] reports install mode to before_install when force-style update runs against a missing target",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2335",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] reports update mode to before_install when replacing an existing target",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2366] reports update mode to before_install when replacing an existing target",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2366",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] scans extension entry files in hidden directories",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2404] scans extension entry files in hidden directories",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2404",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks install when scanner throws",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2428] blocks install when scanner throws",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2428",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] uses --ignore-scripts for dependency install",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2472] uses --ignore-scripts for dependency install",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2472",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] runs npm install for optional-only dependencies",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2486] runs npm install for optional-only dependencies",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2486",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] strips workspace devDependencies before npm install",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2512] strips workspace devDependencies before npm install",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2512",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] blocks install when resolved dependencies introduce a denied package",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2541] blocks install when resolved dependencies introduce a denied package",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2541",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] uses openclaw.plugin.json id as install key when it differs from package name",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2627] uses openclaw.plugin.json id as install key when it differs from package name",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2627",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] does not warn when a scoped npm package name matches the manifest id",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2649] does not warn when a scoped npm package name matches the manifest id",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2649",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] keeps scoped install-dir validation aligned for real scoped ids",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2718] keeps scoped install-dir validation aligned for real scoped ids",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2718",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] prefers native package installs over bundle installs for dual-format directories",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2770] prefers native package installs over bundle installs for dual-format directories",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2770",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] creates a node_modules/openclaw symlink when peerDependencies declares openclaw",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2819] creates a node_modules/openclaw symlink when peerDependencies declares openclaw",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2819",
                "upstream it() block #54",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] keeps the openclaw peer symlink when plugin package dependencies are installed",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2841] keeps the openclaw peer symlink when plugin package dependencies are installed",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2841",
                "upstream it() block #55",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] does not create a symlink when peerDependencies is empty",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2866] does not create a symlink when peerDependencies is empty",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2866",
                "upstream it() block #56",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] is idempotent - re-installing replaces an existing symlink without error",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2884] is idempotent - re-installing replaces an existing symlink without error",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2884",
                "upstream it() block #57",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/install.test.ts] warns and skips when resolveOpenClawPackageRootSync returns null",
+TEST_CASE("v4.29 [src/plugins/install.test.ts:2911] warns and skips when resolveOpenClawPackageRootSync returns null",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/install.test.ts:2911",
                "upstream it() block #58",

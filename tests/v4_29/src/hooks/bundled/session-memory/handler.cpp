@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] skips non-command events",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:194] skips non-command events",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:194",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] skips commands other than new",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:208] skips commands other than new",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:208",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] creates memory file with session content on /new command",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:222] creates memory file with session content on /new command",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:222",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] creates memory file with session content on /reset command",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:240] creates memory file with session content on /reset command",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:240",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] uses local timezone date and fallback time in memory filenames and headers",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:255] uses local timezone date and fallback time in memory filenames and headers",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:255",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] prefers workspaceDir from hook context when sessionKey points at main",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:273] prefers workspaceDir from hook context when sessionKey points at main",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:273",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] filters out non-message entries (tool calls, system)",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:311] filters out non-message entries (tool calls, system)",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:311",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] filters out inter-session user messages",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:329] filters out inter-session user messages",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:329",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] filters out command messages starting with /",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:355] filters out command messages starting with /",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:355",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] respects custom messages config (limits to N messages)",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:370] respects custom messages config (limits to N messages)",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:370",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] filters messages before slicing (fix for #2681)",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:388] filters messages before slicing (fix for #2681)",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:388",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] falls back to latest .jsonl.reset.* transcript when active file is empty",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:413] falls back to latest .jsonl.reset.* transcript when active file is empty",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:413",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] handles reset-path session pointers from previousSessionEntry",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:435] handles reset-path session pointers from previousSessionEntry",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:435",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] recovers transcript when previousSessionEntry.sessionFile is missing",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:460] recovers transcript when previousSessionEntry.sessionFile is missing",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:460",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] prefers the newest reset transcript when multiple reset candidates exist",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:489] prefers the newest reset transcript when multiple reset candidates exist",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:489",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] prefers active transcript when it is non-empty even with reset candidates",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:522] prefers active transcript when it is non-empty even with reset candidates",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:522",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] handles empty session files gracefully",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:553] handles empty session files gracefully",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:553",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] uses agent-specific workspace when workspaceDir is provided for non-default agent (gateway path regression)",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:559] uses agent-specific workspace when workspaceDir is provided for non-default agent (gateway path regression)",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:559",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts] handles session files with fewer messages than requested",
+TEST_CASE("v4.29 [src/hooks/bundled/session-memory/handler.test.ts:602] handles session files with fewer messages than requested",
           "[v4_29][parity_gap][hooks]") {
     PARITY_GAP("src/hooks/bundled/session-memory/handler.test.ts:602",
                "upstream it() block #18",

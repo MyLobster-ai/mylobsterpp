@@ -5,96 +5,96 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] returns all sessions when search is empty or missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:151] returns all sessions when search is empty or missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:151",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] filters sessions across display metadata and key fields",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:164] filters sessions across display metadata and key fields",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:164",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] hides cron run alias session keys from sessions list",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:192] hides cron run alias session keys from sessions list",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:192",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] exposes unknown totals when freshness is stale or missing",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:250] exposes unknown totals when freshness is stale or missing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:250",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] includes estimated session cost when model pricing is configured",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:291] includes estimated session cost when model pricing is configured",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:291",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] prefers persisted estimated session cost from the store",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:331] prefers persisted estimated session cost from the store",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:331",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] keeps zero estimated session cost when configured model pricing resolves to free",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:363] keeps zero estimated session cost when configured model pricing resolves to free",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:363",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] falls back to transcript usage for totalTokens and zero estimatedCostUsd",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:403] falls back to transcript usage for totalTokens and zero estimatedCostUsd",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:403",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] falls back to transcript usage for totalTokens and estimatedCostUsd, and derives contextTokens from the resolved model",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:439] falls back to transcript usage for totalTokens and estimatedCostUsd, and derives contextTokens from the resolved model",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:439",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] uses subagent run model immediately for child sessions while transcript usage fills live totals",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:476] uses subagent run model immediately for child sessions while transcript usage fills live totals",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:476",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] keeps a running subagent model when transcript fallback still reflects an older run",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:530] keeps a running subagent model when transcript fallback still reflects an older run",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:530",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] keeps the selected override model when runtime identity was intentionally cleared",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:582] keeps the selected override model when runtime identity was intentionally cleared",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:582",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts] does not replace the current runtime model when transcript fallback is only for missing pricing",
+TEST_CASE("v4.29 [src/gateway/session-utils.search.test.ts:618] does not replace the current runtime model when transcript fallback is only for missing pricing",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/session-utils.search.test.ts:618",
                "upstream it() block #12",

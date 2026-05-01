@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] matches room IDs and aliases, not names",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:5] matches room IDs and aliases, not names",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] returns matchSource=",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:38] returns matchSource=",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] returns matchSource=",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:48] returns matchSource=",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:48",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] returns matchSource=",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:58] returns matchSource=",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:58",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] returns undefined matchSource when no match",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:68] returns undefined matchSource when no match",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:68",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] direct match takes priority over wildcard",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:78] direct match takes priority over wildcard",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:78",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] wildcard config should NOT be usable to override DM classification",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:97] wildcard config should NOT be usable to override DM classification",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:97",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts] explicitly configured room should be usable to override DM classification",
+TEST_CASE("v4.29 [extensions/matrix/src/matrix/monitor/rooms.test.ts:108] explicitly configured room should be usable to override DM classification",
           "[v4_29][parity_gap][matrix]") {
     PARITY_GAP("extensions/matrix/src/matrix/monitor/rooms.test.ts:108",
                "upstream it() block #7",

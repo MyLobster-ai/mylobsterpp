@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] preserves message text when rendering presentation controls",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:6] preserves message text when rendering presentation controls",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] builds card with default prompt starters",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:29] builds card with default prompt starters",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:29",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] uses custom bot name",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:42] uses custom bot name",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:42",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] uses custom prompt starters",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:48] uses custom prompt starters",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:48",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] falls back to defaults when promptStarters is empty",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:63] falls back to defaults when promptStarters is empty",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:63",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] includes bot name",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:71] includes bot name",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:71",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts] defaults to OpenClaw",
+TEST_CASE("v4.29 [extensions/msteams/src/welcome-card.test.ts:77] defaults to OpenClaw",
           "[v4_29][parity_gap][msteams]") {
     PARITY_GAP("extensions/msteams/src/welcome-card.test.ts:77",
                "upstream it() block #6",

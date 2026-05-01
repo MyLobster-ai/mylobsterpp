@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts] defaults to minimal level when reactionLevel is not set",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts:6] defaults to minimal level when reactionLevel is not set",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reaction-level.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts] returns off level with no reactions enabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts:20] returns off level with no reactions enabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reaction-level.test.ts:20",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts] returns ack level with only ackEnabled",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts:33] returns ack level with only ackEnabled",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reaction-level.test.ts:33",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts] returns minimal level with agent reactions enabled and minimal guidance",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts:46] returns minimal level with agent reactions enabled and minimal guidance",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reaction-level.test.ts:46",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts] returns extensive level with agent reactions enabled and extensive guidance",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts:60] returns extensive level with agent reactions enabled and extensive guidance",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reaction-level.test.ts:60",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts] resolves reaction level from a specific account",
+TEST_CASE("v4.29 [extensions/whatsapp/src/reaction-level.test.ts:74] resolves reaction level from a specific account",
           "[v4_29][parity_gap][whatsapp]") {
     PARITY_GAP("extensions/whatsapp/src/reaction-level.test.ts:74",
                "upstream it() block #5",

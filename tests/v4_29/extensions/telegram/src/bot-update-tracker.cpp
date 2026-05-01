@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts] persists accepted offsets before earlier pending updates complete",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts:26] persists accepted offsets before earlier pending updates complete",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-update-tracker.test.ts:26",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts] skips restart replays once the accepted offset is restored",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts:65] skips restart replays once the accepted offset is restored",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-update-tracker.test.ts:65",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts] serializes and coalesces accepted offset persistence",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts:86] serializes and coalesces accepted offset persistence",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-update-tracker.test.ts:86",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts] keeps failed accepted updates retryable in the same process",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts:128] keeps failed accepted updates retryable in the same process",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-update-tracker.test.ts:128",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts] dedupes handler dispatch separately from the accepted watermark",
+TEST_CASE("v4.29 [extensions/telegram/src/bot-update-tracker.test.ts:161] dedupes handler dispatch separately from the accepted watermark",
           "[v4_29][parity_gap][telegram]") {
     PARITY_GAP("extensions/telegram/src/bot-update-tracker.test.ts:161",
                "upstream it() block #4",

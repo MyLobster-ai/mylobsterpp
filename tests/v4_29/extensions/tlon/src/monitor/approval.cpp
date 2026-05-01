@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/tlon/src/monitor/approval.test.ts] uses secure hex entropy while preserving the ID format",
+TEST_CASE("v4.29 [extensions/tlon/src/monitor/approval.test.ts:22] uses secure hex entropy while preserving the ID format",
           "[v4_29][parity_gap][tlon]") {
     PARITY_GAP("extensions/tlon/src/monitor/approval.test.ts:22",
                "upstream it() block #0",

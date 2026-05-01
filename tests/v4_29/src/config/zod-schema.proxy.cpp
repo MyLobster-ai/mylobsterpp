@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] accepts undefined (optional)",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:5] accepts undefined (optional)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] accepts an empty object",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:9] accepts an empty object",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:9",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] accepts a full valid config",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:13] accepts a full valid config",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:13",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] rejects HTTPS proxy URLs because the node:http routing layer requires HTTP proxies",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:24] rejects HTTPS proxy URLs because the node:http routing layer requires HTTP proxies",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:24",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] does not expose bundled-proxy or unsupported upstream proxy keys",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:33] does not expose bundled-proxy or unsupported upstream proxy keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:33",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] rejects proxyUrl values that are not HTTP forward proxies",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:41] rejects proxyUrl values that are not HTTP forward proxies",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:41",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] rejects unknown keys (strict)",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:48] rejects unknown keys (strict)",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:48",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts] accepts enabled: false to disable the proxy",
+TEST_CASE("v4.29 [src/config/zod-schema.proxy.test.ts:52] accepts enabled: false to disable the proxy",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/zod-schema.proxy.test.ts:52",
                "upstream it() block #7",

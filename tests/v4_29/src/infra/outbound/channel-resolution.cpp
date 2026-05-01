@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts] returns the already-registered plugin without bootstrapping",
+TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts:111] returns the already-registered plugin without bootstrapping",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/channel-resolution.test.ts:111",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts] falls back to the active registry when getChannelPlugin misses",
+TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts:125] falls back to the active registry when getChannelPlugin misses",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/channel-resolution.test.ts:125",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts] bootstraps plugins once per registry key and returns the newly loaded plugin",
+TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts:144] bootstraps plugins once per registry key and returns the newly loaded plugin",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/channel-resolution.test.ts:144",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts] bootstraps when the active registry has other channels but not the requested one",
+TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts:166] bootstraps when the active registry has other channels but not the requested one",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/channel-resolution.test.ts:166",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts] retries bootstrap after a transient load failure",
+TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts:186] retries bootstrap after a transient load failure",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/channel-resolution.test.ts:186",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts] retries bootstrap when the pinned channel registry version changes",
+TEST_CASE("v4.29 [src/infra/outbound/channel-resolution.test.ts:207] retries bootstrap when the pinned channel registry version changes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/outbound/channel-resolution.test.ts:207",
                "upstream it() block #5",

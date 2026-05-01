@@ -5,362 +5,362 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] renders primitive values",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:29] renders primitive values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] renders arrays of primitives",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:38] renders arrays of primitives",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:38",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] drops object values",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:45] drops object values",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:45",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] renders missing placeholders as empty",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:51] renders missing placeholders as empty",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:51",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] keeps real newlines",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:59] keeps real newlines",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:59",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] normalizes CRLF/CR to LF",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:63] normalizes CRLF/CR to LF",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:63",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] preserves literal backslash-n sequences (Windows paths)",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:68] preserves literal backslash-n sequences (Windows paths)",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:68",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] neutralizes bracketed internal markers",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:76] neutralizes bracketed internal markers",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:76",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] is case-insensitive and handles extra bracket spacing",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:81] is case-insensitive and handles extra bracket spacing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:81",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] neutralizes line-leading System prefixes",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:86] neutralizes line-leading System prefixes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:86",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] neutralizes line-leading System prefixes in multiline text",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:92] neutralizes line-leading System prefixes in multiline text",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:92",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] does not rewrite non-line-leading System tokens",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:98] does not rewrite non-line-leading System tokens",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:98",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] fills BodyForAgent/BodyForCommands and normalizes newlines",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:104] fills BodyForAgent/BodyForCommands and normalizes newlines",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:104",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] sanitizes spoofed system markers in user-controlled text fields",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:125] sanitizes spoofed system markers in user-controlled text fields",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:125",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] preserves literal backslash-n in Windows paths",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:140] preserves literal backslash-n in Windows paths",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:140",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] can force BodyForCommands to follow updated CommandBody",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:154] can force BodyForCommands to follow updated CommandBody",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:154",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] fills MediaType/MediaTypes defaults only when media exists",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:167] fills MediaType/MediaTypes defaults only when media exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:167",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] pads MediaTypes to match MediaPaths/MediaUrls length",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:182] pads MediaTypes to match MediaPaths/MediaUrls length",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:182",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] derives MediaType from MediaTypes when missing",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:193] derives MediaType from MediaTypes when missing",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:193",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] builds a stable key when MessageSid is present",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:206] builds a stable key when MessageSid is present",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:206",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] skips duplicates with the same key",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:225] skips duplicates with the same key",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:225",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] does not dedupe when the peer changes",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:237] does not dedupe when the peer changes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:237",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] does not dedupe across agent ids",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:252] does not dedupe across agent ids",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:252",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] dedupes when the same agent sees the same inbound message under different session keys",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:276] dedupes when the same agent sees the same inbound message under different session keys",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:276",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] debounces and combines items",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:297] debounces and combines items",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:297",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] flushes buffered items before non-debounced item",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:319] flushes buffered items before non-debounced item",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:319",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] supports per-item debounce windows when default debounce is disabled",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:340] supports per-item debounce windows when default debounce is disabled",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:340",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] keeps later same-key work behind a timer-backed flush that already started",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:363] keeps later same-key work behind a timer-backed flush that already started",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:363",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] keeps fire-and-forget keyed work ahead of a later buffered item",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:417] keeps fire-and-forget keyed work ahead of a later buffered item",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:417",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] does not serialize keyed turns when debounce is disabled and no keyed chain exists",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:485] does not serialize keyed turns when debounce is disabled and no keyed chain exists",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:485",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] swallows onError failures so keyed chains still complete",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:515] swallows onError failures so keyed chains still complete",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:515",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] does not leak unhandled rejections when a keyed flush failure is awaited",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:535] does not leak unhandled rejections when a keyed flush failure is awaited",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:535",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] bypasses debouncing for new keys once the tracked-key cap is reached",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:558] bypasses debouncing for new keys once the tracked-key cap is reached",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:558",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] keeps same-key overflow work ordered after falling back to immediate flushes",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:582] keeps same-key overflow work ordered after falling back to immediate flushes",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:582",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] counts tracked debounce keys by union of buffers and active chains",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:645] counts tracked debounce keys by union of buffers and active chains",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:645",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] prefers BodyForAgent over Body for group chats",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:720] prefers BodyForAgent over Body for group chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:720",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] prefers BodyForAgent over Body for direct chats",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:742] prefers BodyForAgent over Body for direct chats",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:742",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] builds regexes and skips invalid or unsafe patterns",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:765] builds regexes and skips invalid or unsafe patterns",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:765",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] normalizes zero-width characters",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:775] normalizes zero-width characters",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:775",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] matches patterns case-insensitively",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:779] matches patterns case-insensitively",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:779",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] uses per-agent mention patterns when configured",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:786] uses per-agent mention patterns when configured",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:786",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] strips safe mention patterns and ignores unsafe ones",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:807] strips safe mention patterns and ignores unsafe ones",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:807",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] strips provider mention regexes without config compilation",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:816] strips provider mention regexes without config compilation",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:816",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] respects Discord guild/channel requireMention settings",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:828] respects Discord guild/channel requireMention settings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:828",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] respects Slack channel requireMention settings",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:858] respects Slack channel requireMention settings",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:858",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] uses Slack fallback resolver semantics for default-account wildcard channels",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:883] uses Slack fallback resolver semantics for default-account wildcard channels",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:883",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] keeps core reply-stage resolution aligned for Slack default-account wildcard fallbacks",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:913] keeps core reply-stage resolution aligned for Slack default-account wildcard fallbacks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:913",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] uses Discord fallback resolver semantics for guild slug matches",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:943] uses Discord fallback resolver semantics for guild slug matches",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:943",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] keeps core reply-stage resolution aligned for Discord slug + wildcard guild fallbacks",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:972] keeps core reply-stage resolution aligned for Discord slug + wildcard guild fallbacks",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:972",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] respects LINE prefixed group keys in reply-stage requireMention resolution",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:1003] respects LINE prefixed group keys in reply-stage requireMention resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:1003",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts] preserves plugin-backed channel requireMention resolution",
+TEST_CASE("v4.29 [src/auto-reply/inbound.test.ts:1027] preserves plugin-backed channel requireMention resolution",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/inbound.test.ts:1027",
                "upstream it() block #50",

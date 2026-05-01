@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts] returns disabled state without loading providers",
+TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts:40] returns disabled state without loading providers",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runtime.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts] returns the matching capability output",
+TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts:72] returns the matching capability output",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runtime.test.ts:72",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts] passes per-request image prompts into media understanding config",
+TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts:105] passes per-request image prompts into media understanding config",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runtime.test.ts:105",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts] surfaces the underlying provider failure when media understanding fails",
+TEST_CASE("v4.29 [src/media-understanding/runtime.test.ts:148] surfaces the underlying provider failure when media understanding fails",
           "[v4_29][parity_gap][media-understanding]") {
     PARITY_GAP("src/media-understanding/runtime.test.ts:148",
                "upstream it() block #3",

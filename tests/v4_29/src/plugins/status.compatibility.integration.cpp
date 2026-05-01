@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/status.compatibility.integration.test.ts] reports implicit startup sidecar compatibility from a real legacy manifest",
+TEST_CASE("v4.29 [src/plugins/status.compatibility.integration.test.ts:50] reports implicit startup sidecar compatibility from a real legacy manifest",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.compatibility.integration.test.ts:50",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/status.compatibility.integration.test.ts] does not report implicit startup compatibility for explicit startup-lazy manifests",
+TEST_CASE("v4.29 [src/plugins/status.compatibility.integration.test.ts:61] does not report implicit startup compatibility for explicit startup-lazy manifests",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/status.compatibility.integration.test.ts:61",
                "upstream it() block #1",

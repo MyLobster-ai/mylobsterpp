@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] returns undefined for normal assistant replies",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:5] returns undefined for normal assistant replies",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] classifies the generic external fallback reply as a failure",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:11] classifies the generic external fallback reply as a failure",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:11",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] classifies explicit provider auth guidance as a failure",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:19] classifies explicit provider auth guidance as a failure",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:19",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] classifies curated missing-key guidance as a failure",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:27] classifies curated missing-key guidance as a failure",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:27",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] classifies leaked codex harness coordination chatter as a failure",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:35] classifies leaked codex harness coordination chatter as a failure",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:35",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] returns undefined for normal visible replies",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:43] returns undefined for normal visible replies",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:43",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts] detects coordination-nudge leak text",
+TEST_CASE("v4.29 [extensions/qa-lab/src/reply-failure.test.ts:47] detects coordination-nudge leak text",
           "[v4_29][parity_gap][qa-lab]") {
     PARITY_GAP("extensions/qa-lab/src/reply-failure.test.ts:47",
                "upstream it() block #6",

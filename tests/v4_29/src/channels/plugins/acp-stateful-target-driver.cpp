@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-stateful-target-driver.test.ts] delegates bound resets to the gateway session reset authority",
+TEST_CASE("v4.29 [src/channels/plugins/acp-stateful-target-driver.test.ts:41] delegates bound resets to the gateway session reset authority",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-stateful-target-driver.test.ts:41",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/channels/plugins/acp-stateful-target-driver.test.ts] keeps ACP reset available when metadata has already been cleared",
+TEST_CASE("v4.29 [src/channels/plugins/acp-stateful-target-driver.test.ts:64] keeps ACP reset available when metadata has already been cleared",
           "[v4_29][parity_gap][channels]") {
     PARITY_GAP("src/channels/plugins/acp-stateful-target-driver.test.ts:64",
                "upstream it() block #1",

@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/shared/text/reasoning-tags.test.ts] handles long content and pathological backtick patterns efficiently",
+TEST_CASE("v4.29 [src/shared/text/reasoning-tags.test.ts:218] handles long content and pathological backtick patterns efficiently",
           "[v4_29][parity_gap][shared]") {
     PARITY_GAP("src/shared/text/reasoning-tags.test.ts:218",
                "upstream it() block #0",

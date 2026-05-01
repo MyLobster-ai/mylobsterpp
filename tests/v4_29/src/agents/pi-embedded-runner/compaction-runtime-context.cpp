@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts] preserves sender and current message routing for compaction",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:9] preserves sender and current message routing for compaction",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:9",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts] normalizes nullable compaction routing fields to undefined",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:49] normalizes nullable compaction routing fields to undefined",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:49",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts] applies compaction.model override with provider/model format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:81] applies compaction.model override with provider/model format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:81",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts] applies compaction.model override with model-only format",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:98] applies compaction.model override with model-only format",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:98",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts] uses session model when no compaction.model override configured",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:115] uses session model when no compaction.model override configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:115",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts] applies runtime defaults when resolving the effective compaction target",
+TEST_CASE("v4.29 [src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:129] applies runtime defaults when resolving the effective compaction target",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-runner/compaction-runtime-context.test.ts:129",
                "upstream it() block #5",

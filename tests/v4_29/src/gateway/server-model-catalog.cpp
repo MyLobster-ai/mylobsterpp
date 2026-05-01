@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts] caches the first successful catalog until reload marks it stale",
+TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts:40] caches the first successful catalog until reload marks it stale",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-model-catalog.test.ts:40",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts] does not cache an empty catalog so the next request retries",
+TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts:50] does not cache an empty catalog so the next request retries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-model-catalog.test.ts:50",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts] returns the last catalog while a stale reload refresh is still pending",
+TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts:68] returns the last catalog while a stale reload refresh is still pending",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-model-catalog.test.ts:68",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts] keeps serving the last catalog when a stale background refresh fails",
+TEST_CASE("v4.29 [src/gateway/server-model-catalog.test.ts:95] keeps serving the last catalog when a stale background refresh fails",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/server-model-catalog.test.ts:95",
                "upstream it() block #3",

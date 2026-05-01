@@ -5,12 +5,12 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/commands-stop-target.test.ts] does not fall back to the wrapper session when a distinct target session is missing from store",
+TEST_CASE("v4.29 [src/auto-reply/reply/commands-stop-target.test.ts:92] does not fall back to the wrapper session when a distinct target session is missing from store",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/commands-stop-target.test.ts:92",
                "upstream it() block #0",

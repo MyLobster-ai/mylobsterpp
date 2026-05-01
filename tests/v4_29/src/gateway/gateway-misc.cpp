@@ -5,243 +5,243 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] uses a large maxPayload for node snapshots",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:80] uses a large maxPayload for node snapshots",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:80",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] uses an explicit direct agent for control-plane WebSocket connections",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:89] uses an explicit direct agent for control-plane WebSocket connections",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] uses an explicit direct agent for IPv6 loopback control-plane WebSocket connections",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:100] uses an explicit direct agent for IPv6 loopback control-plane WebSocket connections",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:100",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] uses the direct control-plane bypass for localhost hostnames",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:108] uses the direct control-plane bypass for localhost hostnames",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:108",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] does not force a direct agent for remote Gateway WebSocket connections",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:116] does not force a direct agent for remote Gateway WebSocket connections",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:116",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] returns 404 for missing static asset paths instead of SPA fallback",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:127] returns 404 for missing static asset paths instead of SPA fallback",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:127",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] returns 404 for missing static assets with query strings",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:140] returns 404 for missing static assets with query strings",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:140",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] still serves SPA fallback for extensionless paths",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:153] still serves SPA fallback for extensionless paths",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:153",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] HEAD returns 404 for missing static assets consistent with GET",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:166] HEAD returns 404 for missing static assets consistent with GET",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:166",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] serves SPA fallback for dotted path segments that are not static assets",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:179] serves SPA fallback for dotted path segments that are not static assets",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:179",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] serves SPA fallback for .html paths that do not exist on disk",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:194] serves SPA fallback for .html paths that do not exist on disk",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:194",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] filters approval and pairing events by scope",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:283] filters approval and pairing events by scope",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:283",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] requires operator.read for chat-class broadcast events",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:330] requires operator.read for chat-class broadcast events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:330",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] allows plugin.* broadcast events for operator.write and operator.admin",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:362] allows plugin.* broadcast events for operator.write and operator.admin",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:362",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] defaults unknown events to deny and classifies remaining gateway broadcast events",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:386] defaults unknown events to deny and classifies remaining gateway broadcast events",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:386",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] keeps event seq contiguous per receiving client when scoped events are filtered",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:459] keeps event seq contiguous per receiving client when scoped events are filtered",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:459",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] preserves seq gaps when dropIfSlow skips an eligible broadcast",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:493] preserves seq gaps when dropIfSlow skips an eligible broadcast",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:493",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] records a payload diagnostic when the outbound websocket buffer exceeds the limit",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:524] records a payload diagnostic when the outbound websocket buffer exceeds the limit",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:524",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] queues and removes runs per session",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:562] queues and removes runs per session",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:562",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] returns success for unknown invoke ids for both success and error payloads",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:578] returns success for unknown invoke ids for both success and error payloads",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:578",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] routes events to subscribed nodes",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:625] routes events to subscribed nodes",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:625",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] unsubscribeAll clears session mappings",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:644] unsubscribeAll clears session mappings",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:644",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] includes iOS service commands by default",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:661] includes iOS service commands by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:661",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] includes Android notifications and device diagnostics commands by default",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:684] includes Android notifications and device diagnostics commands by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:684",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] treats sms.search as dangerous by default",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:702] treats sms.search as dangerous by default",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:702",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] allows macOS screen.snapshot by default but keeps screen.record gated",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:706] allows macOS screen.snapshot by default but keeps screen.record gated",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:706",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] allows safe Windows companion commands by default but keeps dangerous media gated",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:721] allows safe Windows companion commands by default but keeps dangerous media gated",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:721",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] can explicitly allow dangerous commands via allowCommands",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:746] can explicitly allow dangerous commands via allowCommands",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:746",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] treats unknown/confusable metadata as fail-safe for system.run defaults",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:762] treats unknown/confusable metadata as fail-safe for system.run defaults",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:762",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] normalizes dotted-I platform values to iOS classification",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:776] normalizes dotted-I platform values to iOS classification",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:776",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] returns defaults when input is empty",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:792] returns defaults when input is empty",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:792",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] trims and limits entries",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:797] trims and limits entries",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:797",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] prefers message for Error",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:804] prefers message for Error",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:804",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts] handles status/code",
+TEST_CASE("v4.29 [src/gateway/gateway-misc.test.ts:808] handles status/code",
           "[v4_29][parity_gap][gateway]") {
     PARITY_GAP("src/gateway/gateway-misc.test.ts:808",
                "upstream it() block #33",

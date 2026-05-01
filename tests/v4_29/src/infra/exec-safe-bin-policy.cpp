@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] allows stdin-only grep when pattern comes from flags",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:53] allows stdin-only grep when pattern comes from flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:53",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] blocks grep positional pattern form to avoid filename ambiguity",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:58] blocks grep positional pattern form to avoid filename ambiguity",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:58",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] blocks file positionals when pattern comes from -e/--regexp",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:62] blocks file positionals when pattern comes from -e/--regexp",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:62",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] allows normal jq field filters",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:73] allows normal jq field filters",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:73",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] blocks jq env builtin filters in safe-bin mode",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:78] blocks jq env builtin filters in safe-bin mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:78",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] allows stdin-only sort flags",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:92] allows stdin-only sort flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:92",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] rejects missing or path-like values for allowed flags",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:98] rejects missing or path-like values for allowed flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:98",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] blocks sort --compress-program in safe-bin mode",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:104] blocks sort --compress-program in safe-bin mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:104",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] blocks denied long-option abbreviations in safe-bin mode",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:109] blocks denied long-option abbreviations in safe-bin mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:109",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] rejects unknown or ambiguous long options in safe-bin mode",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:114] rejects unknown or ambiguous long options in safe-bin mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:114",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] blocks wc --files0-from abbreviations in safe-bin mode",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:123] blocks wc --files0-from abbreviations in safe-bin mode",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:123",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] rejects path-like and glob positional tokens after the terminator",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:130] rejects path-like and glob positional tokens after the terminator",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:130",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] keeps stdin marker after the terminator non-positional",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:136] keeps stdin marker after the terminator non-positional",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:136",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] precomputes long-option prefix mappings for compiled profiles",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:143] precomputes long-option prefix mappings for compiled profiles",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:143",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] preserves behavior when profile metadata is missing and rebuilt at runtime",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:150] preserves behavior when profile metadata is missing and rebuilt at runtime",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:150",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] builds prefix maps from collected long flags",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:162] builds prefix maps from collected long flags",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:162",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] ${binName} denies ${deniedFlag} (${variant.join(",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:181] ${binName} denies ${deniedFlag} (${variant.join(",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:181",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] keeps default safe-bin docs in sync with policy defaults",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:190] keeps default safe-bin docs in sync with policy defaults",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:190",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts] keeps denied-flag docs in sync with policy fixtures",
+TEST_CASE("v4.29 [src/infra/exec-safe-bin-policy.test.ts:202] keeps denied-flag docs in sync with policy fixtures",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/exec-safe-bin-policy.test.ts:202",
                "upstream it() block #18",

@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts] reloads sessions when the gateway pushes a sessions.changed event",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts:115] reloads sessions when the gateway pushes a sessions.changed event",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.sessions.node.test.ts:115",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts] reloads chat history for the active session",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts:132] reloads chat history for the active session",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.sessions.node.test.ts:132",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts] skips history reload while a chat run is active",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts:148] skips history reload while a chat run is active",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.sessions.node.test.ts:148",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts] ignores transcript updates for other sessions",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts:164] ignores transcript updates for other sessions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.sessions.node.test.ts:164",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts] keeps the newest approval at the front of the queue",
+TEST_CASE("v4.29 [ui/src/ui/app-gateway.sessions.node.test.ts:181] keeps the newest approval at the front of the queue",
           "[v4_29][parity_gap]") {
     PARITY_GAP("ui/src/ui/app-gateway.sessions.node.test.ts:181",
                "upstream it() block #4",

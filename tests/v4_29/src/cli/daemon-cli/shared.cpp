@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] maps known runtime states to expected theme colors",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:11] maps known runtime states to expected theme colors",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:11",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] falls back to warning color for unexpected states",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:17] falls back to warning color for unexpected states",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:17",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] resolves daemon container context from either env key",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:24] resolves daemon container context from either env key",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:24",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] prepends a single container restart hint when OPENCLAW_CONTAINER is set",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:37] prepends a single container restart hint when OPENCLAW_CONTAINER is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:37",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] prepends a single container restart hint when OPENCLAW_CONTAINER_HINT is set",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:49] prepends a single container restart hint when OPENCLAW_CONTAINER_HINT is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:49",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] drops the generic container foreground hint when OPENCLAW_CONTAINER is set",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:63] drops the generic container foreground hint when OPENCLAW_CONTAINER is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:63",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts] drops the generic container foreground hint when OPENCLAW_CONTAINER_HINT is set",
+TEST_CASE("v4.29 [src/cli/daemon-cli/shared.test.ts:75] drops the generic container foreground hint when OPENCLAW_CONTAINER_HINT is set",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/daemon-cli/shared.test.ts:75",
                "upstream it() block #6",

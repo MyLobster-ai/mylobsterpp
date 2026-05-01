@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/restart.test.ts] parses lsof output and filters non-openclaw/current processes",
+TEST_CASE("v4.29 [src/infra/restart.test.ts:75] parses lsof output and filters non-openclaw/current processes",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart.test.ts] returns empty when lsof fails",
+TEST_CASE("v4.29 [src/infra/restart.test.ts:104] returns empty when lsof fails",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart.test.ts:104",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart.test.ts] kills stale gateway pids discovered on the gateway port",
+TEST_CASE("v4.29 [src/infra/restart.test.ts:117] kills stale gateway pids discovered on the gateway port",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart.test.ts:117",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart.test.ts] uses explicit port override when provided",
+TEST_CASE("v4.29 [src/infra/restart.test.ts:143] uses explicit port override when provided",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart.test.ts] returns empty when no stale listeners are found",
+TEST_CASE("v4.29 [src/infra/restart.test.ts:171] returns empty when no stale listeners are found",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart.test.ts:171",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/restart.test.ts] continues when launchctl bootstrap reports the service is already loaded",
+TEST_CASE("v4.29 [src/infra/restart.test.ts:187] continues when launchctl bootstrap reports the service is already loaded",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/restart.test.ts:187",
                "upstream it() block #5",

@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [test/scripts/check-changelog-attributions.test.ts] flags forbidden bot, org, and maintainer thanks attributions",
+TEST_CASE("v4.29 [test/scripts/check-changelog-attributions.test.ts:6] flags forbidden bot, org, and maintainer thanks attributions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-changelog-attributions.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-changelog-attributions.test.ts] allows external contributor thanks attributions",
+TEST_CASE("v4.29 [test/scripts/check-changelog-attributions.test.ts:22] allows external contributor thanks attributions",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-changelog-attributions.test.ts:22",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [test/scripts/check-changelog-attributions.test.ts] keeps PR changelog gates on the same attribution policy",
+TEST_CASE("v4.29 [test/scripts/check-changelog-attributions.test.ts:30] keeps PR changelog gates on the same attribution policy",
           "[v4_29][parity_gap]") {
     PARITY_GAP("test/scripts/check-changelog-attributions.test.ts:30",
                "upstream it() block #2",

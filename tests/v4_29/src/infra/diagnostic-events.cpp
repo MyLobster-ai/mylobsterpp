@@ -5,138 +5,138 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] emits monotonic seq and timestamps to subscribers",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:29] emits monotonic seq and timestamps to subscribers",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:29",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] isolates listener failures and logs them",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:52] isolates listener failures and logs them",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:52",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] supports unsubscribe and full reset",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:73] supports unsubscribe and full reset",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:73",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] carries explicit trace context without creating retained trace state",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:100] carries explicit trace context without creating retained trace state",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:100",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] uses active request trace context when events omit explicit trace",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:125] uses active request trace context when events omit explicit trace",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:125",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] marks only internal trusted diagnostic emissions as trusted",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:158] marks only internal trusted diagnostic emissions as trusted",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:158",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] formats traceparent for propagation only from dispatcher-trusted metadata",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:189] formats traceparent for propagation only from dispatcher-trusted metadata",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:189",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] shares diagnostic state across duplicate module instances",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:215] shares diagnostic state across duplicate module instances",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:215",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] does not expose mutable diagnostic state on the obsolete global symbol",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:233] does not expose mutable diagnostic state on the obsolete global symbol",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:233",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] keeps trusted internal events off the public diagnostic stream",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:256] keeps trusted internal events off the public diagnostic stream",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:256",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] isolates diagnostic metadata from listener mutation",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:279] isolates diagnostic metadata from listener mutation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:279",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] isolates trusted event trace context from listener mutation",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:300] isolates trusted event trace context from listener mutation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:300",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] isolates nested diagnostic payloads from listener mutation",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:330] isolates nested diagnostic payloads from listener mutation",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:330",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] drops prototype-pollution keys during event enrichment",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:355] drops prototype-pollution keys during event enrichment",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:355",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] dispatches high-frequency tool and model lifecycle events asynchronously",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:380] dispatches high-frequency tool and model lifecycle events asynchronously",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:380",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] keeps log records off the public diagnostic event stream",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:403] keeps log records off the public diagnostic event stream",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:403",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] skips event enrichment and subscribers when diagnostics are disabled",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:424] skips event enrichment and subscribers when diagnostics are disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:424",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] drops recursive emissions after the guard threshold",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:441] drops recursive emissions after the guard threshold",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:441",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts] enables diagnostics unless explicitly disabled",
+TEST_CASE("v4.29 [src/infra/diagnostic-events.test.ts:467] enables diagnostics unless explicitly disabled",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/diagnostic-events.test.ts:467",
                "upstream it() block #18",

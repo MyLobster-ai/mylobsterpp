@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/room-info.test.ts] resolves direct rooms from the room info endpoint",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/room-info.test.ts:30] resolves direct rooms from the room info endpoint",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/room-info.test.ts:30",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/room-info.test.ts] reads the api password from a file and logs non-ok room info responses",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/room-info.test.ts:68] reads the api password from a file and logs non-ok room info responses",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/room-info.test.ts:68",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/room-info.test.ts] returns undefined from room info without credentials or base url",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/room-info.test.ts:102] returns undefined from room info without credentials or base url",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/room-info.test.ts:102",
                "upstream it() block #2",

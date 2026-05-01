@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts] uses Playwright page sessions",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts:13] uses Playwright page sessions",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.page-cdp.test.ts:13",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts] marks backend DOM refs on the page",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts:40] marks backend DOM refs on the page",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.page-cdp.test.ts:40",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts] clears stale markers even when no backend refs are valid",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts:89] clears stale markers even when no backend refs are valid",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.page-cdp.test.ts:89",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts] keeps unmarked refs out of the marked set when marker writes fail",
+TEST_CASE("v4.29 [extensions/browser/src/browser/pw-session.page-cdp.test.ts:110] keeps unmarked refs out of the marked set when marker writes fail",
           "[v4_29][parity_gap][browser]") {
     PARITY_GAP("extensions/browser/src/browser/pw-session.page-cdp.test.ts:110",
                "upstream it() block #3",

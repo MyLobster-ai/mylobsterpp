@@ -5,26 +5,26 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/plugins/document-extractors.runtime.test.ts] reuses one manifest registry pass for compat and enabled bundled extractors",
+TEST_CASE("v4.29 [src/plugins/document-extractors.runtime.test.ts:82] reuses one manifest registry pass for compat and enabled bundled extractors",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/document-extractors.runtime.test.ts:82",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/document-extractors.runtime.test.ts] respects global plugin disablement",
+TEST_CASE("v4.29 [src/plugins/document-extractors.runtime.test.ts:89] respects global plugin disablement",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/document-extractors.runtime.test.ts:89",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/plugins/document-extractors.runtime.test.ts] does not expand an operator plugin allowlist",
+TEST_CASE("v4.29 [src/plugins/document-extractors.runtime.test.ts:101] does not expand an operator plugin allowlist",
           "[v4_29][parity_gap][plugins]") {
     PARITY_GAP("src/plugins/document-extractors.runtime.test.ts:101",
                "upstream it() block #2",

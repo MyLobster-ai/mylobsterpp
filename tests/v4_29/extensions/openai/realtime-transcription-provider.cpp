@@ -5,33 +5,33 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts] normalizes OpenAI config defaults",
+TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts:5] normalizes OpenAI config defaults",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-transcription-provider.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts] keeps provider-owned transcription settings configurable via raw provider config",
+TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts:23] keeps provider-owned transcription settings configurable via raw provider config",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-transcription-provider.test.ts:23",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts] preserves explicit zero-valued VAD settings",
+TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts:49] preserves explicit zero-valued VAD settings",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-transcription-provider.test.ts:49",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts] accepts the legacy openai-realtime alias",
+TEST_CASE("v4.29 [extensions/openai/realtime-transcription-provider.test.ts:69] accepts the legacy openai-realtime alias",
           "[v4_29][parity_gap][openai]") {
     PARITY_GAP("extensions/openai/realtime-transcription-provider.test.ts:69",
                "upstream it() block #3",

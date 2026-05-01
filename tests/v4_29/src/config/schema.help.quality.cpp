@@ -5,152 +5,152 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] keeps root section labels and help complete",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:591] keeps root section labels and help complete",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:591",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] keeps labels in parity for all help keys",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:598] keeps labels in parity for all help keys",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:598",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] covers the target confusing fields with non-trivial explanations",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:604] covers the target confusing fields with non-trivial explanations",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:604",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] covers tools/hooks help keys with non-trivial operational guidance",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:611] covers tools/hooks help keys with non-trivial operational guidance",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:611",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] covers channels/agents help keys with non-trivial operational guidance",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:618] covers channels/agents help keys with non-trivial operational guidance",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:618",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] covers final backlog help keys with non-trivial operational guidance",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:625] covers final backlog help keys with non-trivial operational guidance",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:625",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents option behavior for enum-style fields",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:632] documents option behavior for enum-style fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:632",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] explains memory citations mode semantics",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:642] explains memory citations mode semantics",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:642",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] includes concrete examples on path and interval fields",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:651] includes concrete examples on path and interval fields",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:651",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents cron deprecation, migration, and retention formats",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:660] documents cron deprecation, migration, and retention formats",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:660",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents session send-policy examples and prefix semantics",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:677] documents session send-policy examples and prefix semantics",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:677",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents session maintenance duration/size examples and deprecations",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:690] documents session maintenance duration/size examples and deprecations",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:690",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents cron run-log retention controls",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:714] documents cron run-log retention controls",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:714",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents approvals filters and target semantics",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:725] documents approvals filters and target semantics",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:725",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents broadcast and audio command examples",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:740] documents broadcast and audio command examples",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:740",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents hook transform safety and queue behavior options",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:750] documents hook transform safety and queue behavior options",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:750",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents gateway bind modes and web reconnect semantics",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:760] documents gateway bind modes and web reconnect semantics",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:760",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents metadata/admin semantics for logging, wizard, and plugins",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:770] documents metadata/admin semantics for logging, wizard, and plugins",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:770",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents auth/model root semantics and provider secret handling",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:798] documents auth/model root semantics and provider secret handling",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:798",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents agent compaction safeguards and memory flush behavior",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:809] documents agent compaction safeguards and memory flush behavior",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:809",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts] documents agent startup-context preload controls",
+TEST_CASE("v4.29 [src/config/schema.help.quality.test.ts:845] documents agent startup-context preload controls",
           "[v4_29][parity_gap][config]") {
     PARITY_GAP("src/config/schema.help.quality.test.ts:845",
                "upstream it() block #20",

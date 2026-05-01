@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] uses the configured task store for restore and save",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:54] uses the configured task store for restore and save",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:54",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] emits incremental observer events for restore, mutation, and delete",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:93] emits incremental observer events for restore, mutation, and delete",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] uses atomic task-plus-delivery store methods when available",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:138] uses atomic task-plus-delivery store methods when available",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:138",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] restores persisted tasks from the default sqlite store",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:187] restores persisted tasks from the default sqlite store",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:187",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] persists parentFlowId with task rows",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:209] persists parentFlowId with task rows",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:209",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] preserves requesterSessionKey when it differs from ownerKey across sqlite restore",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:235] preserves requesterSessionKey when it differs from ownerKey across sqlite restore",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:235",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] preserves taskKind across sqlite restore",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:259] preserves taskKind across sqlite restore",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:259",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] hardens the sqlite task store directory and file modes",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:282] hardens the sqlite task store directory and file modes",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:282",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] migrates legacy ownerless cron rows to system scope",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:309] migrates legacy ownerless cron rows to system scope",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:309",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts] keeps legacy requester_session_key rows writable after restore",
+TEST_CASE("v4.29 [src/tasks/task-registry.store.test.ts:394] keeps legacy requester_session_key rows writable after restore",
           "[v4_29][parity_gap][tasks]") {
     PARITY_GAP("src/tasks/task-registry.store.test.ts:394",
                "upstream it() block #9",

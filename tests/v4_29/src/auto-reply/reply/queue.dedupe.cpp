@@ -5,61 +5,61 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] deduplicates messages with same Discord message_id",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:48] deduplicates messages with same Discord message_id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:48",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] deduplicates message ids when numeric and string thread ids share a route",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:93] deduplicates message ids when numeric and string thread ids share a route",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:93",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] deduplicates same message_id after queue drain restarts",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:123] deduplicates same message_id after queue drain restarts",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:123",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] deduplicates same message_id across distinct enqueue module instances",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:157] deduplicates same message_id across distinct enqueue module instances",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:157",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] does not collide recent message-id keys when routing contains delimiters",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:211] does not collide recent message-id keys when routing contains delimiters",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:211",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] deduplicates exact prompt when routing matches and no message id",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:243] deduplicates exact prompt when routing matches and no message id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:243",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] does not deduplicate across different providers without message id",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:280] does not deduplicate across different providers without message id",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:280",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts] can opt-in to prompt-based dedupe when message id is absent",
+TEST_CASE("v4.29 [src/auto-reply/reply/queue.dedupe.test.ts:306] can opt-in to prompt-based dedupe when message id is absent",
           "[v4_29][parity_gap][auto-reply]") {
     PARITY_GAP("src/auto-reply/reply/queue.dedupe.test.ts:306",
                "upstream it() block #7",

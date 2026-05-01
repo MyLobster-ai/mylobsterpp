@@ -5,180 +5,180 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] normalizes, filters, and deduplicates token sets",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:14] normalizes, filters, and deduplicates token sets",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:14",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] computes expected scores for overlap edge cases",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:73] computes expected scores for overlap edge cases",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:73",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] is symmetric",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:110] is symmetric",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:110",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] computes expected text-level similarity cases",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:118] computes expected text-level similarity cases",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:118",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] balances relevance and diversity across lambda settings",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:156] balances relevance and diversity across lambda settings",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:156",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] returns empty array for empty input",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:186] returns empty array for empty input",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:186",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] returns single item unchanged",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:194] returns single item unchanged",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:194",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] returns copy, not original array",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:199] returns copy, not original array",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:199",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] returns items unchanged when disabled",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:205] returns items unchanged when disabled",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:205",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] lambda=1 returns pure relevance order",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:222] lambda=1 returns pure relevance order",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:222",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] lambda=0 maximizes diversity",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:227] lambda=0 maximizes diversity",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:227",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] clamps lambda > 1 to 1",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:235] clamps lambda > 1 to 1",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:235",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] clamps lambda < 0 to 0",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:240] clamps lambda < 0 to 0",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:240",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] promotes diverse results over similar high-scoring ones",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:248] promotes diverse results over similar high-scoring ones",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:248",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] handles items with identical content",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:264] handles items with identical content",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:264",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] handles all identical content gracefully",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:277] handles all identical content gracefully",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:277",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] uses original score as tiebreaker",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:291] uses original score as tiebreaker",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:291",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] preserves all items even with same MMR scores",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:303] preserves all items even with same MMR scores",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:303",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] handles items with same scores",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:317] handles items with same scores",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:317",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] handles negative scores",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:327] handles negative scores",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:327",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] preserves all original fields",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:351] preserves all original fields",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:351",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] creates unique IDs from path and startLine",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:367] creates unique IDs from path and startLine",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:367",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] re-ranks results for diversity",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:392] re-ranks results for diversity",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:392",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] respects disabled config",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:428] respects disabled config",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:428",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts] has expected default values",
+TEST_CASE("v4.29 [extensions/memory-core/src/memory/mmr.test.ts:440] has expected default values",
           "[v4_29][parity_gap][memory-core]") {
     PARITY_GAP("extensions/memory-core/src/memory/mmr.test.ts:440",
                "upstream it() block #24",

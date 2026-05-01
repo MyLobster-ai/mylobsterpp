@@ -5,201 +5,201 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] does not warn when read tool uses file_path alias",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:75] does not warn when read tool uses file_path alias",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:75",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] warns when read tool has neither path nor file_path",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:91] warns when read tool has neither path nor file_path",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] awaits onBlockReplyFlush before continuing tool start processing",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:107] awaits onBlockReplyFlush before continuing tool start processing",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:107",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] increments successfulCronAdds when cron add succeeds",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:143] increments successfulCronAdds when cron add succeeds",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:143",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] does not increment successfulCronAdds when cron add fails",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:169] does not increment successfulCronAdds when cron add fails",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:169",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] clears edit failure when the retry succeeds through common file path aliases",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:199] clears edit failure when the retry succeeds through common file path aliases",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:199",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] marks successful mutating tool results as replay-invalid for terminal lifecycle truth",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:257] marks successful mutating tool results as replay-invalid for terminal lifecycle truth",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:257",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] marks successful subagents control actions as replay-invalid",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:291] marks successful subagents control actions as replay-invalid",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:291",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] keeps read-only subagents list actions replay-safe",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:324] keeps read-only subagents list actions replay-safe",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:324",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] keeps successful mutating retries replay-invalid after an earlier tool failure",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:356] keeps successful mutating retries replay-invalid after an earlier tool failure",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:356",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] records timeout metadata for failed exec results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:418] records timeout metadata for failed exec results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:418",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] emits a deterministic approval payload and marks assistant output suppressed",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:454] emits a deterministic approval payload and marks assistant output suppressed",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:454",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] preserves filtered approval decisions from tool details",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:500] preserves filtered approval decisions from tool details",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:500",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] emits a deterministic unavailable payload when the initiating surface cannot approve",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:544] emits a deterministic unavailable payload when the initiating surface cannot approve",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:544",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] emits the shared approver-DM notice when another approval client received the request",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:596] emits the shared approver-DM notice when another approval client received the request",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:596",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] does not suppress assistant output when deterministic prompt delivery rejects",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:627] does not suppress assistant output when deterministic prompt delivery rejects",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:627",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] emits approval + blocked command item events when exec needs approval",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:657] emits approval + blocked command item events when exec needs approval",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:657",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] emits command output events for exec results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:716] emits command output events for exec results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:716",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] emits patch summary events for apply_patch results",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:762] emits patch summary events for apply_patch results",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:762",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] tracks media arg from messaging tool as pending",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:810] tracks media arg from messaging tool as pending",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:810",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] commits pending media URL on tool success",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:825] commits pending media URL on tool success",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:825",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] commits mediaUrls from tool result payload",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:853] commits mediaUrls from tool result payload",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:853",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] trims messagingToolSentMediaUrls to 200 on commit (FIFO)",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:888] trims messagingToolSentMediaUrls to 200 on commit (FIFO)",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:888",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] discards pending media URL on tool error",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:940] discards pending media URL on tool error",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:940",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] redacts secrets in args before emitting the tool start event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:972] redacts secrets in args before emitting the tool start event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:972",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] redacts secrets in exec aggregated stdout before emitting command_output",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:1004] redacts secrets in exec aggregated stdout before emitting command_output",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:1004",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] redacts details-only results before emitting the tool result event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:1048] redacts details-only results before emitting the tool result event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:1048",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts] redacts primitive string results before emitting the tool result event",
+TEST_CASE("v4.29 [src/agents/pi-embedded-subscribe.handlers.tools.test.ts:1079] redacts primitive string results before emitting the tool result event",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/pi-embedded-subscribe.handlers.tools.test.ts:1079",
                "upstream it() block #27",

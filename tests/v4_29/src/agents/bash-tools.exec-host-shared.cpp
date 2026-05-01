@@ -5,82 +5,82 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] logs repeated followup dispatch failures once per approval id and error message",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:74] logs repeated followup dispatch failures once per approval id and error message",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:74",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] evicts oldest followup failure dedupe keys after reaching the cap",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:91] evicts oldest followup failure dedupe keys after reaching the cap",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:91",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] does not let exec-approvals.json broaden security beyond the requested policy",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:122] does not let exec-approvals.json broaden security beyond the requested policy",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:122",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] does not let host ask=off suppress a stricter requested ask mode",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:150] does not let host ask=off suppress a stricter requested ask mode",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:150",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] clamps askFallback to the effective host security",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:178] clamps askFallback to the effective host security",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:178",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] denies timeout-based fallback when strict inline-eval approval is required",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:208] denies timeout-based fallback when strict inline-eval approval is required",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:208",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] keeps explicit approvals intact for strict inline-eval commands",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:222] keeps explicit approvals intact for strict inline-eval commands",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:222",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] does not infer approver DM delivery from unavailable approval state",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:264] does not infer approver DM delivery from unavailable approval state",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:264",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] keeps a local /approve prompt when the initiating Discord surface is disabled",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:277] keeps a local /approve prompt when the initiating Discord surface is disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:277",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] returns an unavailable reply when Discord exec approvals are disabled",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:291] returns an unavailable reply when Discord exec approvals are disabled",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:291",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts] keeps the Telegram unavailable reply when Discord DM approvals are not fully configured",
+TEST_CASE("v4.29 [src/agents/bash-tools.exec-host-shared.test.ts:312] keeps the Telegram unavailable reply when Discord DM approvals are not fully configured",
           "[v4_29][parity_gap][agents]") {
     PARITY_GAP("src/agents/bash-tools.exec-host-shared.test.ts:312",
                "upstream it() block #10",

@@ -5,54 +5,54 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] uses POST for getWebhookInfo",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:35] uses POST for getWebhookInfo",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:35",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] keeps POST for deleteWebhook",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:39] keeps POST for deleteWebhook",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:39",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] aborts sendChatAction when the typing timeout elapses",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:43] aborts sendChatAction when the typing timeout elapses",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:43",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] validates outbound photo URLs against the SSRF guard before posting",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:76] validates outbound photo URLs against the SSRF guard before posting",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:76",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] blocks private-network photo URLs before they reach the Zalo API",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:94] blocks private-network photo URLs before they reach the Zalo API",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:94",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] rejects non-http photo URLs",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:114] rejects non-http photo URLs",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:114",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts] rejects non-URL strings",
+TEST_CASE("v4.29 [extensions/zalo/src/api.test.ts:132] rejects non-URL strings",
           "[v4_29][parity_gap][zalo]") {
     PARITY_GAP("extensions/zalo/src/api.test.ts:132",
                "upstream it() block #6",

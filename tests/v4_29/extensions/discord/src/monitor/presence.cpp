@@ -5,47 +5,47 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts] returns online presence when no config is provided",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts:5] returns online presence when no config is provided",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/presence.test.ts:5",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts] uses configured status",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts:12] uses configured status",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/presence.test.ts:12",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts] includes activity when configured",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts:17] includes activity when configured",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/presence.test.ts:17",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts] uses custom activity type by default",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts:24] uses custom activity type by default",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/presence.test.ts:24",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts] respects explicit activityType",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts:30] respects explicit activityType",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/presence.test.ts:30",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts] sets streaming URL for type 1",
+TEST_CASE("v4.29 [extensions/discord/src/monitor/presence.test.ts:36] sets streaming URL for type 1",
           "[v4_29][parity_gap][discord]") {
     PARITY_GAP("extensions/discord/src/monitor/presence.test.ts:36",
                "upstream it() block #5",

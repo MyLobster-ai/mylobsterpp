@@ -5,40 +5,40 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/infra/retry.test.ts] stops when shouldRetry returns false",
+TEST_CASE("v4.29 [src/infra/retry.test.ts:124] stops when shouldRetry returns false",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/retry.test.ts:124",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/retry.test.ts] calls onRetry with retry metadata before retrying",
+TEST_CASE("v4.29 [src/infra/retry.test.ts:133] calls onRetry with retry metadata before retrying",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/retry.test.ts:133",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/retry.test.ts] retries immediately when the resolved delay is zero",
+TEST_CASE("v4.29 [src/infra/retry.test.ts:165] retries immediately when the resolved delay is zero",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/retry.test.ts:165",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/retry.test.ts] clamps attempts to at least 1",
+TEST_CASE("v4.29 [src/infra/retry.test.ts:178] clamps attempts to at least 1",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/retry.test.ts:178",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/infra/retry.test.ts] uses secure jitter when configured",
+TEST_CASE("v4.29 [src/infra/retry.test.ts:207] uses secure jitter when configured",
           "[v4_29][parity_gap][infra]") {
     PARITY_GAP("src/infra/retry.test.ts:207",
                "upstream it() block #4",

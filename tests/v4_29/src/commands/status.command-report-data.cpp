@@ -5,19 +5,19 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/commands/status.command-report-data.test.ts] builds report inputs from shared status surfaces",
+TEST_CASE("v4.29 [src/commands/status.command-report-data.test.ts:6] builds report inputs from shared status surfaces",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-report-data.test.ts:6",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/commands/status.command-report-data.test.ts] shows skipped audit text when fast status omits the security audit",
+TEST_CASE("v4.29 [src/commands/status.command-report-data.test.ts:52] shows skipped audit text when fast status omits the security audit",
           "[v4_29][parity_gap][commands]") {
     PARITY_GAP("src/commands/status.command-report-data.test.ts:52",
                "upstream it() block #1",

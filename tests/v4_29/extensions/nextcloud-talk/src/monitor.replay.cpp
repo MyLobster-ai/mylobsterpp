@@ -5,75 +5,75 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../../parity.hpp"
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] reads valid body within max bytes",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:15] reads valid body within max bytes",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:15",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] rejects when payload exceeds max bytes",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:21] rejects when payload exceeds max bytes",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:21",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] rejects missing signature headers before reading request body",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:28] rejects missing signature headers before reading request body",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:28",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] rejects requests from unexpected backend origins",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:54] rejects requests from unexpected backend origins",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:54",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] acknowledges replayed requests and skips onMessage side effects",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:110] acknowledges replayed requests and skips onMessage side effects",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:110",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] allows a retry after replay-guarded processing fails before commit",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:145] allows a retry after replay-guarded processing fails before commit",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:145",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] keeps replay committed after a non-retryable replay-guarded processing failure",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:164] keeps replay committed after a non-retryable replay-guarded processing failure",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:164",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] rejects malformed webhook payloads after signature verification",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:184] rejects malformed webhook payloads after signature verification",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:184",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] rate limits repeated invalid signature attempts from the same source",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:224] rate limits repeated invalid signature attempts from the same source",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:224",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts] does not rate limit valid signed webhook bursts from the same source",
+TEST_CASE("v4.29 [extensions/nextcloud-talk/src/monitor.replay.test.ts:258] does not rate limit valid signed webhook bursts from the same source",
           "[v4_29][parity_gap][nextcloud-talk]") {
     PARITY_GAP("extensions/nextcloud-talk/src/monitor.replay.test.ts:258",
                "upstream it() block #9",

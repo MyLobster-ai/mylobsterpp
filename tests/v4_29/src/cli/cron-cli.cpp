@@ -5,390 +5,390 @@
 // the body PARITY_GAP()s with a precise upstream file:line reference.
 //
 // To convert a gap into a real test, replace the PARITY_GAP body with
-// behavioral assertions and add the // MYLOBSTERPP_HAND_AUTHORED sentinel
+// behavioral assertions and add the // MYLOBSTERPP_HANDWRITTEN_TEST sentinel
 // near the top of the file. The generator will then leave it alone.
 
 #include "../../parity.hpp"
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] documents the gateway-host timezone default for cron --tz help",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:250] documents the gateway-host timezone default for cron --tz help",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:250",
                "upstream it() block #0",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] trims model and thinking on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:281] trims model and thinking on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:281",
                "upstream it() block #1",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] defaults isolated cron add to announce delivery",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:308] defaults isolated cron add to announce delivery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:308",
                "upstream it() block #2",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] infers sessionTarget from payload when --session is omitted",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:328] infers sessionTarget from payload when --session is omitted",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:328",
                "upstream it() block #3",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] supports --keep-after-run on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:362] supports --keep-after-run on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:362",
                "upstream it() block #4",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] includes --account on isolated cron add delivery",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:382] includes --account on isolated cron add delivery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:382",
                "upstream it() block #5",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] includes --thread-id on Telegram cron add delivery",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:399] includes --thread-id on Telegram cron add delivery",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:399",
                "upstream it() block #6",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects --account on non-isolated/systemEvent cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:425] rejects --account on non-isolated/systemEvent cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:425",
                "upstream it() block #7",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects invalid --thread-id on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:442] rejects invalid --thread-id on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:442",
                "upstream it() block #8",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects negative --thread-id on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:459] rejects negative --thread-id on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:459",
                "upstream it() block #9",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] paginates cron show lookups",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:484] paginates cron show lookups",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:484",
                "upstream it() block #10",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sends agent id on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:532] sends agent id on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:532",
                "upstream it() block #11",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] warns when --agent is not specified on cron add with --message",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:556] warns when --agent is not specified on cron add with --message",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:556",
                "upstream it() block #12",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] keeps the missing --agent warning off cron add JSON stdout",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:576] keeps the missing --agent warning off cron add JSON stdout",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:576",
                "upstream it() block #13",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] warns when --agent is blank on cron add with --message",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:603] warns when --agent is blank on cron add with --message",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:603",
                "upstream it() block #14",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] does not warn when --system-event is used (no agent needed)",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:621] does not warn when --system-event is used (no agent needed)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:621",
                "upstream it() block #15",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] warns even when --session-key is provided (user should still specify agent explicitly)",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:638] warns even when --session-key is provided (user should still specify agent explicitly)",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:638",
                "upstream it() block #16",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sets lightContext on cron add when --light-context is passed",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:657] sets lightContext on cron add when --light-context is passed",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:657",
                "upstream it() block #17",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] splits PowerShell-style space-separated --tools on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:673] splits PowerShell-style space-separated --tools on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:673",
                "upstream it() block #18",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] splits PowerShell-style space-separated --tools on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:709] splits PowerShell-style space-separated --tools on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:709",
                "upstream it() block #19",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sets and clears agent id on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:720] sets and clears agent id on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:720",
                "upstream it() block #20",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] allows model/thinking updates without --message",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:731] allows model/thinking updates without --message",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:731",
                "upstream it() block #21",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sets and clears lightContext on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:743] sets and clears lightContext on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:743",
                "upstream it() block #22",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] updates delivery settings without requiring --message",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:751] updates delivery settings without requiring --message",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:751",
                "upstream it() block #23",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] updates Telegram thread id without requiring --message on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:777] updates Telegram thread id without requiring --message on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:777",
                "upstream it() block #24",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] preserves existing delivery mode on thread-only cron edit patches",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:795] preserves existing delivery mode on thread-only cron edit patches",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:795",
                "upstream it() block #25",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] normalizes case-insensitive custom session targets on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:803] normalizes case-insensitive custom session targets on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:803",
                "upstream it() block #26",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects invalid --thread-id on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:810] rejects invalid --thread-id on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:810",
                "upstream it() block #27",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects negative --thread-id on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:814] rejects negative --thread-id on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:814",
                "upstream it() block #28",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] supports --no-deliver on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:818] supports --no-deliver on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:818",
                "upstream it() block #29",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] updates delivery account without requiring --message on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:829] updates delivery account without requiring --message on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:829",
                "upstream it() block #30",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] does not include undefined delivery fields when updating message",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:836] does not include undefined delivery fields when updating message",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:836",
                "upstream it() block #31",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] includes delivery fields when explicitly provided with message",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:864] includes delivery fields when explicitly provided with message",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:864",
                "upstream it() block #32",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sets explicit stagger for cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:892] sets explicit stagger for cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:892",
                "upstream it() block #33",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sets exact cron mode on add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:909] sets exact cron mode on add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:909",
                "upstream it() block #34",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects --stagger with --exact on add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:925] rejects --stagger with --exact on add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:925",
                "upstream it() block #35",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects --stagger when schedule is not cron",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:943] rejects --stagger when schedule is not cron",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:943",
                "upstream it() block #36",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects --tz with --every on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:960] rejects --tz with --every on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:960",
                "upstream it() block #37",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] applies --tz to --at for offset-less datetimes on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:977] applies --tz to --at for offset-less datetimes on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:977",
                "upstream it() block #38",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] does not apply --tz when --at already has an offset",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:999] does not apply --tz when --at already has an offset",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:999",
                "upstream it() block #39",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] applies --tz to --at correctly across DST boundaries on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1021] applies --tz to --at correctly across DST boundaries on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1021",
                "upstream it() block #40",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects nonexistent DST gap wall-clock times on cron add",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1042] rejects nonexistent DST gap wall-clock times on cron add",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1042",
                "upstream it() block #41",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] sets explicit stagger for cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1059] sets explicit stagger for cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1059",
                "upstream it() block #42",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] applies --exact to existing cron job without requiring --cron on edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1069] applies --exact to existing cron job without requiring --cron on edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1069",
                "upstream it() block #43",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] paginates cron edit existing-job schedule lookups",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1082] paginates cron edit existing-job schedule lookups",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1082",
                "upstream it() block #44",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects non-advancing cron edit lookup pagination",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1137] rejects non-advancing cron edit lookup pagination",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1137",
                "upstream it() block #45",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects excessive cron edit lookup pagination",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1165] rejects excessive cron edit lookup pagination",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1165",
                "upstream it() block #46",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects --exact on edit when existing job is not cron",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1196] rejects --exact on edit when existing job is not cron",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1196",
                "upstream it() block #47",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] applies --tz to --at for offset-less datetimes on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1200] applies --tz to --at for offset-less datetimes on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1200",
                "upstream it() block #48",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects --tz with --every on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1214] rejects --tz with --every on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1214",
                "upstream it() block #49",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] patches failure alert settings on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1218] patches failure alert settings on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1218",
                "upstream it() block #50",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] supports --no-failure-alert on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1253] supports --no-failure-alert on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1253",
                "upstream it() block #51",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] patches failure alert mode/accountId on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1267] patches failure alert mode/accountId on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1267",
                "upstream it() block #52",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] patches skipped-run inclusion for failure alerts on cron edit",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1303] patches skipped-run inclusion for failure alerts on cron edit",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1303",
                "upstream it() block #53",
                "Auto-generated parity gap; replace with real assertion when mylobsterpp grows the upstream abstraction.");
 }
 
-TEST_CASE("v4.29 [src/cli/cron-cli.test.ts] rejects conflicting skipped-run failure alert flags",
+TEST_CASE("v4.29 [src/cli/cron-cli.test.ts:1324] rejects conflicting skipped-run failure alert flags",
           "[v4_29][parity_gap][cli]") {
     PARITY_GAP("src/cli/cron-cli.test.ts:1324",
                "upstream it() block #54",
